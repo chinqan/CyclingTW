@@ -40,6 +40,7 @@ CyclingTW/
 |:---|:---|
 | `index.md` | 10 天環島總覽，包含每日出發地/目的地/距離/路線/景點 |
 | `prompt.md` | 海報提示詞的主體骨架（所有天共用，每天只需置換 4 個變數） |
+| `主角.png` | 總海報與每日海報的主角人物、公路車外觀參考 |
 | `day1/day1.md` | 第一天的完整範本（結構模板） |
 | `day1/day1_mymap.csv` | 第一天的 Google My Maps CSV 範本 |
 | `day1/day1_prompt.md` | 第一天的海報提示詞範本 |
@@ -85,7 +86,7 @@ CyclingTW/
 - **注意**：圖片路徑使用相對路徑 `./dayN_poster.png` 即可，避免多層目錄導致破圖。
 
 
-### 4. 🐟 魚骨圖 (Ishikawa Diagram)
+### 4. 🐟 詳細路線行程圖解
 - 使用 `ishikawa-beta` 語法（參考 `mermaid-ishikawa-fishbone.md` skill）
 - 魚頭：`Day N 完騎 目的地 距離`
 - 上方主骨：各段路況資訊
@@ -187,6 +188,62 @@ CyclingTW/
 
 ---
 
+## 🖼️ 封面海報規格
+
+當使用者要求「整份計劃海報」、「10 天環島總海報」、「封面海報」或「整份行程總覽海報」時，不產生單日 `dayN_prompt.md`，改依照本節規格產出總海報用的圖像生成提示詞。此 skill 只定義輸入、輸出與產生方法，不固定寫入任何一份完成版海報提示詞。
+
+### 輸入
+
+| 輸入 | 用途 |
+|:---|:---|
+| `index.md` | 取得整份計劃標題、10 天起終點、距離、主要道路、四極點與代表景點 |
+| `prompt.md` | 取得共用視覺風格、主角比例、微縮場景、台灣立體地圖模型、光影質感與限制條件 |
+| `主角.png` | 作為主角人物與公路車外觀參考 |
+| `dayN/dayN_mymap.csv`（選用） | 若需要更精確地標順序與名稱，補充各日沿途地標資料 |
+
+### 輸出
+
+| 輸出 | 預設位置 | 說明 |
+|:---|:---|:---|
+| 封面海報提示詞 | 直接回覆使用者；若使用者要求存檔，存為 `output/imagegen/cyclingtw-cover_prompt.md` | 給圖像生成工具使用的完整文字提示詞 |
+
+### 產生方法
+
+1. 讀取 `index.md`，整理為「總標題、總里程、10 天路線、四極點、代表景點」五類資訊。
+2. 讀取 `prompt.md`，抽取共用視覺規範；保留風格方向，不逐字硬套不適合總覽海報的單日地點敘述。
+3. 確認 `主角.png` 存在，並在提示詞開頭明確標示它是「人物與公路車外觀參考」。
+4. 若使用者未指定比例，總海報預設為直式封面：`vertical portrait poster, aspect ratio 2:3`。
+5. 將構圖從單日路線改為完整台灣環島總覽：
+   - 台灣本島完整可辨識
+   - 環島路線形成一圈，從台北蘆洲出發並回到台北蘆洲
+   - 四極點分別放在正確方位
+   - 每日路線只用簡潔標籤或小型節點呈現，避免文字過多
+6. 地理正確性必須由 `index.md` 驗證：
+   - 西部路線由北往南排列 Day 1 到 Day 5
+   - 南端與壽卡挑戰呈現 Day 6
+   - 東部與花東縱谷由南往北排列 Day 7 到 Day 8
+   - 東北角與北海岸回程排列 Day 9 到 Day 10
+7. 文字規範：
+   - 主標題使用計劃名稱
+   - 可加入副標題如「台灣四極點挑戰」
+   - 四極點與重要地標使用中文字
+   - 避免塞入完整每日行程文字，降低圖像生成時的錯字風險
+8. 四極點視覺特徵指引（強制防呆描述，避免 AI 將所有燈塔畫成一模一樣）：
+   - 極北 富貴角燈塔 (Fuguijiao Lighthouse)：「八角形塔身、黑白相間水平橫條紋」(Octagonal tower with black and white horizontal stripes)
+   - 極西 國聖燈塔 (Guosheng Port Lighthouse)：「黑白相間金屬鐵架塔造型、類似高壓電塔、無封閉外牆、底座位於沙丘或沙洲 (Black and white iron lattice tower on sand dunes)」
+   - 極南 鵝鑾鼻燈塔 (Eluanbi Lighthouse)：「純白色圓柱狀塔身、底部有白色堡壘圍牆、熱帶綠色草坪圍繞 (Pure white cylindrical tower with fortress walls)」
+   - 極東 三貂角燈塔 (Sandiaojiao Lighthouse)：「純白色圓柱狀塔身、頂部有圓球狀雷達罩、旁邊有明顯的白色圓頂雷達站 (Pure white cylindrical tower with a spherical radome)」
+9. 產出的提示詞必須包含以下段落：
+   - 輸入圖片說明
+   - 輸出比例
+   - 主題標題
+   - 視覺風格
+   - 主角與公路車
+   - 台灣地圖與環島路線構圖
+   - 四極點與 10 天路線摘要
+   - 地理正確性要求
+   - 文字規範
+   - 負面限制與品質檢查
 
 ## 📊 dayN_mymap.csv 檔案格式
 
@@ -269,7 +326,7 @@ CyclingTW/
 4. [ ] **查詢沿途景點熱門度**：用 `search_places` 取得評分，用 `place_details` 取得評論內容，優先挑選高評分+高評論數的景點
 5. [ ] 將路線分成 3~5 段，每段約 20~40 km
 6. [ ] 撰寫 `dayN.md`，依照上方結構填入內容
-7. [ ] 製作魚骨圖（參照 `mermaid-ishikawa-fishbone.md` skill）
+7. [ ] 製作詳細路線行程圖解（參照 `mermaid-ishikawa-fishbone.md` skill 繪製）
 8. [ ] 產生 `dayN_mymap.csv`，確保關鍵字精確，景點類型填入評分與熱門度
 9. [ ] 用 Google Maps 工具驗證各停靠點的位置是否在路線上
 10. [ ] 確認補給空窗區段（超過 20km 無補給）並特別標註

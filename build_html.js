@@ -42,6 +42,10 @@ for (let i = 1; i <= 10; i++) {
             dayContent = dayContent.replace(regex, `<span class="blue-text">${word}</span>`);
         });
         
+        // Rename '魚骨圖' to '詳細路線行程圖解'
+        dayContent = dayContent.replace(/魚骨圖 \(Ishikawa Diagram\)/g, '詳細路線行程圖解');
+        dayContent = dayContent.replace(/Day (\d+) 路線魚骨圖/g, 'Day $1 詳細路線行程圖解');
+        
         let dayHtmlParsed = marked.parse(dayContent);
         
         // Fix image paths (relative to the day directory, now from root)
