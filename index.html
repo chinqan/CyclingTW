@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10天單車環島計畫 (四極點)</title>
+    <style>
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, "PingFang TC", "Heiti TC", "Microsoft JhengHei", sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1, h2, h3, h4 {
+            color: #2c3e50;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        /* Day 1 等字樣不要被斷行 */
+        .nowrap {
+            white-space: nowrap;
+        }
+        /* 四極點藍色字體標示 */
+        .blue-text {
+            color: #0066cc;
+            font-weight: bold;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .day-section {
+            background-color: #fff;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .back-to-top {
+            display: inline-block;
+            margin-top: 20px;
+            font-weight: bold;
+            color: #e67e22;
+        }
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: #eee;
+            margin: 40px 0;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        code {
+            font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        blockquote {
+            border-left: 4px solid #3498db;
+            padding-left: 15px;
+            color: #666;
+            margin-left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="overview">
+        <h1>10天單車環島計畫 (<span class="blue-text">四極點</span>)</h1>
+<table>
+<thead>
+<tr>
+<th align="left">天數</th>
+<th align="left">出發地</th>
+<th align="left">目的地</th>
+<th align="left">估計距離</th>
+<th align="left">推薦騎乘路線 (省道/縣道)</th>
+<th align="left"><span class="blue-text">四極點</span> / 景點</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><a href="#day1" class="nowrap">Day 1</a></td>
+<td align="left">台北蘆洲柳堤公園</td>
+<td align="left">新竹 / 竹南</td>
+<td align="left">約 80–100 km</td>
+<td align="left">台15線 → 台61線 (西濱公路)</td>
+<td align="left">八里左岸、林口水牛坑、竹圍漁港、永安漁港、南寮漁港</td>
+</tr>
+<tr>
+<td align="left"><a href="#day2" class="nowrap">Day 2</a></td>
+<td align="left">新竹 / 竹南</td>
+<td align="left">鹿港 / 彰化</td>
+<td align="left">約 100–115 km</td>
+<td align="left">台61線 (西濱) → 台1線 → 台17線</td>
+<td align="left">好望角、通霄精鹽廠、大甲鎮瀾宮、鹿港老街</td>
+</tr>
+<tr>
+<td align="left"><a href="#day3" class="nowrap">Day 3</a></td>
+<td align="left">鹿港 / 彰化</td>
+<td align="left">七股 / 善化</td>
+<td align="left">約 105–120 km</td>
+<td align="left">台19線 → 台17線 (西部濱海)</td>
+<td align="left"><strong><span class="blue-text">極西：國聖燈塔</span></strong>、西螺大橋、北門驛、七股鹽山</td>
+</tr>
+<tr>
+<td align="left"><a href="#day4" class="nowrap">Day 4</a></td>
+<td align="left">七股 / 善化</td>
+<td align="left">枋寮 / 枋山</td>
+<td align="left">約 110–125 km</td>
+<td align="left">台17線 (經台南、高雄市區)</td>
+<td align="left">台南孔廟、橋頭糖廠藝術村、愛河、小港、東港東隆宮、大鵬灣</td>
+</tr>
+<tr>
+<td align="left"><a href="#day5" class="nowrap">Day 5</a></td>
+<td align="left">枋寮 / 枋山</td>
+<td align="left">恆春 / 墾丁 / 鵝鑾鼻</td>
+<td align="left">約 75–100 km</td>
+<td align="left">台1線 → 台26線 (屏鵝公路)</td>
+<td align="left">車城福安宮、恆春古城、墾丁；可視體力先騎到鵝鑾鼻附近住宿</td>
+</tr>
+<tr>
+<td align="left"><a href="#day6" class="nowrap">Day 6</a></td>
+<td align="left">恆春 / 鵝鑾鼻</td>
+<td align="left">太麻里</td>
+<td align="left">約 105–120 km</td>
+<td align="left">台26線 → 縣道200 → 縣道199 → 台9線</td>
+<td align="left"><strong><span class="blue-text">極南：鵝鑾鼻燈塔</span></strong>、風吹砂、壽卡鐵馬驛站、多良車站</td>
+</tr>
+<tr>
+<td align="left"><a href="#day7" class="nowrap">Day 7</a></td>
+<td align="left">太麻里</td>
+<td align="left">玉里 / 安通</td>
+<td align="left">約 95–105 km</td>
+<td align="left">台9線 (花東縱谷)</td>
+<td align="left">知本溫泉、鐵花村、初鹿牧場、鹿野高台、關山單車道、伯朗大道</td>
+</tr>
+<tr>
+<td align="left"><a href="#day8" class="nowrap">Day 8</a></td>
+<td align="left">玉里 / 安通</td>
+<td align="left">花蓮 → 蘇澳新站 (火車接駁)</td>
+<td align="left">約 90–105 km</td>
+<td align="left">台9線 / 縣道193 (避開車潮)</td>
+<td align="left">玉富自行車道、舞鶴北回歸線、花蓮糖廠、七星潭</td>
+</tr>
+<tr>
+<td align="left"><a href="#day9" class="nowrap">Day 9</a></td>
+<td align="left">蘇澳新站 / 蘇澳</td>
+<td align="left">三貂角 → 金山 / 萬里</td>
+<td align="left">約 110–125 km</td>
+<td align="left">台2線 (北部濱海公路)</td>
+<td align="left"><strong><span class="blue-text">極東：三貂角燈塔</span></strong>、東北角、舊草嶺隧道、福隆、基隆海岸</td>
+</tr>
+<tr>
+<td align="left"><a href="#day10" class="nowrap">Day 10</a></td>
+<td align="left">金山 / 萬里</td>
+<td align="left">富貴角 → 台北蘆洲柳堤公園</td>
+<td align="left">約 60–85 km</td>
+<td align="left">台2線 → 台15線 → 八里左岸自行車道</td>
+<td align="left"><strong><span class="blue-text">極北：富貴角燈塔</span></strong>、石門、淡水 / 八里，回蘆洲完騎</td>
+</tr>
+</tbody></table>
+<h2>💡 路線規劃重點提醒</h2>
+<ol>
+<li><strong>第1天 (西濱海線)</strong>：走西濱公路(台15/台61)非常平坦，但沿線遮蔽物少，請注意防曬與強風（依季節可能順風或逆風）。</li>
+<li><strong>第3天 (<span class="blue-text">極西點國聖燈塔</span>)</strong>：燈塔位處偏僻，最後一段防風林路段可能積沙較深，建議牽車通過，並注意輪胎防刺。</li>
+<li><strong>第6天 (魔王關卡壽卡)</strong>：從墾丁/鵝鑾鼻出發，走滿州 (縣道200、199) 爬上壽卡是經典路線。風景絕美但爬升較長，是環島最大的體力考驗。</li>
+<li><strong>第8天 (跳過蘇花公路)</strong>：蘇花公路大卡車多且無慢車道，考量安全，強烈建議從「花蓮站或新城站」搭乘兩鐵列車接駁至「蘇澳新站」。</li>
+<li><strong>第9天 (東北角風向)</strong>：若在秋冬季出發，東北角會有強烈的東北季風（逆風），騎乘難度會大幅增加，須做好防風準備並預留較多騎乘時間。</li>
+<li><strong>補給與維修</strong>：西半部超商密集補給容易，但第6天（恆春到太麻里）及第9天（東北角）部分路段補給點較少，請務必隨車攜帶至少2瓶水及高熱量補給品，並自備簡易補胎工具。</li>
+</ol>
+
+    </div>
+    
+    <hr>
+    
+    <div class="days-container">
+        <h2>詳細每日行程</h2>
+        
+        <div id="day1" class="day-section">
+            <div class="day-content">
+                <h1>Day 1：台北蘆洲 ➔ 苗栗竹南 (西濱海岸線追風之旅)</h1>
+<h2>📍 路線總覽</h2>
+<ul>
+<li><strong>出發地</strong>：台北蘆洲柳堤公園</li>
+<li><strong>目的地</strong>：苗栗竹南車站</li>
+<li><strong>總距離</strong>：約 95 - 110 公里</li>
+<li><strong>總爬升</strong>：幾乎為零（全程西濱平坦路線）</li>
+<li><strong>主要路線</strong>：二重疏洪道 / 八里左岸 ➔ 台15線 ➔ 台61線（西濱公路橋下平面道路）</li>
+</ul>
+<hr>
+<h3>🌍 Google Maps 導航與地圖預覽</h3>
+<h4>手機導航連結</h4>
+<p>👉 <strong><a href="https://www.google.com/maps/dir/?api=1&origin=%E8%98%86%E6%B4%B2%E6%9F%B3%E5%A0%A4%E5%85%AC%E5%9C%92&destination=%E7%AB%B9%E5%8D%97%E8%BB%8A%E7%AB%99&waypoints=%E5%85%AB%E9%87%8C%E5%B7%A6%E5%B2%B8%E8%87%AA%E8%A1%8C%E8%BB%8A%E9%81%93%7C%E6%9E%97%E5%8F%A3%E6%B0%B4%E7%89%9B%E5%9D%91%7C%E7%AB%B9%E5%9C%8D%E6%BC%81%E6%B8%AF%7C%E6%B0%B8%E5%AE%89%E6%BC%81%E6%B8%AF%7C%E5%8D%97%E5%AF%AE%E6%BC%81%E6%B8%AF%7C%E9%A6%99%E5%B1%B1%E6%BF%95%E5%9C%B0%E8%B3%9E%E8%9F%B9%E6%AD%A5%E9%81%93&travelmode=bicycling">點擊此處開啟 Day 1 西濱路線導航（腳踏車模式）</a></strong></p>
+<blockquote>
+<p><em>(💡 建議直接沿台15線與台61線橋下機慢車道騎，不要完全依賴導航，避免被帶入鄉間小路。)</em></p>
+</blockquote>
+<h4>🗺️ 路線小地圖</h4>
+<a href="https://www.google.com/maps/d/viewer?mid=您的專屬MyMapsID" target="_blank">
+  <img src="./day1/day1_poster.png" alt="Day 1 路線預覽圖" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</a>
+> 💡 *【版型提醒】：請將生成的海報圖命名為 `day1_poster.png` 放於此資料夾，並將上方超連結替換為您的 Google My Maps 專屬連結！*<hr>
+<h2>🐟 Day 1 路線魚骨圖</h2>
+<div class="mermaid">
+ishikawa-beta
+    Day 1 完騎 竹南 95-110km
+    第四段 迎向終點 20-25km
+        十七公里海岸線 香山段
+        台61線聯絡道 進入竹南
+    ☕️ 第四段 景點補給
+        🏞️ 香山濕地賞蟹步道 弧形木棧道 招潮蟹
+        🏞️ 竹南龍鳳漁港 海鮮攤販觀景台
+        🏠 17:00 竹南車站 住宿
+    第三段 風車相伴 25km
+        台61線橋下平面道 遮陽平坦
+        風車群景觀 西濱公路
+    ☕️ 第三段 休息補給
+        🥤 全家 新豐休息站 台61橋下大型公廁
+        🏞️ 南寮漁港 15:00 下午茶 波光市集
+    第二段 桃園海岸線 40km
+        台15線 路寬直 幾乎無爬坡
+        大園→永安 26km 最長補給空窗
+    ☕️ 第二段 景點補給
+        🏞️ 竹圍漁港 漁港碼頭 周邊有萊爾富
+        🏞️ 草漯沙丘 台灣版撒哈拉可繞路拍照
+        🥤 7-11 觀湖門市 空窗中繼補水
+        🍔 永安漁港海螺館 12:00 午餐大休
+    第一段 蘆洲到林口 20km
+        07:00 蘆洲柳堤公園出發
+        二重疏洪道無車河濱道
+        台15線進入 路況良好
+    ☕️ 第一段 景點補給
+        🏞️ 八里左岸自行車道 09:00 河濱綠蔭 公廁飲水機
+        🏞️ 林口水牛坑 海岸峽谷地景拍照
+        🥤 7-11 橋港門市 中油 蘆竹濱海站
+
+</div>
+<hr>
+<h2>🕒 建議行程與時間配速</h2>
+<h3>第一段：河濱晨騎（蘆洲 ➔ 八里 ➔ 林口）</h3>
+<ul>
+<li><strong>距離</strong>：約 20 km</li>
+<li><strong>路況</strong>：從蘆洲柳堤公園進入二重疏洪道，沿淡水河左岸騎到八里，全程無汽機車，輕鬆舒適。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>八里左岸自行車道</strong>（評分 4.4，推薦景點）：河濱綠蔭自行車道，有便利商店、公廁與飲水機，離開八里前建議把水壺裝滿。</li>
+<li><strong>林口水牛坑</strong>（評分 4.2，值得一看）：位於台15線西部濱海公路旁，台灣少見的海岸峽谷地景，適合拍照打卡。旁邊有 <strong>7-11 橋港門市</strong> 與 <strong>中油蘆竹濱海站</strong> 可借廁所。</li>
+</ul>
+</li>
+</ul>
+<h3>第二段：桃園海岸線（林口 ➔ 竹圍漁港 ➔ 觀音 ➔ 永安漁港）</h3>
+<ul>
+<li><strong>距離</strong>：約 40 km</li>
+<li><strong>路況</strong>：進入台15線，路寬筆直，幾乎無爬坡。大車稍多，靠外側機慢車道騎乘。大園至永安約 26 公里為本日最長補給空窗。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>竹圍漁港</strong>（評分 4.4，推薦景點）：桃園段著名漁港，漁港碼頭景觀，周邊有萊爾富、中油加油站可補給。</li>
+<li><strong>草漯沙丘地質公園</strong>（評分 4.2，值得一看）：「台灣版撒哈拉」的海岸沙丘地景，可視體力繞路 1-2 km 拍照。</li>
+<li><strong>7-11 觀湖門市</strong>：觀音段台15線，大園→永安 26 km 最長空窗的中繼補水點，強烈建議停靠。</li>
+<li><strong>永安漁港海螺館</strong>（評分 4.3，推薦景點）：本日<strong>午餐大休點</strong>，白色巨型海螺建築為西濱地標，有冷氣與乾淨公廁。</li>
+</ul>
+</li>
+</ul>
+<h3>第三段：風車相伴（永安漁港 ➔ 新豐 ➔ 南寮漁港）</h3>
+<ul>
+<li><strong>距離</strong>：約 25 km</li>
+<li><strong>路況</strong>：進入台61線西濱高架橋下平面道路，遮陽不曬，完全平坦，兩側為沿海大風車景觀。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>全家 新豐休息站</strong>（台61線橋下）：有全家便利商店與大型乾淨公廁，是絕佳的下午補水點。</li>
+<li><strong>南寮漁港</strong>（評分 4.2，值得一看）：抵達新竹後的休息點，周邊有 7-11、全家，波光市集有多種小吃。</li>
+</ul>
+</li>
+</ul>
+<h3>第四段：迎向終點（南寮漁港 ➔ 香山濕地 ➔ 竹南）</h3>
+<ul>
+<li><strong>距離</strong>：約 20-25 km</li>
+<li><strong>路況</strong>：沿台61線繼續南下，十七公里海岸線景觀優美，道路平坦。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>香山濕地賞蟹步道</strong>（評分 4.4，推薦景點）：Day 1 最具畫面感的景點！弧形木棧道延伸入海，可觀察招潮蟹，附近有優良公廁。</li>
+<li><strong>竹南龍鳳漁港</strong>（評分 4.1，值得一看）：竹南前最後景點，有海鮮攤販與觀景台，距竹南車站約 4 km。</li>
+<li><strong>終點：竹南車站</strong>：傍晚 17:00 前抵達，市區有超商可最後補給。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>💡 騎乘注意事項</h2>
+<ol>
+<li><strong>季風影響</strong>：秋冬（10月~3月）東北季風可能是強力順風；春夏易遇西南逆風，需預留更多時間。</li>
+<li><strong>防曬補水</strong>：西濱沿線遮蔽物極少（台61橋下段除外）。每隔 30 分鐘主動補水，全程做好防曬。</li>
+<li><strong>最長補給空窗（大園→永安，約 26 km）</strong>：離開竹圍漁港後，中間只有 7-11 觀湖門市可補給。務必在此停靠，不可跳過。</li>
+<li><strong>注意大車</strong>：台15線為砂石車與大貨車要道，全程靠外側機慢車道騎乘，保持警覺。</li>
+<li><strong>撤退方案</strong>：<ul>
+<li><strong>竹圍漁港</strong> (約 55km)：轉入大園市區，騎約 8 km 可達桃園機場捷運 A10 山鼻站</li>
+<li><strong>永安漁港</strong> (約 70km)：轉入新屋方向，騎約 9 km 可達新屋車站</li>
+<li><strong>新豐休息站</strong> (約 83km)：轉入新豐方向，騎約 5 km 可達新豐車站</li>
+<li><strong>南寮漁港</strong> (約 92km)：可直接轉入新竹市區住宿，不必繼續到竹南</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2>🎨 提示詞構圖指引 (day1_prompt.md)</h2>
+<ul>
+<li><strong>主景點（最高熱門度，Day1 最具畫面感）</strong>：香山濕地賞蟹步道（評分 4.4）<ul>
+<li>主場景：弧形木棧道延伸入海、招潮蟹、遠方風車群</li>
+</ul>
+</li>
+<li><strong>小分身（起點，CSV 第 1 筆）</strong>：蘆洲柳堤公園（河濱自行車道旁，準備出發）</li>
+<li><strong>遠景（終點，CSV 最後 1 筆）</strong>：竹南車站</li>
+</ul>
+<p><strong>路線走向</strong>：南北走向（由北往南）→ 直幅 1024 x 1536
+<strong>光線氛圍</strong>：柔和清晨明亮光線（預設，本日無夕陽景點）</p>
+
+            </div>
+            <a href="#" class="back-to-top">↑ 回到總覽表</a>
+        </div>
+        <hr>
+        
+        <div id="day2" class="day-section">
+            <div class="day-content">
+                <h1>Day 2：苗栗竹南 ➔ 彰化鹿港 (西濱媽祖海線朝聖之旅)</h1>
+<h2>📍 路線總覽</h2>
+<ul>
+<li><strong>出發地</strong>：苗栗竹南車站</li>
+<li><strong>目的地</strong>：彰化鹿港老街</li>
+<li><strong>總距離</strong>：約 100 - 115 公里</li>
+<li><strong>總爬升</strong>：極低（好望角短程爬坡約 50m 外，全程平坦）</li>
+<li><strong>主要路線</strong>：台61線（西濱快速公路橋下平面道路） ➔ 台1線 ➔ 台17線</li>
+</ul>
+<hr>
+<h3>🌍 Google Maps 導航與地圖預覽</h3>
+<h4>手機導航連結</h4>
+<p>👉 <strong><a href="https://www.google.com/maps/dir/?api=1&origin=%E7%AB%B9%E5%8D%97%E8%BB%8A%E7%AB%99&destination=%E5%BD%B0%E5%8C%96%E9%B9%BF%E6%B8%AF%E8%80%81%E8%A1%97&waypoints=%E5%BE%8C%E9%BE%8D%E5%A5%BD%E6%9C%9B%E8%A7%92%E9%A2%A8%E6%99%AF%E5%8D%80%7C%E8%8B%97%E6%A0%97%E9%80%9A%E9%9C%84%E7%99%BD%E6%B2%99%E5%B1%AF%E6%8B%B1%E5%A4%A9%E5%AE%AE%7C%E5%8F%B0%E4%B8%AD%E5%A4%A7%E7%94%B2%E9%8E%AE%E7%80%BE%E5%AE%AE%7C%E5%8F%B0%E4%B8%AD%E6%B8%85%E6%B0%B4%E9%AB%98%E7%BE%8E%E6%BF%95%E5%9C%B0&travelmode=bicycling">點擊此處開啟 Day 2 西濱媽祖海線導航（腳踏車模式）</a></strong></p>
+<blockquote>
+<p><em>(💡 好望角為短程爬坡，不想爬坡可沿台61線平面繞過；高美濕地為選擇性繞路，需額外 3-5 km。)</em></p>
+</blockquote>
+<h4>🗺️ 路線小地圖</h4>
+<a href="https://www.google.com/maps/d/viewer?mid=您的專屬MyMapsID" target="_blank">
+  <img src="./day2/day2_poster.png" alt="Day 2 路線預覽圖" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</a>
+> 💡 *【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day2_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！*<hr>
+<h2>🐟 魚骨圖 (Ishikawa Diagram)</h2>
+<div class="mermaid">
+ishikawa-beta
+    Day 2 完騎 鹿港 100-115km
+    第四段 海線終章 25-30km
+        台17線 梧棲龍井 進入彰化
+        平坦沿海 少爬坡
+    ☕️ 第四段 景點補給
+        🏞️ 高美濕地 選擇性繞路 夕陽必訪景點
+        🥤 梧棲中央門市 台17線補給
+        🍔 鹿港老街 17:00 晚餐住宿
+    第三段 媽祖大城 30km
+        台1線 大甲市區 車多注意
+        台17線 清水沿海 平坦
+    ☕️ 第三段 景點補給
+        🍔 大甲鎮瀾宮 必訪最高人氣景點 午餐大休
+        🥤 大甲順天門市 市區超商
+    第二段 媽祖巡禮 30km
+        台61線轉台1線 白沙屯段
+        通霄苑裡 平坦好騎
+    ☕️ 第二段 景點補給
+        🏞️ 白沙屯拱天宮 必訪最高人氣景點 台灣最著名媽祖廟
+        🏞️ 通霄精鹽廠 免費參觀 鹹冰棒 公廁飲水機
+        🥤 通霄中正門市 台1線補水
+    第一段 竹南到後龍 25km
+        台61線橋下平面道 平坦
+        好望角段 短爬坡可選擇
+    ☕️ 第一段 補給景點
+        🥤 竹南站前門市 出發前補給
+        🏞️ 後龍好望角 09:00 海景觀景台 風車群
+        🥤 後龍中山門市 好望角後補給
+
+</div>
+<hr>
+<h2>🕒 建議行程與時間配速</h2>
+<h3>第一段：追風啟程（竹南 ➔ 後龍 ➔ 好望角）</h3>
+<ul>
+<li><strong>距離</strong>：約 25 km</li>
+<li><strong>路況</strong>：從竹南車站沿台61線橋下平面道路南下，路況平坦。好望角為短程爬坡（約 1-2 km 陡坡），可視體力決定是否繞上去。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>出發補給</strong>：竹南車站附近的 <strong>7-11 竹南站前門市</strong> 補滿水與早餐，再出發。</li>
+<li><strong>後龍好望角</strong>（評分 4.4，推薦景點）：苗栗海岸線最美觀景台，可俯瞰大風車群與後龍海岸線。爬坡約 1-2 km，建議牽車上去，山頂有簡易公廁。</li>
+<li><strong>7-11 後龍中山門市</strong>：好望角下來後台61線旁，是進入白沙屯前的最佳補給點。</li>
+</ul>
+</li>
+</ul>
+<h3>第二段：媽祖巡禮（後龍 ➔ 白沙屯拱天宮 ➔ 通霄 ➔ 苑裡）</h3>
+<ul>
+<li><strong>距離</strong>：約 30 km</li>
+<li><strong>路況</strong>：台61線轉入台1線南下。白沙屯至通霄為海岸線平坦路段。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>白沙屯拱天宮</strong>（評分 4.8，最高人氣必訪景點）：台灣最著名媽祖廟之一，每年進香為全台盛事。廟旁有公廁與小吃攤，可在此短暫休息祈福。</li>
+<li><strong>通霄精鹽廠（台鹽觀光工廠）</strong>（評分 4.1，值得一看）：免費參觀，有鹹冰棒（消暑神器）、公廁與飲水機，適合補充能量。</li>
+<li><strong>7-11 通霄中正門市</strong>：台1線旁，進入大甲前的最後穩定補給點。</li>
+</ul>
+</li>
+</ul>
+<h3>第三段：大甲媽祖城（苑裡 ➔ 大甲 ➔ 清水）</h3>
+<ul>
+<li><strong>距離</strong>：約 30 km</li>
+<li><strong>路況</strong>：台1線大甲市區車流較多，過大甲後轉台17線沿海南下，路況恢復平坦。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>大甲鎮瀾宮</strong>（評分 4.6，最高人氣必訪景點）：台灣最知名的媽祖廟，Discovery 評選世界三大宗教慶典。本日<strong>午餐大休點</strong>，廟旁大甲市場有蔥油餅、芋頭酥等大甲名產。</li>
+<li><strong>7-11 大甲順天門市</strong>：鎮瀾宮旁，大休後補滿水再出發。</li>
+<li><strong>中油 龍井站</strong>：台17線龍井段，可借廁所。</li>
+</ul>
+</li>
+</ul>
+<h3>第四段：海線終章（清水 ➔ 梧棲 ➔ 鹿港）</h3>
+<ul>
+<li><strong>距離</strong>：約 25-30 km</li>
+<li><strong>路況</strong>：台17線沿海南下，經梧棲、龍井進入彰化，路況平坦。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>高美濕地</strong>（評分 4.5，最高人氣景點）：選擇性繞路 3-5 km。木棧道延伸入海，夕陽時分最美，建議下午 16:00 前抵達。為本日唯一夕陽景點。</li>
+<li><strong>7-11 梧棲中央門市</strong>：台17線梧棲段，進鹿港前最後補給。</li>
+<li><strong>終點：鹿港老街</strong>（評分 4.5，最高人氣）：傍晚 17:00 抵達，逛老街品嚐蚵仔煎、蝦猴、麵茶等鹿港名產。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>💡 騎乘注意事項</h2>
+<ol>
+<li><strong>好望角爬坡</strong>：約 1-2 km 陡坡，如不想爬坡可沿台61線繞過，不影響主線行程。</li>
+<li><strong>大甲市區車流</strong>：台1線大甲段砂石車多，靠外側機慢車道騎乘，注意紅綠燈。</li>
+<li><strong>補給充裕</strong>：Day 2 補給密集，後龍、通霄、大甲、清水、梧棲均有超商，不用擔心斷水。</li>
+<li><strong>高美濕地時機</strong>：若想看夕陽，需在 16:00 前抵達；若時間不夠，可跳過繼續前往鹿港。</li>
+<li><strong>撤退方案</strong>：<ul>
+<li><strong>後龍車站</strong>（約 25 km）：距好望角約 5 km，海線台鐵車站</li>
+<li><strong>通霄車站</strong>（約 45 km）：台1線轉入市區約 2 km</li>
+<li><strong>大甲車站</strong>（約 60 km）：鎮瀾宮旁，台鐵海線車站</li>
+<li><strong>清水車站</strong>（約 75 km）：台17線旁，轉入市區即達</li>
+</ul>
+</li>
+</ol>
+
+            </div>
+            <a href="#" class="back-to-top">↑ 回到總覽表</a>
+        </div>
+        <hr>
+        
+        <div id="day3" class="day-section">
+            <div class="day-content">
+                <h1>Day 3：彰化鹿港 ➔ 台南七股/善化 (極西點打卡之旅)</h1>
+<h2>📍 路線總覽</h2>
+<ul>
+<li><strong>出發地</strong>：彰化鹿港老街</li>
+<li><strong>目的地</strong>：台南善化車站</li>
+<li><strong>總距離</strong>：約 105 - 120 公里</li>
+<li><strong>總爬升</strong>：極低（全程幾乎平坦，但前往國聖燈塔的防風林路段可能積沙較深）</li>
+<li><strong>主要路線</strong>：台19線 ➔ 台17線 (西部濱海) ➔ 縣道轉往善化</li>
+</ul>
+<hr>
+<h3>🌍 Google Maps 導航與地圖預覽</h3>
+<h4>手機導航連結</h4>
+<p>👉 <strong><a href="https://www.google.com/maps/dir/?api=1&origin=%E5%BD%B0%E5%8C%96%E9%B9%BF%E6%B8%AF%E8%80%81%E8%A1%97&destination=%E5%8F%B0%E5%8D%97%E5%96%84%E5%8C%96%E8%BB%8A%E7%AB%99&waypoints=%E9%9B%B2%E6%9E%97%E8%A5%BF%E8%9E%BA%E5%A4%A7%E6%A9%8B%7C%E5%8F%B0%E5%8D%97%E5%8C%97%E9%96%80%E9%81%8A%E5%AE%A2%E4%B8%AD%E5%BF%83%7C%E5%8F%B0%E5%8D%97%E4%B8%83%E8%82%A1%E9%B9%BD%E5%B1%B1%7C%E5%8F%B0%E5%8D%97%E4%B8%83%E8%82%A1%E6%A5%B5%E8%A5%BF%E9%BB%9E%E5%9C%8B%E8%81%96%E7%87%88%E5%A1%94&travelmode=bicycling">點擊此處開啟 Day 3 極西點導航（腳踏車模式）</a></strong></p>
+<h4>🗺️ 路線小地圖</h4>
+<a href="https://www.google.com/maps/d/viewer?mid=您的專屬MyMapsID" target="_blank">
+  <img src="./day3/day3_poster.png" alt="Day 3 路線預覽圖" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</a>
+> 💡 *【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day3_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！*<hr>
+<h2>🐟 魚骨圖 (Ishikawa Diagram)</h2>
+<div class="mermaid">
+ishikawa-beta
+    Day 3 完騎 善化 105-120km
+    第四段 轉進市區 15-20km
+        七股轉往善化 市區道路
+        車流漸多 注意安全
+    ☕️ 第四段 景點補給
+        🏠 善化車站 18:00 住宿與終點
+        🚻 台灣中油 善化站
+        🥤 7-11 鹽埕門市 離開海線前補水
+    第三段 極西點朝聖 25km
+        台17線 北門到七股
+        國聖燈塔路段防風林積沙深
+    ☕️ 第三段 景點補給
+        🏞️ &lt;span class=&quot;blue-text&quot;&gt;極西點國聖燈塔&lt;/span&gt; 必訪 &lt;span class=&quot;blue-text&quot;&gt;四極點&lt;/span&gt;之一
+        🍔 七股鹽山 午餐大休 壯觀雪白鹽山
+    第二段 嘉南平原 45km
+        台19線轉台17線
+        雲林嘉義交界 筆直公路
+    ☕️ 第二段 景點補給
+        🥤 7-11 南鯤鯓門市 台17線補給
+        🏞️ 北門遊客中心 水晶教堂拍照點
+        🥤 7-11 西螺大橋門市 過橋後補水
+    第一段 鹿港到西螺 30km
+        台19線南下
+        平坦農田景觀
+    ☕️ 第一段 補給景點
+        🏞️ 西螺大橋 著名紅橋 跨越濁水溪
+        🥤 7-11 鹿東門市 出發前補給
+
+</div>
+<hr>
+<h2>🕒 建議行程與時間配速</h2>
+<h3>第一段：農鄉晨騎（鹿港 ➔ 西螺）</h3>
+<ul>
+<li><strong>距離</strong>：約 30 km</li>
+<li><strong>路況</strong>：從鹿港沿著台19線南下，穿越彰化平原，路況平坦，兩側多為農田景觀。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>出發補給</strong>：在鹿港老街附近的 <strong>7-11 鹿東門市</strong> 補齊水與高熱量食物再出發。</li>
+<li><strong>西螺大橋</strong>（推薦景點）：台灣著名的鮮紅色鐵橋，橫跨濁水溪，是單車環島必拍的地標。</li>
+<li><strong>7-11 西螺大橋門市</strong>：過橋進入雲林後的第一個大補給點。</li>
+</ul>
+</li>
+</ul>
+<h3>第二段：嘉南大平原（西螺 ➔ 北門）</h3>
+<ul>
+<li><strong>距離</strong>：約 45 km</li>
+<li><strong>路況</strong>：繼續沿台19線南下，之後切往沿海的台17線進入台南市。此段距離較長，風向影響大。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>北門遊客中心 / 水晶教堂</strong>（評分 4.1，值得一看）：充滿異國風情的園區，水晶教堂是絕佳的拍照打卡點。</li>
+<li><strong>7-11 南鯤鯓門市</strong>：台17線上重要的便利商店，進七股前的補水點。</li>
+</ul>
+</li>
+</ul>
+<h3>第三段：極西點朝聖（北門 ➔ 七股）</h3>
+<ul>
+<li><strong>距離</strong>：約 25 km</li>
+<li><strong>路況</strong>：台17線海線路段。前往國聖燈塔的最後一段路為防風林與沙洲地形，容易有積沙。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>七股鹽山</strong>（評分 3.9）：本日<strong>午餐大休點</strong>，巨大的雪白鹽山非常有特色，園區內有販售鹹冰棒與食物。</li>
+<li><strong><span class="blue-text">極西點國聖燈塔</span></strong>（評分 4.4，本日最高潮）：台灣本島極西點！黑白相間的鐵塔矗立在頂頭額沙洲上。<strong>注意：抵達燈塔前的路段可能積沙極深，強烈建議下來牽車，以免摔車或刺破輪胎。</strong></li>
+<li><strong>7-11 鹽埕門市</strong>：離開七股海線前的最後補水點。</li>
+</ul>
+</li>
+</ul>
+<h3>第四段：轉進市區（七股 ➔ 善化）</h3>
+<ul>
+<li><strong>距離</strong>：約 15-20 km</li>
+<li><strong>路況</strong>：離開台17線，轉向東邊進入台南市區道路前往善化。車流量開始變大，請靠外側騎乘。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>台灣中油 善化站</strong>：進入善化市區前可借用廁所。</li>
+<li><strong>終點：善化車站</strong>：傍晚 18:00 抵達，善化車站周邊住宿與餐廳選擇多，若需撤退也可直接搭乘台鐵。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>💡 騎乘注意事項</h2>
+<ol>
+<li><strong>極西點積沙警告</strong>：國聖燈塔位處沙洲，最後幾公里的防風林道路經常被風沙掩蓋。<strong>切勿勉強騎乘</strong>，一旦感覺輪胎下陷，請立刻下車推行，以免摔車或導致輪框受損。</li>
+<li><strong>西濱強風</strong>：沿著台17線騎乘時，周邊毫無遮蔽物。若遇逆風將極度消耗體力，請隨時補充水分與碳水化合物。</li>
+<li><strong>長距離空窗期</strong>：西螺到北門之間距離較長（約 45 km），途經農業區，便利商店較不密集。請在西螺務必將水壺裝滿，並隨身攜帶備用能量膠。</li>
+<li><strong>撤退方案</strong>：<ul>
+<li><strong>嘉義車站</strong>（偏離主線約 15 km）：若在雲嘉交界體力透支，可往東騎至嘉義車站搭車。</li>
+<li><strong>新營車站</strong>（偏離主線約 10 km）：台19線學甲段附近可往東撤退至新營車站。</li>
+<li><strong>善化車站</strong>（終點）：海線少數有停靠對號列車的台鐵大站。</li>
+</ul>
+</li>
+</ol>
+
+            </div>
+            <a href="#" class="back-to-top">↑ 回到總覽表</a>
+        </div>
+        <hr>
+        
+        <div id="day4" class="day-section">
+            <div class="day-content">
+                <h1>Day 4：台南善化 ➔ 屏東枋寮 (雙城文化巡禮與港都風情)</h1>
+<h2>📍 路線總覽</h2>
+<ul>
+<li><strong>出發地</strong>：台南善化車站</li>
+<li><strong>目的地</strong>：屏東枋寮車站</li>
+<li><strong>總距離</strong>：約 110 - 125 公里</li>
+<li><strong>總爬升</strong>：平坦（主要行經市區與平原道路）</li>
+<li><strong>主要路線</strong>：台1線（台南） ➔ 台17線（高雄、屏東）</li>
+</ul>
+<hr>
+<h3>🌍 Google Maps 導航與地圖預覽</h3>
+<h4>手機導航連結</h4>
+<p>👉 <strong><a href="https://www.google.com/maps/dir/?api=1&origin=%E5%8F%B0%E5%8D%97%E5%96%84%E5%8C%96%E8%BB%8A%E7%AB%99&destination=%E5%B1%8F%E6%9D%B1%E6%9E%%E6%9E%8B%E5%AF%AE%E8%BB%8A%E7%AB%99&waypoints=%E5%8F%B0%E5%8D%97%E5%AD%94%E5%BB%9F%7C%E9%AB%98%E9%9B%84%E6%A9%8B%E9%A0%AD%E7%B3%96%E5%BB%A0%7C%E9%AB%98%E9%9B%84%E6%84%9B%E6%B2%B3%7C%E5%B1%8F%E6%9D%B1%E6%9D%B1%E6%B8%AF%E6%9D%B1%E9%9A%86%E5%AE%AE%7C%E5%B1%8F%E6%9D%B1%E5%A4%A7%E9%B5%AC%E7%81%A3&travelmode=bicycling">點擊此處開啟 Day 4 都會與港區導航（腳踏車模式）</a></strong></p>
+<h4>🗺️ 路線小地圖</h4>
+<a href="https://www.google.com/maps/d/viewer?mid=您的專屬MyMapsID" target="_blank">
+  <img src="./day4/day4_poster.png" alt="Day 4 路線預覽圖" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</a>
+> 💡 *【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day4_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！*<hr>
+<h2>🐟 魚骨圖 (Ishikawa Diagram)</h2>
+<div class="mermaid">
+ishikawa-beta
+    Day 4 完騎 枋寮 110-125km
+    第四段 大鵬灣至枋寮 20km
+        台17線沿海
+        準備進入南迴與墾丁前哨
+    ☕️ 第四段 景點補給
+        🏠 枋寮車站 17:30 終點與住宿
+        🏞️ 大鵬灣國家風景區 廣闊潟湖景觀
+    第三段 港都往南 30km
+        台17線 小港工業區大車多
+        跨越高屏溪進入屏東
+    ☕️ 第三段 景點補給
+        🏞️ 東港東隆宮 金箔牌樓 必訪信仰中心
+        🥤 7-11 東港門市 屏東補水
+        🚻 台灣中油 小港站 離開高雄市區
+    第二段 前進高雄 45km
+        台1線轉市區道路
+        途經橋頭進入左營、市中心
+    ☕️ 第二段 景點補給
+        🍔 愛河風景區 中午大休 港都風情
+        🥤 7-11 橋頭門市 橋頭區補水
+        🏞️ 橋頭糖廠藝術村 廣大腹地 冰品
+    第一段 府城古蹟 25km
+        從善化沿台1線南下
+        進入台南市中心 車多擁擠
+    ☕️ 第一段 補給景點
+        🏞️ 台南孔廟 台灣首學 府城文化
+        🥤 7-11 善化門市 出發前補給
+
+</div>
+<hr>
+<h2>🕒 建議行程與時間配速</h2>
+<h3>第一段：府城巡禮（善化 ➔ 台南市區）</h3>
+<ul>
+<li><strong>距離</strong>：約 25 km</li>
+<li><strong>路況</strong>：從善化出發沿台1線南下，進入台南市區。市區紅綠燈密集、機車較多，請放慢速度並注意交通安全。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>出發補給</strong>：善化車站旁的 <strong>7-11 善化門市</strong> 補水。</li>
+<li><strong>台南孔廟</strong>（評分 4.4，推薦景點）：「全台首學」，紅色的古老磚牆與茂密的老樹，是體驗府城歷史的最佳起點。</li>
+</ul>
+</li>
+</ul>
+<h3>第二段：南下港都（台南市區 ➔ 橋頭 ➔ 高雄愛河）</h3>
+<ul>
+<li><strong>距離</strong>：約 45 km</li>
+<li><strong>路況</strong>：離開台南市區後，路況變為平直的省道。進入高雄橋頭後逐漸回到都會區。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>橋頭糖廠藝術村</strong>（評分 4.3）：佔地廣闊，擁有豐富的百年糖業歷史與公共藝術，推薦品嚐著名的糖廠冰品。</li>
+<li><strong>愛河風景區</strong>（評分 4.3）：本日<strong>午餐大休點</strong>。沿著美麗的愛河自行車道騎乘，體驗高雄獨特的港都水岸風情。</li>
+</ul>
+</li>
+</ul>
+<h3>第三段：跨越高屏溪（高雄愛河 ➔ 小港 ➔ 東港）</h3>
+<ul>
+<li><strong>距離</strong>：約 30 km</li>
+<li><strong>路況</strong>：從市中心沿台17線往南，會經過小港與林園工業區。<strong>注意：此路段大卡車與貨櫃車極多，請務必騎在機慢車道並保持警覺。</strong> 跨越高屏溪雙園大橋後進入屏東縣。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>台灣中油 小港站</strong>：離開工業區前可稍微休息借廁所。</li>
+<li><strong>東港東隆宮</strong>（評分 4.7，最高人氣）：三年一科「迎王平安祭典」聞名全台，耗資數億打造的黃金牌樓極為壯觀。</li>
+</ul>
+</li>
+</ul>
+<h3>第四段：南國前哨（東港 ➔ 大鵬灣 ➔ 枋寮）</h3>
+<ul>
+<li><strong>距離</strong>：約 20 km</li>
+<li><strong>路況</strong>：沿著屏東平原的台17線向南，路面寬廣平坦，開始感受到熱帶氣候的陽光。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>大鵬灣國家風景區</strong>（評分 4.1）：擁有台灣最大的單口囊狀潟湖與跨海大橋，風景開闊。</li>
+<li><strong>終點：枋寮車站</strong>（評分 4.3）：傍晚抵達。這裡是西部幹線的終點，也是隔天前往墾丁或南迴公路的關鍵前哨站。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>💡 騎乘注意事項</h2>
+<ol>
+<li><strong>市區車流與紅綠燈</strong>：本日穿梭於台南、高雄兩大都會區，紅綠燈非常多，會大幅拉低均速。請預留更多的騎乘時間。</li>
+<li><strong>小港工業區大車</strong>：離開高雄市區行經小港、林園一帶（台17線），貨車與砂石車頻繁出沒。請靠右騎乘，勿與大車併行，過橋時小心側風。</li>
+<li><strong>南部氣候炎熱</strong>：進入屏東後陽光會更加強烈，請增加飲水頻率並加強防曬。</li>
+<li><strong>撤退方案</strong>：<ul>
+<li>本日全程與台鐵西部幹線高度重疊，撤退極為方便。</li>
+<li><strong>台南車站</strong>、<strong>高雄車站</strong>、<strong>新左營車站</strong> 都是極佳的撤退與維修點。</li>
+<li>若體力不支，可直接從高雄搭車前往終點 <strong>枋寮車站</strong>。</li>
+</ul>
+</li>
+</ol>
+
+            </div>
+            <a href="#" class="back-to-top">↑ 回到總覽表</a>
+        </div>
+        <hr>
+        
+        <div id="day5" class="day-section">
+            <div class="day-content">
+                <h1>Day 5：屏東枋寮 ➔ 屏東鵝鑾鼻 (國境之南落山風挑戰)</h1>
+<h2>📍 路線總覽</h2>
+<ul>
+<li><strong>出發地</strong>：屏東枋寮車站</li>
+<li><strong>目的地</strong>：屏東鵝鑾鼻燈塔</li>
+<li><strong>總距離</strong>：約 75 - 100 公里</li>
+<li><strong>總爬升</strong>：微幅起伏（主要沿著屏鵝公路，恆春半島有丘陵地形）</li>
+<li><strong>主要路線</strong>：台1線 ➔ 台26線（屏鵝公路）</li>
+</ul>
+<hr>
+<h3>🌍 Google Maps 導航與地圖預覽</h3>
+<h4>手機導航連結</h4>
+<p>👉 <strong><a href="https://www.google.com/maps/dir/?api=1&origin=%E5%B1%8F%E6%9D%B1%E6%9E%%E6%9E%8B%E5%AF%AE%E8%BB%8A%E7%AB%99&destination=%E5%B1%8F%E6%9D%B1%E9%B5%9D%E9%91%BE%E9%BC%BB%E7%87%88%E5%A1%94&waypoints=%E5%B1%8F%E6%9D%B1%E8%BB%8A%E5%9F%8E%E7%A6%8F%E5%AE%89%E5%AE%AE%7C%E5%B1%8F%E6%9D%B1%E6%81%86%E6%98%A5%E5%8F%A4%E5%9F%8E%7C%E5%B1%8F%E6%9D%B1%E5%A2%BE%E4%B8%81%E5%A4%A7%E8%A1%97%7C%E5%8F%B0%E7%81%A3%E6%9C%80%E5%8D%97%E7%AB%AF%E7%A2%91&travelmode=bicycling">點擊此處開啟 Day 5 國境之南導航（腳踏車模式）</a></strong></p>
+<h4>🗺️ 路線小地圖</h4>
+<a href="https://www.google.com/maps/d/viewer?mid=您的專屬MyMapsID" target="_blank">
+  <img src="./day5/day5_poster.png" alt="Day 5 路線預覽圖" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</a>
+> 💡 *【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day5_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！*<hr>
+<h2>🐟 魚骨圖 (Ishikawa Diagram)</h2>
+<div class="mermaid">
+ishikawa-beta
+    Day 5 完騎 鵝鑾鼻 75-100km
+    第三段 國境之南 20km
+        台26線 恆春到墾丁
+        熱帶海岸風情
+    ☕️ 第三段 景點補給
+        🏠 鵝鑾鼻燈塔 16:30 終點與住宿
+        🏞️ 台灣最南端碑 必訪打卡 極南點
+        🏞️ 墾丁大街 沿途熱帶風景
+    第二段 恆春半島 25km
+        台26線 車城到恆春
+        注意秋冬落山風
+    ☕️ 第二段 景點補給
+        🚻 台灣中油 恆春站 借廁所
+        🍔 恆春古城南門 中午大休 古城巡禮
+        🥤 7-11 車城門市 進入恆春前補給
+        🏞️ 車城福安宮 全台最大土地公廟 綠豆蒜
+    第一段 屏鵝公路 30km
+        台1線轉台26線
+        無敵海景 枋山路段
+    ☕️ 第一段 補給景點
+        🥤 7-11 海豚灣門市 著名單車休息站
+        🥤 7-11 枋寮門市 出發前補給
+
+</div>
+<hr>
+<h2>🕒 建議行程與時間配速</h2>
+<h3>第一段：屏鵝無敵海景（枋寮 ➔ 枋山 ➔ 車城）</h3>
+<ul>
+<li><strong>距離</strong>：約 30 km</li>
+<li><strong>路況</strong>：從枋寮沿著台1線南下，接台26線。右側是壯麗的台灣海峽，路況平直好騎，但秋冬季需注意強烈側風（落山風）。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>出發補給</strong>：枋寮車站附近的 <strong>7-11 枋寮門市</strong>。</li>
+<li><strong>7-11 海豚灣門市</strong>：台1線上的知名單車休息站，無敵海景。</li>
+<li><strong>車城福安宮</strong>（評分 4.6，推薦景點）：全台最大土地公廟，祈求環島一路平安。廟旁必吃當地名產「綠豆蒜」。</li>
+</ul>
+</li>
+</ul>
+<h3>第二段：恆春古城（車城 ➔ 恆春）</h3>
+<ul>
+<li><strong>距離</strong>：約 25 km</li>
+<li><strong>路況</strong>：進入恆春半島，路面微幅起伏。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>恆春古城南門</strong>（評分 4.3）：本日<strong>午餐大休點</strong>。台灣保留最完整的古城門，周邊有許多美食餐廳與冰店，適合大休。</li>
+<li><strong>台灣中油 恆春站</strong>：離開恆春市區前可借用廁所與補水。</li>
+</ul>
+</li>
+</ul>
+<h3>第三段：極南點朝聖（恆春 ➔ 墾丁 ➔ 鵝鑾鼻）</h3>
+<ul>
+<li><strong>距離</strong>：約 20 km</li>
+<li><strong>路況</strong>：沿著台26線南下，經過南灣、墾丁大街，最終抵達台灣最南端。假日車流較多，請靠右騎乘。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>墾丁大街</strong>（評分 3.9）：白天較為冷清，但充滿熱帶度假氛圍。</li>
+<li><strong>台灣最南端碑</strong>（評分 4.4，必訪）：<span class="blue-text">四極點</span>之二，抵達國境之南的證明。</li>
+<li><strong>終點：鵝鑾鼻燈塔</strong>（評分 4.5）：傍晚 16:30 抵達，純白色的武裝燈塔，附近有許多民宿可供住宿，為明天的魔王關卡（壽卡）儲備體力。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>💡 騎乘注意事項</h2>
+<ol>
+<li><strong>落山風威脅</strong>：每年 10 月至隔年 4 月，恆春半島會有強烈的「落山風」。強風從山上下切，側風極強，嚴重時可能將單車吹倒。請握緊把手，必要時下車推行。</li>
+<li><strong>防曬與補水</strong>：南部陽光猛烈，屏鵝公路部分路段無遮蔽物，請每小時定時補水，並確實做好防曬。</li>
+<li><strong>住宿建議</strong>：Day 5 建議直接推進至恆春或鵝鑾鼻附近住宿，這樣 Day 6 挑戰壽卡大魔王時，能保留較多時間應對爬坡。</li>
+<li><strong>撤退方案</strong>：<ul>
+<li>枋寮過後即無火車。若遇單車故障或體力不支，只能依賴「屏東客運」或包車（墾丁快線無法上非折疊單車）。</li>
+<li>恆春轉運站是半島上最大的交通樞紐。</li>
+</ul>
+</li>
+</ol>
+
+            </div>
+            <a href="#" class="back-to-top">↑ 回到總覽表</a>
+        </div>
+        <hr>
+        
+        <div id="day6" class="day-section">
+            <div class="day-content">
+                <h1>Day 6：屏東鵝鑾鼻 ➔ 台東太麻里 (壽卡大魔王挑戰與無敵海景)</h1>
+<h2>📍 路線總覽</h2>
+<ul>
+<li><strong>出發地</strong>：屏東鵝鑾鼻燈塔</li>
+<li><strong>目的地</strong>：台東太麻里車站</li>
+<li><strong>總距離</strong>：約 105 - 120 公里</li>
+<li><strong>總爬升</strong>：高強度（需爬升至海拔約 460 公尺的壽卡鐵馬驛站，並有多段起伏）</li>
+<li><strong>主要路線</strong>：台26線 ➔ 縣道200 ➔ 縣道199 ➔ 台9線（南迴公路）</li>
+</ul>
+<hr>
+<h3>🌍 Google Maps 導航與地圖預覽</h3>
+<h4>手機導航連結</h4>
+<p>👉 <strong><a href="https://www.google.com/maps/dir/?api=1&origin=%E5%B1%8F%E6%9D%B1%E9%B5%9D%E9%91%BE%E9%BC%BB%E7%87%88%E5%A1%94&destination=%E5%8F%B0%E6%9D%B1%E5%A4%AA%E9%BA%BB%E9%87%8C%E8%BB%8A%E7%AB%99&waypoints=%E5%B1%8F%E6%9D%B1%E9%A2%A8%E5%90%B9%E7%A0%82%7C%E5%B1%8F%E6%9D%B1%E5%A3%BD%E5%8D%A1%E9%90%B5%E9%A6%AC%E9%A9%9B%E7%AB%99%7C%E5%8F%B0%E6%9D%B1%E5%A4%9A%E8%89%AF%E8%BB%8A%E7%AB%99&travelmode=bicycling">點擊此處開啟 Day 6 壽卡大魔王導航（腳踏車模式）</a></strong></p>
+<h4>🗺️ 路線小地圖</h4>
+<a href="https://www.google.com/maps/d/viewer?mid=您的專屬MyMapsID" target="_blank">
+  <img src="./day6/day6_poster.png" alt="Day 6 路線預覽圖" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</a>
+> 💡 *【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day6_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！*<hr>
+<h2>🐟 魚骨圖 (Ishikawa Diagram)</h2>
+<div class="mermaid">
+ishikawa-beta
+    Day 6 完騎 太麻里 105-120km
+    第四段 東海岸追風 35km
+        台9線 大武到太麻里
+        壯闊太平洋海景 微起伏
+    ☕️ 第四段 景點補給
+        🏠 太麻里車站 17:30 終點與住宿
+        🥤 全家太麻里金針山店 進入市區
+        🏞️ 多良車站 全台最美車站 紅色欄杆
+    第三段 長下坡與南迴 25km
+        縣道199轉台9線
+        壽卡長下坡抵達大武
+    ☕️ 第三段 景點補給
+        🥤 7-11 大武門市 下山後第一大補給 中午大休
+    第二段 魔王壽卡 30km
+        縣道200轉199線
+        長距離爬坡考驗 沿途林蔭
+    ☕️ 第二段 景點補給
+        🏞️ 壽卡鐵馬驛站 環島必備打卡 海拔460m
+        ⚠️ 滿州到壽卡 幾無補給 請備滿水
+    第一段 龍磐與滿州 25km
+        台26線上坡 轉縣道200
+        絕美草原與海岸
+    ☕️ 第一段 補給景點
+        🥤 7-11 滿州門市 進入山區前最後補給
+        🏞️ 風吹砂 壯觀沙瀑地形
+        🥤 7-11 鵝鑾鼻門市 出發前補水
+
+</div>
+<hr>
+<h2>🕒 建議行程與時間配速</h2>
+<h3>第一段：東岸迎風（鵝鑾鼻 ➔ 風吹砂 ➔ 滿州）</h3>
+<ul>
+<li><strong>距離</strong>：約 25 km</li>
+<li><strong>路況</strong>：從鵝鑾鼻出發沿著台26線東岸北上，沿途經龍磐公園與風吹砂，景色絕美但也容易遭遇強勁海風。隨後轉入縣道200前往滿州。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>風吹砂</strong>（評分 4.5）：奇特的風蝕沙瀑地形，配上無敵太平洋海景。</li>
+<li><strong>7-11 滿州門市</strong>：<strong>強烈警告</strong>！這是進入山區爬坡前最後一個便利商店，請務必在此將水壺全部裝滿，並準備行動糧。</li>
+</ul>
+</li>
+</ul>
+<h3>第二段：大魔王挑戰（滿州 ➔ 壽卡）</h3>
+<ul>
+<li><strong>距離</strong>：約 30 km</li>
+<li><strong>路況</strong>：縣道200接縣道199。全日最艱難的路段，長達數十公里的緩長坡與連續彎道，沿途多為原始林貌，爬升至海拔 460 公尺。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>壽卡鐵馬驛站</strong>（評分 4.6）：單車環島最具象徵性的打卡點，抵達這裡代表你已經征服了南迴公路的最高點！驛站外牆有滿滿的車友簽名。</li>
+</ul>
+</li>
+</ul>
+<h3>第三段：極速下坡（壽卡 ➔ 大武）</h3>
+<ul>
+<li><strong>距離</strong>：約 25 km</li>
+<li><strong>路況</strong>：從壽卡沿著台9線達仁段長下坡，一路滑行至東部海岸線的大武。<strong>注意：下坡車速快，且可能有砂石車，請點放煞車、控制速度。</strong></li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>7-11 大武門市</strong>：下山後迎來的第一個城鎮與超商，適合做為本日的<strong>午餐大休點</strong>。</li>
+</ul>
+</li>
+</ul>
+<h3>第四段：最美海岸（大武 ➔ 多良 ➔ 太麻里）</h3>
+<ul>
+<li><strong>距離</strong>：約 35 km</li>
+<li><strong>路況</strong>：沿著台9線東海岸向北騎乘，左側是山脈，右側是廣闊的太平洋，路況平直有微幅起伏。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>多良車站</strong>（評分 4.1，推薦景點）：「全台最美車站」，紅色的欄杆配上碧海藍天，若運氣好還能拍到火車經過。需牽車走一小段陡坡上去。</li>
+<li><strong>終點：太麻里車站</strong>（評分 4.4）：傍晚抵達。車站前有條能直視太平洋的大道，為著名的打卡點。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>💡 騎乘注意事項</h2>
+<ol>
+<li><strong>滿州補給斷層</strong>：滿州到壽卡這段長達數十公里的山路<strong>完全沒有便利商店</strong>。請在滿州準備至少 2 瓶水與足夠的能量棒/巧克力。</li>
+<li><strong>下坡控速</strong>：壽卡往達仁的下坡十分陡峭且彎道多，加上大車頻繁，煞車請務必點放避免過熱爆胎。</li>
+<li><strong>無撤退路線</strong>：進入縣道200與199後，在抵達大武之前幾乎沒有任何大眾運輸可供撤退。這是意志力的考驗，若體力有狀況，請多下車推行休息。</li>
+<li><strong>隧道安全</strong>：台9線部分路段有隧道或明隧道，請務必開啟前後車燈，並穿著反光背心。</li>
+</ol>
+
+            </div>
+            <a href="#" class="back-to-top">↑ 回到總覽表</a>
+        </div>
+        <hr>
+        
+        <div id="day7" class="day-section">
+            <div class="day-content">
+                <h1>Day 7：台東太麻里 ➔ 花蓮玉里 (花東縱谷稻浪之旅)</h1>
+<h2>📍 路線總覽</h2>
+<ul>
+<li><strong>出發地</strong>：台東太麻里車站</li>
+<li><strong>目的地</strong>：花蓮玉里車站</li>
+<li><strong>總距離</strong>：約 95 - 105 公里</li>
+<li><strong>總爬升</strong>：緩起伏（從太麻里海線切入縱谷，鹿野高台與初鹿需爬坡）</li>
+<li><strong>主要路線</strong>：台9線（花東縱谷公路）</li>
+</ul>
+<hr>
+<h3>🌍 Google Maps 導航與地圖預覽</h3>
+<h4>手機導航連結</h4>
+<p>👉 <strong><a href="https://www.google.com/maps/dir/?api=1&origin=%E5%8F%B0%E6%9D%B1%E5%A4%AA%E9%BA%BB%E9%87%8C%E8%BB%8A%E7%AB%99&destination=%E8%8A%B1%E8%93%AE%E7%8E%89%E9%87%8C%E8%BB%8A%E7%AB%99&waypoints=%E5%8F%B0%E6%9D%B1%E9%90%B5%E8%8A%B1%E6%9D%91%7C%E5%8F%B0%E6%9D%B1%E5%88%9D%E9%B9%BF%E7%89%A7%E5%A0%B4%7C%E5%8F%B0%E6%9D%B1%E9%B9%BF%E9%87%8E%E9%AB%98%E5%8F%B0%7C%E5%8F%B0%E6%9D%B1%E6%B1%A0%E4%B8%8A%E4%BC%AF%E6%9C%97%E5%A4%A7%E9%81%93&travelmode=bicycling">點擊此處開啟 Day 7 花東縱谷導航（腳踏車模式）</a></strong></p>
+<h4>🗺️ 路線小地圖</h4>
+<a href="https://www.google.com/maps/d/viewer?mid=您的專屬MyMapsID" target="_blank">
+  <img src="./day7/day7_poster.png" alt="Day 7 路線預覽圖" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</a>
+> 💡 *【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day7_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！*<hr>
+<h2>🐟 魚骨圖 (Ishikawa Diagram)</h2>
+<div class="mermaid">
+ishikawa-beta
+    Day 7 完騎 玉里 95-105km
+    第四段 稻米之鄉 20km
+        台9線 池上到玉里
+        花東縱谷精華 平坦
+    ☕️ 第四段 景點補給
+        🏠 玉里車站 17:30 終點 晚餐吃玉里麵
+        🥤 7-11 欣池上門市 離開池上前補給
+        🏞️ 池上伯朗大道 必訪 絕美黃金稻浪
+    第三段 關山大休 20km
+        台9線 鹿野到關山
+        平緩的田園風光
+    ☕️ 第三段 景點補給
+        🍔 關山環鎮自行車道 中午大休 關山便當
+    第二段 縱谷爬坡 35km
+        台9線 台東市區到鹿野
+        緩上坡 初鹿段較陡
+    ☕️ 第二段 景點補給
+        🏞️ 鹿野高台 著名熱氣球場地 俯瞰縱谷
+        🏞️ 初鹿牧場 喝鮮奶補充體力
+        🥤 7-11 卑南門市 進入縱谷前補水
+    第一段 告別海線 25km
+        台9線 太麻里到台東市區
+        平坦海岸轉入市區
+    ☕️ 第一段 補給景點
+        🏞️ 鐵花村 台東市區文創聚落
+        🥤 7-11 太麻里門市 出發前補給
+
+</div>
+<hr>
+<h2>🕒 建議行程與時間配速</h2>
+<h3>第一段：告別海線（太麻里 ➔ 台東市區）</h3>
+<ul>
+<li><strong>距離</strong>：約 25 km</li>
+<li><strong>路況</strong>：從太麻里出發，告別太平洋海線，沿著台9線進入台東市區，路面寬廣平緩。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>出發補給</strong>：太麻里市區的 <strong>7-11 太麻里門市</strong> 補滿水分。</li>
+<li><strong>鐵花村</strong>（評分 4.5）：台東著名的音樂與文創聚落，白天雖然沒有表演，但彩繪熱氣球燈籠非常適合拍照留念。</li>
+</ul>
+</li>
+</ul>
+<h3>第二段：縱谷爬升（台東市區 ➔ 初鹿 ➔ 鹿野）</h3>
+<ul>
+<li><strong>距離</strong>：約 35 km</li>
+<li><strong>路況</strong>：離開台東市區後，正式進入被中央山脈與海岸山脈夾擊的「花東縱谷」。此段開始為緩上坡，尤其是前往初鹿牧場與鹿野高台需要爬一小段山路。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>初鹿牧場</strong>（評分 4.2）：台灣最大的坡地牧場，推薦喝杯新鮮的初鹿鮮奶補充蛋白質。</li>
+<li><strong>鹿野高台</strong>（評分 4.5）：台灣熱氣球嘉年華舉辦地，擁有居高臨下俯瞰整個花東縱谷的絕佳視野。</li>
+</ul>
+</li>
+</ul>
+<h3>第三段：米之鄉大休（鹿野 ➔ 關山）</h3>
+<ul>
+<li><strong>距離</strong>：約 20 km</li>
+<li><strong>路況</strong>：從鹿野高台滑下後回到台9線主線，前往關山。兩側風景逐漸被綠色或金黃色的稻田取代。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>關山環鎮自行車道</strong>：本日<strong>午餐大休點</strong>。抵達關山後，務必品嚐知名的「關山便當」，並在車站附近好好的大休。</li>
+</ul>
+</li>
+</ul>
+<h3>第四段：黃金稻浪（關山 ➔ 池上 ➔ 玉里）</h3>
+<ul>
+<li><strong>距離</strong>：約 20 km</li>
+<li><strong>路況</strong>：平坦筆直的縱谷公路，跨越縣界進入花蓮縣。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>池上伯朗大道</strong>（評分 4.4，推薦景點）：花東縱谷必訪！筆直的鄉間小路兩旁沒有任何電線桿，秋季時是整片壯觀的黃金稻浪，並可朝聖著名的「金城武樹」。</li>
+<li><strong>終點：玉里車站</strong>（評分 4.1）：傍晚抵達花蓮南部的重鎮玉里。晚上推薦品嚐道地的「玉里麵」與「臭豆腐」，若有體力也可前往安通溫泉泡湯消除疲勞。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>💡 騎乘注意事項</h2>
+<ol>
+<li><strong>縱谷氣溫</strong>：花東縱谷因為地形阻擋海風，夏天騎乘會像在一個大烤箱裡，非常悶熱；冬天則可能會有較強的谷風。</li>
+<li><strong>鹿野爬坡</strong>：鹿野高台需要爬升約 250 公尺，若前一天壽卡大魔王的乳酸尚未排除，這段路會有些吃力，可依體力決定是否繞上去。</li>
+<li><strong>小黑蚊防護</strong>：縱谷地區（尤其是花蓮）的小黑蚊較多，休息時請噴防蚊液或穿著長袖長褲。</li>
+<li><strong>撤退方案</strong>：<ul>
+<li>縱谷線全程與台鐵花東線平行，撤退點極多（台東、鹿野、關山、池上、玉里皆是大站），隨時可以上火車。</li>
+</ul>
+</li>
+</ol>
+
+            </div>
+            <a href="#" class="back-to-top">↑ 回到總覽表</a>
+        </div>
+        <hr>
+        
+        <div id="day8" class="day-section">
+            <div class="day-content">
+                <h1>Day 8：花蓮玉里 ➔ 宜蘭蘇澳 (縱谷北返與兩鐵接駁)</h1>
+<h2>📍 路線總覽</h2>
+<ul>
+<li><strong>出發地</strong>：花蓮玉里車站</li>
+<li><strong>目的地</strong>：宜蘭蘇澳新站（從花蓮搭火車接駁抵達）</li>
+<li><strong>總距離</strong>：單車騎乘約 90 - 105 公里</li>
+<li><strong>總爬升</strong>：微幅起伏（玉里到瑞穗間有舞鶴台地需爬升）</li>
+<li><strong>主要路線</strong>：縣道193線（或台9線） ➔ 兩鐵列車接駁（花蓮 ➔ 蘇澳新站）</li>
+</ul>
+<hr>
+<h3>🌍 Google Maps 導航與地圖預覽</h3>
+<h4>手機導航連結</h4>
+<p>👉 <strong><a href="https://www.google.com/maps/dir/?api=1&origin=%E8%8A%B1%E8%93%AE%E7%8E%89%E9%87%8C%E8%BB%8A%E7%AB%99&destination=%E8%8A%B1%E8%93%AE%E8%BB%8A%E7%AB%99&waypoints=%E8%8A%B1%E8%93%AE%E7%8E%89%E5%AF%8C%E8%87%AA%E8%A1%8C%E8%BB%8A%E9%81%93%7C%E8%8A%B1%E8%93%AE%E8%88%9E%E9%B6%B4%E5%8C%97%E5%9B%9E%E6%AD%B8%E7%B7%9A%E6%A8%99%E8%AA%8C%E5%85%AC%E5%9C%92%7C%E8%8A%B1%E8%93%AE%E5%85%89%E5%BE%A9%E7%B3%96%E5%BB%A0%7C%E8%8A%B1%E8%93%AE%E4%B8%83%E6%98%9F%E6%BD%AD%E9%A2%A8%E6%99%AF%E5%8D%80&travelmode=bicycling">點擊此處開啟 Day 8 縱谷北返導航（腳踏車模式）</a></strong></p>
+<blockquote>
+<p><em>(💡 抵達花蓮車站後，請搭乘火車前往終點蘇澳新站，避開危險的蘇花公路。)</em></p>
+</blockquote>
+<h4>🗺️ 路線小地圖</h4>
+<a href="https://www.google.com/maps/d/viewer?mid=您的專屬MyMapsID" target="_blank">
+  <img src="./day8/day8_poster.png" alt="Day 8 路線預覽圖" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</a>
+> 💡 *【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day8_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！*<hr>
+<h2>🐟 魚骨圖 (Ishikawa Diagram)</h2>
+<div class="mermaid">
+ishikawa-beta
+    Day 8 完騎 蘇澳新站 90-105km
+    第四段 兩鐵接駁
+        花蓮車站搭車
+        避開危險蘇花公路 抵達蘇澳
+    ☕️ 第四段 景點補給
+        🏠 蘇澳新站 18:00 終點與住宿
+        🚎 花蓮車站 買兩鐵車票 準備搭車
+    第三段 太平洋之風 30km
+        縣道193轉台9線 進入花蓮市區
+        前往海邊欣賞太平洋
+    ☕️ 第三段 景點補給
+        🏞️ 七星潭風景區 絕美新月形海灣 太平洋風光
+        🥤 7-11 鳳林門市 沿途補水
+    第二段 糖廠大休 25km
+        瑞穗到光復
+        沿著平坦的縱谷向北
+    ☕️ 第二段 景點補給
+        🍔 花蓮觀光糖廠 中午大休 糖廠冰品
+        🥤 7-11 瑞穗門市 下山後補給
+    第一段 舞鶴台地 25km
+        玉里出發
+        板塊交界與舞鶴爬坡
+    ☕️ 第一段 補給景點
+        🏞️ 舞鶴北回歸線標誌公園 緩上坡後打卡點
+        🏞️ 玉富自行車道 跨越歐亞與菲律賓海板塊
+
+</div>
+<hr>
+<h2>🕒 建議行程與時間配速</h2>
+<h3>第一段：板塊交界與舞鶴（玉里 ➔ 瑞穗）</h3>
+<ul>
+<li><strong>距離</strong>：約 25 km</li>
+<li><strong>路況</strong>：從玉里出發，可騎乘由舊鐵道改建的玉富自行車道。隨後轉入台9線，會遇到舞鶴台地的緩上坡，爬升約 150 公尺。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>玉富自行車道</strong>（評分 4.4，推薦景點）：亞洲唯一橫跨兩個板塊（歐亞板塊與菲律賓海板塊）的自行車道，橋上有板塊交界的打卡標誌。</li>
+<li><strong>舞鶴北回歸線標誌公園</strong>（評分 4.2）：爬上舞鶴台地後的最佳休息點，有巨大的白色日晷造型標誌。</li>
+</ul>
+</li>
+</ul>
+<h3>第二段：平原糖廠大休（瑞穗 ➔ 光復）</h3>
+<ul>
+<li><strong>距離</strong>：約 25 km</li>
+<li><strong>路況</strong>：從瑞穗下滑後，建議可選擇車流較少、風景極美的「縣道 193 線」北上，這條路是花東單車族的秘境路線。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>花蓮觀光糖廠</strong>（評分 4.2）：本日<strong>午餐大休點</strong>。抵達光復後必訪的休息站，腹地廣大，推薦品嚐各種口味的糖廠冰淇淋。</li>
+</ul>
+</li>
+</ul>
+<h3>第三段：直奔太平洋（光復 ➔ 花蓮市區 ➔ 七星潭）</h3>
+<ul>
+<li><strong>距離</strong>：約 30 - 40 km</li>
+<li><strong>路況</strong>：繼續沿著縱谷往北進入吉安、花蓮市區。若時間充裕可往海邊騎乘。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>七星潭風景區</strong>（評分 4.6，最高人氣必訪）：絕美的新月形礫石海灣，直面浩瀚的太平洋，是花蓮最著名的海景打卡點。</li>
+</ul>
+</li>
+</ul>
+<h3>第四段：兩鐵接駁避險（花蓮車站 ➔ 蘇澳新站）</h3>
+<ul>
+<li><strong>說明</strong>：因為蘇花公路大卡車多、無慢車道、部分隧道狹窄，且常有落石，<strong>強烈建議單車環島者跳過此段</strong>，改由火車接駁。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>花蓮車站</strong>：抵達花蓮後，請至售票窗口購買「兩鐵列車」車票（人車同車廂）前往蘇澳新站。</li>
+<li><strong>終點：蘇澳新站</strong>：搭乘約 1.5 - 2 小時火車後抵達。蘇澳新站周邊較為荒涼，建議騎至蘇澳市區或冬山附近住宿。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>💡 騎乘注意事項</h2>
+<ol>
+<li><strong>縣道 193 選擇</strong>：台9線縱谷段雖然直但大車較多；縣道 193 線雖然有微幅起伏且距離稍長，但沿途綠樹成蔭、車流極少，強烈建議單車族走 193 線北上。</li>
+<li><strong>兩鐵列車班次</strong>：台鐵能讓單車「不拆車直接推上車」的兩鐵區間車班次有限，請務必在出發前幾天先上台鐵網站查詢時刻表，並控制在花蓮市區的抵達時間。</li>
+<li><strong>七星潭瘋狗浪</strong>：七星潭為陡降型海灘，雖然美麗但海象危險，請勿過度靠近海邊，嚴禁下水。</li>
+</ol>
+
+            </div>
+            <a href="#" class="back-to-top">↑ 回到總覽表</a>
+        </div>
+        <hr>
+        
+        <div id="day9" class="day-section">
+            <div class="day-content">
+                <h1>Day 9：宜蘭蘇澳 ➔ 新北金山 (東北角極東點與海岸奇岩)</h1>
+<h2>📍 路線總覽</h2>
+<ul>
+<li><strong>出發地</strong>：宜蘭蘇澳新站</li>
+<li><strong>目的地</strong>：新北金山老街</li>
+<li><strong>總距離</strong>：約 110 - 125 公里</li>
+<li><strong>總爬升</strong>：微幅起伏（東北角海岸線沿途多為平緩公路，部分海岬路段有短坡）</li>
+<li><strong>主要路線</strong>：台2線（北部濱海公路）</li>
+</ul>
+<hr>
+<h3>🌍 Google Maps 導航與地圖預覽</h3>
+<h4>手機導航連結</h4>
+<p>👉 <strong><a href="https://www.google.com/maps/dir/?api=1&origin=%E5%AE%9C%E8%98%AD%E8%98%87%E6%BE%B3%E6%96%B0%E7%AB%99&destination=%E6%96%B0%E5%8C%97%E9%87%91%E5%B1%B1%E8%80%81%E8%A1%97&waypoints=%E6%96%B0%E5%8C%97%E8%88%8A%E8%8D%89%E5%B6%BA%E9%9A%A7%E9%81%93%7C%E6%96%B0%E5%8C%97%E7%A6%8F%E9%9A%86%E8%BB%8A%E7%AB%99%7C%E6%96%B0%E5%8C%97%E4%B8%89%E8%B2%82%E8%A7%92%E7%87%88%E5%A1%94%7C%E5%9F%BA%E9%9A%86%E5%A4%96%E6%9C%A8%E5%B1%B1%E6%BF%B1%E6%B5%B7%E5%BB%8A%E5%B8%B6&travelmode=bicycling">點擊此處開啟 Day 9 東北角極東導航（腳踏車模式）</a></strong></p>
+<h4>🗺️ 路線小地圖</h4>
+<a href="https://www.google.com/maps/d/viewer?mid=您的專屬MyMapsID" target="_blank">
+  <img src="./day9/day9_poster.png" alt="Day 9 路線預覽圖" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</a>
+> 💡 *【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day9_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！*<hr>
+<h2>🐟 魚骨圖 (Ishikawa Diagram)</h2>
+<div class="mermaid">
+ishikawa-beta
+    Day 9 完騎 金山 110-125km
+    第四段 北海岸 25km
+        基隆到萬里金山
+        海景優美 接近終點
+    ☕️ 第四段 景點補給
+        🏠 金山老街 17:30 終點 晚餐吃金山鴨肉
+        🥤 7-11 萬里門市 最後補給
+    第三段 基隆奇岩 45km
+        台2線 瑞芳到基隆
+        海蝕地形與港都風情
+    ☕️ 第三段 景點補給
+        🏞️ 外木山濱海廊帶 絕美海岸地形 基隆嶼
+        🥤 7-11 鼻頭角門市 東北角補水
+    第二段 極東點朝聖 20km
+        台2線 福隆到貢寮
+        太平洋海景與燈塔
+    ☕️ 第二段 景點補給
+        🏞️ 三貂角燈塔 &lt;span class=&quot;blue-text&quot;&gt;四極點&lt;/span&gt;之極東點 必訪
+        🍔 福隆車站 中午大休 福隆便當
+    第一段 穿山越嶺 25km
+        台2線轉自行車道
+        宜蘭跨越新北交界
+    ☕️ 第一段 補給景點
+        🏞️ 舊草嶺隧道 涼爽的自行車專屬隧道
+        🥤 7-11 蘇澳門市 出發前補水
+
+</div>
+<hr>
+<h2>🕒 建議行程與時間配速</h2>
+<h3>第一段：蘭陽啟程（蘇澳 ➔ 舊草嶺隧道）</h3>
+<ul>
+<li><strong>距離</strong>：約 25 km</li>
+<li><strong>路況</strong>：從蘇澳出發，沿著台2線往北。抵達石城後，強烈建議離開省道，轉入「舊草嶺隧道」專用自行車道，免去爬坡且非常涼爽。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>出發補給</strong>：蘇澳市區的 <strong>7-11 蘇澳門市</strong>。</li>
+<li><strong>舊草嶺隧道</strong>（評分 4.6）：總長 2 公里的古老鐵道隧道，是新北與宜蘭的交界，騎在隧道內會聽到火車的音效，非常有趣。</li>
+</ul>
+</li>
+</ul>
+<h3>第二段：極東點朝聖（舊草嶺隧道 ➔ 福隆 ➔ 三貂角）</h3>
+<ul>
+<li><strong>距離</strong>：約 20 km</li>
+<li><strong>路況</strong>：出隧道後抵達福隆，隨後沿著台2線向東北角前進，路況平直靠海。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>福隆車站</strong>（評分 4.3）：本日<strong>午餐大休點</strong>。車站前有許多家著名的「福隆便當」，是單車族最棒的碳水化合物來源。</li>
+<li><strong>三貂角燈塔</strong>（評分 4.5，必訪）：<span class="blue-text">四極點</span>之三，台灣本島極東點！充滿地中海風情的純白建築。<strong>注意：上燈塔有一小段極陡坡，建議牽車。</strong></li>
+</ul>
+</li>
+</ul>
+<h3>第三段：東北角奇岩（三貂角 ➔ 鼻頭角 ➔ 基隆）</h3>
+<ul>
+<li><strong>距離</strong>：約 45 km</li>
+<li><strong>路況</strong>：台2線北部濱海公路。右側是變化萬千的海蝕平台與奇岩怪石，左側是高聳的山壁。大卡車非常多，請務必騎在機慢車道。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>7-11 鼻頭角門市</strong>：漫長的海岸線中重要的補給站。</li>
+<li><strong>外木山濱海廊帶</strong>（評分 4.6）：進入基隆後，外木山海岸有專屬的自行車與步道，可遠眺基隆嶼。</li>
+</ul>
+</li>
+</ul>
+<h3>第四段：北海岸終章（基隆 ➔ 萬里 ➔ 金山）</h3>
+<ul>
+<li><strong>距離</strong>：約 25 km</li>
+<li><strong>路況</strong>：離開基隆市區後，進入萬里與金山，逐漸靠近大台北生活圈。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>7-11 萬里門市</strong>：抵達終點前的最後補給。</li>
+<li><strong>終點：金山老街</strong>（評分 4.1）：傍晚抵達。金山老街（金包里老街）有著名的金山鴨肉、地瓜冰淇淋，附近也有溫泉可泡湯放鬆。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>💡 騎乘注意事項</h2>
+<ol>
+<li><strong>東北季風威脅</strong>：若在秋冬季（10月至隔年4月）進行環島，東北角將面臨強烈且冰冷的「東北季風」。<strong>逆風</strong>騎乘會讓體力消耗倍增，時速可能降至 10-15 km/h，請務必預留更多騎乘時間，並穿著防風外套。</li>
+<li><strong>大車頻繁</strong>：台2線（尤其是瑞芳至基隆段）有大量砂石車與貨櫃車，請隨時注意後方來車，避免與大車併行。</li>
+<li><strong>隧道替代方案</strong>：若「舊草嶺隧道」因故未開放（營業時間通常至下午 17:00，假日人多），則必須騎乘台2線繞行三貂角一圈，距離會增加且需爬坡。</li>
+<li><strong>撤退方案</strong>：<ul>
+<li>福隆車站、雙溪車站、瑞芳車站皆可作為火車撤退點。</li>
+<li>抵達基隆後，可直接搭乘台鐵或國道客運返回台北。</li>
+</ul>
+</li>
+</ol>
+
+            </div>
+            <a href="#" class="back-to-top">↑ 回到總覽表</a>
+        </div>
+        <hr>
+        
+        <div id="day10" class="day-section">
+            <div class="day-content">
+                <h1>Day 10：新北金山 ➔ 新北蘆洲 (極北點與光榮完騎)</h1>
+<h2>📍 路線總覽</h2>
+<ul>
+<li><strong>出發地</strong>：新北金山老街</li>
+<li><strong>目的地</strong>：新北蘆洲柳堤公園</li>
+<li><strong>總距離</strong>：約 60 - 85 公里（依是否搭乘淡水渡輪而定）</li>
+<li><strong>總爬升</strong>：微幅起伏（北海岸公路有部分丘陵，淡水到蘆洲為平緩自行車道）</li>
+<li><strong>主要路線</strong>：台2線（北海岸公路） ➔ 淡水河自行車道 ➔ 八里左岸</li>
+</ul>
+<hr>
+<h3>🌍 Google Maps 導航與地圖預覽</h3>
+<h4>手機導航連結</h4>
+<p>👉 <strong><a href="https://www.google.com/maps/dir/?api=1&origin=%E6%96%B0%E5%8C%97%E9%87%91%E5%B1%B1%E8%80%81%E8%A1%97&destination=%E6%96%B0%E5%8C%97%E8%98%86%E6%B4%B2%E6%9F%B3%E5%A0%A4%E5%85%AC%E5%9C%92&waypoints=%E6%96%B0%E5%8C%97%E7%9F%B3%E9%96%80%E6%B4%9E%7C%E6%96%B0%E5%8C%97%E5%AF%8C%E8%B2%B4%E8%A7%92%E7%87%88%E5%A1%94%7C%E6%96%B0%E5%8C%97%E6%B7%A1%E6%B0%B4%E8%80%81%E8%A1%97%7C%E6%96%B0%E5%8C%97%E5%85%AB%E9%87%8C%E5%B7%A6%E5%B2%B8%E8%87%AA%E8%A1%8C%E8%BB%8A%E9%81%93&travelmode=bicycling">點擊此處開啟 Day 10 榮耀歸途導航（腳踏車模式）</a></strong></p>
+<h4>🗺️ 路線小地圖</h4>
+<a href="https://www.google.com/maps/d/viewer?mid=您的專屬MyMapsID" target="_blank">
+  <img src="./day10/day10_poster.png" alt="Day 10 路線預覽圖" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</a>
+> 💡 *【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day10_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！*<hr>
+<h2>🐟 魚骨圖 (Ishikawa Diagram)</h2>
+<div class="mermaid">
+ishikawa-beta
+    Day 10 光榮完騎 蘆洲 60-85km
+    第三段 榮耀歸途 15km
+        八里左岸自行車道
+        沿著淡水河回到蘆洲
+    ☕️ 第三段 景點補給
+        🏠 蘆洲柳堤公園 17:00 完騎大合照
+        🏞️ 八里左岸自行車道 悠閒安全的水岸風光
+    第二段 浪漫水岸 20km
+        台2線 三芝到淡水
+        進入大台北都會區
+    ☕️ 第二段 景點補給
+        🚎 八里渡船頭 可選擇搭渡輪或騎關渡大橋過河
+        🍔 淡水老街 中午大休 阿給與鐵蛋
+        🥤 7-11 淺水灣門市 淺水灣海景補給
+    第一段 極北點朝聖 25km
+        台2線 金山到石門
+        北海岸奇石與燈塔
+    ☕️ 第一段 補給景點
+        🏞️ 富貴角燈塔 &lt;span class=&quot;blue-text&quot;&gt;四極點&lt;/span&gt;之極北點 達成！
+        🏞️ 石門洞 天然海蝕洞奇觀
+        🥤 7-11 金山門市 出發前補水
+
+</div>
+<hr>
+<h2>🕒 建議行程與時間配速</h2>
+<h3>第一段：極北點達成（金山 ➔ 石門 ➔ 富貴角）</h3>
+<ul>
+<li><strong>距離</strong>：約 25 km</li>
+<li><strong>路況</strong>：從金山出發，沿著台2線北海岸公路西行。沿途會經過許多海蝕平台與灣澳，路面微幅起伏。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>出發補給</strong>：金山市區的 <strong>7-11 金山門市</strong>。</li>
+<li><strong>石門洞</strong>（評分 4.3）：北海岸著名的天然海蝕拱門，擁有美麗的貝殼沙灘。</li>
+<li><strong>富貴角燈塔</strong>（評分 4.7，最高人氣必訪）：台灣本島極北點！黑白平行條紋的八角形燈塔。<strong>恭喜達成<span class="blue-text">四極點</span>環島的最後一塊拼圖！</strong></li>
+</ul>
+</li>
+</ul>
+<h3>第二段：浪漫淡水（富貴角 ➔ 三芝 ➔ 淡水）</h3>
+<ul>
+<li><strong>距離</strong>：約 20 km</li>
+<li><strong>路況</strong>：經過三芝、淺水灣，沿著台2線逐漸靠近台北都會區。此段假日時車流極大，請務必騎在機慢車道並注意遊覽車。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>7-11 淺水灣門市</strong>：三芝海岸線上的休息點。</li>
+<li><strong>淡水老街</strong>（評分 4.4）：本日<strong>午餐大休點</strong>。抵達捷運淡水站後，可在老街品嚐阿給、魚丸湯、鐵蛋等著名小吃。</li>
+</ul>
+</li>
+</ul>
+<h3>第三段：光榮歸途（淡水 ➔ 八里 ➔ 蘆洲）</h3>
+<ul>
+<li><strong>距離</strong>：約 15 - 20 km</li>
+<li><strong>路況</strong>：從淡水老街後，可選擇搭乘「淡水-八里渡輪」直接過淡水河（人車可上船），或是繼續往南騎乘經關渡大橋過河。過河後全程行駛於「八里左岸自行車道」，非常安全平坦。</li>
+<li><strong>景點 / 休息補給</strong>：<ul>
+<li><strong>八里左岸自行車道</strong>（評分 4.4）：遠離市區車囂，沿著美麗的淡水河左岸與紅樹林生態區騎乘，是一段非常享受的歸途。</li>
+<li><strong>終點：蘆洲柳堤公園</strong>（評分 4.3）：傍晚抵達出發時的起點。<strong>恭喜！您已成功完成 10 天 1000 公里的台灣單車環島壯舉！</strong> 記得拍下完騎大合照！</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2>💡 騎乘注意事項</h2>
+<ol>
+<li><strong>北海岸東北季風</strong>：秋冬季節北海岸同樣會面臨強烈的東北季風。雖然 Day 10 是由東向西騎乘，風向有時會偏側風或順風，但靠近海邊仍需注意強陣風。</li>
+<li><strong>淡水塞車路段</strong>：台2線淡水紅樹林段在假日或下班時間極度壅塞，機車與汽車爭道，強烈建議盡早轉入自行車道。</li>
+<li><strong>渡輪體驗</strong>：若時間允許，推薦在淡水老街搭乘渡輪前往八里，除了省下繞行關渡大橋的距離，還能在水上欣賞淡水河風光，為環島增添特別的回憶。</li>
+<li><strong>慶功準備</strong>：抵達蘆洲後，可以提前聯絡親友在柳堤公園迎接，並準備好完騎證書或慶功宴，為這趟旅程畫下完美的句點！</li>
+</ol>
+
+            </div>
+            <a href="#" class="back-to-top">↑ 回到總覽表</a>
+        </div>
+        <hr>
+        
+    </div>
+    
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+</body>
+</html>
