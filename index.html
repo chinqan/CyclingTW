@@ -55,6 +55,31 @@
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
+        .day-intro-grid {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+            gap: 28px;
+            align-items: start;
+            margin: 18px 0 34px;
+        }
+        .day-intro-summary,
+        .day-intro-map {
+            min-width: 0;
+        }
+        .day-intro-summary h2,
+        .day-intro-summary h3,
+        .day-intro-summary h4,
+        .day-intro-map h4 {
+            margin-top: 0;
+        }
+        .day-intro-map a {
+            display: block;
+        }
+        .day-intro-map img {
+            display: block;
+            width: 100%;
+            max-width: none;
+        }
         .back-to-top {
             display: inline-block;
             margin-top: 20px;
@@ -86,12 +111,24 @@
             color: #666;
             margin-left: 0;
         }
+        @media (max-width: 760px) {
+            body {
+                padding: 12px;
+            }
+            .day-section {
+                padding: 18px;
+            }
+            .day-intro-grid {
+                grid-template-columns: 1fr;
+                gap: 18px;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="overview">
         <h1>10天單車環島計畫 (<span class="blue-text">四極點</span>)</h1>
-<p><img src="./output/imagegen/cyclingtw-cover-v2.png" alt="10天單車環島計畫封面"></p>
+<p><img src="./output/imagegen/cyclingtw-cover_poster.png" alt="10天單車環島計畫封面"></p>
 <table>
 <thead>
 <tr>
@@ -204,7 +241,9 @@
         <div id="day1" class="day-section">
             <div class="day-content">
                 <h1>Day 1：台北蘆洲 ➔ 苗栗竹南 (西濱海岸線追風之旅)</h1>
-<h2>📍 路線總覽</h2>
+<div class="day-intro-grid">
+            <div class="day-intro-summary">
+                <h2>📍 路線總覽</h2>
 <ul>
 <li><strong>出發地</strong>：台北蘆洲柳堤公園</li>
 <li><strong>目的地</strong>：苗栗竹南車站</li>
@@ -219,11 +258,17 @@
 <blockquote>
 <p><em>(💡 建議直接沿台15線與台61線橋下機慢車道騎，不要完全依賴導航，避免被帶入鄉間小路。)</em></p>
 </blockquote>
-<h4>🗺️ 路線小地圖</h4>
+
+            </div>
+            <div class="day-intro-map">
+                <h4>🗺️ 路線小地圖</h4>
 <a href="https://www.google.com/maps/d/viewer?mid=您的專屬MyMapsID" target="_blank">
   <img src="./day1/day1_poster.png" alt="Day 1 路線預覽圖" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 </a>
-> 💡 *【版型提醒】：請將生成的海報圖命名為 `day1_poster.png` 放於此資料夾，並將上方超連結替換為您的 Google My Maps 專屬連結！*<hr>
+<blockquote><p><em>💡 【版型提醒】：請將生成的海報圖命名為 `day1_poster.png` 放於此資料夾，並將上方超連結替換為您的 Google My Maps 專屬連結！</em></p></blockquote>
+            </div>
+        </div>
+        <hr>
 <h2>🐟 Day 1 詳細路線行程圖解</h2>
 <div class="mermaid">
 ishikawa-beta
@@ -257,7 +302,6 @@ ishikawa-beta
         🏞️ 八里左岸自行車道 09:00 河濱綠蔭 公廁飲水機
         🏞️ 林口水牛坑 海岸峽谷地景拍照
         🥤 7-11 橋港門市 中油 蘆竹濱海站
-
 </div>
 <hr>
 <h2>🕒 建議行程與時間配速</h2>
@@ -320,17 +364,6 @@ ishikawa-beta
 </li>
 </ol>
 <hr>
-<h2>🎨 提示詞構圖指引 (day1_prompt.md)</h2>
-<ul>
-<li><strong>主景點（最高熱門度，Day1 最具畫面感）</strong>：香山濕地賞蟹步道（評分 4.4）<ul>
-<li>主場景：弧形木棧道延伸入海、招潮蟹、遠方風車群</li>
-</ul>
-</li>
-<li><strong>小分身（起點，CSV 第 1 筆）</strong>：蘆洲柳堤公園（河濱自行車道旁，準備出發）</li>
-<li><strong>遠景（終點，CSV 最後 1 筆）</strong>：竹南車站</li>
-</ul>
-<p><strong>路線走向</strong>：南北走向（由北往南）→ 直幅 1024 x 1536
-<strong>光線氛圍</strong>：柔和清晨明亮光線（預設，本日無夕陽景點）</p>
 
             </div>
             <a href="#" class="back-to-top">↑ 回到總覽表</a>
@@ -340,7 +373,9 @@ ishikawa-beta
         <div id="day2" class="day-section">
             <div class="day-content">
                 <h1>Day 2：苗栗竹南 ➔ 彰化鹿港 (西濱媽祖海線朝聖之旅)</h1>
-<h2>📍 路線總覽</h2>
+<div class="day-intro-grid">
+            <div class="day-intro-summary">
+                <h2>📍 路線總覽</h2>
 <ul>
 <li><strong>出發地</strong>：苗栗竹南車站</li>
 <li><strong>目的地</strong>：彰化鹿港老街</li>
@@ -355,11 +390,17 @@ ishikawa-beta
 <blockquote>
 <p><em>(💡 好望角為短程爬坡，不想爬坡可沿台61線平面繞過；高美濕地為選擇性繞路，需額外 3-5 km。)</em></p>
 </blockquote>
-<h4>🗺️ 路線小地圖</h4>
+
+            </div>
+            <div class="day-intro-map">
+                <h4>🗺️ 路線小地圖</h4>
 <a href="https://www.google.com/maps/d/viewer?mid=您的專屬MyMapsID" target="_blank">
   <img src="./day2/day2_poster.png" alt="Day 2 路線預覽圖" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 </a>
-> 💡 *【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day2_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！*<hr>
+<blockquote><p><em>💡 【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day2_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！</em></p></blockquote>
+            </div>
+        </div>
+        <hr>
 <h2>🐟 詳細路線行程圖解</h2>
 <div class="mermaid">
 ishikawa-beta
@@ -391,7 +432,6 @@ ishikawa-beta
         🥤 竹南站前門市 出發前補給
         🏞️ 後龍好望角 09:00 海景觀景台 風車群
         🥤 後龍中山門市 好望角後補給
-
 </div>
 <hr>
 <h2>🕒 建議行程與時間配速</h2>
@@ -463,7 +503,9 @@ ishikawa-beta
         <div id="day3" class="day-section">
             <div class="day-content">
                 <h1>Day 3：彰化鹿港 ➔ 台南七股/善化 (極西點打卡之旅)</h1>
-<h2>📍 路線總覽</h2>
+<div class="day-intro-grid">
+            <div class="day-intro-summary">
+                <h2>📍 路線總覽</h2>
 <ul>
 <li><strong>出發地</strong>：彰化鹿港老街</li>
 <li><strong>目的地</strong>：台南善化車站</li>
@@ -475,11 +517,17 @@ ishikawa-beta
 <h3>🌍 Google Maps 導航與地圖預覽</h3>
 <h4>手機導航連結</h4>
 <p>👉 <strong><a href="https://www.google.com/maps/dir/?api=1&origin=%E5%BD%B0%E5%8C%96%E9%B9%BF%E6%B8%AF%E8%80%81%E8%A1%97&destination=%E5%8F%B0%E5%8D%97%E5%96%84%E5%8C%96%E8%BB%8A%E7%AB%99&waypoints=%E9%9B%B2%E6%9E%97%E8%A5%BF%E8%9E%BA%E5%A4%A7%E6%A9%8B%7C%E5%8F%B0%E5%8D%97%E5%8C%97%E9%96%80%E9%81%8A%E5%AE%A2%E4%B8%AD%E5%BF%83%7C%E5%8F%B0%E5%8D%97%E4%B8%83%E8%82%A1%E9%B9%BD%E5%B1%B1%7C%E5%8F%B0%E5%8D%97%E4%B8%83%E8%82%A1%E6%A5%B5%E8%A5%BF%E9%BB%9E%E5%9C%8B%E8%81%96%E7%87%88%E5%A1%94&travelmode=bicycling">點擊此處開啟 Day 3 極西點導航（腳踏車模式）</a></strong></p>
-<h4>🗺️ 路線小地圖</h4>
+
+            </div>
+            <div class="day-intro-map">
+                <h4>🗺️ 路線小地圖</h4>
 <a href="https://www.google.com/maps/d/viewer?mid=您的專屬MyMapsID" target="_blank">
   <img src="./day3/day3_poster.png" alt="Day 3 路線預覽圖" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 </a>
-> 💡 *【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day3_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！*<hr>
+<blockquote><p><em>💡 【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day3_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！</em></p></blockquote>
+            </div>
+        </div>
+        <hr>
 <h2>🐟 詳細路線行程圖解</h2>
 <div class="mermaid">
 ishikawa-beta
@@ -495,7 +543,7 @@ ishikawa-beta
         台17線 北門到七股
         國聖燈塔路段防風林積沙深
     ☕️ 第三段 景點補給
-        🏞️ &lt;span class=&quot;blue-text&quot;&gt;極西點國聖燈塔&lt;/span&gt; 必訪 &lt;span class=&quot;blue-text&quot;&gt;四極點&lt;/span&gt;之一
+        🏞️ 極西點國聖燈塔 必訪 四極點之一
         🍔 七股鹽山 午餐大休 壯觀雪白鹽山
     第二段 嘉南平原 45km
         台19線轉台17線
@@ -510,7 +558,6 @@ ishikawa-beta
     ☕️ 第一段 補給景點
         🏞️ 西螺大橋 著名紅橋 跨越濁水溪
         🥤 7-11 鹿東門市 出發前補給
-
 </div>
 <hr>
 <h2>🕒 建議行程與時間配速</h2>
@@ -578,7 +625,9 @@ ishikawa-beta
         <div id="day4" class="day-section">
             <div class="day-content">
                 <h1>Day 4：台南善化 ➔ 屏東枋寮 (雙城文化巡禮與港都風情)</h1>
-<h2>📍 路線總覽</h2>
+<div class="day-intro-grid">
+            <div class="day-intro-summary">
+                <h2>📍 路線總覽</h2>
 <ul>
 <li><strong>出發地</strong>：台南善化車站</li>
 <li><strong>目的地</strong>：屏東枋寮車站</li>
@@ -590,11 +639,17 @@ ishikawa-beta
 <h3>🌍 Google Maps 導航與地圖預覽</h3>
 <h4>手機導航連結</h4>
 <p>👉 <strong><a href="https://www.google.com/maps/dir/?api=1&origin=%E5%8F%B0%E5%8D%97%E5%96%84%E5%8C%96%E8%BB%8A%E7%AB%99&destination=%E5%B1%8F%E6%9D%B1%E6%9E%%E6%9E%8B%E5%AF%AE%E8%BB%8A%E7%AB%99&waypoints=%E5%8F%B0%E5%8D%97%E5%AD%94%E5%BB%9F%7C%E9%AB%98%E9%9B%84%E6%A9%8B%E9%A0%AD%E7%B3%96%E5%BB%A0%7C%E9%AB%98%E9%9B%84%E6%84%9B%E6%B2%B3%7C%E5%B1%8F%E6%9D%B1%E6%9D%B1%E6%B8%AF%E6%9D%B1%E9%9A%86%E5%AE%AE%7C%E5%B1%8F%E6%9D%B1%E5%A4%A7%E9%B5%AC%E7%81%A3&travelmode=bicycling">點擊此處開啟 Day 4 都會與港區導航（腳踏車模式）</a></strong></p>
-<h4>🗺️ 路線小地圖</h4>
+
+            </div>
+            <div class="day-intro-map">
+                <h4>🗺️ 路線小地圖</h4>
 <a href="https://www.google.com/maps/d/viewer?mid=您的專屬MyMapsID" target="_blank">
   <img src="./day4/day4_poster.png" alt="Day 4 路線預覽圖" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 </a>
-> 💡 *【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day4_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！*<hr>
+<blockquote><p><em>💡 【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day4_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！</em></p></blockquote>
+            </div>
+        </div>
+        <hr>
 <h2>🐟 詳細路線行程圖解</h2>
 <div class="mermaid">
 ishikawa-beta
@@ -625,7 +680,6 @@ ishikawa-beta
     ☕️ 第一段 補給景點
         🏞️ 台南孔廟 台灣首學 府城文化
         🥤 7-11 善化門市 出發前補給
-
 </div>
 <hr>
 <h2>🕒 建議行程與時間配速</h2>
@@ -691,7 +745,9 @@ ishikawa-beta
         <div id="day5" class="day-section">
             <div class="day-content">
                 <h1>Day 5：屏東枋寮 ➔ 屏東鵝鑾鼻 (國境之南落山風挑戰)</h1>
-<h2>📍 路線總覽</h2>
+<div class="day-intro-grid">
+            <div class="day-intro-summary">
+                <h2>📍 路線總覽</h2>
 <ul>
 <li><strong>出發地</strong>：屏東枋寮車站</li>
 <li><strong>目的地</strong>：屏東鵝鑾鼻燈塔</li>
@@ -703,11 +759,17 @@ ishikawa-beta
 <h3>🌍 Google Maps 導航與地圖預覽</h3>
 <h4>手機導航連結</h4>
 <p>👉 <strong><a href="https://www.google.com/maps/dir/?api=1&origin=%E5%B1%8F%E6%9D%B1%E6%9E%%E6%9E%8B%E5%AF%AE%E8%BB%8A%E7%AB%99&destination=%E5%B1%8F%E6%9D%B1%E9%B5%9D%E9%91%BE%E9%BC%BB%E7%87%88%E5%A1%94&waypoints=%E5%B1%8F%E6%9D%B1%E8%BB%8A%E5%9F%8E%E7%A6%8F%E5%AE%89%E5%AE%AE%7C%E5%B1%8F%E6%9D%B1%E6%81%86%E6%98%A5%E5%8F%A4%E5%9F%8E%7C%E5%B1%8F%E6%9D%B1%E5%A2%BE%E4%B8%81%E5%A4%A7%E8%A1%97%7C%E5%8F%B0%E7%81%A3%E6%9C%80%E5%8D%97%E7%AB%AF%E7%A2%91&travelmode=bicycling">點擊此處開啟 Day 5 國境之南導航（腳踏車模式）</a></strong></p>
-<h4>🗺️ 路線小地圖</h4>
+
+            </div>
+            <div class="day-intro-map">
+                <h4>🗺️ 路線小地圖</h4>
 <a href="https://www.google.com/maps/d/viewer?mid=您的專屬MyMapsID" target="_blank">
   <img src="./day5/day5_poster.png" alt="Day 5 路線預覽圖" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 </a>
-> 💡 *【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day5_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！*<hr>
+<blockquote><p><em>💡 【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day5_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！</em></p></blockquote>
+            </div>
+        </div>
+        <hr>
 <h2>🐟 詳細路線行程圖解</h2>
 <div class="mermaid">
 ishikawa-beta
@@ -733,7 +795,6 @@ ishikawa-beta
     ☕️ 第一段 補給景點
         🥤 7-11 海豚灣門市 著名單車休息站
         🥤 7-11 枋寮門市 出發前補給
-
 </div>
 <hr>
 <h2>🕒 建議行程與時間配速</h2>
@@ -790,7 +851,9 @@ ishikawa-beta
         <div id="day6" class="day-section">
             <div class="day-content">
                 <h1>Day 6：屏東鵝鑾鼻 ➔ 台東太麻里 (壽卡大魔王挑戰與無敵海景)</h1>
-<h2>📍 路線總覽</h2>
+<div class="day-intro-grid">
+            <div class="day-intro-summary">
+                <h2>📍 路線總覽</h2>
 <ul>
 <li><strong>出發地</strong>：屏東鵝鑾鼻燈塔</li>
 <li><strong>目的地</strong>：台東太麻里車站</li>
@@ -802,11 +865,17 @@ ishikawa-beta
 <h3>🌍 Google Maps 導航與地圖預覽</h3>
 <h4>手機導航連結</h4>
 <p>👉 <strong><a href="https://www.google.com/maps/dir/?api=1&origin=%E5%B1%8F%E6%9D%B1%E9%B5%9D%E9%91%BE%E9%BC%BB%E7%87%88%E5%A1%94&destination=%E5%8F%B0%E6%9D%B1%E5%A4%AA%E9%BA%BB%E9%87%8C%E8%BB%8A%E7%AB%99&waypoints=%E5%B1%8F%E6%9D%B1%E9%A2%A8%E5%90%B9%E7%A0%82%7C%E5%B1%8F%E6%9D%B1%E5%A3%BD%E5%8D%A1%E9%90%B5%E9%A6%AC%E9%A9%9B%E7%AB%99%7C%E5%8F%B0%E6%9D%B1%E5%A4%9A%E8%89%AF%E8%BB%8A%E7%AB%99&travelmode=bicycling">點擊此處開啟 Day 6 壽卡大魔王導航（腳踏車模式）</a></strong></p>
-<h4>🗺️ 路線小地圖</h4>
+
+            </div>
+            <div class="day-intro-map">
+                <h4>🗺️ 路線小地圖</h4>
 <a href="https://www.google.com/maps/d/viewer?mid=您的專屬MyMapsID" target="_blank">
   <img src="./day6/day6_poster.png" alt="Day 6 路線預覽圖" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 </a>
-> 💡 *【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day6_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！*<hr>
+<blockquote><p><em>💡 【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day6_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！</em></p></blockquote>
+            </div>
+        </div>
+        <hr>
 <h2>🐟 詳細路線行程圖解</h2>
 <div class="mermaid">
 ishikawa-beta
@@ -836,7 +905,6 @@ ishikawa-beta
         🥤 7-11 滿州門市 進入山區前最後補給
         🏞️ 風吹砂 壯觀沙瀑地形
         🥤 7-11 鵝鑾鼻門市 出發前補水
-
 </div>
 <hr>
 <h2>🕒 建議行程與時間配速</h2>
@@ -895,7 +963,9 @@ ishikawa-beta
         <div id="day7" class="day-section">
             <div class="day-content">
                 <h1>Day 7：台東太麻里 ➔ 花蓮玉里 (花東縱谷稻浪之旅)</h1>
-<h2>📍 路線總覽</h2>
+<div class="day-intro-grid">
+            <div class="day-intro-summary">
+                <h2>📍 路線總覽</h2>
 <ul>
 <li><strong>出發地</strong>：台東太麻里車站</li>
 <li><strong>目的地</strong>：花蓮玉里車站</li>
@@ -907,11 +977,17 @@ ishikawa-beta
 <h3>🌍 Google Maps 導航與地圖預覽</h3>
 <h4>手機導航連結</h4>
 <p>👉 <strong><a href="https://www.google.com/maps/dir/?api=1&origin=%E5%8F%B0%E6%9D%B1%E5%A4%AA%E9%BA%BB%E9%87%8C%E8%BB%8A%E7%AB%99&destination=%E8%8A%B1%E8%93%AE%E7%8E%89%E9%87%8C%E8%BB%8A%E7%AB%99&waypoints=%E5%8F%B0%E6%9D%B1%E9%90%B5%E8%8A%B1%E6%9D%91%7C%E5%8F%B0%E6%9D%B1%E5%88%9D%E9%B9%BF%E7%89%A7%E5%A0%B4%7C%E5%8F%B0%E6%9D%B1%E9%B9%BF%E9%87%8E%E9%AB%98%E5%8F%B0%7C%E5%8F%B0%E6%9D%B1%E6%B1%A0%E4%B8%8A%E4%BC%AF%E6%9C%97%E5%A4%A7%E9%81%93&travelmode=bicycling">點擊此處開啟 Day 7 花東縱谷導航（腳踏車模式）</a></strong></p>
-<h4>🗺️ 路線小地圖</h4>
+
+            </div>
+            <div class="day-intro-map">
+                <h4>🗺️ 路線小地圖</h4>
 <a href="https://www.google.com/maps/d/viewer?mid=您的專屬MyMapsID" target="_blank">
   <img src="./day7/day7_poster.png" alt="Day 7 路線預覽圖" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 </a>
-> 💡 *【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day7_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！*<hr>
+<blockquote><p><em>💡 【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day7_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！</em></p></blockquote>
+            </div>
+        </div>
+        <hr>
 <h2>🐟 詳細路線行程圖解</h2>
 <div class="mermaid">
 ishikawa-beta
@@ -941,7 +1017,6 @@ ishikawa-beta
     ☕️ 第一段 補給景點
         🏞️ 鐵花村 台東市區文創聚落
         🥤 7-11 太麻里門市 出發前補給
-
 </div>
 <hr>
 <h2>🕒 建議行程與時間配速</h2>
@@ -1004,7 +1079,9 @@ ishikawa-beta
         <div id="day8" class="day-section">
             <div class="day-content">
                 <h1>Day 8：花蓮玉里 ➔ 宜蘭蘇澳 (縱谷北返與兩鐵接駁)</h1>
-<h2>📍 路線總覽</h2>
+<div class="day-intro-grid">
+            <div class="day-intro-summary">
+                <h2>📍 路線總覽</h2>
 <ul>
 <li><strong>出發地</strong>：花蓮玉里車站</li>
 <li><strong>目的地</strong>：宜蘭蘇澳新站（從花蓮搭火車接駁抵達）</li>
@@ -1019,11 +1096,17 @@ ishikawa-beta
 <blockquote>
 <p><em>(💡 抵達花蓮車站後，請搭乘火車前往終點蘇澳新站，避開危險的蘇花公路。)</em></p>
 </blockquote>
-<h4>🗺️ 路線小地圖</h4>
+
+            </div>
+            <div class="day-intro-map">
+                <h4>🗺️ 路線小地圖</h4>
 <a href="https://www.google.com/maps/d/viewer?mid=您的專屬MyMapsID" target="_blank">
   <img src="./day8/day8_poster.png" alt="Day 8 路線預覽圖" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 </a>
-> 💡 *【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day8_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！*<hr>
+<blockquote><p><em>💡 【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day8_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！</em></p></blockquote>
+            </div>
+        </div>
+        <hr>
 <h2>🐟 詳細路線行程圖解</h2>
 <div class="mermaid">
 ishikawa-beta
@@ -1052,7 +1135,6 @@ ishikawa-beta
     ☕️ 第一段 補給景點
         🏞️ 舞鶴北回歸線標誌公園 緩上坡後打卡點
         🏞️ 玉富自行車道 跨越歐亞與菲律賓海板塊
-
 </div>
 <hr>
 <h2>🕒 建議行程與時間配速</h2>
@@ -1109,7 +1191,9 @@ ishikawa-beta
         <div id="day9" class="day-section">
             <div class="day-content">
                 <h1>Day 9：宜蘭蘇澳 ➔ 新北金山 (東北角極東點與海岸奇岩)</h1>
-<h2>📍 路線總覽</h2>
+<div class="day-intro-grid">
+            <div class="day-intro-summary">
+                <h2>📍 路線總覽</h2>
 <ul>
 <li><strong>出發地</strong>：宜蘭蘇澳新站</li>
 <li><strong>目的地</strong>：新北金山老街</li>
@@ -1121,11 +1205,17 @@ ishikawa-beta
 <h3>🌍 Google Maps 導航與地圖預覽</h3>
 <h4>手機導航連結</h4>
 <p>👉 <strong><a href="https://www.google.com/maps/dir/?api=1&origin=%E5%AE%9C%E8%98%AD%E8%98%87%E6%BE%B3%E6%96%B0%E7%AB%99&destination=%E6%96%B0%E5%8C%97%E9%87%91%E5%B1%B1%E8%80%81%E8%A1%97&waypoints=%E6%96%B0%E5%8C%97%E8%88%8A%E8%8D%89%E5%B6%BA%E9%9A%A7%E9%81%93%7C%E6%96%B0%E5%8C%97%E7%A6%8F%E9%9A%86%E8%BB%8A%E7%AB%99%7C%E6%96%B0%E5%8C%97%E4%B8%89%E8%B2%82%E8%A7%92%E7%87%88%E5%A1%94%7C%E5%9F%BA%E9%9A%86%E5%A4%96%E6%9C%A8%E5%B1%B1%E6%BF%B1%E6%B5%B7%E5%BB%8A%E5%B8%B6&travelmode=bicycling">點擊此處開啟 Day 9 東北角極東導航（腳踏車模式）</a></strong></p>
-<h4>🗺️ 路線小地圖</h4>
+
+            </div>
+            <div class="day-intro-map">
+                <h4>🗺️ 路線小地圖</h4>
 <a href="https://www.google.com/maps/d/viewer?mid=您的專屬MyMapsID" target="_blank">
   <img src="./day9/day9_poster.png" alt="Day 9 路線預覽圖" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 </a>
-> 💡 *【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day9_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！*<hr>
+<blockquote><p><em>💡 【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day9_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！</em></p></blockquote>
+            </div>
+        </div>
+        <hr>
 <h2>🐟 詳細路線行程圖解</h2>
 <div class="mermaid">
 ishikawa-beta
@@ -1146,7 +1236,7 @@ ishikawa-beta
         台2線 福隆到貢寮
         太平洋海景與燈塔
     ☕️ 第二段 景點補給
-        🏞️ 三貂角燈塔 &lt;span class=&quot;blue-text&quot;&gt;四極點&lt;/span&gt;之極東點 必訪
+        🏞️ 三貂角燈塔 四極點之極東點 必訪
         🍔 福隆車站 中午大休 福隆便當
     第一段 穿山越嶺 25km
         台2線轉自行車道
@@ -1154,7 +1244,6 @@ ishikawa-beta
     ☕️ 第一段 補給景點
         🏞️ 舊草嶺隧道 涼爽的自行車專屬隧道
         🥤 7-11 蘇澳門市 出發前補水
-
 </div>
 <hr>
 <h2>🕒 建議行程與時間配速</h2>
@@ -1219,7 +1308,9 @@ ishikawa-beta
         <div id="day10" class="day-section">
             <div class="day-content">
                 <h1>Day 10：新北金山 ➔ 新北蘆洲 (極北點與光榮完騎)</h1>
-<h2>📍 路線總覽</h2>
+<div class="day-intro-grid">
+            <div class="day-intro-summary">
+                <h2>📍 路線總覽</h2>
 <ul>
 <li><strong>出發地</strong>：新北金山老街</li>
 <li><strong>目的地</strong>：新北蘆洲柳堤公園</li>
@@ -1231,11 +1322,17 @@ ishikawa-beta
 <h3>🌍 Google Maps 導航與地圖預覽</h3>
 <h4>手機導航連結</h4>
 <p>👉 <strong><a href="https://www.google.com/maps/dir/?api=1&origin=%E6%96%B0%E5%8C%97%E9%87%91%E5%B1%B1%E8%80%81%E8%A1%97&destination=%E6%96%B0%E5%8C%97%E8%98%86%E6%B4%B2%E6%9F%B3%E5%A0%A4%E5%85%AC%E5%9C%92&waypoints=%E6%96%B0%E5%8C%97%E7%9F%B3%E9%96%80%E6%B4%9E%7C%E6%96%B0%E5%8C%97%E5%AF%8C%E8%B2%B4%E8%A7%92%E7%87%88%E5%A1%94%7C%E6%96%B0%E5%8C%97%E6%B7%A1%E6%B0%B4%E8%80%81%E8%A1%97%7C%E6%96%B0%E5%8C%97%E5%85%AB%E9%87%8C%E5%B7%A6%E5%B2%B8%E8%87%AA%E8%A1%8C%E8%BB%8A%E9%81%93&travelmode=bicycling">點擊此處開啟 Day 10 榮耀歸途導航（腳踏車模式）</a></strong></p>
-<h4>🗺️ 路線小地圖</h4>
+
+            </div>
+            <div class="day-intro-map">
+                <h4>🗺️ 路線小地圖</h4>
 <a href="https://www.google.com/maps/d/viewer?mid=您的專屬MyMapsID" target="_blank">
   <img src="./day10/day10_poster.png" alt="Day 10 路線預覽圖" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 </a>
-> 💡 *【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day10_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！*<hr>
+<blockquote><p><em>💡 【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day10_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！</em></p></blockquote>
+            </div>
+        </div>
+        <hr>
 <h2>🐟 詳細路線行程圖解</h2>
 <div class="mermaid">
 ishikawa-beta
@@ -1257,10 +1354,9 @@ ishikawa-beta
         台2線 金山到石門
         北海岸奇石與燈塔
     ☕️ 第一段 補給景點
-        🏞️ 富貴角燈塔 &lt;span class=&quot;blue-text&quot;&gt;四極點&lt;/span&gt;之極北點 達成！
+        🏞️ 富貴角燈塔 四極點之極北點 達成！
         🏞️ 石門洞 天然海蝕洞奇觀
         🥤 7-11 金山門市 出發前補水
-
 </div>
 <hr>
 <h2>🕒 建議行程與時間配速</h2>
@@ -1313,7 +1409,11 @@ ishikawa-beta
     
     <script type="module">
         import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-        mermaid.initialize({ startOnLoad: true });
+        mermaid.initialize({
+            startOnLoad: true,
+            securityLevel: 'loose',
+            flowchart: { htmlLabels: true }
+        });
     </script>
 </body>
 </html>
