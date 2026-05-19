@@ -1,0 +1,3506 @@
+<?xml version="1.0" ?>
+<gpx xmlns="https://raw.githubusercontent.com/GIScience/openrouteservice-schema/main/gpx/v2/ors-gpx.xsd" version="1.1" creator="openrouteservice">
+  <metadata>
+    <name>openrouteservice directions</name>
+    <desc>This is a directions instructions file as GPX, generated from openrouteservice</desc>
+    <author>
+      <name>openrouteservice</name>
+      <email id="support" domain="openrouteservice.heigit.org"/>
+      <link href="https://openrouteservice.org/">
+        <text>https://openrouteservice.org/</text>
+        <type>text/html</type>
+      </link>
+    </author>
+    <copyright author="openrouteservice.org | OpenStreetMap contributors">
+      <year>2026</year>
+      <license>LGPL 3.0</license>
+    </copyright>
+    <time>2026-05-19T17:57:21.876Z</time>
+    <bounds maxlat="24.556467" maxlon="120.704371" minlat="24.256417" minlon="120.523225"/>
+    <extensions>
+      <system-message/>
+    </extensions>
+  </metadata>
+  <rte>
+    <rtept lat="24.556004" lon="120.703474">
+      <name/>
+      <desc>Head northeast</desc>
+      <extensions>
+        <distance>19.4</distance>
+        <duration>3.9</duration>
+        <type>11</type>
+        <step>0</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.556156" lon="120.703569">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>106.6</distance>
+        <duration>27.4</duration>
+        <type>1</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.556091" lon="120.703767">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>106.6</distance>
+        <duration>27.4</duration>
+        <type>1</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.556103" lon="120.703797">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>106.6</distance>
+        <duration>27.4</duration>
+        <type>1</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.556467" lon="120.704136">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>106.6</distance>
+        <duration>27.4</duration>
+        <type>1</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.556463" lon="120.704236">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>106.6</distance>
+        <duration>27.4</duration>
+        <type>1</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.556347" lon="120.704371">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.554613" lon="120.70291">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.553138" lon="120.701918">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.552567" lon="120.701492">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.55202" lon="120.701012">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.551483" lon="120.700485">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.550901" lon="120.699917">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.550543" lon="120.699626">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.550298" lon="120.699471">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.550203" lon="120.699409">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.5496" lon="120.699091">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.54921" lon="120.698957">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.548937" lon="120.698872">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.5481" lon="120.698593">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.546843" lon="120.698203">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.545828" lon="120.697885">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.545293" lon="120.697715">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.544884" lon="120.697606">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.544217" lon="120.697427">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.544069" lon="120.697366">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.543602" lon="120.697171">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.543332" lon="120.697086">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.543018" lon="120.69699">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.542721" lon="120.69689">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.54214" lon="120.696702">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.539671" lon="120.695924">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.539346" lon="120.695782">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.539289" lon="120.695759">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.538928" lon="120.695612">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.538" lon="120.69523">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.536948" lon="120.694872">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.536699" lon="120.694765">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.536465" lon="120.694682">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.536196" lon="120.694618">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.535073" lon="120.694354">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.533388" lon="120.693957">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.531668" lon="120.693654">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.530223" lon="120.693378">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.529664" lon="120.693291">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.528752" lon="120.693148">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.527564" lon="120.692854">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.527331" lon="120.692816">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.526592" lon="120.692695">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.525668" lon="120.692592">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.523727" lon="120.692374">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.523107" lon="120.692304">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.520691" lon="120.692045">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.517006" lon="120.691648">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.516583" lon="120.691595">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.515541" lon="120.69133">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.513987" lon="120.690928">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.512967" lon="120.690649">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.510107" lon="120.689913">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.509854" lon="120.689842">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.509543" lon="120.689755">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.508678" lon="120.689532">
+      <name>中山路, 1</name>
+      <desc>Turn right onto 中山路, 1</desc>
+      <extensions>
+        <distance>5823.0</distance>
+        <duration>1164.6</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.506643" lon="120.689011">
+      <name>中山路</name>
+      <desc>Keep right onto 中山路</desc>
+      <extensions>
+        <distance>301.6</distance>
+        <duration>60.3</duration>
+        <type>13</type>
+        <step>3</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.50646" lon="120.688871">
+      <name>中山路</name>
+      <desc>Keep right onto 中山路</desc>
+      <extensions>
+        <distance>301.6</distance>
+        <duration>60.3</duration>
+        <type>13</type>
+        <step>3</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.505349" lon="120.688302">
+      <name>中山路</name>
+      <desc>Keep right onto 中山路</desc>
+      <extensions>
+        <distance>301.6</distance>
+        <duration>60.3</duration>
+        <type>13</type>
+        <step>3</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.504748" lon="120.688035">
+      <name>中山路</name>
+      <desc>Keep right onto 中山路</desc>
+      <extensions>
+        <distance>301.6</distance>
+        <duration>60.3</duration>
+        <type>13</type>
+        <step>3</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.504173" lon="120.687795">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1730.4</distance>
+        <duration>346.1</duration>
+        <type>6</type>
+        <step>4</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.503789" lon="120.687621">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1730.4</distance>
+        <duration>346.1</duration>
+        <type>6</type>
+        <step>4</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.503505" lon="120.687456">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1730.4</distance>
+        <duration>346.1</duration>
+        <type>6</type>
+        <step>4</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.501755" lon="120.686745">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1730.4</distance>
+        <duration>346.1</duration>
+        <type>6</type>
+        <step>4</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.50124" lon="120.686495">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1730.4</distance>
+        <duration>346.1</duration>
+        <type>6</type>
+        <step>4</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.499307" lon="120.685342">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1730.4</distance>
+        <duration>346.1</duration>
+        <type>6</type>
+        <step>4</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.496927" lon="120.683502">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1730.4</distance>
+        <duration>346.1</duration>
+        <type>6</type>
+        <step>4</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.49648" lon="120.683145">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1730.4</distance>
+        <duration>346.1</duration>
+        <type>6</type>
+        <step>4</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.495189" lon="120.682113">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1730.4</distance>
+        <duration>346.1</duration>
+        <type>6</type>
+        <step>4</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.49442" lon="120.681482">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1730.4</distance>
+        <duration>346.1</duration>
+        <type>6</type>
+        <step>4</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.494188" lon="120.681252">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1730.4</distance>
+        <duration>346.1</duration>
+        <type>6</type>
+        <step>4</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.493227" lon="120.680206">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1730.4</distance>
+        <duration>346.1</duration>
+        <type>6</type>
+        <step>4</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.493053" lon="120.680077">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1730.4</distance>
+        <duration>346.1</duration>
+        <type>6</type>
+        <step>4</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.492858" lon="120.67998">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1730.4</distance>
+        <duration>346.1</duration>
+        <type>6</type>
+        <step>4</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.492084" lon="120.679661">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1730.4</distance>
+        <duration>346.1</duration>
+        <type>6</type>
+        <step>4</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.491856" lon="120.67951">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1730.4</distance>
+        <duration>346.1</duration>
+        <type>6</type>
+        <step>4</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.491412" lon="120.679155">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1730.4</distance>
+        <duration>346.1</duration>
+        <type>6</type>
+        <step>4</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.491163" lon="120.678943">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1730.4</distance>
+        <duration>346.1</duration>
+        <type>6</type>
+        <step>4</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.491048" lon="120.678871">
+      <name>中山路, 121</name>
+      <desc>Turn slight left onto 中山路, 121</desc>
+      <extensions>
+        <distance>305.4</distance>
+        <duration>61.1</duration>
+        <type>4</type>
+        <step>5</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.489749" lon="120.678421">
+      <name>中山路, 121</name>
+      <desc>Turn slight left onto 中山路, 121</desc>
+      <extensions>
+        <distance>305.4</distance>
+        <duration>61.1</duration>
+        <type>4</type>
+        <step>5</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.489298" lon="120.67826">
+      <name>中山路, 121</name>
+      <desc>Turn slight left onto 中山路, 121</desc>
+      <extensions>
+        <distance>305.4</distance>
+        <duration>61.1</duration>
+        <type>4</type>
+        <step>5</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.489127" lon="120.67822">
+      <name>中山路, 121</name>
+      <desc>Turn slight left onto 中山路, 121</desc>
+      <extensions>
+        <distance>305.4</distance>
+        <duration>61.1</duration>
+        <type>4</type>
+        <step>5</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.488905" lon="120.678163">
+      <name>中山路, 121</name>
+      <desc>Turn slight left onto 中山路, 121</desc>
+      <extensions>
+        <distance>305.4</distance>
+        <duration>61.1</duration>
+        <type>4</type>
+        <step>5</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.4884" lon="120.67821">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1130.5</distance>
+        <duration>226.1</duration>
+        <type>6</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.487434" lon="120.678355">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1130.5</distance>
+        <duration>226.1</duration>
+        <type>6</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.487175" lon="120.678393">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1130.5</distance>
+        <duration>226.1</duration>
+        <type>6</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.48696" lon="120.678396">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1130.5</distance>
+        <duration>226.1</duration>
+        <type>6</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.486796" lon="120.678369">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1130.5</distance>
+        <duration>226.1</duration>
+        <type>6</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.486427" lon="120.678157">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1130.5</distance>
+        <duration>226.1</duration>
+        <type>6</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.485969" lon="120.677604">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1130.5</distance>
+        <duration>226.1</duration>
+        <type>6</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.485312" lon="120.676624">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1130.5</distance>
+        <duration>226.1</duration>
+        <type>6</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.485" lon="120.676258">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1130.5</distance>
+        <duration>226.1</duration>
+        <type>6</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.484733" lon="120.676036">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1130.5</distance>
+        <duration>226.1</duration>
+        <type>6</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.484458" lon="120.675849">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1130.5</distance>
+        <duration>226.1</duration>
+        <type>6</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.484141" lon="120.675716">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1130.5</distance>
+        <duration>226.1</duration>
+        <type>6</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.483833" lon="120.675643">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1130.5</distance>
+        <duration>226.1</duration>
+        <type>6</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.48361" lon="120.675623">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1130.5</distance>
+        <duration>226.1</duration>
+        <type>6</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.48182" lon="120.675631">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1130.5</distance>
+        <duration>226.1</duration>
+        <type>6</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.480712" lon="120.675656">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1130.5</distance>
+        <duration>226.1</duration>
+        <type>6</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.480216" lon="120.675655">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1130.5</distance>
+        <duration>226.1</duration>
+        <type>6</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.479628" lon="120.675497">
+      <name>中山路, 苗37</name>
+      <desc>Continue straight onto 中山路, 苗37</desc>
+      <extensions>
+        <distance>1130.5</distance>
+        <duration>226.1</duration>
+        <type>6</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.479299" lon="120.675358">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.479096" lon="120.675159">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.47873" lon="120.674837">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.478339" lon="120.674483">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.478034" lon="120.674276">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.477087" lon="120.673775">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.47626" lon="120.673335">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.47548" lon="120.672861">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.475177" lon="120.67264">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.474909" lon="120.672455">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.474383" lon="120.672041">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.474053" lon="120.671708">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.473362" lon="120.670766">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.472722" lon="120.669834">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.471926" lon="120.668694">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.471733" lon="120.668428">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.471272" lon="120.667779">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.470745" lon="120.667102">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.470393" lon="120.666745">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.470035" lon="120.666426">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.469657" lon="120.666163">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.468702" lon="120.66574">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.468145" lon="120.665475">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.467859" lon="120.665314">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.466919" lon="120.664713">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.466426" lon="120.664445">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.466061" lon="120.664264">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.465671" lon="120.664079">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.465168" lon="120.663904">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.46466" lon="120.663733">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.464047" lon="120.663619">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.463766" lon="120.663556">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.462119" lon="120.66325">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.461375" lon="120.663121">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.46063" lon="120.662993">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.459262" lon="120.662732">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.45903" lon="120.662653">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.4588" lon="120.662537">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.458471" lon="120.662314">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.458025" lon="120.661952">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.457642" lon="120.661672">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.457571" lon="120.66161">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.457391" lon="120.661456">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.457212" lon="120.66127">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.456818" lon="120.660795">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.456523" lon="120.660463">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.45633" lon="120.660304">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.454923" lon="120.659339">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.454384" lon="120.658992">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.453952" lon="120.658588">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.452599" lon="120.657926">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.452085" lon="120.657701">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.45146" lon="120.657374">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.45118" lon="120.657218">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.451016" lon="120.657087">
+      <name>中山路, 1</name>
+      <desc>Turn slight right onto 中山路, 1</desc>
+      <extensions>
+        <distance>3776.0</distance>
+        <duration>755.2</duration>
+        <type>5</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.450845" lon="120.656921">
+      <name>中山路</name>
+      <desc>Turn left onto 中山路</desc>
+      <extensions>
+        <distance>10.1</distance>
+        <duration>2.0</duration>
+        <type>0</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.450763" lon="120.656963">
+      <name>中山路</name>
+      <desc>Turn right onto 中山路</desc>
+      <extensions>
+        <distance>657.6</distance>
+        <duration>131.5</duration>
+        <type>1</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.450673" lon="120.65692">
+      <name>中山路</name>
+      <desc>Turn right onto 中山路</desc>
+      <extensions>
+        <distance>657.6</distance>
+        <duration>131.5</duration>
+        <type>1</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.449919" lon="120.656323">
+      <name>中山路</name>
+      <desc>Turn right onto 中山路</desc>
+      <extensions>
+        <distance>657.6</distance>
+        <duration>131.5</duration>
+        <type>1</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.449577" lon="120.656058">
+      <name>中山路</name>
+      <desc>Turn right onto 中山路</desc>
+      <extensions>
+        <distance>657.6</distance>
+        <duration>131.5</duration>
+        <type>1</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.449287" lon="120.655905">
+      <name>中山路</name>
+      <desc>Turn right onto 中山路</desc>
+      <extensions>
+        <distance>657.6</distance>
+        <duration>131.5</duration>
+        <type>1</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.449089" lon="120.655805">
+      <name>中山路</name>
+      <desc>Turn right onto 中山路</desc>
+      <extensions>
+        <distance>657.6</distance>
+        <duration>131.5</duration>
+        <type>1</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.448429" lon="120.655474">
+      <name>中山路</name>
+      <desc>Turn right onto 中山路</desc>
+      <extensions>
+        <distance>657.6</distance>
+        <duration>131.5</duration>
+        <type>1</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.44782" lon="120.6551">
+      <name>中山路</name>
+      <desc>Turn right onto 中山路</desc>
+      <extensions>
+        <distance>657.6</distance>
+        <duration>131.5</duration>
+        <type>1</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.447657" lon="120.654993">
+      <name>中山路</name>
+      <desc>Turn right onto 中山路</desc>
+      <extensions>
+        <distance>657.6</distance>
+        <duration>131.5</duration>
+        <type>1</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.447231" lon="120.654691">
+      <name>中山路</name>
+      <desc>Turn right onto 中山路</desc>
+      <extensions>
+        <distance>657.6</distance>
+        <duration>131.5</duration>
+        <type>1</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.446986" lon="120.654434">
+      <name>中山路</name>
+      <desc>Turn right onto 中山路</desc>
+      <extensions>
+        <distance>657.6</distance>
+        <duration>131.5</duration>
+        <type>1</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.446848" lon="120.654188">
+      <name>中山路</name>
+      <desc>Turn right onto 中山路</desc>
+      <extensions>
+        <distance>657.6</distance>
+        <duration>131.5</duration>
+        <type>1</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.446675" lon="120.653867">
+      <name>中山路</name>
+      <desc>Turn right onto 中山路</desc>
+      <extensions>
+        <distance>657.6</distance>
+        <duration>131.5</duration>
+        <type>1</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.446393" lon="120.653315">
+      <name>中山路</name>
+      <desc>Turn right onto 中山路</desc>
+      <extensions>
+        <distance>657.6</distance>
+        <duration>131.5</duration>
+        <type>1</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.446234" lon="120.653135">
+      <name>中山路</name>
+      <desc>Turn right onto 中山路</desc>
+      <extensions>
+        <distance>657.6</distance>
+        <duration>131.5</duration>
+        <type>1</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.446209" lon="120.653072">
+      <name>中山路</name>
+      <desc>Turn left onto 中山路</desc>
+      <extensions>
+        <distance>973.6</distance>
+        <duration>194.7</duration>
+        <type>0</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.445965" lon="120.65298">
+      <name>中山路</name>
+      <desc>Turn left onto 中山路</desc>
+      <extensions>
+        <distance>973.6</distance>
+        <duration>194.7</duration>
+        <type>0</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.445238" lon="120.65264">
+      <name>中山路</name>
+      <desc>Turn left onto 中山路</desc>
+      <extensions>
+        <distance>973.6</distance>
+        <duration>194.7</duration>
+        <type>0</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.444364" lon="120.652232">
+      <name>中山路</name>
+      <desc>Turn left onto 中山路</desc>
+      <extensions>
+        <distance>973.6</distance>
+        <duration>194.7</duration>
+        <type>0</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.444101" lon="120.652116">
+      <name>中山路</name>
+      <desc>Turn left onto 中山路</desc>
+      <extensions>
+        <distance>973.6</distance>
+        <duration>194.7</duration>
+        <type>0</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.443421" lon="120.651819">
+      <name>中山路</name>
+      <desc>Turn left onto 中山路</desc>
+      <extensions>
+        <distance>973.6</distance>
+        <duration>194.7</duration>
+        <type>0</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.443337" lon="120.651781">
+      <name>中山路</name>
+      <desc>Turn left onto 中山路</desc>
+      <extensions>
+        <distance>973.6</distance>
+        <duration>194.7</duration>
+        <type>0</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.443271" lon="120.651752">
+      <name>中山路</name>
+      <desc>Turn left onto 中山路</desc>
+      <extensions>
+        <distance>973.6</distance>
+        <duration>194.7</duration>
+        <type>0</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.442298" lon="120.651299">
+      <name>中山路</name>
+      <desc>Turn left onto 中山路</desc>
+      <extensions>
+        <distance>973.6</distance>
+        <duration>194.7</duration>
+        <type>0</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.441358" lon="120.650857">
+      <name>中山路</name>
+      <desc>Turn left onto 中山路</desc>
+      <extensions>
+        <distance>973.6</distance>
+        <duration>194.7</duration>
+        <type>0</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.441232" lon="120.650783">
+      <name>中山路</name>
+      <desc>Turn left onto 中山路</desc>
+      <extensions>
+        <distance>973.6</distance>
+        <duration>194.7</duration>
+        <type>0</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.440463" lon="120.650451">
+      <name>中山路</name>
+      <desc>Turn left onto 中山路</desc>
+      <extensions>
+        <distance>973.6</distance>
+        <duration>194.7</duration>
+        <type>0</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.439428" lon="120.649979">
+      <name>中山路</name>
+      <desc>Turn left onto 中山路</desc>
+      <extensions>
+        <distance>973.6</distance>
+        <duration>194.7</duration>
+        <type>0</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.438702" lon="120.649628">
+      <name>中山路</name>
+      <desc>Turn left onto 中山路</desc>
+      <extensions>
+        <distance>973.6</distance>
+        <duration>194.7</duration>
+        <type>0</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.438318" lon="120.649422">
+      <name>中山路</name>
+      <desc>Turn left onto 中山路</desc>
+      <extensions>
+        <distance>973.6</distance>
+        <duration>194.7</duration>
+        <type>0</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.438132" lon="120.649373">
+      <name/>
+      <desc>Arrive at 中山路, on the right</desc>
+      <extensions>
+        <distance>0.0</distance>
+        <duration>0.0</duration>
+        <type>10</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.438132" lon="120.649373">
+      <name>中山路</name>
+      <desc>Head south on 中山路</desc>
+      <extensions>
+        <distance>781.3</distance>
+        <duration>156.3</duration>
+        <type>11</type>
+        <step>12</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.43808" lon="120.64936">
+      <name>中山路</name>
+      <desc>Head south on 中山路</desc>
+      <extensions>
+        <distance>781.3</distance>
+        <duration>156.3</duration>
+        <type>11</type>
+        <step>12</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.437681" lon="120.649348">
+      <name>中山路</name>
+      <desc>Head south on 中山路</desc>
+      <extensions>
+        <distance>781.3</distance>
+        <duration>156.3</duration>
+        <type>11</type>
+        <step>12</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.437497" lon="120.649359">
+      <name>中山路</name>
+      <desc>Head south on 中山路</desc>
+      <extensions>
+        <distance>781.3</distance>
+        <duration>156.3</duration>
+        <type>11</type>
+        <step>12</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.436672" lon="120.649347">
+      <name>中山路</name>
+      <desc>Head south on 中山路</desc>
+      <extensions>
+        <distance>781.3</distance>
+        <duration>156.3</duration>
+        <type>11</type>
+        <step>12</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.436422" lon="120.649341">
+      <name>中山路</name>
+      <desc>Head south on 中山路</desc>
+      <extensions>
+        <distance>781.3</distance>
+        <duration>156.3</duration>
+        <type>11</type>
+        <step>12</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.436293" lon="120.649298">
+      <name>中山路</name>
+      <desc>Head south on 中山路</desc>
+      <extensions>
+        <distance>781.3</distance>
+        <duration>156.3</duration>
+        <type>11</type>
+        <step>12</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.43615" lon="120.649204">
+      <name>中山路</name>
+      <desc>Head south on 中山路</desc>
+      <extensions>
+        <distance>781.3</distance>
+        <duration>156.3</duration>
+        <type>11</type>
+        <step>12</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.435321" lon="120.648421">
+      <name>中山路</name>
+      <desc>Head south on 中山路</desc>
+      <extensions>
+        <distance>781.3</distance>
+        <duration>156.3</duration>
+        <type>11</type>
+        <step>12</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.434632" lon="120.647751">
+      <name>中山路</name>
+      <desc>Head south on 中山路</desc>
+      <extensions>
+        <distance>781.3</distance>
+        <duration>156.3</duration>
+        <type>11</type>
+        <step>12</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.434272" lon="120.647438">
+      <name>中山路</name>
+      <desc>Head south on 中山路</desc>
+      <extensions>
+        <distance>781.3</distance>
+        <duration>156.3</duration>
+        <type>11</type>
+        <step>12</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.434155" lon="120.647352">
+      <name>中山路</name>
+      <desc>Head south on 中山路</desc>
+      <extensions>
+        <distance>781.3</distance>
+        <duration>156.3</duration>
+        <type>11</type>
+        <step>12</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.432969" lon="120.646712">
+      <name>中山路</name>
+      <desc>Head south on 中山路</desc>
+      <extensions>
+        <distance>781.3</distance>
+        <duration>156.3</duration>
+        <type>11</type>
+        <step>12</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.432036" lon="120.64612">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>18.9</distance>
+        <duration>3.8</duration>
+        <type>1</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.432011" lon="120.645935">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.431906" lon="120.6459">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.431754" lon="120.645851">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.431498" lon="120.645732">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.430758" lon="120.645301">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.42992" lon="120.644822">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.429268" lon="120.64445">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.42915" lon="120.644379">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.428874" lon="120.644246">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.428331" lon="120.644028">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.427283" lon="120.643818">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.426454" lon="120.643645">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.425113" lon="120.643438">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.424465" lon="120.643354">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.424339" lon="120.643338">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.422926" lon="120.643201">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.422649" lon="120.643173">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.422246" lon="120.64314">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.42198" lon="120.643112">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.421248" lon="120.643027">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.420456" lon="120.642938">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.419035" lon="120.642799">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.418807" lon="120.642776">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.418135" lon="120.64271">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.417461" lon="120.642702">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.416183" lon="120.642799">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.415592" lon="120.642854">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.415243" lon="120.642887">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.414599" lon="120.642945">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.414207" lon="120.642981">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.412615" lon="120.643126">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.411844" lon="120.643205">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.411586" lon="120.643231">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.410593" lon="120.643332">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.409711" lon="120.643379">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.409525" lon="120.643375">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.409291" lon="120.643383">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.408743" lon="120.643315">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.408453" lon="120.643238">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.407886" lon="120.643036">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.407232" lon="120.642748">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.406281" lon="120.642353">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.404482" lon="120.641575">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.403944" lon="120.641339">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.403623" lon="120.641259">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.403181" lon="120.641201">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.402669" lon="120.641256">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.402254" lon="120.641377">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.402082" lon="120.641463">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.401634" lon="120.641761">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.401348" lon="120.642021">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.400882" lon="120.642485">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.400285" lon="120.64318">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.398522" lon="120.64525">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.398175" lon="120.645613">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.397171" lon="120.646838">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.39614" lon="120.647758">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.39583" lon="120.647986">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.39529" lon="120.648359">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.394279" lon="120.648871">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.393884" lon="120.649">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.39169" lon="120.649834">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.391656" lon="120.649843">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.39012" lon="120.650448">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.388731" lon="120.650952">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.38843" lon="120.651045">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.388323" lon="120.65108">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.386934" lon="120.651506">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.385693" lon="120.651785">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.384635" lon="120.651854">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.384437" lon="120.651849">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.383634" lon="120.651828">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.382549" lon="120.651628">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.38198" lon="120.651453">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.381264" lon="120.651184">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.380494" lon="120.650812">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.380226" lon="120.650653">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.379523" lon="120.650197">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.378657" lon="120.649634">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.377983" lon="120.649213">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.376759" lon="120.648475">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.376654" lon="120.648422">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.374423" lon="120.647094">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.368789" lon="120.643512">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.36776" lon="120.642875">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.366545" lon="120.641981">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.36637" lon="120.641844">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.365851" lon="120.641421">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.363868" lon="120.639886">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.363458" lon="120.63947">
+      <name>縱貫公路, 1</name>
+      <desc>Turn left onto 縱貫公路, 1</desc>
+      <extensions>
+        <distance>8433.2</distance>
+        <duration>1686.6</duration>
+        <type>0</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.363248" lon="120.639197">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.363096" lon="120.639249">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.363059" lon="120.639256">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.362936" lon="120.639219">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.362803" lon="120.639137">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.361324" lon="120.638003">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.361254" lon="120.63795">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.360135" lon="120.637101">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.359739" lon="120.636788">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.357383" lon="120.635003">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.357135" lon="120.634723">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.357112" lon="120.634692">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.356931" lon="120.634448">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.356868" lon="120.634364">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.356317" lon="120.633496">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.356164" lon="120.63327">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.35593" lon="120.632925">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.355588" lon="120.632429">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.355362" lon="120.632085">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.354814" lon="120.631397">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.354187" lon="120.630671">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.353505" lon="120.629903">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.35298" lon="120.629322">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.352969" lon="120.629309">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.352695" lon="120.628996">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.35243" lon="120.628703">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.352204" lon="120.628467">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.351392" lon="120.627794">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.35118" lon="120.627643">
+      <name>東西八路一段, 中10</name>
+      <desc>Turn left onto 東西八路一段, 中10</desc>
+      <extensions>
+        <distance>1847.6</distance>
+        <duration>369.5</duration>
+        <type>0</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.350882" lon="120.627424">
+      <name>順天路</name>
+      <desc>Keep right onto 順天路</desc>
+      <extensions>
+        <distance>755.4</distance>
+        <duration>151.1</duration>
+        <type>13</type>
+        <step>16</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.350347" lon="120.627048">
+      <name>順天路</name>
+      <desc>Keep right onto 順天路</desc>
+      <extensions>
+        <distance>755.4</distance>
+        <duration>151.1</duration>
+        <type>13</type>
+        <step>16</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.349483" lon="120.62645">
+      <name>順天路</name>
+      <desc>Keep right onto 順天路</desc>
+      <extensions>
+        <distance>755.4</distance>
+        <duration>151.1</duration>
+        <type>13</type>
+        <step>16</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.348994" lon="120.626098">
+      <name>順天路</name>
+      <desc>Keep right onto 順天路</desc>
+      <extensions>
+        <distance>755.4</distance>
+        <duration>151.1</duration>
+        <type>13</type>
+        <step>16</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.348484" lon="120.625758">
+      <name>順天路</name>
+      <desc>Keep right onto 順天路</desc>
+      <extensions>
+        <distance>755.4</distance>
+        <duration>151.1</duration>
+        <type>13</type>
+        <step>16</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.347994" lon="120.625305">
+      <name>順天路</name>
+      <desc>Keep right onto 順天路</desc>
+      <extensions>
+        <distance>755.4</distance>
+        <duration>151.1</duration>
+        <type>13</type>
+        <step>16</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.34763" lon="120.624975">
+      <name>順天路</name>
+      <desc>Keep right onto 順天路</desc>
+      <extensions>
+        <distance>755.4</distance>
+        <duration>151.1</duration>
+        <type>13</type>
+        <step>16</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.347261" lon="120.624662">
+      <name>順天路</name>
+      <desc>Keep right onto 順天路</desc>
+      <extensions>
+        <distance>755.4</distance>
+        <duration>151.1</duration>
+        <type>13</type>
+        <step>16</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.346616" lon="120.624178">
+      <name>順天路</name>
+      <desc>Keep right onto 順天路</desc>
+      <extensions>
+        <distance>755.4</distance>
+        <duration>151.1</duration>
+        <type>13</type>
+        <step>16</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.3465" lon="120.624074">
+      <name>順天路</name>
+      <desc>Keep right onto 順天路</desc>
+      <extensions>
+        <distance>755.4</distance>
+        <duration>151.1</duration>
+        <type>13</type>
+        <step>16</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.345957" lon="120.623598">
+      <name>順天路</name>
+      <desc>Keep right onto 順天路</desc>
+      <extensions>
+        <distance>755.4</distance>
+        <duration>151.1</duration>
+        <type>13</type>
+        <step>16</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.345568" lon="120.623226">
+      <name>順天路</name>
+      <desc>Keep right onto 順天路</desc>
+      <extensions>
+        <distance>755.4</distance>
+        <duration>151.1</duration>
+        <type>13</type>
+        <step>16</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.345428" lon="120.623019">
+      <name/>
+      <desc>Turn sharp left</desc>
+      <extensions>
+        <distance>14.0</distance>
+        <duration>3.6</duration>
+        <type>2</type>
+        <step>17</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.345365" lon="120.623139">
+      <name>廟埕</name>
+      <desc>Turn left onto 廟埕</desc>
+      <extensions>
+        <distance>42.6</distance>
+        <duration>25.6</duration>
+        <type>0</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.345397" lon="120.623186">
+      <name>廟埕</name>
+      <desc>Turn left onto 廟埕</desc>
+      <extensions>
+        <distance>42.6</distance>
+        <duration>25.6</duration>
+        <type>0</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.345375" lon="120.623243">
+      <name>廟埕</name>
+      <desc>Turn left onto 廟埕</desc>
+      <extensions>
+        <distance>42.6</distance>
+        <duration>25.6</duration>
+        <type>0</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.345287" lon="120.623477">
+      <name>廟埕</name>
+      <desc>Turn left onto 廟埕</desc>
+      <extensions>
+        <distance>42.6</distance>
+        <duration>25.6</duration>
+        <type>0</type>
+        <step>18</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.345248" lon="120.623459">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>1.6</distance>
+        <duration>2.8</duration>
+        <type>0</type>
+        <step>19</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.345242" lon="120.623473">
+      <name/>
+      <desc>Arrive at your destination, on the right</desc>
+      <extensions>
+        <distance>0.0</distance>
+        <duration>0.0</duration>
+        <type>10</type>
+        <step>20</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.345242" lon="120.623473">
+      <name/>
+      <desc>Head northwest</desc>
+      <extensions>
+        <distance>1.6</distance>
+        <duration>2.8</duration>
+        <type>11</type>
+        <step>21</step>
+      </extensions>
+    </rtept>
+    <rtept lat="24.345248" lon="120.623459">
+      <name>廟埕</name>
+      <desc>Turn left onto 廟埕</desc>
+      <extensions>
+        <distance>10.5</distance>
+        <duration>6.3</duration>
+        <type>0</type>
+        <step>22</step>
+      </extensions>
+    </rtept>
+  </rte>
+</gpx>

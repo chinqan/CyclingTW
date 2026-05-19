@@ -1,0 +1,17 @@
+{
+  "day": 1,
+  "origin": "台北蘆洲柳堤公園",
+  "destination": "新竹 / 竹南",
+  "distance_km_range": [
+    80,
+    100
+  ],
+  "main_route_text": "台15線 → 台61線 (西濱公路)",
+  "must_visit_landmarks": [
+    "八里左岸",
+    "林口水牛坑",
+    "竹圍漁港",
+    "永安漁港",
+    "南寮漁港"
+  ]
+}

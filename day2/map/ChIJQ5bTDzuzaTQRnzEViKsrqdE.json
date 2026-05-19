@@ -1,0 +1,13 @@
+{
+  "place_id": "ChIJQ5bTDzuzaTQRnzEViKsrqdE",
+  "name_zh": "竹南車站",
+  "csv_type": "起終點",
+  "rating": 4.0,
+  "total_ratings": 1183,
+  "location": {
+    "lat": 24.686589,
+    "lng": 120.880563
+  },
+  "source": "day1_cache_reuse",
+  "target": "places"
+}

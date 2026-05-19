@@ -1,0 +1,15 @@
+{
+  "place_id": "ChIJ7Ws-1bOoQjQRehrUbGzlo1A",
+  "name": "蘆洲柳堤公園 (Liuti Park)",
+  "address": "247, Taiwan, New Taipei City, Luzhou District, Guangrong Rd, & 長樂路",
+  "location": { "lat": 25.088225, "lng": 121.4626333 },
+  "primary_type": "city_park",
+  "rating": 4.3,
+  "total_ratings": 1407,
+  "source": "search_result",
+  "fetched_at": "2026-05-20",
+  "csv_type": "起終點",
+  "bayesian_score": 4.29,
+  "visual_score": 13.51,
+  "reviews_summary": "蘆洲河濱公園，環島起點，有公廁與停車場，河岸景觀優美"
+}

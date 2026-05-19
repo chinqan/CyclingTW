@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ2c7VhvgxaDQR4RW0yDXK6uo",
+  "name": "No. 3 Cafe",
+  "address": "No. 627之1號, Wenxue Road, Bengang Village, Xinwu District, Taoyuan City, Taiwan 327",
+  "location": { "lat": 24.973184399, "lng": 121.015936 },
+  "primary_type": "restaurant",
+  "rating": 4.2,
+  "total_ratings": 3087,
+  "price_level": "PRICE_LEVEL_MODERATE",
+  "source": "search_result",
+  "fetched_at": "2026-05-20",
+  "csv_type": "未入選",
+  "not_selected_reason": "位於永安漁港南方約1.5km，評分4.2低於首選餐廳，且無漁港鮮食特色，不符環島補給氛圍",
+  "bayesian_score_estimate": 4.23,
+  "visual_score_estimate": null
+}

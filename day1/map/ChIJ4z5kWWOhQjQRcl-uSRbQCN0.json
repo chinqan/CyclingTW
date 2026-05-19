@@ -1,0 +1,19 @@
+{
+  "place_id": "ChIJ4z5kWWOhQjQRcl-uSRbQCN0",
+  "name": "水牛坑越野場地",
+  "address": "244, Taiwan, New Taipei City, Linkou District, Jiabao Village, 西部濱海公路625號",
+  "location": { "lat": 25.1198168, "lng": 121.3188263 },
+  "primary_type": "off_roading_area",
+  "rating": 4.2,
+  "total_ratings": 4737,
+  "opening_hours": { "open_now": true, "weekday_text": ["Monday: Open 24 hours", "Tuesday: Open 24 hours", "Wednesday: Open 24 hours", "Thursday: Open 24 hours", "Friday: Open 24 hours", "Saturday: Open 24 hours", "Sunday: Open 24 hours"] },
+  "phone": "",
+  "website": "",
+  "editorial_summary": "Rugged terrain popular for off-roading in 4x4 vehicles & motorbikes, plus patches where cows graze.",
+  "source": "place_details",
+  "fetched_at": "2026-05-20",
+  "csv_type": "景點",
+  "bayesian_score": 4.22,
+  "visual_score": 15.51,
+  "reviews_summary": "特殊峽谷地貌，有牛群放牧，靠近林口電廠，全天開放，沙地路況需注意輪胎"
+}

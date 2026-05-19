@@ -1,0 +1,54 @@
+# Day {{ day }}：{{ origin_short }} ➔ {{ destination_short }}（{{ places_data.route_name }}）
+
+---
+
+## 📍 路線總覽
+
+* **出發地**：{{ cfg.origin }}
+* **目的地**：{{ cfg.destination }}
+* **總距離**：約 {{ cfg.distance_km_range[0] }}–{{ cfg.distance_km_range[1] }} 公里
+* **總爬升**：{{ total_ascent_desc }}
+* **主要路線**：{{ main_route_desc }}
+
+---
+
+## 🌍 地圖與導航
+
+[📱 手機導航連結（Google Maps 單車模式）]({{ gmaps_dir_url }})
+
+#### 🗺️ 路線小地圖
+
+<a href="https://www.google.com/maps/d/viewer?mid=您的專屬MyMapsID" target="_blank">
+  <img src="./day{{ day }}_poster.png" alt="Day {{ day }} 路線預覽圖" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+</a>
+
+> 💡 *【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day{{ day }}_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！*
+
+---
+
+## 🐟 詳細路線行程圖解
+
+```mermaid
+{{ ishikawa }}
+```
+
+---
+
+## 🕒 建議行程與時間配速
+{% for seg in segments %}
+### 第{{ seg.cn_n }}段：{{ seg.title }}（約 {{ seg.distance_km }} km）｜{{ seg.subtitle }}
+
+**距離**：{{ seg.distance_km }} km
+**路況**：{{ seg.condition }}
+
+**景點與補給：**
+{% for stop in seg.stops -%}
+- {{ stop.emoji }} **{% if stop.time_or_label %}{{ stop.time_or_label }} {% endif %}{{ stop.name }}**{% if stop.location_desc %}（{{ stop.location_desc }}）{% endif %}：{{ stop.desc }}
+{% endfor %}
+---
+{% endfor %}
+## 💡 騎乘注意事項
+
+{% for note in notes -%}
+{{ loop.index }}. {{ note }}
+{% endfor %}

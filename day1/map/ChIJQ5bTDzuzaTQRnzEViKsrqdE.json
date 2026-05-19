@@ -1,0 +1,15 @@
+{
+  "place_id": "ChIJQ5bTDzuzaTQRnzEViKsrqdE",
+  "name": "竹南車站 (Zhunan Station)",
+  "address": "No. 166號, Zhongshan Rd, Zhunan Village, Zhunan Township, Miaoli County, Taiwan 350",
+  "location": { "lat": 24.686588999, "lng": 120.88056270 },
+  "primary_type": "train_station",
+  "rating": 4.0,
+  "total_ratings": 1183,
+  "source": "search_result",
+  "fetched_at": "2026-05-20",
+  "csv_type": "起終點",
+  "bayesian_score": 4.16,
+  "visual_score": 12.78,
+  "note": "★Day 1 終點。周邊有多間住宿旅館。可搭台鐵區間車或自強號。距南寮漁港約20km。"
+}

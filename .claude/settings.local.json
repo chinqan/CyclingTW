@@ -4,7 +4,18 @@
       "Bash(claude mcp *)",
       "WebFetch(domain:raw.githubusercontent.com)",
       "Bash(GOOGLE_MAPS_API_KEY=AIzaSyBi6Uebhw6tFgjK2G5E-9dblc9gHVP6ojM gtimeout 15 npx -y @cablate/mcp-google-map)",
-      "Bash(echo \"---exit=$?---\")"
+      "Bash(echo \"---exit=$?---\")",
+      "mcp__google-maps__maps_search_places",
+      "mcp__google-maps__maps_directions",
+      "mcp__google-maps__maps_place_details",
+      "mcp__openroute-mcp__create_route_from_to",
+      "Bash(python3 -c \"import jinja2; print\\('jinja2:', jinja2.__version__\\)\")",
+      "Bash(python3 scripts/plan.py parse-index 2)",
+      "Bash(python3 scripts/plan.py compute 2)",
+      "Bash(python3 scripts/plan.py write-csv 2)",
+      "Bash(python3 scripts/plan.py gpx-waypoints 2)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 scripts/plan.py render-prompt 2)"
     ]
   }
 }

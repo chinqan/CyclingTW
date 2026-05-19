@@ -1,0 +1,14 @@
+{
+  "place_id": "ChIJ-3KWK_cuaDQRsgsVtlyymIc",
+  "name_zh": "海晏漁村料理",
+  "csv_type": "餐廳大休",
+  "rating": 4.4,
+  "total_ratings": 481,
+  "location": {
+    "lat": 24.9887351,
+    "lng": 121.01834629
+  },
+  "source": "search_2026-05-20",
+  "target": "candidates_not_selected",
+  "note": "週一備案餐廳"
+}

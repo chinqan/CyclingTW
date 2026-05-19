@@ -1,0 +1,168 @@
+{
+  "day": 2,
+  "route_name": "西海岸媽祖巡禮｜竹南→鹿港",
+  "places": [
+    {
+      "place_id": "ChIJQ5bTDzuzaTQRnzEViKsrqdE",
+      "name_zh": "竹南車站",
+      "search_keyword": "竹南火車站 苗栗縣竹南鎮中山路166號",
+      "csv_type": "起終點",
+      "rating": 4.0,
+      "total_ratings": 1183,
+      "location": {
+        "lat": 24.686589,
+        "lng": 120.880563
+      },
+      "note": "早上07:00出發 本日起點 站前有早餐店",
+      "bayesian_score": 4.44
+    },
+    {
+      "place_id": "ChIJt_T27f6taTQRM70jWOQTflQ",
+      "name_zh": "7-ELEVEN 大山門市",
+      "search_keyword": "7-ELEVEN 大山門市 苗栗縣後龍鎮龍文路6號",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.6437605,
+        "lng": 120.807436
+      },
+      "note": "後龍北側補給 km約15",
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJVVVVVWWuaTQRsf_BtcIo5Yo",
+      "name_zh": "後龍好望角風景區",
+      "search_keyword": "後龍好望角風景區 苗栗縣後龍鎮",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 17664,
+      "location": {
+        "lat": 24.601974,
+        "lng": 120.731191
+      },
+      "note": "約08:30抵達 苗栗海岸最美觀景台 風車群俯瞰 km約22 短爬坡1-2km",
+      "bayesian_score": 4.44
+    },
+    {
+      "place_id": "ChIJH368vx-maTQR4_mX2mg8uds",
+      "name_zh": "7-ELEVEN 白沙屯門市",
+      "search_keyword": "7-ELEVEN 白沙屯門市 苗栗縣通霄鎮白東100號",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.5692224,
+        "lng": 120.7118692
+      },
+      "note": "拱天宮旁100m 補給點 km約35",
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJAQAAMB-maTQRqP6KozChaJ8",
+      "name_zh": "白沙屯拱天宮",
+      "search_keyword": "白沙屯拱天宮 苗栗縣通霄鎮白東里8號",
+      "csv_type": "景點",
+      "rating": 4.8,
+      "total_ratings": 21928,
+      "location": {
+        "lat": 24.5714321,
+        "lng": 120.7092177
+      },
+      "note": "約09:45抵達 全日最高評分景點 著名媽祖廟 km約35 ★主視覺候選",
+      "bayesian_score": 4.69
+    },
+    {
+      "place_id": "ChIJR-i8TSSmaTQR_m3wMwNABss",
+      "name_zh": "通霄精鹽廠 (台鹽通霄觀光園區)",
+      "search_keyword": "台鹽通霄觀光園區 苗栗縣通霄鎮內島里122號",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 7279,
+      "location": {
+        "lat": 24.5559494,
+        "lng": 120.7035802
+      },
+      "note": "約10:30抵達 免費觀光工廠 有鹹冰棒與公廁飲水機 km約50",
+      "bayesian_score": 4.34
+    },
+    {
+      "place_id": "ChIJdd6Dxp8JaTQRU2mMUHih2oI",
+      "name_zh": "7-ELEVEN 苑裡門市",
+      "search_keyword": "7-ELEVEN 苑裡門市 苗栗縣苑裡鎮房里北房8之9號",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.4381003,
+        "lng": 120.6495196
+      },
+      "note": "苑裡台1線補給 km約60",
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJ2ffC3wEOaTQR-YuV-iIXELk",
+      "name_zh": "大甲鎮瀾宮",
+      "search_keyword": "大甲鎮瀾宮 台中市大甲區順天路158號",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 17285,
+      "location": {
+        "lat": 24.3451924,
+        "lng": 120.6235944
+      },
+      "note": "12:00抵達 全台最著名媽祖廟之一 廟前商圈熱鬧 km約75",
+      "bayesian_score": 4.55
+    },
+    {
+      "place_id": "ChIJKwTxjR4RaTQR-3850tXAQqE",
+      "name_zh": "莫爾日嚐 MORE TASTE",
+      "search_keyword": "莫爾日嚐MORE TASTE 台中市大甲區中山路一段792-11號",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 480,
+      "location": {
+        "lat": 24.342945,
+        "lng": 120.6252398
+      },
+      "note": "12:00-13:30午餐大休 距鎮瀾宮約250m 評分4.8 備選: 龜鶴塘(4.8/407)",
+      "bayesian_score": 4.5
+    },
+    {
+      "place_id": "ChIJYXjnj2praTQR0Ml-Wz0rkcw",
+      "name_zh": "7-ELEVEN 港務門市",
+      "search_keyword": "7-ELEVEN 港務門市 台中市梧棲區中橫一路12號",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.2576027,
+        "lng": 120.5236803
+      },
+      "note": "梧棲區評分最高(4.5) 高美濕地前補給 km約88",
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJvYFhg4wTaTQR2evNLEQ1ZN8",
+      "name_zh": "高美濕地木棧道",
+      "search_keyword": "高美濕地木棧道 台中市清水區高西里",
+      "csv_type": "景點",
+      "rating": 4.7,
+      "total_ratings": 1331,
+      "location": {
+        "lat": 24.3122662,
+        "lng": 120.548809
+      },
+      "note": "16:00抵達 夕陽必訪木棧道 km約90 ★夕陽主視覺候選",
+      "bayesian_score": 4.51
+    },
+    {
+      "place_id": "ChIJbZ03BtZFaTQRVSahxk_O324",
+      "name_zh": "鹿港老街",
+      "search_keyword": "鹿港老街 彰化縣鹿港鎮埔頭街3號",
+      "csv_type": "起終點",
+      "rating": 4.5,
+      "total_ratings": 42109,
+      "location": {
+        "lat": 24.056301,
+        "lng": 120.4325817
+      },
+      "note": "18:00抵達 當日終點 蚵仔煎蝦猴麵茶 km約112",
+      "bayesian_score": 4.5
+    }
+  ],
+  "bayesian_C": 4.4875,
+  "bayesian_m": 12282
+}

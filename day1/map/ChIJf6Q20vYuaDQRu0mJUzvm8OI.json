@@ -1,0 +1,13 @@
+{
+  "place_id": "ChIJf6Q20vYuaDQRu0mJUzvm8OI",
+  "name": "7-ELEVEN 永安港門市",
+  "address": "No. 1148號, Section 3, Zhongshan W Rd, 新屋區 Xinwu District, Taoyuan City, Taiwan 327",
+  "location": { "lat": 24.9882131, "lng": 121.01853290 },
+  "primary_type": "convenience_store",
+  "rating": 4.4,
+  "total_ratings": 158,
+  "source": "search_result",
+  "fetched_at": "2026-05-20",
+  "csv_type": "便利商店",
+  "note": "km約70，距永安漁港200m，午餐後補給點"
+}

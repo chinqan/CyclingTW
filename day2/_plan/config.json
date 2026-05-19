@@ -1,0 +1,16 @@
+{
+  "day": 2,
+  "origin": "新竹 / 竹南",
+  "destination": "鹿港 / 彰化",
+  "distance_km_range": [
+    100,
+    115
+  ],
+  "main_route_text": "台61線 (西濱) → 台1線 → 台17線",
+  "must_visit_landmarks": [
+    "好望角",
+    "通霄精鹽廠",
+    "大甲鎮瀾宮",
+    "鹿港老街"
+  ]
+}

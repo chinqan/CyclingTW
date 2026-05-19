@@ -1,0 +1,14 @@
+{
+  "place_id": "ChIJH368vx-maTQR4_mX2mg8uds",
+  "name_zh": "7-ELEVEN 白沙屯門市",
+  "csv_type": "便利商店",
+  "rating": 4.0,
+  "total_ratings": 428,
+  "location": {
+    "lat": 24.5692224,
+    "lng": 120.7118692
+  },
+  "source": "search_2026-05-20",
+  "target": "places",
+  "note": "拱天宮旁100m"
+}

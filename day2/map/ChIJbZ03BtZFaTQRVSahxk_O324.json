@@ -1,0 +1,14 @@
+{
+  "place_id": "ChIJbZ03BtZFaTQRVSahxk_O324",
+  "name_zh": "鹿港老街",
+  "csv_type": "起終點",
+  "rating": 4.5,
+  "total_ratings": 42109,
+  "location": {
+    "lat": 24.056301,
+    "lng": 120.4325817
+  },
+  "source": "search_2026-05-20",
+  "target": "places",
+  "note": "當日終點 老街吃蚵仔煎蝦猴麵茶"
+}

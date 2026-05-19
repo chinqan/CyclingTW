@@ -1,0 +1,13 @@
+{
+  "place_id": "ChIJbyTPrfWlQjQRi8Cuce8nH-E",
+  "name": "7-ELEVEN 里商門市",
+  "address": "249, Taiwan, New Taipei City, Bali District, Shanggang 3rd Rd, 99號、101號1樓",
+  "location": { "lat": 25.1530647, "lng": 121.4019101 },
+  "primary_type": "convenience_store",
+  "rating": 4.5,
+  "total_ratings": 36,
+  "source": "search_result",
+  "fetched_at": "2026-05-20",
+  "csv_type": "便利商店",
+  "note": "km約18，離開八里前補給點"
+}

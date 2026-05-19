@@ -1,0 +1,305 @@
+{
+  "day": 1,
+  "route": "蘆洲柳堤公園 → 竹南車站",
+  "fetched_at": "2026-05-20 (re-plan)",
+  "bayesian_C": 4.29,
+  "bayesian_m": 1423,
+  "places": [
+    {
+      "place_id": "ChIJ7Ws-1bOoQjQRehrUbGzlo1A",
+      "name_zh": "蘆洲柳堤公園",
+      "csv_type": "起終點",
+      "rating": 4.3,
+      "total_ratings": 1407,
+      "bayesian_score": 4.29,
+      "visual_score": 13.51,
+      "location": {
+        "lat": 25.088225,
+        "lng": 121.4626333
+      },
+      "source": "search_result"
+    },
+    {
+      "place_id": "ChIJ_3VUnGilQjQR7qp73ndM8Cg",
+      "name_zh": "八里左岸自行車道",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 1423,
+      "bayesian_score": 4.34,
+      "visual_score": 13.68,
+      "location": {
+        "lat": 25.1511404,
+        "lng": 121.4429224
+      },
+      "source": "place_details"
+    },
+    {
+      "place_id": "ChIJbyTPrfWlQjQRi8Cuce8nH-E",
+      "name_zh": "7-ELEVEN 里商門市",
+      "csv_type": "便利商店",
+      "rating": 4.5,
+      "total_ratings": 36,
+      "bayesian_score": null,
+      "visual_score": null,
+      "location": {
+        "lat": 25.1530647,
+        "lng": 121.4019101
+      },
+      "source": "search_result"
+    },
+    {
+      "place_id": "ChIJ4z5kWWOhQjQRcl-uSRbQCN0",
+      "name_zh": "水牛坑越野場地",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 4737,
+      "bayesian_score": 4.22,
+      "visual_score": 15.51,
+      "location": {
+        "lat": 25.1198168,
+        "lng": 121.3188263
+      },
+      "source": "place_details"
+    },
+    {
+      "place_id": "ChIJAQAAAKyfQjQR7fhsd-lMPDU",
+      "name_zh": "竹圍漁港",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 41574,
+      "bayesian_score": 4.2,
+      "visual_score": 19.4,
+      "location": {
+        "lat": 25.117158,
+        "lng": 121.2444776
+      },
+      "source": "place_details",
+      "note": "★主視覺 visual_score最高"
+    },
+    {
+      "place_id": "ChIJdXu1usApaDQR1tmNr9AEy68",
+      "name_zh": "7-ELEVEN 大益門市",
+      "csv_type": "便利商店",
+      "rating": 4.2,
+      "total_ratings": 95,
+      "bayesian_score": null,
+      "visual_score": null,
+      "location": {
+        "lat": 25.030818999,
+        "lng": 121.0698247
+      },
+      "source": "search_result"
+    },
+    {
+      "place_id": "ChIJU9iHxPQuaDQR2v3_t-04zTU",
+      "name_zh": "永安漁港",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 38606,
+      "bayesian_score": 4.11,
+      "visual_score": 18.85,
+      "location": {
+        "lat": 24.987719,
+        "lng": 121.01578839
+      },
+      "source": "place_details"
+    },
+    {
+      "place_id": "ChIJxe6O0FIvaDQRPYMEXA0HqUM",
+      "name_zh": "江戶壽司（永安漁港）",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 534,
+      "bayesian_score": 4.43,
+      "visual_score": null,
+      "location": {
+        "lat": 24.9877247,
+        "lng": 121.01464919
+      },
+      "source": "place_details",
+      "note": "★午餐首選 週一公休"
+    },
+    {
+      "place_id": "ChIJf6Q20vYuaDQRu0mJUzvm8OI",
+      "name_zh": "7-ELEVEN 永安港門市",
+      "csv_type": "便利商店",
+      "rating": 4.4,
+      "total_ratings": 158,
+      "bayesian_score": null,
+      "visual_score": null,
+      "location": {
+        "lat": 24.9882131,
+        "lng": 121.0185329
+      },
+      "source": "search_result"
+    },
+    {
+      "place_id": "ChIJFxDjEO40aDQR8dbtyPOa_3M",
+      "name_zh": "新竹南寮漁港",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 1753,
+      "bayesian_score": 4.24,
+      "visual_score": 13.74,
+      "location": {
+        "lat": 24.8483333,
+        "lng": 120.9302778
+      },
+      "source": "place_details",
+      "note": "舊條目（1753則）。2026-05-20 發現更新條目 ChIJo69tyO40aDQReBjpbzodIuo（6813則），CSV 應優先採用新條目"
+    },
+    {
+      "place_id": "ChIJQ5bTDzuzaTQRnzEViKsrqdE",
+      "name_zh": "竹南車站",
+      "csv_type": "起終點",
+      "rating": 4.0,
+      "total_ratings": 1183,
+      "bayesian_score": 4.16,
+      "visual_score": 12.78,
+      "location": {
+        "lat": 24.686588999,
+        "lng": 120.8805627
+      },
+      "source": "search_result"
+    }
+  ],
+  "candidates_not_selected": [
+    {
+      "place_id": "ChIJk8qQWFWkQjQRmX_J3g-d-4E",
+      "name_zh": "商港公園（八里）",
+      "rating": 4.1,
+      "total_ratings": 1407,
+      "source": "place_details",
+      "not_selected_reason": "無特色視覺符號，八里左岸已涵蓋此段需求"
+    },
+    {
+      "place_id": "ChIJ6w3RQBelQjQRvs7idOzmH1I",
+      "name_zh": "十三行文化公園",
+      "rating": 4.4,
+      "total_ratings": 4390,
+      "visual_score_estimate": 16.02,
+      "source": "search_result",
+      "not_selected_reason": "位於八里左岸北端，與南下路線相反，需逆行繞路"
+    },
+    {
+      "place_id": "ChIJf9weG2alQjQRNlsOIbBhu6E",
+      "name_zh": "八里老街",
+      "rating": 4.2,
+      "total_ratings": 35328,
+      "visual_score_estimate": 19.1,
+      "source": "search_result",
+      "not_selected_reason": "visual_score高（19.10），但位於渡船頭碼頭需繞行≈1.5km，接近上限；未來改路線可優先考慮"
+    },
+    {
+      "place_id": "ChIJcZhVeAOlQjQRvj7a8XTvhVA",
+      "name_zh": "十三行博物館",
+      "rating": 4.3,
+      "total_ratings": 14094,
+      "visual_score_estimate": 16.5,
+      "source": "search_result",
+      "not_selected_reason": "需購票入場，週一休館，環島行程不適合長時間室內停留"
+    },
+    {
+      "place_id": "ChIJH-zUxBKfQjQRH38ogQYCsag",
+      "name_zh": "竹圍沙灘",
+      "rating": 4.3,
+      "total_ratings": 1090,
+      "visual_score_estimate": 12.91,
+      "source": "search_result",
+      "not_selected_reason": "與竹圍漁港重疊，已由漁港代表此區段"
+    },
+    {
+      "place_id": "ChIJacp-nvYuaDQRNhy2PF_5-BQ",
+      "name_zh": "永安漁港-中壢原味海鮮餐廳",
+      "rating": 4.0,
+      "total_ratings": 1016,
+      "source": "search_result",
+      "not_selected_reason": "評分偏低（4.0），輸給江戶壽司與海晏漁村料理"
+    },
+    {
+      "place_id": "ChIJ6UrtuxovaDQRRYmk3lJBlJ8",
+      "name_zh": "尚品雅宴農莊",
+      "rating": 4.4,
+      "total_ratings": 483,
+      "source": "search_result",
+      "not_selected_reason": "距台61線主線繞行超過午餐1km上限"
+    },
+    {
+      "place_id": "ChIJ2c7VhvgxaDQR4RW0yDXK6uo",
+      "name_zh": "No. 3 Cafe",
+      "rating": 4.2,
+      "total_ratings": 3087,
+      "source": "search_result",
+      "not_selected_reason": "評分低於首選餐廳，且無漁港鮮食特色"
+    },
+    {
+      "place_id": "ChIJo69tyO40aDQReBjpbzodIuo",
+      "name_zh": "新竹南寮漁港（新條目）",
+      "rating": 4.2,
+      "total_ratings": 6813,
+      "source": "search_result_2026-05-20",
+      "not_selected_reason": "與快取 ChIJFxDjEO40aDQR8dbtyPOa_3M（1753則）為同地點不同 GMaps 條目，此筆評論數更多，應優先採用"
+    },
+    {
+      "place_id": "ChIJXTIi5-k1aDQRmhDM-S0vTxw",
+      "name_zh": "新竹17公里海岸風景區",
+      "rating": 4.3,
+      "total_ratings": 3930,
+      "source": "search_result_2026-05-20",
+      "not_selected_reason": "緊鄰南寮漁港南側270m，同屬南寮海岸帶，不單獨設停靠點"
+    },
+    {
+      "place_id": "ChIJ_7k3YK81aDQRKemODMGM_P0",
+      "name_zh": "海天一線看海區",
+      "rating": 4.3,
+      "total_ratings": 2829,
+      "source": "search_result_2026-05-20",
+      "not_selected_reason": "南寮漁港南方約1.8km，台61線沿途景觀點，距主線 < 300m"
+    },
+    {
+      "place_id": "ChIJY-OlAOw0aDQRjfBy4mJvQHs",
+      "name_zh": "南寮階梯 Nanliao Stairway",
+      "rating": 4.2,
+      "total_ratings": 5911,
+      "source": "search_result_2026-05-20",
+      "not_selected_reason": "南寮漁港旁海堤階梯，觀景台型打卡點，已由南寮漁港代表此區段"
+    },
+    {
+      "place_id": "ChIJbfMgKLivQjQR8FocqCurHxg",
+      "name_zh": "關渡橋頭（八里左岸）",
+      "rating": 4.5,
+      "total_ratings": 446,
+      "source": "search_result_2026-05-20",
+      "not_selected_reason": "八里左岸北端關渡橋旁，評分 4.5 但評論數少（446），評論數中位數加權後優先度低於八里左岸自行車道主條目"
+    },
+    {
+      "place_id": "ChIJN-HNqzovaDQREp1r77jZEHc",
+      "name_zh": "永安海螺文化體驗園區",
+      "rating": 4.3,
+      "total_ratings": 2216,
+      "source": "search_result_2026-05-20",
+      "not_selected_reason": "永安漁港旁文化館，距主線 < 200m；評論數足但與永安漁港重疊，已由漁港代表此區段"
+    },
+    {
+      "place_id": "ChIJI1iQfUYvaDQRzOcaIQzMfvw",
+      "name_zh": "永安北岸觀海亭",
+      "rating": 4.4,
+      "total_ratings": 103,
+      "source": "search_result_2026-05-20",
+      "not_selected_reason": "永安漁港北岸觀景亭，評論數太少（103），加權後優先度低"
+    },
+    {
+      "place_id": "ChIJ-3KWK_cuaDQRsgsVtlyymIc",
+      "name_zh": "海晏漁村料理",
+      "csv_type": "餐廳大休",
+      "rating": 4.4,
+      "total_ratings": 481,
+      "location": {
+        "lat": 24.9887351,
+        "lng": 121.01834629
+      },
+      "source": "search_2026-05-20",
+      "note": "週一備案餐廳"
+    }
+  ]
+}

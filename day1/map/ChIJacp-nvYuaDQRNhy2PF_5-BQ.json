@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJacp-nvYuaDQRNhy2PF_5-BQ",
+  "name": "永安漁港-中壢原味海鮮餐廳",
+  "address": "327, Taiwan, Taoyuan City, Xinwu District, 新屋區永安里中山西路三段1165號永安漁港",
+  "location": { "lat": 24.9877267, "lng": 121.014639 },
+  "primary_type": "restaurant",
+  "rating": 4.0,
+  "total_ratings": 1016,
+  "price_level": "PRICE_LEVEL_MODERATE",
+  "source": "search_result",
+  "fetched_at": "2026-05-20",
+  "csv_type": "未入選",
+  "not_selected_reason": "位於永安漁港內，Bayesian分數低於江戶壽司（4.8）與海晏漁村料理（4.4），評分4.0偏低，未達午餐首選標準",
+  "bayesian_score_estimate": 4.09,
+  "visual_score_estimate": null
+}

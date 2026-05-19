@@ -1,0 +1,13 @@
+{
+  "place_id": "ChIJdXu1usApaDQR1tmNr9AEy68",
+  "name": "7-ELEVEN 大益門市",
+  "address": "328, Taiwan, Taoyuan City, Guanyin District, Datan Village, 濱海路大潭段22號22之1號",
+  "location": { "lat": 25.030818999, "lng": 121.0698247 },
+  "primary_type": "convenience_store",
+  "rating": 4.2,
+  "total_ratings": 95,
+  "source": "search_result",
+  "fetched_at": "2026-05-20",
+  "csv_type": "便利商店",
+  "note": "km約57，觀音大潭路段補給，台61線出口附近"
+}

@@ -1,0 +1,190 @@
+{
+  "day": 2,
+  "places": [
+    {
+      "place_id": "ChIJQ5bTDzuzaTQRnzEViKsrqdE",
+      "name_zh": "竹南車站",
+      "csv_type": "起終點",
+      "rating": 4.0,
+      "total_ratings": 1183,
+      "location": {
+        "lat": 24.686589,
+        "lng": 120.880563
+      },
+      "source": "day1_cache_reuse"
+    },
+    {
+      "place_id": "ChIJVVVVVWWuaTQRsf_BtcIo5Yo",
+      "name_zh": "後龍好望角風景區",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 17664,
+      "location": {
+        "lat": 24.601974,
+        "lng": 120.731191
+      },
+      "source": "search_2026-05-20",
+      "note": "苗栗海岸最美觀景台 短爬坡 可俯瞰風車群"
+    },
+    {
+      "place_id": "ChIJAQAAMB-maTQRqP6KozChaJ8",
+      "name_zh": "白沙屯拱天宮",
+      "csv_type": "景點",
+      "rating": 4.8,
+      "total_ratings": 21928,
+      "location": {
+        "lat": 24.5714321,
+        "lng": 120.7092177
+      },
+      "source": "search_2026-05-20",
+      "note": "全日最高評分景點 著名媽祖廟"
+    },
+    {
+      "place_id": "ChIJR-i8TSSmaTQR_m3wMwNABss",
+      "name_zh": "通霄精鹽廠 (台鹽通霄觀光園區)",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 7279,
+      "location": {
+        "lat": 24.5559494,
+        "lng": 120.7035802
+      },
+      "source": "search_2026-05-20",
+      "note": "免費觀光工廠 有鹹冰棒"
+    },
+    {
+      "place_id": "ChIJ2ffC3wEOaTQR-YuV-iIXELk",
+      "name_zh": "大甲鎮瀾宮",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 17285,
+      "location": {
+        "lat": 24.3451924,
+        "lng": 120.6235944
+      },
+      "source": "search_2026-05-20",
+      "note": "全台最著名媽祖廟 世界三大宗教慶典之一"
+    },
+    {
+      "place_id": "ChIJvYFhg4wTaTQR2evNLEQ1ZN8",
+      "name_zh": "高美濕地木棧道",
+      "csv_type": "景點",
+      "rating": 4.7,
+      "total_ratings": 1331,
+      "location": {
+        "lat": 24.3122662,
+        "lng": 120.548809
+      },
+      "source": "search_2026-05-20",
+      "note": "夕陽必訪 木棧道延伸入海 約16:00前抵達最佳"
+    },
+    {
+      "place_id": "ChIJbZ03BtZFaTQRVSahxk_O324",
+      "name_zh": "鹿港老街",
+      "csv_type": "起終點",
+      "rating": 4.5,
+      "total_ratings": 42109,
+      "location": {
+        "lat": 24.056301,
+        "lng": 120.4325817
+      },
+      "source": "search_2026-05-20",
+      "note": "當日終點 老街吃蚵仔煎蝦猴麵茶"
+    },
+    {
+      "place_id": "ChIJKwTxjR4RaTQR-3850tXAQqE",
+      "name_zh": "莫爾日嚐 MORE TASTE",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 480,
+      "location": {
+        "lat": 24.342945,
+        "lng": 120.6252398
+      },
+      "source": "search_2026-05-20",
+      "note": "大甲鎮瀾宮旁約250m 中午午餐首選"
+    },
+    {
+      "place_id": "ChIJt_T27f6taTQRM70jWOQTflQ",
+      "name_zh": "7-ELEVEN 大山門市",
+      "csv_type": "便利商店",
+      "rating": 4.3,
+      "total_ratings": 168,
+      "location": {
+        "lat": 24.6437605,
+        "lng": 120.807436
+      },
+      "source": "search_2026-05-20",
+      "note": "後龍北側補給"
+    },
+    {
+      "place_id": "ChIJH368vx-maTQR4_mX2mg8uds",
+      "name_zh": "7-ELEVEN 白沙屯門市",
+      "csv_type": "便利商店",
+      "rating": 4.0,
+      "total_ratings": 428,
+      "location": {
+        "lat": 24.5692224,
+        "lng": 120.7118692
+      },
+      "source": "search_2026-05-20",
+      "note": "拱天宮旁100m"
+    },
+    {
+      "place_id": "ChIJdd6Dxp8JaTQRU2mMUHih2oI",
+      "name_zh": "7-ELEVEN 苑裡門市",
+      "csv_type": "便利商店",
+      "rating": 4.0,
+      "total_ratings": 71,
+      "location": {
+        "lat": 24.4381003,
+        "lng": 120.6495196
+      },
+      "source": "search_2026-05-20",
+      "note": "苑裡台1線補給"
+    },
+    {
+      "place_id": "ChIJYXjnj2praTQR0Ml-Wz0rkcw",
+      "name_zh": "7-ELEVEN 港務門市",
+      "csv_type": "便利商店",
+      "rating": 4.5,
+      "total_ratings": 139,
+      "location": {
+        "lat": 24.2576027,
+        "lng": 120.5236803
+      },
+      "source": "search_2026-05-20",
+      "note": "梧棲區評分最高 高美濕地前補給"
+    }
+  ],
+  "candidates_not_selected": [
+    {
+      "place_id": "ChIJYd4sk1oTaTQRZ9Y5l-e_ijw",
+      "name_zh": "龜鶴塘",
+      "rating": 4.8,
+      "total_ratings": 407,
+      "source": "search_2026-05-20"
+    },
+    {
+      "place_id": "ChIJq0e4ZdgPaTQRC3F3zZ10X5Q",
+      "name_zh": "花義複合式餐飲",
+      "rating": 4.8,
+      "total_ratings": 502,
+      "source": "search_2026-05-20"
+    },
+    {
+      "place_id": "ChIJO3WTEYARaTQRrxBB7088Gf0",
+      "name_zh": "純粹綿綿冰",
+      "rating": 4.8,
+      "total_ratings": 732,
+      "source": "search_2026-05-20"
+    },
+    {
+      "place_id": "ChIJj5QoTFSvaTQRreiEuHiu9zE",
+      "name_zh": "山邊媽祖宮",
+      "rating": 4.8,
+      "total_ratings": 3365,
+      "source": "search_2026-05-20"
+    }
+  ]
+}

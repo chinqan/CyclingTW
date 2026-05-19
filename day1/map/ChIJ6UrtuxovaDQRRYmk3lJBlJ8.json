@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ6UrtuxovaDQRRYmk3lJBlJ8",
+  "name": "尚品雅宴農莊",
+  "address": "No. 915號, Section 2, Zhongshan W Rd, Xiatian Village, Xinwu District, Taoyuan City, Taiwan 327",
+  "location": { "lat": 24.983501399, "lng": 121.05634230 },
+  "primary_type": "restaurant",
+  "rating": 4.4,
+  "total_ratings": 483,
+  "price_level": "PRICE_LEVEL_MODERATE",
+  "source": "search_result",
+  "fetched_at": "2026-05-20",
+  "csv_type": "未入選",
+  "not_selected_reason": "位於永安漁港北方約4km處，距台61線主線繞行過遠（超過午餐1km繞行上限），且評論數低於江戶壽司",
+  "bayesian_score_estimate": 4.31,
+  "visual_score_estimate": null
+}
