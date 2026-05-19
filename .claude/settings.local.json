@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude mcp *)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(GOOGLE_MAPS_API_KEY=AIzaSyBi6Uebhw6tFgjK2G5E-9dblc9gHVP6ojM gtimeout 15 npx -y @cablate/mcp-google-map)",
+      "Bash(echo \"---exit=$?---\")"
+    ]
+  }
+}

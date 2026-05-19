@@ -85,13 +85,13 @@ CyclingTW/
 | 順序 | 沿途順序編號（從 1 開始） | `1` |
 | 類型 | 分類標籤（見下方類型表） | `起終點` |
 | 評分 | Google Maps 星等（1.0-5.0） | `4.5` |
-| 評論總數 | Google Maps 評論總數（直接填入 API 回傳數字 user_ratings_total） | `1250` |
+| 評論總數 | Google Maps 評論總數（直接填入 API 回傳數字 `total_ratings`，即 Google Places API 的 `user_ratings_total`） | `1250` |
 | bayesian_C | 當日參與評分點位的平均評分 | `4.3` |
 | bayesian_m | 當日參與評分點位的評論數中位數（最低採 100） | `800` |
 | bayesian_score | 依貝葉斯公式計算出的加權分數 | `4.37` |
 | 備註說明 | 補充資訊（預計抵達時間、設施、推薦原因） | `早上 07:00 出發，河濱出發點` |
 
-> ⚠️ **精確度要求與 API 節流**：調查「景點」、「起終點」、「餐廳大休」時，務必呼叫 `mcp_google-maps_maps_place_details` 取得 `user_ratings_total` 並填入 CSV，這是衡量熱門度的最客觀數據。尋找「便利商店」、「加油站」、「公共設施」等補給類型時，**嚴禁**呼叫 place_details，相關欄位直接留空。
+> ⚠️ **精確度要求與 API 節流**：調查「景點」、「起終點」、「餐廳大休」時，務必呼叫 `mcp_google-maps_maps_place_details` 取得 `total_ratings`（cablate MCP 對應 Google Places API 的 `user_ratings_total`）並填入 CSV，這是衡量熱門度的最客觀數據。尋找「便利商店」、「加油站」、「公共設施」等補給類型時，**嚴禁**呼叫 place_details，相關欄位直接留空。
 
 ### 類型分類
 
