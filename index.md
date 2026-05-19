@@ -1,6 +1,6 @@
 # 10天單車環島計畫 (四極點)
 
-![10天單車環島計畫封面](./output/imagegen/cyclingtw-cover-v2.png)
+![10天單車環島計畫封面](./output/imagegen/cyclingtw-cover_poster.png)
 
 | 天數 | 出發地 | 目的地 | 估計距離 | 推薦騎乘路線 (省道/縣道) | 四極點 / 景點 |
 | :--- | :--- | :--- | :--- | :--- | :--- |

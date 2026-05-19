@@ -6,6 +6,59 @@ const { marked } = require('marked');
 const indexMdPath = path.join(__dirname, 'index.md');
 const outputHtmlPath = path.join(__dirname, 'index.html');
 
+function preserveMermaidBlocks(markdown) {
+    const blocks = [];
+    const replacedMarkdown = markdown.replace(/```mermaid\r?\n([\s\S]*?)\r?\n```/g, (match, mermaidSource) => {
+        const placeholder = `@@MERMAID_BLOCK_${blocks.length}@@`;
+        blocks.push(mermaidSource);
+        return placeholder;
+    });
+
+    return { markdown: replacedMarkdown, blocks };
+}
+
+function restoreMermaidBlocks(html, blocks) {
+    return html.replace(/<p>@@MERMAID_BLOCK_(\d+)@@<\/p>/g, (match, index) => {
+        const mermaidSource = blocks[Number(index)];
+        return `<div class="mermaid">\n${mermaidSource}\n</div>`;
+    });
+}
+
+function emphasizeBlueWords(markdown) {
+    let updatedMarkdown = markdown;
+
+    blueWords.forEach(word => {
+        // The mermaid blocks are extracted before this runs, so these spans only affect regular markdown.
+        const regex = new RegExp(word, 'g');
+        updatedMarkdown = updatedMarkdown.replace(regex, `<span class="blue-text">${word}</span>`);
+    });
+
+    return updatedMarkdown;
+}
+
+function removePromptCompositionGuide(markdown) {
+    return markdown.replace(/^##\s+.*提示詞構圖指引[\s\S]*$/m, '').trimEnd();
+}
+
+function layoutDayIntro(html) {
+    return html.replace(
+        /(<h2>[^<]*路線總覽<\/h2>[\s\S]*?)(<h4>[^<]*路線小地圖<\/h4>[\s\S]*?)(<hr>\s*<h2>[^<]*詳細路線行程圖解<\/h2>)/,
+        `<div class="day-intro-grid">
+            <div class="day-intro-summary">
+                $1
+            </div>
+            <div class="day-intro-map">
+                $2
+            </div>
+        </div>
+        $3`
+    );
+}
+
+function renderMapReminders(html) {
+    return html.replace(/\n> 💡 \*(.*?)\*/g, '\n<blockquote><p><em>💡 $1</em></p></blockquote>');
+}
+
 
 let indexContent = fs.readFileSync(indexMdPath, 'utf-8');
 
@@ -22,12 +75,7 @@ const blueWords = [
     '極西點國聖燈塔'
 ];
 
-blueWords.forEach(word => {
-    // We only replace exact matches that are not already inside HTML tags if possible.
-    // Given the simple markdown, just global replace should work if we are careful.
-    const regex = new RegExp(word, 'g');
-    indexContent = indexContent.replace(regex, `<span class="blue-text">${word}</span>`);
-});
+indexContent = emphasizeBlueWords(indexContent);
 
 let mainHtml = marked.parse(indexContent);
 
@@ -36,24 +84,23 @@ for (let i = 1; i <= 10; i++) {
     const dayMdPath = path.join(__dirname, `day${i}`, `day${i}.md`);
     if (fs.existsSync(dayMdPath)) {
         let dayContent = fs.readFileSync(dayMdPath, 'utf-8');
-        // also color blue words in day content just in case
-        blueWords.forEach(word => {
-            const regex = new RegExp(word, 'g');
-            dayContent = dayContent.replace(regex, `<span class="blue-text">${word}</span>`);
-        });
+        dayContent = removePromptCompositionGuide(dayContent);
+        const mermaidPreserved = preserveMermaidBlocks(dayContent);
+        dayContent = mermaidPreserved.markdown;
+        dayContent = emphasizeBlueWords(dayContent);
         
         // Rename '魚骨圖' to '詳細路線行程圖解'
         dayContent = dayContent.replace(/魚骨圖 \(Ishikawa Diagram\)/g, '詳細路線行程圖解');
         dayContent = dayContent.replace(/Day (\d+) 路線魚骨圖/g, 'Day $1 詳細路線行程圖解');
         
         let dayHtmlParsed = marked.parse(dayContent);
+        dayHtmlParsed = restoreMermaidBlocks(dayHtmlParsed, mermaidPreserved.blocks);
         
         // Fix image paths (relative to the day directory, now from root)
         dayHtmlParsed = dayHtmlParsed.replace(/src="\.\//g, `src="./day${i}/`);
         dayHtmlParsed = dayHtmlParsed.replace(/href="\.\//g, `href="./day${i}/`);
-
-        // Convert mermaid code blocks to div.mermaid
-        dayHtmlParsed = dayHtmlParsed.replace(/<pre><code class="language-mermaid">([\s\S]*?)<\/code><\/pre>/g, '<div class="mermaid">\n$1\n</div>');
+        dayHtmlParsed = renderMapReminders(dayHtmlParsed);
+        dayHtmlParsed = layoutDayIntro(dayHtmlParsed);
 
         daysHtml += `
         <div id="day${i}" class="day-section">
@@ -124,6 +171,31 @@ const finalHtml = `<!DOCTYPE html>
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
+        .day-intro-grid {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+            gap: 28px;
+            align-items: start;
+            margin: 18px 0 34px;
+        }
+        .day-intro-summary,
+        .day-intro-map {
+            min-width: 0;
+        }
+        .day-intro-summary h2,
+        .day-intro-summary h3,
+        .day-intro-summary h4,
+        .day-intro-map h4 {
+            margin-top: 0;
+        }
+        .day-intro-map a {
+            display: block;
+        }
+        .day-intro-map img {
+            display: block;
+            width: 100%;
+            max-width: none;
+        }
         .back-to-top {
             display: inline-block;
             margin-top: 20px;
@@ -155,6 +227,18 @@ const finalHtml = `<!DOCTYPE html>
             color: #666;
             margin-left: 0;
         }
+        @media (max-width: 760px) {
+            body {
+                padding: 12px;
+            }
+            .day-section {
+                padding: 18px;
+            }
+            .day-intro-grid {
+                grid-template-columns: 1fr;
+                gap: 18px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -171,7 +255,11 @@ const finalHtml = `<!DOCTYPE html>
     
     <script type="module">
         import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-        mermaid.initialize({ startOnLoad: true });
+        mermaid.initialize({
+            startOnLoad: true,
+            securityLevel: 'loose',
+            flowchart: { htmlLabels: true }
+        });
     </script>
 </body>
 </html>
