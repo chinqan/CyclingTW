@@ -13,7 +13,7 @@ Claude 在對話中呼叫 MCP 工具（Google Maps / OpenRoute）取得資料並
     編輯 places.json **前**先用 score-pool 看分數做決策（pool_scores.json 是 SoT）
   - 不變式驗證：CSV 終點 = index.md 目的地
 
-子命令（共 15 個）：
+子命令：
   parse-index N            解析 index.md 第 N 天設定
   mirror-status N          列出 dayN/map/（本地鏡像）內容與候選池警告
   mirror-put N             [stdin] upsert 單筆 place 到本地鏡像
@@ -22,11 +22,10 @@ Claude 在對話中呼叫 MCP 工具（Google Maps / OpenRoute）取得資料並
   compute N                套用 pool_scores 到 places.json（缺失時自動觸發 score-pool）
   review N                 讀 pool_scores 顯示排名 + ★入選 + 替換建議
   write-csv N              產 dayN_mymap.csv（依 _plan/places.json）
-  gpx-save N               [stdin] 儲存單段 openroute GPX（短路線直出時用）
-  gpx-waypoints N          備案：依 places.json 座標產純航點 GPX（離線 / 無 MCP 時）
-  gpx-split-plan N         切割長路線為多段（避免 MCP 100KB 截斷）
-  gpx-append N --leg i     [stdin] 儲存第 i 段 openroute GPX
-  gpx-merge N              合併所有 leg 為最終 dayN_route.gpx
+  route N                  呼叫 OpenRouteService API 取整天路線，輸出 dayN_route.gpx
+                           （需設定 ORS_API_KEY 環境變數）
+  gpx-save N               [stdin] 儲存外部來源 GPX（備援用）
+  gpx-waypoints N          離線備案：依 places.json 座標產純航點 GPX
   render-prompt N          產 dayN_prompt.md；預設先從 _plan/places.json 重推
                            poster_vars.json 結構欄位（--no-sync 跳過）
   render-md N              產 dayN.md（依 _plan/places.json + segments.json）
@@ -96,10 +95,7 @@ from plan_lib.index_parser import cmd_parse_index
 from plan_lib.mirror import cmd_mirror_status, cmd_mirror_put, cmd_mirror_diff
 from plan_lib.bayesian import cmd_score_pool, cmd_compute, cmd_review
 from plan_lib.csv_out import cmd_write_csv
-from plan_lib.gpx import (
-    cmd_gpx_save, cmd_gpx_waypoints, cmd_gpx_split_plan,
-    cmd_gpx_append, cmd_gpx_fetch, cmd_gpx_merge,
-)
+from plan_lib.gpx import cmd_route, cmd_gpx_save, cmd_gpx_waypoints
 from plan_lib.render import cmd_render_prompt, cmd_render_md
 from plan_lib.cover import cmd_render_cover_prompt
 from plan_lib.dinner import (
@@ -126,26 +122,10 @@ def build_parser() -> argparse.ArgumentParser:
     add("compute",       cmd_compute,       "套用 pool_scores 到 places.json")
     add("review",        cmd_review,        "讀 pool_scores 顯示排名 + 替換建議")
     add("write-csv",     cmd_write_csv,     "產 dayN_mymap.csv")
-    add("gpx-save",      cmd_gpx_save,      "[stdin] 儲存 openroute GPX")
-    add("gpx-waypoints", cmd_gpx_waypoints, "備案：純航點 GPX")
+    add("route",         cmd_route,         "呼叫 ORS API 取整天路線 → dayN_route.gpx")
+    add("gpx-save",      cmd_gpx_save,      "[stdin] 儲存外部 GPX（備援）")
+    add("gpx-waypoints", cmd_gpx_waypoints, "離線備案：純航點 GPX")
 
-    def _nonneg_int(s: str) -> int:
-        v = int(s)
-        if v < 0:
-            raise argparse.ArgumentTypeError(f"必須 ≥ 0，收到 {v}")
-        return v
-
-    sp = add("gpx-split-plan", cmd_gpx_split_plan, "切割長路線為多段")
-    sp.add_argument("--max-waypoints", type=_nonneg_int, default=4,
-                    help="每段中間 waypoints 上限（預設 4；0 = 只有 from+to）")
-
-    sp = add("gpx-append", cmd_gpx_append, "[stdin] 儲存單段 GPX")
-    sp.add_argument("--leg", type=int, required=True, help="段次編號（從 1 開始）")
-
-    sp = add("gpx-fetch", cmd_gpx_fetch, "自動從 cwd 拾取最新 cycling-regular-*.gpx")
-    sp.add_argument("--leg", type=int, required=True, help="段次編號（從 1 開始）")
-
-    add("gpx-merge",     cmd_gpx_merge,     "合併所有 leg 為最終 GPX")
     add("dinner-status", cmd_dinner_status, "顯示 dayN/dinner_map/ 鏡像現況")
     add("dinner-put",    cmd_dinner_put,    "[stdin] upsert 餐廳到 dinner_map/ 鏡像")
     add("dinner-diff",   cmd_dinner_diff,   "[stdin] 比對 dinner_map/ 本地 vs 線上最新")

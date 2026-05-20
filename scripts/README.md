@@ -25,13 +25,13 @@
 
 | 原則 | 說明 |
 |:---|:---|
-| **腳本不打 API** | 所有 Google Maps / OpenRoute 呼叫都由 Claude 透過 MCP 工具發出，腳本只接收 JSON / GPX |
+| **腳本只打 ORS** | Google Maps 仍由 Claude 透過 MCP 取資料；OpenRouteService 改由腳本 `route` 子命令直接 HTTPS 呼叫（省 token、不分段） |
 | **本地鏡像 (write-through)** | 線上每次搜尋都要寫回 `dayN/map/`，**有就 upsert 成最新值**。本地會越用越完整，斷網也能分析 |
 | **先 diff 後 put** | 每次寫回前先用 `mirror-diff` 看 rating / 評論數有沒有變，**有變動要顯示給人看**再 upsert |
 | **Bayesian 動態重算** | C（候選池平均）與 m（評論數中位數）皆從當前點位重算，禁止硬編碼 |
 | **不變式驗證** | CSV 終點要對應 `index.md` 目的地、候選池規模要達標，違反時警告 |
 | **冪等** | 重跑同一命令結果一致，輸出檔可隨時覆蓋重生 |
-| **分階段可獨立執行** | 14 個子命令互相獨立，可單獨除錯 |
+| **分階段可獨立執行** | 各子命令互相獨立，可單獨除錯 |
 
 ---
 
@@ -41,14 +41,14 @@
 
 - Python 3.8+
 - `jinja2` 套件
-- Claude Code 中啟用以下 MCP server：
-  - `google-maps`（`mcp__google-maps__maps_search_places`、`mcp__google-maps__maps_place_details`）
-  - `openroute-mcp`（`mcp__openroute-mcp__create_route_from_to`）
+- Claude Code 中啟用 `google-maps` MCP server（`mcp__google-maps__maps_search_places`、`mcp__google-maps__maps_place_details`）
+- OpenRouteService API key（[免費註冊](https://openrouteservice.org/dev/#/signup)，2000 req/day），設為 `ORS_API_KEY` 環境變數
 
 ### 安裝
 
 ```bash
 pip install jinja2
+export ORS_API_KEY='your-key-here'   # 建議寫進 ~/.zshrc
 ```
 
 ### 驗證
@@ -80,9 +80,7 @@ CyclingTW/
     │   ├── pool_scores.json           # score-pool 產出（整池 Bayesian SoT）
     │   ├── places.json                # 點位順序 + Bayesian 結果
     │   ├── poster_vars.json           # 海報 5 變數
-    │   ├── segments.json              # 段落敘述/魚骨圖/注意事項
-    │   ├── gpx_split.json             # gpx-split-plan 產出
-    │   └── gpx_leg_*.gpx              # 每段 openroute 結果
+    │   └── segments.json              # 段落敘述/魚骨圖/注意事項
     │
     ├── map/                           # ← Google Maps 本地鏡像 DB
     │   ├── index.json                 # 索引（含入選/未入選名單）
@@ -223,14 +221,6 @@ CyclingTW/
 }
 ```
 
-### `_plan/gpx_split.json`（自動產出）
-
-由 `gpx-split-plan` 產出，列出每段路由請求的座標。
-
-### `_plan/gpx_leg_<i>.gpx`（自動產出）
-
-由 `gpx-append --leg <i>` 儲存的每段 openroute MCP 回應。
-
 ---
 
 ## 完整工作流（一天從零到產出）
@@ -357,26 +347,18 @@ python3 scripts/plan.py review 2
 
 ### Phase 2：GPX
 
-短路線（< 50 km）或不需轉彎指示時直接用備案：
+直接呼叫 ORS API 取完整路線（含轉彎軌跡）：
+
+```bash
+python3 scripts/plan.py route 2
+```
+
+需事先 `export ORS_API_KEY='your-key'`。台灣單日路線（≤ 50 個 waypoints）一次 request 就能完整回傳，不再需要分段。
+
+離線或無 API key 時的備案（純航點直線，無轉彎軌跡）：
 
 ```bash
 python3 scripts/plan.py gpx-waypoints 2
-```
-
-長路線（> 50 km）想要完整轉彎指示時用分段流程：
-
-```bash
-# 1. 規劃分段
-python3 scripts/plan.py gpx-split-plan 2 --max-waypoints 4
-
-# 2. Claude 對每段呼叫 openroute MCP（讀 _plan/gpx_split.json 取座標）
-#    每段把回應 pipe 給 gpx-append
-echo "$gpx_text_leg1" | python3 scripts/plan.py gpx-append 2 --leg 1
-echo "$gpx_text_leg2" | python3 scripts/plan.py gpx-append 2 --leg 2
-echo "$gpx_text_leg3" | python3 scripts/plan.py gpx-append 2 --leg 3
-
-# 3. 合併
-python3 scripts/plan.py gpx-merge 2
 ```
 
 ### Phase 3：海報提示詞
@@ -437,7 +419,7 @@ cat day2/map/index.json | python3 -m json.tool
 # 3. 後續流程完全相同
 python3 scripts/plan.py compute 2
 python3 scripts/plan.py write-csv 2
-python3 scripts/plan.py gpx-waypoints 2    # GPX 無 openroute，用航點 fallback
+python3 scripts/plan.py gpx-waypoints 2    # 無 ORS，用航點 fallback
 python3 scripts/plan.py render-prompt 2    # 需要先手寫 poster_vars.json
 python3 scripts/plan.py render-md 2        # 需要先手寫 segments.json
 ```
@@ -598,51 +580,31 @@ python3 scripts/plan.py <subcommand> <day_number> [options]
 **輸入**：`dayN/_plan/places.json` + `dayN/_plan/config.json`
 **輸出**：`dayN/dayN_mymap.csv`
 
+### `route N`
+
+從 `places.json` 讀座標，呼叫 OpenRouteService `cycling-regular` API（HTTPS POST，不經 MCP），輸出 `dayN_route.gpx`。回應為 GPX，已自動剝除 `<extensions>` 區塊並在 `<metadata>` 後注入 `<wpt>` 停靠點標記。
+
+**需求**：
+- `ORS_API_KEY` 環境變數（[免費註冊](https://openrouteservice.org/dev/#/signup)，2000 req/day）
+- `places.json` 點位數 ≤ 50（ORS cycling-regular 單次上限；台灣單日不會碰到）
+
+**座標品質檢查**：呼叫 API 前會驗證 bounding box（必在台灣範圍）/ 相鄰距離（≤ 40 km）/ 繞路（直線 ×1.5 內）/ 累積距離（≤ 直線 ×3），失敗即中止避免浪費 API 額度。
+
+**輸入**：`dayN/_plan/places.json`
+**輸出**：`dayN/dayN_route.gpx`
+
 ### `gpx-save N`
 
-從 stdin 讀 openroute MCP 回應（含 envelope），自動剝離 `[Resource from ...]` 前綴，存為 `dayN_route.gpx`。
-
-> **使用時機**：短路線（< 50 km）單次呼叫 openroute MCP 就能完整回傳的情境。長路線請改用 `gpx-split-plan` + `gpx-append` + `gpx-merge` 流程。
+從 stdin 讀外部來源 GPX 文字（自動剝除 envelope 與 `<extensions>`），存為 `dayN_route.gpx`。`route` 失敗時手動貼路線用的備援。
 
 **輸入**：stdin GPX 文字
 **輸出**：`dayN/dayN_route.gpx`
 
 ### `gpx-waypoints N`
 
-無 openroute MCP 時的備案：直接從 `places.json` 座標產出純航點 GPX（含 `<wpt>` + `<trkpt>`，但只是直線連接）。
+離線或無 `ORS_API_KEY` 時的備案：直接從 `places.json` 座標產出純航點 GPX（含 `<wpt>` + `<trkpt>`，但只是直線連接）。
 
 **輸入**：`dayN/_plan/places.json`
-**輸出**：`dayN/dayN_route.gpx`
-
-### `gpx-split-plan N --max-waypoints K`
-
-切割長路線為多段，每段最多 `K` 個中間 waypoints。相鄰段共用端點以確保軌跡連續。
-
-**參數**：
-- `--max-waypoints K`（預設 4，若仍截斷可降到 2）
-
-**輸入**：`dayN/_plan/places.json`
-**輸出**：`dayN/_plan/gpx_split.json` + stdout 顯示每段範圍
-
-### `gpx-append N --leg <i>`
-
-從 stdin 接收第 i 段的 openroute MCP 回應，存為 `_plan/gpx_leg_<i>.gpx`。
-
-**截斷保護**：偵測到沒有 `</gpx>` 閉合標籤時，會找到最後一個完整的 `</rtept>`，自動補上 `</rte></gpx>`，避免後續 merge 失敗。
-
-**參數**：
-- `--leg <i>`（必填，從 1 開始）
-
-**輸入**：stdin GPX 文字
-**輸出**：`dayN/_plan/gpx_leg_<i>.gpx`
-
-### `gpx-merge N`
-
-合併 `dayN/_plan/gpx_leg_*.gpx` 為最終的 `dayN_route.gpx`，包含：
-- 從 `places.json` 取得的 `<wpt>` 停靠點標記
-- 所有 leg 的 `<rtept>` 串成單一 `<trkseg>`
-
-**輸入**：`dayN/_plan/gpx_leg_*.gpx` + `dayN/_plan/places.json`
 **輸出**：`dayN/dayN_route.gpx`
 
 ### `render-prompt N [--no-sync]`
@@ -670,23 +632,15 @@ python3 scripts/plan.py <subcommand> <day_number> [options]
 
 ---
 
-## GPX 截斷與分段策略
+## GPX 來源選擇
 
-OpenRoute MCP 在 Claude Code 環境下會被 envelope 截斷在 **~97KB GPX / ~350 rtept** 上限。這是 harness 限制不是腳本問題。
+| 場景 | 建議 | 產出 |
+|:---|:---|:---|
+| 標準流程（有 `ORS_API_KEY`） | `route N` | 含轉彎軌跡的完整 GPX |
+| 離線、無 API key 或趕時間 | `gpx-waypoints N` | 純航點直線連接（2KB） |
+| 手動取得外部 GPX 文字 | `cat foo.gpx \| plan.py gpx-save N` | 原樣存檔 |
 
-### 選擇策略
-
-| 場景 | 建議 |
-|:---|:---|
-| 路線短（< 50km）或不需轉彎指示 | `gpx-waypoints`（純航點，2KB） |
-| 路線長（50–120km）想保留轉彎 | `gpx-split-plan` + `gpx-append` × N + `gpx-merge` |
-| 路線超長（> 150km） | `gpx-split-plan --max-waypoints 2`（切更多段） |
-
-### 分段後接縫
-
-由於每段都會被截在 ~97KB，可能在 leg 末端遺失最後幾 km 的軌跡。合併後接縫處會出現 1–10 km 的直線跳躍。**這不影響 GPX 在地圖 App 中的可用性**，因為 `<wpt>` 仍標記了所有實際停靠點。
-
-如需精確接縫，可在 `gpx-merge` 加入插值（目前未實作）。
+> **舊版註記**：先前因 Claude Code MCP envelope ~97KB 截斷限制，需要 `gpx-split-plan` + `gpx-append` × N + `gpx-merge` 三步驟。改成腳本直接呼叫 ORS API 之後，台灣單日路線（≤ 50 waypoints）一次 request 就能完整回傳，全部三個子命令已移除。
 
 ---
 
@@ -710,9 +664,22 @@ pip install jinja2
 
 `mirror-status` 提示候選池太小。技術上可以繼續，但 SOP 建議至少 2–3 個餐廳備案。請 Claude 再廣搜幾家，把結果 `mirror-put` 寫回本地。
 
-### `[info] ⚠️ GPX 被截斷，已自動補上閉合標籤`
+### `[error] 缺少 ORS_API_KEY 環境變數`
 
-正常情況。Openroute 回應被 MCP envelope 截斷，腳本已自動修復。最終 GPX 仍可用，只是接縫處有跳躍。
+`route` 需要 OpenRouteService API key：
+
+```bash
+export ORS_API_KEY='your-key-here'   # 建議寫進 ~/.zshrc
+```
+
+若不想申請 key，改用 `gpx-waypoints N` 產純航點 GPX。
+
+### `[error] ORS API HTTP 4xx/5xx`
+
+常見原因：
+- `403`：API key 無效或當日 2000 次額度用罄
+- `400 Could not find routable point`：某點座標落在水域 / 不可達道路上，重抓該點 Google Maps 座標
+- `500`：ORS 服務端問題，稍後重試或改用 `gpx-waypoints`
 
 ### `[error] places.json 缺少 bayesian_C/m`
 

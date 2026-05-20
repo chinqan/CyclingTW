@@ -216,15 +216,6 @@ def cmd_render_md(args):
     places = read_json(plan_dir(n) / "places.json")
     segments = read_json(plan_dir(n) / "segments.json")
 
-    # segments（行程敘事段）vs GPX leg（MCP 路由分段）為不同維度，提示避免混淆
-    seg_count = len(segments.get("segments", []))
-    split_file = plan_dir(n) / "gpx_split.json"
-    if seg_count and split_file.exists():
-        leg_count = len(read_json(split_file).get("legs", []))
-        if leg_count and seg_count != leg_count:
-            info(f"segments {seg_count} 段（行程敘事）≠ GPX {leg_count} legs（MCP 路由），"
-                 f"兩者為不同維度，無需一致")
-
     # ── ishikawa 格式驗證 ──
     ishikawa = segments.get("ishikawa", "")
     if ishikawa:

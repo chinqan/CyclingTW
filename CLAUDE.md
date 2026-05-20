@@ -2,7 +2,7 @@
 單日路線規劃改由 `scripts/plan.py` 取代舊 skill。指令流程與 Claude 需遵守的選點 / 搜尋關鍵字 / API 節流 / 撤退方案 / 主視覺等規則，全部寫在 `scripts/plan.py` 檔頭的模組 docstring，請執行前先閱讀。常用流程：
 1. `python3 scripts/plan.py parse-index N`
 2. Claude 透過 google-maps MCP 補搜停靠點 → `mirror-put` 寫回快取 → 編寫 `dayN/_plan/places.json`
-3. `compute N` → `write-csv N` → `gpx-split-plan N` → 對每段呼叫 openroute MCP → `gpx-append N --leg i` → `gpx-merge N`
+3. `compute N` → `write-csv N` → `route N`（需 `ORS_API_KEY` 環境變數；離線時改用 `gpx-waypoints N`）
 4. Claude 補 `dayN/_plan/segments.json`（段落、魚骨圖、注意事項）
 5. `render-prompt N` → `render-md N`
 
