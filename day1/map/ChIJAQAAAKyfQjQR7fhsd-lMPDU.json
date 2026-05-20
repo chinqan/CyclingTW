@@ -1,21 +1,13 @@
 {
   "place_id": "ChIJAQAAAKyfQjQR7fhsd-lMPDU",
-  "name": "竹圍漁港 (Zhuwei Fishing Harbor)",
-  "address": "337, Taiwan, Taoyuan City, Dayuan District, Shalun Village, 漁港路451巷25號",
-  "location": { "lat": 25.117158, "lng": 121.2444776 },
-  "primary_type": "fishing_pier",
-  "rating": 4.2,
-  "total_ratings": 41574,
-  "opening_hours": { "open_now": false, "weekday_text": ["Monday: 8:00 AM – 6:00 PM", "Tuesday: 8:00 AM – 6:00 PM", "Wednesday: 8:00 AM – 6:00 PM", "Thursday: 8:00 AM – 6:00 PM", "Friday: 8:00 AM – 6:00 PM", "Saturday: 8:00 AM – 6:00 PM", "Sunday: 8:00 AM – 6:00 PM"] },
-  "phone": "03 383 2308",
-  "website": "http://travel.tycg.gov.tw/zh-tw/Travel/Attraction/188",
-  "editorial_summary": "Redeveloped old fishing port with fish vendors & food preparation section, plus a rainbow bridge.",
-  "parking": { "freeParkingLot": true, "paidParkingLot": true, "freeStreetParking": true },
-  "source": "place_details",
-  "fetched_at": "2026-05-20",
+  "name_zh": "竹圍漁港",
   "csv_type": "景點",
-  "bayesian_score": 4.20,
-  "visual_score": 19.40,
-  "note": "★主視覺 visual_score最高。彩虹橋地標，可買海鮮帶至二樓餐廳加工。免費停車。有廁所。",
-  "reviews_summary": "彩虹橋地標漁港，海鮮新鮮，可在市場買魚請樓上餐廳代煮，免費停車，有廁所，距桃園機場15分鐘"
+  "rating": 4.2,
+  "total_ratings": 41576,
+  "location": {
+    "lat": 25.117158,
+    "lng": 121.2444776
+  },
+  "source": "place_details_2026-05-20",
+  "target": "places"
 }

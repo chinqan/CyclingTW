@@ -2,8 +2,8 @@
 """
 CyclingTW Day Planner — 半自動腳本工具
 =====================================
-搭配 cycling-day-route-planning skill 使用。Claude 在對話中呼叫 MCP 工具取得
-資料，並透過本腳本完成所有機械步驟（快取/Bayesian/CSV/GPX/模板渲染）。
+Claude 在對話中呼叫 MCP 工具（Google Maps / OpenRoute）取得資料並做選點判斷，
+本腳本負責所有機械步驟（快取維護 / Bayesian / CSV / GPX / 模板渲染）。
 
 設計原則：
   - 快取優先：所有 place_id 走 dayN/map/<pid>.json
@@ -21,7 +21,8 @@ CyclingTW Day Planner — 半自動腳本工具
   compute N                重算 Bayesian C/m/score，寫回 _plan/places.json
   write-csv N              產 dayN_mymap.csv（依 _plan/places.json）
   gpx-save N               [stdin] 儲存 GPX（Claude 由 openroute MCP 取得後 pipe）
-  render-prompt N          產 dayN_prompt.md（依 _plan/poster_vars.json）
+  render-prompt N          產 dayN_prompt.md；預設先從 _plan/places.json 重推
+                           poster_vars.json 結構欄位（--no-sync 跳過）
   render-md N              產 dayN.md（依 _plan/places.json + segments.json）
 
 每日工作目錄結構（自動建立）：
@@ -33,12 +34,62 @@ CyclingTW Day Planner — 半自動腳本工具
   │   └── poster_vars.json   ← Claude 決定的海報主視覺與 5 變數
   ├── map/                   ← 既有 place_details 快取
   └── dayN_*.{csv,gpx,md}    ← 最終產出
+
+================================================================================
+Claude 規劃時必須遵守的規則（plan.py 無法強制，但需在對話中執行）
+================================================================================
+
+[A] API 節流規定
+  - 僅對 csv_type ∈ {景點, 起終點, 餐廳大休} 呼叫 mcp_google-maps_maps_place_details
+    以取得 total_ratings。
+  - 對「便利商店 / 加油站 / 公共設施 / 綜合休息站」嚴禁呼叫 place_details，
+    這些類型的 rating / total_ratings 欄位直接留空。
+  - 規劃前先讀 dayN/map/index.json，已快取的 place_id 直接取用，不得重複呼叫。
+
+[B] 地點搜尋關鍵字撰寫原則（用於 places.json 的 search_keyword 與 mymap CSV）
+  - 便利商店：「品牌 + 門市名稱」                     例：7-ELEVEN 觀湖門市
+  - 加油站  ：「台灣中油 + 站名」                     例：台灣中油大園站
+  - 景點/漁港：「縣市 + 景點名」                       例：桃園永安漁港
+  - 公共設施：完整地址或附近知名地標
+  - 禁用模糊關鍵字：不要只寫「加油站」或「7-11」，必須具名
+
+[C] 單車視角選點原則
+  - 需求導向：每日需涵蓋補給（便利商店/飲水）、休息、景點觀光、午餐（餐廳大休）
+  - 距離與順路：
+      一般補給 / 公廁：距主線 ≤ 500m
+      午餐大休       ：距主線 ≤ 1 km
+      景點           ：距主線 ≤ 2 km
+    超過上限但屬 index.md 指定的必經景點或四極點：可納入但備註欄需註明繞行距離與原因
+  - 時間節奏：出發後 20-30km 安排第一次休息；中午時段安排有冷氣的午餐點
+  - 貝葉斯輔助：景點/起終點/餐廳大休 取得 rating + total_ratings 後計算 bayesian_score；
+    候選多時優先 bayesian_score 高者，再依補給節奏微調
+
+[D] 起終點不可錯置（render-prompt 已部分檢查，但選點時就要把關）
+  - 起點 = dayN_mymap.csv 順序第 1 筆 = 當日出發地
+  - 終點 = dayN_mymap.csv 順序最後 1 筆 = 當日目的地
+  - 不可把昨天或明天的點誤植為起終點，每天獨立確認
+
+[E] 撤退方案
+  - 每日 dayN.md 的「騎乘注意事項」段落，必須列出 ≥ 2-3 個可中途撤退搭火車的車站
+  - 撤退方案須附具體車站名稱與距離（例：「水尾火車站，距台61約3km」）
+
+[F] ★主視覺視覺辨識度
+  - main_visual 候選需有明確視覺符號才適合放海報：
+      燈塔、廟宇、老街、漁港、濕地、山景、海岸、車站建築、橋梁、特殊地貌
+  - 若 visual_score 最高點視覺辨識度不足（例如純評分高的咖啡廳、無外觀的小景點），
+    改選次高且具代表性的候選點
+  - 在 places.json 對應點的 note 末尾加 ` ★主視覺` 標記，render-prompt 會抓這個
+
+[G] 海報光線氛圍（poster_vars.json 的 lighting 欄位）
+  - 預設：柔和清晨明亮光線、清新藍天白雲
+  - 行程包含夕陽景點（如高美濕地、漁人碼頭夕照）：金色夕陽暖光、橘紅天空漸層、黃昏氛圍
 """
 from __future__ import annotations
 
 import argparse
 import csv
 import json
+import math
 import re
 import statistics
 import sys
@@ -74,7 +125,7 @@ def read_json(path: Path) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
 
 def write_json(path: Path, data: Any) -> None:
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 def read_stdin_json() -> Any:
     raw = sys.stdin.read()
@@ -390,7 +441,7 @@ def cmd_write_csv(args):
 
     out = day_dir(n) / f"day{n}_mymap.csv"
     with out.open("w", newline="", encoding="utf-8") as fp:
-        w = csv.writer(fp)
+        w = csv.writer(fp, lineterminator="\n")
         w.writerow(CSV_HEADERS)
         for i, p in enumerate(places, 1):
             rated = p.get("csv_type") in RATED_TYPES
@@ -574,12 +625,181 @@ def jenv() -> Environment:
         trim_blocks=False,
     )
 
+# ─── poster_vars 自動同步：places.json 是路線真相，render-prompt 一律重推 ───
+
+def _find_main_visual_place(places: list[dict]) -> dict | None:
+    """找 places 中標記 ★主視覺 的點；若無標記則以 visual_score 自動挑選。"""
+    for p in places:
+        if "★主視覺" in (p.get("note") or ""):
+            return p
+    cands = [p for p in places
+             if p.get("csv_type") in ("景點", "起終點")
+             and p.get("bayesian_score") is not None
+             and p.get("total_ratings")]
+    if not cands:
+        return None
+    return max(cands, key=lambda p: p["bayesian_score"] * math.log10(p["total_ratings"]))
+
+_CITY_RE = re.compile(r"([一-鿿]{1,3}[縣市])([一-鿿]{1,3})[區鄉鎮]")
+
+def _location_desc(place: dict) -> str:
+    """格式化為「縣市區「景點名」」；無法解析行政區時退回「縣市「景點名」」或「景點名」。
+    僅在 search_keyword 出現「○○縣/市 ▲▲區/鄉/鎮」結構時取行政區，避免誤匹配地名片段。"""
+    name = place.get("name_zh", "")
+    kw = place.get("search_keyword", "") or ""
+    m = _CITY_RE.search(kw)
+    if m:
+        return f"{m.group(1)}{m.group(2)}「{name}」" if name else m.group(1)
+    m2 = re.search(r"([一-鿿]{1,3}[縣市])", kw)
+    if m2:
+        return f"{m2.group(1)}「{name}」" if name else m2.group(1)
+    return f"「{name}」" if name else ""
+
+_ORIENT_AXES = {
+    "vertical_portrait_2_3":  ("ns",),   # 南北走向
+    "horizontal_landscape_3_2": ("ew",),  # 東西走向
+}
+
+def _axis_words(orientation: str, first_loc: dict, last_loc: dict) -> dict:
+    """依 orientation 與起終點座標決定方位用語。orientation 缺值時改以 lat/lng 較大差判斷。"""
+    dlat = first_loc["lat"] - last_loc["lat"]
+    dlng = first_loc["lng"] - last_loc["lng"]
+    axis = _ORIENT_AXES.get(orientation, (None,))[0]
+    if axis is None:
+        axis = "ns" if abs(dlat) >= abs(dlng) else "ew"
+    if axis == "ns":
+        first_pos, last_pos = ("畫面上方", "畫面下方") if dlat > 0 else ("畫面下方", "畫面上方")
+        first_side, last_side = ("北側", "南側") if dlat > 0 else ("南側", "北側")
+        small_corner = "右上方" if dlat > 0 else "右下方"
+    else:
+        first_pos, last_pos = ("畫面右側", "畫面左側") if dlng > 0 else ("畫面左側", "畫面右側")
+        first_side, last_side = ("東側", "西側") if dlng > 0 else ("西側", "東側")
+        small_corner = "右上方"
+    return {"first_pos": first_pos, "last_pos": last_pos,
+            "first_side": first_side, "last_side": last_side,
+            "small_corner": small_corner}
+
+def _derive_poster_vars(n: int) -> dict:
+    """從 places.json 同步 poster_vars.json 中由路線資料驅動的欄位。
+    一律覆寫：composition、geographic_notes、main_visual.place_id、small_avatar.place_id；
+              main_visual / small_avatar 的 location_desc 在 place_id 變動或缺值時重新生成。
+    保留：origin_label、destination_label、distance_range、subtitle、orientation、
+          lighting、allowed_elements、enhancement，以及 place_id 未變動時的手寫場景文字。
+    若 ★主視覺 / 起點 place_id 變動，會清空對應的 scene_elements / action / expression / scenario 並警告。"""
+    places_data = read_json(plan_dir(n) / "places.json")
+    places = places_data["places"]
+    if len(places) < 2:
+        die("places.json 至少需要 2 個點位（起點 + 終點）")
+    first, last = places[0], places[-1]
+
+    vars_path = plan_dir(n) / "poster_vars.json"
+    existing = read_json(vars_path) if vars_path.exists() else {}
+    out = dict(existing)
+    out.setdefault("day", n)
+
+    # 標籤類欄位：缺值才補預設，已有就尊重使用者編輯
+    cfg_path = plan_dir(n) / "config.json"
+    cfg = read_json(cfg_path) if cfg_path.exists() else {}
+    out.setdefault("origin_label", cfg.get("origin") or first.get("name_zh", ""))
+    out.setdefault("destination_label", cfg.get("destination") or last.get("name_zh", ""))
+    if "distance_range" not in out:
+        rng = cfg.get("distance_km_range") or [None, None]
+        if rng[0] and rng[1] and rng[0] != rng[1]:
+            out["distance_range"] = f"約 {rng[0]}–{rng[1]} 公里"
+        elif rng[0]:
+            out["distance_range"] = f"約 {rng[0]} 公里"
+    out.setdefault("subtitle", places_data.get("route_name", ""))
+    out.setdefault("orientation", "vertical_portrait_2_3")
+    out.setdefault("lighting", "柔和清晨明亮光線、清新藍天白雲")
+    out.setdefault("allowed_elements", "")
+    out.setdefault("enhancement", "")
+
+    axis = _axis_words(out["orientation"], first["location"], last["location"])
+
+    # main_visual：偵測 ★主視覺，place_id 變動才重設手寫文字
+    main_visual = _find_main_visual_place(places)
+    mv_old = dict(out.get("main_visual") or {})
+    if main_visual:
+        new_pid = main_visual["place_id"]
+        if mv_old.get("place_id") and mv_old["place_id"] != new_pid:
+            info(f"⚠️  ★主視覺已從 {mv_old.get('place_id')} 換為 {new_pid}"
+                 f"（{main_visual['name_zh']}），已清空 main_visual.scene_elements / action / expression")
+            mv = {"place_id": new_pid, "location_desc": _location_desc(main_visual),
+                  "scene_elements": "", "action": "", "expression": ""}
+        else:
+            mv = mv_old
+            mv["place_id"] = new_pid
+            if not mv.get("location_desc"):
+                mv["location_desc"] = _location_desc(main_visual)
+            mv.setdefault("scene_elements", "")
+            mv.setdefault("action", "")
+            mv.setdefault("expression", "")
+        out["main_visual"] = mv
+    else:
+        info("⚠️  places.json 找不到 ★主視覺 標記且無可評分候選，main_visual 維持現狀")
+
+    # small_avatar：第一筆 place_id 變動才重設手寫文字
+    sa_old = dict(out.get("small_avatar") or {})
+    first_pid = first.get("place_id")
+    if sa_old.get("place_id") and sa_old["place_id"] != first_pid:
+        info(f"⚠️  起點已從 {sa_old.get('place_id')} 換為 {first_pid}"
+             f"（{first['name_zh']}），已清空 small_avatar.scenario / action / expression")
+        sa = {"place_id": first_pid, "location_desc": _location_desc(first),
+              "scenario": "", "action": "", "expression": ""}
+    else:
+        sa = sa_old
+        sa["place_id"] = first_pid
+        if not sa.get("location_desc"):
+            sa["location_desc"] = _location_desc(first)
+        sa.setdefault("scenario", "")
+        sa.setdefault("action", "")
+        sa.setdefault("expression", "")
+    out["small_avatar"] = sa
+
+    # composition / geographic_notes：每次都依 places.json 與 orientation 重生
+    main_pid = (out.get("main_visual") or {}).get("place_id")
+    sub_landmarks = [
+        p["name_zh"] for p in places
+        if p.get("csv_type") == "景點"
+        and p.get("place_id") not in {first.get("place_id"), last.get("place_id"), main_pid}
+    ]
+    parts = [
+        "主角在畫面中央偏上",
+        f"{first['name_zh']}在{axis['small_corner']}小分身",
+        f"{last['name_zh']}在{axis['last_pos']}遠景",
+    ]
+    if sub_landmarks:
+        parts.append(f"沿途點綴{'、'.join(sub_landmarks)}")
+    out["composition"] = "、".join(parts)
+    out["geographic_notes"] = (
+        f"{first['name_zh']}在{axis['first_pos']}（{axis['first_side']}）、"
+        f"{last['name_zh']}在{axis['last_pos']}（{axis['last_side']}）"
+    )
+
+    write_json(vars_path, out)
+    return out
+
 def cmd_render_prompt(args):
     n = args.day
     vars_path = plan_dir(n) / "poster_vars.json"
-    if not vars_path.exists():
-        die(f"找不到 {vars_path.relative_to(ROOT)}")
-    vars = read_json(vars_path)
+    if args.no_sync:
+        if not vars_path.exists():
+            die(f"找不到 {vars_path.relative_to(ROOT)}")
+        vars = read_json(vars_path)
+    else:
+        vars = _derive_poster_vars(n)
+        info(f"已從 places.json 同步 {vars_path.relative_to(ROOT)}")
+        empty_fields = []
+        mv = vars.get("main_visual") or {}
+        for k in ("scene_elements", "action", "expression"):
+            if not mv.get(k):
+                empty_fields.append(f"main_visual.{k}")
+        sa = vars.get("small_avatar") or {}
+        for k in ("scenario", "action", "expression"):
+            if not sa.get(k):
+                empty_fields.append(f"small_avatar.{k}")
+        if empty_fields:
+            info(f"⚠️  以下手寫欄位為空，渲染後 prompt 會留白，請手動補入：{', '.join(empty_fields)}")
     tpl = jenv().get_template("prompt.md.j2")
     out = day_dir(n) / f"day{n}_prompt.md"
     out.write_text(tpl.render(**vars), encoding="utf-8")
@@ -631,7 +851,9 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("--leg", type=int, required=True, help="段次編號（從 1 開始）")
 
     add("gpx-merge",     cmd_gpx_merge,     "合併所有 leg 為最終 GPX")
-    add("render-prompt", cmd_render_prompt, "產 dayN_prompt.md")
+    sp = add("render-prompt", cmd_render_prompt, "產 dayN_prompt.md（預設先從 places.json 同步 poster_vars.json）")
+    sp.add_argument("--no-sync", action="store_true",
+                    help="跳過自動同步，僅以現有 poster_vars.json 渲染")
     add("render-md",     cmd_render_md,     "產 dayN.md")
     return p
 

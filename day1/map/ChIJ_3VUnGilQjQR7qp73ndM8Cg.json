@@ -1,20 +1,13 @@
 {
   "place_id": "ChIJ_3VUnGilQjQR7qp73ndM8Cg",
-  "name": "八里左岸自行車道",
-  "address": "Bali District, New Taipei City, Taiwan 249",
-  "location": { "lat": 25.1511404, "lng": 121.4429224 },
-  "primary_type": "tourist_attraction",
+  "name_zh": "八里左岸自行車道",
+  "csv_type": "景點",
   "rating": 4.4,
   "total_ratings": 1423,
-  "opening_hours": { "open_now": true, "weekday_text": ["Monday: Open 24 hours", "Tuesday: Open 24 hours", "Wednesday: Open 24 hours", "Thursday: Open 24 hours", "Friday: Open 24 hours", "Saturday: Open 24 hours", "Sunday: Open 24 hours"] },
-  "phone": "",
-  "website": "https://tour.ntpc.gov.tw/zh-tw/Attraction/Detail?wnd_id=60&id=110618",
-  "source": "place_details",
-  "fetched_at": "2026-05-20",
-  "csv_type": "景點",
-  "bayesian_score": 4.34,
-  "visual_score": 13.68,
-  "accessibility": { "wheelchairAccessibleParking": true, "wheelchairAccessibleEntrance": true },
-  "atmosphere": { "good_for_children": true, "restroom": true },
-  "reviews_summary": "河濱自行車道，連接八里至蘆洲，沿途有廁所，景色宜人，淡水河口壯觀"
+  "location": {
+    "lat": 25.1511404,
+    "lng": 121.4429224
+  },
+  "source": "place_details_2026-05-20",
+  "target": "places"
 }

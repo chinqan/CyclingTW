@@ -1,22 +1,27 @@
 {
-  "day": 1, "origin_label": "新北蘆洲", "destination_label": "苗栗竹南",
-  "distance_range": "約 100–110 公里", "subtitle": "西濱海岸線追風之旅",
+  "day": 1,
+  "origin_label": "新北蘆洲",
+  "destination_label": "苗栗竹南",
+  "distance_range": "約 100–110 公里",
+  "subtitle": "西濱海岸線追風之旅",
   "orientation": "vertical_portrait_2_3",
   "main_visual": {
     "location_desc": "新北市八里「八里左岸自行車道」",
     "scene_elements": "淡水河口壯觀海景、觀音山倒影映於水面、寬闊平坦的河濱自行車道延伸至遠方",
     "action": "騎著公路車在平坦自行車道上全速奔馳、迎著晨風享受河口壯景",
-    "expression": "開心、暢快、充滿活力"
+    "expression": "開心、暢快、充滿活力",
+    "place_id": "ChIJ_3VUnGilQjQR7qp73ndM8Cg"
   },
   "small_avatar": {
     "location_desc": "新北市蘆洲「蘆洲柳堤公園」",
     "scenario": "在河濱公園旁整裝出發、單車旁掛有補給袋與水壺",
     "action": "揮手準備南下出發",
-    "expression": "期待、興奮、準備南下"
+    "expression": "期待、興奮、準備南下",
+    "place_id": "ChIJ7Ws-1bOoQjQRehrUbGzlo1A"
   },
   "geographic_notes": "蘆洲柳堤公園在畫面上方（北側）、竹南車站在畫面下方（南側）",
   "allowed_elements": "淡水河口海岸線、台61線西濱公路縮小模型、漁港縮小模型、城市縮小模型",
-  "composition": "主角在畫面中央偏上、蘆洲柳堤公園在右上方小分身、竹南車站在畫面下方遠景、沿途點綴水牛坑、竹圍漁港、永安漁港、南寮漁港",
+  "composition": "主角在畫面中央偏上、蘆洲柳堤公園在右上方小分身、竹南車站在畫面下方遠景、沿途點綴水牛坑越野場地、竹圍漁港、永安漁港、新竹南寮漁港",
   "lighting": "柔和清晨明亮光線、清新藍天白雲",
   "enhancement": "畫面具有故事感與旅程感、呈現從台北蘆洲沿西濱海岸南下至苗栗竹南的單車旅程概念"
 }

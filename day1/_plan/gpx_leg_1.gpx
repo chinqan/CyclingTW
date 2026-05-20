@@ -1,0 +1,3436 @@
+<?xml version="1.0" ?>
+<gpx xmlns="https://raw.githubusercontent.com/GIScience/openrouteservice-schema/main/gpx/v2/ors-gpx.xsd" version="1.1" creator="openrouteservice">
+  <metadata>
+    <name>openrouteservice directions</name>
+    <desc>This is a directions instructions file as GPX, generated from openrouteservice</desc>
+    <author>
+      <name>openrouteservice</name>
+      <email id="support" domain="openrouteservice.heigit.org"/>
+      <link href="https://openrouteservice.org/">
+        <text>https://openrouteservice.org/</text>
+        <type>text/html</type>
+      </link>
+    </author>
+    <copyright author="openrouteservice.org | OpenStreetMap contributors">
+      <year>2026</year>
+      <license>LGPL 3.0</license>
+    </copyright>
+    <time>2026-05-20T03:59:31.730Z</time>
+    <bounds maxlat="25.164272" maxlon="121.465268" minlat="25.030741" minlon="121.068248"/>
+    <extensions>
+      <system-message/>
+    </extensions>
+  </metadata>
+  <rte>
+    <rtept lat="25.088572" lon="121.462579">
+      <name>光榮路</name>
+      <desc>Head east on 光榮路</desc>
+      <extensions>
+        <distance>310.1</distance>
+        <duration>62.0</duration>
+        <type>11</type>
+        <step>0</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.088581" lon="121.462649">
+      <name>光榮路</name>
+      <desc>Head east on 光榮路</desc>
+      <extensions>
+        <distance>310.1</distance>
+        <duration>62.0</duration>
+        <type>11</type>
+        <step>0</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.088651" lon="121.463096">
+      <name>光榮路</name>
+      <desc>Head east on 光榮路</desc>
+      <extensions>
+        <distance>310.1</distance>
+        <duration>62.0</duration>
+        <type>11</type>
+        <step>0</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.089256" lon="121.464249">
+      <name>光榮路</name>
+      <desc>Head east on 光榮路</desc>
+      <extensions>
+        <distance>310.1</distance>
+        <duration>62.0</duration>
+        <type>11</type>
+        <step>0</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.089488" lon="121.464654">
+      <name>光榮路</name>
+      <desc>Head east on 光榮路</desc>
+      <extensions>
+        <distance>310.1</distance>
+        <duration>62.0</duration>
+        <type>11</type>
+        <step>0</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.089867" lon="121.465268">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.090215" lon="121.465031">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.090954" lon="121.464528">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.091004" lon="121.46449">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.091107" lon="121.464429">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.091191" lon="121.464385">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.091331" lon="121.464297">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.09218" lon="121.463825">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.093212" lon="121.463238">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.093537" lon="121.463057">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.093769" lon="121.462958">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.094059" lon="121.462837">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.094602" lon="121.462615">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.095158" lon="121.462389">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.095437" lon="121.462279">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.09551" lon="121.46225">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.095738" lon="121.462163">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.096187" lon="121.462">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.096457" lon="121.461904">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.096798" lon="121.461779">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.096981" lon="121.461694">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.097099" lon="121.461595">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.097161" lon="121.461494">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.097236" lon="121.461252">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.097253" lon="121.461173">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.097266" lon="121.461109">
+      <name>中正路, 北125</name>
+      <desc>Turn left onto 中正路, 北125</desc>
+      <extensions>
+        <distance>957.7</distance>
+        <duration>191.5</duration>
+        <type>0</type>
+        <step>1</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.097313" lon="121.460956">
+      <name>二號越提道</name>
+      <desc>Turn right onto 二號越提道</desc>
+      <extensions>
+        <distance>141.8</distance>
+        <duration>28.4</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.097577" lon="121.460971">
+      <name>二號越提道</name>
+      <desc>Turn right onto 二號越提道</desc>
+      <extensions>
+        <distance>141.8</distance>
+        <duration>28.4</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.098084" lon="121.461263">
+      <name>二號越提道</name>
+      <desc>Turn right onto 二號越提道</desc>
+      <extensions>
+        <distance>141.8</distance>
+        <duration>28.4</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.098399" lon="121.461391">
+      <name>二號越提道</name>
+      <desc>Turn right onto 二號越提道</desc>
+      <extensions>
+        <distance>141.8</distance>
+        <duration>28.4</duration>
+        <type>1</type>
+        <step>2</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.098466" lon="121.461302">
+      <name>疏洪四路</name>
+      <desc>Turn left onto 疏洪四路</desc>
+      <extensions>
+        <distance>358.0</distance>
+        <duration>71.6</duration>
+        <type>0</type>
+        <step>3</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.098194" lon="121.460861">
+      <name>疏洪四路</name>
+      <desc>Turn left onto 疏洪四路</desc>
+      <extensions>
+        <distance>358.0</distance>
+        <duration>71.6</duration>
+        <type>0</type>
+        <step>3</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.098117" lon="121.460619">
+      <name>疏洪四路</name>
+      <desc>Turn left onto 疏洪四路</desc>
+      <extensions>
+        <distance>358.0</distance>
+        <duration>71.6</duration>
+        <type>0</type>
+        <step>3</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.097819" lon="121.459095">
+      <name>疏洪四路</name>
+      <desc>Turn left onto 疏洪四路</desc>
+      <extensions>
+        <distance>358.0</distance>
+        <duration>71.6</duration>
+        <type>0</type>
+        <step>3</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.097752" lon="121.458616">
+      <name>疏洪四路</name>
+      <desc>Turn left onto 疏洪四路</desc>
+      <extensions>
+        <distance>358.0</distance>
+        <duration>71.6</duration>
+        <type>0</type>
+        <step>3</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.097718" lon="121.458228">
+      <name>疏洪四路</name>
+      <desc>Turn left onto 疏洪四路</desc>
+      <extensions>
+        <distance>358.0</distance>
+        <duration>71.6</duration>
+        <type>0</type>
+        <step>3</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.097694" lon="121.457964">
+      <name>疏洪四路</name>
+      <desc>Turn left onto 疏洪四路</desc>
+      <extensions>
+        <distance>358.0</distance>
+        <duration>71.6</duration>
+        <type>0</type>
+        <step>3</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.09768" lon="121.4579">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>27.9</distance>
+        <duration>5.6</duration>
+        <type>1</type>
+        <step>4</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.0979" lon="121.457765">
+      <name>二重環狀自行車道</name>
+      <desc>Turn slight left onto 二重環狀自行車道</desc>
+      <extensions>
+        <distance>409.5</distance>
+        <duration>81.9</duration>
+        <type>4</type>
+        <step>5</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.098035" lon="121.4576">
+      <name>二重環狀自行車道</name>
+      <desc>Turn slight left onto 二重環狀自行車道</desc>
+      <extensions>
+        <distance>409.5</distance>
+        <duration>81.9</duration>
+        <type>4</type>
+        <step>5</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.098162" lon="121.457521">
+      <name>二重環狀自行車道</name>
+      <desc>Turn slight left onto 二重環狀自行車道</desc>
+      <extensions>
+        <distance>409.5</distance>
+        <duration>81.9</duration>
+        <type>4</type>
+        <step>5</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.098377" lon="121.457332">
+      <name>二重環狀自行車道</name>
+      <desc>Turn slight left onto 二重環狀自行車道</desc>
+      <extensions>
+        <distance>409.5</distance>
+        <duration>81.9</duration>
+        <type>4</type>
+        <step>5</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.098533" lon="121.457128">
+      <name>二重環狀自行車道</name>
+      <desc>Turn slight left onto 二重環狀自行車道</desc>
+      <extensions>
+        <distance>409.5</distance>
+        <duration>81.9</duration>
+        <type>4</type>
+        <step>5</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.098637" lon="121.457033">
+      <name>二重環狀自行車道</name>
+      <desc>Turn slight left onto 二重環狀自行車道</desc>
+      <extensions>
+        <distance>409.5</distance>
+        <duration>81.9</duration>
+        <type>4</type>
+        <step>5</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.098725" lon="121.45699">
+      <name>二重環狀自行車道</name>
+      <desc>Turn slight left onto 二重環狀自行車道</desc>
+      <extensions>
+        <distance>409.5</distance>
+        <duration>81.9</duration>
+        <type>4</type>
+        <step>5</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.098849" lon="121.45694">
+      <name>二重環狀自行車道</name>
+      <desc>Turn slight left onto 二重環狀自行車道</desc>
+      <extensions>
+        <distance>409.5</distance>
+        <duration>81.9</duration>
+        <type>4</type>
+        <step>5</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.099343" lon="121.456509">
+      <name>二重環狀自行車道</name>
+      <desc>Turn slight left onto 二重環狀自行車道</desc>
+      <extensions>
+        <distance>409.5</distance>
+        <duration>81.9</duration>
+        <type>4</type>
+        <step>5</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.100455" lon="121.455479">
+      <name>二重環狀自行車道</name>
+      <desc>Turn slight left onto 二重環狀自行車道</desc>
+      <extensions>
+        <distance>409.5</distance>
+        <duration>81.9</duration>
+        <type>4</type>
+        <step>5</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.100684" lon="121.455311">
+      <name>二重環狀自行車道</name>
+      <desc>Turn slight left onto 二重環狀自行車道</desc>
+      <extensions>
+        <distance>409.5</distance>
+        <duration>81.9</duration>
+        <type>4</type>
+        <step>5</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.100777" lon="121.45527">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>183.7</distance>
+        <duration>36.7</duration>
+        <type>1</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.100838" lon="121.455307">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>183.7</distance>
+        <duration>36.7</duration>
+        <type>1</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.101141" lon="121.455385">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>183.7</distance>
+        <duration>36.7</duration>
+        <type>1</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.101575" lon="121.455727">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>183.7</distance>
+        <duration>36.7</duration>
+        <type>1</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.10185" lon="121.455927">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>183.7</distance>
+        <duration>36.7</duration>
+        <type>1</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.102026" lon="121.456026">
+      <name/>
+      <desc>Turn right</desc>
+      <extensions>
+        <distance>183.7</distance>
+        <duration>36.7</duration>
+        <type>1</type>
+        <step>6</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.102228" lon="121.456095">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>149.7</distance>
+        <duration>29.9</duration>
+        <type>0</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.102253" lon="121.456013">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>149.7</distance>
+        <duration>29.9</duration>
+        <type>0</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.1026" lon="121.454905">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>149.7</distance>
+        <duration>29.9</duration>
+        <type>0</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.10267" lon="121.454813">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>149.7</distance>
+        <duration>29.9</duration>
+        <type>0</type>
+        <step>7</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.102734" lon="121.454732">
+      <name>八里左岸自行車道</name>
+      <desc>Turn right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>468.4</distance>
+        <duration>103.3</duration>
+        <type>1</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.103354" lon="121.455133">
+      <name>八里左岸自行車道</name>
+      <desc>Turn right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>468.4</distance>
+        <duration>103.3</duration>
+        <type>1</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.103767" lon="121.455439">
+      <name>八里左岸自行車道</name>
+      <desc>Turn right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>468.4</distance>
+        <duration>103.3</duration>
+        <type>1</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.104001" lon="121.455591">
+      <name>八里左岸自行車道</name>
+      <desc>Turn right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>468.4</distance>
+        <duration>103.3</duration>
+        <type>1</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.104243" lon="121.455675">
+      <name>八里左岸自行車道</name>
+      <desc>Turn right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>468.4</distance>
+        <duration>103.3</duration>
+        <type>1</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.104996" lon="121.455767">
+      <name>八里左岸自行車道</name>
+      <desc>Turn right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>468.4</distance>
+        <duration>103.3</duration>
+        <type>1</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.105756" lon="121.455838">
+      <name>八里左岸自行車道</name>
+      <desc>Turn right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>468.4</distance>
+        <duration>103.3</duration>
+        <type>1</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.105892" lon="121.455776">
+      <name>八里左岸自行車道</name>
+      <desc>Turn right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>468.4</distance>
+        <duration>103.3</duration>
+        <type>1</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.105909" lon="121.455768">
+      <name>八里左岸自行車道</name>
+      <desc>Turn right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>468.4</distance>
+        <duration>103.3</duration>
+        <type>1</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.106068" lon="121.455816">
+      <name>八里左岸自行車道</name>
+      <desc>Turn right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>468.4</distance>
+        <duration>103.3</duration>
+        <type>1</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.106588" lon="121.45596">
+      <name>八里左岸自行車道</name>
+      <desc>Turn right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>468.4</distance>
+        <duration>103.3</duration>
+        <type>1</type>
+        <step>8</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.106671" lon="121.45598">
+      <name>八里左岸自行車道</name>
+      <desc>Turn left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>17.1</distance>
+        <duration>3.4</duration>
+        <type>0</type>
+        <step>9</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.10678" lon="121.45586">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.106962" lon="121.455855">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.10713" lon="121.455882">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.107289" lon="121.45593">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.108557" lon="121.45618">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.109599" lon="121.456433">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.10981" lon="121.456507">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.110373" lon="121.456791">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.110694" lon="121.457206">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.110956" lon="121.457444">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.111191" lon="121.457645">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.111382" lon="121.457789">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.111655" lon="121.457995">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.111976" lon="121.458204">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.112234" lon="121.458413">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.112504" lon="121.458633">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.11254" lon="121.458655">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.112851" lon="121.458836">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.113301" lon="121.459003">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.113643" lon="121.459068">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.113792" lon="121.459072">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.113974" lon="121.459056">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.114225" lon="121.459009">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.114533" lon="121.458924">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.114874" lon="121.458788">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.115683" lon="121.45839">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.116198" lon="121.458298">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.1164" lon="121.458247">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.116666" lon="121.45819">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.117252" lon="121.458058">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.117633" lon="121.457923">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.117706" lon="121.457896">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.118021" lon="121.457769">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.118491" lon="121.457676">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.118687" lon="121.457687">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.118997" lon="121.45759">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.119154" lon="121.457522">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.119258" lon="121.457451">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.119355" lon="121.457363">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.119531" lon="121.457148">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.119591" lon="121.457099">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.119741" lon="121.456981">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.120075" lon="121.456797">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.120154" lon="121.456775">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.120382" lon="121.456775">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.120408" lon="121.456775">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.12064" lon="121.456729">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.120739" lon="121.456694">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.120822" lon="121.456658">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.121101" lon="121.456469">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.121269" lon="121.456394">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.121495" lon="121.45634">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.121575" lon="121.456301">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.122345" lon="121.455892">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.122648" lon="121.455597">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.12287" lon="121.455504">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.123094" lon="121.45538">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.123186" lon="121.455368">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight right onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2000.4</distance>
+        <duration>400.5</duration>
+        <type>5</type>
+        <step>10</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.123222" lon="121.455395">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.123272" lon="121.455385">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.123962" lon="121.454808">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.124226" lon="121.454648">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.124374" lon="121.454577">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.124427" lon="121.454519">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.124699" lon="121.454339">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.124868" lon="121.4543">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.125038" lon="121.454342">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.125248" lon="121.454467">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.125329" lon="121.454458">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.125383" lon="121.454389">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.125436" lon="121.454294">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.12554" lon="121.45413">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.12567" lon="121.454025">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.125757" lon="121.45398">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.125874" lon="121.453947">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.12608" lon="121.453945">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.12616" lon="121.453914">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.126258" lon="121.453865">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.126296" lon="121.453823">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.126391" lon="121.453621">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.126457" lon="121.453515">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.126504" lon="121.453473">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.127185" lon="121.453112">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.127315" lon="121.453055">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.127866" lon="121.452797">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.128066" lon="121.452719">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.128511" lon="121.452688">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.12858" lon="121.45269">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.128713" lon="121.45273">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.128867" lon="121.452672">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.129322" lon="121.452616">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.129519" lon="121.452512">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.129976" lon="121.452361">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.130055" lon="121.452349">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.130125" lon="121.452327">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.130232" lon="121.452239">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.130334" lon="121.452235">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.130438" lon="121.452274">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.13053" lon="121.452285">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.130707" lon="121.452371">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.130783" lon="121.452376">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.130995" lon="121.452307">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.131144" lon="121.452297">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.131859" lon="121.452385">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.131892" lon="121.452401">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.132009" lon="121.452429">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.132077" lon="121.452432">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.132145" lon="121.452456">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.132322" lon="121.452462">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.132344" lon="121.452414">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.13242" lon="121.452397">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.13251" lon="121.452435">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.132646" lon="121.452398">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.132722" lon="121.452356">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.132868" lon="121.45224">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.132895" lon="121.452233">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.133203" lon="121.452156">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.133375" lon="121.452152">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.133442" lon="121.452146">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.133541" lon="121.452124">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.133786" lon="121.452024">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.13398" lon="121.451971">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.134149" lon="121.451889">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.134186" lon="121.451815">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.134208" lon="121.451789">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.135391" lon="121.451318">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.135796" lon="121.450959">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.135973" lon="121.450825">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.136249" lon="121.450673">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.136738" lon="121.45045">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.137161" lon="121.450268">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.137329" lon="121.450219">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.137539" lon="121.450256">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.137675" lon="121.450201">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.137815" lon="121.450204">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.138061" lon="121.450137">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.1381" lon="121.450061">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.138135" lon="121.450037">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.138182" lon="121.450029">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.138254" lon="121.450039">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.138293" lon="121.450024">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.138874" lon="121.449744">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.138904" lon="121.449743">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.139283" lon="121.449592">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.140356" lon="121.449221">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.140447" lon="121.449165">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.141216" lon="121.448901">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.141343" lon="121.44886">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.141443" lon="121.448812">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.141576" lon="121.448778">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.141798" lon="121.448754">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.141844" lon="121.448747">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.142015" lon="121.448714">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.142187" lon="121.448649">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.14237" lon="121.448597">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.142555" lon="121.448494">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.142648" lon="121.448392">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.142783" lon="121.448321">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.142863" lon="121.448234">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.142965" lon="121.448124">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.14316" lon="121.447994">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.143357" lon="121.447893">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.143495" lon="121.447733">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.143781" lon="121.447448">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.144145" lon="121.447212">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.144201" lon="121.447195">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.144317" lon="121.447154">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.144617" lon="121.446991">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.144882" lon="121.446975">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.144949" lon="121.446938">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.144994" lon="121.446911">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.146199" lon="121.446384">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.146297" lon="121.446344">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.14659" lon="121.446291">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.146778" lon="121.446231">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.146939" lon="121.446158">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.147089" lon="121.446058">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.147643" lon="121.445777">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.147819" lon="121.445637">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.147873" lon="121.445583">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.148123" lon="121.445298">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.148149" lon="121.445121">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.148268" lon="121.444984">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.148729" lon="121.444747">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.14884" lon="121.444636">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.148917" lon="121.444622">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.148949" lon="121.444632">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.14899" lon="121.444624">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.149209" lon="121.444466">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.149572" lon="121.444178">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.1498" lon="121.443965">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.149957" lon="121.443849">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.150024" lon="121.443793">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.150081" lon="121.443745">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.150292" lon="121.443644">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.150411" lon="121.443485">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.150553" lon="121.443412">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.151062" lon="121.44299">
+      <name>八里左岸自行車道</name>
+      <desc>Turn slight left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>3482.9</distance>
+        <duration>710.6</duration>
+        <type>4</type>
+        <step>11</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.151115" lon="121.442975">
+      <name/>
+      <desc>Turn left</desc>
+      <extensions>
+        <distance>5.9</distance>
+        <duration>3.5</duration>
+        <type>0</type>
+        <step>12</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.151131" lon="121.442919">
+      <name/>
+      <desc>Arrive at your destination, on the left</desc>
+      <extensions>
+        <distance>0.0</distance>
+        <duration>0.0</duration>
+        <type>10</type>
+        <step>13</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.151131" lon="121.442919">
+      <name/>
+      <desc>Head east</desc>
+      <extensions>
+        <distance>5.9</distance>
+        <duration>3.5</duration>
+        <type>11</type>
+        <step>14</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.151115" lon="121.442975">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.15121" lon="121.442965">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.151503" lon="121.442689">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.151846" lon="121.4425">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.152087" lon="121.44232">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.152189" lon="121.442222">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.15234" lon="121.441991">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.152632" lon="121.441828">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.152706" lon="121.441823">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.152759" lon="121.441786">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.152948" lon="121.441595">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.153025" lon="121.441557">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.15334" lon="121.441421">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.153691" lon="121.44115">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.15374" lon="121.44109">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.153824" lon="121.440867">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.153899" lon="121.440827">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.154073" lon="121.440793">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.154113" lon="121.440789">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.154581" lon="121.440757">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.15462" lon="121.44074">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.154666" lon="121.440679">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.154687" lon="121.440533">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.154633" lon="121.440201">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.15464" lon="121.440138">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.154696" lon="121.439954">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.15471" lon="121.439926">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.154776" lon="121.439816">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.154806" lon="121.439771">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.155138" lon="121.43934">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.155193" lon="121.439265">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.15524" lon="121.439215">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.155583" lon="121.438865">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.155794" lon="121.438617">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.156047" lon="121.438246">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.156205" lon="121.438144">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.156381" lon="121.437936">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.156463" lon="121.43778">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.15667" lon="121.437483">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.156759" lon="121.437352">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.157055" lon="121.437062">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.157223" lon="121.43684">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.157481" lon="121.436573">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.157594" lon="121.43639">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.157873" lon="121.436163">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.15791" lon="121.436105">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.157974" lon="121.435877">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.158035" lon="121.435822">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.158145" lon="121.435723">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.158498" lon="121.435405">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.158549" lon="121.43536">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.158771" lon="121.43516">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.159525" lon="121.43429">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.159652" lon="121.434114">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.159622" lon="121.434035">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.15978" lon="121.433892">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.159861" lon="121.433814">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.159933" lon="121.433644">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.160184" lon="121.433446">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.160242" lon="121.433359">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.160419" lon="121.433058">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.16048" lon="121.432841">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.160566" lon="121.432679">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+    <rtept lat="25.160692" lon="121.432514">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      <extensions>
+        <distance>2594.4</distance>
+        <duration>574.3</duration>
+        <type>2</type>
+        <step>15</step>
+      </extensions>
+    </rtept>
+  </rte>
+</gpx>

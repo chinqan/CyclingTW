@@ -1,17 +1,14 @@
 {
   "place_id": "ChIJFxDjEO40aDQR8dbtyPOa_3M",
-  "name": "南寮漁港",
-  "address": "南寮漁港, North District, Hsinchu City, Taiwan",
-  "location": { "lat": 24.8483333, "lng": 120.9302778 },
-  "primary_type": "natural_feature",
+  "name_zh": "新竹南寮漁港（舊條目）",
+  "csv_type": "景點",
   "rating": 4.2,
   "total_ratings": 1753,
-  "phone": "",
-  "website": "",
-  "source": "place_details",
-  "fetched_at": "2026-05-20",
-  "csv_type": "景點",
-  "bayesian_score": 4.24,
-  "visual_score": 13.74,
-  "reviews_summary": "新竹知名漁港，有海鮮市集，風力強勁（風箏勝地），夕陽景色優美，有公廁"
+  "location": {
+    "lat": 24.8483333,
+    "lng": 120.9302778
+  },
+  "source": "superseded_by_ChIJo69tyO40aDQReBjpbzodIuo",
+  "target": "candidates_not_selected",
+  "note": "舊條目（1753則），已由新條目 ChIJo69tyO40aDQReBjpbzodIuo（6813則）取代"
 }

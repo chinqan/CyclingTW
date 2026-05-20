@@ -11,13 +11,11 @@
       "csv_type": "起終點",
       "rating": 4.3,
       "total_ratings": 1407,
-      "bayesian_score": 4.29,
-      "visual_score": 13.51,
       "location": {
         "lat": 25.088225,
         "lng": 121.4626333
       },
-      "source": "search_result"
+      "source": "place_details_2026-05-20"
     },
     {
       "place_id": "ChIJ_3VUnGilQjQR7qp73ndM8Cg",
@@ -25,27 +23,11 @@
       "csv_type": "景點",
       "rating": 4.4,
       "total_ratings": 1423,
-      "bayesian_score": 4.34,
-      "visual_score": 13.68,
       "location": {
         "lat": 25.1511404,
         "lng": 121.4429224
       },
-      "source": "place_details"
-    },
-    {
-      "place_id": "ChIJbyTPrfWlQjQRi8Cuce8nH-E",
-      "name_zh": "7-ELEVEN 里商門市",
-      "csv_type": "便利商店",
-      "rating": 4.5,
-      "total_ratings": 36,
-      "bayesian_score": null,
-      "visual_score": null,
-      "location": {
-        "lat": 25.1530647,
-        "lng": 121.4019101
-      },
-      "source": "search_result"
+      "source": "place_details_2026-05-20"
     },
     {
       "place_id": "ChIJ4z5kWWOhQjQRcl-uSRbQCN0",
@@ -53,42 +35,23 @@
       "csv_type": "景點",
       "rating": 4.2,
       "total_ratings": 4737,
-      "bayesian_score": 4.22,
-      "visual_score": 15.51,
       "location": {
         "lat": 25.1198168,
         "lng": 121.3188263
       },
-      "source": "place_details"
+      "source": "place_details_2026-05-20"
     },
     {
       "place_id": "ChIJAQAAAKyfQjQR7fhsd-lMPDU",
       "name_zh": "竹圍漁港",
       "csv_type": "景點",
       "rating": 4.2,
-      "total_ratings": 41574,
-      "bayesian_score": 4.2,
-      "visual_score": 19.4,
+      "total_ratings": 41576,
       "location": {
         "lat": 25.117158,
         "lng": 121.2444776
       },
-      "source": "place_details",
-      "note": "★主視覺 visual_score最高"
-    },
-    {
-      "place_id": "ChIJdXu1usApaDQR1tmNr9AEy68",
-      "name_zh": "7-ELEVEN 大益門市",
-      "csv_type": "便利商店",
-      "rating": 4.2,
-      "total_ratings": 95,
-      "bayesian_score": null,
-      "visual_score": null,
-      "location": {
-        "lat": 25.030818999,
-        "lng": 121.0698247
-      },
-      "source": "search_result"
+      "source": "place_details_2026-05-20"
     },
     {
       "place_id": "ChIJU9iHxPQuaDQR2v3_t-04zTU",
@@ -96,13 +59,23 @@
       "csv_type": "景點",
       "rating": 4.1,
       "total_ratings": 38606,
-      "bayesian_score": 4.11,
-      "visual_score": 18.85,
       "location": {
         "lat": 24.987719,
         "lng": 121.01578839
       },
-      "source": "place_details"
+      "source": "place_details_2026-05-20"
+    },
+    {
+      "place_id": "ChIJo69tyO40aDQReBjpbzodIuo",
+      "name_zh": "新竹南寮漁港",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 6813,
+      "location": {
+        "lat": 24.84875,
+        "lng": 120.9252429
+      },
+      "source": "place_details_2026-05-20"
     },
     {
       "place_id": "ChIJxe6O0FIvaDQRPYMEXA0HqUM",
@@ -110,43 +83,12 @@
       "csv_type": "餐廳大休",
       "rating": 4.8,
       "total_ratings": 534,
-      "bayesian_score": 4.43,
-      "visual_score": null,
       "location": {
         "lat": 24.9877247,
         "lng": 121.01464919
       },
-      "source": "place_details",
-      "note": "★午餐首選 週一公休"
-    },
-    {
-      "place_id": "ChIJf6Q20vYuaDQRu0mJUzvm8OI",
-      "name_zh": "7-ELEVEN 永安港門市",
-      "csv_type": "便利商店",
-      "rating": 4.4,
-      "total_ratings": 158,
-      "bayesian_score": null,
-      "visual_score": null,
-      "location": {
-        "lat": 24.9882131,
-        "lng": 121.0185329
-      },
-      "source": "search_result"
-    },
-    {
-      "place_id": "ChIJFxDjEO40aDQR8dbtyPOa_3M",
-      "name_zh": "新竹南寮漁港",
-      "csv_type": "景點",
-      "rating": 4.2,
-      "total_ratings": 1753,
-      "bayesian_score": 4.24,
-      "visual_score": 13.74,
-      "location": {
-        "lat": 24.8483333,
-        "lng": 120.9302778
-      },
-      "source": "place_details",
-      "note": "舊條目（1753則）。2026-05-20 發現更新條目 ChIJo69tyO40aDQReBjpbzodIuo（6813則），CSV 應優先採用新條目"
+      "source": "place_details_2026-05-20",
+      "note": "週一公休"
     },
     {
       "place_id": "ChIJQ5bTDzuzaTQRnzEViKsrqdE",
@@ -154,13 +96,47 @@
       "csv_type": "起終點",
       "rating": 4.0,
       "total_ratings": 1183,
-      "bayesian_score": 4.16,
-      "visual_score": 12.78,
       "location": {
         "lat": 24.686588999,
         "lng": 120.8805627
       },
-      "source": "search_result"
+      "source": "place_details_2026-05-20"
+    },
+    {
+      "place_id": "ChIJbyTPrfWlQjQRi8Cuce8nH-E",
+      "name_zh": "7-ELEVEN 里商門市",
+      "csv_type": "便利商店",
+      "rating": 4.5,
+      "total_ratings": 36,
+      "location": {
+        "lat": 25.1530647,
+        "lng": 121.4019101
+      },
+      "source": "mirror_kept"
+    },
+    {
+      "place_id": "ChIJdXu1usApaDQR1tmNr9AEy68",
+      "name_zh": "7-ELEVEN 大益門市",
+      "csv_type": "便利商店",
+      "rating": 4.2,
+      "total_ratings": 95,
+      "location": {
+        "lat": 25.030819,
+        "lng": 121.0698247
+      },
+      "source": "mirror_kept"
+    },
+    {
+      "place_id": "ChIJf6Q20vYuaDQRu0mJUzvm8OI",
+      "name_zh": "7-ELEVEN 永安港門市",
+      "csv_type": "便利商店",
+      "rating": 4.4,
+      "total_ratings": 158,
+      "location": {
+        "lat": 24.9882131,
+        "lng": 121.0185329
+      },
+      "source": "mirror_kept"
     }
   ],
   "candidates_not_selected": [
@@ -233,14 +209,6 @@
       "not_selected_reason": "評分低於首選餐廳，且無漁港鮮食特色"
     },
     {
-      "place_id": "ChIJo69tyO40aDQReBjpbzodIuo",
-      "name_zh": "新竹南寮漁港（新條目）",
-      "rating": 4.2,
-      "total_ratings": 6813,
-      "source": "search_result_2026-05-20",
-      "not_selected_reason": "與快取 ChIJFxDjEO40aDQR8dbtyPOa_3M（1753則）為同地點不同 GMaps 條目，此筆評論數更多，應優先採用"
-    },
-    {
       "place_id": "ChIJXTIi5-k1aDQRmhDM-S0vTxw",
       "name_zh": "新竹17公里海岸風景區",
       "rating": 4.3,
@@ -296,10 +264,61 @@
       "total_ratings": 481,
       "location": {
         "lat": 24.9887351,
-        "lng": 121.01834629
+        "lng": 121.0183463
+      },
+      "source": "mirror_kept",
+      "note": "週一備案 江戶壽司公休時用"
+    },
+    {
+      "place_id": "ChIJVQoRPfQuaDQRmyQm_lULWk8",
+      "name_zh": "君美現炸海鮮",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 180,
+      "location": {
+        "lat": 24.9877956,
+        "lng": 121.0154627
       },
       "source": "search_2026-05-20",
-      "note": "週一備案餐廳"
+      "note": "僅週六日營業，平日不可用為大休餐廳"
+    },
+    {
+      "place_id": "ChIJuU2OdwCfQjQRItVMp6Y8kRg",
+      "name_zh": "桃園竹圍漁港",
+      "rating": 4.4,
+      "total_ratings": 321,
+      "location": {
+        "lat": 25.1168112,
+        "lng": 121.2443464
+      },
+      "source": "search_2026-05-20",
+      "note": "竹圍漁港副條目，主條目 ChIJAQAAAKyfQjQR7fhsd-lMPDU 已涵蓋此區段"
+    },
+    {
+      "place_id": "ChIJ34cCH2kvaDQR2FD-J4mQI30",
+      "name_zh": "永安領鮮生魚片",
+      "csv_type": "餐廳大休",
+      "rating": 5.0,
+      "total_ratings": 142,
+      "location": {
+        "lat": 24.9877664,
+        "lng": 121.0160239
+      },
+      "source": "search_2026-05-20",
+      "note": "5.0分但僅 142 則評論，加權後輸給江戶壽司"
+    },
+    {
+      "place_id": "ChIJFxDjEO40aDQR8dbtyPOa_3M",
+      "name_zh": "新竹南寮漁港（舊條目）",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 1753,
+      "location": {
+        "lat": 24.8483333,
+        "lng": 120.9302778
+      },
+      "source": "superseded_by_ChIJo69tyO40aDQReBjpbzodIuo",
+      "note": "舊條目（1753則），已由新條目 ChIJo69tyO40aDQReBjpbzodIuo（6813則）取代"
     }
   ]
 }

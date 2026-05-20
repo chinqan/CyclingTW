@@ -1,0 +1,14 @@
+{
+  "place_id": "ChIJVQoRPfQuaDQRmyQm_lULWk8",
+  "name_zh": "君美現炸海鮮",
+  "csv_type": "餐廳大休",
+  "rating": 4.6,
+  "total_ratings": 180,
+  "location": {
+    "lat": 24.9877956,
+    "lng": 121.0154627
+  },
+  "source": "search_2026-05-20",
+  "target": "candidates_not_selected",
+  "note": "僅週六日營業，平日不可用為大休餐廳"
+}

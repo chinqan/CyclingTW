@@ -1,6 +1,6 @@
 {
   "place_id": "ChIJo69tyO40aDQReBjpbzodIuo",
-  "name_zh": "新竹南寮漁港（新條目）",
+  "name_zh": "新竹南寮漁港",
   "csv_type": "景點",
   "rating": 4.2,
   "total_ratings": 6813,
@@ -8,6 +8,6 @@
     "lat": 24.84875,
     "lng": 120.9252429
   },
-  "source": "search_result_2026-05-20",
-  "note": "與快取 ChIJFxDjEO40aDQR8dbtyPOa_3M（1753則）為同地點不同 GMaps 條目，此筆評論數更多，應優先採用"
+  "source": "place_details_2026-05-20",
+  "target": "places"
 }

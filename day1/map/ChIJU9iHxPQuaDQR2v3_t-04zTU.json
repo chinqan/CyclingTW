@@ -1,20 +1,13 @@
 {
   "place_id": "ChIJU9iHxPQuaDQR2v3_t-04zTU",
-  "name": "永安漁港 (Yongan Fishing Harbor)",
-  "address": "No. 1165號, Section 3, Zhongshan W Rd, Yong'an Village, Xinwu District, Taoyuan City, Taiwan 327",
-  "location": { "lat": 24.987719, "lng": 121.01578839 },
-  "primary_type": "fishing_pier",
+  "name_zh": "永安漁港",
+  "csv_type": "景點",
   "rating": 4.1,
   "total_ratings": 38606,
-  "opening_hours": { "open_now": false, "weekday_text": ["Monday: 8:00 AM – 8:00 PM", "Tuesday: 8:00 AM – 8:00 PM", "Wednesday: 8:00 AM – 8:00 PM", "Thursday: 8:00 AM – 8:00 PM", "Friday: 8:00 AM – 8:00 PM", "Saturday: 8:00 AM – 9:00 PM", "Sunday: 8:00 AM – 9:00 PM"] },
-  "phone": "03 486 1909",
-  "website": "https://travel.tycg.gov.tw/zh-tw/travel/attraction/314",
-  "editorial_summary": "Prominent harbor offering a beach, bustling market with a wide range of seafood & a fishing area.",
-  "parking": { "freeParkingLot": true, "paidParkingLot": true, "freeStreetParking": true },
-  "source": "place_details",
-  "fetched_at": "2026-05-20",
-  "csv_type": "景點",
-  "bayesian_score": 4.11,
-  "visual_score": 18.85,
-  "reviews_summary": "大型觀光漁港，有沙灘、海鮮市集、釣魚區，海鮮新鮮且價格合理，有廁所，免費停車"
+  "location": {
+    "lat": 24.987719,
+    "lng": 121.01578839
+  },
+  "source": "place_details_2026-05-20",
+  "target": "places"
 }

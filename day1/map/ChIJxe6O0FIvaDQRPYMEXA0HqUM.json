@@ -1,22 +1,14 @@
 {
   "place_id": "ChIJxe6O0FIvaDQRPYMEXA0HqUM",
-  "name": "江戶壽司（桃園永安漁港）",
-  "address": "327, Taiwan, Taoyuan City, Xinwu District, Bengang Village, Section 3, Zhongshan W Rd, 1165號鮮魚區C02",
-  "location": { "lat": 24.9877247, "lng": 121.01464919 },
-  "primary_type": "japanese_restaurant",
+  "name_zh": "江戶壽司（永安漁港）",
+  "csv_type": "餐廳大休",
   "rating": 4.8,
   "total_ratings": 534,
-  "opening_hours": { "open_now": false, "weekday_text": ["Monday: Closed", "Tuesday: 10:30 AM – 6:30 PM", "Wednesday: 10:30 AM – 6:30 PM", "Thursday: 10:30 AM – 6:30 PM", "Friday: 10:30 AM – 6:30 PM", "Saturday: 10:30 AM – 6:30 PM", "Sunday: 10:30 AM – 6:30 PM"] },
-  "phone": "0978 979 317",
-  "website": "https://www.facebook.com/profile.php?id=61564515218247",
-  "parking": { "freeParkingLot": true },
-  "dining_options": { "dine_in": true, "takeout": true, "reservable": true },
-  "serves": { "lunch": true, "dinner": true },
-  "source": "place_details",
-  "fetched_at": "2026-05-20",
-  "csv_type": "餐廳大休",
-  "bayesian_score": 4.43,
-  "visual_score": null,
-  "note": "★午餐首選。週一公休。永安漁港鮮魚區C02攤位。現點現做，座位區有冷氣。",
-  "reviews_summary": "漁港鮮魚區內高評分日式壽司，食材新鮮，炙燒握壽司為招牌，有座位冷氣，週一公休"
+  "location": {
+    "lat": 24.9877247,
+    "lng": 121.01464919
+  },
+  "source": "place_details_2026-05-20",
+  "target": "places",
+  "note": "週一公休"
 }
