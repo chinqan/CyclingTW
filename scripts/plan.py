@@ -9,16 +9,18 @@ Claude 在對話中呼叫 MCP 工具（Google Maps / OpenRoute）取得資料並
   - 本地鏡像（write-through）：dayN/map/ 是 Google Maps 的本地鏡像 DB，不是
     省 API 用的快取；線上每次搜尋仍要重打 MCP，把 fresh 資料 upsert 回本地。
   - 先 diff 後 put：mirror-diff 顯示變動，mirror-put 一律 upsert 寫回
-  - Bayesian 動態重算：C = 候選池平均，m = 中位數 (≥100)
+  - Bayesian 用整池候選：C/m 由 mirror 完整候選池（含未入選備案）算，可在
+    編輯 places.json **前**先用 score-pool 看分數做決策（pool_scores.json 是 SoT）
   - 不變式驗證：CSV 終點 = index.md 目的地
 
-子命令（共 14 個）：
+子命令（共 15 個）：
   parse-index N            解析 index.md 第 N 天設定
   mirror-status N          列出 dayN/map/（本地鏡像）內容與候選池警告
   mirror-put N             [stdin] upsert 單筆 place 到本地鏡像
   mirror-diff N            [stdin] 比對本地鏡像 vs 線上最新
-  compute N                從 mirror 同步最新值並重算 Bayesian C/m/score
-  review N                 重評整個候選池，提示是否有更佳替換
+  score-pool N             對整個 mirror 候選池算 Bayesian，產出 pool_scores.json
+  compute N                套用 pool_scores 到 places.json（缺失時自動觸發 score-pool）
+  review N                 讀 pool_scores 顯示排名 + ★入選 + 替換建議
   write-csv N              產 dayN_mymap.csv（依 _plan/places.json）
   gpx-save N               [stdin] 儲存單段 openroute GPX（短路線直出時用）
   gpx-waypoints N          備案：依 places.json 座標產純航點 GPX（離線 / 無 MCP 時）
@@ -33,6 +35,7 @@ Claude 在對話中呼叫 MCP 工具（Google Maps / OpenRoute）取得資料並
   dayN/
   ├── _plan/
   │   ├── config.json        ← parse-index 產出（起終點/距離/必經景點）
+  │   ├── pool_scores.json   ← score-pool 產出（整池 Bayesian，C/m/score by pid）
   │   ├── places.json        ← Claude 決定的最終點位順序與 Bayesian 結果
   │   ├── segments.json      ← Claude 寫的段落敘述/魚骨圖/注意事項
   │   └── poster_vars.json   ← Claude 決定的海報主視覺與 5 變數
@@ -310,21 +313,80 @@ def _has_rating(p: dict) -> bool:
     用 is not None 而非 truthy，避免把 0（新景點無評論）誤判為缺值。"""
     return p.get("rating") is not None and p.get("total_ratings") is not None
 
-def compute_bayesian(places: list[dict]) -> tuple[float, int]:
-    rated = [p for p in places if p.get("csv_type") in RATED_TYPES and _has_rating(p)]
-    # 警告：屬於應評分類型但缺 rating/total_ratings 的點會被排除，
-    # 進而拉偏 C/m。直接列出讓使用者補資料。
-    missing = [p for p in places
-               if p.get("csv_type") in RATED_TYPES and not _has_rating(p)]
-    for p in missing:
-        info(f"⚠️  [{p.get('csv_type')}] {p.get('name_zh','?')} 缺 rating/total_ratings，已從 Bayesian 候選池排除")
+def _collect_rated_pool(n: int) -> list[dict]:
+    """從 mirror（places + candidates_not_selected）收集所有可評分候選，
+    依個別 dayN/map/<pid>.json 為 SoT 補齊欄位，去重後回傳。"""
+    mirror = load_mirror_index(n)
+    pool = mirror.get("places", []) + mirror.get("candidates_not_selected", [])
+    seen_pids: set[str] = set()
+    rated: list[dict] = []
+    for c in pool:
+        pid = c.get("place_id")
+        if not pid or pid in seen_pids:
+            continue
+        seen_pids.add(pid)
+        mf = map_dir(n) / f"{pid}.json"
+        full: dict = {}
+        if mf.exists():
+            try:
+                full = read_json(mf)
+            except json.JSONDecodeError as e:
+                info(f"⚠️  跳過格式損壞的 {mf.name}：{e}")
+                continue
+        item = {**c, **full}
+        if item.get("csv_type") in RATED_TYPES and _has_rating(item):
+            rated.append(item)
+    return rated
+
+def cmd_score_pool(args):
+    """對整個 mirror 候選池算 Bayesian C/m/score，寫入 _plan/pool_scores.json。
+    候選池 = mirror.places + mirror.candidates_not_selected 中所有
+    csv_type ∈ RATED_TYPES 且具備 rating/total_ratings 的點（去重）。
+    pool_scores.json 是後續 compute / review 的 SoT，可在編輯 places.json 前先看排名。"""
+    n = args.day
+    rated = _collect_rated_pool(n)
     if len(rated) < 2:
-        die(f"Bayesian 計算需要 ≥ 2 個評分點，目前 {len(rated)}")
-    C = sum(p["rating"] for p in rated) / len(rated)
-    v_list = sorted(p["total_ratings"] for p in rated)
-    m_raw = statistics.median(v_list)
-    m = max(int(m_raw), 100)
-    return round(C, 4), m
+        die(f"鏡像中可評分候選少於 2 筆（目前 {len(rated)}），無法計算 Bayesian")
+    C = round(sum(p["rating"] for p in rated) / len(rated), 4)
+    m = max(int(statistics.median(sorted(p["total_ratings"] for p in rated))), 100)
+
+    scores: dict[str, dict] = {}
+    for p in rated:
+        v, R = p["total_ratings"], p["rating"]
+        scores[p["place_id"]] = {
+            "name_zh": p.get("name_zh", ""),
+            "csv_type": p.get("csv_type"),
+            "rating": R,
+            "total_ratings": v,
+            "bayesian_score": round((v / (v + m)) * R + (m / (v + m)) * C, 2),
+        }
+
+    out = plan_dir(n) / "pool_scores.json"
+    write_json(out, {"day": n, "bayesian_C": C, "bayesian_m": m,
+                     "pool_size": len(rated), "scores": scores})
+    info(f"已寫入 {out.relative_to(ROOT)}（{len(rated)} 筆，C={C}, m={m}）")
+
+    # 依 csv_type 分組排名顯示
+    print(f"=== Day {n} 候選池全評（{len(rated)} 筆，C={C}, m={m}）===\n")
+    by_type: dict[str, list[dict]] = {}
+    for pid, s in scores.items():
+        by_type.setdefault(s["csv_type"], []).append({**s, "place_id": pid})
+    for t in ["起終點", "景點", "餐廳大休"]:
+        items = sorted(by_type.get(t, []), key=lambda x: -x["bayesian_score"])
+        if not items:
+            continue
+        print(f"[{t}]")
+        for p in items:
+            print(f"    {p['name_zh']:<28} R={p['rating']} V={p['total_ratings']:>6} → {p['bayesian_score']}")
+        print()
+
+def _ensure_pool_scores(n: int) -> dict:
+    """讀 pool_scores.json；若不存在則自動觸發 score-pool 後再讀。"""
+    pool_path = plan_dir(n) / "pool_scores.json"
+    if not pool_path.exists():
+        info(f"找不到 {pool_path.relative_to(ROOT)}，自動執行 score-pool")
+        cmd_score_pool(argparse.Namespace(day=n))
+    return read_json(pool_path)
 
 def _refresh_place_from_mirror(n: int, p: dict) -> dict:
     """以 place_id 從 mirror 拉最新 rating/total_ratings/location/name_zh。
@@ -343,14 +405,17 @@ def _refresh_place_from_mirror(n: int, p: dict) -> dict:
     return p
 
 def cmd_compute(args):
-    """讀 _plan/places.json，依 place_id 從 mirror 拉最新值，重算 Bayesian 並寫回。"""
+    """套用 pool_scores.json 的 Bayesian 結果到 _plan/places.json。
+    C/m 來自整個 mirror 候選池（非只有 places.json 內 5 個點），讓分數更穩定且
+    可在編輯 places.json **前**就用 score-pool 看分數做決策。
+    若 pool_scores.json 不存在會自動觸發 score-pool。"""
     n = args.day
     f = plan_dir(n) / "places.json"
     if not f.exists():
         die(f"找不到 {f.relative_to(ROOT)}，請先用 Claude 寫入點位選擇")
     data = read_json(f)
 
-    # 從 mirror 同步最新數值
+    # 從 mirror 同步最新數值（rating/total_ratings/location/name_zh）
     refreshed = 0
     for p in data["places"]:
         before = (p.get("rating"), p.get("total_ratings"))
@@ -361,24 +426,42 @@ def cmd_compute(args):
     if refreshed:
         info(f"從 mirror 同步了 {refreshed} 個點位的最新數值")
 
-    C, m = compute_bayesian(data["places"])
+    # 取得整池 Bayesian 結果（C/m + 各 pid 的分數）
+    pool_data = _ensure_pool_scores(n)
+    C, m = pool_data["bayesian_C"], pool_data["bayesian_m"]
+    pool_scores: dict[str, dict] = pool_data["scores"]
+
     data["bayesian_C"] = C
     data["bayesian_m"] = m
+    fallback_used: list[str] = []
     for p in data["places"]:
-        if p.get("csv_type") in RATED_TYPES and _has_rating(p):
+        pid = p.get("place_id")
+        if p.get("csv_type") not in RATED_TYPES:
+            p["bayesian_score"] = None
+            continue
+        # 優先用 pool_scores（整池 C/m）；不在 pool 時用 places.json 自有資料補算
+        if pid and pid in pool_scores:
+            p["bayesian_score"] = pool_scores[pid]["bayesian_score"]
+        elif _has_rating(p):
             v, R = p["total_ratings"], p["rating"]
             p["bayesian_score"] = round((v / (v + m)) * R + (m / (v + m)) * C, 2)
+            fallback_used.append(p.get("name_zh", "?"))
         else:
             p["bayesian_score"] = None
+
+    if fallback_used:
+        info(f"⚠️  以下入選點不在 mirror 候選池（pool_scores 缺項），用 places.json 自有資料補算：{', '.join(fallback_used)}。建議 mirror-put 寫回以納入整池統計。")
+
     write_json(f, data)
-    print(f"C = {C}, m = {m}\n")
+    print(f"C = {C}, m = {m}（來自 {pool_data['pool_size']} 筆候選池）\n")
     for p in data["places"]:
         score = p.get("bayesian_score")
         print(f"  [{p.get('csv_type','-'):<6}] {p['name_zh']:<22} "
               f"R={p.get('rating')} V={p.get('total_ratings')} → {score}")
 
 def cmd_review(args):
-    """重評 mirror 中所有候選（含 candidates_not_selected），偵測是否有更佳替換。"""
+    """讀 pool_scores.json 顯示候選池排名（★標記入選點），並偵測是否有更佳替換。
+    pool_scores.json 由 score-pool 產生；不存在時自動觸發。"""
     n = args.day
     sel_file = plan_dir(n) / "places.json"
     if not sel_file.exists():
@@ -386,46 +469,16 @@ def cmd_review(args):
     sel_data = read_json(sel_file)
     selected_pids = {p["place_id"] for p in sel_data["places"]}
 
-    mirror = load_mirror_index(n)
-    pool = mirror.get("places", []) + mirror.get("candidates_not_selected", [])
-    # 對 mirror 中每筆從個別檔案拉最新值（更精確）；解析失敗則沿用 index.json 內值
-    seen_pids = set()
-    enriched = []
-    for c in pool:
-        if c.get("place_id") in seen_pids:
-            continue
-        seen_pids.add(c.get("place_id"))
-        pid = c.get("place_id")
-        if not pid:
-            continue
-        mf = map_dir(n) / f"{pid}.json"
-        full = {}
-        if mf.exists():
-            try:
-                full = read_json(mf)
-            except json.JSONDecodeError as e:
-                info(f"⚠️  跳過格式損壞的 {mf.name}：{e}")
-        item = {**c, **{k: full[k] for k in ("rating","total_ratings","csv_type","name_zh") if k in full}}
-        if item.get("csv_type") in RATED_TYPES and _has_rating(item):
-            enriched.append(item)
+    pool_data = _ensure_pool_scores(n)
+    C, m = pool_data["bayesian_C"], pool_data["bayesian_m"]
+    scores: dict[str, dict] = pool_data["scores"]
 
-    if len(enriched) < 2:
-        die(f"候選池可評分點少於 2，無法重評（目前 {len(enriched)}）")
-
-    # 計算 Bayesian（用整個池子，不只當前選擇）
-    C = round(sum(p["rating"] for p in enriched) / len(enriched), 4)
-    v_sorted = sorted(p["total_ratings"] for p in enriched)
-    m = max(int(statistics.median(v_sorted)), 100)
-    for p in enriched:
-        v, R = p["total_ratings"], p["rating"]
-        p["bayesian_score"] = round((v/(v+m))*R + (m/(v+m))*C, 2)
-
-    print(f"=== Day {n} 候選池全評（{len(enriched)} 筆，C={C}, m={m}）===\n")
-
-    # 依 csv_type 分組排名
+    # 依 csv_type 分組
     by_type: dict[str, list[dict]] = {}
-    for p in enriched:
-        by_type.setdefault(p["csv_type"], []).append(p)
+    for pid, s in scores.items():
+        by_type.setdefault(s["csv_type"], []).append({**s, "place_id": pid})
+
+    print(f"=== Day {n} 候選池全評（{pool_data['pool_size']} 筆，C={C}, m={m}）===\n")
     for t in ["起終點", "景點", "餐廳大休"]:
         items = sorted(by_type.get(t, []), key=lambda x: -x["bayesian_score"])
         if not items:
@@ -912,8 +965,9 @@ def build_parser() -> argparse.ArgumentParser:
     add("mirror-status", cmd_mirror_status, "顯示 dayN/map/（本地鏡像）現況")
     add("mirror-put",    cmd_mirror_put,    "[stdin] upsert 單筆 place 到本地鏡像")
     add("mirror-diff",   cmd_mirror_diff,   "[stdin] 比對本地鏡像 vs 線上最新")
-    add("compute",       cmd_compute,       "從 mirror 同步最新值並重算 Bayesian C/m/score")
-    add("review",        cmd_review,        "重評整個候選池，偵測是否有更佳替換建議")
+    add("score-pool",    cmd_score_pool,    "對整個 mirror 候選池算 Bayesian，產出 _plan/pool_scores.json")
+    add("compute",       cmd_compute,       "套用 pool_scores 到 places.json（pool_scores 缺失時自動觸發 score-pool）")
+    add("review",        cmd_review,        "讀 pool_scores 顯示排名 + ★入選 + 替換建議")
     add("write-csv",     cmd_write_csv,     "產 dayN_mymap.csv")
     add("gpx-save",      cmd_gpx_save,      "[stdin] 儲存 openroute MCP 產生的 GPX")
     add("gpx-waypoints", cmd_gpx_waypoints, "備案：純航點 GPX")

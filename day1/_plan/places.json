@@ -16,7 +16,7 @@
         "lat": 25.088225,
         "lng": 121.4626333
       },
-      "bayesian_score": 4.28
+      "bayesian_score": 4.33
     },
     {
       "place_id": "ChIJ_3VUnGilQjQR7qp73ndM8Cg",
@@ -30,7 +30,7 @@
         "lat": 25.1511404,
         "lng": 121.4429224
       },
-      "bayesian_score": 4.31
+      "bayesian_score": 4.38
     },
     {
       "place_id": "ChIJbyTPrfWlQjQRi8Cuce8nH-E",
@@ -58,7 +58,7 @@
         "lat": 25.1198168,
         "lng": 121.3188263
       },
-      "bayesian_score": 4.23
+      "bayesian_score": 4.24
     },
     {
       "place_id": "ChIJAQAAAKyfQjQR7fhsd-lMPDU",
@@ -114,7 +114,7 @@
         "lat": 24.9877247,
         "lng": 121.01464919
       },
-      "bayesian_score": 4.35
+      "bayesian_score": 4.47
     },
     {
       "place_id": "ChIJf6Q20vYuaDQRu0mJUzvm8OI",
@@ -142,7 +142,7 @@
         "lat": 24.84875,
         "lng": 120.9252429
       },
-      "bayesian_score": 4.22
+      "bayesian_score": 4.23
     },
     {
       "place_id": "ChIJQ5bTDzuzaTQRnzEViKsrqdE",
@@ -159,6 +159,6 @@
       "bayesian_score": 4.2
     }
   ],
-  "bayesian_C": 4.275,
-  "bayesian_m": 3080
+  "bayesian_C": 4.3556,
+  "bayesian_m": 1588
 }

@@ -77,6 +77,7 @@ CyclingTW/
 └── day1/                              # 每天一個資料夾
     ├── _plan/                         # ← 由 Claude 填寫的中間檔
     │   ├── config.json                # parse-index 產出
+    │   ├── pool_scores.json           # score-pool 產出（整池 Bayesian SoT）
     │   ├── places.json                # 點位順序 + Bayesian 結果
     │   ├── poster_vars.json           # 海報 5 變數
     │   ├── segments.json              # 段落敘述/魚骨圖/注意事項
@@ -308,22 +309,34 @@ python3 scripts/plan.py mirror-status 2
 #   [便利商店] (3-4) ...
 ```
 
-#### 1-5. 編寫 `_plan/places.json`（手動決定當日順序）
-
-從 `dayN/map/index.json` 的 `places` 陣列裡，把要列入 CSV 的點按**騎乘順序**抄到 `_plan/places.json`，並補上 `search_keyword` 和 `note`（這兩個是 CSV 專用欄位，本地鏡像沒有）。參考 `day1/_plan/places.json` 當範本。
-
-#### 1-6. 計算 Bayesian 並產 CSV
+#### 1-5. 先看整池 Bayesian 排名（**選點前**）
 
 ```bash
-python3 scripts/plan.py compute 2       # 從 mirror 同步最新值 → 算 C/m/score → 寫回 places.json
+python3 scripts/plan.py score-pool 2
+```
+
+`score-pool` 對 mirror 中**所有可評分候選**（places + candidates_not_selected）算 Bayesian C/m/score，產出 `_plan/pool_scores.json` 並印分組排名。**在編輯 places.json 前**就能看到分數，配合順路 / 視覺辨識度做整體決策，不必先盲挑後悔再 review 翻轉。
+
+> Bayesian 的 C/m 來自**整個候選池**（樣本大、穩定），這也是 `compute` 寫進 places.json 的最終分數來源 — score-pool 是 SoT。
+
+#### 1-6. 編寫 `_plan/places.json`（依分數 + 順路挑選）
+
+打開 `_plan/pool_scores.json` 看排名，從 `dayN/map/index.json` 的 `places` 陣列裡，把要列入 CSV 的點按**騎乘順序**抄到 `_plan/places.json`，並補上 `search_keyword` 和 `note`（這兩個是 CSV 專用欄位，本地鏡像沒有）。參考 `day1/_plan/places.json` 當範本。
+
+> 選點考量順序：① 必經景點（index.md 固定）→ ② 順路（距主線距離）→ ③ 時間節奏（補給 / 午餐 / 撤退）→ ④ Bayesian 分數（破平手用）
+
+#### 1-7. 套用分數 + 產 CSV
+
+```bash
+python3 scripts/plan.py compute 2       # 從 mirror 同步最新值 + 套用 pool_scores 到 places.json
 python3 scripts/plan.py write-csv 2     # 產 dayN_mymap.csv，並警告終點不一致
 ```
 
-> ⚠️ **`compute` 會自動從 `dayN/map/` 拉最新 rating / total_ratings**：因此 `mirror-put` 後直接跑 `compute` 即可，不需要手動更新 `places.json` 內的數值。
+> ⚠️ `compute` 會自動從 `dayN/map/` 拉最新 rating / total_ratings；若 `pool_scores.json` 不存在會自動觸發 `score-pool`。
 
-#### 1-7.（可選）偵測是否需要替換點位
+#### 1-8.（可選）替換偵測
 
-當 mirror 累積新資料後，**入選與未入選的排名可能翻轉**。`review` 對整個候選池重評，提示是否該換點：
+當 mirror 累積新資料後，**入選與未入選的排名可能翻轉**。`review` 顯示完整排名（★ 標記入選）+ 替換建議：
 
 ```bash
 python3 scripts/plan.py review 2
@@ -508,43 +521,71 @@ python3 scripts/plan.py <subcommand> <day_number> [options]
 
 **輸出**：表格列出每筆的本地值 vs 線上值與差異
 
+### `score-pool N`
+
+對整個 mirror 候選池算 Bayesian，產出 `_plan/pool_scores.json`：
+
+- **候選池** = `mirror.places + mirror.candidates_not_selected` 中所有 `csv_type ∈ {景點, 起終點, 餐廳大休}` 且具備 `rating` / `total_ratings` 的點（依 `place_id` 去重）
+- **`bayesian_C`** = 候選池內 `rating` 平均
+- **`bayesian_m`** = 候選池內 `total_ratings` 中位數（最低採用 100，避免低樣本失真）
+- 每個點位的 **`bayesian_score`** = `(v/(v+m)) * R + (m/(v+m)) * C`
+
+**輸入**：`dayN/map/index.json` + `dayN/map/<pid>.json`
+**輸出**：`dayN/_plan/pool_scores.json`（**SoT**） + stdout 分組排名
+
+**典型用法**：選點**前**先跑一次看分數，配合順路 / 視覺辨識度做整體決策。
+
+```json
+// pool_scores.json schema
+{
+  "day": 1,
+  "bayesian_C": 4.3556,
+  "bayesian_m": 1588,
+  "pool_size": 18,
+  "scores": {
+    "ChIJ...": {"name_zh": "蘆洲柳堤公園", "csv_type": "起終點",
+                "rating": 4.3, "total_ratings": 1407, "bayesian_score": 4.33},
+    // ... 每個可評分 pid 一筆
+  }
+}
+```
+
 ### `compute N`
 
-讀 `dayN/_plan/places.json` 取得 place_id 與排序，然後：
+套用 `pool_scores.json` 的 Bayesian 結果到 `_plan/places.json`：
 
 1. **從 `dayN/map/<pid>.json` 拉最新 rating / total_ratings / location / name_zh**（這些屬於 Google Maps 的事實，mirror 是 SoT）。`csv_type` 不同步——它是「當日對該點的角色分類」，由人在 places.json 決定
-2. 重算：
-   - **`bayesian_C`** = 候選池內 `rating` 平均
-   - **`bayesian_m`** = 候選池內 `total_ratings` 中位數（最低採用 100，避免低樣本失真）
-   - 每個點位的 **`bayesian_score`** = `(v/(v+m)) * R + (m/(v+m)) * C`
-3. 只對 `csv_type ∈ {景點, 起終點, 餐廳大休}` 的點位計算
-4. 寫回 `places.json`
+2. 從 `pool_scores.json` 取 `bayesian_C` / `bayesian_m`，以及該 pid 的 `bayesian_score`
+3. 若 pid 不在 pool_scores（例：places.json 寫了新點但忘了 mirror-put），會用 places.json 自有資料補算分數並警告
+4. 只對 `csv_type ∈ {景點, 起終點, 餐廳大休}` 的點位寫 score
 
-**輸入**：`dayN/_plan/places.json` + `dayN/map/*.json`
-**輸出**：寫回 `places.json` + stdout 表格
+**輸入**：`dayN/_plan/places.json` + `dayN/_plan/pool_scores.json` + `dayN/map/*.json`
+**輸出**：寫回 `places.json`（含 `bayesian_C` / `bayesian_m` / 每點的 `bayesian_score`）+ stdout 表格
 
-> 重要：`compute` 是 **write-back from mirror**，這保證 `mirror-put` 之後跑 `compute` 一定用到最新資料。`places.json` 內的 rating / total_ratings / location / name_zh 會被 mirror 覆寫，不要手動編輯（會被下次 compute 蓋掉，應改寫到 mirror）。`csv_type` 不被 mirror 覆寫，可在 places.json 自由調整當日角色分類。
+> `pool_scores.json` 不存在時會自動觸發 `score-pool`，無需手動先跑。
+
+> 重要：`places.json` 內的 rating / total_ratings / location / name_zh 會被 mirror 覆寫，不要手動編輯（會被下次 compute 蓋掉，應改寫到 mirror）。`csv_type` 不被 mirror 覆寫，可在 places.json 自由調整當日角色分類。
 >
-> 另外，若 `csv_type ∈ {景點, 起終點, 餐廳大休}` 的點缺 rating 或 total_ratings（None），會被排除在 Bayesian 計算外，並在 stderr 印出警告以便補資料。注意「值為 0」（如新景點 total_ratings=0）不算缺值，會正常參與計算。
+> 若 `csv_type ∈ {景點, 起終點, 餐廳大休}` 的點缺 rating 或 total_ratings（None），會被排除在 Bayesian 計算外。注意「值為 0」（如新景點 total_ratings=0）不算缺值，會正常參與計算。
 
 ### `review N`
 
-對候選池中**可評分的點**（`csv_type ∈ {景點, 起終點, 餐廳大休}` 且具備 rating / total_ratings）重評，偵測排名翻轉。便利商店 / 加油站等不參與評分的類型不會出現在報告中：
+讀 `pool_scores.json` 顯示候選池排名（★標記入選點），並偵測是否有更佳替換：
 
-1. 用整個候選池算 C 和 m（樣本量更大、更穩定）
+1. 從 `pool_scores.json` 讀取 C / m / 各 pid 的分數（pool_scores 不存在時自動觸發 `score-pool`）
 2. 按 `csv_type` 分組排名顯示
 3. `★` 標記目前在 `places.json` 內的入選點位
 4. 比較「最差入選」vs「最佳未入選」，若後者較高則提示替換
 
 **典型使用情境**：
-- 隔一段時間想看評分是否有變動 → `mirror-put` 批次更新 → `review` 看排名變化
+- 隔一段時間想看評分是否有變動 → `mirror-put` 批次更新 → `score-pool` 重算 → `review` 看排名變化
 - 規劃前期確認是否選對點 → 比較入選 vs 備案
 
 **不變式**：
 - `起終點` 由 `index.md` 固定，**不參與替換建議**
 - 替換建議只看 Bayesian 分數，**不考慮地理位置順路性**，使用者要自行判斷
 
-**輸入**：`dayN/_plan/places.json` + `dayN/map/`
+**輸入**：`dayN/_plan/places.json` + `dayN/_plan/pool_scores.json`
 **輸出**：stdout 排名表 + 替換建議
 
 ### `write-csv N`

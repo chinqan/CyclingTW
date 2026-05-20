@@ -1,0 +1,134 @@
+{
+  "day": 1,
+  "bayesian_C": 4.3556,
+  "bayesian_m": 1588,
+  "pool_size": 18,
+  "scores": {
+    "ChIJ7Ws-1bOoQjQRehrUbGzlo1A": {
+      "name_zh": "蘆洲柳堤公園",
+      "csv_type": "起終點",
+      "rating": 4.3,
+      "total_ratings": 1407,
+      "bayesian_score": 4.33
+    },
+    "ChIJ_3VUnGilQjQR7qp73ndM8Cg": {
+      "name_zh": "八里左岸自行車道",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 1423,
+      "bayesian_score": 4.38
+    },
+    "ChIJ4z5kWWOhQjQRcl-uSRbQCN0": {
+      "name_zh": "水牛坑越野場地",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 4737,
+      "bayesian_score": 4.24
+    },
+    "ChIJAQAAAKyfQjQR7fhsd-lMPDU": {
+      "name_zh": "竹圍漁港",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 41576,
+      "bayesian_score": 4.21
+    },
+    "ChIJU9iHxPQuaDQR2v3_t-04zTU": {
+      "name_zh": "永安漁港",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 38606,
+      "bayesian_score": 4.11
+    },
+    "ChIJo69tyO40aDQReBjpbzodIuo": {
+      "name_zh": "新竹南寮漁港",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 6813,
+      "bayesian_score": 4.23
+    },
+    "ChIJxe6O0FIvaDQRPYMEXA0HqUM": {
+      "name_zh": "江戶壽司（永安漁港）",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 534,
+      "bayesian_score": 4.47
+    },
+    "ChIJQ5bTDzuzaTQRnzEViKsrqdE": {
+      "name_zh": "竹南車站",
+      "csv_type": "起終點",
+      "rating": 4.0,
+      "total_ratings": 1183,
+      "bayesian_score": 4.2
+    },
+    "ChIJXTIi5-k1aDQRmhDM-S0vTxw": {
+      "name_zh": "新竹17公里海岸風景區",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 3930,
+      "bayesian_score": 4.32
+    },
+    "ChIJ_7k3YK81aDQRKemODMGM_P0": {
+      "name_zh": "海天一線看海區",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 2829,
+      "bayesian_score": 4.32
+    },
+    "ChIJY-OlAOw0aDQRjfBy4mJvQHs": {
+      "name_zh": "南寮階梯 Nanliao Stairway",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 5911,
+      "bayesian_score": 4.23
+    },
+    "ChIJbfMgKLivQjQR8FocqCurHxg": {
+      "name_zh": "關渡橋頭（八里左岸）",
+      "csv_type": "景點",
+      "rating": 4.5,
+      "total_ratings": 446,
+      "bayesian_score": 4.39
+    },
+    "ChIJN-HNqzovaDQREp1r77jZEHc": {
+      "name_zh": "永安海螺文化體驗園區",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 2216,
+      "bayesian_score": 4.32
+    },
+    "ChIJI1iQfUYvaDQRzOcaIQzMfvw": {
+      "name_zh": "永安北岸觀海亭",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 103,
+      "bayesian_score": 4.36
+    },
+    "ChIJ-3KWK_cuaDQRsgsVtlyymIc": {
+      "name_zh": "海晏漁村料理",
+      "csv_type": "餐廳大休",
+      "rating": 4.4,
+      "total_ratings": 481,
+      "bayesian_score": 4.37
+    },
+    "ChIJVQoRPfQuaDQRmyQm_lULWk8": {
+      "name_zh": "君美現炸海鮮",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 180,
+      "bayesian_score": 4.38
+    },
+    "ChIJ34cCH2kvaDQR2FD-J4mQI30": {
+      "name_zh": "永安領鮮生魚片",
+      "csv_type": "餐廳大休",
+      "rating": 5.0,
+      "total_ratings": 142,
+      "bayesian_score": 4.41
+    },
+    "ChIJFxDjEO40aDQR8dbtyPOa_3M": {
+      "name_zh": "新竹南寮漁港（舊條目）",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 1753,
+      "bayesian_score": 4.27
+    }
+  }
+}

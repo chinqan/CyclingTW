@@ -26,7 +26,9 @@
         "lng": 120.807436
       },
       "note": "後龍北側補給 km約15",
-      "bayesian_score": null
+      "bayesian_score": null,
+      "rating": 4.3,
+      "total_ratings": 168
     },
     {
       "place_id": "ChIJVVVVVWWuaTQRsf_BtcIo5Yo",
@@ -52,7 +54,9 @@
         "lng": 120.7118692
       },
       "note": "拱天宮旁100m 補給點 km約35",
-      "bayesian_score": null
+      "bayesian_score": null,
+      "rating": 4.0,
+      "total_ratings": 428
     },
     {
       "place_id": "ChIJAQAAMB-maTQRqP6KozChaJ8",
@@ -92,7 +96,9 @@
         "lng": 120.6495196
       },
       "note": "苑裡台1線補給 km約60",
-      "bayesian_score": null
+      "bayesian_score": null,
+      "rating": 4.0,
+      "total_ratings": 71
     },
     {
       "place_id": "ChIJ2ffC3wEOaTQR-YuV-iIXELk",
@@ -132,7 +138,9 @@
         "lng": 120.5236803
       },
       "note": "梧棲區評分最高(4.5) 高美濕地前補給 km約88",
-      "bayesian_score": null
+      "bayesian_score": null,
+      "rating": 4.5,
+      "total_ratings": 139
     },
     {
       "place_id": "ChIJvYFhg4wTaTQR2evNLEQ1ZN8",
