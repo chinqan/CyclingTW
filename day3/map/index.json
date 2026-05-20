@@ -1,0 +1,255 @@
+{
+  "day": 3,
+  "places": [
+    {
+      "place_id": "ChIJbZ03BtZFaTQRVSahxk_O324",
+      "name_zh": "鹿港老街",
+      "csv_type": "起終點",
+      "rating": 4.5,
+      "total_ratings": 42114,
+      "location": {
+        "lat": 24.0563009,
+        "lng": 120.4325817
+      },
+      "source": "google_maps",
+      "note": "07:00出發 Day2終點續行 km0"
+    },
+    {
+      "place_id": "ChIJwyAVdwhGaTQRVxNrji0ZUhM",
+      "name_zh": "7-ELEVEN 鹿鑫門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.0563807,
+        "lng": 120.4377854
+      },
+      "source": "google_maps",
+      "note": "鹿港出發補給 km約1"
+    },
+    {
+      "place_id": "EiBYaWx1byBCcmcsIFl1bmxpbiBDb3VudHksIFRhaXdhbiIuKiwKFAoSCa2bONxCtG40ESt17BKmLaPmEhQKEglB88dzJ7puNBGVKtEDfMTkeg",
+      "name_zh": "西螺大橋",
+      "csv_type": "景點",
+      "rating": 0,
+      "total_ratings": 0,
+      "location": {
+        "lat": 23.8103145,
+        "lng": 120.460342
+      },
+      "source": "google_maps",
+      "note": "約09:30抵達 彰雲交界紅色鐵橋 拍照5分鐘 km約30"
+    },
+    {
+      "place_id": "ChIJ1fibAD60bjQRjVohkgEMHYY",
+      "name_zh": "7-ELEVEN 七崁門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.7983714,
+        "lng": 120.4590626
+      },
+      "source": "google_maps",
+      "note": "西螺路段補給 km約31"
+    },
+    {
+      "place_id": "ChIJJfEEtoWibjQRzq8W6JSLfHo",
+      "name_zh": "北港朝天宮",
+      "csv_type": "景點",
+      "rating": 4.7,
+      "total_ratings": 24031,
+      "location": {
+        "lat": 23.5681177,
+        "lng": 120.3046998
+      },
+      "source": "google_maps",
+      "note": "約10:45抵達 北港媽祖開臺祖廟 周邊小吃多 km約55"
+    },
+    {
+      "place_id": "ChIJFZajXYaibjQR_q_BYZbw0mA",
+      "name_zh": "7-Eleven Beigang",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.568823,
+        "lng": 120.301638
+      },
+      "source": "google_maps",
+      "note": "北港路段補給 km約55"
+    },
+    {
+      "place_id": "ChIJo-Z3SJgnbDQRbkeN9Rx3Mis",
+      "name_zh": "東石漁人碼頭",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 22902,
+      "location": {
+        "lat": 23.4487536,
+        "lng": 120.1352728
+      },
+      "source": "google_maps",
+      "note": "約11:30抵達 觀海景區+海鮮市場 km約72"
+    },
+    {
+      "place_id": "ChIJodGzjxwnbDQRbSUzYK6OF7M",
+      "name_zh": "蠔碳嘉烤鮮蚵吃到飽",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 4887,
+      "location": {
+        "lat": 23.4532594,
+        "lng": 120.1369878
+      },
+      "source": "google_maps",
+      "note": "11:30-13:00午餐大休 東石烤蚵吃到飽 km約72"
+    },
+    {
+      "place_id": "ChIJl927qSsobDQRUbouAy2tsUw",
+      "name_zh": "布袋觀光漁港",
+      "csv_type": "景點",
+      "rating": 4.0,
+      "total_ratings": 31187,
+      "location": {
+        "lat": 23.3793698,
+        "lng": 120.1554637
+      },
+      "source": "google_maps",
+      "note": "約13:45抵達 海鮮市集+布袋鹽田風光 km約85"
+    },
+    {
+      "place_id": "ChIJS0hpCisobDQRU81VXBvJip8",
+      "name_zh": "7-ELEVEN 布新門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.3796137,
+        "lng": 120.154874
+      },
+      "source": "google_maps",
+      "note": "布袋路段補給 km約85"
+    },
+    {
+      "place_id": "ChIJXWfXXI0qbDQRRQWBCvO8j4w",
+      "name_zh": "7-ELEVEN 南鯤鯓門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.284442,
+        "lng": 120.1370712
+      },
+      "source": "google_maps",
+      "note": "北門進入區補給 km約95"
+    },
+    {
+      "place_id": "ChIJq6qqqtUqbDQR_ohO2eK2x4E",
+      "name_zh": "井仔腳瓦盤鹽田",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 21621,
+      "location": {
+        "lat": 23.2588308,
+        "lng": 120.107568
+      },
+      "source": "google_maps",
+      "note": "約14:45抵達 台灣最古老鹽田 棋盤狀鹽結晶池 km約100"
+    },
+    {
+      "place_id": "ChIJlfUqzNoqbDQRXymbU53YLr8",
+      "name_zh": "北門遊客中心",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 5380,
+      "location": {
+        "lat": 23.2671522,
+        "lng": 120.1239695
+      },
+      "source": "google_maps",
+      "note": "約15:00抵達 結合水晶教堂與婚紗園區 km約102"
+    },
+    {
+      "place_id": "ChIJTRbkzL_WbTQRTrfGfckHIrc",
+      "name_zh": "七股鹽山",
+      "csv_type": "景點",
+      "rating": 3.9,
+      "total_ratings": 20709,
+      "location": {
+        "lat": 23.1542387,
+        "lng": 120.1001211
+      },
+      "source": "google_maps",
+      "note": "約15:45抵達 純白巨型鹽山地標 km約113"
+    },
+    {
+      "place_id": "ChIJ49OG8GnabTQR9wo1PrlXP2o",
+      "name_zh": "國聖港燈塔",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 3341,
+      "location": {
+        "lat": 23.1007127,
+        "lng": 120.0360012
+      },
+      "source": "google_maps",
+      "note": "約16:30抵達 台灣本島極西點地標 黑白方型燈塔+防風林 km約120 ★主視覺"
+    },
+    {
+      "place_id": "ChIJc6xCcUjWbTQRiHuEUawpxAM",
+      "name_zh": "7-ELEVEN 七股門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.1335946,
+        "lng": 120.1334815
+      },
+      "source": "google_maps",
+      "note": "七股終點區補給 km約122"
+    },
+    {
+      "place_id": "ChIJH7C_CY3WbTQRES0llB6FBg8",
+      "name_zh": "七股遊客中心",
+      "csv_type": "起終點",
+      "rating": 4.2,
+      "total_ratings": 1884,
+      "location": {
+        "lat": 23.1541074,
+        "lng": 120.1034827
+      },
+      "source": "google_maps",
+      "note": "約17:00抵達 當日終點 鄰七股潟湖 km約123"
+    }
+  ],
+  "candidates_not_selected": [
+    {
+      "place_id": "ChIJ31K_mRZSaTQRFuOu8CUyFzk",
+      "name_zh": "王功漁港",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 2218,
+      "location": {
+        "lat": 23.9689875,
+        "lng": 120.3245365
+      },
+      "source": "google_maps",
+      "note": "備案 在台17海線 偏離台19主線約7km"
+    },
+    {
+      "place_id": "ChIJAQAAQMUqbDQR6j5bN-bwrbs",
+      "name_zh": "北門水晶教堂",
+      "csv_type": "景點",
+      "rating": 3.8,
+      "total_ratings": 10672,
+      "location": {
+        "lat": 23.2639982,
+        "lng": 120.1227089
+      },
+      "source": "google_maps",
+      "note": "備案 在北門遊客中心旁 評分較低"
+    },
+    {
+      "place_id": "ChIJXcT_pnonbDQRNMPl8zZT_-U",
+      "name_zh": "蚵老大海鮮碳烤",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 6709,
+      "location": {
+        "lat": 23.4517586,
+        "lng": 120.136083
+      },
+      "source": "google_maps",
+      "note": "備案 東石漁人碼頭烤蚵吃到飽"
+    }
+  ]
+}

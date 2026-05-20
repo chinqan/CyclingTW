@@ -1,0 +1,12 @@
+{
+  "place_id": "ChIJFZajXYaibjQR_q_BYZbw0mA",
+  "name_zh": "7-Eleven Beigang",
+  "csv_type": "便利商店",
+  "search_keyword": "7-ELEVEN 北港門市 雲林縣北港鎮民主路106號",
+  "location": {
+    "lat": 23.568823,
+    "lng": 120.301638
+  },
+  "note": "北港路段補給 km約55",
+  "source": "google_maps"
+}

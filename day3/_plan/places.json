@@ -1,0 +1,210 @@
+{
+  "day": 3,
+  "route_name": "極西國聖燈塔追日行",
+  "total_ascent_desc": "全程平坦，沿台19/台17西部濱海南下幾乎無爬升",
+  "main_route_desc": "鹿港老街 ➔ 台19線 ➔ 西螺大橋 ➔ 北港朝天宮 ➔ 台17線 ➔ 東石漁人碼頭 ➔ 布袋觀光漁港 ➔ 井仔腳瓦盤鹽田 ➔ 七股鹽山 ➔ 國聖港燈塔（極西點）➔ 七股遊客中心",
+  "places": [
+    {
+      "place_id": "ChIJbZ03BtZFaTQRVSahxk_O324",
+      "name_zh": "鹿港老街",
+      "search_keyword": "鹿港老街 彰化縣鹿港鎮埔頭街",
+      "csv_type": "起終點",
+      "note": "07:00出發 Day2終點續行 km0",
+      "rating": 4.5,
+      "total_ratings": 42114,
+      "location": {
+        "lat": 24.0563009,
+        "lng": 120.4325817
+      },
+      "bayesian_score": 4.42
+    },
+    {
+      "place_id": "ChIJwyAVdwhGaTQRVxNrji0ZUhM",
+      "name_zh": "7-ELEVEN 鹿鑫門市",
+      "search_keyword": "7-ELEVEN 鹿鑫門市 彰化縣鹿港鎮永安里福興路289號",
+      "csv_type": "便利商店",
+      "note": "鹿港出發補給 km約1",
+      "location": {
+        "lat": 24.0563807,
+        "lng": 120.4377854
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "EiBYaWx1byBCcmcsIFl1bmxpbiBDb3VudHksIFRhaXdhbiIuKiwKFAoSCa2bONxCtG40ESt17BKmLaPmEhQKEglB88dzJ7puNBGVKtEDfMTkeg",
+      "name_zh": "西螺大橋",
+      "search_keyword": "西螺大橋 雲林縣西螺鎮",
+      "csv_type": "景點",
+      "note": "約09:30抵達 彰雲交界紅色鋼桁鐵橋 拍照5分鐘 km約30",
+      "rating": 0,
+      "total_ratings": 0,
+      "location": {
+        "lat": 23.8103145,
+        "lng": 120.460342
+      },
+      "bayesian_score": 4.01
+    },
+    {
+      "place_id": "ChIJ1fibAD60bjQRjVohkgEMHYY",
+      "name_zh": "7-ELEVEN 七崁門市",
+      "search_keyword": "7-ELEVEN 七崁門市 雲林縣西螺鎮建興路163號",
+      "csv_type": "便利商店",
+      "note": "西螺路段補給 km約31",
+      "location": {
+        "lat": 23.7983714,
+        "lng": 120.4590626
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJJfEEtoWibjQRzq8W6JSLfHo",
+      "name_zh": "北港朝天宮",
+      "search_keyword": "北港朝天宮 雲林縣北港鎮中山路178號",
+      "csv_type": "景點",
+      "note": "約10:45抵達 北港媽祖開臺祖廟 周邊小吃多 km約55",
+      "rating": 4.7,
+      "total_ratings": 24031,
+      "location": {
+        "lat": 23.5681177,
+        "lng": 120.3046998
+      },
+      "bayesian_score": 4.52
+    },
+    {
+      "place_id": "ChIJFZajXYaibjQR_q_BYZbw0mA",
+      "name_zh": "7-Eleven Beigang",
+      "search_keyword": "7-ELEVEN 北港門市 雲林縣北港鎮民主路106號",
+      "csv_type": "便利商店",
+      "note": "北港路段補給 km約55",
+      "location": {
+        "lat": 23.568823,
+        "lng": 120.301638
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJo-Z3SJgnbDQRbkeN9Rx3Mis",
+      "name_zh": "東石漁人碼頭",
+      "search_keyword": "東石漁人碼頭 嘉義縣東石鄉彩霞大道420號",
+      "csv_type": "景點",
+      "note": "約11:30抵達 觀海景區+海鮮市場 km約72",
+      "rating": 4.2,
+      "total_ratings": 22902,
+      "location": {
+        "lat": 23.4487536,
+        "lng": 120.1352728
+      },
+      "bayesian_score": 4.15
+    },
+    {
+      "place_id": "ChIJodGzjxwnbDQRbSUzYK6OF7M",
+      "name_zh": "蠔碳嘉烤鮮蚵吃到飽",
+      "search_keyword": "蠔碳嘉 嘉義縣東石鄉彩霞大道358號",
+      "csv_type": "餐廳大休",
+      "note": "11:30-13:00午餐大休 東石烤蚵吃到飽 km約72",
+      "rating": 4.9,
+      "total_ratings": 4887,
+      "location": {
+        "lat": 23.4532594,
+        "lng": 120.1369878
+      },
+      "bayesian_score": 4.33
+    },
+    {
+      "place_id": "ChIJl927qSsobDQRUbouAy2tsUw",
+      "name_zh": "布袋觀光漁港",
+      "search_keyword": "布袋漁港魚市場 嘉義縣布袋鎮中山路3號",
+      "csv_type": "景點",
+      "note": "約13:45抵達 海鮮市集+布袋鹽田風光 km約85",
+      "rating": 4.0,
+      "total_ratings": 31187,
+      "location": {
+        "lat": 23.3793698,
+        "lng": 120.1554637
+      },
+      "bayesian_score": 4.0
+    },
+    {
+      "place_id": "ChIJS0hpCisobDQRU81VXBvJip8",
+      "name_zh": "7-ELEVEN 布新門市",
+      "search_keyword": "7-ELEVEN 布新門市 嘉義縣布袋鎮中正路63號",
+      "csv_type": "便利商店",
+      "note": "布袋路段補給 km約85",
+      "location": {
+        "lat": 23.3796137,
+        "lng": 120.154874
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJXWfXXI0qbDQRRQWBCvO8j4w",
+      "name_zh": "7-ELEVEN 南鯤鯓門市",
+      "search_keyword": "7-ELEVEN 南鯤鯓門市 台南市北門區蚵寮里841-1號",
+      "csv_type": "便利商店",
+      "note": "北門前補給 km約95",
+      "location": {
+        "lat": 23.284442,
+        "lng": 120.1370712
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJq6qqqtUqbDQR_ohO2eK2x4E",
+      "name_zh": "井仔腳瓦盤鹽田",
+      "search_keyword": "井仔腳瓦盤鹽田 台南市北門區",
+      "csv_type": "景點",
+      "note": "約14:45抵達 台灣最古老鹽田 棋盤狀鹽結晶池 km約100",
+      "rating": 4.4,
+      "total_ratings": 21621,
+      "location": {
+        "lat": 23.2588308,
+        "lng": 120.107568
+      },
+      "bayesian_score": 4.29
+    },
+    {
+      "place_id": "ChIJlfUqzNoqbDQRXymbU53YLr8",
+      "name_zh": "北門遊客中心",
+      "search_keyword": "北門遊客中心 台南市北門區北門里200號",
+      "csv_type": "景點",
+      "note": "約15:00抵達 結合水晶教堂與婚紗園區 km約102",
+      "rating": 4.1,
+      "total_ratings": 5380,
+      "location": {
+        "lat": 23.2671522,
+        "lng": 120.1239695
+      },
+      "bayesian_score": 4.04
+    },
+    {
+      "place_id": "ChIJTRbkzL_WbTQRTrfGfckHIrc",
+      "name_zh": "七股鹽山",
+      "search_keyword": "七股鹽山 台南市七股區鹽埕里66號",
+      "csv_type": "景點",
+      "note": "約15:45抵達 純白巨型鹽山地標 km約113",
+      "rating": 3.9,
+      "total_ratings": 20709,
+      "location": {
+        "lat": 23.1542387,
+        "lng": 120.1001211
+      },
+      "bayesian_score": 3.93
+    },
+    {
+      "place_id": "ChIJ49OG8GnabTQR9wo1PrlXP2o",
+      "name_zh": "國聖港燈塔",
+      "search_keyword": "國聖港燈塔 台灣極西點 台南市七股區西堤堤坊",
+      "csv_type": "起終點",
+      "note": "約16:30抵達 當日終點 台灣本島極西點 黑白方型燈塔+防風林 km約123 ★主視覺 住宿折返七股鹽山附近民宿",
+      "rating": 4.4,
+      "total_ratings": 3341,
+      "location": {
+        "lat": 23.1007127,
+        "lng": 120.0360012
+      },
+      "bayesian_score": 4.12
+    }
+  ],
+  "bayesian_C": 4.0071,
+  "bayesian_m": 8690
+}

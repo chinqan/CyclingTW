@@ -1,0 +1,27 @@
+{
+  "day": 3,
+  "origin_label": "鹿港 / 彰化",
+  "destination_label": "七股 / 善化",
+  "distance_range": "約 105–120 公里",
+  "subtitle": "極西國聖燈塔追日行",
+  "orientation": "vertical_portrait_2_3",
+  "lighting": "柔和清晨明亮光線、清新藍天白雲",
+  "allowed_elements": "",
+  "enhancement": "",
+  "main_visual": {
+    "place_id": "ChIJ49OG8GnabTQR9wo1PrlXP2o",
+    "location_desc": "台南市七股「國聖港燈塔」",
+    "scene_elements": "",
+    "action": "",
+    "expression": ""
+  },
+  "small_avatar": {
+    "place_id": "ChIJbZ03BtZFaTQRVSahxk_O324",
+    "location_desc": "彰化縣鹿港「鹿港老街」",
+    "scenario": "",
+    "action": "",
+    "expression": ""
+  },
+  "composition": "主角在畫面中央偏上、鹿港老街在右上方小分身、國聖港燈塔在畫面下方遠景、沿途點綴西螺大橋、北港朝天宮、東石漁人碼頭、布袋觀光漁港、井仔腳瓦盤鹽田、北門遊客中心、七股鹽山",
+  "geographic_notes": "鹿港老街在畫面上方（北側）、國聖港燈塔在畫面下方（南側）"
+}

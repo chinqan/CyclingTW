@@ -12,7 +12,9 @@
       "Bash(git push *)",
       "Bash(tee *)",
       "Bash(awk *)",
-      "Bash(md5 *)"
+      "Bash(md5 *)",
+      "Bash(git commit *)",
+      "Bash(node build_html.js)"
     ]
   }
 }

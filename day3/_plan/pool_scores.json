@@ -1,0 +1,106 @@
+{
+  "day": 3,
+  "bayesian_C": 4.0071,
+  "bayesian_m": 8690,
+  "pool_size": 14,
+  "scores": {
+    "ChIJbZ03BtZFaTQRVSahxk_O324": {
+      "name_zh": "鹿港老街",
+      "csv_type": "起終點",
+      "rating": 4.5,
+      "total_ratings": 42114,
+      "bayesian_score": 4.42
+    },
+    "EiBYaWx1byBCcmcsIFl1bmxpbiBDb3VudHksIFRhaXdhbiIuKiwKFAoSCa2bONxCtG40ESt17BKmLaPmEhQKEglB88dzJ7puNBGVKtEDfMTkeg": {
+      "name_zh": "西螺大橋",
+      "csv_type": "景點",
+      "rating": 0,
+      "total_ratings": 0,
+      "bayesian_score": 4.01
+    },
+    "ChIJJfEEtoWibjQRzq8W6JSLfHo": {
+      "name_zh": "北港朝天宮",
+      "csv_type": "景點",
+      "rating": 4.7,
+      "total_ratings": 24031,
+      "bayesian_score": 4.52
+    },
+    "ChIJo-Z3SJgnbDQRbkeN9Rx3Mis": {
+      "name_zh": "東石漁人碼頭",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 22902,
+      "bayesian_score": 4.15
+    },
+    "ChIJodGzjxwnbDQRbSUzYK6OF7M": {
+      "name_zh": "蠔碳嘉烤鮮蚵吃到飽",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 4887,
+      "bayesian_score": 4.33
+    },
+    "ChIJl927qSsobDQRUbouAy2tsUw": {
+      "name_zh": "布袋觀光漁港",
+      "csv_type": "景點",
+      "rating": 4.0,
+      "total_ratings": 31187,
+      "bayesian_score": 4.0
+    },
+    "ChIJq6qqqtUqbDQR_ohO2eK2x4E": {
+      "name_zh": "井仔腳瓦盤鹽田",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 21621,
+      "bayesian_score": 4.29
+    },
+    "ChIJlfUqzNoqbDQRXymbU53YLr8": {
+      "name_zh": "北門遊客中心",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 5380,
+      "bayesian_score": 4.04
+    },
+    "ChIJTRbkzL_WbTQRTrfGfckHIrc": {
+      "name_zh": "七股鹽山",
+      "csv_type": "景點",
+      "rating": 3.9,
+      "total_ratings": 20709,
+      "bayesian_score": 3.93
+    },
+    "ChIJ49OG8GnabTQR9wo1PrlXP2o": {
+      "name_zh": "國聖港燈塔",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 3341,
+      "bayesian_score": 4.12
+    },
+    "ChIJH7C_CY3WbTQRES0llB6FBg8": {
+      "name_zh": "七股遊客中心",
+      "csv_type": "起終點",
+      "rating": 4.2,
+      "total_ratings": 1884,
+      "bayesian_score": 4.04
+    },
+    "ChIJ31K_mRZSaTQRFuOu8CUyFzk": {
+      "name_zh": "王功漁港",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 2218,
+      "bayesian_score": 4.05
+    },
+    "ChIJAQAAQMUqbDQR6j5bN-bwrbs": {
+      "name_zh": "北門水晶教堂",
+      "csv_type": "景點",
+      "rating": 3.8,
+      "total_ratings": 10672,
+      "bayesian_score": 3.89
+    },
+    "ChIJXcT_pnonbDQRNMPl8zZT_-U": {
+      "name_zh": "蚵老大海鮮碳烤",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 6709,
+      "bayesian_score": 4.35
+    }
+  }
+}
