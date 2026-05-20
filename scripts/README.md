@@ -31,7 +31,7 @@
 | **Bayesian 動態重算** | C（候選池平均）與 m（評論數中位數）皆從當前點位重算，禁止硬編碼 |
 | **不變式驗證** | CSV 終點要對應 `index.md` 目的地、候選池規模要達標，違反時警告 |
 | **冪等** | 重跑同一命令結果一致，輸出檔可隨時覆蓋重生 |
-| **分階段可獨立執行** | 13 個子命令互相獨立，可單獨除錯 |
+| **分階段可獨立執行** | 14 個子命令互相獨立，可單獨除錯 |
 
 ---
 
@@ -368,6 +368,8 @@ python3 scripts/plan.py gpx-merge 2
 
 ### Phase 3：海報提示詞
 
+> ⚠️ 必須在 `compute` 之後執行：`render-prompt` 的 ★主視覺自動 fallback 依賴 `bayesian_score`，沒跑 compute 時所有點的 score 都是 None，自動挑選會失敗。
+
 **手寫 `_plan/poster_vars.json`**：主視覺從 CSV `bayesian_score` 最高的景點選；夕陽景點（如高美濕地）要把 `lighting` 改成金色暖光。
 
 ```bash
@@ -466,8 +468,8 @@ python3 scripts/plan.py <subcommand> <day_number> [options]
 顯示 `dayN/map/`（本地鏡像）現況：
 - 個別 JSON 檔案數
 - `index.json` 中已入選與未入選的點位數
-- 各類型 (`csv_type`) 點位列表
-- 候選池規模警告（景點 < 5 或餐廳 < 2 時警示）
+- **入選與備案分別**依 `csv_type` 分組列出
+- 候選池規模警告：景點/起終點 < 5 或餐廳大休 < 2 時警示，且計入備案數量
 
 **輸入**：`dayN/map/`
 **輸出**：stdout 報告
@@ -510,7 +512,7 @@ python3 scripts/plan.py <subcommand> <day_number> [options]
 
 讀 `dayN/_plan/places.json` 取得 place_id 與排序，然後：
 
-1. **從 `dayN/map/<pid>.json` 拉最新 rating / total_ratings / location / name_zh**（mirror 是 SoT）
+1. **從 `dayN/map/<pid>.json` 拉最新 rating / total_ratings / location / name_zh**（這些屬於 Google Maps 的事實，mirror 是 SoT）。`csv_type` 不同步——它是「當日對該點的角色分類」，由人在 places.json 決定
 2. 重算：
    - **`bayesian_C`** = 候選池內 `rating` 平均
    - **`bayesian_m`** = 候選池內 `total_ratings` 中位數（最低採用 100，避免低樣本失真）
@@ -521,11 +523,13 @@ python3 scripts/plan.py <subcommand> <day_number> [options]
 **輸入**：`dayN/_plan/places.json` + `dayN/map/*.json`
 **輸出**：寫回 `places.json` + stdout 表格
 
-> 重要：`compute` 是 **write-back from mirror**，這保證 `mirror-put` 之後跑 `compute` 一定用到最新資料。`places.json` 內的數值會被 mirror 覆寫掉，不要手動編輯 rating / total_ratings 欄位（會被下次 compute 蓋掉）。
+> 重要：`compute` 是 **write-back from mirror**，這保證 `mirror-put` 之後跑 `compute` 一定用到最新資料。`places.json` 內的 rating / total_ratings / location / name_zh 會被 mirror 覆寫，不要手動編輯（會被下次 compute 蓋掉，應改寫到 mirror）。`csv_type` 不被 mirror 覆寫，可在 places.json 自由調整當日角色分類。
+>
+> 另外，若 `csv_type ∈ {景點, 起終點, 餐廳大休}` 的點缺 rating 或 total_ratings（None），會被排除在 Bayesian 計算外，並在 stderr 印出警告以便補資料。注意「值為 0」（如新景點 total_ratings=0）不算缺值，會正常參與計算。
 
 ### `review N`
 
-對整個候選池（`mirror.places` + `mirror.candidates_not_selected`）重評，偵測排名翻轉：
+對候選池中**可評分的點**（`csv_type ∈ {景點, 起終點, 餐廳大休}` 且具備 rating / total_ratings）重評，偵測排名翻轉。便利商店 / 加油站等不參與評分的類型不會出現在報告中：
 
 1. 用整個候選池算 C 和 m（樣本量更大、更穩定）
 2. 按 `csv_type` 分組排名顯示
@@ -556,6 +560,8 @@ python3 scripts/plan.py <subcommand> <day_number> [options]
 ### `gpx-save N`
 
 從 stdin 讀 openroute MCP 回應（含 envelope），自動剝離 `[Resource from ...]` 前綴，存為 `dayN_route.gpx`。
+
+> **使用時機**：短路線（< 50 km）單次呼叫 openroute MCP 就能完整回傳的情境。長路線請改用 `gpx-split-plan` + `gpx-append` + `gpx-merge` 流程。
 
 **輸入**：stdin GPX 文字
 **輸出**：`dayN/dayN_route.gpx`
@@ -598,12 +604,21 @@ python3 scripts/plan.py <subcommand> <day_number> [options]
 **輸入**：`dayN/_plan/gpx_leg_*.gpx` + `dayN/_plan/places.json`
 **輸出**：`dayN/dayN_route.gpx`
 
-### `render-prompt N`
+### `render-prompt N [--no-sync]`
 
 用 `templates/prompt.md.j2` 渲染海報提示詞。
 
-**輸入**：`dayN/_plan/poster_vars.json`
-**輸出**：`dayN/dayN_prompt.md`
+**預設行為**：渲染前會先從 `places.json` 重推 `poster_vars.json` 的「結構欄位」：
+- `composition` / `geographic_notes`：每次都依當前 places + orientation 重生
+- `main_visual.place_id` / `small_avatar.place_id`：依 ★主視覺 與起點同步
+- 若 `place_id` 變動，會清空對應的手寫場景文字（`scene_elements` / `action` / `expression` / `scenario`）並警告，避免舊文字配新地點
+- `origin_label` / `destination_label` / `distance_range` / `subtitle` / `orientation` / `lighting` / `allowed_elements` / `enhancement`：缺值才補預設，已有就尊重使用者編輯
+
+**參數**：
+- `--no-sync`：跳過自動同步，僅以現有 `poster_vars.json` 渲染。用於已手動完成所有欄位、不想被覆寫時。
+
+**輸入**：`dayN/_plan/poster_vars.json`（+ `places.json` / `config.json` 用於同步）
+**輸出**：`dayN/dayN_prompt.md`（+ 改寫後的 `poster_vars.json`，除非 `--no-sync`）
 
 ### `render-md N`
 
@@ -648,7 +663,7 @@ pip install jinja2
 
 ### `[info] ⚠️ 最後一筆 'XXX' 與 index.md 目的地 'YYY' 不完全相符`
 
-不一定是錯誤。`index.md` 寫成「鹿港 / 彰化」這種多選項時，CSV 終點只能是其中一個（例如「鹿港老街」），警告只是提醒人工確認。
+`write-csv` 會把 `index.md` 目的地依 `/`、`、`、`,` 拆成多個選項，只要 CSV 終點的 `name_zh` 是任一選項的 substring（或反之）就視為相符。若仍觸發警告，代表終點確實偏離了任何一個指定選項，需要人工確認。
 
 ### `[info] ⚠️ 餐廳大休候選 1 筆`
 
