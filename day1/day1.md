@@ -5,7 +5,7 @@
 ## 📍 路線總覽
 
 * **出發地**：台北蘆洲柳堤公園
-* **目的地**：新竹 / 竹南
+* **目的地**：竹南車站
 * **總距離**：約 80–100 公里
 * **總爬升**：全程幾乎平坦，台61線西濱公路爬升極少，南寮至竹南段略有起伏
 * **主要路線**：二重疏洪道自行車道 ➔ 八里左岸自行車道 ➔ 台15線 ➔ 台61線（竹圍/觀音/新屋）➔ 南寮漁港 ➔ 台1線 ➔ 竹南車站
@@ -122,6 +122,23 @@ ishikawa-beta
 - 🏁 **17:00 竹南車站**（km ~110，苗栗縣竹南鎮中山路166號）：周邊有平價旅館與餐廳，台鐵竹南站可搭乘區間車或自強號返程。
 
 ---
+
+
+## 🍽️ 晚餐推薦（終點周邊 3km · 貝葉斯排序）
+
+| # | 店名 | 評分 | 留言數 | 貝葉斯分 | 備註 |
+|:---:|:---|:---:|---:|:---:|:---|
+| 1 | [柒石柒 石頭鍋](https://www.google.com/maps/place/?q=place_id:ChIJb60QSwCzaTQRMa5Xeeni_6M) | 4.8★ | 1616 | 4.732 | 石頭火鍋 每天11:00-02:00 車站旁 |
+| 2 | [豚嘢家 日式咖哩豬排](https://www.google.com/maps/place/?q=place_id:ChIJ2xKrLQCzaTQR_DnVboSVmh0) | 4.8★ | 1455 | 4.7266 | 日式咖哩豬排 每天11:00-21:00 車站旁 |
+| 3 | [夏川食堂](https://www.google.com/maps/place/?q=place_id:ChIJkyfmh1CzaTQRqpYlWbi62b8) | 4.8★ | 751 | 4.6869 | 日式拉麵 週二公休 |
+| 4 | [House過癮](https://www.google.com/maps/place/?q=place_id:ChIJZc05r26zaTQRj5C1snCX4_k) | 4.8★ | 336 | 4.634 | 手工窯烤披薩 週一二公休 |
+| 5 | [順風順水宵夜](https://www.google.com/maps/place/?q=place_id:ChIJQexrNgCzaTQRBnZbzQwzAoA) | 4.9★ | 147 | 4.6101 | 宵夜豆漿燒餅 每天17:00-07:00 |
+
+> 💡 *排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）*
+> 📋 *完整 19 筆候選排名請見 [`day1_dinner.md`](./day1_dinner.md)*
+
+---
+
 
 ## 💡 騎乘注意事項
 

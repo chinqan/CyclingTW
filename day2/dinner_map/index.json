@@ -1,0 +1,215 @@
+{
+  "day": 2,
+  "candidates": [
+    {
+      "place_id": "ChIJ0Z-zC6lHaTQREgeeip-pG2U",
+      "name_zh": "快樂蘇打 Happy Soda",
+      "rating": 4.8,
+      "total_ratings": 1427,
+      "location": {
+        "lat": 24.0474456,
+        "lng": 120.4364854
+      },
+      "address": "彰化縣鹿港鎮復興南路118號",
+      "note": "義式料理 份量大",
+      "source": "search_2026-05-20",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJkcTxwQdGaTQRR-rsDx9Sazg",
+      "name_zh": "禾火食堂",
+      "rating": 4.6,
+      "total_ratings": 1146,
+      "location": {
+        "lat": 24.0569006,
+        "lng": 120.4378172
+      },
+      "address": "彰化縣鹿港鎮復興路318號",
+      "note": "日式定食 環境舒適",
+      "source": "search_2026-05-20",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJDyBgePpFaTQRJUsJs7vOpkc",
+      "name_zh": "敘敘究燒肉專門店",
+      "rating": 4.9,
+      "total_ratings": 2739,
+      "location": {
+        "lat": 24.0643237,
+        "lng": 120.434732
+      },
+      "address": "彰化縣鹿港鎮鹿草路一段277號",
+      "note": "燒肉 需預約",
+      "source": "search_2026-05-20",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJpRXSwg9HaTQRwOSJh1lAlM8",
+      "name_zh": "一畝石鍋 鹿港總店",
+      "rating": 4.9,
+      "total_ratings": 2150,
+      "location": {
+        "lat": 24.0529473,
+        "lng": 120.43845
+      },
+      "address": "彰化縣鹿港鎮復興路129號",
+      "note": "石頭火鍋 高CP值",
+      "source": "search_2026-05-20",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJHztGUv1FaTQRtBJAsU9VP3I",
+      "name_zh": "海味珍活海鮮",
+      "rating": 4.3,
+      "total_ratings": 2932,
+      "location": {
+        "lat": 24.056301,
+        "lng": 120.4524757
+      },
+      "address": "彰化縣鹿港鎮鹿東路二段173號",
+      "note": "活海鮮 份量大",
+      "source": "search_2026-05-20",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJX0rW3ORFaTQRszY3gH2muzk",
+      "name_zh": "濠誠活海產京川菜",
+      "rating": 4.4,
+      "total_ratings": 2374,
+      "location": {
+        "lat": 24.059465,
+        "lng": 120.427656
+      },
+      "address": "彰化縣鹿港鎮光復路27號",
+      "note": "海鮮快炒",
+      "source": "search_2026-05-20",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJzU-GUdtHaTQR5Ftb4IWN0wo",
+      "name_zh": "輕輕的蔬食簡餐",
+      "rating": 4.8,
+      "total_ratings": 437,
+      "location": {
+        "lat": 24.0504515,
+        "lng": 120.4361972
+      },
+      "address": "彰化縣鹿港鎮金門巷62號",
+      "note": "蔬食友善 老街旁",
+      "source": "search_2026-05-20",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJzyu0tTlHaTQRgkOSH2epUh8",
+      "name_zh": "天喜市場美式漢堡",
+      "rating": 4.8,
+      "total_ratings": 421,
+      "location": {
+        "lat": 24.0560467,
+        "lng": 120.4369052
+      },
+      "address": "彰化縣鹿港鎮萬壽路199號",
+      "note": "厚牛肉漢堡 手工製作",
+      "source": "search_2026-05-20",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJY6bb7QZGaTQRxFKBpiDEya4",
+      "name_zh": "i-Life廚房",
+      "rating": 4.6,
+      "total_ratings": 438,
+      "location": {
+        "lat": 24.0521512,
+        "lng": 120.4394783
+      },
+      "address": "彰化縣鹿港鎮復興路112巷12號",
+      "note": "創意料理 環境清新",
+      "source": "search_2026-05-20",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJHQPgtRxGaTQRgfIUtJcYC0k",
+      "name_zh": "朝天露嘎嗶",
+      "rating": 4.8,
+      "total_ratings": 213,
+      "location": {
+        "lat": 24.0476396,
+        "lng": 120.4476019
+      },
+      "address": "彰化縣鹿港鎮彰鹿路七段372號",
+      "note": "台式小吃 平價",
+      "source": "search_2026-05-20",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJB3GtcN9FaTQRIqFsC2PKdqk",
+      "name_zh": "玖燒 炭烤",
+      "rating": 4.9,
+      "total_ratings": 219,
+      "location": {
+        "lat": 24.0529373,
+        "lng": 120.4330777
+      },
+      "address": "彰化縣鹿港鎮菜園路126號",
+      "note": "炭烤串燒 宵夜",
+      "source": "search_2026-05-20",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJO_pCRHJHaTQRq0shwPp8rGg",
+      "name_zh": "滿座食堂",
+      "rating": 4.5,
+      "total_ratings": 215,
+      "location": {
+        "lat": 24.053401,
+        "lng": 120.4382029
+      },
+      "address": "彰化縣鹿港鎮館前街9號",
+      "note": "鮭魚炒飯 售完為止",
+      "source": "search_2026-05-20",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJt_PkLABHaTQRnL29Rrpi8cM",
+      "name_zh": "利河伯食堂",
+      "rating": 4.7,
+      "total_ratings": 148,
+      "location": {
+        "lat": 24.0470971,
+        "lng": 120.4378041
+      },
+      "address": "彰化縣鹿港鎮復興南路77號",
+      "note": "客家料理",
+      "source": "search_2026-05-20",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJE-R7fHlFaTQRe9tkAt2iq2g",
+      "name_zh": "小松丼丼食事處",
+      "rating": 4.4,
+      "total_ratings": 284,
+      "location": {
+        "lat": 24.0591701,
+        "lng": 120.4311613
+      },
+      "address": "彰化縣鹿港鎮中山路420號",
+      "note": "日式丼飯",
+      "source": "search_2026-05-20",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJZ2brgLRFaTQRa-06HTRc6sA",
+      "name_zh": "飯大廚創意醬炒",
+      "rating": 4.8,
+      "total_ratings": 101,
+      "location": {
+        "lat": 24.0561583,
+        "lng": 120.4319584
+      },
+      "address": "彰化縣鹿港鎮成功路49號",
+      "note": "創意炒飯 素食友善",
+      "source": "search_2026-05-20",
+      "selected": false
+    }
+  ]
+}

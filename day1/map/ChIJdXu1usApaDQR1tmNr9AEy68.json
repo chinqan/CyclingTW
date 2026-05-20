@@ -2,12 +2,12 @@
   "place_id": "ChIJdXu1usApaDQR1tmNr9AEy68",
   "name_zh": "7-ELEVEN 大益門市",
   "csv_type": "便利商店",
-  "rating": 4.2,
-  "total_ratings": 95,
+  "rating": null,
+  "total_ratings": null,
   "location": {
     "lat": 25.030819,
     "lng": 121.0698247
   },
-  "source": "mirror_kept",
-  "target": "places"
+  "source": "search_2026-05-20",
+  "note": "觀音大潭路段補給 km約57"
 }

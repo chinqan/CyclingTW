@@ -3,11 +3,10 @@
   "name_zh": "竹南車站",
   "csv_type": "起終點",
   "rating": 4.0,
-  "total_ratings": 1183,
+  "total_ratings": 1184,
   "location": {
     "lat": 24.686589,
-    "lng": 120.880563
+    "lng": 120.8805627
   },
-  "source": "day1_cache_reuse",
-  "target": "places"
+  "source": "search_2026-05-20"
 }

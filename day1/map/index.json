@@ -6,66 +6,6 @@
   "bayesian_m": 1423,
   "places": [
     {
-      "place_id": "ChIJ7Ws-1bOoQjQRehrUbGzlo1A",
-      "name_zh": "蘆洲柳堤公園",
-      "csv_type": "起終點",
-      "rating": 4.3,
-      "total_ratings": 1407,
-      "location": {
-        "lat": 25.088225,
-        "lng": 121.4626333
-      },
-      "source": "place_details_2026-05-20"
-    },
-    {
-      "place_id": "ChIJ_3VUnGilQjQR7qp73ndM8Cg",
-      "name_zh": "八里左岸自行車道",
-      "csv_type": "景點",
-      "rating": 4.4,
-      "total_ratings": 1423,
-      "location": {
-        "lat": 25.1511404,
-        "lng": 121.4429224
-      },
-      "source": "place_details_2026-05-20"
-    },
-    {
-      "place_id": "ChIJ4z5kWWOhQjQRcl-uSRbQCN0",
-      "name_zh": "水牛坑越野場地",
-      "csv_type": "景點",
-      "rating": 4.2,
-      "total_ratings": 4737,
-      "location": {
-        "lat": 25.1198168,
-        "lng": 121.3188263
-      },
-      "source": "place_details_2026-05-20"
-    },
-    {
-      "place_id": "ChIJAQAAAKyfQjQR7fhsd-lMPDU",
-      "name_zh": "竹圍漁港",
-      "csv_type": "景點",
-      "rating": 4.2,
-      "total_ratings": 41576,
-      "location": {
-        "lat": 25.117158,
-        "lng": 121.2444776
-      },
-      "source": "place_details_2026-05-20"
-    },
-    {
-      "place_id": "ChIJU9iHxPQuaDQR2v3_t-04zTU",
-      "name_zh": "永安漁港",
-      "csv_type": "景點",
-      "rating": 4.1,
-      "total_ratings": 38606,
-      "location": {
-        "lat": 24.987719,
-        "lng": 121.01578839
-      },
-      "source": "place_details_2026-05-20"
-    },
-    {
       "place_id": "ChIJo69tyO40aDQReBjpbzodIuo",
       "name_zh": "新竹南寮漁港",
       "csv_type": "景點",
@@ -78,6 +18,71 @@
       "source": "place_details_2026-05-20"
     },
     {
+      "place_id": "ChIJ7Ws-1bOoQjQRehrUbGzlo1A",
+      "name_zh": "蘆洲柳堤公園",
+      "csv_type": "起終點",
+      "rating": 4.3,
+      "total_ratings": 1407,
+      "location": {
+        "lat": 25.088225,
+        "lng": 121.4626333
+      },
+      "source": "search_2026-05-20",
+      "note": "早上07:00出發 河濱起點 有公廁與停車場"
+    },
+    {
+      "place_id": "ChIJ_3VUnGilQjQR7qp73ndM8Cg",
+      "name_zh": "八里左岸自行車道",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 1423,
+      "location": {
+        "lat": 25.1511404,
+        "lng": 121.4429224
+      },
+      "source": "search_2026-05-20",
+      "note": "約08:30抵達 淡水河口壯觀河景 觀音山倒影 km約15 ★主視覺"
+    },
+    {
+      "place_id": "ChIJ4z5kWWOhQjQRcl-uSRbQCN0",
+      "name_zh": "水牛坑越野場地",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 4737,
+      "location": {
+        "lat": 25.1198168,
+        "lng": 121.3188263
+      },
+      "source": "search_2026-05-20",
+      "note": "約09:45抵達 特殊峽谷地貌 km約28"
+    },
+    {
+      "place_id": "ChIJAQAAAKyfQjQR7fhsd-lMPDU",
+      "name_zh": "竹圍漁港",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 41577,
+      "location": {
+        "lat": 25.117158,
+        "lng": 121.2444776
+      },
+      "source": "search_2026-05-20",
+      "note": "約10:45抵達 彩虹橋漁港地標 km約43"
+    },
+    {
+      "place_id": "ChIJU9iHxPQuaDQR2v3_t-04zTU",
+      "name_zh": "永安漁港",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 38608,
+      "location": {
+        "lat": 24.987719,
+        "lng": 121.01578839
+      },
+      "source": "search_2026-05-20",
+      "note": "約12:00抵達 大型觀光漁港 km約70"
+    },
+    {
       "place_id": "ChIJxe6O0FIvaDQRPYMEXA0HqUM",
       "name_zh": "江戶壽司（永安漁港）",
       "csv_type": "餐廳大休",
@@ -87,56 +92,73 @@
         "lat": 24.9877247,
         "lng": 121.01464919
       },
-      "source": "place_details_2026-05-20",
-      "note": "週一公休"
+      "source": "search_2026-05-20",
+      "note": "12:00-13:30午餐大休 週一公休改海晏漁村料理"
+    },
+    {
+      "place_id": "ChIJFxDjEO40aDQR8dbtyPOa_3M",
+      "name_zh": "新竹南寮漁港",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 1753,
+      "location": {
+        "lat": 24.8483333,
+        "lng": 120.9302778
+      },
+      "source": "search_2026-05-20",
+      "note": "約15:30抵達 海鮮市集 km約90"
     },
     {
       "place_id": "ChIJQ5bTDzuzaTQRnzEViKsrqdE",
       "name_zh": "竹南車站",
       "csv_type": "起終點",
       "rating": 4.0,
-      "total_ratings": 1183,
+      "total_ratings": 1184,
       "location": {
         "lat": 24.686588999,
         "lng": 120.8805627
       },
-      "source": "place_details_2026-05-20"
+      "source": "search_2026-05-20",
+      "note": "約17:00抵達 當日終點"
     },
     {
       "place_id": "ChIJbyTPrfWlQjQRi8Cuce8nH-E",
       "name_zh": "7-ELEVEN 里商門市",
       "csv_type": "便利商店",
-      "rating": 4.5,
-      "total_ratings": 36,
+      "rating": null,
+      "total_ratings": null,
       "location": {
         "lat": 25.1530647,
         "lng": 121.4019101
       },
-      "source": "mirror_kept"
+      "source": "search_2026-05-20",
+      "note": "離開八里前補充水分食物 km約18"
     },
     {
       "place_id": "ChIJdXu1usApaDQR1tmNr9AEy68",
       "name_zh": "7-ELEVEN 大益門市",
       "csv_type": "便利商店",
-      "rating": 4.2,
-      "total_ratings": 95,
+      "rating": null,
+      "total_ratings": null,
       "location": {
         "lat": 25.030819,
         "lng": 121.0698247
       },
-      "source": "mirror_kept"
+      "source": "search_2026-05-20",
+      "note": "觀音大潭路段補給 km約57"
     },
     {
       "place_id": "ChIJf6Q20vYuaDQRu0mJUzvm8OI",
       "name_zh": "7-ELEVEN 永安港門市",
       "csv_type": "便利商店",
-      "rating": 4.4,
-      "total_ratings": 158,
+      "rating": null,
+      "total_ratings": null,
       "location": {
         "lat": 24.9882131,
         "lng": 121.0185329
       },
-      "source": "mirror_kept"
+      "source": "search_2026-05-20",
+      "note": "午餐後補給 距永安漁港200m km約70"
     }
   ],
   "candidates_not_selected": [
@@ -306,19 +328,6 @@
       },
       "source": "search_2026-05-20",
       "note": "5.0分但僅 142 則評論，加權後輸給江戶壽司"
-    },
-    {
-      "place_id": "ChIJFxDjEO40aDQR8dbtyPOa_3M",
-      "name_zh": "新竹南寮漁港（舊條目）",
-      "csv_type": "景點",
-      "rating": 4.2,
-      "total_ratings": 1753,
-      "location": {
-        "lat": 24.8483333,
-        "lng": 120.9302778
-      },
-      "source": "superseded_by_ChIJo69tyO40aDQReBjpbzodIuo",
-      "note": "舊條目（1753則），已由新條目 ChIJo69tyO40aDQReBjpbzodIuo（6813則）取代"
     }
   ]
 }

@@ -2,12 +2,12 @@
   "place_id": "ChIJbyTPrfWlQjQRi8Cuce8nH-E",
   "name_zh": "7-ELEVEN 里商門市",
   "csv_type": "便利商店",
-  "rating": 4.5,
-  "total_ratings": 36,
+  "rating": null,
+  "total_ratings": null,
   "location": {
     "lat": 25.1530647,
     "lng": 121.4019101
   },
-  "source": "mirror_kept",
-  "target": "places"
+  "source": "search_2026-05-20",
+  "note": "離開八里前補充水分食物 km約18"
 }

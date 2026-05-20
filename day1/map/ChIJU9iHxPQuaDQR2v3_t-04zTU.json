@@ -3,11 +3,11 @@
   "name_zh": "永安漁港",
   "csv_type": "景點",
   "rating": 4.1,
-  "total_ratings": 38606,
+  "total_ratings": 38608,
   "location": {
     "lat": 24.987719,
     "lng": 121.01578839
   },
-  "source": "place_details_2026-05-20",
-  "target": "places"
+  "source": "search_2026-05-20",
+  "note": "約12:00抵達 大型觀光漁港 km約70"
 }

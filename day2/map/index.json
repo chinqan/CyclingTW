@@ -2,31 +2,6 @@
   "day": 2,
   "places": [
     {
-      "place_id": "ChIJQ5bTDzuzaTQRnzEViKsrqdE",
-      "name_zh": "竹南車站",
-      "csv_type": "起終點",
-      "rating": 4.0,
-      "total_ratings": 1183,
-      "location": {
-        "lat": 24.686589,
-        "lng": 120.880563
-      },
-      "source": "day1_cache_reuse"
-    },
-    {
-      "place_id": "ChIJVVVVVWWuaTQRsf_BtcIo5Yo",
-      "name_zh": "後龍好望角風景區",
-      "csv_type": "景點",
-      "rating": 4.4,
-      "total_ratings": 17664,
-      "location": {
-        "lat": 24.601974,
-        "lng": 120.731191
-      },
-      "source": "search_2026-05-20",
-      "note": "苗栗海岸最美觀景台 短爬坡 可俯瞰風車群"
-    },
-    {
       "place_id": "ChIJAQAAMB-maTQRqP6KozChaJ8",
       "name_zh": "白沙屯拱天宮",
       "csv_type": "景點",
@@ -40,32 +15,6 @@
       "note": "全日最高評分景點 著名媽祖廟"
     },
     {
-      "place_id": "ChIJR-i8TSSmaTQR_m3wMwNABss",
-      "name_zh": "通霄精鹽廠 (台鹽通霄觀光園區)",
-      "csv_type": "景點",
-      "rating": 4.1,
-      "total_ratings": 7279,
-      "location": {
-        "lat": 24.5559494,
-        "lng": 120.7035802
-      },
-      "source": "search_2026-05-20",
-      "note": "免費觀光工廠 有鹹冰棒"
-    },
-    {
-      "place_id": "ChIJ2ffC3wEOaTQR-YuV-iIXELk",
-      "name_zh": "大甲鎮瀾宮",
-      "csv_type": "景點",
-      "rating": 4.6,
-      "total_ratings": 17285,
-      "location": {
-        "lat": 24.3451924,
-        "lng": 120.6235944
-      },
-      "source": "search_2026-05-20",
-      "note": "全台最著名媽祖廟 世界三大宗教慶典之一"
-    },
-    {
       "place_id": "ChIJvYFhg4wTaTQR2evNLEQ1ZN8",
       "name_zh": "高美濕地木棧道",
       "csv_type": "景點",
@@ -77,19 +26,6 @@
       },
       "source": "search_2026-05-20",
       "note": "夕陽必訪 木棧道延伸入海 約16:00前抵達最佳"
-    },
-    {
-      "place_id": "ChIJbZ03BtZFaTQRVSahxk_O324",
-      "name_zh": "鹿港老街",
-      "csv_type": "起終點",
-      "rating": 4.5,
-      "total_ratings": 42109,
-      "location": {
-        "lat": 24.056301,
-        "lng": 120.4325817
-      },
-      "source": "search_2026-05-20",
-      "note": "當日終點 老街吃蚵仔煎蝦猴麵茶"
     },
     {
       "place_id": "ChIJKwTxjR4RaTQR-3850tXAQqE",
@@ -155,6 +91,78 @@
       },
       "source": "search_2026-05-20",
       "note": "梧棲區評分最高 高美濕地前補給"
+    },
+    {
+      "place_id": "ChIJQ5bTDzuzaTQRnzEViKsrqdE",
+      "name_zh": "竹南車站",
+      "csv_type": "起終點",
+      "rating": 4.0,
+      "total_ratings": 1184,
+      "location": {
+        "lat": 24.686589,
+        "lng": 120.8805627
+      },
+      "source": "search_2026-05-20"
+    },
+    {
+      "place_id": "ChIJVVVVVWWuaTQRsf_BtcIo5Yo",
+      "name_zh": "後龍好望角風景區",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 17665,
+      "location": {
+        "lat": 24.601974,
+        "lng": 120.731191
+      },
+      "source": "search_2026-05-20"
+    },
+    {
+      "place_id": "ChIJR-i8TSSmaTQR_m3wMwNABss",
+      "name_zh": "通霄精鹽廠",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 7280,
+      "location": {
+        "lat": 24.5559494,
+        "lng": 120.7035802
+      },
+      "source": "search_2026-05-20"
+    },
+    {
+      "place_id": "ChIJ2ffC3wEOaTQR-YuV-iIXELk",
+      "name_zh": "大甲鎮瀾宮",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 17286,
+      "location": {
+        "lat": 24.3451924,
+        "lng": 120.6235944
+      },
+      "source": "search_2026-05-20"
+    },
+    {
+      "place_id": "ChIJeUmVtQAOaTQR0Y2M3FT_dKM",
+      "name_zh": "莫爾日嚐 MORE TASTE",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 250,
+      "location": {
+        "lat": 24.343,
+        "lng": 120.622
+      },
+      "source": "search_2026-05-20"
+    },
+    {
+      "place_id": "ChIJbZ03BtZFaTQRVSahxk_O324",
+      "name_zh": "鹿港老街",
+      "csv_type": "起終點",
+      "rating": 4.5,
+      "total_ratings": 42112,
+      "location": {
+        "lat": 24.056301,
+        "lng": 120.4325817
+      },
+      "source": "search_2026-05-20"
     }
   ],
   "candidates_not_selected": [

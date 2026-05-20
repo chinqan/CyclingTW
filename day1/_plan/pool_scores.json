@@ -4,6 +4,13 @@
   "bayesian_m": 1588,
   "pool_size": 18,
   "scores": {
+    "ChIJo69tyO40aDQReBjpbzodIuo": {
+      "name_zh": "新竹南寮漁港",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 6813,
+      "bayesian_score": 4.23
+    },
     "ChIJ7Ws-1bOoQjQRehrUbGzlo1A": {
       "name_zh": "蘆洲柳堤公園",
       "csv_type": "起終點",
@@ -29,22 +36,15 @@
       "name_zh": "竹圍漁港",
       "csv_type": "景點",
       "rating": 4.2,
-      "total_ratings": 41576,
+      "total_ratings": 41577,
       "bayesian_score": 4.21
     },
     "ChIJU9iHxPQuaDQR2v3_t-04zTU": {
       "name_zh": "永安漁港",
       "csv_type": "景點",
       "rating": 4.1,
-      "total_ratings": 38606,
+      "total_ratings": 38608,
       "bayesian_score": 4.11
-    },
-    "ChIJo69tyO40aDQReBjpbzodIuo": {
-      "name_zh": "新竹南寮漁港",
-      "csv_type": "景點",
-      "rating": 4.2,
-      "total_ratings": 6813,
-      "bayesian_score": 4.23
     },
     "ChIJxe6O0FIvaDQRPYMEXA0HqUM": {
       "name_zh": "江戶壽司（永安漁港）",
@@ -53,11 +53,18 @@
       "total_ratings": 534,
       "bayesian_score": 4.47
     },
+    "ChIJFxDjEO40aDQR8dbtyPOa_3M": {
+      "name_zh": "新竹南寮漁港",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 1753,
+      "bayesian_score": 4.27
+    },
     "ChIJQ5bTDzuzaTQRnzEViKsrqdE": {
       "name_zh": "竹南車站",
       "csv_type": "起終點",
       "rating": 4.0,
-      "total_ratings": 1183,
+      "total_ratings": 1184,
       "bayesian_score": 4.2
     },
     "ChIJXTIi5-k1aDQRmhDM-S0vTxw": {
@@ -122,13 +129,6 @@
       "rating": 5.0,
       "total_ratings": 142,
       "bayesian_score": 4.41
-    },
-    "ChIJFxDjEO40aDQR8dbtyPOa_3M": {
-      "name_zh": "新竹南寮漁港（舊條目）",
-      "csv_type": "景點",
-      "rating": 4.2,
-      "total_ratings": 1753,
-      "bayesian_score": 4.27
     }
   }
 }

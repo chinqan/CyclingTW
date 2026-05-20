@@ -6,7 +6,13 @@
       "mcp__google-maps__maps_directions",
       "mcp__google-maps__maps_place_details",
       "mcp__openroute-mcp__create_route_from_to",
-      "Bash(python3 *)"
+      "Bash(python3 *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(tee *)",
+      "Bash(awk *)",
+      "Bash(md5 *)"
     ]
   }
 }

@@ -38,8 +38,6 @@
       "search_keyword": "7-ELEVEN 里商門市 新北市八里區商港三路99號",
       "csv_type": "便利商店",
       "note": "離開八里前補充水分食物 km約18",
-      "rating": 4.5,
-      "total_ratings": 36,
       "location": {
         "lat": 25.1530647,
         "lng": 121.4019101
@@ -67,7 +65,7 @@
       "csv_type": "景點",
       "note": "約10:45抵達 彩虹橋漁港地標 km約43",
       "rating": 4.2,
-      "total_ratings": 41576,
+      "total_ratings": 41577,
       "location": {
         "lat": 25.117158,
         "lng": 121.2444776
@@ -80,8 +78,6 @@
       "search_keyword": "7-ELEVEN 大益門市 桃園市觀音區濱海路大潭段22號",
       "csv_type": "便利商店",
       "note": "觀音大潭路段補給 km約57",
-      "rating": 4.2,
-      "total_ratings": 95,
       "location": {
         "lat": 25.030819,
         "lng": 121.0698247
@@ -95,7 +91,7 @@
       "csv_type": "景點",
       "note": "約12:00抵達 大型觀光漁港 km約70",
       "rating": 4.1,
-      "total_ratings": 38606,
+      "total_ratings": 38608,
       "location": {
         "lat": 24.987719,
         "lng": 121.01578839
@@ -122,8 +118,6 @@
       "search_keyword": "7-ELEVEN 永安港門市 桃園市新屋區中山西路三段1148號",
       "csv_type": "便利商店",
       "note": "午餐後補給 距永安漁港200m km約70",
-      "rating": 4.4,
-      "total_ratings": 158,
       "location": {
         "lat": 24.9882131,
         "lng": 121.0185329
@@ -131,18 +125,18 @@
       "bayesian_score": null
     },
     {
-      "place_id": "ChIJo69tyO40aDQReBjpbzodIuo",
+      "place_id": "ChIJFxDjEO40aDQR8dbtyPOa_3M",
       "name_zh": "新竹南寮漁港",
       "search_keyword": "新竹南寮漁港 新竹市北區新港四路",
       "csv_type": "景點",
       "note": "約15:30抵達 海鮮市集 km約90",
       "rating": 4.2,
-      "total_ratings": 6813,
+      "total_ratings": 1753,
       "location": {
-        "lat": 24.84875,
-        "lng": 120.9252429
+        "lat": 24.8483333,
+        "lng": 120.9302778
       },
-      "bayesian_score": 4.23
+      "bayesian_score": 4.27
     },
     {
       "place_id": "ChIJQ5bTDzuzaTQRnzEViKsrqdE",
@@ -151,7 +145,7 @@
       "csv_type": "起終點",
       "note": "約17:00抵達 當日終點",
       "rating": 4.0,
-      "total_ratings": 1183,
+      "total_ratings": 1184,
       "location": {
         "lat": 24.686588999,
         "lng": 120.8805627

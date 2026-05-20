@@ -47,6 +47,20 @@
 {% endfor %}
 ---
 {% endfor %}
+{% if dinner_top5 %}
+## 🍽️ 晚餐推薦（終點周邊 3km · 貝葉斯排序）
+
+| # | 店名 | 評分 | 留言數 | 貝葉斯分 | 備註 |
+|:---:|:---|:---:|---:|:---:|:---|
+{% for r in dinner_top5 -%}
+| {{ r.rank }} | [{{ r.name_zh }}](https://www.google.com/maps/place/?q=place_id:{{ r.place_id }}) | {{ r.rating }}★ | {{ r.total_ratings }} | {{ r.bayesian_score }} | {{ r.note }} |
+{% endfor %}
+> 💡 *排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）*
+> 📋 *完整 {{ dinner_pool_size }} 筆候選排名請見 [`day{{ day }}_dinner.md`](./day{{ day }}_dinner.md)*
+
+---
+
+{% endif %}
 ## 💡 騎乘注意事項
 
 {% for note in notes -%}

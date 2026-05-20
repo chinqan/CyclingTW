@@ -2,12 +2,12 @@
   "place_id": "ChIJf6Q20vYuaDQRu0mJUzvm8OI",
   "name_zh": "7-ELEVEN 永安港門市",
   "csv_type": "便利商店",
-  "rating": 4.4,
-  "total_ratings": 158,
+  "rating": null,
+  "total_ratings": null,
   "location": {
     "lat": 24.9882131,
     "lng": 121.0185329
   },
-  "source": "mirror_kept",
-  "target": "places"
+  "source": "search_2026-05-20",
+  "note": "午餐後補給 距永安漁港200m km約70"
 }

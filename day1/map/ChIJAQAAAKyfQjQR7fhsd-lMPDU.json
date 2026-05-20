@@ -3,11 +3,11 @@
   "name_zh": "竹圍漁港",
   "csv_type": "景點",
   "rating": 4.2,
-  "total_ratings": 41576,
+  "total_ratings": 41577,
   "location": {
     "lat": 25.117158,
     "lng": 121.2444776
   },
-  "source": "place_details_2026-05-20",
-  "target": "places"
+  "source": "search_2026-05-20",
+  "note": "約10:45抵達 彩虹橋漁港地標 km約43"
 }

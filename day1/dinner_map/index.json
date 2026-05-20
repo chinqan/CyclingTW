@@ -1,0 +1,271 @@
+{
+  "day": 1,
+  "candidates": [
+    {
+      "place_id": "ChIJkyfmh1CzaTQRqpYlWbi62b8",
+      "name_zh": "夏川食堂",
+      "rating": 4.8,
+      "total_ratings": 751,
+      "location": {
+        "lat": 24.6968293,
+        "lng": 120.8694544
+      },
+      "address": "苗栗縣竹南鎮天文村龍山路二段66-1號",
+      "note": "日式拉麵 週二公休",
+      "source": "search_2026-05-20",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJFVI2Ji2zaTQRw3rb-UX256E",
+      "name_zh": "上癮餐酒館",
+      "rating": 4.6,
+      "total_ratings": 830,
+      "location": {
+        "lat": 24.6914841,
+        "lng": 120.8890335
+      },
+      "address": "苗栗縣竹南鎮新南村公北一路151號",
+      "note": "餐酒館 義式料理 每天17:00-02:00",
+      "source": "search_2026-05-20",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJZc05r26zaTQRj5C1snCX4_k",
+      "name_zh": "House過癮",
+      "rating": 4.8,
+      "total_ratings": 336,
+      "location": {
+        "lat": 24.6912363,
+        "lng": 120.8798758
+      },
+      "address": "苗栗縣竹南鎮昭南村自強街26號",
+      "note": "手工窯烤披薩 週一二公休",
+      "source": "search_2026-05-20",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJf3V3LACzaTQR9MTA8WCueUQ",
+      "name_zh": "賴桑港口海鮮",
+      "rating": 4.8,
+      "total_ratings": 126,
+      "location": {
+        "lat": 24.7000378,
+        "lng": 120.8605119
+      },
+      "address": "苗栗縣竹南鎮龍鳳村龍江街265之2號",
+      "note": "龍鳳漁港旁海鮮 週一公休",
+      "source": "search_2026-05-20",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJH4uO3gJNaDQRPComfgqYtVU",
+      "name_zh": "阿瑩斤餅專門店",
+      "rating": 4.7,
+      "total_ratings": 347,
+      "location": {
+        "lat": 24.7046421,
+        "lng": 120.900935
+      },
+      "address": "苗栗縣竹南鎮大埔村大埔七街128號",
+      "note": "手工斤餅外帶 週一二公休",
+      "source": "search_2026-05-20",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJs_So88GyaTQR8TbDQ7EA9mA",
+      "name_zh": "續攤平價快炒",
+      "rating": 4.6,
+      "total_ratings": 286,
+      "location": {
+        "lat": 24.6586159,
+        "lng": 120.8740174
+      },
+      "address": "苗栗縣竹南鎮公館村中華路5-11號",
+      "note": "無菜單快炒 老闆隨機出菜",
+      "source": "search_2026-05-20",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJfzqAqzyzaTQR10oNAb9IAac",
+      "name_zh": "灶咖食堂",
+      "rating": 4.2,
+      "total_ratings": 756,
+      "location": {
+        "lat": 24.6851694,
+        "lng": 120.8782521
+      },
+      "address": "苗栗縣竹南鎮竹南村民族街65-1號",
+      "note": "客家料理 車站旁步行5分鐘",
+      "source": "search_2026-05-20",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJyyxKSACzaTQR8ncBaifWLj8",
+      "name_zh": "十三棧麵食館",
+      "rating": 4.4,
+      "total_ratings": 251,
+      "location": {
+        "lat": 24.6867535,
+        "lng": 120.8767905
+      },
+      "address": "苗栗縣竹南鎮竹南村博愛街75號",
+      "note": "麵食滷味 營業到深夜 週一公休",
+      "source": "search_2026-05-20",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJMYL9FCOzaTQRkJMB9k21-ZU",
+      "name_zh": "一品煊美食館 竹南店",
+      "rating": 4.5,
+      "total_ratings": 189,
+      "location": {
+        "lat": 24.6837674,
+        "lng": 120.8770342
+      },
+      "address": "苗栗縣竹南鎮正南村中正路89號",
+      "note": "合菜套餐 週一公休",
+      "source": "search_2026-05-20",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ_wxsqZSzaTQRxdJrHuNZvCc",
+      "name_zh": "美味食堂（鵝肉快炒）",
+      "rating": 4.5,
+      "total_ratings": 165,
+      "location": {
+        "lat": 24.6900723,
+        "lng": 120.8746511
+      },
+      "address": "苗栗縣竹南鎮營盤村延平路157號",
+      "note": "鵝肉快炒 週一公休",
+      "source": "search_2026-05-20",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJQb-SdjyzaTQRcjJh1R-Riio",
+      "name_zh": "冠友魯肉飯",
+      "rating": 4.2,
+      "total_ratings": 1040,
+      "location": {
+        "lat": 24.6884162,
+        "lng": 120.8770137
+      },
+      "address": "苗栗縣竹南鎮昭南村立達街12號",
+      "note": "排隊名店魯肉飯 週一日公休",
+      "source": "search_2026-05-20",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJlfA36TuzaTQRWeNifdEKXjI",
+      "name_zh": "滿意麵食坊",
+      "rating": 4.3,
+      "total_ratings": 768,
+      "location": {
+        "lat": 24.6891498,
+        "lng": 120.8794175
+      },
+      "address": "苗栗縣竹南鎮昭南村光復路236號",
+      "note": "炒麵水餃 16:30開賣 週六公休",
+      "source": "search_2026-05-20",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJIREfZACzaTQRsSPcX1fjcXI",
+      "name_zh": "炒舖",
+      "rating": 4.3,
+      "total_ratings": 93,
+      "location": {
+        "lat": 24.6868081,
+        "lng": 120.8741787
+      },
+      "address": "苗栗縣竹南鎮竹南村博愛街177號",
+      "note": "炒飯炒麵 全天無休",
+      "source": "search_2026-05-20",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJG7slgDyzaTQRY1pLgo1NF7I",
+      "name_zh": "超好吃蚵仔煎（頂好炒飯）",
+      "rating": 4.2,
+      "total_ratings": 187,
+      "location": {
+        "lat": 24.6872744,
+        "lng": 120.8785799
+      },
+      "address": "苗栗縣竹南鎮昭南村",
+      "note": "蚵仔煎炒飯 週四六公休",
+      "source": "search_2026-05-20",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ_4Z1LXOzaTQRN7XguOPv2T0",
+      "name_zh": "順吉海鮮快炒",
+      "rating": 4.1,
+      "total_ratings": 1006,
+      "location": {
+        "lat": 24.7001335,
+        "lng": 120.8588937
+      },
+      "address": "苗栗縣竹南鎮龍鳳村龍江街369巷15號",
+      "note": "龍鳳漁港海鮮快炒 週二公休",
+      "source": "search_2026-05-20",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ2xKrLQCzaTQR_DnVboSVmh0",
+      "name_zh": "豚嘢家 日式咖哩豬排",
+      "rating": 4.8,
+      "total_ratings": 1455,
+      "location": {
+        "lat": 24.6908374,
+        "lng": 120.8795871
+      },
+      "address": "苗栗縣竹南鎮昭南村光復路308號",
+      "note": "日式咖哩豬排 每天11:00-21:00 車站旁",
+      "source": "search_2026-05-20",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJb60QSwCzaTQRMa5Xeeni_6M",
+      "name_zh": "柒石柒 石頭鍋",
+      "rating": 4.8,
+      "total_ratings": 1616,
+      "location": {
+        "lat": 24.6871252,
+        "lng": 120.8730832
+      },
+      "address": "苗栗縣竹南鎮昭南村博愛街246號",
+      "note": "石頭火鍋 每天11:00-02:00 車站旁",
+      "source": "search_2026-05-20",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJQexrNgCzaTQRBnZbzQwzAoA",
+      "name_zh": "順風順水宵夜",
+      "rating": 4.9,
+      "total_ratings": 147,
+      "location": {
+        "lat": 24.6955936,
+        "lng": 120.8677237
+      },
+      "address": "苗栗縣竹南鎮龍鳳村龍江街17號",
+      "note": "宵夜豆漿燒餅 每天17:00-07:00",
+      "source": "search_2026-05-20",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJo5xXZSOzaTQRGM2z2TlqIRI",
+      "name_zh": "如珍小吃",
+      "rating": 4.6,
+      "total_ratings": 120,
+      "location": {
+        "lat": 24.6831944,
+        "lng": 120.8779596
+      },
+      "address": "苗栗縣竹南鎮福德路74-1號",
+      "note": "牛肉麵 一人經營 份量大",
+      "source": "search_2026-05-20",
+      "selected": false
+    }
+  ]
+}
