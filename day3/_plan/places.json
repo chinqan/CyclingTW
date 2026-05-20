@@ -2,7 +2,7 @@
   "day": 3,
   "route_name": "極西國聖燈塔追日行",
   "total_ascent_desc": "全程平坦，沿台19/台17西部濱海南下幾乎無爬升",
-  "main_route_desc": "鹿港老街 ➔ 台19線 ➔ 西螺大橋 ➔ 北港朝天宮 ➔ 台17線 ➔ 東石漁人碼頭 ➔ 布袋觀光漁港 ➔ 井仔腳瓦盤鹽田 ➔ 七股鹽山 ➔ 國聖港燈塔（極西點）➔ 七股遊客中心",
+  "main_route_desc": "鹿港老街 ➔ 台19線 ➔ 西螺大橋 ➔ 北港朝天宮 ➔ 台17線 ➔ 東石漁人碼頭 ➔ 布袋觀光漁港 ➔ 井仔腳瓦盤鹽田 ➔ 七股鹽山 ➔ 國聖港燈塔（極西點）➔ 鹿耳門公園",
   "places": [
     {
       "place_id": "ChIJbZ03BtZFaTQRVSahxk_O324",
@@ -16,7 +16,7 @@
         "lat": 24.0563009,
         "lng": 120.4325817
       },
-      "bayesian_score": 4.42
+      "bayesian_score": 4.45
     },
     {
       "place_id": "ChIJwyAVdwhGaTQRVxNrji0ZUhM",
@@ -35,14 +35,14 @@
       "name_zh": "西螺大橋",
       "search_keyword": "西螺大橋 雲林縣西螺鎮",
       "csv_type": "景點",
-      "note": "約09:30抵達 彰雲交界紅色鋼桁鐵橋 拍照5分鐘 km約30",
+      "note": "約09:30抵達 彰雲交界紅色鐵橋 拍照5分鐘 km約30",
       "rating": 0,
       "total_ratings": 0,
       "location": {
         "lat": 23.8103145,
         "lng": 120.460342
       },
-      "bayesian_score": 4.01
+      "bayesian_score": 4.11
     },
     {
       "place_id": "ChIJ1fibAD60bjQRjVohkgEMHYY",
@@ -68,7 +68,7 @@
         "lat": 23.5681177,
         "lng": 120.3046998
       },
-      "bayesian_score": 4.52
+      "bayesian_score": 4.57
     },
     {
       "place_id": "ChIJFZajXYaibjQR_q_BYZbw0mA",
@@ -94,7 +94,7 @@
         "lat": 23.4487536,
         "lng": 120.1352728
       },
-      "bayesian_score": 4.15
+      "bayesian_score": 4.18
     },
     {
       "place_id": "ChIJodGzjxwnbDQRbSUzYK6OF7M",
@@ -108,7 +108,7 @@
         "lat": 23.4532594,
         "lng": 120.1369878
       },
-      "bayesian_score": 4.33
+      "bayesian_score": 4.44
     },
     {
       "place_id": "ChIJl927qSsobDQRUbouAy2tsUw",
@@ -122,7 +122,7 @@
         "lat": 23.3793698,
         "lng": 120.1554637
       },
-      "bayesian_score": 4.0
+      "bayesian_score": 4.02
     },
     {
       "place_id": "ChIJS0hpCisobDQRU81VXBvJip8",
@@ -141,7 +141,7 @@
       "name_zh": "7-ELEVEN 南鯤鯓門市",
       "search_keyword": "7-ELEVEN 南鯤鯓門市 台南市北門區蚵寮里841-1號",
       "csv_type": "便利商店",
-      "note": "北門前補給 km約95",
+      "note": "北門進入區補給 km約95",
       "location": {
         "lat": 23.284442,
         "lng": 120.1370712
@@ -160,7 +160,7 @@
         "lat": 23.2588308,
         "lng": 120.107568
       },
-      "bayesian_score": 4.29
+      "bayesian_score": 4.33
     },
     {
       "place_id": "ChIJlfUqzNoqbDQRXymbU53YLr8",
@@ -174,7 +174,7 @@
         "lat": 23.2671522,
         "lng": 120.1239695
       },
-      "bayesian_score": 4.04
+      "bayesian_score": 4.1
     },
     {
       "place_id": "ChIJTRbkzL_WbTQRTrfGfckHIrc",
@@ -188,23 +188,53 @@
         "lat": 23.1542387,
         "lng": 120.1001211
       },
-      "bayesian_score": 3.93
+      "bayesian_score": 3.95
     },
     {
       "place_id": "ChIJ49OG8GnabTQR9wo1PrlXP2o",
       "name_zh": "國聖港燈塔",
       "search_keyword": "國聖港燈塔 台灣極西點 台南市七股區西堤堤坊",
-      "csv_type": "起終點",
-      "note": "約16:30抵達 當日終點 台灣本島極西點 黑白方型燈塔+防風林 km約123 ★主視覺 住宿折返七股鹽山附近民宿",
+      "csv_type": "景點",
+      "note": "約16:30抵達 台灣本島極西點地標 黑白方型燈塔+防風林 km約120 ★主視覺",
       "rating": 4.4,
       "total_ratings": 3341,
       "location": {
         "lat": 23.1007127,
         "lng": 120.0360012
       },
-      "bayesian_score": 4.12
+      "bayesian_score": 4.2
+    },
+    {
+      "place_id": "ChIJCwN--uTZbTQRZMhcv_8gUr0",
+      "name_zh": "7-ELEVEN 聖安門市",
+      "search_keyword": "7-ELEVEN 聖安門市 台南市安南區",
+      "csv_type": "便利商店",
+      "note": "終點前補給與休息 km約139",
+      "location": {
+        "lat": 23.0658586,
+        "lng": 120.1280074
+      },
+      "rating": 2.6,
+      "total_ratings": 5,
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJofDyKzrYbTQROj-L3C0Zt8A",
+      "name_zh": "鹿耳門公園",
+      "search_keyword": "鹿耳門公園 台南市安南區城安路",
+      "csv_type": "起終點",
+      "note": "約17:15抵達 當日終點 鄰近鹿耳門聖母廟 km約139",
+      "rating": 4.3,
+      "total_ratings": 198,
+      "location": {
+        "lat": 23.066061,
+        "lng": 120.126992
+      },
+      "bayesian_score": 4.11
     }
   ],
-  "bayesian_C": 4.0071,
-  "bayesian_m": 8690
+  "bayesian_C": 4.1059,
+  "bayesian_m": 6709,
+  "ors_distance_km": 187.9,
+  "ors_duration_hours": 11.0
 }

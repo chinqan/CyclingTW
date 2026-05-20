@@ -1,0 +1,14 @@
+{
+  "place_id": "ChIJsRzb0p3ecTQRTFUQocpwDHE",
+  "name_zh": "香堤綠園",
+  "csv_type": "餐廳",
+  "rating": 4.5,
+  "total_ratings": 568,
+  "location": {
+    "lat": 22.388933,
+    "lng": 120.582873
+  },
+  "source": "search_2026-05-21",
+  "note": "日式料理",
+  "target": "places"
+}

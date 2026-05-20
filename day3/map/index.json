@@ -174,19 +174,6 @@
       "note": "約15:45抵達 純白巨型鹽山地標 km約113"
     },
     {
-      "place_id": "ChIJ49OG8GnabTQR9wo1PrlXP2o",
-      "name_zh": "國聖港燈塔",
-      "csv_type": "景點",
-      "rating": 4.4,
-      "total_ratings": 3341,
-      "location": {
-        "lat": 23.1007127,
-        "lng": 120.0360012
-      },
-      "source": "google_maps",
-      "note": "約16:30抵達 台灣本島極西點地標 黑白方型燈塔+防風林 km約120 ★主視覺"
-    },
-    {
       "place_id": "ChIJc6xCcUjWbTQRiHuEUawpxAM",
       "name_zh": "7-ELEVEN 七股門市",
       "csv_type": "便利商店",
@@ -209,6 +196,45 @@
       },
       "source": "google_maps",
       "note": "約17:00抵達 當日終點 鄰七股潟湖 km約123"
+    },
+    {
+      "place_id": "ChIJCwN--uTZbTQRZMhcv_8gUr0",
+      "name_zh": "7-ELEVEN 聖安門市",
+      "csv_type": "便利商店",
+      "rating": 2.6,
+      "total_ratings": 5,
+      "location": {
+        "lat": 23.0658586,
+        "lng": 120.1280074
+      },
+      "source": "google_maps",
+      "note": "終點前補給與休息 km約139"
+    },
+    {
+      "place_id": "ChIJofDyKzrYbTQROj-L3C0Zt8A",
+      "name_zh": "鹿耳門公園",
+      "csv_type": "起終點",
+      "rating": 4.3,
+      "total_ratings": 198,
+      "location": {
+        "lat": 23.066061,
+        "lng": 120.126992
+      },
+      "source": "search_2026-05-21",
+      "note": "Day3 終點 台南安南區鹿耳門 近聖母廟"
+    },
+    {
+      "place_id": "ChIJ49OG8GnabTQR9wo1PrlXP2o",
+      "name_zh": "國聖港燈塔",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 3341,
+      "location": {
+        "lat": 23.1007127,
+        "lng": 120.0360012
+      },
+      "source": "search_2026-05-21",
+      "note": "台灣本島極西點 黑白方型鋼造燈塔 ★主視覺"
     }
   ],
   "candidates_not_selected": [
@@ -250,6 +276,32 @@
       },
       "source": "google_maps",
       "note": "備案 東石漁人碼頭烤蚵吃到飽"
+    },
+    {
+      "place_id": "ChIJ9dOdnz7YbTQRJkhAq2apnGE",
+      "name_zh": "鹿耳門聖母廟",
+      "csv_type": "景點",
+      "rating": 4.7,
+      "total_ratings": 5234,
+      "location": {
+        "lat": 23.068023,
+        "lng": 120.127241
+      },
+      "source": "search_2026-05-21",
+      "note": "台灣最大媽祖廟 鹿耳門地區文化核心"
+    },
+    {
+      "place_id": "ChIJQwtjhvfYbTQRL3Gv_yRSotk",
+      "name_zh": "鹿耳門天后宮",
+      "csv_type": "景點",
+      "rating": 4.7,
+      "total_ratings": 7940,
+      "location": {
+        "lat": 23.03721,
+        "lng": 120.124458
+      },
+      "source": "search_2026-05-21",
+      "note": "正統鹿耳門天后宮 鄭成功登陸傳說地"
     }
   ]
 }

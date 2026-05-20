@@ -1,0 +1,14 @@
+{
+  "place_id": "ChIJCZ5-NkTdcTQRez02QVSxOrQ",
+  "name_zh": "枋寮食三香飯庄",
+  "csv_type": "餐廳",
+  "rating": 4.7,
+  "total_ratings": 964,
+  "location": {
+    "lat": 22.366026,
+    "lng": 120.593951
+  },
+  "source": "search_2026-05-21",
+  "note": "在地家常小館",
+  "target": "places"
+}

@@ -250,6 +250,11 @@ def cmd_render_md(args):
         dinner_data = read_json(dinner_path)
         dinner_pool_size = dinner_data.get("pool_size", 0)
         dinner_top5 = [r for r in dinner_data.get("restaurants", []) if r.get("selected")]
+    else:
+        info("⚠️  找不到 dinner.json，「晚餐推薦」區塊將略過（請先執行 dinner-pool N）")
+
+    if not segments.get("better_attractions"):
+        info("⚠️  segments.json 缺少 better_attractions，「更佳景點參考」區塊將略過")
 
     ctx = {
         "day": n,

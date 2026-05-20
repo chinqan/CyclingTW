@@ -1,0 +1,257 @@
+{
+  "day": 3,
+  "search_radius_km": 3,
+  "pool_size": 15,
+  "bayesian_C": 78.6,
+  "bayesian_m": 4.6538,
+  "note": "C=平均留言數(先驗樣本數), m=加權平均評分(先驗期望值)",
+  "top5_place_ids": [
+    "ChIJXTAli0fYbTQR8R6PbzuZjtI",
+    "ChIJMzAbPwDZbTQRYT2ISvjFmfA",
+    "ChIJqwb0XgDZbTQRuxXnZIgDSFk",
+    "ChIJ80flSTzYbTQRjki8AvImnJY",
+    "ChIJI8UHUlXZbTQRityPHkapKB8"
+  ],
+  "restaurants": [
+    {
+      "place_id": "ChIJXTAli0fYbTQR8R6PbzuZjtI",
+      "name_zh": "阿忠螃蟹-府城蟳禮",
+      "rating": 5.0,
+      "total_ratings": 185,
+      "location": {
+        "lat": 23.060502,
+        "lng": 120.1259103
+      },
+      "address": "台南市安南區城西街一段212號",
+      "note": "預訂制螃蟹專賣店、處女蟳蟹膏超滿",
+      "bayesian_score": 4.8968,
+      "confidence": "✅ 高",
+      "rank": 1,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJMzAbPwDZbTQRYT2ISvjFmfA",
+      "name_zh": "福記鍋燒專門",
+      "rating": 4.9,
+      "total_ratings": 95,
+      "location": {
+        "lat": 23.0621725,
+        "lng": 120.129124
+      },
+      "address": "台南市安南區城西街一段31號",
+      "note": "料多實在的痛風鍋燒麵、湯頭鮮甜",
+      "bayesian_score": 4.7885,
+      "confidence": "✅ 高",
+      "rank": 2,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJqwb0XgDZbTQRuxXnZIgDSFk",
+      "name_zh": "姊妹豬血湯",
+      "rating": 5.0,
+      "total_ratings": 28,
+      "location": {
+        "lat": 23.0658546,
+        "lng": 120.1275651
+      },
+      "address": "台南市安南區安中路六段753號",
+      "note": "料多湯鮮的招牌豬血湯與炒麵",
+      "bayesian_score": 4.7447,
+      "confidence": "❌ 低",
+      "rank": 3,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ80flSTzYbTQRjki8AvImnJY",
+      "name_zh": "龜鹿仙圓融園",
+      "rating": 4.8,
+      "total_ratings": 86,
+      "location": {
+        "lat": 23.0659925,
+        "lng": 120.1322923
+      },
+      "address": "台南市安南區城北路234巷46號",
+      "note": "特色養生補湯與家常合菜料理",
+      "bayesian_score": 4.7302,
+      "confidence": "✅ 高",
+      "rank": 4,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJI8UHUlXZbTQRityPHkapKB8",
+      "name_zh": "凰詩越南美食",
+      "rating": 4.8,
+      "total_ratings": 62,
+      "location": {
+        "lat": 23.0613002,
+        "lng": 120.131811
+      },
+      "address": "台南市安南區安中路六段480-1號",
+      "note": "平價道地的越南河粉與春捲",
+      "bayesian_score": 4.7183,
+      "confidence": "⚠️ 中",
+      "rank": 5,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJhUdmfQDZbTQRp6HKb-pVL4U",
+      "name_zh": "手工煎餃",
+      "rating": 5.0,
+      "total_ratings": 12,
+      "location": {
+        "lat": 23.0670049,
+        "lng": 120.1276412
+      },
+      "address": "台南市安南區城安路",
+      "note": "手工現包脆皮煎餃、皮薄餡飽滿",
+      "bayesian_score": 4.6997,
+      "confidence": "❌ 低",
+      "rank": 6,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJtdm_fKDZbTQRfi2uTtzMgWw",
+      "name_zh": "廟前海產碳烤",
+      "rating": 4.7,
+      "total_ratings": 78,
+      "location": {
+        "lat": 23.0658981,
+        "lng": 120.1275556
+      },
+      "address": "台南市安南區安中路六段757號",
+      "note": "聖母廟前人氣碳烤、平價熱炒、現撈海鮮",
+      "bayesian_score": 4.6768,
+      "confidence": "⚠️ 中",
+      "rank": 7,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJbyEEA-t3bjQRFiVvKGIMTSY",
+      "name_zh": "品味食堂-土城虱目魚",
+      "rating": 4.6,
+      "total_ratings": 142,
+      "location": {
+        "lat": 23.0621912,
+        "lng": 120.1301462
+      },
+      "address": "台南市安南區安中路六段572號",
+      "note": "在地人氣虱目魚湯、魚肚粥與滷肉飯",
+      "bayesian_score": 4.6192,
+      "confidence": "✅ 高",
+      "rank": 8,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ1VWHZLDZbTQRu96D363UnPU",
+      "name_zh": "素琴麵店",
+      "rating": 4.5,
+      "total_ratings": 68,
+      "location": {
+        "lat": 23.0621295,
+        "lng": 120.1285737
+      },
+      "address": "台南市安南區城西街一段66號",
+      "note": "在地的老字號麻醬麵、滷味平價美味",
+      "bayesian_score": 4.5825,
+      "confidence": "⚠️ 中",
+      "rank": 9,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJY7kP1zjYbTQR75U8cnsHK-A",
+      "name_zh": "家鄉傳統美食",
+      "rating": 4.4,
+      "total_ratings": 38,
+      "location": {
+        "lat": 23.0623528,
+        "lng": 120.1294761
+      },
+      "address": "台南市安南區城西街一段9號",
+      "note": "古早味滷肉飯、羹湯與各類台式小吃",
+      "bayesian_score": 4.5711,
+      "confidence": "❌ 低",
+      "rank": 10,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJZYmVQADZbTQRUVKLoYeF-dY",
+      "name_zh": "獨一味",
+      "rating": 4.5,
+      "total_ratings": 115,
+      "location": {
+        "lat": 23.0611327,
+        "lng": 120.1344163
+      },
+      "address": "台南市安南區安明路四段260-70號",
+      "note": "經典台式家常熱炒、平價實惠",
+      "bayesian_score": 4.5624,
+      "confidence": "✅ 高",
+      "rank": 11,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJe3gTOgDZbTQRufCN8-B91Jo",
+      "name_zh": "煎佐麻里蔥油餅",
+      "rating": 4.2,
+      "total_ratings": 22,
+      "location": {
+        "lat": 23.0670486,
+        "lng": 120.1275895
+      },
+      "address": "台南市安南區城安路",
+      "note": "現點現煎的酥脆蔥油餅與點心",
+      "bayesian_score": 4.5546,
+      "confidence": "❌ 低",
+      "rank": 12,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJbeHweRXYbTQRKeLnzSbRpAs",
+      "name_zh": "東尚台式海鮮",
+      "rating": 4.5,
+      "total_ratings": 155,
+      "location": {
+        "lat": 23.0607499,
+        "lng": 120.1366552
+      },
+      "address": "台南市安南區安中路六段217號",
+      "note": "聚餐首選的台式海鮮合菜餐廳",
+      "bayesian_score": 4.5517,
+      "confidence": "✅ 高",
+      "rank": 13,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ5xKRLETZbTQRnFdsxvD2VE4",
+      "name_zh": "膳廚工坊",
+      "rating": 4.3,
+      "total_ratings": 45,
+      "location": {
+        "lat": 23.0631878,
+        "lng": 120.129157
+      },
+      "address": "台南市安南區安中路六段615之一號",
+      "note": "美味炒飯、炒麵與精緻家常便當",
+      "bayesian_score": 4.525,
+      "confidence": "⚠️ 中",
+      "rank": 14,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJE_FGGADZbTQRAWSLxx0N8Fo",
+      "name_zh": "土城無名麵店",
+      "rating": 4.0,
+      "total_ratings": 48,
+      "location": {
+        "lat": 23.0622269,
+        "lng": 120.1285199
+      },
+      "address": "台南市安南區青砂街一段1號",
+      "note": "土城在地人最愛的無名陽春麵、黑白切",
+      "bayesian_score": 4.4059,
+      "confidence": "⚠️ 中",
+      "rank": 15,
+      "selected": false
+    }
+  ]
+}

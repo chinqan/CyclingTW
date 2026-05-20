@@ -1,0 +1,109 @@
+{
+  "day": 4,
+  "candidates": [
+    {
+      "place_id": "ChIJLy6ZsW7dcTQRfcnxoPfeF-8",
+      "name_zh": "枋寮椰們海景餐廳",
+      "rating": 4.7,
+      "total_ratings": 8839,
+      "location": {
+        "lat": 22.366463,
+        "lng": 120.591442
+      },
+      "note": "海景觀餐廳 高人氣",
+      "source": "search_2026-05-21",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJyaO_4j7ccTQRIqSfs10f5ok",
+      "name_zh": "阮家茶坊",
+      "rating": 4.7,
+      "total_ratings": 3275,
+      "location": {
+        "lat": 22.364795,
+        "lng": 120.593511
+      },
+      "note": "茶飲+餐食 車站旁",
+      "source": "search_2026-05-21",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJCZ5-NkTdcTQRez02QVSxOrQ",
+      "name_zh": "枋寮食三香飯庄",
+      "rating": 4.7,
+      "total_ratings": 964,
+      "location": {
+        "lat": 22.366026,
+        "lng": 120.593951
+      },
+      "note": "在地家常小館",
+      "source": "search_2026-05-21",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ3xvN1QndcTQRPXjQ1WXgCow",
+      "name_zh": "大叔叔廚房",
+      "rating": 4.8,
+      "total_ratings": 442,
+      "location": {
+        "lat": 22.368283,
+        "lng": 120.593562
+      },
+      "note": "精緻料理",
+      "source": "search_2026-05-21",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJB2e3xMTdcTQReS6qGZMIR3g",
+      "name_zh": "阿弟深海魚",
+      "rating": 4.8,
+      "total_ratings": 273,
+      "location": {
+        "lat": 22.362997,
+        "lng": 120.594316
+      },
+      "note": "深海海鮮專門",
+      "source": "search_2026-05-21",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJD1RqKNrdcTQRQH9MSp1ebvY",
+      "name_zh": "枋新饗樂",
+      "rating": 4.9,
+      "total_ratings": 173,
+      "location": {
+        "lat": 22.382289,
+        "lng": 120.574273
+      },
+      "note": "精緻餐點",
+      "source": "search_2026-05-21",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJsRzb0p3ecTQRTFUQocpwDHE",
+      "name_zh": "香堤綠園",
+      "rating": 4.5,
+      "total_ratings": 568,
+      "location": {
+        "lat": 22.388933,
+        "lng": 120.582873
+      },
+      "note": "日式料理",
+      "source": "search_2026-05-21",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJvU_JlsHdcTQRNynrgvQrYlQ",
+      "name_zh": "巷子口河粉",
+      "rating": 4.8,
+      "total_ratings": 98,
+      "location": {
+        "lat": 22.36438,
+        "lng": 120.596846
+      },
+      "note": "越式河粉",
+      "source": "search_2026-05-21",
+      "selected": true
+    }
+  ]
+}

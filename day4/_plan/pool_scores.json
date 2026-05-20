@@ -1,0 +1,64 @@
+{
+  "day": 4,
+  "bayesian_C": 4.4,
+  "bayesian_m": 4134,
+  "pool_size": 8,
+  "scores": {
+    "ChIJofDyKzrYbTQROj-L3C0Zt8A": {
+      "name_zh": "鹿耳門公園",
+      "csv_type": "起終點",
+      "rating": 4.3,
+      "total_ratings": 198,
+      "bayesian_score": 4.4
+    },
+    "ChIJFbzVrGJ2bjQRkZC9jslaIgs": {
+      "name_zh": "台南孔廟",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 12627,
+      "bayesian_score": 4.4
+    },
+    "ChIJo65zFEgObjQRm0FgVZa_4GE": {
+      "name_zh": "橋頭糖廠",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 7575,
+      "bayesian_score": 4.27
+    },
+    "ChIJYdcLP84abjQRVoPPSCZRVQU": {
+      "name_zh": "澄清湖",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 1449,
+      "bayesian_score": 4.4
+    },
+    "ChIJKzw4apvhcTQRbxsV8Dmentk": {
+      "name_zh": "東港東隆宮",
+      "csv_type": "景點",
+      "rating": 4.7,
+      "total_ratings": 7764,
+      "bayesian_score": 4.6
+    },
+    "ChIJvRLV8azhcTQRj06xjojbauY": {
+      "name_zh": "大鵬灣國家風景區",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 6819,
+      "bayesian_score": 4.21
+    },
+    "ChIJp-xjwz3ccTQRN_tucmfrEdM": {
+      "name_zh": "枋寮車站",
+      "csv_type": "起終點",
+      "rating": 4.3,
+      "total_ratings": 851,
+      "bayesian_score": 4.38
+    },
+    "ChIJBd9wqvwPbjQR-hM-7ramfZU": {
+      "name_zh": "糖廠火鍋",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 495,
+      "bayesian_score": 4.44
+    }
+  }
+}

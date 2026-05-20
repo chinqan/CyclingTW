@@ -1,0 +1,149 @@
+{
+  "day": 4,
+  "places": [
+    {
+      "place_id": "ChIJofDyKzrYbTQROj-L3C0Zt8A",
+      "name_zh": "鹿耳門公園",
+      "csv_type": "起終點",
+      "rating": 4.3,
+      "total_ratings": 198,
+      "location": {
+        "lat": 23.066061,
+        "lng": 120.126992
+      },
+      "source": "search_2026-05-21",
+      "note": "Day4起點 Day3終點續行"
+    },
+    {
+      "place_id": "ChIJFbzVrGJ2bjQRkZC9jslaIgs",
+      "name_zh": "台南孔廟",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 12627,
+      "location": {
+        "lat": 22.99053,
+        "lng": 120.20404
+      },
+      "source": "search_2026-05-21",
+      "note": "全臺首學 17世紀孔廟"
+    },
+    {
+      "place_id": "ChIJo65zFEgObjQRm0FgVZa_4GE",
+      "name_zh": "橋頭糖廠",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 7575,
+      "location": {
+        "lat": 22.755686,
+        "lng": 120.314273
+      },
+      "source": "search_2026-05-21",
+      "note": "台灣第一座現代糖廠 日治時期工業遺產"
+    },
+    {
+      "place_id": "ChIJYdcLP84abjQRVoPPSCZRVQU",
+      "name_zh": "澄清湖",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 1449,
+      "location": {
+        "lat": 22.660361,
+        "lng": 120.353806
+      },
+      "source": "search_2026-05-21",
+      "note": "高雄最大人工湖 九曲橋"
+    },
+    {
+      "place_id": "ChIJKzw4apvhcTQRbxsV8Dmentk",
+      "name_zh": "東港東隆宮",
+      "csv_type": "景點",
+      "rating": 4.7,
+      "total_ratings": 7764,
+      "location": {
+        "lat": 22.463084,
+        "lng": 120.448719
+      },
+      "source": "search_2026-05-21",
+      "note": "1706年建 東港迎王平安祭典"
+    },
+    {
+      "place_id": "ChIJvRLV8azhcTQRj06xjojbauY",
+      "name_zh": "大鵬灣國家風景區",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 6819,
+      "location": {
+        "lat": 22.457011,
+        "lng": 120.478928
+      },
+      "source": "search_2026-05-21",
+      "note": "潟湖生態與自行車道"
+    },
+    {
+      "place_id": "ChIJp-xjwz3ccTQRN_tucmfrEdM",
+      "name_zh": "枋寮車站",
+      "csv_type": "起終點",
+      "rating": 4.3,
+      "total_ratings": 851,
+      "location": {
+        "lat": 22.368018,
+        "lng": 120.595097
+      },
+      "source": "search_2026-05-21",
+      "note": "Day4終點 屏東西部交通樞紐"
+    },
+    {
+      "place_id": "ChIJebYHGH52bjQRoo3fCaJjX4E",
+      "name_zh": "7-ELEVEN 南門城門市",
+      "csv_type": "便利商店",
+      "rating": 2.4,
+      "total_ratings": 300,
+      "location": {
+        "lat": 22.983719,
+        "lng": 120.2041
+      },
+      "source": "search_2026-05-21",
+      "note": "台南孔廟附近"
+    },
+    {
+      "place_id": "ChIJyV-Ra08ObjQRNdOJOhzzXPM",
+      "name_zh": "7-ELEVEN 橋鄰門市",
+      "csv_type": "便利商店",
+      "rating": 3.6,
+      "total_ratings": 97,
+      "location": {
+        "lat": 22.752265,
+        "lng": 120.312758
+      },
+      "source": "search_2026-05-21",
+      "note": "橋頭糖廠附近"
+    },
+    {
+      "place_id": "ChIJBd9wqvwPbjQR-hM-7ramfZU",
+      "name_zh": "糖廠火鍋",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 495,
+      "location": {
+        "lat": 22.754049,
+        "lng": 120.312817
+      },
+      "source": "search_2026-05-21",
+      "note": "橋頭糖廠旁鍋物料理"
+    },
+    {
+      "place_id": "ChIJcbaVLIzhcTQRgfgs6FXcgTs",
+      "name_zh": "7-ELEVEn 鹽洲門市",
+      "csv_type": "便利商店",
+      "rating": 3.6,
+      "total_ratings": 85,
+      "location": {
+        "lat": 22.474259,
+        "lng": 120.44455
+      },
+      "source": "search_2026-05-21",
+      "note": "東港前路段補給"
+    }
+  ],
+  "candidates_not_selected": []
+}

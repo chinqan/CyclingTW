@@ -1,0 +1,13 @@
+{
+  "place_id": "ChIJCwN--uTZbTQRZMhcv_8gUr0",
+  "name_zh": "7-ELEVEN 聖安門市",
+  "csv_type": "便利商店",
+  "rating": 2.6,
+  "total_ratings": 5,
+  "location": {
+    "lat": 23.0658586,
+    "lng": 120.1280074
+  },
+  "source": "google_maps",
+  "note": "終點前補給與休息 km約139"
+}

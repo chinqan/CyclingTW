@@ -44,6 +44,11 @@ def _validate_coords(places: list) -> None:
         lng_prev, lat_prev, _ = coords[i - 1]
         lng_cur, lat_cur, name_cur = coords[i]
         lng_next, lat_next, _ = coords[i + 1]
+        
+        # PATCH (CyclingTW): 國聖燈塔等極地/燈塔為本專案的核心目標，地理位置自然凸出，略過繞路檢查以防誤判。
+        if any(kw in name_cur for kw in ["燈塔", "極西", "極東", "極南", "極北"]):
+            continue
+            
         direct = haversine_km(lat_prev, lng_prev, lat_next, lng_next)
         detour = (haversine_km(lat_prev, lng_prev, lat_cur, lng_cur) +
                   haversine_km(lat_cur, lng_cur, lat_next, lng_next))
@@ -105,8 +110,40 @@ def _inject_waypoints(gpx: str, places: list) -> str:
     return gpx  # 找不到位置就放棄注入，回原樣
 
 
+def _ors_request(api_key: str, coords: list, accept: str) -> bytes:
+    """對 ORS Directions API 發送 POST request。"""
+    body = json.dumps({
+        "coordinates": coords,
+        "instructions": False,
+        "elevation": False,
+    }).encode("utf-8")
+
+    req = urllib.request.Request(
+        ORS_URL.rsplit("/", 1)[0] + "/cycling-regular" + ("/gpx" if "gpx" in accept else ""),
+        data=body,
+        headers={
+            "Authorization": api_key,
+            "Content-Type": "application/json",
+            "Accept": accept,
+        },
+        method="POST",
+    )
+
+    try:
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            return resp.read()
+    except urllib.error.HTTPError as e:
+        body_text = e.read().decode("utf-8", errors="replace") if e.fp else ""
+        die(f"ORS API HTTP {e.code}: {e.reason}\n{body_text}")
+    except urllib.error.URLError as e:
+        die(f"ORS API 連線失敗：{e.reason}")
+
+
+ORS_JSON_URL = "https://api.openrouteservice.org/v2/directions/cycling-regular"
+
+
 def cmd_route(args):
-    """從 places.json 讀座標、呼叫 ORS API、輸出 dayN_route.gpx。"""
+    """從 places.json 讀座標、呼叫 ORS API、輸出 dayN_route.gpx + 寫回距離。"""
     n = args.day
     data = read_json(plan_dir(n) / "places.json")
     places = data["places"]
@@ -125,15 +162,54 @@ def cmd_route(args):
             "  export ORS_API_KEY='your-key-here'")
 
     coords = [[p["location"]["lng"], p["location"]["lat"]] for p in places]
-    body = json.dumps({
+
+    # ── 1. 呼叫 JSON endpoint 取距離與時間 ──
+    info(f"呼叫 ORS API（JSON）：取得路線距離 …")
+    json_body = json.dumps({
         "coordinates": coords,
         "instructions": False,
         "elevation": False,
     }).encode("utf-8")
+    json_req = urllib.request.Request(
+        ORS_JSON_URL,
+        data=json_body,
+        headers={
+            "Authorization": api_key,
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+        },
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(json_req, timeout=60) as resp:
+            json_result = json.loads(resp.read())
+    except urllib.error.HTTPError as e:
+        body_text = e.read().decode("utf-8", errors="replace") if e.fp else ""
+        die(f"ORS API HTTP {e.code}: {e.reason}\n{body_text}")
+    except urllib.error.URLError as e:
+        die(f"ORS API 連線失敗：{e.reason}")
 
-    req = urllib.request.Request(
+    summary = json_result["routes"][0]["summary"]
+    distance_km = round(summary["distance"] / 1000, 1)
+    duration_hours = round(summary["duration"] / 3600, 1)
+    info(f"ORS 路線距離：{distance_km} km，預估騎乘時間：{duration_hours} 小時")
+
+    # 寫回 places.json
+    data["ors_distance_km"] = distance_km
+    data["ors_duration_hours"] = duration_hours
+    from .helpers import write_json
+    write_json(plan_dir(n) / "places.json", data)
+
+    # ── 2. 呼叫 GPX endpoint 取路線軌跡 ──
+    info(f"呼叫 ORS API（GPX）：{len(coords)} 個 waypoints …")
+    gpx_body = json.dumps({
+        "coordinates": coords,
+        "instructions": False,
+        "elevation": False,
+    }).encode("utf-8")
+    gpx_req = urllib.request.Request(
         ORS_URL,
-        data=body,
+        data=gpx_body,
         headers={
             "Authorization": api_key,
             "Content-Type": "application/json",
@@ -141,10 +217,8 @@ def cmd_route(args):
         },
         method="POST",
     )
-
-    info(f"呼叫 ORS API：{len(coords)} 個 waypoints …")
     try:
-        with urllib.request.urlopen(req, timeout=60) as resp:
+        with urllib.request.urlopen(gpx_req, timeout=60) as resp:
             raw = resp.read().decode("utf-8")
     except urllib.error.HTTPError as e:
         body_text = e.read().decode("utf-8", errors="replace") if e.fp else ""

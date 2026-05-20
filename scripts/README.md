@@ -1,6 +1,6 @@
 # plan.py — 單車環島每日路線規劃腳本
 
-搭配 [`cycling-day-route-planning`](../.claude/skills/cycling-day-route-planning/SKILL.md) skill 使用的半自動工具。Claude 在對話中呼叫 MCP（Google Maps / OpenRoute）取得資料並做判斷，腳本則負責所有機械步驟（**本地鏡像維護**、Bayesian 計算、CSV/GPX/Markdown 產出）。
+半自動工具。Claude 在對話中呼叫 MCP（Google Maps / OpenRoute）取得資料並做判斷，腳本則負責所有機械步驟（**本地鏡像維護**、Bayesian 計算、CSV/GPX/Markdown 產出）。
 
 > **重要觀念：`dayN/map/` 是「Google Maps 的本地鏡像 DB」，不是「省 API 用的快取」。**
 > 線上每次搜尋仍要打 MCP，把 fresh 資料 upsert 回本地；本地的價值是在離線時仍能完整分析地圖資料、並保留歷史比對基準。
@@ -217,9 +217,13 @@ CyclingTW/
   "notes": [
     "**強風防範**：...",
     "**補給空窗**：..."
-  ]
+  ],
+
+  "better_attractions": "> 以下為沿途搜尋結果中...（Markdown 格式，含表格）"
 }
 ```
+
+`better_attractions`：可選欄位，Markdown 格式的「未排入路線但 Bayesian 分數較高的備選景點/餐廳」表格。空字串或缺值時 `render-md` 會略過此區塊。可參考 `review N` 的輸出來撰寫。
 
 ---
 
@@ -370,6 +374,23 @@ python3 scripts/plan.py gpx-waypoints 2
 ```bash
 python3 scripts/plan.py render-prompt 2
 ```
+
+### Phase 3.5：晚餐候選池
+
+Claude 在對話中用 MCP 搜尋終點周邊 3km 的晚餐選項，`dinner-put` 寫入 `dinner_map/` 鏡像：
+
+```bash
+# 1. MCP 搜尋 → dinner-put 寫入鏡像（重複 N 筆）
+echo '{...}' | python3 scripts/plan.py dinner-put 2
+
+# 2. 整池 Bayesian + 自動選 top 5 → 產 _plan/dinner.json
+python3 scripts/plan.py dinner-pool 2
+
+# 3.（可選）檢查排名
+python3 scripts/plan.py dinner-review 2
+```
+
+> `render-md` 依賴 `_plan/dinner.json` 產出晚餐推薦區塊。未執行此步驟時，晚餐區塊會被靜默略過。
 
 ### Phase 4：Markdown
 

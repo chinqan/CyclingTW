@@ -1,0 +1,27 @@
+{
+  "day": 4,
+  "origin_label": "台南 / 鹿耳門公園",
+  "destination_label": "枋寮 / 枋山",
+  "distance_range": "約 110–125 公里",
+  "subtitle": "南國廟宇與糖鐵巡禮",
+  "orientation": "vertical_portrait_2_3",
+  "lighting": "柔和清晨明亮光線、清新藍天白雲",
+  "allowed_elements": "",
+  "enhancement": "",
+  "main_visual": {
+    "place_id": "ChIJo65zFEgObjQRm0FgVZa_4GE",
+    "location_desc": "高雄市橋頭「橋頭糖廠」",
+    "scene_elements": "",
+    "action": "",
+    "expression": ""
+  },
+  "small_avatar": {
+    "place_id": "ChIJofDyKzrYbTQROj-L3C0Zt8A",
+    "location_desc": "台南市安南「鹿耳門公園」",
+    "scenario": "",
+    "action": "",
+    "expression": ""
+  },
+  "composition": "主角在畫面中央偏上、鹿耳門公園在右上方小分身、枋寮車站在畫面下方遠景、沿途點綴台南孔廟、澄清湖、東港東隆宮、大鵬灣國家風景區",
+  "geographic_notes": "鹿耳門公園在畫面上方（北側）、枋寮車站在畫面下方（南側）"
+}
