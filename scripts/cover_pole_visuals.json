@@ -1,0 +1,26 @@
+{
+  "極北": {
+    "day": 10,
+    "name_zh": "富貴角燈塔",
+    "name_en": "Fuguijiao Lighthouse",
+    "visual_hint": "八角形塔身、黑白相間水平橫條紋 (Octagonal tower with black and white horizontal stripes)"
+  },
+  "極西": {
+    "day": 3,
+    "name_zh": "國聖燈塔",
+    "name_en": "Guosheng Port Lighthouse",
+    "visual_hint": "黑白相間金屬鐵架塔造型、類似高壓電塔、無封閉外牆、底座位於沙丘或沙洲 (Black and white iron lattice tower on sand dunes)"
+  },
+  "極南": {
+    "day": 6,
+    "name_zh": "鵝鑾鼻燈塔",
+    "name_en": "Eluanbi Lighthouse",
+    "visual_hint": "純白色圓柱狀塔身、底部有白色堡壘圍牆、熱帶綠色草坪圍繞 (Pure white cylindrical tower with fortress walls)"
+  },
+  "極東": {
+    "day": 9,
+    "name_zh": "三貂角燈塔",
+    "name_en": "Sandiaojiao Lighthouse",
+    "visual_hint": "純白色圓柱狀塔身、頂部有圓球狀雷達罩、旁邊有明顯的白色圓頂雷達站 (Pure white cylindrical tower with a spherical radome)"
+  }
+}

@@ -1,0 +1,42 @@
+{{ title }}
+副標題：{{ subtitle }}
+總里程：{{ total_distance }}
+
+【輸入圖片】主角.png — 人物臉型、五官、髮型輪廓與公路車外觀的唯一參考來源
+
+【輸出比例】{% if orientation == "horizontal_landscape_3_2" %}horizontal landscape poster, aspect ratio 3:2.{% else %}vertical portrait poster, aspect ratio 2:3.{% endif %}
+
+【主題】台灣環島總覽封面海報。主角從台北蘆洲柳堤公園出發、繞行台灣本島一圈、回到蘆洲完騎。完整 10 天、四極點挑戰。
+
+【視覺風格】3D Q版公仔（高級模型公仔 / 微縮場景 diorama）。頭大身小比例、玻璃珠眼睛、細膩皮膚質感、表情自然。整體為「台灣立體地圖模型」（miniature diorama style）、寫實材質、電影級光影、8K 超高解析、景深。
+
+【主角與公路車】{{ main_character }}。主角為畫面中央偏上、最顯眼主體。公路車為精緻縮小模型，輪框、變速器、把手細節清楚。
+
+【台灣地圖與環島路線構圖】
+- 台灣本島完整可辨識
+- 環島路線形成一圈、從台北蘆洲出發回到蘆洲
+- 西部 Day 1→5 由北往南排列；南端 Day 6（壽卡挑戰）；東部 Day 7→8 由南往北；東北角與北海岸 Day 9→10 回程
+- 四極點分別放在正確方位（北、西、南、東）
+- 每日路線以簡潔節點或標籤呈現，避免文字過多
+
+【10 天路線摘要】
+{% for d in days -%}
+- Day {{ d.day }}：{{ d.origin }} → {{ d.destination }}（{{ d.distance }}）
+{% endfor %}
+
+【四極點視覺特徵 — 強制防呆，避免四座燈塔畫成一模一樣】
+{% for d in days if d.pole -%}
+- {{ d.pole.direction }} {{ d.pole.name_zh }} ({{ d.pole.name_en }})，Day {{ d.day }}：{{ d.pole.visual_hint }}
+{% endfor %}
+
+【地理正確性】西部路線在台灣西側、東部路線在東側、四極點各位於正確方位。以本提示詞列出的順序為唯一依據，不可憑記憶錯置地標位置。
+
+【文字規範】
+- 主標題使用「{{ title }}」
+- 副標題使用「{{ subtitle }}」
+- 四極點與重要地標使用中文字
+- 不要塞入完整每日行程文字，降低錯字風險
+
+【光影與質感】{{ lighting }}、景深（depth of field）、寫實材質（realistic texture）、miniature diorama style。
+
+【負面限制與品質檢查】不可出現虛構或不存在的建築、不可錯置地標位置、不可出現不屬於台灣的建築風格、避免文字過多造成錯字。主角比例最大、解剖正確、無多餘肢體、臉部清晰。

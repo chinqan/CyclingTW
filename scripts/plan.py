@@ -30,6 +30,7 @@ Claude 在對話中呼叫 MCP 工具（Google Maps / OpenRoute）取得資料並
   render-prompt N          產 dayN_prompt.md；預設先從 _plan/places.json 重推
                            poster_vars.json 結構欄位（--no-sync 跳過）
   render-md N              產 dayN.md（依 _plan/places.json + segments.json）
+  render-cover-prompt      產 output/imagegen/cyclingtw-cover_prompt.md（10 天總覽封面海報）
 
 每日工作目錄結構（自動建立）：
   dayN/
@@ -100,6 +101,7 @@ from plan_lib.gpx import (
     cmd_gpx_append, cmd_gpx_fetch, cmd_gpx_merge,
 )
 from plan_lib.render import cmd_render_prompt, cmd_render_md
+from plan_lib.cover import cmd_render_cover_prompt
 from plan_lib.dinner import (
     cmd_dinner_put, cmd_dinner_diff, cmd_dinner_status,
     cmd_dinner_pool, cmd_dinner_review, cmd_dinner_render,
@@ -154,6 +156,13 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("--no-sync", action="store_true",
                     help="跳過自動同步，僅以現有 poster_vars.json 渲染")
     add("render-md",     cmd_render_md,     "產 dayN.md")
+
+    sp = sub.add_parser("render-cover-prompt", help="產 10 天總覽封面海報提示詞")
+    sp.add_argument("--no-sync", action="store_true",
+                    help="跳過自動同步，僅以現有 cover_vars.json 渲染")
+    sp.add_argument("--aspect", choices=["vertical", "horizontal"], default=None,
+                    help="覆寫 orientation：vertical=2:3 直式（預設）、horizontal=3:2 橫式")
+    sp.set_defaults(func=cmd_render_cover_prompt)
     return p
 
 
