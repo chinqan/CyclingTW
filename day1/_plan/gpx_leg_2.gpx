@@ -15,3482 +15,932 @@
       <year>2026</year>
       <license>LGPL 3.0</license>
     </copyright>
-    <time>2026-05-20T03:59:41.715Z</time>
-    <bounds maxlat="25.038109" maxlon="121.071452" minlat="24.68638" minlon="120.864506"/>
-    <extensions>
-      <system-message/>
-    </extensions>
+    <time>2026-05-20T07:22:49.803Z</time>
+    <bounds maxlat="25.164272" maxlon="121.442975" minlat="25.151115" minlon="121.401509"/>
+    
   </metadata>
   <rte>
-    <rtept lat="25.030741" lon="121.06972">
-      <name/>
-      <desc>Head northwest</desc>
-      <extensions>
-        <distance>305.8</distance>
-        <duration>61.2</duration>
-        <type>11</type>
-        <step>0</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.030899" lon="121.069577">
-      <name/>
-      <desc>Head northwest</desc>
-      <extensions>
-        <distance>305.8</distance>
-        <duration>61.2</duration>
-        <type>11</type>
-        <step>0</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.031238" lon="121.069222">
-      <name/>
-      <desc>Head northwest</desc>
-      <extensions>
-        <distance>305.8</distance>
-        <duration>61.2</duration>
-        <type>11</type>
-        <step>0</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.031492" lon="121.06906">
-      <name/>
-      <desc>Head northwest</desc>
-      <extensions>
-        <distance>305.8</distance>
-        <duration>61.2</duration>
-        <type>11</type>
-        <step>0</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.031597" lon="121.069209">
-      <name/>
-      <desc>Head northwest</desc>
-      <extensions>
-        <distance>305.8</distance>
-        <duration>61.2</duration>
-        <type>11</type>
-        <step>0</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.031774" lon="121.069073">
-      <name/>
-      <desc>Head northwest</desc>
-      <extensions>
-        <distance>305.8</distance>
-        <duration>61.2</duration>
-        <type>11</type>
-        <step>0</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.031953" lon="121.06939">
-      <name/>
-      <desc>Head northwest</desc>
-      <extensions>
-        <distance>305.8</distance>
-        <duration>61.2</duration>
-        <type>11</type>
-        <step>0</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.032022" lon="121.069325">
-      <name/>
-      <desc>Head northwest</desc>
-      <extensions>
-        <distance>305.8</distance>
-        <duration>61.2</duration>
-        <type>11</type>
-        <step>0</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.032259" lon="121.069219">
-      <name/>
-      <desc>Head northwest</desc>
-      <extensions>
-        <distance>305.8</distance>
-        <duration>61.2</duration>
-        <type>11</type>
-        <step>0</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.032381" lon="121.069404">
-      <name/>
-      <desc>Head northwest</desc>
-      <extensions>
-        <distance>305.8</distance>
-        <duration>61.2</duration>
-        <type>11</type>
-        <step>0</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.032763" lon="121.069036">
-      <name>桃科二路79巷</name>
-      <desc>Turn right onto 桃科二路79巷</desc>
-      <extensions>
-        <distance>150.8</distance>
-        <duration>30.2</duration>
-        <type>1</type>
-        <step>1</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.033029" lon="121.069463">
-      <name>桃科二路79巷</name>
-      <desc>Turn right onto 桃科二路79巷</desc>
-      <extensions>
-        <distance>150.8</distance>
-        <duration>30.2</duration>
-        <type>1</type>
-        <step>1</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.033435" lon="121.070129">
-      <name>桃科二路79巷</name>
-      <desc>Turn right onto 桃科二路79巷</desc>
-      <extensions>
-        <distance>150.8</distance>
-        <duration>30.2</duration>
-        <type>1</type>
-        <step>1</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.033593" lon="121.070154">
-      <name>桃科二路</name>
-      <desc>Turn right onto 桃科二路</desc>
-      <extensions>
-        <distance>172.1</distance>
-        <duration>38.7</duration>
-        <type>1</type>
-        <step>2</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.033699" lon="121.070401">
-      <name>桃科二路</name>
-      <desc>Turn right onto 桃科二路</desc>
-      <extensions>
-        <distance>172.1</distance>
-        <duration>38.7</duration>
-        <type>1</type>
-        <step>2</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.034481" lon="121.071316">
-      <name>桃科二路</name>
-      <desc>Turn right onto 桃科二路</desc>
-      <extensions>
-        <distance>172.1</distance>
-        <duration>38.7</duration>
-        <type>1</type>
-        <step>2</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.034584" lon="121.071452">
-      <name>桃科三路</name>
-      <desc>Continue straight onto 桃科三路</desc>
-      <extensions>
-        <distance>837.5</distance>
-        <duration>188.4</duration>
-        <type>6</type>
-        <step>3</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.034666" lon="121.07138">
-      <name>桃科三路</name>
-      <desc>Continue straight onto 桃科三路</desc>
-      <extensions>
-        <distance>837.5</distance>
-        <duration>188.4</duration>
-        <type>6</type>
-        <step>3</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.034545" lon="121.07126">
-      <name>桃科三路</name>
-      <desc>Continue straight onto 桃科三路</desc>
-      <extensions>
-        <distance>837.5</distance>
-        <duration>188.4</duration>
-        <type>6</type>
-        <step>3</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.034352" lon="121.071006">
-      <name>桃科三路</name>
-      <desc>Continue straight onto 桃科三路</desc>
-      <extensions>
-        <distance>837.5</distance>
-        <duration>188.4</duration>
-        <type>6</type>
-        <step>3</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.033772" lon="121.070344">
-      <name>桃科三路</name>
-      <desc>Continue straight onto 桃科三路</desc>
-      <extensions>
-        <distance>837.5</distance>
-        <duration>188.4</duration>
-        <type>6</type>
-        <step>3</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.033683" lon="121.070208">
-      <name>桃科三路</name>
-      <desc>Continue straight onto 桃科三路</desc>
-      <extensions>
-        <distance>837.5</distance>
-        <duration>188.4</duration>
-        <type>6</type>
-        <step>3</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.033649" lon="121.070049">
-      <name>桃科三路</name>
-      <desc>Continue straight onto 桃科三路</desc>
-      <extensions>
-        <distance>837.5</distance>
-        <duration>188.4</duration>
-        <type>6</type>
-        <step>3</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.033642" lon="121.069859">
-      <name>桃科三路</name>
-      <desc>Continue straight onto 桃科三路</desc>
-      <extensions>
-        <distance>837.5</distance>
-        <duration>188.4</duration>
-        <type>6</type>
-        <step>3</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.03368" lon="121.069659">
-      <name>桃科三路</name>
-      <desc>Continue straight onto 桃科三路</desc>
-      <extensions>
-        <distance>837.5</distance>
-        <duration>188.4</duration>
-        <type>6</type>
-        <step>3</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.03381" lon="121.069475">
-      <name>桃科三路</name>
-      <desc>Continue straight onto 桃科三路</desc>
-      <extensions>
-        <distance>837.5</distance>
-        <duration>188.4</duration>
-        <type>6</type>
-        <step>3</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.034941" lon="121.068466">
-      <name>桃科三路</name>
-      <desc>Continue straight onto 桃科三路</desc>
-      <extensions>
-        <distance>837.5</distance>
-        <duration>188.4</duration>
-        <type>6</type>
-        <step>3</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.035002" lon="121.068368">
-      <name>桃科三路</name>
-      <desc>Continue straight onto 桃科三路</desc>
-      <extensions>
-        <distance>837.5</distance>
-        <duration>188.4</duration>
-        <type>6</type>
-        <step>3</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.036241" lon="121.067206">
-      <name>桃科三路</name>
-      <desc>Continue straight onto 桃科三路</desc>
-      <extensions>
-        <distance>837.5</distance>
-        <duration>188.4</duration>
-        <type>6</type>
-        <step>3</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.036691" lon="121.066889">
-      <name>桃科三路</name>
-      <desc>Continue straight onto 桃科三路</desc>
-      <extensions>
-        <distance>837.5</distance>
-        <duration>188.4</duration>
-        <type>6</type>
-        <step>3</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.036884" lon="121.066779">
-      <name>桃科三路</name>
-      <desc>Continue straight onto 桃科三路</desc>
-      <extensions>
-        <distance>837.5</distance>
-        <duration>188.4</duration>
-        <type>6</type>
-        <step>3</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.037758" lon="121.066395">
-      <name>桃科三路</name>
-      <desc>Continue straight onto 桃科三路</desc>
-      <extensions>
-        <distance>837.5</distance>
-        <duration>188.4</duration>
-        <type>6</type>
-        <step>3</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.038109" lon="121.06623">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.038071" lon="121.06616">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.037982" lon="121.065999">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.037407" lon="121.06451">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.036941" lon="121.063463">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.036167" lon="121.06194">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.035377" lon="121.060503">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.03495" lon="121.059794">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.03476" lon="121.059542">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.034232" lon="121.058771">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.033557" lon="121.057852">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.032856" lon="121.056984">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.032738" lon="121.056747">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.032386" lon="121.056274">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.031857" lon="121.055655">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.031485" lon="121.055221">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.031131" lon="121.054826">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.030689" lon="121.054135">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.03054" lon="121.053952">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.030213" lon="121.053495">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.029806" lon="121.052998">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.029704" lon="121.05291">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.029151" lon="121.052348">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.02818" lon="121.05168">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.027877" lon="121.051385">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.026782" lon="121.050186">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.026025" lon="121.049419">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.02101" lon="121.044036">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.019583" lon="121.04249">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.014608" lon="121.037071">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.013964" lon="121.036381">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.013362" lon="121.03573">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.012953" lon="121.035288">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.011626" lon="121.033956">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.010574" lon="121.032973">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.009142" lon="121.031662">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.008749" lon="121.031302">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.008398" lon="121.031041">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.007584" lon="121.030428">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.005178" lon="121.028778">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.004134" lon="121.028142">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.003591" lon="121.027812">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.002474" lon="121.027218">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="25.000768" lon="121.026312">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.999125" lon="121.025493">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.998918" lon="121.02539">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.998578" lon="121.025222">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.997146" lon="121.024534">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.995349" lon="121.02364">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.993623" lon="121.022795">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.991826" lon="121.021933">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.991708" lon="121.021876">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.989961" lon="121.021166">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.988382" lon="121.02064">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.988301" lon="121.020614">
-      <name>大潭北路, 61</name>
-      <desc>Turn left onto 大潭北路, 61</desc>
-      <extensions>
-        <distance>7400.5</distance>
-        <duration>1480.1</duration>
-        <type>0</type>
-        <step>4</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987975" lon="121.020529">
-      <name>中山西路三段, 114</name>
-      <desc>Turn right onto 中山西路三段, 114</desc>
-      <extensions>
-        <distance>234.4</distance>
-        <duration>46.9</duration>
-        <type>1</type>
-        <step>5</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.988011" lon="121.020094">
-      <name>中山西路三段, 114</name>
-      <desc>Turn right onto 中山西路三段, 114</desc>
-      <extensions>
-        <distance>234.4</distance>
-        <duration>46.9</duration>
-        <type>1</type>
-        <step>5</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.988037" lon="121.01955">
-      <name>中山西路三段, 114</name>
-      <desc>Turn right onto 中山西路三段, 114</desc>
-      <extensions>
-        <distance>234.4</distance>
-        <duration>46.9</duration>
-        <type>1</type>
-        <step>5</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.988006" lon="121.01946">
-      <name>中山西路三段, 114</name>
-      <desc>Turn right onto 中山西路三段, 114</desc>
-      <extensions>
-        <distance>234.4</distance>
-        <duration>46.9</duration>
-        <type>1</type>
-        <step>5</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.988137" lon="121.018371">
-      <name>中山西路三段, 114</name>
-      <desc>Turn right onto 中山西路三段, 114</desc>
-      <extensions>
-        <distance>234.4</distance>
-        <duration>46.9</duration>
-        <type>1</type>
-        <step>5</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.988224" lon="121.018258">
-      <name>桃園濱海自行車道</name>
-      <desc>Turn left onto 桃園濱海自行車道</desc>
-      <extensions>
-        <distance>95.4</distance>
-        <duration>19.1</duration>
-        <type>0</type>
-        <step>6</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.988187" lon="121.018201">
-      <name>桃園濱海自行車道</name>
-      <desc>Turn left onto 桃園濱海自行車道</desc>
-      <extensions>
-        <distance>95.4</distance>
-        <duration>19.1</duration>
-        <type>0</type>
-        <step>6</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987638" lon="121.017967">
-      <name>桃園濱海自行車道</name>
-      <desc>Turn left onto 桃園濱海自行車道</desc>
-      <extensions>
-        <distance>95.4</distance>
-        <duration>19.1</duration>
-        <type>0</type>
-        <step>6</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987533" lon="121.017939">
-      <name>桃園濱海自行車道</name>
-      <desc>Turn left onto 桃園濱海自行車道</desc>
-      <extensions>
-        <distance>95.4</distance>
-        <duration>19.1</duration>
-        <type>0</type>
-        <step>6</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987436" lon="121.017952">
-      <name/>
-      <desc>Turn right</desc>
-      <extensions>
-        <distance>113.4</distance>
-        <duration>22.7</duration>
-        <type>1</type>
-        <step>7</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987427" lon="121.017809">
-      <name/>
-      <desc>Turn right</desc>
-      <extensions>
-        <distance>113.4</distance>
-        <duration>22.7</duration>
-        <type>1</type>
-        <step>7</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987465" lon="121.017579">
-      <name/>
-      <desc>Turn right</desc>
-      <extensions>
-        <distance>113.4</distance>
-        <duration>22.7</duration>
-        <type>1</type>
-        <step>7</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987664" lon="121.016864">
-      <name/>
-      <desc>Keep left</desc>
-      <extensions>
-        <distance>232.2</distance>
-        <duration>46.4</duration>
-        <type>12</type>
-        <step>8</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987605" lon="121.016739">
-      <name/>
-      <desc>Keep left</desc>
-      <extensions>
-        <distance>232.2</distance>
-        <duration>46.4</duration>
-        <type>12</type>
-        <step>8</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987677" lon="121.016512">
-      <name/>
-      <desc>Keep left</desc>
-      <extensions>
-        <distance>232.2</distance>
-        <duration>46.4</duration>
-        <type>12</type>
-        <step>8</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.988001" lon="121.015331">
-      <name/>
-      <desc>Keep left</desc>
-      <extensions>
-        <distance>232.2</distance>
-        <duration>46.4</duration>
-        <type>12</type>
-        <step>8</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987866" lon="121.015282">
-      <name/>
-      <desc>Keep left</desc>
-      <extensions>
-        <distance>232.2</distance>
-        <duration>46.4</duration>
-        <type>12</type>
-        <step>8</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987728" lon="121.015791">
-      <name/>
-      <desc>Arrive at your destination, on the right</desc>
-      <extensions>
-        <distance>0.0</distance>
-        <duration>0.0</duration>
-        <type>10</type>
-        <step>9</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987728" lon="121.015791">
+    <rtept lat="25.151131" lon="121.442919">
       <name/>
       <desc>Head east</desc>
-      <extensions>
-        <distance>117.7</distance>
-        <duration>23.5</duration>
-        <type>11</type>
-        <step>10</step>
-      </extensions>
+      
     </rtept>
-    <rtept lat="24.987543" lon="121.016479">
-      <name/>
-      <desc>Head east</desc>
-      <extensions>
-        <distance>117.7</distance>
-        <duration>23.5</duration>
-        <type>11</type>
-        <step>10</step>
-      </extensions>
+    <rtept lat="25.151115" lon="121.442975">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
     </rtept>
-    <rtept lat="24.987479" lon="121.016644">
-      <name/>
-      <desc>Head east</desc>
-      <extensions>
-        <distance>117.7</distance>
-        <duration>23.5</duration>
-        <type>11</type>
-        <step>10</step>
-      </extensions>
+    <rtept lat="25.15121" lon="121.442965">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
     </rtept>
-    <rtept lat="24.987402" lon="121.016725">
-      <name/>
-      <desc>Head east</desc>
-      <extensions>
-        <distance>117.7</distance>
-        <duration>23.5</duration>
-        <type>11</type>
-        <step>10</step>
-      </extensions>
+    <rtept lat="25.151503" lon="121.442689">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
     </rtept>
-    <rtept lat="24.987262" lon="121.01673">
+    <rtept lat="25.151846" lon="121.4425">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.152087" lon="121.44232">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.152189" lon="121.442222">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.15234" lon="121.441991">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.152632" lon="121.441828">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.152706" lon="121.441823">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.152759" lon="121.441786">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.152948" lon="121.441595">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.153025" lon="121.441557">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.15334" lon="121.441421">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.153691" lon="121.44115">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.15374" lon="121.44109">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.153824" lon="121.440867">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.153899" lon="121.440827">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.154073" lon="121.440793">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.154113" lon="121.440789">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.154581" lon="121.440757">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.15462" lon="121.44074">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.154666" lon="121.440679">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.154687" lon="121.440533">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.154633" lon="121.440201">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.15464" lon="121.440138">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.154696" lon="121.439954">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.15471" lon="121.439926">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.154776" lon="121.439816">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.154806" lon="121.439771">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.155138" lon="121.43934">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.155193" lon="121.439265">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.15524" lon="121.439215">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.155583" lon="121.438865">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.155794" lon="121.438617">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.156047" lon="121.438246">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.156205" lon="121.438144">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.156381" lon="121.437936">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.156463" lon="121.43778">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.15667" lon="121.437483">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.156759" lon="121.437352">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.157055" lon="121.437062">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.157223" lon="121.43684">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.157481" lon="121.436573">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.157594" lon="121.43639">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.157873" lon="121.436163">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.15791" lon="121.436105">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.157974" lon="121.435877">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.158035" lon="121.435822">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.158145" lon="121.435723">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.158498" lon="121.435405">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.158549" lon="121.43536">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.158771" lon="121.43516">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.159525" lon="121.43429">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.159652" lon="121.434114">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.159622" lon="121.434035">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.15978" lon="121.433892">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.159861" lon="121.433814">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.159933" lon="121.433644">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.160184" lon="121.433446">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.160242" lon="121.433359">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.160419" lon="121.433058">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.16048" lon="121.432841">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.160566" lon="121.432679">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.160692" lon="121.432514">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.160714" lon="121.432435">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.160773" lon="121.431994">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.160827" lon="121.431559">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.160853" lon="121.431485">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.160916" lon="121.431403">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.160934" lon="121.431354">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.161181" lon="121.430532">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.161233" lon="121.430359">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.161243" lon="121.430244">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.161225" lon="121.430119">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.161185" lon="121.430029">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.161166" lon="121.429991">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.161065" lon="121.429853">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.161044" lon="121.42977">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.161161" lon="121.429731">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.161193" lon="121.429693">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.161337" lon="121.429411">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.161621" lon="121.42885">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.161738" lon="121.428599">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.161777" lon="121.428263">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.161809" lon="121.427986">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.161843" lon="121.427683">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.161901" lon="121.427183">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.161935" lon="121.426888">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.162009" lon="121.426777">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.162057" lon="121.426745">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.16214" lon="121.426696">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.162239" lon="121.426593">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.162426" lon="121.426296">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.162527" lon="121.426053">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.162615" lon="121.425683">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.162638" lon="121.425532">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.162795" lon="121.425399">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.162856" lon="121.425315">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.162912" lon="121.425183">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.162949" lon="121.424831">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.162964" lon="121.424769">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.163028" lon="121.424556">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.163485" lon="121.424013">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.163514" lon="121.423952">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.163514" lon="121.423852">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.163475" lon="121.423755">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.163366" lon="121.423593">
+      <name>八里左岸自行車道</name>
+      <desc>Turn sharp left onto 八里左岸自行車道</desc>
+      
+    </rtept>
+    <rtept lat="25.163364" lon="121.423454">
       <name/>
       <desc>Turn left</desc>
-      <extensions>
-        <distance>127.2</distance>
-        <duration>25.4</duration>
-        <type>0</type>
-        <step>11</step>
-      </extensions>
+      
     </rtept>
-    <rtept lat="24.987295" lon="121.017621">
-      <name/>
-      <desc>Turn left</desc>
-      <extensions>
-        <distance>127.2</distance>
-        <duration>25.4</duration>
-        <type>0</type>
-        <step>11</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987358" lon="121.017832">
-      <name/>
-      <desc>Turn left</desc>
-      <extensions>
-        <distance>127.2</distance>
-        <duration>25.4</duration>
-        <type>0</type>
-        <step>11</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987436" lon="121.017952">
-      <name>桃園濱海自行車道</name>
-      <desc>Turn sharp right onto 桃園濱海自行車道</desc>
-      <extensions>
-        <distance>66.6</distance>
-        <duration>13.3</duration>
-        <type>3</type>
-        <step>12</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987365" lon="121.017983">
-      <name>桃園濱海自行車道</name>
-      <desc>Turn sharp right onto 桃園濱海自行車道</desc>
-      <extensions>
-        <distance>66.6</distance>
-        <duration>13.3</duration>
-        <type>3</type>
-        <step>12</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987254" lon="121.017731">
-      <name>桃園濱海自行車道</name>
-      <desc>Turn sharp right onto 桃園濱海自行車道</desc>
-      <extensions>
-        <distance>66.6</distance>
-        <duration>13.3</duration>
-        <type>3</type>
-        <step>12</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987208" lon="121.017529">
-      <name>桃園濱海自行車道</name>
-      <desc>Turn sharp right onto 桃園濱海自行車道</desc>
-      <extensions>
-        <distance>66.6</distance>
-        <duration>13.3</duration>
-        <type>3</type>
-        <step>12</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987169" lon="121.017452">
-      <name/>
-      <desc>Turn sharp right</desc>
-      <extensions>
-        <distance>142.3</distance>
-        <duration>96.0</duration>
-        <type>3</type>
-        <step>13</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987234" lon="121.017504">
-      <name/>
-      <desc>Turn sharp right</desc>
-      <extensions>
-        <distance>142.3</distance>
-        <duration>96.0</duration>
-        <type>3</type>
-        <step>13</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987214" lon="121.017262">
-      <name/>
-      <desc>Turn sharp right</desc>
-      <extensions>
-        <distance>142.3</distance>
-        <duration>96.0</duration>
-        <type>3</type>
-        <step>13</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987245" lon="121.016714">
-      <name/>
-      <desc>Turn sharp right</desc>
-      <extensions>
-        <distance>142.3</distance>
-        <duration>96.0</duration>
-        <type>3</type>
-        <step>13</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987386" lon="121.016206">
-      <name/>
-      <desc>Keep left</desc>
-      <extensions>
-        <distance>161.5</distance>
-        <duration>96.9</duration>
-        <type>12</type>
-        <step>14</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987719" lon="121.015009">
-      <name/>
-      <desc>Keep left</desc>
-      <extensions>
-        <distance>161.5</distance>
-        <duration>96.9</duration>
-        <type>12</type>
-        <step>14</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987796" lon="121.014669">
-      <name/>
-      <desc>Arrive at your destination, on the left</desc>
-      <extensions>
-        <distance>0.0</distance>
-        <duration>0.0</duration>
-        <type>10</type>
-        <step>15</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987796" lon="121.014669">
-      <name/>
-      <desc>Head east</desc>
-      <extensions>
-        <distance>303.8</distance>
-        <duration>193.0</duration>
-        <type>11</type>
-        <step>16</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987719" lon="121.015009">
-      <name/>
-      <desc>Head east</desc>
-      <extensions>
-        <distance>303.8</distance>
-        <duration>193.0</duration>
-        <type>11</type>
-        <step>16</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987386" lon="121.016206">
-      <name/>
-      <desc>Head east</desc>
-      <extensions>
-        <distance>303.8</distance>
-        <duration>193.0</duration>
-        <type>11</type>
-        <step>16</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987245" lon="121.016714">
-      <name/>
-      <desc>Head east</desc>
-      <extensions>
-        <distance>303.8</distance>
-        <duration>193.0</duration>
-        <type>11</type>
-        <step>16</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987214" lon="121.017262">
-      <name/>
-      <desc>Head east</desc>
-      <extensions>
-        <distance>303.8</distance>
-        <duration>193.0</duration>
-        <type>11</type>
-        <step>16</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987234" lon="121.017504">
-      <name/>
-      <desc>Head east</desc>
-      <extensions>
-        <distance>303.8</distance>
-        <duration>193.0</duration>
-        <type>11</type>
-        <step>16</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987169" lon="121.017452">
-      <name>笨鯊橋</name>
-      <desc>Turn sharp left onto 笨鯊橋</desc>
-      <extensions>
-        <distance>162.0</distance>
-        <duration>32.4</duration>
-        <type>2</type>
-        <step>17</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987208" lon="121.017529">
-      <name>笨鯊橋</name>
-      <desc>Turn sharp left onto 笨鯊橋</desc>
-      <extensions>
-        <distance>162.0</distance>
-        <duration>32.4</duration>
-        <type>2</type>
-        <step>17</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987254" lon="121.017731">
-      <name>笨鯊橋</name>
-      <desc>Turn sharp left onto 笨鯊橋</desc>
-      <extensions>
-        <distance>162.0</distance>
-        <duration>32.4</duration>
-        <type>2</type>
-        <step>17</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987365" lon="121.017983">
-      <name>笨鯊橋</name>
-      <desc>Turn sharp left onto 笨鯊橋</desc>
-      <extensions>
-        <distance>162.0</distance>
-        <duration>32.4</duration>
-        <type>2</type>
-        <step>17</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987436" lon="121.017952">
-      <name>笨鯊橋</name>
-      <desc>Turn sharp left onto 笨鯊橋</desc>
-      <extensions>
-        <distance>162.0</distance>
-        <duration>32.4</duration>
-        <type>2</type>
-        <step>17</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987533" lon="121.017939">
-      <name>笨鯊橋</name>
-      <desc>Turn sharp left onto 笨鯊橋</desc>
-      <extensions>
-        <distance>162.0</distance>
-        <duration>32.4</duration>
-        <type>2</type>
-        <step>17</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987638" lon="121.017967">
-      <name>笨鯊橋</name>
-      <desc>Turn sharp left onto 笨鯊橋</desc>
-      <extensions>
-        <distance>162.0</distance>
-        <duration>32.4</duration>
-        <type>2</type>
-        <step>17</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.988187" lon="121.018201">
-      <name>笨鯊橋</name>
-      <desc>Turn sharp left onto 笨鯊橋</desc>
-      <extensions>
-        <distance>162.0</distance>
-        <duration>32.4</duration>
-        <type>2</type>
-        <step>17</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.988224" lon="121.018258">
-      <name>新港路</name>
-      <desc>Turn right onto 新港路</desc>
-      <extensions>
-        <distance>30.1</distance>
-        <duration>6.0</duration>
-        <type>1</type>
-        <step>18</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.988137" lon="121.018371">
-      <name>新港路</name>
-      <desc>Turn right onto 新港路</desc>
-      <extensions>
-        <distance>30.1</distance>
-        <duration>6.0</duration>
-        <type>1</type>
-        <step>18</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.988119" lon="121.018519">
-      <name/>
-      <desc>Arrive at 新港路, on the right</desc>
-      <extensions>
-        <distance>0.0</distance>
-        <duration>0.0</duration>
-        <type>10</type>
-        <step>19</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.988119" lon="121.018519">
-      <name>中山西路三段, 114</name>
-      <desc>Head east on 中山西路三段, 114</desc>
-      <extensions>
-        <distance>202.2</distance>
-        <duration>40.4</duration>
-        <type>11</type>
-        <step>20</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.988006" lon="121.01946">
-      <name>中山西路三段, 114</name>
-      <desc>Head east on 中山西路三段, 114</desc>
-      <extensions>
-        <distance>202.2</distance>
-        <duration>40.4</duration>
-        <type>11</type>
-        <step>20</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987957" lon="121.019555">
-      <name>中山西路三段, 114</name>
-      <desc>Head east on 中山西路三段, 114</desc>
-      <extensions>
-        <distance>202.2</distance>
-        <duration>40.4</duration>
-        <type>11</type>
-        <step>20</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987921" lon="121.020141">
-      <name>中山西路三段, 114</name>
-      <desc>Head east on 中山西路三段, 114</desc>
-      <extensions>
-        <distance>202.2</distance>
-        <duration>40.4</duration>
-        <type>11</type>
-        <step>20</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987885" lon="121.020499">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987548" lon="121.020389">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.987302" lon="121.020304">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.98626" lon="121.019983">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.984036" lon="121.019463">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.982872" lon="121.019249">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.979573" lon="121.01879">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.978445" lon="121.018597">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.978026" lon="121.018496">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.977348" lon="121.018347">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.976097" lon="121.018028">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.975723" lon="121.017946">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.974242" lon="121.017496">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.973553" lon="121.017254">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.973233" lon="121.017151">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.971055" lon="121.016257">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.970734" lon="121.016122">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.9692" lon="121.015331">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.968459" lon="121.014959">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.96653" lon="121.013936">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.966369" lon="121.013848">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.964983" lon="121.01315">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.963926" lon="121.012568">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.96224" lon="121.011577">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.961362" lon="121.01098">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.960628" lon="121.010438">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.959581" lon="121.009636">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.959128" lon="121.009227">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.957674" lon="121.007871">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.956886" lon="121.007042">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.956147" lon="121.006207">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.955475" lon="121.005312">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.954819" lon="121.004479">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.953699" lon="121.00283">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.953262" lon="121.002094">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.951773" lon="120.999421">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.951249" lon="120.998552">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.950667" lon="120.997663">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.94999" lon="120.996724">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.949162" lon="120.995659">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.948903" lon="120.995332">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.948412" lon="120.994758">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.947951" lon="120.994252">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.946608" lon="120.992894">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.945865" lon="120.992215">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.944859" lon="120.991369">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.944337" lon="120.990968">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.942877" lon="120.989886">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.940355" lon="120.988331">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.938014" lon="120.986834">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.937113" lon="120.986206">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.936289" lon="120.985526">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.935395" lon="120.984843">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.9348" lon="120.984322">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.933474" lon="120.983055">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.932055" lon="120.981697">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.930632" lon="120.980332">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.929211" lon="120.978979">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.927784" lon="120.977631">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.92637" lon="120.976279">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.925256" lon="120.975201">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.924067" lon="120.974086">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.923212" lon="120.973465">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.921935" lon="120.972691">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.920823" lon="120.972254">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.920046" lon="120.972047">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.919469" lon="120.971924">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.919159" lon="120.971888">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.918798" lon="120.971845">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.918249" lon="120.971814">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.918114" lon="120.971806">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.917963" lon="120.97181">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.917831" lon="120.971814">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.917294" lon="120.97183">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.916897" lon="120.971863">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.916382" lon="120.971906">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.915694" lon="120.971962">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.915577" lon="120.97197">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.913981" lon="120.972072">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.913232" lon="120.972174">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.911637" lon="120.972315">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.906926" lon="120.972676">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.905743" lon="120.972655">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.904971" lon="120.972576">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.904294" lon="120.972469">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.903808" lon="120.97232">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.902562" lon="120.971824">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.902315" lon="120.971711">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.901881" lon="120.971462">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.901512" lon="120.971177">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.901457" lon="120.971134">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.901403" lon="120.971098">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.900789" lon="120.970677">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.900248" lon="120.97018">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.899929" lon="120.969839">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.89866" lon="120.968406">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.898603" lon="120.968342">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.898561" lon="120.968291">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.89823" lon="120.96789">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.897491" lon="120.966933">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.897442" lon="120.966869">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.897123" lon="120.966482">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.896136" lon="120.965101">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.895659" lon="120.964303">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.89464" lon="120.962881">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.893876" lon="120.961919">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.893026" lon="120.961002">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.891902" lon="120.959864">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.891158" lon="120.959209">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.890532" lon="120.958758">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.88951" lon="120.958072">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.888849" lon="120.957674">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.887838" lon="120.957128">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.886496" lon="120.956581">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.883214" lon="120.955674">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.881954" lon="120.955358">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.880763" lon="120.95504">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.877936" lon="120.95432">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.877617" lon="120.954275">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.876544" lon="120.954118">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.876454" lon="120.954106">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.87603" lon="120.954043">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.874852" lon="120.953898">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.873071" lon="120.953716">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.871962" lon="120.953597">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.871854" lon="120.953585">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.870037" lon="120.953381">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.868409" lon="120.953214">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.868348" lon="120.953208">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.866712" lon="120.953002">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.86661" lon="120.952989">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.865751" lon="120.952819">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.864786" lon="120.952559">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.863146" lon="120.951962">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.862449" lon="120.951671">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.86205" lon="120.951428">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.861684" lon="120.951144">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.861519" lon="120.951014">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.861097" lon="120.950935">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.860769" lon="120.950785">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.860089" lon="120.950329">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.859457" lon="120.949906">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.858589" lon="120.949236">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.857828" lon="120.94853">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.857698" lon="120.948409">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.856394" lon="120.947066">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.856049" lon="120.94682">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.855516" lon="120.946268">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.854892" lon="120.945621">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.854775" lon="120.945513">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.854697" lon="120.945442">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.854297" lon="120.945016">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.853282" lon="120.943975">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.852815" lon="120.943481">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.852741" lon="120.943417">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.852553" lon="120.943252">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.852171" lon="120.942906">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.852099" lon="120.942841">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.850763" lon="120.941612">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.844349" lon="120.935797">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.844012" lon="120.935479">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.842417" lon="120.934082">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.841397" lon="120.932939">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.841009" lon="120.932556">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.840213" lon="120.931862">
-      <name>西部濱海公路, 61</name>
-      <desc>Turn right onto 西部濱海公路, 61</desc>
-      <extensions>
-        <distance>19609.3</distance>
-        <duration>3921.8</duration>
-        <type>1</type>
-        <step>21</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.839641" lon="120.931345">
+    <rtept lat="25.163027" lon="121.423371">
       <name/>
       <desc>Turn right</desc>
-      <extensions>
-        <distance>175.3</distance>
-        <duration>35.1</duration>
-        <type>1</type>
-        <step>22</step>
-      </extensions>
+      
     </rtept>
-    <rtept lat="24.839692" lon="120.931235">
+    <rtept lat="25.163105" lon="121.422757">
       <name/>
       <desc>Turn right</desc>
-      <extensions>
-        <distance>175.3</distance>
-        <duration>35.1</duration>
-        <type>1</type>
-        <step>22</step>
-      </extensions>
+      
     </rtept>
-    <rtept lat="24.839717" lon="120.931027">
+    <rtept lat="25.162967" lon="121.422057">
       <name/>
       <desc>Turn right</desc>
-      <extensions>
-        <distance>175.3</distance>
-        <duration>35.1</duration>
-        <type>1</type>
-        <step>22</step>
-      </extensions>
+      
     </rtept>
-    <rtept lat="24.839769" lon="120.930598">
+    <rtept lat="25.162838" lon="121.421494">
       <name/>
       <desc>Turn right</desc>
-      <extensions>
-        <distance>175.3</distance>
-        <duration>35.1</duration>
-        <type>1</type>
-        <step>22</step>
-      </extensions>
+      
     </rtept>
-    <rtept lat="24.839871" lon="120.929742">
+    <rtept lat="25.16276" lon="121.421306">
       <name/>
       <desc>Turn right</desc>
-      <extensions>
-        <distance>175.3</distance>
-        <duration>35.1</duration>
-        <type>1</type>
-        <step>22</step>
-      </extensions>
+      
     </rtept>
-    <rtept lat="24.839828" lon="120.929646">
+    <rtept lat="25.162704" lon="121.42125">
       <name/>
       <desc>Turn right</desc>
-      <extensions>
-        <distance>167.0</distance>
-        <duration>33.4</duration>
-        <type>1</type>
-        <step>23</step>
-      </extensions>
+      
     </rtept>
-    <rtept lat="24.839909" lon="120.929512">
+    <rtept lat="25.162721" lon="121.420974">
       <name/>
       <desc>Turn right</desc>
-      <extensions>
-        <distance>167.0</distance>
-        <duration>33.4</duration>
-        <type>1</type>
-        <step>23</step>
-      </extensions>
+      
     </rtept>
-    <rtept lat="24.840077" lon="120.928162">
+    <rtept lat="25.162666" lon="121.420491">
       <name/>
       <desc>Turn right</desc>
-      <extensions>
-        <distance>167.0</distance>
-        <duration>33.4</duration>
-        <type>1</type>
-        <step>23</step>
-      </extensions>
+      
     </rtept>
-    <rtept lat="24.840063" lon="120.928032">
-      <name>天府路自行車道</name>
-      <desc>Turn slight right onto 天府路自行車道</desc>
-      <extensions>
-        <distance>71.2</distance>
-        <duration>14.2</duration>
-        <type>5</type>
-        <step>24</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.840118" lon="120.92794">
-      <name>天府路自行車道</name>
-      <desc>Turn slight right onto 天府路自行車道</desc>
-      <extensions>
-        <distance>71.2</distance>
-        <duration>14.2</duration>
-        <type>5</type>
-        <step>24</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.840252" lon="120.927456">
-      <name>天府路自行車道</name>
-      <desc>Turn slight right onto 天府路自行車道</desc>
-      <extensions>
-        <distance>71.2</distance>
-        <duration>14.2</duration>
-        <type>5</type>
-        <step>24</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.84025" lon="120.927366">
-      <name>天府路自行車道</name>
-      <desc>Keep right onto 天府路自行車道</desc>
-      <extensions>
-        <distance>327.0</distance>
-        <duration>65.4</duration>
-        <type>13</type>
-        <step>25</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.840301" lon="120.927296">
-      <name>天府路自行車道</name>
-      <desc>Keep right onto 天府路自行車道</desc>
-      <extensions>
-        <distance>327.0</distance>
-        <duration>65.4</duration>
-        <type>13</type>
-        <step>25</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.840606" lon="120.926697">
-      <name>天府路自行車道</name>
-      <desc>Keep right onto 天府路自行車道</desc>
-      <extensions>
-        <distance>327.0</distance>
-        <duration>65.4</duration>
-        <type>13</type>
-        <step>25</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.840801" lon="120.926315">
-      <name>天府路自行車道</name>
-      <desc>Keep right onto 天府路自行車道</desc>
-      <extensions>
-        <distance>327.0</distance>
-        <duration>65.4</duration>
-        <type>13</type>
-        <step>25</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.841503" lon="120.925102">
-      <name>天府路自行車道</name>
-      <desc>Keep right onto 天府路自行車道</desc>
-      <extensions>
-        <distance>327.0</distance>
-        <duration>65.4</duration>
-        <type>13</type>
-        <step>25</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.841675" lon="120.924805">
-      <name>天府路自行車道</name>
-      <desc>Keep right onto 天府路自行車道</desc>
-      <extensions>
-        <distance>327.0</distance>
-        <duration>65.4</duration>
-        <type>13</type>
-        <step>25</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.841728" lon="120.924578">
-      <name>天府路自行車道</name>
-      <desc>Turn right onto 天府路自行車道</desc>
-      <extensions>
-        <distance>191.9</distance>
-        <duration>38.4</duration>
-        <type>1</type>
-        <step>26</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.841845" lon="120.924548">
-      <name>天府路自行車道</name>
-      <desc>Turn right onto 天府路自行車道</desc>
-      <extensions>
-        <distance>191.9</distance>
-        <duration>38.4</duration>
-        <type>1</type>
-        <step>26</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.842052" lon="120.924195">
-      <name>天府路自行車道</name>
-      <desc>Turn right onto 天府路自行車道</desc>
-      <extensions>
-        <distance>191.9</distance>
-        <duration>38.4</duration>
-        <type>1</type>
-        <step>26</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.84219" lon="120.924005">
-      <name>天府路自行車道</name>
-      <desc>Turn right onto 天府路自行車道</desc>
-      <extensions>
-        <distance>191.9</distance>
-        <duration>38.4</duration>
-        <type>1</type>
-        <step>26</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.842864" lon="120.923477">
-      <name>天府路自行車道</name>
-      <desc>Turn right onto 天府路自行車道</desc>
-      <extensions>
-        <distance>191.9</distance>
-        <duration>38.4</duration>
-        <type>1</type>
-        <step>26</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.842904" lon="120.923431">
-      <name>天府路自行車道</name>
-      <desc>Turn right onto 天府路自行車道</desc>
-      <extensions>
-        <distance>191.9</distance>
-        <duration>38.4</duration>
-        <type>1</type>
-        <step>26</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.842889" lon="120.923301">
-      <name>天府路自行車道</name>
-      <desc>Continue straight onto 天府路自行車道</desc>
-      <extensions>
-        <distance>11.2</distance>
-        <duration>2.2</duration>
-        <type>6</type>
-        <step>27</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.842868" lon="120.923192">
-      <name>十七公里海岸線自行車道</name>
-      <desc>Turn sharp right onto 十七公里海岸線自行車道</desc>
-      <extensions>
-        <distance>342.8</distance>
-        <duration>68.6</duration>
-        <type>3</type>
-        <step>28</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.843002" lon="120.923229">
-      <name>十七公里海岸線自行車道</name>
-      <desc>Turn sharp right onto 十七公里海岸線自行車道</desc>
-      <extensions>
-        <distance>342.8</distance>
-        <duration>68.6</duration>
-        <type>3</type>
-        <step>28</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.843062" lon="120.923274">
-      <name>十七公里海岸線自行車道</name>
-      <desc>Turn sharp right onto 十七公里海岸線自行車道</desc>
-      <extensions>
-        <distance>342.8</distance>
-        <duration>68.6</duration>
-        <type>3</type>
-        <step>28</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.843988" lon="120.923963">
-      <name>十七公里海岸線自行車道</name>
-      <desc>Turn sharp right onto 十七公里海岸線自行車道</desc>
-      <extensions>
-        <distance>342.8</distance>
-        <duration>68.6</duration>
-        <type>3</type>
-        <step>28</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.845447" lon="120.925037">
-      <name>新港三路</name>
-      <desc>Turn left onto 新港三路</desc>
-      <extensions>
-        <distance>65.7</distance>
-        <duration>14.8</duration>
-        <type>0</type>
-        <step>29</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.845768" lon="120.924491">
-      <name/>
-      <desc>Continue straight</desc>
-      <extensions>
-        <distance>97.4</distance>
-        <duration>25.1</duration>
-        <type>6</type>
-        <step>30</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.846023" lon="120.924054">
-      <name/>
-      <desc>Continue straight</desc>
-      <extensions>
-        <distance>97.4</distance>
-        <duration>25.1</duration>
-        <type>6</type>
-        <step>30</step>
-      </extensions>
-    </rtept>
-    <rtept lat="24.846243" lon="120.923679">
+    <rtept lat="25.162709" lon="121.419799">
       <name/>
       <desc>Turn right</desc>
-      <extensions>
-        <distance>313.5</distance>
-        <duration>80.6</duration>
-        <type>1</type>
-        <step>31</step>
-      </extensions>
+      
     </rtept>
-    <rtept lat="24.846365" lon="120.923772">
+    <rtept lat="25.162703" lon="121.419687">
       <name/>
       <desc>Turn right</desc>
-      <extensions>
-        <distance>313.5</distance>
-        <duration>80.6</duration>
-        <type>1</type>
-        <step>31</step>
-      </extensions>
+      
     </rtept>
-    <rtept lat="24.847079" lon="120.924313">
+    <rtept lat="25.162902" lon="121.417183">
       <name/>
       <desc>Turn right</desc>
-      <extensions>
-        <distance>313.5</distance>
-        <duration>80.6</duration>
-        <type>1</type>
-        <step>31</step>
-      </extensions>
+      
     </rtept>
-    <rtept lat="24.8473" lon="120.92448">
+    <rtept lat="25.162916" lon="121.417117">
       <name/>
       <desc>Turn right</desc>
-      <extensions>
-        <distance>313.5</distance>
-        <duration>80.6</duration>
-        <type>1</type>
-        <step>31</step>
-      </extensions>
+      
     </rtept>
-    <rtept lat="24.84779" lon="120.924648">
+    <rtept lat="25.163015" lon="121.416889">
       <name/>
       <desc>Turn right</desc>
-      <extensions>
-        <distance>313.5</distance>
-        <duration>80.6</duration>
-        <type>1</type>
-        <step>31</step>
-      </extensions>
+      
     </rtept>
-    <rtept lat="24.848167" lon="120.9248">
+    <rtept lat="25.163314" lon="121.416405">
       <name/>
       <desc>Turn right</desc>
-      <extensions>
-        <distance>313.5</distance>
-        <duration>80.6</duration>
-        <type>1</type>
-        <step>31</step>
-      </extensions>
+      
     </rtept>
-    <rtept lat="24.848757" lon="120.925018">
+    <rtept lat="25.163424" lon="121.416356">
       <name/>
       <desc>Turn right</desc>
-      <extensions>
-        <distance>18.4</distance>
-        <duration>4.7</duration>
-        <type>1</type>
-        <step>32</step>
-      </extensions>
+      
     </rtept>
+    <rtept lat="25.163425" lon="121.416261">
+      <name/>
+      <desc>Turn right</desc>
+      
+    </rtept>
+    <rtept lat="25.164113" lon="121.41599">
+      <name/>
+      <desc>Turn right</desc>
+      
+    </rtept>
+    <rtept lat="25.164272" lon="121.415954">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.164236" lon="121.415874">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.164202" lon="121.415805">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.164119" lon="121.415803">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.164059" lon="121.415748">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.163803" lon="121.415353">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.163611" lon="121.41506">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.163641" lon="121.414966">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.163613" lon="121.414882">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.163534" lon="121.414791">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.163402" lon="121.414726">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.162951" lon="121.414032">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.1627" lon="121.413663">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.162667" lon="121.413613">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.162505" lon="121.413365">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.162478" lon="121.413327">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.162238" lon="121.412993">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.162132" lon="121.412861">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.162113" lon="121.412726">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.161799" lon="121.412281">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.161651" lon="121.412116">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.161538" lon="121.411876">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.161352" lon="121.411661">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.161284" lon="121.411473">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.161153" lon="121.411349">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.161095" lon="121.411194">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.161009" lon="121.411049">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.160891" lon="121.410945">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.160797" lon="121.410716">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.160608" lon="121.410472">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.160224" lon="121.409881">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.160006" lon="121.409677">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.159923" lon="121.409573">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.159801" lon="121.409311">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.159625" lon="121.409187">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.159474" lon="121.408943">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.159353" lon="121.4089">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.159084" lon="121.408511">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.158888" lon="121.408274">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.158814" lon="121.408054">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.158677" lon="121.407931">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.158571" lon="121.407771">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.15842" lon="121.407669">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.158251" lon="121.407361">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.157516" lon="121.406527">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.156792" lon="121.405774">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.156838" lon="121.405712">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.156706" lon="121.405551">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.156783" lon="121.405417">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="25.156261" lon="121.404872">
+      <name>博物館路202巷</name>
+      <desc>Turn left onto 博物館路202巷</desc>
+      
+    </rtept>
+    <rtept lat="25.156219" lon="121.404917">
+      <name>博物館路202巷</name>
+      <desc>Turn left onto 博物館路202巷</desc>
+      
+    </rtept>
+    <rtept lat="25.156147" lon="121.404996">
+      <name>商港三路</name>
+      <desc>Turn right onto 商港三路</desc>
+      
+    </rtept>
+    <rtept lat="25.156035" lon="121.404872">
+      <name>商港三路</name>
+      <desc>Turn right onto 商港三路</desc>
+      
+    </rtept>
+    <rtept lat="25.155333" lon="121.404089">
+      <name>商港三路</name>
+      <desc>Turn right onto 商港三路</desc>
+      
+    </rtept>
+    <rtept lat="25.154399" lon="121.403047">
+      <name>商港三路</name>
+      <desc>Turn right onto 商港三路</desc>
+      
+    </rtept>
+    <rtept lat="25.153164" lon="121.401509">
+      <name>頂罟二路</name>
+      <desc>Turn left onto 頂罟二路</desc>
+      
+    </rtept>
+    <rtept lat="25.153097" lon="121.401573">
+      <name>頂罟二路</name>
+      <desc>Turn left onto 頂罟二路</desc>
+      
+    </rtept>
+    <rtept lat="25.152927" lon="121.401746">
+      <name/>
+      <desc>Arrive at 頂罟二路, on the left</desc>
+      
+    </rtept>
+    
   </rte>
+  
 </gpx>

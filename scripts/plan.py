@@ -148,6 +148,15 @@ def die(msg: str, code: int = 1) -> None:
 def info(msg: str) -> None:
     print(f"[info] {msg}", file=sys.stderr)
 
+def _haversine_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
+    """兩點地表距離（公里），用於 GPX leg 終點驗證。"""
+    R = 6371
+    p1, p2 = math.radians(lat1), math.radians(lat2)
+    dlat = math.radians(lat2 - lat1)
+    dlon = math.radians(lon2 - lon1)
+    a = math.sin(dlat/2)**2 + math.cos(p1)*math.cos(p2)*math.sin(dlon/2)**2
+    return 2 * R * math.asin(math.sqrt(a))
+
 # ─────────────────── Phase 0: parse index.md ───────────────────
 
 INDEX_TABLE_ROW = re.compile(
@@ -647,7 +656,15 @@ def cmd_gpx_split_plan(args):
     print(f"  3. 最後 'plan.py gpx-merge {n}' 合併所有 leg")
 
 def cmd_gpx_append(args):
-    """[stdin] 儲存單段 openroute MCP GPX 到 _plan/gpx_leg_<i>.gpx。"""
+    """[stdin] 儲存單段 openroute MCP GPX 到 _plan/gpx_leg_<i>.gpx。
+
+    後處理三步：
+    1. strip <extensions>...</extensions>：每個 rtept 帶的 distance/duration/step
+       metadata 不需要保留（佔 ~80% 體積），剝掉可大幅縮小檔案
+    2. 截斷修補：若無 </gpx>，補上閉合標籤
+    3. 終點驗證：對照 gpx_split.json 中該 leg 的 to_coordinates，若實際最後一個
+       rtept 距計畫終點 > 2 km，視為 MCP envelope 截斷，die 並提示重切
+    """
     n = args.day
     leg_i = args.leg
     raw = sys.stdin.read()
@@ -657,19 +674,46 @@ def cmd_gpx_append(args):
     if start == -1:
         die("stdin 不含 GPX 內容")
     gpx = raw[start:]
-    # 容錯：若被截斷沒有 </gpx>，補上閉合標籤
+
+    # 1. strip <extensions> 區塊（多行，可能 nested 進 rtept 內）
+    before_strip = len(gpx)
+    gpx = re.sub(r"<extensions>.*?</extensions>", "", gpx, flags=re.DOTALL)
+    saved = before_strip - len(gpx)
+    if saved > 0:
+        info(f"剝除 <extensions> 區塊，省下 {saved} bytes（{saved*100//before_strip}%）")
+
+    # 2. 容錯：若被截斷沒有 </gpx>，補上閉合標籤
     if "</gpx>" not in gpx:
-        # 找到最後一個完整的 </rtept>
         last_rtept = gpx.rfind("</rtept>")
         if last_rtept > 0:
             gpx = gpx[:last_rtept + len("</rtept>")] + "\n  </rte>\n</gpx>"
             info("⚠️  GPX 被截斷，已自動補上閉合標籤")
         else:
             die("stdin GPX 既無 </gpx> 也無任何完整 </rtept>，無法修補；請確認 openroute MCP 回應")
+
     out = plan_dir(n) / f"gpx_leg_{leg_i}.gpx"
     out.write_text(gpx, encoding="utf-8")
     rtept_count = len(re.findall(r"<rtept", gpx))
-    info(f"已儲存 leg {leg_i} → {out.relative_to(ROOT)}（{rtept_count} 個 rtept）")
+    info(f"已儲存 leg {leg_i} → {out.relative_to(ROOT)}（{rtept_count} 個 rtept, {len(gpx)} bytes）")
+
+    # 3. 終點驗證：比對實際 last rtept vs gpx_split.json 計畫的 to_coordinates
+    split_file = plan_dir(n) / "gpx_split.json"
+    if split_file.exists():
+        plan = read_json(split_file)
+        matching = next((L for L in plan.get("legs", []) if L.get("leg") == leg_i), None)
+        if matching:
+            planned_to = matching["to_coordinates"]  # [lng, lat]
+            pts = re.findall(r'<rtept\s+lat="([\d.\-]+)"\s+lon="([\d.\-]+)"', gpx)
+            if pts:
+                last_lat, last_lon = float(pts[-1][0]), float(pts[-1][1])
+                dist_km = _haversine_km(last_lat, last_lon, planned_to[1], planned_to[0])
+                if dist_km > 2.0:
+                    die(f"⚠️  Leg {leg_i} 實際終點 ({last_lat:.4f}, {last_lon:.4f}) "
+                        f"距計畫終點 {matching['to_name']} ({planned_to[1]:.4f}, {planned_to[0]:.4f}) "
+                        f"{dist_km:.2f} km，疑似 MCP envelope 截斷。\n"
+                        f"建議：重跑 gpx-split-plan {n} --max-waypoints 2（或更小）後重抓所有 leg。")
+                else:
+                    info(f"終點驗證通過：距計畫 {matching['to_name']} {dist_km*1000:.0f} m")
 
 def cmd_gpx_merge(args):
     """合併 _plan/gpx_leg_*.gpx 為最終 dayN_route.gpx。"""
@@ -972,14 +1016,15 @@ def build_parser() -> argparse.ArgumentParser:
     add("gpx-save",      cmd_gpx_save,      "[stdin] 儲存 openroute MCP 產生的 GPX")
     add("gpx-waypoints", cmd_gpx_waypoints, "備案：純航點 GPX")
 
-    def _positive_int(s: str) -> int:
+    def _nonneg_int(s: str) -> int:
         v = int(s)
-        if v < 1:
-            raise argparse.ArgumentTypeError(f"必須 ≥ 1，收到 {v}")
+        if v < 0:
+            raise argparse.ArgumentTypeError(f"必須 ≥ 0，收到 {v}")
         return v
 
     sp = add("gpx-split-plan", cmd_gpx_split_plan, "切割長路線為多段（避免 MCP 100KB 截斷）")
-    sp.add_argument("--max-waypoints", type=_positive_int, default=4, help="每段中間 waypoints 上限 ≥1（預設 4）")
+    sp.add_argument("--max-waypoints", type=_nonneg_int, default=4,
+                    help="每段中間 waypoints 上限 ≥0（預設 4；0 代表每段只有 from+to，無中間點）")
 
     sp = add("gpx-append", cmd_gpx_append, "[stdin] 儲存單段 openroute MCP GPX")
     sp.add_argument("--leg", type=int, required=True, help="段次編號（從 1 開始）")

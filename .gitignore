@@ -1,3 +1,6 @@
 .DS_Store
 /data/*.*
 mcp.json
+
+# openroute MCP 寫到 project root 的 GPX 殘留（規劃用，不該入 repo）
+/cycling-regular-*.gpx
