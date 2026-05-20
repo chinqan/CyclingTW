@@ -1,0 +1,1676 @@
+<?xml version="1.0" ?>
+<gpx xmlns="https://raw.githubusercontent.com/GIScience/openrouteservice-schema/main/gpx/v2/ors-gpx.xsd" version="1.1" creator="openrouteservice">
+  <metadata>
+    <name>openrouteservice directions</name>
+    <desc>This is a directions instructions file as GPX, generated from openrouteservice</desc>
+    <author>
+      <name>openrouteservice</name>
+      <email id="support" domain="openrouteservice.heigit.org"/>
+      <link href="https://openrouteservice.org/">
+        <text>https://openrouteservice.org/</text>
+        <type>text/html</type>
+      </link>
+    </author>
+    <copyright author="openrouteservice.org | OpenStreetMap contributors">
+      <year>2026</year>
+      <license>LGPL 3.0</license>
+    </copyright>
+    <time>2026-05-20T07:29:52.938Z</time>
+    <bounds maxlat="24.848815" maxlon="120.925188" minlat="24.68638" minlon="120.864506"/>
+    
+  </metadata>
+  <rte>
+    <rtept lat="24.848815" lon="120.925188">
+      <name/>
+      <desc>Head west</desc>
+      
+    </rtept>
+    <rtept lat="24.848757" lon="120.925018">
+      <name/>
+      <desc>Turn left</desc>
+      
+    </rtept>
+    <rtept lat="24.848167" lon="120.9248">
+      <name/>
+      <desc>Turn left</desc>
+      
+    </rtept>
+    <rtept lat="24.84779" lon="120.924648">
+      <name/>
+      <desc>Turn left</desc>
+      
+    </rtept>
+    <rtept lat="24.8473" lon="120.92448">
+      <name/>
+      <desc>Turn left</desc>
+      
+    </rtept>
+    <rtept lat="24.847079" lon="120.924313">
+      <name/>
+      <desc>Turn left</desc>
+      
+    </rtept>
+    <rtept lat="24.846365" lon="120.923772">
+      <name/>
+      <desc>Turn left</desc>
+      
+    </rtept>
+    <rtept lat="24.846243" lon="120.923679">
+      <name/>
+      <desc>Turn left</desc>
+      
+    </rtept>
+    <rtept lat="24.846023" lon="120.924054">
+      <name/>
+      <desc>Turn left</desc>
+      
+    </rtept>
+    <rtept lat="24.845768" lon="120.924491">
+      <name>新港三路</name>
+      <desc>Keep left onto 新港三路</desc>
+      
+    </rtept>
+    <rtept lat="24.845447" lon="120.925037">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.843988" lon="120.923963">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.843062" lon="120.923274">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.843002" lon="120.923229">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.842868" lon="120.923192">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Continue straight onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.842653" lon="120.923118">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.842612" lon="120.922889">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn slight right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.842928" lon="120.922329">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn slight right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.841775" lon="120.921504">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn slight right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.840011" lon="120.920185">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn slight right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.83992" lon="120.920064">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn slight right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.839571" lon="120.919795">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn slight right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.839491" lon="120.919771">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn slight right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.839015" lon="120.919807">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.838951" lon="120.919734">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.838367" lon="120.919066">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.838308" lon="120.918998">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.837469" lon="120.918341">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.837535" lon="120.918239">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.83759" lon="120.918156">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.837078" lon="120.91779">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.837103" lon="120.917724">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.83589" lon="120.916834">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.834698" lon="120.915944">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.834445" lon="120.915755">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.833563" lon="120.915133">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.832142" lon="120.914273">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.832029" lon="120.914236">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.831932" lon="120.91425">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.831835" lon="120.914296">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.831763" lon="120.914366">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.831614" lon="120.914598">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.831248" lon="120.914379">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.830797" lon="120.913999">
+      <name/>
+      <desc>Turn slight left</desc>
+      
+    </rtept>
+    <rtept lat="24.830505" lon="120.9139">
+      <name/>
+      <desc>Turn slight left</desc>
+      
+    </rtept>
+    <rtept lat="24.830389" lon="120.91382">
+      <name/>
+      <desc>Turn slight left</desc>
+      
+    </rtept>
+    <rtept lat="24.82986" lon="120.913392">
+      <name/>
+      <desc>Turn slight left</desc>
+      
+    </rtept>
+    <rtept lat="24.829403" lon="120.913082">
+      <name/>
+      <desc>Turn slight left</desc>
+      
+    </rtept>
+    <rtept lat="24.828592" lon="120.912442">
+      <name/>
+      <desc>Turn slight left</desc>
+      
+    </rtept>
+    <rtept lat="24.828233" lon="120.912399">
+      <name/>
+      <desc>Turn slight left</desc>
+      
+    </rtept>
+    <rtept lat="24.827892" lon="120.912314">
+      <name/>
+      <desc>Turn slight left</desc>
+      
+    </rtept>
+    <rtept lat="24.827668" lon="120.912235">
+      <name/>
+      <desc>Turn slight left</desc>
+      
+    </rtept>
+    <rtept lat="24.827629" lon="120.912206">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn slight left onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.82754" lon="120.912185">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn slight left onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.826905" lon="120.911809">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn slight left onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.826079" lon="120.911316">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn slight left onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.825305" lon="120.910814">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn slight left onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.82355" lon="120.909687">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Continue straight onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.823352" lon="120.909561">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Continue straight onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.822752" lon="120.909276">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Continue straight onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.822005" lon="120.908973">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Continue straight onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.819599" lon="120.907999">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Continue straight onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.819097" lon="120.907797">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Continue straight onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.818591" lon="120.907593">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Continue straight onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.818294" lon="120.907473">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Continue straight onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.818078" lon="120.907407">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Continue straight onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.817992" lon="120.907395">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Continue straight onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.817075" lon="120.907267">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Continue straight onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.815101" lon="120.907354">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Continue straight onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.813795" lon="120.907462">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Continue straight onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.813287" lon="120.907569">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Continue straight onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.812782" lon="120.907754">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Continue straight onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.812237" lon="120.908049">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Continue straight onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.811263" lon="120.908628">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Continue straight onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.810348" lon="120.909272">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Continue straight onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.810258" lon="120.909307">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Continue straight onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.81016" lon="120.909395">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Continue straight onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.810069" lon="120.909536">
+      <name>海埔路183巷</name>
+      <desc>Turn slight left onto 海埔路183巷</desc>
+      
+    </rtept>
+    <rtept lat="24.809884" lon="120.910024">
+      <name>海埔路183巷</name>
+      <desc>Turn slight left onto 海埔路183巷</desc>
+      
+    </rtept>
+    <rtept lat="24.809799" lon="120.910361">
+      <name>海埔路183巷</name>
+      <desc>Turn slight left onto 海埔路183巷</desc>
+      
+    </rtept>
+    <rtept lat="24.809762" lon="120.910763">
+      <name>海埔路183巷</name>
+      <desc>Turn slight left onto 海埔路183巷</desc>
+      
+    </rtept>
+    <rtept lat="24.80978" lon="120.910954">
+      <name>海埔路183巷</name>
+      <desc>Turn slight left onto 海埔路183巷</desc>
+      
+    </rtept>
+    <rtept lat="24.809917" lon="120.911486">
+      <name>海埔路183巷</name>
+      <desc>Turn slight left onto 海埔路183巷</desc>
+      
+    </rtept>
+    <rtept lat="24.809965" lon="120.911662">
+      <name>海埔路183巷</name>
+      <desc>Turn slight left onto 海埔路183巷</desc>
+      
+    </rtept>
+    <rtept lat="24.810133" lon="120.912264">
+      <name>海埔路183巷</name>
+      <desc>Turn slight left onto 海埔路183巷</desc>
+      
+    </rtept>
+    <rtept lat="24.81079" lon="120.914347">
+      <name/>
+      <desc>Keep right</desc>
+      
+    </rtept>
+    <rtept lat="24.810773" lon="120.914406">
+      <name/>
+      <desc>Keep right</desc>
+      
+    </rtept>
+    <rtept lat="24.810944" lon="120.914936">
+      <name/>
+      <desc>Keep right</desc>
+      
+    </rtept>
+    <rtept lat="24.81111" lon="120.915185">
+      <name/>
+      <desc>Keep right</desc>
+      
+    </rtept>
+    <rtept lat="24.811361" lon="120.915387">
+      <name/>
+      <desc>Keep right</desc>
+      
+    </rtept>
+    <rtept lat="24.811355" lon="120.915405">
+      <name/>
+      <desc>Keep right</desc>
+      
+    </rtept>
+    <rtept lat="24.811204" lon="120.915955">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.811113" lon="120.915967">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.810859" lon="120.916147">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.810291" lon="120.918455">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.810107" lon="120.919127">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.810077" lon="120.919118">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.809385" lon="120.918908">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.809343" lon="120.918885">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.808624" lon="120.917979">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.808407" lon="120.917677">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.808233" lon="120.917575">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.808175" lon="120.91757">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.807862" lon="120.917554">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.807392" lon="120.917567">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.807017" lon="120.91764">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.806842" lon="120.917777">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.806716" lon="120.918046">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.805854" lon="120.917625">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.805747" lon="120.917572">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.803417" lon="120.917543">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.803075" lon="120.917338">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.802785" lon="120.917117">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.80263" lon="120.917093">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="24.802934" lon="120.917421">
+      <name/>
+      <desc>Turn sharp left</desc>
+      
+    </rtept>
+    <rtept lat="24.802912" lon="120.917524">
+      <name>浸水北街</name>
+      <desc>Turn right onto 浸水北街</desc>
+      
+    </rtept>
+    <rtept lat="24.802296" lon="120.917292">
+      <name>浸水北街</name>
+      <desc>Turn right onto 浸水北街</desc>
+      
+    </rtept>
+    <rtept lat="24.802088" lon="120.917232">
+      <name>浸水北街</name>
+      <desc>Turn right onto 浸水北街</desc>
+      
+    </rtept>
+    <rtept lat="24.801779" lon="120.917144">
+      <name>浸水北街</name>
+      <desc>Turn right onto 浸水北街</desc>
+      
+    </rtept>
+    <rtept lat="24.801518" lon="120.917088">
+      <name>浸水北街</name>
+      <desc>Turn right onto 浸水北街</desc>
+      
+    </rtept>
+    <rtept lat="24.801122" lon="120.917012">
+      <name>浸水北街</name>
+      <desc>Turn right onto 浸水北街</desc>
+      
+    </rtept>
+    <rtept lat="24.800609" lon="120.916954">
+      <name>浸水北街</name>
+      <desc>Turn right onto 浸水北街</desc>
+      
+    </rtept>
+    <rtept lat="24.799827" lon="120.916959">
+      <name>浸水北街</name>
+      <desc>Turn right onto 浸水北街</desc>
+      
+    </rtept>
+    <rtept lat="24.799524" lon="120.91699">
+      <name>浸水北街</name>
+      <desc>Turn right onto 浸水北街</desc>
+      
+    </rtept>
+    <rtept lat="24.799324" lon="120.917051">
+      <name>浸水北街</name>
+      <desc>Turn right onto 浸水北街</desc>
+      
+    </rtept>
+    <rtept lat="24.798462" lon="120.917408">
+      <name>浸水北街</name>
+      <desc>Turn right onto 浸水北街</desc>
+      
+    </rtept>
+    <rtept lat="24.798231" lon="120.917454">
+      <name>浸水北街</name>
+      <desc>Turn right onto 浸水北街</desc>
+      
+    </rtept>
+    <rtept lat="24.797986" lon="120.917479">
+      <name>浸水北街</name>
+      <desc>Turn right onto 浸水北街</desc>
+      
+    </rtept>
+    <rtept lat="24.79654" lon="120.917482">
+      <name>浸水北街</name>
+      <desc>Turn right onto 浸水北街</desc>
+      
+    </rtept>
+    <rtept lat="24.796308" lon="120.917432">
+      <name>浸水北街</name>
+      <desc>Turn right onto 浸水北街</desc>
+      
+    </rtept>
+    <rtept lat="24.796111" lon="120.917383">
+      <name>浸水北街</name>
+      <desc>Turn right onto 浸水北街</desc>
+      
+    </rtept>
+    <rtept lat="24.795667" lon="120.917257">
+      <name>浸水北街</name>
+      <desc>Turn right onto 浸水北街</desc>
+      
+    </rtept>
+    <rtept lat="24.795599" lon="120.917259">
+      <name/>
+      <desc>Turn right</desc>
+      
+    </rtept>
+    <rtept lat="24.795589" lon="120.917149">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn sharp left onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.795533" lon="120.917178">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn sharp left onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.795277" lon="120.91725">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Keep right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.795213" lon="120.917254">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Keep right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.794957" lon="120.917162">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Keep right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.794814" lon="120.91709">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.794824" lon="120.916713">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.794781" lon="120.916462">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.794885" lon="120.915478">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.794799" lon="120.915284">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.794678" lon="120.915193">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.794235" lon="120.915077">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.791644" lon="120.914541">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.789475" lon="120.914013">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.788365" lon="120.913649">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.787922" lon="120.913657">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.787251" lon="120.913539">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.786995" lon="120.913553">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.786691" lon="120.913607">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.786481" lon="120.913708">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.786377" lon="120.91385">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.786037" lon="120.915121">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.785971" lon="120.915188">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.785926" lon="120.915233">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.784772" lon="120.915172">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.784091" lon="120.915057">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.783777" lon="120.915055">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.783652" lon="120.915045">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.783511" lon="120.91503">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.783496" lon="120.915028">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.783367" lon="120.915014">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.781791" lon="120.914841">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.781669" lon="120.914828">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.78028" lon="120.914652">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.78019" lon="120.914641">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.779391" lon="120.914538">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.779284" lon="120.914525">
+      <name>十七公里海岸線自行車道</name>
+      <desc>Turn right onto 十七公里海岸線自行車道</desc>
+      
+    </rtept>
+    <rtept lat="24.778782" lon="120.91446">
+      <name/>
+      <desc>Turn left</desc>
+      
+    </rtept>
+    <rtept lat="24.77876" lon="120.914611">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.777166" lon="120.914323">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.776469" lon="120.914224">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.775378" lon="120.914071">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.774808" lon="120.914023">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.772641" lon="120.913903">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.771865" lon="120.913828">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.770921" lon="120.913678">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.768784" lon="120.913228">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.767436" lon="120.912913">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.767091" lon="120.912803">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.766778" lon="120.912658">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.766434" lon="120.912453">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.76618" lon="120.912265">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.765921" lon="120.912034">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.765531" lon="120.911593">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.765218" lon="120.911179">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.764394" lon="120.910044">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.763784" lon="120.909225">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.763488" lon="120.908902">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.763173" lon="120.908637">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.76311" lon="120.908577">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.762984" lon="120.908488">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.762583" lon="120.908243">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.762115" lon="120.908008">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.760798" lon="120.907443">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.759174" lon="120.906597">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.758715" lon="120.906382">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.758416" lon="120.906266">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.757982" lon="120.906131">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.757572" lon="120.906034">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.757086" lon="120.905952">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.756623" lon="120.905922">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.755296" lon="120.905906">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.754361" lon="120.90581">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.754097" lon="120.905751">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.752711" lon="120.905295">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.750473" lon="120.904494">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.74923" lon="120.904075">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.748559" lon="120.903818">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.748243" lon="120.903659">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.74785" lon="120.903409">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.747503" lon="120.903147">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.747092" lon="120.902722">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.746941" lon="120.902539">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.74655" lon="120.90189">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.746365" lon="120.901532">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.746146" lon="120.901061">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.74557" lon="120.899879">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.745314" lon="120.899414">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.744906" lon="120.898763">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.744541" lon="120.898316">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.743793" lon="120.897345">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.743205" lon="120.896659">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.741983" lon="120.894996">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.740824" lon="120.893207">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.740355" lon="120.892341">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.739739" lon="120.891257">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.738601" lon="120.889191">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.73831" lon="120.888665">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.737015" lon="120.886318">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.736113" lon="120.884823">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.735518" lon="120.883905">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.733414" lon="120.880754">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.732855" lon="120.879881">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.73198" lon="120.878695">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.730768" lon="120.877075">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.73035" lon="120.87656">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.729936" lon="120.876018">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.728384" lon="120.874056">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.726922" lon="120.872122">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.726357" lon="120.871481">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.725861" lon="120.870972">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.724931" lon="120.870166">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.724146" lon="120.869612">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.723605" lon="120.869286">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.722707" lon="120.868834">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.722047" lon="120.868564">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.721287" lon="120.86832">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.72076" lon="120.86818">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.719593" lon="120.867965">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.717202" lon="120.867565">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.716405" lon="120.867426">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.715557" lon="120.867303">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.715273" lon="120.867266">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.714474" lon="120.867138">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.713157" lon="120.866949">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.712314" lon="120.866906">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.711775" lon="120.866934">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.710352" lon="120.867062">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.70876" lon="120.867214">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.70629" lon="120.867453">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.705712" lon="120.867481">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.705104" lon="120.867441">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.704658" lon="120.867371">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.704058" lon="120.8672">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.703392" lon="120.866964">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.703062" lon="120.866841">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.702324" lon="120.86657">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.702127" lon="120.866476">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.70198" lon="120.866386">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.701586" lon="120.865963">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.701394" lon="120.865805">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.701199" lon="120.865733">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.700997" lon="120.865702">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.700924" lon="120.865705">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.700499" lon="120.865755">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.700314" lon="120.865751">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.700149" lon="120.865715">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.699666" lon="120.865519">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.698823" lon="120.865208">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.698277" lon="120.864984">
+      <name>西濱路四段, 61</name>
+      <desc>Turn right onto 西濱路四段, 61</desc>
+      
+    </rtept>
+    <rtept lat="24.697449" lon="120.864506">
+      <name>龍江街, 苗3-1</name>
+      <desc>Turn left onto 龍江街, 苗3-1</desc>
+      
+    </rtept>
+    <rtept lat="24.697371" lon="120.864594">
+      <name>龍江街, 苗3-1</name>
+      <desc>Turn left onto 龍江街, 苗3-1</desc>
+      
+    </rtept>
+    <rtept lat="24.697285" lon="120.864757">
+      <name>龍江街, 苗3-1</name>
+      <desc>Turn left onto 龍江街, 苗3-1</desc>
+      
+    </rtept>
+    <rtept lat="24.696373" lon="120.866112">
+      <name>龍江街, 苗3-1</name>
+      <desc>Turn left onto 龍江街, 苗3-1</desc>
+      
+    </rtept>
+    <rtept lat="24.695966" lon="120.866753">
+      <name>龍江街, 苗3-1</name>
+      <desc>Turn left onto 龍江街, 苗3-1</desc>
+      
+    </rtept>
+    <rtept lat="24.695862" lon="120.866962">
+      <name>龍江街, 苗3-1</name>
+      <desc>Turn left onto 龍江街, 苗3-1</desc>
+      
+    </rtept>
+    <rtept lat="24.695729" lon="120.867232">
+      <name>龍江街, 苗3-1</name>
+      <desc>Turn left onto 龍江街, 苗3-1</desc>
+      
+    </rtept>
+    <rtept lat="24.695616" lon="120.867493">
+      <name>龍江街, 苗3-1</name>
+      <desc>Turn left onto 龍江街, 苗3-1</desc>
+      
+    </rtept>
+    <rtept lat="24.695484" lon="120.867784">
+      <name>龍江街, 苗3-1</name>
+      <desc>Turn left onto 龍江街, 苗3-1</desc>
+      
+    </rtept>
+    <rtept lat="24.695275" lon="120.868141">
+      <name/>
+      <desc>Continue straight</desc>
+      
+    </rtept>
+    <rtept lat="24.694846" lon="120.869041">
+      <name/>
+      <desc>Continue straight</desc>
+      
+    </rtept>
+    <rtept lat="24.69475" lon="120.869239">
+      <name/>
+      <desc>Continue straight</desc>
+      
+    </rtept>
+    <rtept lat="24.694531" lon="120.869707">
+      <name/>
+      <desc>Continue straight</desc>
+      
+    </rtept>
+    <rtept lat="24.69448" lon="120.869843">
+      <name/>
+      <desc>Continue straight</desc>
+      
+    </rtept>
+    <rtept lat="24.694437" lon="120.870034">
+      <name>龍天路</name>
+      <desc>Turn slight right onto 龍天路</desc>
+      
+    </rtept>
+    <rtept lat="24.694323" lon="120.870178">
+      <name>龍天路</name>
+      <desc>Continue straight onto 龍天路</desc>
+      
+    </rtept>
+    <rtept lat="24.694165" lon="120.870355">
+      <name>龍天路</name>
+      <desc>Continue straight onto 龍天路</desc>
+      
+    </rtept>
+    <rtept lat="24.693986" lon="120.870541">
+      <name>龍天路</name>
+      <desc>Continue straight onto 龍天路</desc>
+      
+    </rtept>
+    <rtept lat="24.693778" lon="120.870757">
+      <name>龍天路</name>
+      <desc>Continue straight onto 龍天路</desc>
+      
+    </rtept>
+    <rtept lat="24.693094" lon="120.871522">
+      <name>龍天路</name>
+      <desc>Continue straight onto 龍天路</desc>
+      
+    </rtept>
+    <rtept lat="24.691763" lon="120.872953">
+      <name>龍天路</name>
+      <desc>Continue straight onto 龍天路</desc>
+      
+    </rtept>
+    <rtept lat="24.691664" lon="120.873061">
+      <name>龍天路</name>
+      <desc>Continue straight onto 龍天路</desc>
+      
+    </rtept>
+    <rtept lat="24.691597" lon="120.87314">
+      <name>龍天路</name>
+      <desc>Continue straight onto 龍天路</desc>
+      
+    </rtept>
+    <rtept lat="24.691478" lon="120.873276">
+      <name>龍天路</name>
+      <desc>Continue straight onto 龍天路</desc>
+      
+    </rtept>
+    <rtept lat="24.691125" lon="120.873678">
+      <name>龍天路</name>
+      <desc>Continue straight onto 龍天路</desc>
+      
+    </rtept>
+    <rtept lat="24.690769" lon="120.87407">
+      <name>龍天路</name>
+      <desc>Continue straight onto 龍天路</desc>
+      
+    </rtept>
+    <rtept lat="24.690425" lon="120.874419">
+      <name>龍天路</name>
+      <desc>Continue straight onto 龍天路</desc>
+      
+    </rtept>
+    <rtept lat="24.689883" lon="120.875011">
+      <name>龍天路</name>
+      <desc>Continue straight onto 龍天路</desc>
+      
+    </rtept>
+    <rtept lat="24.689712" lon="120.875192">
+      <name>龍天路</name>
+      <desc>Continue straight onto 龍天路</desc>
+      
+    </rtept>
+    <rtept lat="24.689413" lon="120.875534">
+      <name>龍天路</name>
+      <desc>Continue straight onto 龍天路</desc>
+      
+    </rtept>
+    <rtept lat="24.688823" lon="120.87614">
+      <name>龍天路</name>
+      <desc>Continue straight onto 龍天路</desc>
+      
+    </rtept>
+    <rtept lat="24.688672" lon="120.876322">
+      <name>龍天路</name>
+      <desc>Continue straight onto 龍天路</desc>
+      
+    </rtept>
+    <rtept lat="24.688513" lon="120.876489">
+      <name>延平路</name>
+      <desc>Keep right onto 延平路</desc>
+      
+    </rtept>
+    <rtept lat="24.687727" lon="120.877013">
+      <name>自由街</name>
+      <desc>Turn left onto 自由街</desc>
+      
+    </rtept>
+    <rtept lat="24.687687" lon="120.877731">
+      <name>和平街</name>
+      <desc>Turn right onto 和平街</desc>
+      
+    </rtept>
+    <rtept lat="24.686786" lon="120.877706">
+      <name>博愛街</name>
+      <desc>Turn left onto 博愛街</desc>
+      
+    </rtept>
+    <rtept lat="24.686755" lon="120.878448">
+      <name>博愛街</name>
+      <desc>Turn left onto 博愛街</desc>
+      
+    </rtept>
+    <rtept lat="24.686708" lon="120.879204">
+      <name>博愛街</name>
+      <desc>Turn left onto 博愛街</desc>
+      
+    </rtept>
+    <rtept lat="24.686666" lon="120.879945">
+      <name>中山路</name>
+      <desc>Turn right onto 中山路</desc>
+      
+    </rtept>
+    <rtept lat="24.686604" lon="120.87994">
+      <name>中山路</name>
+      <desc>Turn right onto 中山路</desc>
+      
+    </rtept>
+    <rtept lat="24.686381" lon="120.879925">
+      <name/>
+      <desc>Turn left</desc>
+      
+    </rtept>
+    <rtept lat="24.68638" lon="120.880137">
+      <name/>
+      <desc>Turn left</desc>
+      
+    </rtept>
+    <rtept lat="24.686403" lon="120.880171">
+      <name/>
+      <desc>Turn left</desc>
+      
+    </rtept>
+    <rtept lat="24.686588" lon="120.880197">
+      <name/>
+      <desc>Turn right</desc>
+      
+    </rtept>
+    <rtept lat="24.686581" lon="120.880276">
+      <name/>
+      <desc>Turn right</desc>
+      
+    </rtept>
+    <rtept lat="24.686499" lon="120.88027">
+      <name/>
+      <desc>Turn right</desc>
+      
+    </rtept>
+    <rtept lat="24.686485" lon="120.880556">
+      <name/>
+      <desc>Arrive at your destination, on the left</desc>
+      
+    </rtept>
+    
+  </rte>
+  
+</gpx>

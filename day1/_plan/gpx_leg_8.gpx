@@ -1,0 +1,111 @@
+<?xml version="1.0" ?>
+<gpx xmlns="https://raw.githubusercontent.com/GIScience/openrouteservice-schema/main/gpx/v2/ors-gpx.xsd" version="1.1" creator="openrouteservice">
+  <metadata>
+    <name>openrouteservice directions</name>
+    <desc>This is a directions instructions file as GPX, generated from openrouteservice</desc>
+    <author>
+      <name>openrouteservice</name>
+      <email id="support" domain="openrouteservice.heigit.org"/>
+      <link href="https://openrouteservice.org/">
+        <text>https://openrouteservice.org/</text>
+        <type>text/html</type>
+      </link>
+    </author>
+    <copyright author="openrouteservice.org | OpenStreetMap contributors">
+      <year>2026</year>
+      <license>LGPL 3.0</license>
+    </copyright>
+    <time>2026-05-20T07:29:15.519Z</time>
+    <bounds maxlat="24.988224" maxlon="121.018519" minlat="24.987169" minlon="121.014669"/>
+    
+  </metadata>
+  <rte>
+    <rtept lat="24.987796" lon="121.014669">
+      <name/>
+      <desc>Head east</desc>
+      
+    </rtept>
+    <rtept lat="24.987719" lon="121.015009">
+      <name/>
+      <desc>Head east</desc>
+      
+    </rtept>
+    <rtept lat="24.987386" lon="121.016206">
+      <name/>
+      <desc>Head east</desc>
+      
+    </rtept>
+    <rtept lat="24.987245" lon="121.016714">
+      <name/>
+      <desc>Head east</desc>
+      
+    </rtept>
+    <rtept lat="24.987214" lon="121.017262">
+      <name/>
+      <desc>Head east</desc>
+      
+    </rtept>
+    <rtept lat="24.987234" lon="121.017504">
+      <name/>
+      <desc>Head east</desc>
+      
+    </rtept>
+    <rtept lat="24.987169" lon="121.017452">
+      <name>笨鯊橋</name>
+      <desc>Turn sharp left onto 笨鯊橋</desc>
+      
+    </rtept>
+    <rtept lat="24.987208" lon="121.017529">
+      <name>笨鯊橋</name>
+      <desc>Turn sharp left onto 笨鯊橋</desc>
+      
+    </rtept>
+    <rtept lat="24.987254" lon="121.017731">
+      <name>笨鯊橋</name>
+      <desc>Turn sharp left onto 笨鯊橋</desc>
+      
+    </rtept>
+    <rtept lat="24.987365" lon="121.017983">
+      <name>笨鯊橋</name>
+      <desc>Turn sharp left onto 笨鯊橋</desc>
+      
+    </rtept>
+    <rtept lat="24.987436" lon="121.017952">
+      <name>笨鯊橋</name>
+      <desc>Turn sharp left onto 笨鯊橋</desc>
+      
+    </rtept>
+    <rtept lat="24.987533" lon="121.017939">
+      <name>笨鯊橋</name>
+      <desc>Turn sharp left onto 笨鯊橋</desc>
+      
+    </rtept>
+    <rtept lat="24.987638" lon="121.017967">
+      <name>笨鯊橋</name>
+      <desc>Turn sharp left onto 笨鯊橋</desc>
+      
+    </rtept>
+    <rtept lat="24.988187" lon="121.018201">
+      <name>笨鯊橋</name>
+      <desc>Turn sharp left onto 笨鯊橋</desc>
+      
+    </rtept>
+    <rtept lat="24.988224" lon="121.018258">
+      <name>新港路</name>
+      <desc>Turn right onto 新港路</desc>
+      
+    </rtept>
+    <rtept lat="24.988137" lon="121.018371">
+      <name>新港路</name>
+      <desc>Turn right onto 新港路</desc>
+      
+    </rtept>
+    <rtept lat="24.988119" lon="121.018519">
+      <name/>
+      <desc>Arrive at 新港路, on the left</desc>
+      
+    </rtept>
+    
+  </rte>
+  
+</gpx>
