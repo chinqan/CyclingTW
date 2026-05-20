@@ -84,9 +84,7 @@ claude mcp get openroute-mcp
 
 ## 3. Gemini Antigravity 安裝
 
-Antigravity 用 `~/.gemini/antigravity/mcp_config.json` 設定 MCP。專案內附 `update_mcp.py` 可一鍵寫入 `openroute-mcp` 段落，但**已硬編 API key 與絕對路徑**，請依下方範本手動編輯，或修改腳本變數後再執行。
-
-範本（直接編輯 `~/.gemini/antigravity/mcp_config.json`）：
+Antigravity 用 `~/.gemini/antigravity/mcp_config.json` 設定 MCP（或其 symlink 來源 `~/.gemini/config/mcp_config.json`）。直接編輯，加入下方範本：
 
 ```json
 {
@@ -101,7 +99,7 @@ Antigravity 用 `~/.gemini/antigravity/mcp_config.json` 設定 MCP。專案內�
     "openroute-mcp": {
       "command": "uvx",
       "args": [
-        "openroute-mcp",
+        "openroute-mcp==0.0.4",
         "--data-folder",
         "/絕對路徑/CyclingTW/data/generated_routes"
       ],
@@ -113,7 +111,7 @@ Antigravity 用 `~/.gemini/antigravity/mcp_config.json` 設定 MCP。專案內�
 }
 ```
 
-> 💡 `command` 用 `uvx` 即可（PATH 找得到就行）。本機 `update_mcp.py` 使用的 `/opt/anaconda3/bin/openroute-mcp` 是 anaconda 環境的副本，跨機器不保證存在，建議統一改成 `uvx`。
+> 💡 `command` 用 `uvx` 即可（PATH 找得到就行）。`openroute-mcp==0.0.4` 鎖版是為了避免 §6 的本地 patch 被新版覆蓋。
 
 寫入後重啟 Antigravity 視窗讓設定生效。
 
