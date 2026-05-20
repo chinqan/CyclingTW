@@ -1,0 +1,27 @@
+{
+  "day": 10,
+  "origin_label": "金山 / 萬里",
+  "destination_label": "富貴角 → 台北蘆洲柳堤公園",
+  "distance_range": "約 60–85 公里",
+  "subtitle": "極北完騎凱旋歸途",
+  "orientation": "vertical_portrait_2_3",
+  "lighting": "柔和清晨明亮光線、清新藍天白雲",
+  "allowed_elements": "",
+  "enhancement": "",
+  "main_visual": {
+    "place_id": "ChIJkf3MYFilQjQRxSE-z1AbDKQ",
+    "location_desc": "新北市淡水「淡水老街」",
+    "scene_elements": "",
+    "action": "",
+    "expression": ""
+  },
+  "small_avatar": {
+    "place_id": "ChIJiXwhwldLXTQRZfw6fpm4Q9Q",
+    "location_desc": "新北市金山「金山老街」",
+    "scenario": "",
+    "action": "",
+    "expression": ""
+  },
+  "composition": "主角在畫面中央偏上、金山老街在右上方小分身、蘆洲柳堤公園在畫面下方遠景、沿途點綴石門洞、富貴角燈塔（極北點）",
+  "geographic_notes": "金山老街在畫面上方（北側）、蘆洲柳堤公園在畫面下方（南側）"
+}

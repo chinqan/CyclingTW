@@ -1,0 +1,27 @@
+{
+  "day": 7,
+  "origin_label": "太麻里",
+  "destination_label": "玉里 / 安通",
+  "distance_range": "約 95–105 公里",
+  "subtitle": "花東縱谷田園騎行",
+  "orientation": "vertical_portrait_2_3",
+  "lighting": "柔和清晨明亮光線、清新藍天白雲",
+  "allowed_elements": "",
+  "enhancement": "",
+  "main_visual": {
+    "place_id": "ChIJZatyKu4JbzQRyHuSojQ6qQ0",
+    "location_desc": "台東縣池上「伯朗大道」",
+    "scene_elements": "",
+    "action": "",
+    "expression": ""
+  },
+  "small_avatar": {
+    "place_id": "ChIJ-fgsCr7ObzQRGrAOOXKCO4k",
+    "location_desc": "台東縣太麻里「太麻里車站」",
+    "scenario": "",
+    "action": "",
+    "expression": ""
+  },
+  "composition": "主角在畫面中央偏上、太麻里車站在右下方小分身、玉里車站在畫面上方遠景、沿途點綴關山環鎮自行車道",
+  "geographic_notes": "太麻里車站在畫面下方（南側）、玉里車站在畫面上方（北側）"
+}

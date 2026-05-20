@@ -1,0 +1,145 @@
+{
+  "day": 5,
+  "search_radius_km": 3,
+  "pool_size": 8,
+  "bayesian_C": 2425.8,
+  "bayesian_m": 4.6151,
+  "note": "C=平均留言數(先驗樣本數), m=加權平均評分(先驗期望值)",
+  "top5_place_ids": [
+    "ChIJFbQ4knSxcTQREYzR12aFUaE",
+    "ChIJKaUzeDiwcTQRa2hw5EADw2s",
+    "ChIJfaURJ5mxcTQRpvGj_lxHBmw",
+    "ChIJHdJeRgCxcTQRgC997nMSIiU",
+    "ChIJS-8yioWxcTQRY-vhorkDyeY"
+  ],
+  "restaurants": [
+    {
+      "place_id": "ChIJFbQ4knSxcTQREYzR12aFUaE",
+      "name_zh": "沙丁嶼餐酒館",
+      "rating": 5.0,
+      "total_ratings": 473,
+      "location": {
+        "lat": 21.943183,
+        "lng": 120.799644
+      },
+      "address": "",
+      "note": "墾丁精緻餐酒館",
+      "bayesian_score": 4.6779,
+      "confidence": "❌ 低",
+      "rank": 1,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJKaUzeDiwcTQRa2hw5EADw2s",
+      "name_zh": "後壁湖上安活海鮮",
+      "rating": 4.7,
+      "total_ratings": 3996,
+      "location": {
+        "lat": 21.951235,
+        "lng": 120.74102
+      },
+      "address": "",
+      "note": "後壁湖生魚片",
+      "bayesian_score": 4.6679,
+      "confidence": "✅ 高",
+      "rank": 2,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJfaURJ5mxcTQRpvGj_lxHBmw",
+      "name_zh": "一支林海鮮",
+      "rating": 4.7,
+      "total_ratings": 2205,
+      "location": {
+        "lat": 21.953276,
+        "lng": 120.74049
+      },
+      "address": "",
+      "note": "後壁湖海鮮",
+      "bayesian_score": 4.6555,
+      "confidence": "⚠️ 中",
+      "rank": 3,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJHdJeRgCxcTQRgC997nMSIiU",
+      "name_zh": "天麟食苑臺灣菜",
+      "rating": 4.7,
+      "total_ratings": 314,
+      "location": {
+        "lat": 21.945865,
+        "lng": 120.79659
+      },
+      "address": "",
+      "note": "墾丁台菜",
+      "bayesian_score": 4.6248,
+      "confidence": "❌ 低",
+      "rank": 4,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJS-8yioWxcTQRY-vhorkDyeY",
+      "name_zh": "巷子內海鮮熱炒",
+      "rating": 4.6,
+      "total_ratings": 3436,
+      "location": {
+        "lat": 21.945539,
+        "lng": 120.796356
+      },
+      "address": "",
+      "note": "墾丁大街旁海鮮",
+      "bayesian_score": 4.6062,
+      "confidence": "✅ 高",
+      "rank": 5,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJSYdj7j-wcTQRKw4GQCx6oTw",
+      "name_zh": "恆春陳海鮮餐廳-墾丁店",
+      "rating": 4.6,
+      "total_ratings": 3503,
+      "location": {
+        "lat": 21.943632,
+        "lng": 120.801609
+      },
+      "address": "",
+      "note": "墾丁大街海鮮台菜",
+      "bayesian_score": 4.6062,
+      "confidence": "✅ 高",
+      "rank": 6,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJRVQuRAiwcTQR9wZgqL2h6vE",
+      "name_zh": "森食堂",
+      "rating": 4.5,
+      "total_ratings": 1003,
+      "location": {
+        "lat": 21.933945,
+        "lng": 120.722869
+      },
+      "address": "",
+      "note": "新台菜海鮮料理",
+      "bayesian_score": 4.5814,
+      "confidence": "❌ 低",
+      "rank": 7,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJodDmTkOwcTQRt4uI9e8SbbQ",
+      "name_zh": "討海人海產",
+      "rating": 4.5,
+      "total_ratings": 4476,
+      "location": {
+        "lat": 21.952479,
+        "lng": 120.740739
+      },
+      "address": "",
+      "note": "後壁湖在地海產",
+      "bayesian_score": 4.5405,
+      "confidence": "✅ 高",
+      "rank": 8,
+      "selected": false
+    }
+  ]
+}

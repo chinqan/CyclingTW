@@ -1,0 +1,123 @@
+{
+  "day": 8,
+  "places": [
+    {
+      "place_id": "ChIJ677P5HxqbzQR590ArDS8N5E",
+      "name_zh": "玉里車站",
+      "csv_type": "起終點",
+      "rating": 4.1,
+      "total_ratings": 682,
+      "location": {
+        "lat": 23.33152,
+        "lng": 121.31172
+      },
+      "source": "search_2026-07",
+      "note": "Day8起點"
+    },
+    {
+      "place_id": "ChIJQYuk32JqbzQRz-T-3Ow4Dfg",
+      "name_zh": "玉富自行車道",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 313,
+      "location": {
+        "lat": 23.328728,
+        "lng": 121.311166
+      },
+      "source": "search_2026-07",
+      "note": "全球唯一跨兩大板塊自行車道"
+    },
+    {
+      "place_id": "ChIJgVBR5NZFbzQRlahAiS__Yf4",
+      "name_zh": "舞鶴北回歸線標誌公園",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 8796,
+      "location": {
+        "lat": 23.465731,
+        "lng": 121.357403
+      },
+      "source": "search_2026-07",
+      "note": "北回歸線地標 台9線旁"
+    },
+    {
+      "place_id": "ChIJpcSL78qyaDQRpJX500RPFLo",
+      "name_zh": "花蓮觀光糖廠",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 22878,
+      "location": {
+        "lat": 23.658691,
+        "lng": 121.420607
+      },
+      "source": "search_2026-07",
+      "note": "日治糖廠 冰淇淋名店"
+    },
+    {
+      "place_id": "ChIJ9SCI5oedaDQRijf91YB4Ag0",
+      "name_zh": "七星潭",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 1512,
+      "location": {
+        "lat": 24.04305,
+        "lng": 121.622493
+      },
+      "source": "search_2026-07",
+      "note": "礫石海灘 花蓮代表景點"
+    },
+    {
+      "place_id": "ChIJK6-HgbafaDQR99QetgTFgwU",
+      "name_zh": "花蓮車站",
+      "csv_type": "起終點",
+      "rating": 4.2,
+      "total_ratings": 3149,
+      "location": {
+        "lat": 23.993313,
+        "lng": 121.601245
+      },
+      "source": "search_2026-07",
+      "note": "Day8終點 搭火車接駁蘇澳新站"
+    },
+    {
+      "place_id": "ChIJ0zEUDGBPbzQRzzTHteV-MVw",
+      "name_zh": "7-ELEVEN 瑞繐門市",
+      "csv_type": "便利商店",
+      "rating": 3.3,
+      "total_ratings": 67,
+      "location": {
+        "lat": 23.497325,
+        "lng": 121.377364
+      },
+      "source": "search_2026-07",
+      "note": "瑞穗鄉補給"
+    },
+    {
+      "place_id": "ChIJ5XUQ6beyaDQRCAve1FPgKVQ",
+      "name_zh": "7-ELEVEN 馬太鞍門市",
+      "csv_type": "便利商店",
+      "rating": 4.1,
+      "total_ratings": 110,
+      "location": {
+        "lat": 23.656871,
+        "lng": 121.418932
+      },
+      "source": "search_2026-07",
+      "note": "光復鄉糖廠旁補給"
+    },
+    {
+      "place_id": "ChIJa4-J7UGkaDQRMid2wPp_tN4",
+      "name_zh": "7-ELEVEN 新壽豐門市",
+      "csv_type": "便利商店",
+      "rating": 4.0,
+      "total_ratings": 149,
+      "location": {
+        "lat": 23.869664,
+        "lng": 121.509108
+      },
+      "source": "search_2026-07",
+      "note": "壽豐鄉補給"
+    }
+  ],
+  "candidates_not_selected": []
+}

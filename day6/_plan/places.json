@@ -1,0 +1,124 @@
+{
+  "day": 6,
+  "route_name": "極南壽卡翻山越嶺行",
+  "total_ascent_desc": "壽卡段為環島最大爬升挑戰（縣道200→199 爬升約 460m），過壽卡後台9線一路下滑至太平洋岸，總爬升約 600m",
+  "main_route_desc": "鵝鑾鼻燈塔 ➔ 台26線東行 ➔ 風吹砂 ➔ 佳樂水 ➔ 縣道200 ➔ 滿州 ➔ 縣道199 ➔ 壽卡鐵馬驛站 ➔ 台9線南下 ➔ 大武 ➔ 多良車站 ➔ 金崙 ➔ 太麻里車站",
+  "places": [
+    {
+      "place_id": "ChIJZV-_DhWxcTQREKTCizrSV1c",
+      "name_zh": "鵝鑾鼻燈塔",
+      "search_keyword": "鵝鑾鼻燈塔 屏東縣恆春鎮鵝鑾里燈塔路90號",
+      "csv_type": "起終點",
+      "note": "06:00出發 極南點 Day5終點續行 km0",
+      "rating": 4.4,
+      "total_ratings": 14681,
+      "location": {
+        "lat": 21.902234,
+        "lng": 120.85263
+      },
+      "bayesian_score": 4.4
+    },
+    {
+      "place_id": "ChIJZV-_DhWxcTQRtFhYQBBwaUY",
+      "name_zh": "風吹砂",
+      "search_keyword": "風吹砂 屏東縣恆春鎮台26線",
+      "csv_type": "景點",
+      "note": "約06:40抵達 台26線風蝕砂岩奇景觀景台 拍照10分鐘 km8",
+      "rating": 4.5,
+      "total_ratings": 3387,
+      "location": {
+        "lat": 21.947285,
+        "lng": 120.838889
+      },
+      "bayesian_score": 4.45
+    },
+    {
+      "place_id": "ChIJt1Cxtlq0cTQRLRZkSRWXmGw",
+      "name_zh": "7-ELEVEN 滿州門市",
+      "search_keyword": "7-ELEVEN 滿州門市 屏東縣滿州鄉中山路56號",
+      "csv_type": "便利商店",
+      "note": "滿州鄉補給 壽卡前最後便利商店 km約20",
+      "rating": 4.5,
+      "total_ratings": 198,
+      "location": {
+        "lat": 22.020741,
+        "lng": 120.83892
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJa3vcH7jNcTQRS9u3AiEsmOE",
+      "name_zh": "壽卡鐵馬驛站",
+      "search_keyword": "壽卡鐵馬驛站 屏東縣獅子鄉",
+      "csv_type": "景點",
+      "note": "約10:30抵達 壽卡隘口最高點 環島必經打卡 有廁所飲水機 km約45",
+      "rating": 4.6,
+      "total_ratings": 194,
+      "location": {
+        "lat": 22.245233,
+        "lng": 120.835746
+      },
+      "bayesian_score": 4.41
+    },
+    {
+      "place_id": "ChIJ3wSI9tcqcDQRYS3MtTYYnIE",
+      "name_zh": "7-ELEVEN 大武門市",
+      "search_keyword": "7-ELEVEN 大武門市 台東縣大武鄉復興路124號",
+      "csv_type": "便利商店",
+      "note": "大武市區補給 下滑後第一補給點 km約65",
+      "rating": 4.3,
+      "total_ratings": 174,
+      "location": {
+        "lat": 22.361949,
+        "lng": 120.907228
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJqza3KrrTbzQRv2vJUxBEm24",
+      "name_zh": "多良車站",
+      "search_keyword": "多良車站 台東縣太麻里鄉瀧溪路8-1號",
+      "csv_type": "景點",
+      "note": "約13:00抵達 全台最美車站 海景月台+天使翅膀 入園NT$10 km約80",
+      "rating": 4.1,
+      "total_ratings": 33900,
+      "location": {
+        "lat": 22.50752,
+        "lng": 120.958849
+      },
+      "bayesian_score": 4.13
+    },
+    {
+      "place_id": "ChIJdwbx7kfSbzQRqcNwoOtHX-Y",
+      "name_zh": "7-ELEVEN 金倫門市",
+      "search_keyword": "7-ELEVEN 金倫門市 台東縣太麻里鄉金崙路262號",
+      "csv_type": "便利商店",
+      "note": "金崙溫泉區補給 km約85",
+      "rating": 4.6,
+      "total_ratings": 466,
+      "location": {
+        "lat": 22.531414,
+        "lng": 120.963731
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJ-fgsCr7ObzQRGrAOOXKCO4k",
+      "name_zh": "太麻里車站",
+      "search_keyword": "太麻里車站 台東縣太麻里鄉站前路2號",
+      "csv_type": "起終點",
+      "note": "約15:30抵達 當日終點 日出大道起點 km約105",
+      "rating": 4.4,
+      "total_ratings": 964,
+      "location": {
+        "lat": 22.618796,
+        "lng": 121.005015
+      },
+      "bayesian_score": 4.4
+    }
+  ],
+  "bayesian_C": 4.4,
+  "bayesian_m": 3387,
+  "ors_distance_km": 129.5,
+  "ors_duration_hours": 7.3
+}

@@ -1,0 +1,43 @@
+{
+  "day": 9,
+  "bayesian_C": 4.28,
+  "bayesian_m": 6863,
+  "pool_size": 5,
+  "scores": {
+    "ChIJ6ZUIBmzoZzQRgjp01nDg5f0": {
+      "name_zh": "蘇澳新站",
+      "csv_type": "起終點",
+      "rating": 4.0,
+      "total_ratings": 219,
+      "bayesian_score": 4.27
+    },
+    "ChIJmUjPHA1dXTQRB-tXTydBtUo": {
+      "name_zh": "舊草嶺隧道",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 5719,
+      "bayesian_score": 4.43
+    },
+    "ChIJmWtqgIJnXTQRGWfG25olU-8": {
+      "name_zh": "三貂角燈塔",
+      "csv_type": "景點",
+      "rating": 4.5,
+      "total_ratings": 15810,
+      "bayesian_score": 4.43
+    },
+    "ChIJ2yDeSFRcXTQRvLiUFBGjTeE": {
+      "name_zh": "福隆海水浴場",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 6863,
+      "bayesian_score": 4.24
+    },
+    "ChIJiXwhwldLXTQRZfw6fpm4Q9Q": {
+      "name_zh": "金山老街",
+      "csv_type": "起終點",
+      "rating": 4.1,
+      "total_ratings": 49386,
+      "bayesian_score": 4.12
+    }
+  }
+}

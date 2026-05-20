@@ -1,0 +1,43 @@
+{
+  "day": 6,
+  "bayesian_C": 4.4,
+  "bayesian_m": 3387,
+  "pool_size": 5,
+  "scores": {
+    "ChIJZV-_DhWxcTQREKTCizrSV1c": {
+      "name_zh": "鵝鑾鼻燈塔",
+      "csv_type": "起終點",
+      "rating": 4.4,
+      "total_ratings": 14681,
+      "bayesian_score": 4.4
+    },
+    "ChIJZV-_DhWxcTQRtFhYQBBwaUY": {
+      "name_zh": "風吹砂",
+      "csv_type": "景點",
+      "rating": 4.5,
+      "total_ratings": 3387,
+      "bayesian_score": 4.45
+    },
+    "ChIJa3vcH7jNcTQRS9u3AiEsmOE": {
+      "name_zh": "壽卡鐵馬驛站",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 194,
+      "bayesian_score": 4.41
+    },
+    "ChIJqza3KrrTbzQRv2vJUxBEm24": {
+      "name_zh": "多良車站",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 33900,
+      "bayesian_score": 4.13
+    },
+    "ChIJ-fgsCr7ObzQRGrAOOXKCO4k": {
+      "name_zh": "太麻里車站",
+      "csv_type": "起終點",
+      "rating": 4.4,
+      "total_ratings": 964,
+      "bayesian_score": 4.4
+    }
+  }
+}

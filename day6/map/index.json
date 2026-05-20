@@ -1,0 +1,110 @@
+{
+  "day": 6,
+  "places": [
+    {
+      "place_id": "ChIJZV-_DhWxcTQREKTCizrSV1c",
+      "name_zh": "鵝鑾鼻燈塔",
+      "csv_type": "起終點",
+      "rating": 4.4,
+      "total_ratings": 14681,
+      "location": {
+        "lat": 21.902234,
+        "lng": 120.85263
+      },
+      "source": "search_2026-07",
+      "note": "極南點 Day6起點"
+    },
+    {
+      "place_id": "ChIJZV-_DhWxcTQRtFhYQBBwaUY",
+      "name_zh": "風吹砂",
+      "csv_type": "景點",
+      "rating": 4.5,
+      "total_ratings": 3387,
+      "location": {
+        "lat": 21.947285,
+        "lng": 120.838889
+      },
+      "source": "search_2026-07",
+      "note": "台26線風蝕砂岩奇景"
+    },
+    {
+      "place_id": "ChIJt1Cxtlq0cTQRLRZkSRWXmGw",
+      "name_zh": "7-ELEVEN 滿州門市",
+      "csv_type": "便利商店",
+      "rating": 4.5,
+      "total_ratings": 198,
+      "location": {
+        "lat": 22.020741,
+        "lng": 120.83892
+      },
+      "source": "search_2026-07",
+      "note": "滿州鄉補給"
+    },
+    {
+      "place_id": "ChIJa3vcH7jNcTQRS9u3AiEsmOE",
+      "name_zh": "壽卡鐵馬驛站",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 194,
+      "location": {
+        "lat": 22.245233,
+        "lng": 120.835746
+      },
+      "source": "search_2026-07",
+      "note": "壽卡隘口休息站 環島必經"
+    },
+    {
+      "place_id": "ChIJqza3KrrTbzQRv2vJUxBEm24",
+      "name_zh": "多良車站",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 33900,
+      "location": {
+        "lat": 22.50752,
+        "lng": 120.958849
+      },
+      "source": "search_2026-07",
+      "note": "全台最美車站 海景月台"
+    },
+    {
+      "place_id": "ChIJ-fgsCr7ObzQRGrAOOXKCO4k",
+      "name_zh": "太麻里車站",
+      "csv_type": "起終點",
+      "rating": 4.4,
+      "total_ratings": 964,
+      "location": {
+        "lat": 22.618796,
+        "lng": 121.005015
+      },
+      "source": "search_2026-07",
+      "note": "Day6終點 可看日出大道"
+    },
+    {
+      "place_id": "ChIJ3wSI9tcqcDQRYS3MtTYYnIE",
+      "name_zh": "7-ELEVEN 大武門市",
+      "csv_type": "便利商店",
+      "rating": 4.3,
+      "total_ratings": 174,
+      "location": {
+        "lat": 22.361949,
+        "lng": 120.907228
+      },
+      "source": "search_2026-07",
+      "note": "大武市區補給"
+    },
+    {
+      "place_id": "ChIJdwbx7kfSbzQRqcNwoOtHX-Y",
+      "name_zh": "7-ELEVEN 金倫門市",
+      "csv_type": "便利商店",
+      "rating": 4.6,
+      "total_ratings": 466,
+      "location": {
+        "lat": 22.531414,
+        "lng": 120.963731
+      },
+      "source": "search_2026-07",
+      "note": "金崙溫泉區補給"
+    }
+  ],
+  "candidates_not_selected": []
+}

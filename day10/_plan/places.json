@@ -1,0 +1,96 @@
+{
+  "day": 10,
+  "route_name": "極北完騎凱旋歸途",
+  "total_ascent_desc": "台2線北海岸至淡水平緩，淡水→八里→蘆洲為河岸自行車道全平路，總爬升約 150m",
+  "main_route_desc": "金山老街 ➔ 台2線西行 ➔ 石門洞 ➔ 富貴角燈塔（極北）➔ 三芝 ➔ 淡水老街 ➔ 八里左岸自行車道 ➔ 蘆洲柳堤公園",
+  "places": [
+    {
+      "place_id": "ChIJiXwhwldLXTQRZfw6fpm4Q9Q",
+      "name_zh": "金山老街",
+      "search_keyword": "金山老街 新北市金山區金包里街71號",
+      "csv_type": "起終點",
+      "note": "08:00出發 Day9終點續行 km0",
+      "rating": 4.1,
+      "total_ratings": 49386,
+      "location": {
+        "lat": 25.221783,
+        "lng": 121.638324
+      },
+      "bayesian_score": 4.15
+    },
+    {
+      "place_id": "ChIJC_1Xj7y1QjQR_YL4J62VPKc",
+      "name_zh": "石門洞",
+      "search_keyword": "石門洞 新北市石門區中央路",
+      "csv_type": "景點",
+      "note": "約09:00抵達 天然海蝕拱門 台2線旁 km約10",
+      "rating": 4.3,
+      "total_ratings": 12216,
+      "location": {
+        "lat": 25.295896,
+        "lng": 121.56831
+      },
+      "bayesian_score": 4.33
+    },
+    {
+      "place_id": "ChIJJRxKZrq1QjQRhWE7Pp0MhN8",
+      "name_zh": "7-ELEVEN 石門門市",
+      "search_keyword": "7-ELEVEN 石門門市 新北市石門區中山路78號",
+      "csv_type": "便利商店",
+      "note": "石門區補給 km約10",
+      "rating": 3.9,
+      "total_ratings": 48,
+      "location": {
+        "lat": 25.291875,
+        "lng": 121.567876
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJpeyY_He2QjQR9F83t6p8kAw",
+      "name_zh": "富貴角燈塔（極北點）",
+      "search_keyword": "富貴角燈塔 新北市石門區富基村1號",
+      "csv_type": "景點",
+      "note": "約09:30抵達 極北點 黑白條紋燈塔 四極點最後一座 km約13",
+      "rating": 4.7,
+      "total_ratings": 843,
+      "location": {
+        "lat": 25.299612,
+        "lng": 121.536964
+      },
+      "bayesian_score": 4.38
+    },
+    {
+      "place_id": "ChIJkf3MYFilQjQRxSE-z1AbDKQ",
+      "name_zh": "淡水老街",
+      "search_keyword": "淡水老街 新北市淡水區中正路1號",
+      "csv_type": "景點",
+      "note": "約12:00抵達 河岸觀光老街 環島慶功午餐 km約40",
+      "rating": 4.4,
+      "total_ratings": 33316,
+      "location": {
+        "lat": 25.168927,
+        "lng": 121.444092
+      },
+      "bayesian_score": 4.39
+    },
+    {
+      "place_id": "ChIJ7Ws-1bOoQjQRehrUbGzlo1A",
+      "name_zh": "蘆洲柳堤公園",
+      "search_keyword": "柳堤公園 新北市蘆洲區光榮路",
+      "csv_type": "起終點",
+      "note": "約14:00抵達 環島完騎！Day1起點 四極點達成 km約65",
+      "rating": 4.3,
+      "total_ratings": 1407,
+      "location": {
+        "lat": 25.088225,
+        "lng": 121.462633
+      },
+      "bayesian_score": 4.35
+    }
+  ],
+  "bayesian_C": 4.36,
+  "bayesian_m": 12216,
+  "ors_distance_km": 51.4,
+  "ors_duration_hours": 3.1
+}

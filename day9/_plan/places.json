@@ -1,0 +1,124 @@
+{
+  "day": 9,
+  "route_name": "東北角濱海極東追風行",
+  "total_ascent_desc": "台2線北部濱海公路沿海岸起伏，多小丘與隧道，基隆至金山段有較長爬坡，總爬升約 500m",
+  "main_route_desc": "蘇澳新站 ➔ 台2線北上 ➔ 頭城 ➔ 大里 ➔ 舊草嶺隧道 ➔ 福隆 ➔ 三貂角燈塔 ➔ 瑞芳 ➔ 基隆 ➔ 萬里 ➔ 金山",
+  "places": [
+    {
+      "place_id": "ChIJ6ZUIBmzoZzQRgjp01nDg5f0",
+      "name_zh": "蘇澳新站",
+      "search_keyword": "蘇澳新站 宜蘭縣蘇澳鎮",
+      "csv_type": "起終點",
+      "note": "06:30出發 前晚火車接駁抵達 km0",
+      "rating": 4.0,
+      "total_ratings": 219,
+      "location": {
+        "lat": 24.60893,
+        "lng": 121.827683
+      },
+      "bayesian_score": 4.27
+    },
+    {
+      "place_id": "ChIJOQ7aGUP3ZzQRCMiWewrFofk",
+      "name_zh": "7-ELEVEN 頭城門市",
+      "search_keyword": "7-ELEVEN 頭城門市 宜蘭縣頭城鎮青雲路三段96號",
+      "csv_type": "便利商店",
+      "note": "頭城鎮補給 km約30",
+      "rating": 4.2,
+      "total_ratings": 72,
+      "location": {
+        "lat": 24.855886,
+        "lng": 121.824191
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJmUjPHA1dXTQRB-tXTydBtUo",
+      "name_zh": "舊草嶺隧道",
+      "search_keyword": "舊草嶺隧道 新北市貢寮區福隆里",
+      "csv_type": "景點",
+      "note": "約09:30抵達 舊鐵道自行車隧道2167m 穿越縣界 km約50",
+      "rating": 4.6,
+      "total_ratings": 5719,
+      "location": {
+        "lat": 25.003945,
+        "lng": 121.958346
+      },
+      "bayesian_score": 4.43
+    },
+    {
+      "place_id": "ChIJ2yDeSFRcXTQRvLiUFBGjTeE",
+      "name_zh": "福隆海水浴場",
+      "search_keyword": "福隆海水浴場 新北市貢寮區福隆街",
+      "csv_type": "景點",
+      "note": "約10:00抵達 東北角代表沙灘 福隆便當 km約53",
+      "rating": 4.2,
+      "total_ratings": 6863,
+      "location": {
+        "lat": 25.021998,
+        "lng": 121.943158
+      },
+      "bayesian_score": 4.24
+    },
+    {
+      "place_id": "ChIJmWtqgIJnXTQRGWfG25olU-8",
+      "name_zh": "三貂角燈塔",
+      "search_keyword": "三貂角燈塔 新北市貢寮區福連里馬崗街38號",
+      "csv_type": "景點",
+      "note": "約10:30抵達 極東點 1935年白色燈塔 需爬坡約1km km約57",
+      "rating": 4.5,
+      "total_ratings": 15810,
+      "location": {
+        "lat": 25.007552,
+        "lng": 122.001892
+      },
+      "bayesian_score": 4.43
+    },
+    {
+      "place_id": "ChIJYUkTb0pDXTQR-KpHOjhlaEI",
+      "name_zh": "7-ELEVEN 鼻頭角門市",
+      "search_keyword": "7-ELEVEN 鼻頭角門市 新北市瑞芳區鼻頭路227之4號",
+      "csv_type": "便利商店",
+      "note": "東北角濱海補給 鼻頭角步道旁 km約75",
+      "rating": 4.0,
+      "total_ratings": 77,
+      "location": {
+        "lat": 25.123943,
+        "lng": 121.914135
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJm9qL_9ZNXTQRjWAuKN_TN74",
+      "name_zh": "7-ELEVEN 金美門市",
+      "search_keyword": "7-ELEVEN 金美門市 新北市金山區中山路143號",
+      "csv_type": "便利商店",
+      "note": "金山市區補給 km約115",
+      "rating": 3.9,
+      "total_ratings": 85,
+      "location": {
+        "lat": 25.220168,
+        "lng": 121.638974
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJiXwhwldLXTQRZfw6fpm4Q9Q",
+      "name_zh": "金山老街",
+      "search_keyword": "金山老街 新北市金山區金包里街71號",
+      "csv_type": "起終點",
+      "note": "約16:30抵達 當日終點 金包里老街+鴨肉 km約115",
+      "rating": 4.1,
+      "total_ratings": 49386,
+      "location": {
+        "lat": 25.221783,
+        "lng": 121.638324
+      },
+      "bayesian_score": 4.12
+    }
+  ],
+  "bayesian_C": 4.28,
+  "bayesian_m": 6863,
+  "ors_distance_km": 134.0,
+  "ors_duration_hours": 7.6
+}

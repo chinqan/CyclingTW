@@ -1,0 +1,13 @@
+{
+  "place_id": "ChIJp-xjwz3ccTQRN_tucmfrEdM",
+  "name_zh": "枋寮車站",
+  "csv_type": "起終點",
+  "rating": 4.3,
+  "total_ratings": 851,
+  "location": {
+    "lat": 22.368018,
+    "lng": 120.595097
+  },
+  "source": "search_2026-05-21",
+  "note": "Day5起點 Day4終點續行"
+}

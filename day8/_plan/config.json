@@ -1,0 +1,16 @@
+{
+  "day": 8,
+  "origin": "玉里 / 安通",
+  "destination": "花蓮 → 蘇澳新站 (火車接駁)",
+  "distance_km_range": [
+    90,
+    105
+  ],
+  "main_route_text": "台9線 / 縣道193 (避開車潮)",
+  "must_visit_landmarks": [
+    "玉富自行車道",
+    "舞鶴北回歸線",
+    "花蓮糖廠",
+    "七星潭"
+  ]
+}

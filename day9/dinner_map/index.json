@@ -1,0 +1,145 @@
+{
+  "day": 9,
+  "candidates": [
+    {
+      "place_id": "ChIJyfyYcAxLXTQRulaJxwTOWa0",
+      "name_zh": "Whatisthis Kitchen",
+      "rating": 4.6,
+      "total_ratings": 1442,
+      "location": {
+        "lat": 25.219585,
+        "lng": 121.633234
+      },
+      "address": "新北市金山區環金路286號",
+      "note": "西式餐廳 金山市區",
+      "source": "search_2026-07",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJwxfugTZLXTQRXpdg2TdpSDg",
+      "name_zh": "君浩美食坊",
+      "rating": 4.8,
+      "total_ratings": 1355,
+      "location": {
+        "lat": 25.245962,
+        "lng": 121.633992
+      },
+      "address": "新北市金山區萬壽村1之1號",
+      "note": "海鮮快炒 北海岸",
+      "source": "search_2026-07",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ34PFPvNNXTQRppe_tMp8zaE",
+      "name_zh": "拾物香",
+      "rating": 4.8,
+      "total_ratings": 347,
+      "location": {
+        "lat": 25.218844,
+        "lng": 121.638855
+      },
+      "address": "新北市金山區忠孝一路15巷2號",
+      "note": "創意料理 老街旁",
+      "source": "search_2026-07",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJk3aH8lFLXTQR9HjheZz4HhE",
+      "name_zh": "阿嬤家",
+      "rating": 4.4,
+      "total_ratings": 1512,
+      "location": {
+        "lat": 25.227234,
+        "lng": 121.645575
+      },
+      "address": "新北市金山區磺港路189號",
+      "note": "台式家常菜 大份量",
+      "source": "search_2026-07",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJq_m8nuG1QjQRXua-5GwwI-8",
+      "name_zh": "庚辛廚房",
+      "rating": 4.6,
+      "total_ratings": 467,
+      "location": {
+        "lat": 25.264411,
+        "lng": 121.629755
+      },
+      "address": "新北市金山區分水路1-5號",
+      "note": "手作料理 中角",
+      "source": "search_2026-07",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJHX911HVLXTQRQYlbhgbphbg",
+      "name_zh": "享魚路",
+      "rating": 4.8,
+      "total_ratings": 398,
+      "location": {
+        "lat": 25.227149,
+        "lng": 121.645909
+      },
+      "address": "新北市金山區磺港路183號",
+      "note": "漁港海鮮 金山",
+      "source": "search_2026-07",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJZTKFOE9NXTQRqzJxbBSbMns",
+      "name_zh": "金食在港口小吃",
+      "rating": 4.4,
+      "total_ratings": 305,
+      "location": {
+        "lat": 25.221393,
+        "lng": 121.630958
+      },
+      "address": "新北市金山區中正路168號",
+      "note": "港口海鮮小吃",
+      "source": "search_2026-07",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJdfpSXKBLXTQRwG5z-3rLac0",
+      "name_zh": "裕富先生海鮮餐廳",
+      "rating": 4.3,
+      "total_ratings": 232,
+      "location": {
+        "lat": 25.22782,
+        "lng": 121.644503
+      },
+      "address": "新北市金山區磺港路314號",
+      "note": "海鮮合菜",
+      "source": "search_2026-07",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJCzD5nNBLXTQRx3gr5ljkkN8",
+      "name_zh": "海荔食堂",
+      "rating": 4.7,
+      "total_ratings": 107,
+      "location": {
+        "lat": 25.221914,
+        "lng": 121.639285
+      },
+      "address": "新北市金山區福德街8號",
+      "note": "創意餐食 老街旁",
+      "source": "search_2026-07",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJfUH2dP1LXTQRyA8tCSqLV_0",
+      "name_zh": "煦新館",
+      "rating": 4.9,
+      "total_ratings": 59,
+      "location": {
+        "lat": 25.222146,
+        "lng": 121.645979
+      },
+      "address": "新北市金山區民生路196號",
+      "note": "日式定食",
+      "source": "search_2026-07",
+      "selected": true
+    }
+  ]
+}

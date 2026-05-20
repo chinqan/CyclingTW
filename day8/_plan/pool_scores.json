@@ -1,0 +1,50 @@
+{
+  "day": 8,
+  "bayesian_C": 4.2667,
+  "bayesian_m": 2330,
+  "pool_size": 6,
+  "scores": {
+    "ChIJ677P5HxqbzQR590ArDS8N5E": {
+      "name_zh": "玉里車站",
+      "csv_type": "起終點",
+      "rating": 4.1,
+      "total_ratings": 682,
+      "bayesian_score": 4.23
+    },
+    "ChIJQYuk32JqbzQRz-T-3Ow4Dfg": {
+      "name_zh": "玉富自行車道",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 313,
+      "bayesian_score": 4.28
+    },
+    "ChIJgVBR5NZFbzQRlahAiS__Yf4": {
+      "name_zh": "舞鶴北回歸線標誌公園",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 8796,
+      "bayesian_score": 4.21
+    },
+    "ChIJpcSL78qyaDQRpJX500RPFLo": {
+      "name_zh": "花蓮觀光糖廠",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 22878,
+      "bayesian_score": 4.12
+    },
+    "ChIJ9SCI5oedaDQRijf91YB4Ag0": {
+      "name_zh": "七星潭",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 1512,
+      "bayesian_score": 4.4
+    },
+    "ChIJK6-HgbafaDQR99QetgTFgwU": {
+      "name_zh": "花蓮車站",
+      "csv_type": "起終點",
+      "rating": 4.2,
+      "total_ratings": 3149,
+      "bayesian_score": 4.23
+    }
+  }
+}

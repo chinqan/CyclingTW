@@ -1,0 +1,64 @@
+{
+  "day": 5,
+  "bayesian_C": 4.275,
+  "bayesian_m": 5421,
+  "pool_size": 8,
+  "scores": {
+    "ChIJp-xjwz3ccTQRN_tucmfrEdM": {
+      "name_zh": "枋寮車站",
+      "csv_type": "起終點",
+      "rating": 4.3,
+      "total_ratings": 851,
+      "bayesian_score": 4.28
+    },
+    "ChIJdU4y8ie4cTQRe0BNxOo2HKc": {
+      "name_zh": "車城福安宮",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 24667,
+      "bayesian_score": 4.54
+    },
+    "ChIJZV-_DhWxcTQRP3tVA_i2SMI": {
+      "name_zh": "恆春南門",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 2501,
+      "bayesian_score": 4.28
+    },
+    "ChIJ0TvLis6wcTQR5Cw7itPdrRY": {
+      "name_zh": "恆春老街",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 4601,
+      "bayesian_score": 4.24
+    },
+    "ChIJG7fKhoWxcTQR6CrWL3xdESQ": {
+      "name_zh": "墾丁大街",
+      "csv_type": "景點",
+      "rating": 3.8,
+      "total_ratings": 21618,
+      "bayesian_score": 3.9
+    },
+    "ChIJZV-_DhWxcTQREKTCizrSV1c": {
+      "name_zh": "鵝鑾鼻燈塔",
+      "csv_type": "起終點",
+      "rating": 4.4,
+      "total_ratings": 14681,
+      "bayesian_score": 4.37
+    },
+    "ChIJX7O6Doi3cTQRhTESIEEQeJI": {
+      "name_zh": "黃家綠豆蒜",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 6242,
+      "bayesian_score": 4.23
+    },
+    "ChIJvdTkdYG3cTQR0CKup5ezgnQ": {
+      "name_zh": "田中海鮮",
+      "csv_type": "餐廳大休",
+      "rating": 4.4,
+      "total_ratings": 2060,
+      "bayesian_score": 4.31
+    }
+  }
+}

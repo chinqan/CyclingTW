@@ -1,0 +1,27 @@
+{
+  "day": 8,
+  "origin_label": "玉里 / 安通",
+  "destination_label": "花蓮 → 蘇澳新站 (火車接駁)",
+  "distance_range": "約 90–105 公里",
+  "subtitle": "花東縱谷北行接駁日",
+  "orientation": "vertical_portrait_2_3",
+  "lighting": "柔和清晨明亮光線、清新藍天白雲",
+  "allowed_elements": "",
+  "enhancement": "",
+  "main_visual": {
+    "place_id": "ChIJpcSL78qyaDQRpJX500RPFLo",
+    "location_desc": "花蓮縣光復「花蓮觀光糖廠」",
+    "scene_elements": "",
+    "action": "",
+    "expression": ""
+  },
+  "small_avatar": {
+    "place_id": "ChIJ677P5HxqbzQR590ArDS8N5E",
+    "location_desc": "花蓮縣玉里「玉里車站」",
+    "scenario": "",
+    "action": "",
+    "expression": ""
+  },
+  "composition": "主角在畫面中央偏上、玉里車站在右下方小分身、花蓮車站在畫面上方遠景、沿途點綴玉富自行車道、舞鶴北回歸線標誌公園",
+  "geographic_notes": "玉里車站在畫面下方（南側）、花蓮車站在畫面上方（北側）"
+}

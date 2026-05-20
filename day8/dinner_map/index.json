@@ -1,0 +1,173 @@
+{
+  "day": 8,
+  "candidates": [
+    {
+      "place_id": "ChIJJSWM7drpZzQRXLDvkWdbAkQ",
+      "name_zh": "御廚海鮮",
+      "rating": 4.8,
+      "total_ratings": 6343,
+      "location": {
+        "lat": 24.581393,
+        "lng": 121.868869
+      },
+      "address": "宜蘭縣蘇澳鎮南寧路17號",
+      "note": "南方澳海鮮 評價極高",
+      "source": "search_2026-07",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJa0bDn9rpZzQRp9bQIGPjSws",
+      "name_zh": "海珍活海鮮",
+      "rating": 4.7,
+      "total_ratings": 10640,
+      "location": {
+        "lat": 24.582423,
+        "lng": 121.867082
+      },
+      "address": "宜蘭縣蘇澳鎮漁港路61號",
+      "note": "南方澳代表海鮮餐廳",
+      "source": "search_2026-07",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ_8BSctDpZzQRAolCEcCp9RY",
+      "name_zh": "味珍活海鮮",
+      "rating": 4.6,
+      "total_ratings": 7684,
+      "location": {
+        "lat": 24.582325,
+        "lng": 121.866722
+      },
+      "address": "宜蘭縣蘇澳鎮漁港路70號",
+      "note": "南方澳海鮮 份量大",
+      "source": "search_2026-07",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJC5vH2DvoZzQR-00YuSvy7yk",
+      "name_zh": "食令鮮魚湯店",
+      "rating": 4.7,
+      "total_ratings": 1645,
+      "location": {
+        "lat": 24.595423,
+        "lng": 121.841034
+      },
+      "address": "宜蘭縣蘇澳鎮蘇港路254號",
+      "note": "鮮魚湯 蘇澳車站旁",
+      "source": "search_2026-07",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJBxwYgKvpZzQRpSoWCB9ZMHE",
+      "name_zh": "午鯖",
+      "rating": 4.7,
+      "total_ratings": 603,
+      "location": {
+        "lat": 24.583126,
+        "lng": 121.86568
+      },
+      "address": "宜蘭縣蘇澳鎮海邊路123號",
+      "note": "鯖魚定食 南方澳漁港",
+      "source": "search_2026-07",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJjSFY2GDpZzQRgq4v__TeONM",
+      "name_zh": "漁町小吃",
+      "rating": 4.9,
+      "total_ratings": 330,
+      "location": {
+        "lat": 24.581444,
+        "lng": 121.865107
+      },
+      "address": "宜蘭縣蘇澳鎮江夏路7號前",
+      "note": "平價海鮮 售完為止",
+      "source": "search_2026-07",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJkRMPP9DpZzQR8V0HPcbDadk",
+      "name_zh": "富美活海鮮",
+      "rating": 4.2,
+      "total_ratings": 10961,
+      "location": {
+        "lat": 24.58319,
+        "lng": 121.866119
+      },
+      "address": "宜蘭縣蘇澳鎮海邊路111號",
+      "note": "南方澳老字號",
+      "source": "search_2026-07",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJEYupVtDpZzQRtL1lQZOuUMg",
+      "name_zh": "海園活海鮮",
+      "rating": 4.6,
+      "total_ratings": 1798,
+      "location": {
+        "lat": 24.582345,
+        "lng": 121.865567
+      },
+      "address": "宜蘭縣蘇澳鎮漁港路92號",
+      "note": "海鮮合菜",
+      "source": "search_2026-07",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJJWQLp7fpZzQRuf9sWZBQb_Q",
+      "name_zh": "豐炊潮丼",
+      "rating": 4.7,
+      "total_ratings": 329,
+      "location": {
+        "lat": 24.617364,
+        "lng": 121.834195
+      },
+      "address": "宜蘭縣蘇澳鎮仁愛路171號",
+      "note": "日式丼飯 蘇澳新站旁",
+      "source": "search_2026-07",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJJy8J8NDpZzQRPjrtdRZyTXs",
+      "name_zh": "阿美mama手作廚房",
+      "rating": 4.9,
+      "total_ratings": 174,
+      "location": {
+        "lat": 24.580288,
+        "lng": 121.870331
+      },
+      "address": "宜蘭縣蘇澳鎮內埤路175號",
+      "note": "預約制 原住民料理",
+      "source": "search_2026-07",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJkdwyTbXpZzQRjTBCqxLQCFk",
+      "name_zh": "蘇澳港小吃",
+      "rating": 4.3,
+      "total_ratings": 266,
+      "location": {
+        "lat": 24.597988,
+        "lng": 121.856155
+      },
+      "address": "宜蘭縣蘇澳鎮蘇東北路2-62號",
+      "note": "在地小吃",
+      "source": "search_2026-07",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJX68xGN7CZzQRNBxvYHkycAc",
+      "name_zh": "蘇澳港廟口廖榮川米糕",
+      "rating": 4.1,
+      "total_ratings": 2091,
+      "location": {
+        "lat": 24.58149,
+        "lng": 121.864988
+      },
+      "address": "宜蘭縣蘇澳鎮江夏路9號",
+      "note": "廟口米糕 在地名店",
+      "source": "search_2026-07",
+      "selected": false
+    }
+  ]
+}

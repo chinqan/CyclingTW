@@ -1,0 +1,14 @@
+{
+  "place_id": "ChIJFbQ4knSxcTQREYzR12aFUaE",
+  "name_zh": "沙丁嶼餐酒館",
+  "csv_type": "餐廳",
+  "rating": 5.0,
+  "total_ratings": 473,
+  "location": {
+    "lat": 21.943183,
+    "lng": 120.799644
+  },
+  "source": "search_2026-05-21",
+  "note": "墾丁精緻餐酒館",
+  "target": "places"
+}

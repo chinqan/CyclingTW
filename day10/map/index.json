@@ -1,0 +1,71 @@
+{
+  "day": 10,
+  "places": [
+    {
+      "place_id": "ChIJpeyY_He2QjQR9F83t6p8kAw",
+      "name_zh": "富貴角燈塔（極北點）",
+      "csv_type": "景點",
+      "rating": 4.7,
+      "total_ratings": 843,
+      "location": {
+        "lat": 25.299612,
+        "lng": 121.536964
+      },
+      "source": "search_2026-07",
+      "note": "極北點 黑白條紋燈塔"
+    },
+    {
+      "place_id": "ChIJkf3MYFilQjQRxSE-z1AbDKQ",
+      "name_zh": "淡水老街",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 33316,
+      "location": {
+        "lat": 25.168927,
+        "lng": 121.444092
+      },
+      "source": "search_2026-07",
+      "note": "河岸觀光老街 環島慶功"
+    },
+    {
+      "place_id": "ChIJ7Ws-1bOoQjQRehrUbGzlo1A",
+      "name_zh": "蘆洲柳堤公園",
+      "csv_type": "起終點",
+      "rating": 4.3,
+      "total_ratings": 1407,
+      "location": {
+        "lat": 25.088225,
+        "lng": 121.462633
+      },
+      "source": "search_2026-07",
+      "note": "Day10終點 Day1起點 環島完騎"
+    },
+    {
+      "place_id": "ChIJC_1Xj7y1QjQR_YL4J62VPKc",
+      "name_zh": "石門洞",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 12216,
+      "location": {
+        "lat": 25.295896,
+        "lng": 121.56831
+      },
+      "source": "search_2026-07",
+      "note": "天然海蝕拱門 台2線旁"
+    },
+    {
+      "place_id": "ChIJiXwhwldLXTQRZfw6fpm4Q9Q",
+      "name_zh": "金山老街",
+      "csv_type": "起終點",
+      "rating": 4.1,
+      "total_ratings": 49386,
+      "location": {
+        "lat": 25.221783,
+        "lng": 121.638324
+      },
+      "source": "search_2026-07",
+      "note": "Day10起點 金包里老街"
+    }
+  ],
+  "candidates_not_selected": []
+}

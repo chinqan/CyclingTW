@@ -1,0 +1,13 @@
+{
+  "place_id": "ChIJ677P5HxqbzQR590ArDS8N5E",
+  "name_zh": "玉里車站",
+  "csv_type": "起終點",
+  "rating": 4.1,
+  "total_ratings": 682,
+  "location": {
+    "lat": 23.33152,
+    "lng": 121.31172
+  },
+  "source": "search_2026-07",
+  "note": "Day8起點"
+}

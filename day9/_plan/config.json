@@ -1,0 +1,17 @@
+{
+  "day": 9,
+  "origin": "蘇澳新站 / 蘇澳",
+  "destination": "三貂角 → 金山 / 萬里",
+  "distance_km_range": [
+    110,
+    125
+  ],
+  "main_route_text": "台2線 (北部濱海公路)",
+  "must_visit_landmarks": [
+    "**極東：三貂角燈塔**",
+    "東北角",
+    "舊草嶺隧道",
+    "福隆",
+    "基隆海岸"
+  ]
+}

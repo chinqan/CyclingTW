@@ -1,0 +1,173 @@
+{
+  "day": 7,
+  "candidates": [
+    {
+      "place_id": "ChIJb9koNnpqbzQR1n6BiErxXhE",
+      "name_zh": "星馬茶餐廳",
+      "rating": 4.7,
+      "total_ratings": 500,
+      "location": {
+        "lat": 23.332483,
+        "lng": 121.317762
+      },
+      "address": "花蓮縣玉里鎮光復路46之1號",
+      "note": "星馬咖哩料理 週日公休",
+      "source": "search_2026-07",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJvUBbKmRrbzQR9UTxl19ZWWw",
+      "name_zh": "女兒心無菜單料理",
+      "rating": 5.0,
+      "total_ratings": 392,
+      "location": {
+        "lat": 23.323869,
+        "lng": 121.323068
+      },
+      "address": "花蓮縣玉里鎮忠孝路27號2樓",
+      "note": "需24小時前預約 無菜單創意料理",
+      "source": "search_2026-07",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJvU9NeXtqbzQRC9c9PI_6nLk",
+      "name_zh": "馬蓋先美食玉里麵",
+      "rating": 4.2,
+      "total_ratings": 2643,
+      "location": {
+        "lat": 23.33138,
+        "lng": 121.314567
+      },
+      "address": "花蓮縣玉里鎮光復路101號",
+      "note": "玉里麵名店 週四公休",
+      "source": "search_2026-07",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJa7UY7JprbzQRLYmpu4cpccA",
+      "name_zh": "臣佳立業餐酒館",
+      "rating": 4.9,
+      "total_ratings": 278,
+      "location": {
+        "lat": 23.326862,
+        "lng": 121.314259
+      },
+      "address": "花蓮縣玉里鎮大同路60-1號",
+      "note": "餐酒館 西式料理",
+      "source": "search_2026-07",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJJd09WotrbzQR2itOYzpBBDc",
+      "name_zh": "上富快炒",
+      "rating": 4.7,
+      "total_ratings": 309,
+      "location": {
+        "lat": 23.332474,
+        "lng": 121.318336
+      },
+      "address": "花蓮縣玉里鎮光復路40之1號",
+      "note": "在地快炒 份量大",
+      "source": "search_2026-07",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJBQX4NX9qbzQRLZZj8ecUAn8",
+      "name_zh": "每日廚房",
+      "rating": 4.5,
+      "total_ratings": 243,
+      "location": {
+        "lat": 23.33863,
+        "lng": 121.313799
+      },
+      "address": "花蓮縣玉里鎮新生街34號",
+      "note": "無菜單家常料理",
+      "source": "search_2026-07",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ631Py3hqbzQRQ_j6AJES16k",
+      "name_zh": "香園小館",
+      "rating": 4.4,
+      "total_ratings": 268,
+      "location": {
+        "lat": 23.327065,
+        "lng": 121.313448
+      },
+      "address": "花蓮縣玉里鎮大同路77號",
+      "note": "手抓餅 在地小吃",
+      "source": "search_2026-07",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJoQHu5-1rbzQRpjeKLAIiA_o",
+      "name_zh": "海源料理餐廳",
+      "rating": 4.4,
+      "total_ratings": 300,
+      "location": {
+        "lat": 23.332437,
+        "lng": 121.317929
+      },
+      "address": "花蓮縣玉里鎮光復路46A號",
+      "note": "台式合菜",
+      "source": "search_2026-07",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJG3PnKCRrbzQRQA9v-ulNkAY",
+      "name_zh": "津御堂燉品屋",
+      "rating": 4.5,
+      "total_ratings": 173,
+      "location": {
+        "lat": 23.331872,
+        "lng": 121.316101
+      },
+      "address": "花蓮縣玉里鎮光復路77號",
+      "note": "燉品養生湯",
+      "source": "search_2026-07",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ8-zTpZ9rbzQR09FJlCGXBX4",
+      "name_zh": "鴨米鴨片飯",
+      "rating": 4.3,
+      "total_ratings": 457,
+      "location": {
+        "lat": 23.329354,
+        "lng": 121.317266
+      },
+      "address": "花蓮縣玉里鎮仁愛路一段135號",
+      "note": "鴨肉飯 在地名店",
+      "source": "search_2026-07",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJB6jk1ntqbzQRm_oTu9ZF5Y4",
+      "name_zh": "鹽水鵝",
+      "rating": 4.3,
+      "total_ratings": 92,
+      "location": {
+        "lat": 23.32636,
+        "lng": 121.315712
+      },
+      "address": "花蓮縣玉里鎮城中二街22號",
+      "note": "鹽水鵝切盤",
+      "source": "search_2026-07",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJDQmXEZNsbzQRCOFYleFdlqU",
+      "name_zh": "宜錦快炒小吃店",
+      "rating": 4.5,
+      "total_ratings": 124,
+      "location": {
+        "lat": 23.235841,
+        "lng": 121.289965
+      },
+      "address": "花蓮縣富里鄉新興村東興2之5號",
+      "note": "快炒 富里鄉",
+      "source": "search_2026-07",
+      "selected": false
+    }
+  ]
+}

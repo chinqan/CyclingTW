@@ -1,0 +1,97 @@
+{
+  "day": 9,
+  "places": [
+    {
+      "place_id": "ChIJ6ZUIBmzoZzQRgjp01nDg5f0",
+      "name_zh": "蘇澳新站",
+      "csv_type": "起終點",
+      "rating": 4.0,
+      "total_ratings": 219,
+      "location": {
+        "lat": 24.60893,
+        "lng": 121.827683
+      },
+      "source": "search_2026-07",
+      "note": "Day9起點 前晚火車抵達"
+    },
+    {
+      "place_id": "ChIJmUjPHA1dXTQRB-tXTydBtUo",
+      "name_zh": "舊草嶺隧道",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 5719,
+      "location": {
+        "lat": 25.003945,
+        "lng": 121.958346
+      },
+      "source": "search_2026-07",
+      "note": "舊鐵道自行車隧道2167m"
+    },
+    {
+      "place_id": "ChIJmWtqgIJnXTQRGWfG25olU-8",
+      "name_zh": "三貂角燈塔",
+      "csv_type": "景點",
+      "rating": 4.5,
+      "total_ratings": 15810,
+      "location": {
+        "lat": 25.007552,
+        "lng": 122.001892
+      },
+      "source": "search_2026-07",
+      "note": "極東點 1935年白色燈塔"
+    },
+    {
+      "place_id": "ChIJ2yDeSFRcXTQRvLiUFBGjTeE",
+      "name_zh": "福隆海水浴場",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 6863,
+      "location": {
+        "lat": 25.021998,
+        "lng": 121.943158
+      },
+      "source": "search_2026-07",
+      "note": "東北角代表沙灘 福隆便當"
+    },
+    {
+      "place_id": "ChIJOQ7aGUP3ZzQRCMiWewrFofk",
+      "name_zh": "7-ELEVEN 頭城門市",
+      "csv_type": "便利商店",
+      "rating": 4.2,
+      "total_ratings": 72,
+      "location": {
+        "lat": 24.855886,
+        "lng": 121.824191
+      },
+      "source": "search_2026-07",
+      "note": "頭城鎮補給"
+    },
+    {
+      "place_id": "ChIJm9qL_9ZNXTQRjWAuKN_TN74",
+      "name_zh": "7-ELEVEN 金美門市",
+      "csv_type": "便利商店",
+      "rating": 3.9,
+      "total_ratings": 85,
+      "location": {
+        "lat": 25.220168,
+        "lng": 121.638974
+      },
+      "source": "search_2026-07",
+      "note": "金山市區補給 Day9終點附近"
+    },
+    {
+      "place_id": "ChIJiXwhwldLXTQRZfw6fpm4Q9Q",
+      "name_zh": "金山老街",
+      "csv_type": "起終點",
+      "rating": 4.1,
+      "total_ratings": 49386,
+      "location": {
+        "lat": 25.221783,
+        "lng": 121.638324
+      },
+      "source": "search_2026-07",
+      "note": "Day9終點 金包里老街+鴨肉"
+    }
+  ],
+  "candidates_not_selected": []
+}

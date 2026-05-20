@@ -1,0 +1,152 @@
+{
+  "day": 5,
+  "route_name": "屏鵝公路南國追風行",
+  "total_ascent_desc": "前半段平坦（枋寮→車城），後半段有緩坡（恆春→鵝鑾鼻），總爬升約 200m",
+  "main_route_desc": "枋寮車站 ➔ 台1線南下 ➔ 楓港 ➔ 台26線（屏鵝公路）➔ 車城福安宮 ➔ 恆春古城 ➔ 南灣 ➔ 墾丁大街 ➔ 鵝鑾鼻燈塔",
+  "places": [
+    {
+      "place_id": "ChIJp-xjwz3ccTQRN_tucmfrEdM",
+      "name_zh": "枋寮車站",
+      "search_keyword": "枋寮車站 屏東縣枋寮鄉",
+      "csv_type": "起終點",
+      "note": "07:00出發 Day4終點續行 km0",
+      "rating": 4.3,
+      "total_ratings": 851,
+      "location": {
+        "lat": 22.368018,
+        "lng": 120.595097
+      },
+      "bayesian_score": 4.28
+    },
+    {
+      "place_id": "ChIJYXraXefFcTQRL6cdZhLcAbo",
+      "name_zh": "7-ELEVEN 新楓港門市",
+      "search_keyword": "7-ELEVEN 新楓港門市 屏東縣枋山鄉楓港村舊庄路51-1號",
+      "csv_type": "便利商店",
+      "note": "楓港路段補給 km約25",
+      "rating": 3.7,
+      "total_ratings": 120,
+      "location": {
+        "lat": 22.19877,
+        "lng": 120.689479
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJdU4y8ie4cTQRe0BNxOo2HKc",
+      "name_zh": "車城福安宮",
+      "search_keyword": "車城福安宮 屏東縣車城鄉福安路51號",
+      "csv_type": "景點",
+      "note": "約09:30抵達 全台最大土地公廟 清康熙年間建 km約40",
+      "rating": 4.6,
+      "total_ratings": 24667,
+      "location": {
+        "lat": 22.070944,
+        "lng": 120.71089
+      },
+      "bayesian_score": 4.54
+    },
+    {
+      "place_id": "ChIJX7O6Doi3cTQRhTESIEEQeJI",
+      "name_zh": "黃家綠豆蒜",
+      "search_keyword": "黃家綠豆蒜 屏東縣車城鄉福安路3-36號",
+      "csv_type": "餐廳大休",
+      "note": "09:30-10:30 車城名產綠豆蒜+洋蔥鴨肉 上午茶大休 km約40",
+      "rating": 4.2,
+      "total_ratings": 6242,
+      "location": {
+        "lat": 22.070284,
+        "lng": 120.712943
+      },
+      "bayesian_score": 4.23
+    },
+    {
+      "place_id": "ChIJeS8YfzC3cTQRcHLudCDo3fI",
+      "name_zh": "7-ELEVEN 恆北門市",
+      "search_keyword": "7-ELEVEN 恆北門市 屏東縣恆春鎮省北路374-3號",
+      "csv_type": "便利商店",
+      "note": "恆春北端補給 km約52",
+      "rating": 3.7,
+      "total_ratings": 124,
+      "location": {
+        "lat": 22.02035,
+        "lng": 120.74405
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJZV-_DhWxcTQRP3tVA_i2SMI",
+      "name_zh": "恆春南門",
+      "search_keyword": "恆春南門 屏東縣恆春鎮",
+      "csv_type": "景點",
+      "note": "約11:00抵達 台灣僅存完整古城門 拍照10分鐘 km約55",
+      "rating": 4.3,
+      "total_ratings": 2501,
+      "location": {
+        "lat": 22.000825,
+        "lng": 120.744767
+      },
+      "bayesian_score": 4.28
+    },
+    {
+      "place_id": "ChIJ0TvLis6wcTQR5Cw7itPdrRY",
+      "name_zh": "恆春老街",
+      "search_keyword": "恆春老街 屏東縣恆春鎮中山路",
+      "csv_type": "景點",
+      "note": "約11:15抵達 古城內在地小吃街 可午餐 km約55",
+      "rating": 4.2,
+      "total_ratings": 4601,
+      "location": {
+        "lat": 22.003391,
+        "lng": 120.743492
+      },
+      "bayesian_score": 4.24
+    },
+    {
+      "place_id": "ChIJPVNjc6mxcTQRO4176OQltx8",
+      "name_zh": "7-ELEVEN 南彎門市",
+      "search_keyword": "7-ELEVEN 南彎門市 屏東縣恆春鎮南灣路122號",
+      "csv_type": "便利商店",
+      "note": "南灣路段補給 km約62",
+      "rating": 4.4,
+      "total_ratings": 169,
+      "location": {
+        "lat": 21.960019,
+        "lng": 120.765495
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJG7fKhoWxcTQR6CrWL3xdESQ",
+      "name_zh": "墾丁大街",
+      "search_keyword": "墾丁大街 屏東縣恆春鎮墾丁路",
+      "csv_type": "景點",
+      "note": "約13:00抵達 墾丁主要觀光街 拍照休息 km約70",
+      "rating": 3.8,
+      "total_ratings": 21618,
+      "location": {
+        "lat": 21.94581,
+        "lng": 120.79708
+      },
+      "bayesian_score": 3.9
+    },
+    {
+      "place_id": "ChIJZV-_DhWxcTQREKTCizrSV1c",
+      "name_zh": "鵝鑾鼻燈塔",
+      "search_keyword": "鵝鑾鼻燈塔 屏東縣恆春鎮鵝鑾里燈塔路90號",
+      "csv_type": "起終點",
+      "note": "約14:00抵達 當日終點 19世紀白色燈塔+珊瑚礁公園 km約78",
+      "rating": 4.4,
+      "total_ratings": 14681,
+      "location": {
+        "lat": 21.902234,
+        "lng": 120.85263
+      },
+      "bayesian_score": 4.37
+    }
+  ],
+  "bayesian_C": 4.275,
+  "bayesian_m": 5421,
+  "ors_distance_km": 68.1,
+  "ors_duration_hours": 3.9
+}

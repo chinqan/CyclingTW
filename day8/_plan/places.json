@@ -1,0 +1,124 @@
+{
+  "day": 8,
+  "route_name": "花東縱谷北行接駁日",
+  "total_ascent_desc": "花東縱谷平緩北行，經瑞穗、光復至花蓮市區，總爬升約 250m。花蓮站搭火車接駁至蘇澳新站（跳過蘇花公路）",
+  "main_route_desc": "玉里車站 ➔ 玉富自行車道 ➔ 台9線北上 ➔ 舞鶴北回歸線 ➔ 瑞穗 ➔ 光復糖廠 ➔ 花蓮市區 ➔ 七星潭 ➔ 花蓮車站（搭火車→蘇澳新站）",
+  "places": [
+    {
+      "place_id": "ChIJ677P5HxqbzQR590ArDS8N5E",
+      "name_zh": "玉里車站",
+      "search_keyword": "玉里車站 花蓮縣玉里鎮",
+      "csv_type": "起終點",
+      "note": "07:00出發 Day7終點續行 km0",
+      "rating": 4.1,
+      "total_ratings": 682,
+      "location": {
+        "lat": 23.33152,
+        "lng": 121.31172
+      },
+      "bayesian_score": 4.23
+    },
+    {
+      "place_id": "ChIJQYuk32JqbzQRz-T-3Ow4Dfg",
+      "name_zh": "玉富自行車道",
+      "search_keyword": "玉富自行車道 花蓮縣玉里鎮",
+      "csv_type": "景點",
+      "note": "約07:15抵達 全球唯一跨歐亞板塊與菲律賓板塊自行車道 km約2",
+      "rating": 4.4,
+      "total_ratings": 313,
+      "location": {
+        "lat": 23.328728,
+        "lng": 121.311166
+      },
+      "bayesian_score": 4.28
+    },
+    {
+      "place_id": "ChIJgVBR5NZFbzQRlahAiS__Yf4",
+      "name_zh": "舞鶴北回歸線標誌公園",
+      "search_keyword": "北回歸線標誌公園 花蓮縣瑞穗鄉舞鶴村中正南路二段76-9號",
+      "csv_type": "景點",
+      "note": "約09:00抵達 北回歸線地標 天文裝置+日晷 km約20",
+      "rating": 4.2,
+      "total_ratings": 8796,
+      "location": {
+        "lat": 23.465731,
+        "lng": 121.357403
+      },
+      "bayesian_score": 4.21
+    },
+    {
+      "place_id": "ChIJ0zEUDGBPbzQRzzTHteV-MVw",
+      "name_zh": "7-ELEVEN 瑞繐門市",
+      "search_keyword": "7-ELEVEN 瑞繐門市 花蓮縣瑞穗鄉中山路一段17號",
+      "csv_type": "便利商店",
+      "note": "瑞穗鄉補給 km約25",
+      "rating": 3.3,
+      "total_ratings": 67,
+      "location": {
+        "lat": 23.497325,
+        "lng": 121.377364
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJpcSL78qyaDQRpJX500RPFLo",
+      "name_zh": "花蓮觀光糖廠",
+      "search_keyword": "花蓮觀光糖廠 花蓮縣光復鄉糖廠街19號",
+      "csv_type": "景點",
+      "note": "約11:00抵達 日治糖廠改建觀光園區 必吃冰淇淋 km約50",
+      "rating": 4.1,
+      "total_ratings": 22878,
+      "location": {
+        "lat": 23.658691,
+        "lng": 121.420607
+      },
+      "bayesian_score": 4.12
+    },
+    {
+      "place_id": "ChIJ5XUQ6beyaDQRCAve1FPgKVQ",
+      "name_zh": "7-ELEVEN 馬太鞍門市",
+      "search_keyword": "7-ELEVEN 馬太鞍門市 花蓮縣光復鄉中山路一段125號",
+      "csv_type": "便利商店",
+      "note": "光復鄉補給 糖廠旁 km約50",
+      "rating": 4.1,
+      "total_ratings": 110,
+      "location": {
+        "lat": 23.656871,
+        "lng": 121.418932
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJa4-J7UGkaDQRMid2wPp_tN4",
+      "name_zh": "7-ELEVEN 新壽豐門市",
+      "search_keyword": "7-ELEVEN 新壽豐門市 花蓮縣壽豐鄉中山路五段131號",
+      "csv_type": "便利商店",
+      "note": "壽豐鄉補給 km約70",
+      "rating": 4.0,
+      "total_ratings": 149,
+      "location": {
+        "lat": 23.869664,
+        "lng": 121.509108
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJK6-HgbafaDQR99QetgTFgwU",
+      "name_zh": "花蓮車站",
+      "search_keyword": "花蓮車站 花蓮縣花蓮市國聯一路100號",
+      "csv_type": "起終點",
+      "note": "約15:30抵達 當日終點 搭兩鐵列車接駁蘇澳新站 km約92",
+      "rating": 4.2,
+      "total_ratings": 3149,
+      "location": {
+        "lat": 23.993313,
+        "lng": 121.601245
+      },
+      "bayesian_score": 4.23
+    }
+  ],
+  "bayesian_C": 4.2667,
+  "bayesian_m": 2330,
+  "ors_distance_km": 100.6,
+  "ors_duration_hours": 5.6
+}

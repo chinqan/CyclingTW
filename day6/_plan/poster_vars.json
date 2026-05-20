@@ -1,0 +1,27 @@
+{
+  "day": 6,
+  "origin_label": "恆春 / 鵝鑾鼻",
+  "destination_label": "太麻里",
+  "distance_range": "約 105–120 公里",
+  "subtitle": "極南壽卡翻山越嶺行",
+  "orientation": "vertical_portrait_2_3",
+  "lighting": "柔和清晨明亮光線、清新藍天白雲",
+  "allowed_elements": "",
+  "enhancement": "",
+  "main_visual": {
+    "place_id": "ChIJqza3KrrTbzQRv2vJUxBEm24",
+    "location_desc": "台東縣太麻里「多良車站」",
+    "scene_elements": "",
+    "action": "",
+    "expression": ""
+  },
+  "small_avatar": {
+    "place_id": "ChIJZV-_DhWxcTQREKTCizrSV1c",
+    "location_desc": "屏東縣恆春「鵝鑾鼻燈塔」",
+    "scenario": "",
+    "action": "",
+    "expression": ""
+  },
+  "composition": "主角在畫面中央偏上、鵝鑾鼻燈塔在右下方小分身、太麻里車站在畫面上方遠景、沿途點綴風吹砂、壽卡鐵馬驛站",
+  "geographic_notes": "鵝鑾鼻燈塔在畫面下方（南側）、太麻里車站在畫面上方（北側）"
+}

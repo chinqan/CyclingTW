@@ -1,0 +1,150 @@
+{
+  "day": 5,
+  "places": [
+    {
+      "place_id": "ChIJp-xjwz3ccTQRN_tucmfrEdM",
+      "name_zh": "枋寮車站",
+      "csv_type": "起終點",
+      "rating": 4.3,
+      "total_ratings": 851,
+      "location": {
+        "lat": 22.368018,
+        "lng": 120.595097
+      },
+      "source": "search_2026-05-21",
+      "note": "Day5起點 Day4終點續行"
+    },
+    {
+      "place_id": "ChIJdU4y8ie4cTQRe0BNxOo2HKc",
+      "name_zh": "車城福安宮",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 24667,
+      "location": {
+        "lat": 22.070944,
+        "lng": 120.71089
+      },
+      "source": "search_2026-05-21",
+      "note": "全台最大土地公廟 清代建"
+    },
+    {
+      "place_id": "ChIJZV-_DhWxcTQRP3tVA_i2SMI",
+      "name_zh": "恆春南門",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 2501,
+      "location": {
+        "lat": 22.000825,
+        "lng": 120.744767
+      },
+      "source": "search_2026-05-21",
+      "note": "恆春古城南門 台灣僅存完整城門"
+    },
+    {
+      "place_id": "ChIJ0TvLis6wcTQR5Cw7itPdrRY",
+      "name_zh": "恆春老街",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 4601,
+      "location": {
+        "lat": 22.003391,
+        "lng": 120.743492
+      },
+      "source": "search_2026-05-21",
+      "note": "恆春古城內商業街"
+    },
+    {
+      "place_id": "ChIJG7fKhoWxcTQR6CrWL3xdESQ",
+      "name_zh": "墾丁大街",
+      "csv_type": "景點",
+      "rating": 3.8,
+      "total_ratings": 21618,
+      "location": {
+        "lat": 21.94581,
+        "lng": 120.79708
+      },
+      "source": "search_2026-05-21",
+      "note": "墾丁主要觀光街 夜市"
+    },
+    {
+      "place_id": "ChIJZV-_DhWxcTQREKTCizrSV1c",
+      "name_zh": "鵝鑾鼻燈塔",
+      "csv_type": "起終點",
+      "rating": 4.4,
+      "total_ratings": 14681,
+      "location": {
+        "lat": 21.902234,
+        "lng": 120.85263
+      },
+      "source": "search_2026-05-21",
+      "note": "Day5終點 台灣最南點燈塔 19世紀建"
+    },
+    {
+      "place_id": "ChIJYXraXefFcTQRL6cdZhLcAbo",
+      "name_zh": "7-ELEVEN 新楓港門市",
+      "csv_type": "便利商店",
+      "rating": 3.7,
+      "total_ratings": 120,
+      "location": {
+        "lat": 22.19877,
+        "lng": 120.689479
+      },
+      "source": "search_2026-05-21",
+      "note": "楓港路段補給"
+    },
+    {
+      "place_id": "ChIJeS8YfzC3cTQRcHLudCDo3fI",
+      "name_zh": "7-ELEVEN 恆北門市",
+      "csv_type": "便利商店",
+      "rating": 3.7,
+      "total_ratings": 124,
+      "location": {
+        "lat": 22.02035,
+        "lng": 120.74405
+      },
+      "source": "search_2026-05-21",
+      "note": "恆春北端補給"
+    },
+    {
+      "place_id": "ChIJPVNjc6mxcTQRO4176OQltx8",
+      "name_zh": "7-ELEVEN 南彎門市",
+      "csv_type": "便利商店",
+      "rating": 4.4,
+      "total_ratings": 169,
+      "location": {
+        "lat": 21.960019,
+        "lng": 120.765495
+      },
+      "source": "search_2026-05-21",
+      "note": "南灣路段補給"
+    },
+    {
+      "place_id": "ChIJX7O6Doi3cTQRhTESIEEQeJI",
+      "name_zh": "黃家綠豆蒜",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 6242,
+      "location": {
+        "lat": 22.070284,
+        "lng": 120.712943
+      },
+      "source": "search_2026-05-21",
+      "note": "車城綠豆蒜名店 點心+午餐"
+    }
+  ],
+  "candidates_not_selected": [
+    {
+      "place_id": "ChIJvdTkdYG3cTQR0CKup5ezgnQ",
+      "name_zh": "田中海鮮",
+      "csv_type": "餐廳大休",
+      "rating": 4.4,
+      "total_ratings": 2060,
+      "location": {
+        "lat": 22.060843,
+        "lng": 120.716773
+      },
+      "source": "search_2026-05-21",
+      "note": "車城海鮮料理"
+    }
+  ]
+}

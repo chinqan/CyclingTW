@@ -1,0 +1,177 @@
+{
+  "day": 10,
+  "search_radius_km": 3,
+  "pool_size": 10,
+  "bayesian_C": 952.5,
+  "bayesian_m": 4.6516,
+  "note": "C=平均留言數(先驗樣本數), m=加權平均評分(先驗期望值)",
+  "top5_place_ids": [
+    "ChIJORbrNYevQjQRNHh0dhDQGr4",
+    "ChIJ14WKuX-pQjQRW1SzMUTbpPg",
+    "ChIJZd4jg62pQjQRBJ8ctynfEzQ",
+    "ChIJR62OKX-pQjQRBKG-LMPgzN4",
+    "ChIJYRBNAG2pQjQRAYNc0RXph68"
+  ],
+  "restaurants": [
+    {
+      "place_id": "ChIJORbrNYevQjQRNHh0dhDQGr4",
+      "name_zh": "李食好食製造所",
+      "rating": 4.9,
+      "total_ratings": 702,
+      "location": {
+        "lat": 25.092774,
+        "lng": 121.473863
+      },
+      "address": "新北市蘆洲區民族路422巷17號",
+      "note": "創意料理 蘆洲人氣店",
+      "bayesian_score": 4.757,
+      "confidence": "⚠️ 中",
+      "rank": 1,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ14WKuX-pQjQRW1SzMUTbpPg",
+      "name_zh": "醉餓感餐酒館",
+      "rating": 4.9,
+      "total_ratings": 453,
+      "location": {
+        "lat": 25.086451,
+        "lng": 121.471854
+      },
+      "address": "新北市蘆洲區三民路139號",
+      "note": "餐酒館 環島慶功",
+      "bayesian_score": 4.7317,
+      "confidence": "❌ 低",
+      "rank": 2,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJZd4jg62pQjQRBJ8ctynfEzQ",
+      "name_zh": "攤味",
+      "rating": 4.9,
+      "total_ratings": 265,
+      "location": {
+        "lat": 25.080508,
+        "lng": 121.480369
+      },
+      "address": "新北市蘆洲區中山一路8號6樓",
+      "note": "高空景觀餐廳",
+      "bayesian_score": 4.7057,
+      "confidence": "❌ 低",
+      "rank": 3,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJR62OKX-pQjQRBKG-LMPgzN4",
+      "name_zh": "饎果",
+      "rating": 5.0,
+      "total_ratings": 156,
+      "location": {
+        "lat": 25.078703,
+        "lng": 121.474859
+      },
+      "address": "新北市蘆洲區民生街51-1號",
+      "note": "精緻料理",
+      "bayesian_score": 4.7006,
+      "confidence": "❌ 低",
+      "rank": 4,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJYRBNAG2pQjQRAYNc0RXph68",
+      "name_zh": "樂樂燒肉 蘆洲店",
+      "rating": 4.7,
+      "total_ratings": 4016,
+      "location": {
+        "lat": 25.085426,
+        "lng": 121.473001
+      },
+      "address": "新北市蘆洲區復興路56號",
+      "note": "燒肉吃到飽 慶功宴",
+      "bayesian_score": 4.6907,
+      "confidence": "✅ 高",
+      "rank": 5,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJBT015TKnQjQRKHqrEhF0RYQ",
+      "name_zh": "Gòu kitchen 構 義法小餐館",
+      "rating": 4.7,
+      "total_ratings": 464,
+      "location": {
+        "lat": 25.087142,
+        "lng": 121.482074
+      },
+      "address": "新北市蘆洲區集賢路222巷11號",
+      "note": "義法料理 平價星級",
+      "bayesian_score": 4.6675,
+      "confidence": "❌ 低",
+      "rank": 6,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJM7ROtx2pQjQRbVqEVdsfDNs",
+      "name_zh": "掌心坡",
+      "rating": 4.5,
+      "total_ratings": 192,
+      "location": {
+        "lat": 25.078593,
+        "lng": 121.467345
+      },
+      "address": "新北市蘆洲區九雄街59號",
+      "note": "創意料理",
+      "bayesian_score": 4.6262,
+      "confidence": "❌ 低",
+      "rank": 7,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJT_Ld2ZOpQjQRrHWZ3AuDlfk",
+      "name_zh": "樂泰泰式餐廳",
+      "rating": 4.6,
+      "total_ratings": 1147,
+      "location": {
+        "lat": 25.082054,
+        "lng": 121.47999
+      },
+      "address": "新北市蘆洲區集賢路402號",
+      "note": "泰式料理 份量大",
+      "bayesian_score": 4.6234,
+      "confidence": "✅ 高",
+      "rank": 8,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJleYzq7eoQjQRZ2DQERGsZv8",
+      "name_zh": "古厝家常菜",
+      "rating": 4.4,
+      "total_ratings": 936,
+      "location": {
+        "lat": 25.083942,
+        "lng": 121.465785
+      },
+      "address": "新北市蘆洲區光華路132巷41號",
+      "note": "台式家常合菜 古厝氛圍",
+      "bayesian_score": 4.5269,
+      "confidence": "⚠️ 中",
+      "rank": 9,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJnZ0trbaoQjQR-hayaOqKT1k",
+      "name_zh": "Grasso胖肚子小餐館",
+      "rating": 4.4,
+      "total_ratings": 1194,
+      "location": {
+        "lat": 25.086919,
+        "lng": 121.462761
+      },
+      "address": "新北市蘆洲區長樂路70號",
+      "note": "義式料理 柳堤公園旁",
+      "bayesian_score": 4.5116,
+      "confidence": "✅ 高",
+      "rank": 10,
+      "selected": false
+    }
+  ]
+}

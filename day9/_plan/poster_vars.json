@@ -1,0 +1,27 @@
+{
+  "day": 9,
+  "origin_label": "蘇澳新站 / 蘇澳",
+  "destination_label": "三貂角 → 金山 / 萬里",
+  "distance_range": "約 110–125 公里",
+  "subtitle": "東北角濱海極東追風行",
+  "orientation": "vertical_portrait_2_3",
+  "lighting": "柔和清晨明亮光線、清新藍天白雲",
+  "allowed_elements": "",
+  "enhancement": "",
+  "main_visual": {
+    "place_id": "ChIJiXwhwldLXTQRZfw6fpm4Q9Q",
+    "location_desc": "新北市金山「金山老街」",
+    "scene_elements": "",
+    "action": "",
+    "expression": ""
+  },
+  "small_avatar": {
+    "place_id": "ChIJ6ZUIBmzoZzQRgjp01nDg5f0",
+    "location_desc": "宜蘭縣蘇澳「蘇澳新站」",
+    "scenario": "",
+    "action": "",
+    "expression": ""
+  },
+  "composition": "主角在畫面中央偏上、蘇澳新站在右下方小分身、金山老街在畫面上方遠景、沿途點綴舊草嶺隧道、福隆海水浴場、三貂角燈塔",
+  "geographic_notes": "蘇澳新站在畫面下方（南側）、金山老街在畫面上方（北側）"
+}

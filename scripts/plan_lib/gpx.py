@@ -157,6 +157,21 @@ def cmd_route(args):
 
     api_key = os.environ.get("ORS_API_KEY")
     if not api_key:
+        # fallback：從 .kiro/settings/mcp.json 讀取
+        mcp_path = ROOT / ".kiro" / "settings" / "mcp.json"
+        if mcp_path.exists():
+            import re as _re
+            try:
+                _txt = mcp_path.read_text(encoding="utf-8")
+                _txt = _re.sub(r"//.*", "", _txt)  # strip JSONC comments
+                _mcp = json.loads(_txt)
+                api_key = (_mcp.get("mcpServers", {})
+                           .get("openroute", {})
+                           .get("env", {})
+                           .get("OPENROUTESERVICE_API_KEY"))
+            except Exception:
+                pass
+    if not api_key:
         die("缺少 ORS_API_KEY 環境變數。\n"
             "請至 https://openrouteservice.org/dev/#/signup 申請後：\n"
             "  export ORS_API_KEY='your-key-here'")

@@ -1,0 +1,173 @@
+{
+  "day": 6,
+  "candidates": [
+    {
+      "place_id": "ChIJiX27_QbPbzQRHtI2Mswq5kc",
+      "name_zh": "187嗑棧",
+      "rating": 4.7,
+      "total_ratings": 704,
+      "location": {
+        "lat": 22.604177,
+        "lng": 121.003003
+      },
+      "address": "台東縣太麻里鄉泰和村外環路187號",
+      "note": "在地快炒 炒飯超讚 週二公休",
+      "source": "search_2026-07",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ4VDU8ZzTbzQRHqvWyCiD8Qc",
+      "name_zh": "嘎努食堂 原住民熱炒風味餐廳",
+      "rating": 4.6,
+      "total_ratings": 604,
+      "location": {
+        "lat": 22.531552,
+        "lng": 120.963543
+      },
+      "address": "台東縣太麻里鄉金崙村金崙路403號",
+      "note": "原住民風味餐 週三公休",
+      "source": "search_2026-07",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ75vo-QTPbzQRtL8dlJEhwv8",
+      "name_zh": "越南小廚",
+      "rating": 4.7,
+      "total_ratings": 802,
+      "location": {
+        "lat": 22.611524,
+        "lng": 121.007213
+      },
+      "address": "台東縣太麻里鄉泰和村外環路49號",
+      "note": "越南河粉蝦餅 週二公休",
+      "source": "search_2026-07",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJI0jmeUpPXTQRRHdClh8ZaZk",
+      "name_zh": "双亭院咖啡餐食甜點",
+      "rating": 4.9,
+      "total_ratings": 1984,
+      "location": {
+        "lat": 22.462148,
+        "lng": 120.942476
+      },
+      "address": "台東縣太麻里鄉36-5號",
+      "note": "排灣族創意料理咖啡 週三公休 偏離主線",
+      "source": "search_2026-07",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJS4y1ekXSbzQRWtRaWjMV7YA",
+      "name_zh": "烤什麼風味屋",
+      "rating": 4.5,
+      "total_ratings": 433,
+      "location": {
+        "lat": 22.532849,
+        "lng": 120.955415
+      },
+      "address": "台東縣太麻里鄉金崙村溫泉14鄰25號",
+      "note": "金崙原住民燒烤",
+      "source": "search_2026-07",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJVVVVVZLObzQRDjpKBLa1FXA",
+      "name_zh": "林家小館",
+      "rating": 4.2,
+      "total_ratings": 416,
+      "location": {
+        "lat": 22.618203,
+        "lng": 121.010137
+      },
+      "address": "台東縣太麻里鄉泰和村太麻里街15號",
+      "note": "太麻里在地快炒 車站旁",
+      "source": "search_2026-07",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJi3xf4InPbzQRWtoErgPWnd0",
+      "name_zh": "朵栗台越家常菜",
+      "rating": 4.3,
+      "total_ratings": 532,
+      "location": {
+        "lat": 22.615536,
+        "lng": 121.008581
+      },
+      "address": "台東縣太麻里鄉泰和村太麻里街95號",
+      "note": "台越料理 太麻里街上",
+      "source": "search_2026-07",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJk4uFvpbObzQRuLBO8_jyPHc",
+      "name_zh": "金三角小吃部",
+      "rating": 4.8,
+      "total_ratings": 142,
+      "location": {
+        "lat": 22.613937,
+        "lng": 121.00378
+      },
+      "address": "台東縣太麻里鄉大王村泰豐路192號",
+      "note": "在地小吃 份量大",
+      "source": "search_2026-07",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJWVcnO5TObzQRG3lH7pQVDmE",
+      "name_zh": "來福小吃部",
+      "rating": 4.0,
+      "total_ratings": 154,
+      "location": {
+        "lat": 22.613861,
+        "lng": 121.005806
+      },
+      "address": "台東縣太麻里鄉金宣路27號",
+      "note": "在地小吃",
+      "source": "search_2026-07",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJjVYBOQDTbzQRBBsot3wVXe8",
+      "name_zh": "屋瑪umaq 餐館",
+      "rating": 4.9,
+      "total_ratings": 203,
+      "location": {
+        "lat": 22.531267,
+        "lng": 120.963575
+      },
+      "address": "台東縣太麻里鄉金崙村396號",
+      "note": "原住民特色料理 金崙",
+      "source": "search_2026-07",
+      "selected": true
+    },
+    {
+      "place_id": "ChIJa64E1JPObzQRKsQaLIynB8Q",
+      "name_zh": "小燕廚房",
+      "rating": 4.1,
+      "total_ratings": 589,
+      "location": {
+        "lat": 22.610147,
+        "lng": 121.005219
+      },
+      "address": "台東縣太麻里鄉泰和村太麻里街273號",
+      "note": "便當快餐 太麻里街",
+      "source": "search_2026-07",
+      "selected": false
+    },
+    {
+      "place_id": "ChIJT9fWSEbSbzQR5YQmFJIRy7M",
+      "name_zh": "名湘園海產小館",
+      "rating": 4.2,
+      "total_ratings": 391,
+      "location": {
+        "lat": 22.533486,
+        "lng": 120.962227
+      },
+      "address": "台東縣太麻里鄉金崙村446號",
+      "note": "海鮮快炒 金崙",
+      "source": "search_2026-07",
+      "selected": false
+    }
+  ]
+}

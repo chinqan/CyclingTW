@@ -1,0 +1,124 @@
+{
+  "day": 7,
+  "route_name": "花東縱谷田園騎行",
+  "total_ascent_desc": "花東縱谷地勢平緩，台9線沿卑南溪→秀姑巒溪谷北行，偶有緩坡，總爬升約 350m",
+  "main_route_desc": "太麻里車站 ➔ 台9線北上 ➔ 鹿野 ➔ 關山環鎮自行車道 ➔ 池上（伯朗大道）➔ 悟饕池上飯包 ➔ 玉里車站",
+  "places": [
+    {
+      "place_id": "ChIJ-fgsCr7ObzQRGrAOOXKCO4k",
+      "name_zh": "太麻里車站",
+      "search_keyword": "太麻里車站 台東縣太麻里鄉站前路2號",
+      "csv_type": "起終點",
+      "note": "07:00出發 Day6終點續行 km0",
+      "rating": 4.4,
+      "total_ratings": 964,
+      "location": {
+        "lat": 22.618796,
+        "lng": 121.005015
+      },
+      "bayesian_score": 4.31
+    },
+    {
+      "place_id": "ChIJ95Cw8FekbzQRO2aiAlrXi0o",
+      "name_zh": "7-ELEVEN 新鹿野門市",
+      "search_keyword": "7-ELEVEN 新鹿野門市 台東縣鹿野鄉中華路一段430號",
+      "csv_type": "便利商店",
+      "note": "鹿野鄉台9線旁補給 km約35",
+      "rating": 4.2,
+      "total_ratings": 170,
+      "location": {
+        "lat": 22.910521,
+        "lng": 121.136215
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJWzs2WB0KbzQRrGMcd23iV1A",
+      "name_zh": "關山環鎮自行車道",
+      "search_keyword": "關山環鎮自行車道 台東縣關山鎮",
+      "csv_type": "景點",
+      "note": "約10:00抵達 全台首座環鎮自行車道 12km 稻田+水圳+山景 km約50",
+      "rating": 4.5,
+      "total_ratings": 1679,
+      "location": {
+        "lat": 23.042057,
+        "lng": 121.170845
+      },
+      "bayesian_score": 4.35
+    },
+    {
+      "place_id": "ChIJ2TeHU_AJbzQRm7ePv5bKAMI",
+      "name_zh": "7-ELEVEN 關山門市",
+      "search_keyword": "7-ELEVEN 關山門市 台東縣關山鎮和平路4號",
+      "csv_type": "便利商店",
+      "note": "關山鎮中心補給 km約52",
+      "rating": 4.5,
+      "total_ratings": 110,
+      "location": {
+        "lat": 23.045086,
+        "lng": 121.163145
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJZatyKu4JbzQRyHuSojQ6qQ0",
+      "name_zh": "伯朗大道",
+      "search_keyword": "伯朗大道 台東縣池上鄉錦新三號道路",
+      "csv_type": "景點",
+      "note": "約11:30抵達 稻田中筆直道路 金城武樹 池上代表 km約65",
+      "rating": 4.4,
+      "total_ratings": 9606,
+      "location": {
+        "lat": 23.098807,
+        "lng": 121.213002
+      },
+      "bayesian_score": 4.36
+    },
+    {
+      "place_id": "ChIJuYubE4sMbzQR6F0sgiCsdSo",
+      "name_zh": "悟饕池上飯包文化故事館",
+      "search_keyword": "悟饕池上飯包文化故事館 台東縣池上鄉忠孝路259號",
+      "csv_type": "餐廳大休",
+      "note": "12:00-13:00 午餐大休 池上便當始祖 坐在舊火車車廂用餐 km約68",
+      "rating": 3.9,
+      "total_ratings": 17104,
+      "location": {
+        "lat": 23.124256,
+        "lng": 121.220904
+      },
+      "bayesian_score": 4.0
+    },
+    {
+      "place_id": "ChIJmdUKymMMbzQRMKY64QAzCgo",
+      "name_zh": "7-ELEVEN 池上門市",
+      "search_keyword": "7-ELEVEN 池上門市 台東縣池上鄉中山路64號",
+      "csv_type": "便利商店",
+      "note": "池上鎮補給 km約68",
+      "rating": 4.0,
+      "total_ratings": 123,
+      "location": {
+        "lat": 23.12075,
+        "lng": 121.213276
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJ677P5HxqbzQR590ArDS8N5E",
+      "name_zh": "玉里車站",
+      "search_keyword": "玉里車站 花蓮縣玉里鎮",
+      "csv_type": "起終點",
+      "note": "約15:30抵達 當日終點 花東縱谷中繼站 km約100",
+      "rating": 4.1,
+      "total_ratings": 682,
+      "location": {
+        "lat": 23.33152,
+        "lng": 121.31172
+      },
+      "bayesian_score": 4.28
+    }
+  ],
+  "bayesian_C": 4.3,
+  "bayesian_m": 5642,
+  "ors_distance_km": 110.9,
+  "ors_duration_hours": 6.2
+}

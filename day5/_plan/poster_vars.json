@@ -1,0 +1,27 @@
+{
+  "day": 5,
+  "origin_label": "枋寮 / 枋山",
+  "destination_label": "恆春 / 墾丁 / 鵝鑾鼻",
+  "distance_range": "約 75–100 公里",
+  "subtitle": "屏鵝公路南國追風行",
+  "orientation": "vertical_portrait_2_3",
+  "lighting": "柔和清晨明亮光線、清新藍天白雲",
+  "allowed_elements": "",
+  "enhancement": "",
+  "main_visual": {
+    "place_id": "ChIJdU4y8ie4cTQRe0BNxOo2HKc",
+    "location_desc": "屏東縣車城「車城福安宮」",
+    "scene_elements": "",
+    "action": "",
+    "expression": ""
+  },
+  "small_avatar": {
+    "place_id": "ChIJp-xjwz3ccTQRN_tucmfrEdM",
+    "location_desc": "屏東縣枋寮「枋寮車站」",
+    "scenario": "",
+    "action": "",
+    "expression": ""
+  },
+  "composition": "主角在畫面中央偏上、枋寮車站在右上方小分身、鵝鑾鼻燈塔在畫面下方遠景、沿途點綴恆春南門、恆春老街、墾丁大街",
+  "geographic_notes": "枋寮車站在畫面上方（北側）、鵝鑾鼻燈塔在畫面下方（南側）"
+}
