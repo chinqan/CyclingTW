@@ -433,18 +433,21 @@ def cmd_verify_and_fix(args):
     info("[1/6] compute")
     cmd_compute(q)
 
-    info("[2/6] write-csv")
-    cmd_write_csv(q)
-
-    info("[3/6] route（無 ORS_API_KEY 自動 fallback gpx-waypoints）")
+    # route 必須在 write-csv 之前：route 會寫回 ors_distance_km 更新 places.json mtime，
+    # 之後再跑 write-csv 才不會讓 csv 變舊
     if os.environ.get("ORS_API_KEY"):
+        info("[2/6] route（ORS API）")
         try:
             cmd_route(q)
         except SystemExit:
             info("    route 失敗，改用 gpx-waypoints")
             cmd_gpx_waypoints(q)
     else:
+        info("[2/6] route（無 ORS_API_KEY，fallback gpx-waypoints）")
         cmd_gpx_waypoints(q)
+
+    info("[3/6] write-csv")
+    cmd_write_csv(q)
 
     info("[4/6] render-prompt（自動同步 poster_vars 結構欄位）")
     cmd_render_prompt(argparse.Namespace(day=n, no_sync=False, quiet=True))
