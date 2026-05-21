@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJgSp8wEyeaDQRKh828jmyn40",
+  "name_zh": "野三活小吃",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 72,
+  "location": {
+    "lat": 24.0007839,
+    "lng": 121.6008038
+  },
+  "address": "970花蓮縣花蓮市國強里富強路302號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.83,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJMfXKXJSfaDQReVkZdCpsvMY",
+  "name_zh": "古滷古滷深夜食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 284,
+  "location": {
+    "lat": 23.9735157,
+    "lng": 121.60193389999998
+  },
+  "address": "970花蓮縣花蓮市主學里中正路308號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 2.2,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

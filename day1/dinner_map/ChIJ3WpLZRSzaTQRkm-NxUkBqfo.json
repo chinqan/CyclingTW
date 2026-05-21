@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ3WpLZRSzaTQRkm-NxUkBqfo",
+  "name_zh": "雲彩雲南美食館",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 568,
+  "location": {
+    "lat": 24.694716699999997,
+    "lng": 120.86774480000001
+  },
+  "address": "350苗栗縣竹南鎮龍鳳里龍山路一段263號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.58,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

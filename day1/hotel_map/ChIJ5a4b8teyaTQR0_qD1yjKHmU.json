@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ5a4b8teyaTQR0_qD1yjKHmU",
+  "name_zh": "頭緣汽車旅館",
+  "name_lang": "zh-TW",
+  "rating": 3.4,
+  "total_ratings": 217,
+  "location": {
+    "lat": 24.6735552,
+    "lng": 120.8874091
+  },
+  "address": "351苗栗縣頭份市蘆竹里工業路25號",
+  "primary_type": "motel",
+  "distance_km": 1.61,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJlRAyt7apQjQRCw2e6o9lEKs",
+  "name_zh": "BZ手作/蘆洲美食/早午餐/三明治/健康餐盒/晚餐/附近美食/義大利麵/燉飯/restaurants",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 683,
+  "location": {
+    "lat": 25.089548399999998,
+    "lng": 121.4621277
+  },
+  "address": "247038新北市芦洲区正义里长乐路112號1樓",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.16,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ3ynTBRQ9aTQRQzJZB4zodVc",
+  "name_zh": "台中麥司特現烤麵包",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 604,
+  "location": {
+    "lat": 24.687840299999998,
+    "lng": 120.876419
+  },
+  "address": "350苗栗县竹南镇营盘里自由街88之6號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.44,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

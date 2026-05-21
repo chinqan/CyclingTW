@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJQb-SdjyzaTQRcjJh1R-Riio",
   "name_zh": "冠友魯肉飯",
+  "name_lang": "zh-TW",
   "rating": 4.2,
   "total_ratings": 1040,
   "location": {
     "lat": 24.6884162,
-    "lng": 120.8770137
+    "lng": 120.87701369999999
   },
-  "address": "苗栗縣竹南鎮昭南村立達街12號",
-  "note": "排隊名店魯肉飯 週一日公休",
-  "source": "search_2026-05-20"
+  "address": "350苗栗縣竹南鎮照南里立達街12號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.41,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
 }

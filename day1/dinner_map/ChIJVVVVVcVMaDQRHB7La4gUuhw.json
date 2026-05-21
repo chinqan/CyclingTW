@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJVVVVVcVMaDQRHB7La4gUuhw",
+  "name_zh": "聚 日式鍋物 頭份尚順店",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 8693,
+  "location": {
+    "lat": 24.687145500000003,
+    "lng": 120.9012772
+  },
+  "address": "351苗栗縣頭份市東庄里尚順路61號",
+  "primary_type": "hot_pot_restaurant",
+  "primary_type_label": "火鍋店",
+  "distance_km": 2.09,
+  "source": "api_2026-05-21",
+  "note": "火鍋店",
+  "name_is_ascii": false
+}

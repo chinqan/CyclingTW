@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJ5xKRLETZbTQRnFdsxvD2VE4",
   "name_zh": "膳廚工坊",
+  "name_lang": "zh-TW",
   "rating": 4.3,
-  "total_ratings": 45,
+  "total_ratings": 131,
   "location": {
-    "lat": 23.0631878,
-    "lng": 120.129157
+    "lat": 23.063187799999998,
+    "lng": 120.12915699999998
   },
-  "address": "台南市安南區安中路六段615之一號",
-  "note": "美味炒飯、炒麵與精緻家常便當",
-  "source": "search_2026-05-20"
+  "address": "709臺南市安南區城中里安中路六段615之一號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.39,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
 }

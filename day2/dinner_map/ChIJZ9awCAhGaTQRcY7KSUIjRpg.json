@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJZ9awCAhGaTQRcY7KSUIjRpg",
+  "name_zh": "越南巧味小吃館",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 115,
+  "location": {
+    "lat": 24.056797700000004,
+    "lng": 120.4340677
+  },
+  "address": "505彰化縣鹿港鎮順興里介壽路三段19號",
+  "primary_type": "vietnamese_restaurant",
+  "primary_type_label": "越南餐廳",
+  "distance_km": 0.16,
+  "source": "api_2026-05-21",
+  "note": "越南餐廳",
+  "name_is_ascii": false
+}

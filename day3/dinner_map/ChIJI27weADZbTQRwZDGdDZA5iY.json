@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJI27weADZbTQRwZDGdDZA5iY",
+  "name_zh": "土城夜市麻辣鴨血",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 2,
+  "location": {
+    "lat": 23.068076100000003,
+    "lng": 120.1272383
+  },
+  "address": "709臺南市安南區城安街土城聖母廟廣場",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.23,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

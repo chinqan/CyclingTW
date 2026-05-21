@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJUc-Y5LmfaDQR2nZt91HX1g4",
+  "name_zh": "王記茶舖人文茶堂 - 中山店",
+  "name_lang": "zh-TW",
+  "rating": 3.9,
+  "total_ratings": 3785,
+  "location": {
+    "lat": 23.987848700000004,
+    "lng": 121.60057830000001
+  },
+  "address": "970花蓮縣花蓮市國聯里中山路565號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.61,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

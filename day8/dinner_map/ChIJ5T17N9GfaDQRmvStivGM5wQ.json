@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ5T17N9GfaDQRmvStivGM5wQ",
+  "name_zh": "單一純賣 雞湯 小卷米粉",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 5268,
+  "location": {
+    "lat": 23.9870903,
+    "lng": 121.62192139999999
+  },
+  "address": "970花蓮縣花蓮市民勤里中美路67-2號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 2.21,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

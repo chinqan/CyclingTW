@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJG3PnKCRrbzQRQA9v-ulNkAY",
   "name_zh": "津御堂燉品屋",
+  "name_lang": "zh-TW",
   "rating": 4.5,
   "total_ratings": 173,
   "location": {
-    "lat": 23.331872,
-    "lng": 121.316101
+    "lat": 23.3318723,
+    "lng": 121.3161009
   },
-  "address": "花蓮縣玉里鎮光復路77號",
-  "note": "燉品養生湯",
-  "source": "search_2026-07"
+  "address": "981花蓮縣玉里鎮中城里光復路77號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.45,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
 }

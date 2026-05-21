@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJY1YREKilaDQRIxnE3L-YhSk",
+  "name_zh": "麥當勞",
+  "name_lang": "zh-TW",
+  "rating": 3.9,
+  "total_ratings": 3199,
+  "location": {
+    "lat": 23.986782299999998,
+    "lng": 121.6015688
+  },
+  "address": "970花蓮縣花蓮市國魂里中山路549-6號",
+  "primary_type": "fast_food_restaurant",
+  "primary_type_label": "速食餐廳",
+  "distance_km": 0.73,
+  "source": "api_2026-05-21",
+  "note": "速食餐廳",
+  "name_is_ascii": false
+}

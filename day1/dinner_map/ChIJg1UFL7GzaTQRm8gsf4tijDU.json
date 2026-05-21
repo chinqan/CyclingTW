@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJg1UFL7GzaTQRm8gsf4tijDU",
+  "name_zh": "くら寿司 藏壽司 頭份運動公園店",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 729,
+  "location": {
+    "lat": 24.6915881,
+    "lng": 120.891265
+  },
+  "address": "35146苗栗縣頭份市後庄里公北一路67號",
+  "primary_type": "sushi_restaurant",
+  "primary_type_label": "壽司店",
+  "distance_km": 1.22,
+  "source": "api_2026-05-21",
+  "note": "壽司店",
+  "name_is_ascii": false
+}

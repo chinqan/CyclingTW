@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJJV58G3tqbzQR4y50fRA763o",
+  "name_zh": "中泰小吃",
+  "name_lang": "zh-TW",
+  "rating": 3.9,
+  "total_ratings": 30,
+  "location": {
+    "lat": 23.3306057,
+    "lng": 121.31664769999999
+  },
+  "address": "981花蓮縣玉里鎮中城里城東四街57號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.51,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

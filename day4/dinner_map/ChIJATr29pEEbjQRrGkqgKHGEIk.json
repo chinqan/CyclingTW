@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJATr29pEEbjQRrGkqgKHGEIk",
+  "name_zh": "竹地食堂",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 565,
+  "location": {
+    "lat": 22.364354199999998,
+    "lng": 120.5957733
+  },
+  "address": "940屏東縣枋寮鄉安樂村隆山路43巷46號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 0.41,
+  "source": "api_2026-05-21",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

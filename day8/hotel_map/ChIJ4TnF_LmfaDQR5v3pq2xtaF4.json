@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ4TnF_LmfaDQR5v3pq2xtaF4",
+  "name_zh": "麗星大飯店 Lishin Hotel",
+  "name_lang": "zh-TW",
+  "rating": 3.9,
+  "total_ratings": 542,
+  "location": {
+    "lat": 23.988345,
+    "lng": 121.60033399999999
+  },
+  "address": "970花蓮縣花蓮市國聯里中山路589號",
+  "primary_type": "hotel",
+  "distance_km": 0.56,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

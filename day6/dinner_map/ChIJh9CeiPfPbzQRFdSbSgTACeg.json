@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJh9CeiPfPbzQRFdSbSgTACeg",
+  "name_zh": "無名鹹酥雞",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 9,
+  "location": {
+    "lat": 22.610442300000003,
+    "lng": 121.00527810000001
+  },
+  "address": "963臺東縣太麻里鄉泰和村太麻里街376號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.93,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

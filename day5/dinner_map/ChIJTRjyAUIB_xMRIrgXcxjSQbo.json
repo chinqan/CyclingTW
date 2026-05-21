@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJTRjyAUIB_xMRIrgXcxjSQbo",
+  "name_zh": "砂島海女咖啡• 甜點•早午餐 Shadao Cafe - Beer, Dessert & Brunch",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 136,
+  "location": {
+    "lat": 21.9148841,
+    "lng": 120.84244389999999
+  },
+  "address": "946屏东县恒春镇鵝鑾里砂島路212號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.76,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

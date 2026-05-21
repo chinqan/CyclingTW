@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJWwx9XgDZbTQRTTlrPEVtvDc",
+  "name_zh": "啊蘭小吃",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 9,
+  "location": {
+    "lat": 23.0664138,
+    "lng": 120.13263509999999
+  },
+  "address": "709台南市安南区城东里城北路234巷51弄10號",
+  "primary_type": "asian_restaurant",
+  "primary_type_label": "亞洲風味餐廳",
+  "distance_km": 0.58,
+  "source": "api_2026-05-21",
+  "note": "亞洲風味餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJg4FoZnTZbTQRy_HM_aB3phU",
+  "name_zh": "溪埔仔早餐店",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 28,
+  "location": {
+    "lat": 23.076273999999998,
+    "lng": 120.13053
+  },
+  "address": "709臺南市安南區學東里城北路736號",
+  "primary_type": "breakfast_restaurant",
+  "primary_type_label": "早餐店",
+  "distance_km": 1.19,
+  "source": "api_2026-05-21",
+  "note": "早餐店",
+  "name_is_ascii": false
+}

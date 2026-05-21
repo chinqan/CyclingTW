@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJo6zqcABFaTQR6Lu-LusRcog",
+  "name_zh": "沐苡家• 韓食料理๑",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 189,
+  "location": {
+    "lat": 24.051729899999998,
+    "lng": 120.4328282
+  },
+  "address": "505彰化縣鹿港鎮菜園里三民路238巷21號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.51,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ56Ggbu6pQjQRvUtp4bHQRAs",
+  "name_zh": "飽藏食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 12,
+  "location": {
+    "lat": 25.089517299999997,
+    "lng": 121.45819359999999
+  },
+  "address": "247新北市蘆洲區永樂里永樂街38巷39號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.47,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

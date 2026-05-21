@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJq5_5CntqbzQRelvsROvwHQI",
+  "name_zh": "東美冰菓室",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 333,
+  "location": {
+    "lat": 23.3314861,
+    "lng": 121.3158417
+  },
+  "address": "981花蓮縣玉里鎮中城里中山路一段210號",
+  "primary_type": "dessert_restaurant",
+  "primary_type_label": "甜品餐廳",
+  "distance_km": 0.42,
+  "source": "api_2026-05-21",
+  "note": "甜品餐廳",
+  "name_is_ascii": false
+}

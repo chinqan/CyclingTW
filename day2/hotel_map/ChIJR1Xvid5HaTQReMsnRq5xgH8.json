@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJR1Xvid5HaTQReMsnRq5xgH8",
+  "name_zh": "花漾小鹿旅店",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 124,
+  "location": {
+    "lat": 24.047737299999998,
+    "lng": 120.43732419999999
+  },
+  "address": "505彰化縣鹿港鎮街尾里青雲路73巷27號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 1.07,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

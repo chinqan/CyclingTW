@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJDZe0zWKycTQRb2gDUiXlTvw",
+  "name_zh": "墾丁泊途會館 EL PUERTO HOTEL",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 755,
+  "location": {
+    "lat": 21.9136601,
+    "lng": 120.8479002
+  },
+  "address": "946屏東縣恆春鎮鵝鑾里砂島路252號",
+  "primary_type": "resort_hotel",
+  "distance_km": 1.36,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

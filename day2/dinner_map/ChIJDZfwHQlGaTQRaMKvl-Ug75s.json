@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJDZfwHQlGaTQRaMKvl-Ug75s",
+  "name_zh": "鹿港施米糕",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 426,
+  "location": {
+    "lat": 24.058245,
+    "lng": 120.4395144
+  },
+  "address": "505彰化縣鹿港鎮永安里中正路357號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.74,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

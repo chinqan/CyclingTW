@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJE_FGGADZbTQRAWSLxx0N8Fo",
-  "name_zh": "土城無名麵店",
-  "rating": 4.0,
-  "total_ratings": 48,
+  "name_zh": "麵店",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 1,
   "location": {
-    "lat": 23.0622269,
-    "lng": 120.1285199
+    "lat": 23.062226900000002,
+    "lng": 120.12851990000001
   },
-  "address": "台南市安南區青砂街一段1號",
-  "note": "土城在地人最愛的無名陽春麵、黑白切",
-  "source": "search_2026-05-20"
+  "address": "709臺南市安南區城中里青砂街一段1號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.45,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
 }

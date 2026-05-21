@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ9-9_eBXccTQRXpkCv1k0SVs",
+  "name_zh": "海之方圓旅店",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 52,
+  "location": {
+    "lat": 22.364103399999998,
+    "lng": 120.59751809999999
+  },
+  "address": "940屏東縣枋寮鄉隆山村隆山路85號",
+  "primary_type": "lodging",
+  "distance_km": 0.5,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

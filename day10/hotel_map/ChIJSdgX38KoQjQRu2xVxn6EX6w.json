@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJSdgX38KoQjQRu2xVxn6EX6w",
+  "name_zh": "雅格汽車旅館",
+  "name_lang": "zh-TW",
+  "rating": 3.4,
+  "total_ratings": 368,
+  "location": {
+    "lat": 25.0702699,
+    "lng": 121.47877419999999
+  },
+  "address": "241新北市三重區永發里後竹圍街289-1號",
+  "primary_type": "motel",
+  "distance_km": 2.57,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

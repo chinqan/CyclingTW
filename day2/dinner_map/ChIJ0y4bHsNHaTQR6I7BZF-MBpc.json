@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ0y4bHsNHaTQR6I7BZF-MBpc",
+  "name_zh": "旮旯楍卅",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 594,
+  "location": {
+    "lat": 24.065751199999998,
+    "lng": 120.43656190000002
+  },
+  "address": "505彰化縣鹿港鎮埔崙里鹿草路一段470號",
+  "primary_type": "breakfast_restaurant",
+  "primary_type_label": "早餐店",
+  "distance_km": 1.13,
+  "source": "api_2026-05-21",
+  "note": "早餐店",
+  "name_is_ascii": false
+}

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJDXlmoVqpQjQRUqH3LEuUcMo",
+  "name_zh": "捷絲旅 台北三重館",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 2720,
+  "location": {
+    "lat": 25.0772463,
+    "lng": 121.4870411
+  },
+  "address": "24152新北市三重區福隆里三和路四段107-1號",
+  "primary_type": "hotel",
+  "distance_km": 2.74,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

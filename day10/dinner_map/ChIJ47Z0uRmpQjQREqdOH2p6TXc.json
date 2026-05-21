@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ47Z0uRmpQjQREqdOH2p6TXc",
+  "name_zh": "信本嘉串燒工坊-蘆洲串燒|蘆洲宵夜|蘆洲美食|必吃串燒|在地人氣美食|下班聚餐|小酌好去處|深夜美食",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 41,
+  "location": {
+    "lat": 25.087975999999998,
+    "lng": 121.4670429
+  },
+  "address": "247新北市蘆洲區保佑里中正路182號",
+  "primary_type": "yakitori_restaurant",
+  "primary_type_label": "日式串燒餐廳",
+  "distance_km": 0.44,
+  "source": "api_2026-05-21",
+  "note": "日式串燒餐廳",
+  "name_is_ascii": false
+}

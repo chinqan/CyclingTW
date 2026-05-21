@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJKSChaqVMXTQRsbeVFN9CWE0",
+  "name_zh": "水田園溫泉民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 748,
+  "location": {
+    "lat": 25.211468,
+    "lng": 121.6404522
+  },
+  "address": "207新北市萬里區大鵬里45之9號",
+  "primary_type": "private_guest_room",
+  "distance_km": 1.17,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

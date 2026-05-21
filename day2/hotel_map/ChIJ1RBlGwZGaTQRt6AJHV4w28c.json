@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ1RBlGwZGaTQRt6AJHV4w28c",
+  "name_zh": "鹿港澄悅商旅 Joy Inn Lukang",
+  "name_lang": "ja",
+  "rating": 4.2,
+  "total_ratings": 1780,
+  "location": {
+    "lat": 24.0618567,
+    "lng": 120.43709799999999
+  },
+  "address": "505彰化縣鹿港鎮埔崙里中正路510巷1號",
+  "primary_type": "hotel",
+  "distance_km": 0.77,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

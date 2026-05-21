@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ4d0B4cefaDQRKUDeJRQJ_3o",
+  "name_zh": "昂昂廟口小吃",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 433,
+  "location": {
+    "lat": 23.9865465,
+    "lng": 121.6068124
+  },
+  "address": "No. 94, No. 94進豐街國防里花蓮市花蓮縣970",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.94,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

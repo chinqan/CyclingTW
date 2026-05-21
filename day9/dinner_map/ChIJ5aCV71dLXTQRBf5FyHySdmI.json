@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ5aCV71dLXTQRBf5FyHySdmI",
+  "name_zh": "兄弟食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 2578,
+  "location": {
+    "lat": 25.2205667,
+    "lng": 121.6405643
+  },
+  "address": "208新北市金山區大同里金包里街2號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.26,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

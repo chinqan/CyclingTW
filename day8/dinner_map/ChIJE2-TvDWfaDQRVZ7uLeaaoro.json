@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJE2-TvDWfaDQRVZ7uLeaaoro",
+  "name_zh": "飯人小吃店-RICE MAN",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 897,
+  "location": {
+    "lat": 23.9801964,
+    "lng": 121.60337750000001
+  },
+  "address": "970花蓮縣花蓮市國華里林森路311號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.47,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

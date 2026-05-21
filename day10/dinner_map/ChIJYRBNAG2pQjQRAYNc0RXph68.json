@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJYRBNAG2pQjQRAYNc0RXph68",
-  "name_zh": "樂樂燒肉 蘆洲店",
+  "name_zh": "樂樂燒肉 蘆洲店（新北蘆洲燒烤燒肉吃到飽 蘆洲必吃美食推薦 蘆洲好吃晚餐）",
+  "name_lang": "zh-TW",
   "rating": 4.7,
-  "total_ratings": 4016,
+  "total_ratings": 4018,
   "location": {
-    "lat": 25.085426,
-    "lng": 121.473001
+    "lat": 25.085426299999998,
+    "lng": 121.4730013
   },
-  "address": "新北市蘆洲區復興路56號",
-  "note": "燒肉吃到飽 慶功宴",
-  "source": "search_2026-07"
+  "address": "247新北市蘆洲區保和里復興路56號",
+  "primary_type": "yakiniku_restaurant",
+  "primary_type_label": "日式燒肉餐廳",
+  "distance_km": 1.09,
+  "source": "api_2026-05-21",
+  "note": "日式燒肉餐廳",
+  "name_is_ascii": false
 }

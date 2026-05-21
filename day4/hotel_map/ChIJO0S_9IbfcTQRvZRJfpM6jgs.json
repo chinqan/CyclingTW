@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJO0S_9IbfcTQRvZRJfpM6jgs",
+  "name_zh": "小象民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 52,
+  "location": {
+    "lat": 22.3880233,
+    "lng": 120.59320109999999
+  },
+  "address": "940屏東縣枋寮鄉地利村臨海路 21巷40號",
+  "primary_type": "guest_house",
+  "distance_km": 2.23,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

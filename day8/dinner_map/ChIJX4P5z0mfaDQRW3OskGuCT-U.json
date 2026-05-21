@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJX4P5z0mfaDQRW3OskGuCT-U",
+  "name_zh": "陳家食堂",
+  "name_lang": "zh",
+  "rating": 4.7,
+  "total_ratings": 1981,
+  "location": {
+    "lat": 23.9753339,
+    "lng": 121.60431609999998
+  },
+  "address": "97046花蓮縣花蓮市主信里中正路439號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 2.02,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

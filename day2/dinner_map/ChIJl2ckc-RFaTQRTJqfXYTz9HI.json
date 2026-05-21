@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJl2ckc-RFaTQRTJqfXYTz9HI",
+  "name_zh": "紅樓餐廳",
+  "name_lang": "zh-TW",
+  "rating": 3.9,
+  "total_ratings": 1751,
+  "location": {
+    "lat": 24.0625365,
+    "lng": 120.4294614
+  },
+  "address": "505彰化縣鹿港鎮東石里崇文路25號",
+  "primary_type": "seafood_restaurant",
+  "primary_type_label": "海鮮餐廳",
+  "distance_km": 0.76,
+  "source": "api_2026-05-21",
+  "note": "海鮮餐廳",
+  "name_is_ascii": false
+}

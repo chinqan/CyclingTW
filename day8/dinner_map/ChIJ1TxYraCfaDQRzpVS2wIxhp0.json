@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ1TxYraCfaDQRzpVS2wIxhp0",
+  "name_zh": "大盛屋 - 日式丼飯烏龍麵專賣店 花蓮美食 花蓮午餐 花蓮晚餐 花蓮在地人餐廳推薦",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 2078,
+  "location": {
+    "lat": 23.9771584,
+    "lng": 121.6029322
+  },
+  "address": "970花蓮縣花蓮市主工里民國路53號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.8,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -5,29 +5,16 @@
       "place_id": "ChIJiX27_QbPbzQRHtI2Mswq5kc",
       "name_zh": "187嗑棧",
       "rating": 4.7,
-      "total_ratings": 704,
+      "total_ratings": 705,
       "location": {
-        "lat": 22.604177,
-        "lng": 121.003003
+        "lat": 22.604177399999998,
+        "lng": 121.00300250000001
       },
-      "address": "台東縣太麻里鄉泰和村外環路187號",
-      "note": "在地快炒 炒飯超讚 週二公休",
-      "source": "search_2026-07",
+      "address": "963臺東縣太麻里鄉泰和村外環路187號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
       "selected": true
-    },
-    {
-      "place_id": "ChIJ4VDU8ZzTbzQRHqvWyCiD8Qc",
-      "name_zh": "嘎努食堂 原住民熱炒風味餐廳",
-      "rating": 4.6,
-      "total_ratings": 604,
-      "location": {
-        "lat": 22.531552,
-        "lng": 120.963543
-      },
-      "address": "台東縣太麻里鄉金崙村金崙路403號",
-      "note": "原住民風味餐 週三公休",
-      "source": "search_2026-07",
-      "selected": false
     },
     {
       "place_id": "ChIJ75vo-QTPbzQRtL8dlJEhwv8",
@@ -36,53 +23,57 @@
       "total_ratings": 802,
       "location": {
         "lat": 22.611524,
-        "lng": 121.007213
+        "lng": 121.00721300000001
       },
-      "address": "台東縣太麻里鄉泰和村外環路49號",
-      "note": "越南河粉蝦餅 週二公休",
-      "source": "search_2026-07",
+      "address": "963臺東縣太麻里鄉泰和村外環路49號",
+      "note": "越南餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
       "selected": true
     },
     {
-      "place_id": "ChIJI0jmeUpPXTQRRHdClh8ZaZk",
-      "name_zh": "双亭院咖啡餐食甜點",
-      "rating": 4.9,
-      "total_ratings": 1984,
+      "place_id": "ChIJAeiq1pXObzQRshPgang4iZs",
+      "name_zh": "士官長牛肉麵",
+      "rating": 4.4,
+      "total_ratings": 877,
       "location": {
-        "lat": 22.462148,
-        "lng": 120.942476
+        "lat": 22.6154711,
+        "lng": 121.00535959999999
       },
-      "address": "台東縣太麻里鄉36-5號",
-      "note": "排灣族創意料理咖啡 週三公休 偏離主線",
-      "source": "search_2026-07",
-      "selected": true
-    },
-    {
-      "place_id": "ChIJS4y1ekXSbzQRWtRaWjMV7YA",
-      "name_zh": "烤什麼風味屋",
-      "rating": 4.5,
-      "total_ratings": 433,
-      "location": {
-        "lat": 22.532849,
-        "lng": 120.955415
-      },
-      "address": "台東縣太麻里鄉金崙村溫泉14鄰25號",
-      "note": "金崙原住民燒烤",
-      "source": "search_2026-07",
+      "address": "963臺東縣太麻里鄉大王村太峰路116號",
+      "note": "中式麵館",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
       "selected": false
     },
     {
-      "place_id": "ChIJVVVVVZLObzQRDjpKBLa1FXA",
-      "name_zh": "林家小館",
-      "rating": 4.2,
-      "total_ratings": 416,
+      "place_id": "ChIJ42A4PdLPbzQR-ZSjNBRW71Q",
+      "name_zh": "麻里マリ朝午食-太麻里店（店休臉書公告）",
+      "rating": 4.8,
+      "total_ratings": 251,
       "location": {
-        "lat": 22.618203,
-        "lng": 121.010137
+        "lat": 22.6100264,
+        "lng": 121.0048094
       },
-      "address": "台東縣太麻里鄉泰和村太麻里街15號",
-      "note": "太麻里在地快炒 車站旁",
-      "source": "search_2026-07",
+      "address": "963臺東縣太麻里鄉泰和村至善路17號",
+      "note": "早午餐餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ3QrH8OLPbzQRQ69KfP1F65Q",
+      "name_zh": "台東美食推薦 台東網美咖啡 淳真好食光",
+      "rating": 4.7,
+      "total_ratings": 367,
+      "location": {
+        "lat": 22.6088588,
+        "lng": 121.00439459999998
+      },
+      "address": "963臺東縣太麻里鄉泰和村太麻里街472號",
+      "note": "甜品餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
       "selected": false
     },
     {
@@ -91,82 +82,388 @@
       "rating": 4.3,
       "total_ratings": 532,
       "location": {
-        "lat": 22.615536,
-        "lng": 121.008581
+        "lat": 22.6155364,
+        "lng": 121.0085809
       },
-      "address": "台東縣太麻里鄉泰和村太麻里街95號",
-      "note": "台越料理 太麻里街上",
-      "source": "search_2026-07",
+      "address": "963臺東縣太麻里鄉泰和村太麻里街95號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
       "selected": false
     },
     {
-      "place_id": "ChIJk4uFvpbObzQRuLBO8_jyPHc",
-      "name_zh": "金三角小吃部",
-      "rating": 4.8,
+      "place_id": "ChIJtZEL2pPObzQRm_VMm1FWigA",
+      "name_zh": "太麻里蛋餅",
+      "rating": 4.6,
       "total_ratings": 142,
       "location": {
-        "lat": 22.613937,
-        "lng": 121.00378
+        "lat": 22.6104989,
+        "lng": 121.0052191
       },
-      "address": "台東縣太麻里鄉大王村泰豐路192號",
-      "note": "在地小吃 份量大",
-      "source": "search_2026-07",
+      "address": "963臺東縣太麻里鄉泰和村太麻里街392號",
+      "note": "早餐店",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJv4HjzBLPbzQRx-2Vn0R7_80",
+      "name_zh": "海泱日記 Whale Diary Resort",
+      "rating": 4.8,
+      "total_ratings": 102,
+      "location": {
+        "lat": 22.617113399999997,
+        "lng": 121.0100267
+      },
+      "address": "963臺東縣太麻里鄉泰和村太麻里街35號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJVVVVVZLObzQRDjpKBLa1FXA",
+      "name_zh": "林家小館",
+      "rating": 4.2,
+      "total_ratings": 416,
+      "location": {
+        "lat": 22.618202699999998,
+        "lng": 121.01013700000001
+      },
+      "address": "963臺東縣太麻里鄉泰和村太麻里街15號",
+      "note": "台式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJQzC44m7PbzQR0QIV9rlKt8g",
+      "name_zh": "山海川烤雞城",
+      "rating": 4.4,
+      "total_ratings": 266,
+      "location": {
+        "lat": 22.6239688,
+        "lng": 121.01226459999998
+      },
+      "address": "963臺東縣太麻里鄉4號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJz3ofyNSxcTQR_xaOScKj59w",
+      "name_zh": "蝦一跳活蝦料理餐廳",
+      "rating": 4.3,
+      "total_ratings": 208,
+      "location": {
+        "lat": 22.624167399999997,
+        "lng": 121.0121824
+      },
+      "address": "963台东县太麻里乡1鄰2-10號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJfxTkiJHObzQR6m2PRqpbZ4M",
+      "name_zh": "魯冰花滷肉飯",
+      "rating": 4.4,
+      "total_ratings": 233,
+      "location": {
+        "lat": 22.6107462,
+        "lng": 121.005385
+      },
+      "address": "963臺東縣太麻里鄉泰和村太麻里街318號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJg6rKsJLPbzQRxSoZQQ7tiPk",
+      "name_zh": "好食屋",
+      "rating": 4.9,
+      "total_ratings": 120,
+      "location": {
+        "lat": 22.616151,
+        "lng": 121.008775
+      },
+      "address": "963臺東縣太麻里鄉泰和村太麻里街81號千禧曙光紀念園區入口",
+      "note": "早午餐餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
       "selected": true
+    },
+    {
+      "place_id": "ChIJOZNLsJXObzQRVs3uZbVWwCQ",
+      "name_zh": "去拿早午餐 Quna brunch",
+      "rating": 4.2,
+      "total_ratings": 308,
+      "location": {
+        "lat": 22.6149347,
+        "lng": 121.00717809999999
+      },
+      "address": "96342臺東縣太麻里鄉德輝路7號",
+      "note": "早餐店",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJH_Vyrz-5bzQR0Icc2ANWiEw",
+      "name_zh": "喜樂陶餐坊",
+      "rating": 4.3,
+      "total_ratings": 152,
+      "location": {
+        "lat": 22.616665599999997,
+        "lng": 121.00200439999998
+      },
+      "address": "963臺東縣太麻里鄉台東縣太麻里鄉大王村1鄰沙崙1號之1",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJg6-tj6rPbzQRcsAdtWHmaIk",
+      "name_zh": "小魚妹早午餐~每星期一都放假去",
+      "rating": 4.7,
+      "total_ratings": 130,
+      "location": {
+        "lat": 22.609655999999998,
+        "lng": 121.00403030000001
+      },
+      "address": "963臺東縣太麻里鄉泰和村和平路20之1號",
+      "note": "早午餐餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJE-NV25PObzQRMK2alAvR_kQ",
+      "name_zh": "香香牛肉麵",
+      "rating": 4.2,
+      "total_ratings": 287,
+      "location": {
+        "lat": 22.6105304,
+        "lng": 121.00544380000001
+      },
+      "address": "963臺東縣太麻里鄉泰和村太麻里街251號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJC9lxLZLObzQRUSuhvCLUROs",
+      "name_zh": "信隆美食飯包",
+      "rating": 4.3,
+      "total_ratings": 166,
+      "location": {
+        "lat": 22.6112321,
+        "lng": 121.00649639999999
+      },
+      "address": "963臺東縣太麻里鄉泰和村外環路92號",
+      "note": "外賣餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJNYmVsAHPbzQRDS1iO0W35ng",
+      "name_zh": "太麻里半山腰薑母鴨",
+      "rating": 4.8,
+      "total_ratings": 29,
+      "location": {
+        "lat": 22.613334599999998,
+        "lng": 120.9897233
+      },
+      "address": "96346臺東縣太麻里鄉大王村70號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJz9D53NLPbzQR5yOHY3bMR2w",
+      "name_zh": "Chee goo飢咕食堂",
+      "rating": 4.8,
+      "total_ratings": 53,
+      "location": {
+        "lat": 22.6124929,
+        "lng": 121.0070709
+      },
+      "address": "963臺東縣太麻里鄉泰和村外環路36號1樓",
+      "note": "家庭餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
     },
     {
       "place_id": "ChIJWVcnO5TObzQRG3lH7pQVDmE",
       "name_zh": "來福小吃部",
-      "rating": 4.0,
+      "rating": 4,
       "total_ratings": 154,
       "location": {
-        "lat": 22.613861,
-        "lng": 121.005806
+        "lat": 22.613860499999998,
+        "lng": 121.0058055
       },
-      "address": "台東縣太麻里鄉金宣路27號",
-      "note": "在地小吃",
-      "source": "search_2026-07",
+      "address": "963臺東縣太麻里鄉金萱路3 鄰 27 號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
       "selected": false
     },
     {
-      "place_id": "ChIJjVYBOQDTbzQRBBsot3wVXe8",
-      "name_zh": "屋瑪umaq 餐館",
-      "rating": 4.9,
-      "total_ratings": 203,
+      "place_id": "ChIJg60Ho5PPbzQRtqnVeaLQYLI",
+      "name_zh": "太麻里鼎皇火鍋牛排",
+      "rating": 4.3,
+      "total_ratings": 117,
       "location": {
-        "lat": 22.531267,
-        "lng": 120.963575
+        "lat": 22.609856600000004,
+        "lng": 121.00505749999999
       },
-      "address": "台東縣太麻里鄉金崙村396號",
-      "note": "原住民特色料理 金崙",
-      "source": "search_2026-07",
+      "address": "963臺東縣太麻里鄉泰和村太麻里街283號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJMSX_LwDPbzQR87-nfAcTnNE",
+      "name_zh": "維縈家鄉碳烤雞排 太麻里店",
+      "rating": 4.9,
+      "total_ratings": 157,
+      "location": {
+        "lat": 22.611824499999997,
+        "lng": 121.0060094
+      },
+      "address": "963臺東縣太麻里鄉泰和村太麻里街272號",
+      "note": "速食餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
       "selected": true
     },
     {
-      "place_id": "ChIJa64E1JPObzQRKsQaLIynB8Q",
-      "name_zh": "小燕廚房",
-      "rating": 4.1,
-      "total_ratings": 589,
+      "place_id": "ChIJeyoCSGPPbzQRnEkYYoEfH7U",
+      "name_zh": "享味川式鴨血豆腐",
+      "rating": 4.7,
+      "total_ratings": 39,
       "location": {
-        "lat": 22.610147,
-        "lng": 121.005219
+        "lat": 22.6124033,
+        "lng": 121.00631399999999
       },
-      "address": "台東縣太麻里鄉泰和村太麻里街273號",
-      "note": "便當快餐 太麻里街",
-      "source": "search_2026-07",
+      "address": "963臺東縣太麻里鄉泰和村太麻里街236號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
       "selected": false
     },
     {
-      "place_id": "ChIJT9fWSEbSbzQR5YQmFJIRy7M",
-      "name_zh": "名湘園海產小館",
-      "rating": 4.2,
-      "total_ratings": 391,
+      "place_id": "ChIJD8902pPObzQRKrHBM_nWexI",
+      "name_zh": "嘉興小吃部",
+      "rating": 4,
+      "total_ratings": 181,
       "location": {
-        "lat": 22.533486,
-        "lng": 120.962227
+        "lat": 22.6098479,
+        "lng": 121.0048876
       },
-      "address": "台東縣太麻里鄉金崙村446號",
-      "note": "海鮮快炒 金崙",
-      "source": "search_2026-07",
+      "address": "963臺東縣太麻里鄉泰和村太麻里街430號",
+      "note": "台式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJabEsSQDPbzQRurYYsvTKt3U",
+      "name_zh": "市場小吃",
+      "rating": 5,
+      "total_ratings": 4,
+      "location": {
+        "lat": 22.6107639,
+        "lng": 121.00491099999998
+      },
+      "address": "963臺東縣太麻里鄉太麻里市場小吃",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJtZk7qGzPbzQRIpJ6F2rAyzE",
+      "name_zh": "阿富瀚小吃",
+      "rating": 4.9,
+      "total_ratings": 14,
+      "location": {
+        "lat": 22.634719099999998,
+        "lng": 121.0011604
+      },
+      "address": "964臺東縣金峰鄉新興村53-1",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJey-i7pPObzQRyEDq9VCM_iU",
+      "name_zh": "薪傳小吃店",
+      "rating": 4.6,
+      "total_ratings": 23,
+      "location": {
+        "lat": 22.611339599999997,
+        "lng": 121.0058893
+      },
+      "address": "963臺東縣太麻里鄉泰和村太麻里街213號",
+      "note": "早餐店",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ3322F8rPbzQRNzxluKrB7PE",
+      "name_zh": "南坑餐坊",
+      "rating": 5,
+      "total_ratings": 4,
+      "location": {
+        "lat": 22.6132645,
+        "lng": 121.00603439999999
+      },
+      "address": "963臺東縣太麻里鄉大王村民權路85號",
+      "note": "早餐店",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJBWEDRgDPbzQRghAzwOZf4oE",
+      "name_zh": "涮嘴麻辣串串香-太麻里店",
+      "rating": 5,
+      "total_ratings": 1,
+      "location": {
+        "lat": 22.6109671,
+        "lng": 121.00332999999999
+      },
+      "address": "963臺東縣太麻里鄉大王村至善路32號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJh9CeiPfPbzQRFdSbSgTACeg",
+      "name_zh": "無名鹹酥雞",
+      "rating": 4.1,
+      "total_ratings": 9,
+      "location": {
+        "lat": 22.610442300000003,
+        "lng": 121.00527810000001
+      },
+      "address": "963臺東縣太麻里鄉泰和村太麻里街376號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
       "selected": false
     }
   ]

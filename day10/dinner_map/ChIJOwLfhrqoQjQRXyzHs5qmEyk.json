@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJOwLfhrqoQjQRXyzHs5qmEyk",
+  "name_zh": "高田食堂 長安店（日式料理）",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 2254,
+  "location": {
+    "lat": 25.082450599999998,
+    "lng": 121.45968350000001
+  },
+  "address": "247新北市蘆洲區長安里長安街223號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 0.71,
+  "source": "api_2026-05-21",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJC05kdPCvQjQRAj0-MlofG9k",
+  "name_zh": "一面之緣 襄楚麵食館【五股店】",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 744,
+  "location": {
+    "lat": 25.0961675,
+    "lng": 121.4488507
+  },
+  "address": "248新北市五股區成州里成泰路三段369之1號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 1.65,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

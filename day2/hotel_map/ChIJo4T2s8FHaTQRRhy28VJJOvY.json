@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJo4T2s8FHaTQRRhy28VJJOvY",
+  "name_zh": "鹿港安順19旅居 Anson 19",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 299,
+  "location": {
+    "lat": 24.062206,
+    "lng": 120.43970800000001
+  },
+  "address": "50547彰化縣鹿港鎮埔崙里安順街19號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.98,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

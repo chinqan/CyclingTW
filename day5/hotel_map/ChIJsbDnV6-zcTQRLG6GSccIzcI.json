@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJsbDnV6-zcTQRLG6GSccIzcI",
+  "name_zh": "日光·嶼南 SUNLIGHT ON THE PENINSULA",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 1646,
+  "location": {
+    "lat": 21.917470500000004,
+    "lng": 120.8476813
+  },
+  "address": "946屏東縣恆春鎮鵝鑾里埔頂路191號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 1.77,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

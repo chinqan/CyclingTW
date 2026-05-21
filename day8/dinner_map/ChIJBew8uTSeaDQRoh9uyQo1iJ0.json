@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJBew8uTSeaDQRoh9uyQo1iJ0",
+  "name_zh": "竹籬笆小吃店",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 279,
+  "location": {
+    "lat": 23.9964218,
+    "lng": 121.6062015
+  },
+  "address": "970花蓮縣花蓮市國民6之1號",
+  "primary_type": "deli",
+  "primary_type_label": "小吃店",
+  "distance_km": 0.61,
+  "source": "api_2026-05-21",
+  "note": "小吃店",
+  "name_is_ascii": false
+}

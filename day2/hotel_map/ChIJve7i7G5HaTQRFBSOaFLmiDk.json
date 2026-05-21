@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJve7i7G5HaTQRFBSOaFLmiDk",
+  "name_zh": "鹿港簇瞇民宿Chooz me",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 38,
+  "location": {
+    "lat": 24.0611244,
+    "lng": 120.44023179999999
+  },
+  "address": "505彰化縣鹿港鎮永安里永安二路57號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.94,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

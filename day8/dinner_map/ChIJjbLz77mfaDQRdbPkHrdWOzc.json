@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJjbLz77mfaDQRdbPkHrdWOzc",
+  "name_zh": "以諾廚房",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 484,
+  "location": {
+    "lat": 23.9871271,
+    "lng": 121.600715
+  },
+  "address": "970花蓮縣花蓮市國聯里商校街192-1號",
+  "primary_type": "asian_restaurant",
+  "primary_type_label": "亞洲風味餐廳",
+  "distance_km": 0.69,
+  "source": "api_2026-05-21",
+  "note": "亞洲風味餐廳",
+  "name_is_ascii": false
+}

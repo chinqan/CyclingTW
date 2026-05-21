@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJWVCpSZPdcTQR3wGEhoViXDE",
+  "name_zh": "廟口關東煮",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 129,
+  "location": {
+    "lat": 22.367154700000004,
+    "lng": 120.591129
+  },
+  "address": "940屏東縣枋寮鄉枋寮村沿海路36號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.42,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

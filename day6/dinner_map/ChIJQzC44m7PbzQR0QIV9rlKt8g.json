@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJQzC44m7PbzQR0QIV9rlKt8g",
+  "name_zh": "山海川烤雞城",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 266,
+  "location": {
+    "lat": 22.6239688,
+    "lng": 121.01226459999998
+  },
+  "address": "963臺東縣太麻里鄉4號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.94,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

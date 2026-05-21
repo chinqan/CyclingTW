@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJZ7yTL3tqbzQR_y6Xa47lURk",
+  "name_zh": "台越美食",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 135,
+  "location": {
+    "lat": 23.3292018,
+    "lng": 121.31641730000001
+  },
+  "address": "981花蓮縣玉里鎮中城里中山路一段113號",
+  "primary_type": "vietnamese_restaurant",
+  "primary_type_label": "越南餐廳",
+  "distance_km": 0.54,
+  "source": "api_2026-05-21",
+  "note": "越南餐廳",
+  "name_is_ascii": false
+}

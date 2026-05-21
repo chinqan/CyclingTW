@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJPyo0LDzccTQR4tfd4_2b0F4",
+  "name_zh": "枋寮海鮮美食 - 阿達漁港餐廳",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 5066,
+  "location": {
+    "lat": 22.3661651,
+    "lng": 120.5922142
+  },
+  "address": "940屏東縣枋寮鄉枋寮村中興路76號",
+  "primary_type": "seafood_restaurant",
+  "primary_type_label": "海鮮餐廳",
+  "distance_km": 0.36,
+  "source": "api_2026-05-21",
+  "note": "海鮮餐廳",
+  "name_is_ascii": false
+}

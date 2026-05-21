@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJtXh3MLeoQjQRJ22JTIUQNfM",
+  "name_zh": "知味食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 312,
+  "location": {
+    "lat": 25.0837753,
+    "lng": 121.4634904
+  },
+  "address": "247新北市蘆洲區中原里長興路52號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.5,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

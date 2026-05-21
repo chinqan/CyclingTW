@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ8280J9ifaDQRw4Ce0TUYKtU",
+  "name_zh": "Hi-Yes Hotel 勤天大飯店-花蓮館",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 1240,
+  "location": {
+    "lat": 23.993626799999998,
+    "lng": 121.60471380000001
+  },
+  "address": "970花蓮縣花蓮市國聯里國聯五路151號",
+  "primary_type": "hotel",
+  "distance_km": 0.35,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJG0vveVzPbzQRT1MMhBNnLhA",
+  "name_zh": "茶餘.飯後Sobremesa",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 5,
+  "location": {
+    "lat": 22.6350993,
+    "lng": 121.0005319
+  },
+  "address": "964臺東縣金峰鄉新興村71號-1",
+  "primary_type": "private_guest_room",
+  "distance_km": 1.87,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

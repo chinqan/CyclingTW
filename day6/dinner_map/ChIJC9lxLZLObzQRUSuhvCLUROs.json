@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJC9lxLZLObzQRUSuhvCLUROs",
+  "name_zh": "信隆美食飯包",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 166,
+  "location": {
+    "lat": 22.6112321,
+    "lng": 121.00649639999999
+  },
+  "address": "963臺東縣太麻里鄉泰和村外環路92號",
+  "primary_type": "meal_takeaway",
+  "primary_type_label": "外賣餐廳",
+  "distance_km": 0.85,
+  "source": "api_2026-05-21",
+  "note": "外賣餐廳",
+  "name_is_ascii": false
+}

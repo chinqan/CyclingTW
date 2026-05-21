@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJb3wms21HaTQR5Z6G8OX-Xi8",
+  "name_zh": "五鮮級鍋物專賣 鹿港旗艦店",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 2733,
+  "location": {
+    "lat": 24.0611927,
+    "lng": 120.43757319999997
+  },
+  "address": "505彰化縣鹿港鎮永安里中正路496號",
+  "primary_type": "hot_pot_restaurant",
+  "primary_type_label": "火鍋店",
+  "distance_km": 0.74,
+  "source": "api_2026-05-21",
+  "note": "火鍋店",
+  "name_is_ascii": false
+}

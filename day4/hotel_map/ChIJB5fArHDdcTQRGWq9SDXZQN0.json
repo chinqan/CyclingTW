@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJB5fArHDdcTQRGWq9SDXZQN0",
+  "name_zh": "枋寮9453民宿｜枋寮民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 17,
+  "location": {
+    "lat": 22.3677656,
+    "lng": 120.59255859999998
+  },
+  "address": "940屏東縣枋寮鄉枋寮村中興路2巷43號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.26,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

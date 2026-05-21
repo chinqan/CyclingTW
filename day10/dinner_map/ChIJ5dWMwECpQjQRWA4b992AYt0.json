@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ5dWMwECpQjQRWA4b992AYt0",
+  "name_zh": "XO SHABU SHABU 蘆洲店",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 1018,
+  "location": {
+    "lat": 25.084102500000004,
+    "lng": 121.46472569999999
+  },
+  "address": "1樓, No. 2-9號長樂路中原里蘆洲區新北市247",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.5,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

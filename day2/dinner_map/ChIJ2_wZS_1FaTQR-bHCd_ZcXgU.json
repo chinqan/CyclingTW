@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ2_wZS_1FaTQR-bHCd_ZcXgU",
+  "name_zh": "香霖當歸鴨",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 484,
+  "location": {
+    "lat": 24.056773,
+    "lng": 120.43454700000001
+  },
+  "address": "505彰化縣鹿港鎮景福里介壽路三段8號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.21,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

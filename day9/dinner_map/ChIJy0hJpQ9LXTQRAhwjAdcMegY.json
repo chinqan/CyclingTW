@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJy0hJpQ9LXTQRAhwjAdcMegY",
+  "name_zh": "港之町平價海鮮",
+  "name_lang": "zh",
+  "rating": 4.4,
+  "total_ratings": 71,
+  "location": {
+    "lat": 25.2239869,
+    "lng": 121.64874630000001
+  },
+  "address": "208新北市金山區豐漁里民生路64號",
+  "primary_type": "seafood_restaurant",
+  "primary_type_label": "海鮮餐廳",
+  "distance_km": 1.08,
+  "source": "api_2026-05-21",
+  "note": "海鮮餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ68JEAZ_ecTQRsfapvOZcHck",
+  "name_zh": "華珍羊肉",
+  "name_lang": "zh",
+  "rating": 4.1,
+  "total_ratings": 1269,
+  "location": {
+    "lat": 22.3863222,
+    "lng": 120.5947528
+  },
+  "address": "940屏東縣枋寮鄉人和村中山路二段300號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 2.04,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

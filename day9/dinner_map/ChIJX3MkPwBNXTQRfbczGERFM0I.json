@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJX3MkPwBNXTQRfbczGERFM0I",
+  "name_zh": "嶼 Shima",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 42,
+  "location": {
+    "lat": 25.219369399999998,
+    "lng": 121.63405329999998
+  },
+  "address": "208004新北市金山區金美里環金路210號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.51,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

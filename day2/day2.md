@@ -137,14 +137,31 @@ ishikawa-beta
 
 | # | 店名 | 評分 | 留言數 | 貝葉斯分 | 備註 |
 |:---:|:---|:---:|---:|:---:|:---|
-| 1 | [敘敘究燒肉專門店](https://www.google.com/maps/place/?q=place_id:ChIJDyBgePpFaTQRJUsJs7vOpkc) | 4.9★ | 2739 | 4.8347 | 燒肉 需預約 |
-| 2 | [一畝石鍋 鹿港總店](https://www.google.com/maps/place/?q=place_id:ChIJpRXSwg9HaTQRwOSJh1lAlM8) | 4.9★ | 2150 | 4.8225 | 石頭火鍋 高CP值 |
-| 3 | [NU PASTA 彰化鹿港店](https://www.google.com/maps/place/?q=place_id:ChIJPzC4BMlFaTQRrCS331iUfUQ) | 4.9★ | 1224 | 4.7907 | 義式連鎖 平價 |
-| 4 | [快樂蘇打 Happy Soda鹿港店](https://www.google.com/maps/place/?q=place_id:ChIJ0Z-zC6lHaTQREgeeip-pG2U) | 4.8★ | 1430 | 4.7417 | 氣氛佳 份量足 |
-| 5 | [玖燒 炭烤](https://www.google.com/maps/place/?q=place_id:ChIJB3GtcN9FaTQRIqFsC2PKdqk) | 4.9★ | 219 | 4.7028 | 炭烤串燒 宵夜 |
+| 1 | [茶六燒肉堂 鹿港店](https://www.google.com/maps/place/?q=place_id:ChIJC1qBUNJHaTQR5CyE0Rngd7k) | 4.9★ | 6390 | 4.8078 | 餐廳 |
+| 2 | [老蕭土魠魚麵館（日式豬排便當）](https://www.google.com/maps/place/?q=place_id:ChIJdbMQ5yFFaTQRxxyntuMhUUI) | 4.9★ | 2767 | 4.7278 | 台式餐廳 |
+| 3 | [一畝石鍋 鹿港總店](https://www.google.com/maps/place/?q=place_id:ChIJpRXSwg9HaTQRwOSJh1lAlM8) | 4.9★ | 2150 | 4.698 | 火鍋店 |
+| 4 | [三形究藏鍋物](https://www.google.com/maps/place/?q=place_id:ChIJbWXlGKdHaTQRT0JtfspDT-c) | 4.8★ | 2843 | 4.664 | 火鍋店 |
+| 5 | [漢林鐵板燒-鹿港店](https://www.google.com/maps/place/?q=place_id:ChIJqdz0cwZGaTQRZdzeAQRS9tE) | 4.8★ | 2652 | 4.6576 | 日式餐廳 |
 
 > 💡 *排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）*
 > 📋 *[看更多 >>](./day2_dinner.md)*
+
+---
+
+
+
+## 住宿推薦 🏨
+
+| # | 飯店 | 評分 | 留言數 | 貝葉斯分 | 備註 |
+|:---:|:---|:---:|---:|:---:|:---|
+| 1 | [鹿港老街十三號民宿](https://www.google.com/maps/place/?q=place_id:ChIJj8ArZa9FaTQRbCCgz1KtZX8) | 5★ | 884 | 4.7942 |  |
+| 2 | [鹿鹿咪民宿](https://www.google.com/maps/place/?q=place_id:ChIJM_o05T5HaTQRy9tC7apy2Bc) | 5★ | 390 | 4.6689 |  |
+| 3 | [頌謙文旅](https://www.google.com/maps/place/?q=place_id:ChIJyxEyhrtHaTQRHtFcjecsaQA) | 4.8★ | 386 | 4.5717 |  |
+| 4 | [鹿比民宿](https://www.google.com/maps/place/?q=place_id:ChIJ8wYUHAlHaTQRBmV8fWw-Vjg) | 4.9★ | 266 | 4.5705 |  |
+| 5 | [老街假期文旅](https://www.google.com/maps/place/?q=place_id:ChIJtRf9Hg5FaTQRba_sznuSLJk) | 4.8★ | 371 | 4.5674 |  |
+
+> 💡 *終點周邊 3 公里 · 46 筆候選 · IMDB 風格貝葉斯平均*
+> 📋 *[看更多 >>](./day2_hotel.md)*
 
 ---
 

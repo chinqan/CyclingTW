@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJAV-PUdKoQjQRzaKj-sdXBN8",
+  "name_zh": "畢卡索 No. 6",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 22,
+  "location": {
+    "lat": 25.0845862,
+    "lng": 121.4820913
+  },
+  "address": "247新北市蘆洲區玉清里重陽街88號",
+  "primary_type": "lodging",
+  "distance_km": 2.0,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

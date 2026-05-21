@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJRUPMlOqoQjQR6URrxkhMbSg",
+  "name_zh": "新加坡汽車旅館motel",
+  "name_lang": "zh-TW",
+  "rating": 3.7,
+  "total_ratings": 274,
+  "location": {
+    "lat": 25.0685786,
+    "lng": 121.47015719999999
+  },
+  "address": "241新北市三重區二重里中正北路560巷95號",
+  "primary_type": "motel",
+  "distance_km": 2.31,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

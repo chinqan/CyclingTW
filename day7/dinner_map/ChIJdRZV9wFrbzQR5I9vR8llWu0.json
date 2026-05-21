@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJdRZV9wFrbzQR5I9vR8llWu0",
+  "name_zh": "ㄚㄖㄨㄟˇ•ㄇㄚˇㄒㄧㄕㄡˇ",
+  "name_lang": "zh-TW",
+  "rating": 3.6,
+  "total_ratings": 47,
+  "location": {
+    "lat": 23.3357811,
+    "lng": 121.31427810000001
+  },
+  "address": "981花蓮縣玉里鎮泰昌里中山路二段158號",
+  "primary_type": "family_restaurant",
+  "primary_type_label": "家庭餐廳",
+  "distance_km": 0.54,
+  "source": "api_2026-05-21",
+  "note": "家庭餐廳",
+  "name_is_ascii": true
+}

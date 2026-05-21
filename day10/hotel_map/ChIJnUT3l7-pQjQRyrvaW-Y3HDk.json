@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJnUT3l7-pQjQRyrvaW-Y3HDk",
+  "name_zh": "丰居旅店 微風館",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 1242,
+  "location": {
+    "lat": 25.0773284,
+    "lng": 121.4851339
+  },
+  "address": "241新北市三重區永盛里三和路四段282號丰居旅店微風館",
+  "primary_type": "hotel",
+  "distance_km": 2.57,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

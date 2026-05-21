@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJwVrNq0mzaTQRWyI0O68KGpo",
+  "name_zh": "玄慧食堂 （原ㄚㄌㄧ香雞排）竹南海口店",
+  "name_lang": "zh-TW",
+  "rating": 3.6,
+  "total_ratings": 73,
+  "location": {
+    "lat": 24.677581,
+    "lng": 120.8651869
+  },
+  "address": "350苗栗縣竹南鎮海口里海口",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.85,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

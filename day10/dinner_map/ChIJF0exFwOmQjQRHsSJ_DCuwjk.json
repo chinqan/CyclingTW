@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJF0exFwOmQjQRHsSJ_DCuwjk",
+  "name_zh": "正宗泰式小吃店",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 139,
+  "location": {
+    "lat": 25.0884586,
+    "lng": 121.4418034
+  },
+  "address": "248新北市五股區成泰里成泰路三段29號",
+  "primary_type": "thai_restaurant",
+  "primary_type_label": "泰國餐廳",
+  "distance_km": 2.1,
+  "source": "api_2026-05-21",
+  "note": "泰國餐廳",
+  "name_is_ascii": false
+}

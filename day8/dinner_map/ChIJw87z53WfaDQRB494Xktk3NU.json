@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJw87z53WfaDQRB494Xktk3NU",
+  "name_zh": "香茅廚房《Lemongrass Kitchen》花蓮美食/花蓮餐廳/花蓮泰式料理/花蓮必吃/花蓮聚餐/寵物親子友善餐廳",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 2612,
+  "location": {
+    "lat": 23.986494699999998,
+    "lng": 121.59913569999999
+  },
+  "address": "970花蓮縣花蓮市國魂里商校街175號",
+  "primary_type": "thai_restaurant",
+  "primary_type_label": "泰國餐廳",
+  "distance_km": 0.79,
+  "source": "api_2026-05-21",
+  "note": "泰國餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJWdop27-faDQRgRYwRZM6o0w",
+  "name_zh": "蔡記豆花",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 3703,
+  "location": {
+    "lat": 23.977527,
+    "lng": 121.603431
+  },
+  "address": "970花蓮縣花蓮市主工里民國路73號",
+  "primary_type": "dessert_restaurant",
+  "primary_type_label": "甜品餐廳",
+  "distance_km": 1.77,
+  "source": "api_2026-05-21",
+  "note": "甜品餐廳",
+  "name_is_ascii": false
+}

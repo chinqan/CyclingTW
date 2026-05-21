@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJHwJ1CLSfaDQR2OYcUK1YFwU",
+  "name_zh": "花蓮火車站陽光雅築民宿",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 46,
+  "location": {
+    "lat": 23.9961855,
+    "lng": 121.5986987
+  },
+  "address": "970花蓮縣花蓮市國裕里富裕五街81號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.41,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

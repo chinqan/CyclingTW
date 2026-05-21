@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJF5w35AefaDQReBCh2s4TjdQ",
+  "name_zh": "饗泰多 Siam More 泰式風格餐廳 花蓮遠百店",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 2245,
+  "location": {
+    "lat": 23.978143100000004,
+    "lng": 121.5996077
+  },
+  "address": "970花莲县花莲市国风里和平路581號遠東百貨花蓮店2樓",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.7,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

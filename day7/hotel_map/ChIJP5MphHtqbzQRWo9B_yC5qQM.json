@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJP5MphHtqbzQRWo9B_yC5qQM",
+  "name_zh": "和平大飯店",
+  "name_lang": "zh-TW",
+  "rating": 3.8,
+  "total_ratings": 228,
+  "location": {
+    "lat": 23.3322673,
+    "lng": 121.3143755
+  },
+  "address": "981花蓮縣玉里鎮中城里和平路51號",
+  "primary_type": "hotel",
+  "distance_km": 0.28,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

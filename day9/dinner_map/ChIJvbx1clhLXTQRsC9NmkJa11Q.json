@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJvbx1clhLXTQRsC9NmkJa11Q",
+  "name_zh": "金山芋圓王-金山總店",
+  "name_lang": "zh-TW",
+  "rating": 3.9,
+  "total_ratings": 2521,
+  "location": {
+    "lat": 25.220846599999998,
+    "lng": 121.64122449999998
+  },
+  "address": "208新北市金山區大同里民生路204號",
+  "primary_type": "dessert_restaurant",
+  "primary_type_label": "甜品餐廳",
+  "distance_km": 0.31,
+  "source": "api_2026-05-21",
+  "note": "甜品餐廳",
+  "name_is_ascii": false
+}

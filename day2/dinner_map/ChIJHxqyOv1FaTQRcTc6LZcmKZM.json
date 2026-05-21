@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJHxqyOv1FaTQRcTc6LZcmKZM",
+  "name_zh": "莊香菇肉粥",
+  "name_lang": "zh-TW",
+  "rating": 3.9,
+  "total_ratings": 112,
+  "location": {
+    "lat": 24.055564500000003,
+    "lng": 120.43623290000001
+  },
+  "address": "505彰化縣鹿港鎮景福里民族路89號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.38,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

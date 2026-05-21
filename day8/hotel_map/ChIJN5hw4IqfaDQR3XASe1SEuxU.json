@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJN5hw4IqfaDQR3XASe1SEuxU",
+  "name_zh": "愛分享民宿 Love & Share House",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 271,
+  "location": {
+    "lat": 23.985724599999998,
+    "lng": 121.5952033
+  },
+  "address": "973花蓮縣吉安鄉北昌村北昌二街6巷12弄1號",
+  "primary_type": "private_guest_room",
+  "distance_km": 1.04,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

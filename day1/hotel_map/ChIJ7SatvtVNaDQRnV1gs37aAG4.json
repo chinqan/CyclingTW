@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ7SatvtVNaDQRnV1gs37aAG4",
+  "name_zh": "星星民宿",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 11,
+  "location": {
+    "lat": 24.6975983,
+    "lng": 120.8849034
+  },
+  "address": "350苗栗縣竹南鎮佳興里永貞路三段59巷12弄16號",
+  "primary_type": "private_guest_room",
+  "distance_km": 1.3,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

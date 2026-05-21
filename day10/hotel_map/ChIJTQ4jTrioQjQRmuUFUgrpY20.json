@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJTQ4jTrioQjQRmuUFUgrpY20",
+  "name_zh": "馨記旅館",
+  "name_lang": "zh-TW",
+  "rating": 3.3,
+  "total_ratings": 127,
+  "location": {
+    "lat": 25.079361,
+    "lng": 121.466075
+  },
+  "address": "247新北市蘆洲區永安里九芎街95號",
+  "primary_type": "private_guest_room",
+  "distance_km": 1.04,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

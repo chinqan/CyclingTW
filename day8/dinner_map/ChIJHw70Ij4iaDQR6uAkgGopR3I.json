@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJHw70Ij4iaDQR6uAkgGopR3I",
+  "name_zh": "大後山深夜食堂",
+  "name_lang": "zh",
+  "rating": 4.4,
+  "total_ratings": 181,
+  "location": {
+    "lat": 23.992932699999997,
+    "lng": 121.59672289999999
+  },
+  "address": "970花蓮縣花蓮市國富里中山路801號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.46,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

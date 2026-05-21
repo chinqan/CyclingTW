@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJCxVntbWoQjQRqNFW2194aKo",
+  "name_zh": "陳家食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 220,
+  "location": {
+    "lat": 25.0880314,
+    "lng": 121.4657033
+  },
+  "address": "247新北市蘆洲區正義里光榮路120巷20號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.31,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

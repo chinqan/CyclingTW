@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJt_PkLABHaTQRnL29Rrpi8cM",
   "name_zh": "利河伯食堂",
+  "name_lang": "zh-TW",
   "rating": 4.7,
   "total_ratings": 148,
   "location": {
     "lat": 24.0470971,
-    "lng": 120.4378041
+    "lng": 120.43780410000001
   },
-  "address": "彰化縣鹿港鎮復興南路77號",
-  "note": "客家料理",
-  "source": "search_2026-05-20"
+  "address": "505彰化縣鹿港鎮街尾里復興南路77號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 1.15,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
 }

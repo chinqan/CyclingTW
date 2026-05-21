@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ2656ThtHaTQRL3sI0cBtOeo",
+  "name_zh": "鹿港鉑鈳民宿-Back Inn（沒有電梯、沒附早餐）",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 185,
+  "location": {
+    "lat": 24.056309199999998,
+    "lng": 120.43741779999999
+  },
+  "address": "505彰化縣鹿港鎮景福里民族路21巷18號",
+  "primary_type": "hotel",
+  "distance_km": 0.49,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

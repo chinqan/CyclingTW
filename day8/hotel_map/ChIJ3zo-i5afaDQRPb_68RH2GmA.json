@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ3zo-i5afaDQRPb_68RH2GmA",
+  "name_zh": "花蓮富野渡假酒店",
+  "name_lang": "zh-TW",
+  "rating": 3.9,
+  "total_ratings": 3324,
+  "location": {
+    "lat": 23.975184799999997,
+    "lng": 121.59844009999998
+  },
+  "address": "970花蓮縣花蓮市主力里中華路302號",
+  "primary_type": "hotel",
+  "distance_km": 2.04,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

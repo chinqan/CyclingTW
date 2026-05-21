@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ3322F8rPbzQRNzxluKrB7PE",
+  "name_zh": "南坑餐坊",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 4,
+  "location": {
+    "lat": 22.6132645,
+    "lng": 121.00603439999999
+  },
+  "address": "963臺東縣太麻里鄉大王村民權路85號",
+  "primary_type": "breakfast_restaurant",
+  "primary_type_label": "早餐店",
+  "distance_km": 0.62,
+  "source": "api_2026-05-21",
+  "note": "早餐店",
+  "name_is_ascii": false
+}

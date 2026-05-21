@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJUU4WiX1rbzQRIgwURQQjlZI",
+  "name_zh": "小滷豬",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 39,
+  "location": {
+    "lat": 23.3317189,
+    "lng": 121.3151523
+  },
+  "address": "981花蓮縣玉里鎮國武里中山路二段1之1號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.35,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

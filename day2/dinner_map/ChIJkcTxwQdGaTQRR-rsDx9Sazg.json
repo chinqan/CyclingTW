@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJkcTxwQdGaTQRR-rsDx9Sazg",
   "name_zh": "禾火食堂",
+  "name_lang": "zh-TW",
   "rating": 4.6,
   "total_ratings": 1147,
   "location": {
     "lat": 24.0569006,
     "lng": 120.4378172
   },
-  "address": "彰化縣鹿港鎮復興路318號",
-  "note": "日式料理",
-  "source": "search_2026-05-21"
+  "address": "505彰化縣鹿港鎮永安里復興路318號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 0.54,
+  "source": "api_2026-05-21",
+  "note": "日式餐廳",
+  "name_is_ascii": false
 }

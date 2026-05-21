@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJy4XSbwmfaDQRX0NqS2t39xE",
+  "name_zh": "蒔夜すし",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 143,
+  "location": {
+    "lat": 23.9877525,
+    "lng": 121.60336040000001
+  },
+  "address": "970花蓮縣花蓮市國聯里商校街96號1樓",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 0.65,
+  "source": "api_2026-05-21",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

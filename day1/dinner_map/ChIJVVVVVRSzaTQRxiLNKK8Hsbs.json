@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJVVVVVRSzaTQRxiLNKK8Hsbs",
+  "name_zh": "漁泉海鮮料理",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 469,
+  "location": {
+    "lat": 24.688310599999998,
+    "lng": 120.86781069999999
+  },
+  "address": "350苗栗縣竹南鎮營盤里新生路330號",
+  "primary_type": "seafood_restaurant",
+  "primary_type_label": "海鮮餐廳",
+  "distance_km": 1.3,
+  "source": "api_2026-05-21",
+  "note": "海鮮餐廳",
+  "name_is_ascii": false
+}

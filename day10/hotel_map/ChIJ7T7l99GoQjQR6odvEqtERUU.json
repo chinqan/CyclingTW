@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ7T7l99GoQjQR6odvEqtERUU",
+  "name_zh": "台北集賢商旅",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 1278,
+  "location": {
+    "lat": 25.083174,
+    "lng": 121.48058769999999
+  },
+  "address": "247新北市蘆洲區恆德里集賢路372號",
+  "primary_type": "hotel",
+  "distance_km": 1.89,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

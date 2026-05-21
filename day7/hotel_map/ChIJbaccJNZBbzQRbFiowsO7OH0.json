@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJbaccJNZBbzQRbFiowsO7OH0",
+  "name_zh": "好漾民宿",
+  "name_lang": "zh-TW",
+  "rating": 3.6,
+  "total_ratings": 195,
+  "location": {
+    "lat": 23.3399723,
+    "lng": 121.31595279999999
+  },
+  "address": "981花蓮縣玉里鎮永昌里中華路255號",
+  "primary_type": "lodging",
+  "distance_km": 1.03,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

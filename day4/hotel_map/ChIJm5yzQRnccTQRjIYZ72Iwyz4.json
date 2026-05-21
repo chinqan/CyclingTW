@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJm5yzQRnccTQRjIYZ72Iwyz4",
+  "name_zh": "蘭欣花園汽車旅館",
+  "name_lang": "zh-TW",
+  "rating": 3.3,
+  "total_ratings": 107,
+  "location": {
+    "lat": 22.3752795,
+    "lng": 120.6010231
+  },
+  "address": "940屏東縣枋寮鄉人和村中正大路666號",
+  "primary_type": "motel",
+  "distance_km": 1.01,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

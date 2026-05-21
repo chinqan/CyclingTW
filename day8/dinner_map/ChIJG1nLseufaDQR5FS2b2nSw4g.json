@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJG1nLseufaDQR5FS2b2nSw4g",
+  "name_zh": "貨櫃屋台灣料理 - 花蓮 人氣必吃中式熱炒 在地特色宵夜美食 團體合菜聚餐小酌 燒烤火鍋海鮮餐廳 平價推薦相片",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 593,
+  "location": {
+    "lat": 23.975780099999998,
+    "lng": 121.61019110000001
+  },
+  "address": "970花蓮縣花蓮市中山路143號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 2.15,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

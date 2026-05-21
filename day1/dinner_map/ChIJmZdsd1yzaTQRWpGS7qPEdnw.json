@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJmZdsd1yzaTQRWpGS7qPEdnw",
+  "name_zh": "饗廚房（竹南博愛店）",
+  "name_lang": "zh-TW",
+  "rating": 3.8,
+  "total_ratings": 52,
+  "location": {
+    "lat": 24.688709199999998,
+    "lng": 120.8679181
+  },
+  "address": "350苗栗縣竹南鎮營盤里營盤邊64-1號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 1.3,
+  "source": "api_2026-05-21",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

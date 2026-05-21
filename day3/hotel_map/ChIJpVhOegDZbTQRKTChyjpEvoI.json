@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJpVhOegDZbTQRKTChyjpEvoI",
+  "name_zh": "台南民宿回家旅行(訂房加line：@comehome)",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 47,
+  "location": {
+    "lat": 23.0646843,
+    "lng": 120.1306257
+  },
+  "address": "709臺南市安南區城北里尊安街87號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.4,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

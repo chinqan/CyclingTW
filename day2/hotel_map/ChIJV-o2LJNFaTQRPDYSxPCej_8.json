@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJV-o2LJNFaTQRPDYSxPCej_8",
+  "name_zh": "和平大旅社",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 21,
+  "location": {
+    "lat": 24.0553964,
+    "lng": 120.4343974
+  },
+  "address": "505彰化縣鹿港鎮中興里中山路230號",
+  "primary_type": null,
+  "distance_km": 0.21,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

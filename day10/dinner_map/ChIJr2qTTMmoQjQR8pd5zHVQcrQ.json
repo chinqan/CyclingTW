@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJr2qTTMmoQjQR8pd5zHVQcrQ",
+  "name_zh": "大根食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 360,
+  "location": {
+    "lat": 25.0819042,
+    "lng": 121.47546759999997
+  },
+  "address": "247新北市蘆洲區恆德里中山二路10號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 1.47,
+  "source": "api_2026-05-21",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

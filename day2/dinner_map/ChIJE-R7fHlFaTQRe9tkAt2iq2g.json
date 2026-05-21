@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJE-R7fHlFaTQRe9tkAt2iq2g",
-  "name_zh": "小松丼丼食事處",
+  "name_zh": "小松丼丼食事處-鹿港店",
+  "name_lang": "zh-TW",
   "rating": 4.4,
-  "total_ratings": 284,
+  "total_ratings": 285,
   "location": {
     "lat": 24.0591701,
     "lng": 120.4311613
   },
-  "address": "彰化縣鹿港鎮中山路420號",
-  "note": "日式丼飯",
-  "source": "search_2026-05-20"
+  "address": "505彰化縣鹿港鎮玉順里中山路420號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 0.35,
+  "source": "api_2026-05-21",
+  "note": "日式餐廳",
+  "name_is_ascii": false
 }

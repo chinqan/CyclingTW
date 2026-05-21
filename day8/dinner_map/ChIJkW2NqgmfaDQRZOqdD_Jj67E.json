@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJkW2NqgmfaDQRZOqdD_Jj67E",
+  "name_zh": "花蓮市立丼物園",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 2301,
+  "location": {
+    "lat": 23.9862155,
+    "lng": 121.5993154
+  },
+  "address": "970花蓮縣花蓮市國魂里延平街148巷22號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 0.81,
+  "source": "api_2026-05-21",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

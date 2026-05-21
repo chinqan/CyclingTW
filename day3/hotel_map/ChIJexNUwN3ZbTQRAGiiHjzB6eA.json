@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJexNUwN3ZbTQRAGiiHjzB6eA",
+  "name_zh": "湛湛里煙",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 1,
+  "location": {
+    "lat": 23.0775582,
+    "lng": 120.14267210000001
+  },
+  "address": "709臺南市安南區學東里慈興十街25號",
+  "primary_type": "private_guest_room",
+  "distance_km": 2.05,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

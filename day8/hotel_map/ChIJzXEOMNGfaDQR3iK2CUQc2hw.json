@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJzXEOMNGfaDQR3iK2CUQc2hw",
+  "name_zh": "煙波大飯店花蓮館",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 12700,
+  "location": {
+    "lat": 23.986739999999998,
+    "lng": 121.6222365
+  },
+  "address": "970花蓮縣花蓮市民立里中美路142號",
+  "primary_type": "hotel",
+  "distance_km": 2.25,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

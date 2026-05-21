@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJSbijIkqfaDQR9ywtcTceAUM",
+  "name_zh": "定置漁場三代目 The Fishery 花蓮總店",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 3117,
+  "location": {
+    "lat": 23.9828467,
+    "lng": 121.6061982
+  },
+  "address": "970花蓮縣花蓮市國安里建國路23號1樓",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 1.27,
+  "source": "api_2026-05-21",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

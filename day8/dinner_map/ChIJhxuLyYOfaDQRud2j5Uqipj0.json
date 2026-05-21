@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJhxuLyYOfaDQRud2j5Uqipj0",
+  "name_zh": "蘇記美食館",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 186,
+  "location": {
+    "lat": 23.985378299999997,
+    "lng": 121.59546719999997
+  },
+  "address": "973花莲县吉安乡北昌村自立路2號之1",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 1.06,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

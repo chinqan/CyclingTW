@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ8YuXybSfaDQR4nr0_VSEqUM",
+  "name_zh": "陶陶居商務旅館 TAUTAUCHU HOTEL",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 272,
+  "location": {
+    "lat": 23.9982659,
+    "lng": 121.60128969999998
+  },
+  "address": "970花蓮縣花蓮市國裕里富安路210號",
+  "primary_type": "hotel",
+  "distance_km": 0.55,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

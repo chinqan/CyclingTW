@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ1YLvblGzaTQRqMYRv8EXzEI",
+  "name_zh": "盛泰宿舍",
+  "name_lang": "zh-TW",
+  "rating": 3.6,
+  "total_ratings": 53,
+  "location": {
+    "lat": 24.706430599999997,
+    "lng": 120.8899045
+  },
+  "address": "No, No. 1103仁愛路大埔里竹南鎮苗栗縣350",
+  "primary_type": "lodging",
+  "distance_km": 2.4,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

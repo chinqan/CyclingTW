@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ1e-ScnezcTQRSeuZUEsceH4",
+  "name_zh": "千奇山海產餐廳",
+  "name_lang": "zh-TW",
+  "rating": 2.3,
+  "total_ratings": 17,
+  "location": {
+    "lat": 21.9053273,
+    "lng": 120.85135720000001
+  },
+  "address": "946屏東縣恆春鎮鵝鑾里鵝鑾路219號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.37,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

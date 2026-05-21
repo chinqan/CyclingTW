@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJn2DOgrefaDQRJhTjkBg2D3g",
+  "name_zh": "花蓮民宿IN居- 花蓮火車站推薦民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 197,
+  "location": {
+    "lat": 23.988328,
+    "lng": 121.60275999999999
+  },
+  "address": "970花蓮縣花蓮市國聯里國民二街27號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.58,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

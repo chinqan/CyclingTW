@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJqQ0yjDyzaTQRb_VbfCx8vIE",
+  "name_zh": "竹豐旅社",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 658,
+  "location": {
+    "lat": 24.6873783,
+    "lng": 120.87759969999999
+  },
+  "address": "350苗栗縣竹南鎮照南里和平街95號",
+  "primary_type": "hotel",
+  "distance_km": 0.31,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJlW52tLaoQjQReeUkCBdGV4Q",
+  "name_zh": "香奈爾汽車旅館-蘆洲館",
+  "name_lang": "zh-TW",
+  "rating": 3.8,
+  "total_ratings": 570,
+  "location": {
+    "lat": 25.0863889,
+    "lng": 121.46305559999998
+  },
+  "address": "247新北市蘆洲區正義里長樂路56號",
+  "primary_type": "motel",
+  "distance_km": 0.21,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

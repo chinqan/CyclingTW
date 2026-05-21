@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJFdJjA8lMaDQRCDFUtSW2-RA",
+  "name_zh": "定食8-頭份大全聯店｜日式定食便當外帶專門店、頭份日本料理海鮮丼飯",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 1585,
+  "location": {
+    "lat": 24.686749199999998,
+    "lng": 120.90343009999998
+  },
+  "address": "35142苗栗縣頭份市東庄里自強路230號B1",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 2.31,
+  "source": "api_2026-05-21",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

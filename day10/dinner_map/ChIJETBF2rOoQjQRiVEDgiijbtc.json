@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJETBF2rOoQjQRiVEDgiijbtc",
+  "name_zh": "甘釜京韓日燒肉料理",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 1861,
+  "location": {
+    "lat": 25.088283200000003,
+    "lng": 121.4608129
+  },
+  "address": "247新北市蘆洲區光榮路32號",
+  "primary_type": "korean_barbecue_restaurant",
+  "primary_type_label": "韓式燒烤料理餐廳",
+  "distance_km": 0.18,
+  "source": "api_2026-05-21",
+  "note": "韓式燒烤料理餐廳",
+  "name_is_ascii": false
+}

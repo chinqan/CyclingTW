@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJuVX-pBCzcTQRWjYI8NLVIaQ",
+  "name_zh": "小日子海景渡假別墅",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 8,
+  "location": {
+    "lat": 21.916162999999997,
+    "lng": 120.84136039999999
+  },
+  "address": "94644屏東縣恆春鎮鵝鑾里砂島路506號",
+  "primary_type": "hotel",
+  "distance_km": 1.94,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

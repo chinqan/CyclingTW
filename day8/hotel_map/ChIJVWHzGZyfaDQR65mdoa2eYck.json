@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJVWHzGZyfaDQR65mdoa2eYck",
+  "name_zh": "路境行旅 花蓮站前館 Finders Hotel Hualien Station",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 325,
+  "location": {
+    "lat": 23.9918721,
+    "lng": 121.60514819999999
+  },
+  "address": "970花蓮縣花蓮市國聯里國聯五路105號",
+  "primary_type": "hotel",
+  "distance_km": 0.43,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

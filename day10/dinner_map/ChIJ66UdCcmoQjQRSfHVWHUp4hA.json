@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ66UdCcmoQjQRSfHVWHUp4hA",
+  "name_zh": "蘆洲-總讚手作蔥餅(正宗)",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 581,
+  "location": {
+    "lat": 25.083439799999997,
+    "lng": 121.47140689999999
+  },
+  "address": "247新北市蘆洲區得勝里成功路164號對面號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.03,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

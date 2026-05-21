@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJU2im47CoQjQR3qmk6_xf37o",
+  "name_zh": "拍拍手披薩咖啡",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 1862,
+  "location": {
+    "lat": 25.0823349,
+    "lng": 121.4620687
+  },
+  "address": "247新北市蘆洲區忠義里長安街108巷26號1樓",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.66,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

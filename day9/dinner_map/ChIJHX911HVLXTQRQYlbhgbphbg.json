@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJHX911HVLXTQRQYlbhgbphbg",
-  "name_zh": "享魚路",
+  "name_zh": "享魚路｜魚路古道起點",
+  "name_lang": "zh-TW",
   "rating": 4.8,
   "total_ratings": 398,
   "location": {
-    "lat": 25.227149,
-    "lng": 121.645909
+    "lat": 25.227148999999997,
+    "lng": 121.64590849999998
   },
-  "address": "新北市金山區磺港路183號",
-  "note": "漁港海鮮 金山",
-  "source": "search_2026-07"
+  "address": "208新北市金山區豐漁里磺港路183號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.97,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
 }

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJjeLuWACzaTQRc2CsZb4gTvw",
+  "name_zh": "哇沙米日式手作壽司",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 54,
+  "location": {
+    "lat": 24.6893358,
+    "lng": 120.8757892
+  },
+  "address": "350苗栗縣竹南鎮營盤里延平路168號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 0.57,
+  "source": "api_2026-05-21",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

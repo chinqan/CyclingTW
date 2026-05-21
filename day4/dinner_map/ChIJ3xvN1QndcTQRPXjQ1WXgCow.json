@@ -1,14 +1,18 @@
 {
   "place_id": "ChIJ3xvN1QndcTQRPXjQ1WXgCow",
   "name_zh": "大叔叔廚房",
-  "csv_type": "餐廳",
+  "name_lang": "zh-TW",
   "rating": 4.8,
   "total_ratings": 442,
   "location": {
-    "lat": 22.368283,
-    "lng": 120.593562
+    "lat": 22.3682834,
+    "lng": 120.5935615
   },
-  "source": "search_2026-05-21",
-  "note": "精緻料理",
-  "target": "places"
+  "address": "940屏東縣枋寮鄉枋寮村中山路248號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.16,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
 }

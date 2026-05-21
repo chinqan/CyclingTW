@@ -118,14 +118,31 @@ ishikawa-beta
 
 | # | 店名 | 評分 | 留言數 | 貝葉斯分 | 備註 |
 |:---:|:---|:---:|---:|:---:|:---|
-| 1 | [君浩美食坊](https://www.google.com/maps/place/?q=place_id:ChIJwxfugTZLXTQRXpdg2TdpSDg) | 4.8★ | 1355 | 4.7378 | 海鮮快炒 北海岸 |
-| 2 | [享魚路](https://www.google.com/maps/place/?q=place_id:ChIJHX911HVLXTQRQYlbhgbphbg) | 4.8★ | 398 | 4.6795 | 漁港海鮮 金山 |
-| 3 | [拾物香](https://www.google.com/maps/place/?q=place_id:ChIJ34PFPvNNXTQRppe_tMp8zaE) | 4.8★ | 347 | 4.6732 | 創意料理 老街旁 |
-| 4 | [煦新館](https://www.google.com/maps/place/?q=place_id:ChIJfUH2dP1LXTQRyA8tCSqLV_0) | 4.9★ | 59 | 4.6283 | 日式定食 |
-| 5 | [海荔食堂](https://www.google.com/maps/place/?q=place_id:ChIJCzD5nNBLXTQRx3gr5ljkkN8) | 4.7★ | 107 | 4.6168 | 創意餐食 老街旁 |
+| 1 | [金包里農舍莊園-金山伴手禮首選|地瓜首選|地瓜甜點|地標首選|甜點推薦|必吃甜點|人氣甜點|必買伴手禮](https://www.google.com/maps/place/?q=place_id:ChIJ9Se0QgWzQjQRpZAVa4CxHdc) | 4.9★ | 3488 | 4.7104 | 甜品餐廳 |
+| 2 | [和雅齋](https://www.google.com/maps/place/?q=place_id:ChIJZQl6LlRLXTQRLc8fnURbzDg) | 4.7★ | 974 | 4.4128 | 素食餐廳 |
+| 3 | [《自家漁船》花義思廚坊](https://www.google.com/maps/place/?q=place_id:ChIJyfyYcAxLXTQRulaJxwTOWa0) | 4.6★ | 1445 | 4.4094 | 西餐廳 |
+| 4 | [金山大碗石頭火鍋－新北金山好吃美食推薦 新北金山石頭火鍋 金山老街美食 金山海鮮活體螃蟹推薦 金山必吃聚餐餐廳](https://www.google.com/maps/place/?q=place_id:ChIJge11y2lLXTQRwDGIf77BwAY) | 4.7★ | 886 | 4.4012 | 火鍋店 |
+| 5 | [小瑪克手工披薩](https://www.google.com/maps/place/?q=place_id:ChIJy6ZECqhMXTQRtKLEWEnWMjM) | 4.5★ | 1908 | 4.3773 | 披薩餐廳 |
 
 > 💡 *排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）*
 > 📋 *[看更多 >>](./day9_dinner.md)*
+
+---
+
+
+
+## 住宿推薦 🏨
+
+| # | 飯店 | 評分 | 留言數 | 貝葉斯分 | 備註 |
+|:---:|:---|:---:|---:|:---:|:---|
+| 1 | [Dapu - Hotspring 大埔硫磺溫泉商旅](https://www.google.com/maps/place/?q=place_id:ChIJ62Be8qZMXTQRy6E6tfxgkQg) | 4.8★ | 8974 | 4.7372 |  |
+| 2 | [沐川海㡳溫泉](https://www.google.com/maps/place/?q=place_id:ChIJwQUbv6ZMXTQRGwo0bQGZ_0s) | 4.7★ | 4342 | 4.6128 |  |
+| 3 | [海寶溫泉會館](https://www.google.com/maps/place/?q=place_id:ChIJs2fRhKhMXTQREOqUQlAxuX4) | 4.7★ | 476 | 4.4413 |  |
+| 4 | [金山民宿·美人山民宿 Beauty Mountain Homestay(B&B)](https://www.google.com/maps/place/?q=place_id:ChIJP5pAS4BNXTQRpZsXUKzq93U) | 4.9★ | 185 | 4.4185 |  |
+| 5 | [璞真民宿](https://www.google.com/maps/place/?q=place_id:ChIJG_XngVmzQjQRMZBAr8oZhB8) | 4.7★ | 162 | 4.3921 |  |
+
+> 💡 *終點周邊 3 公里 · 20 筆候選 · IMDB 風格貝葉斯平均*
+> 📋 *[看更多 >>](./day9_hotel.md)*
 
 ---
 

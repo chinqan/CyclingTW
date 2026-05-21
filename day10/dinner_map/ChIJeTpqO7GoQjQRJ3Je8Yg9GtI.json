@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJeTpqO7GoQjQRJ3Je8Yg9GtI",
+  "name_zh": "蔡記隆府 蘆洲店",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 2221,
+  "location": {
+    "lat": 25.0856793,
+    "lng": 121.461743
+  },
+  "address": "247新北市蘆洲區正義里長興路158巷1號",
+  "primary_type": "hot_pot_restaurant",
+  "primary_type_label": "火鍋店",
+  "distance_km": 0.3,
+  "source": "api_2026-05-21",
+  "note": "火鍋店",
+  "name_is_ascii": false
+}

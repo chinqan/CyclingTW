@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJW_soT21GaTQRiPg39m_9iaM",
+  "name_zh": "郁珍鮮美食料理餐廳",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 1427,
+  "location": {
+    "lat": 24.0647846,
+    "lng": 120.44770399999999
+  },
+  "address": "505彰化縣鹿港鎮鹿和里鹿和路一段459號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.8,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

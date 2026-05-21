@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJpwB7TQdGaTQRHilOVd_gFX8",
+  "name_zh": "老龍師肉包 三民本店",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 3509,
+  "location": {
+    "lat": 24.0507839,
+    "lng": 120.43556410000001
+  },
+  "address": "505彰化縣鹿港鎮龍山里三民路117號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.68,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

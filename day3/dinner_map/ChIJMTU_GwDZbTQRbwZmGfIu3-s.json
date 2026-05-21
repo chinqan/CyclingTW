@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJMTU_GwDZbTQRbwZmGfIu3-s",
+  "name_zh": "關東煮 大腸包小腸",
+  "name_lang": "zh-TW",
+  "rating": 3.7,
+  "total_ratings": 3,
+  "location": {
+    "lat": 23.0658715,
+    "lng": 120.12757239999999
+  },
+  "address": "709臺南市安南區城中里安中路六段755號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.06,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

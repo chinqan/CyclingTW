@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJxyInh0bdcTQRVs4QDPAG3gE",
+  "name_zh": "田媽媽 蘭欣食坊（原天之椒子） ｜ 屏東枋寮秘境雞湯火鍋餐廳・親子農場",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 586,
+  "location": {
+    "lat": 22.3755322,
+    "lng": 120.6023067
+  },
+  "address": "940屏東縣枋寮鄉人和村中正大路666-8號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.12,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

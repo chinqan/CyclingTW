@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJhVNyIlqpQjQRat_H2gxmeZw",
+  "name_zh": "老串角居酒屋-蘆洲店/蘆洲美食/居酒屋/串燒/restaurants/宵夜/takeout",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 320,
+  "location": {
+    "lat": 25.082889599999998,
+    "lng": 121.46017579999999
+  },
+  "address": "247新北市蘆洲區永德里中原路26號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.64,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

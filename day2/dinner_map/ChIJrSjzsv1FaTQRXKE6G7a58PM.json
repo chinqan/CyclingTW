@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJrSjzsv1FaTQRXKE6G7a58PM",
+  "name_zh": "鹿港鎮黑松趩仔麵",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 435,
+  "location": {
+    "lat": 24.0543852,
+    "lng": 120.43406610000001
+  },
+  "address": "505彰化縣鹿港鎮大明路",
+  "primary_type": "deli",
+  "primary_type_label": "小吃店",
+  "distance_km": 0.26,
+  "source": "api_2026-05-21",
+  "note": "小吃店",
+  "name_is_ascii": false
+}

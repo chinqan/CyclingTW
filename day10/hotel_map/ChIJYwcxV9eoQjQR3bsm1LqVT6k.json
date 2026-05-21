@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJYwcxV9eoQjQR3bsm1LqVT6k",
+  "name_zh": "幸福藝術家",
+  "name_lang": "ja",
+  "rating": 4.2,
+  "total_ratings": 6,
+  "location": {
+    "lat": 25.0801467,
+    "lng": 121.4809392
+  },
+  "address": "241新北市三重區仁華里三和路四段237號",
+  "primary_type": "lodging",
+  "distance_km": 2.05,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

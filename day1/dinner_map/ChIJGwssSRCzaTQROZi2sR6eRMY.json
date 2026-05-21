@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJGwssSRCzaTQROZi2sR6eRMY",
+  "name_zh": "蔬皮肚皮 Super Duper",
+  "name_lang": "en",
+  "rating": 4.1,
+  "total_ratings": 650,
+  "location": {
+    "lat": 24.694362899999998,
+    "lng": 120.8547451
+  },
+  "address": "竹興里竹圍仔92號, 竹南鎮苗栗縣35049",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 2.75,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

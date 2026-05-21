@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJdfpSXKBLXTQRwG5z-3rLac0",
-  "name_zh": "裕富先生海鮮餐廳",
+  "name_zh": "漁夫先生海鮮餐廳",
+  "name_lang": "zh-TW",
   "rating": 4.3,
   "total_ratings": 232,
   "location": {
-    "lat": 25.22782,
-    "lng": 121.644503
+    "lat": 25.227819699999998,
+    "lng": 121.6445025
   },
-  "address": "新北市金山區磺港路314號",
-  "note": "海鮮合菜",
-  "source": "search_2026-07"
+  "address": "208新北市金山區磺港里磺港路314號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.91,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
 }

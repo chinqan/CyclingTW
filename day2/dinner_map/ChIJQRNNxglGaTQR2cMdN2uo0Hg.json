@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJQRNNxglGaTQR2cMdN2uo0Hg",
+  "name_zh": "木生海鮮會館",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 2583,
+  "location": {
+    "lat": 24.059889,
+    "lng": 120.43671189999999
+  },
+  "address": "505彰化縣鹿港鎮埔崙里自由路77號",
+  "primary_type": "seafood_restaurant",
+  "primary_type_label": "海鮮餐廳",
+  "distance_km": 0.58,
+  "source": "api_2026-05-21",
+  "note": "海鮮餐廳",
+  "name_is_ascii": false
+}

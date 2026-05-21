@@ -1,0 +1,578 @@
+{
+  "day": 7,
+  "search_radius_km": 3,
+  "pool_size": 35,
+  "bayesian_C": 217.0,
+  "bayesian_m": 4.4545,
+  "note": "C=平均留言數(先驗樣本數), m=加權平均評分(先驗期望值)",
+  "source_endpoint_place_id": "ChIJ677P5HxqbzQR590ArDS8N5E",
+  "top5_place_ids": [
+    "ChIJ7caGfuFBbzQRbae3zVgCHno",
+    "ChIJC2qZFdhrbzQRi4AVS4zscz0",
+    "ChIJ3fPJi4JrbzQRbgFN4CZgh_0",
+    "ChIJuWXA4npqbzQRrtdbytHaBl0",
+    "ChIJhdGGCTprbzQRxbkKjMJ1BVY"
+  ],
+  "hotels": [
+    {
+      "place_id": "ChIJ7caGfuFBbzQRbae3zVgCHno",
+      "name_zh": "小鳥散步 玉里民宿 玉里包棟",
+      "rating": 5,
+      "total_ratings": 252,
+      "location": {
+        "lat": 23.338306,
+        "lng": 121.3191077
+      },
+      "address": "981花蓮縣玉里鎮啟模里仁愛路二段223-2號",
+      "note": "",
+      "bayesian_score": 4.7476,
+      "confidence": "✅ 高",
+      "rank": 1,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJC2qZFdhrbzQRi4AVS4zscz0",
+      "name_zh": "途中玉里青年旅館（全雅房，上下舖，）",
+      "rating": 4.9,
+      "total_ratings": 407,
+      "location": {
+        "lat": 23.329337,
+        "lng": 121.313267
+      },
+      "address": "981花蓮縣玉里鎮中城里城中五街105號",
+      "note": "",
+      "bayesian_score": 4.7451,
+      "confidence": "✅ 高",
+      "rank": 2,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ3fPJi4JrbzQRbgFN4CZgh_0",
+      "name_zh": "原鄉商旅",
+      "rating": 4.8,
+      "total_ratings": 592,
+      "location": {
+        "lat": 23.331402399999998,
+        "lng": 121.31698920000001
+      },
+      "address": "981花蓮縣玉里鎮中城里民國路一段150號",
+      "note": "",
+      "bayesian_score": 4.7073,
+      "confidence": "✅ 高",
+      "rank": 3,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJuWXA4npqbzQRrtdbytHaBl0",
+      "name_zh": "910 hostel 城東館",
+      "rating": 4.8,
+      "total_ratings": 388,
+      "location": {
+        "lat": 23.3305282,
+        "lng": 121.3170988
+      },
+      "address": "981花蓮縣玉里鎮中城里城東四街42號",
+      "note": "",
+      "bayesian_score": 4.6761,
+      "confidence": "✅ 高",
+      "rank": 4,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJhdGGCTprbzQRxbkKjMJ1BVY",
+      "name_zh": "山之間特色民宿｜花蓮玉里民宿｜花蓮縣合法民宿編號2868號",
+      "rating": 5,
+      "total_ratings": 134,
+      "location": {
+        "lat": 23.3284895,
+        "lng": 121.31819929999997
+      },
+      "address": "981花蓮縣玉里鎮中城里城東二街2號6號",
+      "note": "",
+      "bayesian_score": 4.6628,
+      "confidence": "⚠️ 中",
+      "rank": 5,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJhQgcwAxrbzQRHJQxsz8eVkw",
+      "name_zh": "吾笠塢民宿（花蓮縣民宿2451號 觀光署認證-好客民宿）",
+      "rating": 4.9,
+      "total_ratings": 168,
+      "location": {
+        "lat": 23.338953,
+        "lng": 121.3139554
+      },
+      "address": "981花蓮縣玉里鎮永昌里新生街30號",
+      "note": "",
+      "bayesian_score": 4.6489,
+      "confidence": "⚠️ 中",
+      "rank": 6,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJY1L263pqbzQRPti80Loa4-M",
+      "name_zh": "後山拾光民宿",
+      "rating": 4.8,
+      "total_ratings": 276,
+      "location": {
+        "lat": 23.3299967,
+        "lng": 121.3181182
+      },
+      "address": "981花蓮縣玉里鎮中城里城東四街7號",
+      "note": "",
+      "bayesian_score": 4.6479,
+      "confidence": "✅ 高",
+      "rank": 7,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJXYgkNkNrbzQRsqFD1_MTlqU",
+      "name_zh": "玉里東好民宿",
+      "rating": 4.8,
+      "total_ratings": 226,
+      "location": {
+        "lat": 23.332210099999998,
+        "lng": 121.31853149999999
+      },
+      "address": "981花蓮縣玉里鎮國武里仁愛路一段199號",
+      "note": "",
+      "bayesian_score": 4.6308,
+      "confidence": "✅ 高",
+      "rank": 8,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJzcTaORFrbzQRIwpRjPWqEP0",
+      "name_zh": "沐光電梯民宿",
+      "rating": 4.9,
+      "total_ratings": 142,
+      "location": {
+        "lat": 23.3335029,
+        "lng": 121.31397819999998
+      },
+      "address": "981花蓮縣玉里鎮泰昌里和平路71號",
+      "note": "",
+      "bayesian_score": 4.6307,
+      "confidence": "⚠️ 中",
+      "rank": 9,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJH3ps0C1rbzQRbugtLU94KJk",
+      "name_zh": "玉里熊讚民宿 花蓮包棟民宿",
+      "rating": 5,
+      "total_ratings": 69,
+      "location": {
+        "lat": 23.324251300000004,
+        "lng": 121.3215256
+      },
+      "address": "981花蓮縣玉里鎮中城里忠孝路89號",
+      "note": "",
+      "bayesian_score": 4.5861,
+      "confidence": "❌ 低",
+      "rank": 10,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJxfPezvxrbzQR8FPuvLDT41c",
+      "name_zh": "小時公館民宿城西",
+      "rating": 5,
+      "total_ratings": 61,
+      "location": {
+        "lat": 23.3275249,
+        "lng": 121.311668
+      },
+      "address": "981花蓮縣玉里鎮中城里城西一街96號",
+      "note": "",
+      "bayesian_score": 4.5742,
+      "confidence": "❌ 低",
+      "rank": 11,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ7-PBppRrbzQR-MPAr9psa14",
+      "name_zh": "910 hostel城南館",
+      "rating": 4.8,
+      "total_ratings": 83,
+      "location": {
+        "lat": 23.3253364,
+        "lng": 121.32021830000001
+      },
+      "address": "981花蓮縣玉里鎮中城里城南二街30巷9號",
+      "note": "",
+      "bayesian_score": 4.5501,
+      "confidence": "❌ 低",
+      "rank": 12,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJGVoq-HpqbzQRvjgJsJ5W980",
+      "name_zh": "玉里囍宿民宿-提供專屬停車場(花蓮縣民宿編號2068號)",
+      "rating": 4.6,
+      "total_ratings": 379,
+      "location": {
+        "lat": 23.330942,
+        "lng": 121.31769600000001
+      },
+      "address": "981花蓮縣玉里鎮忠智路162號",
+      "note": "",
+      "bayesian_score": 4.547,
+      "confidence": "✅ 高",
+      "rank": 13,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJkxskdNVrbzQRxKPwz0-Lp3U",
+      "name_zh": "時雨青旅民宿 Bliss inn",
+      "rating": 4.7,
+      "total_ratings": 119,
+      "location": {
+        "lat": 23.3276529,
+        "lng": 121.31155419999999
+      },
+      "address": "981花蓮縣玉里鎮中城里城西一街98號",
+      "note": "",
+      "bayesian_score": 4.5415,
+      "confidence": "⚠️ 中",
+      "rank": 14,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJBy9gpX5qbzQR-Fane9q7JPg",
+      "name_zh": "拾光悠宿親子民宿（1894）",
+      "rating": 4.8,
+      "total_ratings": 69,
+      "location": {
+        "lat": 23.3352817,
+        "lng": 121.31341199999999
+      },
+      "address": "981花蓮縣玉里鎮泰昌里民族街28-3號",
+      "note": "",
+      "bayesian_score": 4.5379,
+      "confidence": "❌ 低",
+      "rank": 15,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ-xNzPxdrbzQRNAAEx66hqY8",
+      "name_zh": "京彤民宿",
+      "rating": 4.8,
+      "total_ratings": 59,
+      "location": {
+        "lat": 23.331236999999998,
+        "lng": 121.31260400000001
+      },
+      "address": "981花蓮縣玉里鎮中城里光復路155號",
+      "note": "",
+      "bayesian_score": 4.5284,
+      "confidence": "❌ 低",
+      "rank": 16,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJyftt73pqbzQRQaYg2nTF4M4",
+      "name_zh": "八畝田民宿-團體包棟民宿住宿 2024花蓮玉里人氣推薦 商務住宿 導盲犬寵物友善 家庭旅遊 雙人房四人房家庭房 合法民宿 訂房住宿 PTT",
+      "rating": 4.6,
+      "total_ratings": 217,
+      "location": {
+        "lat": 23.329714799999998,
+        "lng": 121.3182598
+      },
+      "address": "No, No. 5城東四街中城里玉里鎮花蓮縣981",
+      "note": "",
+      "bayesian_score": 4.5273,
+      "confidence": "✅ 高",
+      "rank": 17,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJbyB0BIxrbzQRsObCNMVoxoQ",
+      "name_zh": "找冰棒民宿",
+      "rating": 4.9,
+      "total_ratings": 21,
+      "location": {
+        "lat": 23.3329707,
+        "lng": 121.31804160000002
+      },
+      "address": "981花蓮縣玉里鎮國武里民安一街18號",
+      "note": "",
+      "bayesian_score": 4.4938,
+      "confidence": "❌ 低",
+      "rank": 18,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJk-pMcrVrbzQRrK9J7beATNY",
+      "name_zh": "山鄰山林青年文旅",
+      "rating": 4.5,
+      "total_ratings": 793,
+      "location": {
+        "lat": 23.3328799,
+        "lng": 121.3126657
+      },
+      "address": "981花蓮縣玉里鎮中城里大同路228號",
+      "note": "",
+      "bayesian_score": 4.4902,
+      "confidence": "✅ 高",
+      "rank": 19,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJNY_LAHpqbzQRJMd9jMXiseY",
+      "name_zh": "美地雅居民宿",
+      "rating": 4.5,
+      "total_ratings": 235,
+      "location": {
+        "lat": 23.3338493,
+        "lng": 121.31953139999997
+      },
+      "address": "981花蓮縣玉里鎮國武里興國路一段281號",
+      "note": "",
+      "bayesian_score": 4.4782,
+      "confidence": "✅ 高",
+      "rank": 20,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJA9G9wGJqbzQRY2WhDypKOzo",
+      "name_zh": "林家厝民宿",
+      "rating": 4.9,
+      "total_ratings": 9,
+      "location": {
+        "lat": 23.3290971,
+        "lng": 121.30989919999999
+      },
+      "address": "981花蓮縣玉里鎮水源路239號981",
+      "note": "",
+      "bayesian_score": 4.4722,
+      "confidence": "❌ 低",
+      "rank": 21,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJCyH3Y7VBbzQR07bGlH-8jWc",
+      "name_zh": "長鈺渡假飯店",
+      "rating": 5,
+      "total_ratings": 2,
+      "location": {
+        "lat": 23.343043899999998,
+        "lng": 121.31703499999999
+      },
+      "address": "981花蓮縣玉里鎮永昌里中華路365號",
+      "note": "",
+      "bayesian_score": 4.4595,
+      "confidence": "❌ 低",
+      "rank": 22,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJpU4yoHxqbzQRhTu6Xa67Djk",
+      "name_zh": "豫米墅民宿",
+      "rating": 4.5,
+      "total_ratings": 25,
+      "location": {
+        "lat": 23.3305579,
+        "lng": 121.31395939999999
+      },
+      "address": "981花蓮縣玉里鎮中城里成功街89號",
+      "note": "",
+      "bayesian_score": 4.4592,
+      "confidence": "❌ 低",
+      "rank": 23,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJx_CEqHtqbzQRksGMrlKYExs",
+      "name_zh": "候媽媽民宿",
+      "rating": 3.6,
+      "total_ratings": 7,
+      "location": {
+        "lat": 23.3315979,
+        "lng": 121.3162845
+      },
+      "address": "981花蓮縣玉里鎮中城里中正路17號",
+      "note": "",
+      "bayesian_score": 4.4278,
+      "confidence": "❌ 低",
+      "rank": 24,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJD-Nq_3pqbzQRmr6eb_3iuSU",
+      "name_zh": "玉里多美麗民宿 Yulibnb-合法民宿備有專屬停車場",
+      "rating": 4.4,
+      "total_ratings": 283,
+      "location": {
+        "lat": 23.331012,
+        "lng": 121.31751469999999
+      },
+      "address": "98144花蓮縣玉里鎮中城里忠智路172號",
+      "note": "",
+      "bayesian_score": 4.4237,
+      "confidence": "✅ 高",
+      "rank": 25,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJqxpXxnxqbzQRyUuo-lU0Hag",
+      "name_zh": "歐鄉民宿",
+      "rating": 4.3,
+      "total_ratings": 91,
+      "location": {
+        "lat": 23.3304275,
+        "lng": 121.3123353
+      },
+      "address": "981花蓮縣玉里鎮中城里大同路190號",
+      "note": "",
+      "bayesian_score": 4.4088,
+      "confidence": "❌ 低",
+      "rank": 26,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJiUTTtmRqbzQR-0gKFvTuyHk",
+      "name_zh": "歐鄉信義民宿",
+      "rating": 3.6,
+      "total_ratings": 19,
+      "location": {
+        "lat": 23.3274851,
+        "lng": 121.3143871
+      },
+      "address": "981花蓮縣玉里鎮中城里信義路8號",
+      "note": "",
+      "bayesian_score": 4.3857,
+      "confidence": "❌ 低",
+      "rank": 27,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJZ9Ty5GRqbzQRmeMzdFqdRzs",
+      "name_zh": "鏷石民宿（民宿編號0355）",
+      "rating": 4.3,
+      "total_ratings": 502,
+      "location": {
+        "lat": 23.3267779,
+        "lng": 121.31657120000001
+      },
+      "address": "981花蓮縣玉里鎮中城里忠勇路62號",
+      "note": "",
+      "bayesian_score": 4.3466,
+      "confidence": "✅ 高",
+      "rank": 28,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ2x4uxHxqbzQRQJ0b5YN8IBQ",
+      "name_zh": "Return Home迴家民宿",
+      "rating": 4,
+      "total_ratings": 190,
+      "location": {
+        "lat": 23.33046,
+        "lng": 121.312491
+      },
+      "address": "981花蓮縣玉里鎮中城里大同路192號",
+      "note": "",
+      "bayesian_score": 4.2423,
+      "confidence": "⚠️ 中",
+      "rank": 29,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJP5MphHtqbzQRWo9B_yC5qQM",
+      "name_zh": "和平大飯店",
+      "rating": 3.8,
+      "total_ratings": 228,
+      "location": {
+        "lat": 23.3322673,
+        "lng": 121.3143755
+      },
+      "address": "981花蓮縣玉里鎮中城里和平路51號",
+      "note": "",
+      "bayesian_score": 4.1191,
+      "confidence": "✅ 高",
+      "rank": 30,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJYanOwntqbzQRTPmfv4h0r6s",
+      "name_zh": "福錦大旅社 花蓮住宿 | 玉里旅社推薦",
+      "rating": 3.6,
+      "total_ratings": 146,
+      "location": {
+        "lat": 23.3335789,
+        "lng": 121.31565549999999
+      },
+      "address": "981花蓮縣玉里鎮國武里中正路91號",
+      "note": "",
+      "bayesian_score": 4.1108,
+      "confidence": "⚠️ 中",
+      "rank": 31,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJNS85fXtqbzQRIHCCITfPRKo",
+      "name_zh": "客亭好漾民宿",
+      "rating": 3.4,
+      "total_ratings": 114,
+      "location": {
+        "lat": 23.3312577,
+        "lng": 121.3142311
+      },
+      "address": "981花蓮縣玉里鎮中城里光復路109之3號",
+      "note": "",
+      "bayesian_score": 4.0913,
+      "confidence": "⚠️ 中",
+      "rank": 32,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ0epNdYdrbzQRaSuG3WkoEh8",
+      "name_zh": "客亭商旅",
+      "rating": 4,
+      "total_ratings": 942,
+      "location": {
+        "lat": 23.333176500000004,
+        "lng": 121.31385379999999
+      },
+      "address": "981花蓮縣玉里鎮中城里樂園街7號",
+      "note": "",
+      "bayesian_score": 4.0851,
+      "confidence": "✅ 高",
+      "rank": 33,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJbaccJNZBbzQRbFiowsO7OH0",
+      "name_zh": "好漾民宿",
+      "rating": 3.6,
+      "total_ratings": 195,
+      "location": {
+        "lat": 23.3399723,
+        "lng": 121.31595279999999
+      },
+      "address": "981花蓮縣玉里鎮永昌里中華路255號",
+      "note": "",
+      "bayesian_score": 4.05,
+      "confidence": "⚠️ 中",
+      "rank": 34,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJfagb7HxqbzQRvH4YlY2QKlA",
+      "name_zh": "玉麒麟別莊",
+      "rating": 3.4,
+      "total_ratings": 151,
+      "location": {
+        "lat": 23.331075600000002,
+        "lng": 121.31241969999999
+      },
+      "address": "981花蓮縣玉里鎮中城里大同路210號",
+      "note": "",
+      "bayesian_score": 4.0218,
+      "confidence": "⚠️ 中",
+      "rank": 35,
+      "selected": false
+    }
+  ]
+}

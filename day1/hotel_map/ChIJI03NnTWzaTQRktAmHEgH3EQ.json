@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJI03NnTWzaTQRktAmHEgH3EQ",
+  "name_zh": "琪海汽車旅館",
+  "name_lang": "zh-TW",
+  "rating": 3.5,
+  "total_ratings": 438,
+  "location": {
+    "lat": 24.6914303,
+    "lng": 120.8927626
+  },
+  "address": "350苗栗縣竹南鎮新南里八德一路181號",
+  "primary_type": "motel",
+  "distance_km": 1.34,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

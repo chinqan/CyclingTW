@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJwzqT_cGfaDQRTF-nn9WDy1c",
+  "name_zh": "銀座食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 320,
+  "location": {
+    "lat": 23.9753641,
+    "lng": 121.61080299999999
+  },
+  "address": "970花蓮縣花蓮市民族里中山路94號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 2.22,
+  "source": "api_2026-05-21",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

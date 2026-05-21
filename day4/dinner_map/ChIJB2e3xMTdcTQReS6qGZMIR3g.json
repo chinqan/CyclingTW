@@ -1,14 +1,18 @@
 {
   "place_id": "ChIJB2e3xMTdcTQReS6qGZMIR3g",
   "name_zh": "阿弟深海魚",
-  "csv_type": "餐廳",
+  "name_lang": "zh-TW",
   "rating": 4.8,
   "total_ratings": 273,
   "location": {
-    "lat": 22.362997,
-    "lng": 120.594316
+    "lat": 22.3629965,
+    "lng": 120.5943156
   },
-  "source": "search_2026-05-21",
-  "note": "深海海鮮專門",
-  "target": "places"
+  "address": "940屏東縣枋寮鄉保生村保生路431巷3號",
+  "primary_type": "seafood_restaurant",
+  "primary_type_label": "海鮮餐廳",
+  "distance_km": 0.56,
+  "source": "api_2026-05-21",
+  "note": "海鮮餐廳",
+  "name_is_ascii": false
 }

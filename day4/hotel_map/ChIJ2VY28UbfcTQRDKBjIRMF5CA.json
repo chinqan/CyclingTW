@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ2VY28UbfcTQRDKBjIRMF5CA",
+  "name_zh": "Hello民宿(哈囉民宿)",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 18,
+  "location": {
+    "lat": 22.386152799999998,
+    "lng": 120.58963709999999
+  },
+  "address": "940屏東縣枋寮鄉建興路499號",
+  "primary_type": "hotel",
+  "distance_km": 2.09,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

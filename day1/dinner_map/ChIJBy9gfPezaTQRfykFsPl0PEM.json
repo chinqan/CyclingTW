@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJBy9gfPezaTQRfykFsPl0PEM",
+  "name_zh": "麵匡匡拉麵食堂 竹南光復店",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 64,
+  "location": {
+    "lat": 24.6892964,
+    "lng": 120.8792616
+  },
+  "address": "350苗栗縣竹南鎮照南里光復路225號",
+  "primary_type": "ramen_restaurant",
+  "primary_type_label": "拉麵店",
+  "distance_km": 0.33,
+  "source": "api_2026-05-21",
+  "note": "拉麵店",
+  "name_is_ascii": false
+}

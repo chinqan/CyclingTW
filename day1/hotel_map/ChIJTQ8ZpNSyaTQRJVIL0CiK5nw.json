@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJTQ8ZpNSyaTQRJVIL0CiK5nw",
+  "name_zh": "頭份觀山海",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 44,
+  "location": {
+    "lat": 24.6655189,
+    "lng": 120.8947873
+  },
+  "address": "351苗栗縣頭份市Unnamed Road",
+  "primary_type": "lodging",
+  "distance_km": 2.75,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

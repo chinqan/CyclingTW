@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJqwb0XgDZbTQRuxXnZIgDSFk",
   "name_zh": "姊妹豬血湯",
-  "rating": 5.0,
-  "total_ratings": 28,
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 6,
   "location": {
-    "lat": 23.0658546,
+    "lat": 23.065854599999998,
     "lng": 120.1275651
   },
-  "address": "台南市安南區安中路六段753號",
-  "note": "料多湯鮮的招牌豬血湯與炒麵",
-  "source": "search_2026-05-20"
+  "address": "709臺南市安南區城東里安中路六段753號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.06,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
 }

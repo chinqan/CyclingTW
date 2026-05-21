@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJCbj5C-s2aDQRV8xYSSKGr0k",
+  "name_zh": "韓味大叔 韓食私廚料理",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 1150,
+  "location": {
+    "lat": 24.689402599999998,
+    "lng": 120.88363439999999
+  },
+  "address": "350苗栗縣竹南鎮五谷王22號",
+  "primary_type": "korean_restaurant",
+  "primary_type_label": "韓國餐廳",
+  "distance_km": 0.44,
+  "source": "api_2026-05-21",
+  "note": "韓國餐廳",
+  "name_is_ascii": false
+}

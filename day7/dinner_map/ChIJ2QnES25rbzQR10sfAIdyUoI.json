@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ2QnES25rbzQR10sfAIdyUoI",
+  "name_zh": "52赫茲滷味",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 74,
+  "location": {
+    "lat": 23.329070899999998,
+    "lng": 121.31719849999999
+  },
+  "address": "981花蓮縣玉里鎮中城里仁愛路一段125號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.62,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJXTAli0fYbTQR8R6PbzuZjtI",
   "name_zh": "阿忠螃蟹-府城蟳禮",
-  "rating": 5.0,
-  "total_ratings": 185,
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 4894,
   "location": {
     "lat": 23.060502,
-    "lng": 120.1259103
+    "lng": 120.12591030000002
   },
-  "address": "台南市安南區城西街一段212號",
-  "note": "預訂制螃蟹專賣店、處女蟳蟹膏超滿",
-  "source": "search_2026-05-20"
+  "address": "709臺南市安南區城南里城西街一段212號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.63,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
 }

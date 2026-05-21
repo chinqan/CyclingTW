@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJIZH4ZP1FaTQR48SCgkWoz9g",
+  "name_zh": "50年代黑豆漿",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 59,
+  "location": {
+    "lat": 24.054891599999998,
+    "lng": 120.43524149999999
+  },
+  "address": "505彰化縣鹿港鎮中興里民族路150號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.31,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

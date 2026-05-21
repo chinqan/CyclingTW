@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJv0onO4ifaDQRktpDiZdJOww",
+  "name_zh": "花蓮品悅文旅",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 3387,
+  "location": {
+    "lat": 23.9741395,
+    "lng": 121.60546889999999
+  },
+  "address": "970003花蓮縣花蓮市主信里南京街155號",
+  "primary_type": "hotel",
+  "distance_km": 2.17,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

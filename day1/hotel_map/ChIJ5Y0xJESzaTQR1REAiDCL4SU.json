@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ5Y0xJESzaTQR1REAiDCL4SU",
+  "name_zh": "芝柏山汽車旅館",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 797,
+  "location": {
+    "lat": 24.7009124,
+    "lng": 120.880544
+  },
+  "address": "350苗栗縣竹南鎮山佳里四維街90號",
+  "primary_type": "motel",
+  "distance_km": 1.59,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

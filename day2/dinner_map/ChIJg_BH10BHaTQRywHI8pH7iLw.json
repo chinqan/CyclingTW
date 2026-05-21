@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJg_BH10BHaTQRywHI8pH7iLw",
+  "name_zh": "麵匡匡拉麵食堂 鹿港鹿東店",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 569,
+  "location": {
+    "lat": 24.056707799999998,
+    "lng": 120.43828429999999
+  },
+  "address": "505彰化縣鹿港鎮永安里鹿東路17號",
+  "primary_type": "ramen_restaurant",
+  "primary_type_label": "拉麵店",
+  "distance_km": 0.58,
+  "source": "api_2026-05-21",
+  "note": "拉麵店",
+  "name_is_ascii": false
+}

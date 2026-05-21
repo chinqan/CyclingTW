@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJJcZj0LOoQjQRcGwp4tnik8Q",
+  "name_zh": "日廚日式料理",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 1244,
+  "location": {
+    "lat": 25.088415,
+    "lng": 121.46067699999998
+  },
+  "address": "247新北市蘆洲區正義里光榮路51號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 0.2,
+  "source": "api_2026-05-21",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

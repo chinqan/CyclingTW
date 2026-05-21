@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJHfs8pz2zaTQR425v39FMq1g",
+  "name_zh": "許越式羊肉爐",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 1471,
+  "location": {
+    "lat": 24.688540999999997,
+    "lng": 120.874687
+  },
+  "address": "350苗栗縣竹南鎮營盤里忠義街39號",
+  "primary_type": "hot_pot_restaurant",
+  "primary_type_label": "火鍋店",
+  "distance_km": 0.63,
+  "source": "api_2026-05-21",
+  "note": "火鍋店",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJz-Jr94CycTQRaGxHqZY86mQ",
+  "name_zh": "張口大吉早餐店",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 178,
+  "location": {
+    "lat": 21.9049868,
+    "lng": 120.851907
+  },
+  "address": "946屏東縣恆春鎮鵝鑾里燈塔路",
+  "primary_type": "breakfast_restaurant",
+  "primary_type_label": "早餐店",
+  "distance_km": 0.32,
+  "source": "api_2026-05-21",
+  "note": "早餐店",
+  "name_is_ascii": false
+}

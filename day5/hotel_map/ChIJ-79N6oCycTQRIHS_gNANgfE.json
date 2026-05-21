@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ-79N6oCycTQRIHS_gNANgfE",
+  "name_zh": "統一渡假村墾丁海洋體驗樂園",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 12797,
+  "location": {
+    "lat": 21.9059933,
+    "lng": 120.85162869999999
+  },
+  "address": "946屏東縣恆春鎮鵝鑾里鵝鑾路230號",
+  "primary_type": "resort_hotel",
+  "distance_km": 0.43,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

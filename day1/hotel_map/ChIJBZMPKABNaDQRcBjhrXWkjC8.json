@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJBZMPKABNaDQRcBjhrXWkjC8",
+  "name_zh": "寄居蟹月租房型詢問日期",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 6,
+  "location": {
+    "lat": 24.688871,
+    "lng": 120.90942799999999
+  },
+  "address": "351苗栗縣頭份市忠孝里自強路112-6號",
+  "primary_type": "private_guest_room",
+  "distance_km": 2.93,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

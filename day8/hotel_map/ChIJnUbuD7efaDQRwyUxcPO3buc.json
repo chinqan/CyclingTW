@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJnUbuD7efaDQRwyUxcPO3buc",
+  "name_zh": "日安美好民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 153,
+  "location": {
+    "lat": 23.989823599999998,
+    "lng": 121.6019661
+  },
+  "address": "970花蓮縣花蓮市國聯里國民三街15號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.39,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJs2fRhKhMXTQREOqUQlAxuX4",
+  "name_zh": "海寶溫泉會館",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 476,
+  "location": {
+    "lat": 25.217567199999998,
+    "lng": 121.6390515
+  },
+  "address": "208新北市金山區金美里環金路56號",
+  "primary_type": "hotel",
+  "distance_km": 0.47,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

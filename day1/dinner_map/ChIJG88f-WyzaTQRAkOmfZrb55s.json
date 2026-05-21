@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJG88f-WyzaTQRAkOmfZrb55s",
+  "name_zh": "新竹吳家鴨香飯-竹南店",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 302,
+  "location": {
+    "lat": 24.6840679,
+    "lng": 120.87689460000001
+  },
+  "address": "350苗栗縣竹南鎮正南里中正路90號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.46,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

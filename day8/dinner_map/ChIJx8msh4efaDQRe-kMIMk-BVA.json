@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJx8msh4efaDQRe-kMIMk-BVA",
+  "name_zh": "兩斤農莊食堂（前干城）",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 1535,
+  "location": {
+    "lat": 23.987720799999998,
+    "lng": 121.5869403
+  },
+  "address": "973花蓮縣吉安鄉北昌村建國路一段278號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 1.58,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

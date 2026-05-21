@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJeyoCSGPPbzQRnEkYYoEfH7U",
+  "name_zh": "享味川式鴨血豆腐",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 39,
+  "location": {
+    "lat": 22.6124033,
+    "lng": 121.00631399999999
+  },
+  "address": "963臺東縣太麻里鄉泰和村太麻里街236號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.72,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

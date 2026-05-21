@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJ_wxsqZSzaTQRxdJrHuNZvCc",
-  "name_zh": "美味食堂（鵝肉快炒）",
+  "name_zh": "美味·食堂（鵝肉/快炒）",
+  "name_lang": "zh-TW",
   "rating": 4.5,
   "total_ratings": 165,
   "location": {
     "lat": 24.6900723,
-    "lng": 120.8746511
+    "lng": 120.87465110000001
   },
-  "address": "苗栗縣竹南鎮營盤村延平路157號",
-  "note": "鵝肉快炒 週一公休",
-  "source": "search_2026-05-20"
+  "address": "350苗栗縣竹南鎮營盤里延平路157號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.71,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
 }

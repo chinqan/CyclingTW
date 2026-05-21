@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJgc6nSbqfaDQRlCzpCY1VPnA",
+  "name_zh": "難得美食刀削麵",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 1024,
+  "location": {
+    "lat": 23.986742700000004,
+    "lng": 121.6001884
+  },
+  "address": "970花蓮縣花蓮市國魂里商校街135號",
+  "primary_type": "chinese_noodle_restaurant",
+  "primary_type_label": "中式麵館",
+  "distance_km": 0.74,
+  "source": "api_2026-05-21",
+  "note": "中式麵館",
+  "name_is_ascii": false
+}

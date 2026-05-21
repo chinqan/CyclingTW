@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJo6lPBABLXTQR2vjF9_YI_JU",
+  "name_zh": "尻一根香腸",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 8,
+  "location": {
+    "lat": 25.2225179,
+    "lng": 121.6375279
+  },
+  "address": "208新北市金山區金美里金包里街115號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.11,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,434 @@
+{
+  "day": 1,
+  "search_radius_km": 3,
+  "pool_size": 26,
+  "bayesian_C": 630.7,
+  "bayesian_m": 4.1095,
+  "note": "C=平均留言數(先驗樣本數), m=加權平均評分(先驗期望值)",
+  "source_endpoint_place_id": "ChIJQ5bTDzuzaTQRnzEViKsrqdE",
+  "top5_place_ids": [
+    "ChIJMzMZW4GzaTQREH8d849ixgU",
+    "ChIJJ8DKvTSzaTQRWhzFwHtZrl8",
+    "ChIJqQ0yjDyzaTQRb_VbfCx8vIE",
+    "ChIJK0jUQNSzaTQRyefDEXnbIvo",
+    "ChIJ7SatvtVNaDQRnV1gs37aAG4"
+  ],
+  "hotels": [
+    {
+      "place_id": "ChIJMzMZW4GzaTQREH8d849ixgU",
+      "name_zh": "竹南橘子民宿",
+      "rating": 4.9,
+      "total_ratings": 674,
+      "location": {
+        "lat": 24.685021199999998,
+        "lng": 120.87948180000001
+      },
+      "address": "350001苗栗縣竹南鎮竹南里民治街12號",
+      "note": "",
+      "bayesian_score": 4.5179,
+      "confidence": "✅ 高",
+      "rank": 1,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJJ8DKvTSzaTQRWhzFwHtZrl8",
+      "name_zh": "櫻花樹夏民宿",
+      "rating": 4.9,
+      "total_ratings": 371,
+      "location": {
+        "lat": 24.684673399999998,
+        "lng": 120.8797115
+      },
+      "address": "350007苗栗縣竹南鎮正南里中山路47號",
+      "note": "",
+      "bayesian_score": 4.4023,
+      "confidence": "⚠️ 中",
+      "rank": 2,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJqQ0yjDyzaTQRb_VbfCx8vIE",
+      "name_zh": "竹豐旅社",
+      "rating": 4.5,
+      "total_ratings": 658,
+      "location": {
+        "lat": 24.6873783,
+        "lng": 120.87759969999999
+      },
+      "address": "350苗栗縣竹南鎮照南里和平街95號",
+      "note": "",
+      "bayesian_score": 4.3089,
+      "confidence": "✅ 高",
+      "rank": 3,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJK0jUQNSzaTQRyefDEXnbIvo",
+      "name_zh": "苗栗馥藝金鬱金香酒店",
+      "rating": 4.2,
+      "total_ratings": 4786,
+      "location": {
+        "lat": 24.690849600000004,
+        "lng": 120.8906935
+      },
+      "address": "350苗栗縣竹南鎮新南里公園路106號",
+      "note": "",
+      "bayesian_score": 4.1895,
+      "confidence": "✅ 高",
+      "rank": 4,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ7SatvtVNaDQRnV1gs37aAG4",
+      "name_zh": "星星民宿",
+      "rating": 5,
+      "total_ratings": 11,
+      "location": {
+        "lat": 24.6975983,
+        "lng": 120.8849034
+      },
+      "address": "350苗栗縣竹南鎮佳興里永貞路三段59巷12弄16號",
+      "note": "",
+      "bayesian_score": 4.1248,
+      "confidence": "❌ 低",
+      "rank": 5,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJTQ8ZpNSyaTQRJVIL0CiK5nw",
+      "name_zh": "頭份觀山海",
+      "rating": 4.3,
+      "total_ratings": 44,
+      "location": {
+        "lat": 24.6655189,
+        "lng": 120.8947873
+      },
+      "address": "351苗栗縣頭份市Unnamed Road",
+      "note": "",
+      "bayesian_score": 4.1219,
+      "confidence": "❌ 低",
+      "rank": 6,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJwbbwxySzaTQRbu0PlHAdD0c",
+      "name_zh": "台灣新旅社",
+      "rating": 4.3,
+      "total_ratings": 44,
+      "location": {
+        "lat": 24.6838794,
+        "lng": 120.87990629999999
+      },
+      "address": "350苗栗縣竹南鎮正南里中山路28號",
+      "note": "",
+      "bayesian_score": 4.1219,
+      "confidence": "❌ 低",
+      "rank": 7,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJBZMPKABNaDQRcBjhrXWkjC8",
+      "name_zh": "寄居蟹月租房型詢問日期",
+      "rating": 4.3,
+      "total_ratings": 6,
+      "location": {
+        "lat": 24.688871,
+        "lng": 120.90942799999999
+      },
+      "address": "351苗栗縣頭份市忠孝里自強路112-6號",
+      "note": "",
+      "bayesian_score": 4.1113,
+      "confidence": "❌ 低",
+      "rank": 8,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJMy3WEESzaTQR5X4w39gH4-I",
+      "name_zh": "苗栗縣竹南小叮噹",
+      "rating": 4.3,
+      "total_ratings": 6,
+      "location": {
+        "lat": 24.7015341,
+        "lng": 120.87966540000001
+      },
+      "address": "350苗栗縣竹南鎮山佳里光復路530號",
+      "note": "",
+      "bayesian_score": 4.1113,
+      "confidence": "❌ 低",
+      "rank": 9,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ53Z4dgCzaTQRk35DkQK_z_k",
+      "name_zh": "Asrama qunjia",
+      "rating": 5,
+      "total_ratings": 1,
+      "location": {
+        "lat": 24.690662999999997,
+        "lng": 120.8890077
+      },
+      "address": "350苗栗縣竹南鎮公園路350號, 16",
+      "note": "",
+      "bayesian_score": 4.1109,
+      "confidence": "❌ 低",
+      "rank": 10,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ554fuMhMaDQRU6Tr1UKm8Vs",
+      "name_zh": "亞力大飯店",
+      "rating": 4,
+      "total_ratings": 1,
+      "location": {
+        "lat": 24.6846498,
+        "lng": 120.9058801
+      },
+      "address": "351苗栗縣頭份市民族里中華路951號9樓",
+      "note": "",
+      "bayesian_score": 4.1093,
+      "confidence": "❌ 低",
+      "rank": 11,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJvZYt0DezaTQRzExvy3r-VRU",
+      "name_zh": "Emerald diamond building",
+      "rating": 1,
+      "total_ratings": 1,
+      "location": {
+        "lat": 24.6887007,
+        "lng": 120.8724046
+      },
+      "address": "2F -3, No, No. 131, Dapu Street, 竹南鎮苗栗縣350",
+      "note": "",
+      "bayesian_score": 4.1046,
+      "confidence": "❌ 低",
+      "rank": 12,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ5Y0xJESzaTQR1REAiDCL4SU",
+      "name_zh": "芝柏山汽車旅館",
+      "rating": 4.1,
+      "total_ratings": 797,
+      "location": {
+        "lat": 24.7009124,
+        "lng": 120.880544
+      },
+      "address": "350苗栗縣竹南鎮山佳里四維街90號",
+      "note": "",
+      "bayesian_score": 4.1042,
+      "confidence": "✅ 高",
+      "rank": 13,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJf6ug_kSzaTQRy3PlcVb_qNc",
+      "name_zh": "綠堤社區",
+      "rating": 4,
+      "total_ratings": 32,
+      "location": {
+        "lat": 24.703335199999998,
+        "lng": 120.8811822
+      },
+      "address": "350苗栗縣竹南鎮龍山路三段189巷",
+      "note": "",
+      "bayesian_score": 4.1042,
+      "confidence": "❌ 低",
+      "rank": 14,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ34G_NMhMaDQRNyqjSIi6OsM",
+      "name_zh": "尚順君樂飯店",
+      "rating": 4.1,
+      "total_ratings": 6601,
+      "location": {
+        "lat": 24.688171099999998,
+        "lng": 120.9040933
+      },
+      "address": "351苗栗縣頭份市東庄里育樂街6號",
+      "note": "",
+      "bayesian_score": 4.1008,
+      "confidence": "✅ 高",
+      "rank": 15,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJWYrQ9shMaDQRTu0AMRyzNk4",
+      "name_zh": "竣躍國際會館",
+      "rating": 2.8,
+      "total_ratings": 9,
+      "location": {
+        "lat": 24.6867196,
+        "lng": 120.90536730000001
+      },
+      "address": "351苗栗縣頭份市東庄里自強路216號351",
+      "note": "",
+      "bayesian_score": 4.0911,
+      "confidence": "❌ 低",
+      "rank": 16,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ1YLvblGzaTQRqMYRv8EXzEI",
+      "name_zh": "盛泰宿舍",
+      "rating": 3.6,
+      "total_ratings": 53,
+      "location": {
+        "lat": 24.706430599999997,
+        "lng": 120.8899045
+      },
+      "address": "No, No. 1103仁愛路大埔里竹南鎮苗栗縣350",
+      "note": "",
+      "bayesian_score": 4.07,
+      "confidence": "❌ 低",
+      "rank": 17,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJQTm2kMhMaDQRmMzHvE4lumw",
+      "name_zh": "佳來大旅社",
+      "rating": 2.6,
+      "total_ratings": 24,
+      "location": {
+        "lat": 24.685736499999997,
+        "lng": 120.9064842
+      },
+      "address": "351苗栗縣頭份市民族里和平路92號",
+      "note": "",
+      "bayesian_score": 4.0542,
+      "confidence": "❌ 低",
+      "rank": 18,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ9wuMmCSzaTQRceI7q2XCDuk",
+      "name_zh": "竹南旅社",
+      "rating": 2.9,
+      "total_ratings": 38,
+      "location": {
+        "lat": 24.683403,
+        "lng": 120.87911700000001
+      },
+      "address": "350苗栗縣竹南鎮正南里光復路18號",
+      "note": "",
+      "bayesian_score": 4.0408,
+      "confidence": "❌ 低",
+      "rank": 19,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ08-najuzaTQR1OGCWj2i93Q",
+      "name_zh": "九龍大飯店",
+      "rating": 2.1,
+      "total_ratings": 29,
+      "location": {
+        "lat": 24.685975300000003,
+        "lng": 120.87998999999999
+      },
+      "address": "350苗栗縣竹南鎮竹南里中山路136號",
+      "note": "",
+      "bayesian_score": 4.0212,
+      "confidence": "❌ 低",
+      "rank": 20,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJwXdXnTyzaTQR1KpJsr2XaJk",
+      "name_zh": "新光明旅社",
+      "rating": 3.3,
+      "total_ratings": 86,
+      "location": {
+        "lat": 24.686902,
+        "lng": 120.878593
+      },
+      "address": "350苗栗縣竹南鎮照南里博愛街48號",
+      "note": "",
+      "bayesian_score": 4.0124,
+      "confidence": "❌ 低",
+      "rank": 21,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ5a4b8teyaTQR0_qD1yjKHmU",
+      "name_zh": "頭緣汽車旅館",
+      "rating": 3.4,
+      "total_ratings": 217,
+      "location": {
+        "lat": 24.6735552,
+        "lng": 120.8874091
+      },
+      "address": "351苗栗縣頭份市蘆竹里工業路25號",
+      "note": "",
+      "bayesian_score": 3.9279,
+      "confidence": "❌ 低",
+      "rank": 22,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJg-tvQkqzaTQRBODvhOsRJu4",
+      "name_zh": "亞曼尼SPA精品汽車旅館",
+      "rating": 3.7,
+      "total_ratings": 641,
+      "location": {
+        "lat": 24.693739299999997,
+        "lng": 120.89116290000001
+      },
+      "address": "351苗栗縣頭份市後庄里公園六街96號",
+      "note": "",
+      "bayesian_score": 3.9031,
+      "confidence": "✅ 高",
+      "rank": 23,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJI03NnTWzaTQRktAmHEgH3EQ",
+      "name_zh": "琪海汽車旅館",
+      "rating": 3.5,
+      "total_ratings": 438,
+      "location": {
+        "lat": 24.6914303,
+        "lng": 120.8927626
+      },
+      "address": "350苗栗縣竹南鎮新南里八德一路181號",
+      "note": "",
+      "bayesian_score": 3.8597,
+      "confidence": "⚠️ 中",
+      "rank": 24,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJJ-pKh8dMaDQRMgcJA7S73Ds",
+      "name_zh": "東園大飯店",
+      "rating": 3.6,
+      "total_ratings": 639,
+      "location": {
+        "lat": 24.6884095,
+        "lng": 120.90981519999998
+      },
+      "address": "351苗栗縣頭份市自強里信東路115號",
+      "note": "",
+      "bayesian_score": 3.8531,
+      "confidence": "✅ 高",
+      "rank": 25,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJreTtl8dMaDQRPmzttSsAJ7A",
+      "name_zh": "泰莉莎旅店",
+      "rating": 3,
+      "total_ratings": 190,
+      "location": {
+        "lat": 24.687321999999998,
+        "lng": 120.909412
+      },
+      "address": "351苗栗縣頭份市自強里中華路1091號4樓",
+      "note": "",
+      "bayesian_score": 3.8526,
+      "confidence": "❌ 低",
+      "rank": 26,
+      "selected": false
+    }
+  ]
+}

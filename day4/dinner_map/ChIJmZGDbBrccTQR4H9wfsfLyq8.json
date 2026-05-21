@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJmZGDbBrccTQR4H9wfsfLyq8",
+  "name_zh": "木鋤造樸咖啡/披薩 Muzu Coffee & Pizza",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 1123,
+  "location": {
+    "lat": 22.3768285,
+    "lng": 120.59902670000001
+  },
+  "address": "940屏東縣枋寮鄉人和村中正大路791號",
+  "primary_type": "pizza_restaurant",
+  "primary_type_label": "披薩餐廳",
+  "distance_km": 1.06,
+  "source": "api_2026-05-21",
+  "note": "披薩餐廳",
+  "name_is_ascii": false
+}

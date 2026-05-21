@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ3R7A9zKzaTQR15cnd86g8tc",
+  "name_zh": "西堤牛排 頭份尚順店",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 14993,
+  "location": {
+    "lat": 24.6879295,
+    "lng": 120.90082769999998
+  },
+  "address": "351苗栗縣頭份市東庄里尚順路77號",
+  "primary_type": "steak_house",
+  "primary_type_label": "牛排館",
+  "distance_km": 2.05,
+  "source": "api_2026-05-21",
+  "note": "牛排館",
+  "name_is_ascii": false
+}

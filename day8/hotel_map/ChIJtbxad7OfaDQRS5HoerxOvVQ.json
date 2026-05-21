@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJtbxad7OfaDQRS5HoerxOvVQ",
+  "name_zh": "洗洗睡民宿 sleep in",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 118,
+  "location": {
+    "lat": 23.9968807,
+    "lng": 121.59903910000001
+  },
+  "address": "970花蓮縣花蓮市國裕里富裕五街111號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.46,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

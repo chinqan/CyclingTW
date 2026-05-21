@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ2UZ9CrafaDQRQ5Am1v5htJ4",
+  "name_zh": "花蓮香城大飯店",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 1554,
+  "location": {
+    "lat": 23.9925853,
+    "lng": 121.604266
+  },
+  "address": "970花蓮縣花蓮市國聯里國興二街19號",
+  "primary_type": "hotel",
+  "distance_km": 0.32,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

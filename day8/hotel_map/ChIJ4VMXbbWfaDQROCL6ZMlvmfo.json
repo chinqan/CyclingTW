@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ4VMXbbWfaDQROCL6ZMlvmfo",
+  "name_zh": "多羅滿休閒商務汽車旅館（寵物友善旅館）",
+  "name_lang": "zh-TW",
+  "rating": 3.9,
+  "total_ratings": 968,
+  "location": {
+    "lat": 23.9960402,
+    "lng": 121.60413589999999
+  },
+  "address": "970花蓮縣花蓮市國聯里國興一街123號",
+  "primary_type": "motel",
+  "distance_km": 0.42,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

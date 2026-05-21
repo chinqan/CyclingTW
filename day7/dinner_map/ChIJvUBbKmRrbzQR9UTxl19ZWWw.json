@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJvUBbKmRrbzQR9UTxl19ZWWw",
-  "name_zh": "女兒心無菜單料理",
-  "rating": 5.0,
+  "name_zh": "女兒心優質農產創意工坊",
+  "name_lang": "zh-TW",
+  "rating": 5,
   "total_ratings": 392,
   "location": {
-    "lat": 23.323869,
-    "lng": 121.323068
+    "lat": 23.323868599999997,
+    "lng": 121.32306790000001
   },
-  "address": "花蓮縣玉里鎮忠孝路27號2樓",
-  "note": "需24小時前預約 無菜單創意料理",
-  "source": "search_2026-07"
+  "address": "981花蓮縣玉里鎮中城里忠孝路27號2樓",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.44,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
 }

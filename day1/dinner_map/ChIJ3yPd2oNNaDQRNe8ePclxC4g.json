@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ3yPd2oNNaDQRNe8ePclxC4g",
+  "name_zh": "八丼食堂（苗栗頭份）外帶專門店",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 191,
+  "location": {
+    "lat": 24.6858708,
+    "lng": 120.90965680000001
+  },
+  "address": "351苗栗縣頭份市頭份里義民街10號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 2.94,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ8V_9f76zcTQRd_Yd1ECj0UQ",
+  "name_zh": "南岬咖啡餐館(早午餐/簡餐) South Cape Café Brunch",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 211,
+  "location": {
+    "lat": 21.904662,
+    "lng": 120.85196579999999
+  },
+  "address": "946屏東縣恆春鎮鵝鑾里燈塔路185-1號",
+  "primary_type": "cafe",
+  "primary_type_label": "咖啡館",
+  "distance_km": 0.28,
+  "source": "api_2026-05-21",
+  "note": "咖啡館",
+  "name_is_ascii": false
+}

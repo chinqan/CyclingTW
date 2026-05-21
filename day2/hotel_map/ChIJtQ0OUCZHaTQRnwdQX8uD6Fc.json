@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJtQ0OUCZHaTQRnwdQX8uD6Fc",
+  "name_zh": "鹿港谷倉民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 128,
+  "location": {
+    "lat": 24.053098499999997,
+    "lng": 120.4395863
+  },
+  "address": "506彰化縣福興鄉橋頭村復興路116巷17弄13號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.8,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

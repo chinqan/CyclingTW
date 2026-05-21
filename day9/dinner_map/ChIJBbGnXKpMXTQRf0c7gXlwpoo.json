@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJBbGnXKpMXTQRf0c7gXlwpoo",
+  "name_zh": "魚路小棧精緻鍋物",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 951,
+  "location": {
+    "lat": 25.2208188,
+    "lng": 121.631823
+  },
+  "address": "251號, 環金路金美里金山區新北市208",
+  "primary_type": "hot_pot_restaurant",
+  "primary_type_label": "火鍋店",
+  "distance_km": 0.66,
+  "source": "api_2026-05-21",
+  "note": "火鍋店",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJnyEz5BGpQjQRvd0oOVhaiMA",
+  "name_zh": "Kitchen CreAfe'客意直火(蘆洲長興店)最後出餐21:00",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 1346,
+  "location": {
+    "lat": 25.0836114,
+    "lng": 121.4632654
+  },
+  "address": "247新北市蘆洲區中原里長興路35號",
+  "primary_type": "italian_restaurant",
+  "primary_type_label": "義大利餐廳",
+  "distance_km": 0.52,
+  "source": "api_2026-05-21",
+  "note": "義大利餐廳",
+  "name_is_ascii": false
+}

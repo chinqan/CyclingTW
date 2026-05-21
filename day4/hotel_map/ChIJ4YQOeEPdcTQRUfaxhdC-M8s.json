@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ4YQOeEPdcTQRUfaxhdC-M8s",
+  "name_zh": "枋寮春來輕旅",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 208,
+  "location": {
+    "lat": 22.3664362,
+    "lng": 120.59295009999998
+  },
+  "address": "940屏東縣枋寮鄉枋寮村中興路47號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 0.28,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

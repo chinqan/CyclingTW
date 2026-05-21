@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJCzD5nNBLXTQRx3gr5ljkkN8",
-  "name_zh": "海荔食堂",
+  "name_zh": "海荔食堂 Hailivit",
+  "name_lang": "zh-TW",
   "rating": 4.7,
   "total_ratings": 107,
   "location": {
-    "lat": 25.221914,
-    "lng": 121.639285
+    "lat": 25.2219144,
+    "lng": 121.6392854
   },
-  "address": "新北市金山區福德街8號",
-  "note": "創意餐食 老街旁",
-  "source": "search_2026-07"
+  "address": "208新北市金山區和平里福德街8號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.1,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
 }

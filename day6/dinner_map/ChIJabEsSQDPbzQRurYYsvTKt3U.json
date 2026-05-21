@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJabEsSQDPbzQRurYYsvTKt3U",
+  "name_zh": "市場小吃",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 4,
+  "location": {
+    "lat": 22.6107639,
+    "lng": 121.00491099999998
+  },
+  "address": "963臺東縣太麻里鄉太麻里市場小吃",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.89,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

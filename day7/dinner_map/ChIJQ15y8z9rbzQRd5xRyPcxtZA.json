@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJQ15y8z9rbzQRd5xRyPcxtZA",
+  "name_zh": "饗廚房XIANG KITCHEN「玉里中正店」",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 25,
+  "location": {
+    "lat": 23.3349014,
+    "lng": 121.31516669999999
+  },
+  "address": "98146花蓮縣玉里鎮泰昌里中正路141號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 0.51,
+  "source": "api_2026-05-21",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

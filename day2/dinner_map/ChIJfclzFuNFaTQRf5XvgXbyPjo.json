@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJfclzFuNFaTQRf5XvgXbyPjo",
+  "name_zh": "古早味陽春麵",
+  "name_lang": "zh-TW",
+  "rating": 3.9,
+  "total_ratings": 138,
+  "location": {
+    "lat": 24.0589762,
+    "lng": 120.43187669999999
+  },
+  "address": "505彰化縣鹿港鎮玉順里鹿草路一段1號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.31,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

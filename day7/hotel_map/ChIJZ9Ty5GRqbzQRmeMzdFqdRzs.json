@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJZ9Ty5GRqbzQRmeMzdFqdRzs",
+  "name_zh": "鏷石民宿（民宿編號0355）",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 502,
+  "location": {
+    "lat": 23.3267779,
+    "lng": 121.31657120000001
+  },
+  "address": "981花蓮縣玉里鎮中城里忠勇路62號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 0.72,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

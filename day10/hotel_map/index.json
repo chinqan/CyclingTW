@@ -1,0 +1,243 @@
+{
+  "day": 10,
+  "candidates": [
+    {
+      "place_id": "ChIJnUT3l7-pQjQRyrvaW-Y3HDk",
+      "name_zh": "丰居旅店 微風館",
+      "rating": 4.5,
+      "total_ratings": 1242,
+      "location": {
+        "lat": 25.0773284,
+        "lng": 121.4851339
+      },
+      "address": "241新北市三重區永盛里三和路四段282號丰居旅店微風館",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJDXlmoVqpQjQRUqH3LEuUcMo",
+      "name_zh": "捷絲旅 台北三重館",
+      "rating": 4.7,
+      "total_ratings": 2720,
+      "location": {
+        "lat": 25.0772463,
+        "lng": 121.4870411
+      },
+      "address": "24152新北市三重區福隆里三和路四段107-1號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ9xAdqgqpQjQRQ-07BJYvl1c",
+      "name_zh": "雀客旅館 - 新北蘆洲",
+      "rating": 4.1,
+      "total_ratings": 837,
+      "location": {
+        "lat": 25.081066099999997,
+        "lng": 121.48000210000001
+      },
+      "address": "247新北市蘆洲區恆德里集賢路409號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJC08HLdCoQjQRkug4OZlWC7c",
+      "name_zh": "Two Tails Hotel 蘆洲",
+      "rating": 4.4,
+      "total_ratings": 2229,
+      "location": {
+        "lat": 25.0805082,
+        "lng": 121.48036900000001
+      },
+      "address": "247019新北市蘆洲區恆德里中山一路8號6樓",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJFUco3tGoQjQRCOKkHXAo51w",
+      "name_zh": "樂頤飯店 La Clé Hotel Taipei",
+      "rating": 4.4,
+      "total_ratings": 821,
+      "location": {
+        "lat": 25.082083899999997,
+        "lng": 121.4799862
+      },
+      "address": "247新北市蘆洲區恆德里集賢路402號3樓",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJlW52tLaoQjQReeUkCBdGV4Q",
+      "name_zh": "香奈爾汽車旅館-蘆洲館",
+      "rating": 3.8,
+      "total_ratings": 570,
+      "location": {
+        "lat": 25.0863889,
+        "lng": 121.46305559999998
+      },
+      "address": "247新北市蘆洲區正義里長樂路56號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJq4jn77SoQjQRF6f_SUsU-0U",
+      "name_zh": "紫虹汽車旅館",
+      "rating": 3,
+      "total_ratings": 442,
+      "location": {
+        "lat": 25.090232699999998,
+        "lng": 121.46476109999999
+      },
+      "address": "247新北市蘆洲區正義里中正路367號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ7T7l99GoQjQR6odvEqtERUU",
+      "name_zh": "台北集賢商旅",
+      "rating": 4.5,
+      "total_ratings": 1278,
+      "location": {
+        "lat": 25.083174,
+        "lng": 121.48058769999999
+      },
+      "address": "247新北市蘆洲區恆德里集賢路372號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJBc4F8NGoQjQR9T-ajUSi8yw",
+      "name_zh": "嘉年華汽車旅館",
+      "rating": 3.2,
+      "total_ratings": 640,
+      "location": {
+        "lat": 25.0825621,
+        "lng": 121.4806727
+      },
+      "address": "247新北市蘆洲區恆德里集賢路385號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJexYRhNGoQjQRUFI9OqTjxzA",
+      "name_zh": "薇薇精品旅館",
+      "rating": 4.1,
+      "total_ratings": 671,
+      "location": {
+        "lat": 25.082414200000002,
+        "lng": 121.48234749999999
+      },
+      "address": "247新北市蘆洲區恆德里永安北路二段42之1號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ-6yoGQCpQjQRbOu7Ti8WHqw",
+      "name_zh": "新城九八精緻旅館 New City Motel",
+      "rating": 4.4,
+      "total_ratings": 80,
+      "location": {
+        "lat": 25.0909808,
+        "lng": 121.44583670000002
+      },
+      "address": "248新北市五股區成功里新城六路135號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJSdgX38KoQjQRu2xVxn6EX6w",
+      "name_zh": "雅格汽車旅館",
+      "rating": 3.4,
+      "total_ratings": 368,
+      "location": {
+        "lat": 25.0702699,
+        "lng": 121.47877419999999
+      },
+      "address": "241新北市三重區永發里後竹圍街289-1號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJRUPMlOqoQjQR6URrxkhMbSg",
+      "name_zh": "新加坡汽車旅館motel",
+      "rating": 3.7,
+      "total_ratings": 274,
+      "location": {
+        "lat": 25.0685786,
+        "lng": 121.47015719999999
+      },
+      "address": "241新北市三重區二重里中正北路560巷95號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJAV-PUdKoQjQRzaKj-sdXBN8",
+      "name_zh": "畢卡索 No. 6",
+      "rating": 4.8,
+      "total_ratings": 22,
+      "location": {
+        "lat": 25.0845862,
+        "lng": 121.4820913
+      },
+      "address": "247新北市蘆洲區玉清里重陽街88號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJTQ4jTrioQjQRmuUFUgrpY20",
+      "name_zh": "馨記旅館",
+      "rating": 3.3,
+      "total_ratings": 127,
+      "location": {
+        "lat": 25.079361,
+        "lng": 121.466075
+      },
+      "address": "247新北市蘆洲區永安里九芎街95號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJYwcxV9eoQjQR3bsm1LqVT6k",
+      "name_zh": "幸福藝術家",
+      "rating": 4.2,
+      "total_ratings": 6,
+      "location": {
+        "lat": 25.0801467,
+        "lng": 121.4809392
+      },
+      "address": "241新北市三重區仁華里三和路四段237號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJJwSYvtCoQjQR8CJSSwcKpRQ",
+      "name_zh": "台企ATM(設置點-北三重分行)",
+      "rating": 4.3,
+      "total_ratings": 4,
+      "location": {
+        "lat": 25.0780894,
+        "lng": 121.4844887
+      },
+      "address": "241新北市三重區福樂里三和路四段137號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    }
+  ]
+}

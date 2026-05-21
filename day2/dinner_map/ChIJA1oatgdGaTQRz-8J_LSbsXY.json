@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJA1oatgdGaTQRz-8J_LSbsXY",
+  "name_zh": "滿大碗",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 123,
+  "location": {
+    "lat": 24.054669,
+    "lng": 120.438098
+  },
+  "address": "505彰化縣鹿港鎮永安里復興路207號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.59,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

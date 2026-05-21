@@ -144,14 +144,31 @@ ishikawa-beta
 
 | # | 店名 | 評分 | 留言數 | 貝葉斯分 | 備註 |
 |:---:|:---|:---:|---:|:---:|:---|
-| 1 | [阿忠螃蟹-府城蟳禮](https://www.google.com/maps/place/?q=place_id:ChIJXTAli0fYbTQR8R6PbzuZjtI) | 5.0★ | 185 | 4.8968 | 預訂制螃蟹專賣店、處女蟳蟹膏超滿 |
-| 2 | [福記鍋燒專門](https://www.google.com/maps/place/?q=place_id:ChIJMzAbPwDZbTQRYT2ISvjFmfA) | 4.9★ | 95 | 4.7885 | 料多實在的痛風鍋燒麵、湯頭鮮甜 |
-| 3 | [姊妹豬血湯](https://www.google.com/maps/place/?q=place_id:ChIJqwb0XgDZbTQRuxXnZIgDSFk) | 5.0★ | 28 | 4.7447 | 料多湯鮮的招牌豬血湯與炒麵 |
-| 4 | [龜鹿仙圓融園](https://www.google.com/maps/place/?q=place_id:ChIJ80flSTzYbTQRjki8AvImnJY) | 4.8★ | 86 | 4.7302 | 特色養生補湯與家常合菜料理 |
-| 5 | [凰詩越南美食](https://www.google.com/maps/place/?q=place_id:ChIJI8UHUlXZbTQRityPHkapKB8) | 4.8★ | 62 | 4.7183 | 平價道地的越南河粉與春捲 |
+| 1 | [阿忠螃蟹-府城蟳禮](https://www.google.com/maps/place/?q=place_id:ChIJXTAli0fYbTQR8R6PbzuZjtI) | 5★ | 4894 | 4.9679 | 餐廳 |
+| 2 | [台南土城螃蟹專賣店（耐人蟳味）](https://www.google.com/maps/place/?q=place_id:ChIJP07EjEfYbTQRJR4Uu7HgTR8) | 4.8★ | 188 | 4.6453 | 餐廳 |
+| 3 | [凰詩越南美食](https://www.google.com/maps/place/?q=place_id:ChIJI8UHUlXZbTQRityPHkapKB8) | 4.8★ | 47 | 4.596 | 越南餐廳 |
+| 4 | [廟前海產碳烤](https://www.google.com/maps/place/?q=place_id:ChIJtdm_fKDZbTQRfi2uTtzMgWw) | 4.7★ | 77 | 4.5927 | 餐廳 |
+| 5 | [啊蘭小吃](https://www.google.com/maps/place/?q=place_id:ChIJWwx9XgDZbTQRTTlrPEVtvDc) | 5★ | 9 | 4.5813 | 亞洲風味餐廳 |
 
 > 💡 *排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）*
 > 📋 *[看更多 >>](./day3_dinner.md)*
+
+---
+
+
+
+## 住宿推薦 🏨
+
+| # | 飯店 | 評分 | 留言數 | 貝葉斯分 | 備註 |
+|:---:|:---|:---:|---:|:---:|:---|
+| 1 | [台南民宿回家旅行(訂房加line：@comehome)](https://www.google.com/maps/place/?q=place_id:ChIJpVhOegDZbTQRKTChyjpEvoI) | 4.9★ | 47 | 4.4797 |  |
+| 2 | [出差出租管理宿舍（七股工業區焚化爐工作者打工出差者）](https://www.google.com/maps/place/?q=place_id:ChIJFQuBGbPXbTQRWGUlvpLEdD4) | 4.4★ | 107 | 4.3262 |  |
+| 3 | [鄉下有房](https://www.google.com/maps/place/?q=place_id:ChIJAZxY6SDYbTQReVt4BlKU-_w) | 4.5★ | 27 | 4.2954 |  |
+| 4 | [九塊厝林聚庭園](https://www.google.com/maps/place/?q=place_id:ChIJa2wWoFnYbTQRRr-V48nLT1k) | 4.6★ | 14 | 4.2815 |  |
+| 5 | [Titi tata 民宿](https://www.google.com/maps/place/?q=place_id:ChIJ2zBHUYLZbTQRokp0rVHUeSk) | 5★ | 3 | 4.2528 |  |
+
+> 💡 *終點周邊 3 公里 · 10 筆候選 · IMDB 風格貝葉斯平均*
+> 📋 *[看更多 >>](./day3_hotel.md)*
 
 ---
 

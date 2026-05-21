@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJfU9P1sGfaDQRa8KSaKRqIOQ",
+  "name_zh": "福華小吃店",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 341,
+  "location": {
+    "lat": 23.975639299999997,
+    "lng": 121.6085753
+  },
+  "address": "970花蓮縣花蓮市主商里光復街28之1號",
+  "primary_type": "deli",
+  "primary_type_label": "小吃店",
+  "distance_km": 2.1,
+  "source": "api_2026-05-21",
+  "note": "小吃店",
+  "name_is_ascii": false
+}

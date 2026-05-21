@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ6Qa-MH2ycTQRTog7Gm1TB4c",
+  "name_zh": "窩在海邊",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 216,
+  "location": {
+    "lat": 21.913013799999998,
+    "lng": 120.84798619999998
+  },
+  "address": "946屏東縣恆春鎮鵝鑾里砂島路218號",
+  "primary_type": "lodging",
+  "distance_km": 1.29,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

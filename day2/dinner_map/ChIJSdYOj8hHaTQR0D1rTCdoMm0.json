@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJSdYOj8hHaTQR0D1rTCdoMm0",
+  "name_zh": "碳炙焼き鳥-鹿港推薦串燒|深夜美食|深夜居酒屋|特色居酒屋|必吃烤串|熱門餐廳|宵夜美食|宵夜推薦",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 83,
+  "location": {
+    "lat": 24.0637802,
+    "lng": 120.4466487
+  },
+  "address": "505彰化縣鹿港鎮頂厝里鹿和路一段394號",
+  "primary_type": "japanese_izakaya_restaurant",
+  "primary_type_label": "居酒屋",
+  "distance_km": 1.65,
+  "source": "api_2026-05-21",
+  "note": "居酒屋",
+  "name_is_ascii": false
+}

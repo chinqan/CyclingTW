@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJC1qBUNJHaTQR5CyE0Rngd7k",
+  "name_zh": "茶六燒肉堂 鹿港店",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 6390,
+  "location": {
+    "lat": 24.0573804,
+    "lng": 120.44015170000002
+  },
+  "address": "505彰化縣鹿港鎮永安里中正路306號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.78,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

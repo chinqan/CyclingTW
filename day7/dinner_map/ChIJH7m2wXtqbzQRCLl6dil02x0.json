@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJH7m2wXtqbzQRCLl6dil02x0",
+  "name_zh": "越南美食",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 110,
+  "location": {
+    "lat": 23.3330281,
+    "lng": 121.31563720000001
+  },
+  "address": "981花蓮縣玉里鎮國武里民生街43號",
+  "primary_type": "vietnamese_restaurant",
+  "primary_type_label": "越南餐廳",
+  "distance_km": 0.43,
+  "source": "api_2026-05-21",
+  "note": "越南餐廳",
+  "name_is_ascii": false
+}

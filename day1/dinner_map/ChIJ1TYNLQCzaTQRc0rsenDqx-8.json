@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ1TYNLQCzaTQRc0rsenDqx-8",
+  "name_zh": "克里希納印度餐廳",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 265,
+  "location": {
+    "lat": 24.6914524,
+    "lng": 120.87961279999999
+  },
+  "address": "No, No. 344號光復路照南里竹南鎮苗栗縣350",
+  "primary_type": "indian_restaurant",
+  "primary_type_label": "印度餐廳",
+  "distance_km": 0.55,
+  "source": "api_2026-05-21",
+  "note": "印度餐廳",
+  "name_is_ascii": false
+}

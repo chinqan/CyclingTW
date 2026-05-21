@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJG_XngVmzQjQRMZBAr8oZhB8",
+  "name_zh": "璞真民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 162,
+  "location": {
+    "lat": 25.2216892,
+    "lng": 121.61394499999999
+  },
+  "address": "208新北市金山區頂六股2之1號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 2.45,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

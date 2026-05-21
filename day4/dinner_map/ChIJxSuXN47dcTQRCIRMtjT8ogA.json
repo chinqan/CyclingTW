@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJxSuXN47dcTQRCIRMtjT8ogA",
+  "name_zh": "比悠瑪東港鮮魚直送100元熱炒",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 114,
+  "location": {
+    "lat": 22.364988099999998,
+    "lng": 120.599199
+  },
+  "address": "940屏東縣枋寮鄉隆山村隆山路137巷1號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.54,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

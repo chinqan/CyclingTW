@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJx3xI8XXdcTQRzX4N-DS12KM",
+  "name_zh": "鰻鰻烤韓式餐廳/ 屏東最美海景韓式餐廳/韓式烤鰻",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 1159,
+  "location": {
+    "lat": 22.3661372,
+    "lng": 120.59162180000001
+  },
+  "address": "940屏東縣枋寮鄉枋寮村沿海路9之2號",
+  "primary_type": "korean_barbecue_restaurant",
+  "primary_type_label": "韓式燒烤料理餐廳",
+  "distance_km": 0.41,
+  "source": "api_2026-05-21",
+  "note": "韓式燒烤料理餐廳",
+  "name_is_ascii": false
+}

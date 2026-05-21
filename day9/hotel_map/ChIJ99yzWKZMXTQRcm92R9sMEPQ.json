@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ99yzWKZMXTQRcm92R9sMEPQ",
+  "name_zh": "萬里仙境溫泉會館",
+  "name_lang": "zh-TW",
+  "rating": 3.1,
+  "total_ratings": 412,
+  "location": {
+    "lat": 25.215912,
+    "lng": 121.64286
+  },
+  "address": "207新北市萬里區大鵬里加投路197-3號",
+  "primary_type": "hotel",
+  "distance_km": 0.8,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

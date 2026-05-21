@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ3QbVn9NHaTQRcKmsM8YFMNI",
+  "name_zh": "鹿僖民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 99,
+  "location": {
+    "lat": 24.0616703,
+    "lng": 120.43721989999999
+  },
+  "address": "505彰化縣鹿港鎮埔崙里中正路510巷8號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.76,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

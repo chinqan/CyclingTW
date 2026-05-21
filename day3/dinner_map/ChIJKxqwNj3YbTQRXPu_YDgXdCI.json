@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJKxqwNj3YbTQRXPu_YDgXdCI",
+  "name_zh": "台南土城阿瑞餐廳",
+  "name_lang": "zh-TW",
+  "rating": 3.3,
+  "total_ratings": 76,
+  "location": {
+    "lat": 23.069268,
+    "lng": 120.134071
+  },
+  "address": "709臺南市安南區城東里安明路四段837號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.81,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

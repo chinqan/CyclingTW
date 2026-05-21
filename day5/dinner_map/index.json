@@ -2,107 +2,243 @@
   "day": 5,
   "candidates": [
     {
-      "place_id": "ChIJFbQ4knSxcTQREYzR12aFUaE",
-      "name_zh": "沙丁嶼餐酒館",
-      "rating": 5.0,
-      "total_ratings": 473,
+      "place_id": "ChIJ8_V8Y4mycTQRQdcWFYktpRs",
+      "name_zh": "龍磐餐飲～週二週三公休",
+      "rating": 4.3,
+      "total_ratings": 1022,
       "location": {
-        "lat": 21.943183,
-        "lng": 120.799644
+        "lat": 21.9175048,
+        "lng": 120.853619
       },
-      "note": "墾丁精緻餐酒館",
-      "source": "search_2026-05-21",
-      "selected": true
-    },
-    {
-      "place_id": "ChIJS-8yioWxcTQRY-vhorkDyeY",
-      "name_zh": "巷子內海鮮熱炒",
-      "rating": 4.6,
-      "total_ratings": 3436,
-      "location": {
-        "lat": 21.945539,
-        "lng": 120.796356
-      },
-      "note": "墾丁大街旁海鮮",
-      "source": "search_2026-05-21",
-      "selected": true
-    },
-    {
-      "place_id": "ChIJKaUzeDiwcTQRa2hw5EADw2s",
-      "name_zh": "後壁湖上安活海鮮",
-      "rating": 4.7,
-      "total_ratings": 3996,
-      "location": {
-        "lat": 21.951235,
-        "lng": 120.74102
-      },
-      "note": "後壁湖生魚片",
-      "source": "search_2026-05-21",
-      "selected": true
-    },
-    {
-      "place_id": "ChIJfaURJ5mxcTQRpvGj_lxHBmw",
-      "name_zh": "一支林海鮮",
-      "rating": 4.7,
-      "total_ratings": 2205,
-      "location": {
-        "lat": 21.953276,
-        "lng": 120.74049
-      },
-      "note": "後壁湖海鮮",
-      "source": "search_2026-05-21",
-      "selected": true
-    },
-    {
-      "place_id": "ChIJodDmTkOwcTQRt4uI9e8SbbQ",
-      "name_zh": "討海人海產",
-      "rating": 4.5,
-      "total_ratings": 4476,
-      "location": {
-        "lat": 21.952479,
-        "lng": 120.740739
-      },
-      "note": "後壁湖在地海產",
-      "source": "search_2026-05-21",
+      "address": "946屏東縣恆春鎮鵝鑾里坑內路13號",
+      "note": "亞洲風味餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
       "selected": false
     },
     {
-      "place_id": "ChIJSYdj7j-wcTQRKw4GQCx6oTw",
-      "name_zh": "恆春陳海鮮餐廳-墾丁店",
-      "rating": 4.6,
-      "total_ratings": 3503,
-      "location": {
-        "lat": 21.943632,
-        "lng": 120.801609
-      },
-      "note": "墾丁大街海鮮台菜",
-      "source": "search_2026-05-21",
-      "selected": false
-    },
-    {
-      "place_id": "ChIJHdJeRgCxcTQRgC997nMSIiU",
-      "name_zh": "天麟食苑臺灣菜",
+      "place_id": "ChIJBSj8eG6zcTQRoqcg8hEAIaU",
+      "name_zh": "AUTUMN.in丹桂小菊｜每月公休參照Ig/Fb置頂",
       "rating": 4.7,
-      "total_ratings": 314,
+      "total_ratings": 485,
       "location": {
-        "lat": 21.945865,
-        "lng": 120.79659
+        "lat": 21.917652399999998,
+        "lng": 120.8535267
       },
-      "note": "墾丁台菜",
-      "source": "search_2026-05-21",
+      "address": "946屏東縣恆春鎮鵝鑾里坑內路7號946台26縣道44.9公里處",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
       "selected": true
     },
     {
-      "place_id": "ChIJRVQuRAiwcTQR9wZgqL2h6vE",
-      "name_zh": "森食堂",
-      "rating": 4.5,
-      "total_ratings": 1003,
+      "place_id": "ChIJ1TZF8YCycTQRufWbd6VBwmw",
+      "name_zh": "捻花風味食堂",
+      "rating": 4.7,
+      "total_ratings": 2307,
       "location": {
-        "lat": 21.933945,
-        "lng": 120.722869
+        "lat": 21.9053067,
+        "lng": 120.85181740000002
       },
-      "note": "新台菜海鮮料理",
-      "source": "search_2026-05-21",
+      "address": "946屏東縣恆春鎮鵝鑾里鵝鑾路204號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJQ16gZImycTQRR_ULQBtixXo",
+      "name_zh": "阿全野生龍蝦",
+      "rating": 4.7,
+      "total_ratings": 224,
+      "location": {
+        "lat": 21.917123600000004,
+        "lng": 120.85372749999998
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里坑內路38號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ8V_9f76zcTQRd_Yd1ECj0UQ",
+      "name_zh": "南岬咖啡餐館(早午餐/簡餐) South Cape Café Brunch",
+      "rating": 4.5,
+      "total_ratings": 211,
+      "location": {
+        "lat": 21.904662,
+        "lng": 120.85196579999999
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里燈塔路185-1號",
+      "note": "咖啡館",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJQUXjEfOzcTQRajg6UmLzVtM",
+      "name_zh": "沛朵廚坊",
+      "rating": 4.7,
+      "total_ratings": 411,
+      "location": {
+        "lat": 21.916830599999997,
+        "lng": 120.8547696
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里坑內路55巷11號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ6cBiisuxcTQRfGVuWK1gkhI",
+      "name_zh": "OA專賣野生龍蝦-",
+      "rating": 4.9,
+      "total_ratings": 431,
+      "location": {
+        "lat": 21.9160744,
+        "lng": 120.8414285
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里砂島路504號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ7wffihWzcTQRB7-b5pOrV54",
+      "name_zh": "阿秀海鮮",
+      "rating": 4.1,
+      "total_ratings": 416,
+      "location": {
+        "lat": 21.9043852,
+        "lng": 120.8522376
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里燈塔路198號",
+      "note": "海鮮餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJz-Jr94CycTQRaGxHqZY86mQ",
+      "name_zh": "張口大吉早餐店",
+      "rating": 4.2,
+      "total_ratings": 178,
+      "location": {
+        "lat": 21.9049868,
+        "lng": 120.851907
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里燈塔路",
+      "note": "早餐店",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ8XBfdUuzcTQRXyBIQQTBs00",
+      "name_zh": "愛麗絲早安小屋",
+      "rating": 4.7,
+      "total_ratings": 67,
+      "location": {
+        "lat": 21.9072617,
+        "lng": 120.8496268
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里鵝鑾路440號",
+      "note": "早餐店",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJTRjyAUIB_xMRIrgXcxjSQbo",
+      "name_zh": "砂島海女咖啡• 甜點•早午餐 Shadao Cafe - Beer, Dessert & Brunch",
+      "rating": 4.3,
+      "total_ratings": 136,
+      "location": {
+        "lat": 21.9148841,
+        "lng": 120.84244389999999
+      },
+      "address": "946屏东县恒春镇鵝鑾里砂島路212號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJo0P2FjWzcTQRe6ybzrvdtOQ",
+      "name_zh": "奕竤熱炒店",
+      "rating": 4.8,
+      "total_ratings": 49,
+      "location": {
+        "lat": 21.905470200000003,
+        "lng": 120.8510204
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里鵝鑾路243號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJVxPIfNWzcTQRk_PNHlG8PAc",
+      "name_zh": "喵嗚灶咖",
+      "rating": 5,
+      "total_ratings": 1,
+      "location": {
+        "lat": 21.9127859,
+        "lng": 120.84797739999999
+      },
+      "address": "946屏東縣恆春鎮砂島路208號",
+      "note": "早餐店",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJq3qaUjWzcTQRncgng8i3klI",
+      "name_zh": "羅家眷村牛肉麵",
+      "rating": 3.3,
+      "total_ratings": 22,
+      "location": {
+        "lat": 21.9177763,
+        "lng": 120.8534471
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里坑內路3號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ1e-ScnezcTQRSeuZUEsceH4",
+      "name_zh": "千奇山海產餐廳",
+      "rating": 2.3,
+      "total_ratings": 17,
+      "location": {
+        "lat": 21.9053273,
+        "lng": 120.85135720000001
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里鵝鑾路219號",
+      "note": "中式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ2U7DsC-zcTQRFF7yWZm8vGw",
+      "name_zh": "BABO HOME 咪食堂",
+      "rating": 4.6,
+      "total_ratings": 10,
+      "location": {
+        "lat": 21.9046546,
+        "lng": 120.85189949999999
+      },
+      "address": "946004屏東縣恆春鎮鵝鑾里燈塔路223號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
       "selected": false
     }
   ]

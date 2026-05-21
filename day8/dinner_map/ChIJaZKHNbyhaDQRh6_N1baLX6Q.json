@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJaZKHNbyhaDQRh6_N1baLX6Q",
+  "name_zh": "玉里橋頭臭豆腐-花蓮店",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 7318,
+  "location": {
+    "lat": 23.9678821,
+    "lng": 121.6080214
+  },
+  "address": "97046花蓮縣花蓮市主和里和平路55號",
+  "primary_type": "korean_restaurant",
+  "primary_type_label": "韓國餐廳",
+  "distance_km": 2.91,
+  "source": "api_2026-05-21",
+  "note": "韓國餐廳",
+  "name_is_ascii": false
+}

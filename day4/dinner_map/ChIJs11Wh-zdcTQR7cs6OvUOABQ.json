@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJs11Wh-zdcTQR7cs6OvUOABQ",
+  "name_zh": "鴨廬",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 15,
+  "location": {
+    "lat": 22.365954,
+    "lng": 120.59626069999999
+  },
+  "address": "940屏東縣枋寮鄉枋寮村儲運路1之13號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.26,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

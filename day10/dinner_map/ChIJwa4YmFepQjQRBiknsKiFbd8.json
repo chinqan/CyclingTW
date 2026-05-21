@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJwa4YmFepQjQRBiknsKiFbd8",
+  "name_zh": "品夜現代居酒屋/蘆洲美食/蘆洲居酒屋/蘆洲推薦餐廳/蘆洲宵夜/蘆洲串燒/必吃/特色/聚會/聚餐/慶生居酒屋/熱門串燒/日式洋食/美食",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 356,
+  "location": {
+    "lat": 25.0821716,
+    "lng": 121.45926039999999
+  },
+  "address": "247新北市蘆洲區長安里中原路53號",
+  "primary_type": "japanese_izakaya_restaurant",
+  "primary_type_label": "居酒屋",
+  "distance_km": 0.75,
+  "source": "api_2026-05-21",
+  "note": "居酒屋",
+  "name_is_ascii": false
+}

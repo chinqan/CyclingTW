@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJZ9GyGc1FaTQRQWO5bR-0Bzw",
+  "name_zh": "杉行居（鹿港民宿）",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 94,
+  "location": {
+    "lat": 24.052352499999998,
+    "lng": 120.434801
+  },
+  "address": "505彰化縣鹿港鎮龍山里杉行街77號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.49,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

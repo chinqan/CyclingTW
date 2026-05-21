@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJt90tfBXccTQROB-4QjM-2cM",
+  "name_zh": "小晴天親子餐廳",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 168,
+  "location": {
+    "lat": 22.3633766,
+    "lng": 120.5962448
+  },
+  "address": "940屏東縣枋寮鄉安樂村隆山路37號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.53,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

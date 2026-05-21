@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJuWXA4npqbzQRrtdbytHaBl0",
+  "name_zh": "910 hostel 城東館",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 388,
+  "location": {
+    "lat": 23.3305282,
+    "lng": 121.3170988
+  },
+  "address": "981花蓮縣玉里鎮中城里城東四街42號",
+  "primary_type": "hostel",
+  "distance_km": 0.56,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ3YBhVABHaTQRaQI6hIVO8Ms",
+  "name_zh": "圓味食堂（燴飯.炒麵..炒飯）",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 14,
+  "location": {
+    "lat": 24.0647128,
+    "lng": 120.43466149999999
+  },
+  "address": "505彰化縣鹿港鎮埔崙里永康路12號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.96,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

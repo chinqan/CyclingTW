@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJtwcYVBBHaTQReK611L3Vn6c",
+  "name_zh": "以樂以樂民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 192,
+  "location": {
+    "lat": 24.060645599999997,
+    "lng": 120.4365696
+  },
+  "address": "505彰化县鹿港镇埔仑里中正路523巷25號",
+  "primary_type": "guest_house",
+  "distance_km": 0.63,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

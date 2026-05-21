@@ -118,14 +118,31 @@ ishikawa-beta
 
 | # | 店名 | 評分 | 留言數 | 貝葉斯分 | 備註 |
 |:---:|:---|:---:|---:|:---:|:---|
-| 1 | [双亭院咖啡餐食甜點](https://www.google.com/maps/place/?q=place_id:ChIJI0jmeUpPXTQRRHdClh8ZaZk) | 4.9★ | 1984 | 4.8297 | 排灣族創意料理咖啡 週三公休 偏離主線 |
-| 2 | [屋瑪umaq 餐館](https://www.google.com/maps/place/?q=place_id:ChIJjVYBOQDTbzQRBBsot3wVXe8) | 4.9★ | 203 | 4.6696 | 原住民特色料理 金崙 |
-| 3 | [越南小廚](https://www.google.com/maps/place/?q=place_id:ChIJ75vo-QTPbzQRtL8dlJEhwv8) | 4.7★ | 802 | 4.6534 | 越南河粉蝦餅 週二公休 |
-| 4 | [187嗑棧](https://www.google.com/maps/place/?q=place_id:ChIJiX27_QbPbzQRHtI2Mswq5kc) | 4.7★ | 704 | 4.6498 | 在地快炒 炒飯超讚 週二公休 |
-| 5 | [金三角小吃部](https://www.google.com/maps/place/?q=place_id:ChIJk4uFvpbObzQRuLBO8_jyPHc) | 4.8★ | 142 | 4.6304 | 在地小吃 份量大 |
+| 1 | [維縈家鄉碳烤雞排 太麻里店](https://www.google.com/maps/place/?q=place_id:ChIJMSX_LwDPbzQR87-nfAcTnNE) | 4.9★ | 157 | 4.6516 | 速食餐廳 |
+| 2 | [越南小廚](https://www.google.com/maps/place/?q=place_id:ChIJ75vo-QTPbzQRtL8dlJEhwv8) | 4.7★ | 802 | 4.6514 | 越南餐廳 |
+| 3 | [麻里マリ朝午食-太麻里店（店休臉書公告）](https://www.google.com/maps/place/?q=place_id:ChIJ42A4PdLPbzQR-ZSjNBRW71Q) | 4.8★ | 251 | 4.6479 | 早午餐餐廳 |
+| 4 | [187嗑棧](https://www.google.com/maps/place/?q=place_id:ChIJiX27_QbPbzQRHtI2Mswq5kc) | 4.7★ | 705 | 4.6463 | 餐廳 |
+| 5 | [好食屋](https://www.google.com/maps/place/?q=place_id:ChIJg6rKsJLPbzQRxSoZQQ7tiPk) | 4.9★ | 120 | 4.6247 | 早午餐餐廳 |
 
 > 💡 *排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）*
 > 📋 *[看更多 >>](./day6_dinner.md)*
+
+---
+
+
+
+## 住宿推薦 🏨
+
+| # | 飯店 | 評分 | 留言數 | 貝葉斯分 | 備註 |
+|:---:|:---|:---:|---:|:---:|:---|
+| 1 | [吉廬夫敢藝文民宿](https://www.google.com/maps/place/?q=place_id:ChIJ4ULmurHObzQRJOGMf059wsM) | 4.8★ | 529 | 4.6149 |  |
+| 2 | [麻茶屋民宿 40820243](https://www.google.com/maps/place/?q=place_id:ChIJVVVVVanObzQRMGJPCZ-x29s) | 4.8★ | 261 | 4.5172 |  |
+| 3 | [| Taimali Hotel | 臺東縣合法旅館050號](https://www.google.com/maps/place/?q=place_id:ChIJwfSIbCLIbzQRkrMzjcDSlMc) | 4.4★ | 376 | 4.328 |  |
+| 4 | [日昇花園部落](https://www.google.com/maps/place/?q=place_id:ChIJgWHTtaPObzQRooTS_ol_DAs) | 4.6★ | 83 | 4.3144 |  |
+| 5 | [（阿里客棧） 住宿 太麻里 金峰](https://www.google.com/maps/place/?q=place_id:ChIJ4Um3OdPPbzQRkHc2a-CwtV0) | 5★ | 14 | 4.2604 |  |
+
+> 💡 *終點周邊 3 公里 · 17 筆候選 · IMDB 風格貝葉斯平均*
+> 📋 *[看更多 >>](./day6_hotel.md)*
 
 ---
 

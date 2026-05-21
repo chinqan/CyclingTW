@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ7wffihWzcTQRB7-b5pOrV54",
+  "name_zh": "阿秀海鮮",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 416,
+  "location": {
+    "lat": 21.9043852,
+    "lng": 120.8522376
+  },
+  "address": "946屏東縣恆春鎮鵝鑾里燈塔路198號",
+  "primary_type": "seafood_restaurant",
+  "primary_type_label": "海鮮餐廳",
+  "distance_km": 0.24,
+  "source": "api_2026-05-21",
+  "note": "海鮮餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ47tp3T_ccTQRg5B5l1Yuv6k",
+  "name_zh": "好做伙(勤)鹹酥雞",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 125,
+  "location": {
+    "lat": 22.3630946,
+    "lng": 120.5963725
+  },
+  "address": "940屏東縣枋寮鄉安樂村隆山路46號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.56,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

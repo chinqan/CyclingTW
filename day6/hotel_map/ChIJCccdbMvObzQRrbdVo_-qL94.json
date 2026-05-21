@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJCccdbMvObzQRrbdVo_-qL94",
+  "name_zh": "邊界客棧",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 263,
+  "location": {
+    "lat": 22.635744000000003,
+    "lng": 121.01512739999998
+  },
+  "address": "963臺東縣太麻里鄉北里號",
+  "primary_type": "guest_house",
+  "distance_km": 2.15,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

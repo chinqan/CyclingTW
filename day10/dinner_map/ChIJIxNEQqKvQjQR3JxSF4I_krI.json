@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJIxNEQqKvQjQR3JxSF4I_krI",
+  "name_zh": "蝦樂寶休閒釣蝦場",
+  "name_lang": "zh-TW",
+  "rating": 3.5,
+  "total_ratings": 1394,
+  "location": {
+    "lat": 25.0897394,
+    "lng": 121.4850512
+  },
+  "address": "241新北市蘆洲區樓厝里五華街326之2號",
+  "primary_type": "seafood_restaurant",
+  "primary_type_label": "海鮮餐廳",
+  "distance_km": 2.26,
+  "source": "api_2026-05-21",
+  "note": "海鮮餐廳",
+  "name_is_ascii": false
+}

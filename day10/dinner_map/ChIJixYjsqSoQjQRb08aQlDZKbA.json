@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJixYjsqSoQjQRb08aQlDZKbA",
+  "name_zh": "萬福烤雞莊",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 468,
+  "location": {
+    "lat": 25.080812,
+    "lng": 121.45667619999999
+  },
+  "address": "248新北市五股區更寮里中興路二段182巷16號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.02,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

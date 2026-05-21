@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJZ76lnbGoQjQRyBmQc3TcmDY",
+  "name_zh": "麥當勞-蘆洲長榮餐廳－設有得來速",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 3527,
+  "location": {
+    "lat": 25.0872332,
+    "lng": 121.4599015
+  },
+  "address": "247新北市蘆洲區正義里長榮路376號378號",
+  "primary_type": "fast_food_restaurant",
+  "primary_type_label": "速食餐廳",
+  "distance_km": 0.3,
+  "source": "api_2026-05-21",
+  "note": "速食餐廳",
+  "name_is_ascii": false
+}

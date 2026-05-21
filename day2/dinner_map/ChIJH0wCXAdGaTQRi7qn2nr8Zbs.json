@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJH0wCXAdGaTQRi7qn2nr8Zbs",
+  "name_zh": "阿振肉包 振味珍",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 7348,
+  "location": {
+    "lat": 24.0520697,
+    "lng": 120.43622560000001
+  },
+  "address": "505彰化縣鹿港鎮長興里中山路71號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.6,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

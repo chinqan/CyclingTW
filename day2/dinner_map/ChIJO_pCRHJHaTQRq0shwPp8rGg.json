@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJO_pCRHJHaTQRq0shwPp8rGg",
-  "name_zh": "滿座食堂",
+  "name_zh": "滿座食堂 鮭魚炒飯回歸中 售完提早打烊",
+  "name_lang": "zh-TW",
   "rating": 4.5,
   "total_ratings": 215,
   "location": {
-    "lat": 24.053401,
-    "lng": 120.4382029
+    "lat": 24.053400999999997,
+    "lng": 120.43820289999998
   },
-  "address": "彰化縣鹿港鎮官前街9號",
-  "note": "鮭魚炒飯 售完打烊",
-  "source": "search_2026-05-21"
+  "address": "505彰化縣鹿港鎮泰興里館前街9號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.66,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
 }

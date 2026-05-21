@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ9wuMmCSzaTQRceI7q2XCDuk",
+  "name_zh": "竹南旅社",
+  "name_lang": "zh-TW",
+  "rating": 2.9,
+  "total_ratings": 38,
+  "location": {
+    "lat": 24.683403,
+    "lng": 120.87911700000001
+  },
+  "address": "350苗栗縣竹南鎮正南里光復路18號",
+  "primary_type": "hotel",
+  "distance_km": 0.38,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

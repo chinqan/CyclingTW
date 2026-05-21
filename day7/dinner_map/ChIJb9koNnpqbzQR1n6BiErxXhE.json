@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJb9koNnpqbzQR1n6BiErxXhE",
-  "name_zh": "星馬茶餐廳",
+  "name_zh": "星馬茶餐廳｜玉里美食",
+  "name_lang": "zh-TW",
   "rating": 4.7,
   "total_ratings": 500,
   "location": {
-    "lat": 23.332483,
-    "lng": 121.317762
+    "lat": 23.332482700000003,
+    "lng": 121.3177615
   },
-  "address": "花蓮縣玉里鎮光復路46之1號",
-  "note": "星馬咖哩料理 週日公休",
-  "source": "search_2026-07"
+  "address": "981花蓮縣玉里鎮國武里光復路46之1號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.63,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
 }

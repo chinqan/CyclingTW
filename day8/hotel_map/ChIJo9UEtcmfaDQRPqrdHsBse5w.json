@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJo9UEtcmfaDQRPqrdHsBse5w",
+  "name_zh": "美侖溪畔民宿- 花蓮市火車站前民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 79,
+  "location": {
+    "lat": 23.993301799999998,
+    "lng": 121.6084832
+  },
+  "address": "970花蓮縣花蓮市國盛里國盛五街11號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.74,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

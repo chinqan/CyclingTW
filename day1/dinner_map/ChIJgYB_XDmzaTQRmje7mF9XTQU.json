@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJgYB_XDmzaTQRmje7mF9XTQU",
+  "name_zh": "阿中食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 80,
+  "location": {
+    "lat": 24.690544700000004,
+    "lng": 120.8795
+  },
+  "address": "350苗栗縣竹南鎮照南里光復路292號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.45,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

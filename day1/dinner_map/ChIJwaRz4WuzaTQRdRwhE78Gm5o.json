@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJwaRz4WuzaTQRdRwhE78Gm5o",
+  "name_zh": "三味真火食堂信義分店（公休日請參考粉絲專頁）",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 94,
+  "location": {
+    "lat": 24.6963047,
+    "lng": 120.8955309
+  },
+  "address": "351苗栗縣頭份市文化里信義路453號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 1.86,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

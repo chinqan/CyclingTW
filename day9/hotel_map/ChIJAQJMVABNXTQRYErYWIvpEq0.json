@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJAQJMVABNXTQRYErYWIvpEq0",
+  "name_zh": "新北北海溫泉洲際酒店 InterContinental New Taipei Hot Spring",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 508,
+  "location": {
+    "lat": 25.218746,
+    "lng": 121.63378499999999
+  },
+  "address": "208004新北市金山區金美里環金路210號",
+  "primary_type": "resort_hotel",
+  "distance_km": 0.57,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

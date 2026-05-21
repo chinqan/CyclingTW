@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJYxhyrWaycTQRQbH7jbVYB7I",
+  "name_zh": "國境之南設計旅店",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 350,
+  "location": {
+    "lat": 21.9183275,
+    "lng": 120.8449323
+  },
+  "address": "946屏東縣恆春鎮鵝鑾里埔頂路275號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 1.96,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

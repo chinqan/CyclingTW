@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ5wlEy2RHaTQRwhSu4KWHZP0",
+  "name_zh": "寬燒肉-鹿港總店",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 1437,
+  "location": {
+    "lat": 24.0539055,
+    "lng": 120.44197519999999
+  },
+  "address": "505彰化縣鹿港鎮橋頭村平和路340號",
+  "primary_type": "yakiniku_restaurant",
+  "primary_type_label": "日式燒肉餐廳",
+  "distance_km": 0.99,
+  "source": "api_2026-05-21",
+  "note": "日式燒肉餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJh5JLGiDccTQRaenPcsYkY2g",
+  "name_zh": "枋寮 阿東火鍋",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 1354,
+  "location": {
+    "lat": 22.382175399999998,
+    "lng": 120.5964202
+  },
+  "address": "940屏東縣枋寮鄉人和村中山路二段130號",
+  "primary_type": "hot_pot_restaurant",
+  "primary_type_label": "火鍋店",
+  "distance_km": 1.58,
+  "source": "api_2026-05-21",
+  "note": "火鍋店",
+  "name_is_ascii": false
+}

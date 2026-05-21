@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ8_V8Y4mycTQRQdcWFYktpRs",
+  "name_zh": "龍磐餐飲～週二週三公休",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 1022,
+  "location": {
+    "lat": 21.9175048,
+    "lng": 120.853619
+  },
+  "address": "946屏東縣恆春鎮鵝鑾里坑內路13號",
+  "primary_type": "asian_restaurant",
+  "primary_type_label": "亞洲風味餐廳",
+  "distance_km": 1.7,
+  "source": "api_2026-05-21",
+  "note": "亞洲風味餐廳",
+  "name_is_ascii": false
+}

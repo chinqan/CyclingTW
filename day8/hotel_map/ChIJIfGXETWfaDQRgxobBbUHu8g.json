@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJIfGXETWfaDQRgxobBbUHu8g",
+  "name_zh": "時光.漫旅民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 307,
+  "location": {
+    "lat": 23.9900375,
+    "lng": 121.6030146
+  },
+  "address": "970花蓮縣花蓮市國聯里國聯二路68號",
+  "primary_type": "guest_house",
+  "distance_km": 0.41,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

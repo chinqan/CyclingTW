@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJr4LsEFVLXTQRT19wcj8qSGc",
+  "name_zh": "福緣火鍋",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 5749,
+  "location": {
+    "lat": 25.2250394,
+    "lng": 121.6302262
+  },
+  "address": "208新北市金山區環金路466號",
+  "primary_type": "hot_pot_restaurant",
+  "primary_type_label": "火鍋店",
+  "distance_km": 0.89,
+  "source": "api_2026-05-21",
+  "note": "火鍋店",
+  "name_is_ascii": false
+}

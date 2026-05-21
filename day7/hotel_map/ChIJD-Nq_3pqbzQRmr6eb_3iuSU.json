@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJD-Nq_3pqbzQRmr6eb_3iuSU",
+  "name_zh": "玉里多美麗民宿 Yulibnb-合法民宿備有專屬停車場",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 283,
+  "location": {
+    "lat": 23.331012,
+    "lng": 121.31751469999999
+  },
+  "address": "98144花蓮縣玉里鎮中城里忠智路172號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.59,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

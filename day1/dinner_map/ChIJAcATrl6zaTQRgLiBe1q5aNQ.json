@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJAcATrl6zaTQRgLiBe1q5aNQ",
+  "name_zh": "眞常食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 4,
+  "location": {
+    "lat": 24.6869948,
+    "lng": 120.8759749
+  },
+  "address": "350苗栗縣竹南鎮照南里博愛街128號",
+  "primary_type": "brunch_restaurant",
+  "primary_type_label": "早午餐餐廳",
+  "distance_km": 0.47,
+  "source": "api_2026-05-21",
+  "note": "早午餐餐廳",
+  "name_is_ascii": false
+}

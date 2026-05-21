@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ-1lGLQDdcTQRbjtfe4uhzSA",
+  "name_zh": "豆魚民宿",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 8,
+  "location": {
+    "lat": 22.3661496,
+    "lng": 120.591814
+  },
+  "address": "940屏東縣枋寮鄉枋寮村沿海路9號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.4,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

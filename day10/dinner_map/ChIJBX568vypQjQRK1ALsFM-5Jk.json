@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJBX568vypQjQRK1ALsFM-5Jk",
+  "name_zh": "香港奶茶王 港式茶餐廳、港式點心",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 873,
+  "location": {
+    "lat": 25.0897854,
+    "lng": 121.4677305
+  },
+  "address": "247新北市蘆洲區保佑里三民路279-1號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.54,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

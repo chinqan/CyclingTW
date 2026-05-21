@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ7WZ1ATBNXTQRskXDbBh3Rtk",
+  "name_zh": "萬金溫泉會館服務亭",
+  "name_lang": "zh-TW",
+  "rating": 3.5,
+  "total_ratings": 992,
+  "location": {
+    "lat": 25.210092,
+    "lng": 121.6412194
+  },
+  "address": "207台灣新北市萬里區",
+  "primary_type": "hotel",
+  "distance_km": 1.33,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJjcOHR5PdcTQRACEfP3aZu-4",
+  "name_zh": "遊客民宿",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 8,
+  "location": {
+    "lat": 22.3687762,
+    "lng": 120.59289690000001
+  },
+  "address": "940屏東縣枋寮鄉枋寮村中山路281號",
+  "primary_type": "lodging",
+  "distance_km": 0.24,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

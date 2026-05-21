@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJJ2knxGRqbzQRlslIIIAahxY",
+  "name_zh": "牛哥平價牛排",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 794,
+  "location": {
+    "lat": 23.3279383,
+    "lng": 121.31592010000001
+  },
+  "address": "981花蓮縣玉里鎮仁愛路一段81號",
+  "primary_type": "steak_house",
+  "primary_type_label": "牛排館",
+  "distance_km": 0.59,
+  "source": "api_2026-05-21",
+  "note": "牛排館",
+  "name_is_ascii": false
+}

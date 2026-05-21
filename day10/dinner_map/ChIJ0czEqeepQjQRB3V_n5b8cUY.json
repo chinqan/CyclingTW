@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ0czEqeepQjQRB3V_n5b8cUY",
+  "name_zh": "呂府陳記食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 306,
+  "location": {
+    "lat": 25.084476799999997,
+    "lng": 121.46639189999999
+  },
+  "address": "247新北市蘆洲區中原里中正路185巷72號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.56,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

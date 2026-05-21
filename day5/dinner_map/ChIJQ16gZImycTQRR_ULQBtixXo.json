@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJQ16gZImycTQRR_ULQBtixXo",
+  "name_zh": "阿全野生龍蝦",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 224,
+  "location": {
+    "lat": 21.917123600000004,
+    "lng": 120.85372749999998
+  },
+  "address": "946屏東縣恆春鎮鵝鑾里坑內路38號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.66,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

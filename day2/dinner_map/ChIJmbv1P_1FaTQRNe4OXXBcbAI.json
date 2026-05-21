@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJmbv1P_1FaTQRNe4OXXBcbAI",
+  "name_zh": "鹿鹿鬆餅屋",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 553,
+  "location": {
+    "lat": 24.055075,
+    "lng": 120.43337799999999
+  },
+  "address": "505彰化縣鹿港鎮大有里大有街34號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.16,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

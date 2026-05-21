@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ554fuMhMaDQRU6Tr1UKm8Vs",
+  "name_zh": "亞力大飯店",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 1,
+  "location": {
+    "lat": 24.6846498,
+    "lng": 120.9058801
+  },
+  "address": "351苗栗縣頭份市民族里中華路951號9樓",
+  "primary_type": "hotel",
+  "distance_km": 2.57,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

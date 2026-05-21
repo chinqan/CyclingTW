@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJFXIxsgFGaTQRHIMSKiYOoWo",
+  "name_zh": "臺灣鹿港の子 臺灣系創作拉麵",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 783,
+  "location": {
+    "lat": 24.0470924,
+    "lng": 120.4389954
+  },
+  "address": "505彰化縣鹿港鎮街尾里中山南路47號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 1.21,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

@@ -118,14 +118,31 @@ ishikawa-beta
 
 | # | 店名 | 評分 | 留言數 | 貝葉斯分 | 備註 |
 |:---:|:---|:---:|---:|:---:|:---|
-| 1 | [御廚海鮮](https://www.google.com/maps/place/?q=place_id:ChIJJSWM7drpZzQRXLDvkWdbAkQ) | 4.8★ | 6343 | 4.7047 | 南方澳海鮮 評價極高 |
-| 2 | [海珍活海鮮](https://www.google.com/maps/place/?q=place_id:ChIJa0bDn9rpZzQRp9bQIGPjSws) | 4.7★ | 10640 | 4.6586 | 南方澳代表海鮮餐廳 |
-| 3 | [食令鮮魚湯店](https://www.google.com/maps/place/?q=place_id:ChIJC5vH2DvoZzQR-00YuSvy7yk) | 4.7★ | 1645 | 4.5873 | 鮮魚湯 蘇澳車站旁 |
-| 4 | [味珍活海鮮](https://www.google.com/maps/place/?q=place_id:ChIJ_8BSctDpZzQRAolCEcCp9RY) | 4.6★ | 7684 | 4.5795 | 南方澳海鮮 份量大 |
-| 5 | [漁町小吃](https://www.google.com/maps/place/?q=place_id:ChIJjSFY2GDpZzQRgq4v__TeONM) | 4.9★ | 330 | 4.5662 | 平價海鮮 售完為止 |
+| 1 | [老時光燒肉酒肴](https://www.google.com/maps/place/?q=place_id:ChIJ2VVALcGfaDQRkjKccxTOx3k) | 4.8★ | 11688 | 4.7292 | 居酒屋 |
+| 2 | [小村·日 壽司（花蓮店）｜日式餐廳｜花蓮美食｜聚餐餐廳｜客製化餐盒｜生魚片蛋糕｜](https://www.google.com/maps/place/?q=place_id:ChIJpTHZfGufaDQRYwv9zZs77ZI) | 4.9★ | 3572 | 4.6898 | 壽司店 |
+| 3 | [香茅廚房《Lemongrass Kitchen》花蓮美食/花蓮餐廳/花蓮泰式料理/花蓮必吃/花蓮聚餐/寵物親子友善餐廳](https://www.google.com/maps/place/?q=place_id:ChIJw87z53WfaDQRB494Xktk3NU) | 4.9★ | 2612 | 4.6457 | 泰國餐廳 |
+| 4 | [花蓮市立丼物園](https://www.google.com/maps/place/?q=place_id:ChIJkW2NqgmfaDQRZOqdD_Jj67E) | 4.9★ | 2301 | 4.6271 | 日式餐廳 |
+| 5 | [饗泰多 Siam More 泰式風格餐廳 花蓮遠百店](https://www.google.com/maps/place/?q=place_id:ChIJF5w35AefaDQReBCh2s4TjdQ) | 4.9★ | 2245 | 4.6234 | 餐廳 |
 
 > 💡 *排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）*
 > 📋 *[看更多 >>](./day8_dinner.md)*
+
+---
+
+
+
+## 住宿推薦 🏨
+
+| # | 飯店 | 評分 | 留言數 | 貝葉斯分 | 備註 |
+|:---:|:---|:---:|---:|:---:|:---|
+| 1 | [花蓮品悅文旅](https://www.google.com/maps/place/?q=place_id:ChIJv0onO4ifaDQRktpDiZdJOww) | 5★ | 3387 | 4.8066 |  |
+| 2 | [悅樂旅店‧花蓮中福 OLAH Poshtel Hualien Zhongfu](https://www.google.com/maps/place/?q=place_id:ChIJsbmXYJ2faDQRJefZgX8-UZY) | 4.8★ | 2174 | 4.6206 |  |
+| 3 | [去那邊民宿-【花蓮電梯民宿】](https://www.google.com/maps/place/?q=place_id:ChIJ751PxT6faDQRozEKJD8G1RE) | 5★ | 816 | 4.5847 |  |
+| 4 | [花蓮青年旅館．北吉光輕旅 Hualien Hostel Bayhouse](https://www.google.com/maps/place/?q=place_id:ChIJe7-1qbCfaDQRaLK31rEPXYs) | 4.8★ | 1558 | 4.5835 |  |
+| 5 | [康橋商旅-花蓮站前館](https://www.google.com/maps/place/?q=place_id:ChIJT9gvA7afaDQRSrBEVTOeLQw) | 4.6★ | 6283 | 4.5532 |  |
+
+> 💡 *終點周邊 3 公里 · 64 筆候選 · IMDB 風格貝葉斯平均*
+> 📋 *[看更多 >>](./day8_hotel.md)*
 
 ---
 

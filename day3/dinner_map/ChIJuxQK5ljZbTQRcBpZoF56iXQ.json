@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJuxQK5ljZbTQRcBpZoF56iXQ",
+  "name_zh": "草本梁氏臭豆腐（土城正統鹿耳門聖母廟前）",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 7,
+  "location": {
+    "lat": 23.067017999999997,
+    "lng": 120.127914
+  },
+  "address": "709臺南市安南區城安路",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.14,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

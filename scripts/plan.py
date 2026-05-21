@@ -2,18 +2,24 @@
 """
 CyclingTW Day Planner — 半自動腳本工具
 =====================================
-Claude 在對話中呼叫 MCP 工具（Google Maps / OpenRoute）取得資料並做選點判斷，
-本腳本負責所有機械步驟（鏡像維護 / Bayesian / CSV / GPX / 模板渲染）。
+本腳本負責所有機械步驟（HTTPS API 搜尋 / 本地鏡像 / Bayesian / CSV / GPX / 模板渲染）。
+Phase 1 停靠點仍由 Claude 在對話中用 google-maps MCP 補搜，pipe 到 mirror-put 寫回；
+Phase 3.5（餐廳）/ 3.6（住宿）已改 Google Places API 直呼，不走 MCP。
 
 設計原則：
   - 本地鏡像（write-through）：dayN/map/ 是 Google Maps 的本地鏡像 DB，不是
-    省 API 用的快取；線上每次搜尋仍要重打 MCP，把 fresh 資料 upsert 回本地。
+    省 API 用的快取；每次重搜把 fresh 資料 upsert 回本地。
   - 先 diff 後 put：mirror-diff 顯示變動，mirror-put 一律 upsert 寫回
   - Bayesian 用整池候選：C/m 由 mirror 完整候選池（含未入選備案）算，可在
     編輯 places.json **前**先用 score-pool 看分數做決策（pool_scores.json 是 SoT）
   - 不變式驗證：CSV 終點 = index.md 目的地
 
 子命令：
+  hotel-search / hotel-pool / hotel-render
+                           Phase 3.6 終點周邊 3km 飯店候選池。hotel-search 直接呼叫
+                           Google Places API (zh-TW)，自動寫入 hotel_map/；
+                           輸出 _plan/hotel.json 與 dayN_hotel.md。
+                           （備援：hotel-put / hotel-status / hotel-review）
   parse-index N            解析 index.md 第 N 天設定
   mirror-status N          列出 dayN/map/（本地鏡像）內容與候選池警告
   mirror-put N             [stdin] upsert 單筆 place 到本地鏡像
@@ -57,17 +63,16 @@ Claude 規劃時必須遵守的規則（plan.py 無法強制，但需在對話�
 
 [A] API 節流規定
   - 僅對 csv_type ∈ {景點, 起終點, 餐廳大休} 需要精確 rating / total_ratings。
-  - **優先使用 `refresh-details N`**（Google Places API 直接 HTTPS），一次刷新
-    places.json 所有可評分點位，取代逐一呼叫 MCP place_details。
-    需設定 GOOGLE_PLACES_API_KEY；加 --with-reviews 取 reviews（Pro tier）。
-  - MCP place_details 仍可作為 fallback（無 API key 或需即時查看評論時）。
-  - 對「便利商店 / 加油站 / 公共設施 / 綜合休息站」嚴禁呼叫 place_details，
-    這些類型的 rating / total_ratings 欄位直接留空。
-  - 便利商店 / 加油站 用 maps_search_places 時：每次只取 top 1 結果、只保留
-    place_id / name / location 三欄。不要保留 photos / opening_hours / 評論
-    片段等大欄位（mirror-put 時也只寫入這三欄）。
-  - 景點 / 餐廳：search 後挑 3-5 個候選做 mirror-put，再用 refresh-details
+  - 用 `refresh-details N` 一次刷新 places.json 可評分點位的
+    rating / total_ratings / opening_hours（Google Places API New，Essentials tier）。
+    加 --with-reviews 取 reviews（Pro tier）。
+  - 對「便利商店 / 加油站 / 公共設施 / 綜合休息站」嚴禁呼叫 refresh-details，
+    rating / total_ratings 欄位直接留空。
+  - 便利商店 / 加油站 用 google-maps MCP search 時：每次只取 top 1 結果、只保留
+    place_id / name / location 三欄（mirror-put 時也只寫入這三欄）。
+  - 景點：MCP search 後挑 3-5 個候選做 mirror-put，再用 refresh-details
     批量刷新；未入選的存到 candidates_not_selected（給未來 Bayesian pool 用）。
+  - 餐廳 / 住宿：用 dinner-search / hotel-search 一鍵完成（API 直呼，不走 MCP）。
 
 [B] 地點搜尋關鍵字撰寫原則（用於 places.json 的 search_keyword 與 mymap CSV）
   - 便利商店：「品牌 + 門市名稱」                     例：7-ELEVEN 觀湖門市
@@ -118,8 +123,12 @@ from plan_lib.gpx import cmd_route, cmd_gpx_save, cmd_gpx_waypoints
 from plan_lib.render import cmd_render_prompt, cmd_render_md
 from plan_lib.cover import cmd_render_cover_prompt
 from plan_lib.dinner import (
-    cmd_dinner_put, cmd_dinner_diff, cmd_dinner_status,
+    cmd_dinner_search, cmd_dinner_put, cmd_dinner_status,
     cmd_dinner_pool, cmd_dinner_review, cmd_dinner_render,
+)
+from plan_lib.hotel import (
+    cmd_hotel_search, cmd_hotel_put, cmd_hotel_status,
+    cmd_hotel_pool, cmd_hotel_review, cmd_hotel_render,
 )
 from plan_lib.places_api import cmd_refresh_details
 from plan_lib.elevation import cmd_elevation
@@ -163,13 +172,29 @@ def build_parser() -> argparse.ArgumentParser:
     add("elevation", cmd_elevation,
         "從 GPX + Google Elevation API 計算精確爬升/下降")
 
+    sp = add("dinner-search", cmd_dinner_search,
+             "呼叫 Google Places API 搜尋終點周邊餐廳並 upsert 到 dinner_map/")
+    sp.add_argument("--radius", type=int, default=3000, help="搜尋半徑（公尺，預設 3000）")
+    sp.add_argument("--min-reviews", type=int, default=0,
+                    help="排除留言數低於此值的點（預設 0 = 不過濾）")
     add("dinner-status", cmd_dinner_status, "顯示 dayN/dinner_map/ 鏡像現況")
     add("dinner-put",    cmd_dinner_put,    "[stdin] upsert 餐廳到 dinner_map/ 鏡像")
-    add("dinner-diff",   cmd_dinner_diff,   "[stdin] 比對 dinner_map/ 本地 vs 線上最新")
     sp = add("dinner-pool", cmd_dinner_pool, "從 dinner_map/ 鏡像池算 Bayesian 選 top 5")
     sp.add_argument("--quiet", action="store_true", help="不印 19 筆排名表，只印 top 5 摘要")
     add("dinner-review", cmd_dinner_review, "顯示 dinner.json 排名")
     add("dinner-render", cmd_dinner_render, "產 dayN_dinner.md")
+
+    sp = add("hotel-search", cmd_hotel_search,
+             "呼叫 Google Places API 搜尋終點周邊住宿並 upsert 到 hotel_map/")
+    sp.add_argument("--radius", type=int, default=3000, help="搜尋半徑（公尺，預設 3000）")
+    sp.add_argument("--min-reviews", type=int, default=0,
+                    help="排除留言數低於此值的點（預設 0 = 不過濾）")
+    add("hotel-status", cmd_hotel_status, "顯示 dayN/hotel_map/ 鏡像現況")
+    add("hotel-put",    cmd_hotel_put,    "[stdin] upsert 飯店到 hotel_map/ 鏡像")
+    sp = add("hotel-pool", cmd_hotel_pool, "從 hotel_map/ 鏡像池算 Bayesian 選 top 5")
+    sp.add_argument("--quiet", action="store_true", help="不印完整排名表，只印 top 5 摘要")
+    add("hotel-review", cmd_hotel_review, "顯示 hotel.json 排名")
+    add("hotel-render", cmd_hotel_render, "產 dayN_hotel.md")
     sp = add("render-prompt", cmd_render_prompt, "產 dayN_prompt.md")
     sp.add_argument("--no-sync", action="store_true",
                     help="跳過自動同步，僅以現有 poster_vars.json 渲染")

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJj8ArZa9FaTQRbCCgz1KtZX8",
+  "name_zh": "鹿港老街十三號民宿",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 884,
+  "location": {
+    "lat": 24.0559667,
+    "lng": 120.43280259999999
+  },
+  "address": "505彰化縣鹿港鎮洛津里瑤林街13號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.04,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

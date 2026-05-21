@@ -1,0 +1,243 @@
+{
+  "day": 6,
+  "candidates": [
+    {
+      "place_id": "ChIJOcIqvJbObzQR-7aMxE96Yco",
+      "name_zh": "曙光渡假酒店",
+      "rating": 4,
+      "total_ratings": 1740,
+      "location": {
+        "lat": 22.6144838,
+        "lng": 121.0045646
+      },
+      "address": "963臺東縣太麻里鄉大王村太峰路147號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ_SiogZbObzQRV_x7KAFY3sI",
+      "name_zh": "忘憂館",
+      "rating": 3.9,
+      "total_ratings": 294,
+      "location": {
+        "lat": 22.614728,
+        "lng": 121.00465279999999
+      },
+      "address": "963臺東縣太麻里鄉大王村太峰路145號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ4ULmurHObzQRJOGMf059wsM",
+      "name_zh": "吉廬夫敢藝文民宿",
+      "rating": 4.8,
+      "total_ratings": 529,
+      "location": {
+        "lat": 22.632750899999998,
+        "lng": 121.0010617
+      },
+      "address": "964臺東縣金峰鄉新興村新興村1鄰8之1號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJwfSIbCLIbzQRkrMzjcDSlMc",
+      "name_zh": "| Taimali Hotel | 臺東縣合法旅館050號",
+      "rating": 4.4,
+      "total_ratings": 376,
+      "location": {
+        "lat": 22.6122114,
+        "lng": 121.0061618
+      },
+      "address": "96341臺東縣太麻里鄉泰和村太麻里街246號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJF6wgV5TObzQRxmBNLVEYF6Q",
+      "name_zh": "東方 商務旅館",
+      "rating": 3.9,
+      "total_ratings": 221,
+      "location": {
+        "lat": 22.6118113,
+        "lng": 121.00669780000001
+      },
+      "address": "963臺東縣太麻里鄉泰和村外環路66號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJoXQfK0HPbzQRfDCkwG0tAb8",
+      "name_zh": "無憂海景秘境",
+      "rating": 4.3,
+      "total_ratings": 61,
+      "location": {
+        "lat": 22.614018899999998,
+        "lng": 120.9964627
+      },
+      "address": "963臺東縣太麻里鄉大王村台東縣太麻里",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJCccdbMvObzQRrbdVo_-qL94",
+      "name_zh": "邊界客棧",
+      "rating": 4.2,
+      "total_ratings": 263,
+      "location": {
+        "lat": 22.635744000000003,
+        "lng": 121.01512739999998
+      },
+      "address": "963臺東縣太麻里鄉北里號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJrYsCGobObzQRwa7HIV2A0F0",
+      "name_zh": "日昇之鄉會館",
+      "rating": 4,
+      "total_ratings": 213,
+      "location": {
+        "lat": 22.6018044,
+        "lng": 120.99811740000001
+      },
+      "address": "963臺東縣太麻里鄉泰和村曙光街2號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJgWHTtaPObzQRooTS_ol_DAs",
+      "name_zh": "日昇花園部落",
+      "rating": 4.6,
+      "total_ratings": 83,
+      "location": {
+        "lat": 22.6293325,
+        "lng": 120.9936885
+      },
+      "address": "963臺東縣太麻里鄉大王村96371號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJVVVVVanObzQRMGJPCZ-x29s",
+      "name_zh": "麻茶屋民宿 40820243",
+      "rating": 4.8,
+      "total_ratings": 261,
+      "location": {
+        "lat": 22.634940099999998,
+        "lng": 121.00069339999999
+      },
+      "address": "964台东县金峰乡新兴村64號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJVVVVVYjObzQRHYutA-rjueo",
+      "name_zh": "綠池畔民宿",
+      "rating": 4.3,
+      "total_ratings": 80,
+      "location": {
+        "lat": 22.611404399999998,
+        "lng": 121.0075378
+      },
+      "address": "963臺東縣太麻里鄉泰和村外環路47號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJXTG0v5bObzQR5LCLSczw_eo",
+      "name_zh": "太麻里向日葵民宿",
+      "rating": 4.7,
+      "total_ratings": 16,
+      "location": {
+        "lat": 22.6141069,
+        "lng": 121.003408
+      },
+      "address": "963臺東縣太麻里鄉大王村 太峰路198巷 3號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJb1ZkspbObzQRVZzRo3gnI1s",
+      "name_zh": "茶中緣休閒山莊",
+      "rating": 4.1,
+      "total_ratings": 35,
+      "location": {
+        "lat": 22.6173723,
+        "lng": 120.9920343
+      },
+      "address": "963臺東縣太麻里鄉大王村太麻里街86號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJxTml0IvPbzQR0P0Tf6UOiR0",
+      "name_zh": "金愛莉農莊",
+      "rating": 4.9,
+      "total_ratings": 7,
+      "location": {
+        "lat": 22.6351202,
+        "lng": 121.0030478
+      },
+      "address": "964臺東縣金峰鄉新興村三鄰52-6號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ4Um3OdPPbzQRkHc2a-CwtV0",
+      "name_zh": "（阿里客棧） 住宿 太麻里 金峰",
+      "rating": 5,
+      "total_ratings": 14,
+      "location": {
+        "lat": 22.6338746,
+        "lng": 121.0014481
+      },
+      "address": "964臺東縣金峰鄉新興村2鄰19號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ5_KfE5vObzQRxjULGSXHxOA",
+      "name_zh": "太麻里的渡假村",
+      "rating": 5,
+      "total_ratings": 2,
+      "location": {
+        "lat": 22.611000999999998,
+        "lng": 120.9949861
+      },
+      "address": "963臺東縣太麻里鄉台東太麻里大王村佳侖47-1號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJG0vveVzPbzQRT1MMhBNnLhA",
+      "name_zh": "茶餘.飯後Sobremesa",
+      "rating": 5,
+      "total_ratings": 5,
+      "location": {
+        "lat": 22.6350993,
+        "lng": 121.0005319
+      },
+      "address": "964臺東縣金峰鄉新興村71號-1",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    }
+  ]
+}

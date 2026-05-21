@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJjfaNWbafaDQRGDu1MdAoUYg",
+  "name_zh": "仟台大飯店",
+  "name_lang": "zh-TW",
+  "rating": 2.7,
+  "total_ratings": 481,
+  "location": {
+    "lat": 23.991312699999998,
+    "lng": 121.6028116
+  },
+  "address": "970花蓮縣花蓮市國聯里國聯一路83-1號",
+  "primary_type": "hotel",
+  "distance_km": 0.27,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJCxzxGT2zaTQRKNGIiiwYSX4",
+  "name_zh": "校友飯（每週一固定公休）-竹南人氣燴飯|必吃燴飯|平價美食|道地美食|燴飯推薦|中式美食|外帶美食|在地推薦餐廳",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 63,
+  "location": {
+    "lat": 24.7015295,
+    "lng": 120.88319229999998
+  },
+  "address": "350苗栗縣竹南鎮山佳里華興街86號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.68,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJP80oOLmfaDQRU1f1kPy1D4U",
+  "name_zh": "茶鄉食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 109,
+  "location": {
+    "lat": 23.9835118,
+    "lng": 121.60134029999999
+  },
+  "address": "970花蓮縣花蓮市國華里建林街198號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.09,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

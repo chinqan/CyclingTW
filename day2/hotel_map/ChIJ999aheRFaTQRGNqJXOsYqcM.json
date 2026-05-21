@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ999aheRFaTQRGNqJXOsYqcM",
+  "name_zh": "鹿港天后宮香客大樓",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 1169,
+  "location": {
+    "lat": 24.059861299999998,
+    "lng": 120.4299403
+  },
+  "address": "505彰化縣鹿港鎮玉順里中山路475號",
+  "primary_type": "lodging",
+  "distance_km": 0.48,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

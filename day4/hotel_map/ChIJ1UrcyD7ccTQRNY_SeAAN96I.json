@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ1UrcyD7ccTQRNY_SeAAN96I",
+  "name_zh": "沿海45 - 屏東枋寮海邊民宿小屋",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 40,
+  "location": {
+    "lat": 22.3670746,
+    "lng": 120.5908613
+  },
+  "address": "940屏東縣枋寮鄉枋寮村沿海路45號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 0.45,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

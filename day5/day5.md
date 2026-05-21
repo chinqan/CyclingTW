@@ -121,14 +121,31 @@ ishikawa-beta
 
 | # | 店名 | 評分 | 留言數 | 貝葉斯分 | 備註 |
 |:---:|:---|:---:|---:|:---:|:---|
-| 1 | [沙丁嶼餐酒館](https://www.google.com/maps/place/?q=place_id:ChIJFbQ4knSxcTQREYzR12aFUaE) | 5.0★ | 473 | 4.6779 | 墾丁精緻餐酒館 |
-| 2 | [後壁湖上安活海鮮](https://www.google.com/maps/place/?q=place_id:ChIJKaUzeDiwcTQRa2hw5EADw2s) | 4.7★ | 3996 | 4.6679 | 後壁湖生魚片 |
-| 3 | [一支林海鮮](https://www.google.com/maps/place/?q=place_id:ChIJfaURJ5mxcTQRpvGj_lxHBmw) | 4.7★ | 2205 | 4.6555 | 後壁湖海鮮 |
-| 4 | [天麟食苑臺灣菜](https://www.google.com/maps/place/?q=place_id:ChIJHdJeRgCxcTQRgC997nMSIiU) | 4.7★ | 314 | 4.6248 | 墾丁台菜 |
-| 5 | [巷子內海鮮熱炒](https://www.google.com/maps/place/?q=place_id:ChIJS-8yioWxcTQRY-vhorkDyeY) | 4.6★ | 3436 | 4.6062 | 墾丁大街旁海鮮 |
+| 1 | [OA專賣野生龍蝦-](https://www.google.com/maps/place/?q=place_id:ChIJ6cBiisuxcTQRfGVuWK1gkhI) | 4.9★ | 431 | 4.743 | 餐廳 |
+| 2 | [捻花風味食堂](https://www.google.com/maps/place/?q=place_id:ChIJ1TZF8YCycTQRufWbd6VBwmw) | 4.7★ | 2307 | 4.6808 | 餐廳 |
+| 3 | [AUTUMN.in丹桂小菊｜每月公休參照Ig/Fb置頂](https://www.google.com/maps/place/?q=place_id:ChIJBSj8eG6zcTQRoqcg8hEAIaU) | 4.7★ | 485 | 4.64 | 餐廳 |
+| 4 | [沛朵廚坊](https://www.google.com/maps/place/?q=place_id:ChIJQUXjEfOzcTQRajg6UmLzVtM) | 4.7★ | 411 | 4.6343 | 餐廳 |
+| 5 | [阿全野生龍蝦](https://www.google.com/maps/place/?q=place_id:ChIJQ16gZImycTQRR_ULQBtixXo) | 4.7★ | 224 | 4.6138 | 餐廳 |
 
 > 💡 *排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）*
 > 📋 *[看更多 >>](./day5_dinner.md)*
+
+---
+
+
+
+## 住宿推薦 🏨
+
+| # | 飯店 | 評分 | 留言數 | 貝葉斯分 | 備註 |
+|:---:|:---|:---:|---:|:---:|:---|
+| 1 | [日光·嶼南 SUNLIGHT ON THE PENINSULA](https://www.google.com/maps/place/?q=place_id:ChIJsbDnV6-zcTQRLG6GSccIzcI) | 5★ | 1646 | 4.9101 |  |
+| 2 | [統一渡假村墾丁海洋體驗樂園](https://www.google.com/maps/place/?q=place_id:ChIJ-79N6oCycTQRIHS_gNANgfE) | 4.8★ | 12797 | 4.7963 |  |
+| 3 | [沃鉐居](https://www.google.com/maps/place/?q=place_id:ChIJh4UyY4GzcTQRvcqQK6_XQ4k) | 5★ | 201 | 4.7909 |  |
+| 4 | [窩在海邊](https://www.google.com/maps/place/?q=place_id:ChIJ6Qa-MH2ycTQRTog7Gm1TB4c) | 4.8★ | 216 | 4.7546 |  |
+| 5 | [墾丁清涼露營區](https://www.google.com/maps/place/?q=place_id:ChIJ_6UaMgCzcTQR24nd5YgyH0g) | 4.9★ | 56 | 4.7529 |  |
+
+> 💡 *終點周邊 3 公里 · 21 筆候選 · IMDB 風格貝葉斯平均*
+> 📋 *[看更多 >>](./day5_hotel.md)*
 
 ---
 

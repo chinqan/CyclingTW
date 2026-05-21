@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ5_KfE5vObzQRxjULGSXHxOA",
+  "name_zh": "太麻里的渡假村",
+  "name_lang": "ja",
+  "rating": 5,
+  "total_ratings": 2,
+  "location": {
+    "lat": 22.611000999999998,
+    "lng": 120.9949861
+  },
+  "address": "963臺東縣太麻里鄉台東太麻里大王村佳侖47-1號",
+  "primary_type": "resort_hotel",
+  "distance_km": 1.35,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

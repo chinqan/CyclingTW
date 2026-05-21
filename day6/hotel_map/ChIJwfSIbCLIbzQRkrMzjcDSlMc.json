@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJwfSIbCLIbzQRkrMzjcDSlMc",
+  "name_zh": "| Taimali Hotel | 臺東縣合法旅館050號",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 376,
+  "location": {
+    "lat": 22.6122114,
+    "lng": 121.0061618
+  },
+  "address": "96341臺東縣太麻里鄉泰和村太麻里街246號",
+  "primary_type": "inn",
+  "distance_km": 0.74,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ_54SbcqfaDQRllxp-UWQjic",
+  "name_zh": "F HOTEL 花蓮站前館／花蓮住宿／火車站步行可達／商務會議／團體餐飲／寵物友善",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 2194,
+  "location": {
+    "lat": 23.9935582,
+    "lng": 121.60622500000001
+  },
+  "address": "970花蓮縣花蓮市國盛里國盛二街203-1號",
+  "primary_type": "hotel",
+  "distance_km": 0.51,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

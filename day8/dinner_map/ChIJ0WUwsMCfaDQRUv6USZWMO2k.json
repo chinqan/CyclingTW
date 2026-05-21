@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ0WUwsMCfaDQRUv6USZWMO2k",
+  "name_zh": "花蓮香扁食",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 4559,
+  "location": {
+    "lat": 23.980997799999997,
+    "lng": 121.60614249999999
+  },
+  "address": "970花蓮縣花蓮市國威里中山路347-1號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 1.46,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

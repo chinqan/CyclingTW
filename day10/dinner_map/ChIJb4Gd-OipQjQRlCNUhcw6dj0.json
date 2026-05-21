@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJb4Gd-OipQjQRlCNUhcw6dj0",
+  "name_zh": "瑛書越南小吃",
+  "name_lang": "zh-TW",
+  "rating": 3.8,
+  "total_ratings": 119,
+  "location": {
+    "lat": 25.0838019,
+    "lng": 121.4721907
+  },
+  "address": "247新北市蘆洲區得勝里成功路158巷7號",
+  "primary_type": "vietnamese_restaurant",
+  "primary_type_label": "越南餐廳",
+  "distance_km": 1.08,
+  "source": "api_2026-05-21",
+  "note": "越南餐廳",
+  "name_is_ascii": false
+}

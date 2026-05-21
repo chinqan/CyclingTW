@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJzcTaORFrbzQRIwpRjPWqEP0",
+  "name_zh": "沐光電梯民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 142,
+  "location": {
+    "lat": 23.3335029,
+    "lng": 121.31397819999998
+  },
+  "address": "981花蓮縣玉里鎮泰昌里和平路71號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.32,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

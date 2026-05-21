@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ-2xROLqfaDQRB1MKGo0FzTw",
+  "name_zh": "麗格休閒飯店LIGA HOTEL",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 2201,
+  "location": {
+    "lat": 23.986719299999997,
+    "lng": 121.5986808
+  },
+  "address": "No. 258號, 商校街國聯里花蓮市花蓮縣970",
+  "primary_type": "hotel",
+  "distance_km": 0.78,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJo8-asozZbTQRqyN8YDQSOZ8",
+  "name_zh": "天嬌越南河粉",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 32,
+  "location": {
+    "lat": 23.061832499999998,
+    "lng": 120.13024980000002
+  },
+  "address": "709臺南市安南區城中里安中路六段559號",
+  "primary_type": "vietnamese_restaurant",
+  "primary_type_label": "越南餐廳",
+  "distance_km": 0.58,
+  "source": "api_2026-05-21",
+  "note": "越南餐廳",
+  "name_is_ascii": false
+}

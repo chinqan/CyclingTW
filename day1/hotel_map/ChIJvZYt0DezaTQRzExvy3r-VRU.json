@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJvZYt0DezaTQRzExvy3r-VRU",
+  "name_zh": "Emerald diamond building",
+  "name_lang": "en",
+  "rating": 1,
+  "total_ratings": 1,
+  "location": {
+    "lat": 24.6887007,
+    "lng": 120.8724046
+  },
+  "address": "2F -3, No, No. 131, Dapu Street, 竹南鎮苗栗縣350",
+  "primary_type": "hotel",
+  "distance_km": 0.86,
+  "source": "api_2026-05-21",
+  "name_is_ascii": true
+}

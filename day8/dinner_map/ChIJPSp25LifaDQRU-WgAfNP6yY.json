@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJPSp25LifaDQRU-WgAfNP6yY",
+  "name_zh": "幽靈餐車",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 1703,
+  "location": {
+    "lat": 23.9863049,
+    "lng": 121.5906212
+  },
+  "address": "973花蓮縣吉安鄉北昌村建國路一段162號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 1.33,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

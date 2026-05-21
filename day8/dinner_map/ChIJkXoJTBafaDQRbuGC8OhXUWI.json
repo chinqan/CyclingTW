@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJkXoJTBafaDQRbuGC8OhXUWI",
+  "name_zh": "美好餐室|花蓮美食|港式餐廳",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 231,
+  "location": {
+    "lat": 23.977890199999997,
+    "lng": 121.6002424
+  },
+  "address": "970花蓮縣花蓮市國風里林森路144號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.72,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

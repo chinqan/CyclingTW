@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJBQX4NX9qbzQRLZZj8ecUAn8",
-  "name_zh": "每日廚房",
+  "name_zh": "每日廚房(無菜單家常料理)",
+  "name_lang": "zh-TW",
   "rating": 4.5,
   "total_ratings": 243,
   "location": {
-    "lat": 23.33863,
-    "lng": 121.313799
+    "lat": 23.3386303,
+    "lng": 121.3137986
   },
-  "address": "花蓮縣玉里鎮新生街34號",
-  "note": "無菜單家常料理",
-  "source": "search_2026-07"
+  "address": "981花蓮縣玉里鎮永昌里新生街34號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.82,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
 }

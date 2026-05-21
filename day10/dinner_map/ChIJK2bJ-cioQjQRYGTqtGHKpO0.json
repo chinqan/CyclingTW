@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJK2bJ-cioQjQRYGTqtGHKpO0",
+  "name_zh": "二師兄肉羹專賣店-蘆洲三民店",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 826,
+  "location": {
+    "lat": 25.0913325,
+    "lng": 121.4634981
+  },
+  "address": "247新北市蘆洲區仁德里三民路503號",
+  "primary_type": "chinese_noodle_restaurant",
+  "primary_type_label": "中式麵館",
+  "distance_km": 0.36,
+  "source": "api_2026-05-21",
+  "note": "中式麵館",
+  "name_is_ascii": false
+}

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJq4jn77SoQjQRF6f_SUsU-0U",
+  "name_zh": "紫虹汽車旅館",
+  "name_lang": "zh-TW",
+  "rating": 3,
+  "total_ratings": 442,
+  "location": {
+    "lat": 25.090232699999998,
+    "lng": 121.46476109999999
+  },
+  "address": "247新北市蘆洲區正義里中正路367號",
+  "primary_type": "motel",
+  "distance_km": 0.31,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

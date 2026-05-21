@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJyfyYcAxLXTQRulaJxwTOWa0",
-  "name_zh": "Whatisthis Kitchen",
+  "name_zh": "《自家漁船》花義思廚坊",
+  "name_lang": "zh-TW",
   "rating": 4.6,
-  "total_ratings": 1442,
+  "total_ratings": 1445,
   "location": {
-    "lat": 25.219585,
-    "lng": 121.633234
+    "lat": 25.2195851,
+    "lng": 121.63323439999999
   },
-  "address": "新北市金山區環金路286號",
-  "note": "西式餐廳 金山市區",
-  "source": "search_2026-07"
+  "address": "208新北市金山區金美里環金路286號",
+  "primary_type": "western_restaurant",
+  "primary_type_label": "西餐廳",
+  "distance_km": 0.57,
+  "source": "api_2026-05-21",
+  "note": "西餐廳",
+  "name_is_ascii": false
 }

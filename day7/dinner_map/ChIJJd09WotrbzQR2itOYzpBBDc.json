@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJJd09WotrbzQR2itOYzpBBDc",
-  "name_zh": "上富快炒",
+  "name_zh": "上福餐廳",
+  "name_lang": "zh-TW",
   "rating": 4.7,
-  "total_ratings": 309,
+  "total_ratings": 307,
   "location": {
-    "lat": 23.332474,
-    "lng": 121.318336
+    "lat": 23.3324736,
+    "lng": 121.3183361
   },
-  "address": "花蓮縣玉里鎮光復路40之1號",
-  "note": "在地快炒 份量大",
-  "source": "search_2026-07"
+  "address": "981花蓮縣玉里鎮國武里光復路40之1號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.68,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
 }

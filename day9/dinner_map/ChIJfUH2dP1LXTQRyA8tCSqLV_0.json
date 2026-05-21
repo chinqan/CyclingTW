@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJfUH2dP1LXTQRyA8tCSqLV_0",
-  "name_zh": "煦新館",
+  "name_zh": "煦新館｜金山最溫暖餐廳｜浪金山",
+  "name_lang": "zh-TW",
   "rating": 4.9,
   "total_ratings": 59,
   "location": {
-    "lat": 25.222146,
-    "lng": 121.645979
+    "lat": 25.2221463,
+    "lng": 121.64597919999999
   },
-  "address": "新北市金山區民生路196號",
-  "note": "日式定食",
-  "source": "search_2026-07"
+  "address": "208新北市金山區豐漁里民生路196號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 0.77,
+  "source": "api_2026-05-21",
+  "note": "日式餐廳",
+  "name_is_ascii": false
 }

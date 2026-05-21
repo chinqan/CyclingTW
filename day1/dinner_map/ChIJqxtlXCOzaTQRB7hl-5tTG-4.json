@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJqxtlXCOzaTQRB7hl-5tTG-4",
+  "name_zh": "擱再來包子",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 1767,
+  "location": {
+    "lat": 24.6840399,
+    "lng": 120.87814720000002
+  },
+  "address": "350苗栗縣竹南鎮正南里中正路42號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.37,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

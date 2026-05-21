@@ -255,6 +255,9 @@ def cmd_render_md(args):
     dinner_path = plan_dir(n) / "dinner.json"
     dinner_map = day_dir(n) / "dinner_map"
     dinner_map_has_candidates = dinner_map.exists() and any(dinner_map.glob("ChIJ*.json"))
+    hotel_path = plan_dir(n) / "hotel.json"
+    hotel_map = day_dir(n) / "hotel_map"
+    hotel_map_has_candidates = hotel_map.exists() and any(hotel_map.glob("ChIJ*.json"))
 
     gate_errors: list[str] = []
 
@@ -307,6 +310,35 @@ def cmd_render_md(args):
             except Exception as e:
                 gate_errors.append(f"dinner.json 讀取失敗：{e}")
 
+    # (B.2) Phase 3.6 住宿：hotel_map/ 有候選 → hotel.json 必須存在且新鮮
+    if hotel_map_has_candidates:
+        if not hotel_path.exists():
+            gate_errors.append(
+                f"hotel_map/ 已有候選但 hotel.json 不存在 → 請執行：python3 scripts/plan.py hotel-pool {n}"
+            )
+        elif hotel_path.stat().st_mtime < places_mtime:
+            gate_errors.append(
+                f"hotel.json 比 places.json 舊（Phase 3.6 需重做）→ 請執行：python3 scripts/plan.py hotel-pool {n}"
+            )
+        else:
+            # (C.2) 內容一致性：hotel.json.source_endpoint_place_id 必須對到 places[-1]
+            try:
+                hj = read_json(hotel_path)
+                expected_pid = places["places"][-1].get("place_id") if places.get("places") else None
+                actual_pid = hj.get("source_endpoint_place_id")
+                if actual_pid is None:
+                    gate_errors.append(
+                        f"hotel.json 缺少 source_endpoint_place_id（舊版產出）→ "
+                        f"請重跑：python3 scripts/plan.py hotel-pool {n}"
+                    )
+                elif expected_pid and actual_pid != expected_pid:
+                    gate_errors.append(
+                        f"hotel.json 是為終點 {actual_pid} 算的，但 places.json 終點已換成 {expected_pid} "
+                        f"→ 請重跑：python3 scripts/plan.py hotel-search {n} && hotel-pool {n}"
+                    )
+            except Exception as e:
+                gate_errors.append(f"hotel.json 讀取失敗：{e}")
+
     # (D) Phase 4 更佳景點：segments.json.better_attractions 必須非空，且不能比 places.json 舊
     ba = segments.get("better_attractions")
     if ba is None or (isinstance(ba, str) and not ba.strip()):
@@ -332,6 +364,13 @@ def cmd_render_md(args):
         dinner_pool_size = dinner_data.get("pool_size", 0)
         dinner_top5 = [r for r in dinner_data.get("restaurants", []) if r.get("selected")]
 
+    hotel_top5 = []
+    hotel_pool_size = 0
+    if hotel_path.exists():
+        hotel_data = read_json(hotel_path)
+        hotel_pool_size = hotel_data.get("pool_size", 0)
+        hotel_top5 = [h for h in hotel_data.get("hotels", []) if h.get("selected")]
+
     # 讀取 mymaps.json 取得該天的 My Maps mid
     mymap_mid = None
     mymaps_path = ROOT / "mymaps.json"
@@ -349,6 +388,8 @@ def cmd_render_md(args):
         "places": places["places"],
         "dinner_top5": dinner_top5,
         "dinner_pool_size": dinner_pool_size,
+        "hotel_top5": hotel_top5,
+        "hotel_pool_size": hotel_pool_size,
         "mymap_mid": mymap_mid,
         **segments,
     }

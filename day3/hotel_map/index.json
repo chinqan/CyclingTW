@@ -1,0 +1,145 @@
+{
+  "day": 3,
+  "candidates": [
+    {
+      "place_id": "ChIJq--kqE7ZbTQRv7ix9M7yikA",
+      "name_zh": "白毛獵人露營農場",
+      "rating": 4.1,
+      "total_ratings": 436,
+      "location": {
+        "lat": 23.069660499999998,
+        "lng": 120.1340225
+      },
+      "address": "709臺南市安南區城東里安明路四段843號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJpVhOegDZbTQRKTChyjpEvoI",
+      "name_zh": "台南民宿回家旅行(訂房加line：@comehome)",
+      "rating": 4.9,
+      "total_ratings": 47,
+      "location": {
+        "lat": 23.0646843,
+        "lng": 120.1306257
+      },
+      "address": "709臺南市安南區城北里尊安街87號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJv8-FpzvYbTQR2fVa-Re_S9g",
+      "name_zh": "鹿耳門會館一館（東邊香客房）",
+      "rating": 4.2,
+      "total_ratings": 105,
+      "location": {
+        "lat": 23.0681996,
+        "lng": 120.1280388
+      },
+      "address": "709臺南市安南區城東里城安路160號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJAZxY6SDYbTQReVt4BlKU-_w",
+      "name_zh": "鄉下有房",
+      "rating": 4.5,
+      "total_ratings": 27,
+      "location": {
+        "lat": 23.0790379,
+        "lng": 120.13224679999999
+      },
+      "address": "709臺南市安南區學東里城北路866巷63號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ1SyYUDrYbTQRhA9OMVBumJE",
+      "name_zh": "鹿耳門會館二館西邊香客房",
+      "rating": 3.8,
+      "total_ratings": 29,
+      "location": {
+        "lat": 23.0681166,
+        "lng": 120.12649389999999
+      },
+      "address": "709臺南市安南區城東里城安路160號號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJFQuBGbPXbTQRWGUlvpLEdD4",
+      "name_zh": "出差出租管理宿舍（七股工業區焚化爐工作者打工出差者）",
+      "rating": 4.4,
+      "total_ratings": 107,
+      "location": {
+        "lat": 23.0588822,
+        "lng": 120.121871
+      },
+      "address": "709臺南市安南區城南里城西街二段110號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ2zBHUYLZbTQRokp0rVHUeSk",
+      "name_zh": "Titi tata 民宿",
+      "rating": 5,
+      "total_ratings": 3,
+      "location": {
+        "lat": 23.0694635,
+        "lng": 120.13436290000001
+      },
+      "address": "709臺南市安南區城東里安明路四段843號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJa2wWoFnYbTQRRr-V48nLT1k",
+      "name_zh": "九塊厝林聚庭園",
+      "rating": 4.6,
+      "total_ratings": 14,
+      "location": {
+        "lat": 23.0428417,
+        "lng": 120.12708909999999
+      },
+      "address": "709臺南市安南區媽祖宮里媽祖宮二街126巷215號 號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ_RM5G77ZbTQRqp4ZbMD7Ewg",
+      "name_zh": "媽祖宮吉祥園民宿",
+      "rating": 5,
+      "total_ratings": 3,
+      "location": {
+        "lat": 23.042795500000004,
+        "lng": 120.1270692
+      },
+      "address": "709臺南市安南區媽祖宮里媽祖宮二街126巷213號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJexNUwN3ZbTQRAGiiHjzB6eA",
+      "name_zh": "湛湛里煙",
+      "rating": 5,
+      "total_ratings": 1,
+      "location": {
+        "lat": 23.0775582,
+        "lng": 120.14267210000001
+      },
+      "address": "709臺南市安南區學東里慈興十街25號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    }
+  ]
+}

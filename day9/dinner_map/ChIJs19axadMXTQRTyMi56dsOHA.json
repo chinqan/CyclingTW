@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJs19axadMXTQRTyMi56dsOHA",
+  "name_zh": "川欣牛排",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 828,
+  "location": {
+    "lat": 25.2184532,
+    "lng": 121.64048199999999
+  },
+  "address": "208新北市金山區金美里中山路73-2號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.43,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

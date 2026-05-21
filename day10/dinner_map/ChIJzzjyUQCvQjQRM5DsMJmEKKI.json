@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJzzjyUQCvQjQRM5DsMJmEKKI",
+  "name_zh": "華師傅砂鍋粥-古早味米粉湯小吃店",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 105,
+  "location": {
+    "lat": 25.090143299999998,
+    "lng": 121.4774039
+  },
+  "address": "247新北市蘆洲區復興里民族路310號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.5,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

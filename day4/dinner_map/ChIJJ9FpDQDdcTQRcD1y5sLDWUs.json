@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJJ9FpDQDdcTQRcD1y5sLDWUs",
+  "name_zh": "樂道麵食館",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 80,
+  "location": {
+    "lat": 22.3682108,
+    "lng": 120.59333739999998
+  },
+  "address": "940屏東縣枋寮鄉枋寮村中山路263-2號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.18,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJkenYGqhMXTQRqvJQjvnkV1U",
+  "name_zh": "四川牛肉麵 鍋貼 臭豆腐",
+  "name_lang": "zh-TW",
+  "rating": 3.8,
+  "total_ratings": 127,
+  "location": {
+    "lat": 25.220227700000002,
+    "lng": 121.6389234
+  },
+  "address": "208新北市金山區金美里中山路147號",
+  "primary_type": "chinese_noodle_restaurant",
+  "primary_type_label": "中式麵館",
+  "distance_km": 0.18,
+  "source": "api_2026-05-21",
+  "note": "中式麵館",
+  "name_is_ascii": false
+}

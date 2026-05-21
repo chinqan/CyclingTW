@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJu5crIgDdcTQRCUivBdAGQs8",
+  "name_zh": "陳蒙李愛｜餐車鹽酥雞《枋寮站》",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 14,
+  "location": {
+    "lat": 22.3633527,
+    "lng": 120.597803
+  },
+  "address": "940屏東縣枋寮鄉安樂村中山路115號",
+  "primary_type": "fast_food_restaurant",
+  "primary_type_label": "速食餐廳",
+  "distance_km": 0.59,
+  "source": "api_2026-05-21",
+  "note": "速食餐廳",
+  "name_is_ascii": false
+}

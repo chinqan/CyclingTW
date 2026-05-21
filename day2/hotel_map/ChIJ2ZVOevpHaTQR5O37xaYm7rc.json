@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ2ZVOevpHaTQR5O37xaYm7rc",
+  "name_zh": "泊寓 boyü",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 65,
+  "location": {
+    "lat": 24.0548267,
+    "lng": 120.4447484
+  },
+  "address": "505彰化縣鹿港鎮鹿東里鹿興路57巷3號",
+  "primary_type": "private_guest_room",
+  "distance_km": 1.25,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

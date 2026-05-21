@@ -1,98 +1,226 @@
 {
   "day": 7,
   "search_radius_km": 3,
-  "pool_size": 12,
-  "bayesian_C": 481.6,
-  "bayesian_m": 4.4151,
+  "pool_size": 51,
+  "bayesian_C": 592.9,
+  "bayesian_m": 4.3489,
   "note": "C=平均留言數(先驗樣本數), m=加權平均評分(先驗期望值)",
   "source_endpoint_place_id": "ChIJ677P5HxqbzQR590ArDS8N5E",
   "top5_place_ids": [
     "ChIJvUBbKmRrbzQR9UTxl19ZWWw",
-    "ChIJa7UY7JprbzQRLYmpu4cpccA",
-    "ChIJb9koNnpqbzQR1n6BiErxXhE",
-    "ChIJJd09WotrbzQR2itOYzpBBDc",
-    "ChIJBQX4NX9qbzQRLZZj8ecUAn8"
+    "ChIJrc7ZM39qbzQRBwZVXUxvY9U",
+    "ChIJ1cFc5uRDbzQRvopWgtTkLwo",
+    "ChIJBcC2yCJrbzQR86m-696Di48",
+    "ChIJb9koNnpqbzQR1n6BiErxXhE"
   ],
   "restaurants": [
     {
       "place_id": "ChIJvUBbKmRrbzQR9UTxl19ZWWw",
-      "name_zh": "女兒心無菜單料理",
-      "rating": 5.0,
+      "name_zh": "女兒心優質農產創意工坊",
+      "rating": 5,
       "total_ratings": 392,
       "location": {
-        "lat": 23.323869,
-        "lng": 121.323068
+        "lat": 23.323868599999997,
+        "lng": 121.32306790000001
       },
-      "address": "花蓮縣玉里鎮忠孝路27號2樓",
-      "note": "需24小時前預約 無菜單創意料理",
-      "bayesian_score": 4.6776,
+      "address": "981花蓮縣玉里鎮中城里忠孝路27號2樓",
+      "note": "餐廳",
+      "bayesian_score": 4.608,
       "confidence": "⚠️ 中",
       "rank": 1,
       "selected": true
     },
     {
-      "place_id": "ChIJa7UY7JprbzQRLYmpu4cpccA",
-      "name_zh": "臣佳立業餐酒館",
-      "rating": 4.9,
-      "total_ratings": 278,
+      "place_id": "ChIJrc7ZM39qbzQRBwZVXUxvY9U",
+      "name_zh": "北方早點丨燒餅加料、鹹豆漿",
+      "rating": 4.7,
+      "total_ratings": 1100,
       "location": {
-        "lat": 23.326862,
-        "lng": 121.314259
+        "lat": 23.334697,
+        "lng": 121.312629
       },
-      "address": "花蓮縣玉里鎮大同路60-1號",
-      "note": "餐酒館 西式料理",
-      "bayesian_score": 4.5926,
-      "confidence": "⚠️ 中",
+      "address": "981花蓮縣玉里鎮泰昌里大同路239號",
+      "note": "早餐店",
+      "bayesian_score": 4.577,
+      "confidence": "✅ 高",
       "rank": 2,
       "selected": true
     },
     {
-      "place_id": "ChIJb9koNnpqbzQR1n6BiErxXhE",
-      "name_zh": "星馬茶餐廳",
+      "place_id": "ChIJ1cFc5uRDbzQRvopWgtTkLwo",
+      "name_zh": "米達碳烤雞排",
       "rating": 4.7,
-      "total_ratings": 500,
+      "total_ratings": 712,
       "location": {
-        "lat": 23.332483,
-        "lng": 121.317762
+        "lat": 23.3291352,
+        "lng": 121.31720449999999
       },
-      "address": "花蓮縣玉里鎮光復路46之1號",
-      "note": "星馬咖哩料理 週日公休",
-      "bayesian_score": 4.5602,
+      "address": "981花蓮縣玉里鎮中城里仁愛路一段127號",
+      "note": "雞肉料理餐廳",
+      "bayesian_score": 4.5405,
       "confidence": "✅ 高",
       "rank": 3,
       "selected": true
     },
     {
-      "place_id": "ChIJJd09WotrbzQR2itOYzpBBDc",
-      "name_zh": "上富快炒",
-      "rating": 4.7,
-      "total_ratings": 309,
+      "place_id": "ChIJBcC2yCJrbzQR86m-696Di48",
+      "name_zh": "玉里豬血湯早午餐",
+      "rating": 4.8,
+      "total_ratings": 382,
       "location": {
-        "lat": 23.332474,
-        "lng": 121.318336
+        "lat": 23.3339659,
+        "lng": 121.3196196
       },
-      "address": "花蓮縣玉里鎮光復路40之1號",
-      "note": "在地快炒 份量大",
-      "bayesian_score": 4.5265,
+      "address": "981花蓮縣玉里鎮國武里興國路一段285號",
+      "note": "早午餐餐廳",
+      "bayesian_score": 4.5256,
       "confidence": "⚠️ 中",
       "rank": 4,
       "selected": true
     },
     {
-      "place_id": "ChIJBQX4NX9qbzQRLZZj8ecUAn8",
-      "name_zh": "每日廚房",
-      "rating": 4.5,
-      "total_ratings": 243,
+      "place_id": "ChIJb9koNnpqbzQR1n6BiErxXhE",
+      "name_zh": "星馬茶餐廳｜玉里美食",
+      "rating": 4.7,
+      "total_ratings": 500,
       "location": {
-        "lat": 23.33863,
-        "lng": 121.313799
+        "lat": 23.332482700000003,
+        "lng": 121.3177615
       },
-      "address": "花蓮縣玉里鎮新生街34號",
-      "note": "無菜單家常料理",
-      "bayesian_score": 4.4436,
+      "address": "981花蓮縣玉里鎮國武里光復路46之1號",
+      "note": "餐廳",
+      "bayesian_score": 4.5095,
       "confidence": "⚠️ 中",
       "rank": 5,
       "selected": true
+    },
+    {
+      "place_id": "ChIJ6d_97ZxrbzQRAeRz1TQGS4s",
+      "name_zh": "緣緣蔬食家",
+      "rating": 4.8,
+      "total_ratings": 310,
+      "location": {
+        "lat": 23.327812599999998,
+        "lng": 121.3199199
+      },
+      "address": "981花蓮縣玉里鎮中城里忠勇路25號",
+      "note": "素食餐廳",
+      "bayesian_score": 4.5038,
+      "confidence": "⚠️ 中",
+      "rank": 6,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJvW1oGHtqbzQRZ2Mopm6mEzg",
+      "name_zh": "天慈寶軒蔬食",
+      "rating": 4.7,
+      "total_ratings": 444,
+      "location": {
+        "lat": 23.336339799999998,
+        "lng": 121.3195756
+      },
+      "address": "981花蓮縣玉里鎮啟模里公正街18號",
+      "note": "素食餐廳",
+      "bayesian_score": 4.4992,
+      "confidence": "⚠️ 中",
+      "rank": 7,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJJd09WotrbzQR2itOYzpBBDc",
+      "name_zh": "上福餐廳",
+      "rating": 4.7,
+      "total_ratings": 307,
+      "location": {
+        "lat": 23.3324736,
+        "lng": 121.3183361
+      },
+      "address": "981花蓮縣玉里鎮國武里光復路40之1號",
+      "note": "餐廳",
+      "bayesian_score": 4.4687,
+      "confidence": "⚠️ 中",
+      "rank": 8,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJM0GwMPprbzQRhBevLeE-gAc",
+      "name_zh": "客來吃樂玉里店",
+      "rating": 4.9,
+      "total_ratings": 138,
+      "location": {
+        "lat": 23.334801000000002,
+        "lng": 121.31451089999999
+      },
+      "address": "981花蓮縣玉里鎮泰昌里中山路二段126號",
+      "note": "餐廳",
+      "bayesian_score": 4.4529,
+      "confidence": "❌ 低",
+      "rank": 9,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJXRKY5M5rbzQRhflb2TZQ7eg",
+      "name_zh": "原香臭豆腐",
+      "rating": 4.5,
+      "total_ratings": 590,
+      "location": {
+        "lat": 23.3337417,
+        "lng": 121.31645479999999
+      },
+      "address": "981花蓮縣玉里鎮國武里中華路41號",
+      "note": "韓國餐廳",
+      "bayesian_score": 4.4243,
+      "confidence": "⚠️ 中",
+      "rank": 10,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJvXf-GNxrbzQRUbRLqrju4b4",
+      "name_zh": "超好吃滷肉飯",
+      "rating": 4.7,
+      "total_ratings": 158,
+      "location": {
+        "lat": 23.33159,
+        "lng": 121.31289369999999
+      },
+      "address": "981花蓮縣玉里鎮中城里光復路168號",
+      "note": "餐廳",
+      "bayesian_score": 4.4228,
+      "confidence": "❌ 低",
+      "rank": 11,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJH7m2wXtqbzQRCLl6dil02x0",
+      "name_zh": "越南美食",
+      "rating": 4.8,
+      "total_ratings": 110,
+      "location": {
+        "lat": 23.3330281,
+        "lng": 121.31563720000001
+      },
+      "address": "981花蓮縣玉里鎮國武里民生街43號",
+      "note": "越南餐廳",
+      "bayesian_score": 4.4195,
+      "confidence": "❌ 低",
+      "rank": 12,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJBQX4NX9qbzQRLZZj8ecUAn8",
+      "name_zh": "每日廚房(無菜單家常料理)",
+      "rating": 4.5,
+      "total_ratings": 243,
+      "location": {
+        "lat": 23.3386303,
+        "lng": 121.3137986
+      },
+      "address": "981花蓮縣玉里鎮永昌里新生街34號",
+      "note": "台式餐廳",
+      "bayesian_score": 4.3928,
+      "confidence": "❌ 低",
+      "rank": 13,
+      "selected": false
     },
     {
       "place_id": "ChIJG3PnKCRrbzQRQA9v-ulNkAY",
@@ -100,78 +228,398 @@
       "rating": 4.5,
       "total_ratings": 173,
       "location": {
-        "lat": 23.331872,
-        "lng": 121.316101
+        "lat": 23.3318723,
+        "lng": 121.3161009
       },
-      "address": "花蓮縣玉里鎮光復路77號",
-      "note": "燉品養生湯",
-      "bayesian_score": 4.4375,
+      "address": "981花蓮縣玉里鎮中城里光復路77號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.383,
       "confidence": "❌ 低",
-      "rank": 6,
+      "rank": 14,
       "selected": false
     },
     {
-      "place_id": "ChIJDQmXEZNsbzQRCOFYleFdlqU",
-      "name_zh": "宜錦快炒小吃店",
+      "place_id": "ChIJV9MhzXhqbzQRKKdvDLQQfX4",
+      "name_zh": "好餃子",
       "rating": 4.5,
-      "total_ratings": 124,
+      "total_ratings": 154,
       "location": {
-        "lat": 23.235841,
-        "lng": 121.289965
+        "lat": 23.337900100000002,
+        "lng": 121.31433109999999
       },
-      "address": "花蓮縣富里鄉新興村東興2之5號",
-      "note": "快炒 富里鄉",
-      "bayesian_score": 4.4325,
+      "address": "981花蓮縣玉里鎮泰昌里新興街39號",
+      "note": "水餃店",
+      "bayesian_score": 4.3801,
       "confidence": "❌ 低",
-      "rank": 7,
+      "rank": 15,
       "selected": false
     },
     {
-      "place_id": "ChIJ631Py3hqbzQRQ_j6AJES16k",
-      "name_zh": "香園小館",
-      "rating": 4.4,
-      "total_ratings": 268,
+      "place_id": "ChIJ8yXuj3xqbzQR1vVyuSYOTsM",
+      "name_zh": "美國阿嬤的廚房(American Grandma's Kitchen)",
+      "rating": 4.5,
+      "total_ratings": 150,
       "location": {
-        "lat": 23.327065,
-        "lng": 121.313448
+        "lat": 23.331443200000002,
+        "lng": 121.3133677
       },
-      "address": "花蓮縣玉里鎮大同路77號",
-      "note": "手抓餅 在地小吃",
-      "bayesian_score": 4.4097,
+      "address": "981花蓮縣玉里鎮中城里光復路142-1號",
+      "note": "早午餐餐廳",
+      "bayesian_score": 4.3794,
+      "confidence": "❌ 低",
+      "rank": 16,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJq5_5CntqbzQRelvsROvwHQI",
+      "name_zh": "東美冰菓室",
+      "rating": 4.4,
+      "total_ratings": 333,
+      "location": {
+        "lat": 23.3314861,
+        "lng": 121.3158417
+      },
+      "address": "981花蓮縣玉里鎮中城里中山路一段210號",
+      "note": "甜品餐廳",
+      "bayesian_score": 4.3673,
       "confidence": "⚠️ 中",
-      "rank": 8,
+      "rank": 17,
       "selected": false
     },
     {
       "place_id": "ChIJoQHu5-1rbzQRpjeKLAIiA_o",
-      "name_zh": "海源料理餐廳",
+      "name_zh": "海圓料理餐廳",
       "rating": 4.4,
       "total_ratings": 300,
       "location": {
-        "lat": 23.332437,
-        "lng": 121.317929
+        "lat": 23.3324365,
+        "lng": 121.31792940000001
       },
-      "address": "花蓮縣玉里鎮光復路46A號",
-      "note": "台式合菜",
-      "bayesian_score": 4.4093,
+      "address": "981花蓮縣玉里鎮國武里光復路46A號",
+      "note": "台式餐廳",
+      "bayesian_score": 4.3661,
       "confidence": "⚠️ 中",
-      "rank": 9,
+      "rank": 18,
       "selected": false
     },
     {
-      "place_id": "ChIJB6jk1ntqbzQRm_oTu9ZF5Y4",
-      "name_zh": "鹽水鵝",
-      "rating": 4.3,
-      "total_ratings": 92,
+      "place_id": "ChIJ2QnES25rbzQR10sfAIdyUoI",
+      "name_zh": "52赫茲滷味",
+      "rating": 4.5,
+      "total_ratings": 74,
       "location": {
-        "lat": 23.32636,
-        "lng": 121.315712
+        "lat": 23.329070899999998,
+        "lng": 121.31719849999999
       },
-      "address": "花蓮縣玉里鎮城中二街22號",
-      "note": "鹽水鵝切盤",
-      "bayesian_score": 4.3966,
+      "address": "981花蓮縣玉里鎮中城里仁愛路一段125號",
+      "note": "餐廳",
+      "bayesian_score": 4.3657,
       "confidence": "❌ 低",
-      "rank": 10,
+      "rank": 19,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJO_RuMgBrbzQRKfPrjFzrZog",
+      "name_zh": "愛食館No2",
+      "rating": 4.9,
+      "total_ratings": 18,
+      "location": {
+        "lat": 23.334571999999998,
+        "lng": 121.3144643
+      },
+      "address": "981花蓮縣玉里鎮泰昌里中山路二段99號",
+      "note": "家庭餐廳",
+      "bayesian_score": 4.3651,
+      "confidence": "❌ 低",
+      "rank": 20,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ9U9Wj2xrbzQR0q1Sox7jnio",
+      "name_zh": "秋月食堂",
+      "rating": 4.5,
+      "total_ratings": 69,
+      "location": {
+        "lat": 23.331373199999998,
+        "lng": 121.31176049999999
+      },
+      "address": "981花蓮縣玉里鎮中城里康樂街39號玉里火車站行李房旁鐵路餐廳",
+      "note": "餐廳",
+      "bayesian_score": 4.3647,
+      "confidence": "❌ 低",
+      "rank": 21,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJI4kU_XtqbzQRtUqCm6aVEwg",
+      "name_zh": "桔力多玉里麵",
+      "rating": 4.4,
+      "total_ratings": 257,
+      "location": {
+        "lat": 23.334317799999997,
+        "lng": 121.31473849999998
+      },
+      "address": "981花蓮縣玉里鎮泰昌里中山路二段102號",
+      "note": "中式麵館",
+      "bayesian_score": 4.3644,
+      "confidence": "❌ 低",
+      "rank": 22,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJK9p0JRZrbzQRjxRmR3ghR08",
+      "name_zh": "五餅二魚複合式茶舖-玉里店",
+      "rating": 4.6,
+      "total_ratings": 35,
+      "location": {
+        "lat": 23.3361479,
+        "lng": 121.31576589999999
+      },
+      "address": "981花蓮縣玉里鎮啟模里民族街2號",
+      "note": "家庭餐廳",
+      "bayesian_score": 4.3629,
+      "confidence": "❌ 低",
+      "rank": 23,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJu1QrqXtqbzQRFnBkl5P_ZQE",
+      "name_zh": "吮指王玉里店",
+      "rating": 4.5,
+      "total_ratings": 47,
+      "location": {
+        "lat": 23.3320053,
+        "lng": 121.31531290000001
+      },
+      "address": "981花蓮縣玉里鎮國武里中山路二段7號",
+      "note": "速食餐廳",
+      "bayesian_score": 4.36,
+      "confidence": "❌ 低",
+      "rank": 24,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJUU4WiX1rbzQRIgwURQQjlZI",
+      "name_zh": "小滷豬",
+      "rating": 4.5,
+      "total_ratings": 39,
+      "location": {
+        "lat": 23.3317189,
+        "lng": 121.3151523
+      },
+      "address": "981花蓮縣玉里鎮國武里中山路二段1之1號",
+      "note": "餐廳",
+      "bayesian_score": 4.3582,
+      "confidence": "❌ 低",
+      "rank": 25,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJoyp1vxVrbzQRRZKmUAUk7Ok",
+      "name_zh": "101美食Kiku小吃",
+      "rating": 4.4,
+      "total_ratings": 65,
+      "location": {
+        "lat": 23.3321144,
+        "lng": 121.31690640000001
+      },
+      "address": "981花蓮縣玉里鎮中城里光復路53號",
+      "note": "餐廳",
+      "bayesian_score": 4.3539,
+      "confidence": "❌ 低",
+      "rank": 26,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ3Sfp5ltrbzQRGQAahRbc7_Y",
+      "name_zh": "恩典美食（傳統玉里麵）",
+      "rating": 4.5,
+      "total_ratings": 17,
+      "location": {
+        "lat": 23.3342175,
+        "lng": 121.3135371
+      },
+      "address": "981花蓮縣玉里鎮泰昌里民權街55-1號",
+      "note": "餐廳",
+      "bayesian_score": 4.3531,
+      "confidence": "❌ 低",
+      "rank": 27,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ8XyGCwBrbzQR2A8NLX6FdGM",
+      "name_zh": "風味小吃",
+      "rating": 5,
+      "total_ratings": 2,
+      "location": {
+        "lat": 23.3351768,
+        "lng": 121.318015
+      },
+      "address": "981花蓮縣玉里鎮啟模里民權街46號",
+      "note": "餐廳",
+      "bayesian_score": 4.3511,
+      "confidence": "❌ 低",
+      "rank": 28,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ7-kIO8FrbzQRrKnoK4j_yBI",
+      "name_zh": "雀飲食堂｜鍋物•燒串•拉麵｜花蓮玉里",
+      "rating": 4.3,
+      "total_ratings": 88,
+      "location": {
+        "lat": 23.3313071,
+        "lng": 121.31310470000001
+      },
+      "address": "98142花蓮縣玉里鎮中城里光復路131號",
+      "note": "火鍋店",
+      "bayesian_score": 4.3426,
+      "confidence": "❌ 低",
+      "rank": 29,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJZ7yTL3tqbzQR_y6Xa47lURk",
+      "name_zh": "台越美食",
+      "rating": 4.3,
+      "total_ratings": 135,
+      "location": {
+        "lat": 23.3292018,
+        "lng": 121.31641730000001
+      },
+      "address": "981花蓮縣玉里鎮中城里中山路一段113號",
+      "note": "越南餐廳",
+      "bayesian_score": 4.3398,
+      "confidence": "❌ 低",
+      "rank": 30,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJE1-MDPtrbzQRB_SCLye2roI",
+      "name_zh": "巫婆關東煮/紅麵線/臭豆腐/炸物/紅茶小吃攤",
+      "rating": 3.8,
+      "total_ratings": 10,
+      "location": {
+        "lat": 23.3341595,
+        "lng": 121.31385780000001
+      },
+      "address": "981花蓮縣玉里鎮中城里和平路579號",
+      "note": "餐廳",
+      "bayesian_score": 4.3398,
+      "confidence": "❌ 低",
+      "rank": 31,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJQ15y8z9rbzQRd5xRyPcxtZA",
+      "name_zh": "饗廚房XIANG KITCHEN「玉里中正店」",
+      "rating": 4.1,
+      "total_ratings": 25,
+      "location": {
+        "lat": 23.3349014,
+        "lng": 121.31516669999999
+      },
+      "address": "98146花蓮縣玉里鎮泰昌里中正路141號",
+      "note": "日式餐廳",
+      "bayesian_score": 4.3388,
+      "confidence": "❌ 低",
+      "rank": 32,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ2V8KfQBrbzQRrnJ5EyEboGw",
+      "name_zh": "金の關東煮",
+      "rating": 2.3,
+      "total_ratings": 3,
+      "location": {
+        "lat": 23.331687199999998,
+        "lng": 121.3159506
+      },
+      "address": "981花蓮縣玉里鎮中城里中山路一段218號",
+      "note": "日式餐廳",
+      "bayesian_score": 4.3386,
+      "confidence": "❌ 低",
+      "rank": 33,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJYTmo4ntqbzQRpzTTNuslDQs",
+      "name_zh": "如意小吃",
+      "rating": 3.9,
+      "total_ratings": 15,
+      "location": {
+        "lat": 23.3343784,
+        "lng": 121.31488139999999
+      },
+      "address": "981花蓮縣玉里鎮民權街",
+      "note": "餐廳",
+      "bayesian_score": 4.3378,
+      "confidence": "❌ 低",
+      "rank": 34,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJVTtofnBqbzQR2LUzedJl29M",
+      "name_zh": "緬城",
+      "rating": 4.3,
+      "total_ratings": 284,
+      "location": {
+        "lat": 23.3305366,
+        "lng": 121.32031829999998
+      },
+      "address": "981花蓮縣玉里鎮中城里興國路一段193-2號",
+      "note": "餐廳",
+      "bayesian_score": 4.3331,
+      "confidence": "❌ 低",
+      "rank": 35,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ7-xBjnxqbzQRD69-3TfEd4g",
+      "name_zh": "藍山³ Blue Hill³",
+      "rating": 4.3,
+      "total_ratings": 353,
+      "location": {
+        "lat": 23.331561,
+        "lng": 121.31314799999998
+      },
+      "address": "981花蓮縣玉里鎮光復路156號",
+      "note": "西餐廳",
+      "bayesian_score": 4.3307,
+      "confidence": "⚠️ 中",
+      "rank": 36,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJATcbS3lqbzQRmxP92xVJs4c",
+      "name_zh": "好享鍋（Shabu Shabu)",
+      "rating": 4.3,
+      "total_ratings": 374,
+      "location": {
+        "lat": 23.3356779,
+        "lng": 121.314277
+      },
+      "address": "981花蓮縣玉里鎮泰昌里中山路二段158號",
+      "note": "餐廳",
+      "bayesian_score": 4.33,
+      "confidence": "⚠️ 中",
+      "rank": 37,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ2zeF4XtqbzQRtBqra0blXYo",
+      "name_zh": "翔美美食",
+      "rating": 4.1,
+      "total_ratings": 55,
+      "location": {
+        "lat": 23.3341965,
+        "lng": 121.31532130000001
+      },
+      "address": "981花蓮縣玉里鎮國武里民權街31號",
+      "note": "小吃店",
+      "bayesian_score": 4.3278,
+      "confidence": "❌ 低",
+      "rank": 38,
       "selected": false
     },
     {
@@ -180,14 +628,174 @@
       "rating": 4.3,
       "total_ratings": 457,
       "location": {
-        "lat": 23.329354,
-        "lng": 121.317266
+        "lat": 23.3293538,
+        "lng": 121.3172656
       },
-      "address": "花蓮縣玉里鎮仁愛路一段135號",
-      "note": "鴨肉飯 在地名店",
-      "bayesian_score": 4.3591,
+      "address": "981花蓮縣玉里鎮中城里仁愛路一段135號",
+      "note": "台式餐廳",
+      "bayesian_score": 4.3276,
       "confidence": "⚠️ 中",
-      "rank": 11,
+      "rank": 39,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJJV58G3tqbzQR4y50fRA763o",
+      "name_zh": "中泰小吃",
+      "rating": 3.9,
+      "total_ratings": 30,
+      "location": {
+        "lat": 23.3306057,
+        "lng": 121.31664769999999
+      },
+      "address": "981花蓮縣玉里鎮中城里城東四街57號",
+      "note": "餐廳",
+      "bayesian_score": 4.3273,
+      "confidence": "❌ 低",
+      "rank": 40,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ9S6LznhqbzQRss5flVQ-Xt8",
+      "name_zh": "玉里新興街燒餅店",
+      "rating": 4.3,
+      "total_ratings": 926,
+      "location": {
+        "lat": 23.3326483,
+        "lng": 121.31442820000001
+      },
+      "address": "981花蓮縣玉里鎮國武里和平路68-3號",
+      "note": "早餐店",
+      "bayesian_score": 4.3191,
+      "confidence": "✅ 高",
+      "rank": 41,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ2whYnXlqbzQRKkqNb7qLxuQ",
+      "name_zh": "玉里橋頭臭豆腐",
+      "rating": 4.3,
+      "total_ratings": 13442,
+      "location": {
+        "lat": 23.3346262,
+        "lng": 121.31699030000001
+      },
+      "address": "981花蓮縣玉里鎮國武里民權街15號",
+      "note": "韓國餐廳",
+      "bayesian_score": 4.3021,
+      "confidence": "✅ 高",
+      "rank": 42,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ-UyQCnxqbzQRxFlemnaSchM",
+      "name_zh": "無刺虱目魚滷肉飯",
+      "rating": 3.3,
+      "total_ratings": 29,
+      "location": {
+        "lat": 23.3333376,
+        "lng": 121.31410109999999
+      },
+      "address": "981花蓮縣玉里鎮國武里和平路69號",
+      "note": "台式餐廳",
+      "bayesian_score": 4.3,
+      "confidence": "❌ 低",
+      "rank": 43,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJdRZV9wFrbzQR5I9vR8llWu0",
+      "name_zh": "ㄚㄖㄨㄟˇ•ㄇㄚˇㄒㄧㄕㄡˇ",
+      "rating": 3.6,
+      "total_ratings": 47,
+      "location": {
+        "lat": 23.3357811,
+        "lng": 121.31427810000001
+      },
+      "address": "981花蓮縣玉里鎮泰昌里中山路二段158號",
+      "note": "家庭餐廳",
+      "bayesian_score": 4.2939,
+      "confidence": "❌ 低",
+      "rank": 44,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJUbgCX3lqbzQRJWZWQJHsdUY",
+      "name_zh": "阿品小吃店",
+      "rating": 3.6,
+      "total_ratings": 48,
+      "location": {
+        "lat": 23.3347333,
+        "lng": 121.31572589999999
+      },
+      "address": "981花蓮縣玉里鎮泰昌里民權街60號",
+      "note": "餐廳",
+      "bayesian_score": 4.2928,
+      "confidence": "❌ 低",
+      "rank": 45,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJQ1xY8B9rbzQRXiHznAKUasE",
+      "name_zh": "阿娥 豬腳飯 鴨肉冬粉 玉里麵",
+      "rating": 3.9,
+      "total_ratings": 110,
+      "location": {
+        "lat": 23.3342179,
+        "lng": 121.31534110000001
+      },
+      "address": "981花蓮縣玉里鎮國武里民權街27號",
+      "note": "餐廳",
+      "bayesian_score": 4.2787,
+      "confidence": "❌ 低",
+      "rank": 46,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJKTL_P3xqbzQRqtz_TV5YHoA",
+      "name_zh": "美味臭豆腐",
+      "rating": 4.2,
+      "total_ratings": 554,
+      "location": {
+        "lat": 23.330275,
+        "lng": 121.31233699999999
+      },
+      "address": "981花蓮縣玉里鎮中城里大同路184號",
+      "note": "韓國餐廳",
+      "bayesian_score": 4.277,
+      "confidence": "⚠️ 中",
+      "rank": 47,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJtXCzxmprbzQR9SSDN1CDS7o",
+      "name_zh": "千筑美食-玉里麵",
+      "rating": 3.9,
+      "total_ratings": 216,
+      "location": {
+        "lat": 23.3312577,
+        "lng": 121.3142311
+      },
+      "address": "981花蓮縣玉里鎮中城里光復路109號",
+      "note": "餐廳",
+      "bayesian_score": 4.229,
+      "confidence": "❌ 低",
+      "rank": 48,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJL6Wl43tqbzQRuUniqNeabMU",
+      "name_zh": "小木屋玉里麵",
+      "rating": 4.2,
+      "total_ratings": 2483,
+      "location": {
+        "lat": 23.3341259,
+        "lng": 121.31502359999999
+      },
+      "address": "981花蓮縣玉里鎮國武里民權街37號",
+      "note": "中式麵館",
+      "bayesian_score": 4.2287,
+      "confidence": "✅ 高",
+      "rank": 49,
       "selected": false
     },
     {
@@ -196,14 +804,30 @@
       "rating": 4.2,
       "total_ratings": 2643,
       "location": {
-        "lat": 23.33138,
-        "lng": 121.314567
+        "lat": 23.3313803,
+        "lng": 121.31456659999999
       },
-      "address": "花蓮縣玉里鎮光復路101號",
-      "note": "玉里麵名店 週四公休",
-      "bayesian_score": 4.2332,
+      "address": "981花蓮縣玉里鎮中城里光復路101號",
+      "note": "台式餐廳",
+      "bayesian_score": 4.2273,
       "confidence": "✅ 高",
-      "rank": 12,
+      "rank": 50,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJJ2knxGRqbzQRlslIIIAahxY",
+      "name_zh": "牛哥平價牛排",
+      "rating": 4.1,
+      "total_ratings": 794,
+      "location": {
+        "lat": 23.3279383,
+        "lng": 121.31592010000001
+      },
+      "address": "981花蓮縣玉里鎮仁愛路一段81號",
+      "note": "牛排館",
+      "bayesian_score": 4.2064,
+      "confidence": "✅ 高",
+      "rank": 51,
       "selected": false
     }
   ]

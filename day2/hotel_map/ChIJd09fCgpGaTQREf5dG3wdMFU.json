@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJd09fCgpGaTQREf5dG3wdMFU",
+  "name_zh": "亞太鹿港渡假村",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 4479,
+  "location": {
+    "lat": 24.0627365,
+    "lng": 120.43596049999998
+  },
+  "address": "505彰化縣鹿港鎮埔崙里中正路588號",
+  "primary_type": "hotel",
+  "distance_km": 0.79,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

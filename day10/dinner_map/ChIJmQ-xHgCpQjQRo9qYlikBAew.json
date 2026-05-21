@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJmQ-xHgCpQjQRo9qYlikBAew",
+  "name_zh": "羅舅舅 炒飯/炒麵/蘆洲義大利麵/pasta燉飯/restaurants/蘆洲美食/推薦晚餐/takeout",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 72,
+  "location": {
+    "lat": 25.083501,
+    "lng": 121.47153039999999
+  },
+  "address": "247新北市蘆洲區得勝里成功路160號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.04,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ_-tcFInZbTQRKgroGJLPj7U",
+  "name_zh": "福風牛排館",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 270,
+  "location": {
+    "lat": 23.064327100000003,
+    "lng": 120.12878289999998
+  },
+  "address": "709臺南市安南區城北里安中路六段672號676號",
+  "primary_type": "steak_house",
+  "primary_type_label": "牛排館",
+  "distance_km": 0.27,
+  "source": "api_2026-05-21",
+  "note": "牛排館",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJJepQy0KpQjQRi8UTeh2p0rU",
+  "name_zh": "九江釣蝦場",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 1009,
+  "location": {
+    "lat": 25.071758,
+    "lng": 121.47293940000002
+  },
+  "address": "241新北市三重區大有里中正北路357號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 2.1,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

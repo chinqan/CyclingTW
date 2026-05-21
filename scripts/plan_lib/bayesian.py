@@ -213,7 +213,7 @@ def cmd_compute(args):
         if not dinner_json.exists() or dinner_json.stat().st_mtime < f.stat().st_mtime:
             todos.append(f"dinner-pool {n}    # places.json 已更新，重算晚餐 top 5 (Phase 3.5)")
     else:
-        todos.append(f"# 先用 MCP 搜尋終點周邊餐廳 → dinner-put {n} → dinner-pool {n} (Phase 3.5)")
+        todos.append(f"dinner-search {n} → dinner-pool {n} → dinner-render {n}  # Phase 3.5")
 
     ba_ok = False
     if segments_json.exists():

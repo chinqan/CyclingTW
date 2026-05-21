@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJR686RImycTQR-T7pYIJ1h5M",
+  "name_zh": "南方娜波",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 4,
+  "location": {
+    "lat": 21.916954699999998,
+    "lng": 120.85470969999999
+  },
+  "address": "946屏東縣恆春鎮鵝鑾里坑內路55巷9號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 1.65,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

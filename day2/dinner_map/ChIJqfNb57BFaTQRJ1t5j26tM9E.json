@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJqfNb57BFaTQRJ1t5j26tM9E",
+  "name_zh": "林厝頭",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 261,
+  "location": {
+    "lat": 24.0476565,
+    "lng": 120.42653720000001
+  },
+  "address": "506彰化縣福興鄉福興路129巷1號福興路120號對面",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.14,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

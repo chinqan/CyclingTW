@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJmdaBHFZLXTQRBX6bq6iph9s",
+  "name_zh": "薰衣草",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 1471,
+  "location": {
+    "lat": 25.2217931,
+    "lng": 121.6331655
+  },
+  "address": "208新北市金山區美田里中正路106號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.52,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

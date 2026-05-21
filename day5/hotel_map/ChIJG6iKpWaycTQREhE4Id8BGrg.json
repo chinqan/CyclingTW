@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJG6iKpWaycTQREhE4Id8BGrg",
+  "name_zh": "墾丁放牛吃草民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 242,
+  "location": {
+    "lat": 21.9202965,
+    "lng": 120.8436157
+  },
+  "address": "946屏東縣恆春鎮鵝鑾里埔頂路535號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 2.21,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

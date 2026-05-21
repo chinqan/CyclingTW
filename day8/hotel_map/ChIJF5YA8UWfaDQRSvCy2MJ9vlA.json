@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJF5YA8UWfaDQRSvCy2MJ9vlA",
+  "name_zh": "花蓮潔西艾美渡假酒店",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 581,
+  "location": {
+    "lat": 23.9788832,
+    "lng": 121.60924139999999
+  },
+  "address": "97061花蓮縣花蓮市國治里中正路599號",
+  "primary_type": "hotel",
+  "distance_km": 1.8,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

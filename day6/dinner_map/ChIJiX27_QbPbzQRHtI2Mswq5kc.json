@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJiX27_QbPbzQRHtI2Mswq5kc",
   "name_zh": "187嗑棧",
+  "name_lang": "zh-TW",
   "rating": 4.7,
-  "total_ratings": 704,
+  "total_ratings": 705,
   "location": {
-    "lat": 22.604177,
-    "lng": 121.003003
+    "lat": 22.604177399999998,
+    "lng": 121.00300250000001
   },
-  "address": "台東縣太麻里鄉泰和村外環路187號",
-  "note": "在地快炒 炒飯超讚 週二公休",
-  "source": "search_2026-07"
+  "address": "963臺東縣太麻里鄉泰和村外環路187號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.64,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
 }

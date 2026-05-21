@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ751PxT6faDQRozEKJD8G1RE",
+  "name_zh": "去那邊民宿-【花蓮電梯民宿】",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 816,
+  "location": {
+    "lat": 23.991045699999997,
+    "lng": 121.6103352
+  },
+  "address": "970花蓮縣花蓮市國光里尚志路20-12號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.96,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

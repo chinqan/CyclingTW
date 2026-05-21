@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJvblE7q6faDQRNh_wvGrlgto",
+  "name_zh": "156熱炒小吃",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 38,
+  "location": {
+    "lat": 23.9930089,
+    "lng": 121.60510579999999
+  },
+  "address": "970花蓮縣花蓮市國聯里國聯五路156號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.39,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

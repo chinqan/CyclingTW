@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJv8-FpzvYbTQR2fVa-Re_S9g",
+  "name_zh": "鹿耳門會館一館（東邊香客房）",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 105,
+  "location": {
+    "lat": 23.0681996,
+    "lng": 120.1280388
+  },
+  "address": "709臺南市安南區城東里城安路160號",
+  "primary_type": "lodging",
+  "distance_km": 0.26,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

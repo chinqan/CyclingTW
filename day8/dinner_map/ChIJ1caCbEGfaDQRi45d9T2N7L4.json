@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ1caCbEGfaDQRi45d9T2N7L4",
+  "name_zh": "人間風味食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 77,
+  "location": {
+    "lat": 23.9937769,
+    "lng": 121.5960997
+  },
+  "address": "970花蓮縣花蓮市國富里中山路849號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.53,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

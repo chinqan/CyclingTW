@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJoTTrLs7ZbTQRJNGgGBHvBa0",
+  "name_zh": "想記/想記便當/台南安南科工",
+  "name_lang": "zh",
+  "rating": 4.3,
+  "total_ratings": 72,
+  "location": {
+    "lat": 23.0454704,
+    "lng": 120.1455154
+  },
+  "address": "709臺南市安南區媽祖宮里工業二路132號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 2.97,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

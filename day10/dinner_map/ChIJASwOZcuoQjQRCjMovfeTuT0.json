@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJASwOZcuoQjQRCjMovfeTuT0",
+  "name_zh": "隨意食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 133,
+  "location": {
+    "lat": 25.088301299999998,
+    "lng": 121.4735979
+  },
+  "address": "247新北市蘆洲區仁愛里民權路67號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.1,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

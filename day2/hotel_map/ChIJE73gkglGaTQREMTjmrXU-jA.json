@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJE73gkglGaTQREMTjmrXU-jA",
+  "name_zh": "鹿港以安民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 260,
+  "location": {
+    "lat": 24.060461,
+    "lng": 120.43676289999999
+  },
+  "address": "505彰化县鹿港镇埔仑里中正路523巷33號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 0.63,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

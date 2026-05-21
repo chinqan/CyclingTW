@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJhQgcwAxrbzQRHJQxsz8eVkw",
+  "name_zh": "吾笠塢民宿（花蓮縣民宿2451號 觀光署認證-好客民宿）",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 168,
+  "location": {
+    "lat": 23.338953,
+    "lng": 121.3139554
+  },
+  "address": "981花蓮縣玉里鎮永昌里新生街30號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 0.86,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

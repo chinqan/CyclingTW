@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJxxVvlORFaTQRCiG0I1WS5OU",
+  "name_zh": "鹿港圓環頂麵食館",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 2347,
+  "location": {
+    "lat": 24.0594496,
+    "lng": 120.428678
+  },
+  "address": "505彰化縣鹿港鎮新宮里博愛路42號",
+  "primary_type": "chinese_noodle_restaurant",
+  "primary_type_label": "中式麵館",
+  "distance_km": 0.53,
+  "source": "api_2026-05-21",
+  "note": "中式麵館",
+  "name_is_ascii": false
+}

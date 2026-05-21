@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJpRXSwg9HaTQRwOSJh1lAlM8",
   "name_zh": "一畝石鍋 鹿港總店",
+  "name_lang": "zh-TW",
   "rating": 4.9,
   "total_ratings": 2150,
   "location": {
     "lat": 24.0529473,
-    "lng": 120.43845
+    "lng": 120.43844999999999
   },
-  "address": "彰化縣鹿港鎮復興路129號",
-  "note": "石頭火鍋 高CP值",
-  "source": "search_2026-05-20"
+  "address": "505彰化縣鹿港鎮復興路129號",
+  "primary_type": "hot_pot_restaurant",
+  "primary_type_label": "火鍋店",
+  "distance_km": 0.7,
+  "source": "api_2026-05-21",
+  "note": "火鍋店",
+  "name_is_ascii": false
 }

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJBWEDRgDPbzQRghAzwOZf4oE",
+  "name_zh": "涮嘴麻辣串串香-太麻里店",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 1,
+  "location": {
+    "lat": 22.6109671,
+    "lng": 121.00332999999999
+  },
+  "address": "963臺東縣太麻里鄉大王村至善路32號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.89,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

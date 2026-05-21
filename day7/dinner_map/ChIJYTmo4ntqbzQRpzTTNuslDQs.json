@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJYTmo4ntqbzQRpzTTNuslDQs",
+  "name_zh": "如意小吃",
+  "name_lang": "zh-TW",
+  "rating": 3.9,
+  "total_ratings": 15,
+  "location": {
+    "lat": 23.3343784,
+    "lng": 121.31488139999999
+  },
+  "address": "981花蓮縣玉里鎮民權街",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.45,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

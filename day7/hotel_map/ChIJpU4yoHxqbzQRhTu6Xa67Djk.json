@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJpU4yoHxqbzQRhTu6Xa67Djk",
+  "name_zh": "豫米墅民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 25,
+  "location": {
+    "lat": 23.3305579,
+    "lng": 121.31395939999999
+  },
+  "address": "981花蓮縣玉里鎮中城里成功街89號",
+  "primary_type": "hotel",
+  "distance_km": 0.25,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

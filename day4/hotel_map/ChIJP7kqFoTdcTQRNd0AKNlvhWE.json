@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJP7kqFoTdcTQRNd0AKNlvhWE",
+  "name_zh": "漾漾漫旅",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 40,
+  "location": {
+    "lat": 22.365073499999998,
+    "lng": 120.59317149999998
+  },
+  "address": "94003屏東縣枋寮鄉枋寮村德興路1巷5-1號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.38,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ3Sfp5ltrbzQRGQAahRbc7_Y",
+  "name_zh": "恩典美食（傳統玉里麵）",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 17,
+  "location": {
+    "lat": 23.3342175,
+    "lng": 121.3135371
+  },
+  "address": "981花蓮縣玉里鎮泰昌里民權街55-1號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.35,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

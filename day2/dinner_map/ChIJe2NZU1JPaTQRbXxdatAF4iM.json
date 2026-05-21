@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJe2NZU1JPaTQRbXxdatAF4iM",
+  "name_zh": "禾香食堂",
+  "name_lang": "zh-TW",
+  "rating": 3,
+  "total_ratings": 1,
+  "location": {
+    "lat": 24.0387172,
+    "lng": 120.4229027
+  },
+  "address": "506彰化縣福興鄉福南村沿海路四段520號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 2.19,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

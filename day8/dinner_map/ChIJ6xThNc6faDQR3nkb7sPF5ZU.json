@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ6xThNc6faDQR3nkb7sPF5ZU",
+  "name_zh": "歐桑米粉湯",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 3921,
+  "location": {
+    "lat": 23.976416,
+    "lng": 121.6016801
+  },
+  "address": "970花蓮縣花蓮市主力里和平路466號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 1.88,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

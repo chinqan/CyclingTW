@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJtQ19JzWfaDQRr3YR5N8kFLU",
+  "name_zh": "午夜快車宵夜店-花蓮分店",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 1566,
+  "location": {
+    "lat": 23.994518499999998,
+    "lng": 121.5988551
+  },
+  "address": "970花蓮縣花蓮市國裕里富吉路8號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.28,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

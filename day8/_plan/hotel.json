@@ -1,0 +1,1042 @@
+{
+  "day": 8,
+  "search_radius_km": 3,
+  "pool_size": 64,
+  "bayesian_C": 1424.0,
+  "bayesian_m": 4.3467,
+  "note": "C=平均留言數(先驗樣本數), m=加權平均評分(先驗期望值)",
+  "source_endpoint_place_id": "ChIJK6-HgbafaDQR99QetgTFgwU",
+  "top5_place_ids": [
+    "ChIJv0onO4ifaDQRktpDiZdJOww",
+    "ChIJsbmXYJ2faDQRJefZgX8-UZY",
+    "ChIJ751PxT6faDQRozEKJD8G1RE",
+    "ChIJe7-1qbCfaDQRaLK31rEPXYs",
+    "ChIJT9gvA7afaDQRSrBEVTOeLQw"
+  ],
+  "hotels": [
+    {
+      "place_id": "ChIJv0onO4ifaDQRktpDiZdJOww",
+      "name_zh": "花蓮品悅文旅",
+      "rating": 5,
+      "total_ratings": 3387,
+      "location": {
+        "lat": 23.9741395,
+        "lng": 121.60546889999999
+      },
+      "address": "970003花蓮縣花蓮市主信里南京街155號",
+      "note": "",
+      "bayesian_score": 4.8066,
+      "confidence": "✅ 高",
+      "rank": 1,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJsbmXYJ2faDQRJefZgX8-UZY",
+      "name_zh": "悅樂旅店‧花蓮中福 OLAH Poshtel Hualien Zhongfu",
+      "rating": 4.8,
+      "total_ratings": 2174,
+      "location": {
+        "lat": 23.9718262,
+        "lng": 121.60229939999999
+      },
+      "address": "970花蓮縣花蓮市主和里中福路122號",
+      "note": "",
+      "bayesian_score": 4.6206,
+      "confidence": "✅ 高",
+      "rank": 2,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ751PxT6faDQRozEKJD8G1RE",
+      "name_zh": "去那邊民宿-【花蓮電梯民宿】",
+      "rating": 5,
+      "total_ratings": 816,
+      "location": {
+        "lat": 23.991045699999997,
+        "lng": 121.6103352
+      },
+      "address": "970花蓮縣花蓮市國光里尚志路20-12號",
+      "note": "",
+      "bayesian_score": 4.5847,
+      "confidence": "⚠️ 中",
+      "rank": 3,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJe7-1qbCfaDQRaLK31rEPXYs",
+      "name_zh": "花蓮青年旅館．北吉光輕旅 Hualien Hostel Bayhouse",
+      "rating": 4.8,
+      "total_ratings": 1558,
+      "location": {
+        "lat": 23.9885776,
+        "lng": 121.59926510000001
+      },
+      "address": "970花蓮縣花蓮市國聯里中山路601巷1弄19號",
+      "note": "",
+      "bayesian_score": 4.5835,
+      "confidence": "✅ 高",
+      "rank": 4,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJT9gvA7afaDQRSrBEVTOeLQw",
+      "name_zh": "康橋商旅-花蓮站前館",
+      "rating": 4.6,
+      "total_ratings": 6283,
+      "location": {
+        "lat": 23.9914974,
+        "lng": 121.60518599999999
+      },
+      "address": "970花蓮縣花蓮市國聯里國聯五路101號",
+      "note": "",
+      "bayesian_score": 4.5532,
+      "confidence": "✅ 高",
+      "rank": 5,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJKTHUn8CfaDQRvykwKiaTPvE",
+      "name_zh": "路境行旅 花蓮大同館 Finders Hotel Datong",
+      "rating": 4.6,
+      "total_ratings": 2769,
+      "location": {
+        "lat": 23.9802994,
+        "lng": 121.6055359
+      },
+      "address": "970花蓮縣花蓮市國威里大同街29號",
+      "note": "",
+      "bayesian_score": 4.514,
+      "confidence": "✅ 高",
+      "rank": 6,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ8280J9ifaDQRw4Ce0TUYKtU",
+      "name_zh": "Hi-Yes Hotel 勤天大飯店-花蓮館",
+      "rating": 4.7,
+      "total_ratings": 1240,
+      "location": {
+        "lat": 23.993626799999998,
+        "lng": 121.60471380000001
+      },
+      "address": "970花蓮縣花蓮市國聯里國聯五路151號",
+      "note": "",
+      "bayesian_score": 4.5111,
+      "confidence": "⚠️ 中",
+      "rank": 7,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJzXEOMNGfaDQR3iK2CUQc2hw",
+      "name_zh": "煙波大飯店花蓮館",
+      "rating": 4.5,
+      "total_ratings": 12700,
+      "location": {
+        "lat": 23.986739999999998,
+        "lng": 121.6222365
+      },
+      "address": "970花蓮縣花蓮市民立里中美路142號",
+      "note": "",
+      "bayesian_score": 4.4845,
+      "confidence": "✅ 高",
+      "rank": 8,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJP0GedOmfaDQRLWoFefIYKU0",
+      "name_zh": "路境行旅 花蓮文化館 Finders Hotel Hualien Wen Hua",
+      "rating": 4.7,
+      "total_ratings": 696,
+      "location": {
+        "lat": 23.975598899999998,
+        "lng": 121.61097260000001
+      },
+      "address": "970008花蓮縣花蓮市民族里福建街512號",
+      "note": "",
+      "bayesian_score": 4.4627,
+      "confidence": "❌ 低",
+      "rank": 9,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJUx8eDbOfaDQRe0gI6qSsz34",
+      "name_zh": "伊笛幔休閒民宿 (電梯 車位需預約)",
+      "rating": 4.9,
+      "total_ratings": 361,
+      "location": {
+        "lat": 23.997271200000004,
+        "lng": 121.5982025
+      },
+      "address": "970花蓮縣花蓮市國裕里富裕十一街79號",
+      "note": "",
+      "bayesian_score": 4.4586,
+      "confidence": "❌ 低",
+      "rank": 10,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJN5hw4IqfaDQR3XASe1SEuxU",
+      "name_zh": "愛分享民宿 Love & Share House",
+      "rating": 5,
+      "total_ratings": 271,
+      "location": {
+        "lat": 23.985724599999998,
+        "lng": 121.5952033
+      },
+      "address": "973花蓮縣吉安鄉北昌村北昌二街6巷12弄1號",
+      "note": "",
+      "bayesian_score": 4.4511,
+      "confidence": "❌ 低",
+      "rank": 11,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ-0jg97afaDQRwv9DZzBJj0Y",
+      "name_zh": "玫瑰香榭飯店",
+      "rating": 4.8,
+      "total_ratings": 419,
+      "location": {
+        "lat": 23.991292700000002,
+        "lng": 121.60270419999999
+      },
+      "address": "970花蓮縣花蓮市國聯里國聯一路93號",
+      "note": "",
+      "bayesian_score": 4.4498,
+      "confidence": "❌ 低",
+      "rank": 12,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJQ05ltn6faDQRr2KwSbHn-o8",
+      "name_zh": "花蓮幸福是我家民宿",
+      "rating": 4.8,
+      "total_ratings": 384,
+      "location": {
+        "lat": 23.990026099999998,
+        "lng": 121.60416810000001
+      },
+      "address": "970花蓮縣花蓮市國聯里國興三街12號",
+      "note": "",
+      "bayesian_score": 4.443,
+      "confidence": "❌ 低",
+      "rank": 13,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ0U1FZ7afaDQRyH8riJNAwwU",
+      "name_zh": "洄瀾窩青年旅舍 Hualien Wow Hostel",
+      "rating": 4.5,
+      "total_ratings": 2223,
+      "location": {
+        "lat": 23.991652,
+        "lng": 121.60304099999998
+      },
+      "address": "97055花蓮縣花蓮市國聯里國聯一路83號",
+      "note": "",
+      "bayesian_score": 4.4401,
+      "confidence": "✅ 高",
+      "rank": 14,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJvZLCTNefaDQR5nolY9Fuuvc",
+      "name_zh": "花蓮海悅酒店",
+      "rating": 4.5,
+      "total_ratings": 2122,
+      "location": {
+        "lat": 23.981728999999998,
+        "lng": 121.620296
+      },
+      "address": "970花蓮縣花蓮市民德里民權路5號",
+      "note": "",
+      "bayesian_score": 4.4384,
+      "confidence": "✅ 高",
+      "rank": 15,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJJc6PjQOfaDQRkEjuYmsX3oQ",
+      "name_zh": "微停宿旅 花蓮市區近東大門環保旅店",
+      "rating": 4.7,
+      "total_ratings": 481,
+      "location": {
+        "lat": 23.976392699999998,
+        "lng": 121.60565869999998
+      },
+      "address": "970花蓮縣花蓮市主工里中正路489號",
+      "note": "",
+      "bayesian_score": 4.4359,
+      "confidence": "❌ 低",
+      "rank": 16,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJk0vivrWfaDQRP7ftqazLFNA",
+      "name_zh": "仲青行旅 花蓮館Light Hostel",
+      "rating": 4.6,
+      "total_ratings": 587,
+      "location": {
+        "lat": 23.9944035,
+        "lng": 121.60381190000001
+      },
+      "address": "970花蓮縣花蓮市國聯里國民十街11號",
+      "note": "",
+      "bayesian_score": 4.4206,
+      "confidence": "❌ 低",
+      "rank": 17,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJxUkhIeafaDQR3W355jgUwK4",
+      "name_zh": "路徒行旅 花蓮東大館 Roaders Hotel Hualien Dongda",
+      "rating": 4.5,
+      "total_ratings": 1083,
+      "location": {
+        "lat": 23.9765288,
+        "lng": 121.60763299999999
+      },
+      "address": "970花蓮縣花蓮市主商里光復街45號",
+      "note": "",
+      "bayesian_score": 4.4129,
+      "confidence": "⚠️ 中",
+      "rank": 18,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJr2f1tsufaDQR_A7MAm1YzIo",
+      "name_zh": "花蓮坡岸邊民宿",
+      "rating": 4.9,
+      "total_ratings": 186,
+      "location": {
+        "lat": 23.993057399999998,
+        "lng": 121.60866750000001
+      },
+      "address": "970花蓮縣花蓮市國盛里國盛七街47號",
+      "note": "",
+      "bayesian_score": 4.4106,
+      "confidence": "❌ 低",
+      "rank": 19,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJlVjuKsefaDQRoEGWA8g7Nis",
+      "name_zh": "悠悅民宿",
+      "rating": 4.9,
+      "total_ratings": 173,
+      "location": {
+        "lat": 23.983674,
+        "lng": 121.6093526
+      },
+      "address": "970花蓮縣花蓮市國光里林森路328-2號",
+      "note": "",
+      "bayesian_score": 4.4066,
+      "confidence": "❌ 低",
+      "rank": 20,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJIfGXETWfaDQRgxobBbUHu8g",
+      "name_zh": "時光.漫旅民宿",
+      "rating": 4.6,
+      "total_ratings": 307,
+      "location": {
+        "lat": 23.9900375,
+        "lng": 121.6030146
+      },
+      "address": "970花蓮縣花蓮市國聯里國聯二路68號",
+      "note": "",
+      "bayesian_score": 4.3916,
+      "confidence": "❌ 低",
+      "rank": 21,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJnUbuD7efaDQRwyUxcPO3buc",
+      "name_zh": "日安美好民宿",
+      "rating": 4.8,
+      "total_ratings": 153,
+      "location": {
+        "lat": 23.989823599999998,
+        "lng": 121.6019661
+      },
+      "address": "970花蓮縣花蓮市國聯里國民三街15號",
+      "note": "",
+      "bayesian_score": 4.3907,
+      "confidence": "❌ 低",
+      "rank": 22,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJn2DOgrefaDQRJhTjkBg2D3g",
+      "name_zh": "花蓮民宿IN居- 花蓮火車站推薦民宿",
+      "rating": 4.7,
+      "total_ratings": 197,
+      "location": {
+        "lat": 23.988328,
+        "lng": 121.60275999999999
+      },
+      "address": "970花蓮縣花蓮市國聯里國民二街27號",
+      "note": "",
+      "bayesian_score": 4.3896,
+      "confidence": "❌ 低",
+      "rank": 23,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJJagGkrafaDQRKYI1lt3kCHs",
+      "name_zh": "穎居花蓮民宿 INGBNB (電梯民宿、需預約車位)",
+      "rating": 4.8,
+      "total_ratings": 147,
+      "location": {
+        "lat": 23.9972457,
+        "lng": 121.59831179999999
+      },
+      "address": "970花蓮縣花蓮市富裕十一街75號",
+      "note": "",
+      "bayesian_score": 4.3891,
+      "confidence": "❌ 低",
+      "rank": 24,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJt0jNH7qfaDQRA290-25RP6Y",
+      "name_zh": "齊愔居電梯民宿",
+      "rating": 4.7,
+      "total_ratings": 149,
+      "location": {
+        "lat": 23.9872512,
+        "lng": 121.5997463
+      },
+      "address": "970花蓮縣花蓮市國聯里國興五街212號",
+      "note": "",
+      "bayesian_score": 4.3802,
+      "confidence": "❌ 低",
+      "rank": 25,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJywFXHrmfaDQRYqUOsFKyRjQ",
+      "name_zh": "東岸行旅/友善寵物指定房型",
+      "rating": 4.4,
+      "total_ratings": 942,
+      "location": {
+        "lat": 23.983758899999998,
+        "lng": 121.60248209999999
+      },
+      "address": "970花蓮縣花蓮市國魂里建國路128號",
+      "note": "",
+      "bayesian_score": 4.3679,
+      "confidence": "⚠️ 中",
+      "rank": 26,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJU-ydtbGfaDQRkb67Ccse1l0",
+      "name_zh": "熊來樂民宿-(花蓮市)人氣優質推薦巿區民宿 花蓮市區民宿 花蓮火車站 花蓮套裝行程 花蓮包棟民宿 慈濟醫院 慈濟大學 B＆B 平價民宿 花蓮推薦民宿 花蓮縣立田徑場 花蓮夜巿",
+      "rating": 4.6,
+      "total_ratings": 120,
+      "location": {
+        "lat": 23.992227099999997,
+        "lng": 121.59557930000001
+      },
+      "address": "970花蓮縣花蓮市國富里國富十八街6號",
+      "note": "",
+      "bayesian_score": 4.3664,
+      "confidence": "❌ 低",
+      "rank": 27,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJtbxad7OfaDQRS5HoerxOvVQ",
+      "name_zh": "洗洗睡民宿 sleep in",
+      "rating": 4.6,
+      "total_ratings": 118,
+      "location": {
+        "lat": 23.9968807,
+        "lng": 121.59903910000001
+      },
+      "address": "970花蓮縣花蓮市國裕里富裕五街111號",
+      "note": "",
+      "bayesian_score": 4.3661,
+      "confidence": "❌ 低",
+      "rank": 28,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJzQRp47KfaDQRRT8kga9tdjE",
+      "name_zh": "水悅雅築民宿",
+      "rating": 4.8,
+      "total_ratings": 62,
+      "location": {
+        "lat": 23.997810299999998,
+        "lng": 121.59674069999998
+      },
+      "address": "970花蓮縣花蓮市國裕里富裕十五街68號",
+      "note": "",
+      "bayesian_score": 4.3656,
+      "confidence": "❌ 低",
+      "rank": 29,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJcYUD8EufaDQRHpL97_PJmWk",
+      "name_zh": "花蓮後站-沐青文旅Mu House（訂房Line: @sixbnb)",
+      "rating": 4.8,
+      "total_ratings": 53,
+      "location": {
+        "lat": 23.994361599999998,
+        "lng": 121.59718830000001
+      },
+      "address": "970花蓮縣花蓮市國裕里富裕六街22號",
+      "note": "",
+      "bayesian_score": 4.363,
+      "confidence": "❌ 低",
+      "rank": 30,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJdRuffqqfaDQR5V4l97yFBkE",
+      "name_zh": "轉角愛後站旅宿",
+      "rating": 4.6,
+      "total_ratings": 93,
+      "location": {
+        "lat": 23.994213199999997,
+        "lng": 121.5990089
+      },
+      "address": "970花蓮縣花蓮市富安路79號進出大門2樓富吉路1號",
+      "note": "",
+      "bayesian_score": 4.3622,
+      "confidence": "❌ 低",
+      "rank": 31,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJo9UEtcmfaDQRPqrdHsBse5w",
+      "name_zh": "美侖溪畔民宿- 花蓮市火車站前民宿",
+      "rating": 4.6,
+      "total_ratings": 79,
+      "location": {
+        "lat": 23.993301799999998,
+        "lng": 121.6084832
+      },
+      "address": "970花蓮縣花蓮市國盛里國盛五街11號",
+      "note": "",
+      "bayesian_score": 4.36,
+      "confidence": "❌ 低",
+      "rank": 32,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJTSFMHbafaDQRKb1dAWFkni4",
+      "name_zh": "花時間民宿",
+      "rating": 4.5,
+      "total_ratings": 120,
+      "location": {
+        "lat": 23.9917489,
+        "lng": 121.6054205
+      },
+      "address": "970花蓮縣花蓮市國盛里國聯五路100號",
+      "note": "",
+      "bayesian_score": 4.3586,
+      "confidence": "❌ 低",
+      "rank": 33,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJVWHzGZyfaDQR65mdoa2eYck",
+      "name_zh": "路境行旅 花蓮站前館 Finders Hotel Hualien Station",
+      "rating": 4.4,
+      "total_ratings": 325,
+      "location": {
+        "lat": 23.9918721,
+        "lng": 121.60514819999999
+      },
+      "address": "970花蓮縣花蓮市國聯里國聯五路105號",
+      "note": "",
+      "bayesian_score": 4.3566,
+      "confidence": "❌ 低",
+      "rank": 34,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJefvgzrOfaDQRpEmHUn60K6w",
+      "name_zh": "花蓮阿羅國際青年旅舍",
+      "rating": 4.4,
+      "total_ratings": 265,
+      "location": {
+        "lat": 23.9951185,
+        "lng": 121.5974521
+      },
+      "address": "970花蓮縣花蓮市國裕里富吉路58-3號",
+      "note": "",
+      "bayesian_score": 4.3551,
+      "confidence": "❌ 低",
+      "rank": 35,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJuao3cLefaDQR7H6P1UKmgTc",
+      "name_zh": "小松鼠電梯禁菸民宿-收費停車場電話預訂不收費",
+      "rating": 4.4,
+      "total_ratings": 240,
+      "location": {
+        "lat": 23.988887,
+        "lng": 121.602342
+      },
+      "address": "970花蓮縣花蓮市國聯里國聯二路117號",
+      "note": "",
+      "bayesian_score": 4.3544,
+      "confidence": "❌ 低",
+      "rank": 36,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJVyajqrCfaDQREWQppnaHH1M",
+      "name_zh": "快樂腳花蓮旅宿",
+      "rating": 4.4,
+      "total_ratings": 109,
+      "location": {
+        "lat": 23.988530299999997,
+        "lng": 121.5997143
+      },
+      "address": "970花蓮縣花蓮市國聯里中山路601巷1弄2號",
+      "note": "",
+      "bayesian_score": 4.3505,
+      "confidence": "❌ 低",
+      "rank": 37,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ8X9a0VafaDQR0BzgSBTP8oE",
+      "name_zh": "花蓮鹿徑文旅",
+      "rating": 4.4,
+      "total_ratings": 110,
+      "location": {
+        "lat": 23.9887211,
+        "lng": 121.6041069
+      },
+      "address": "970花蓮縣花蓮市國聯里國興四街41號",
+      "note": "",
+      "bayesian_score": 4.3505,
+      "confidence": "❌ 低",
+      "rank": 38,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ8YuXybSfaDQR4nr0_VSEqUM",
+      "name_zh": "陶陶居商務旅館 TAUTAUCHU HOTEL",
+      "rating": 4.3,
+      "total_ratings": 272,
+      "location": {
+        "lat": 23.9982659,
+        "lng": 121.60128969999998
+      },
+      "address": "970花蓮縣花蓮市國裕里富安路210號",
+      "note": "",
+      "bayesian_score": 4.3392,
+      "confidence": "❌ 低",
+      "rank": 39,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJHwJ1CLSfaDQR2OYcUK1YFwU",
+      "name_zh": "花蓮火車站陽光雅築民宿",
+      "rating": 4,
+      "total_ratings": 46,
+      "location": {
+        "lat": 23.9961855,
+        "lng": 121.5986987
+      },
+      "address": "970花蓮縣花蓮市國裕里富裕五街81號",
+      "note": "",
+      "bayesian_score": 4.3359,
+      "confidence": "❌ 低",
+      "rank": 40,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJf2reAJ-faDQRAAiN9ZVk1yE",
+      "name_zh": "亞馨文旅 YesHome Hotel (提供免費停車場，間間有窗戶，訂房請加@y33611)",
+      "rating": 4.3,
+      "total_ratings": 937,
+      "location": {
+        "lat": 23.973628599999998,
+        "lng": 121.602595
+      },
+      "address": "970花蓮縣花蓮市主學里中正路336巷1弄1號",
+      "note": "",
+      "bayesian_score": 4.3282,
+      "confidence": "⚠️ 中",
+      "rank": 41,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJRbmnRrefaDQRuR307_iRZDI",
+      "name_zh": "回然慢時旅居Meci Hotel",
+      "rating": 4.3,
+      "total_ratings": 1869,
+      "location": {
+        "lat": 23.9891717,
+        "lng": 121.60083379999999
+      },
+      "address": "970花蓮縣花蓮市國聯里國聯一路201號",
+      "note": "",
+      "bayesian_score": 4.3202,
+      "confidence": "✅ 高",
+      "rank": 42,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJWy5iucOfaDQRw1ALgKIjuyQ",
+      "name_zh": "福康大飯店",
+      "rating": 4.3,
+      "total_ratings": 2340,
+      "location": {
+        "lat": 23.977295299999998,
+        "lng": 121.61090229999999
+      },
+      "address": "970花蓮縣花蓮市民生里公園路5號",
+      "note": "",
+      "bayesian_score": 4.3177,
+      "confidence": "✅ 高",
+      "rank": 43,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJbw-my-qfaDQRmRmdKaOASY0",
+      "name_zh": "TC慢旅花蓮館",
+      "rating": 4.3,
+      "total_ratings": 2634,
+      "location": {
+        "lat": 23.974820299999998,
+        "lng": 121.60563979999998
+      },
+      "address": "97046花蓮縣花蓮市主信里忠孝街73號",
+      "note": "",
+      "bayesian_score": 4.3164,
+      "confidence": "✅ 高",
+      "rank": 44,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJpQJJFpWfaDQR-WXSUla-RyA",
+      "name_zh": "捷絲旅花蓮中正館 Just Sleep Hualien Zhongzheng",
+      "rating": 4.3,
+      "total_ratings": 2864,
+      "location": {
+        "lat": 23.9746615,
+        "lng": 121.60376389999999
+      },
+      "address": "970花蓮縣花蓮市主睦里中正路396號",
+      "note": "",
+      "bayesian_score": 4.3155,
+      "confidence": "✅ 高",
+      "rank": 45,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ6yi-G7efaDQRR3PbGZHI8kM",
+      "name_zh": "永祺飯店",
+      "rating": 3.9,
+      "total_ratings": 240,
+      "location": {
+        "lat": 23.9902814,
+        "lng": 121.6018335
+      },
+      "address": "970花蓮縣花蓮市國聯里國聯一路139號",
+      "note": "",
+      "bayesian_score": 4.2823,
+      "confidence": "❌ 低",
+      "rank": 46,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ5UToA7afaDQRGg3J_HLtP2A",
+      "name_zh": "經典假日飯店-花蓮火車站前 住宿推薦",
+      "rating": 4.2,
+      "total_ratings": 1222,
+      "location": {
+        "lat": 23.993204,
+        "lng": 121.60473999999998
+      },
+      "address": "97050花蓮縣花蓮市國聯里國聯五路139號",
+      "note": "",
+      "bayesian_score": 4.279,
+      "confidence": "⚠️ 中",
+      "rank": 47,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJF5YA8UWfaDQRSvCy2MJ9vlA",
+      "name_zh": "花蓮潔西艾美渡假酒店",
+      "rating": 4.1,
+      "total_ratings": 581,
+      "location": {
+        "lat": 23.9788832,
+        "lng": 121.60924139999999
+      },
+      "address": "97061花蓮縣花蓮市國治里中正路599號",
+      "note": "",
+      "bayesian_score": 4.2752,
+      "confidence": "❌ 低",
+      "rank": 48,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ-2xROLqfaDQRB1MKGo0FzTw",
+      "name_zh": "麗格休閒飯店LIGA HOTEL",
+      "rating": 4.2,
+      "total_ratings": 2201,
+      "location": {
+        "lat": 23.986719299999997,
+        "lng": 121.5986808
+      },
+      "address": "No. 258號, 商校街國聯里花蓮市花蓮縣970",
+      "note": "",
+      "bayesian_score": 4.2576,
+      "confidence": "✅ 高",
+      "rank": 49,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJHf6kpZWfaDQR_JnRx_GBP5g",
+      "name_zh": "花蓮假期飯店 Hualien Holiday Hotel",
+      "rating": 4.2,
+      "total_ratings": 2738,
+      "location": {
+        "lat": 23.975296099999998,
+        "lng": 121.60208560000001
+      },
+      "address": "970004花蓮縣花蓮市主力里中華路231號",
+      "note": "",
+      "bayesian_score": 4.2502,
+      "confidence": "✅ 高",
+      "rank": 50,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJteUd3LWfaDQR7H-smcEjBjI",
+      "name_zh": "承億文旅 花蓮山知道",
+      "rating": 4.2,
+      "total_ratings": 3834,
+      "location": {
+        "lat": 23.9931058,
+        "lng": 121.603771
+      },
+      "address": "970花蓮縣花蓮市國聯里國聯一路39號",
+      "note": "",
+      "bayesian_score": 4.2397,
+      "confidence": "✅ 高",
+      "rank": 51,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJtdS9_5WfaDQRbugDnfSmLa8",
+      "name_zh": "天璽商務飯店",
+      "rating": 4.1,
+      "total_ratings": 1126,
+      "location": {
+        "lat": 23.9775389,
+        "lng": 121.59994549999999
+      },
+      "address": "970花蓮縣花蓮市國風里林森路126號",
+      "note": "",
+      "bayesian_score": 4.2378,
+      "confidence": "⚠️ 中",
+      "rank": 52,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ4TnF_LmfaDQR5v3pq2xtaF4",
+      "name_zh": "麗星大飯店 Lishin Hotel",
+      "rating": 3.9,
+      "total_ratings": 542,
+      "location": {
+        "lat": 23.988345,
+        "lng": 121.60033399999999
+      },
+      "address": "970花蓮縣花蓮市國聯里中山路589號",
+      "note": "",
+      "bayesian_score": 4.2236,
+      "confidence": "❌ 低",
+      "rank": 53,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ7zPGBbqfaDQRCEAYXGprWuE",
+      "name_zh": "美侖大飯店",
+      "rating": 4.2,
+      "total_ratings": 7536,
+      "location": {
+        "lat": 24.0001143,
+        "lng": 121.62834730000002
+      },
+      "address": "970花蓮縣花蓮市民享里林園1之1號",
+      "note": "",
+      "bayesian_score": 4.2233,
+      "confidence": "✅ 高",
+      "rank": 54,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ2UZ9CrafaDQRQ5Am1v5htJ4",
+      "name_zh": "花蓮香城大飯店",
+      "rating": 4.1,
+      "total_ratings": 1554,
+      "location": {
+        "lat": 23.9925853,
+        "lng": 121.604266
+      },
+      "address": "970花蓮縣花蓮市國聯里國興二街19號",
+      "note": "",
+      "bayesian_score": 4.218,
+      "confidence": "✅ 高",
+      "rank": 55,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJi6RLorWfaDQRChG0trUXpIc",
+      "name_zh": "花蓮國廣興大飯店",
+      "rating": 4.1,
+      "total_ratings": 2325,
+      "location": {
+        "lat": 23.995321999999998,
+        "lng": 121.604351
+      },
+      "address": "970花蓮縣花蓮市國聯里國聯五路223號",
+      "note": "",
+      "bayesian_score": 4.1937,
+      "confidence": "✅ 高",
+      "rank": 56,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJV4KLL7afaDQRtWkqTiTXfVM",
+      "name_zh": "山水商務旅店",
+      "rating": 3.7,
+      "total_ratings": 453,
+      "location": {
+        "lat": 23.990441,
+        "lng": 121.60486999999999
+      },
+      "address": "970花蓮縣花蓮市國聯里國聯三路73號",
+      "note": "",
+      "bayesian_score": 4.1906,
+      "confidence": "❌ 低",
+      "rank": 57,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ4VMXbbWfaDQROCL6ZMlvmfo",
+      "name_zh": "多羅滿休閒商務汽車旅館（寵物友善旅館）",
+      "rating": 3.9,
+      "total_ratings": 968,
+      "location": {
+        "lat": 23.9960402,
+        "lng": 121.60413589999999
+      },
+      "address": "970花蓮縣花蓮市國聯里國興一街123號",
+      "note": "",
+      "bayesian_score": 4.1659,
+      "confidence": "⚠️ 中",
+      "rank": 58,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ_54SbcqfaDQRllxp-UWQjic",
+      "name_zh": "F HOTEL 花蓮站前館／花蓮住宿／火車站步行可達／商務會議／團體餐飲／寵物友善",
+      "rating": 4,
+      "total_ratings": 2194,
+      "location": {
+        "lat": 23.9935582,
+        "lng": 121.60622500000001
+      },
+      "address": "970花蓮縣花蓮市國盛里國盛二街203-1號",
+      "note": "",
+      "bayesian_score": 4.1365,
+      "confidence": "✅ 高",
+      "rank": 59,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJUVe_0rOfaDQRO8_mON9ZkIw",
+      "name_zh": "松之風精品旅店",
+      "rating": 3.8,
+      "total_ratings": 890,
+      "location": {
+        "lat": 23.994883599999998,
+        "lng": 121.5972125
+      },
+      "address": "970花蓮縣花蓮市國裕里富吉路65號",
+      "note": "",
+      "bayesian_score": 4.1364,
+      "confidence": "⚠️ 中",
+      "rank": 60,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ3zo-i5afaDQRPb_68RH2GmA",
+      "name_zh": "花蓮富野渡假酒店",
+      "rating": 3.9,
+      "total_ratings": 3324,
+      "location": {
+        "lat": 23.975184799999997,
+        "lng": 121.59844009999998
+      },
+      "address": "970花蓮縣花蓮市主力里中華路302號",
+      "note": "",
+      "bayesian_score": 4.034,
+      "confidence": "✅ 高",
+      "rank": 61,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ-fUtFpSfaDQR9R80MGJI4pE",
+      "name_zh": "花蓮布洛灣大飯店Bulowan Hotel",
+      "rating": 3.8,
+      "total_ratings": 2619,
+      "location": {
+        "lat": 23.973515499999998,
+        "lng": 121.60077369999998
+      },
+      "address": "970花蓮縣花蓮市主學里中福路189號",
+      "note": "",
+      "bayesian_score": 3.9926,
+      "confidence": "✅ 高",
+      "rank": 62,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJjfaNWbafaDQRGDu1MdAoUYg",
+      "name_zh": "仟台大飯店",
+      "rating": 2.7,
+      "total_ratings": 481,
+      "location": {
+        "lat": 23.991312699999998,
+        "lng": 121.6028116
+      },
+      "address": "970花蓮縣花蓮市國聯里國聯一路83-1號",
+      "note": "",
+      "bayesian_score": 3.9309,
+      "confidence": "❌ 低",
+      "rank": 63,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJy-tk8LWfaDQRxqy0xWmMjNs",
+      "name_zh": "百事達國際飯店",
+      "rating": 3.5,
+      "total_ratings": 1845,
+      "location": {
+        "lat": 23.993661799999998,
+        "lng": 121.60458369999998
+      },
+      "address": "970花蓮縣花蓮市國聯里國聯五路151號",
+      "note": "",
+      "bayesian_score": 3.8688,
+      "confidence": "✅ 高",
+      "rank": 64,
+      "selected": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJZ-ALqiuvQjQReVtksd0Jnt8",
+  "name_zh": "羽葉麻辣火鍋 三重都會館",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 14729,
+  "location": {
+    "lat": 25.089323800000003,
+    "lng": 121.48826919999999
+  },
+  "address": "241新北市三重區富貴里集賢路157號",
+  "primary_type": "hot_pot_restaurant",
+  "primary_type_label": "火鍋店",
+  "distance_km": 2.58,
+  "source": "api_2026-05-21",
+  "note": "火鍋店",
+  "name_is_ascii": false
+}

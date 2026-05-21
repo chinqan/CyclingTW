@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJB3GtcN9FaTQRIqFsC2PKdqk",
   "name_zh": "玖燒 炭烤",
+  "name_lang": "zh-TW",
   "rating": 4.9,
   "total_ratings": 219,
   "location": {
     "lat": 24.0529373,
     "lng": 120.4330777
   },
-  "address": "彰化縣鹿港鎮菜園路126號",
-  "note": "炭烤串燒 宵夜",
-  "source": "search_2026-05-20"
+  "address": "505彰化縣鹿港鎮菜園里菜園路126號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.38,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
 }

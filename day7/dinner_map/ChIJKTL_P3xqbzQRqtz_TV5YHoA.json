@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJKTL_P3xqbzQRqtz_TV5YHoA",
+  "name_zh": "美味臭豆腐",
+  "name_lang": "ja",
+  "rating": 4.2,
+  "total_ratings": 554,
+  "location": {
+    "lat": 23.330275,
+    "lng": 121.31233699999999
+  },
+  "address": "981花蓮縣玉里鎮中城里大同路184號",
+  "primary_type": "korean_restaurant",
+  "primary_type_label": "韓國餐廳",
+  "distance_km": 0.15,
+  "source": "api_2026-05-21",
+  "note": "韓國餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ4Xpz5gdGaTQRny0f1plcN_g",
+  "name_zh": "麗卿陽春麵",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 546,
+  "location": {
+    "lat": 24.05579,
+    "lng": 120.43686799999999
+  },
+  "address": "505彰化縣鹿港鎮景福里民族路49巷3號",
+  "primary_type": "chinese_noodle_restaurant",
+  "primary_type_label": "中式麵館",
+  "distance_km": 0.44,
+  "source": "api_2026-05-21",
+  "note": "中式麵館",
+  "name_is_ascii": false
+}

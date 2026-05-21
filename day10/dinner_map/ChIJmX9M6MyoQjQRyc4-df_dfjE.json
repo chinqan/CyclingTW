@@ -1,0 +1,17 @@
+{
+  "place_id": "ChIJmX9M6MyoQjQRyc4-df_dfjE",
+  "name_zh": "好樂迪KTV 蘆洲店",
+  "name_lang": "zh-TW",
+  "rating": 3.4,
+  "total_ratings": 534,
+  "location": {
+    "lat": 25.085711699999997,
+    "lng": 121.4607909
+  },
+  "address": "247新北市蘆洲區正義里長榮路238號",
+  "primary_type": null,
+  "primary_type_label": null,
+  "distance_km": 0.34,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

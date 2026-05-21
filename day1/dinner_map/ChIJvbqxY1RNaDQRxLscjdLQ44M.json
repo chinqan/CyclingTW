@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJvbqxY1RNaDQRxLscjdLQ44M",
+  "name_zh": "龍來小館",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 2148,
+  "location": {
+    "lat": 24.6963683,
+    "lng": 120.90322239999999
+  },
+  "address": "35147苗栗縣頭份市山下里建國路二段135號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 2.53,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

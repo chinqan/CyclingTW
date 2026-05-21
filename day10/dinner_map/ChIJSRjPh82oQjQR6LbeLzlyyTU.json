@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJSRjPh82oQjQR6LbeLzlyyTU",
+  "name_zh": "客家小吃店",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 167,
+  "location": {
+    "lat": 25.085456399999998,
+    "lng": 121.47975219999998
+  },
+  "address": "247新北市蘆洲區玉清里信義路222巷23號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 1.75,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

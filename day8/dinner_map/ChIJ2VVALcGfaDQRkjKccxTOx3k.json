@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ2VVALcGfaDQRkjKccxTOx3k",
+  "name_zh": "老時光燒肉酒肴",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 11688,
+  "location": {
+    "lat": 23.981076899999998,
+    "lng": 121.60917409999998
+  },
+  "address": "970花蓮縣花蓮市國治里民國路88-1號",
+  "primary_type": "japanese_izakaya_restaurant",
+  "primary_type_label": "居酒屋",
+  "distance_km": 1.58,
+  "source": "api_2026-05-21",
+  "note": "居酒屋",
+  "name_is_ascii": false
+}

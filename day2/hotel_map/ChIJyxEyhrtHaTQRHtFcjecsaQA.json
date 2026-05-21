@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJyxEyhrtHaTQRHtFcjecsaQA",
+  "name_zh": "頌謙文旅",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 386,
+  "location": {
+    "lat": 24.0638674,
+    "lng": 120.437131
+  },
+  "address": "505彰化縣鹿港鎮埔崙里自由路 329 巷69號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 0.96,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

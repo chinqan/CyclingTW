@@ -135,14 +135,31 @@ ishikawa-beta
 
 | # | 店名 | 評分 | 留言數 | 貝葉斯分 | 備註 |
 |:---:|:---|:---:|---:|:---:|:---|
-| 1 | [柒石柒 石頭鍋](https://www.google.com/maps/place/?q=place_id:ChIJb60QSwCzaTQRMa5Xeeni_6M) | 4.8★ | 1616 | 4.732 | 石頭火鍋 每天11:00-02:00 車站旁 |
-| 2 | [豚嘢家 日式咖哩豬排](https://www.google.com/maps/place/?q=place_id:ChIJ2xKrLQCzaTQR_DnVboSVmh0) | 4.8★ | 1455 | 4.7266 | 日式咖哩豬排 每天11:00-21:00 車站旁 |
-| 3 | [夏川食堂](https://www.google.com/maps/place/?q=place_id:ChIJkyfmh1CzaTQRqpYlWbi62b8) | 4.8★ | 751 | 4.6869 | 日式拉麵 週二公休 |
-| 4 | [House過癮](https://www.google.com/maps/place/?q=place_id:ChIJZc05r26zaTQRj5C1snCX4_k) | 4.8★ | 336 | 4.634 | 手工窯烤披薩 週一二公休 |
-| 5 | [順風順水宵夜](https://www.google.com/maps/place/?q=place_id:ChIJQexrNgCzaTQRBnZbzQwzAoA) | 4.9★ | 147 | 4.6101 | 宵夜豆漿燒餅 每天17:00-07:00 |
+| 1 | [真涮吃到飽火鍋-竹南店](https://www.google.com/maps/place/?q=place_id:ChIJL6UAu16zaTQRQtHt5BEgWXY) | 4.9★ | 3143 | 4.7976 | 火鍋店 |
+| 2 | [西堤牛排 頭份尚順店](https://www.google.com/maps/place/?q=place_id:ChIJ3R7A9zKzaTQR15cnd86g8tc) | 4.8★ | 14993 | 4.7798 | 牛排館 |
+| 3 | [聚 日式鍋物 頭份尚順店](https://www.google.com/maps/place/?q=place_id:ChIJVVVVVcVMaDQRHB7La4gUuhw) | 4.8★ | 8693 | 4.7669 | 火鍋店 |
+| 4 | [麵屋有漁頭份店/苗栗美食/苗栗拉麵/苗栗餐廳/附近美食/苗栗必吃/吃的](https://www.google.com/maps/place/?q=place_id:ChIJlRQIfntNaDQRCIHR3SKyHpI) | 4.9★ | 828 | 4.6747 | 餐廳 |
+| 5 | [豚嘢家-竹南店 Tonya-House](https://www.google.com/maps/place/?q=place_id:ChIJ2xKrLQCzaTQR_DnVboSVmh0) | 4.8★ | 1463 | 4.6735 | 日式咖哩餐廳 |
 
 > 💡 *排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）*
 > 📋 *[看更多 >>](./day1_dinner.md)*
+
+---
+
+
+
+## 住宿推薦 🏨
+
+| # | 飯店 | 評分 | 留言數 | 貝葉斯分 | 備註 |
+|:---:|:---|:---:|---:|:---:|:---|
+| 1 | [竹南橘子民宿](https://www.google.com/maps/place/?q=place_id:ChIJMzMZW4GzaTQREH8d849ixgU) | 4.9★ | 674 | 4.5179 |  |
+| 2 | [櫻花樹夏民宿](https://www.google.com/maps/place/?q=place_id:ChIJJ8DKvTSzaTQRWhzFwHtZrl8) | 4.9★ | 371 | 4.4023 |  |
+| 3 | [竹豐旅社](https://www.google.com/maps/place/?q=place_id:ChIJqQ0yjDyzaTQRb_VbfCx8vIE) | 4.5★ | 658 | 4.3089 |  |
+| 4 | [苗栗馥藝金鬱金香酒店](https://www.google.com/maps/place/?q=place_id:ChIJK0jUQNSzaTQRyefDEXnbIvo) | 4.2★ | 4786 | 4.1895 |  |
+| 5 | [星星民宿](https://www.google.com/maps/place/?q=place_id:ChIJ7SatvtVNaDQRnV1gs37aAG4) | 5★ | 11 | 4.1248 |  |
+
+> 💡 *終點周邊 3 公里 · 26 筆候選 · IMDB 風格貝葉斯平均*
+> 📋 *[看更多 >>](./day1_hotel.md)*
 
 ---
 

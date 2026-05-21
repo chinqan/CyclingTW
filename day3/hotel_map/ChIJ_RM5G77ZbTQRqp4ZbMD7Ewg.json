@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ_RM5G77ZbTQRqp4ZbMD7Ewg",
+  "name_zh": "媽祖宮吉祥園民宿",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 3,
+  "location": {
+    "lat": 23.042795500000004,
+    "lng": 120.1270692
+  },
+  "address": "709臺南市安南區媽祖宮里媽祖宮二街126巷213號",
+  "primary_type": "private_guest_room",
+  "distance_km": 2.59,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

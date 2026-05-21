@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJw0idO32ycTQR_gN0-P2LaEc",
+  "name_zh": "墾丁砂島206民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 106,
+  "location": {
+    "lat": 21.912674799999998,
+    "lng": 120.84818080000001
+  },
+  "address": "946屏東縣恆春鎮鵝鑾里砂島路206號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 1.25,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

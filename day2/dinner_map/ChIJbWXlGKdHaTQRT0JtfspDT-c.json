@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJbWXlGKdHaTQRT0JtfspDT-c",
+  "name_zh": "三形究藏鍋物",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 2843,
+  "location": {
+    "lat": 24.0591626,
+    "lng": 120.43601140000001
+  },
+  "address": "505彰化縣鹿港鎮埔崙里正興路38號",
+  "primary_type": "hot_pot_restaurant",
+  "primary_type_label": "火鍋店",
+  "distance_km": 0.47,
+  "source": "api_2026-05-21",
+  "note": "火鍋店",
+  "name_is_ascii": false
+}

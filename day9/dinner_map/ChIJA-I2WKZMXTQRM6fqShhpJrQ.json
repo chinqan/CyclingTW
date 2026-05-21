@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJA-I2WKZMXTQRM6fqShhpJrQ",
+  "name_zh": "瓊玉小館",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 366,
+  "location": {
+    "lat": 25.2212711,
+    "lng": 121.6379452
+  },
+  "address": "208新北市金山區金美里中山路203號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.07,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

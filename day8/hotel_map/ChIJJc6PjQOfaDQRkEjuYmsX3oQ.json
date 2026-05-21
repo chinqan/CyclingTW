@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJJc6PjQOfaDQRkEjuYmsX3oQ",
+  "name_zh": "微停宿旅 花蓮市區近東大門環保旅店",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 481,
+  "location": {
+    "lat": 23.976392699999998,
+    "lng": 121.60565869999998
+  },
+  "address": "970花蓮縣花蓮市主工里中正路489號",
+  "primary_type": "hotel",
+  "distance_km": 1.93,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJJyXOCthLXTQR-y3c2iWhHPI",
+  "name_zh": "食光 tsiáh liáu liáu",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 155,
+  "location": {
+    "lat": 25.2240555,
+    "lng": 121.6355499
+  },
+  "address": "208新北市金山區美田里中山路258號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.38,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

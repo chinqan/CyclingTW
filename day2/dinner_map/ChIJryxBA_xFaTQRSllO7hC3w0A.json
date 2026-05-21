@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJryxBA_xFaTQRSllO7hC3w0A",
+  "name_zh": "和楓食堂",
+  "name_lang": "ja",
+  "rating": 4.4,
+  "total_ratings": 50,
+  "location": {
+    "lat": 24.047204100000002,
+    "lng": 120.43721749999999
+  },
+  "address": "505彰化縣鹿港鎮街尾里復興南路99號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.12,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJuz_EBiKzaTQRiS96Y0Q34TQ",
+  "name_zh": "艾蜜奇義大利坊 - 竹南總店",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 3675,
+  "location": {
+    "lat": 24.682406399999998,
+    "lng": 120.86885339999999
+  },
+  "address": "350苗栗縣竹南鎮中港里環市路二段11號",
+  "primary_type": "italian_restaurant",
+  "primary_type_label": "義大利餐廳",
+  "distance_km": 1.27,
+  "source": "api_2026-05-21",
+  "note": "義大利餐廳",
+  "name_is_ascii": false
+}

@@ -1,129 +1,321 @@
 {
   "day": 9,
   "search_radius_km": 3,
-  "pool_size": 10,
-  "bayesian_C": 622.4,
-  "bayesian_m": 4.6025,
+  "pool_size": 53,
+  "bayesian_C": 1282.8,
+  "bayesian_m": 4.1948,
   "note": "C=平均留言數(先驗樣本數), m=加權平均評分(先驗期望值)",
   "source_endpoint_place_id": "ChIJiXwhwldLXTQRZfw6fpm4Q9Q",
   "top5_place_ids": [
-    "ChIJwxfugTZLXTQRXpdg2TdpSDg",
-    "ChIJHX911HVLXTQRQYlbhgbphbg",
-    "ChIJ34PFPvNNXTQRppe_tMp8zaE",
-    "ChIJfUH2dP1LXTQRyA8tCSqLV_0",
-    "ChIJCzD5nNBLXTQRx3gr5ljkkN8"
+    "ChIJ9Se0QgWzQjQRpZAVa4CxHdc",
+    "ChIJZQl6LlRLXTQRLc8fnURbzDg",
+    "ChIJyfyYcAxLXTQRulaJxwTOWa0",
+    "ChIJge11y2lLXTQRwDGIf77BwAY",
+    "ChIJy6ZECqhMXTQRtKLEWEnWMjM"
   ],
   "restaurants": [
     {
-      "place_id": "ChIJwxfugTZLXTQRXpdg2TdpSDg",
-      "name_zh": "君浩美食坊",
-      "rating": 4.8,
-      "total_ratings": 1355,
+      "place_id": "ChIJ9Se0QgWzQjQRpZAVa4CxHdc",
+      "name_zh": "金包里農舍莊園-金山伴手禮首選|地瓜首選|地瓜甜點|地標首選|甜點推薦|必吃甜點|人氣甜點|必買伴手禮",
+      "rating": 4.9,
+      "total_ratings": 3488,
       "location": {
-        "lat": 25.245962,
-        "lng": 121.633992
+        "lat": 25.2203746,
+        "lng": 121.62754489999998
       },
-      "address": "新北市金山區萬壽村1之1號",
-      "note": "海鮮快炒 北海岸",
-      "bayesian_score": 4.7378,
+      "address": "208新北市金山區南勢52號",
+      "note": "甜品餐廳",
+      "bayesian_score": 4.7104,
       "confidence": "✅ 高",
       "rank": 1,
       "selected": true
     },
     {
-      "place_id": "ChIJHX911HVLXTQRQYlbhgbphbg",
-      "name_zh": "享魚路",
-      "rating": 4.8,
-      "total_ratings": 398,
+      "place_id": "ChIJZQl6LlRLXTQRLc8fnURbzDg",
+      "name_zh": "和雅齋",
+      "rating": 4.7,
+      "total_ratings": 974,
       "location": {
-        "lat": 25.227149,
-        "lng": 121.645909
+        "lat": 25.225181,
+        "lng": 121.6334484
       },
-      "address": "新北市金山區磺港路183號",
-      "note": "漁港海鮮 金山",
-      "bayesian_score": 4.6795,
+      "address": "20845新北市金山區美田里中山路393號",
+      "note": "素食餐廳",
+      "bayesian_score": 4.4128,
       "confidence": "⚠️ 中",
       "rank": 2,
       "selected": true
     },
     {
-      "place_id": "ChIJ34PFPvNNXTQRppe_tMp8zaE",
-      "name_zh": "拾物香",
-      "rating": 4.8,
-      "total_ratings": 347,
+      "place_id": "ChIJyfyYcAxLXTQRulaJxwTOWa0",
+      "name_zh": "《自家漁船》花義思廚坊",
+      "rating": 4.6,
+      "total_ratings": 1445,
       "location": {
-        "lat": 25.218844,
-        "lng": 121.638855
+        "lat": 25.2195851,
+        "lng": 121.63323439999999
       },
-      "address": "新北市金山區忠孝一路15巷2號",
-      "note": "創意料理 老街旁",
-      "bayesian_score": 4.6732,
-      "confidence": "⚠️ 中",
+      "address": "208新北市金山區金美里環金路286號",
+      "note": "西餐廳",
+      "bayesian_score": 4.4094,
+      "confidence": "✅ 高",
       "rank": 3,
       "selected": true
     },
     {
-      "place_id": "ChIJfUH2dP1LXTQRyA8tCSqLV_0",
-      "name_zh": "煦新館",
-      "rating": 4.9,
-      "total_ratings": 59,
+      "place_id": "ChIJge11y2lLXTQRwDGIf77BwAY",
+      "name_zh": "金山大碗石頭火鍋－新北金山好吃美食推薦 新北金山石頭火鍋 金山老街美食 金山海鮮活體螃蟹推薦 金山必吃聚餐餐廳",
+      "rating": 4.7,
+      "total_ratings": 886,
       "location": {
-        "lat": 25.222146,
-        "lng": 121.645979
+        "lat": 25.2211704,
+        "lng": 121.63838539999999
       },
-      "address": "新北市金山區民生路196號",
-      "note": "日式定食",
-      "bayesian_score": 4.6283,
-      "confidence": "❌ 低",
+      "address": "208新北市金山區中山路170號",
+      "note": "火鍋店",
+      "bayesian_score": 4.4012,
+      "confidence": "⚠️ 中",
       "rank": 4,
       "selected": true
     },
     {
-      "place_id": "ChIJCzD5nNBLXTQRx3gr5ljkkN8",
-      "name_zh": "海荔食堂",
-      "rating": 4.7,
-      "total_ratings": 107,
+      "place_id": "ChIJy6ZECqhMXTQRtKLEWEnWMjM",
+      "name_zh": "小瑪克手工披薩",
+      "rating": 4.5,
+      "total_ratings": 1908,
       "location": {
-        "lat": 25.221914,
-        "lng": 121.639285
+        "lat": 25.219547199999997,
+        "lng": 121.63945229999997
       },
-      "address": "新北市金山區福德街8號",
-      "note": "創意餐食 老街旁",
-      "bayesian_score": 4.6168,
-      "confidence": "❌ 低",
+      "address": "20845新北市金山區中山路111號1樓",
+      "note": "披薩餐廳",
+      "bayesian_score": 4.3773,
+      "confidence": "✅ 高",
       "rank": 5,
       "selected": true
     },
     {
-      "place_id": "ChIJq_m8nuG1QjQRXua-5GwwI-8",
-      "name_zh": "庚辛廚房",
-      "rating": 4.6,
-      "total_ratings": 467,
+      "place_id": "ChIJo4vA-FdLXTQRSYnf4RBRfm0",
+      "name_zh": "金山大碗螃蟹 － 金山必吃美食推薦 金山老街在地人美食 金山海鮮活體螃蟹粥推薦 金山必吃聚餐餐廳",
+      "rating": 4.4,
+      "total_ratings": 6837,
       "location": {
-        "lat": 25.264411,
-        "lng": 121.629755
+        "lat": 25.221085499999997,
+        "lng": 121.63957479999999
       },
-      "address": "新北市金山區分水路1-5號",
-      "note": "手作料理 中角",
-      "bayesian_score": 4.6014,
-      "confidence": "⚠️ 中",
+      "address": "208新北市金山區大同里金包里街44號",
+      "note": "餐廳",
+      "bayesian_score": 4.3676,
+      "confidence": "✅ 高",
       "rank": 6,
       "selected": false
     },
     {
-      "place_id": "ChIJyfyYcAxLXTQRulaJxwTOWa0",
-      "name_zh": "Whatisthis Kitchen",
+      "place_id": "ChIJBbGnXKpMXTQRf0c7gXlwpoo",
+      "name_zh": "魚路小棧精緻鍋物",
       "rating": 4.6,
-      "total_ratings": 1442,
+      "total_ratings": 951,
       "location": {
-        "lat": 25.219585,
-        "lng": 121.633234
+        "lat": 25.2208188,
+        "lng": 121.631823
       },
-      "address": "新北市金山區環金路286號",
-      "note": "西式餐廳 金山市區",
-      "bayesian_score": 4.6008,
-      "confidence": "✅ 高",
+      "address": "251號, 環金路金美里金山區新北市208",
+      "note": "火鍋店",
+      "bayesian_score": 4.3673,
+      "confidence": "⚠️ 中",
       "rank": 7,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJr4LsEFVLXTQRT19wcj8qSGc",
+      "name_zh": "福緣火鍋",
+      "rating": 4.4,
+      "total_ratings": 5749,
+      "location": {
+        "lat": 25.2250394,
+        "lng": 121.6302262
+      },
+      "address": "208新北市金山區環金路466號",
+      "note": "火鍋店",
+      "bayesian_score": 4.3626,
+      "confidence": "✅ 高",
+      "rank": 8,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJmdaBHFZLXTQRBX6bq6iph9s",
+      "name_zh": "薰衣草",
+      "rating": 4.5,
+      "total_ratings": 1471,
+      "location": {
+        "lat": 25.2217931,
+        "lng": 121.6331655
+      },
+      "address": "208新北市金山區美田里中正路106號",
+      "note": "餐廳",
+      "bayesian_score": 4.3578,
+      "confidence": "✅ 高",
+      "rank": 9,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJHX911HVLXTQRQYlbhgbphbg",
+      "name_zh": "享魚路｜魚路古道起點",
+      "rating": 4.8,
+      "total_ratings": 398,
+      "location": {
+        "lat": 25.227148999999997,
+        "lng": 121.64590849999998
+      },
+      "address": "208新北市金山區豐漁里磺港路183號",
+      "note": "餐廳",
+      "bayesian_score": 4.3381,
+      "confidence": "❌ 低",
+      "rank": 10,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJFxM2q6NMXTQRdT9ZdO9Lh68",
+      "name_zh": "甕大王甕仔雞",
+      "rating": 4.4,
+      "total_ratings": 1873,
+      "location": {
+        "lat": 25.2106987,
+        "lng": 121.64817649999999
+      },
+      "address": "207新北市萬里區大鵬里加投路21-2號",
+      "note": "雞肉料理餐廳",
+      "bayesian_score": 4.3166,
+      "confidence": "✅ 高",
+      "rank": 11,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJk3aH8lFLXTQR9HjheZz4HhE",
+      "name_zh": "阿嬤家漁村料理",
+      "rating": 4.4,
+      "total_ratings": 1512,
+      "location": {
+        "lat": 25.227234199999998,
+        "lng": 121.645575
+      },
+      "address": "208新北市金山區磺港里磺港路189號",
+      "note": "台式餐廳",
+      "bayesian_score": 4.3058,
+      "confidence": "✅ 高",
+      "rank": 12,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJs19axadMXTQRTyMi56dsOHA",
+      "name_zh": "川欣牛排",
+      "rating": 4.4,
+      "total_ratings": 828,
+      "location": {
+        "lat": 25.2184532,
+        "lng": 121.64048199999999
+      },
+      "address": "208新北市金山區金美里中山路73-2號",
+      "note": "餐廳",
+      "bayesian_score": 4.2753,
+      "confidence": "⚠️ 中",
+      "rank": 13,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ37DmEwBNXTQR3tnyYpaxYEE",
+      "name_zh": "姜麻油雞（金山）",
+      "rating": 5,
+      "total_ratings": 125,
+      "location": {
+        "lat": 25.2207828,
+        "lng": 121.63881520000001
+      },
+      "address": "208新北市金山區金美里中山路154號1樓",
+      "note": "餐廳",
+      "bayesian_score": 4.2663,
+      "confidence": "❌ 低",
+      "rank": 14,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ6bcP90xNXTQRKuaCPfbT_1s",
+      "name_zh": "吉鱻小屋麵攤",
+      "rating": 4.7,
+      "total_ratings": 197,
+      "location": {
+        "lat": 25.221058799999998,
+        "lng": 121.63704140000002
+      },
+      "address": "208新北市金山區金美里忠孝一路80號",
+      "note": "餐廳",
+      "bayesian_score": 4.2621,
+      "confidence": "❌ 低",
+      "rank": 15,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJdT8_f-JNXTQR6j32j5vulc8",
+      "name_zh": "黎芊惠食堂",
+      "rating": 4.7,
+      "total_ratings": 164,
+      "location": {
+        "lat": 25.218755700000003,
+        "lng": 121.6400937
+      },
+      "address": "208新北市金山区金山區和平里中山路89號",
+      "note": "越南餐廳",
+      "bayesian_score": 4.2521,
+      "confidence": "❌ 低",
+      "rank": 16,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJFZGrp9VNXTQRUhuS8SKWbYA",
+      "name_zh": "喆品食堂",
+      "rating": 4.7,
+      "total_ratings": 160,
+      "location": {
+        "lat": 25.219662699999997,
+        "lng": 121.63943309999999
+      },
+      "address": "208新北市金山區和平里中山路113號",
+      "note": "小吃店",
+      "bayesian_score": 4.2508,
+      "confidence": "❌ 低",
+      "rank": 17,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJJyXOCthLXTQR-y3c2iWhHPI",
+      "name_zh": "食光 tsiáh liáu liáu",
+      "rating": 4.7,
+      "total_ratings": 155,
+      "location": {
+        "lat": 25.2240555,
+        "lng": 121.6355499
+      },
+      "address": "208新北市金山區美田里中山路258號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.2493,
+      "confidence": "❌ 低",
+      "rank": 18,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJY_jjH-FLXTQRDJ2j-i-A1hI",
+      "name_zh": "阿市担仔麵",
+      "rating": 4.5,
+      "total_ratings": 233,
+      "location": {
+        "lat": 25.221089,
+        "lng": 121.638104
+      },
+      "address": "208新北市金山區金美里中山路191號1樓",
+      "note": "中式麵館",
+      "bayesian_score": 4.2417,
+      "confidence": "❌ 低",
+      "rank": 19,
       "selected": false
     },
     {
@@ -132,46 +324,542 @@
       "rating": 4.4,
       "total_ratings": 305,
       "location": {
-        "lat": 25.221393,
-        "lng": 121.630958
+        "lat": 25.221392599999998,
+        "lng": 121.63095820000001
       },
-      "address": "新北市金山區中正路168號",
-      "note": "港口海鮮小吃",
-      "bayesian_score": 4.5359,
+      "address": "208新北市金山區美田里中正路168號",
+      "note": "海鮮餐廳",
+      "bayesian_score": 4.2342,
       "confidence": "❌ 低",
-      "rank": 8,
+      "rank": 20,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJCzD5nNBLXTQRx3gr5ljkkN8",
+      "name_zh": "海荔食堂 Hailivit",
+      "rating": 4.7,
+      "total_ratings": 107,
+      "location": {
+        "lat": 25.2219144,
+        "lng": 121.6392854
+      },
+      "address": "208新北市金山區和平里福德街8號",
+      "note": "餐廳",
+      "bayesian_score": 4.2337,
+      "confidence": "❌ 低",
+      "rank": 21,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJfUH2dP1LXTQRyA8tCSqLV_0",
+      "name_zh": "煦新館｜金山最溫暖餐廳｜浪金山",
+      "rating": 4.9,
+      "total_ratings": 59,
+      "location": {
+        "lat": 25.2221463,
+        "lng": 121.64597919999999
+      },
+      "address": "208新北市金山區豐漁里民生路196號",
+      "note": "日式餐廳",
+      "bayesian_score": 4.2258,
+      "confidence": "❌ 低",
+      "rank": 22,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJV10DYABLXTQRKT22hLX_DY8",
+      "name_zh": "初禾廚房",
+      "rating": 4.9,
+      "total_ratings": 53,
+      "location": {
+        "lat": 25.221483799999998,
+        "lng": 121.636701
+      },
+      "address": "208新北市金山區金美里和平街5號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.2228,
+      "confidence": "❌ 低",
+      "rank": 23,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJSZLfAFhLXTQRymI7itTNg3U",
+      "name_zh": "襄的店",
+      "rating": 4.5,
+      "total_ratings": 119,
+      "location": {
+        "lat": 25.220993699999998,
+        "lng": 121.63965470000001
+      },
+      "address": "208新北市金山區大同里金包里街38號",
+      "note": "餐廳",
+      "bayesian_score": 4.2207,
+      "confidence": "❌ 低",
+      "rank": 24,
       "selected": false
     },
     {
       "place_id": "ChIJdfpSXKBLXTQRwG5z-3rLac0",
-      "name_zh": "裕富先生海鮮餐廳",
+      "name_zh": "漁夫先生海鮮餐廳",
       "rating": 4.3,
       "total_ratings": 232,
       "location": {
-        "lat": 25.22782,
-        "lng": 121.644503
+        "lat": 25.227819699999998,
+        "lng": 121.6445025
       },
-      "address": "新北市金山區磺港路314號",
-      "note": "海鮮合菜",
-      "bayesian_score": 4.5204,
+      "address": "208新北市金山區磺港里磺港路314號",
+      "note": "餐廳",
+      "bayesian_score": 4.2109,
       "confidence": "❌ 低",
-      "rank": 9,
+      "rank": 25,
       "selected": false
     },
     {
-      "place_id": "ChIJk3aH8lFLXTQR9HjheZz4HhE",
-      "name_zh": "阿嬤家",
+      "place_id": "ChIJy0hJpQ9LXTQRAhwjAdcMegY",
+      "name_zh": "港之町平價海鮮",
       "rating": 4.4,
-      "total_ratings": 1512,
+      "total_ratings": 71,
       "location": {
-        "lat": 25.227234,
-        "lng": 121.645575
+        "lat": 25.2239869,
+        "lng": 121.64874630000001
       },
-      "address": "新北市金山區磺港路189號",
-      "note": "台式家常菜 大份量",
-      "bayesian_score": 4.459,
+      "address": "208新北市金山區豐漁里民生路64號",
+      "note": "海鮮餐廳",
+      "bayesian_score": 4.2056,
+      "confidence": "❌ 低",
+      "rank": 26,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJZQtp6VdLXTQRHwqyZlTO0tk",
+      "name_zh": "寶淑小吃店",
+      "rating": 4.8,
+      "total_ratings": 20,
+      "location": {
+        "lat": 25.221518,
+        "lng": 121.63868579999999
+      },
+      "address": "208新北市金山區大同里金包里街39 號舊 市場",
+      "note": "中式餐廳",
+      "bayesian_score": 4.2041,
+      "confidence": "❌ 低",
+      "rank": 27,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJX3MkPwBNXTQRfbczGERFM0I",
+      "name_zh": "嶼 Shima",
+      "rating": 4.4,
+      "total_ratings": 42,
+      "location": {
+        "lat": 25.219369399999998,
+        "lng": 121.63405329999998
+      },
+      "address": "208004新北市金山區金美里環金路210號",
+      "note": "餐廳",
+      "bayesian_score": 4.2013,
+      "confidence": "❌ 低",
+      "rank": 28,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJH_tjJRhLXTQRIWnmisHgDaw",
+      "name_zh": "東哥香腸肉串",
+      "rating": 4.5,
+      "total_ratings": 23,
+      "location": {
+        "lat": 25.220834099999998,
+        "lng": 121.6398741
+      },
+      "address": "208新北市金山區大同里金包里街26號",
+      "note": "餐廳",
+      "bayesian_score": 4.2002,
+      "confidence": "❌ 低",
+      "rank": 29,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJo6lPBABLXTQR2vjF9_YI_JU",
+      "name_zh": "尻一根香腸",
+      "rating": 5,
+      "total_ratings": 8,
+      "location": {
+        "lat": 25.2225179,
+        "lng": 121.6375279
+      },
+      "address": "208新北市金山區金美里金包里街115號",
+      "note": "餐廳",
+      "bayesian_score": 4.1998,
+      "confidence": "❌ 低",
+      "rank": 30,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ-Z30y55MXTQRIxYHIXltYlU",
+      "name_zh": "萬里甕仔雞/萬里古早風味甕仔雞",
+      "rating": 4.2,
+      "total_ratings": 1449,
+      "location": {
+        "lat": 25.209408,
+        "lng": 121.65679499999999
+      },
+      "address": "207新北市萬里區大鵬里頂社路2-2號",
+      "note": "雞肉料理餐廳",
+      "bayesian_score": 4.1976,
       "confidence": "✅ 高",
-      "rank": 10,
+      "rank": 31,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJvy_ONapMXTQRY4nRseXi9Hk",
+      "name_zh": "醉船長 日式海鮮餐廳",
+      "rating": 4.2,
+      "total_ratings": 624,
+      "location": {
+        "lat": 25.217670599999998,
+        "lng": 121.63446689999999
+      },
+      "address": "208新北市金山區金美里環金路200 號",
+      "note": "海鮮餐廳",
+      "bayesian_score": 4.1965,
+      "confidence": "❌ 低",
+      "rank": 32,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJm57az1dLXTQRvGGG9zb2V1k",
+      "name_zh": "金山碳烤三明治",
+      "rating": 4.2,
+      "total_ratings": 444,
+      "location": {
+        "lat": 25.221888,
+        "lng": 121.63752219999998
+      },
+      "address": "208新北市金山區和平里中山路210-222號",
+      "note": "餐廳",
+      "bayesian_score": 4.1961,
+      "confidence": "❌ 低",
+      "rank": 33,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJybxKQN1LXTQRc9ojMI039Kk",
+      "name_zh": "五十年老字號糖葫蘆",
+      "rating": 3.4,
+      "total_ratings": 5,
+      "location": {
+        "lat": 25.2206557,
+        "lng": 121.64012480000001
+      },
+      "address": "208新北市金山區金包里街旁邊街上 金包里慈護宮",
+      "note": "餐廳",
+      "bayesian_score": 4.1917,
+      "confidence": "❌ 低",
+      "rank": 34,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJce0m0FdLXTQRh-RgRa7RGBQ",
+      "name_zh": "金美絨肉羹麵",
+      "rating": 4,
+      "total_ratings": 24,
+      "location": {
+        "lat": 25.2219362,
+        "lng": 121.63751129999999
+      },
+      "address": "208新北市金山區金美里中山路214號",
+      "note": "餐廳",
+      "bayesian_score": 4.1912,
+      "confidence": "❌ 低",
+      "rank": 35,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ7U1ky1dLXTQR14NNhkrpzZE",
+      "name_zh": "金山隱藏美食",
+      "rating": 3.4,
+      "total_ratings": 12,
+      "location": {
+        "lat": 25.2222673,
+        "lng": 121.6371083
+      },
+      "address": "208新北市金山區金美里中山路232號",
+      "note": "餐廳",
+      "bayesian_score": 4.1874,
+      "confidence": "❌ 低",
+      "rank": 36,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJvRjZAQhLXTQRy4_dAw1XBv4",
+      "name_zh": "阿惠陽春麵",
+      "rating": 3.9,
+      "total_ratings": 43,
+      "location": {
+        "lat": 25.2219719,
+        "lng": 121.63839259999997
+      },
+      "address": "208新北市金山區和平里金包里街104號",
+      "note": "餐廳",
+      "bayesian_score": 4.1852,
+      "confidence": "❌ 低",
+      "rank": 37,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ6x4YG6hMXTQRWbUCKGHT0XE",
+      "name_zh": "雲南小棧",
+      "rating": 4.1,
+      "total_ratings": 435,
+      "location": {
+        "lat": 25.2203852,
+        "lng": 121.63875449999999
+      },
+      "address": "208新北市金山區金美里中山路153號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.1708,
+      "confidence": "❌ 低",
+      "rank": 38,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJkenYGqhMXTQRqvJQjvnkV1U",
+      "name_zh": "四川牛肉麵 鍋貼 臭豆腐",
+      "rating": 3.8,
+      "total_ratings": 127,
+      "location": {
+        "lat": 25.220227700000002,
+        "lng": 121.6389234
+      },
+      "address": "208新北市金山區金美里中山路147號",
+      "note": "中式麵館",
+      "bayesian_score": 4.1592,
+      "confidence": "❌ 低",
+      "rank": 39,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJA-I2WKZMXTQRM6fqShhpJrQ",
+      "name_zh": "瓊玉小館",
+      "rating": 4,
+      "total_ratings": 366,
+      "location": {
+        "lat": 25.2212711,
+        "lng": 121.6379452
+      },
+      "address": "208新北市金山區金美里中山路203號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.1516,
+      "confidence": "❌ 低",
+      "rank": 40,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJIVt_KlxLXTQRXLOXm_Q75So",
+      "name_zh": "88號水碼頭",
+      "rating": 4.1,
+      "total_ratings": 1288,
+      "location": {
+        "lat": 25.223855999999998,
+        "lng": 121.648201
+      },
+      "address": "208新北市金山區豐漁里民生路88號",
+      "note": "餐廳",
+      "bayesian_score": 4.1473,
+      "confidence": "✅ 高",
+      "rank": 41,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJLdQBeVhLXTQRzCXk8rho52A",
+      "name_zh": "福華海鮮餐廳",
+      "rating": 3.8,
+      "total_ratings": 196,
+      "location": {
+        "lat": 25.220141400000003,
+        "lng": 121.64195369999999
+      },
+      "address": "208新北市金山區大同里民生路51巷1之2號",
+      "note": "海鮮餐廳",
+      "bayesian_score": 4.1425,
+      "confidence": "❌ 低",
+      "rank": 42,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJS9Ot8VqzQjQR7SsYZtEdAXs",
+      "name_zh": "阿月野菜快炒",
+      "rating": 4.1,
+      "total_ratings": 2369,
+      "location": {
+        "lat": 25.2177605,
+        "lng": 121.6117678
+      },
+      "address": "208新北市金山區南勢湖陽金公路38號",
+      "note": "台式餐廳",
+      "bayesian_score": 4.1333,
+      "confidence": "✅ 高",
+      "rank": 43,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ5aCV71dLXTQRBf5FyHySdmI",
+      "name_zh": "兄弟食堂",
+      "rating": 4.1,
+      "total_ratings": 2578,
+      "location": {
+        "lat": 25.2205667,
+        "lng": 121.6405643
+      },
+      "address": "208新北市金山區大同里金包里街2號",
+      "note": "台式餐廳",
+      "bayesian_score": 4.1315,
+      "confidence": "✅ 高",
+      "rank": 44,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJqRT-fVhLXTQR7m4GWvnXOWY",
+      "name_zh": "兄弟食堂",
+      "rating": 4,
+      "total_ratings": 756,
+      "location": {
+        "lat": 25.2196674,
+        "lng": 121.64284509999999
+      },
+      "address": "208新北市金山區大同里民生路51巷9之2號",
+      "note": "台式餐廳",
+      "bayesian_score": 4.1226,
+      "confidence": "⚠️ 中",
+      "rank": 45,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJXVouszBLXTQRmGrjEC7-_oQ",
+      "name_zh": "泰式料理- PATTAYA",
+      "rating": 4,
+      "total_ratings": 2054,
+      "location": {
+        "lat": 25.2444833,
+        "lng": 121.63377260000001
+      },
+      "address": "208新北市金山區1-3",
+      "note": "泰國餐廳",
+      "bayesian_score": 4.0749,
+      "confidence": "✅ 高",
+      "rank": 46,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJN9pew6dMXTQRYJtLGI6M7K4",
+      "name_zh": "麥當勞-金山中山餐廳－設有得來速",
+      "rating": 4,
+      "total_ratings": 3303,
+      "location": {
+        "lat": 25.218940399999997,
+        "lng": 121.6403514
+      },
+      "address": "208新北市金山區和平里中山路88號",
+      "note": "速食餐廳",
+      "bayesian_score": 4.0545,
+      "confidence": "✅ 高",
+      "rank": 47,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJLzMJzldLXTQR4FiX3HemA50",
+      "name_zh": "金山王肉包",
+      "rating": 4,
+      "total_ratings": 3418,
+      "location": {
+        "lat": 25.2218041,
+        "lng": 121.63727689999999
+      },
+      "address": "208新北市金山區金美里中山路237號",
+      "note": "餐廳",
+      "bayesian_score": 4.0532,
+      "confidence": "✅ 高",
+      "rank": 48,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJIQS14FdLXTQR3vBY31hL4dk",
+      "name_zh": "小天使麵飯館",
+      "rating": 3.8,
+      "total_ratings": 801,
+      "location": {
+        "lat": 25.2212423,
+        "lng": 121.6383599
+      },
+      "address": "208新北市金山區和平里中山路172號",
+      "note": "中式麵館",
+      "bayesian_score": 4.043,
+      "confidence": "⚠️ 中",
+      "rank": 49,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJKUrVEKpMXTQRxfrUKzOZfRI",
+      "name_zh": "曼特寧庭園咖啡",
+      "rating": 3.9,
+      "total_ratings": 2034,
+      "location": {
+        "lat": 25.220252,
+        "lng": 121.63207000000001
+      },
+      "address": "208新北市金山區金美里環金路247號",
+      "note": "餐廳",
+      "bayesian_score": 4.014,
+      "confidence": "✅ 高",
+      "rank": 50,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJvbx1clhLXTQRsC9NmkJa11Q",
+      "name_zh": "金山芋圓王-金山總店",
+      "rating": 3.9,
+      "total_ratings": 2521,
+      "location": {
+        "lat": 25.220846599999998,
+        "lng": 121.64122449999998
+      },
+      "address": "208新北市金山區大同里民生路204號",
+      "note": "甜品餐廳",
+      "bayesian_score": 3.9994,
+      "confidence": "✅ 高",
+      "rank": 51,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJyXLnjt9MXTQRXNGe7Bu-gzA",
+      "name_zh": "知味鄉玉米",
+      "rating": 3.8,
+      "total_ratings": 7649,
+      "location": {
+        "lat": 25.208985100000003,
+        "lng": 121.6549389
+      },
+      "address": "207新北市萬里區14-3 號",
+      "note": "燒烤料理餐廳",
+      "bayesian_score": 3.8567,
+      "confidence": "✅ 高",
+      "rank": 52,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ_xrGQ12zQjQRYqbPfL1i8_Y",
+      "name_zh": "金包里鴨肉",
+      "rating": 3.7,
+      "total_ratings": 5099,
+      "location": {
+        "lat": 25.2219698,
+        "lng": 121.6383848
+      },
+      "address": "208新北市金山區大同里金包里街104號",
+      "note": "中式餐廳",
+      "bayesian_score": 3.7995,
+      "confidence": "✅ 高",
+      "rank": 53,
       "selected": false
     }
   ]

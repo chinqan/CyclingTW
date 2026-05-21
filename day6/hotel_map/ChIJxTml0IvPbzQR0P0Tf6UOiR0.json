@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJxTml0IvPbzQR0P0Tf6UOiR0",
+  "name_zh": "金愛莉農莊",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 7,
+  "location": {
+    "lat": 22.6351202,
+    "lng": 121.0030478
+  },
+  "address": "964臺東縣金峰鄉新興村三鄰52-6號",
+  "primary_type": null,
+  "distance_km": 1.83,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

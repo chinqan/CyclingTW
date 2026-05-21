@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJQ7H01j3ccTQR9AKKYKqj_gc",
+  "name_zh": "大摳忠小吃",
+  "name_lang": "ja",
+  "rating": 3.8,
+  "total_ratings": 88,
+  "location": {
+    "lat": 22.3677207,
+    "lng": 120.5944496
+  },
+  "address": "940屏東縣枋寮鄉枋寮村中興路8號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.07,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

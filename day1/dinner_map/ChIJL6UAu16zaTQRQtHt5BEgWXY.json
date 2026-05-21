@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJL6UAu16zaTQRQtHt5BEgWXY",
+  "name_zh": "真涮吃到飽火鍋-竹南店",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 3143,
+  "location": {
+    "lat": 24.690220800000002,
+    "lng": 120.8794808
+  },
+  "address": "350苗栗縣竹南鎮照南里光復路282號",
+  "primary_type": "hot_pot_restaurant",
+  "primary_type_label": "火鍋店",
+  "distance_km": 0.42,
+  "source": "api_2026-05-21",
+  "note": "火鍋店",
+  "name_is_ascii": false
+}

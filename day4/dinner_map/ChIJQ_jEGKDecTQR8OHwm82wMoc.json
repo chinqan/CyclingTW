@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJQ_jEGKDecTQR8OHwm82wMoc",
+  "name_zh": "初點豆花（福泉布丁豆花）",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 247,
+  "location": {
+    "lat": 22.3850831,
+    "lng": 120.59733109999998
+  },
+  "address": "940屏東縣枋寮鄉人和村中華路165號",
+  "primary_type": "dessert_restaurant",
+  "primary_type_label": "甜品餐廳",
+  "distance_km": 1.91,
+  "source": "api_2026-05-21",
+  "note": "甜品餐廳",
+  "name_is_ascii": false
+}

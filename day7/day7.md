@@ -118,14 +118,31 @@ ishikawa-beta
 
 | # | 店名 | 評分 | 留言數 | 貝葉斯分 | 備註 |
 |:---:|:---|:---:|---:|:---:|:---|
-| 1 | [女兒心無菜單料理](https://www.google.com/maps/place/?q=place_id:ChIJvUBbKmRrbzQR9UTxl19ZWWw) | 5.0★ | 392 | 4.6776 | 需24小時前預約 無菜單創意料理 |
-| 2 | [臣佳立業餐酒館](https://www.google.com/maps/place/?q=place_id:ChIJa7UY7JprbzQRLYmpu4cpccA) | 4.9★ | 278 | 4.5926 | 餐酒館 西式料理 |
-| 3 | [星馬茶餐廳](https://www.google.com/maps/place/?q=place_id:ChIJb9koNnpqbzQR1n6BiErxXhE) | 4.7★ | 500 | 4.5602 | 星馬咖哩料理 週日公休 |
-| 4 | [上富快炒](https://www.google.com/maps/place/?q=place_id:ChIJJd09WotrbzQR2itOYzpBBDc) | 4.7★ | 309 | 4.5265 | 在地快炒 份量大 |
-| 5 | [每日廚房](https://www.google.com/maps/place/?q=place_id:ChIJBQX4NX9qbzQRLZZj8ecUAn8) | 4.5★ | 243 | 4.4436 | 無菜單家常料理 |
+| 1 | [女兒心優質農產創意工坊](https://www.google.com/maps/place/?q=place_id:ChIJvUBbKmRrbzQR9UTxl19ZWWw) | 5★ | 392 | 4.608 | 餐廳 |
+| 2 | [北方早點丨燒餅加料、鹹豆漿](https://www.google.com/maps/place/?q=place_id:ChIJrc7ZM39qbzQRBwZVXUxvY9U) | 4.7★ | 1100 | 4.577 | 早餐店 |
+| 3 | [米達碳烤雞排](https://www.google.com/maps/place/?q=place_id:ChIJ1cFc5uRDbzQRvopWgtTkLwo) | 4.7★ | 712 | 4.5405 | 雞肉料理餐廳 |
+| 4 | [玉里豬血湯早午餐](https://www.google.com/maps/place/?q=place_id:ChIJBcC2yCJrbzQR86m-696Di48) | 4.8★ | 382 | 4.5256 | 早午餐餐廳 |
+| 5 | [星馬茶餐廳｜玉里美食](https://www.google.com/maps/place/?q=place_id:ChIJb9koNnpqbzQR1n6BiErxXhE) | 4.7★ | 500 | 4.5095 | 餐廳 |
 
 > 💡 *排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）*
 > 📋 *[看更多 >>](./day7_dinner.md)*
+
+---
+
+
+
+## 住宿推薦 🏨
+
+| # | 飯店 | 評分 | 留言數 | 貝葉斯分 | 備註 |
+|:---:|:---|:---:|---:|:---:|:---|
+| 1 | [小鳥散步 玉里民宿 玉里包棟](https://www.google.com/maps/place/?q=place_id:ChIJ7caGfuFBbzQRbae3zVgCHno) | 5★ | 252 | 4.7476 |  |
+| 2 | [途中玉里青年旅館（全雅房，上下舖，）](https://www.google.com/maps/place/?q=place_id:ChIJC2qZFdhrbzQRi4AVS4zscz0) | 4.9★ | 407 | 4.7451 |  |
+| 3 | [原鄉商旅](https://www.google.com/maps/place/?q=place_id:ChIJ3fPJi4JrbzQRbgFN4CZgh_0) | 4.8★ | 592 | 4.7073 |  |
+| 4 | [910 hostel 城東館](https://www.google.com/maps/place/?q=place_id:ChIJuWXA4npqbzQRrtdbytHaBl0) | 4.8★ | 388 | 4.6761 |  |
+| 5 | [山之間特色民宿｜花蓮玉里民宿｜花蓮縣合法民宿編號2868號](https://www.google.com/maps/place/?q=place_id:ChIJhdGGCTprbzQRxbkKjMJ1BVY) | 5★ | 134 | 4.6628 |  |
+
+> 💡 *終點周邊 3 公里 · 35 筆候選 · IMDB 風格貝葉斯平均*
+> 📋 *[看更多 >>](./day7_hotel.md)*
 
 ---
 

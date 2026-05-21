@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ51wsmrifaDQRtUhiPyEi3ww",
+  "name_zh": "米拉瓦義式餐廳（花蓮必吃美食推薦 / 花蓮午晚餐聚餐 / 花蓮義式義大利麵餐廳）",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 991,
+  "location": {
+    "lat": 23.9824791,
+    "lng": 121.6011505
+  },
+  "address": "970花蓮縣花蓮市國華里博愛街288號",
+  "primary_type": "italian_restaurant",
+  "primary_type_label": "義大利餐廳",
+  "distance_km": 1.2,
+  "source": "api_2026-05-21",
+  "note": "義大利餐廳",
+  "name_is_ascii": false
+}

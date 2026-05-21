@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJW8pPeRXccTQR0pyTXbyoIyA",
+  "name_zh": "嘟嘟牛排",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 400,
+  "location": {
+    "lat": 22.3635277,
+    "lng": 120.5975933
+  },
+  "address": "940屏東縣枋寮鄉安樂村中山路121號",
+  "primary_type": "steak_house",
+  "primary_type_label": "牛排館",
+  "distance_km": 0.56,
+  "source": "api_2026-05-21",
+  "note": "牛排館",
+  "name_is_ascii": false
+}

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ8wYUHAlHaTQRBmV8fWw-Vjg",
+  "name_zh": "鹿比民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 266,
+  "location": {
+    "lat": 24.058999,
+    "lng": 120.4397447
+  },
+  "address": "505彰化縣鹿港鎮永安里鹿和路一段8巷7號",
+  "primary_type": "lodging",
+  "distance_km": 0.79,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

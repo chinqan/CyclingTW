@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ2x4uxHxqbzQRQJ0b5YN8IBQ",
+  "name_zh": "Return Home迴家民宿",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 190,
+  "location": {
+    "lat": 23.33046,
+    "lng": 121.312491
+  },
+  "address": "981花蓮縣玉里鎮中城里大同路192號",
+  "primary_type": "hotel",
+  "distance_km": 0.14,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

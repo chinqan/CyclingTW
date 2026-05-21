@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJE5CtN76faDQRKbL66Wt51Yo",
+  "name_zh": "OZ Restaurant 義式料理(公休日請見臉書）",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 508,
+  "location": {
+    "lat": 23.985531400000003,
+    "lng": 121.60460499999998
+  },
+  "address": "97055花蓮縣花蓮市國安里明智街75號",
+  "primary_type": "italian_restaurant",
+  "primary_type_label": "義大利餐廳",
+  "distance_km": 0.93,
+  "source": "api_2026-05-21",
+  "note": "義大利餐廳",
+  "name_is_ascii": false
+}

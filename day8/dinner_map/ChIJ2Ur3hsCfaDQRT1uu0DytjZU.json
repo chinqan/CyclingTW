@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ2Ur3hsCfaDQRT1uu0DytjZU",
+  "name_zh": "欣欣麵館",
+  "name_lang": "zh-TW",
+  "rating": 3.9,
+  "total_ratings": 4960,
+  "location": {
+    "lat": 23.979194,
+    "lng": 121.6060022
+  },
+  "address": "970005花蓮縣花蓮市國威里民國路125號",
+  "primary_type": "seafood_restaurant",
+  "primary_type_label": "海鮮餐廳",
+  "distance_km": 1.64,
+  "source": "api_2026-05-21",
+  "note": "海鮮餐廳",
+  "name_is_ascii": false
+}

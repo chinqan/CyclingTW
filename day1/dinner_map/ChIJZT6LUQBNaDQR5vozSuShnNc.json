@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJZT6LUQBNaDQR5vozSuShnNc",
+  "name_zh": "開飯川食堂 苗栗尚順店",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 516,
+  "location": {
+    "lat": 24.6882052,
+    "lng": 120.90465659999998
+  },
+  "address": "351028苗栗縣頭份市育樂街6號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 2.44,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

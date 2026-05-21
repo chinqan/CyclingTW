@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJPdl9CBCfaDQRd6-e3bn92h4",
+  "name_zh": "沐椿壽喜燒",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 150,
+  "location": {
+    "lat": 23.993842299999997,
+    "lng": 121.596051
+  },
+  "address": "970花蓮縣花蓮市國富里中山路855號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 0.53,
+  "source": "api_2026-05-21",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

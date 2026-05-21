@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJvy_ONapMXTQRY4nRseXi9Hk",
+  "name_zh": "醉船長 日式海鮮餐廳",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 624,
+  "location": {
+    "lat": 25.217670599999998,
+    "lng": 121.63446689999999
+  },
+  "address": "208新北市金山區金美里環金路200 號",
+  "primary_type": "seafood_restaurant",
+  "primary_type_label": "海鮮餐廳",
+  "distance_km": 0.6,
+  "source": "api_2026-05-21",
+  "note": "海鮮餐廳",
+  "name_is_ascii": false
+}

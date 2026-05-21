@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJC08HLdCoQjQRkug4OZlWC7c",
+  "name_zh": "Two Tails Hotel 蘆洲",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 2229,
+  "location": {
+    "lat": 25.0805082,
+    "lng": 121.48036900000001
+  },
+  "address": "247019新北市蘆洲區恆德里中山一路8號6樓",
+  "primary_type": "hotel",
+  "distance_km": 1.98,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

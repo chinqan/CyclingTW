@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ17z34bmfaDQRPOmCLkHaR0c",
+  "name_zh": "花蓮老伯炒飯",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 164,
+  "location": {
+    "lat": 23.988446399999997,
+    "lng": 121.6006537
+  },
+  "address": "970花蓮縣花蓮市國聯里中山路458之1號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.54,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

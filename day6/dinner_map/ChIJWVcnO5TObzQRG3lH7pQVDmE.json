@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJWVcnO5TObzQRG3lH7pQVDmE",
   "name_zh": "來福小吃部",
-  "rating": 4.0,
+  "name_lang": "zh-TW",
+  "rating": 4,
   "total_ratings": 154,
   "location": {
-    "lat": 22.613861,
-    "lng": 121.005806
+    "lat": 22.613860499999998,
+    "lng": 121.0058055
   },
-  "address": "台東縣太麻里鄉金宣路27號",
-  "note": "在地小吃",
-  "source": "search_2026-07"
+  "address": "963臺東縣太麻里鄉金萱路3 鄰 27 號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.55,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
 }

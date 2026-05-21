@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJbYCKdDnYbTQRSnpcW6ULXc4",
+  "name_zh": "土城意麵",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 221,
+  "location": {
+    "lat": 23.0644837,
+    "lng": 120.12745439999998
+  },
+  "address": "之 號 No. 94-6, No. 94-6青砂街一段城中里安南區臺南市709",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.18,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

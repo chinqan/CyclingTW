@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJranCfgCpQjQRS0db2A4VnFw",
+  "name_zh": "盡心食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 82,
+  "location": {
+    "lat": 25.087309100000002,
+    "lng": 121.48000139999999
+  },
+  "address": "247新北市蘆洲區玉清里民族路198號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 1.75,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

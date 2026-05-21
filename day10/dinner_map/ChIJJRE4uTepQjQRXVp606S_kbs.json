@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJJRE4uTepQjQRXVp606S_kbs",
+  "name_zh": "南部小吃店",
+  "name_lang": "en",
+  "rating": 4.5,
+  "total_ratings": 18,
+  "location": {
+    "lat": 25.0734657,
+    "lng": 121.46527379999999
+  },
+  "address": "248新北市五股區興珍里中興路一段143號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.66,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

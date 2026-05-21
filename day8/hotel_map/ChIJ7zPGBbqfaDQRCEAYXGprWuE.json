@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ7zPGBbqfaDQRCEAYXGprWuE",
+  "name_zh": "美侖大飯店",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 7536,
+  "location": {
+    "lat": 24.0001143,
+    "lng": 121.62834730000002
+  },
+  "address": "970花蓮縣花蓮市民享里林園1之1號",
+  "primary_type": "hotel",
+  "distance_km": 2.86,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

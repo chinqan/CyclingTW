@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ8fiOKjnYbTQRfvlVsYW-5nU",
+  "name_zh": "陳記小吃(藝銘軒美食館)",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 180,
+  "location": {
+    "lat": 23.062517699999997,
+    "lng": 120.12991369999997
+  },
+  "address": "709臺南市安南區城北里安中路六段592號",
+  "primary_type": "deli",
+  "primary_type_label": "小吃店",
+  "distance_km": 0.49,
+  "source": "api_2026-05-21",
+  "note": "小吃店",
+  "name_is_ascii": false
+}

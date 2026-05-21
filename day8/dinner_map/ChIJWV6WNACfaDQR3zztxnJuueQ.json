@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJWV6WNACfaDQR3zztxnJuueQ",
+  "name_zh": "新周記小吃",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 10,
+  "location": {
+    "lat": 23.9904792,
+    "lng": 121.59501929999999
+  },
+  "address": "970花蓮縣花蓮市國富里富國路80號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.71,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

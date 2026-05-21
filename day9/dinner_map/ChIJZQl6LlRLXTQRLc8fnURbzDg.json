@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJZQl6LlRLXTQRLc8fnURbzDg",
+  "name_zh": "和雅齋",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 974,
+  "location": {
+    "lat": 25.225181,
+    "lng": 121.6334484
+  },
+  "address": "20845新北市金山區美田里中山路393號",
+  "primary_type": "vegan_restaurant",
+  "primary_type_label": "素食餐廳",
+  "distance_km": 0.62,
+  "source": "api_2026-05-21",
+  "note": "素食餐廳",
+  "name_is_ascii": false
+}

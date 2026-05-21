@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ8X9a0VafaDQR0BzgSBTP8oE",
+  "name_zh": "花蓮鹿徑文旅",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 110,
+  "location": {
+    "lat": 23.9887211,
+    "lng": 121.6041069
+  },
+  "address": "970花蓮縣花蓮市國聯里國興四街41號",
+  "primary_type": "hotel",
+  "distance_km": 0.59,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

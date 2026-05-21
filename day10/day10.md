@@ -102,14 +102,31 @@ ishikawa-beta
 
 | # | 店名 | 評分 | 留言數 | 貝葉斯分 | 備註 |
 |:---:|:---|:---:|---:|:---:|:---|
-| 1 | [李食好食製造所](https://www.google.com/maps/place/?q=place_id:ChIJORbrNYevQjQRNHh0dhDQGr4) | 4.9★ | 702 | 4.757 | 創意料理 蘆洲人氣店 |
-| 2 | [醉餓感餐酒館](https://www.google.com/maps/place/?q=place_id:ChIJ14WKuX-pQjQRW1SzMUTbpPg) | 4.9★ | 453 | 4.7317 | 餐酒館 環島慶功 |
-| 3 | [攤味](https://www.google.com/maps/place/?q=place_id:ChIJZd4jg62pQjQRBJ8ctynfEzQ) | 4.9★ | 265 | 4.7057 | 高空景觀餐廳 |
-| 4 | [饎果](https://www.google.com/maps/place/?q=place_id:ChIJR62OKX-pQjQRBKG-LMPgzN4) | 5.0★ | 156 | 4.7006 | 精緻料理 |
-| 5 | [樂樂燒肉 蘆洲店](https://www.google.com/maps/place/?q=place_id:ChIJYRBNAG2pQjQRAYNc0RXph68) | 4.7★ | 4016 | 4.6907 | 燒肉吃到飽 慶功宴 |
+| 1 | [柒柒石頭火鍋 長安店](https://www.google.com/maps/place/?q=place_id:ChIJJ6CE7jmpQjQRKBMlDlZ5Tfc) | 5★ | 23716 | 4.966 | 火鍋店 |
+| 2 | [昭和園日式燒肉-蘆洲店](https://www.google.com/maps/place/?q=place_id:ChIJMZoHgrCoQjQRw5bUDHGHKJ0) | 4.8★ | 6525 | 4.7311 | 餐廳 |
+| 3 | [官小二酸菜魚（蘆洲店）-酸菜魚｜蘆洲美食｜蘆洲長安街美食](https://www.google.com/maps/place/?q=place_id:ChIJc8HPy2-pQjQR1baFMrQGJT4) | 4.9★ | 1638 | 4.6762 | 餐廳 |
+| 4 | [拍拍手披薩咖啡](https://www.google.com/maps/place/?q=place_id:ChIJU2im47CoQjQR3qmk6_xf37o) | 4.8★ | 1862 | 4.6359 | 餐廳 |
+| 5 | [樂樂燒肉 蘆洲店（新北蘆洲燒烤燒肉吃到飽 蘆洲必吃美食推薦 蘆洲好吃晚餐）](https://www.google.com/maps/place/?q=place_id:ChIJYRBNAG2pQjQRAYNc0RXph68) | 4.7★ | 4018 | 4.6272 | 日式燒肉餐廳 |
 
 > 💡 *排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）*
 > 📋 *[看更多 >>](./day10_dinner.md)*
+
+---
+
+
+
+## 住宿推薦 🏨
+
+| # | 飯店 | 評分 | 留言數 | 貝葉斯分 | 備註 |
+|:---:|:---|:---:|---:|:---:|:---|
+| 1 | [捷絲旅 台北三重館](https://www.google.com/maps/place/?q=place_id:ChIJDXlmoVqpQjQRUqH3LEuUcMo) | 4.7★ | 2720 | 4.606 |  |
+| 2 | [台北集賢商旅](https://www.google.com/maps/place/?q=place_id:ChIJ7T7l99GoQjQR6odvEqtERUU) | 4.5★ | 1278 | 4.4108 |  |
+| 3 | [丰居旅店 微風館](https://www.google.com/maps/place/?q=place_id:ChIJnUT3l7-pQjQRyrvaW-Y3HDk) | 4.5★ | 1242 | 4.4092 |  |
+| 4 | [Two Tails Hotel 蘆洲](https://www.google.com/maps/place/?q=place_id:ChIJC08HLdCoQjQRkug4OZlWC7c) | 4.4★ | 2229 | 4.3641 |  |
+| 5 | [樂頤飯店 La Clé Hotel Taipei](https://www.google.com/maps/place/?q=place_id:ChIJFUco3tGoQjQRCOKkHXAo51w) | 4.4★ | 821 | 4.3313 |  |
+
+> 💡 *終點周邊 3 公里 · 17 筆候選 · IMDB 風格貝葉斯平均*
+> 📋 *[看更多 >>](./day10_hotel.md)*
 
 ---
 

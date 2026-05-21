@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJiWxNQwVGaTQRnXC4E9Lxb4c",
+  "name_zh": "小咖民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 60,
+  "location": {
+    "lat": 24.053677999999998,
+    "lng": 120.4461505
+  },
+  "address": "505彰化縣鹿港鎮頂厝里平和路141巷6號",
+  "primary_type": "hotel",
+  "distance_km": 1.41,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

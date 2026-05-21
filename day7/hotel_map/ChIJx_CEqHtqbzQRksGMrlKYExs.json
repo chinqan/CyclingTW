@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJx_CEqHtqbzQRksGMrlKYExs",
+  "name_zh": "候媽媽民宿",
+  "name_lang": "zh-TW",
+  "rating": 3.6,
+  "total_ratings": 7,
+  "location": {
+    "lat": 23.3315979,
+    "lng": 121.3162845
+  },
+  "address": "981花蓮縣玉里鎮中城里中正路17號",
+  "primary_type": "hotel",
+  "distance_km": 0.47,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

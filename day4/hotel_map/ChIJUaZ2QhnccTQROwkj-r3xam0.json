@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJUaZ2QhnccTQROwkj-r3xam0",
+  "name_zh": "蘭心山莊民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 86,
+  "location": {
+    "lat": 22.3752747,
+    "lng": 120.60104399999999
+  },
+  "address": "940屏東縣枋寮鄉人和村中正大路666-2號",
+  "primary_type": "lodging",
+  "distance_km": 1.01,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJHWqF-RqmQjQR-0kEO5SlspE",
+  "name_zh": "秀玫小吃店",
+  "name_lang": "zh-TW",
+  "rating": 3.6,
+  "total_ratings": 110,
+  "location": {
+    "lat": 25.0860342,
+    "lng": 121.4364671
+  },
+  "address": "248新北市五股區五股里工商路122號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 2.65,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

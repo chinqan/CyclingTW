@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJPzC4BMlFaTQRrCS331iUfUQ",
   "name_zh": "NU PASTA 彰化鹿港店",
+  "name_lang": "zh-TW",
   "rating": 4.9,
   "total_ratings": 1224,
   "location": {
-    "lat": 24.0612959,
+    "lat": 24.061295899999998,
     "lng": 120.4331666
   },
-  "address": "彰化縣鹿港鎮鹿草路一段88號",
-  "note": "義式連鎖 平價",
-  "source": "search_2026-05-21"
+  "address": "505彰化縣鹿港鎮埔崙里鹿草路一段88號",
+  "primary_type": "italian_restaurant",
+  "primary_type_label": "義大利餐廳",
+  "distance_km": 0.56,
+  "source": "api_2026-05-21",
+  "note": "義大利餐廳",
+  "name_is_ascii": false
 }

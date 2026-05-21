@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ6x97eHBFaTQRB2_FFnHJMhQ",
+  "name_zh": "財記筒仔米糕",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 58,
+  "location": {
+    "lat": 24.0469631,
+    "lng": 120.4298577
+  },
+  "address": "506彰化縣福興鄉福興村福建路543號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.07,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

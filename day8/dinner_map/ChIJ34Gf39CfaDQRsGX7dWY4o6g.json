@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ34Gf39CfaDQRsGX7dWY4o6g",
+  "name_zh": "媽媽桑小吃店",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 177,
+  "location": {
+    "lat": 23.978769999999997,
+    "lng": 121.60743699999999
+  },
+  "address": "970花蓮縣花蓮市國治里節約街45號",
+  "primary_type": "deli",
+  "primary_type_label": "小吃店",
+  "distance_km": 1.74,
+  "source": "api_2026-05-21",
+  "note": "小吃店",
+  "name_is_ascii": false
+}

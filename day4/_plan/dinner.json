@@ -1,96 +1,96 @@
 {
   "day": 4,
   "search_radius_km": 3,
-  "pool_size": 8,
-  "bayesian_C": 1829.0,
-  "bayesian_m": 4.7002,
+  "pool_size": 53,
+  "bayesian_C": 662.3,
+  "bayesian_m": 4.5273,
   "note": "C=平均留言數(先驗樣本數), m=加權平均評分(先驗期望值)",
   "source_endpoint_place_id": "ChIJp-xjwz3ccTQRN_tucmfrEdM",
   "top5_place_ids": [
-    "ChIJ3xvN1QndcTQRPXjQ1WXgCow",
-    "ChIJD1RqKNrdcTQRQH9MSp1ebvY",
-    "ChIJB2e3xMTdcTQReS6qGZMIR3g",
-    "ChIJvU_JlsHdcTQRNynrgvQrYlQ",
-    "ChIJyaO_4j7ccTQRIqSfs10f5ok"
+    "ChIJj0ZdVxHfcTQRz3Jn1Z0sSSQ",
+    "ChIJxyInh0bdcTQRVs4QDPAG3gE",
+    "ChIJLy6ZsW7dcTQRfcnxoPfeF-8",
+    "ChIJyaO_4j7ccTQRIqSfs10f5ok",
+    "ChIJ3xvN1QndcTQRPXjQ1WXgCow"
   ],
   "restaurants": [
     {
-      "place_id": "ChIJ3xvN1QndcTQRPXjQ1WXgCow",
-      "name_zh": "大叔叔廚房",
+      "place_id": "ChIJj0ZdVxHfcTQRz3Jn1Z0sSSQ",
+      "name_zh": "水綠方創意鍋物( 平日中午收客到1330 假日中午收客到1400)(停車場在水底寮夜市空地)-枋寮熱門鍋物|特色鍋物|人氣鍋物|海鮮火鍋|必吃火鍋|聚餐餐廳|在地推薦火鍋|麻辣火鍋",
       "rating": 4.8,
-      "total_ratings": 442,
+      "total_ratings": 2086,
       "location": {
-        "lat": 22.368283,
-        "lng": 120.593562
+        "lat": 22.384864999999998,
+        "lng": 120.5959995
       },
-      "address": "",
-      "note": "精緻料理",
-      "bayesian_score": 4.7196,
-      "confidence": "❌ 低",
+      "address": "940屏東縣枋寮鄉人和村民族路60號",
+      "note": "火鍋店",
+      "bayesian_score": 4.7343,
+      "confidence": "✅ 高",
       "rank": 1,
       "selected": true
     },
     {
-      "place_id": "ChIJD1RqKNrdcTQRQH9MSp1ebvY",
-      "name_zh": "枋新饗樂",
+      "place_id": "ChIJxyInh0bdcTQRVs4QDPAG3gE",
+      "name_zh": "田媽媽 蘭欣食坊（原天之椒子） ｜ 屏東枋寮秘境雞湯火鍋餐廳・親子農場",
       "rating": 4.9,
-      "total_ratings": 173,
+      "total_ratings": 586,
       "location": {
-        "lat": 22.382289,
-        "lng": 120.574273
+        "lat": 22.3755322,
+        "lng": 120.6023067
       },
-      "address": "",
-      "note": "精緻餐點",
-      "bayesian_score": 4.7175,
-      "confidence": "❌ 低",
+      "address": "940屏東縣枋寮鄉人和村中正大路666-8號",
+      "note": "餐廳",
+      "bayesian_score": 4.7023,
+      "confidence": "⚠️ 中",
       "rank": 2,
       "selected": true
     },
     {
-      "place_id": "ChIJB2e3xMTdcTQReS6qGZMIR3g",
-      "name_zh": "阿弟深海魚",
-      "rating": 4.8,
-      "total_ratings": 273,
+      "place_id": "ChIJLy6ZsW7dcTQRfcnxoPfeF-8",
+      "name_zh": "枋寮椰們海景餐廳Pi coconut",
+      "rating": 4.7,
+      "total_ratings": 8843,
       "location": {
-        "lat": 22.362997,
-        "lng": 120.594316
+        "lat": 22.3664627,
+        "lng": 120.59144210000001
       },
-      "address": "",
-      "note": "深海海鮮專門",
-      "bayesian_score": 4.7132,
-      "confidence": "❌ 低",
+      "address": "940屏東縣枋寮鄉枋寮村沿海路17之1號",
+      "note": "餐廳",
+      "bayesian_score": 4.688,
+      "confidence": "✅ 高",
       "rank": 3,
-      "selected": true
-    },
-    {
-      "place_id": "ChIJvU_JlsHdcTQRNynrgvQrYlQ",
-      "name_zh": "巷子口河粉",
-      "rating": 4.8,
-      "total_ratings": 98,
-      "location": {
-        "lat": 22.36438,
-        "lng": 120.596846
-      },
-      "address": "",
-      "note": "越式河粉",
-      "bayesian_score": 4.7053,
-      "confidence": "❌ 低",
-      "rank": 4,
       "selected": true
     },
     {
       "place_id": "ChIJyaO_4j7ccTQRIqSfs10f5ok",
       "name_zh": "阮家茶坊",
       "rating": 4.7,
-      "total_ratings": 3275,
+      "total_ratings": 3276,
       "location": {
-        "lat": 22.364795,
-        "lng": 120.593511
+        "lat": 22.3647946,
+        "lng": 120.5935107
       },
-      "address": "",
-      "note": "茶飲+餐食 車站旁",
-      "bayesian_score": 4.7001,
+      "address": "940屏東縣枋寮鄉枋寮村德興路33號",
+      "note": "餐廳",
+      "bayesian_score": 4.671,
       "confidence": "✅ 高",
+      "rank": 4,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ3xvN1QndcTQRPXjQ1WXgCow",
+      "name_zh": "大叔叔廚房",
+      "rating": 4.8,
+      "total_ratings": 442,
+      "location": {
+        "lat": 22.3682834,
+        "lng": 120.5935615
+      },
+      "address": "940屏東縣枋寮鄉枋寮村中山路248號",
+      "note": "餐廳",
+      "bayesian_score": 4.6365,
+      "confidence": "⚠️ 中",
       "rank": 5,
       "selected": true
     },
@@ -98,32 +98,464 @@
       "place_id": "ChIJCZ5-NkTdcTQRez02QVSxOrQ",
       "name_zh": "枋寮食三香飯庄",
       "rating": 4.7,
-      "total_ratings": 964,
+      "total_ratings": 969,
       "location": {
-        "lat": 22.366026,
-        "lng": 120.593951
+        "lat": 22.3660259,
+        "lng": 120.59395069999998
       },
-      "address": "",
-      "note": "在地家常小館",
-      "bayesian_score": 4.7001,
-      "confidence": "⚠️ 中",
+      "address": "940屏東縣枋寮鄉枋寮村中興路1巷19-1號",
+      "note": "家庭餐廳",
+      "bayesian_score": 4.6299,
+      "confidence": "✅ 高",
       "rank": 6,
       "selected": false
     },
     {
-      "place_id": "ChIJLy6ZsW7dcTQRfcnxoPfeF-8",
-      "name_zh": "枋寮椰們海景餐廳",
-      "rating": 4.7,
-      "total_ratings": 8839,
+      "place_id": "ChIJB2e3xMTdcTQReS6qGZMIR3g",
+      "name_zh": "阿弟深海魚",
+      "rating": 4.8,
+      "total_ratings": 273,
       "location": {
-        "lat": 22.366463,
-        "lng": 120.591442
+        "lat": 22.3629965,
+        "lng": 120.5943156
       },
-      "address": "",
-      "note": "海景觀餐廳 高人氣",
-      "bayesian_score": 4.7,
-      "confidence": "✅ 高",
+      "address": "940屏東縣枋寮鄉保生村保生路431巷3號",
+      "note": "海鮮餐廳",
+      "bayesian_score": 4.6069,
+      "confidence": "❌ 低",
       "rank": 7,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJD1RqKNrdcTQRQH9MSp1ebvY",
+      "name_zh": "枋新．饗樂",
+      "rating": 4.9,
+      "total_ratings": 173,
+      "location": {
+        "lat": 22.382289399999998,
+        "lng": 120.57427259999999
+      },
+      "address": "940屏東縣枋寮鄉新龍村義民路199號",
+      "note": "餐廳",
+      "bayesian_score": 4.6045,
+      "confidence": "❌ 低",
+      "rank": 8,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJn1MbgT7ccTQRKTDAmvLHHAk",
+      "name_zh": "枋寮韭菜盒子&豬肉餡餅",
+      "rating": 4.7,
+      "total_ratings": 466,
+      "location": {
+        "lat": 22.3671609,
+        "lng": 120.5938544
+      },
+      "address": "940屏東縣枋寮鄉枋寮村中興路22-5號",
+      "note": "餐廳",
+      "bayesian_score": 4.5986,
+      "confidence": "⚠️ 中",
+      "rank": 9,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJBwvPTavdcTQR6Wzvkr3eAK8",
+      "name_zh": "湘奈鹅特色美食",
+      "rating": 4.9,
+      "total_ratings": 129,
+      "location": {
+        "lat": 22.363350699999998,
+        "lng": 120.59501139999999
+      },
+      "address": "940屏東縣枋寮鄉安樂村安樂路122號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.5881,
+      "confidence": "❌ 低",
+      "rank": 10,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJO0j0HK7dcTQR8-q69-tGTKE",
+      "name_zh": "蔓芽記",
+      "rating": 4.8,
+      "total_ratings": 168,
+      "location": {
+        "lat": 22.366810899999997,
+        "lng": 120.59092189999998
+      },
+      "address": "940屏東縣枋寮鄉枋寮村沿海路47號",
+      "note": "餐廳",
+      "bayesian_score": 4.5825,
+      "confidence": "❌ 低",
+      "rank": 11,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJnRhQzz3ccTQRK4gLHpPNDMM",
+      "name_zh": "枋寮美食 | 竹源薑母鴨",
+      "rating": 4.7,
+      "total_ratings": 254,
+      "location": {
+        "lat": 22.368287199999997,
+        "lng": 120.59461579999999
+      },
+      "address": "940屏東縣枋寮鄉枋寮村儲運路35號",
+      "note": "火鍋店",
+      "bayesian_score": 4.5752,
+      "confidence": "❌ 低",
+      "rank": 12,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJQ_jEGKDecTQR8OHwm82wMoc",
+      "name_zh": "初點豆花（福泉布丁豆花）",
+      "rating": 4.7,
+      "total_ratings": 247,
+      "location": {
+        "lat": 22.3850831,
+        "lng": 120.59733109999998
+      },
+      "address": "940屏東縣枋寮鄉人和村中華路165號",
+      "note": "甜品餐廳",
+      "bayesian_score": 4.5742,
+      "confidence": "❌ 低",
+      "rank": 13,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJx3xI8XXdcTQRzX4N-DS12KM",
+      "name_zh": "鰻鰻烤韓式餐廳/ 屏東最美海景韓式餐廳/韓式烤鰻",
+      "rating": 4.6,
+      "total_ratings": 1159,
+      "location": {
+        "lat": 22.3661372,
+        "lng": 120.59162180000001
+      },
+      "address": "940屏東縣枋寮鄉枋寮村沿海路9之2號",
+      "note": "韓式燒烤料理餐廳",
+      "bayesian_score": 4.5736,
+      "confidence": "✅ 高",
+      "rank": 14,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJWVCpSZPdcTQR3wGEhoViXDE",
+      "name_zh": "廟口關東煮",
+      "rating": 4.8,
+      "total_ratings": 129,
+      "location": {
+        "lat": 22.367154700000004,
+        "lng": 120.591129
+      },
+      "address": "940屏東縣枋寮鄉枋寮村沿海路36號",
+      "note": "餐廳",
+      "bayesian_score": 4.5718,
+      "confidence": "❌ 低",
+      "rank": 15,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJVfBS3o7dcTQR063jKJUlmEk",
+      "name_zh": "5/18休息，枋寮美食_麵川ㄟ店-南台灣",
+      "rating": 4.7,
+      "total_ratings": 207,
+      "location": {
+        "lat": 22.3619539,
+        "lng": 120.5959747
+      },
+      "address": "940屏東縣枋寮鄉安樂村保生路228號",
+      "note": "餐廳",
+      "bayesian_score": 4.5684,
+      "confidence": "❌ 低",
+      "rank": 16,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJxSuXN47dcTQRCIRMtjT8ogA",
+      "name_zh": "比悠瑪東港鮮魚直送100元熱炒",
+      "rating": 4.8,
+      "total_ratings": 114,
+      "location": {
+        "lat": 22.364988099999998,
+        "lng": 120.599199
+      },
+      "address": "940屏東縣枋寮鄉隆山村隆山路137巷1號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.5673,
+      "confidence": "❌ 低",
+      "rank": 17,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJLQ3135_ecTQRsPX-7XuBcPM",
+      "name_zh": "大仁哥廚房",
+      "rating": 4.6,
+      "total_ratings": 692,
+      "location": {
+        "lat": 22.383566599999998,
+        "lng": 120.59540799999999
+      },
+      "address": "940屏東縣枋寮鄉人和村中山路二段193號",
+      "note": "牛排館",
+      "bayesian_score": 4.5644,
+      "confidence": "✅ 高",
+      "rank": 18,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJvU_JlsHdcTQRNynrgvQrYlQ",
+      "name_zh": "巷子口河粉",
+      "rating": 4.8,
+      "total_ratings": 99,
+      "location": {
+        "lat": 22.364380099999998,
+        "lng": 120.596846
+      },
+      "address": "940屏東縣枋寮鄉隆山村中山路154之3號",
+      "note": "餐廳",
+      "bayesian_score": 4.5628,
+      "confidence": "❌ 低",
+      "rank": 19,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJURi3IEzdcTQRnar3WOpLOV8",
+      "name_zh": "魔王厚切傳統雞排-枋寮中山店",
+      "rating": 5,
+      "total_ratings": 22,
+      "location": {
+        "lat": 22.361231,
+        "lng": 120.59994029999999
+      },
+      "address": "940屏東縣枋寮鄉隆山村中山路98-2號",
+      "note": "外賣餐廳",
+      "bayesian_score": 4.5425,
+      "confidence": "❌ 低",
+      "rank": 20,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ1dzocmLfcTQR3TMJGEs7lYs",
+      "name_zh": "枋寮圓圓麵",
+      "rating": 4.9,
+      "total_ratings": 27,
+      "location": {
+        "lat": 22.3869982,
+        "lng": 120.5968732
+      },
+      "address": "940屏東縣枋寮鄉人和村建興路219號",
+      "note": "餐廳",
+      "bayesian_score": 4.5419,
+      "confidence": "❌ 低",
+      "rank": 21,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ0Yd9NWTdcTQRjpq_f2BQojM",
+      "name_zh": "懿貞食堂",
+      "rating": 5,
+      "total_ratings": 17,
+      "location": {
+        "lat": 22.366992,
+        "lng": 120.59377309999998
+      },
+      "address": "940屏東縣枋寮鄉枋寮村中興路21號",
+      "note": "餐廳",
+      "bayesian_score": 4.5391,
+      "confidence": "❌ 低",
+      "rank": 22,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJK4qUg1DdcTQRP5hG5Cgv798",
+      "name_zh": "小天真碗粿美食",
+      "rating": 4.9,
+      "total_ratings": 17,
+      "location": {
+        "lat": 22.357341599999998,
+        "lng": 120.60077430000001
+      },
+      "address": "940屏東縣枋寮鄉隆山村金榮路12號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.5366,
+      "confidence": "❌ 低",
+      "rank": 23,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ6XZJRwDdcTQRI1j9gLQu_Wk",
+      "name_zh": "星美越南美食",
+      "rating": 4.7,
+      "total_ratings": 34,
+      "location": {
+        "lat": 22.3665299,
+        "lng": 120.59462669999999
+      },
+      "address": "940屏東縣枋寮鄉枋寮村中山路217號",
+      "note": "亞洲風味餐廳",
+      "bayesian_score": 4.5357,
+      "confidence": "❌ 低",
+      "rank": 24,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJJ9FpDQDdcTQRcD1y5sLDWUs",
+      "name_zh": "樂道麵食館",
+      "rating": 4.6,
+      "total_ratings": 80,
+      "location": {
+        "lat": 22.3682108,
+        "lng": 120.59333739999998
+      },
+      "address": "940屏東縣枋寮鄉枋寮村中山路263-2號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.5351,
+      "confidence": "❌ 低",
+      "rank": 25,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJxQKXGlrdcTQRs5MpkZx_5W8",
+      "name_zh": "吳疙瘩 手作料理食堂",
+      "rating": 4.7,
+      "total_ratings": 15,
+      "location": {
+        "lat": 22.3634234,
+        "lng": 120.59651129999999
+      },
+      "address": "940屏東縣枋寮鄉安樂村隆山路54號",
+      "note": "中式麵館",
+      "bayesian_score": 4.5311,
+      "confidence": "❌ 低",
+      "rank": 26,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ37lU6ZDdcTQRL-Zsi1WRmg8",
+      "name_zh": "早安食堂",
+      "rating": 5,
+      "total_ratings": 3,
+      "location": {
+        "lat": 22.3589768,
+        "lng": 120.59820479999999
+      },
+      "address": "940屏東縣枋寮鄉保生村保生路76號",
+      "note": "早餐店",
+      "bayesian_score": 4.5294,
+      "confidence": "❌ 低",
+      "rank": 27,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJs11Wh-zdcTQR7cs6OvUOABQ",
+      "name_zh": "鴨廬",
+      "rating": 4.6,
+      "total_ratings": 15,
+      "location": {
+        "lat": 22.365954,
+        "lng": 120.59626069999999
+      },
+      "address": "940屏東縣枋寮鄉枋寮村儲運路1之13號",
+      "note": "餐廳",
+      "bayesian_score": 4.5289,
+      "confidence": "❌ 低",
+      "rank": 28,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJERVq6LPdcTQRvUJIizj_AKI",
+      "name_zh": "中藥原滷滷味",
+      "rating": 5,
+      "total_ratings": 2,
+      "location": {
+        "lat": 22.3618345,
+        "lng": 120.59606389999999
+      },
+      "address": "940屏東縣枋寮鄉保生村保生路222號",
+      "note": "餐廳",
+      "bayesian_score": 4.5287,
+      "confidence": "❌ 低",
+      "rank": 29,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJU_W4JmjdcTQRspEPoQGuLuE",
+      "name_zh": "和利食堂",
+      "rating": 5,
+      "total_ratings": 1,
+      "location": {
+        "lat": 22.3605013,
+        "lng": 120.6000592
+      },
+      "address": "940屏東縣枋寮鄉隆山村中山路51號",
+      "note": "自助餐廳",
+      "bayesian_score": 4.528,
+      "confidence": "❌ 低",
+      "rank": 30,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJmyXoCgDdcTQRhNdKqMi6q5A",
+      "name_zh": "黑白切 麵店",
+      "rating": 4.3,
+      "total_ratings": 3,
+      "location": {
+        "lat": 22.364474899999998,
+        "lng": 120.59669819999999
+      },
+      "address": "940屏東縣枋寮鄉隆山村中山路156號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.5263,
+      "confidence": "❌ 低",
+      "rank": 31,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJu5crIgDdcTQRCUivBdAGQs8",
+      "name_zh": "陳蒙李愛｜餐車鹽酥雞《枋寮站》",
+      "rating": 4.4,
+      "total_ratings": 14,
+      "location": {
+        "lat": 22.3633527,
+        "lng": 120.597803
+      },
+      "address": "940屏東縣枋寮鄉安樂村中山路115號",
+      "note": "速食餐廳",
+      "bayesian_score": 4.5247,
+      "confidence": "❌ 低",
+      "rank": 32,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJcS0mxQ7dcTQR_4jTBfDAXOo",
+      "name_zh": "漁港飯湯",
+      "rating": 4.4,
+      "total_ratings": 46,
+      "location": {
+        "lat": 22.3617347,
+        "lng": 120.59461979999998
+      },
+      "address": "940屏東縣枋寮鄉保生村海邊路",
+      "note": "海鮮餐廳",
+      "bayesian_score": 4.519,
+      "confidence": "❌ 低",
+      "rank": 33,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJW8pPeRXccTQR0pyTXbyoIyA",
+      "name_zh": "嘟嘟牛排",
+      "rating": 4.5,
+      "total_ratings": 400,
+      "location": {
+        "lat": 22.3635277,
+        "lng": 120.5975933
+      },
+      "address": "940屏東縣枋寮鄉安樂村中山路121號",
+      "note": "牛排館",
+      "bayesian_score": 4.517,
+      "confidence": "⚠️ 中",
+      "rank": 34,
       "selected": false
     },
     {
@@ -132,14 +564,302 @@
       "rating": 4.5,
       "total_ratings": 568,
       "location": {
-        "lat": 22.388933,
-        "lng": 120.582873
+        "lat": 22.388933299999998,
+        "lng": 120.58287310000001
       },
-      "address": "",
-      "note": "日式料理",
-      "bayesian_score": 4.6528,
+      "address": "940屏東縣枋寮鄉地利村建興路萬基巷88號",
+      "note": "日式餐廳",
+      "bayesian_score": 4.5147,
+      "confidence": "⚠️ 中",
+      "rank": 35,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJB80T4z_ccTQR4EenSvQiS2o",
+      "name_zh": "永樂飯湯",
+      "rating": 4.3,
+      "total_ratings": 46,
+      "location": {
+        "lat": 22.360450999999998,
+        "lng": 120.599717
+      },
+      "address": "940屏東縣枋寮鄉安樂村安樂路2巷64號",
+      "note": "台式餐廳",
+      "bayesian_score": 4.5125,
       "confidence": "❌ 低",
-      "rank": 8,
+      "rank": 36,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJmZGDbBrccTQR4H9wfsfLyq8",
+      "name_zh": "木鋤造樸咖啡/披薩 Muzu Coffee & Pizza",
+      "rating": 4.5,
+      "total_ratings": 1123,
+      "location": {
+        "lat": 22.3768285,
+        "lng": 120.59902670000001
+      },
+      "address": "940屏東縣枋寮鄉人和村中正大路791號",
+      "note": "披薩餐廳",
+      "bayesian_score": 4.5101,
+      "confidence": "✅ 高",
+      "rank": 37,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ8zC2gPsPbjQRmtQ9RaSGh50",
+      "name_zh": "百利冷熱飲 鍋燒麵 肉燥飯",
+      "rating": 4.3,
+      "total_ratings": 62,
+      "location": {
+        "lat": 22.3637904,
+        "lng": 120.5968602
+      },
+      "address": "940屏東縣枋寮鄉安樂村隆山路67號",
+      "note": "餐廳",
+      "bayesian_score": 4.5078,
+      "confidence": "❌ 低",
+      "rank": 38,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ47tp3T_ccTQRg5B5l1Yuv6k",
+      "name_zh": "好做伙(勤)鹹酥雞",
+      "rating": 4.4,
+      "total_ratings": 125,
+      "location": {
+        "lat": 22.3630946,
+        "lng": 120.5963725
+      },
+      "address": "940屏東縣枋寮鄉安樂村隆山路46號",
+      "note": "餐廳",
+      "bayesian_score": 4.5071,
+      "confidence": "❌ 低",
+      "rank": 39,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJt90tfBXccTQROB-4QjM-2cM",
+      "name_zh": "小晴天親子餐廳",
+      "rating": 4.4,
+      "total_ratings": 168,
+      "location": {
+        "lat": 22.3633766,
+        "lng": 120.5962448
+      },
+      "address": "940屏東縣枋寮鄉安樂村隆山路37號",
+      "note": "餐廳",
+      "bayesian_score": 4.5015,
+      "confidence": "❌ 低",
+      "rank": 40,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJM4mYK5fdcTQRkUdymZlLB88",
+      "name_zh": "右慈的店",
+      "rating": 4.2,
+      "total_ratings": 135,
+      "location": {
+        "lat": 22.362551099999997,
+        "lng": 120.5940434
+      },
+      "address": "940屏東縣枋寮鄉保生村海邊路328號",
+      "note": "海鮮餐廳",
+      "bayesian_score": 4.4719,
+      "confidence": "❌ 低",
+      "rank": 41,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJU63uXaLecTQRHKEq3ZA-Xuc",
+      "name_zh": "榕樹下酸辣湯",
+      "rating": 4.4,
+      "total_ratings": 671,
+      "location": {
+        "lat": 22.390287999999998,
+        "lng": 120.59849159999997
+      },
+      "address": "940屏東縣枋寮鄉地利村復興路3號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.4632,
+      "confidence": "✅ 高",
+      "rank": 42,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJQ7H01j3ccTQR9AKKYKqj_gc",
+      "name_zh": "大摳忠小吃",
+      "rating": 3.8,
+      "total_ratings": 88,
+      "location": {
+        "lat": 22.3677207,
+        "lng": 120.5944496
+      },
+      "address": "940屏東縣枋寮鄉枋寮村中興路8號",
+      "note": "餐廳",
+      "bayesian_score": 4.442,
+      "confidence": "❌ 低",
+      "rank": 43,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJCc_i2z3ccTQR5pKu1vXPZwE",
+      "name_zh": "硬漢会所",
+      "rating": 4.3,
+      "total_ratings": 688,
+      "location": {
+        "lat": 22.3657425,
+        "lng": 120.5920425
+      },
+      "address": "940屏東縣枋寮鄉枋寮村沿海路7號",
+      "note": "餐廳",
+      "bayesian_score": 4.4115,
+      "confidence": "✅ 高",
+      "rank": 44,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJFRkAoOndcTQRkq55yzdqJuM",
+      "name_zh": "枋寮 阿東海鮮餐廳 （路口進來直走下坡 枋寮漁港內防波堤旁",
+      "rating": 4.2,
+      "total_ratings": 487,
+      "location": {
+        "lat": 22.360434899999998,
+        "lng": 120.59389829999999
+      },
+      "address": "940屏東縣枋寮鄉枋寮漁港940",
+      "note": "海鮮餐廳",
+      "bayesian_score": 4.3886,
+      "confidence": "⚠️ 中",
+      "rank": 45,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJeeNc2z_ccTQRswtpsru8Ri4",
+      "name_zh": "珍 牛雜湯",
+      "rating": 4.2,
+      "total_ratings": 565,
+      "location": {
+        "lat": 22.363350699999998,
+        "lng": 120.59627599999999
+      },
+      "address": "940屏東縣枋寮鄉安樂村隆山路39-41號",
+      "note": "中式麵館",
+      "bayesian_score": 4.3766,
+      "confidence": "⚠️ 中",
+      "rank": 46,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJScbIuJ_ecTQRj6yx2lQ5uMs",
+      "name_zh": "水底寮百年老牌鱔魚麵",
+      "rating": 4.2,
+      "total_ratings": 586,
+      "location": {
+        "lat": 22.3793681,
+        "lng": 120.59758029999999
+      },
+      "address": "940屏東縣枋寮鄉人和村中正大路820號",
+      "note": "餐廳",
+      "bayesian_score": 4.3736,
+      "confidence": "⚠️ 中",
+      "rank": 47,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJe_hXsATdcTQRQM4yuKd42Fc",
+      "name_zh": "牛香麵食堂",
+      "rating": 4,
+      "total_ratings": 290,
+      "location": {
+        "lat": 22.367715,
+        "lng": 120.59398279999998
+      },
+      "address": "940屏東縣枋寮鄉枋寮村中山路238號",
+      "note": "中式麵館",
+      "bayesian_score": 4.3667,
+      "confidence": "❌ 低",
+      "rank": 48,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJC19__XjdcTQRmZ3RSKkPEbE",
+      "name_zh": "ㄚ芬生魚片",
+      "rating": 3.9,
+      "total_ratings": 236,
+      "location": {
+        "lat": 22.3619685,
+        "lng": 120.59441500000001
+      },
+      "address": "940屏東縣枋寮鄉保生村海邊路284號",
+      "note": "海鮮餐廳",
+      "bayesian_score": 4.3625,
+      "confidence": "❌ 低",
+      "rank": 49,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJPyo0LDzccTQR4tfd4_2b0F4",
+      "name_zh": "枋寮海鮮美食 - 阿達漁港餐廳",
+      "rating": 4.3,
+      "total_ratings": 5066,
+      "location": {
+        "lat": 22.3661651,
+        "lng": 120.5922142
+      },
+      "address": "940屏東縣枋寮鄉枋寮村中興路76號",
+      "note": "海鮮餐廳",
+      "bayesian_score": 4.3263,
+      "confidence": "✅ 高",
+      "rank": 50,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJATr29pEEbjQRrGkqgKHGEIk",
+      "name_zh": "竹地食堂",
+      "rating": 4,
+      "total_ratings": 565,
+      "location": {
+        "lat": 22.364354199999998,
+        "lng": 120.5957733
+      },
+      "address": "940屏東縣枋寮鄉安樂村隆山路43巷46號",
+      "note": "日式餐廳",
+      "bayesian_score": 4.2845,
+      "confidence": "⚠️ 中",
+      "rank": 51,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ68JEAZ_ecTQRsfapvOZcHck",
+      "name_zh": "華珍羊肉",
+      "rating": 4.1,
+      "total_ratings": 1269,
+      "location": {
+        "lat": 22.3863222,
+        "lng": 120.5947528
+      },
+      "address": "940屏東縣枋寮鄉人和村中山路二段300號",
+      "note": "台式餐廳",
+      "bayesian_score": 4.2465,
+      "confidence": "✅ 高",
+      "rank": 52,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJh5JLGiDccTQRaenPcsYkY2g",
+      "name_zh": "枋寮 阿東火鍋",
+      "rating": 4.1,
+      "total_ratings": 1354,
+      "location": {
+        "lat": 22.382175399999998,
+        "lng": 120.5964202
+      },
+      "address": "940屏東縣枋寮鄉人和村中山路二段130號",
+      "note": "火鍋店",
+      "bayesian_score": 4.2404,
+      "confidence": "✅ 高",
+      "rank": 53,
       "selected": false
     }
   ]

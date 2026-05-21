@@ -1,0 +1,649 @@
+{
+  "day": 2,
+  "candidates": [
+    {
+      "place_id": "ChIJd09fCgpGaTQREf5dG3wdMFU",
+      "name_zh": "亞太鹿港渡假村",
+      "rating": 4,
+      "total_ratings": 4479,
+      "location": {
+        "lat": 24.0627365,
+        "lng": 120.43596049999998
+      },
+      "address": "505彰化縣鹿港鎮埔崙里中正路588號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ4-gbFFxFaTQREOA0I5ymr0w",
+      "name_zh": "鹿港澄悦酒店 Euphoria Hotel Lukang",
+      "rating": 4.5,
+      "total_ratings": 935,
+      "location": {
+        "lat": 24.0633677,
+        "lng": 120.4347578
+      },
+      "address": "50544彰化縣鹿港鎮埔崙里中正路598號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ1RBlGwZGaTQRt6AJHV4w28c",
+      "name_zh": "鹿港澄悅商旅 Joy Inn Lukang",
+      "rating": 4.2,
+      "total_ratings": 1780,
+      "location": {
+        "lat": 24.0618567,
+        "lng": 120.43709799999999
+      },
+      "address": "505彰化縣鹿港鎮埔崙里中正路510巷1號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJIdHw7w5GaTQRnJlTFMLEPrk",
+      "name_zh": "麗景汽車旅館",
+      "rating": 4.3,
+      "total_ratings": 1608,
+      "location": {
+        "lat": 24.0578444,
+        "lng": 120.44361040000001
+      },
+      "address": "505彰化縣鹿港鎮頂厝里長安路58號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ999aheRFaTQRGNqJXOsYqcM",
+      "name_zh": "鹿港天后宮香客大樓",
+      "rating": 4.1,
+      "total_ratings": 1169,
+      "location": {
+        "lat": 24.059861299999998,
+        "lng": 120.4299403
+      },
+      "address": "505彰化縣鹿港鎮玉順里中山路475號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ76hZyAVGaTQR6nNvO4rGKIM",
+      "name_zh": "鹿港紅樓精品旅館",
+      "rating": 4.2,
+      "total_ratings": 788,
+      "location": {
+        "lat": 24.053503,
+        "lng": 120.4426956
+      },
+      "address": "506彰化縣福興鄉橋頭村橋和街62號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJQ2HoEORFaTQRASErSsIDBFI",
+      "name_zh": "晨荷精品渡假旅館",
+      "rating": 4.3,
+      "total_ratings": 626,
+      "location": {
+        "lat": 24.0626464,
+        "lng": 120.42904130000001
+      },
+      "address": "505彰化縣鹿港鎮東石里永春街19號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJtRf9Hg5FaTQRba_sznuSLJk",
+      "name_zh": "老街假期文旅",
+      "rating": 4.8,
+      "total_ratings": 371,
+      "location": {
+        "lat": 24.057810099999998,
+        "lng": 120.42902079999999
+      },
+      "address": "50546彰化縣鹿港鎮新宮里博愛路121號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ5WC7g_hFaTQRaD_pmOwhoaw",
+      "name_zh": "鹿港童年往事莊園民宿（彰化鹿港民宿住宿推薦／彰化鹿港兒童親子景點／彰化一日遊好玩打卡地點）",
+      "rating": 4.1,
+      "total_ratings": 827,
+      "location": {
+        "lat": 24.0540709,
+        "lng": 120.42684510000001
+      },
+      "address": "62之500號, 福興路福興村福興鄉彰化縣506",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJDUDmvQdGaTQR1Anvp_Siw3E",
+      "name_zh": "喜悅來行館",
+      "rating": 4.3,
+      "total_ratings": 492,
+      "location": {
+        "lat": 24.054567799999997,
+        "lng": 120.43727679999999
+      },
+      "address": "505彰化縣鹿港鎮景福里萬壽路135號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJR1Xvid5HaTQReMsnRq5xgH8",
+      "name_zh": "花漾小鹿旅店",
+      "rating": 4.5,
+      "total_ratings": 124,
+      "location": {
+        "lat": 24.047737299999998,
+        "lng": 120.43732419999999
+      },
+      "address": "505彰化縣鹿港鎮街尾里青雲路73巷27號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJo4T2s8FHaTQRRhy28VJJOvY",
+      "name_zh": "鹿港安順19旅居 Anson 19",
+      "rating": 4.2,
+      "total_ratings": 299,
+      "location": {
+        "lat": 24.062206,
+        "lng": 120.43970800000001
+      },
+      "address": "50547彰化縣鹿港鎮埔崙里安順街19號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJzap7HqpHaTQRBZQXjQAuKwA",
+      "name_zh": "鹿港三三旅宿 | 商務配合．包棟首選．親子友善．慢光居所",
+      "rating": 4.9,
+      "total_ratings": 111,
+      "location": {
+        "lat": 24.069966299999997,
+        "lng": 120.4429799
+      },
+      "address": "505彰化縣鹿港鎮海埔里顏厝巷3-33號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJyxEyhrtHaTQRHtFcjecsaQA",
+      "name_zh": "頌謙文旅",
+      "rating": 4.8,
+      "total_ratings": 386,
+      "location": {
+        "lat": 24.0638674,
+        "lng": 120.437131
+      },
+      "address": "505彰化縣鹿港鎮埔崙里自由路 329 巷69號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJj8ArZa9FaTQRbCCgz1KtZX8",
+      "name_zh": "鹿港老街十三號民宿",
+      "rating": 5,
+      "total_ratings": 884,
+      "location": {
+        "lat": 24.0559667,
+        "lng": 120.43280259999999
+      },
+      "address": "505彰化縣鹿港鎮洛津里瑤林街13號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJVVMHs95HaTQR-7Q_Cg64224",
+      "name_zh": "公園一鹿背包客棧－鹿港背包住宿/青年平價旅館/彰化民宿推薦/機車環島住宿",
+      "rating": 4.7,
+      "total_ratings": 325,
+      "location": {
+        "lat": 24.0589171,
+        "lng": 120.43757319999997
+      },
+      "address": "505彰化縣鹿港鎮永安里自強街50巷14號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ9-i2fFdHaTQReLnyKBe_8UA",
+      "name_zh": "以安二館民宿/青年旅宿",
+      "rating": 4.8,
+      "total_ratings": 246,
+      "location": {
+        "lat": 24.0606477,
+        "lng": 120.43657390000001
+      },
+      "address": "505彰化县鹿港镇埔仑里中正路523巷29號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJMTzQvjJHaTQRj9FGQvmTXSY",
+      "name_zh": "溫怡鹿鹿WinLuLu",
+      "rating": 5,
+      "total_ratings": 199,
+      "location": {
+        "lat": 24.0568365,
+        "lng": 120.43723010000001
+      },
+      "address": "505彰化縣鹿港鎮景福里民族路24號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ1-QJEONFaTQRfG3JmqNy4ls",
+      "name_zh": "宮后文旅",
+      "rating": 4.7,
+      "total_ratings": 307,
+      "location": {
+        "lat": 24.0594258,
+        "lng": 120.4322255
+      },
+      "address": "505彰化縣鹿港鎮順興里宮後巷63號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJV-o2LJNFaTQRPDYSxPCej_8",
+      "name_zh": "和平大旅社",
+      "rating": 4.9,
+      "total_ratings": 21,
+      "location": {
+        "lat": 24.0553964,
+        "lng": 120.4343974
+      },
+      "address": "505彰化縣鹿港鎮中興里中山路230號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJZ9GyGc1FaTQRQWO5bR-0Bzw",
+      "name_zh": "杉行居（鹿港民宿）",
+      "rating": 5,
+      "total_ratings": 94,
+      "location": {
+        "lat": 24.052352499999998,
+        "lng": 120.434801
+      },
+      "address": "505彰化縣鹿港鎮龍山里杉行街77號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ_5cwQQBHaTQR8Pfft-MFtk8",
+      "name_zh": "鹿港轉運站工地（鹿港英迪格酒店）",
+      "rating": 5,
+      "total_ratings": 1,
+      "location": {
+        "lat": 24.0647205,
+        "lng": 120.43603249999998
+      },
+      "address": "505彰化縣鹿港鎮埔崙里建國路",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJM_o05T5HaTQRy9tC7apy2Bc",
+      "name_zh": "鹿鹿咪民宿",
+      "rating": 5,
+      "total_ratings": 390,
+      "location": {
+        "lat": 24.0589228,
+        "lng": 120.44105039999998
+      },
+      "address": "505彰化縣鹿港鎮永安里永安三路14巷19號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ2656ThtHaTQRL3sI0cBtOeo",
+      "name_zh": "鹿港鉑鈳民宿-Back Inn（沒有電梯、沒附早餐）",
+      "rating": 4.2,
+      "total_ratings": 185,
+      "location": {
+        "lat": 24.056309199999998,
+        "lng": 120.43741779999999
+      },
+      "address": "505彰化縣鹿港鎮景福里民族路21巷18號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJEyp2JwZGaTQRUr2oIcwnQ_4",
+      "name_zh": "二鹿行館 Lu Kang Bed and Breakbast",
+      "rating": 4,
+      "total_ratings": 387,
+      "location": {
+        "lat": 24.0555581,
+        "lng": 120.43846339999999
+      },
+      "address": "505彰化縣鹿港鎮永安里春暉街46號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJve7i7G5HaTQRFBSOaFLmiDk",
+      "name_zh": "鹿港簇瞇民宿Chooz me",
+      "rating": 5,
+      "total_ratings": 38,
+      "location": {
+        "lat": 24.0611244,
+        "lng": 120.44023179999999
+      },
+      "address": "505彰化縣鹿港鎮永安里永安二路57號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJiWxNQwVGaTQRnXC4E9Lxb4c",
+      "name_zh": "小咖民宿",
+      "rating": 4.7,
+      "total_ratings": 60,
+      "location": {
+        "lat": 24.053677999999998,
+        "lng": 120.4461505
+      },
+      "address": "505彰化縣鹿港鎮頂厝里平和路141巷6號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJdZfCGYFFaTQRYjod7HJ5y0g",
+      "name_zh": "米市85 鹿港民宿",
+      "rating": 4.7,
+      "total_ratings": 83,
+      "location": {
+        "lat": 24.0530696,
+        "lng": 120.43364899999999
+      },
+      "address": "505彰化縣鹿港鎮海埔里長興里美市街",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJtwcYVBBHaTQReK611L3Vn6c",
+      "name_zh": "以樂以樂民宿",
+      "rating": 4.8,
+      "total_ratings": 192,
+      "location": {
+        "lat": 24.060645599999997,
+        "lng": 120.4365696
+      },
+      "address": "505彰化县鹿港镇埔仑里中正路523巷25號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJxyn2G-NFaTQRX5DiI7R16XE",
+      "name_zh": "鹿港，遇見1952",
+      "rating": 4.9,
+      "total_ratings": 64,
+      "location": {
+        "lat": 24.0589358,
+        "lng": 120.4327547
+      },
+      "address": "505彰化縣鹿港鎮宮後巷50號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJGzA0JOFFaTQRpBYdQ61ThEs",
+      "name_zh": "鹿厝老街民宿",
+      "rating": 4.9,
+      "total_ratings": 77,
+      "location": {
+        "lat": 24.0560843,
+        "lng": 120.43240960000001
+      },
+      "address": "505彰化縣鹿港鎮洛津里成功路",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJXfkgNEpFaTQRzsnAEuMP_uY",
+      "name_zh": "小五民宿",
+      "rating": 5,
+      "total_ratings": 108,
+      "location": {
+        "lat": 24.061892399999998,
+        "lng": 120.43306159999999
+      },
+      "address": "505006彰化縣鹿港鎮郭厝里郭厝巷140號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ-2rctBVFaTQRh8mZMJKHzYI",
+      "name_zh": "((( 洛津做夢-鹿港包棟民宿 ))) 百年古厝｜4-10人包棟｜ Chòe-bāng House",
+      "rating": 5,
+      "total_ratings": 40,
+      "location": {
+        "lat": 24.0536528,
+        "lng": 120.43486770000001
+      },
+      "address": "505彰化縣鹿港鎮興化里金盛巷46號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ8wYUHAlHaTQRBmV8fWw-Vjg",
+      "name_zh": "鹿比民宿",
+      "rating": 4.9,
+      "total_ratings": 266,
+      "location": {
+        "lat": 24.058999,
+        "lng": 120.4397447
+      },
+      "address": "505彰化縣鹿港鎮永安里鹿和路一段8巷7號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJr92alYxFaTQRgNcFg-Cajys",
+      "name_zh": "鹿厝回家民宿",
+      "rating": 5,
+      "total_ratings": 20,
+      "location": {
+        "lat": 24.0560843,
+        "lng": 120.43240960000001
+      },
+      "address": "505彰化縣鹿港鎮洛津里成功路32巷2號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJiygnwKBHaTQRhWDJxZldow8",
+      "name_zh": "((( 東皋歇暝-鹿港民宿 ))) 近鹿港老街｜ Tang-ko Hioh-mî Lukang Guesthouse",
+      "rating": 4.9,
+      "total_ratings": 163,
+      "location": {
+        "lat": 24.0569006,
+        "lng": 120.4378172
+      },
+      "address": "505彰化縣鹿港鎮永安里復興路318號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJE73gkglGaTQREMTjmrXU-jA",
+      "name_zh": "鹿港以安民宿",
+      "rating": 4.6,
+      "total_ratings": 260,
+      "location": {
+        "lat": 24.060461,
+        "lng": 120.43676289999999
+      },
+      "address": "505彰化县鹿港镇埔仑里中正路523巷33號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJtQ0OUCZHaTQRnwdQX8uD6Fc",
+      "name_zh": "鹿港谷倉民宿",
+      "rating": 4.9,
+      "total_ratings": 128,
+      "location": {
+        "lat": 24.053098499999997,
+        "lng": 120.4395863
+      },
+      "address": "506彰化縣福興鄉橋頭村復興路116巷17弄13號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ3QbVn9NHaTQRcKmsM8YFMNI",
+      "name_zh": "鹿僖民宿",
+      "rating": 4.9,
+      "total_ratings": 99,
+      "location": {
+        "lat": 24.0616703,
+        "lng": 120.43721989999999
+      },
+      "address": "505彰化縣鹿港鎮埔崙里中正路510巷8號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJZVUrjAhFaTQRyCqkF7zbYEo",
+      "name_zh": "逸園憩",
+      "rating": 5,
+      "total_ratings": 124,
+      "location": {
+        "lat": 24.051463899999998,
+        "lng": 120.43570679999999
+      },
+      "address": "505彰化縣鹿港鎮興化里興化街39號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJbdmCfgBFaTQRfNvpszLWi2Y",
+      "name_zh": "莊同益民宿",
+      "rating": 5,
+      "total_ratings": 42,
+      "location": {
+        "lat": 24.0548693,
+        "lng": 120.43408730000002
+      },
+      "address": "505彰化縣鹿港鎮大有里後車巷8號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJMaD2BLJHaTQRw8t1Ncnl5HE",
+      "name_zh": "頤園行館",
+      "rating": 4.6,
+      "total_ratings": 59,
+      "location": {
+        "lat": 24.0544455,
+        "lng": 120.43698320000001
+      },
+      "address": "505彰化縣鹿港鎮景福里景興街4號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ2ZVOevpHaTQR5O37xaYm7rc",
+      "name_zh": "泊寓 boyü",
+      "rating": 5,
+      "total_ratings": 65,
+      "location": {
+        "lat": 24.0548267,
+        "lng": 120.4447484
+      },
+      "address": "505彰化縣鹿港鎮鹿東里鹿興路57巷3號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJpxPjGABHaTQRvRFW-a6IV1Q",
+      "name_zh": "家加旅棧JiaJia Inn",
+      "rating": 4.4,
+      "total_ratings": 28,
+      "location": {
+        "lat": 24.0670892,
+        "lng": 120.43586889999999
+      },
+      "address": "505彰化縣鹿港鎮埔崙里永福路83巷43號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJHTytJwBHaTQRV-rBmxm-mUo",
+      "name_zh": "迷鹿文旅 彰化鹿港民宿 l 親子 l 商務 l 包棟｜寄鋪 Mi Lu Inn",
+      "rating": 4.9,
+      "total_ratings": 109,
+      "location": {
+        "lat": 24.0642995,
+        "lng": 120.4380673
+      },
+      "address": "505彰化县鹿港镇埔仑里自由路283巷1號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJcbF_k35FaTQR9EfDvbekrUQ",
+      "name_zh": "鹿旅民宿",
+      "rating": 4.7,
+      "total_ratings": 346,
+      "location": {
+        "lat": 24.061439,
+        "lng": 120.432686
+      },
+      "address": "505彰化縣鹿港鎮郭厝里四維路131號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    }
+  ]
+}

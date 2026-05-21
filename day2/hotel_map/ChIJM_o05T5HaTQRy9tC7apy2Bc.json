@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJM_o05T5HaTQRy9tC7apy2Bc",
+  "name_zh": "鹿鹿咪民宿",
+  "name_lang": "zh",
+  "rating": 5,
+  "total_ratings": 390,
+  "location": {
+    "lat": 24.0589228,
+    "lng": 120.44105039999998
+  },
+  "address": "505彰化縣鹿港鎮永安里永安三路14巷19號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.91,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

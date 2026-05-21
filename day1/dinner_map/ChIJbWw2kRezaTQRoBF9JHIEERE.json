@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJbWw2kRezaTQRoBF9JHIEERE",
+  "name_zh": "NU PASTA 苗栗竹南店",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 2952,
+  "location": {
+    "lat": 24.687627,
+    "lng": 120.87097100000001
+  },
+  "address": "35051苗栗縣竹南鎮營盤里博愛街314號",
+  "primary_type": "italian_restaurant",
+  "primary_type_label": "義大利餐廳",
+  "distance_km": 0.98,
+  "source": "api_2026-05-21",
+  "note": "義大利餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJr2f1tsufaDQR_A7MAm1YzIo",
+  "name_zh": "花蓮坡岸邊民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 186,
+  "location": {
+    "lat": 23.993057399999998,
+    "lng": 121.60866750000001
+  },
+  "address": "970花蓮縣花蓮市國盛里國盛七街47號",
+  "primary_type": "guest_house",
+  "distance_km": 0.75,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

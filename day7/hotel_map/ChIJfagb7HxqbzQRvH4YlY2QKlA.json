@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJfagb7HxqbzQRvH4YlY2QKlA",
+  "name_zh": "玉麒麟別莊",
+  "name_lang": "zh-TW",
+  "rating": 3.4,
+  "total_ratings": 151,
+  "location": {
+    "lat": 23.331075600000002,
+    "lng": 121.31241969999999
+  },
+  "address": "981花蓮縣玉里鎮中城里大同路210號",
+  "primary_type": "hotel",
+  "distance_km": 0.09,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

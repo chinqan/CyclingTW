@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ42A4PdLPbzQR-ZSjNBRW71Q",
+  "name_zh": "麻里マリ朝午食-太麻里店（店休臉書公告）",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 251,
+  "location": {
+    "lat": 22.6100264,
+    "lng": 121.0048094
+  },
+  "address": "963臺東縣太麻里鄉泰和村至善路17號",
+  "primary_type": "brunch_restaurant",
+  "primary_type_label": "早午餐餐廳",
+  "distance_km": 0.98,
+  "source": "api_2026-05-21",
+  "note": "早午餐餐廳",
+  "name_is_ascii": false
+}

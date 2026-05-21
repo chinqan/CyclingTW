@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJJ8DKvTSzaTQRWhzFwHtZrl8",
+  "name_zh": "櫻花樹夏民宿",
+  "name_lang": "zh",
+  "rating": 4.9,
+  "total_ratings": 371,
+  "location": {
+    "lat": 24.684673399999998,
+    "lng": 120.8797115
+  },
+  "address": "350007苗栗縣竹南鎮正南里中山路47號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.23,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJX10lb2ufaDQR_6BQTdcVStQ",
+  "name_zh": "餵咖哩WAIT CURRY花蓮美食＃後站美食#花蓮車站美食#慈濟美食#北埔美食花蓮",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 220,
+  "location": {
+    "lat": 23.995195199999998,
+    "lng": 121.5957528
+  },
+  "address": "970花蓮縣花蓮市國裕里富強路7號",
+  "primary_type": "japanese_curry_restaurant",
+  "primary_type_label": "日式咖哩餐廳",
+  "distance_km": 0.6,
+  "source": "api_2026-05-21",
+  "note": "日式咖哩餐廳",
+  "name_is_ascii": false
+}

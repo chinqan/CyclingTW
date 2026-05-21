@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJI7ZmUwBFaTQRTWBcCks6KJU",
+  "name_zh": "許老街小吃脆皮肉圓",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 10,
+  "location": {
+    "lat": 24.0552439,
+    "lng": 120.4332666
+  },
+  "address": "505彰化縣鹿港鎮鹿港大有街37號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.14,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

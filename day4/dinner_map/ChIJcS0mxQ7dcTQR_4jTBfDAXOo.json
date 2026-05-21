@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJcS0mxQ7dcTQR_4jTBfDAXOo",
+  "name_zh": "漁港飯湯",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 46,
+  "location": {
+    "lat": 22.3617347,
+    "lng": 120.59461979999998
+  },
+  "address": "940屏東縣枋寮鄉保生村海邊路",
+  "primary_type": "seafood_restaurant",
+  "primary_type_label": "海鮮餐廳",
+  "distance_km": 0.7,
+  "source": "api_2026-05-21",
+  "note": "海鮮餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ3fPJi4JrbzQRbgFN4CZgh_0",
+  "name_zh": "原鄉商旅",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 592,
+  "location": {
+    "lat": 23.331402399999998,
+    "lng": 121.31698920000001
+  },
+  "address": "981花蓮縣玉里鎮中城里民國路一段150號",
+  "primary_type": "hotel",
+  "distance_km": 0.54,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

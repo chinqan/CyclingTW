@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ8dtPxpmpQjQRzGWGLucfBAw",
+  "name_zh": "傑發丼飯咖哩飯食堂",
+  "name_lang": "zh",
+  "rating": 4.7,
+  "total_ratings": 136,
+  "location": {
+    "lat": 25.087388999999998,
+    "lng": 121.46710229999998
+  },
+  "address": "247新北市蘆洲區中原里中正路263巷2號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.46,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJ8-zTpZ9rbzQR09FJlCGXBX4",
   "name_zh": "鴨米鴨片飯",
+  "name_lang": "zh-TW",
   "rating": 4.3,
   "total_ratings": 457,
   "location": {
-    "lat": 23.329354,
-    "lng": 121.317266
+    "lat": 23.3293538,
+    "lng": 121.3172656
   },
-  "address": "花蓮縣玉里鎮仁愛路一段135號",
-  "note": "鴨肉飯 在地名店",
-  "source": "search_2026-07"
+  "address": "981花蓮縣玉里鎮中城里仁愛路一段135號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.62,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
 }

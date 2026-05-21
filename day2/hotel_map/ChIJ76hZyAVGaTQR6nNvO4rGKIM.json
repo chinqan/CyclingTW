@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ76hZyAVGaTQR6nNvO4rGKIM",
+  "name_zh": "鹿港紅樓精品旅館",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 788,
+  "location": {
+    "lat": 24.053503,
+    "lng": 120.4426956
+  },
+  "address": "506彰化縣福興鄉橋頭村橋和街62號",
+  "primary_type": "hotel",
+  "distance_km": 1.07,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

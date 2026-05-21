@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJLY7D38azaTQR3vI_nOreg-M",
+  "name_zh": "J.S Burger 漢堡樂園 （團體訂單滿額外送服務）",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 83,
+  "location": {
+    "lat": 24.6869664,
+    "lng": 120.8763704
+  },
+  "address": "350苗栗縣竹南鎮照南里博愛街112號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.43,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

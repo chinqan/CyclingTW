@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJgWHTtaPObzQRooTS_ol_DAs",
+  "name_zh": "日昇花園部落",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 83,
+  "location": {
+    "lat": 22.6293325,
+    "lng": 120.9936885
+  },
+  "address": "963臺東縣太麻里鄉大王村96371號",
+  "primary_type": "private_guest_room",
+  "distance_km": 1.65,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

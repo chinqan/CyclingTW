@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJFVI2Ji2zaTQRw3rb-UX256E",
   "name_zh": "上癮餐酒館",
+  "name_lang": "zh-TW",
   "rating": 4.6,
   "total_ratings": 830,
   "location": {
     "lat": 24.6914841,
     "lng": 120.8890335
   },
-  "address": "苗栗縣竹南鎮新南村公北一路151號",
-  "note": "餐酒館 義式料理 每天17:00-02:00",
-  "source": "search_2026-05-20"
+  "address": "350苗栗縣竹南鎮新南里公北一路151號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.01,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
 }

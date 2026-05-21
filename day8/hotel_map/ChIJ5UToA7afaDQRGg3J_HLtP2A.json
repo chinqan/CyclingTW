@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ5UToA7afaDQRGg3J_HLtP2A",
+  "name_zh": "經典假日飯店-花蓮火車站前 住宿推薦",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 1222,
+  "location": {
+    "lat": 23.993204,
+    "lng": 121.60473999999998
+  },
+  "address": "97050花蓮縣花蓮市國聯里國聯五路139號",
+  "primary_type": "hotel",
+  "distance_km": 0.36,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

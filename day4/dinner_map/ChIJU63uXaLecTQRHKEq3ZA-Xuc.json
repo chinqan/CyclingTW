@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJU63uXaLecTQRHKEq3ZA-Xuc",
+  "name_zh": "榕樹下酸辣湯",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 671,
+  "location": {
+    "lat": 22.390287999999998,
+    "lng": 120.59849159999997
+  },
+  "address": "940屏東縣枋寮鄉地利村復興路3號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 2.5,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

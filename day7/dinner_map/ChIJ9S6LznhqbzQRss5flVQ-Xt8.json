@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ9S6LznhqbzQRss5flVQ-Xt8",
+  "name_zh": "玉里新興街燒餅店",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 926,
+  "location": {
+    "lat": 23.3326483,
+    "lng": 121.31442820000001
+  },
+  "address": "981花蓮縣玉里鎮國武里和平路68-3號",
+  "primary_type": "breakfast_restaurant",
+  "primary_type_label": "早餐店",
+  "distance_km": 0.3,
+  "source": "api_2026-05-21",
+  "note": "早餐店",
+  "name_is_ascii": false
+}

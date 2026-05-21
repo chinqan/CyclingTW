@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ6_znnQGfaDQR6vNZcTh1XtE",
+  "name_zh": "奛食堂",
+  "name_lang": "zh-TW",
+  "rating": 3.8,
+  "total_ratings": 13,
+  "location": {
+    "lat": 23.9739827,
+    "lng": 121.59512249999999
+  },
+  "address": "970花蓮縣花蓮市中原路616號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 2.24,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

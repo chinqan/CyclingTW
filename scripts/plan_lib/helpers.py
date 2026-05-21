@@ -55,6 +55,12 @@ def dinner_map_dir(n: int) -> Path:
     return p
 
 
+def hotel_map_dir(n: int) -> Path:
+    p = day_dir(n) / "hotel_map"
+    p.mkdir(parents=True, exist_ok=True)
+    return p
+
+
 def read_json(path: Path) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
 

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ6yi-G7efaDQRR3PbGZHI8kM",
+  "name_zh": "永祺飯店",
+  "name_lang": "zh-TW",
+  "rating": 3.9,
+  "total_ratings": 240,
+  "location": {
+    "lat": 23.9902814,
+    "lng": 121.6018335
+  },
+  "address": "970花蓮縣花蓮市國聯里國聯一路139號",
+  "primary_type": "hotel",
+  "distance_km": 0.34,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

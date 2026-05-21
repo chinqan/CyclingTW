@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJxZBlg7_dcTQRcqQ2o4CpZ4g",
+  "name_zh": "枋寮鳥窩窩",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 28,
+  "location": {
+    "lat": 22.368021100000004,
+    "lng": 120.61507470000001
+  },
+  "address": "940屏東縣枋寮鄉隆山村隆山路356-11號",
+  "primary_type": "private_guest_room",
+  "distance_km": 2.05,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

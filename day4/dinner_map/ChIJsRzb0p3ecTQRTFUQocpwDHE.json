@@ -1,14 +1,18 @@
 {
   "place_id": "ChIJsRzb0p3ecTQRTFUQocpwDHE",
   "name_zh": "香堤綠園",
-  "csv_type": "餐廳",
+  "name_lang": "zh-TW",
   "rating": 4.5,
   "total_ratings": 568,
   "location": {
-    "lat": 22.388933,
-    "lng": 120.582873
+    "lat": 22.388933299999998,
+    "lng": 120.58287310000001
   },
-  "source": "search_2026-05-21",
-  "note": "日式料理",
-  "target": "places"
+  "address": "940屏東縣枋寮鄉地利村建興路萬基巷88號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 2.64,
+  "source": "api_2026-05-21",
+  "note": "日式餐廳",
+  "name_is_ascii": false
 }

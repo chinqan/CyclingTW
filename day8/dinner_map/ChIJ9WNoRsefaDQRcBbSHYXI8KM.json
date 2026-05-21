@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ9WNoRsefaDQRcBbSHYXI8KM",
+  "name_zh": "神田屋日式家庭料理",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 884,
+  "location": {
+    "lat": 23.9824838,
+    "lng": 121.606776
+  },
+  "address": "970花蓮縣花蓮市國安里林森路407號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 1.33,
+  "source": "api_2026-05-21",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

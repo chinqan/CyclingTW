@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJYakA8uapQjQRnpWSk39Vcnk",
+  "name_zh": "初鼎陶燒小鍋 - 新北蘆洲 人氣火鍋美食餐廳 必吃麻辣牛肉鍋 鴨血豆腐鍋 海陸分享鍋 特色陶燒鍋物推薦 公司聚餐首選",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 683,
+  "location": {
+    "lat": 25.0899418,
+    "lng": 121.4680594
+  },
+  "address": "24760新北市蘆洲區保新里三民路246號",
+  "primary_type": "hot_pot_restaurant",
+  "primary_type_label": "火鍋店",
+  "distance_km": 0.58,
+  "source": "api_2026-05-21",
+  "note": "火鍋店",
+  "name_is_ascii": false
+}

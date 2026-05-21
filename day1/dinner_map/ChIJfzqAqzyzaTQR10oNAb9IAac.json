@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJfzqAqzyzaTQR10oNAb9IAac",
   "name_zh": "灶咖食堂",
+  "name_lang": "zh-TW",
   "rating": 4.2,
   "total_ratings": 756,
   "location": {
     "lat": 24.6851694,
     "lng": 120.8782521
   },
-  "address": "苗栗縣竹南鎮竹南村民族街65-1號",
-  "note": "客家料理 車站旁步行5分鐘",
-  "source": "search_2026-05-20"
+  "address": "350苗栗縣竹南鎮竹南里民族街65-1號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.28,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
 }

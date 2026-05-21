@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJMSG24T2faDQR61p8nzSKWCg",
+  "name_zh": "福坊炭烤酌酒/花蓮美食/花蓮餐廳/花蓮餐酒館/花蓮晚餐/花蓮調酒/附近美食",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 222,
+  "location": {
+    "lat": 23.9740139,
+    "lng": 121.595066
+  },
+  "address": "970花蓮縣花蓮市主權里中原路618號左",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 2.24,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

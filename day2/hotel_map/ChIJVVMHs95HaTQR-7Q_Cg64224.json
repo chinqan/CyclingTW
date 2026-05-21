@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJVVMHs95HaTQR-7Q_Cg64224",
+  "name_zh": "公園一鹿背包客棧－鹿港背包住宿/青年平價旅館/彰化民宿推薦/機車環島住宿",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 325,
+  "location": {
+    "lat": 24.0589171,
+    "lng": 120.43757319999997
+  },
+  "address": "505彰化縣鹿港鎮永安里自強街50巷14號",
+  "primary_type": "hostel",
+  "distance_km": 0.58,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

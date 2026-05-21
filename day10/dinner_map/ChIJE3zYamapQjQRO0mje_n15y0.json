@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJE3zYamapQjQRO0mje_n15y0",
+  "name_zh": "雲鼎阿二麻辣食堂蘆洲店",
+  "name_lang": "zh-TW",
+  "rating": 3.6,
+  "total_ratings": 1145,
+  "location": {
+    "lat": 25.0827183,
+    "lng": 121.4629686
+  },
+  "address": "247新北市蘆洲區忠義里長榮路37號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.61,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

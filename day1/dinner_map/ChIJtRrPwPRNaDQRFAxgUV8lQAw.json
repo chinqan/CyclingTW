@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJtRrPwPRNaDQRFAxgUV8lQAw",
+  "name_zh": "浪子食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 93,
+  "location": {
+    "lat": 24.7063046,
+    "lng": 120.89937019999998
+  },
+  "address": "350苗栗縣竹南鎮大埔里大埔六街93號1樓",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 2.9,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

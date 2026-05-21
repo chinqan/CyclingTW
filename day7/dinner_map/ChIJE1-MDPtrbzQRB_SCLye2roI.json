@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJE1-MDPtrbzQRB_SCLye2roI",
+  "name_zh": "巫婆關東煮/紅麵線/臭豆腐/炸物/紅茶小吃攤",
+  "name_lang": "zh-TW",
+  "rating": 3.8,
+  "total_ratings": 10,
+  "location": {
+    "lat": 23.3341595,
+    "lng": 121.31385780000001
+  },
+  "address": "981花蓮縣玉里鎮中城里和平路579號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.37,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

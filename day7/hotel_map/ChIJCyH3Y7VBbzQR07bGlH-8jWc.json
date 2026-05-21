@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJCyH3Y7VBbzQR07bGlH-8jWc",
+  "name_zh": "長鈺渡假飯店",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 2,
+  "location": {
+    "lat": 23.343043899999998,
+    "lng": 121.31703499999999
+  },
+  "address": "981花蓮縣玉里鎮永昌里中華路365號",
+  "primary_type": "hotel",
+  "distance_km": 1.39,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

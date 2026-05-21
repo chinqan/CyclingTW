@@ -1,0 +1,369 @@
+{
+  "day": 4,
+  "candidates": [
+    {
+      "place_id": "ChIJW8ennT7ccTQReiNJtqprjM0",
+      "name_zh": "枋客文旅FangLiao Hotel",
+      "rating": 4.5,
+      "total_ratings": 2474,
+      "location": {
+        "lat": 22.3676329,
+        "lng": 120.5931991
+      },
+      "address": "940屏東縣枋寮鄉枋寮村中興路22-19號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJUzrQEV3dcTQRTMUsl9sr6jE",
+      "name_zh": "愛琴海岸海景精品民宿-枋寮店",
+      "rating": 4.9,
+      "total_ratings": 469,
+      "location": {
+        "lat": 22.3642434,
+        "lng": 120.5936586
+      },
+      "address": "940屏東縣枋寮鄉枋寮村德興路7號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJEZl6MCDccTQRdMBW4ztpHTo",
+      "name_zh": "枋寮民宿 鐵騎休息棧",
+      "rating": 4.7,
+      "total_ratings": 441,
+      "location": {
+        "lat": 22.380372299999998,
+        "lng": 120.59614699999999
+      },
+      "address": "940屏東縣枋寮鄉人和村中山路二段55號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJM7WHAkndcTQRtVpORURVRdY",
+      "name_zh": "枋寮帝寶16民宿",
+      "rating": 4.7,
+      "total_ratings": 145,
+      "location": {
+        "lat": 22.368679399999998,
+        "lng": 120.59251710000001
+      },
+      "address": "940屏东县枋寮乡新龙村中山路297巷16號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJgYuNIwDdcTQR0TOqh83xN5Y",
+      "name_zh": "駅海民宿",
+      "rating": 4.8,
+      "total_ratings": 63,
+      "location": {
+        "lat": 22.3673407,
+        "lng": 120.59197970000001
+      },
+      "address": "940屏東縣枋寮鄉枋寮村德興路92-1號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJlcPEhgvdcTQRr9C_w9VBoQY",
+      "name_zh": "春枋旅居",
+      "rating": 4.9,
+      "total_ratings": 116,
+      "location": {
+        "lat": 22.3670346,
+        "lng": 120.5923316
+      },
+      "address": "940屏東縣枋寮鄉枋寮村德興路78號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ3wiUV_rfcTQRveIHPJJd2og",
+      "name_zh": "枋寮枋居背包客棧Fang Ju Backpackers枋寮住宿民宿推薦",
+      "rating": 4.7,
+      "total_ratings": 121,
+      "location": {
+        "lat": 22.3846645,
+        "lng": 120.5981674
+      },
+      "address": "940屏東縣枋寮鄉人和村中華路164巷19號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ4YQOeEPdcTQRUfaxhdC-M8s",
+      "name_zh": "枋寮春來輕旅",
+      "rating": 4.6,
+      "total_ratings": 208,
+      "location": {
+        "lat": 22.3664362,
+        "lng": 120.59295009999998
+      },
+      "address": "940屏東縣枋寮鄉枋寮村中興路47號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJf0vE7JPdcTQRBYMCBAGXqt0",
+      "name_zh": "枋寮18遛遛居｜枋寮民宿｜可包棟",
+      "rating": 4.8,
+      "total_ratings": 104,
+      "location": {
+        "lat": 22.364980499999998,
+        "lng": 120.60229550000001
+      },
+      "address": "940屏東縣枋寮鄉隆山村隆興路218巷18號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJm5yzQRnccTQRjIYZ72Iwyz4",
+      "name_zh": "蘭欣花園汽車旅館",
+      "rating": 3.3,
+      "total_ratings": 107,
+      "location": {
+        "lat": 22.3752795,
+        "lng": 120.6010231
+      },
+      "address": "940屏東縣枋寮鄉人和村中正大路666號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJB5fArHDdcTQRGWq9SDXZQN0",
+      "name_zh": "枋寮9453民宿｜枋寮民宿",
+      "rating": 4.6,
+      "total_ratings": 17,
+      "location": {
+        "lat": 22.3677656,
+        "lng": 120.59255859999998
+      },
+      "address": "940屏東縣枋寮鄉枋寮村中興路2巷43號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJO0S_9IbfcTQRvZRJfpM6jgs",
+      "name_zh": "小象民宿",
+      "rating": 4.5,
+      "total_ratings": 52,
+      "location": {
+        "lat": 22.3880233,
+        "lng": 120.59320109999999
+      },
+      "address": "940屏東縣枋寮鄉地利村臨海路 21巷40號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ2VY28UbfcTQRDKBjIRMF5CA",
+      "name_zh": "Hello民宿(哈囉民宿)",
+      "rating": 4.8,
+      "total_ratings": 18,
+      "location": {
+        "lat": 22.386152799999998,
+        "lng": 120.58963709999999
+      },
+      "address": "940屏東縣枋寮鄉建興路499號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJxZBlg7_dcTQRcqQ2o4CpZ4g",
+      "name_zh": "枋寮鳥窩窩",
+      "rating": 4.6,
+      "total_ratings": 28,
+      "location": {
+        "lat": 22.368021100000004,
+        "lng": 120.61507470000001
+      },
+      "address": "940屏東縣枋寮鄉隆山村隆山路356-11號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJP7kqFoTdcTQRNd0AKNlvhWE",
+      "name_zh": "漾漾漫旅",
+      "rating": 4.8,
+      "total_ratings": 40,
+      "location": {
+        "lat": 22.365073499999998,
+        "lng": 120.59317149999998
+      },
+      "address": "94003屏東縣枋寮鄉枋寮村德興路1巷5-1號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJJzVOzz7ccTQRvH4Yg1jOuBk",
+      "name_zh": "枋寮民宿 天氣晴",
+      "rating": 4.3,
+      "total_ratings": 87,
+      "location": {
+        "lat": 22.3659781,
+        "lng": 120.59198660000001
+      },
+      "address": "940屏東縣枋寮鄉枋寮村中興路78號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ_R9ak0zdcTQRXSwEzZA75gw",
+      "name_zh": "枋寮訪寮民宿",
+      "rating": 4.5,
+      "total_ratings": 34,
+      "location": {
+        "lat": 22.3680789,
+        "lng": 120.5944451
+      },
+      "address": "940屏東縣枋寮鄉枋寮村中興路4巷16號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ9-9_eBXccTQRXpkCv1k0SVs",
+      "name_zh": "海之方圓旅店",
+      "rating": 4.3,
+      "total_ratings": 52,
+      "location": {
+        "lat": 22.364103399999998,
+        "lng": 120.59751809999999
+      },
+      "address": "940屏東縣枋寮鄉隆山村隆山路85號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ-1lGLQDdcTQRbjtfe4uhzSA",
+      "name_zh": "豆魚民宿",
+      "rating": 5,
+      "total_ratings": 8,
+      "location": {
+        "lat": 22.3661496,
+        "lng": 120.591814
+      },
+      "address": "940屏東縣枋寮鄉枋寮村沿海路9號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJlY2JQT7ccTQR6wzluTL3pj8",
+      "name_zh": "江南旅社",
+      "rating": 3.7,
+      "total_ratings": 46,
+      "location": {
+        "lat": 22.3653701,
+        "lng": 120.5955316
+      },
+      "address": "940屏東縣枋寮鄉枋寮村中山路187號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJUR_80T3ccTQR3aR2gesnErk",
+      "name_zh": "驛站-宿",
+      "rating": 3.2,
+      "total_ratings": 13,
+      "location": {
+        "lat": 22.3679979,
+        "lng": 120.5944566
+      },
+      "address": "940屏東縣枋寮鄉枋寮村中興路4巷1號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJuaWxzT3ccTQRqf5QTuKIl8s",
+      "name_zh": "枋寮民宿背包旅店",
+      "rating": 4,
+      "total_ratings": 98,
+      "location": {
+        "lat": 22.3682642,
+        "lng": 120.59438650000001
+      },
+      "address": "940屏東縣枋寮鄉枋寮村中興路4巷20號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ1UrcyD7ccTQRNY_SeAAN96I",
+      "name_zh": "沿海45 - 屏東枋寮海邊民宿小屋",
+      "rating": 4.4,
+      "total_ratings": 40,
+      "location": {
+        "lat": 22.3670746,
+        "lng": 120.5908613
+      },
+      "address": "940屏東縣枋寮鄉枋寮村沿海路45號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJjcOHR5PdcTQRACEfP3aZu-4",
+      "name_zh": "遊客民宿",
+      "rating": 4,
+      "total_ratings": 8,
+      "location": {
+        "lat": 22.3687762,
+        "lng": 120.59289690000001
+      },
+      "address": "940屏東縣枋寮鄉枋寮村中山路281號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ9V4QPRTccTQR5jHY7NOX3Ug",
+      "name_zh": "若華軒民宿",
+      "rating": 4.2,
+      "total_ratings": 47,
+      "location": {
+        "lat": 22.3652336,
+        "lng": 120.60115169999999
+      },
+      "address": "940屏東縣枋寮鄉隆山村隆興路247號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJUaZ2QhnccTQROwkj-r3xam0",
+      "name_zh": "蘭心山莊民宿",
+      "rating": 4.5,
+      "total_ratings": 86,
+      "location": {
+        "lat": 22.3752747,
+        "lng": 120.60104399999999
+      },
+      "address": "940屏東縣枋寮鄉人和村中正大路666-2號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ0Yd9NWTdcTQRjpq_f2BQojM",
+  "name_zh": "懿貞食堂",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 17,
+  "location": {
+    "lat": 22.366992,
+    "lng": 120.59377309999998
+  },
+  "address": "940屏東縣枋寮鄉枋寮村中興路21號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.18,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

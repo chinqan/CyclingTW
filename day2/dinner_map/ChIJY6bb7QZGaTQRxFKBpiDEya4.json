@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJY6bb7QZGaTQRxFKBpiDEya4",
   "name_zh": "i-Life廚房",
+  "name_lang": "zh-TW",
   "rating": 4.6,
   "total_ratings": 438,
   "location": {
-    "lat": 24.0521512,
+    "lat": 24.052151199999997,
     "lng": 120.4394783
   },
-  "address": "彰化縣鹿港鎮復興路112巷12號",
-  "note": "創意料理 環境清新",
-  "source": "search_2026-05-20"
+  "address": "506彰化縣福興鄉橋頭村復興路112巷12號506",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.84,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
 }

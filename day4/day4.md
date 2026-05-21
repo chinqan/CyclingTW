@@ -137,14 +137,31 @@ ishikawa-beta
 
 | # | 店名 | 評分 | 留言數 | 貝葉斯分 | 備註 |
 |:---:|:---|:---:|---:|:---:|:---|
-| 1 | [大叔叔廚房](https://www.google.com/maps/place/?q=place_id:ChIJ3xvN1QndcTQRPXjQ1WXgCow) | 4.8★ | 442 | 4.7196 | 精緻料理 |
-| 2 | [枋新饗樂](https://www.google.com/maps/place/?q=place_id:ChIJD1RqKNrdcTQRQH9MSp1ebvY) | 4.9★ | 173 | 4.7175 | 精緻餐點 |
-| 3 | [阿弟深海魚](https://www.google.com/maps/place/?q=place_id:ChIJB2e3xMTdcTQReS6qGZMIR3g) | 4.8★ | 273 | 4.7132 | 深海海鮮專門 |
-| 4 | [巷子口河粉](https://www.google.com/maps/place/?q=place_id:ChIJvU_JlsHdcTQRNynrgvQrYlQ) | 4.8★ | 98 | 4.7053 | 越式河粉 |
-| 5 | [阮家茶坊](https://www.google.com/maps/place/?q=place_id:ChIJyaO_4j7ccTQRIqSfs10f5ok) | 4.7★ | 3275 | 4.7001 | 茶飲+餐食 車站旁 |
+| 1 | [水綠方創意鍋物( 平日中午收客到1330 假日中午收客到1400)(停車場在水底寮夜市空地)-枋寮熱門鍋物|特色鍋物|人氣鍋物|海鮮火鍋|必吃火鍋|聚餐餐廳|在地推薦火鍋|麻辣火鍋](https://www.google.com/maps/place/?q=place_id:ChIJj0ZdVxHfcTQRz3Jn1Z0sSSQ) | 4.8★ | 2086 | 4.7343 | 火鍋店 |
+| 2 | [田媽媽 蘭欣食坊（原天之椒子） ｜ 屏東枋寮秘境雞湯火鍋餐廳・親子農場](https://www.google.com/maps/place/?q=place_id:ChIJxyInh0bdcTQRVs4QDPAG3gE) | 4.9★ | 586 | 4.7023 | 餐廳 |
+| 3 | [枋寮椰們海景餐廳Pi coconut](https://www.google.com/maps/place/?q=place_id:ChIJLy6ZsW7dcTQRfcnxoPfeF-8) | 4.7★ | 8843 | 4.688 | 餐廳 |
+| 4 | [阮家茶坊](https://www.google.com/maps/place/?q=place_id:ChIJyaO_4j7ccTQRIqSfs10f5ok) | 4.7★ | 3276 | 4.671 | 餐廳 |
+| 5 | [大叔叔廚房](https://www.google.com/maps/place/?q=place_id:ChIJ3xvN1QndcTQRPXjQ1WXgCow) | 4.8★ | 442 | 4.6365 | 餐廳 |
 
 > 💡 *排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）*
 > 📋 *[看更多 >>](./day4_dinner.md)*
+
+---
+
+
+
+## 住宿推薦 🏨
+
+| # | 飯店 | 評分 | 留言數 | 貝葉斯分 | 備註 |
+|:---:|:---|:---:|---:|:---:|:---|
+| 1 | [愛琴海岸海景精品民宿-枋寮店](https://www.google.com/maps/place/?q=place_id:ChIJUzrQEV3dcTQRTMUsl9sr6jE) | 4.9★ | 469 | 4.7961 |  |
+| 2 | [春枋旅居](https://www.google.com/maps/place/?q=place_id:ChIJlcPEhgvdcTQRr9C_w9VBoQY) | 4.9★ | 116 | 4.676 |  |
+| 3 | [枋寮民宿 鐵騎休息棧](https://www.google.com/maps/place/?q=place_id:ChIJEZl6MCDccTQRdMBW4ztpHTo) | 4.7★ | 441 | 4.6516 |  |
+| 4 | [枋寮18遛遛居｜枋寮民宿｜可包棟](https://www.google.com/maps/place/?q=place_id:ChIJf0vE7JPdcTQRBYMCBAGXqt0) | 4.8★ | 104 | 4.6314 |  |
+| 5 | [枋寮帝寶16民宿](https://www.google.com/maps/place/?q=place_id:ChIJM7WHAkndcTQRtVpORURVRdY) | 4.7★ | 145 | 4.6087 |  |
+
+> 💡 *終點周邊 3 公里 · 26 筆候選 · IMDB 風格貝葉斯平均*
+> 📋 *[看更多 >>](./day4_hotel.md)*
 
 ---
 

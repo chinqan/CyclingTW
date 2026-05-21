@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJm2AvzbvZbTQRYtp9vEVcKZ0",
+  "name_zh": "台南土城 米粉媽嫩骨鍋燒意麵｜日式便當",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 188,
+  "location": {
+    "lat": 23.0657663,
+    "lng": 120.1312162
+  },
+  "address": "709臺南市安南區城東里城北路201號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.43,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJefvgzrOfaDQRpEmHUn60K6w",
+  "name_zh": "花蓮阿羅國際青年旅舍",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 265,
+  "location": {
+    "lat": 23.9951185,
+    "lng": 121.5974521
+  },
+  "address": "970花蓮縣花蓮市國裕里富吉路58-3號",
+  "primary_type": "hotel",
+  "distance_km": 0.43,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

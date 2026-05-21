@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJDX4v7F2pQjQR6xjgvHXyL-A",
+  "name_zh": "喜悅美食館蘆洲豬腳飯",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 185,
+  "location": {
+    "lat": 25.0840891,
+    "lng": 121.4743008
+  },
+  "address": "247新北市蘆洲區仁復里得勝街14號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.26,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

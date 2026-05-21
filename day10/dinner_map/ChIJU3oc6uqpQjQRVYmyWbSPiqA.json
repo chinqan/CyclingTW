@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJU3oc6uqpQjQRVYmyWbSPiqA",
+  "name_zh": "四木欣福 蘆洲店",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 1084,
+  "location": {
+    "lat": 25.0886818,
+    "lng": 121.4791379
+  },
+  "address": "247新北市芦洲区楼厝里民族路248-1號1樓",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 1.66,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJV2ve_v1FaTQR-f0DBh454Dg",
+  "name_zh": "LeeLi's",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 1519,
+  "location": {
+    "lat": 24.051552599999997,
+    "lng": 120.4355648
+  },
+  "address": "505彰化縣鹿港鎮興化里興化街40-1號號 50569",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.61,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": true
+}

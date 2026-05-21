@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJrX5SeZwgZjQR8qg2ClWkGqc",
+  "name_zh": "洋基牧場",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 2206,
+  "location": {
+    "lat": 23.9826324,
+    "lng": 121.6187315
+  },
+  "address": "970花蓮縣花蓮市民德里中美路34號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 2.14,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

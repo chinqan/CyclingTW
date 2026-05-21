@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJvZLCTNefaDQR5nolY9Fuuvc",
+  "name_zh": "花蓮海悅酒店",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 2122,
+  "location": {
+    "lat": 23.981728999999998,
+    "lng": 121.620296
+  },
+  "address": "970花蓮縣花蓮市民德里民權路5號",
+  "primary_type": "hotel",
+  "distance_km": 2.32,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJI4-CL6KzaTQRB9hkESTWiSY",
+  "name_zh": "主顧客鐵板燒(竹南)",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 11,
+  "location": {
+    "lat": 24.6869752,
+    "lng": 120.87757739999999
+  },
+  "address": "350苗栗縣竹南鎮博愛街68號竹南市場和平街上，紅磚牛排斜對面",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.3,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

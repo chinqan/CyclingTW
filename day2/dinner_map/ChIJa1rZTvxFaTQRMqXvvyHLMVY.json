@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJa1rZTvxFaTQRMqXvvyHLMVY",
+  "name_zh": "王罔麵線糊",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 7561,
+  "location": {
+    "lat": 24.053760399999998,
+    "lng": 120.4320815
+  },
+  "address": "505彰化縣鹿港鎮大有里民族路268號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.29,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

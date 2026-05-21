@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJoydxCslMaDQRP9BaPMulafw",
+  "name_zh": "谷軒日式食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 1206,
+  "location": {
+    "lat": 24.6948948,
+    "lng": 120.900847
+  },
+  "address": "351苗栗縣頭份市中興里建國路二段256號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 2.25,
+  "source": "api_2026-05-21",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJVR3Tu0uzcTQRxzrRUahivdg",
+  "name_zh": "海山露營區",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 191,
+  "location": {
+    "lat": 21.9111086,
+    "lng": 120.84826429999998
+  },
+  "address": "946屏東縣恆春鎮島路200-2號",
+  "primary_type": "campground",
+  "distance_km": 1.08,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

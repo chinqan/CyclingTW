@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJXfkgNEpFaTQRzsnAEuMP_uY",
+  "name_zh": "小五民宿",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 108,
+  "location": {
+    "lat": 24.061892399999998,
+    "lng": 120.43306159999999
+  },
+  "address": "505006彰化縣鹿港鎮郭厝里郭厝巷140號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.62,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

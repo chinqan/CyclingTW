@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJTSFMHbafaDQRKb1dAWFkni4",
+  "name_zh": "花時間民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 120,
+  "location": {
+    "lat": 23.9917489,
+    "lng": 121.6054205
+  },
+  "address": "970花蓮縣花蓮市國盛里國聯五路100號",
+  "primary_type": "hotel",
+  "distance_km": 0.46,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

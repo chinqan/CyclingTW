@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJM4mYK5fdcTQRkUdymZlLB88",
+  "name_zh": "右慈的店",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 135,
+  "location": {
+    "lat": 22.362551099999997,
+    "lng": 120.5940434
+  },
+  "address": "940屏東縣枋寮鄉保生村海邊路328號",
+  "primary_type": "seafood_restaurant",
+  "primary_type_label": "海鮮餐廳",
+  "distance_km": 0.62,
+  "source": "api_2026-05-21",
+  "note": "海鮮餐廳",
+  "name_is_ascii": false
+}

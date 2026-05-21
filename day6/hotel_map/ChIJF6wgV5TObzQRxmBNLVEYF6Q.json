@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJF6wgV5TObzQRxmBNLVEYF6Q",
+  "name_zh": "東方 商務旅館",
+  "name_lang": "zh-TW",
+  "rating": 3.9,
+  "total_ratings": 221,
+  "location": {
+    "lat": 22.6118113,
+    "lng": 121.00669780000001
+  },
+  "address": "963臺東縣太麻里鄉泰和村外環路66號",
+  "primary_type": "hotel",
+  "distance_km": 0.8,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

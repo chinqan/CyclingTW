@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ2a_biF1HaTQR9pL75WWyt2Q",
+  "name_zh": "茗園和食料理",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 321,
+  "location": {
+    "lat": 24.052152,
+    "lng": 120.43942480000001
+  },
+  "address": "506彰化縣福興鄉橋頭村復興路112巷10號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 0.83,
+  "source": "api_2026-05-21",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

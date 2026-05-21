@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJwwyVZWGfaDQRF7dPOWA8nOA",
+  "name_zh": "宥翔小館(Chinese Family Restaurant)",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 84,
+  "location": {
+    "lat": 23.988588999999997,
+    "lng": 121.6005478
+  },
+  "address": "970花蓮縣花蓮市國聯里中山路466號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.53,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

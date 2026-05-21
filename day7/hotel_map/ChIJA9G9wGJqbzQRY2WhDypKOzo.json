@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJA9G9wGJqbzQRY2WhDypKOzo",
+  "name_zh": "林家厝民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 9,
+  "location": {
+    "lat": 23.3290971,
+    "lng": 121.30989919999999
+  },
+  "address": "981花蓮縣玉里鎮水源路239號981",
+  "primary_type": "hotel",
+  "distance_km": 0.33,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

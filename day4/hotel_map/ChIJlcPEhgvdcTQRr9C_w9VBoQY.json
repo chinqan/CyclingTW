@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJlcPEhgvdcTQRr9C_w9VBoQY",
+  "name_zh": "春枋旅居",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 116,
+  "location": {
+    "lat": 22.3670346,
+    "lng": 120.5923316
+  },
+  "address": "940屏東縣枋寮鄉枋寮村德興路78號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.3,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

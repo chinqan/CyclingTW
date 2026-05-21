@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJK3Z8pyOzaTQR7Y7LNGmLMtY",
+  "name_zh": "mr.K餐酒館",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 245,
+  "location": {
+    "lat": 24.6912015,
+    "lng": 120.87340239999999
+  },
+  "address": "350苗栗縣竹南鎮聖福里延平路207號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.89,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

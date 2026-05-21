@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ1cFc5uRDbzQRvopWgtTkLwo",
+  "name_zh": "米達碳烤雞排",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 712,
+  "location": {
+    "lat": 23.3291352,
+    "lng": 121.31720449999999
+  },
+  "address": "981花蓮縣玉里鎮中城里仁愛路一段127號",
+  "primary_type": "chicken_restaurant",
+  "primary_type_label": "雞肉料理餐廳",
+  "distance_km": 0.62,
+  "source": "api_2026-05-21",
+  "note": "雞肉料理餐廳",
+  "name_is_ascii": false
+}

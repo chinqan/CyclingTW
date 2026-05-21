@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJAQTrrnKzaTQR8R5h41n_6kQ",
+  "name_zh": "龍鳳閣海景餐廳",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 1128,
+  "location": {
+    "lat": 24.700012500000003,
+    "lng": 120.8614555
+  },
+  "address": "350苗栗縣竹南鎮天文里龍江街372巷1號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 2.44,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJhyQoyFg2aTQRZCsdSRGifDA",
+  "name_zh": "麥當勞-鹿港中正餐廳－設有得來速",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 2996,
+  "location": {
+    "lat": 24.059497999999998,
+    "lng": 120.4385311
+  },
+  "address": "505彰化縣鹿港鎮永安里中正路415號1樓",
+  "primary_type": "fast_food_restaurant",
+  "primary_type_label": "速食餐廳",
+  "distance_km": 0.7,
+  "source": "api_2026-05-21",
+  "note": "速食餐廳",
+  "name_is_ascii": false
+}

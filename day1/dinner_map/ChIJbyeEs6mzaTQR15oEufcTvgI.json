@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJbyeEs6mzaTQR15oEufcTvgI",
+  "name_zh": "吳點點葷素滷味",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 13,
+  "location": {
+    "lat": 24.6870841,
+    "lng": 120.877842
+  },
+  "address": "350苗栗縣竹南鎮照南里博愛街66號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.28,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

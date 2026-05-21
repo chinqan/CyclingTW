@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJBwvPTavdcTQR6Wzvkr3eAK8",
+  "name_zh": "湘奈鹅特色美食",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 129,
+  "location": {
+    "lat": 22.363350699999998,
+    "lng": 120.59501139999999
+  },
+  "address": "940屏東縣枋寮鄉安樂村安樂路122號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.52,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

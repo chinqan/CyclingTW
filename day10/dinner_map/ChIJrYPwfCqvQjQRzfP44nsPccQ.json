@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJrYPwfCqvQjQRzfP44nsPccQ",
+  "name_zh": "くら寿司 藏壽司 三重集賢路店",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 8724,
+  "location": {
+    "lat": 25.0889852,
+    "lng": 121.4908967
+  },
+  "address": "241新北市三重區富貴里集賢路99號",
+  "primary_type": "sushi_restaurant",
+  "primary_type_label": "壽司店",
+  "distance_km": 2.85,
+  "source": "api_2026-05-21",
+  "note": "壽司店",
+  "name_is_ascii": false
+}

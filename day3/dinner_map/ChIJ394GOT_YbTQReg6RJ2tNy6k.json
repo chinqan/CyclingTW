@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ394GOT_YbTQReg6RJ2tNy6k",
+  "name_zh": "青葉活海產飲食店",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 218,
+  "location": {
+    "lat": 23.0611694,
+    "lng": 120.1309678
+  },
+  "address": "709臺南市安南區城中里安中路六段509號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.68,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

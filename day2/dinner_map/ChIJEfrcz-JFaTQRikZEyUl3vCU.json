@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJEfrcz-JFaTQRikZEyUl3vCU",
+  "name_zh": "林明堂素食麵 菜卷",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 2987,
+  "location": {
+    "lat": 24.0576124,
+    "lng": 120.4336111
+  },
+  "address": "505彰化縣鹿港鎮順興里介壽路三段66號",
+  "primary_type": "vegetarian_restaurant",
+  "primary_type_label": "素食餐廳",
+  "distance_km": 0.18,
+  "source": "api_2026-05-21",
+  "note": "素食餐廳",
+  "name_is_ascii": false
+}

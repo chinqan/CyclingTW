@@ -1,14 +1,18 @@
 {
   "place_id": "ChIJCZ5-NkTdcTQRez02QVSxOrQ",
   "name_zh": "枋寮食三香飯庄",
-  "csv_type": "餐廳",
+  "name_lang": "zh-TW",
   "rating": 4.7,
-  "total_ratings": 964,
+  "total_ratings": 969,
   "location": {
-    "lat": 22.366026,
-    "lng": 120.593951
+    "lat": 22.3660259,
+    "lng": 120.59395069999998
   },
-  "source": "search_2026-05-21",
-  "note": "在地家常小館",
-  "target": "places"
+  "address": "940屏東縣枋寮鄉枋寮村中興路1巷19-1號",
+  "primary_type": "family_restaurant",
+  "primary_type_label": "家庭餐廳",
+  "distance_km": 0.25,
+  "source": "api_2026-05-21",
+  "note": "家庭餐廳",
+  "name_is_ascii": false
 }

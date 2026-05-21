@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJH4uO3gJNaDQRPComfgqYtVU",
   "name_zh": "阿瑩斤餅專門店",
+  "name_lang": "zh-TW",
   "rating": 4.7,
   "total_ratings": 347,
   "location": {
-    "lat": 24.7046421,
-    "lng": 120.900935
+    "lat": 24.704642099999997,
+    "lng": 120.90093499999999
   },
-  "address": "苗栗縣竹南鎮大埔村大埔七街128號",
-  "note": "手工斤餅外帶 週一二公休",
-  "source": "search_2026-05-20"
+  "address": "350苗栗縣竹南鎮大埔里大埔七街128號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 2.87,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
 }

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJGzA0JOFFaTQRpBYdQ61ThEs",
+  "name_zh": "鹿厝老街民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 77,
+  "location": {
+    "lat": 24.0560843,
+    "lng": 120.43240960000001
+  },
+  "address": "505彰化縣鹿港鎮洛津里成功路",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.03,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

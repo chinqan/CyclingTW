@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJz_hkov1FaTQRgLgxmlImb-A",
+  "name_zh": "蚯蚓龍山麵線糊",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 3727,
+  "location": {
+    "lat": 24.053817,
+    "lng": 120.43417500000001
+  },
+  "address": "505彰化縣鹿港鎮興化里民族路193號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.32,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

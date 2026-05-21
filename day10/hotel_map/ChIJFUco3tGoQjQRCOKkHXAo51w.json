@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJFUco3tGoQjQRCOKkHXAo51w",
+  "name_zh": "樂頤飯店 La Clé Hotel Taipei",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 821,
+  "location": {
+    "lat": 25.082083899999997,
+    "lng": 121.4799862
+  },
+  "address": "247新北市蘆洲區恆德里集賢路402號3樓",
+  "primary_type": "hotel",
+  "distance_km": 1.88,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

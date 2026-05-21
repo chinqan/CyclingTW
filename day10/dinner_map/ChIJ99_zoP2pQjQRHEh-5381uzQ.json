@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ99_zoP2pQjQRHEh-5381uzQ",
+  "name_zh": "江師傅食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 131,
+  "location": {
+    "lat": 25.0819477,
+    "lng": 121.4739558
+  },
+  "address": "247新北市蘆洲區樹德里中山二路47號1樓",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 1.34,
+  "source": "api_2026-05-21",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

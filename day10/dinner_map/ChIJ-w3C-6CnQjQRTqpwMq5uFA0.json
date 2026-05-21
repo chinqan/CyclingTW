@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ-w3C-6CnQjQRTqpwMq5uFA0",
+  "name_zh": "鼎旺 滷肉飯 切仔麵 米粉 冬粉",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 7,
+  "location": {
+    "lat": 25.087356099999997,
+    "lng": 121.43334889999998
+  },
+  "address": "248新北市五股區民義里工商路148-12號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 2.95,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

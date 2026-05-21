@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ0cfbdwCzaTQRlM3MnRjRg-U",
+  "name_zh": "心心食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 50,
+  "location": {
+    "lat": 24.701680200000002,
+    "lng": 120.87840320000001
+  },
+  "address": "350苗栗縣竹南鎮山佳里龍山路三段110號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.69,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

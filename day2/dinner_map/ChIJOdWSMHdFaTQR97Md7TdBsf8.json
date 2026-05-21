@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJOdWSMHdFaTQR97Md7TdBsf8",
+  "name_zh": "神樂亭（現場候位、沒有訂位服務）",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 369,
+  "location": {
+    "lat": 24.0531805,
+    "lng": 120.43535659999999
+  },
+  "address": "505彰化縣鹿港鎮泰興里中山路133之4號",
+  "primary_type": "sushi_restaurant",
+  "primary_type_label": "壽司店",
+  "distance_km": 0.45,
+  "source": "api_2026-05-21",
+  "note": "壽司店",
+  "name_is_ascii": false
+}

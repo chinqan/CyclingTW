@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJkxskdNVrbzQRxKPwz0-Lp3U",
+  "name_zh": "時雨青旅民宿 Bliss inn",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 119,
+  "location": {
+    "lat": 23.3276529,
+    "lng": 121.31155419999999
+  },
+  "address": "981花蓮縣玉里鎮中城里城西一街98號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.43,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

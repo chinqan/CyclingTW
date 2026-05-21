@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ99TlEOJFaTQRUdCtj7QV300",
+  "name_zh": "鹿嚼饗原塊牛排精緻自助吧",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 1443,
+  "location": {
+    "lat": 24.062040399999997,
+    "lng": 120.43470649999999
+  },
+  "address": "505彰化縣鹿港鎮埔崙里建國路151號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.67,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

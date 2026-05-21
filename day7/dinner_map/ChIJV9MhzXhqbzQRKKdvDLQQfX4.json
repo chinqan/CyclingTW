@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJV9MhzXhqbzQRKKdvDLQQfX4",
+  "name_zh": "好餃子",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 154,
+  "location": {
+    "lat": 23.337900100000002,
+    "lng": 121.31433109999999
+  },
+  "address": "981花蓮縣玉里鎮泰昌里新興街39號",
+  "primary_type": "dumpling_restaurant",
+  "primary_type_label": "水餃店",
+  "distance_km": 0.76,
+  "source": "api_2026-05-21",
+  "note": "水餃店",
+  "name_is_ascii": false
+}

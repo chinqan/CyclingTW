@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJFYmlucGfaDQRLdMuqxc6mJA",
+  "name_zh": "花蓮公正包子店",
+  "name_lang": "zh-TW",
+  "rating": 3.9,
+  "total_ratings": 19804,
+  "location": {
+    "lat": 23.9734447,
+    "lng": 121.6059897
+  },
+  "address": "970花蓮縣花蓮市主睦里仁愛街46號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 2.26,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJMZoHgrCoQjQRw5bUDHGHKJ0",
+  "name_zh": "昭和園日式燒肉-蘆洲店",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 6525,
+  "location": {
+    "lat": 25.082679799999998,
+    "lng": 121.4602939
+  },
+  "address": "247新北市蘆洲區忠義里中原路27號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.66,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

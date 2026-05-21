@@ -1,24 +1,296 @@
-"""晚餐選點：dinner-put / dinner-diff / dinner-status / dinner-pool / dinner-review。
+"""晚餐選點：dinner-search / dinner-pool / dinner-render (+ dinner-status / dinner-review / dinner-put)。
 
 本地鏡像 DB：dayN/dinner_map/
   - index.json         索引（候選名單 + 入選標記）
   - <place_id>.json    每間餐廳完整資料（write-through 更新）
 
-工作流（與景點 mirror 完全對稱）：
-  1. Claude 用 MCP 在終點方圓 3km 搜尋 15 間餐廳/小吃
-  2. Claude 對每間呼叫 place_details 取得 rating + total_ratings
-  3. dinner-diff N  — 比對本地 vs 線上最新
-  4. dinner-put N   — 逐筆 upsert 寫回本地鏡像（不管有無差異都寫）
-  5. dinner-pool N  — 從鏡像完整候選池算 Bayesian、選 top 5，存 _plan/dinner.json
-  6. dinner-review N — 顯示完整排名 + ★入選標記
+工作流：
+  1. dinner-search N — 從 places.json 終點呼叫 Google Places API 搜尋周邊 3km
+                       餐廳（searchNearby + 多組 searchText），zh-TW 語言碼，
+                       自動 upsert 到 dinner_map/，並過濾 primary_type 非餐廳類
+  2. dinner-pool N  — 從鏡像完整候選池算 Bayesian、選 top 5，存 _plan/dinner.json
+  3. dinner-render N — 產 dayN_dinner.md
+
+備援：
+  - dinner-put N   — [stdin] 手動 upsert 單筆/陣列（覆寫 name_zh、補純英文點）
+  - dinner-status N — 鏡像現況
+  - dinner-review N — 完整排名
 """
 from __future__ import annotations
 
 import json
+import os
+import time
+
+try:
+    import urllib.request
+    import urllib.error
+except ImportError:
+    pass
 
 from .helpers import ROOT, plan_dir, dinner_map_dir, read_json, write_json, read_stdin_json, die, info, haversine_km
 
 DEDUPE_RADIUS_KM = 0.05  # 50m 內同名視為同一家店
+
+# Google Places API (New) 設定
+PLACES_API_BASE = "https://places.googleapis.com/v1/places"
+DINNER_FIELD_MASK = ",".join([
+    "places.id",
+    "places.displayName",
+    "places.location",
+    "places.rating",
+    "places.userRatingCount",
+    "places.formattedAddress",
+    "places.primaryType",
+    "places.primaryTypeDisplayName",
+])
+
+DEFAULT_SEARCH_RADIUS_M = 3000
+DEFAULT_MAX_RESULTS_PER_QUERY = 20
+SEARCH_TEXT_QUERIES = ["餐廳", "美食", "小吃", "食堂"]
+
+# 餐廳類 primary_type 過濾：
+#   - 任何含 "restaurant" 的子類（chinese_/japanese_/seafood_ 等）皆放行
+#   - 加上幾個無 restaurant 字根但屬於正餐的類型
+DINNER_EXTRA_TYPES = {
+    "food", "cafe", "meal_takeaway", "meal_delivery",
+    "bakery", "diner", "deli", "sandwich_shop",
+    "steak_house", "ice_cream_shop", "donut_shop",
+    "fast_food_restaurant",  # 大部分本來就含 restaurant，留著保險
+}
+
+
+# ─────────────────────────────────────────────────────────────────
+# Google Places API 搜尋
+# ─────────────────────────────────────────────────────────────────
+
+def _get_api_key() -> str:
+    key = os.environ.get("GOOGLE_PLACES_API_KEY", "")
+    if not key:
+        die(
+            "缺少 GOOGLE_PLACES_API_KEY 環境變數。\n"
+            "請至 https://console.cloud.google.com/apis/credentials 建立 API Key，\n"
+            "並啟用 Places API (New)。"
+        )
+    return key
+
+
+def _has_cjk(s: str) -> bool:
+    if not s:
+        return False
+    return any('一' <= c <= '鿿' for c in s)
+
+
+def _is_dinner_type(pt: str | None) -> bool:
+    """白名單：含 restaurant 子類，或屬於 DINNER_EXTRA_TYPES。"""
+    if not pt:
+        return True  # 無 type 暫且放行（人工會在 Bayesian 後檢查）
+    if "restaurant" in pt:
+        return True
+    return pt in DINNER_EXTRA_TYPES
+
+
+def _post_places_api(url: str, body: dict, api_key: str) -> dict:
+    data = json.dumps(body).encode("utf-8")
+    req = urllib.request.Request(
+        url,
+        data=data,
+        method="POST",
+        headers={
+            "Content-Type": "application/json",
+            "X-Goog-Api-Key": api_key,
+            "X-Goog-FieldMask": DINNER_FIELD_MASK,
+            "X-Goog-Api-Language": "zh-TW",
+        },
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=20) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        body_text = e.read().decode("utf-8", errors="replace")
+        die(f"Places API HTTP {e.code}:\n{body_text}")
+    except urllib.error.URLError as e:
+        die(f"Places API 網路錯誤：{e.reason}")
+
+
+def _search_nearby(lat: float, lng: float, radius_m: int, api_key: str) -> list[dict]:
+    body = {
+        "includedTypes": ["restaurant"],
+        "maxResultCount": DEFAULT_MAX_RESULTS_PER_QUERY,
+        "languageCode": "zh-TW",
+        "regionCode": "TW",
+        "locationRestriction": {
+            "circle": {
+                "center": {"latitude": lat, "longitude": lng},
+                "radius": float(radius_m),
+            },
+        },
+    }
+    resp = _post_places_api(f"{PLACES_API_BASE}:searchNearby", body, api_key)
+    return resp.get("places", []) or []
+
+
+def _search_text(query: str, lat: float, lng: float, radius_m: int, api_key: str) -> list[dict]:
+    body = {
+        "textQuery": query,
+        "maxResultCount": DEFAULT_MAX_RESULTS_PER_QUERY,
+        "languageCode": "zh-TW",
+        "regionCode": "TW",
+        "includedType": "restaurant",
+        "locationBias": {
+            "circle": {
+                "center": {"latitude": lat, "longitude": lng},
+                "radius": float(radius_m),
+            },
+        },
+    }
+    resp = _post_places_api(f"{PLACES_API_BASE}:searchText", body, api_key)
+    return resp.get("places", []) or []
+
+
+def _parse_place(p: dict) -> dict | None:
+    pid = p.get("id")
+    if not pid:
+        return None
+    dn = p.get("displayName", {})
+    loc = p.get("location", {})
+    return {
+        "place_id": pid,
+        "name_zh": dn.get("text", ""),
+        "name_lang": dn.get("languageCode"),
+        "rating": p.get("rating"),
+        "total_ratings": p.get("userRatingCount"),
+        "location": {"lat": loc.get("latitude"), "lng": loc.get("longitude")},
+        "address": p.get("formattedAddress", ""),
+        "primary_type": p.get("primaryType"),
+        "primary_type_label": (p.get("primaryTypeDisplayName") or {}).get("text"),
+    }
+
+
+def cmd_dinner_search(args):
+    """從 places.json 終點呼叫 Places API 搜尋餐廳，upsert 到 dinner_map/。"""
+    n = args.day
+    api_key = _get_api_key()
+    radius_m = getattr(args, "radius", None) or DEFAULT_SEARCH_RADIUS_M
+    min_reviews = getattr(args, "min_reviews", 0) or 0
+
+    places_file = plan_dir(n) / "places.json"
+    if not places_file.exists():
+        die(f"day{n}/_plan/places.json 不存在，無法取得終點")
+    places_data = read_json(places_file)
+    pl = places_data.get("places") or []
+    if not pl:
+        die("places.json 內無 places")
+    endpoint = pl[-1]
+    loc = endpoint.get("location") or {}
+    lat, lng = loc.get("lat"), loc.get("lng")
+    if lat is None or lng is None:
+        die(f"終點 {endpoint.get('name_zh','?')} 缺少 location")
+
+    info(f"終點：{endpoint.get('name_zh','?')} ({lat:.5f},{lng:.5f}) radius={radius_m}m")
+
+    all_places: dict[str, dict] = {}
+
+    info("呼叫 Places API searchNearby (type=restaurant)...")
+    for p in _search_nearby(lat, lng, radius_m, api_key):
+        parsed = _parse_place(p)
+        if parsed:
+            all_places[parsed["place_id"]] = parsed
+
+    for q in SEARCH_TEXT_QUERIES:
+        info(f"呼叫 Places API searchText（{q}）...")
+        for p in _search_text(q, lat, lng, radius_m, api_key):
+            parsed = _parse_place(p)
+            if not parsed:
+                continue
+            pid = parsed["place_id"]
+            if pid in all_places:
+                existing = all_places[pid]
+                if _has_cjk(parsed["name_zh"]) and not _has_cjk(existing["name_zh"]):
+                    existing["name_zh"] = parsed["name_zh"]
+            else:
+                all_places[pid] = parsed
+        time.sleep(0.15)
+
+    raw_count = len(all_places)
+    info(f"原始候選：{raw_count} 筆（去重後）")
+
+    radius_km = radius_m / 1000.0
+    valid = []
+    skipped_wrong_type = 0
+    skipped_no_rating = 0
+    skipped_low_reviews = 0
+    skipped_too_far = 0
+    for parsed in all_places.values():
+        if not _is_dinner_type(parsed.get("primary_type")):
+            skipped_wrong_type += 1
+            continue
+        ploc = parsed.get("location") or {}
+        plat, plng = ploc.get("lat"), ploc.get("lng")
+        if plat is None or plng is None:
+            skipped_no_rating += 1
+            continue
+        dist_km = haversine_km(lat, lng, plat, plng)
+        if dist_km > radius_km:
+            skipped_too_far += 1
+            continue
+        if parsed["rating"] is None or parsed["total_ratings"] is None:
+            skipped_no_rating += 1
+            continue
+        if parsed["total_ratings"] < min_reviews:
+            skipped_low_reviews += 1
+            continue
+        parsed["distance_km"] = round(dist_km, 2)
+        valid.append(parsed)
+
+    if skipped_wrong_type:
+        info(f"  跳過 {skipped_wrong_type} 筆（primary_type 非餐廳類）")
+    if skipped_too_far:
+        info(f"  跳過 {skipped_too_far} 筆（距終點 > {radius_km:.1f}km）")
+    if skipped_no_rating:
+        info(f"  跳過 {skipped_no_rating} 筆（無評分資料）")
+    if skipped_low_reviews:
+        info(f"  跳過 {skipped_low_reviews} 筆（評論數 < {min_reviews}）")
+
+    today = time.strftime("%Y-%m-%d")
+    for item in valid:
+        item["source"] = f"api_{today}"
+        # note 預設帶 type label 方便人工瀏覽（可被後續 dinner-put 覆寫）
+        if not item.get("note") and item.get("primary_type_label"):
+            item["note"] = item["primary_type_label"]
+        item["name_is_ascii"] = not _has_cjk(item["name_zh"])
+
+    idx = _load_dinner_index(n)
+    candidates = idx.get("candidates", [])
+    pid_map = {c["place_id"]: i for i, c in enumerate(candidates)}
+
+    upserted = 0
+    for item in valid:
+        pid = item["place_id"]
+        write_json(dinner_map_dir(n) / f"{pid}.json", item)
+        summary_keys = ("place_id", "name_zh", "rating", "total_ratings",
+                        "location", "address", "note", "source", "name_is_ascii")
+        summary = {k: item[k] for k in summary_keys if k in item}
+        if pid in pid_map:
+            old = candidates[pid_map[pid]]
+            summary["selected"] = old.get("selected", False)
+            candidates[pid_map[pid]] = summary
+        else:
+            summary["selected"] = False
+            candidates.append(summary)
+            pid_map[pid] = len(candidates) - 1
+        upserted += 1
+    idx["candidates"] = candidates
+    _save_dinner_index(n, idx)
+    info(f"完成：upsert {upserted} 筆到 dinner_map/（共 {len(candidates)} 筆候選）")
+
+    ascii_only = [c for c in valid if c.get("name_is_ascii")]
+    if ascii_only:
+        print()
+        print(f"⚠️  以下 {len(ascii_only)} 筆名稱為純英文（API 未提供中文化）：")
+        for c in ascii_only:
+            print(f"    - {c['place_id']}  {c['name_zh']}")
+        print()
 
 
 # ─────────────────────────────────────────────────────────────────
@@ -117,41 +389,6 @@ def cmd_dinner_put(args):
     idx["candidates"] = candidates
     _save_dinner_index(n, idx)
     info(f"upsert {upserted} 筆到 dinner_map/（共 {len(candidates)} 筆候選）")
-
-
-def cmd_dinner_diff(args):
-    """從 stdin 讀 fresh 資料，與本地鏡像比對。"""
-    n = args.day
-    fresh = read_stdin_json()
-    if isinstance(fresh, dict):
-        fresh = [fresh]
-
-    rows = []
-    for f in fresh:
-        pid = f.get("place_id")
-        if not pid:
-            continue
-        cf = dinner_map_dir(n) / f"{pid}.json"
-        if not cf.exists():
-            rows.append((pid, f.get("name_zh", "?"), "—", "—",
-                         f.get("rating"), f.get("total_ratings"), "⭐ 新地點"))
-            continue
-        c = read_json(cf)
-        diffs = []
-        if c.get("rating") != f.get("rating"):
-            diffs.append(f"rating {c.get('rating')}→{f.get('rating')}")
-        if c.get("total_ratings") != f.get("total_ratings"):
-            diffs.append(f"reviews {c.get('total_ratings')}→{f.get('total_ratings')}")
-        rows.append((pid, f.get("name_zh") or c.get("name_zh"),
-                     c.get("rating"), c.get("total_ratings"),
-                     f.get("rating"), f.get("total_ratings"),
-                     "、".join(diffs) or "—"))
-
-    print(f"{'place_id':<36}{'名稱':<20}{'本地R':>6}{'本地V':>8}{'線上R':>6}{'線上V':>8}  差異")
-    print("-" * 100)
-    for r in rows:
-        print(f"{r[0]:<36}{(r[1] or '')[:18]:<20}{str(r[2]):>6}{str(r[3]):>8}"
-              f"{str(r[4]):>6}{str(r[5]):>8}  {r[6]}")
 
 
 # ─────────────────────────────────────────────────────────────────
@@ -511,7 +748,7 @@ def cmd_dinner_render(args):
 
     # footer
     lines.append("---\n")
-    lines.append(f"*資料來源：Google Maps MCP · 搜尋日期：{today} · 候選池 {pool_size} 筆*")
+    lines.append(f"*資料來源：Google Places API (New) · 搜尋日期：{today} · 候選池 {pool_size} 筆*")
     lines.append("*排序方法：IMDB 風格貝葉斯平均（留言數越多、評分越可信）*\n")
 
     out = day_dir(n) / f"day{n}_dinner.md"

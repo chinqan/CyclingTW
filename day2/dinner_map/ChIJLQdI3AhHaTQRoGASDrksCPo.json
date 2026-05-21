@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJLQdI3AhHaTQRoGASDrksCPo",
+  "name_zh": "烏吉義麵坊（義大利麵 燉飯 外帶專門店）",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 25,
+  "location": {
+    "lat": 24.0568079,
+    "lng": 120.4368312
+  },
+  "address": "505彰化縣鹿港鎮景福里萬壽路224號",
+  "primary_type": "italian_restaurant",
+  "primary_type_label": "義大利餐廳",
+  "distance_km": 0.44,
+  "source": "api_2026-05-21",
+  "note": "義大利餐廳",
+  "name_is_ascii": false
+}

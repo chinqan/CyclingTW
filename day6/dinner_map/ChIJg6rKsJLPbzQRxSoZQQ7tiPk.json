@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJg6rKsJLPbzQRxSoZQQ7tiPk",
+  "name_zh": "好食屋",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 120,
+  "location": {
+    "lat": 22.616151,
+    "lng": 121.008775
+  },
+  "address": "963臺東縣太麻里鄉泰和村太麻里街81號千禧曙光紀念園區入口",
+  "primary_type": "brunch_restaurant",
+  "primary_type_label": "早午餐餐廳",
+  "distance_km": 0.49,
+  "source": "api_2026-05-21",
+  "note": "早午餐餐廳",
+  "name_is_ascii": false
+}

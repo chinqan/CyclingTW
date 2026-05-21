@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJny8wVMJNaDQRL4Nn7g1q27Y",
+  "name_zh": "哄供食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 299,
+  "location": {
+    "lat": 24.691919,
+    "lng": 120.903074
+  },
+  "address": "351苗栗縣頭份市中興里中興路369號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 2.35,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

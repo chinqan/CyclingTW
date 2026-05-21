@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJJ-pKh8dMaDQRMgcJA7S73Ds",
+  "name_zh": "東園大飯店",
+  "name_lang": "zh-TW",
+  "rating": 3.6,
+  "total_ratings": 639,
+  "location": {
+    "lat": 24.6884095,
+    "lng": 120.90981519999998
+  },
+  "address": "351苗栗縣頭份市自強里信東路115號",
+  "primary_type": "hotel",
+  "distance_km": 2.96,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

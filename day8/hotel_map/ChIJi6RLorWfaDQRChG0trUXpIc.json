@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJi6RLorWfaDQRChG0trUXpIc",
+  "name_zh": "花蓮國廣興大飯店",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 2325,
+  "location": {
+    "lat": 23.995321999999998,
+    "lng": 121.604351
+  },
+  "address": "970花蓮縣花蓮市國聯里國聯五路223號",
+  "primary_type": "hotel",
+  "distance_km": 0.39,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

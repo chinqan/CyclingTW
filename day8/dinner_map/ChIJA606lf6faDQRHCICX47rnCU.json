@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJA606lf6faDQRHCICX47rnCU",
+  "name_zh": "胖嘟嘟臭豆腐",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 1180,
+  "location": {
+    "lat": 23.9830993,
+    "lng": 121.60468039999999
+  },
+  "address": "970花蓮縣花蓮市國安里中山路392號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.19,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

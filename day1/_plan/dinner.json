@@ -1,49 +1,97 @@
 {
   "day": 1,
   "search_radius_km": 3,
-  "pool_size": 19,
-  "bayesian_C": 551.0,
-  "bayesian_m": 4.5327,
+  "pool_size": 71,
+  "bayesian_C": 1101.3,
+  "bayesian_m": 4.5054,
   "note": "C=平均留言數(先驗樣本數), m=加權平均評分(先驗期望值)",
   "source_endpoint_place_id": "ChIJQ5bTDzuzaTQRnzEViKsrqdE",
   "top5_place_ids": [
-    "ChIJb60QSwCzaTQRMa5Xeeni_6M",
-    "ChIJ2xKrLQCzaTQR_DnVboSVmh0",
-    "ChIJkyfmh1CzaTQRqpYlWbi62b8",
-    "ChIJZc05r26zaTQRj5C1snCX4_k",
-    "ChIJQexrNgCzaTQRBnZbzQwzAoA"
+    "ChIJL6UAu16zaTQRQtHt5BEgWXY",
+    "ChIJ3R7A9zKzaTQR15cnd86g8tc",
+    "ChIJVVVVVcVMaDQRHB7La4gUuhw",
+    "ChIJlRQIfntNaDQRCIHR3SKyHpI",
+    "ChIJ2xKrLQCzaTQR_DnVboSVmh0"
   ],
   "restaurants": [
     {
-      "place_id": "ChIJb60QSwCzaTQRMa5Xeeni_6M",
-      "name_zh": "柒石柒 石頭鍋",
-      "rating": 4.8,
-      "total_ratings": 1616,
+      "place_id": "ChIJL6UAu16zaTQRQtHt5BEgWXY",
+      "name_zh": "真涮吃到飽火鍋-竹南店",
+      "rating": 4.9,
+      "total_ratings": 3143,
       "location": {
-        "lat": 24.6871252,
-        "lng": 120.8730832
+        "lat": 24.690220800000002,
+        "lng": 120.8794808
       },
-      "address": "苗栗縣竹南鎮昭南村博愛街246號",
-      "note": "石頭火鍋 每天11:00-02:00 車站旁",
-      "bayesian_score": 4.732,
+      "address": "350苗栗縣竹南鎮照南里光復路282號",
+      "note": "火鍋店",
+      "bayesian_score": 4.7976,
       "confidence": "✅ 高",
       "rank": 1,
       "selected": true
     },
     {
-      "place_id": "ChIJ2xKrLQCzaTQR_DnVboSVmh0",
-      "name_zh": "豚嘢家 日式咖哩豬排",
+      "place_id": "ChIJ3R7A9zKzaTQR15cnd86g8tc",
+      "name_zh": "西堤牛排 頭份尚順店",
       "rating": 4.8,
-      "total_ratings": 1455,
+      "total_ratings": 14993,
       "location": {
-        "lat": 24.6908374,
-        "lng": 120.8795871
+        "lat": 24.6879295,
+        "lng": 120.90082769999998
       },
-      "address": "苗栗縣竹南鎮昭南村光復路308號",
-      "note": "日式咖哩豬排 每天11:00-21:00 車站旁",
-      "bayesian_score": 4.7266,
+      "address": "351苗栗縣頭份市東庄里尚順路77號",
+      "note": "牛排館",
+      "bayesian_score": 4.7798,
       "confidence": "✅ 高",
       "rank": 2,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJVVVVVcVMaDQRHB7La4gUuhw",
+      "name_zh": "聚 日式鍋物 頭份尚順店",
+      "rating": 4.8,
+      "total_ratings": 8693,
+      "location": {
+        "lat": 24.687145500000003,
+        "lng": 120.9012772
+      },
+      "address": "351苗栗縣頭份市東庄里尚順路61號",
+      "note": "火鍋店",
+      "bayesian_score": 4.7669,
+      "confidence": "✅ 高",
+      "rank": 3,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJlRQIfntNaDQRCIHR3SKyHpI",
+      "name_zh": "麵屋有漁頭份店/苗栗美食/苗栗拉麵/苗栗餐廳/附近美食/苗栗必吃/吃的",
+      "rating": 4.9,
+      "total_ratings": 828,
+      "location": {
+        "lat": 24.6866618,
+        "lng": 120.90159949999999
+      },
+      "address": "35155苗栗縣頭份市東庄里尚順路51號",
+      "note": "餐廳",
+      "bayesian_score": 4.6747,
+      "confidence": "⚠️ 中",
+      "rank": 4,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ2xKrLQCzaTQR_DnVboSVmh0",
+      "name_zh": "豚嘢家-竹南店 Tonya-House",
+      "rating": 4.8,
+      "total_ratings": 1463,
+      "location": {
+        "lat": 24.6908374,
+        "lng": 120.87958710000001
+      },
+      "address": "350苗栗縣竹南鎮照南里光復路308號",
+      "note": "日式咖哩餐廳",
+      "bayesian_score": 4.6735,
+      "confidence": "✅ 高",
+      "rank": 5,
       "selected": true
     },
     {
@@ -53,14 +101,94 @@
       "total_ratings": 751,
       "location": {
         "lat": 24.6968293,
-        "lng": 120.8694544
+        "lng": 120.86945440000001
       },
-      "address": "苗栗縣竹南鎮天文村龍山路二段66-1號",
-      "note": "日式拉麵 週二公休",
-      "bayesian_score": 4.6869,
+      "address": "350苗栗縣竹南鎮天文里龍山路二段66-1號",
+      "note": "拉麵店",
+      "bayesian_score": 4.6248,
+      "confidence": "⚠️ 中",
+      "rank": 6,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJF9Zu7_qzaTQRJJGoLJ2WN_U",
+      "name_zh": "東棧時光",
+      "rating": 4.8,
+      "total_ratings": 729,
+      "location": {
+        "lat": 24.6810396,
+        "lng": 120.8782188
+      },
+      "address": "350苗栗縣竹南鎮大厝里國豐路83號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.6227,
+      "confidence": "⚠️ 中",
+      "rank": 7,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ3ynTBRQ9aTQRQzJZB4zodVc",
+      "name_zh": "台中麥司特現烤麵包",
+      "rating": 4.8,
+      "total_ratings": 604,
+      "location": {
+        "lat": 24.687840299999998,
+        "lng": 120.876419
+      },
+      "address": "350苗栗县竹南镇营盘里自由街88之6號",
+      "note": "餐廳",
+      "bayesian_score": 4.6097,
+      "confidence": "⚠️ 中",
+      "rank": 8,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJZT6LUQBNaDQR5vozSuShnNc",
+      "name_zh": "開飯川食堂 苗栗尚順店",
+      "rating": 4.8,
+      "total_ratings": 516,
+      "location": {
+        "lat": 24.6882052,
+        "lng": 120.90465659999998
+      },
+      "address": "351028苗栗縣頭份市育樂街6號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.5994,
+      "confidence": "❌ 低",
+      "rank": 9,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJQRD68chMaDQROk3RAElWwkc",
+      "name_zh": "范頭家客家餐廳 - 客家菜 | 合菜 | 附近美食",
+      "rating": 4.6,
+      "total_ratings": 3489,
+      "location": {
+        "lat": 24.6867904,
+        "lng": 120.9019675
+      },
+      "address": "351苗栗縣頭份市東庄里和平路263號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.5773,
       "confidence": "✅ 高",
-      "rank": 3,
-      "selected": true
+      "rank": 10,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJbWw2kRezaTQRoBF9JHIEERE",
+      "name_zh": "NU PASTA 苗栗竹南店",
+      "rating": 4.6,
+      "total_ratings": 2952,
+      "location": {
+        "lat": 24.687627,
+        "lng": 120.87097100000001
+      },
+      "address": "35051苗栗縣竹南鎮營盤里博愛街314號",
+      "note": "義大利餐廳",
+      "bayesian_score": 4.5743,
+      "confidence": "✅ 高",
+      "rank": 11,
+      "selected": false
     },
     {
       "place_id": "ChIJZc05r26zaTQRj5C1snCX4_k",
@@ -69,30 +197,46 @@
       "total_ratings": 336,
       "location": {
         "lat": 24.6912363,
-        "lng": 120.8798758
+        "lng": 120.87987579999998
       },
-      "address": "苗栗縣竹南鎮昭南村自強街26號",
-      "note": "手工窯烤披薩 週一二公休",
-      "bayesian_score": 4.634,
-      "confidence": "⚠️ 中",
-      "rank": 4,
-      "selected": true
+      "address": "350苗栗縣竹南鎮照南里自強街26號",
+      "note": "披薩餐廳",
+      "bayesian_score": 4.5743,
+      "confidence": "❌ 低",
+      "rank": 12,
+      "selected": false
     },
     {
-      "place_id": "ChIJQexrNgCzaTQRBnZbzQwzAoA",
-      "name_zh": "順風順水宵夜",
-      "rating": 4.9,
-      "total_ratings": 147,
+      "place_id": "ChIJvbqxY1RNaDQRxLscjdLQ44M",
+      "name_zh": "龍來小館",
+      "rating": 4.6,
+      "total_ratings": 2148,
       "location": {
-        "lat": 24.6955936,
-        "lng": 120.8677237
+        "lat": 24.6963683,
+        "lng": 120.90322239999999
       },
-      "address": "苗栗縣竹南鎮龍鳳村龍江街17號",
-      "note": "宵夜豆漿燒餅 每天17:00-07:00",
-      "bayesian_score": 4.6101,
+      "address": "35147苗栗縣頭份市山下里建國路二段135號",
+      "note": "餐廳",
+      "bayesian_score": 4.5679,
+      "confidence": "✅ 高",
+      "rank": 13,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ1TYNLQCzaTQRc0rsenDqx-8",
+      "name_zh": "克里希納印度餐廳",
+      "rating": 4.8,
+      "total_ratings": 265,
+      "location": {
+        "lat": 24.6914524,
+        "lng": 120.87961279999999
+      },
+      "address": "No, No. 344號光復路照南里竹南鎮苗栗縣350",
+      "note": "印度餐廳",
+      "bayesian_score": 4.5625,
       "confidence": "❌ 低",
-      "rank": 5,
-      "selected": true
+      "rank": 14,
+      "selected": false
     },
     {
       "place_id": "ChIJH4uO3gJNaDQRPComfgqYtVU",
@@ -100,30 +244,30 @@
       "rating": 4.7,
       "total_ratings": 347,
       "location": {
-        "lat": 24.7046421,
-        "lng": 120.900935
+        "lat": 24.704642099999997,
+        "lng": 120.90093499999999
       },
-      "address": "苗栗縣竹南鎮大埔村大埔七街128號",
-      "note": "手工斤餅外帶 週一二公休",
-      "bayesian_score": 4.5973,
-      "confidence": "⚠️ 中",
-      "rank": 6,
+      "address": "350苗栗縣竹南鎮大埔里大埔七街128號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.552,
+      "confidence": "❌ 低",
+      "rank": 15,
       "selected": false
     },
     {
-      "place_id": "ChIJf3V3LACzaTQR9MTA8WCueUQ",
-      "name_zh": "賴桑港口海鮮",
+      "place_id": "ChIJ3yPd2oNNaDQRNe8ePclxC4g",
+      "name_zh": "八丼食堂（苗栗頭份）外帶專門店",
       "rating": 4.8,
-      "total_ratings": 126,
+      "total_ratings": 191,
       "location": {
-        "lat": 24.7000378,
-        "lng": 120.8605119
+        "lat": 24.6858708,
+        "lng": 120.90965680000001
       },
-      "address": "苗栗縣竹南鎮龍鳳村龍江街265之2號",
-      "note": "龍鳳漁港旁海鮮 週一公休",
-      "bayesian_score": 4.5824,
+      "address": "351苗栗縣頭份市頭份里義民街10號",
+      "note": "餐廳",
+      "bayesian_score": 4.5489,
       "confidence": "❌ 低",
-      "rank": 7,
+      "rank": 16,
       "selected": false
     },
     {
@@ -135,27 +279,91 @@
         "lat": 24.6914841,
         "lng": 120.8890335
       },
-      "address": "苗栗縣竹南鎮新南村公北一路151號",
-      "note": "餐酒館 義式料理 每天17:00-02:00",
-      "bayesian_score": 4.5731,
-      "confidence": "✅ 高",
-      "rank": 8,
+      "address": "350苗栗縣竹南鎮新南里公北一路151號",
+      "note": "餐廳",
+      "bayesian_score": 4.5461,
+      "confidence": "⚠️ 中",
+      "rank": 17,
       "selected": false
     },
     {
-      "place_id": "ChIJs_So88GyaTQR8TbDQ7EA9mA",
-      "name_zh": "續攤平價快炒",
-      "rating": 4.6,
-      "total_ratings": 286,
+      "place_id": "ChIJK3Z8pyOzaTQR7Y7LNGmLMtY",
+      "name_zh": "mr.K餐酒館",
+      "rating": 4.7,
+      "total_ratings": 245,
       "location": {
-        "lat": 24.6586159,
-        "lng": 120.8740174
+        "lat": 24.6912015,
+        "lng": 120.87340239999999
       },
-      "address": "苗栗縣竹南鎮公館村中華路5-11號",
-      "note": "無菜單快炒 老闆隨機出菜",
-      "bayesian_score": 4.5557,
-      "confidence": "⚠️ 中",
-      "rank": 9,
+      "address": "350苗栗縣竹南鎮聖福里延平路207號",
+      "note": "餐廳",
+      "bayesian_score": 4.5408,
+      "confidence": "❌ 低",
+      "rank": 18,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJe0mdwBOzaTQR4qXK-CVQ8uQ",
+      "name_zh": "NiNa Thai Food 大象泰式美食",
+      "rating": 4.7,
+      "total_ratings": 159,
+      "location": {
+        "lat": 24.6874005,
+        "lng": 120.87991260000001
+      },
+      "address": "350苗栗縣竹南鎮照南里中山路139號",
+      "note": "泰國餐廳",
+      "bayesian_score": 4.53,
+      "confidence": "❌ 低",
+      "rank": 19,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJny8wVMJNaDQRL4Nn7g1q27Y",
+      "name_zh": "哄供食堂",
+      "rating": 4.6,
+      "total_ratings": 299,
+      "location": {
+        "lat": 24.691919,
+        "lng": 120.903074
+      },
+      "address": "351苗栗縣頭份市中興里中興路369號",
+      "note": "餐廳",
+      "bayesian_score": 4.5256,
+      "confidence": "❌ 低",
+      "rank": 20,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJLY7D38azaTQR3vI_nOreg-M",
+      "name_zh": "J.S Burger 漢堡樂園 （團體訂單滿額外送服務）",
+      "rating": 4.7,
+      "total_ratings": 83,
+      "location": {
+        "lat": 24.6869664,
+        "lng": 120.8763704
+      },
+      "address": "350苗栗縣竹南鎮照南里博愛街112號",
+      "note": "餐廳",
+      "bayesian_score": 4.519,
+      "confidence": "❌ 低",
+      "rank": 21,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJCxzxGT2zaTQRKNGIiiwYSX4",
+      "name_zh": "校友飯（每週一固定公休）-竹南人氣燴飯|必吃燴飯|平價美食|道地美食|燴飯推薦|中式美食|外帶美食|在地推薦餐廳",
+      "rating": 4.7,
+      "total_ratings": 63,
+      "location": {
+        "lat": 24.7015295,
+        "lng": 120.88319229999998
+      },
+      "address": "350苗栗縣竹南鎮山佳里華興街86號",
+      "note": "餐廳",
+      "bayesian_score": 4.5159,
+      "confidence": "❌ 低",
+      "rank": 22,
       "selected": false
     },
     {
@@ -164,110 +372,590 @@
       "rating": 4.6,
       "total_ratings": 120,
       "location": {
-        "lat": 24.6831944,
+        "lat": 24.683194399999998,
         "lng": 120.8779596
       },
-      "address": "苗栗縣竹南鎮福德路74-1號",
-      "note": "牛肉麵 一人經營 份量大",
-      "bayesian_score": 4.5447,
+      "address": "350苗栗縣竹南鎮福德路74-1號350",
+      "note": "餐廳",
+      "bayesian_score": 4.5147,
       "confidence": "❌ 低",
-      "rank": 10,
+      "rank": 23,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJtRrPwPRNaDQRFAxgUV8lQAw",
+      "name_zh": "浪子食堂",
+      "rating": 4.6,
+      "total_ratings": 93,
+      "location": {
+        "lat": 24.7063046,
+        "lng": 120.89937019999998
+      },
+      "address": "350苗栗縣竹南鎮大埔里大埔六街93號1樓",
+      "note": "台式餐廳",
+      "bayesian_score": 4.5128,
+      "confidence": "❌ 低",
+      "rank": 24,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJM8eFRgCzaTQRJCXFh00zCgk",
+      "name_zh": "阿湯哥脆皮蚵仔煎",
+      "rating": 5,
+      "total_ratings": 14,
+      "location": {
+        "lat": 24.686862299999998,
+        "lng": 120.8782272
+      },
+      "address": "350苗栗縣竹南鎮照南里博愛街54號對面",
+      "note": "餐廳",
+      "bayesian_score": 4.5116,
+      "confidence": "❌ 低",
+      "rank": 25,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJh-l94fmzaTQRPeCdbEqqxv8",
+      "name_zh": "蘆竹路口小吃",
+      "rating": 4.7,
+      "total_ratings": 36,
+      "location": {
+        "lat": 24.6764372,
+        "lng": 120.8855055
+      },
+      "address": "351苗栗縣頭份市蘆竹里103-19號",
+      "note": "餐廳",
+      "bayesian_score": 4.5116,
+      "confidence": "❌ 低",
+      "rank": 26,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJFx-qnL6zaTQR3l5hwG4SOvc",
+      "name_zh": "TOKO INDO YI JUN INDRAMAYU 印尼小吃",
+      "rating": 5,
+      "total_ratings": 13,
+      "location": {
+        "lat": 24.6874336,
+        "lng": 120.8800661
+      },
+      "address": "350苗栗縣竹南鎮照南里中山路188號",
+      "note": "印尼餐廳",
+      "bayesian_score": 4.5112,
+      "confidence": "❌ 低",
+      "rank": 27,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJbyeEs6mzaTQR15oEufcTvgI",
+      "name_zh": "吳點點葷素滷味",
+      "rating": 5,
+      "total_ratings": 13,
+      "location": {
+        "lat": 24.6870841,
+        "lng": 120.877842
+      },
+      "address": "350苗栗縣竹南鎮照南里博愛街66號",
+      "note": "餐廳",
+      "bayesian_score": 4.5112,
+      "confidence": "❌ 低",
+      "rank": 28,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJwUfCIXuzaTQRVRnn4-Lec5c",
+      "name_zh": "十方滷味",
+      "rating": 4.8,
+      "total_ratings": 20,
+      "location": {
+        "lat": 24.6916047,
+        "lng": 120.88240929999999
+      },
+      "address": "350苗栗縣竹南鎮照南里崁頂街105號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.5107,
+      "confidence": "❌ 低",
+      "rank": 29,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJjeLuWACzaTQRc2CsZb4gTvw",
+      "name_zh": "哇沙米日式手作壽司",
+      "rating": 4.6,
+      "total_ratings": 54,
+      "location": {
+        "lat": 24.6893358,
+        "lng": 120.8757892
+      },
+      "address": "350苗栗縣竹南鎮營盤里延平路168號",
+      "note": "日式餐廳",
+      "bayesian_score": 4.5098,
+      "confidence": "❌ 低",
+      "rank": 30,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ0cfbdwCzaTQRlM3MnRjRg-U",
+      "name_zh": "心心食堂",
+      "rating": 4.6,
+      "total_ratings": 50,
+      "location": {
+        "lat": 24.701680200000002,
+        "lng": 120.87840320000001
+      },
+      "address": "350苗栗縣竹南鎮山佳里龍山路三段110號",
+      "note": "餐廳",
+      "bayesian_score": 4.5095,
+      "confidence": "❌ 低",
+      "rank": 31,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJI4-CL6KzaTQRB9hkESTWiSY",
+      "name_zh": "主顧客鐵板燒(竹南)",
+      "rating": 4.8,
+      "total_ratings": 11,
+      "location": {
+        "lat": 24.6869752,
+        "lng": 120.87757739999999
+      },
+      "address": "350苗栗縣竹南鎮博愛街68號竹南市場和平街上，紅磚牛排斜對面",
+      "note": "餐廳",
+      "bayesian_score": 4.5083,
+      "confidence": "❌ 低",
+      "rank": 32,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJm7OsRTuzaTQRRxwjF1HBfzQ",
+      "name_zh": "金越食堂",
+      "rating": 5,
+      "total_ratings": 1,
+      "location": {
+        "lat": 24.685543000000003,
+        "lng": 120.879526
+      },
+      "address": "350苗栗縣竹南鎮竹南里中山路79號",
+      "note": "餐廳",
+      "bayesian_score": 4.5058,
+      "confidence": "❌ 低",
+      "rank": 33,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJAcATrl6zaTQRgLiBe1q5aNQ",
+      "name_zh": "眞常食堂",
+      "rating": 4.3,
+      "total_ratings": 4,
+      "location": {
+        "lat": 24.6869948,
+        "lng": 120.8759749
+      },
+      "address": "350苗栗縣竹南鎮照南里博愛街128號",
+      "note": "早午餐餐廳",
+      "bayesian_score": 4.5047,
+      "confidence": "❌ 低",
+      "rank": 34,
       "selected": false
     },
     {
       "place_id": "ChIJ_wxsqZSzaTQRxdJrHuNZvCc",
-      "name_zh": "美味食堂（鵝肉快炒）",
+      "name_zh": "美味·食堂（鵝肉/快炒）",
       "rating": 4.5,
       "total_ratings": 165,
       "location": {
         "lat": 24.6900723,
-        "lng": 120.8746511
+        "lng": 120.87465110000001
       },
-      "address": "苗栗縣竹南鎮營盤村延平路157號",
-      "note": "鵝肉快炒 週一公休",
-      "bayesian_score": 4.5252,
+      "address": "350苗栗縣竹南鎮營盤里延平路157號",
+      "note": "餐廳",
+      "bayesian_score": 4.5047,
       "confidence": "❌ 低",
-      "rank": 11,
+      "rank": 35,
       "selected": false
     },
     {
-      "place_id": "ChIJMYL9FCOzaTQRkJMB9k21-ZU",
-      "name_zh": "一品煊美食館 竹南店",
+      "place_id": "ChIJByV_0D6zaTQR32nL7AMvKvU",
+      "name_zh": "古錐蒸海鮮",
       "rating": 4.5,
-      "total_ratings": 189,
+      "total_ratings": 269,
       "location": {
-        "lat": 24.6837674,
-        "lng": 120.8770342
+        "lat": 24.692643099999998,
+        "lng": 120.8778091
       },
-      "address": "苗栗縣竹南鎮正南村中正路89號",
-      "note": "合菜套餐 週一公休",
-      "bayesian_score": 4.5243,
+      "address": "350苗栗縣竹南鎮佳興里環市路三段310號",
+      "note": "海鮮餐廳",
+      "bayesian_score": 4.5043,
       "confidence": "❌ 低",
-      "rank": 12,
+      "rank": 36,
       "selected": false
     },
     {
-      "place_id": "ChIJIREfZACzaTQRsSPcX1fjcXI",
-      "name_zh": "炒舖",
-      "rating": 4.3,
-      "total_ratings": 93,
+      "place_id": "ChIJswcWQsdMaDQRTP9vlHc0-iU",
+      "name_zh": "純手工-鮮肉湯包（週一公休）",
+      "rating": 4.5,
+      "total_ratings": 4453,
       "location": {
-        "lat": 24.6868081,
-        "lng": 120.8741787
+        "lat": 24.6802958,
+        "lng": 120.90173370000001
       },
-      "address": "苗栗縣竹南鎮竹南村博愛街177號",
-      "note": "炒飯炒麵 全天無休",
-      "bayesian_score": 4.4991,
+      "address": "351苗栗縣頭份市民權里中華路716號",
+      "note": "餐廳",
+      "bayesian_score": 4.5011,
+      "confidence": "✅ 高",
+      "rank": 37,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJuyM2IwCzaTQRlvYgKuAeR3s",
+      "name_zh": "胖小爹 滷肉飯",
+      "rating": 4.3,
+      "total_ratings": 28,
+      "location": {
+        "lat": 24.686746199999998,
+        "lng": 120.87752710000001
+      },
+      "address": "350苗栗縣竹南鎮竹南里博愛街55號",
+      "note": "餐廳",
+      "bayesian_score": 4.5003,
       "confidence": "❌ 低",
-      "rank": 13,
+      "rank": 38,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ69SuDjuzaTQRBM3EHwrd9aA",
+      "name_zh": "四季食堂",
+      "rating": 4.2,
+      "total_ratings": 33,
+      "location": {
+        "lat": 24.685633499999998,
+        "lng": 120.87891309999999
+      },
+      "address": "350苗栗縣竹南鎮竹南里民權街29號",
+      "note": "餐廳",
+      "bayesian_score": 4.4965,
+      "confidence": "❌ 低",
+      "rank": 39,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJBy9gfPezaTQRfykFsPl0PEM",
+      "name_zh": "麵匡匡拉麵食堂 竹南光復店",
+      "rating": 4.3,
+      "total_ratings": 64,
+      "location": {
+        "lat": 24.6892964,
+        "lng": 120.8792616
+      },
+      "address": "350苗栗縣竹南鎮照南里光復路225號",
+      "note": "拉麵店",
+      "bayesian_score": 4.4941,
+      "confidence": "❌ 低",
+      "rank": 40,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJgYB_XDmzaTQRmje7mF9XTQU",
+      "name_zh": "阿中食堂",
+      "rating": 4.3,
+      "total_ratings": 80,
+      "location": {
+        "lat": 24.690544700000004,
+        "lng": 120.8795
+      },
+      "address": "350苗栗縣竹南鎮照南里光復路292號",
+      "note": "餐廳",
+      "bayesian_score": 4.4915,
+      "confidence": "❌ 低",
+      "rank": 41,
       "selected": false
     },
     {
       "place_id": "ChIJyyxKSACzaTQR8ncBaifWLj8",
       "name_zh": "十三棧麵食館",
       "rating": 4.4,
-      "total_ratings": 251,
+      "total_ratings": 252,
       "location": {
         "lat": 24.6867535,
-        "lng": 120.8767905
+        "lng": 120.87679050000001
       },
-      "address": "苗栗縣竹南鎮竹南村博愛街75號",
-      "note": "麵食滷味 營業到深夜 週一公休",
-      "bayesian_score": 4.4912,
+      "address": "350苗栗縣竹南鎮竹南里博愛街75號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.4858,
       "confidence": "❌ 低",
-      "rank": 14,
+      "rank": 42,
       "selected": false
     },
     {
-      "place_id": "ChIJG7slgDyzaTQRY1pLgo1NF7I",
-      "name_zh": "超好吃蚵仔煎（頂好炒飯）",
-      "rating": 4.2,
-      "total_ratings": 187,
+      "place_id": "ChIJ9-q9nkWzaTQRemzfhSJ2OPE",
+      "name_zh": "上讚小吃店",
+      "rating": 4,
+      "total_ratings": 70,
       "location": {
-        "lat": 24.6872744,
-        "lng": 120.8785799
+        "lat": 24.702275999999998,
+        "lng": 120.88320019999999
       },
-      "address": "苗栗縣竹南鎮昭南村",
-      "note": "蚵仔煎炒飯 週四六公休",
-      "bayesian_score": 4.4484,
+      "address": "350苗栗縣竹南鎮山佳里",
+      "note": "餐廳",
+      "bayesian_score": 4.4752,
       "confidence": "❌ 低",
-      "rank": 15,
+      "rank": 43,
       "selected": false
     },
     {
-      "place_id": "ChIJlfA36TuzaTQRWeNifdEKXjI",
-      "name_zh": "滿意麵食坊",
-      "rating": 4.3,
-      "total_ratings": 768,
+      "place_id": "ChIJmZdsd1yzaTQRWpGS7qPEdnw",
+      "name_zh": "饗廚房（竹南博愛店）",
+      "rating": 3.8,
+      "total_ratings": 52,
       "location": {
-        "lat": 24.6891498,
-        "lng": 120.8794175
+        "lat": 24.688709199999998,
+        "lng": 120.8679181
       },
-      "address": "苗栗縣竹南鎮昭南村光復路236號",
-      "note": "炒麵水餃 16:30開賣 週六公休",
-      "bayesian_score": 4.3972,
+      "address": "350苗栗縣竹南鎮營盤里營盤邊64-1號",
+      "note": "日式餐廳",
+      "bayesian_score": 4.4736,
+      "confidence": "❌ 低",
+      "rank": 44,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJwaRz4WuzaTQRdRwhE78Gm5o",
+      "name_zh": "三味真火食堂信義分店（公休日請參考粉絲專頁）",
+      "rating": 4.1,
+      "total_ratings": 94,
+      "location": {
+        "lat": 24.6963047,
+        "lng": 120.8955309
+      },
+      "address": "351苗栗縣頭份市文化里信義路453號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.4735,
+      "confidence": "❌ 低",
+      "rank": 45,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJcUbLej-zaTQRRKSTxA9QvtQ",
+      "name_zh": "竹南雲南小吃",
+      "rating": 4.4,
+      "total_ratings": 751,
+      "location": {
+        "lat": 24.6953385,
+        "lng": 120.8762465
+      },
+      "address": "350苗栗縣竹南鎮鎮明德街57號",
+      "note": "餐廳",
+      "bayesian_score": 4.4627,
+      "confidence": "⚠️ 中",
+      "rank": 46,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJCbj5C-s2aDQRV8xYSSKGr0k",
+      "name_zh": "韓味大叔 韓食私廚料理",
+      "rating": 4.4,
+      "total_ratings": 1150,
+      "location": {
+        "lat": 24.689402599999998,
+        "lng": 120.88363439999999
+      },
+      "address": "350苗栗縣竹南鎮五谷王22號",
+      "note": "韓國餐廳",
+      "bayesian_score": 4.4516,
       "confidence": "✅ 高",
-      "rank": 16,
+      "rank": 47,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJJRu-imWzaTQRBq_6WDUlaW0",
+      "name_zh": "粥大福-苗栗竹南店",
+      "rating": 4.3,
+      "total_ratings": 409,
+      "location": {
+        "lat": 24.6895597,
+        "lng": 120.87926150000001
+      },
+      "address": "350苗栗縣竹南鎮照南里光復路239號",
+      "note": "餐廳",
+      "bayesian_score": 4.4498,
+      "confidence": "❌ 低",
+      "rank": 48,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJwVrNq0mzaTQRWyI0O68KGpo",
+      "name_zh": "玄慧食堂 （原ㄚㄌㄧ香雞排）竹南海口店",
+      "rating": 3.6,
+      "total_ratings": 73,
+      "location": {
+        "lat": 24.677581,
+        "lng": 120.8651869
+      },
+      "address": "350苗栗縣竹南鎮海口里海口",
+      "note": "餐廳",
+      "bayesian_score": 4.4491,
+      "confidence": "❌ 低",
+      "rank": 49,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ2WlRBBuzaTQRohjUMoNwgMc",
+      "name_zh": "阿爸的滋味麵店",
+      "rating": 4,
+      "total_ratings": 141,
+      "location": {
+        "lat": 24.698863900000003,
+        "lng": 120.87139730000001
+      },
+      "address": "350苗栗縣竹南鎮龍山里龍山路二段198號",
+      "note": "餐廳",
+      "bayesian_score": 4.448,
+      "confidence": "❌ 低",
+      "rank": 50,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJMdtATQWzaTQR7P10vk7x8Lo",
+      "name_zh": "饒竹炸醬麵",
+      "rating": 4,
+      "total_ratings": 147,
+      "location": {
+        "lat": 24.6872431,
+        "lng": 120.87713369999999
+      },
+      "address": "35041苗栗縣竹南鎮照南里延平路128號",
+      "note": "餐廳",
+      "bayesian_score": 4.4459,
+      "confidence": "❌ 低",
+      "rank": 51,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJHfs8pz2zaTQR425v39FMq1g",
+      "name_zh": "許越式羊肉爐",
+      "rating": 4.4,
+      "total_ratings": 1471,
+      "location": {
+        "lat": 24.688540999999997,
+        "lng": 120.874687
+      },
+      "address": "350苗栗縣竹南鎮營盤里忠義街39號",
+      "note": "火鍋店",
+      "bayesian_score": 4.4451,
+      "confidence": "✅ 高",
+      "rank": 52,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJGzIBtMazaTQRuc5XmIFuBa0",
+      "name_zh": "來來龍鳳城",
+      "rating": 4.3,
+      "total_ratings": 470,
+      "location": {
+        "lat": 24.6967099,
+        "lng": 120.865375
+      },
+      "address": "350苗栗縣竹南鎮天文里龍江街103-1號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.444,
+      "confidence": "❌ 低",
+      "rank": 53,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJYTSIUOpNaDQRjQlDyzQs8SE",
+      "name_zh": "摯麵室Sincere",
+      "rating": 4.3,
+      "total_ratings": 490,
+      "location": {
+        "lat": 24.7045717,
+        "lng": 120.90152219999999
+      },
+      "address": "350苗栗縣竹南鎮大埔里大埔七街116號",
+      "note": "餐廳",
+      "bayesian_score": 4.4422,
+      "confidence": "❌ 低",
+      "rank": 54,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJqxtlXCOzaTQRB7hl-5tTG-4",
+      "name_zh": "擱再來包子",
+      "rating": 4.4,
+      "total_ratings": 1767,
+      "location": {
+        "lat": 24.6840399,
+        "lng": 120.87814720000002
+      },
+      "address": "350苗栗縣竹南鎮正南里中正路42號",
+      "note": "餐廳",
+      "bayesian_score": 4.4405,
+      "confidence": "✅ 高",
+      "rank": 55,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJG88f-WyzaTQRAkOmfZrb55s",
+      "name_zh": "新竹吳家鴨香飯-竹南店",
+      "rating": 4.2,
+      "total_ratings": 302,
+      "location": {
+        "lat": 24.6840679,
+        "lng": 120.87689460000001
+      },
+      "address": "350苗栗縣竹南鎮正南里中正路90號",
+      "note": "餐廳",
+      "bayesian_score": 4.4397,
+      "confidence": "❌ 低",
+      "rank": 56,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJYeHIVmOzaTQRzIUdtjd6VJY",
+      "name_zh": "千八會館-竹南婚宴餐廳|頭份喜宴餐廳|婚宴會館|聚餐餐廳|人氣餐廳|熱門餐廳|家庭聚餐推薦|在地推薦餐廳",
+      "rating": 4.2,
+      "total_ratings": 414,
+      "location": {
+        "lat": 24.6911368,
+        "lng": 120.8899494
+      },
+      "address": "350苗栗縣竹南鎮公園五街19號",
+      "note": "餐廳",
+      "bayesian_score": 4.422,
+      "confidence": "❌ 低",
+      "rank": 57,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ3WpLZRSzaTQRkm-NxUkBqfo",
+      "name_zh": "雲彩雲南美食館",
+      "rating": 4.2,
+      "total_ratings": 568,
+      "location": {
+        "lat": 24.694716699999997,
+        "lng": 120.86774480000001
+      },
+      "address": "350苗栗縣竹南鎮龍鳳里龍山路一段263號",
+      "note": "餐廳",
+      "bayesian_score": 4.4015,
+      "confidence": "⚠️ 中",
+      "rank": 58,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJoydxCslMaDQRP9BaPMulafw",
+      "name_zh": "谷軒日式食堂",
+      "rating": 4.3,
+      "total_ratings": 1206,
+      "location": {
+        "lat": 24.6948948,
+        "lng": 120.900847
+      },
+      "address": "351苗栗縣頭份市中興里建國路二段256號",
+      "note": "日式餐廳",
+      "bayesian_score": 4.398,
+      "confidence": "✅ 高",
+      "rank": 59,
       "selected": false
     },
     {
@@ -279,11 +967,11 @@
         "lat": 24.6851694,
         "lng": 120.8782521
       },
-      "address": "苗栗縣竹南鎮竹南村民族街65-1號",
-      "note": "客家料理 車站旁步行5分鐘",
-      "bayesian_score": 4.3403,
-      "confidence": "✅ 高",
-      "rank": 17,
+      "address": "350苗栗縣竹南鎮竹南里民族街65-1號",
+      "note": "餐廳",
+      "bayesian_score": 4.3811,
+      "confidence": "⚠️ 中",
+      "rank": 60,
       "selected": false
     },
     {
@@ -293,29 +981,173 @@
       "total_ratings": 1040,
       "location": {
         "lat": 24.6884162,
-        "lng": 120.8770137
+        "lng": 120.87701369999999
       },
-      "address": "苗栗縣竹南鎮昭南村立達街12號",
-      "note": "排隊名店魯肉飯 週一日公休",
-      "bayesian_score": 4.3152,
-      "confidence": "✅ 高",
-      "rank": 18,
+      "address": "350苗栗縣竹南鎮照南里立達街12號",
+      "note": "台式餐廳",
+      "bayesian_score": 4.3571,
+      "confidence": "⚠️ 中",
+      "rank": 61,
       "selected": false
     },
     {
-      "place_id": "ChIJ_4Z1LXOzaTQRN7XguOPv2T0",
-      "name_zh": "順吉海鮮快炒",
+      "place_id": "ChIJGwssSRCzaTQROZi2sR6eRMY",
+      "name_zh": "蔬皮肚皮 Super Duper",
       "rating": 4.1,
-      "total_ratings": 1006,
+      "total_ratings": 650,
       "location": {
-        "lat": 24.7001335,
-        "lng": 120.8588937
+        "lat": 24.694362899999998,
+        "lng": 120.8547451
       },
-      "address": "苗栗縣竹南鎮龍鳳村龍江街369巷15號",
-      "note": "龍鳳漁港海鮮快炒 週二公休",
-      "bayesian_score": 4.2531,
+      "address": "竹興里竹圍仔92號, 竹南鎮苗栗縣35049",
+      "note": "餐廳",
+      "bayesian_score": 4.3549,
+      "confidence": "⚠️ 中",
+      "rank": 62,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJVVVVVRSzaTQRxiLNKK8Hsbs",
+      "name_zh": "漁泉海鮮料理",
+      "rating": 4,
+      "total_ratings": 469,
+      "location": {
+        "lat": 24.688310599999998,
+        "lng": 120.86781069999999
+      },
+      "address": "350苗栗縣竹南鎮營盤里新生路330號",
+      "note": "海鮮餐廳",
+      "bayesian_score": 4.3545,
+      "confidence": "❌ 低",
+      "rank": 63,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJuz_EBiKzaTQRiS96Y0Q34TQ",
+      "name_zh": "艾蜜奇義大利坊 - 竹南總店",
+      "rating": 4.3,
+      "total_ratings": 3675,
+      "location": {
+        "lat": 24.682406399999998,
+        "lng": 120.86885339999999
+      },
+      "address": "350苗栗縣竹南鎮中港里環市路二段11號",
+      "note": "義大利餐廳",
+      "bayesian_score": 4.3474,
       "confidence": "✅ 高",
-      "rank": 19,
+      "rank": 64,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJg1UFL7GzaTQRm8gsf4tijDU",
+      "name_zh": "くら寿司 藏壽司 頭份運動公園店",
+      "rating": 4.1,
+      "total_ratings": 729,
+      "location": {
+        "lat": 24.6915881,
+        "lng": 120.891265
+      },
+      "address": "35146苗栗縣頭份市後庄里公北一路67號",
+      "note": "壽司店",
+      "bayesian_score": 4.3439,
+      "confidence": "⚠️ 中",
+      "rank": 65,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJFdJjA8lMaDQRCDFUtSW2-RA",
+      "name_zh": "定食8-頭份大全聯店｜日式定食便當外帶專門店、頭份日本料理海鮮丼飯",
+      "rating": 4.2,
+      "total_ratings": 1585,
+      "location": {
+        "lat": 24.686749199999998,
+        "lng": 120.90343009999998
+      },
+      "address": "35142苗栗縣頭份市東庄里自強路230號B1",
+      "note": "日式餐廳",
+      "bayesian_score": 4.3252,
+      "confidence": "✅ 高",
+      "rank": 66,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJAQTrrnKzaTQR8R5h41n_6kQ",
+      "name_zh": "龍鳳閣海景餐廳",
+      "rating": 4.1,
+      "total_ratings": 1128,
+      "location": {
+        "lat": 24.700012500000003,
+        "lng": 120.8614555
+      },
+      "address": "350苗栗縣竹南鎮天文里龍江街372巷1號",
+      "note": "餐廳",
+      "bayesian_score": 4.3003,
+      "confidence": "✅ 高",
+      "rank": 67,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ_RACPzZNaDQR_nce3Bp4_G0",
+      "name_zh": "老皮牛肉麵頭份尚順店",
+      "rating": 4,
+      "total_ratings": 3213,
+      "location": {
+        "lat": 24.688704400000002,
+        "lng": 120.90096199999999
+      },
+      "address": "351苗栗縣頭份市東庄里尚順路97號",
+      "note": "中式麵館",
+      "bayesian_score": 4.129,
+      "confidence": "✅ 高",
+      "rank": 68,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJSSnI10GzaTQRyWQpNpUiDN0",
+      "name_zh": "英吉利活海鮮",
+      "rating": 3.9,
+      "total_ratings": 2250,
+      "location": {
+        "lat": 24.6981842,
+        "lng": 120.8629242
+      },
+      "address": "350苗栗縣竹南鎮龍鳳里龍江街213號",
+      "note": "海鮮餐廳",
+      "bayesian_score": 4.0989,
+      "confidence": "✅ 高",
+      "rank": 69,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ531_fbGzaTQR6Y9a1-kTfjI",
+      "name_zh": "麥當勞-頭份中央餐廳－設有得來速",
+      "rating": 3.8,
+      "total_ratings": 1783,
+      "location": {
+        "lat": 24.693994699999998,
+        "lng": 120.8935228
+      },
+      "address": "351苗栗縣頭份市合興里中央路583號",
+      "note": "速食餐廳",
+      "bayesian_score": 4.0693,
+      "confidence": "✅ 高",
+      "rank": 70,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJb3wZpDyzaTQRBKhRr5S_0cM",
+      "name_zh": "麥當勞-竹南民權餐廳",
+      "rating": 3.7,
+      "total_ratings": 2441,
+      "location": {
+        "lat": 24.6854838,
+        "lng": 120.8780853
+      },
+      "address": "350苗栗縣竹南鎮竹南里民權街49號",
+      "note": "速食餐廳",
+      "bayesian_score": 3.9504,
+      "confidence": "✅ 高",
+      "rank": 71,
       "selected": false
     }
   ]

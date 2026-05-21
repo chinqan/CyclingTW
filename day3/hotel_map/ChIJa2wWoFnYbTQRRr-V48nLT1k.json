@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJa2wWoFnYbTQRRr-V48nLT1k",
+  "name_zh": "九塊厝林聚庭園",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 14,
+  "location": {
+    "lat": 23.0428417,
+    "lng": 120.12708909999999
+  },
+  "address": "709臺南市安南區媽祖宮里媽祖宮二街126巷215號 號",
+  "primary_type": "lodging",
+  "distance_km": 2.58,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

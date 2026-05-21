@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJZVUrjAhFaTQRyCqkF7zbYEo",
+  "name_zh": "逸園憩",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 124,
+  "location": {
+    "lat": 24.051463899999998,
+    "lng": 120.43570679999999
+  },
+  "address": "505彰化縣鹿港鎮興化里興化街39號",
+  "primary_type": "guest_house",
+  "distance_km": 0.62,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ-fUtFpSfaDQR9R80MGJI4pE",
+  "name_zh": "花蓮布洛灣大飯店Bulowan Hotel",
+  "name_lang": "zh-TW",
+  "rating": 3.8,
+  "total_ratings": 2619,
+  "location": {
+    "lat": 23.973515499999998,
+    "lng": 121.60077369999998
+  },
+  "address": "970花蓮縣花蓮市主學里中福路189號",
+  "primary_type": "hotel",
+  "distance_km": 2.2,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

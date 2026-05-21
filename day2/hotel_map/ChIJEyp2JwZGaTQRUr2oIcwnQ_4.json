@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJEyp2JwZGaTQRUr2oIcwnQ_4",
+  "name_zh": "二鹿行館 Lu Kang Bed and Breakbast",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 387,
+  "location": {
+    "lat": 24.0555581,
+    "lng": 120.43846339999999
+  },
+  "address": "505彰化縣鹿港鎮永安里春暉街46號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 0.6,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

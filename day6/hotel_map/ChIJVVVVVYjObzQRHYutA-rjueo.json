@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJVVVVVYjObzQRHYutA-rjueo",
+  "name_zh": "綠池畔民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 80,
+  "location": {
+    "lat": 22.611404399999998,
+    "lng": 121.0075378
+  },
+  "address": "963臺東縣太麻里鄉泰和村外環路47號",
+  "primary_type": "hotel",
+  "distance_km": 0.86,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

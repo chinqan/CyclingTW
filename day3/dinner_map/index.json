@@ -2,214 +2,484 @@
   "day": 3,
   "candidates": [
     {
+      "place_id": "ChIJiZleOj_YbTQR9TXVMHElSsc",
+      "name_zh": "土城海產店",
+      "rating": 4.4,
+      "total_ratings": 2927,
+      "location": {
+        "lat": 23.061162,
+        "lng": 120.1308864
+      },
+      "address": "709臺南市安南區城中里安中路六段517號",
+      "note": "海鮮餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJbeHweRXYbTQRKeLnzSbRpAs",
+      "name_zh": "東香台菜海味料理",
+      "rating": 4.5,
+      "total_ratings": 701,
+      "location": {
+        "lat": 23.060749899999998,
+        "lng": 120.13665519999998
+      },
+      "address": "709臺南市安南區城北里安中路六段217號",
+      "note": "台式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ6RB1Q_XXbTQR5LitlcfjNqw",
+      "name_zh": "國聖橋土豆豬腳",
+      "rating": 3.9,
+      "total_ratings": 423,
+      "location": {
+        "lat": 23.0811614,
+        "lng": 120.1358521
+      },
+      "address": "709臺南市安南區學東里公學路七段177號 之 51 號",
+      "note": "台式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJMUCfz0vYbTQRFMRV1GsQL9g",
+      "name_zh": "水瀨閣水上木屋景觀海鮮",
+      "rating": 4.1,
+      "total_ratings": 1210,
+      "location": {
+        "lat": 23.059889899999998,
+        "lng": 120.11779609999999
+      },
+      "address": "709臺南市安南區城南里城西街二段318巷66號",
+      "note": "中式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
       "place_id": "ChIJXTAli0fYbTQR8R6PbzuZjtI",
       "name_zh": "阿忠螃蟹-府城蟳禮",
-      "rating": 5.0,
-      "total_ratings": 185,
+      "rating": 5,
+      "total_ratings": 4894,
       "location": {
         "lat": 23.060502,
-        "lng": 120.1259103
+        "lng": 120.12591030000002
       },
-      "address": "台南市安南區城西街一段212號",
-      "note": "預訂制螃蟹專賣店、處女蟳蟹膏超滿",
-      "source": "search_2026-05-20",
+      "address": "709臺南市安南區城南里城西街一段212號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
       "selected": true
     },
     {
-      "place_id": "ChIJtdm_fKDZbTQRfi2uTtzMgWw",
-      "name_zh": "廟前海產碳烤",
-      "rating": 4.7,
-      "total_ratings": 78,
-      "location": {
-        "lat": 23.0658981,
-        "lng": 120.1275556
-      },
-      "address": "台南市安南區安中路六段757號",
-      "note": "聖母廟前人氣碳烤、平價熱炒、現撈海鮮",
-      "source": "search_2026-05-20",
-      "selected": false
-    },
-    {
-      "place_id": "ChIJMzAbPwDZbTQRYT2ISvjFmfA",
-      "name_zh": "福記鍋燒專門",
-      "rating": 4.9,
-      "total_ratings": 95,
-      "location": {
-        "lat": 23.0621725,
-        "lng": 120.129124
-      },
-      "address": "台南市安南區城西街一段31號",
-      "note": "料多實在的痛風鍋燒麵、湯頭鮮甜",
-      "source": "search_2026-05-20",
-      "selected": true
-    },
-    {
-      "place_id": "ChIJI8UHUlXZbTQRityPHkapKB8",
-      "name_zh": "凰詩越南美食",
-      "rating": 4.8,
-      "total_ratings": 62,
-      "location": {
-        "lat": 23.0613002,
-        "lng": 120.131811
-      },
-      "address": "台南市安南區安中路六段480-1號",
-      "note": "平價道地的越南河粉與春捲",
-      "source": "search_2026-05-20",
-      "selected": true
-    },
-    {
-      "place_id": "ChIJbyEEA-t3bjQRFiVvKGIMTSY",
-      "name_zh": "品味食堂-土城虱目魚",
-      "rating": 4.6,
-      "total_ratings": 142,
-      "location": {
-        "lat": 23.0621912,
-        "lng": 120.1301462
-      },
-      "address": "台南市安南區安中路六段572號",
-      "note": "在地人氣虱目魚湯、魚肚粥與滷肉飯",
-      "source": "search_2026-05-20",
-      "selected": false
-    },
-    {
-      "place_id": "ChIJZYmVQADZbTQRUVKLoYeF-dY",
-      "name_zh": "獨一味",
-      "rating": 4.5,
-      "total_ratings": 115,
-      "location": {
-        "lat": 23.0611327,
-        "lng": 120.1344163
-      },
-      "address": "台南市安南區安明路四段260-70號",
-      "note": "經典台式家常熱炒、平價實惠",
-      "source": "search_2026-05-20",
-      "selected": false
-    },
-    {
-      "place_id": "ChIJY7kP1zjYbTQR75U8cnsHK-A",
-      "name_zh": "家鄉傳統美食",
+      "place_id": "ChIJn5zRzyHYbTQRAgFUOT1ds84",
+      "name_zh": "國姓土豆豬腳",
       "rating": 4.4,
-      "total_ratings": 38,
+      "total_ratings": 136,
       "location": {
-        "lat": 23.0623528,
-        "lng": 120.1294761
+        "lat": 23.076975899999997,
+        "lng": 120.13503449999997
       },
-      "address": "台南市安南區城西街一段9號",
-      "note": "古早味滷肉飯、羹湯與各類台式小吃",
-      "source": "search_2026-05-20",
+      "address": "709臺南市安南區學東里安明路四段1273號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
       "selected": false
     },
     {
-      "place_id": "ChIJ80flSTzYbTQRjki8AvImnJY",
-      "name_zh": "龜鹿仙圓融園",
-      "rating": 4.8,
-      "total_ratings": 86,
+      "place_id": "ChIJy8NTyd_ZbTQR4RoSRL7Ck9w",
+      "name_zh": "修 溫體牛肉湯",
+      "rating": 4.4,
+      "total_ratings": 235,
       "location": {
-        "lat": 23.0659925,
-        "lng": 120.1322923
+        "lat": 23.063265899999998,
+        "lng": 120.1294145
       },
-      "address": "台南市安南區城北路234巷46號",
-      "note": "特色養生補湯與家常合菜料理",
-      "source": "search_2026-05-20",
-      "selected": true
+      "address": "709臺南市安南區城北里安中路六段608號",
+      "note": "台式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
     },
     {
-      "place_id": "ChIJ1VWHZLDZbTQRu96D363UnPU",
-      "name_zh": "素琴麵店",
+      "place_id": "ChIJm2AvzbvZbTQRYtp9vEVcKZ0",
+      "name_zh": "台南土城 米粉媽嫩骨鍋燒意麵｜日式便當",
       "rating": 4.5,
-      "total_ratings": 68,
+      "total_ratings": 188,
       "location": {
-        "lat": 23.0621295,
-        "lng": 120.1285737
+        "lat": 23.0657663,
+        "lng": 120.1312162
       },
-      "address": "台南市安南區城西街一段66號",
-      "note": "在地的老字號麻醬麵、滷味平價美味",
-      "source": "search_2026-05-20",
+      "address": "709臺南市安南區城東里城北路201號",
+      "note": "中式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
       "selected": false
+    },
+    {
+      "place_id": "ChIJP07EjEfYbTQRJR4Uu7HgTR8",
+      "name_zh": "台南土城螃蟹專賣店（耐人蟳味）",
+      "rating": 4.8,
+      "total_ratings": 188,
+      "location": {
+        "lat": 23.060186899999998,
+        "lng": 120.12578719999999
+      },
+      "address": "709臺南市安南區城南里城西街一段223號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
     },
     {
       "place_id": "ChIJ5xKRLETZbTQRnFdsxvD2VE4",
       "name_zh": "膳廚工坊",
       "rating": 4.3,
-      "total_ratings": 45,
+      "total_ratings": 131,
       "location": {
-        "lat": 23.0631878,
-        "lng": 120.129157
+        "lat": 23.063187799999998,
+        "lng": 120.12915699999998
       },
-      "address": "台南市安南區安中路六段615之一號",
-      "note": "美味炒飯、炒麵與精緻家常便當",
-      "source": "search_2026-05-20",
+      "address": "709臺南市安南區城中里安中路六段615之一號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
       "selected": false
     },
     {
-      "place_id": "ChIJbeHweRXYbTQRKeLnzSbRpAs",
-      "name_zh": "東尚台式海鮮",
-      "rating": 4.5,
-      "total_ratings": 155,
+      "place_id": "ChIJ_-tcFInZbTQRKgroGJLPj7U",
+      "name_zh": "福風牛排館",
+      "rating": 4.2,
+      "total_ratings": 270,
       "location": {
-        "lat": 23.0607499,
-        "lng": 120.1366552
+        "lat": 23.064327100000003,
+        "lng": 120.12878289999998
       },
-      "address": "台南市安南區安中路六段217號",
-      "note": "聚餐首選的台式海鮮合菜餐廳",
-      "source": "search_2026-05-20",
+      "address": "709臺南市安南區城北里安中路六段672號676號",
+      "note": "牛排館",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ394GOT_YbTQReg6RJ2tNy6k",
+      "name_zh": "青葉活海產飲食店",
+      "rating": 4.1,
+      "total_ratings": 218,
+      "location": {
+        "lat": 23.0611694,
+        "lng": 120.1309678
+      },
+      "address": "709臺南市安南區城中里安中路六段509號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJbYCKdDnYbTQRSnpcW6ULXc4",
+      "name_zh": "土城意麵",
+      "rating": 4.2,
+      "total_ratings": 221,
+      "location": {
+        "lat": 23.0644837,
+        "lng": 120.12745439999998
+      },
+      "address": "之 號 No. 94-6, No. 94-6青砂街一段城中里安南區臺南市709",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJKxqwNj3YbTQRXPu_YDgXdCI",
+      "name_zh": "台南土城阿瑞餐廳",
+      "rating": 3.3,
+      "total_ratings": 76,
+      "location": {
+        "lat": 23.069268,
+        "lng": 120.134071
+      },
+      "address": "709臺南市安南區城東里安明路四段837號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJoTTrLs7ZbTQRJNGgGBHvBa0",
+      "name_zh": "想記/想記便當/台南安南科工",
+      "rating": 4.3,
+      "total_ratings": 72,
+      "location": {
+        "lat": 23.0454704,
+        "lng": 120.1455154
+      },
+      "address": "709臺南市安南區媽祖宮里工業二路132號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJtdm_fKDZbTQRfi2uTtzMgWw",
+      "name_zh": "廟前海產碳烤",
+      "rating": 4.7,
+      "total_ratings": 77,
+      "location": {
+        "lat": 23.0658981,
+        "lng": 120.1275556
+      },
+      "address": "709臺南市安南區城中里安中路六段757號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJm5SzLGrYbTQRoAMclIDNg2Y",
+      "name_zh": "虱目魚湘",
+      "rating": 4.3,
+      "total_ratings": 159,
+      "location": {
+        "lat": 23.0607808,
+        "lng": 120.13408960000001
+      },
+      "address": "709臺南市安南區城北里安明路四段380號",
+      "note": "海鮮餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJA-QfKznYbTQR-u5BHrCxCqI",
+      "name_zh": "讚伯手工包子饅頭油飯",
+      "rating": 3.9,
+      "total_ratings": 80,
+      "location": {
+        "lat": 23.062617000000003,
+        "lng": 120.12996570000001
+      },
+      "address": "709臺南市安南區城北里城北路4號",
+      "note": "早餐店",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJg4FoZnTZbTQRy_HM_aB3phU",
+      "name_zh": "溪埔仔早餐店",
+      "rating": 4.7,
+      "total_ratings": 28,
+      "location": {
+        "lat": 23.076273999999998,
+        "lng": 120.13053
+      },
+      "address": "709臺南市安南區學東里城北路736號",
+      "note": "早餐店",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJI8UHUlXZbTQRityPHkapKB8",
+      "name_zh": "凰詩越南美食",
+      "rating": 4.8,
+      "total_ratings": 47,
+      "location": {
+        "lat": 23.061300199999998,
+        "lng": 120.131811
+      },
+      "address": "709臺南市安南區城北里安中路六段480-1號",
+      "note": "越南餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJE_FGGADZbTQRAWSLxx0N8Fo",
+      "name_zh": "麵店",
+      "rating": 4,
+      "total_ratings": 1,
+      "location": {
+        "lat": 23.062226900000002,
+        "lng": 120.12851990000001
+      },
+      "address": "709臺南市安南區城中里青砂街一段1號",
+      "note": "中式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJuxQK5ljZbTQRcBpZoF56iXQ",
+      "name_zh": "草本梁氏臭豆腐（土城正統鹿耳門聖母廟前）",
+      "rating": 4.9,
+      "total_ratings": 7,
+      "location": {
+        "lat": 23.067017999999997,
+        "lng": 120.127914
+      },
+      "address": "709臺南市安南區城安路",
+      "note": "中式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJo8-asozZbTQRqyN8YDQSOZ8",
+      "name_zh": "天嬌越南河粉",
+      "rating": 4.5,
+      "total_ratings": 32,
+      "location": {
+        "lat": 23.061832499999998,
+        "lng": 120.13024980000002
+      },
+      "address": "709臺南市安南區城中里安中路六段559號",
+      "note": "越南餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
       "selected": false
     },
     {
       "place_id": "ChIJqwb0XgDZbTQRuxXnZIgDSFk",
       "name_zh": "姊妹豬血湯",
-      "rating": 5.0,
-      "total_ratings": 28,
+      "rating": 5,
+      "total_ratings": 6,
       "location": {
-        "lat": 23.0658546,
+        "lat": 23.065854599999998,
         "lng": 120.1275651
       },
-      "address": "台南市安南區安中路六段753號",
-      "note": "料多湯鮮的招牌豬血湯與炒麵",
-      "source": "search_2026-05-20",
-      "selected": true
-    },
-    {
-      "place_id": "ChIJhUdmfQDZbTQRp6HKb-pVL4U",
-      "name_zh": "手工煎餃",
-      "rating": 5.0,
-      "total_ratings": 12,
-      "location": {
-        "lat": 23.0670049,
-        "lng": 120.1276412
-      },
-      "address": "台南市安南區城安路",
-      "note": "手工現包脆皮煎餃、皮薄餡飽滿",
-      "source": "search_2026-05-20",
+      "address": "709臺南市安南區城東里安中路六段753號",
+      "note": "中式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
       "selected": false
     },
     {
-      "place_id": "ChIJe3gTOgDZbTQRufCN8-B91Jo",
-      "name_zh": "煎佐麻里蔥油餅",
+      "place_id": "ChIJVYuN1sPZbTQRxA6-bGVdhJw",
+      "name_zh": "邱家脆皮蚵仔煎",
+      "rating": 5,
+      "total_ratings": 2,
+      "location": {
+        "lat": 23.0679125,
+        "lng": 120.12757009999999
+      },
+      "address": "709臺南市安南區城東里城安路160號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ9wbkDz_YbTQRh9-q4Kncej4",
+      "name_zh": "一品香炒飯",
       "rating": 4.2,
-      "total_ratings": 22,
+      "total_ratings": 101,
       "location": {
-        "lat": 23.0670486,
-        "lng": 120.1275895
+        "lat": 23.0612374,
+        "lng": 120.132249
       },
-      "address": "台南市安南區城安路",
-      "note": "現點現煎的酥脆蔥油餅與點心",
-      "source": "search_2026-05-20",
+      "address": "709台灣臺南市安南區",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
       "selected": false
     },
     {
-      "place_id": "ChIJE_FGGADZbTQRAWSLxx0N8Fo",
-      "name_zh": "土城無名麵店",
-      "rating": 4.0,
-      "total_ratings": 48,
+      "place_id": "ChIJ8fiOKjnYbTQRfvlVsYW-5nU",
+      "name_zh": "陳記小吃(藝銘軒美食館)",
+      "rating": 4.1,
+      "total_ratings": 180,
       "location": {
-        "lat": 23.0622269,
-        "lng": 120.1285199
+        "lat": 23.062517699999997,
+        "lng": 120.12991369999997
       },
-      "address": "台南市安南區青砂街一段1號",
-      "note": "土城在地人最愛的無名陽春麵、黑白切",
-      "source": "search_2026-05-20",
+      "address": "709臺南市安南區城北里安中路六段592號",
+      "note": "小吃店",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
       "selected": false
+    },
+    {
+      "place_id": "ChIJG4nfYQDZbTQRoXa6C5TtTT0",
+      "name_zh": "晶品麻辣魚蛋",
+      "rating": 5,
+      "total_ratings": 1,
+      "location": {
+        "lat": 23.066967299999998,
+        "lng": 120.1279557
+      },
+      "address": "709臺南市安南區城安路",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJMTU_GwDZbTQRbwZmGfIu3-s",
+      "name_zh": "關東煮 大腸包小腸",
+      "rating": 3.7,
+      "total_ratings": 3,
+      "location": {
+        "lat": 23.0658715,
+        "lng": 120.12757239999999
+      },
+      "address": "709臺南市安南區城中里安中路六段755號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJKTkuzj7YbTQRq5bkxNs5nFw",
+      "name_zh": "新味香小吃店",
+      "rating": 4,
+      "total_ratings": 46,
+      "location": {
+        "lat": 23.0630299,
+        "lng": 120.13057169999999
+      },
+      "address": "709臺南市安南區城北里城北路45號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJI27weADZbTQRwZDGdDZA5iY",
+      "name_zh": "土城夜市麻辣鴨血",
+      "rating": 5,
+      "total_ratings": 2,
+      "location": {
+        "lat": 23.068076100000003,
+        "lng": 120.1272383
+      },
+      "address": "709臺南市安南區城安街土城聖母廟廣場",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJWwx9XgDZbTQRTTlrPEVtvDc",
+      "name_zh": "啊蘭小吃",
+      "rating": 5,
+      "total_ratings": 9,
+      "location": {
+        "lat": 23.0664138,
+        "lng": 120.13263509999999
+      },
+      "address": "709台南市安南区城东里城北路234巷51弄10號",
+      "note": "亞洲風味餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
     }
   ]
 }

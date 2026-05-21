@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ7-kIO8FrbzQRrKnoK4j_yBI",
+  "name_zh": "雀飲食堂｜鍋物•燒串•拉麵｜花蓮玉里",
+  "name_lang": "zh",
+  "rating": 4.3,
+  "total_ratings": 88,
+  "location": {
+    "lat": 23.3313071,
+    "lng": 121.31310470000001
+  },
+  "address": "98142花蓮縣玉里鎮中城里光復路131號",
+  "primary_type": "hot_pot_restaurant",
+  "primary_type_label": "火鍋店",
+  "distance_km": 0.14,
+  "source": "api_2026-05-21",
+  "note": "火鍋店",
+  "name_is_ascii": false
+}

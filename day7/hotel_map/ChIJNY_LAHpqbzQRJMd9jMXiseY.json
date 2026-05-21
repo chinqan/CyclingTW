@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJNY_LAHpqbzQRJMd9jMXiseY",
+  "name_zh": "美地雅居民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 235,
+  "location": {
+    "lat": 23.3338493,
+    "lng": 121.31953139999997
+  },
+  "address": "981花蓮縣玉里鎮國武里興國路一段281號",
+  "primary_type": "lodging",
+  "distance_km": 0.84,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

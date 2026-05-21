@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJtZk7qGzPbzQRIpJ6F2rAyzE",
+  "name_zh": "阿富瀚小吃",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 14,
+  "location": {
+    "lat": 22.634719099999998,
+    "lng": 121.0011604
+  },
+  "address": "964臺東縣金峰鄉新興村53-1",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.81,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

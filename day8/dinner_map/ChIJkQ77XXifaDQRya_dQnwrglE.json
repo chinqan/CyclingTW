@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJkQ77XXifaDQRya_dQnwrglE",
+  "name_zh": "梅蘢鎮",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 2218,
+  "location": {
+    "lat": 23.982993699999998,
+    "lng": 121.62014819999999
+  },
+  "address": "970花蓮縣花蓮市民德里民德二街26-1號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 2.24,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

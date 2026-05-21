@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJrdu-XsefaDQRujTQ9PvebSU",
+  "name_zh": "老牌炸蛋蔥油餅",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 3382,
+  "location": {
+    "lat": 23.982804599999998,
+    "lng": 121.6057335
+  },
+  "address": "970花蓮縣花蓮市國安里復興街110巷2號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.25,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJS9Ot8VqzQjQR7SsYZtEdAXs",
+  "name_zh": "阿月野菜快炒",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 2369,
+  "location": {
+    "lat": 25.2177605,
+    "lng": 121.6117678
+  },
+  "address": "208新北市金山區南勢湖陽金公路38號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 2.71,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

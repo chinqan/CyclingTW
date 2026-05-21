@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ11akWgCfaDQRRQaKc1y2h6Y",
+  "name_zh": "丞記食堂 (中山)市八市場內",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 2,
+  "location": {
+    "lat": 23.9899603,
+    "lng": 121.59863229999999
+  },
+  "address": "970花蓮縣花蓮市中山路651號市場內第66攤",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.46,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

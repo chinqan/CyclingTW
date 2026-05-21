@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ_6UaMgCzcTQR24nd5YgyH0g",
+  "name_zh": "墾丁清涼露營區",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 56,
+  "location": {
+    "lat": 21.9139801,
+    "lng": 120.8478669
+  },
+  "address": "946屏東縣恆春鎮鵝鑾里砂島路234-1號",
+  "primary_type": "campground",
+  "distance_km": 1.4,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

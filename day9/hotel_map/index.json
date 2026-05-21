@@ -1,0 +1,285 @@
+{
+  "day": 9,
+  "candidates": [
+    {
+      "place_id": "ChIJxxx60KRMXTQRoPRbKBLhSxY",
+      "name_zh": "皇后鎮森林金山",
+      "rating": 4.1,
+      "total_ratings": 2097,
+      "location": {
+        "lat": 25.2098205,
+        "lng": 121.6431466
+      },
+      "address": "207新北市萬里區大鵬里大鵬街111號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJwQUbv6ZMXTQRGwo0bQGZ_0s",
+      "name_zh": "沐川海㡳溫泉",
+      "rating": 4.7,
+      "total_ratings": 4342,
+      "location": {
+        "lat": 25.2153229,
+        "lng": 121.64418769999999
+      },
+      "address": "207新北市萬里區大鵬里加投路250-5號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJG5H1vaZMXTQRm--hPvgSfvo",
+      "name_zh": "The Loft_沐舍溫泉渡假酒店",
+      "rating": 4.1,
+      "total_ratings": 3047,
+      "location": {
+        "lat": 25.215315999999998,
+        "lng": 121.64337799999998
+      },
+      "address": "207新北市萬里區大鵬里加投路166-1號大鵬里萬里加投166-1號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJF5DDOllLXTQRz8VD73iaKtA",
+      "name_zh": "遠東金山海灣溫泉HOTEL",
+      "rating": 3.7,
+      "total_ratings": 2113,
+      "location": {
+        "lat": 25.229705799999998,
+        "lng": 121.64652249999999
+      },
+      "address": "208新北市金山區萬壽里磺港路326號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ_86q86ZMXTQRFZQMNWlW-xE",
+      "name_zh": "金湧泉SPA溫泉會館",
+      "rating": 4.1,
+      "total_ratings": 741,
+      "location": {
+        "lat": 25.216241800000002,
+        "lng": 121.6429913
+      },
+      "address": "20741新北市萬里區大鵬里加投路213-3號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJY3JCdqNMXTQRfmiCBcjvmPE",
+      "name_zh": "金湯溫泉會館",
+      "rating": 4.2,
+      "total_ratings": 1648,
+      "location": {
+        "lat": 25.215188599999998,
+        "lng": 121.64397980000001
+      },
+      "address": "207新北市萬里區大鵬里加投路197之5號2樓",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ62Be8qZMXTQRy6E6tfxgkQg",
+      "name_zh": "Dapu - Hotspring 大埔硫磺溫泉商旅",
+      "rating": 4.8,
+      "total_ratings": 8974,
+      "location": {
+        "lat": 25.2158716,
+        "lng": 121.64328549999999
+      },
+      "address": "207新北市萬里區大鵬里加投路205之5號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJAQJMVABNXTQRYErYWIvpEq0",
+      "name_zh": "新北北海溫泉洲際酒店 InterContinental New Taipei Hot Spring",
+      "rating": 4.3,
+      "total_ratings": 508,
+      "location": {
+        "lat": 25.218746,
+        "lng": 121.63378499999999
+      },
+      "address": "208004新北市金山區金美里環金路210號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJbxrFAKRMXTQRV4e_abLvLOM",
+      "name_zh": "金湧泉溫泉汽車旅館",
+      "rating": 4.1,
+      "total_ratings": 1614,
+      "location": {
+        "lat": 25.218017399999997,
+        "lng": 121.64457719999999
+      },
+      "address": "207新北市萬里區和平里加投路246-3號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ25hN8ahMXTQR4f2EBQMDKCI",
+      "name_zh": "鼎帥溫泉汽車旅館｜金山溫泉休息住宿推薦・近金山老街・24H平價泡湯",
+      "rating": 4.1,
+      "total_ratings": 1049,
+      "location": {
+        "lat": 25.218204999999998,
+        "lng": 121.6376459
+      },
+      "address": "208新北市金山區金美里忠孝一路19巷9號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ7WZ1ATBNXTQRskXDbBh3Rtk",
+      "name_zh": "萬金溫泉會館服務亭",
+      "rating": 3.5,
+      "total_ratings": 992,
+      "location": {
+        "lat": 25.210092,
+        "lng": 121.6412194
+      },
+      "address": "207台灣新北市萬里區",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJU8eoDVhLXTQR4FG21PqjXiY",
+      "name_zh": "怡美賓館",
+      "rating": 3,
+      "total_ratings": 265,
+      "location": {
+        "lat": 25.2208659,
+        "lng": 121.6412429
+      },
+      "address": "208新北市金山區大同里民生路206號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ99yzWKZMXTQRcm92R9sMEPQ",
+      "name_zh": "萬里仙境溫泉會館",
+      "rating": 3.1,
+      "total_ratings": 412,
+      "location": {
+        "lat": 25.215912,
+        "lng": 121.64286
+      },
+      "address": "207新北市萬里區大鵬里加投路197-3號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJKSChaqVMXTQRsbeVFN9CWE0",
+      "name_zh": "水田園溫泉民宿",
+      "rating": 4.1,
+      "total_ratings": 748,
+      "location": {
+        "lat": 25.211468,
+        "lng": 121.6404522
+      },
+      "address": "207新北市萬里區大鵬里45之9號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJs2fRhKhMXTQREOqUQlAxuX4",
+      "name_zh": "海寶溫泉會館",
+      "rating": 4.7,
+      "total_ratings": 476,
+      "location": {
+        "lat": 25.217567199999998,
+        "lng": 121.6390515
+      },
+      "address": "208新北市金山區金美里環金路56號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJn2o0-KdMXTQRBHUp7PdFSEc",
+      "name_zh": "中華電信金山會館",
+      "rating": 4.3,
+      "total_ratings": 175,
+      "location": {
+        "lat": 25.2203184,
+        "lng": 121.64038459999999
+      },
+      "address": "208新北市金山區和平里金包里街1號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ_xUc-6q0QjQRVN2vhtVx0pw",
+      "name_zh": "金山金色陽光民宿",
+      "rating": 4.6,
+      "total_ratings": 185,
+      "location": {
+        "lat": 25.2259568,
+        "lng": 121.62590480000001
+      },
+      "address": "208新北市金山區六股里12-5號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJP5pAS4BNXTQRpZsXUKzq93U",
+      "name_zh": "金山民宿·美人山民宿 Beauty Mountain Homestay(B&B)",
+      "rating": 4.9,
+      "total_ratings": 185,
+      "location": {
+        "lat": 25.2187582,
+        "lng": 121.62505339999998
+      },
+      "address": "20844新北市金山區南勢107號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJG_XngVmzQjQRMZBAr8oZhB8",
+      "name_zh": "璞真民宿",
+      "rating": 4.7,
+      "total_ratings": 162,
+      "location": {
+        "lat": 25.2216892,
+        "lng": 121.61394499999999
+      },
+      "address": "208新北市金山區頂六股2之1號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ78YkkIyzQjQRMbKUa0sTeM4",
+      "name_zh": "浪漫萬里民宿 Romantic_Wanli *",
+      "rating": 5,
+      "total_ratings": 34,
+      "location": {
+        "lat": 25.2053624,
+        "lng": 121.62810309999999
+      },
+      "address": "207新北市萬里區磺潭里公館崙58號",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    }
+  ]
+}

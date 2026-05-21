@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJQ2HoEORFaTQRASErSsIDBFI",
+  "name_zh": "晨荷精品渡假旅館",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 626,
+  "location": {
+    "lat": 24.0626464,
+    "lng": 120.42904130000001
+  },
+  "address": "505彰化縣鹿港鎮東石里永春街19號",
+  "primary_type": "hotel",
+  "distance_km": 0.79,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

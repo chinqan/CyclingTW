@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ4-gbFFxFaTQREOA0I5ymr0w",
+  "name_zh": "鹿港澄悦酒店 Euphoria Hotel Lukang",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 935,
+  "location": {
+    "lat": 24.0633677,
+    "lng": 120.4347578
+  },
+  "address": "50544彰化縣鹿港鎮埔崙里中正路598號",
+  "primary_type": "hotel",
+  "distance_km": 0.82,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

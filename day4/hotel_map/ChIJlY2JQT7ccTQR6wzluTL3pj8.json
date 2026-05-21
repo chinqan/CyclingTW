@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJlY2JQT7ccTQR6wzluTL3pj8",
+  "name_zh": "江南旅社",
+  "name_lang": "zh-TW",
+  "rating": 3.7,
+  "total_ratings": 46,
+  "location": {
+    "lat": 22.3653701,
+    "lng": 120.5955316
+  },
+  "address": "940屏東縣枋寮鄉枋寮村中山路187號",
+  "primary_type": "hotel",
+  "distance_km": 0.3,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

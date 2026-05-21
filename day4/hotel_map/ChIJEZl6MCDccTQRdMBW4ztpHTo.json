@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJEZl6MCDccTQRdMBW4ztpHTo",
+  "name_zh": "枋寮民宿 鐵騎休息棧",
+  "name_lang": "en",
+  "rating": 4.7,
+  "total_ratings": 441,
+  "location": {
+    "lat": 22.380372299999998,
+    "lng": 120.59614699999999
+  },
+  "address": "940屏東縣枋寮鄉人和村中山路二段55號",
+  "primary_type": "lodging",
+  "distance_km": 1.38,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

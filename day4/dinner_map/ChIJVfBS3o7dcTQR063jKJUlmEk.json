@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJVfBS3o7dcTQR063jKJUlmEk",
+  "name_zh": "5/18休息，枋寮美食_麵川ㄟ店-南台灣",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 207,
+  "location": {
+    "lat": 22.3619539,
+    "lng": 120.5959747
+  },
+  "address": "940屏東縣枋寮鄉安樂村保生路228號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.68,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

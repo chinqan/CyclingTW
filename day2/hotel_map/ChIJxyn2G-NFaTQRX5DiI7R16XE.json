@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJxyn2G-NFaTQRX5DiI7R16XE",
+  "name_zh": "鹿港，遇見1952",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 64,
+  "location": {
+    "lat": 24.0589358,
+    "lng": 120.4327547
+  },
+  "address": "505彰化縣鹿港鎮宮後巷50號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.29,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

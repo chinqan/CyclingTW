@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJbeHweRXYbTQRKeLnzSbRpAs",
-  "name_zh": "東尚台式海鮮",
+  "name_zh": "東香台菜海味料理",
+  "name_lang": "zh-TW",
   "rating": 4.5,
-  "total_ratings": 155,
+  "total_ratings": 701,
   "location": {
-    "lat": 23.0607499,
-    "lng": 120.1366552
+    "lat": 23.060749899999998,
+    "lng": 120.13665519999998
   },
-  "address": "台南市安南區安中路六段217號",
-  "note": "聚餐首選的台式海鮮合菜餐廳",
-  "source": "search_2026-05-20"
+  "address": "709臺南市安南區城北里安中路六段217號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 1.15,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
 }

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJURi3IEzdcTQRnar3WOpLOV8",
+  "name_zh": "魔王厚切傳統雞排-枋寮中山店",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 22,
+  "location": {
+    "lat": 22.361231,
+    "lng": 120.59994029999999
+  },
+  "address": "940屏東縣枋寮鄉隆山村中山路98-2號",
+  "primary_type": "meal_takeaway",
+  "primary_type_label": "外賣餐廳",
+  "distance_km": 0.9,
+  "source": "api_2026-05-21",
+  "note": "外賣餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJx6bCJIepQjQRA-p7InkKm1E",
+  "name_zh": "李記滷味｜五股美食推薦",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 124,
+  "location": {
+    "lat": 25.089135799999998,
+    "lng": 121.44692459999999
+  },
+  "address": "248新北市五股區成泰里新城八路9號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.59,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

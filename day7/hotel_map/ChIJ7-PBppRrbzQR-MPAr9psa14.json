@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ7-PBppRrbzQR-MPAr9psa14",
+  "name_zh": "910 hostel城南館",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 83,
+  "location": {
+    "lat": 23.3253364,
+    "lng": 121.32021830000001
+  },
+  "address": "981花蓮縣玉里鎮中城里城南二街30巷9號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 1.11,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

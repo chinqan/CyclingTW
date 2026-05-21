@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJRbmnRrefaDQRuR307_iRZDI",
+  "name_zh": "回然慢時旅居Meci Hotel",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 1869,
+  "location": {
+    "lat": 23.9891717,
+    "lng": 121.60083379999999
+  },
+  "address": "970花蓮縣花蓮市國聯里國聯一路201號",
+  "primary_type": "hotel",
+  "distance_km": 0.46,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

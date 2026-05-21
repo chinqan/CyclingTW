@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ9U9Wj2xrbzQR0q1Sox7jnio",
+  "name_zh": "秋月食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 69,
+  "location": {
+    "lat": 23.331373199999998,
+    "lng": 121.31176049999999
+  },
+  "address": "981花蓮縣玉里鎮中城里康樂街39號玉里火車站行李房旁鐵路餐廳",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.02,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

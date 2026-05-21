@@ -2,171 +2,1158 @@
   "day": 8,
   "candidates": [
     {
-      "place_id": "ChIJJSWM7drpZzQRXLDvkWdbAkQ",
-      "name_zh": "御廚海鮮",
-      "rating": 4.8,
-      "total_ratings": 6343,
+      "place_id": "ChIJFYmlucGfaDQRLdMuqxc6mJA",
+      "name_zh": "花蓮公正包子店",
+      "rating": 3.9,
+      "total_ratings": 19804,
       "location": {
-        "lat": 24.581393,
-        "lng": 121.868869
+        "lat": 23.9734447,
+        "lng": 121.6059897
       },
-      "address": "宜蘭縣蘇澳鎮南寧路17號",
-      "note": "南方澳海鮮 評價極高",
-      "source": "search_2026-07",
-      "selected": true
-    },
-    {
-      "place_id": "ChIJa0bDn9rpZzQRp9bQIGPjSws",
-      "name_zh": "海珍活海鮮",
-      "rating": 4.7,
-      "total_ratings": 10640,
-      "location": {
-        "lat": 24.582423,
-        "lng": 121.867082
-      },
-      "address": "宜蘭縣蘇澳鎮漁港路61號",
-      "note": "南方澳代表海鮮餐廳",
-      "source": "search_2026-07",
-      "selected": true
-    },
-    {
-      "place_id": "ChIJ_8BSctDpZzQRAolCEcCp9RY",
-      "name_zh": "味珍活海鮮",
-      "rating": 4.6,
-      "total_ratings": 7684,
-      "location": {
-        "lat": 24.582325,
-        "lng": 121.866722
-      },
-      "address": "宜蘭縣蘇澳鎮漁港路70號",
-      "note": "南方澳海鮮 份量大",
-      "source": "search_2026-07",
-      "selected": true
-    },
-    {
-      "place_id": "ChIJC5vH2DvoZzQR-00YuSvy7yk",
-      "name_zh": "食令鮮魚湯店",
-      "rating": 4.7,
-      "total_ratings": 1645,
-      "location": {
-        "lat": 24.595423,
-        "lng": 121.841034
-      },
-      "address": "宜蘭縣蘇澳鎮蘇港路254號",
-      "note": "鮮魚湯 蘇澳車站旁",
-      "source": "search_2026-07",
-      "selected": true
-    },
-    {
-      "place_id": "ChIJBxwYgKvpZzQRpSoWCB9ZMHE",
-      "name_zh": "午鯖",
-      "rating": 4.7,
-      "total_ratings": 603,
-      "location": {
-        "lat": 24.583126,
-        "lng": 121.86568
-      },
-      "address": "宜蘭縣蘇澳鎮海邊路123號",
-      "note": "鯖魚定食 南方澳漁港",
-      "source": "search_2026-07",
+      "address": "970花蓮縣花蓮市主睦里仁愛街46號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
       "selected": false
     },
     {
-      "place_id": "ChIJjSFY2GDpZzQRgq4v__TeONM",
-      "name_zh": "漁町小吃",
-      "rating": 4.9,
-      "total_ratings": 330,
-      "location": {
-        "lat": 24.581444,
-        "lng": 121.865107
-      },
-      "address": "宜蘭縣蘇澳鎮江夏路7號前",
-      "note": "平價海鮮 售完為止",
-      "source": "search_2026-07",
-      "selected": true
-    },
-    {
-      "place_id": "ChIJkRMPP9DpZzQR8V0HPcbDadk",
-      "name_zh": "富美活海鮮",
-      "rating": 4.2,
-      "total_ratings": 10961,
-      "location": {
-        "lat": 24.58319,
-        "lng": 121.866119
-      },
-      "address": "宜蘭縣蘇澳鎮海邊路111號",
-      "note": "南方澳老字號",
-      "source": "search_2026-07",
-      "selected": false
-    },
-    {
-      "place_id": "ChIJEYupVtDpZzQRtL1lQZOuUMg",
-      "name_zh": "海園活海鮮",
-      "rating": 4.6,
-      "total_ratings": 1798,
-      "location": {
-        "lat": 24.582345,
-        "lng": 121.865567
-      },
-      "address": "宜蘭縣蘇澳鎮漁港路92號",
-      "note": "海鮮合菜",
-      "source": "search_2026-07",
-      "selected": false
-    },
-    {
-      "place_id": "ChIJJWQLp7fpZzQRuf9sWZBQb_Q",
-      "name_zh": "豐炊潮丼",
-      "rating": 4.7,
-      "total_ratings": 329,
-      "location": {
-        "lat": 24.617364,
-        "lng": 121.834195
-      },
-      "address": "宜蘭縣蘇澳鎮仁愛路171號",
-      "note": "日式丼飯 蘇澳新站旁",
-      "source": "search_2026-07",
-      "selected": false
-    },
-    {
-      "place_id": "ChIJJy8J8NDpZzQRPjrtdRZyTXs",
-      "name_zh": "阿美mama手作廚房",
-      "rating": 4.9,
-      "total_ratings": 174,
-      "location": {
-        "lat": 24.580288,
-        "lng": 121.870331
-      },
-      "address": "宜蘭縣蘇澳鎮內埤路175號",
-      "note": "預約制 原住民料理",
-      "source": "search_2026-07",
-      "selected": false
-    },
-    {
-      "place_id": "ChIJkdwyTbXpZzQRjTBCqxLQCFk",
-      "name_zh": "蘇澳港小吃",
+      "place_id": "ChIJaZKHNbyhaDQRh6_N1baLX6Q",
+      "name_zh": "玉里橋頭臭豆腐-花蓮店",
       "rating": 4.3,
-      "total_ratings": 266,
+      "total_ratings": 7318,
       "location": {
-        "lat": 24.597988,
-        "lng": 121.856155
+        "lat": 23.9678821,
+        "lng": 121.6080214
       },
-      "address": "宜蘭縣蘇澳鎮蘇東北路2-62號",
-      "note": "在地小吃",
-      "source": "search_2026-07",
+      "address": "97046花蓮縣花蓮市主和里和平路55號",
+      "note": "韓國餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
       "selected": false
     },
     {
-      "place_id": "ChIJX68xGN7CZzQRNBxvYHkycAc",
-      "name_zh": "蘇澳港廟口廖榮川米糕",
-      "rating": 4.1,
-      "total_ratings": 2091,
+      "place_id": "ChIJsUKgr8CfaDQR-A_KezwH7sw",
+      "name_zh": "液香扁食",
+      "rating": 4,
+      "total_ratings": 8130,
       "location": {
-        "lat": 24.58149,
-        "lng": 121.864988
+        "lat": 23.974622099999998,
+        "lng": 121.6041084
       },
-      "address": "宜蘭縣蘇澳鎮江夏路9號",
-      "note": "廟口米糕 在地名店",
-      "source": "search_2026-07",
+      "address": "970花蓮縣花蓮市主信里信義街42號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ19ntKOufaDQRUZqk5ZIIYxk",
+      "name_zh": "花蓮廟口紅茶有限公司",
+      "rating": 3.8,
+      "total_ratings": 9794,
+      "location": {
+        "lat": 23.9733587,
+        "lng": 121.6061337
+      },
+      "address": "970花蓮縣花蓮市主義里成功街218號",
+      "note": "早午餐餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ0WUwsMCfaDQRUv6USZWMO2k",
+      "name_zh": "花蓮香扁食",
+      "rating": 4.2,
+      "total_ratings": 4559,
+      "location": {
+        "lat": 23.980997799999997,
+        "lng": 121.60614249999999
+      },
+      "address": "970花蓮縣花蓮市國威里中山路347-1號",
+      "note": "台式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ2VVALcGfaDQRkjKccxTOx3k",
+      "name_zh": "老時光燒肉酒肴",
+      "rating": 4.8,
+      "total_ratings": 11688,
+      "location": {
+        "lat": 23.981076899999998,
+        "lng": 121.60917409999998
+      },
+      "address": "970花蓮縣花蓮市國治里民國路88-1號",
+      "note": "居酒屋",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJqwnDa8GfaDQRfIX9htixZBc",
+      "name_zh": "麥當勞",
+      "rating": 4,
+      "total_ratings": 4449,
+      "location": {
+        "lat": 23.9791736,
+        "lng": 121.60997539999998
+      },
+      "address": "970花蓮縣花蓮市國治里市中正路625號",
+      "note": "速食餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ2Ur3hsCfaDQRT1uu0DytjZU",
+      "name_zh": "欣欣麵館",
+      "rating": 3.9,
+      "total_ratings": 4960,
+      "location": {
+        "lat": 23.979194,
+        "lng": 121.6060022
+      },
+      "address": "970005花蓮縣花蓮市國威里民國路125號",
+      "note": "海鮮餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJY1YREKilaDQRIxnE3L-YhSk",
+      "name_zh": "麥當勞",
+      "rating": 3.9,
+      "total_ratings": 3199,
+      "location": {
+        "lat": 23.986782299999998,
+        "lng": 121.6015688
+      },
+      "address": "970花蓮縣花蓮市國魂里中山路549-6號",
+      "note": "速食餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ5T17N9GfaDQRmvStivGM5wQ",
+      "name_zh": "單一純賣 雞湯 小卷米粉",
+      "rating": 4.2,
+      "total_ratings": 5268,
+      "location": {
+        "lat": 23.9870903,
+        "lng": 121.62192139999999
+      },
+      "address": "970花蓮縣花蓮市民勤里中美路67-2號",
+      "note": "台式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJSbijIkqfaDQR9ywtcTceAUM",
+      "name_zh": "定置漁場三代目 The Fishery 花蓮總店",
+      "rating": 4.3,
+      "total_ratings": 3117,
+      "location": {
+        "lat": 23.9828467,
+        "lng": 121.6061982
+      },
+      "address": "970花蓮縣花蓮市國安里建國路23號1樓",
+      "note": "日式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJrdu-XsefaDQRujTQ9PvebSU",
+      "name_zh": "老牌炸蛋蔥油餅",
+      "rating": 4.2,
+      "total_ratings": 3382,
+      "location": {
+        "lat": 23.982804599999998,
+        "lng": 121.6057335
+      },
+      "address": "970花蓮縣花蓮市國安里復興街110巷2號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJWdop27-faDQRgRYwRZM6o0w",
+      "name_zh": "蔡記豆花",
+      "rating": 4.4,
+      "total_ratings": 3703,
+      "location": {
+        "lat": 23.977527,
+        "lng": 121.603431
+      },
+      "address": "970花蓮縣花蓮市主工里民國路73號",
+      "note": "甜品餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ6xThNc6faDQR3nkb7sPF5ZU",
+      "name_zh": "歐桑米粉湯",
+      "rating": 4.4,
+      "total_ratings": 3921,
+      "location": {
+        "lat": 23.976416,
+        "lng": 121.6016801
+      },
+      "address": "970花蓮縣花蓮市主力里和平路466號",
+      "note": "台式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ2Qd4BpGfaDQRkWvT0w2DkME",
+      "name_zh": "娜滋滋烤魚",
+      "rating": 4.8,
+      "total_ratings": 2043,
+      "location": {
+        "lat": 23.968804499999997,
+        "lng": 121.60780279999999
+      },
+      "address": "970花蓮縣花蓮市主和里和平路92之6號970",
+      "note": "台式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJr04-k5afaDQRrHQI41v1PQY",
+      "name_zh": "闔家歡南北餚餐館-Family Pleasure",
+      "rating": 4.4,
+      "total_ratings": 3498,
+      "location": {
+        "lat": 23.9744471,
+        "lng": 121.59844360000001
+      },
+      "address": "970花蓮縣花蓮市主力里中和街228號",
+      "note": "中式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ6aOCxMafaDQRU0mHJzoOCvg",
+      "name_zh": "一碗小",
+      "rating": 4.1,
+      "total_ratings": 4497,
+      "location": {
+        "lat": 23.981882799999998,
+        "lng": 121.6091228
+      },
+      "address": "970花蓮縣花蓮市國光里明禮路14巷1號",
+      "note": "台式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJUc-Y5LmfaDQR2nZt91HX1g4",
+      "name_zh": "王記茶舖人文茶堂 - 中山店",
+      "rating": 3.9,
+      "total_ratings": 3785,
+      "location": {
+        "lat": 23.987848700000004,
+        "lng": 121.60057830000001
+      },
+      "address": "970花蓮縣花蓮市國聯里中山路565號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJkW2NqgmfaDQRZOqdD_Jj67E",
+      "name_zh": "花蓮市立丼物園",
+      "rating": 4.9,
+      "total_ratings": 2301,
+      "location": {
+        "lat": 23.9862155,
+        "lng": 121.5993154
+      },
+      "address": "970花蓮縣花蓮市國魂里延平街148巷22號",
+      "note": "日式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJa_XXsgWfaDQRyyqOmAPlj8c",
+      "name_zh": "鹿禾餐廳",
+      "rating": 4.8,
+      "total_ratings": 294,
+      "location": {
+        "lat": 23.994273,
+        "lng": 121.5950162
+      },
+      "address": "970花蓮縣花蓮市國富里富祥街9號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJk3QIebGfaDQRR6KyZ5Fx82o",
+      "name_zh": "沐日青拾|最後點餐時間19:00",
+      "rating": 4.8,
+      "total_ratings": 559,
+      "location": {
+        "lat": 23.985588099999998,
+        "lng": 121.6133715
+      },
+      "address": "970花蓮縣花蓮市民勤里新興路21-1號",
+      "note": "日式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJLVl19OmfaDQRycTtoIM4u-o",
+      "name_zh": "110豐年小館",
+      "rating": 4.7,
+      "total_ratings": 209,
+      "location": {
+        "lat": 23.990288,
+        "lng": 121.60619380000001
+      },
+      "address": "970花蓮縣花蓮市國盛里國聯三路110號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJkQ77XXifaDQRya_dQnwrglE",
+      "name_zh": "梅蘢鎮",
+      "rating": 4.9,
+      "total_ratings": 2218,
+      "location": {
+        "lat": 23.982993699999998,
+        "lng": 121.62014819999999
+      },
+      "address": "970花蓮縣花蓮市民德里民德二街26-1號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJF5w35AefaDQReBCh2s4TjdQ",
+      "name_zh": "饗泰多 Siam More 泰式風格餐廳 花蓮遠百店",
+      "rating": 4.9,
+      "total_ratings": 2245,
+      "location": {
+        "lat": 23.978143100000004,
+        "lng": 121.5996077
+      },
+      "address": "970花莲县花莲市国风里和平路581號遠東百貨花蓮店2樓",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJw87z53WfaDQRB494Xktk3NU",
+      "name_zh": "香茅廚房《Lemongrass Kitchen》花蓮美食/花蓮餐廳/花蓮泰式料理/花蓮必吃/花蓮聚餐/寵物親子友善餐廳",
+      "rating": 4.9,
+      "total_ratings": 2612,
+      "location": {
+        "lat": 23.986494699999998,
+        "lng": 121.59913569999999
+      },
+      "address": "970花蓮縣花蓮市國魂里商校街175號",
+      "note": "泰國餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJFVja_IyfaDQR-hvTdYlI2Bo",
+      "name_zh": "食山海 CMO (記得提早來停車）",
+      "rating": 4.9,
+      "total_ratings": 409,
+      "location": {
+        "lat": 23.972876799999998,
+        "lng": 121.5938783
+      },
+      "address": "970花蓮縣花蓮市主權里德安一街108巷15號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJE5CtN76faDQRKbL66Wt51Yo",
+      "name_zh": "OZ Restaurant 義式料理(公休日請見臉書）",
+      "rating": 4.5,
+      "total_ratings": 508,
+      "location": {
+        "lat": 23.985531400000003,
+        "lng": 121.60460499999998
+      },
+      "address": "97055花蓮縣花蓮市國安里明智街75號",
+      "note": "義大利餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJwwyVZWGfaDQRF7dPOWA8nOA",
+      "name_zh": "宥翔小館(Chinese Family Restaurant)",
+      "rating": 4.6,
+      "total_ratings": 84,
+      "location": {
+        "lat": 23.988588999999997,
+        "lng": 121.6005478
+      },
+      "address": "970花蓮縣花蓮市國聯里中山路466號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJjbLz77mfaDQRdbPkHrdWOzc",
+      "name_zh": "以諾廚房",
+      "rating": 4.4,
+      "total_ratings": 484,
+      "location": {
+        "lat": 23.9871271,
+        "lng": 121.600715
+      },
+      "address": "970花蓮縣花蓮市國聯里商校街192-1號",
+      "note": "亞洲風味餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ9WNoRsefaDQRcBbSHYXI8KM",
+      "name_zh": "神田屋日式家庭料理",
+      "rating": 4.5,
+      "total_ratings": 884,
+      "location": {
+        "lat": 23.9824838,
+        "lng": 121.606776
+      },
+      "address": "970花蓮縣花蓮市國安里林森路407號",
+      "note": "日式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ51wsmrifaDQRtUhiPyEi3ww",
+      "name_zh": "米拉瓦義式餐廳（花蓮必吃美食推薦 / 花蓮午晚餐聚餐 / 花蓮義式義大利麵餐廳）",
+      "rating": 4.7,
+      "total_ratings": 991,
+      "location": {
+        "lat": 23.9824791,
+        "lng": 121.6011505
+      },
+      "address": "970花蓮縣花蓮市國華里博愛街288號",
+      "note": "義大利餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJpTHZfGufaDQRYwv9zZs77ZI",
+      "name_zh": "小村·日 壽司（花蓮店）｜日式餐廳｜花蓮美食｜聚餐餐廳｜客製化餐盒｜生魚片蛋糕｜",
+      "rating": 4.9,
+      "total_ratings": 3572,
+      "location": {
+        "lat": 23.9763122,
+        "lng": 121.6071195
+      },
+      "address": "970花蓮縣花蓮市主勤里博愛街175號",
+      "note": "壽司店",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJy4XSbwmfaDQRX0NqS2t39xE",
+      "name_zh": "蒔夜すし",
+      "rating": 4.8,
+      "total_ratings": 143,
+      "location": {
+        "lat": 23.9877525,
+        "lng": 121.60336040000001
+      },
+      "address": "970花蓮縣花蓮市國聯里商校街96號1樓",
+      "note": "日式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJMSG24T2faDQR61p8nzSKWCg",
+      "name_zh": "福坊炭烤酌酒/花蓮美食/花蓮餐廳/花蓮餐酒館/花蓮晚餐/花蓮調酒/附近美食",
+      "rating": 4.9,
+      "total_ratings": 222,
+      "location": {
+        "lat": 23.9740139,
+        "lng": 121.595066
+      },
+      "address": "970花蓮縣花蓮市主權里中原路618號左",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJrX5SeZwgZjQR8qg2ClWkGqc",
+      "name_zh": "洋基牧場",
+      "rating": 4.3,
+      "total_ratings": 2206,
+      "location": {
+        "lat": 23.9826324,
+        "lng": 121.6187315
+      },
+      "address": "970花蓮縣花蓮市民德里中美路34號",
+      "note": "中式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJwZZ2c7GfaDQRRZRrV3ht3k0",
+      "name_zh": "萬寶家食堂-花蓮美食 花蓮餐廳 花蓮推薦美食 花蓮聚餐 花蓮早午餐 花蓮午餐",
+      "rating": 4.7,
+      "total_ratings": 492,
+      "location": {
+        "lat": 23.9759398,
+        "lng": 121.61385039999999
+      },
+      "address": "970花蓮縣花蓮市民主里花崗街42巷2號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ9TYI8m2faDQR-E0G1HSQ7Z0",
+      "name_zh": "明今活海鮮",
+      "rating": 4.7,
+      "total_ratings": 326,
+      "location": {
+        "lat": 23.995923299999998,
+        "lng": 121.5964573
+      },
+      "address": "970花蓮縣花蓮市國裕里富強路46號",
+      "note": "中式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJtQ19JzWfaDQRr3YR5N8kFLU",
+      "name_zh": "午夜快車宵夜店-花蓮分店",
+      "rating": 4.8,
+      "total_ratings": 1566,
+      "location": {
+        "lat": 23.994518499999998,
+        "lng": 121.5988551
+      },
+      "address": "970花蓮縣花蓮市國裕里富吉路8號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ1TxYraCfaDQRzpVS2wIxhp0",
+      "name_zh": "大盛屋 - 日式丼飯烏龍麵專賣店 花蓮美食 花蓮午餐 花蓮晚餐 花蓮在地人餐廳推薦",
+      "rating": 4.9,
+      "total_ratings": 2078,
+      "location": {
+        "lat": 23.9771584,
+        "lng": 121.6029322
+      },
+      "address": "970花蓮縣花蓮市主工里民國路53號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ6QlDObafaDQRZkQWckZKbfY",
+      "name_zh": "十九甲雞排-花蓮富吉店",
+      "rating": 4.9,
+      "total_ratings": 115,
+      "location": {
+        "lat": 23.9947675,
+        "lng": 121.59759940000001
+      },
+      "address": "970花蓮縣花蓮市國裕里富吉路51號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJE2-TvDWfaDQRVZ7uLeaaoro",
+      "name_zh": "飯人小吃店-RICE MAN",
+      "rating": 4.5,
+      "total_ratings": 897,
+      "location": {
+        "lat": 23.9801964,
+        "lng": 121.60337750000001
+      },
+      "address": "970花蓮縣花蓮市國華里林森路311號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJgc6nSbqfaDQRlCzpCY1VPnA",
+      "name_zh": "難得美食刀削麵",
+      "rating": 4.2,
+      "total_ratings": 1024,
+      "location": {
+        "lat": 23.986742700000004,
+        "lng": 121.6001884
+      },
+      "address": "970花蓮縣花蓮市國魂里商校街135號",
+      "note": "中式麵館",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJBew8uTSeaDQRoh9uyQo1iJ0",
+      "name_zh": "竹籬笆小吃店",
+      "rating": 4.3,
+      "total_ratings": 279,
+      "location": {
+        "lat": 23.9964218,
+        "lng": 121.6062015
+      },
+      "address": "970花蓮縣花蓮市國民6之1號",
+      "note": "小吃店",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJUaA-9WCfaDQR1axCfoCuZN4",
+      "name_zh": "成功牛排 花蓮店-花蓮牛排吃到飽|花蓮火車站牛排|在地推薦牛排館｜親子餐廳|花蓮平價牛排｜花蓮自助吧牛排｜東大門夜市牛排｜花蓮慈濟大學推薦牛排｜熱門美食 ｜",
+      "rating": 4.8,
+      "total_ratings": 985,
+      "location": {
+        "lat": 23.992181600000002,
+        "lng": 121.59796029999998
+      },
+      "address": "970花蓮縣花蓮市國裕里富安路2號",
+      "note": "牛排館",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJPSp25LifaDQRU-WgAfNP6yY",
+      "name_zh": "幽靈餐車",
+      "rating": 4.2,
+      "total_ratings": 1703,
+      "location": {
+        "lat": 23.9863049,
+        "lng": 121.5906212
+      },
+      "address": "973花蓮縣吉安鄉北昌村建國路一段162號",
+      "note": "台式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJpXU7FRSfaDQRoUJ4H99By8E",
+      "name_zh": "職饗雞湯小卷米粉",
+      "rating": 4.6,
+      "total_ratings": 748,
+      "location": {
+        "lat": 23.9923409,
+        "lng": 121.60499919999998
+      },
+      "address": "970花蓮縣花蓮市國聯里國聯五路121號",
+      "note": "台式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJhxuLyYOfaDQRud2j5Uqipj0",
+      "name_zh": "蘇記美食館",
+      "rating": 4.6,
+      "total_ratings": 186,
+      "location": {
+        "lat": 23.985378299999997,
+        "lng": 121.59546719999997
+      },
+      "address": "973花莲县吉安乡北昌村自立路2號之1",
+      "note": "台式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJLbDAXcCfaDQRgSb_726izq8",
+      "name_zh": "荒井家日式豬排",
+      "rating": 4.5,
+      "total_ratings": 1306,
+      "location": {
+        "lat": 23.992446599999997,
+        "lng": 121.59830339999999
+      },
+      "address": "970花蓮縣花蓮市國裕里富安路18號",
+      "note": "日式炸豬排餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJX10lb2ufaDQR_6BQTdcVStQ",
+      "name_zh": "餵咖哩WAIT CURRY花蓮美食＃後站美食#花蓮車站美食#慈濟美食#北埔美食花蓮",
+      "rating": 4.9,
+      "total_ratings": 220,
+      "location": {
+        "lat": 23.995195199999998,
+        "lng": 121.5957528
+      },
+      "address": "970花蓮縣花蓮市國裕里富強路7號",
+      "note": "日式咖哩餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJDYSaxbOfaDQRLGSjm5UdyZs",
+      "name_zh": "哞哞牛肉麵",
+      "rating": 4.4,
+      "total_ratings": 183,
+      "location": {
+        "lat": 23.9950284,
+        "lng": 121.59769770000001
+      },
+      "address": "970花蓮縣花蓮市國裕里富吉路56號",
+      "note": "中式麵館",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJwXPT_HyfaDQRpKk39Kzlzjg",
+      "name_zh": "好正點港式點心 洄瀾廣場",
+      "rating": 4.5,
+      "total_ratings": 1989,
+      "location": {
+        "lat": 23.9932111,
+        "lng": 121.60191939999999
+      },
+      "address": "970花蓮縣花蓮市國聯里國聯一路100號",
+      "note": "茶餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJG1nLseufaDQR5FS2b2nSw4g",
+      "name_zh": "貨櫃屋台灣料理 - 花蓮 人氣必吃中式熱炒 在地特色宵夜美食 團體合菜聚餐小酌 燒烤火鍋海鮮餐廳 平價推薦相片",
+      "rating": 4.5,
+      "total_ratings": 593,
+      "location": {
+        "lat": 23.975780099999998,
+        "lng": 121.61019110000001
+      },
+      "address": "970花蓮縣花蓮市中山路143號",
+      "note": "台式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJkXoJTBafaDQRbuGC8OhXUWI",
+      "name_zh": "美好餐室|花蓮美食|港式餐廳",
+      "rating": 4.4,
+      "total_ratings": 231,
+      "location": {
+        "lat": 23.977890199999997,
+        "lng": 121.6002424
+      },
+      "address": "970花蓮縣花蓮市國風里林森路144號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ4d0B4cefaDQRKUDeJRQJ_3o",
+      "name_zh": "昂昂廟口小吃",
+      "rating": 4.9,
+      "total_ratings": 433,
+      "location": {
+        "lat": 23.9865465,
+        "lng": 121.6068124
+      },
+      "address": "No. 94, No. 94進豐街國防里花蓮市花蓮縣970",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJWV6WNACfaDQR3zztxnJuueQ",
+      "name_zh": "新周記小吃",
+      "rating": 4.8,
+      "total_ratings": 10,
+      "location": {
+        "lat": 23.9904792,
+        "lng": 121.59501929999999
+      },
+      "address": "970花蓮縣花蓮市國富里富國路80號",
+      "note": "中式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJA606lf6faDQRHCICX47rnCU",
+      "name_zh": "胖嘟嘟臭豆腐",
+      "rating": 4.9,
+      "total_ratings": 1180,
+      "location": {
+        "lat": 23.9830993,
+        "lng": 121.60468039999999
+      },
+      "address": "970花蓮縣花蓮市國安里中山路392號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJvblE7q6faDQRNh_wvGrlgto",
+      "name_zh": "156熱炒小吃",
+      "rating": 4.7,
+      "total_ratings": 38,
+      "location": {
+        "lat": 23.9930089,
+        "lng": 121.60510579999999
+      },
+      "address": "970花蓮縣花蓮市國聯里國聯五路156號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJcWCilfWfaDQRSoNMAE-4t9I",
+      "name_zh": "長春66小吃（程家食堂）",
+      "rating": 4.9,
+      "total_ratings": 57,
+      "location": {
+        "lat": 23.9699824,
+        "lng": 121.59798969999999
+      },
+      "address": "970花蓮縣花蓮市主農里長春街66號",
+      "note": "亞洲風味餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ34Gf39CfaDQRsGX7dWY4o6g",
+      "name_zh": "媽媽桑小吃店",
+      "rating": 4.1,
+      "total_ratings": 177,
+      "location": {
+        "lat": 23.978769999999997,
+        "lng": 121.60743699999999
+      },
+      "address": "970花蓮縣花蓮市國治里節約街45號",
+      "note": "小吃店",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJZWwoeiifaDQRxm4ne0lvmxY",
+      "name_zh": "阿嬤ㄟ古早味",
+      "rating": 4.1,
+      "total_ratings": 379,
+      "location": {
+        "lat": 23.9802659,
+        "lng": 121.6059608
+      },
+      "address": "970花蓮縣花蓮市國威里大同街32-1號",
+      "note": "台式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ17z34bmfaDQRPOmCLkHaR0c",
+      "name_zh": "花蓮老伯炒飯",
+      "rating": 4.1,
+      "total_ratings": 164,
+      "location": {
+        "lat": 23.988446399999997,
+        "lng": 121.6006537
+      },
+      "address": "970花蓮縣花蓮市國聯里中山路458之1號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJfU9P1sGfaDQRa8KSaKRqIOQ",
+      "name_zh": "福華小吃店",
+      "rating": 4.3,
+      "total_ratings": 341,
+      "location": {
+        "lat": 23.975639299999997,
+        "lng": 121.6085753
+      },
+      "address": "970花蓮縣花蓮市主商里光復街28之1號",
+      "note": "小吃店",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJX4P5z0mfaDQRW3OskGuCT-U",
+      "name_zh": "陳家食堂",
+      "rating": 4.7,
+      "total_ratings": 1981,
+      "location": {
+        "lat": 23.9753339,
+        "lng": 121.60431609999998
+      },
+      "address": "97046花蓮縣花蓮市主信里中正路439號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJgSp8wEyeaDQRKh828jmyn40",
+      "name_zh": "野三活小吃",
+      "rating": 4.3,
+      "total_ratings": 72,
+      "location": {
+        "lat": 24.0007839,
+        "lng": 121.6008038
+      },
+      "address": "970花蓮縣花蓮市國強里富強路302號",
+      "note": "台式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJHw70Ij4iaDQR6uAkgGopR3I",
+      "name_zh": "大後山深夜食堂",
+      "rating": 4.4,
+      "total_ratings": 181,
+      "location": {
+        "lat": 23.992932699999997,
+        "lng": 121.59672289999999
+      },
+      "address": "970花蓮縣花蓮市國富里中山路801號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ11akWgCfaDQRRQaKc1y2h6Y",
+      "name_zh": "丞記食堂 (中山)市八市場內",
+      "rating": 5,
+      "total_ratings": 2,
+      "location": {
+        "lat": 23.9899603,
+        "lng": 121.59863229999999
+      },
+      "address": "970花蓮縣花蓮市中山路651號市場內第66攤",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJn6O3Jr-faDQRVLpsZvUAnUE",
+      "name_zh": "木子食堂",
+      "rating": 4.5,
+      "total_ratings": 615,
+      "location": {
+        "lat": 23.981409,
+        "lng": 121.6028817
+      },
+      "address": "970花蓮縣花蓮市國華里博愛街238號",
+      "note": "居酒屋",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ1caCbEGfaDQRi45d9T2N7L4",
+      "name_zh": "人間風味食堂",
+      "rating": 4.6,
+      "total_ratings": 77,
+      "location": {
+        "lat": 23.9937769,
+        "lng": 121.5960997
+      },
+      "address": "970花蓮縣花蓮市國富里中山路849號",
+      "note": "中式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJw3QoRwCfaDQRljcJ1E-6OJM",
+      "name_zh": "多力手作食堂",
+      "rating": 4.8,
+      "total_ratings": 113,
+      "location": {
+        "lat": 23.9787306,
+        "lng": 121.60712749999999
+      },
+      "address": "970花蓮縣花蓮市國治里新港街40號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJx8msh4efaDQRe-kMIMk-BVA",
+      "name_zh": "兩斤農莊食堂（前干城）",
+      "rating": 4.8,
+      "total_ratings": 1535,
+      "location": {
+        "lat": 23.987720799999998,
+        "lng": 121.5869403
+      },
+      "address": "973花蓮縣吉安鄉北昌村建國路一段278號",
+      "note": "中式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJP80oOLmfaDQRU1f1kPy1D4U",
+      "name_zh": "茶鄉食堂",
+      "rating": 4.7,
+      "total_ratings": 109,
+      "location": {
+        "lat": 23.9835118,
+        "lng": 121.60134029999999
+      },
+      "address": "970花蓮縣花蓮市國華里建林街198號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ6_znnQGfaDQR6vNZcTh1XtE",
+      "name_zh": "奛食堂",
+      "rating": 3.8,
+      "total_ratings": 13,
+      "location": {
+        "lat": 23.9739827,
+        "lng": 121.59512249999999
+      },
+      "address": "970花蓮縣花蓮市中原路616號",
+      "note": "中式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJaYiNVrCfaDQRJ5KbEDTCiIE",
+      "name_zh": "榮市食堂",
+      "rating": 4.6,
+      "total_ratings": 124,
+      "location": {
+        "lat": 23.991327,
+        "lng": 121.596708
+      },
+      "address": "970花蓮縣花蓮市國富里富國路41號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJe4AepgufaDQRBt5ORscUOZ0",
+      "name_zh": "麵匡匡拉麵食堂 花蓮中山店",
+      "rating": 4.6,
+      "total_ratings": 272,
+      "location": {
+        "lat": 23.9807286,
+        "lng": 121.6065804
+      },
+      "address": "970花蓮縣花蓮市國威里中山路280號",
+      "note": "拉麵店",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJMfXKXJSfaDQReVkZdCpsvMY",
+      "name_zh": "古滷古滷深夜食堂",
+      "rating": 4.4,
+      "total_ratings": 284,
+      "location": {
+        "lat": 23.9735157,
+        "lng": 121.60193389999998
+      },
+      "address": "970花蓮縣花蓮市主學里中正路308號",
+      "note": "餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJPdl9CBCfaDQRd6-e3bn92h4",
+      "name_zh": "沐椿壽喜燒",
+      "rating": 4.8,
+      "total_ratings": 150,
+      "location": {
+        "lat": 23.993842299999997,
+        "lng": 121.596051
+      },
+      "address": "970花蓮縣花蓮市國富里中山路855號",
+      "note": "日式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJwzqT_cGfaDQRTF-nn9WDy1c",
+      "name_zh": "銀座食堂",
+      "rating": 4.5,
+      "total_ratings": 320,
+      "location": {
+        "lat": 23.9753641,
+        "lng": 121.61080299999999
+      },
+      "address": "970花蓮縣花蓮市民族里中山路94號",
+      "note": "日式餐廳",
+      "source": "api_2026-05-21",
+      "name_is_ascii": false,
       "selected": false
     }
   ]

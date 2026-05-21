@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJYVHJ4uRFaTQR6Vm3-D057Bk",
+  "name_zh": "宜庭越南小吃店",
+  "name_lang": "zh",
+  "rating": 4.1,
+  "total_ratings": 25,
+  "location": {
+    "lat": 24.060412499999998,
+    "lng": 120.4272014
+  },
+  "address": "505彰化縣鹿港鎮東石里中山路582號",
+  "primary_type": "vietnamese_restaurant",
+  "primary_type_label": "越南餐廳",
+  "distance_km": 0.71,
+  "source": "api_2026-05-21",
+  "note": "越南餐廳",
+  "name_is_ascii": false
+}

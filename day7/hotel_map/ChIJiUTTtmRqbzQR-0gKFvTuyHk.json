@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJiUTTtmRqbzQR-0gKFvTuyHk",
+  "name_zh": "歐鄉信義民宿",
+  "name_lang": "zh-TW",
+  "rating": 3.6,
+  "total_ratings": 19,
+  "location": {
+    "lat": 23.3274851,
+    "lng": 121.3143871
+  },
+  "address": "981花蓮縣玉里鎮中城里信義路8號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 0.52,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

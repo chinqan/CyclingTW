@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJxfPezvxrbzQR8FPuvLDT41c",
+  "name_zh": "小時公館民宿城西",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 61,
+  "location": {
+    "lat": 23.3275249,
+    "lng": 121.311668
+  },
+  "address": "981花蓮縣玉里鎮中城里城西一街96號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.44,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

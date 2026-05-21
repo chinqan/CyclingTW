@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJaYhFCU2pQjQRlfUP6zXB8To",
+  "name_zh": "六合湯品小吃",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 26,
+  "location": {
+    "lat": 25.0903866,
+    "lng": 121.46981980000001
+  },
+  "address": "247新北市蘆洲區水湳里民族路381號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.76,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

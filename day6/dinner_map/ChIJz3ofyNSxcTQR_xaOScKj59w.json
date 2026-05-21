@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJz3ofyNSxcTQR_xaOScKj59w",
+  "name_zh": "蝦一跳活蝦料理餐廳",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 208,
+  "location": {
+    "lat": 22.624167399999997,
+    "lng": 121.0121824
+  },
+  "address": "963台东县太麻里乡1鄰2-10號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.95,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

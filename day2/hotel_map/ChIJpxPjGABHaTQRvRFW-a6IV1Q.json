@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJpxPjGABHaTQRvRFW-a6IV1Q",
+  "name_zh": "家加旅棧JiaJia Inn",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 28,
+  "location": {
+    "lat": 24.0670892,
+    "lng": 120.43586889999999
+  },
+  "address": "505彰化縣鹿港鎮埔崙里永福路83巷43號",
+  "primary_type": "private_guest_room",
+  "distance_km": 1.25,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

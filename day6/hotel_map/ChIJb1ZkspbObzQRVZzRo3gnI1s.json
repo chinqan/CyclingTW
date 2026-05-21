@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJb1ZkspbObzQRVZzRo3gnI1s",
+  "name_zh": "茶中緣休閒山莊",
+  "name_lang": "en",
+  "rating": 4.1,
+  "total_ratings": 35,
+  "location": {
+    "lat": 22.6173723,
+    "lng": 120.9920343
+  },
+  "address": "963臺東縣太麻里鄉大王村太麻里街86號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 1.34,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

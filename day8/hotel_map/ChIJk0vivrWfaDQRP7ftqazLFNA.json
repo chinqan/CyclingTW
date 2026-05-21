@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJk0vivrWfaDQRP7ftqazLFNA",
+  "name_zh": "仲青行旅 花蓮館Light Hostel",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 587,
+  "location": {
+    "lat": 23.9944035,
+    "lng": 121.60381190000001
+  },
+  "address": "970花蓮縣花蓮市國聯里國民十街11號",
+  "primary_type": "hostel",
+  "distance_km": 0.29,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

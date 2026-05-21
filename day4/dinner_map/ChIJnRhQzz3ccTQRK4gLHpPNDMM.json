@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJnRhQzz3ccTQRK4gLHpPNDMM",
+  "name_zh": "枋寮美食 | 竹源薑母鴨",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 254,
+  "location": {
+    "lat": 22.368287199999997,
+    "lng": 120.59461579999999
+  },
+  "address": "940屏東縣枋寮鄉枋寮村儲運路35號",
+  "primary_type": "hot_pot_restaurant",
+  "primary_type_label": "火鍋店",
+  "distance_km": 0.06,
+  "source": "api_2026-05-21",
+  "note": "火鍋店",
+  "name_is_ascii": false
+}

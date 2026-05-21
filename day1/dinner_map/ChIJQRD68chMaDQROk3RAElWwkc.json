@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJQRD68chMaDQROk3RAElWwkc",
+  "name_zh": "范頭家客家餐廳 - 客家菜 | 合菜 | 附近美食",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 3489,
+  "location": {
+    "lat": 24.6867904,
+    "lng": 120.9019675
+  },
+  "address": "351苗栗縣頭份市東庄里和平路263號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 2.16,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

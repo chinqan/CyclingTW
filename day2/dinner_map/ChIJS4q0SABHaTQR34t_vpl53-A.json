@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJS4q0SABHaTQR34t_vpl53-A",
+  "name_zh": "旺春豐傳統小吃鹿港店",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 113,
+  "location": {
+    "lat": 24.056753999999998,
+    "lng": 120.43656779999999
+  },
+  "address": "50542彰化縣鹿港鎮景福里萬壽路225、227號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.41,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJS_9lT6MPbjQRMm4ZbNmsteM",
+  "name_zh": "丼食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 187,
+  "location": {
+    "lat": 25.0927968,
+    "lng": 121.473178
+  },
+  "address": "247新北市蘆洲區水湳里民族路426巷18-1號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 1.18,
+  "source": "api_2026-05-21",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

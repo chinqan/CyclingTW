@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJOX_ga7CoQjQR-hwEbI0zK38",
+  "name_zh": "食芳齋精燉牛肉麵",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 555,
+  "location": {
+    "lat": 25.084152,
+    "lng": 121.45884389999999
+  },
+  "address": "247新北市蘆洲區永德里長安街194巷1、3號",
+  "primary_type": "chinese_noodle_restaurant",
+  "primary_type_label": "中式麵館",
+  "distance_km": 0.59,
+  "source": "api_2026-05-21",
+  "note": "中式麵館",
+  "name_is_ascii": false
+}

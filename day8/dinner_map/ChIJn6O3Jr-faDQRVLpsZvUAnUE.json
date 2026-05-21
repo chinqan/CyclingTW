@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJn6O3Jr-faDQRVLpsZvUAnUE",
+  "name_zh": "木子食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 615,
+  "location": {
+    "lat": 23.981409,
+    "lng": 121.6028817
+  },
+  "address": "970花蓮縣花蓮市國華里博愛街238號",
+  "primary_type": "japanese_izakaya_restaurant",
+  "primary_type_label": "居酒屋",
+  "distance_km": 1.33,
+  "source": "api_2026-05-21",
+  "note": "居酒屋",
+  "name_is_ascii": false
+}

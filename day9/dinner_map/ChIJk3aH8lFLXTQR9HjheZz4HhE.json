@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJk3aH8lFLXTQR9HjheZz4HhE",
-  "name_zh": "阿嬤家",
+  "name_zh": "阿嬤家漁村料理",
+  "name_lang": "zh-TW",
   "rating": 4.4,
   "total_ratings": 1512,
   "location": {
-    "lat": 25.227234,
+    "lat": 25.227234199999998,
     "lng": 121.645575
   },
-  "address": "新北市金山區磺港路189號",
-  "note": "台式家常菜 大份量",
-  "source": "search_2026-07"
+  "address": "208新北市金山區磺港里磺港路189號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.95,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
 }

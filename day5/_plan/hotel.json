@@ -1,0 +1,354 @@
+{
+  "day": 5,
+  "search_radius_km": 3,
+  "pool_size": 21,
+  "bayesian_C": 889.1,
+  "bayesian_m": 4.7436,
+  "note": "C=平均留言數(先驗樣本數), m=加權平均評分(先驗期望值)",
+  "source_endpoint_place_id": "ChIJZV-_DhWxcTQREKTCizrSV1c",
+  "top5_place_ids": [
+    "ChIJsbDnV6-zcTQRLG6GSccIzcI",
+    "ChIJ-79N6oCycTQRIHS_gNANgfE",
+    "ChIJh4UyY4GzcTQRvcqQK6_XQ4k",
+    "ChIJ6Qa-MH2ycTQRTog7Gm1TB4c",
+    "ChIJ_6UaMgCzcTQR24nd5YgyH0g"
+  ],
+  "hotels": [
+    {
+      "place_id": "ChIJsbDnV6-zcTQRLG6GSccIzcI",
+      "name_zh": "日光·嶼南 SUNLIGHT ON THE PENINSULA",
+      "rating": 5,
+      "total_ratings": 1646,
+      "location": {
+        "lat": 21.917470500000004,
+        "lng": 120.8476813
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里埔頂路191號",
+      "note": "",
+      "bayesian_score": 4.9101,
+      "confidence": "✅ 高",
+      "rank": 1,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ-79N6oCycTQRIHS_gNANgfE",
+      "name_zh": "統一渡假村墾丁海洋體驗樂園",
+      "rating": 4.8,
+      "total_ratings": 12797,
+      "location": {
+        "lat": 21.9059933,
+        "lng": 120.85162869999999
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里鵝鑾路230號",
+      "note": "",
+      "bayesian_score": 4.7963,
+      "confidence": "✅ 高",
+      "rank": 2,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJh4UyY4GzcTQRvcqQK6_XQ4k",
+      "name_zh": "沃鉐居",
+      "rating": 5,
+      "total_ratings": 201,
+      "location": {
+        "lat": 21.9209504,
+        "lng": 120.84145180000002
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里埔頂路658號",
+      "note": "",
+      "bayesian_score": 4.7909,
+      "confidence": "❌ 低",
+      "rank": 3,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ6Qa-MH2ycTQRTog7Gm1TB4c",
+      "name_zh": "窩在海邊",
+      "rating": 4.8,
+      "total_ratings": 216,
+      "location": {
+        "lat": 21.913013799999998,
+        "lng": 120.84798619999998
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里砂島路218號",
+      "note": "",
+      "bayesian_score": 4.7546,
+      "confidence": "❌ 低",
+      "rank": 4,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ_6UaMgCzcTQR24nd5YgyH0g",
+      "name_zh": "墾丁清涼露營區",
+      "rating": 4.9,
+      "total_ratings": 56,
+      "location": {
+        "lat": 21.9139801,
+        "lng": 120.8478669
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里砂島路234-1號",
+      "note": "",
+      "bayesian_score": 4.7529,
+      "confidence": "❌ 低",
+      "rank": 5,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJASPJmYCycTQRkvW6JMNEJTU",
+      "name_zh": "蒂棻尼民宿",
+      "rating": 4.8,
+      "total_ratings": 166,
+      "location": {
+        "lat": 21.907341799999998,
+        "lng": 120.84964040000001
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里鵝鑾路446號",
+      "note": "",
+      "bayesian_score": 4.7525,
+      "confidence": "❌ 低",
+      "rank": 6,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ6e3nMn2ycTQRDCyFmxBxGDc",
+      "name_zh": "砂點民宿",
+      "rating": 4.8,
+      "total_ratings": 118,
+      "location": {
+        "lat": 21.9133097,
+        "lng": 120.8479524
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里砂島路230號",
+      "note": "",
+      "bayesian_score": 4.7502,
+      "confidence": "❌ 低",
+      "rank": 7,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJuVX-pBCzcTQRWjYI8NLVIaQ",
+      "name_zh": "小日子海景渡假別墅",
+      "rating": 4.8,
+      "total_ratings": 8,
+      "location": {
+        "lat": 21.916162999999997,
+        "lng": 120.84136039999999
+      },
+      "address": "94644屏東縣恆春鎮鵝鑾里砂島路506號",
+      "note": "",
+      "bayesian_score": 4.7441,
+      "confidence": "❌ 低",
+      "rank": 8,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJR686RImycTQR-T7pYIJ1h5M",
+      "name_zh": "南方娜波",
+      "rating": 4.8,
+      "total_ratings": 4,
+      "location": {
+        "lat": 21.916954699999998,
+        "lng": 120.85470969999999
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里坑內路55巷9號",
+      "note": "",
+      "bayesian_score": 4.7439,
+      "confidence": "❌ 低",
+      "rank": 9,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJXZ9poPGzcTQRz63RdflXQ_U",
+      "name_zh": "沙島露營區",
+      "rating": 4.7,
+      "total_ratings": 36,
+      "location": {
+        "lat": 21.9122219,
+        "lng": 120.8483352
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里砂島路200號之1號",
+      "note": "",
+      "bayesian_score": 4.7419,
+      "confidence": "❌ 低",
+      "rank": 10,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJG6iKpWaycTQREhE4Id8BGrg",
+      "name_zh": "墾丁放牛吃草民宿",
+      "rating": 4.7,
+      "total_ratings": 242,
+      "location": {
+        "lat": 21.9202965,
+        "lng": 120.8436157
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里埔頂路535號",
+      "note": "",
+      "bayesian_score": 4.7343,
+      "confidence": "❌ 低",
+      "rank": 11,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJw0idO32ycTQR_gN0-P2LaEc",
+      "name_zh": "墾丁砂島206民宿",
+      "rating": 4.6,
+      "total_ratings": 106,
+      "location": {
+        "lat": 21.912674799999998,
+        "lng": 120.84818080000001
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里砂島路206號",
+      "note": "",
+      "bayesian_score": 4.7283,
+      "confidence": "❌ 低",
+      "rank": 12,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJVR3Tu0uzcTQRxzrRUahivdg",
+      "name_zh": "海山露營區",
+      "rating": 4.6,
+      "total_ratings": 191,
+      "location": {
+        "lat": 21.9111086,
+        "lng": 120.84826429999998
+      },
+      "address": "946屏東縣恆春鎮島路200-2號",
+      "note": "",
+      "bayesian_score": 4.7182,
+      "confidence": "❌ 低",
+      "rank": 13,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJfTxIU2GycTQRA--bfkIm0HI",
+      "name_zh": "墾丁雲太美不想下山民宿｜寵物友善房｜包棟｜活動包場｜婚禮場地｜場地出租",
+      "rating": 4.6,
+      "total_ratings": 234,
+      "location": {
+        "lat": 21.9202022,
+        "lng": 120.84526059999999
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里埔頂路502號",
+      "note": "",
+      "bayesian_score": 4.7137,
+      "confidence": "❌ 低",
+      "rank": 14,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJoQu7rYGycTQRLTGgfVtwEzc",
+      "name_zh": "龍坑民宿套房",
+      "rating": 4.2,
+      "total_ratings": 66,
+      "location": {
+        "lat": 21.903986,
+        "lng": 120.8529999
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里鵝鑾路51號",
+      "note": "",
+      "bayesian_score": 4.706,
+      "confidence": "❌ 低",
+      "rank": 15,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJt10QwWSycTQRpfzeiplPzEo",
+      "name_zh": "墾丁享念海灣海景民宿",
+      "rating": 4.5,
+      "total_ratings": 410,
+      "location": {
+        "lat": 21.9159236,
+        "lng": 120.8423311
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里砂島路460 號",
+      "note": "",
+      "bayesian_score": 4.6667,
+      "confidence": "❌ 低",
+      "rank": 16,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJsWruAmSycTQRuqaz2uZV3FU",
+      "name_zh": "盤古拉墾丁渡假花園民宿",
+      "rating": 4.4,
+      "total_ratings": 271,
+      "location": {
+        "lat": 21.9197494,
+        "lng": 120.8436522
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里埔頂路525號",
+      "note": "",
+      "bayesian_score": 4.6633,
+      "confidence": "❌ 低",
+      "rank": 17,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJc4NXyyyzcTQRcimceJDnmyg",
+      "name_zh": "青山露營區",
+      "rating": 4.3,
+      "total_ratings": 383,
+      "location": {
+        "lat": 21.9148916,
+        "lng": 120.8484141
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里砂島路234-3號",
+      "note": "",
+      "bayesian_score": 4.61,
+      "confidence": "❌ 低",
+      "rank": 18,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJDZe0zWKycTQRb2gDUiXlTvw",
+      "name_zh": "墾丁泊途會館 EL PUERTO HOTEL",
+      "rating": 4.4,
+      "total_ratings": 755,
+      "location": {
+        "lat": 21.9136601,
+        "lng": 120.8479002
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里砂島路252號",
+      "note": "",
+      "bayesian_score": 4.5858,
+      "confidence": "⚠️ 中",
+      "rank": 19,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJhwJP52WzcTQRnYBtbqYIJps",
+      "name_zh": "海丘.祖母綠_Cafe.旅宿(營業時間見IG)",
+      "rating": 4.2,
+      "total_ratings": 415,
+      "location": {
+        "lat": 21.917237399999998,
+        "lng": 120.848213
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里埔頂路188號",
+      "note": "",
+      "bayesian_score": 4.5706,
+      "confidence": "❌ 低",
+      "rank": 20,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJYxhyrWaycTQRQbH7jbVYB7I",
+      "name_zh": "國境之南設計旅店",
+      "rating": 4,
+      "total_ratings": 350,
+      "location": {
+        "lat": 21.9183275,
+        "lng": 120.8449323
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里埔頂路275號",
+      "note": "",
+      "bayesian_score": 4.5336,
+      "confidence": "❌ 低",
+      "rank": 21,
+      "selected": false
+    }
+  ]
+}

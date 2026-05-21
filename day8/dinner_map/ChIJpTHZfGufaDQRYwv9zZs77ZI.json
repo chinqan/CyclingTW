@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJpTHZfGufaDQRYwv9zZs77ZI",
+  "name_zh": "小村·日 壽司（花蓮店）｜日式餐廳｜花蓮美食｜聚餐餐廳｜客製化餐盒｜生魚片蛋糕｜",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 3572,
+  "location": {
+    "lat": 23.9763122,
+    "lng": 121.6071195
+  },
+  "address": "970花蓮縣花蓮市主勤里博愛街175號",
+  "primary_type": "sushi_restaurant",
+  "primary_type_label": "壽司店",
+  "distance_km": 1.98,
+  "source": "api_2026-05-21",
+  "note": "壽司店",
+  "name_is_ascii": false
+}

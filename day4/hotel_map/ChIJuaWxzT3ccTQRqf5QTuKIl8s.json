@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJuaWxzT3ccTQRqf5QTuKIl8s",
+  "name_zh": "枋寮民宿背包旅店",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 98,
+  "location": {
+    "lat": 22.3682642,
+    "lng": 120.59438650000001
+  },
+  "address": "940屏東縣枋寮鄉枋寮村中興路4巷20號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 0.08,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

@@ -70,6 +70,20 @@
 ---
 
 {% endif %}
+{% if hotel_top5 %}
+## 住宿推薦 🏨
+
+| # | 飯店 | 評分 | 留言數 | 貝葉斯分 | 備註 |
+|:---:|:---|:---:|---:|:---:|:---|
+{% for h in hotel_top5 -%}
+| {{ h.rank }} | [{{ h.name_zh }}](https://www.google.com/maps/place/?q=place_id:{{ h.place_id }}) | {{ h.rating }}★ | {{ h.total_ratings }} | {{ h.bayesian_score }} | {{ h.note }} |
+{% endfor %}
+> 💡 *終點周邊 3 公里 · {{ hotel_pool_size }} 筆候選 · IMDB 風格貝葉斯平均*
+> 📋 *[看更多 >>](./day{{ day }}_hotel.md)*
+
+---
+
+{% endif %}
 ## 騎乘注意事項
 
 {% for note in notes -%}

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJMaD2BLJHaTQRw8t1Ncnl5HE",
+  "name_zh": "頤園行館",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 59,
+  "location": {
+    "lat": 24.0544455,
+    "lng": 120.43698320000001
+  },
+  "address": "505彰化縣鹿港鎮景福里景興街4號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 0.49,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJdZfCGYFFaTQRYjod7HJ5y0g",
+  "name_zh": "米市85 鹿港民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 83,
+  "location": {
+    "lat": 24.0530696,
+    "lng": 120.43364899999999
+  },
+  "address": "505彰化縣鹿港鎮海埔里長興里美市街",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.38,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

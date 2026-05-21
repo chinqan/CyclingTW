@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJq3qaUjWzcTQRncgng8i3klI",
+  "name_zh": "羅家眷村牛肉麵",
+  "name_lang": "zh-TW",
+  "rating": 3.3,
+  "total_ratings": 22,
+  "location": {
+    "lat": 21.9177763,
+    "lng": 120.8534471
+  },
+  "address": "946屏東縣恆春鎮鵝鑾里坑內路3號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.73,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

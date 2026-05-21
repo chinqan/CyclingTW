@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJJzVOzz7ccTQRvH4Yg1jOuBk",
+  "name_zh": "枋寮民宿 天氣晴",
+  "name_lang": "ja",
+  "rating": 4.3,
+  "total_ratings": 87,
+  "location": {
+    "lat": 22.3659781,
+    "lng": 120.59198660000001
+  },
+  "address": "940屏東縣枋寮鄉枋寮村中興路78號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.39,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

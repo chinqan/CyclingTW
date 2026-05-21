@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJe7-1qbCfaDQRaLK31rEPXYs",
+  "name_zh": "花蓮青年旅館．北吉光輕旅 Hualien Hostel Bayhouse",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 1558,
+  "location": {
+    "lat": 23.9885776,
+    "lng": 121.59926510000001
+  },
+  "address": "970花蓮縣花蓮市國聯里中山路601巷1弄19號",
+  "primary_type": "hostel",
+  "distance_km": 0.56,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

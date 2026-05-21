@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJxUkhIeafaDQR3W355jgUwK4",
+  "name_zh": "路徒行旅 花蓮東大館 Roaders Hotel Hualien Dongda",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 1083,
+  "location": {
+    "lat": 23.9765288,
+    "lng": 121.60763299999999
+  },
+  "address": "970花蓮縣花蓮市主商里光復街45號",
+  "primary_type": "hotel",
+  "distance_km": 1.98,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

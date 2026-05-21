@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJU_W4JmjdcTQRspEPoQGuLuE",
+  "name_zh": "和利食堂",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 1,
+  "location": {
+    "lat": 22.3605013,
+    "lng": 120.6000592
+  },
+  "address": "940屏東縣枋寮鄉隆山村中山路51號",
+  "primary_type": "buffet_restaurant",
+  "primary_type_label": "自助餐廳",
+  "distance_km": 0.98,
+  "source": "api_2026-05-21",
+  "note": "自助餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ9-q9nkWzaTQRemzfhSJ2OPE",
+  "name_zh": "上讚小吃店",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 70,
+  "location": {
+    "lat": 24.702275999999998,
+    "lng": 120.88320019999999
+  },
+  "address": "350苗栗縣竹南鎮山佳里",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.76,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

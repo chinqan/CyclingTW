@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ1TZF8YCycTQRufWbd6VBwmw",
+  "name_zh": "捻花風味食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 2307,
+  "location": {
+    "lat": 21.9053067,
+    "lng": 120.85181740000002
+  },
+  "address": "946屏東縣恆春鎮鵝鑾里鵝鑾路204號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.35,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ1dzocmLfcTQR3TMJGEs7lYs",
+  "name_zh": "枋寮圓圓麵",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 27,
+  "location": {
+    "lat": 22.3869982,
+    "lng": 120.5968732
+  },
+  "address": "940屏東縣枋寮鄉人和村建興路219號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 2.12,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

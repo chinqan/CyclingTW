@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ34G_NMhMaDQRNyqjSIi6OsM",
+  "name_zh": "尚順君樂飯店",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 6601,
+  "location": {
+    "lat": 24.688171099999998,
+    "lng": 120.9040933
+  },
+  "address": "351苗栗縣頭份市東庄里育樂街6號",
+  "primary_type": "hotel",
+  "distance_km": 2.38,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

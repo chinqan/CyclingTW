@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJk-pMcrVrbzQRrK9J7beATNY",
+  "name_zh": "山鄰山林青年文旅",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 793,
+  "location": {
+    "lat": 23.3328799,
+    "lng": 121.3126657
+  },
+  "address": "981花蓮縣玉里鎮中城里大同路228號",
+  "primary_type": "hostel",
+  "distance_km": 0.18,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

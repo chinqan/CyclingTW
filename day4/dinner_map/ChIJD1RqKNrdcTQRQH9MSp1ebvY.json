@@ -1,14 +1,18 @@
 {
   "place_id": "ChIJD1RqKNrdcTQRQH9MSp1ebvY",
-  "name_zh": "枋新饗樂",
-  "csv_type": "餐廳",
+  "name_zh": "枋新．饗樂",
+  "name_lang": "zh-TW",
   "rating": 4.9,
   "total_ratings": 173,
   "location": {
-    "lat": 22.382289,
-    "lng": 120.574273
+    "lat": 22.382289399999998,
+    "lng": 120.57427259999999
   },
-  "source": "search_2026-05-21",
-  "note": "精緻餐點",
-  "target": "places"
+  "address": "940屏東縣枋寮鄉新龍村義民路199號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 2.67,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
 }

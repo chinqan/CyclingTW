@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJScbIuJ_ecTQRj6yx2lQ5uMs",
+  "name_zh": "水底寮百年老牌鱔魚麵",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 586,
+  "location": {
+    "lat": 22.3793681,
+    "lng": 120.59758029999999
+  },
+  "address": "940屏東縣枋寮鄉人和村中正大路820號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.29,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

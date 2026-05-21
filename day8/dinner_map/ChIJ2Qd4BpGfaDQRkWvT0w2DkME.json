@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ2Qd4BpGfaDQRkWvT0w2DkME",
+  "name_zh": "娜滋滋烤魚",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 2043,
+  "location": {
+    "lat": 23.968804499999997,
+    "lng": 121.60780279999999
+  },
+  "address": "970花蓮縣花蓮市主和里和平路92之6號970",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 2.81,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

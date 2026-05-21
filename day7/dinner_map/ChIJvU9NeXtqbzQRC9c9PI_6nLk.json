@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJvU9NeXtqbzQRC9c9PI_6nLk",
   "name_zh": "馬蓋先美食玉里麵",
+  "name_lang": "zh-TW",
   "rating": 4.2,
   "total_ratings": 2643,
   "location": {
-    "lat": 23.33138,
-    "lng": 121.314567
+    "lat": 23.3313803,
+    "lng": 121.31456659999999
   },
-  "address": "花蓮縣玉里鎮光復路101號",
-  "note": "玉里麵名店 週四公休",
-  "source": "search_2026-07"
+  "address": "981花蓮縣玉里鎮中城里光復路101號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.29,
+  "source": "api_2026-05-21",
+  "note": "台式餐廳",
+  "name_is_ascii": false
 }

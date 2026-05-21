@@ -1,14 +1,18 @@
 {
   "place_id": "ChIJyaO_4j7ccTQRIqSfs10f5ok",
   "name_zh": "阮家茶坊",
-  "csv_type": "餐廳",
+  "name_lang": "zh-TW",
   "rating": 4.7,
-  "total_ratings": 3275,
+  "total_ratings": 3276,
   "location": {
-    "lat": 22.364795,
-    "lng": 120.593511
+    "lat": 22.3647946,
+    "lng": 120.5935107
   },
-  "source": "search_2026-05-21",
-  "note": "茶飲+餐食 車站旁",
-  "target": "places"
+  "address": "940屏東縣枋寮鄉枋寮村德興路33號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.39,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
 }

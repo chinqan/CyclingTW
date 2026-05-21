@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ6x4YG6hMXTQRWbUCKGHT0XE",
+  "name_zh": "雲南小棧",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 435,
+  "location": {
+    "lat": 25.2203852,
+    "lng": 121.63875449999999
+  },
+  "address": "208新北市金山區金美里中山路153號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.16,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ46HbS86oQjQRKwTE634wtz0",
+  "name_zh": "海霸王 蘆洲店 HaiPaWang Luzhou Store",
+  "name_lang": "zh-TW",
+  "rating": 3.8,
+  "total_ratings": 4481,
+  "location": {
+    "lat": 25.0816559,
+    "lng": 121.47840119999998
+  },
+  "address": "247新北市蘆洲區恆德里中山一路88號",
+  "primary_type": "seafood_restaurant",
+  "primary_type_label": "海鮮餐廳",
+  "distance_km": 1.75,
+  "source": "api_2026-05-21",
+  "note": "海鮮餐廳",
+  "name_is_ascii": false
+}

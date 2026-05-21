@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJUR_80T3ccTQR3aR2gesnErk",
+  "name_zh": "驛站-宿",
+  "name_lang": "zh-TW",
+  "rating": 3.2,
+  "total_ratings": 13,
+  "location": {
+    "lat": 22.3679979,
+    "lng": 120.5944566
+  },
+  "address": "940屏東縣枋寮鄉枋寮村中興路4巷1號",
+  "primary_type": "hotel",
+  "distance_km": 0.07,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

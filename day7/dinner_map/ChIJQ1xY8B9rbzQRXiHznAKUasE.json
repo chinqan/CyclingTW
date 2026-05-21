@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJQ1xY8B9rbzQRXiHznAKUasE",
+  "name_zh": "阿娥 豬腳飯 鴨肉冬粉 玉里麵",
+  "name_lang": "zh-TW",
+  "rating": 3.9,
+  "total_ratings": 110,
+  "location": {
+    "lat": 23.3342179,
+    "lng": 121.31534110000001
+  },
+  "address": "981花蓮縣玉里鎮國武里民權街27號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.48,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

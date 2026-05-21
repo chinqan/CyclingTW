@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJO0j0HK7dcTQR8-q69-tGTKE",
+  "name_zh": "蔓芽記",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 168,
+  "location": {
+    "lat": 22.366810899999997,
+    "lng": 120.59092189999998
+  },
+  "address": "940屏東縣枋寮鄉枋寮村沿海路47號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.45,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

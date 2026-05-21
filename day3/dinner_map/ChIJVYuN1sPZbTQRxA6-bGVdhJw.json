@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJVYuN1sPZbTQRxA6-bGVdhJw",
+  "name_zh": "邱家脆皮蚵仔煎",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 2,
+  "location": {
+    "lat": 23.0679125,
+    "lng": 120.12757009999999
+  },
+  "address": "709臺南市安南區城東里城安路160號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.21,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

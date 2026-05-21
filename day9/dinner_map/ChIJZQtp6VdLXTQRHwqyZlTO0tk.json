@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJZQtp6VdLXTQRHwqyZlTO0tk",
+  "name_zh": "寶淑小吃店",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 20,
+  "location": {
+    "lat": 25.221518,
+    "lng": 121.63868579999999
+  },
+  "address": "208新北市金山區大同里金包里街39 號舊 市場",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.05,
+  "source": "api_2026-05-21",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

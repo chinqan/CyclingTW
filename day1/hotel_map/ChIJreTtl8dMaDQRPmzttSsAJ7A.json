@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJreTtl8dMaDQRPmzttSsAJ7A",
+  "name_zh": "泰莉莎旅店",
+  "name_lang": "zh-TW",
+  "rating": 3,
+  "total_ratings": 190,
+  "location": {
+    "lat": 24.687321999999998,
+    "lng": 120.909412
+  },
+  "address": "351苗栗縣頭份市自強里中華路1091號4樓",
+  "primary_type": "hotel",
+  "distance_km": 2.92,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

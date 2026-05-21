@@ -1,13 +1,18 @@
 {
   "place_id": "ChIJzU-GUdtHaTQR5Ftb4IWN0wo",
   "name_zh": "輕輕的蔬食簡餐咖啡廳",
+  "name_lang": "zh-TW",
   "rating": 4.8,
   "total_ratings": 438,
   "location": {
-    "lat": 24.0504515,
-    "lng": 120.4361972
+    "lat": 24.050451499999998,
+    "lng": 120.43619719999998
   },
-  "address": "彰化縣鹿港鎮金門巷62號",
-  "note": "蔬食 咖啡廳",
-  "source": "search_2026-05-21"
+  "address": "505彰化縣鹿港鎮龍山里金門巷62號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.75,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
 }

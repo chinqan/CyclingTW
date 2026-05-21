@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJtdS9_5WfaDQRbugDnfSmLa8",
+  "name_zh": "天璽商務飯店",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 1126,
+  "location": {
+    "lat": 23.9775389,
+    "lng": 121.59994549999999
+  },
+  "address": "970花蓮縣花蓮市國風里林森路126號",
+  "primary_type": "hotel",
+  "distance_km": 1.76,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

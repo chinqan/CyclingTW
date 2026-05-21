@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJsbmXYJ2faDQRJefZgX8-UZY",
+  "name_zh": "悅樂旅店‧花蓮中福 OLAH Poshtel Hualien Zhongfu",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 2174,
+  "location": {
+    "lat": 23.9718262,
+    "lng": 121.60229939999999
+  },
+  "address": "970花蓮縣花蓮市主和里中福路122號",
+  "primary_type": "hotel",
+  "distance_km": 2.39,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

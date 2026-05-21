@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJc4NXyyyzcTQRcimceJDnmyg",
+  "name_zh": "青山露營區",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 383,
+  "location": {
+    "lat": 21.9148916,
+    "lng": 120.8484141
+  },
+  "address": "946屏東縣恆春鎮鵝鑾里砂島路234-3號",
+  "primary_type": "campground",
+  "distance_km": 1.47,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}

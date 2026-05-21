@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJxWGJD_5FaTQRkBlWhwLUIM8",
+  "name_zh": "老龍師肉包 中山二店",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 2293,
+  "location": {
+    "lat": 24.051218499999997,
+    "lng": 120.4364653
+  },
+  "address": "505彰化縣鹿港鎮長興里中山路31號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.69,
+  "source": "api_2026-05-21",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

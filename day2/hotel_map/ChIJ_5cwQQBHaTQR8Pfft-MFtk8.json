@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ_5cwQQBHaTQR8Pfft-MFtk8",
+  "name_zh": "鹿港轉運站工地（鹿港英迪格酒店）",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 1,
+  "location": {
+    "lat": 24.0647205,
+    "lng": 120.43603249999998
+  },
+  "address": "505彰化縣鹿港鎮埔崙里建國路",
+  "primary_type": "hotel",
+  "distance_km": 1.0,
+  "source": "api_2026-05-21",
+  "name_is_ascii": false
+}
