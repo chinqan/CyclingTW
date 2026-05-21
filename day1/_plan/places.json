@@ -154,5 +154,7 @@
     }
   ],
   "bayesian_C": 4.3556,
-  "bayesian_m": 1588
+  "bayesian_m": 1588,
+  "ors_distance_km": 110.7,
+  "ors_duration_hours": 6.3
 }
