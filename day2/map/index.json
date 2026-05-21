@@ -2,33 +2,8 @@
   "day": 2,
   "places": [
     {
-      "place_id": "ChIJvYFhg4wTaTQR2evNLEQ1ZN8",
-      "name_zh": "高美濕地木棧道",
-      "csv_type": "景點",
-      "rating": 4.7,
-      "total_ratings": 1331,
-      "location": {
-        "lat": 24.3122662,
-        "lng": 120.548809
-      },
-      "source": "search_2026-05-20",
-      "note": "夕陽必訪 木棧道延伸入海 約16:00前抵達最佳"
-    },
-    {
-      "place_id": "ChIJeUmVtQAOaTQR0Y2M3FT_dKM",
-      "name_zh": "莫爾日嚐 MORE TASTE",
-      "csv_type": "餐廳大休",
-      "rating": 4.8,
-      "total_ratings": 250,
-      "location": {
-        "lat": 24.343,
-        "lng": 120.622
-      },
-      "source": "search_2026-05-20"
-    },
-    {
       "place_id": "ChIJQ5bTDzuzaTQRnzEViKsrqdE",
-      "name_zh": "Zhunan",
+      "name_zh": "竹南車站",
       "csv_type": "起終點",
       "rating": 4,
       "total_ratings": 1186,
@@ -44,7 +19,7 @@
       "name_zh": "後龍好望角風景區",
       "csv_type": "景點",
       "rating": 4.4,
-      "total_ratings": 17666,
+      "total_ratings": 17669,
       "location": {
         "lat": 24.601974,
         "lng": 120.731191
@@ -54,10 +29,10 @@
     },
     {
       "place_id": "ChIJR-i8TSSmaTQR_m3wMwNABss",
-      "name_zh": "Taiyen Museum (The Way of Salt)",
+      "name_zh": "台鹽通霄精鹽廠觀光工廠",
       "csv_type": "景點",
       "rating": 4.1,
-      "total_ratings": 7279,
+      "total_ratings": 7280,
       "location": {
         "lat": 24.5559494,
         "lng": 120.7035802
@@ -67,7 +42,7 @@
     },
     {
       "place_id": "ChIJ2ffC3wEOaTQR-YuV-iIXELk",
-      "name_zh": "Dajia Jenn Lann Temple",
+      "name_zh": "大甲鎮瀾宮",
       "csv_type": "景點",
       "rating": 4.6,
       "total_ratings": 17285,
@@ -80,10 +55,10 @@
     },
     {
       "place_id": "ChIJbZ03BtZFaTQRVSahxk_O324",
-      "name_zh": "Lukang Old Street",
+      "name_zh": "鹿港老街",
       "csv_type": "起終點",
       "rating": 4.5,
-      "total_ratings": 42115,
+      "total_ratings": 42116,
       "location": {
         "lat": 24.056300999999998,
         "lng": 120.4325817
@@ -93,10 +68,10 @@
     },
     {
       "place_id": "ChIJAQAAMB-maTQRqP6KozChaJ8",
-      "name_zh": "Baishatun Gongtian Temple",
+      "name_zh": "白沙屯拱天宮",
       "csv_type": "景點",
       "rating": 4.8,
-      "total_ratings": 21936,
+      "total_ratings": 21940,
       "location": {
         "lat": 24.5714321,
         "lng": 120.7092177
@@ -168,14 +143,16 @@
       "name_zh": "純粹綿綿冰",
       "rating": 4.8,
       "total_ratings": 732,
-      "source": "search_2026-05-20"
+      "source": "search_2026-05-20",
+      "csv_type": "餐廳大休"
     },
     {
       "place_id": "ChIJj5QoTFSvaTQRreiEuHiu9zE",
       "name_zh": "山邊媽祖宮",
       "rating": 4.8,
       "total_ratings": 3365,
-      "source": "search_2026-05-20"
+      "source": "search_2026-05-20",
+      "csv_type": "景點"
     },
     {
       "place_id": "ChIJq0e4ZdgPaTQRC3F3zZ10X5Q",
@@ -202,6 +179,19 @@
       },
       "source": "search_2026-05-21",
       "note": "葷素午餐 下午茶 庭院風 週二公休 只到15:00"
+    },
+    {
+      "place_id": "ChIJvYFhg4wTaTQR2evNLEQ1ZN8",
+      "name_zh": "高美濕地木棧道",
+      "csv_type": "景點",
+      "rating": 4.7,
+      "total_ratings": 1331,
+      "location": {
+        "lat": 24.3122662,
+        "lng": 120.548809
+      },
+      "source": "search_2026-05-20",
+      "note": "夕陽必訪 木棧道延伸入海 約16:00前抵達最佳"
     }
   ]
 }

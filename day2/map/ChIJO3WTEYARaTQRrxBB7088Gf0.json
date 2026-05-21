@@ -5,5 +5,6 @@
   "total_ratings": 732,
   "source": "search_2026-05-20",
   "not_selected_reason": "甜點店非正餐選項",
-  "target": "candidates_not_selected"
+  "target": "candidates_not_selected",
+  "csv_type": "餐廳大休"
 }

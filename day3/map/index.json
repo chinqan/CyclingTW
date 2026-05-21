@@ -3,7 +3,7 @@
   "places": [
     {
       "place_id": "ChIJbZ03BtZFaTQRVSahxk_O324",
-      "name_zh": "Lukang Old Street",
+      "name_zh": "鹿港老街",
       "csv_type": "起終點",
       "rating": 4.5,
       "total_ratings": 42115,
@@ -27,7 +27,7 @@
     },
     {
       "place_id": "EiBYaWx1byBCcmcsIFl1bmxpbiBDb3VudHksIFRhaXdhbiIuKiwKFAoSCa2bONxCtG40ESt17BKmLaPmEhQKEglB88dzJ7puNBGVKtEDfMTkeg",
-      "name_zh": "Xiluo Bridge",
+      "name_zh": "西螺大橋",
       "csv_type": "景點",
       "rating": null,
       "total_ratings": null,
@@ -51,7 +51,7 @@
     },
     {
       "place_id": "ChIJJfEEtoWibjQRzq8W6JSLfHo",
-      "name_zh": "Beigang Chaotian Temple",
+      "name_zh": "北港朝天宮",
       "csv_type": "景點",
       "rating": 4.7,
       "total_ratings": 24030,
@@ -64,7 +64,7 @@
     },
     {
       "place_id": "ChIJFZajXYaibjQR_q_BYZbw0mA",
-      "name_zh": "7-Eleven Beigang",
+      "name_zh": "7-ELEVEN 北港門市",
       "csv_type": "便利商店",
       "location": {
         "lat": 23.568823,
@@ -75,7 +75,7 @@
     },
     {
       "place_id": "ChIJo-Z3SJgnbDQRbkeN9Rx3Mis",
-      "name_zh": "Dongshi Fisherman's Wharf",
+      "name_zh": "東石漁人碼頭",
       "csv_type": "景點",
       "rating": 4.2,
       "total_ratings": 22902,
@@ -88,7 +88,7 @@
     },
     {
       "place_id": "ChIJodGzjxwnbDQRbSUzYK6OF7M",
-      "name_zh": "蠔碳嘉烤鮮蚵吃到飽-東石鮮蚵吃到飽|推薦鮮蚵|必吃鮮蚵|人氣鮮蚵|道地美食|在地推薦餐廳|烤蚵吃到飽|必吃烤蚵",
+      "name_zh": "蠔碳嘉烤鮮蚵吃到飽",
       "csv_type": "餐廳大休",
       "rating": 4.9,
       "total_ratings": 4887,
@@ -101,7 +101,7 @@
     },
     {
       "place_id": "ChIJl927qSsobDQRUbouAy2tsUw",
-      "name_zh": "Budai Harbor Fish Market",
+      "name_zh": "布袋漁港魚市場",
       "csv_type": "景點",
       "rating": 4,
       "total_ratings": 31189,
@@ -136,7 +136,7 @@
     },
     {
       "place_id": "ChIJq6qqqtUqbDQR_ohO2eK2x4E",
-      "name_zh": "Jingzaijiao Tile-paved Salt Fields",
+      "name_zh": "井仔腳瓦盤鹽田",
       "csv_type": "景點",
       "rating": 4.4,
       "total_ratings": 21624,
@@ -149,7 +149,7 @@
     },
     {
       "place_id": "ChIJlfUqzNoqbDQRXymbU53YLr8",
-      "name_zh": "Beimen Visitor Center",
+      "name_zh": "北門遊客中心",
       "csv_type": "景點",
       "rating": 4.1,
       "total_ratings": 5381,
@@ -162,7 +162,7 @@
     },
     {
       "place_id": "ChIJTRbkzL_WbTQRTrfGfckHIrc",
-      "name_zh": "Qigu Salt Mountain",
+      "name_zh": "七股鹽山",
       "csv_type": "景點",
       "rating": 3.9,
       "total_ratings": 20709,
@@ -172,30 +172,6 @@
       },
       "source": "google_maps",
       "note": "約15:45抵達 純白巨型鹽山地標 km約113"
-    },
-    {
-      "place_id": "ChIJc6xCcUjWbTQRiHuEUawpxAM",
-      "name_zh": "7-ELEVEN 七股門市",
-      "csv_type": "便利商店",
-      "location": {
-        "lat": 23.1335946,
-        "lng": 120.1334815
-      },
-      "source": "google_maps",
-      "note": "七股終點區補給 km約122"
-    },
-    {
-      "place_id": "ChIJH7C_CY3WbTQRES0llB6FBg8",
-      "name_zh": "七股遊客中心",
-      "csv_type": "起終點",
-      "rating": 4.2,
-      "total_ratings": 1884,
-      "location": {
-        "lat": 23.1541074,
-        "lng": 120.1034827
-      },
-      "source": "google_maps",
-      "note": "約17:00抵達 當日終點 鄰七股潟湖 km約123"
     },
     {
       "place_id": "ChIJCwN--uTZbTQRZMhcv_8gUr0",
@@ -212,7 +188,7 @@
     },
     {
       "place_id": "ChIJofDyKzrYbTQROj-L3C0Zt8A",
-      "name_zh": "Luermen Park",
+      "name_zh": "鹿耳門公園",
       "csv_type": "起終點",
       "rating": 4.3,
       "total_ratings": 198,
@@ -225,7 +201,7 @@
     },
     {
       "place_id": "ChIJ49OG8GnabTQR9wo1PrlXP2o",
-      "name_zh": "Westernmost Point of Taiwan",
+      "name_zh": "國聖港燈塔",
       "csv_type": "景點",
       "rating": 4.4,
       "total_ratings": 3341,
@@ -302,6 +278,30 @@
       },
       "source": "search_2026-05-21",
       "note": "正統鹿耳門天后宮 鄭成功登陸傳說地"
+    },
+    {
+      "place_id": "ChIJc6xCcUjWbTQRiHuEUawpxAM",
+      "name_zh": "7-ELEVEN 七股門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.1335946,
+        "lng": 120.1334815
+      },
+      "source": "google_maps",
+      "note": "七股終點區補給 km約122"
+    },
+    {
+      "place_id": "ChIJH7C_CY3WbTQRES0llB6FBg8",
+      "name_zh": "七股遊客中心",
+      "csv_type": "起終點",
+      "rating": 4.2,
+      "total_ratings": 1884,
+      "location": {
+        "lat": 23.1541074,
+        "lng": 120.1034827
+      },
+      "source": "google_maps",
+      "note": "約17:00抵達 當日終點 鄰七股潟湖 km約123"
     }
   ]
 }

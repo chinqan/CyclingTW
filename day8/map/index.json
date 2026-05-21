@@ -54,19 +54,6 @@
       "note": "日治糖廠 冰淇淋名店"
     },
     {
-      "place_id": "ChIJ9SCI5oedaDQRijf91YB4Ag0",
-      "name_zh": "七星潭",
-      "csv_type": "景點",
-      "rating": 4.6,
-      "total_ratings": 1512,
-      "location": {
-        "lat": 24.04305,
-        "lng": 121.622493
-      },
-      "source": "search_2026-07",
-      "note": "礫石海灘 花蓮代表景點"
-    },
-    {
       "place_id": "ChIJK6-HgbafaDQR99QetgTFgwU",
       "name_zh": "花蓮車站",
       "csv_type": "起終點",
@@ -119,5 +106,19 @@
       "note": "壽豐鄉補給"
     }
   ],
-  "candidates_not_selected": []
+  "candidates_not_selected": [
+    {
+      "place_id": "ChIJ9SCI5oedaDQRijf91YB4Ag0",
+      "name_zh": "七星潭",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 1512,
+      "location": {
+        "lat": 24.04305,
+        "lng": 121.622493
+      },
+      "source": "search_2026-07",
+      "note": "礫石海灘 花蓮代表景點"
+    }
+  ]
 }

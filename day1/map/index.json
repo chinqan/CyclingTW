@@ -97,19 +97,6 @@
       "note": "大型觀光漁港 km約70"
     },
     {
-      "place_id": "ChIJo69tyO40aDQReBjpbzodIuo",
-      "name_zh": "新竹南寮漁港",
-      "csv_type": "景點",
-      "rating": 4.2,
-      "total_ratings": 6816,
-      "location": {
-        "lat": 24.8487505,
-        "lng": 120.9252429
-      },
-      "source": "search_2026-05-21",
-      "note": "海鮮市集 17公里海岸風景區入口 km約90"
-    },
-    {
       "place_id": "ChIJ7Ws-1bOoQjQRehrUbGzlo1A",
       "name_zh": "蘆洲柳堤公園",
       "csv_type": "起終點",
@@ -329,6 +316,19 @@
       },
       "source": "search_2026-05-21",
       "note": "同地不同 place_id 評論數較少"
+    },
+    {
+      "place_id": "ChIJo69tyO40aDQReBjpbzodIuo",
+      "name_zh": "新竹南寮漁港",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 6816,
+      "location": {
+        "lat": 24.8487505,
+        "lng": 120.9252429
+      },
+      "source": "search_2026-05-21",
+      "note": "海鮮市集 17公里海岸風景區入口 km約90"
     }
   ]
 }
