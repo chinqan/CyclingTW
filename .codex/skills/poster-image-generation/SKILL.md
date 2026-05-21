@@ -1,6 +1,6 @@
 ---
 name: poster-image-generation
-description: Generate either a cycling trip Day N poster from day-specific prompt/CSV files, or the overall CyclingTW cover poster from the cover prompt. Use this skill for Day N poster requests, route poster regeneration, or cover poster (封面海報) requests. Always handle rider reference image 主角.png, output naming, and final file saving explicitly.
+description: Generate either a cycling trip Day N poster from day-specific prompt/CSV files, or the overall CyclingTW cover poster from the cover prompt. Use this skill for Day N poster requests, route poster regeneration, or cover poster (封面海報) requests. Always read the rider prompt 主角.md, merge it with the route/cover prompt, and handle output naming/final file saving explicitly.
 ---
 
 # Poster Image Generation
@@ -17,11 +17,13 @@ Do not mix the two modes. If the user's request does not clearly identify Daily 
 **Daily Poster mode**
 - `dayN/dayN_prompt.md`: required day-specific visual prompt.
 - `dayN/dayN_mymap.csv`: required ordered route/location data for validating geography and route order.
-- `主角.png`: required rider and road-bike reference image.
+- `主角.md`: required rider and road-bike character prompt.
+- `主角.png`: optional visual reference for human inspection only when needed; do not claim it was passed to image generation unless the tool actually supports image inputs and it was passed.
 
 **Cover Poster mode**
 - `output/imagegen/cyclingtw-cover_prompt.md`: required cover prompt for the whole 10-day loop.
-- `主角.png`: required rider and road-bike reference image.
+- `主角.md`: required rider and road-bike character prompt.
+- `主角.png`: optional visual reference for human inspection only when needed; do not claim it was passed to image generation unless the tool actually supports image inputs and it was passed.
 
 ## Output Paths
 
@@ -40,32 +42,44 @@ Keep generated project assets inside their target project folder before reportin
 ### 1. Mode gate
 
 Before generation, state which mode is being used:
-- Daily Poster: identify the day number and read both day files.
-- Cover Poster: read only the cover prompt.
+- Daily Poster: identify the day number and read the day prompt, day CSV, and `主角.md`.
+- Cover Poster: read the cover prompt and `主角.md`.
 
 If mode or day number is unclear, ask the user. Do not infer a day number from unrelated files.
 
-### 2. Rider-reference gate
+### 2. Rider-prompt gate
 
-`主角.png` is mandatory. Confirm it exists before generation.
+`主角.md` is mandatory. Confirm it exists before generation and read it in full.
 
-Before claiming the rider image is used, inspect the available image-generation tool interface:
-- If the tool supports image inputs such as `ImagePaths`, `reference_image`, uploaded images, or image-to-image parameters, pass `主角.png` through that image-input mechanism.
-- If the tool only supports a text `prompt` and cannot receive image input, automatically use the **Text Approximation fallback**. Do not ask the user unless `主角.png` is missing, unreadable, or cannot be visually inspected.
+Build the generation prompt by combining:
+- the selected route/cover prompt (`dayN/dayN_prompt.md` or `output/imagegen/cyclingtw-cover_prompt.md`);
+- a rider section copied from `主角.md`, preferably the `可直接放入產圖 Prompt 的版本` section plus relevant negative constraints.
 
-Never say or imply that `主角.png` was used as an image reference unless it was actually passed to the generation tool as an image input.
-When using the fallback, state that Codex visually inspected `主角.png` and converted it into text traits, but the image-generation model did not receive `主角.png` as an image reference.
+If the selected prompt already contains a rider section from `主角.md` (for example `【主角提示詞（來自主角.md）】` and `【主角負面限制（來自主角.md）】`), do not duplicate the rider text. Instead, compare it against the current `主角.md`; if the prompt is stale, replace the embedded rider section with the current `主角.md` content before generation.
 
-### Text Approximation fallback
+If the image-generation tool supports image inputs and `主角.png` exists, you may pass `主角.png` as an additional visual reference. Never say or imply that `主角.png` was used as an image reference unless it was actually passed to the generation tool as an image input.
 
-Use this automatically when image input is unavailable but `主角.png` can be visually inspected.
+### Rider prompt merge rules
 
-Steps:
-- Open or inspect `主角.png` with available image-viewing tools.
-- Extract a concise visual description of the rider and road bike: face shape, hairstyle, eyewear if any, jersey color/logos impression, shorts, shoes, bike frame color, handlebar/wheel impression, and distinctive details.
-- Add that description to the generation prompt under `【主角文字近似描述】`.
-- Remove or soften claims that the generation model is receiving an attached image. Use wording such as `以下是由 Codex 觀察主角.png 後整理出的文字特徵`.
-- In the final response, explicitly report that the result is a text-approximation version, not a true image-reference generation.
+When merging `主角.md` into the generation prompt:
+- Add it under a clear heading such as `【主角提示詞（來自主角.md）】`.
+- Preserve the rider identity constraints: young female cyclist, black long braid, white helmet, blue reflective sunglasses, black/white cycling kit with bright pink accents, road bike with drop bars.
+- Preserve `主角.md` negative constraints unless they conflict with the selected route/cover prompt.
+- Remove or soften route/cover prompt language that falsely claims an attached image is the only reference source, such as `【輸入圖片】主角.png`, `請依照我上傳的照片生成角色`, `外觀保留真實臉型`, or `公路車...依照照片`.
+- Do not replace the route, geography, day order, lighthouse, title, or aspect-ratio instructions from the selected route/cover prompt.
+
+### Daily prompt merge rules
+
+For Daily Poster mode, the final prompt must keep the day-specific route and scene text from `dayN/dayN_prompt.md` as the authority for locations, actions, landmarks, lighting, and composition.
+
+When the day prompt has not yet been pre-merged with `主角.md`:
+- Insert `【主角提示詞來源】`, `【主角提示詞（來自主角.md）】`, and `【主角負面限制（來自主角.md）】` after the aspect-ratio/output-format line when possible.
+- Rewrite old image-reference language so the character is based on `主角.md`, not an uploaded photo.
+- Rewrite road-bike reference language so the bike appearance follows `主角.md`, not a photo.
+
+When the day prompt has already been pre-merged with `主角.md`:
+- Use the pre-merged day prompt directly after confirming the embedded rider section is current.
+- Do not append another copy of the rider prompt at the end.
 
 ### 3. Save gate
 
@@ -83,15 +97,14 @@ Do not report completion until the final project file exists at the chosen outpu
 ## Workflow
 
 1. Determine the mode: Daily Poster or Cover Poster.
-2. Read required input files for that mode.
-3. Confirm `主角.png` exists.
-4. Confirm whether the image-generation tool can actually receive `主角.png` as image input.
-5. Build the final prompt and generate the image based on tool capabilities:
-   - **If image input is supported**: Pass `主角.png` directly into the tool's image input interface and use the exact contents of the chosen `prompt.md` as the text prompt. Do not add redundant prefix text.
-   - **If image input is unavailable**: Inspect `主角.png` visually. Extract a concise visual description of the rider and road bike, append it under a new `【主角文字近似描述】` section in the prompt, and generate using text-only. Ensure the prompt does not falsely claim an image is attached.
-8. Save/copy the generated image to the correct target path using the output naming rules.
-9. Verify target file existence, dimensions, and aspect orientation.
-10. Do a visual quality pass before reporting completion.
+2. Read required route/cover input files for that mode. For Daily Poster mode, also read `dayN/dayN_mymap.csv` to validate route order and geography.
+3. Confirm `主角.md` exists and read it in full.
+4. Build the final prompt by merging the chosen route/cover prompt with the relevant `主角.md` rider prompt section.
+5. Confirm whether the image-generation tool can receive `主角.png` as an optional image input. If it can and `主角.png` exists, pass it; otherwise proceed with the merged text prompt only.
+6. Generate the image.
+7. Save/copy the generated image to the correct target path using the output naming rules.
+8. Verify target file existence, dimensions, and aspect orientation.
+9. Do a visual quality pass before reporting completion.
 
 ## Aspect Ratio Rules
 
@@ -123,8 +136,7 @@ Ask before proceeding when:
 - the request does not clearly say which mode to use;
 - a Daily Poster request does not identify Day N;
 - required input files are missing;
-- `主角.png` is missing;
-- `主角.png` cannot be visually inspected for Text Approximation fallback;
+- `主角.md` is missing;
 - the target output file exists and overwriting versus versioning is ambiguous;
 - generated output has major quality issues and regeneration would materially change the result.
 
