@@ -10,7 +10,7 @@ import re
 
 from jinja2 import Environment, FileSystemLoader, StrictUndefined
 
-from .helpers import ROOT, TEMPLATES_DIR, read_json, write_json, die, info
+from .helpers import ROOT, TEMPLATES_DIR, read_json, write_json, die, info, load_protagonist
 from .index_parser import INDEX_TABLE_ROW
 
 INDEX_PATH = ROOT / "index.md"
@@ -91,7 +91,8 @@ def _derive_cover_vars() -> dict:
     out.setdefault("subtitle", "台灣四極點挑戰")
     out.setdefault("orientation", "vertical_portrait_2_3")
     out.setdefault("lighting", "柔和清晨明亮光線、清新藍天白雲")
-    out.setdefault("main_character", "主角.png 中的人物，公路車外觀同照片")
+    out.setdefault("allowed_elements", "台灣山脈稜線、城市縮小模型、西部海岸線、東部太平洋海岸、公路與鐵道路網")
+    out.setdefault("enhancement", "畫面具有故事感與旅程感、呈現10天環島四極點全程概念、帶有完騎成就解鎖氛圍")
 
     COVER_OUT_DIR.mkdir(parents=True, exist_ok=True)
     write_json(COVER_VARS_PATH, out)
@@ -111,6 +112,10 @@ def cmd_render_cover_prompt(args):
         cover_vars["orientation"] = "horizontal_landscape_3_2"
     elif args.aspect == "vertical":
         cover_vars["orientation"] = "vertical_portrait_2_3"
+
+    protagonist_prompt, protagonist_negative = load_protagonist()
+    cover_vars["protagonist_prompt"] = protagonist_prompt
+    cover_vars["protagonist_negative"] = protagonist_negative
 
     env = Environment(
         loader=FileSystemLoader(TEMPLATES_DIR),

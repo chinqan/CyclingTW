@@ -5,7 +5,7 @@
       "day": 1,
       "origin": "台北蘆洲柳堤公園",
       "destination": "竹南車站",
-      "distance": "約 80–100 km",
+      "distance": "約 111 km",
       "route": "台15線 → 台61線 (西濱公路)",
       "landmarks": [
         "八里左岸",
@@ -20,7 +20,7 @@
       "day": 2,
       "origin": "新竹 / 竹南",
       "destination": "鹿港 / 彰化",
-      "distance": "約 100–115 km",
+      "distance": "約 100 km",
       "route": "台61線 (西濱) → 台1線 → 台17線",
       "landmarks": [
         "好望角",
@@ -34,7 +34,7 @@
       "day": 3,
       "origin": "鹿港 / 彰化",
       "destination": "台南 / 鹿耳門公園",
-      "distance": "約 105–120 km",
+      "distance": "約 188 km",
       "route": "台19線 → 台17線 (西部濱海)",
       "landmarks": [
         "極西：國聖燈塔",
@@ -54,7 +54,7 @@
       "day": 4,
       "origin": "台南 / 鹿耳門公園",
       "destination": "枋寮 / 枋山",
-      "distance": "約 110–125 km",
+      "distance": "約 124 km",
       "route": "台17線 (經台南、高雄市區)",
       "landmarks": [
         "台南孔廟",
@@ -69,7 +69,7 @@
       "day": 5,
       "origin": "枋寮 / 枋山",
       "destination": "恆春 / 墾丁 / 鵝鑾鼻",
-      "distance": "約 75–100 km",
+      "distance": "約 68 km",
       "route": "台1線 → 台26線 (屏鵝公路)",
       "landmarks": [
         "車城福安宮",
@@ -82,7 +82,7 @@
       "day": 6,
       "origin": "恆春 / 鵝鑾鼻",
       "destination": "太麻里",
-      "distance": "約 105–120 km",
+      "distance": "約 130 km",
       "route": "台26線 → 縣道200 → 縣道199 → 台9線",
       "landmarks": [
         "極南：鵝鑾鼻燈塔",
@@ -102,7 +102,7 @@
       "day": 7,
       "origin": "太麻里",
       "destination": "玉里 / 安通",
-      "distance": "約 95–105 km",
+      "distance": "約 111 km",
       "route": "台9線 (花東縱谷)",
       "landmarks": [
         "知本溫泉",
@@ -118,7 +118,7 @@
       "day": 8,
       "origin": "玉里 / 安通",
       "destination": "花蓮 → 蘇澳新站 (火車接駁)",
-      "distance": "約 90–105 km",
+      "distance": "約 101 km",
       "route": "台9線 / 縣道193 (避開車潮)",
       "landmarks": [
         "玉富自行車道",
@@ -132,7 +132,7 @@
       "day": 9,
       "origin": "蘇澳新站 / 蘇澳",
       "destination": "三貂角 → 金山 / 萬里",
-      "distance": "約 110–125 km",
+      "distance": "約 134 km",
       "route": "台2線 (北部濱海公路)",
       "landmarks": [
         "極東：三貂角燈塔",
@@ -153,7 +153,7 @@
       "day": 10,
       "origin": "金山 / 萬里",
       "destination": "富貴角 → 台北蘆洲柳堤公園",
-      "distance": "約 60–85 km",
+      "distance": "約 51 km",
       "route": "台2線 → 台15線 → 八里左岸自行車道",
       "landmarks": [
         "極北：富貴角燈塔",
@@ -170,9 +170,11 @@
       }
     }
   ],
-  "total_distance": "約 930–1100 公里",
+  "total_distance": "約 1118–1118 公里",
   "subtitle": "台灣四極點挑戰",
   "orientation": "vertical_portrait_2_3",
   "lighting": "柔和清晨明亮光線、清新藍天白雲",
-  "main_character": "主角.png 中的人物，公路車外觀同照片"
+  "main_character": "主角.png 中的人物，公路車外觀同照片",
+  "allowed_elements": "台灣山脈稜線、城市縮小模型、西部海岸線、東部太平洋海岸、公路與鐵道路網",
+  "enhancement": "畫面具有故事感與旅程感、呈現10天環島四極點全程概念、帶有完騎成就解鎖氛圍"
 }

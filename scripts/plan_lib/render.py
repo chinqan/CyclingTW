@@ -7,7 +7,7 @@ import sys
 
 from jinja2 import Environment, FileSystemLoader, StrictUndefined
 
-from .helpers import ROOT, TEMPLATES_DIR, day_dir, plan_dir, read_json, write_json, die, info
+from .helpers import ROOT, TEMPLATES_DIR, day_dir, plan_dir, read_json, write_json, die, info, load_protagonist
 
 
 def _jenv() -> Environment:
@@ -205,27 +205,6 @@ def _derive_poster_vars(n: int) -> dict:
     return out
 
 
-def _load_protagonist() -> tuple[str, str]:
-    """從 ROOT/主角.md 解析角色提示詞與負面限制。回傳 (prompt, negative)。"""
-    path = ROOT / "主角.md"
-    if not path.exists():
-        die(f"找不到 {path}，請確認專案根目錄有 主角.md")
-    text = path.read_text(encoding="utf-8")
-    m_prompt = re.search(
-        r"##\s*可直接放入產圖 Prompt 的版本\s*\n+([\s\S]+?)(?=\n##|\Z)", text
-    )
-    m_neg = re.search(
-        r"##\s*負面限制\s*\n+([\s\S]+?)(?=\n##|\Z)", text
-    )
-    protagonist_prompt = m_prompt.group(1).strip() if m_prompt else ""
-    protagonist_negative = m_neg.group(1).strip() if m_neg else ""
-    if not protagonist_prompt:
-        die("主角.md 中找不到「可直接放入產圖 Prompt 的版本」段落")
-    if not protagonist_negative:
-        die("主角.md 中找不到「負面限制」段落")
-    return protagonist_prompt, protagonist_negative
-
-
 def cmd_render_prompt(args):
     n = args.day
     vars_path = plan_dir(n) / "poster_vars.json"
@@ -247,7 +226,7 @@ def cmd_render_prompt(args):
                 empty_fields.append(f"small_avatar.{k}")
         if empty_fields:
             info(f"⚠️  以下手寫欄位為空：{', '.join(empty_fields)}")
-    protagonist_prompt, protagonist_negative = _load_protagonist()
+    protagonist_prompt, protagonist_negative = load_protagonist()
     poster_vars["protagonist_prompt"] = protagonist_prompt
     poster_vars["protagonist_negative"] = protagonist_negative
     tpl = _jenv().get_template("prompt.md.j2")

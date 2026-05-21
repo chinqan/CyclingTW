@@ -97,6 +97,28 @@ def info(msg: str) -> None:
     print(f"[info] {msg}", file=sys.stderr)
 
 
+def load_protagonist() -> tuple[str, str]:
+    """從 ROOT/主角.md 解析角色提示詞與負面限制。回傳 (prompt, negative)。"""
+    import re
+    path = ROOT / "主角.md"
+    if not path.exists():
+        die(f"找不到 {path}，請確認專案根目錄有 主角.md")
+    text = path.read_text(encoding="utf-8")
+    m_prompt = re.search(
+        r"##\s*可直接放入產圖 Prompt 的版本\s*\n+([\s\S]+?)(?=\n##|\Z)", text
+    )
+    m_neg = re.search(
+        r"##\s*負面限制\s*\n+([\s\S]+?)(?=\n##|\Z)", text
+    )
+    protagonist_prompt = m_prompt.group(1).strip() if m_prompt else ""
+    protagonist_negative = m_neg.group(1).strip() if m_neg else ""
+    if not protagonist_prompt:
+        die("主角.md 中找不到「可直接放入產圖 Prompt 的版本」段落")
+    if not protagonist_negative:
+        die("主角.md 中找不到「負面限制」段落")
+    return protagonist_prompt, protagonist_negative
+
+
 def haversine_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
     """兩點地表距離（公里），用於 GPX leg 終點驗證。"""
     R = 6371
