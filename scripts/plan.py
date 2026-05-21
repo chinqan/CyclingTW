@@ -122,6 +122,7 @@ from plan_lib.dinner import (
     cmd_dinner_pool, cmd_dinner_review, cmd_dinner_render,
 )
 from plan_lib.places_api import cmd_refresh_details
+from plan_lib.elevation import cmd_elevation
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -158,6 +159,9 @@ def build_parser() -> argparse.ArgumentParser:
              "呼叫 Google Places API 刷新 places.json 可評分點位的 rating/hours")
     sp.add_argument("--with-reviews", action="store_true",
                     help="同時取得 reviews（Pro tier，$17/1000）；預設只取 Essentials")
+
+    add("elevation", cmd_elevation,
+        "從 GPX + Google Elevation API 計算精確爬升/下降")
 
     add("dinner-status", cmd_dinner_status, "顯示 dayN/dinner_map/ 鏡像現況")
     add("dinner-put",    cmd_dinner_put,    "[stdin] upsert 餐廳到 dinner_map/ 鏡像")

@@ -2,34 +2,38 @@
 
 ---
 
-## 📍 路線總覽
+<div class="day-hero-grid">
+<div class="day-hero-summary">
+
+## 路線總覽
 
 * **出發地**：金山 / 萬里
 * **目的地**：富貴角 → 台北蘆洲柳堤公園
 * **總距離**：51.4 公里（GPX 實測）
-* **總爬升**：台2線北海岸至淡水平緩，淡水→八里→蘆洲為河岸自行車道全平路，總爬升約 150m
+* **總爬升 / 下降**：↑ 300 m ／ ↓ 309 m（北海岸至淡水有丘陵，淡水後河岸自行車道平坦）
 * **主要路線**：金山老街 ➔ 台2線西行 ➔ 石門洞 ➔ 富貴角燈塔（極北）➔ 三芝 ➔ 淡水老街 ➔ 八里左岸自行車道 ➔ 蘆洲柳堤公園
 
+[📱 開啟 Google Maps 導航](https://www.google.com/maps/dir/金山老街/石門洞/富貴角燈塔/淡水老街/蘆洲柳堤公園/@25.2,121.5,11z/data=!4m2!4m1!3e1)
+
+</div>
+<div class="day-hero-map">
+
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=11CpoZRaXL0mqm48giA0bbvo0P4c4b_4&ehbc=2E312F" width="100%" height="100%" style="border:none; border-radius: 8px;"></iframe>
+
+
+</div>
+</div>
+
+<div class="day-hero-poster">
+
+<img src="./day10_poster.png" alt="Day 10 路線海報" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+
+</div>
+
 ---
 
-## 🌍 地圖與導航
-
-#### 🖼️ 海報
-
-<img src="./day10_poster.png" alt="Day 10 路線海報" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-
-#### 📱 手機導航連結（Google Maps 單車模式）
-
-[開啟 Google Maps 導航](https://www.google.com/maps/dir/金山老街/石門洞/富貴角燈塔/淡水老街/蘆洲柳堤公園/@25.2,121.5,11z/data=!4m2!4m1!3e1)
-
-#### 🗺️ 我的地圖 (My Map) 路線
-
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=11CpoZRaXL0mqm48giA0bbvo0P4c4b_4&ehbc=2E312F" width="100%" height="450" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></iframe>
-
-
----
-
-## 🐟 詳細路線行程圖解
+## 詳細路線行程圖解
 
 ```mermaid
 ishikawa-beta
@@ -58,7 +62,7 @@ ishikawa-beta
 
 ---
 
-## 🕒 建議行程與時間配速
+## 建議行程與時間配速
 
 ### 第一段：金山老街 → 石門洞（約 10 km）｜北海岸晨騎段
 
@@ -94,7 +98,7 @@ ishikawa-beta
 ---
 
 
-## 🍽️ 晚餐推薦（終點周邊 3km · 貝葉斯排序）
+## 晚餐推薦
 
 | # | 店名 | 評分 | 留言數 | 貝葉斯分 | 備註 |
 |:---:|:---|:---:|---:|:---:|:---|
@@ -105,12 +109,12 @@ ishikawa-beta
 | 5 | [樂樂燒肉 蘆洲店](https://www.google.com/maps/place/?q=place_id:ChIJYRBNAG2pQjQRAYNc0RXph68) | 4.7★ | 4016 | 4.6907 | 燒肉吃到飽 慶功宴 |
 
 > 💡 *排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）*
-> 📋 *完整 10 筆候選排名請見 [`day10_dinner.md`](./day10_dinner.md)*
+> 📋 *[看更多 >>](./day10_dinner.md)*
 
 ---
 
 
-## 💡 騎乘注意事項
+## 騎乘注意事項
 
 1. **最後一天輕鬆騎**：全程僅 65 km 且多為平路+自行車道，是十天中最輕鬆的一天。可睡到 08:00 再出發，沿途慢慢享受最後的風景。
 2. **富貴角步行注意**：從停車場到燈塔需步行約 15 分鐘（木棧道），自行車需停在停車場入口處。步道平緩好走但無遮蔭，注意防曬。
@@ -122,13 +126,7 @@ ishikawa-beta
 
 ---
 
-## ✨ 更佳景點參考（未排入路線，加碼推薦）
+## 更佳景點參考
 
-> 以下為沿途搜尋結果中，**人氣或特色高於部分已排入停靠點**、地理上又合理可繞的景點，未納入路線是為了維持節奏與里程，附此作為當天臨時加碼或下次規劃參考。
-
-| # | 景點 | 評分 / 留言數 | Bayesian | 偏離 / 往返 | 亮點 |
-|:---:|:---|:---:|:---:|:---|:---|
-| 1 | **老梅石槽** | 4.4★ / 10,000+ | — | 富貴角旁步行 5 分鐘 | 每年 3-5 月限定的綠色海藻覆蓋石槽奇景 |
-| 2 | **白沙灣** | 4.3★ / 8,000+ | — | 台2線旁，零偏離 | 北海岸最大沙灘，夏天戲水勝地 |
-| 3 | **紅毛城** | 4.3★ / 12,000+ | — | 淡水老街附近 1 km | 1629年西班牙人建的古蹟城堡，若有時間值得一看 |
+> *當日候選池所有可評分點位皆已入選或為鎖定必經點，無加碼推薦。*
 

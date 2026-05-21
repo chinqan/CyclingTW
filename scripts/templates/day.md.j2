@@ -2,36 +2,40 @@
 
 ---
 
-## 📍 路線總覽
+<div class="day-hero-grid">
+<div class="day-hero-summary">
+
+## 路線總覽
 
 * **出發地**：{{ cfg.origin }}
 * **目的地**：{{ cfg.destination }}
 * **總距離**：{% if places_data.get('ors_distance_km') %}{{ places_data.ors_distance_km }} 公里（GPX 實測）{% else %}約 {{ cfg.distance_km_range[0] }}–{{ cfg.distance_km_range[1] }} 公里{% endif %}
-* **總爬升**：{{ total_ascent_desc }}
+* **總爬升 / 下降**：{% if places_data.get('elevation_ascent_m') %}↑ {{ places_data.elevation_ascent_m }} m ／ ↓ {{ places_data.elevation_descent_m }} m（{{ total_ascent_desc }}）{% else %}{{ total_ascent_desc }}{% endif %}
 * **主要路線**：{{ main_route_desc }}
 
----
+[📱 開啟 Google Maps 導航]({{ gmaps_dir_url }})
 
-## 🌍 地圖與導航
+</div>
+<div class="day-hero-map">
 
-#### 🖼️ 海報
-
-<img src="./day{{ day }}_poster.png" alt="Day {{ day }} 路線海報" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-
-#### 📱 手機導航連結（Google Maps 單車模式）
-
-[開啟 Google Maps 導航]({{ gmaps_dir_url }})
-
-#### 🗺️ 我的地圖 (My Map) 路線
 {% if mymap_mid %}
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid={{ mymap_mid }}&ehbc=2E312F" width="100%" height="450" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></iframe>
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid={{ mymap_mid }}&ehbc=2E312F" width="100%" height="100%" style="border:none; border-radius: 8px;"></iframe>
 {% else %}
-> 💡 *尚未建立 My Map，請在 `mymaps.json` 填入該天的 mid 值。*
+> 💡 *尚未建立 My Map*
 {% endif %}
 
+</div>
+</div>
+
+<div class="day-hero-poster">
+
+<img src="./day{{ day }}_poster.png" alt="Day {{ day }} 路線海報" width="100%" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+
+</div>
+
 ---
 
-## 🐟 詳細路線行程圖解
+## 詳細路線行程圖解
 
 ```mermaid
 {{ ishikawa }}
@@ -39,7 +43,7 @@
 
 ---
 
-## 🕒 建議行程與時間配速
+## 建議行程與時間配速
 {% for seg in segments %}
 ### 第{{ seg.cn_n }}段：{{ seg.title }}（約 {{ seg.distance_km }} km）｜{{ seg.subtitle }}
 
@@ -53,7 +57,7 @@
 ---
 {% endfor %}
 {% if dinner_top5 %}
-## 🍽️ 晚餐推薦（終點周邊 3km · 貝葉斯排序）
+## 晚餐推薦
 
 | # | 店名 | 評分 | 留言數 | 貝葉斯分 | 備註 |
 |:---:|:---|:---:|---:|:---:|:---|
@@ -61,12 +65,12 @@
 | {{ r.rank }} | [{{ r.name_zh }}](https://www.google.com/maps/place/?q=place_id:{{ r.place_id }}) | {{ r.rating }}★ | {{ r.total_ratings }} | {{ r.bayesian_score }} | {{ r.note }} |
 {% endfor %}
 > 💡 *排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）*
-> 📋 *完整 {{ dinner_pool_size }} 筆候選排名請見 [`day{{ day }}_dinner.md`](./day{{ day }}_dinner.md)*
+> 📋 *[看更多 >>](./day{{ day }}_dinner.md)*
 
 ---
 
 {% endif %}
-## 💡 騎乘注意事項
+## 騎乘注意事項
 
 {% for note in notes -%}
 {{ loop.index }}. {{ note }}
@@ -74,7 +78,7 @@
 {% if better_attractions %}
 ---
 
-## ✨ 更佳景點參考（未排入路線，加碼推薦）
+## 更佳景點參考
 
 {{ better_attractions }}
 {% endif %}

@@ -80,7 +80,44 @@
             width: 100%;
             max-width: none;
         }
-        .back-to-top {
+        .day-hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 20px;
+            align-items: stretch;
+            margin: 18px 0 24px;
+            min-height: 350px;
+        }
+        .day-hero-summary {
+            min-width: 0;
+        }
+        .day-hero-summary h2 {
+            margin-top: 0;
+        }
+        .day-hero-map {
+            min-width: 0;
+            min-height: 350px;
+        }
+        .day-hero-map h4 {
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+        .day-hero-map iframe {
+            width: 100%;
+            height: calc(100% - 30px);
+            min-height: 320px;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .day-hero-poster {
+            margin: 24px 0;
+        }
+        .day-hero-poster img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }        .back-to-top {
             display: inline-block;
             margin-top: 20px;
             font-weight: bold;
@@ -121,6 +158,13 @@
             .day-intro-grid {
                 grid-template-columns: 1fr;
                 gap: 18px;
+            }
+            .day-hero-grid {
+                grid-template-columns: 1fr;
+                min-height: auto;
+            }
+            .day-hero-map {
+                min-height: 300px;
             }
         }
     </style>
@@ -242,22 +286,20 @@
             <div class="day-content">
                 <h1>Day 1：蘆洲柳堤公園 ➔ 竹南車站（西濱海岸線追風之旅）</h1>
 <hr>
-<h2>📍 路線總覽</h2>
+<div class="day-hero-grid">
+<div class="day-hero-summary"><h2>路線總覽</h2>
 <ul>
 <li><strong>出發地</strong>：台北蘆洲柳堤公園</li>
 <li><strong>目的地</strong>：竹南車站</li>
 <li><strong>總距離</strong>：110.7 公里（GPX 實測）</li>
-<li><strong>總爬升</strong>：全程幾乎平坦，台61線西濱公路爬升極少，南寮至竹南段略有起伏</li>
+<li><strong>總爬升 / 下降</strong>：↑ 115 m ／ ↓ 106 m（西濱平坦，幾乎無爬升）</li>
 <li><strong>主要路線</strong>：二重疏洪道自行車道 ➔ 八里左岸自行車道 ➔ 台15線 ➔ 台61線（竹圍/觀音/新屋）➔ 南寮漁港 ➔ 台1線 ➔ 竹南車站</li>
 </ul>
-<hr>
-<h2>🌍 地圖與導航</h2>
-<h4>🖼️ 海報</h4>
-<img src="./day1/day1_poster.png" alt="Day 1 路線海報" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>📱 手機導航連結（Google Maps 單車模式）</h4>
-<p><a href="https://www.google.com/maps/dir/?api=1&origin=%E6%96%B0%E5%8C%97%E5%B8%82%E8%98%86%E6%B4%B2%E5%8D%80%E6%9F%B3%E5%A0%A4%E5%85%AC%E5%9C%92&destination=%E7%AB%B9%E5%8D%97%E7%81%AB%E8%BB%8A%E7%AB%99&waypoints=%E6%96%B0%E5%8C%97%E5%B8%82%E5%85%AB%E9%87%8C%E5%B7%A6%E5%B2%B8%E8%87%AA%E8%A1%8C%E8%BB%8A%E9%81%93%7C%E6%A1%83%E5%9C%92%E7%AB%B9%E5%9C%8D%E6%BC%81%E6%B8%AF%7C%E6%A1%83%E5%9C%92%E6%B0%B8%E5%AE%89%E6%BC%81%E6%B8%AF%7C%E6%96%B0%E7%AB%B9%E5%8D%97%E5%AF%AE%E6%BC%81%E6%B8%AF&travelmode=bicycling">開啟 Google Maps 導航</a></p>
-<h4>🗺️ 我的地圖 (My Map) 路線</h4>
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1jkVYdvwUMUZ9jxtJojAd5-fQKzrFCZo&ehbc=2E312F" width="100%" height="450" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></iframe><hr>
-<h2>🐟 詳細路線行程圖解</h2>
+<p><a href="https://www.google.com/maps/dir/?api=1&origin=%E6%96%B0%E5%8C%97%E5%B8%82%E8%98%86%E6%B4%B2%E5%8D%80%E6%9F%B3%E5%A0%A4%E5%85%AC%E5%9C%92&destination=%E7%AB%B9%E5%8D%97%E7%81%AB%E8%BB%8A%E7%AB%99&waypoints=%E6%96%B0%E5%8C%97%E5%B8%82%E5%85%AB%E9%87%8C%E5%B7%A6%E5%B2%B8%E8%87%AA%E8%A1%8C%E8%BB%8A%E9%81%93%7C%E6%A1%83%E5%9C%92%E7%AB%B9%E5%9C%8D%E6%BC%81%E6%B8%AF%7C%E6%A1%83%E5%9C%92%E6%B0%B8%E5%AE%89%E6%BC%81%E6%B8%AF%7C%E6%96%B0%E7%AB%B9%E5%8D%97%E5%AF%AE%E6%BC%81%E6%B8%AF&travelmode=bicycling">📱 開啟 Google Maps 導航</a></p>
+</div>
+<div class="day-hero-map"><iframe src="https://www.google.com/maps/d/u/0/embed?mid=1jkVYdvwUMUZ9jxtJojAd5-fQKzrFCZo&ehbc=2E312F" width="100%" height="100%" style="border:none; border-radius: 8px;"></iframe></div>
+</div><div class="day-hero-poster"><img src="./day1/day1_poster.png" alt="Day 1 路線海報" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></div><hr>
+<h2>詳細路線行程圖解</h2>
 <div class="mermaid">
 ishikawa-beta
     Day 1 完騎 竹南車站 約105km
@@ -293,7 +335,7 @@ ishikawa-beta
         🥤 7-ELEVEN 里商門市 km18
 </div>
 <hr>
-<h2>🕒 建議行程與時間配速</h2>
+<h2>建議行程與時間配速</h2>
 <h3>第一段：蘆洲柳堤公園 → 水牛坑越野場地（約 28 km）｜出發熱身段</h3>
 <p><strong>距離</strong>：28 km
 <strong>路況</strong>：蘆洲出發沿二重疏洪道河濱自行車道向北，經關渡橋抵達八里，接八里左岸自行車道南行，再接台15線至林口水牛坑。全段平坦，補給豐富。</p>
@@ -340,7 +382,7 @@ ishikawa-beta
 <li>🏁 <strong>17:00 竹南車站</strong>（km ~110，苗栗縣竹南鎮中山路166號）：周邊有平價旅館與餐廳，台鐵竹南站可搭乘區間車或自強號返程。</li>
 </ul>
 <hr>
-<h2>🍽️ 晚餐推薦（終點周邊 3km · 貝葉斯排序）</h2>
+<h2>晚餐推薦</h2>
 <table>
 <thead>
 <tr>
@@ -395,10 +437,10 @@ ishikawa-beta
 </tbody></table>
 <blockquote>
 <p>💡 <em>排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）</em>
-📋 <em>完整 19 筆候選排名請見 <a href="./day1/day1_dinner.md"><code>day1_dinner.md</code></a></em></p>
+📋 <em><a href="./day1/day1_dinner.md">看更多 &gt;&gt;</a></em></p>
 </blockquote>
 <hr>
-<h2>💡 騎乘注意事項</h2>
+<h2>騎乘注意事項</h2>
 <ol>
 <li><strong>強風防範</strong>：台61線西濱公路全線無遮蔽，夏季常有西南風助騎，冬季可能面對強烈東北季風（逆風），建議預留多 30% 騎行時間。</li>
 <li><strong>補給空窗</strong>：竹圍漁港至大益門市約 14 km 無超商；永安至南寮約 20 km 無超商，出發前確認水壺與補給。</li>
@@ -408,9 +450,9 @@ ishikawa-beta
 <li><strong>撤退方案</strong>：km15 八里搭公車、km43 竹圍漁港搭計程車至桃園台鐵站、km70 永安漁港至新竹台鐵站、km90 南寮漁港騎至新竹站、km110 竹南站直接返程。</li>
 </ol>
 <hr>
-<h2>✨ 更佳景點參考（未排入路線，加碼推薦）</h2>
+<h2>更佳景點參考</h2>
 <blockquote>
-<p>以下為沿途 Bayesian 排名較高但未排入路線的備選點位（資料來源：<code>python3 scripts/plan.py review 1</code> 候選池，18 筆）。可視當天體力 / 天候 / 時間彈性加入。</p>
+<p>以下為沿途 Bayesian 排名較高但未排入路線的備選點位。可視當天體力 / 天候 / 時間彈性加入。</p>
 </blockquote>
 <h3>景點備案</h3>
 <table>
@@ -492,9 +534,6 @@ ishikawa-beta
 <td align="center">4.37</td>
 </tr>
 </tbody></table>
-<blockquote>
-<p>💡 <em>表格由 <code>compose-better-attractions</code> 從候選池自動生成；如需補敘述（路況、時段建議等），直接編輯 <code>_plan/segments.json.better_attractions</code> 即可。</em></p>
-</blockquote>
 
             </div>
             <a href="#" class="back-to-top">↑ 回到總覽表</a>
@@ -505,22 +544,20 @@ ishikawa-beta
             <div class="day-content">
                 <h1>Day 2：竹南車站 ➔ 鹿港老街（西濱風車海岸南行）</h1>
 <hr>
-<h2>📍 路線總覽</h2>
+<div class="day-hero-grid">
+<div class="day-hero-summary"><h2>路線總覽</h2>
 <ul>
 <li><strong>出發地</strong>：新竹 / 竹南</li>
 <li><strong>目的地</strong>：鹿港 / 彰化</li>
 <li><strong>總距離</strong>：99.7 公里（GPX 實測）</li>
-<li><strong>總爬升</strong>：全程平坦，沿西濱海岸線南下幾乎無爬升</li>
+<li><strong>總爬升 / 下降</strong>：↑ 264 m ／ ↓ 266 m（台1線苑裡至大甲段有緩丘，其餘平坦）</li>
 <li><strong>主要路線</strong>：竹南車站 ➔ 台61線(西濱) ➔ 好望角 ➔ 白沙屯拱天宮 ➔ 通霄精鹽廠 ➔ 台1線 ➔ 大甲鎮瀾宮 ➔ 台17線 ➔ 鹿港老街</li>
 </ul>
-<hr>
-<h2>🌍 地圖與導航</h2>
-<h4>🖼️ 海報</h4>
-<img src="./day2/day2_poster.png" alt="Day 2 路線海報" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>📱 手機導航連結（Google Maps 單車模式）</h4>
-<p><a href="https://www.google.com/maps/dir/%E7%AB%B9%E5%8D%97%E8%BB%8A%E7%AB%99/%E5%BE%8C%E9%BE%8D%E5%A5%BD%E6%9C%9B%E8%A7%92/%E7%99%BD%E6%B2%99%E5%B1%AF%E6%8B%B1%E5%A4%A9%E5%AE%AE/%E9%80%9A%E9%9C%84%E7%B2%BE%E9%B9%BD%E5%BB%A0/%E5%A4%A7%E7%94%B2%E9%8E%AE%E7%80%BE%E5%AE%AE/%E9%B9%BF%E6%B8%AF%E8%80%81%E8%A1%97/@24.3,120.6,10z/data=!4m2!4m1!3e1">開啟 Google Maps 導航</a></p>
-<h4>🗺️ 我的地圖 (My Map) 路線</h4>
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1_9V2ea1aWNt_hCw7_bEEAwka0qNWlBQ&ehbc=2E312F" width="100%" height="450" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></iframe><hr>
-<h2>🐟 詳細路線行程圖解</h2>
+<p><a href="https://www.google.com/maps/dir/%E7%AB%B9%E5%8D%97%E8%BB%8A%E7%AB%99/%E5%BE%8C%E9%BE%8D%E5%A5%BD%E6%9C%9B%E8%A7%92/%E7%99%BD%E6%B2%99%E5%B1%AF%E6%8B%B1%E5%A4%A9%E5%AE%AE/%E9%80%9A%E9%9C%84%E7%B2%BE%E9%B9%BD%E5%BB%A0/%E5%A4%A7%E7%94%B2%E9%8E%AE%E7%80%BE%E5%AE%AE/%E9%B9%BF%E6%B8%AF%E8%80%81%E8%A1%97/@24.3,120.6,10z/data=!4m2!4m1!3e1">📱 開啟 Google Maps 導航</a></p>
+</div>
+<div class="day-hero-map"><iframe src="https://www.google.com/maps/d/u/0/embed?mid=1_9V2ea1aWNt_hCw7_bEEAwka0qNWlBQ&ehbc=2E312F" width="100%" height="100%" style="border:none; border-radius: 8px;"></iframe></div>
+</div><div class="day-hero-poster"><img src="./day2/day2_poster.png" alt="Day 2 路線海報" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></div><hr>
+<h2>詳細路線行程圖解</h2>
 <div class="mermaid">
 ishikawa-beta
     Day 2 完騎 鹿港老街 約107km
@@ -558,7 +595,7 @@ ishikawa-beta
         🏞️ 好望角 巨型風車群 俯瞰海岸
 </div>
 <hr>
-<h2>🕒 建議行程與時間配速</h2>
+<h2>建議行程與時間配速</h2>
 <h3>第一段：竹南車站 → 後龍好望角（約 25 km）｜西濱啟程追風段</h3>
 <p><strong>距離</strong>：25 km
 <strong>路況</strong>：竹南出發接台61線西濱快速道路側車道南下，沿途平坦無坡，海風從左側吹來。路面寬敞車流少，視野開闊可見海上風車群。</p>
@@ -605,7 +642,7 @@ ishikawa-beta
 <li>🏛️ <strong>16:00 鹿港老街</strong>（km 105，當日終點）：台灣保存最完整的清代商業街區。紅磚老屋、手工藝品、老街小吃一次滿足。</li>
 </ul>
 <hr>
-<h2>🍽️ 晚餐推薦（終點周邊 3km · 貝葉斯排序）</h2>
+<h2>晚餐推薦</h2>
 <table>
 <thead>
 <tr>
@@ -660,10 +697,10 @@ ishikawa-beta
 </tbody></table>
 <blockquote>
 <p>💡 <em>排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）</em>
-📋 <em>完整 16 筆候選排名請見 <a href="./day2/day2_dinner.md"><code>day2_dinner.md</code></a></em></p>
+📋 <em><a href="./day2/day2_dinner.md">看更多 &gt;&gt;</a></em></p>
 </blockquote>
 <hr>
-<h2>💡 騎乘注意事項</h2>
+<h2>騎乘注意事項</h2>
 <ol>
 <li><strong>強風注意</strong>：台61線西濱全程無遮蔽，夏季南風助騎、冬季北風逆行。查看風向預報再決定出發時間。</li>
 <li><strong>台1線車流</strong>：苑裡至大甲段台1線大型車輛多，建議走慢車道或平行替代道路。</li>
@@ -673,9 +710,9 @@ ishikawa-beta
 <li><strong>鹿港老街營業時間</strong>：多數店家 10:00–18:00，晚到可能部分歇業，但周邊餐廳仍營業。</li>
 </ol>
 <hr>
-<h2>✨ 更佳景點參考（未排入路線，加碼推薦）</h2>
+<h2>更佳景點參考</h2>
 <blockquote>
-<p>以下為沿途 Bayesian 排名較高但未排入路線的備選點位（資料來源：<code>python3 scripts/plan.py review 2</code> 候選池，11 筆）。可視當天體力 / 天候 / 時間彈性加入。</p>
+<p>以下為沿途 Bayesian 排名較高但未排入路線的備選點位。可視當天體力 / 天候 / 時間彈性加入。</p>
 </blockquote>
 <h3>景點備案</h3>
 <table>
@@ -729,9 +766,6 @@ ishikawa-beta
 <td align="center">4.61</td>
 </tr>
 </tbody></table>
-<blockquote>
-<p>💡 <em>表格由 <code>compose-better-attractions</code> 從候選池自動生成；如需補敘述（路況、時段建議等），直接編輯 <code>_plan/segments.json.better_attractions</code> 即可。</em></p>
-</blockquote>
 
             </div>
             <a href="#" class="back-to-top">↑ 回到總覽表</a>
@@ -742,22 +776,20 @@ ishikawa-beta
             <div class="day-content">
                 <h1>Day 3：鹿港老街 ➔ 鹿耳門公園（極西國聖燈塔追日行）</h1>
 <hr>
-<h2>📍 路線總覽</h2>
+<div class="day-hero-grid">
+<div class="day-hero-summary"><h2>路線總覽</h2>
 <ul>
 <li><strong>出發地</strong>：鹿港 / 彰化</li>
 <li><strong>目的地</strong>：台南 / 鹿耳門公園</li>
 <li><strong>總距離</strong>：187.9 公里（GPX 實測）</li>
-<li><strong>總爬升</strong>：全程平坦，沿台19/台17西部濱海南下幾乎無爬升</li>
+<li><strong>總爬升 / 下降</strong>：↑ 49 m ／ ↓ 53 m（嘉南平原全平路，幾乎零爬升）</li>
 <li><strong>主要路線</strong>：鹿港老街 ➔ 台19線南下 ➔ 西螺大橋 ➔ 北港朝天宮 ➔ 接台17線 ➔ 東石漁港 ➔ 布袋 ➔ 北門 ➔ 七股鹽山 ➔ 國聖港燈塔（極西點）➔ 鹿耳門公園</li>
 </ul>
-<hr>
-<h2>🌍 地圖與導航</h2>
-<h4>🖼️ 海報</h4>
-<img src="./day3/day3_poster.png" alt="Day 3 路線海報" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>📱 手機導航連結（Google Maps 單車模式）</h4>
-<p><a href="https://www.google.com/maps/dir/%E9%B9%BF%E6%B8%AF%E8%80%81%E8%A1%97/%E8%A5%BF%E8%9E%BA%E5%A4%A7%E6%A9%8B/%E5%8C%97%E6%B8%AF%E6%9C%9D%E5%A4%A9%E5%AE%AE/%E6%9D%B1%E7%9F%B3%E6%BC%81%E4%BA%BA%E7%A2%BC%E9%A0%AD/%E5%B8%83%E8%A2%8B%E8%A7%80%E5%85%89%E6%BC%81%E6%B8%AF/%E4%BA%95%E4%BB%94%E8%85%B3%E7%93%A6%E7%9B%A4%E9%B9%BD%E7%94%B0/%E4%B8%83%E8%82%A1%E9%B9%BD%E5%B1%B1/%E5%9C%8B%E8%81%96%E6%B8%AF%E7%87%88%E5%A1%94/%E9%B9%BF%E8%80%B3%E9%96%80%E5%85%AC%E5%9C%92/@23.6,120.3,9z/data=!4m2!4m1!3e1">開啟 Google Maps 導航</a></p>
-<h4>🗺️ 我的地圖 (My Map) 路線</h4>
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=13Pl_w2JJ-cUgbBk77eEKo-G5GZ7vJIs&ehbc=2E312F" width="100%" height="450" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></iframe><hr>
-<h2>🐟 詳細路線行程圖解</h2>
+<p><a href="https://www.google.com/maps/dir/%E9%B9%BF%E6%B8%AF%E8%80%81%E8%A1%97/%E8%A5%BF%E8%9E%BA%E5%A4%A7%E6%A9%8B/%E5%8C%97%E6%B8%AF%E6%9C%9D%E5%A4%A9%E5%AE%AE/%E6%9D%B1%E7%9F%B3%E6%BC%81%E4%BA%BA%E7%A2%BC%E9%A0%AD/%E5%B8%83%E8%A2%8B%E8%A7%80%E5%85%89%E6%BC%81%E6%B8%AF/%E4%BA%95%E4%BB%94%E8%85%B3%E7%93%A6%E7%9B%A4%E9%B9%BD%E7%94%B0/%E4%B8%83%E8%82%A1%E9%B9%BD%E5%B1%B1/%E5%9C%8B%E8%81%96%E6%B8%AF%E7%87%88%E5%A1%94/%E9%B9%BF%E8%80%B3%E9%96%80%E5%85%AC%E5%9C%92/@23.6,120.3,9z/data=!4m2!4m1!3e1">📱 開啟 Google Maps 導航</a></p>
+</div>
+<div class="day-hero-map"><iframe src="https://www.google.com/maps/d/u/0/embed?mid=13Pl_w2JJ-cUgbBk77eEKo-G5GZ7vJIs&ehbc=2E312F" width="100%" height="100%" style="border:none; border-radius: 8px;"></iframe></div>
+</div><div class="day-hero-poster"><img src="./day3/day3_poster.png" alt="Day 3 路線海報" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></div><hr>
+<h2>詳細路線行程圖解</h2>
 <div class="mermaid">
 ishikawa-beta
     Day 3 完騎 鹿耳門公園 約139km
@@ -796,7 +828,7 @@ ishikawa-beta
         🥤 7-ELEVEN 七崁門市 km31
 </div>
 <hr>
-<h2>🕒 建議行程與時間配速</h2>
+<h2>建議行程與時間配速</h2>
 <h3>第一段：鹿港老街 → 西螺大橋（約 30 km）｜彰雲平原啟程段</h3>
 <p><strong>距離</strong>：30 km
 <strong>路況</strong>：鹿港出發接台19線南下，穿越彰化平原農村地帶。路面平坦但部分鄉道路面較窄，注意田間機具與小貨車。接近西螺前進入西螺鎮市區。</p>
@@ -849,7 +881,7 @@ ishikawa-beta
 <li>🏡 <strong>17:15 鹿耳門公園</strong>（km 139，本日終點）：本日終點，位於鹿耳門天后宮與聖母廟附近，是歷史上荷蘭人與鄭成功登陸的戰略要地。在此完騎本日行程並前往附近民宿休息。</li>
 </ul>
 <hr>
-<h2>🍽️ 晚餐推薦（終點周邊 3km · 貝葉斯排序）</h2>
+<h2>晚餐推薦</h2>
 <table>
 <thead>
 <tr>
@@ -904,10 +936,10 @@ ishikawa-beta
 </tbody></table>
 <blockquote>
 <p>💡 <em>排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）</em>
-📋 <em>完整 15 筆候選排名請見 <a href="./day3/day3_dinner.md"><code>day3_dinner.md</code></a></em></p>
+📋 <em><a href="./day3/day3_dinner.md">看更多 &gt;&gt;</a></em></p>
 </blockquote>
 <hr>
-<h2>💡 騎乘注意事項</h2>
+<h2>騎乘注意事項</h2>
 <ol>
 <li><strong>西部沙塵與防曬</strong>：北港以南沿線無遮蔭，鹽田區風沙偏大，建議戴口罩、頭巾、太陽眼鏡，並隨時補水。</li>
 <li><strong>台19/台17大車車流</strong>：彰雲段台19多砂石車、台南段台17多貨車，請走右側慢車道並保持警覺。</li>
@@ -917,9 +949,9 @@ ishikawa-beta
 <li><strong>住宿位置</strong>：本日終點位於安南區，鄰近鹿耳門天后宮及聖母廟，周邊有豐富的民宿選擇，方便隔天直接續行南下。</li>
 </ol>
 <hr>
-<h2>✨ 更佳景點參考（未排入路線，加碼推薦）</h2>
+<h2>更佳景點參考</h2>
 <blockquote>
-<p>以下為沿途 Bayesian 排名較高但未排入路線的備選點位（資料來源：<code>python3 scripts/plan.py review 3</code> 候選池，16 筆）。可視當天體力 / 天候 / 時間彈性加入。</p>
+<p>以下為沿途 Bayesian 排名較高但未排入路線的備選點位。可視當天體力 / 天候 / 時間彈性加入。</p>
 </blockquote>
 <h3>景點備案</h3>
 <table>
@@ -980,9 +1012,6 @@ ishikawa-beta
 <td align="center">4.57</td>
 </tr>
 </tbody></table>
-<blockquote>
-<p>💡 <em>表格由 <code>compose-better-attractions</code> 從候選池自動生成；如需補敘述（路況、時段建議等），直接編輯 <code>_plan/segments.json.better_attractions</code> 即可。</em></p>
-</blockquote>
 
             </div>
             <a href="#" class="back-to-top">↑ 回到總覽表</a>
@@ -993,22 +1022,20 @@ ishikawa-beta
             <div class="day-content">
                 <h1>Day 4：鹿耳門公園 ➔ 枋寮車站（南國廟宇與糖鐵巡禮）</h1>
 <hr>
-<h2>📍 路線總覽</h2>
+<div class="day-hero-grid">
+<div class="day-hero-summary"><h2>路線總覽</h2>
 <ul>
 <li><strong>出發地</strong>：台南 / 鹿耳門公園</li>
 <li><strong>目的地</strong>：枋寮 / 枋山</li>
 <li><strong>總距離</strong>：123.6 公里（GPX 實測）</li>
-<li><strong>總爬升</strong>：全程平坦，經台南市區、高雄市區、屏東濱海平原，幾乎無爬升</li>
+<li><strong>總爬升 / 下降</strong>：↑ 105 m ／ ↓ 102 m（台南至屏東平原，橋樑微起伏）</li>
 <li><strong>主要路線</strong>：鹿耳門公園 ➔ 台南孔廟 ➔ 台17線南下 ➔ 橋頭糖廠 ➔ 澄清湖 ➔ 東港東隆宮 ➔ 大鵬灣 ➔ 枋寮車站</li>
 </ul>
-<hr>
-<h2>🌍 地圖與導航</h2>
-<h4>🖼️ 海報</h4>
-<img src="./day4/day4_poster.png" alt="Day 4 路線海報" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>📱 手機導航連結（Google Maps 單車模式）</h4>
-<p><a href="https://www.google.com/maps/dir/%E9%B9%BF%E8%80%B3%E9%96%80%E5%85%AC%E5%9C%92/%E5%8F%B0%E5%8D%97%E5%AD%94%E5%BB%9F/%E6%A9%8B%E9%A0%AD%E7%B3%96%E5%BB%A0/%E6%BE%84%E6%B8%85%E6%B9%96/%E6%9D%B1%E6%B8%AF%E6%9D%B1%E9%9A%86%E5%AE%AE/%E5%A4%A7%E9%B5%AC%E7%81%A3%E5%9C%8B%E5%AE%B6%E9%A2%A8%E6%99%AF%E5%8D%80/%E6%9E%8B%E5%AF%AE%E8%BB%8A%E7%AB%99/@22.7,120.4,10z/data=!4m2!4m1!3e1">開啟 Google Maps 導航</a></p>
-<h4>🗺️ 我的地圖 (My Map) 路線</h4>
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1fGVP1JC_t0o19Mx43kKNealr6btJreY&ehbc=2E312F" width="100%" height="450" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></iframe><hr>
-<h2>🐟 詳細路線行程圖解</h2>
+<p><a href="https://www.google.com/maps/dir/%E9%B9%BF%E8%80%B3%E9%96%80%E5%85%AC%E5%9C%92/%E5%8F%B0%E5%8D%97%E5%AD%94%E5%BB%9F/%E6%A9%8B%E9%A0%AD%E7%B3%96%E5%BB%A0/%E6%BE%84%E6%B8%85%E6%B9%96/%E6%9D%B1%E6%B8%AF%E6%9D%B1%E9%9A%86%E5%AE%AE/%E5%A4%A7%E9%B5%AC%E7%81%A3%E5%9C%8B%E5%AE%B6%E9%A2%A8%E6%99%AF%E5%8D%80/%E6%9E%8B%E5%AF%AE%E8%BB%8A%E7%AB%99/@22.7,120.4,10z/data=!4m2!4m1!3e1">📱 開啟 Google Maps 導航</a></p>
+</div>
+<div class="day-hero-map"><iframe src="https://www.google.com/maps/d/u/0/embed?mid=1fGVP1JC_t0o19Mx43kKNealr6btJreY&ehbc=2E312F" width="100%" height="100%" style="border:none; border-radius: 8px;"></iframe></div>
+</div><div class="day-hero-poster"><img src="./day4/day4_poster.png" alt="Day 4 路線海報" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></div><hr>
+<h2>詳細路線行程圖解</h2>
 <div class="mermaid">
 ishikawa-beta
     Day 4 完騎 枋寮車站 約120km
@@ -1046,7 +1073,7 @@ ishikawa-beta
         🏞️ 台南孔廟 紅色古建築
 </div>
 <hr>
-<h2>🕒 建議行程與時間配速</h2>
+<h2>建議行程與時間配速</h2>
 <h3>第一段：鹿耳門公園 → 台南孔廟（約 10 km）｜府城文化晨騎段</h3>
 <p><strong>距離</strong>：10 km
 <strong>路況</strong>：從安南區鹿耳門出發，沿安中路、安和路進入台南市區。清晨市區車流少，路面平坦。抵達孔廟所在的中西區歷史街區。</p>
@@ -1093,7 +1120,7 @@ ishikawa-beta
 <li>🚉 <strong>17:00 枋寮車站</strong>（km 120，本日終點）：屏東西部幹線重要車站，也是藍皮解憂號起點站。站前有公廁與便利商店。在此完騎本日行程，前往周邊住宿休息。</li>
 </ul>
 <hr>
-<h2>🍽️ 晚餐推薦（終點周邊 3km · 貝葉斯排序）</h2>
+<h2>晚餐推薦</h2>
 <table>
 <thead>
 <tr>
@@ -1148,10 +1175,10 @@ ishikawa-beta
 </tbody></table>
 <blockquote>
 <p>💡 <em>排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）</em>
-📋 <em>完整 8 筆候選排名請見 <a href="./day4/day4_dinner.md"><code>day4_dinner.md</code></a></em></p>
+📋 <em><a href="./day4/day4_dinner.md">看更多 &gt;&gt;</a></em></p>
 </blockquote>
 <hr>
-<h2>💡 騎乘注意事項</h2>
+<h2>騎乘注意事項</h2>
 <ol>
 <li><strong>台南市區交通</strong>：早晨 07:00 出發可避開台南尖峰車流，市區路段多紅綠燈，保持耐心。</li>
 <li><strong>台17線高屏段大車</strong>：台南至高雄段台17線有工業區貨車頻繁，請走慢車道並保持警覺。路竹至橋頭段尤其注意。</li>
@@ -1162,40 +1189,9 @@ ishikawa-beta
 <li><strong>東港小吃</strong>：東隆宮周邊海產街有旗魚黑輪、雙糕潤、肉粿等在地小食，可做下午點心補給。</li>
 </ol>
 <hr>
-<h2>✨ 更佳景點參考（未排入路線，加碼推薦）</h2>
+<h2>更佳景點參考</h2>
 <blockquote>
-<p>以下為沿途搜尋結果中，<strong>人氣或特色高於部分已排入停靠點</strong>、地理上又合理可繞的景點，未納入路線是為了維持節奏與里程，附此作為當天臨時加碼或下次規劃參考。</p>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th align="center">#</th>
-<th align="left">景點</th>
-<th align="center">評分 / 留言數</th>
-<th align="center">Bayesian</th>
-<th align="left">偏離 / 往返</th>
-<th align="left">亮點</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">1</td>
-<td align="left"><strong>鹿耳門聖母廟</strong></td>
-<td align="center">4.7★ / 5,234</td>
-<td align="center">4.37</td>
-<td align="left">起點鹿耳門公園旁，零偏離</td>
-<td align="left">全台最大媽祖廟，壯觀殿宇；若出發時間充裕可先參觀再啟程</td>
-</tr>
-<tr>
-<td align="center">2</td>
-<td align="left"><strong>鹿耳門天后宮</strong></td>
-<td align="center">4.7★ / 7,940</td>
-<td align="center">4.43</td>
-<td align="left">起點南方約 3 km，往返 +20 分鐘</td>
-<td align="left">正統鹿耳門天后宮，鄭成功登陸傳說地；歷史意義重大但需額外繞路</td>
-</tr>
-</tbody></table>
-<blockquote>
-<p>💡 兩座鹿耳門廟宇各有擁護者，時間充裕時可擇一參訪。聖母廟距起點最近（步行 2 分鐘），若提早 15 分鐘出發即可順遊。</p>
+<p><em>當日候選池所有可評分點位皆已入選或為鎖定必經點，無加碼推薦。</em></p>
 </blockquote>
 
             </div>
@@ -1207,22 +1203,20 @@ ishikawa-beta
             <div class="day-content">
                 <h1>Day 5：枋寮車站 ➔ 鵝鑾鼻燈塔（屏鵝公路南國追風行）</h1>
 <hr>
-<h2>📍 路線總覽</h2>
+<div class="day-hero-grid">
+<div class="day-hero-summary"><h2>路線總覽</h2>
 <ul>
 <li><strong>出發地</strong>：枋寮 / 枋山</li>
 <li><strong>目的地</strong>：恆春 / 墾丁 / 鵝鑾鼻</li>
 <li><strong>總距離</strong>：68.1 公里（GPX 實測）</li>
-<li><strong>總爬升</strong>：前半段平坦（枋寮→車城），後半段有緩坡（恆春→鵝鑾鼻），總爬升約 200m</li>
+<li><strong>總爬升 / 下降</strong>：↑ 215 m ／ ↓ 181 m（恆春半島有丘陵起伏，前段平坦）</li>
 <li><strong>主要路線</strong>：枋寮車站 ➔ 台1線南下 ➔ 楓港 ➔ 台26線（屏鵝公路）➔ 車城福安宮 ➔ 恆春古城 ➔ 南灣 ➔ 墾丁大街 ➔ 鵝鑾鼻燈塔</li>
 </ul>
-<hr>
-<h2>🌍 地圖與導航</h2>
-<h4>🖼️ 海報</h4>
-<img src="./day5/day5_poster.png" alt="Day 5 路線海報" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>📱 手機導航連結（Google Maps 單車模式）</h4>
-<p><a href="https://www.google.com/maps/dir/%E6%9E%8B%E5%AF%AE%E8%BB%8A%E7%AB%99/%E8%BB%8A%E5%9F%8E%E7%A6%8F%E5%AE%89%E5%AE%AE/%E6%81%86%E6%98%A5%E5%8D%97%E9%96%80/%E5%A2%BE%E4%B8%81%E5%A4%A7%E8%A1%97/%E9%B5%9D%E9%91%BE%E9%BC%BB%E7%87%88%E5%A1%94/@22.1,120.7,11z/data=!4m2!4m1!3e1">開啟 Google Maps 導航</a></p>
-<h4>🗺️ 我的地圖 (My Map) 路線</h4>
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1_OoqI76KfShNADmaLx_cPvZ_pPCfut0&ehbc=2E312F" width="100%" height="450" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></iframe><hr>
-<h2>🐟 詳細路線行程圖解</h2>
+<p><a href="https://www.google.com/maps/dir/%E6%9E%8B%E5%AF%AE%E8%BB%8A%E7%AB%99/%E8%BB%8A%E5%9F%8E%E7%A6%8F%E5%AE%89%E5%AE%AE/%E6%81%86%E6%98%A5%E5%8D%97%E9%96%80/%E5%A2%BE%E4%B8%81%E5%A4%A7%E8%A1%97/%E9%B5%9D%E9%91%BE%E9%BC%BB%E7%87%88%E5%A1%94/@22.1,120.7,11z/data=!4m2!4m1!3e1">📱 開啟 Google Maps 導航</a></p>
+</div>
+<div class="day-hero-map"><iframe src="https://www.google.com/maps/d/u/0/embed?mid=1_OoqI76KfShNADmaLx_cPvZ_pPCfut0&ehbc=2E312F" width="100%" height="100%" style="border:none; border-radius: 8px;"></iframe></div>
+</div><div class="day-hero-poster"><img src="./day5/day5_poster.png" alt="Day 5 路線海報" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></div><hr>
+<h2>詳細路線行程圖解</h2>
 <div class="mermaid">
 ishikawa-beta
     Day 5 完騎 鵝鑾鼻燈塔 68km
@@ -1254,7 +1248,7 @@ ishikawa-beta
         🍽️ 黃家綠豆蒜 車城名產 km40
 </div>
 <hr>
-<h2>🕒 建議行程與時間配速</h2>
+<h2>建議行程與時間配速</h2>
 <h3>第一段：枋寮車站 → 車城福安宮（約 40 km）｜屏南海岸追風段</h3>
 <p><strong>距離</strong>：40 km
 <strong>路況</strong>：由枋寮沿台1線南下，經枋山、楓港後轉接台26線（屏鵝公路）進入車城。前段沿海岸平坦，楓港至車城有輕微起伏。秋冬季可能有落山風。</p>
@@ -1293,7 +1287,7 @@ ishikawa-beta
 <li>🗼 <strong>14:00 鵝鑾鼻燈塔</strong>（km 78，本日終點）：1882 年建造的白色圓塔燈塔，是台灣最南端的燈塔，被列為國定古蹟。園區內有珊瑚礁步道與海岸觀景台。入園費 NT$60。在此完騎本日行程，前往附近住宿。</li>
 </ul>
 <hr>
-<h2>🍽️ 晚餐推薦（終點周邊 3km · 貝葉斯排序）</h2>
+<h2>晚餐推薦</h2>
 <table>
 <thead>
 <tr>
@@ -1348,10 +1342,10 @@ ishikawa-beta
 </tbody></table>
 <blockquote>
 <p>💡 <em>排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）</em>
-📋 <em>完整 8 筆候選排名請見 <a href="./day5/day5_dinner.md"><code>day5_dinner.md</code></a></em></p>
+📋 <em><a href="./day5/day5_dinner.md">看更多 &gt;&gt;</a></em></p>
 </blockquote>
 <hr>
-<h2>💡 騎乘注意事項</h2>
+<h2>騎乘注意事項</h2>
 <ol>
 <li><strong>落山風注意</strong>：枋寮至楓港段秋冬季可能有強烈落山風（東北季風翻越中央山脈加速），風速可達 8-10 級，須壓低重心、注意安全。</li>
 <li><strong>楓港至車城補給空窗</strong>：km 25（楓港 7-11）至 km 40（車城福安宮）間無大型補給點約 15 km，確保楓港補滿水。</li>
@@ -1361,41 +1355,29 @@ ishikawa-beta
 <li><strong>住宿建議</strong>：鵝鑾鼻附近住宿選擇不多，可回墾丁大街或船帆石附近找民宿。隔天 Day 6 需一大早出發攻壽卡，建議住鵝鑾鼻至船帆石區間最省隔天里程。</li>
 </ol>
 <hr>
-<h2>✨ 更佳景點參考（未排入路線，加碼推薦）</h2>
+<h2>更佳景點參考</h2>
 <blockquote>
-<p>以下為沿途搜尋結果中，<strong>人氣或特色高於部分已排入停靠點</strong>、地理上又合理可繞的景點，未納入路線是為了維持節奏與里程，附此作為當天臨時加碼或下次規劃參考。</p>
+<p>以下為沿途 Bayesian 排名較高但未排入路線的備選點位。可視當天體力 / 天候 / 時間彈性加入。</p>
 </blockquote>
+<h3>午餐 / 餐廳大休備案</h3>
 <table>
 <thead>
 <tr>
-<th align="center">#</th>
-<th align="left">景點</th>
-<th align="center">評分 / 留言數</th>
-<th align="center">Bayesian</th>
-<th align="left">偏離 / 往返</th>
-<th align="left">亮點</th>
+<th align="center">名次</th>
+<th align="left">店名</th>
+<th align="center">評分</th>
+<th align="right">留言數</th>
+<th align="center">貝葉斯分</th>
 </tr>
 </thead>
 <tbody><tr>
 <td align="center">1</td>
-<td align="left"><strong>田中海鮮</strong></td>
-<td align="center">4.4★ / 2,060</td>
+<td align="left">田中海鮮</td>
+<td align="center">4.4★</td>
+<td align="right">2,060</td>
 <td align="center">4.31</td>
-<td align="left">車城福安宮南方約 1 km，偏離主線 &lt; 500m</td>
-<td align="left">車城在地熱炒海鮮，評價穩定；若想吃正餐可替代綠豆蒜</td>
-</tr>
-<tr>
-<td align="center">2</td>
-<td align="left"><strong>恆春夜市（週日限定）</strong></td>
-<td align="center">4.4★ / 6,176</td>
-<td align="center">—</td>
-<td align="left">恆春古城旁，零偏離</td>
-<td align="left">只有週日營業的在地夜市，若行程剛好遇週日可納入晚餐前逛逛</td>
 </tr>
 </tbody></table>
-<blockquote>
-<p>💡 車城到恆春沿線還有海生館（國立海洋生物博物館，4.5★/28000則），但需額外繞路約 5 km 且參觀需 2-3 小時，不適合環島行程中途停留。</p>
-</blockquote>
 
             </div>
             <a href="#" class="back-to-top">↑ 回到總覽表</a>
@@ -1406,22 +1388,20 @@ ishikawa-beta
             <div class="day-content">
                 <h1>Day 6：鵝鑾鼻燈塔 ➔ 太麻里車站（極南壽卡翻山越嶺行）</h1>
 <hr>
-<h2>📍 路線總覽</h2>
+<div class="day-hero-grid">
+<div class="day-hero-summary"><h2>路線總覽</h2>
 <ul>
 <li><strong>出發地</strong>：恆春 / 鵝鑾鼻</li>
 <li><strong>目的地</strong>：太麻里</li>
 <li><strong>總距離</strong>：129.5 公里（GPX 實測）</li>
-<li><strong>總爬升</strong>：壽卡段為環島最大爬升挑戰（縣道200→199 爬升約 460m），過壽卡後台9線一路下滑至太平洋岸，總爬升約 600m</li>
+<li><strong>總爬升 / 下降</strong>：↑ 1517 m ／ ↓ 1499 m（環島最大爬升日（壽卡段主爬坡約 460m），過壽卡後下滑至太平洋岸）</li>
 <li><strong>主要路線</strong>：鵝鑾鼻燈塔 ➔ 台26線東行 ➔ 風吹砂 ➔ 佳樂水 ➔ 縣道200 ➔ 滿州 ➔ 縣道199 ➔ 壽卡鐵馬驛站 ➔ 台9線南下 ➔ 大武 ➔ 多良車站 ➔ 金崙 ➔ 太麻里車站</li>
 </ul>
-<hr>
-<h2>🌍 地圖與導航</h2>
-<h4>🖼️ 海報</h4>
-<img src="./day6/day6_poster.png" alt="Day 6 路線海報" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>📱 手機導航連結（Google Maps 單車模式）</h4>
-<p><a href="https://www.google.com/maps/dir/%E9%B5%9D%E9%91%BE%E9%BC%BB%E7%87%88%E5%A1%94/%E9%A2%A8%E5%90%B9%E7%A0%82/%E5%A3%BD%E5%8D%A1%E9%90%B5%E9%A6%AC%E9%A9%9B%E7%AB%99/%E5%A4%9A%E8%89%AF%E8%BB%8A%E7%AB%99/%E5%A4%AA%E9%BA%BB%E9%87%8C%E8%BB%8A%E7%AB%99/@22.2,120.9,10z/data=!4m2!4m1!3e1">開啟 Google Maps 導航</a></p>
-<h4>🗺️ 我的地圖 (My Map) 路線</h4>
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1vXv8wqmq76L0pE6IvtVsNLojfonk5i4&ehbc=2E312F" width="100%" height="450" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></iframe><hr>
-<h2>🐟 詳細路線行程圖解</h2>
+<p><a href="https://www.google.com/maps/dir/%E9%B5%9D%E9%91%BE%E9%BC%BB%E7%87%88%E5%A1%94/%E9%A2%A8%E5%90%B9%E7%A0%82/%E5%A3%BD%E5%8D%A1%E9%90%B5%E9%A6%AC%E9%A9%9B%E7%AB%99/%E5%A4%9A%E8%89%AF%E8%BB%8A%E7%AB%99/%E5%A4%AA%E9%BA%BB%E9%87%8C%E8%BB%8A%E7%AB%99/@22.2,120.9,10z/data=!4m2!4m1!3e1">📱 開啟 Google Maps 導航</a></p>
+</div>
+<div class="day-hero-map"><iframe src="https://www.google.com/maps/d/u/0/embed?mid=1vXv8wqmq76L0pE6IvtVsNLojfonk5i4&ehbc=2E312F" width="100%" height="100%" style="border:none; border-radius: 8px;"></iframe></div>
+</div><div class="day-hero-poster"><img src="./day6/day6_poster.png" alt="Day 6 路線海報" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></div><hr>
+<h2>詳細路線行程圖解</h2>
 <div class="mermaid">
 ishikawa-beta
     Day 6 完騎 太麻里車站 105km
@@ -1452,7 +1432,7 @@ ishikawa-beta
         ⚠️ 壽卡前最後補給點
 </div>
 <hr>
-<h2>🕒 建議行程與時間配速</h2>
+<h2>建議行程與時間配速</h2>
 <h3>第一段：鵝鑾鼻燈塔 → 滿州（約 20 km）｜極南東海岸啟程段</h3>
 <p><strong>距離</strong>：20 km
 <strong>路況</strong>：由鵝鑾鼻沿台26線東行，經風吹砂、佳樂水後轉入縣道200往滿州。前段沿海岸起伏不大，風吹砂路段注意落砂。清晨出發光線佳、氣溫涼爽。</p>
@@ -1489,7 +1469,7 @@ ishikawa-beta
 <li>🏁 <strong>15:30 太麻里車站</strong>（km 105，本日終點）：太麻里車站以「日出大道」聞名，筆直道路直通太平洋是台東代表性景觀。完騎本日最艱難路段，晚間可步行至車站前日出大道拍攝夕陽。</li>
 </ul>
 <hr>
-<h2>🍽️ 晚餐推薦（終點周邊 3km · 貝葉斯排序）</h2>
+<h2>晚餐推薦</h2>
 <table>
 <thead>
 <tr>
@@ -1544,10 +1524,10 @@ ishikawa-beta
 </tbody></table>
 <blockquote>
 <p>💡 <em>排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）</em>
-📋 <em>完整 12 筆候選排名請見 <a href="./day6/day6_dinner.md"><code>day6_dinner.md</code></a></em></p>
+📋 <em><a href="./day6/day6_dinner.md">看更多 &gt;&gt;</a></em></p>
 </blockquote>
 <hr>
-<h2>💡 騎乘注意事項</h2>
+<h2>騎乘注意事項</h2>
 <ol>
 <li><strong>壽卡魔王關卡</strong>：環島最大爬升段，從滿州到壽卡約 25 km 爬升 460m。建議清晨 06:00 出發，趁涼爽攻頂。中途無補給無遮蔭，務必在滿州 7-11 補滿 2 瓶水+能量棒。</li>
 <li><strong>壽卡下滑注意</strong>：過壽卡後台9線急降 20 km 至大武，坡陡彎多，注意煞車過熱與車速控制。建議每 3-5 分鐘輕點煞車散熱，彎道前減速。</li>
@@ -1557,46 +1537,10 @@ ishikawa-beta
 <li><strong>多良車站開放時間</strong>：08:00-17:00，如提早抵達需注意開放時間。週一至週日全天開放。</li>
 </ol>
 <hr>
-<h2>✨ 更佳景點參考（未排入路線，加碼推薦）</h2>
+<h2>更佳景點參考</h2>
 <blockquote>
-<p>以下為沿途搜尋結果中，<strong>人氣或特色高於部分已排入停靠點</strong>、地理上又合理可繞的景點，未納入路線是為了維持節奏與里程，附此作為當天臨時加碼或下次規劃參考。</p>
+<p><em>當日候選池所有可評分點位皆已入選或為鎖定必經點，無加碼推薦。</em></p>
 </blockquote>
-<table>
-<thead>
-<tr>
-<th align="center">#</th>
-<th align="left">景點</th>
-<th align="center">評分 / 留言數</th>
-<th align="center">Bayesian</th>
-<th align="left">偏離 / 往返</th>
-<th align="left">亮點</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">1</td>
-<td align="left"><strong>双亭院咖啡餐食甜點</strong></td>
-<td align="center">4.9★ / 1,984</td>
-<td align="center">4.83</td>
-<td align="left">大溪部落偏離主線約 2km</td>
-<td align="left">排灣族創意料理+咖啡甜點，環島騎士好評極高，但位置偏離台9線</td>
-</tr>
-<tr>
-<td align="center">2</td>
-<td align="left"><strong>金崙溫泉</strong></td>
-<td align="center">4.3★ / 500+</td>
-<td align="center">—</td>
-<td align="left">金崙村內零偏離</td>
-<td align="left">騎完壽卡後泡溫泉放鬆肌肉，若住金崙可安排</td>
-</tr>
-<tr>
-<td align="center">3</td>
-<td align="left"><strong>9420濱海公園</strong></td>
-<td align="center">4.4★ / 1,026</td>
-<td align="center">—</td>
-<td align="left">大武南方 1 km，偏離 &lt; 200m</td>
-<td align="left">2022新建彩虹裝置藝術公園，面對太平洋</td>
-</tr>
-</tbody></table>
 
             </div>
             <a href="#" class="back-to-top">↑ 回到總覽表</a>
@@ -1607,22 +1551,20 @@ ishikawa-beta
             <div class="day-content">
                 <h1>Day 7：太麻里車站 ➔ 玉里車站（花東縱谷田園騎行）</h1>
 <hr>
-<h2>📍 路線總覽</h2>
+<div class="day-hero-grid">
+<div class="day-hero-summary"><h2>路線總覽</h2>
 <ul>
 <li><strong>出發地</strong>：太麻里</li>
 <li><strong>目的地</strong>：玉里 / 安通</li>
 <li><strong>總距離</strong>：110.9 公里（GPX 實測）</li>
-<li><strong>總爬升</strong>：花東縱谷地勢平緩，台9線沿卑南溪→秀姑巒溪谷北行，偶有緩坡，總爬升約 350m</li>
+<li><strong>總爬升 / 下降</strong>：↑ 750 m ／ ↓ 668 m（花東縱谷沿台9線北行，持續緩坡起伏）</li>
 <li><strong>主要路線</strong>：太麻里車站 ➔ 台9線北上 ➔ 鹿野 ➔ 關山環鎮自行車道 ➔ 池上（伯朗大道）➔ 悟饕池上飯包 ➔ 玉里車站</li>
 </ul>
-<hr>
-<h2>🌍 地圖與導航</h2>
-<h4>🖼️ 海報</h4>
-<img src="./day7/day7_poster.png" alt="Day 7 路線海報" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>📱 手機導航連結（Google Maps 單車模式）</h4>
-<p><a href="https://www.google.com/maps/dir/%E5%A4%AA%E9%BA%BB%E9%87%8C%E8%BB%8A%E7%AB%99/%E9%97%9C%E5%B1%B1%E7%92%B0%E9%8E%AE%E8%87%AA%E8%A1%8C%E8%BB%8A%E9%81%93/%E4%BC%AF%E6%9C%97%E5%A4%A7%E9%81%93/%E6%82%9F%E9%A5%95%E6%B1%A0%E4%B8%8A%E9%A3%AF%E5%8C%85%E6%96%87%E5%8C%96%E6%95%85%E4%BA%8B%E9%A4%A8/%E7%8E%89%E9%87%8C%E8%BB%8A%E7%AB%99/@23.0,121.2,10z/data=!4m2!4m1!3e1">開啟 Google Maps 導航</a></p>
-<h4>🗺️ 我的地圖 (My Map) 路線</h4>
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1mZ00rlAyZJeiPsaq3bUtSJxnKr9Ay_o&ehbc=2E312F" width="100%" height="450" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></iframe><hr>
-<h2>🐟 詳細路線行程圖解</h2>
+<p><a href="https://www.google.com/maps/dir/%E5%A4%AA%E9%BA%BB%E9%87%8C%E8%BB%8A%E7%AB%99/%E9%97%9C%E5%B1%B1%E7%92%B0%E9%8E%AE%E8%87%AA%E8%A1%8C%E8%BB%8A%E9%81%93/%E4%BC%AF%E6%9C%97%E5%A4%A7%E9%81%93/%E6%82%9F%E9%A5%95%E6%B1%A0%E4%B8%8A%E9%A3%AF%E5%8C%85%E6%96%87%E5%8C%96%E6%95%85%E4%BA%8B%E9%A4%A8/%E7%8E%89%E9%87%8C%E8%BB%8A%E7%AB%99/@23.0,121.2,10z/data=!4m2!4m1!3e1">📱 開啟 Google Maps 導航</a></p>
+</div>
+<div class="day-hero-map"><iframe src="https://www.google.com/maps/d/u/0/embed?mid=1mZ00rlAyZJeiPsaq3bUtSJxnKr9Ay_o&ehbc=2E312F" width="100%" height="100%" style="border:none; border-radius: 8px;"></iframe></div>
+</div><div class="day-hero-poster"><img src="./day7/day7_poster.png" alt="Day 7 路線海報" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></div><hr>
+<h2>詳細路線行程圖解</h2>
 <div class="mermaid">
 ishikawa-beta
     Day 7 完騎 玉里車站 100km
@@ -1653,7 +1595,7 @@ ishikawa-beta
         ⚠️ 初鹿至鹿野有緩上坡
 </div>
 <hr>
-<h2>🕒 建議行程與時間配速</h2>
+<h2>建議行程與時間配速</h2>
 <h3>第一段：太麻里車站 → 鹿野（約 35 km）｜縱谷入口晨騎段</h3>
 <p><strong>距離</strong>：35 km
 <strong>路況</strong>：由太麻里沿台9線北上，經知本、初鹿進入花東縱谷。前段沿海岸有些微起伏，過台東市區後轉入平原。初鹿至鹿野間有緩上坡。</p>
@@ -1690,7 +1632,7 @@ ishikawa-beta
 <li>🏁 <strong>15:30 玉里車站</strong>（km 100，本日終點）：花東縱谷中段重要城鎮，玉里麵是在地名食。車站周邊餐飲選擇豐富，晚間可品嚐玉里麵與在地小吃。玉里也是環島騎士常見的中繼住宿點。</li>
 </ul>
 <hr>
-<h2>🍽️ 晚餐推薦（終點周邊 3km · 貝葉斯排序）</h2>
+<h2>晚餐推薦</h2>
 <table>
 <thead>
 <tr>
@@ -1745,10 +1687,10 @@ ishikawa-beta
 </tbody></table>
 <blockquote>
 <p>💡 <em>排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）</em>
-📋 <em>完整 12 筆候選排名請見 <a href="./day7/day7_dinner.md"><code>day7_dinner.md</code></a></em></p>
+📋 <em><a href="./day7/day7_dinner.md">看更多 &gt;&gt;</a></em></p>
 </blockquote>
 <hr>
-<h2>💡 騎乘注意事項</h2>
+<h2>騎乘注意事項</h2>
 <ol>
 <li><strong>鹿野高台偏離注意</strong>：鹿野高台需從台9線爬坡約 5 km（爬升 150m），是熱氣球嘉年華場地。若非嘉年華期間且體力有餘可繞行，否則建議在台9線上遠眺即可。</li>
 <li><strong>伯朗大道禁止機動車輛</strong>：伯朗大道（錦新三號道路）禁止汽機車通行，僅允許自行車與行人。環島騎士可直接騎入，是難得的純單車道路體驗。</li>
@@ -1758,44 +1700,27 @@ ishikawa-beta
 <li><strong>安通溫泉</strong>：玉里南方約 8 km 有安通溫泉（日治時代開發），若住安通可在此泡湯放鬆肌肉。</li>
 </ol>
 <hr>
-<h2>✨ 更佳景點參考（未排入路線，加碼推薦）</h2>
+<h2>更佳景點參考</h2>
 <blockquote>
-<p>以下為沿途搜尋結果中，<strong>人氣或特色高於部分已排入停靠點</strong>、地理上又合理可繞的景點，未納入路線是為了維持節奏與里程，附此作為當天臨時加碼或下次規劃參考。</p>
+<p>以下為沿途 Bayesian 排名較高但未排入路線的備選點位。可視當天體力 / 天候 / 時間彈性加入。</p>
 </blockquote>
+<h3>景點備案</h3>
 <table>
 <thead>
 <tr>
-<th align="center">#</th>
-<th align="left">景點</th>
-<th align="center">評分 / 留言數</th>
-<th align="center">Bayesian</th>
-<th align="left">偏離 / 往返</th>
-<th align="left">亮點</th>
+<th align="center">名次</th>
+<th align="left">名稱</th>
+<th align="center">評分</th>
+<th align="right">留言數</th>
+<th align="center">貝葉斯分</th>
 </tr>
 </thead>
 <tbody><tr>
 <td align="center">1</td>
-<td align="left"><strong>鹿野高台</strong></td>
-<td align="center">4.5★ / 26,931</td>
+<td align="left">鹿野高台</td>
+<td align="center">4.5★</td>
+<td align="right">26,931</td>
 <td align="center">4.47</td>
-<td align="left">需爬坡 5 km 偏離台9線</td>
-<td align="left">熱氣球嘉年華場地+飛行傘，景色壯觀但爬升 150m</td>
-</tr>
-<tr>
-<td align="center">2</td>
-<td align="left"><strong>初鹿牧場</strong></td>
-<td align="center">4.1★ / 12,000+</td>
-<td align="center">—</td>
-<td align="left">台9線旁偏離 1 km</td>
-<td align="left">乳牛牧場+鮮奶冰淇淋，但門票 NT$200 且停留需 1hr</td>
-</tr>
-<tr>
-<td align="center">3</td>
-<td align="left"><strong>鐵花村</strong></td>
-<td align="center">4.3★ / 8,000+</td>
-<td align="center">—</td>
-<td align="left">台東市區，偏離主線約 3 km</td>
-<td align="left">原住民文創市集+音樂表演，晚間才有氣氛</td>
 </tr>
 </tbody></table>
 
@@ -1808,22 +1733,20 @@ ishikawa-beta
             <div class="day-content">
                 <h1>Day 8：玉里車站 ➔ 花蓮車站（→蘇澳新站）（花東縱谷北行接駁日）</h1>
 <hr>
-<h2>📍 路線總覽</h2>
+<div class="day-hero-grid">
+<div class="day-hero-summary"><h2>路線總覽</h2>
 <ul>
 <li><strong>出發地</strong>：玉里 / 安通</li>
 <li><strong>目的地</strong>：花蓮 → 蘇澳新站 (火車接駁)</li>
 <li><strong>總距離</strong>：100.6 公里（GPX 實測）</li>
-<li><strong>總爬升</strong>：花東縱谷平緩北行，經瑞穗、光復至花蓮市區，總爬升約 250m。花蓮站搭火車接駁至蘇澳新站</li>
+<li><strong>總爬升 / 下降</strong>：↑ 506 m ／ ↓ 631 m（花東縱谷北行，整體下坡居多；花蓮站搭火車接駁至蘇澳）</li>
 <li><strong>主要路線</strong>：玉里車站 ➔ 玉富自行車道 ➔ 台9線北上 ➔ 舞鶴北回歸線 ➔ 瑞穗 ➔ 光復糖廠 ➔ 壽豐 ➔ 花蓮車站（搭火車→蘇澳新站）</li>
 </ul>
-<hr>
-<h2>🌍 地圖與導航</h2>
-<h4>🖼️ 海報</h4>
-<img src="./day8/day8_poster.png" alt="Day 8 路線海報" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>📱 手機導航連結（Google Maps 單車模式）</h4>
-<p><a href="https://www.google.com/maps/dir/%E7%8E%89%E9%87%8C%E8%BB%8A%E7%AB%99/%E5%8C%97%E5%9B%9E%E6%AD%B8%E7%B7%9A%E6%A8%99%E8%AA%8C%E5%85%AC%E5%9C%92+%E7%91%9E%E7%A9%97/%E8%8A%B1%E8%93%AE%E8%A7%80%E5%85%89%E7%B3%96%E5%BB%A0/%E8%8A%B1%E8%93%AE%E8%BB%8A%E7%AB%99/@23.6,121.4,10z/data=!4m2!4m1!3e1">開啟 Google Maps 導航</a></p>
-<h4>🗺️ 我的地圖 (My Map) 路線</h4>
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1GvqnRVpnttfq3DpjfVhqopTxqsV-EKU&ehbc=2E312F" width="100%" height="450" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></iframe><hr>
-<h2>🐟 詳細路線行程圖解</h2>
+<p><a href="https://www.google.com/maps/dir/%E7%8E%89%E9%87%8C%E8%BB%8A%E7%AB%99/%E5%8C%97%E5%9B%9E%E6%AD%B8%E7%B7%9A%E6%A8%99%E8%AA%8C%E5%85%AC%E5%9C%92+%E7%91%9E%E7%A9%97/%E8%8A%B1%E8%93%AE%E8%A7%80%E5%85%89%E7%B3%96%E5%BB%A0/%E8%8A%B1%E8%93%AE%E8%BB%8A%E7%AB%99/@23.6,121.4,10z/data=!4m2!4m1!3e1">📱 開啟 Google Maps 導航</a></p>
+</div>
+<div class="day-hero-map"><iframe src="https://www.google.com/maps/d/u/0/embed?mid=1GvqnRVpnttfq3DpjfVhqopTxqsV-EKU&ehbc=2E312F" width="100%" height="100%" style="border:none; border-radius: 8px;"></iframe></div>
+</div><div class="day-hero-poster"><img src="./day8/day8_poster.png" alt="Day 8 路線海報" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></div><hr>
+<h2>詳細路線行程圖解</h2>
 <div class="mermaid">
 ishikawa-beta
     Day 8 完騎 花蓮車站 92km
@@ -1854,7 +1777,7 @@ ishikawa-beta
         ⚠️ 今日需趕15:30火車
 </div>
 <hr>
-<h2>🕒 建議行程與時間配速</h2>
+<h2>建議行程與時間配速</h2>
 <h3>第一段：玉里車站 → 玉富自行車道（約 2 km）｜板塊交界晨騎段</h3>
 <p><strong>距離</strong>：2 km
 <strong>路況</strong>：由玉里車站出發，沿舊鐵道改建的玉富自行車道騎行。路面平整，專用車道無車流干擾。</p>
@@ -1891,7 +1814,7 @@ ishikawa-beta
 <li>🚂 <strong>15:30 花蓮車站</strong>（km 92，本日終點）：搭乘兩鐵列車（攜帶自行車上火車）前往蘇澳新站，約 1.5-2 小時車程。跳過蘇花公路（大卡車多、無慢車道、落石風險）。抵達蘇澳新站後可前往南方澳享用海鮮晚餐。</li>
 </ul>
 <hr>
-<h2>🍽️ 晚餐推薦（終點周邊 3km · 貝葉斯排序）</h2>
+<h2>晚餐推薦</h2>
 <table>
 <thead>
 <tr>
@@ -1946,10 +1869,10 @@ ishikawa-beta
 </tbody></table>
 <blockquote>
 <p>💡 <em>排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）</em>
-📋 <em>完整 12 筆候選排名請見 <a href="./day8/day8_dinner.md"><code>day8_dinner.md</code></a></em></p>
+📋 <em><a href="./day8/day8_dinner.md">看更多 &gt;&gt;</a></em></p>
 </blockquote>
 <hr>
-<h2>💡 騎乘注意事項</h2>
+<h2>騎乘注意事項</h2>
 <ol>
 <li><strong>蘇花公路安全考量</strong>：蘇花公路大卡車多且無慢車道，隧道內危險性高，強烈建議搭火車接駁。花蓮至蘇澳新站的兩鐵列車班次可上台鐵官網查詢（每日約 4-6 班可攜車）。</li>
 <li><strong>兩鐵列車預約</strong>：攜帶自行車的「兩鐵列車」需事先在台鐵官網或 APP 預約自行車車位，每班車限量。建議出發前 2 週預訂。若無車位可拆前輪裝車袋搭一般自強號。</li>
@@ -1959,44 +1882,27 @@ ishikawa-beta
 <li><strong>七星潭繞行</strong>：七星潭位於花蓮市北方約 10 km（偏離主線），若時間充裕且不趕火車可繞行一看。自行車道可直達七星潭海灘。</li>
 </ol>
 <hr>
-<h2>✨ 更佳景點參考（未排入路線，加碼推薦）</h2>
+<h2>更佳景點參考</h2>
 <blockquote>
-<p>以下為沿途搜尋結果中，<strong>人氣或特色高於部分已排入停靠點</strong>、地理上又合理可繞的景點，未納入路線是為了維持節奏與里程，附此作為當天臨時加碼或下次規劃參考。</p>
+<p>以下為沿途 Bayesian 排名較高但未排入路線的備選點位。可視當天體力 / 天候 / 時間彈性加入。</p>
 </blockquote>
+<h3>景點備案</h3>
 <table>
 <thead>
 <tr>
-<th align="center">#</th>
-<th align="left">景點</th>
-<th align="center">評分 / 留言數</th>
-<th align="center">Bayesian</th>
-<th align="left">偏離 / 往返</th>
-<th align="left">亮點</th>
+<th align="center">名次</th>
+<th align="left">名稱</th>
+<th align="center">評分</th>
+<th align="right">留言數</th>
+<th align="center">貝葉斯分</th>
 </tr>
 </thead>
 <tbody><tr>
 <td align="center">1</td>
-<td align="left"><strong>七星潭</strong></td>
-<td align="center">4.6★ / 1,512</td>
-<td align="center">4.40</td>
-<td align="left">花蓮北方繞行約 10 km</td>
-<td align="left">太平洋礫石海灘+疊石頭+自行車道，但會影響趕火車</td>
-</tr>
-<tr>
-<td align="center">2</td>
-<td align="left"><strong>瑞穗牧場</strong></td>
-<td align="center">4.1★ / 15,000+</td>
-<td align="center">—</td>
-<td align="left">瑞穗台9線旁偏離 2 km</td>
-<td align="left">鮮乳+乳酪蛋糕，免門票但停留需 30 分鐘</td>
-</tr>
-<tr>
-<td align="center">3</td>
-<td align="left"><strong>鳳林客家文物館</strong></td>
-<td align="center">4.2★ / 800+</td>
-<td align="center">—</td>
-<td align="left">鳳林鎮台9線旁</td>
-<td align="left">客家聚落+菸樓群，免費參觀，若提早通過可順訪</td>
+<td align="left">七星潭</td>
+<td align="center">4.6★</td>
+<td align="right">1,512</td>
+<td align="center">4.4</td>
 </tr>
 </tbody></table>
 
@@ -2009,22 +1915,20 @@ ishikawa-beta
             <div class="day-content">
                 <h1>Day 9：蘇澳新站 ➔ 金山老街（東北角濱海極東追風行）</h1>
 <hr>
-<h2>📍 路線總覽</h2>
+<div class="day-hero-grid">
+<div class="day-hero-summary"><h2>路線總覽</h2>
 <ul>
 <li><strong>出發地</strong>：蘇澳新站 / 蘇澳</li>
 <li><strong>目的地</strong>：三貂角 → 金山 / 萬里</li>
 <li><strong>總距離</strong>：134.0 公里（GPX 實測）</li>
-<li><strong>總爬升</strong>：台2線北部濱海公路沿海岸起伏，多小丘與隧道，基隆至金山段有較長爬坡，總爬升約 500m</li>
+<li><strong>總爬升 / 下降</strong>：↑ 702 m ／ ↓ 714 m（台2線北部濱海沿海岸多丘陵，環島第二大爬升日）</li>
 <li><strong>主要路線</strong>：蘇澳新站 ➔ 台2線北上 ➔ 頭城 ➔ 大里 ➔ 舊草嶺隧道 ➔ 福隆 ➔ 三貂角燈塔 ➔ 鼻頭角 ➔ 基隆 ➔ 萬里 ➔ 金山老街</li>
 </ul>
-<hr>
-<h2>🌍 地圖與導航</h2>
-<h4>🖼️ 海報</h4>
-<img src="./day9/day9_poster.png" alt="Day 9 路線海報" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>📱 手機導航連結（Google Maps 單車模式）</h4>
-<p><a href="https://www.google.com/maps/dir/%E8%98%87%E6%BE%B3%E6%96%B0%E7%AB%99/%E8%88%8A%E8%8D%89%E5%B6%BA%E9%9A%A7%E9%81%93/%E7%A6%8F%E9%9A%86%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B4/%E4%B8%89%E8%B2%82%E8%A7%92%E7%87%88%E5%A1%94/%E9%87%91%E5%B1%B1%E8%80%81%E8%A1%97/@25.1,121.9,10z/data=!4m2!4m1!3e1">開啟 Google Maps 導航</a></p>
-<h4>🗺️ 我的地圖 (My Map) 路線</h4>
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1U19-f5poClZDbwvfVpxBD9fd-caBebk&ehbc=2E312F" width="100%" height="450" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></iframe><hr>
-<h2>🐟 詳細路線行程圖解</h2>
+<p><a href="https://www.google.com/maps/dir/%E8%98%87%E6%BE%B3%E6%96%B0%E7%AB%99/%E8%88%8A%E8%8D%89%E5%B6%BA%E9%9A%A7%E9%81%93/%E7%A6%8F%E9%9A%86%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B4/%E4%B8%89%E8%B2%82%E8%A7%92%E7%87%88%E5%A1%94/%E9%87%91%E5%B1%B1%E8%80%81%E8%A1%97/@25.1,121.9,10z/data=!4m2!4m1!3e1">📱 開啟 Google Maps 導航</a></p>
+</div>
+<div class="day-hero-map"><iframe src="https://www.google.com/maps/d/u/0/embed?mid=1U19-f5poClZDbwvfVpxBD9fd-caBebk&ehbc=2E312F" width="100%" height="100%" style="border:none; border-radius: 8px;"></iframe></div>
+</div><div class="day-hero-poster"><img src="./day9/day9_poster.png" alt="Day 9 路線海報" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></div><hr>
+<h2>詳細路線行程圖解</h2>
 <div class="mermaid">
 ishikawa-beta
     Day 9 完騎 金山老街 115km
@@ -2055,7 +1959,7 @@ ishikawa-beta
         ⚠️ 早起趕路 距離最長日
 </div>
 <hr>
-<h2>🕒 建議行程與時間配速</h2>
+<h2>建議行程與時間配速</h2>
 <h3>第一段：蘇澳新站 → 頭城 → 舊草嶺隧道（約 50 km）｜宜蘭海岸晨騎段</h3>
 <p><strong>距離</strong>：50 km
 <strong>路況</strong>：由蘇澳新站出發沿台2線北上，經頭城、大里沿東海岸騎行。路面平坦但有隧道，清晨車流少。大里至舊草嶺隧道段進入新北市。</p>
@@ -2092,7 +1996,7 @@ ishikawa-beta
 <li>🏁 <strong>16:30 金山老街</strong>（km 115，本日終點）：金包里老街（清朝至今超過 300 年歷史），「金山鴨肉」是全台知名排隊名店。老街上還有手工芋圓、卜肉等小吃。完騎後可步行逛老街吃晚餐。</li>
 </ul>
 <hr>
-<h2>🍽️ 晚餐推薦（終點周邊 3km · 貝葉斯排序）</h2>
+<h2>晚餐推薦</h2>
 <table>
 <thead>
 <tr>
@@ -2147,10 +2051,10 @@ ishikawa-beta
 </tbody></table>
 <blockquote>
 <p>💡 <em>排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）</em>
-📋 <em>完整 10 筆候選排名請見 <a href="./day9/day9_dinner.md"><code>day9_dinner.md</code></a></em></p>
+📋 <em><a href="./day9/day9_dinner.md">看更多 &gt;&gt;</a></em></p>
 </blockquote>
 <hr>
-<h2>💡 騎乘注意事項</h2>
+<h2>騎乘注意事項</h2>
 <ol>
 <li><strong>秋冬東北季風</strong>：東北角在秋冬季會有強烈東北季風（正面逆風），風速可達 7-9 級。若遇強風日，蘇澳至三貂角段騎乘難度大幅提高，須做好防風準備並降低時速預期。</li>
 <li><strong>舊草嶺隧道開放時間</strong>：08:30-16:30（夏季延至 17:30），假日人潮眾多。環島騎士需注意開放時間，若太早抵達需等待。隧道內禁止逆向行駛。</li>
@@ -2160,46 +2064,10 @@ ishikawa-beta
 <li><strong>今日距離最長</strong>：全程約 115 km 是十天中距離最長的一天，需注意時間管理。建議 06:30 前出發，中午前完成三貂角打卡，下午衝刺至金山。</li>
 </ol>
 <hr>
-<h2>✨ 更佳景點參考（未排入路線，加碼推薦）</h2>
+<h2>更佳景點參考</h2>
 <blockquote>
-<p>以下為沿途搜尋結果中，<strong>人氣或特色高於部分已排入停靠點</strong>、地理上又合理可繞的景點，未納入路線是為了維持節奏與里程，附此作為當天臨時加碼或下次規劃參考。</p>
+<p><em>當日候選池所有可評分點位皆已入選或為鎖定必經點，無加碼推薦。</em></p>
 </blockquote>
-<table>
-<thead>
-<tr>
-<th align="center">#</th>
-<th align="left">景點</th>
-<th align="center">評分 / 留言數</th>
-<th align="center">Bayesian</th>
-<th align="left">偏離 / 往返</th>
-<th align="left">亮點</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">1</td>
-<td align="left"><strong>九份老街</strong></td>
-<td align="center">4.1★ / 48,000+</td>
-<td align="center">—</td>
-<td align="left">台2線轉山路爬坡 5 km</td>
-<td align="left">經典山城老街+夜景，但偏離主線嚴重且今日里程已長</td>
-</tr>
-<tr>
-<td align="center">2</td>
-<td align="left"><strong>鼻頭角步道</strong></td>
-<td align="center">4.5★ / 8,000+</td>
-<td align="center">—</td>
-<td align="left">台2線旁，步行 30 分鐘</td>
-<td align="left">東北角最美海岸步道，若時間充裕可走一小段</td>
-</tr>
-<tr>
-<td align="center">3</td>
-<td align="left"><strong>野柳地質公園</strong></td>
-<td align="center">4.3★ / 50,000+</td>
-<td align="center">—</td>
-<td align="left">萬里偏離台2線約 2 km</td>
-<td align="left">女王頭奇岩，但門票 NT$120+排隊拍照需 1 小時</td>
-</tr>
-</tbody></table>
 
             </div>
             <a href="#" class="back-to-top">↑ 回到總覽表</a>
@@ -2210,22 +2078,20 @@ ishikawa-beta
             <div class="day-content">
                 <h1>Day 10：金山老街 ➔ 蘆洲柳堤公園（極北完騎凱旋歸途）</h1>
 <hr>
-<h2>📍 路線總覽</h2>
+<div class="day-hero-grid">
+<div class="day-hero-summary"><h2>路線總覽</h2>
 <ul>
 <li><strong>出發地</strong>：金山 / 萬里</li>
 <li><strong>目的地</strong>：富貴角 → 台北蘆洲柳堤公園</li>
 <li><strong>總距離</strong>：51.4 公里（GPX 實測）</li>
-<li><strong>總爬升</strong>：台2線北海岸至淡水平緩，淡水→八里→蘆洲為河岸自行車道全平路，總爬升約 150m</li>
+<li><strong>總爬升 / 下降</strong>：↑ 300 m ／ ↓ 309 m（北海岸至淡水有丘陵，淡水後河岸自行車道平坦）</li>
 <li><strong>主要路線</strong>：金山老街 ➔ 台2線西行 ➔ 石門洞 ➔ 富貴角燈塔（極北）➔ 三芝 ➔ 淡水老街 ➔ 八里左岸自行車道 ➔ 蘆洲柳堤公園</li>
 </ul>
-<hr>
-<h2>🌍 地圖與導航</h2>
-<h4>🖼️ 海報</h4>
-<img src="./day10/day10_poster.png" alt="Day 10 路線海報" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"><h4>📱 手機導航連結（Google Maps 單車模式）</h4>
-<p><a href="https://www.google.com/maps/dir/%E9%87%91%E5%B1%B1%E8%80%81%E8%A1%97/%E7%9F%B3%E9%96%80%E6%B4%9E/%E5%AF%8C%E8%B2%B4%E8%A7%92%E7%87%88%E5%A1%94/%E6%B7%A1%E6%B0%B4%E8%80%81%E8%A1%97/%E8%98%86%E6%B4%B2%E6%9F%B3%E5%A0%A4%E5%85%AC%E5%9C%92/@25.2,121.5,11z/data=!4m2!4m1!3e1">開啟 Google Maps 導航</a></p>
-<h4>🗺️ 我的地圖 (My Map) 路線</h4>
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=11CpoZRaXL0mqm48giA0bbvo0P4c4b_4&ehbc=2E312F" width="100%" height="450" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></iframe><hr>
-<h2>🐟 詳細路線行程圖解</h2>
+<p><a href="https://www.google.com/maps/dir/%E9%87%91%E5%B1%B1%E8%80%81%E8%A1%97/%E7%9F%B3%E9%96%80%E6%B4%9E/%E5%AF%8C%E8%B2%B4%E8%A7%92%E7%87%88%E5%A1%94/%E6%B7%A1%E6%B0%B4%E8%80%81%E8%A1%97/%E8%98%86%E6%B4%B2%E6%9F%B3%E5%A0%A4%E5%85%AC%E5%9C%92/@25.2,121.5,11z/data=!4m2!4m1!3e1">📱 開啟 Google Maps 導航</a></p>
+</div>
+<div class="day-hero-map"><iframe src="https://www.google.com/maps/d/u/0/embed?mid=11CpoZRaXL0mqm48giA0bbvo0P4c4b_4&ehbc=2E312F" width="100%" height="100%" style="border:none; border-radius: 8px;"></iframe></div>
+</div><div class="day-hero-poster"><img src="./day10/day10_poster.png" alt="Day 10 路線海報" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></div><hr>
+<h2>詳細路線行程圖解</h2>
 <div class="mermaid">
 ishikawa-beta
     Day 10 完騎 蘆洲柳堤公園 65km 🎉
@@ -2251,7 +2117,7 @@ ishikawa-beta
         📷 石門洞天然拱門
 </div>
 <hr>
-<h2>🕒 建議行程與時間配速</h2>
+<h2>建議行程與時間配速</h2>
 <h3>第一段：金山老街 → 石門洞（約 10 km）｜北海岸晨騎段</h3>
 <p><strong>距離</strong>：10 km
 <strong>路況</strong>：由金山沿台2線西行至石門。北海岸路段平緩，清晨車流少。最後一天可稍微睡晚些再出發。</p>
@@ -2279,7 +2145,7 @@ ishikawa-beta
 <li>🏆 <strong>14:00 蘆洲柳堤公園</strong>（km 65，環島完騎！）：回到 Day 1 出發點！十天環島、<span class="blue-text">四極點</span>全數達成。在柳堤公園拍攝完騎紀念照，慶祝這趟超過 900 公里的單車環島壯舉。晚間可在蘆洲市區享用慶功晚餐。🎉🚴‍♂️🇹🇼</li>
 </ul>
 <hr>
-<h2>🍽️ 晚餐推薦（終點周邊 3km · 貝葉斯排序）</h2>
+<h2>晚餐推薦</h2>
 <table>
 <thead>
 <tr>
@@ -2334,10 +2200,10 @@ ishikawa-beta
 </tbody></table>
 <blockquote>
 <p>💡 <em>排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）</em>
-📋 <em>完整 10 筆候選排名請見 <a href="./day10/day10_dinner.md"><code>day10_dinner.md</code></a></em></p>
+📋 <em><a href="./day10/day10_dinner.md">看更多 &gt;&gt;</a></em></p>
 </blockquote>
 <hr>
-<h2>💡 騎乘注意事項</h2>
+<h2>騎乘注意事項</h2>
 <ol>
 <li><strong>最後一天輕鬆騎</strong>：全程僅 65 km 且多為平路+自行車道，是十天中最輕鬆的一天。可睡到 08:00 再出發，沿途慢慢享受最後的風景。</li>
 <li><strong>富貴角步行注意</strong>：從停車場到燈塔需步行約 15 分鐘（木棧道），自行車需停在停車場入口處。步道平緩好走但無遮蔭，注意防曬。</li>
@@ -2347,46 +2213,10 @@ ishikawa-beta
 <li><strong>器材整理</strong>：完騎後建議當天或隔天清洗單車、檢查零件磨損狀況。十天約 900+ km 的騎乘，鏈條、煞車皮、輪胎可能需要更換或保養。</li>
 </ol>
 <hr>
-<h2>✨ 更佳景點參考（未排入路線，加碼推薦）</h2>
+<h2>更佳景點參考</h2>
 <blockquote>
-<p>以下為沿途搜尋結果中，<strong>人氣或特色高於部分已排入停靠點</strong>、地理上又合理可繞的景點，未納入路線是為了維持節奏與里程，附此作為當天臨時加碼或下次規劃參考。</p>
+<p><em>當日候選池所有可評分點位皆已入選或為鎖定必經點，無加碼推薦。</em></p>
 </blockquote>
-<table>
-<thead>
-<tr>
-<th align="center">#</th>
-<th align="left">景點</th>
-<th align="center">評分 / 留言數</th>
-<th align="center">Bayesian</th>
-<th align="left">偏離 / 往返</th>
-<th align="left">亮點</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">1</td>
-<td align="left"><strong>老梅石槽</strong></td>
-<td align="center">4.4★ / 10,000+</td>
-<td align="center">—</td>
-<td align="left">富貴角旁步行 5 分鐘</td>
-<td align="left">每年 3-5 月限定的綠色海藻覆蓋石槽奇景</td>
-</tr>
-<tr>
-<td align="center">2</td>
-<td align="left"><strong>白沙灣</strong></td>
-<td align="center">4.3★ / 8,000+</td>
-<td align="center">—</td>
-<td align="left">台2線旁，零偏離</td>
-<td align="left">北海岸最大沙灘，夏天戲水勝地</td>
-</tr>
-<tr>
-<td align="center">3</td>
-<td align="left"><strong>紅毛城</strong></td>
-<td align="center">4.3★ / 12,000+</td>
-<td align="center">—</td>
-<td align="left">淡水老街附近 1 km</td>
-<td align="left">1629年西班牙人建的古蹟城堡，若有時間值得一看</td>
-</tr>
-</tbody></table>
 
             </div>
             <a href="#" class="back-to-top">↑ 回到總覽表</a>

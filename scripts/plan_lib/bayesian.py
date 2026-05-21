@@ -361,8 +361,7 @@ def cmd_compose_better_attractions(args):
         body = "> *當日候選池所有可評分點位皆已入選或為鎖定必經點，無加碼推薦。*"
     else:
         lines = [
-            f"> 以下為沿途 Bayesian 排名較高但未排入路線的備選點位"
-            f"（資料來源：`python3 scripts/plan.py review {n}` 候選池，{pool_data['pool_size']} 筆）。"
+            f"> 以下為沿途 Bayesian 排名較高但未排入路線的備選點位。"
             f"可視當天體力 / 天候 / 時間彈性加入。\n",
         ]
         if spot_candidates:
@@ -385,10 +384,6 @@ def cmd_compose_better_attractions(args):
                     f"{c['total_ratings']:,} | {c['bayesian_score']} |"
                 )
             lines.append("")
-        lines.append(
-            "> 💡 *表格由 `compose-better-attractions` 從候選池自動生成；"
-            "如需補敘述（路況、時段建議等），直接編輯 `_plan/segments.json.better_attractions` 即可。*"
-        )
         body = "\n".join(lines).rstrip()
 
     if args.dry_run:

@@ -2,34 +2,38 @@
 
 ---
 
-## 📍 路線總覽
+<div class="day-hero-grid">
+<div class="day-hero-summary">
+
+## 路線總覽
 
 * **出發地**：太麻里
 * **目的地**：玉里 / 安通
 * **總距離**：110.9 公里（GPX 實測）
-* **總爬升**：花東縱谷地勢平緩，台9線沿卑南溪→秀姑巒溪谷北行，偶有緩坡，總爬升約 350m
+* **總爬升 / 下降**：↑ 750 m ／ ↓ 668 m（花東縱谷沿台9線北行，持續緩坡起伏）
 * **主要路線**：太麻里車站 ➔ 台9線北上 ➔ 鹿野 ➔ 關山環鎮自行車道 ➔ 池上（伯朗大道）➔ 悟饕池上飯包 ➔ 玉里車站
 
+[📱 開啟 Google Maps 導航](https://www.google.com/maps/dir/太麻里車站/關山環鎮自行車道/伯朗大道/悟饕池上飯包文化故事館/玉里車站/@23.0,121.2,10z/data=!4m2!4m1!3e1)
+
+</div>
+<div class="day-hero-map">
+
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1mZ00rlAyZJeiPsaq3bUtSJxnKr9Ay_o&ehbc=2E312F" width="100%" height="100%" style="border:none; border-radius: 8px;"></iframe>
+
+
+</div>
+</div>
+
+<div class="day-hero-poster">
+
+<img src="./day7_poster.png" alt="Day 7 路線海報" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+
+</div>
+
 ---
 
-## 🌍 地圖與導航
-
-#### 🖼️ 海報
-
-<img src="./day7_poster.png" alt="Day 7 路線海報" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-
-#### 📱 手機導航連結（Google Maps 單車模式）
-
-[開啟 Google Maps 導航](https://www.google.com/maps/dir/太麻里車站/關山環鎮自行車道/伯朗大道/悟饕池上飯包文化故事館/玉里車站/@23.0,121.2,10z/data=!4m2!4m1!3e1)
-
-#### 🗺️ 我的地圖 (My Map) 路線
-
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1mZ00rlAyZJeiPsaq3bUtSJxnKr9Ay_o&ehbc=2E312F" width="100%" height="450" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></iframe>
-
-
----
-
-## 🐟 詳細路線行程圖解
+## 詳細路線行程圖解
 
 ```mermaid
 ishikawa-beta
@@ -63,7 +67,7 @@ ishikawa-beta
 
 ---
 
-## 🕒 建議行程與時間配速
+## 建議行程與時間配速
 
 ### 第一段：太麻里車站 → 鹿野（約 35 km）｜縱谷入口晨騎段
 
@@ -110,7 +114,7 @@ ishikawa-beta
 ---
 
 
-## 🍽️ 晚餐推薦（終點周邊 3km · 貝葉斯排序）
+## 晚餐推薦
 
 | # | 店名 | 評分 | 留言數 | 貝葉斯分 | 備註 |
 |:---:|:---|:---:|---:|:---:|:---|
@@ -121,12 +125,12 @@ ishikawa-beta
 | 5 | [每日廚房](https://www.google.com/maps/place/?q=place_id:ChIJBQX4NX9qbzQRLZZj8ecUAn8) | 4.5★ | 243 | 4.4436 | 無菜單家常料理 |
 
 > 💡 *排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）*
-> 📋 *完整 12 筆候選排名請見 [`day7_dinner.md`](./day7_dinner.md)*
+> 📋 *[看更多 >>](./day7_dinner.md)*
 
 ---
 
 
-## 💡 騎乘注意事項
+## 騎乘注意事項
 
 1. **鹿野高台偏離注意**：鹿野高台需從台9線爬坡約 5 km（爬升 150m），是熱氣球嘉年華場地。若非嘉年華期間且體力有餘可繞行，否則建議在台9線上遠眺即可。
 2. **伯朗大道禁止機動車輛**：伯朗大道（錦新三號道路）禁止汽機車通行，僅允許自行車與行人。環島騎士可直接騎入，是難得的純單車道路體驗。
@@ -138,13 +142,13 @@ ishikawa-beta
 
 ---
 
-## ✨ 更佳景點參考（未排入路線，加碼推薦）
+## 更佳景點參考
 
-> 以下為沿途搜尋結果中，**人氣或特色高於部分已排入停靠點**、地理上又合理可繞的景點，未納入路線是為了維持節奏與里程，附此作為當天臨時加碼或下次規劃參考。
+> 以下為沿途 Bayesian 排名較高但未排入路線的備選點位。可視當天體力 / 天候 / 時間彈性加入。
 
-| # | 景點 | 評分 / 留言數 | Bayesian | 偏離 / 往返 | 亮點 |
-|:---:|:---|:---:|:---:|:---|:---|
-| 1 | **鹿野高台** | 4.5★ / 26,931 | 4.47 | 需爬坡 5 km 偏離台9線 | 熱氣球嘉年華場地+飛行傘，景色壯觀但爬升 150m |
-| 2 | **初鹿牧場** | 4.1★ / 12,000+ | — | 台9線旁偏離 1 km | 乳牛牧場+鮮奶冰淇淋，但門票 NT$200 且停留需 1hr |
-| 3 | **鐵花村** | 4.3★ / 8,000+ | — | 台東市區，偏離主線約 3 km | 原住民文創市集+音樂表演，晚間才有氣氛 |
+### 景點備案
+
+| 名次 | 名稱 | 評分 | 留言數 | 貝葉斯分 |
+|:---:|:---|:---:|---:|:---:|
+| 1 | 鹿野高台 | 4.5★ | 26,931 | 4.47 |
 

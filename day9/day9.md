@@ -2,34 +2,38 @@
 
 ---
 
-## 📍 路線總覽
+<div class="day-hero-grid">
+<div class="day-hero-summary">
+
+## 路線總覽
 
 * **出發地**：蘇澳新站 / 蘇澳
 * **目的地**：三貂角 → 金山 / 萬里
 * **總距離**：134.0 公里（GPX 實測）
-* **總爬升**：台2線北部濱海公路沿海岸起伏，多小丘與隧道，基隆至金山段有較長爬坡，總爬升約 500m
+* **總爬升 / 下降**：↑ 702 m ／ ↓ 714 m（台2線北部濱海沿海岸多丘陵，環島第二大爬升日）
 * **主要路線**：蘇澳新站 ➔ 台2線北上 ➔ 頭城 ➔ 大里 ➔ 舊草嶺隧道 ➔ 福隆 ➔ 三貂角燈塔 ➔ 鼻頭角 ➔ 基隆 ➔ 萬里 ➔ 金山老街
 
+[📱 開啟 Google Maps 導航](https://www.google.com/maps/dir/蘇澳新站/舊草嶺隧道/福隆海水浴場/三貂角燈塔/金山老街/@25.1,121.9,10z/data=!4m2!4m1!3e1)
+
+</div>
+<div class="day-hero-map">
+
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1U19-f5poClZDbwvfVpxBD9fd-caBebk&ehbc=2E312F" width="100%" height="100%" style="border:none; border-radius: 8px;"></iframe>
+
+
+</div>
+</div>
+
+<div class="day-hero-poster">
+
+<img src="./day9_poster.png" alt="Day 9 路線海報" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+
+</div>
+
 ---
 
-## 🌍 地圖與導航
-
-#### 🖼️ 海報
-
-<img src="./day9_poster.png" alt="Day 9 路線海報" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-
-#### 📱 手機導航連結（Google Maps 單車模式）
-
-[開啟 Google Maps 導航](https://www.google.com/maps/dir/蘇澳新站/舊草嶺隧道/福隆海水浴場/三貂角燈塔/金山老街/@25.1,121.9,10z/data=!4m2!4m1!3e1)
-
-#### 🗺️ 我的地圖 (My Map) 路線
-
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1U19-f5poClZDbwvfVpxBD9fd-caBebk&ehbc=2E312F" width="100%" height="450" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></iframe>
-
-
----
-
-## 🐟 詳細路線行程圖解
+## 詳細路線行程圖解
 
 ```mermaid
 ishikawa-beta
@@ -63,7 +67,7 @@ ishikawa-beta
 
 ---
 
-## 🕒 建議行程與時間配速
+## 建議行程與時間配速
 
 ### 第一段：蘇澳新站 → 頭城 → 舊草嶺隧道（約 50 km）｜宜蘭海岸晨騎段
 
@@ -110,7 +114,7 @@ ishikawa-beta
 ---
 
 
-## 🍽️ 晚餐推薦（終點周邊 3km · 貝葉斯排序）
+## 晚餐推薦
 
 | # | 店名 | 評分 | 留言數 | 貝葉斯分 | 備註 |
 |:---:|:---|:---:|---:|:---:|:---|
@@ -121,12 +125,12 @@ ishikawa-beta
 | 5 | [海荔食堂](https://www.google.com/maps/place/?q=place_id:ChIJCzD5nNBLXTQRx3gr5ljkkN8) | 4.7★ | 107 | 4.6168 | 創意餐食 老街旁 |
 
 > 💡 *排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）*
-> 📋 *完整 10 筆候選排名請見 [`day9_dinner.md`](./day9_dinner.md)*
+> 📋 *[看更多 >>](./day9_dinner.md)*
 
 ---
 
 
-## 💡 騎乘注意事項
+## 騎乘注意事項
 
 1. **秋冬東北季風**：東北角在秋冬季會有強烈東北季風（正面逆風），風速可達 7-9 級。若遇強風日，蘇澳至三貂角段騎乘難度大幅提高，須做好防風準備並降低時速預期。
 2. **舊草嶺隧道開放時間**：08:30-16:30（夏季延至 17:30），假日人潮眾多。環島騎士需注意開放時間，若太早抵達需等待。隧道內禁止逆向行駛。
@@ -138,13 +142,7 @@ ishikawa-beta
 
 ---
 
-## ✨ 更佳景點參考（未排入路線，加碼推薦）
+## 更佳景點參考
 
-> 以下為沿途搜尋結果中，**人氣或特色高於部分已排入停靠點**、地理上又合理可繞的景點，未納入路線是為了維持節奏與里程，附此作為當天臨時加碼或下次規劃參考。
-
-| # | 景點 | 評分 / 留言數 | Bayesian | 偏離 / 往返 | 亮點 |
-|:---:|:---|:---:|:---:|:---|:---|
-| 1 | **九份老街** | 4.1★ / 48,000+ | — | 台2線轉山路爬坡 5 km | 經典山城老街+夜景，但偏離主線嚴重且今日里程已長 |
-| 2 | **鼻頭角步道** | 4.5★ / 8,000+ | — | 台2線旁，步行 30 分鐘 | 東北角最美海岸步道，若時間充裕可走一小段 |
-| 3 | **野柳地質公園** | 4.3★ / 50,000+ | — | 萬里偏離台2線約 2 km | 女王頭奇岩，但門票 NT$120+排隊拍照需 1 小時 |
+> *當日候選池所有可評分點位皆已入選或為鎖定必經點，無加碼推薦。*
 

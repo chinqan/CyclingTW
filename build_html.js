@@ -196,7 +196,44 @@ const finalHtml = `<!DOCTYPE html>
             width: 100%;
             max-width: none;
         }
-        .back-to-top {
+        .day-hero-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 20px;
+            align-items: stretch;
+            margin: 18px 0 24px;
+            min-height: 350px;
+        }
+        .day-hero-summary {
+            min-width: 0;
+        }
+        .day-hero-summary h2 {
+            margin-top: 0;
+        }
+        .day-hero-map {
+            min-width: 0;
+            min-height: 350px;
+        }
+        .day-hero-map h4 {
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+        .day-hero-map iframe {
+            width: 100%;
+            height: calc(100% - 30px);
+            min-height: 320px;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .day-hero-poster {
+            margin: 24px 0;
+        }
+        .day-hero-poster img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }        .back-to-top {
             display: inline-block;
             margin-top: 20px;
             font-weight: bold;
@@ -237,6 +274,13 @@ const finalHtml = `<!DOCTYPE html>
             .day-intro-grid {
                 grid-template-columns: 1fr;
                 gap: 18px;
+            }
+            .day-hero-grid {
+                grid-template-columns: 1fr;
+                min-height: auto;
+            }
+            .day-hero-map {
+                min-height: 300px;
             }
         }
     </style>

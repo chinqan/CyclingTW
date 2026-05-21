@@ -2,34 +2,38 @@
 
 ---
 
-## 📍 路線總覽
+<div class="day-hero-grid">
+<div class="day-hero-summary">
+
+## 路線總覽
 
 * **出發地**：台北蘆洲柳堤公園
 * **目的地**：竹南車站
 * **總距離**：110.7 公里（GPX 實測）
-* **總爬升**：全程幾乎平坦，台61線西濱公路爬升極少，南寮至竹南段略有起伏
+* **總爬升 / 下降**：↑ 115 m ／ ↓ 106 m（西濱平坦，幾乎無爬升）
 * **主要路線**：二重疏洪道自行車道 ➔ 八里左岸自行車道 ➔ 台15線 ➔ 台61線（竹圍/觀音/新屋）➔ 南寮漁港 ➔ 台1線 ➔ 竹南車站
 
+[📱 開啟 Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=%E6%96%B0%E5%8C%97%E5%B8%82%E8%98%86%E6%B4%B2%E5%8D%80%E6%9F%B3%E5%A0%A4%E5%85%AC%E5%9C%92&destination=%E7%AB%B9%E5%8D%97%E7%81%AB%E8%BB%8A%E7%AB%99&waypoints=%E6%96%B0%E5%8C%97%E5%B8%82%E5%85%AB%E9%87%8C%E5%B7%A6%E5%B2%B8%E8%87%AA%E8%A1%8C%E8%BB%8A%E9%81%93%7C%E6%A1%83%E5%9C%92%E7%AB%B9%E5%9C%8D%E6%BC%81%E6%B8%AF%7C%E6%A1%83%E5%9C%92%E6%B0%B8%E5%AE%89%E6%BC%81%E6%B8%AF%7C%E6%96%B0%E7%AB%B9%E5%8D%97%E5%AF%AE%E6%BC%81%E6%B8%AF&travelmode=bicycling)
+
+</div>
+<div class="day-hero-map">
+
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1jkVYdvwUMUZ9jxtJojAd5-fQKzrFCZo&ehbc=2E312F" width="100%" height="100%" style="border:none; border-radius: 8px;"></iframe>
+
+
+</div>
+</div>
+
+<div class="day-hero-poster">
+
+<img src="./day1_poster.png" alt="Day 1 路線海報" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+
+</div>
+
 ---
 
-## 🌍 地圖與導航
-
-#### 🖼️ 海報
-
-<img src="./day1_poster.png" alt="Day 1 路線海報" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-
-#### 📱 手機導航連結（Google Maps 單車模式）
-
-[開啟 Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=%E6%96%B0%E5%8C%97%E5%B8%82%E8%98%86%E6%B4%B2%E5%8D%80%E6%9F%B3%E5%A0%A4%E5%85%AC%E5%9C%92&destination=%E7%AB%B9%E5%8D%97%E7%81%AB%E8%BB%8A%E7%AB%99&waypoints=%E6%96%B0%E5%8C%97%E5%B8%82%E5%85%AB%E9%87%8C%E5%B7%A6%E5%B2%B8%E8%87%AA%E8%A1%8C%E8%BB%8A%E9%81%93%7C%E6%A1%83%E5%9C%92%E7%AB%B9%E5%9C%8D%E6%BC%81%E6%B8%AF%7C%E6%A1%83%E5%9C%92%E6%B0%B8%E5%AE%89%E6%BC%81%E6%B8%AF%7C%E6%96%B0%E7%AB%B9%E5%8D%97%E5%AF%AE%E6%BC%81%E6%B8%AF&travelmode=bicycling)
-
-#### 🗺️ 我的地圖 (My Map) 路線
-
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1jkVYdvwUMUZ9jxtJojAd5-fQKzrFCZo&ehbc=2E312F" width="100%" height="450" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></iframe>
-
-
----
-
-## 🐟 詳細路線行程圖解
+## 詳細路線行程圖解
 
 ```mermaid
 ishikawa-beta
@@ -68,7 +72,7 @@ ishikawa-beta
 
 ---
 
-## 🕒 建議行程與時間配速
+## 建議行程與時間配速
 
 ### 第一段：蘆洲柳堤公園 → 水牛坑越野場地（約 28 km）｜出發熱身段
 
@@ -127,7 +131,7 @@ ishikawa-beta
 ---
 
 
-## 🍽️ 晚餐推薦（終點周邊 3km · 貝葉斯排序）
+## 晚餐推薦
 
 | # | 店名 | 評分 | 留言數 | 貝葉斯分 | 備註 |
 |:---:|:---|:---:|---:|:---:|:---|
@@ -138,12 +142,12 @@ ishikawa-beta
 | 5 | [順風順水宵夜](https://www.google.com/maps/place/?q=place_id:ChIJQexrNgCzaTQRBnZbzQwzAoA) | 4.9★ | 147 | 4.6101 | 宵夜豆漿燒餅 每天17:00-07:00 |
 
 > 💡 *排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）*
-> 📋 *完整 19 筆候選排名請見 [`day1_dinner.md`](./day1_dinner.md)*
+> 📋 *[看更多 >>](./day1_dinner.md)*
 
 ---
 
 
-## 💡 騎乘注意事項
+## 騎乘注意事項
 
 1. **強風防範**：台61線西濱公路全線無遮蔽，夏季常有西南風助騎，冬季可能面對強烈東北季風（逆風），建議預留多 30% 騎行時間。
 2. **補給空窗**：竹圍漁港至大益門市約 14 km 無超商；永安至南寮約 20 km 無超商，出發前確認水壺與補給。
@@ -155,9 +159,9 @@ ishikawa-beta
 
 ---
 
-## ✨ 更佳景點參考（未排入路線，加碼推薦）
+## 更佳景點參考
 
-> 以下為沿途 Bayesian 排名較高但未排入路線的備選點位（資料來源：`python3 scripts/plan.py review 1` 候選池，18 筆）。可視當天體力 / 天候 / 時間彈性加入。
+> 以下為沿途 Bayesian 排名較高但未排入路線的備選點位。可視當天體力 / 天候 / 時間彈性加入。
 
 ### 景點備案
 
@@ -176,6 +180,4 @@ ishikawa-beta
 | 1 | 永安領鮮生魚片 | 5.0★ | 142 | 4.41 |
 | 2 | 君美現炸海鮮 | 4.6★ | 180 | 4.38 |
 | 3 | 海晏漁村料理 | 4.4★ | 481 | 4.37 |
-
-> 💡 *表格由 `compose-better-attractions` 從候選池自動生成；如需補敘述（路況、時段建議等），直接編輯 `_plan/segments.json.better_attractions` 即可。*
 

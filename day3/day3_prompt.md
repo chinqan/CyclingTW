@@ -3,6 +3,6 @@ Day3
 約 105–120 公里
 極西國聖燈塔追日行
 
-Output format: vertical portrait poster, aspect ratio 2:3.
+Output format: horizontal landscape poster, aspect ratio 3:2.
 
 請依照我上傳的照片生成角色 外觀保留真實臉型、五官比例、髮型輪廓 風格轉換為：3D Q版公仔（高級模型公仔 / 微縮場景 diorama） 特徵：頭大身小比例、臉部仍可辨識為本人、玻璃珠眼睛、細膩皮膚質感、表情自然、有生命力。 主角為畫面最大主體（最顯眼) 地點：台南市七股「國聖港燈塔」 場景元素： 動作： 表情： 公路車為精緻縮小模型、顏色與車架造型依照照片、細節清楚：輪框、變速器、把手 小分身位置：彰化縣鹿港「鹿港老街」 情境： 動作： 表情： 整體為「台灣立體地圖模型」（diorama 微縮風格） 地理位置必須正確：Lukang Old Street在畫面上方（北側）、鹿耳門公園在畫面下方（南側） 重要限制：不可出現虛構或不存在的建築、不可錯置地標位置、不可出現不屬於台灣的建築風格 可出現： 畫面構圖：主角在畫面中央偏上、Lukang Old Street在右上方小分身、鹿耳門公園在畫面下方遠景、沿途點綴Xiluo Bridge、Beigang Chaotian Temple、Dongshi Fisherman's Wharf、Budai Harbor Fish Market、Jingzaijiao Tile-paved Salt Fields、Beimen Visitor Center、Qigu Salt Mountain 畫面質感：8K 超高解析、電影級光影、柔和清晨明亮光線、清新藍天白雲、景深（depth of field）、寫實材質（realistic texture）、miniature diorama style 補強：主角比例最大、解剖正確、無多餘肢體、臉部清晰、無文字錯誤 強化：

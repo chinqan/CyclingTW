@@ -2,34 +2,38 @@
 
 ---
 
-## 📍 路線總覽
+<div class="day-hero-grid">
+<div class="day-hero-summary">
+
+## 路線總覽
 
 * **出發地**：玉里 / 安通
 * **目的地**：花蓮 → 蘇澳新站 (火車接駁)
 * **總距離**：100.6 公里（GPX 實測）
-* **總爬升**：花東縱谷平緩北行，經瑞穗、光復至花蓮市區，總爬升約 250m。花蓮站搭火車接駁至蘇澳新站
+* **總爬升 / 下降**：↑ 506 m ／ ↓ 631 m（花東縱谷北行，整體下坡居多；花蓮站搭火車接駁至蘇澳）
 * **主要路線**：玉里車站 ➔ 玉富自行車道 ➔ 台9線北上 ➔ 舞鶴北回歸線 ➔ 瑞穗 ➔ 光復糖廠 ➔ 壽豐 ➔ 花蓮車站（搭火車→蘇澳新站）
 
+[📱 開啟 Google Maps 導航](https://www.google.com/maps/dir/玉里車站/北回歸線標誌公園+瑞穗/花蓮觀光糖廠/花蓮車站/@23.6,121.4,10z/data=!4m2!4m1!3e1)
+
+</div>
+<div class="day-hero-map">
+
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1GvqnRVpnttfq3DpjfVhqopTxqsV-EKU&ehbc=2E312F" width="100%" height="100%" style="border:none; border-radius: 8px;"></iframe>
+
+
+</div>
+</div>
+
+<div class="day-hero-poster">
+
+<img src="./day8_poster.png" alt="Day 8 路線海報" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+
+</div>
+
 ---
 
-## 🌍 地圖與導航
-
-#### 🖼️ 海報
-
-<img src="./day8_poster.png" alt="Day 8 路線海報" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-
-#### 📱 手機導航連結（Google Maps 單車模式）
-
-[開啟 Google Maps 導航](https://www.google.com/maps/dir/玉里車站/北回歸線標誌公園+瑞穗/花蓮觀光糖廠/花蓮車站/@23.6,121.4,10z/data=!4m2!4m1!3e1)
-
-#### 🗺️ 我的地圖 (My Map) 路線
-
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1GvqnRVpnttfq3DpjfVhqopTxqsV-EKU&ehbc=2E312F" width="100%" height="450" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></iframe>
-
-
----
-
-## 🐟 詳細路線行程圖解
+## 詳細路線行程圖解
 
 ```mermaid
 ishikawa-beta
@@ -63,7 +67,7 @@ ishikawa-beta
 
 ---
 
-## 🕒 建議行程與時間配速
+## 建議行程與時間配速
 
 ### 第一段：玉里車站 → 玉富自行車道（約 2 km）｜板塊交界晨騎段
 
@@ -110,7 +114,7 @@ ishikawa-beta
 ---
 
 
-## 🍽️ 晚餐推薦（終點周邊 3km · 貝葉斯排序）
+## 晚餐推薦
 
 | # | 店名 | 評分 | 留言數 | 貝葉斯分 | 備註 |
 |:---:|:---|:---:|---:|:---:|:---|
@@ -121,12 +125,12 @@ ishikawa-beta
 | 5 | [漁町小吃](https://www.google.com/maps/place/?q=place_id:ChIJjSFY2GDpZzQRgq4v__TeONM) | 4.9★ | 330 | 4.5662 | 平價海鮮 售完為止 |
 
 > 💡 *排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）*
-> 📋 *完整 12 筆候選排名請見 [`day8_dinner.md`](./day8_dinner.md)*
+> 📋 *[看更多 >>](./day8_dinner.md)*
 
 ---
 
 
-## 💡 騎乘注意事項
+## 騎乘注意事項
 
 1. **蘇花公路安全考量**：蘇花公路大卡車多且無慢車道，隧道內危險性高，強烈建議搭火車接駁。花蓮至蘇澳新站的兩鐵列車班次可上台鐵官網查詢（每日約 4-6 班可攜車）。
 2. **兩鐵列車預約**：攜帶自行車的「兩鐵列車」需事先在台鐵官網或 APP 預約自行車車位，每班車限量。建議出發前 2 週預訂。若無車位可拆前輪裝車袋搭一般自強號。
@@ -138,13 +142,13 @@ ishikawa-beta
 
 ---
 
-## ✨ 更佳景點參考（未排入路線，加碼推薦）
+## 更佳景點參考
 
-> 以下為沿途搜尋結果中，**人氣或特色高於部分已排入停靠點**、地理上又合理可繞的景點，未納入路線是為了維持節奏與里程，附此作為當天臨時加碼或下次規劃參考。
+> 以下為沿途 Bayesian 排名較高但未排入路線的備選點位。可視當天體力 / 天候 / 時間彈性加入。
 
-| # | 景點 | 評分 / 留言數 | Bayesian | 偏離 / 往返 | 亮點 |
-|:---:|:---|:---:|:---:|:---|:---|
-| 1 | **七星潭** | 4.6★ / 1,512 | 4.40 | 花蓮北方繞行約 10 km | 太平洋礫石海灘+疊石頭+自行車道，但會影響趕火車 |
-| 2 | **瑞穗牧場** | 4.1★ / 15,000+ | — | 瑞穗台9線旁偏離 2 km | 鮮乳+乳酪蛋糕，免門票但停留需 30 分鐘 |
-| 3 | **鳳林客家文物館** | 4.2★ / 800+ | — | 鳳林鎮台9線旁 | 客家聚落+菸樓群，免費參觀，若提早通過可順訪 |
+### 景點備案
+
+| 名次 | 名稱 | 評分 | 留言數 | 貝葉斯分 |
+|:---:|:---|:---:|---:|:---:|
+| 1 | 七星潭 | 4.6★ | 1,512 | 4.4 |
 

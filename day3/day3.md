@@ -2,34 +2,38 @@
 
 ---
 
-## 📍 路線總覽
+<div class="day-hero-grid">
+<div class="day-hero-summary">
+
+## 路線總覽
 
 * **出發地**：鹿港 / 彰化
 * **目的地**：台南 / 鹿耳門公園
 * **總距離**：187.9 公里（GPX 實測）
-* **總爬升**：全程平坦，沿台19/台17西部濱海南下幾乎無爬升
+* **總爬升 / 下降**：↑ 49 m ／ ↓ 53 m（嘉南平原全平路，幾乎零爬升）
 * **主要路線**：鹿港老街 ➔ 台19線南下 ➔ 西螺大橋 ➔ 北港朝天宮 ➔ 接台17線 ➔ 東石漁港 ➔ 布袋 ➔ 北門 ➔ 七股鹽山 ➔ 國聖港燈塔（極西點）➔ 鹿耳門公園
 
+[📱 開啟 Google Maps 導航](https://www.google.com/maps/dir/鹿港老街/西螺大橋/北港朝天宮/東石漁人碼頭/布袋觀光漁港/井仔腳瓦盤鹽田/七股鹽山/國聖港燈塔/鹿耳門公園/@23.6,120.3,9z/data=!4m2!4m1!3e1)
+
+</div>
+<div class="day-hero-map">
+
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=13Pl_w2JJ-cUgbBk77eEKo-G5GZ7vJIs&ehbc=2E312F" width="100%" height="100%" style="border:none; border-radius: 8px;"></iframe>
+
+
+</div>
+</div>
+
+<div class="day-hero-poster">
+
+<img src="./day3_poster.png" alt="Day 3 路線海報" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+
+</div>
+
 ---
 
-## 🌍 地圖與導航
-
-#### 🖼️ 海報
-
-<img src="./day3_poster.png" alt="Day 3 路線海報" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-
-#### 📱 手機導航連結（Google Maps 單車模式）
-
-[開啟 Google Maps 導航](https://www.google.com/maps/dir/鹿港老街/西螺大橋/北港朝天宮/東石漁人碼頭/布袋觀光漁港/井仔腳瓦盤鹽田/七股鹽山/國聖港燈塔/鹿耳門公園/@23.6,120.3,9z/data=!4m2!4m1!3e1)
-
-#### 🗺️ 我的地圖 (My Map) 路線
-
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=13Pl_w2JJ-cUgbBk77eEKo-G5GZ7vJIs&ehbc=2E312F" width="100%" height="450" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></iframe>
-
-
----
-
-## 🐟 詳細路線行程圖解
+## 詳細路線行程圖解
 
 ```mermaid
 ishikawa-beta
@@ -71,7 +75,7 @@ ishikawa-beta
 
 ---
 
-## 🕒 建議行程與時間配速
+## 建議行程與時間配速
 
 ### 第一段：鹿港老街 → 西螺大橋（約 30 km）｜彰雲平原啟程段
 
@@ -136,7 +140,7 @@ ishikawa-beta
 ---
 
 
-## 🍽️ 晚餐推薦（終點周邊 3km · 貝葉斯排序）
+## 晚餐推薦
 
 | # | 店名 | 評分 | 留言數 | 貝葉斯分 | 備註 |
 |:---:|:---|:---:|---:|:---:|:---|
@@ -147,12 +151,12 @@ ishikawa-beta
 | 5 | [凰詩越南美食](https://www.google.com/maps/place/?q=place_id:ChIJI8UHUlXZbTQRityPHkapKB8) | 4.8★ | 62 | 4.7183 | 平價道地的越南河粉與春捲 |
 
 > 💡 *排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）*
-> 📋 *完整 15 筆候選排名請見 [`day3_dinner.md`](./day3_dinner.md)*
+> 📋 *[看更多 >>](./day3_dinner.md)*
 
 ---
 
 
-## 💡 騎乘注意事項
+## 騎乘注意事項
 
 1. **西部沙塵與防曬**：北港以南沿線無遮蔭，鹽田區風沙偏大，建議戴口罩、頭巾、太陽眼鏡，並隨時補水。
 2. **台19/台17大車車流**：彰雲段台19多砂石車、台南段台17多貨車，請走右側慢車道並保持警覺。
@@ -164,9 +168,9 @@ ishikawa-beta
 
 ---
 
-## ✨ 更佳景點參考（未排入路線，加碼推薦）
+## 更佳景點參考
 
-> 以下為沿途 Bayesian 排名較高但未排入路線的備選點位（資料來源：`python3 scripts/plan.py review 3` 候選池，16 筆）。可視當天體力 / 天候 / 時間彈性加入。
+> 以下為沿途 Bayesian 排名較高但未排入路線的備選點位。可視當天體力 / 天候 / 時間彈性加入。
 
 ### 景點備案
 
@@ -182,6 +186,4 @@ ishikawa-beta
 | 名次 | 店名 | 評分 | 留言數 | 貝葉斯分 |
 |:---:|:---|:---:|---:|:---:|
 | 1 | 蚵老大海鮮碳烤 | 4.8★ | 6,709 | 4.57 |
-
-> 💡 *表格由 `compose-better-attractions` 從候選池自動生成；如需補敘述（路況、時段建議等），直接編輯 `_plan/segments.json.better_attractions` 即可。*
 

@@ -4,7 +4,7 @@
 
 【輸入圖片】主角.png — 人物臉型、五官、髮型輪廓與公路車外觀的唯一參考來源
 
-【輸出比例】vertical portrait poster, aspect ratio 2:3.
+【輸出比例】horizontal landscape poster, aspect ratio 3:2.
 
 【主題】台灣環島總覽封面海報。主角從台北蘆洲柳堤公園出發、繞行台灣本島一圈、回到蘆洲完騎。完整 10 天、四極點挑戰。
 

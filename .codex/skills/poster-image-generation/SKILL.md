@@ -98,21 +98,20 @@ Do not report completion until the final project file exists at the chosen outpu
 The output tool may ignore the requested aspect ratio, so verify dimensions after generation.
 
 - Cover Poster: target `2:3`, height greater than width.
-- Daily north-south / vertical route: target `2:3`, height greater than width.
-- Daily east-west / horizontal route: target `3:2`, width greater than height.
+- Daily Poster: target `3:2`, width greater than height.
 
 If the aspect ratio is wrong, you must dynamically crop the copied project output file after generation before delivery. Because default generation sizes vary (e.g., 1024x1024), **do not hardcode dimensions**. Instead:
 
 1. Identify the generated image dimensions.
-2. Calculate the maximum possible center-crop dimensions for the target ratio (2:3 or 3:2).
+2. Calculate the maximum possible center-crop dimensions for the target ratio (`2:3` for Cover Poster, `3:2` for Daily Poster).
 3. Use project-appropriate tooling such as `sips` on macOS to perform the crop.
 
 ```bash
-# Example: If generated image is 1024x1024 and target is 2:3 (vertical):
+# Example: If generated image is 1024x1024 and target is 2:3 (Cover Poster):
 # Width becomes 1024 * (2/3) ≈ 682, Height remains 1024
 sips --cropToHeightWidth 1024 682 path/to/poster.png
 
-# Example: If generated image is 1024x1024 and target is 3:2 (horizontal):
+# Example: If generated image is 1024x1024 and target is 3:2 (Daily Poster):
 # Height becomes 1024 * (2/3) ≈ 682, Width remains 1024
 sips --cropToHeightWidth 682 1024 path/to/poster.png
 ```

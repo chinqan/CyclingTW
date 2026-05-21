@@ -120,5 +120,7 @@
   "bayesian_C": 4.2667,
   "bayesian_m": 2330,
   "ors_distance_km": 100.6,
-  "ors_duration_hours": 5.6
+  "ors_duration_hours": 5.6,
+  "elevation_ascent_m": 506,
+  "elevation_descent_m": 631
 }

@@ -2,34 +2,38 @@
 
 ---
 
-## 📍 路線總覽
+<div class="day-hero-grid">
+<div class="day-hero-summary">
+
+## 路線總覽
 
 * **出發地**：台南 / 鹿耳門公園
 * **目的地**：枋寮 / 枋山
 * **總距離**：123.6 公里（GPX 實測）
-* **總爬升**：全程平坦，經台南市區、高雄市區、屏東濱海平原，幾乎無爬升
+* **總爬升 / 下降**：↑ 105 m ／ ↓ 102 m（台南至屏東平原，橋樑微起伏）
 * **主要路線**：鹿耳門公園 ➔ 台南孔廟 ➔ 台17線南下 ➔ 橋頭糖廠 ➔ 澄清湖 ➔ 東港東隆宮 ➔ 大鵬灣 ➔ 枋寮車站
 
+[📱 開啟 Google Maps 導航](https://www.google.com/maps/dir/鹿耳門公園/台南孔廟/橋頭糖廠/澄清湖/東港東隆宮/大鵬灣國家風景區/枋寮車站/@22.7,120.4,10z/data=!4m2!4m1!3e1)
+
+</div>
+<div class="day-hero-map">
+
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1fGVP1JC_t0o19Mx43kKNealr6btJreY&ehbc=2E312F" width="100%" height="100%" style="border:none; border-radius: 8px;"></iframe>
+
+
+</div>
+</div>
+
+<div class="day-hero-poster">
+
+<img src="./day4_poster.png" alt="Day 4 路線海報" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+
+</div>
+
 ---
 
-## 🌍 地圖與導航
-
-#### 🖼️ 海報
-
-<img src="./day4_poster.png" alt="Day 4 路線海報" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-
-#### 📱 手機導航連結（Google Maps 單車模式）
-
-[開啟 Google Maps 導航](https://www.google.com/maps/dir/鹿耳門公園/台南孔廟/橋頭糖廠/澄清湖/東港東隆宮/大鵬灣國家風景區/枋寮車站/@22.7,120.4,10z/data=!4m2!4m1!3e1)
-
-#### 🗺️ 我的地圖 (My Map) 路線
-
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1fGVP1JC_t0o19Mx43kKNealr6btJreY&ehbc=2E312F" width="100%" height="450" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></iframe>
-
-
----
-
-## 🐟 詳細路線行程圖解
+## 詳細路線行程圖解
 
 ```mermaid
 ishikawa-beta
@@ -70,7 +74,7 @@ ishikawa-beta
 
 ---
 
-## 🕒 建議行程與時間配速
+## 建議行程與時間配速
 
 ### 第一段：鹿耳門公園 → 台南孔廟（約 10 km）｜府城文化晨騎段
 
@@ -129,7 +133,7 @@ ishikawa-beta
 ---
 
 
-## 🍽️ 晚餐推薦（終點周邊 3km · 貝葉斯排序）
+## 晚餐推薦
 
 | # | 店名 | 評分 | 留言數 | 貝葉斯分 | 備註 |
 |:---:|:---|:---:|---:|:---:|:---|
@@ -140,12 +144,12 @@ ishikawa-beta
 | 5 | [阮家茶坊](https://www.google.com/maps/place/?q=place_id:ChIJyaO_4j7ccTQRIqSfs10f5ok) | 4.7★ | 3275 | 4.7001 | 茶飲+餐食 車站旁 |
 
 > 💡 *排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）*
-> 📋 *完整 8 筆候選排名請見 [`day4_dinner.md`](./day4_dinner.md)*
+> 📋 *[看更多 >>](./day4_dinner.md)*
 
 ---
 
 
-## 💡 騎乘注意事項
+## 騎乘注意事項
 
 1. **台南市區交通**：早晨 07:00 出發可避開台南尖峰車流，市區路段多紅綠燈，保持耐心。
 2. **台17線高屏段大車**：台南至高雄段台17線有工業區貨車頻繁，請走慢車道並保持警覺。路竹至橋頭段尤其注意。
@@ -158,14 +162,7 @@ ishikawa-beta
 
 ---
 
-## ✨ 更佳景點參考（未排入路線，加碼推薦）
+## 更佳景點參考
 
-> 以下為沿途搜尋結果中，**人氣或特色高於部分已排入停靠點**、地理上又合理可繞的景點，未納入路線是為了維持節奏與里程，附此作為當天臨時加碼或下次規劃參考。
-
-| # | 景點 | 評分 / 留言數 | Bayesian | 偏離 / 往返 | 亮點 |
-|:---:|:---|:---:|:---:|:---|:---|
-| 1 | **鹿耳門聖母廟** | 4.7★ / 5,234 | 4.37 | 起點鹿耳門公園旁，零偏離 | 全台最大媽祖廟，壯觀殿宇；若出發時間充裕可先參觀再啟程 |
-| 2 | **鹿耳門天后宮** | 4.7★ / 7,940 | 4.43 | 起點南方約 3 km，往返 +20 分鐘 | 正統鹿耳門天后宮，鄭成功登陸傳說地；歷史意義重大但需額外繞路 |
-
-> 💡 兩座鹿耳門廟宇各有擁護者，時間充裕時可擇一參訪。聖母廟距起點最近（步行 2 分鐘），若提早 15 分鐘出發即可順遊。
+> *當日候選池所有可評分點位皆已入選或為鎖定必經點，無加碼推薦。*
 

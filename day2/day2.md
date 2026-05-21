@@ -2,34 +2,38 @@
 
 ---
 
-## 📍 路線總覽
+<div class="day-hero-grid">
+<div class="day-hero-summary">
+
+## 路線總覽
 
 * **出發地**：新竹 / 竹南
 * **目的地**：鹿港 / 彰化
 * **總距離**：99.7 公里（GPX 實測）
-* **總爬升**：全程平坦，沿西濱海岸線南下幾乎無爬升
+* **總爬升 / 下降**：↑ 264 m ／ ↓ 266 m（台1線苑裡至大甲段有緩丘，其餘平坦）
 * **主要路線**：竹南車站 ➔ 台61線(西濱) ➔ 好望角 ➔ 白沙屯拱天宮 ➔ 通霄精鹽廠 ➔ 台1線 ➔ 大甲鎮瀾宮 ➔ 台17線 ➔ 鹿港老街
 
+[📱 開啟 Google Maps 導航](https://www.google.com/maps/dir/竹南車站/後龍好望角/白沙屯拱天宮/通霄精鹽廠/大甲鎮瀾宮/鹿港老街/@24.3,120.6,10z/data=!4m2!4m1!3e1)
+
+</div>
+<div class="day-hero-map">
+
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1_9V2ea1aWNt_hCw7_bEEAwka0qNWlBQ&ehbc=2E312F" width="100%" height="100%" style="border:none; border-radius: 8px;"></iframe>
+
+
+</div>
+</div>
+
+<div class="day-hero-poster">
+
+<img src="./day2_poster.png" alt="Day 2 路線海報" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+
+</div>
+
 ---
 
-## 🌍 地圖與導航
-
-#### 🖼️ 海報
-
-<img src="./day2_poster.png" alt="Day 2 路線海報" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-
-#### 📱 手機導航連結（Google Maps 單車模式）
-
-[開啟 Google Maps 導航](https://www.google.com/maps/dir/竹南車站/後龍好望角/白沙屯拱天宮/通霄精鹽廠/大甲鎮瀾宮/鹿港老街/@24.3,120.6,10z/data=!4m2!4m1!3e1)
-
-#### 🗺️ 我的地圖 (My Map) 路線
-
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1_9V2ea1aWNt_hCw7_bEEAwka0qNWlBQ&ehbc=2E312F" width="100%" height="450" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></iframe>
-
-
----
-
-## 🐟 詳細路線行程圖解
+## 詳細路線行程圖解
 
 ```mermaid
 ishikawa-beta
@@ -70,7 +74,7 @@ ishikawa-beta
 
 ---
 
-## 🕒 建議行程與時間配速
+## 建議行程與時間配速
 
 ### 第一段：竹南車站 → 後龍好望角（約 25 km）｜西濱啟程追風段
 
@@ -129,7 +133,7 @@ ishikawa-beta
 ---
 
 
-## 🍽️ 晚餐推薦（終點周邊 3km · 貝葉斯排序）
+## 晚餐推薦
 
 | # | 店名 | 評分 | 留言數 | 貝葉斯分 | 備註 |
 |:---:|:---|:---:|---:|:---:|:---|
@@ -140,12 +144,12 @@ ishikawa-beta
 | 5 | [玖燒 炭烤](https://www.google.com/maps/place/?q=place_id:ChIJB3GtcN9FaTQRIqFsC2PKdqk) | 4.9★ | 219 | 4.7028 | 炭烤串燒 宵夜 |
 
 > 💡 *排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）*
-> 📋 *完整 16 筆候選排名請見 [`day2_dinner.md`](./day2_dinner.md)*
+> 📋 *[看更多 >>](./day2_dinner.md)*
 
 ---
 
 
-## 💡 騎乘注意事項
+## 騎乘注意事項
 
 1. **強風注意**：台61線西濱全程無遮蔽，夏季南風助騎、冬季北風逆行。查看風向預報再決定出發時間。
 2. **台1線車流**：苑裡至大甲段台1線大型車輛多，建議走慢車道或平行替代道路。
@@ -157,9 +161,9 @@ ishikawa-beta
 
 ---
 
-## ✨ 更佳景點參考（未排入路線，加碼推薦）
+## 更佳景點參考
 
-> 以下為沿途 Bayesian 排名較高但未排入路線的備選點位（資料來源：`python3 scripts/plan.py review 2` 候選池，11 筆）。可視當天體力 / 天候 / 時間彈性加入。
+> 以下為沿途 Bayesian 排名較高但未排入路線的備選點位。可視當天體力 / 天候 / 時間彈性加入。
 
 ### 景點備案
 
@@ -174,6 +178,4 @@ ishikawa-beta
 | 1 | 花義複合式餐飲 | 4.8★ | 502 | 4.63 |
 | 2 | 龜鶴塘 | 4.8★ | 407 | 4.63 |
 | 3 | 莫爾日嚐 MORE TASTE | 4.8★ | 250 | 4.61 |
-
-> 💡 *表格由 `compose-better-attractions` 從候選池自動生成；如需補敘述（路況、時段建議等），直接編輯 `_plan/segments.json.better_attractions` 即可。*
 

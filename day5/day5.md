@@ -2,34 +2,38 @@
 
 ---
 
-## 📍 路線總覽
+<div class="day-hero-grid">
+<div class="day-hero-summary">
+
+## 路線總覽
 
 * **出發地**：枋寮 / 枋山
 * **目的地**：恆春 / 墾丁 / 鵝鑾鼻
 * **總距離**：68.1 公里（GPX 實測）
-* **總爬升**：前半段平坦（枋寮→車城），後半段有緩坡（恆春→鵝鑾鼻），總爬升約 200m
+* **總爬升 / 下降**：↑ 215 m ／ ↓ 181 m（恆春半島有丘陵起伏，前段平坦）
 * **主要路線**：枋寮車站 ➔ 台1線南下 ➔ 楓港 ➔ 台26線（屏鵝公路）➔ 車城福安宮 ➔ 恆春古城 ➔ 南灣 ➔ 墾丁大街 ➔ 鵝鑾鼻燈塔
 
+[📱 開啟 Google Maps 導航](https://www.google.com/maps/dir/枋寮車站/車城福安宮/恆春南門/墾丁大街/鵝鑾鼻燈塔/@22.1,120.7,11z/data=!4m2!4m1!3e1)
+
+</div>
+<div class="day-hero-map">
+
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1_OoqI76KfShNADmaLx_cPvZ_pPCfut0&ehbc=2E312F" width="100%" height="100%" style="border:none; border-radius: 8px;"></iframe>
+
+
+</div>
+</div>
+
+<div class="day-hero-poster">
+
+<img src="./day5_poster.png" alt="Day 5 路線海報" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+
+</div>
+
 ---
 
-## 🌍 地圖與導航
-
-#### 🖼️ 海報
-
-<img src="./day5_poster.png" alt="Day 5 路線海報" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-
-#### 📱 手機導航連結（Google Maps 單車模式）
-
-[開啟 Google Maps 導航](https://www.google.com/maps/dir/枋寮車站/車城福安宮/恆春南門/墾丁大街/鵝鑾鼻燈塔/@22.1,120.7,11z/data=!4m2!4m1!3e1)
-
-#### 🗺️ 我的地圖 (My Map) 路線
-
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1_OoqI76KfShNADmaLx_cPvZ_pPCfut0&ehbc=2E312F" width="100%" height="450" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></iframe>
-
-
----
-
-## 🐟 詳細路線行程圖解
+## 詳細路線行程圖解
 
 ```mermaid
 ishikawa-beta
@@ -64,7 +68,7 @@ ishikawa-beta
 
 ---
 
-## 🕒 建議行程與時間配速
+## 建議行程與時間配速
 
 ### 第一段：枋寮車站 → 車城福安宮（約 40 km）｜屏南海岸追風段
 
@@ -113,7 +117,7 @@ ishikawa-beta
 ---
 
 
-## 🍽️ 晚餐推薦（終點周邊 3km · 貝葉斯排序）
+## 晚餐推薦
 
 | # | 店名 | 評分 | 留言數 | 貝葉斯分 | 備註 |
 |:---:|:---|:---:|---:|:---:|:---|
@@ -124,12 +128,12 @@ ishikawa-beta
 | 5 | [巷子內海鮮熱炒](https://www.google.com/maps/place/?q=place_id:ChIJS-8yioWxcTQRY-vhorkDyeY) | 4.6★ | 3436 | 4.6062 | 墾丁大街旁海鮮 |
 
 > 💡 *排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）*
-> 📋 *完整 8 筆候選排名請見 [`day5_dinner.md`](./day5_dinner.md)*
+> 📋 *[看更多 >>](./day5_dinner.md)*
 
 ---
 
 
-## 💡 騎乘注意事項
+## 騎乘注意事項
 
 1. **落山風注意**：枋寮至楓港段秋冬季可能有強烈落山風（東北季風翻越中央山脈加速），風速可達 8-10 級，須壓低重心、注意安全。
 2. **楓港至車城補給空窗**：km 25（楓港 7-11）至 km 40（車城福安宮）間無大型補給點約 15 km，確保楓港補滿水。
@@ -141,14 +145,13 @@ ishikawa-beta
 
 ---
 
-## ✨ 更佳景點參考（未排入路線，加碼推薦）
+## 更佳景點參考
 
-> 以下為沿途搜尋結果中，**人氣或特色高於部分已排入停靠點**、地理上又合理可繞的景點，未納入路線是為了維持節奏與里程，附此作為當天臨時加碼或下次規劃參考。
+> 以下為沿途 Bayesian 排名較高但未排入路線的備選點位。可視當天體力 / 天候 / 時間彈性加入。
 
-| # | 景點 | 評分 / 留言數 | Bayesian | 偏離 / 往返 | 亮點 |
-|:---:|:---|:---:|:---:|:---|:---|
-| 1 | **田中海鮮** | 4.4★ / 2,060 | 4.31 | 車城福安宮南方約 1 km，偏離主線 < 500m | 車城在地熱炒海鮮，評價穩定；若想吃正餐可替代綠豆蒜 |
-| 2 | **恆春夜市（週日限定）** | 4.4★ / 6,176 | — | 恆春古城旁，零偏離 | 只有週日營業的在地夜市，若行程剛好遇週日可納入晚餐前逛逛 |
+### 午餐 / 餐廳大休備案
 
-> 💡 車城到恆春沿線還有海生館（國立海洋生物博物館，4.5★/28000則），但需額外繞路約 5 km 且參觀需 2-3 小時，不適合環島行程中途停留。
+| 名次 | 店名 | 評分 | 留言數 | 貝葉斯分 |
+|:---:|:---|:---:|---:|:---:|
+| 1 | 田中海鮮 | 4.4★ | 2,060 | 4.31 |
 

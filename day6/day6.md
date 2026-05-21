@@ -2,34 +2,38 @@
 
 ---
 
-## 📍 路線總覽
+<div class="day-hero-grid">
+<div class="day-hero-summary">
+
+## 路線總覽
 
 * **出發地**：恆春 / 鵝鑾鼻
 * **目的地**：太麻里
 * **總距離**：129.5 公里（GPX 實測）
-* **總爬升**：壽卡段為環島最大爬升挑戰（縣道200→199 爬升約 460m），過壽卡後台9線一路下滑至太平洋岸，總爬升約 600m
+* **總爬升 / 下降**：↑ 1517 m ／ ↓ 1499 m（環島最大爬升日（壽卡段主爬坡約 460m），過壽卡後下滑至太平洋岸）
 * **主要路線**：鵝鑾鼻燈塔 ➔ 台26線東行 ➔ 風吹砂 ➔ 佳樂水 ➔ 縣道200 ➔ 滿州 ➔ 縣道199 ➔ 壽卡鐵馬驛站 ➔ 台9線南下 ➔ 大武 ➔ 多良車站 ➔ 金崙 ➔ 太麻里車站
 
+[📱 開啟 Google Maps 導航](https://www.google.com/maps/dir/鵝鑾鼻燈塔/風吹砂/壽卡鐵馬驛站/多良車站/太麻里車站/@22.2,120.9,10z/data=!4m2!4m1!3e1)
+
+</div>
+<div class="day-hero-map">
+
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1vXv8wqmq76L0pE6IvtVsNLojfonk5i4&ehbc=2E312F" width="100%" height="100%" style="border:none; border-radius: 8px;"></iframe>
+
+
+</div>
+</div>
+
+<div class="day-hero-poster">
+
+<img src="./day6_poster.png" alt="Day 6 路線海報" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+
+</div>
+
 ---
 
-## 🌍 地圖與導航
-
-#### 🖼️ 海報
-
-<img src="./day6_poster.png" alt="Day 6 路線海報" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-
-#### 📱 手機導航連結（Google Maps 單車模式）
-
-[開啟 Google Maps 導航](https://www.google.com/maps/dir/鵝鑾鼻燈塔/風吹砂/壽卡鐵馬驛站/多良車站/太麻里車站/@22.2,120.9,10z/data=!4m2!4m1!3e1)
-
-#### 🗺️ 我的地圖 (My Map) 路線
-
-<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1vXv8wqmq76L0pE6IvtVsNLojfonk5i4&ehbc=2E312F" width="100%" height="450" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></iframe>
-
-
----
-
-## 🐟 詳細路線行程圖解
+## 詳細路線行程圖解
 
 ```mermaid
 ishikawa-beta
@@ -63,7 +67,7 @@ ishikawa-beta
 
 ---
 
-## 🕒 建議行程與時間配速
+## 建議行程與時間配速
 
 ### 第一段：鵝鑾鼻燈塔 → 滿州（約 20 km）｜極南東海岸啟程段
 
@@ -110,7 +114,7 @@ ishikawa-beta
 ---
 
 
-## 🍽️ 晚餐推薦（終點周邊 3km · 貝葉斯排序）
+## 晚餐推薦
 
 | # | 店名 | 評分 | 留言數 | 貝葉斯分 | 備註 |
 |:---:|:---|:---:|---:|:---:|:---|
@@ -121,12 +125,12 @@ ishikawa-beta
 | 5 | [金三角小吃部](https://www.google.com/maps/place/?q=place_id:ChIJk4uFvpbObzQRuLBO8_jyPHc) | 4.8★ | 142 | 4.6304 | 在地小吃 份量大 |
 
 > 💡 *排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）*
-> 📋 *完整 12 筆候選排名請見 [`day6_dinner.md`](./day6_dinner.md)*
+> 📋 *[看更多 >>](./day6_dinner.md)*
 
 ---
 
 
-## 💡 騎乘注意事項
+## 騎乘注意事項
 
 1. **壽卡魔王關卡**：環島最大爬升段，從滿州到壽卡約 25 km 爬升 460m。建議清晨 06:00 出發，趁涼爽攻頂。中途無補給無遮蔭，務必在滿州 7-11 補滿 2 瓶水+能量棒。
 2. **壽卡下滑注意**：過壽卡後台9線急降 20 km 至大武，坡陡彎多，注意煞車過熱與車速控制。建議每 3-5 分鐘輕點煞車散熱，彎道前減速。
@@ -138,13 +142,7 @@ ishikawa-beta
 
 ---
 
-## ✨ 更佳景點參考（未排入路線，加碼推薦）
+## 更佳景點參考
 
-> 以下為沿途搜尋結果中，**人氣或特色高於部分已排入停靠點**、地理上又合理可繞的景點，未納入路線是為了維持節奏與里程，附此作為當天臨時加碼或下次規劃參考。
-
-| # | 景點 | 評分 / 留言數 | Bayesian | 偏離 / 往返 | 亮點 |
-|:---:|:---|:---:|:---:|:---|:---|
-| 1 | **双亭院咖啡餐食甜點** | 4.9★ / 1,984 | 4.83 | 大溪部落偏離主線約 2km | 排灣族創意料理+咖啡甜點，環島騎士好評極高，但位置偏離台9線 |
-| 2 | **金崙溫泉** | 4.3★ / 500+ | — | 金崙村內零偏離 | 騎完壽卡後泡溫泉放鬆肌肉，若住金崙可安排 |
-| 3 | **9420濱海公園** | 4.4★ / 1,026 | — | 大武南方 1 km，偏離 < 200m | 2022新建彩虹裝置藝術公園，面對太平洋 |
+> *當日候選池所有可評分點位皆已入選或為鎖定必經點，無加碼推薦。*
 
