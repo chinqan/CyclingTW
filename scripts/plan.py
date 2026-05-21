@@ -97,8 +97,11 @@ Claude 規劃時必須遵守的規則（plan.py 無法強制，但需在對話�
 [E] 撤退方案
   - 每日 dayN.md 的「騎乘注意事項」段落，必須列出 ≥ 2-3 個可中途撤退搭火車的車站
 
-[F] ★主視覺視覺辨識度
-  - main_visual 候選需有明確視覺符號才適合放海報
+[F] ★主視覺選點原則（敘事地位優先，Bayesian 分數次之）
+  - 優先順序：① note 含「★主視覺」（手動覆蓋）② 終點 total_ratings ≥ 2000（目的地型地標）③ 景點類 Bayesian 最高者
+  - 終點分兩類：目的地型（人們專程前往，total_ratings 高）→ 優先；工具型（住宿/轉運節點，total_ratings 低）→ 降為 fallback
+  - 閾值 2000 寫在 render.py _DESTINATION_MIN_RATINGS，可依需求調整
+  - 邊界案例（終點具敘事意義但 total_ratings 不足）：在 places.json note 加「★主視覺」手動覆蓋
 
 [G] 海報光線氛圍（poster_vars.json 的 lighting 欄位）
   - 預設：柔和清晨明亮光線、清新藍天白雲

@@ -21,10 +21,21 @@ def _jenv() -> Environment:
 
 # ─── poster_vars 自動同步 ───
 
+_DESTINATION_MIN_RATINGS = 2000  # 終點需達此評論數才視為「目的地型地標」
+
+
 def _find_main_visual_place(places: list[dict]) -> dict | None:
+    # 1. 手動標記最優先
     for p in places:
         if "★主視覺" in (p.get("note") or ""):
             return p
+    # 2. 終點為目的地型地標時優先（total_ratings 達門檻才算人們專程前往）
+    last = places[-1]
+    if (last.get("csv_type") == "起終點"
+            and last.get("bayesian_score") is not None
+            and (last.get("total_ratings") or 0) >= _DESTINATION_MIN_RATINGS):
+        return last
+    # 3. 景點類 Bayesian 最高者（終點為工具性節點時 fallback）
     cands = [p for p in places
              if p.get("csv_type") in ("景點", "起終點")
              and p.get("bayesian_score") is not None
