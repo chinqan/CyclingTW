@@ -1,12 +1,22 @@
 {
   "place_id": "ChIJR-i8TSSmaTQR_m3wMwNABss",
-  "name_zh": "通霄精鹽廠",
+  "name_zh": "Taiyen Museum (The Way of Salt)",
   "csv_type": "景點",
   "rating": 4.1,
-  "total_ratings": 7280,
+  "total_ratings": 7279,
   "location": {
     "lat": 24.5559494,
     "lng": 120.7035802
   },
-  "source": "search_2026-05-20"
+  "source": "api_2026-05-21",
+  "note": "免費泡腳池 鹽業展覽 週一公休",
+  "opening_hours_text": [
+    "Monday: Closed",
+    "Tuesday: 8:00 AM – 4:30 PM",
+    "Wednesday: 8:00 AM – 4:30 PM",
+    "Thursday: 8:00 AM – 4:30 PM",
+    "Friday: 8:00 AM – 4:30 PM",
+    "Saturday: 8:30 AM – 5:00 PM",
+    "Sunday: 8:30 AM – 5:00 PM"
+  ]
 }

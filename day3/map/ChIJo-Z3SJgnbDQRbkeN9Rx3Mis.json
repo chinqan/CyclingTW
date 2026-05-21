@@ -1,6 +1,6 @@
 {
   "place_id": "ChIJo-Z3SJgnbDQRbkeN9Rx3Mis",
-  "name_zh": "東石漁人碼頭",
+  "name_zh": "Dongshi Fisherman's Wharf",
   "csv_type": "景點",
   "search_keyword": "東石漁人碼頭 嘉義縣東石鄉彩霞大道420號",
   "rating": 4.2,
@@ -10,5 +10,15 @@
     "lng": 120.1352728
   },
   "note": "約11:30抵達 觀海景區+海鮮市場 km約72",
-  "source": "google_maps"
+  "source": "api_2026-05-21",
+  "opening_hours_text": [
+    "Monday: 9:00 AM – 9:00 PM",
+    "Tuesday: 9:00 AM – 9:00 PM",
+    "Wednesday: 9:00 AM – 9:00 PM",
+    "Thursday: 9:00 AM – 9:00 PM",
+    "Friday: 9:00 AM – 9:00 PM",
+    "Saturday: 9:00 AM – 9:00 PM",
+    "Sunday: 9:00 AM – 9:00 PM"
+  ],
+  "editorial_summary": "Waterfront area with a beach, splash park & walking paths, plus seafood restaurants & shops."
 }

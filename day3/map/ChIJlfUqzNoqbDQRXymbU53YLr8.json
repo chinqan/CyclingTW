@@ -1,14 +1,23 @@
 {
   "place_id": "ChIJlfUqzNoqbDQRXymbU53YLr8",
-  "name_zh": "北門遊客中心",
+  "name_zh": "Beimen Visitor Center",
   "csv_type": "景點",
   "search_keyword": "北門遊客中心 台南市北門區北門里200號",
   "rating": 4.1,
-  "total_ratings": 5380,
+  "total_ratings": 5381,
   "location": {
-    "lat": 23.2671522,
-    "lng": 120.1239695
+    "lat": 23.267152199999998,
+    "lng": 120.12396949999999
   },
   "note": "約15:00抵達 結合水晶教堂與婚紗園區 km約102",
-  "source": "google_maps"
+  "source": "api_2026-05-21",
+  "opening_hours_text": [
+    "Monday: 9:00 AM – 5:30 PM",
+    "Tuesday: 9:00 AM – 5:30 PM",
+    "Wednesday: 9:00 AM – 5:30 PM",
+    "Thursday: 9:00 AM – 5:30 PM",
+    "Friday: 9:00 AM – 5:30 PM",
+    "Saturday: 9:00 AM – 5:30 PM",
+    "Sunday: 9:00 AM – 5:30 PM"
+  ]
 }

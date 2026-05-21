@@ -27,6 +27,10 @@ Claude 在對話中呼叫 MCP 工具（Google Maps / OpenRoute）取得資料並
                            （需設定 ORS_API_KEY 環境變數）
   gpx-save N               [stdin] 儲存外部來源 GPX（備援用）
   gpx-waypoints N          離線備案：依 places.json 座標產純航點 GPX
+  refresh-details N        呼叫 Google Places API (New) 刷新可評分點位的
+                           rating/total_ratings/opening_hours，upsert 回 mirror
+                           （需設定 GOOGLE_PLACES_API_KEY 環境變數）
+                           加 --with-reviews 同時取 reviews（Pro tier）
   render-prompt N          產 dayN_prompt.md；預設先從 _plan/places.json 重推
                            poster_vars.json 結構欄位（--no-sync 跳過）
   render-md N              產 dayN.md。執行前會全量預檢 Phase 0-3 / 3.5 / 4
@@ -52,15 +56,18 @@ Claude 規劃時必須遵守的規則（plan.py 無法強制，但需在對話�
 （完整規範與工作流請見 scripts/README.md，以下只列硬性約束摘要）
 
 [A] API 節流規定
-  - 僅對 csv_type ∈ {景點, 起終點, 餐廳大休} 呼叫 mcp_google-maps_maps_place_details
-    以取得 total_ratings。
+  - 僅對 csv_type ∈ {景點, 起終點, 餐廳大休} 需要精確 rating / total_ratings。
+  - **優先使用 `refresh-details N`**（Google Places API 直接 HTTPS），一次刷新
+    places.json 所有可評分點位，取代逐一呼叫 MCP place_details。
+    需設定 GOOGLE_PLACES_API_KEY；加 --with-reviews 取 reviews（Pro tier）。
+  - MCP place_details 仍可作為 fallback（無 API key 或需即時查看評論時）。
   - 對「便利商店 / 加油站 / 公共設施 / 綜合休息站」嚴禁呼叫 place_details，
     這些類型的 rating / total_ratings 欄位直接留空。
   - 便利商店 / 加油站 用 maps_search_places 時：每次只取 top 1 結果、只保留
     place_id / name / location 三欄。不要保留 photos / opening_hours / 評論
     片段等大欄位（mirror-put 時也只寫入這三欄）。
-  - 景點 / 餐廳：search 後挑 3-5 個候選做 mirror-put + place_details，未入選
-    的存到 candidates_not_selected（給未來 Bayesian pool 用）。
+  - 景點 / 餐廳：search 後挑 3-5 個候選做 mirror-put，再用 refresh-details
+    批量刷新；未入選的存到 candidates_not_selected（給未來 Bayesian pool 用）。
 
 [B] 地點搜尋關鍵字撰寫原則（用於 places.json 的 search_keyword 與 mymap CSV）
   - 便利商店：「品牌 + 門市名稱」                     例：7-ELEVEN 觀湖門市
@@ -100,7 +107,7 @@ except ImportError:
     print("[error] 缺少 jinja2，請安裝：pip install jinja2", file=sys.stderr)
     sys.exit(1)
 
-from plan_lib.index_parser import cmd_parse_index
+from plan_lib.index_parser import cmd_parse_index, cmd_update_index
 from plan_lib.mirror import cmd_mirror_status, cmd_mirror_put, cmd_mirror_diff
 from plan_lib.bayesian import (
     cmd_score_pool, cmd_compute, cmd_review, cmd_compose_better_attractions,
@@ -114,6 +121,7 @@ from plan_lib.dinner import (
     cmd_dinner_put, cmd_dinner_diff, cmd_dinner_status,
     cmd_dinner_pool, cmd_dinner_review, cmd_dinner_render,
 )
+from plan_lib.places_api import cmd_refresh_details
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -127,6 +135,7 @@ def build_parser() -> argparse.ArgumentParser:
         return sp
 
     add("parse-index",   cmd_parse_index,   "解析 index.md 第 N 天")
+    add("update-index",  cmd_update_index,  "把 ORS 實際距離回寫 index.md")
     add("mirror-status", cmd_mirror_status, "顯示 dayN/map/（本地鏡像）現況")
     add("mirror-put",    cmd_mirror_put,    "[stdin] upsert 單筆 place 到本地鏡像")
     add("mirror-diff",   cmd_mirror_diff,   "[stdin] 比對本地鏡像 vs 線上最新")
@@ -144,6 +153,11 @@ def build_parser() -> argparse.ArgumentParser:
     add("route",         cmd_route,         "呼叫 ORS API 取整天路線 → dayN_route.gpx")
     add("gpx-save",      cmd_gpx_save,      "[stdin] 儲存外部 GPX（備援）")
     add("gpx-waypoints", cmd_gpx_waypoints, "離線備案：純航點 GPX")
+
+    sp = add("refresh-details", cmd_refresh_details,
+             "呼叫 Google Places API 刷新 places.json 可評分點位的 rating/hours")
+    sp.add_argument("--with-reviews", action="store_true",
+                    help="同時取得 reviews（Pro tier，$17/1000）；預設只取 Essentials")
 
     add("dinner-status", cmd_dinner_status, "顯示 dayN/dinner_map/ 鏡像現況")
     add("dinner-put",    cmd_dinner_put,    "[stdin] upsert 餐廳到 dinner_map/ 鏡像")

@@ -1,12 +1,23 @@
 {
   "place_id": "ChIJ2ffC3wEOaTQR-YuV-iIXELk",
-  "name_zh": "大甲鎮瀾宮",
+  "name_zh": "Dajia Jenn Lann Temple",
   "csv_type": "景點",
   "rating": 4.6,
-  "total_ratings": 17286,
+  "total_ratings": 17285,
   "location": {
     "lat": 24.3451924,
-    "lng": 120.6235944
+    "lng": 120.62359439999999
   },
-  "source": "search_2026-05-20"
+  "source": "api_2026-05-21",
+  "note": "台灣最著名媽祖廟 廟口美食",
+  "opening_hours_text": [
+    "Monday: 3:30 AM – 10:30 PM",
+    "Tuesday: 3:30 AM – 10:30 PM",
+    "Wednesday: 3:30 AM – 10:30 PM",
+    "Thursday: 3:30 AM – 10:30 PM",
+    "Friday: 3:30 AM – 10:30 PM",
+    "Saturday: 3:30 AM – 10:30 PM",
+    "Sunday: 3:30 AM – 10:30 PM"
+  ],
+  "editorial_summary": "Ornate, famed temple to Chinese sea goddess Mazu, founded in 1730 & featuring a cultural museum."
 }

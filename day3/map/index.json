@@ -3,12 +3,12 @@
   "places": [
     {
       "place_id": "ChIJbZ03BtZFaTQRVSahxk_O324",
-      "name_zh": "鹿港老街",
+      "name_zh": "Lukang Old Street",
       "csv_type": "起終點",
       "rating": 4.5,
-      "total_ratings": 42114,
+      "total_ratings": 42115,
       "location": {
-        "lat": 24.0563009,
+        "lat": 24.056300999999998,
         "lng": 120.4325817
       },
       "source": "google_maps",
@@ -27,10 +27,10 @@
     },
     {
       "place_id": "EiBYaWx1byBCcmcsIFl1bmxpbiBDb3VudHksIFRhaXdhbiIuKiwKFAoSCa2bONxCtG40ESt17BKmLaPmEhQKEglB88dzJ7puNBGVKtEDfMTkeg",
-      "name_zh": "西螺大橋",
+      "name_zh": "Xiluo Bridge",
       "csv_type": "景點",
-      "rating": 0,
-      "total_ratings": 0,
+      "rating": null,
+      "total_ratings": null,
       "location": {
         "lat": 23.8103145,
         "lng": 120.460342
@@ -51,13 +51,13 @@
     },
     {
       "place_id": "ChIJJfEEtoWibjQRzq8W6JSLfHo",
-      "name_zh": "北港朝天宮",
+      "name_zh": "Beigang Chaotian Temple",
       "csv_type": "景點",
       "rating": 4.7,
-      "total_ratings": 24031,
+      "total_ratings": 24030,
       "location": {
         "lat": 23.5681177,
-        "lng": 120.3046998
+        "lng": 120.30469979999998
       },
       "source": "google_maps",
       "note": "約10:45抵達 北港媽祖開臺祖廟 周邊小吃多 km約55"
@@ -75,7 +75,7 @@
     },
     {
       "place_id": "ChIJo-Z3SJgnbDQRbkeN9Rx3Mis",
-      "name_zh": "東石漁人碼頭",
+      "name_zh": "Dongshi Fisherman's Wharf",
       "csv_type": "景點",
       "rating": 4.2,
       "total_ratings": 22902,
@@ -88,26 +88,26 @@
     },
     {
       "place_id": "ChIJodGzjxwnbDQRbSUzYK6OF7M",
-      "name_zh": "蠔碳嘉烤鮮蚵吃到飽",
+      "name_zh": "蠔碳嘉烤鮮蚵吃到飽-東石鮮蚵吃到飽|推薦鮮蚵|必吃鮮蚵|人氣鮮蚵|道地美食|在地推薦餐廳|烤蚵吃到飽|必吃烤蚵",
       "csv_type": "餐廳大休",
       "rating": 4.9,
       "total_ratings": 4887,
       "location": {
         "lat": 23.4532594,
-        "lng": 120.1369878
+        "lng": 120.13698780000001
       },
       "source": "google_maps",
       "note": "11:30-13:00午餐大休 東石烤蚵吃到飽 km約72"
     },
     {
       "place_id": "ChIJl927qSsobDQRUbouAy2tsUw",
-      "name_zh": "布袋觀光漁港",
+      "name_zh": "Budai Harbor Fish Market",
       "csv_type": "景點",
-      "rating": 4.0,
-      "total_ratings": 31187,
+      "rating": 4,
+      "total_ratings": 31188,
       "location": {
         "lat": 23.3793698,
-        "lng": 120.1554637
+        "lng": 120.15546369999998
       },
       "source": "google_maps",
       "note": "約13:45抵達 海鮮市集+布袋鹽田風光 km約85"
@@ -136,39 +136,39 @@
     },
     {
       "place_id": "ChIJq6qqqtUqbDQR_ohO2eK2x4E",
-      "name_zh": "井仔腳瓦盤鹽田",
+      "name_zh": "Jingzaijiao Tile-paved Salt Fields",
       "csv_type": "景點",
       "rating": 4.4,
-      "total_ratings": 21621,
+      "total_ratings": 21624,
       "location": {
         "lat": 23.2588308,
-        "lng": 120.107568
+        "lng": 120.10756800000001
       },
       "source": "google_maps",
       "note": "約14:45抵達 台灣最古老鹽田 棋盤狀鹽結晶池 km約100"
     },
     {
       "place_id": "ChIJlfUqzNoqbDQRXymbU53YLr8",
-      "name_zh": "北門遊客中心",
+      "name_zh": "Beimen Visitor Center",
       "csv_type": "景點",
       "rating": 4.1,
-      "total_ratings": 5380,
+      "total_ratings": 5381,
       "location": {
-        "lat": 23.2671522,
-        "lng": 120.1239695
+        "lat": 23.267152199999998,
+        "lng": 120.12396949999999
       },
       "source": "google_maps",
       "note": "約15:00抵達 結合水晶教堂與婚紗園區 km約102"
     },
     {
       "place_id": "ChIJTRbkzL_WbTQRTrfGfckHIrc",
-      "name_zh": "七股鹽山",
+      "name_zh": "Qigu Salt Mountain",
       "csv_type": "景點",
       "rating": 3.9,
       "total_ratings": 20709,
       "location": {
         "lat": 23.1542387,
-        "lng": 120.1001211
+        "lng": 120.10012110000001
       },
       "source": "google_maps",
       "note": "約15:45抵達 純白巨型鹽山地標 km約113"
@@ -212,20 +212,20 @@
     },
     {
       "place_id": "ChIJofDyKzrYbTQROj-L3C0Zt8A",
-      "name_zh": "鹿耳門公園",
+      "name_zh": "Luermen Park",
       "csv_type": "起終點",
       "rating": 4.3,
       "total_ratings": 198,
       "location": {
-        "lat": 23.066061,
-        "lng": 120.126992
+        "lat": 23.066061100000002,
+        "lng": 120.1269917
       },
       "source": "search_2026-05-21",
       "note": "Day3 終點 台南安南區鹿耳門 近聖母廟"
     },
     {
       "place_id": "ChIJ49OG8GnabTQR9wo1PrlXP2o",
-      "name_zh": "國聖港燈塔",
+      "name_zh": "Westernmost Point of Taiwan",
       "csv_type": "景點",
       "rating": 4.4,
       "total_ratings": 3341,

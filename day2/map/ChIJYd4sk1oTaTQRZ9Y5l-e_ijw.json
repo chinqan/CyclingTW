@@ -1,9 +1,13 @@
 {
   "place_id": "ChIJYd4sk1oTaTQRZ9Y5l-e_ijw",
   "name_zh": "龜鶴塘",
+  "csv_type": "餐廳大休",
   "rating": 4.8,
   "total_ratings": 407,
-  "source": "search_2026-05-20",
-  "not_selected_reason": "距大甲鎮瀾宮約600m，已選莫爾日嚐(更近)",
-  "target": "candidates_not_selected"
+  "location": {
+    "lat": 24.3421215,
+    "lng": 120.6190962
+  },
+  "source": "search_2026-05-21",
+  "note": "葷素午餐 下午茶 庭院風 週二公休 只到15:00"
 }

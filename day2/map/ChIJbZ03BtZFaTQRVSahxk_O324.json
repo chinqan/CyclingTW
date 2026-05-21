@@ -1,12 +1,23 @@
 {
   "place_id": "ChIJbZ03BtZFaTQRVSahxk_O324",
-  "name_zh": "鹿港老街",
+  "name_zh": "Lukang Old Street",
   "csv_type": "起終點",
   "rating": 4.5,
-  "total_ratings": 42112,
+  "total_ratings": 42114,
   "location": {
-    "lat": 24.056301,
+    "lat": 24.056300999999998,
     "lng": 120.4325817
   },
-  "source": "search_2026-05-20"
+  "source": "api_2026-05-21",
+  "note": "清代商業街區 紅磚老屋 當日終點",
+  "opening_hours_text": [
+    "Monday: 10:00 AM – 6:00 PM",
+    "Tuesday: 10:00 AM – 6:00 PM",
+    "Wednesday: 10:00 AM – 6:00 PM",
+    "Thursday: 10:00 AM – 6:00 PM",
+    "Friday: 10:00 AM – 6:00 PM",
+    "Saturday: 10:00 AM – 6:00 PM",
+    "Sunday: 10:00 AM – 6:00 PM"
+  ],
+  "editorial_summary": "Red-tiled street with an old-fashioned atmosphere featuring traditional shops & street food vendors."
 }

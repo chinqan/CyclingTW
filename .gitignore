@@ -2,3 +2,6 @@
 /data/*
 mcp.json
 __pycache__/
+
+# API keys
+.env

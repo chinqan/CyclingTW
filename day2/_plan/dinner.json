@@ -1,17 +1,17 @@
 {
   "day": 2,
   "search_radius_km": 3,
-  "pool_size": 15,
-  "bayesian_C": 1016.3,
-  "bayesian_m": 4.6416,
+  "pool_size": 16,
+  "bayesian_C": 1029.6,
+  "bayesian_m": 4.6608,
   "note": "C=平均留言數(先驗樣本數), m=加權平均評分(先驗期望值)",
   "source_endpoint_place_id": "ChIJbZ03BtZFaTQRVSahxk_O324",
   "top5_place_ids": [
     "ChIJDyBgePpFaTQRJUsJs7vOpkc",
     "ChIJpRXSwg9HaTQRwOSJh1lAlM8",
+    "ChIJPzC4BMlFaTQRrCS331iUfUQ",
     "ChIJ0Z-zC6lHaTQREgeeip-pG2U",
-    "ChIJzU-GUdtHaTQR5Ftb4IWN0wo",
-    "ChIJzyu0tTlHaTQRgkOSH2epUh8"
+    "ChIJB3GtcN9FaTQRIqFsC2PKdqk"
   ],
   "restaurants": [
     {
@@ -25,7 +25,7 @@
       },
       "address": "彰化縣鹿港鎮鹿草路一段277號",
       "note": "燒肉 需預約",
-      "bayesian_score": 4.8301,
+      "bayesian_score": 4.8347,
       "confidence": "✅ 高",
       "rank": 1,
       "selected": true
@@ -41,57 +41,41 @@
       },
       "address": "彰化縣鹿港鎮復興路129號",
       "note": "石頭火鍋 高CP值",
-      "bayesian_score": 4.8171,
+      "bayesian_score": 4.8225,
       "confidence": "✅ 高",
       "rank": 2,
       "selected": true
     },
     {
-      "place_id": "ChIJ0Z-zC6lHaTQREgeeip-pG2U",
-      "name_zh": "快樂蘇打 Happy Soda",
-      "rating": 4.8,
-      "total_ratings": 1427,
+      "place_id": "ChIJPzC4BMlFaTQRrCS331iUfUQ",
+      "name_zh": "NU PASTA 彰化鹿港店",
+      "rating": 4.9,
+      "total_ratings": 1224,
       "location": {
-        "lat": 24.0474456,
-        "lng": 120.4364854
+        "lat": 24.0612959,
+        "lng": 120.4331666
       },
-      "address": "彰化縣鹿港鎮復興南路118號",
-      "note": "義式料理 份量大",
-      "bayesian_score": 4.7341,
+      "address": "彰化縣鹿港鎮鹿草路一段88號",
+      "note": "義式連鎖 平價",
+      "bayesian_score": 4.7907,
       "confidence": "✅ 高",
       "rank": 3,
       "selected": true
     },
     {
-      "place_id": "ChIJzU-GUdtHaTQR5Ftb4IWN0wo",
-      "name_zh": "輕輕的蔬食簡餐",
+      "place_id": "ChIJ0Z-zC6lHaTQREgeeip-pG2U",
+      "name_zh": "快樂蘇打 Happy Soda鹿港店",
       "rating": 4.8,
-      "total_ratings": 437,
+      "total_ratings": 1430,
       "location": {
-        "lat": 24.0504515,
-        "lng": 120.4361972
+        "lat": 24.0474456,
+        "lng": 120.4364854
       },
-      "address": "彰化縣鹿港鎮金門巷62號",
-      "note": "蔬食友善 老街旁",
-      "bayesian_score": 4.6892,
-      "confidence": "❌ 低",
+      "address": "彰化縣鹿港鎮復興南路118號",
+      "note": "氣氛佳 份量足",
+      "bayesian_score": 4.7417,
+      "confidence": "✅ 高",
       "rank": 4,
-      "selected": true
-    },
-    {
-      "place_id": "ChIJzyu0tTlHaTQRgkOSH2epUh8",
-      "name_zh": "天喜市場美式漢堡",
-      "rating": 4.8,
-      "total_ratings": 421,
-      "location": {
-        "lat": 24.0560467,
-        "lng": 120.4369052
-      },
-      "address": "彰化縣鹿港鎮萬壽路199號",
-      "note": "厚牛肉漢堡 手工製作",
-      "bayesian_score": 4.688,
-      "confidence": "❌ 低",
-      "rank": 5,
       "selected": true
     },
     {
@@ -105,9 +89,41 @@
       },
       "address": "彰化縣鹿港鎮菜園路126號",
       "note": "炭烤串燒 宵夜",
-      "bayesian_score": 4.6874,
+      "bayesian_score": 4.7028,
+      "confidence": "❌ 低",
+      "rank": 5,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJzU-GUdtHaTQR5Ftb4IWN0wo",
+      "name_zh": "輕輕的蔬食簡餐咖啡廳",
+      "rating": 4.8,
+      "total_ratings": 438,
+      "location": {
+        "lat": 24.0504515,
+        "lng": 120.4361972
+      },
+      "address": "彰化縣鹿港鎮金門巷62號",
+      "note": "蔬食 咖啡廳",
+      "bayesian_score": 4.7023,
       "confidence": "❌ 低",
       "rank": 6,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJzyu0tTlHaTQRgkOSH2epUh8",
+      "name_zh": "天喜市場美式漢堡",
+      "rating": 4.8,
+      "total_ratings": 421,
+      "location": {
+        "lat": 24.0560467,
+        "lng": 120.4369052
+      },
+      "address": "彰化縣鹿港鎮萬壽路199號",
+      "note": "美式漢堡",
+      "bayesian_score": 4.7012,
+      "confidence": "❌ 低",
+      "rank": 7,
       "selected": false
     },
     {
@@ -121,9 +137,9 @@
       },
       "address": "彰化縣鹿港鎮彰鹿路七段372號",
       "note": "台式小吃 平價",
-      "bayesian_score": 4.669,
+      "bayesian_score": 4.6847,
       "confidence": "❌ 低",
-      "rank": 7,
+      "rank": 8,
       "selected": false
     },
     {
@@ -137,9 +153,9 @@
       },
       "address": "彰化縣鹿港鎮成功路49號",
       "note": "創意炒飯 素食友善",
-      "bayesian_score": 4.6559,
+      "bayesian_score": 4.6732,
       "confidence": "❌ 低",
-      "rank": 8,
+      "rank": 9,
       "selected": false
     },
     {
@@ -153,9 +169,9 @@
       },
       "address": "彰化縣鹿港鎮復興南路77號",
       "note": "客家料理",
-      "bayesian_score": 4.649,
+      "bayesian_score": 4.6657,
       "confidence": "❌ 低",
-      "rank": 9,
+      "rank": 10,
       "selected": false
     },
     {
@@ -169,24 +185,8 @@
       },
       "address": "彰化縣鹿港鎮復興路112巷12號",
       "note": "創意料理 環境清新",
-      "bayesian_score": 4.6291,
+      "bayesian_score": 4.6427,
       "confidence": "❌ 低",
-      "rank": 10,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJkcTxwQdGaTQRR-rsDx9Sazg",
-      "name_zh": "禾火食堂",
-      "rating": 4.6,
-      "total_ratings": 1146,
-      "location": {
-        "lat": 24.0569006,
-        "lng": 120.4378172
-      },
-      "address": "彰化縣鹿港鎮復興路318號",
-      "note": "日式定食 環境舒適",
-      "bayesian_score": 4.6196,
-      "confidence": "✅ 高",
       "rank": 11,
       "selected": false
     },
@@ -199,11 +199,27 @@
         "lat": 24.053401,
         "lng": 120.4382029
       },
-      "address": "彰化縣鹿港鎮館前街9號",
-      "note": "鮭魚炒飯 售完為止",
-      "bayesian_score": 4.6169,
+      "address": "彰化縣鹿港鎮官前街9號",
+      "note": "鮭魚炒飯 售完打烊",
+      "bayesian_score": 4.633,
       "confidence": "❌ 低",
       "rank": 12,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJkcTxwQdGaTQRR-rsDx9Sazg",
+      "name_zh": "禾火食堂",
+      "rating": 4.6,
+      "total_ratings": 1147,
+      "location": {
+        "lat": 24.0569006,
+        "lng": 120.4378172
+      },
+      "address": "彰化縣鹿港鎮復興路318號",
+      "note": "日式料理",
+      "bayesian_score": 4.6288,
+      "confidence": "✅ 高",
+      "rank": 13,
       "selected": false
     },
     {
@@ -217,9 +233,9 @@
       },
       "address": "彰化縣鹿港鎮中山路420號",
       "note": "日式丼飯",
-      "bayesian_score": 4.5888,
+      "bayesian_score": 4.6044,
       "confidence": "❌ 低",
-      "rank": 13,
+      "rank": 14,
       "selected": false
     },
     {
@@ -233,9 +249,9 @@
       },
       "address": "彰化縣鹿港鎮光復路27號",
       "note": "海鮮快炒",
-      "bayesian_score": 4.4724,
+      "bayesian_score": 4.4789,
       "confidence": "✅ 高",
-      "rank": 14,
+      "rank": 15,
       "selected": false
     },
     {
@@ -249,9 +265,9 @@
       },
       "address": "彰化縣鹿港鎮鹿東路二段173號",
       "note": "活海鮮 份量大",
-      "bayesian_score": 4.3879,
+      "bayesian_score": 4.3938,
       "confidence": "✅ 高",
-      "rank": 15,
+      "rank": 16,
       "selected": false
     }
   ]

@@ -2,13 +2,10 @@
   "place_id": "ChIJt_T27f6taTQRM70jWOQTflQ",
   "name_zh": "7-ELEVEN 大山門市",
   "csv_type": "便利商店",
-  "rating": 4.3,
-  "total_ratings": 168,
   "location": {
     "lat": 24.6437605,
     "lng": 120.807436
   },
-  "source": "search_2026-05-20",
-  "target": "places",
-  "note": "後龍北側補給"
+  "source": "search_2026-05-21",
+  "note": "後龍路段補給"
 }

@@ -1,14 +1,22 @@
 {
   "place_id": "ChIJKwTxjR4RaTQR-3850tXAQqE",
-  "name_zh": "莫爾日嚐 MORE TASTE",
+  "name_zh": "莫爾日嚐MORE TASTE",
   "csv_type": "餐廳大休",
   "rating": 4.8,
-  "total_ratings": 480,
+  "total_ratings": 481,
   "location": {
     "lat": 24.342945,
-    "lng": 120.6252398
+    "lng": 120.62523979999999
   },
-  "source": "search_2026-05-20",
-  "target": "places",
-  "note": "大甲鎮瀾宮旁約250m 中午午餐首選"
+  "source": "api_2026-05-21",
+  "note": "法式料理咖啡廳 週一公休 11:00-14:00",
+  "opening_hours_text": [
+    "Monday: Closed",
+    "Tuesday: 11:00 AM – 2:00 PM, 5:00 – 8:30 PM",
+    "Wednesday: 11:00 AM – 2:00 PM, 5:00 – 8:30 PM",
+    "Thursday: 11:00 AM – 2:00 PM, 5:00 – 8:30 PM",
+    "Friday: 11:00 AM – 2:00 PM, 5:00 – 8:30 PM",
+    "Saturday: 11:00 AM – 3:00 PM, 5:00 – 8:30 PM",
+    "Sunday: 11:00 AM – 3:00 PM, 5:00 – 8:30 PM"
+  ]
 }

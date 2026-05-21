@@ -8,6 +8,15 @@
     "lat": 23.1007127,
     "lng": 120.0360012
   },
-  "source": "search_2026-05-21",
-  "note": "台灣本島極西點 黑白方型鋼造燈塔 ★主視覺"
+  "source": "api_2026-05-21",
+  "note": "台灣本島極西點 黑白方型鋼造燈塔 ★主視覺",
+  "opening_hours_text": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ]
 }

@@ -446,6 +446,13 @@ def cmd_verify_and_fix(args):
         info("[2/6] route（無 ORS_API_KEY，fallback gpx-waypoints）")
         cmd_gpx_waypoints(q)
 
+    # route 成功後把實際距離回寫 index.md
+    from .index_parser import cmd_update_index
+    try:
+        cmd_update_index(q)
+    except SystemExit:
+        pass  # 沒有 ors_distance_km 時跳過（gpx-waypoints 不會產生距離）
+
     info("[3/6] write-csv")
     cmd_write_csv(q)
 

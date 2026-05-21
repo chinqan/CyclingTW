@@ -1,10 +1,10 @@
-"""Phase 0：parse-index — 從 index.md 解析每日設定。"""
+"""Phase 0：parse-index — 從 index.md 解析每日設定；update-index — 回寫實際距離。"""
 from __future__ import annotations
 
 import json
 import re
 
-from .helpers import ROOT, plan_dir, write_json, die, info
+from .helpers import ROOT, plan_dir, read_json, write_json, die, info
 
 INDEX_TABLE_ROW = re.compile(
     r"^\|\s*\[?Day\s*(\d+)\]?[^|]*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|$"
@@ -63,3 +63,56 @@ def cmd_parse_index(args):
     write_json(out, cfg)
     info(f"已寫入 {out.relative_to(ROOT)}")
     print(json.dumps(cfg, ensure_ascii=False, indent=2))
+
+
+def cmd_update_index(args):
+    """從 places.json 的 ors_distance_km 回寫 index.md 的估計距離欄位。"""
+    n = args.day
+    places_file = plan_dir(n) / "places.json"
+    if not places_file.exists():
+        die(f"day{n}/_plan/places.json 不存在")
+
+    data = read_json(places_file)
+    dist_km = data.get("ors_distance_km")
+    if dist_km is None:
+        die(f"places.json 中沒有 ors_distance_km，請先執行 route {n}")
+
+    # 讀取 index.md
+    index_path = ROOT / "index.md"
+    lines = index_path.read_text(encoding="utf-8").splitlines()
+
+    updated = False
+    for i, line in enumerate(lines):
+        m = INDEX_TABLE_ROW.match(line.strip())
+        if not m:
+            continue
+        day = int(m.group(1))
+        if day != n:
+            continue
+
+        # 產生新的距離文字：「約 XX km」
+        new_dist = f"約 {dist_km:.0f} km"
+
+        # 取得原始距離欄位位置，替換之
+        # 把整行依 | 分割再重組
+        parts = line.split("|")
+        # parts: ['', ' [Day 2]...', ' 出發地 ', ' 目的地 ', ' 估計距離 ', ' 路線 ', ' 景點 ', '']
+        # 第 4 個欄位（index 4，0-based counting empty first）是估計距離
+        if len(parts) >= 7:
+            old_dist = parts[4].strip()
+            parts[4] = f" {new_dist} "
+            new_line = "|".join(parts)
+            if new_line != line:
+                lines[i] = new_line
+                updated = True
+                info(f"Day {n} 距離：{old_dist} → {new_dist}")
+            else:
+                info(f"Day {n} 距離已是最新（{new_dist}）")
+        break
+
+    if not updated:
+        info("index.md 無需更新")
+        return
+
+    index_path.write_text("\n".join(lines) + "\n" if lines[-1] != "" else "\n".join(lines), encoding="utf-8")
+    info(f"已更新 index.md")

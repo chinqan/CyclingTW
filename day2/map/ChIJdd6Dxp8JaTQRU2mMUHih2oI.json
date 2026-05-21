@@ -2,13 +2,10 @@
   "place_id": "ChIJdd6Dxp8JaTQRU2mMUHih2oI",
   "name_zh": "7-ELEVEN 苑裡門市",
   "csv_type": "便利商店",
-  "rating": 4.0,
-  "total_ratings": 71,
   "location": {
     "lat": 24.4381003,
     "lng": 120.6495196
   },
-  "source": "search_2026-05-20",
-  "target": "places",
-  "note": "苑裡台1線補給"
+  "source": "search_2026-05-21",
+  "note": "苑裡路段補給"
 }

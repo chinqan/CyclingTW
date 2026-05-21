@@ -3,12 +3,34 @@ from __future__ import annotations
 
 import json
 import math
+import os
 import sys
 from pathlib import Path
 from typing import Any
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 TEMPLATES_DIR = Path(__file__).resolve().parent.parent / "templates"
+
+
+def _load_dotenv():
+    """從專案根目錄 .env 載入環境變數（不覆蓋已設定的值）。"""
+    env_file = ROOT / ".env"
+    if not env_file.exists():
+        return
+    for line in env_file.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#"):
+            continue
+        if "=" not in line:
+            continue
+        key, _, val = line.partition("=")
+        key = key.strip()
+        val = val.strip().strip("'\"")
+        if key not in os.environ:
+            os.environ[key] = val
+
+
+_load_dotenv()
 
 
 def day_dir(n: int) -> Path:

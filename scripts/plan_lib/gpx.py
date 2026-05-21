@@ -250,6 +250,14 @@ def cmd_route(args):
     trkpt_count = len(re.findall(r"<trkpt", gpx))
     info(f"已寫入 {out.relative_to(ROOT)}（{len(gpx)} bytes, {rtept_count} rtept, {trkpt_count} trkpt）")
 
+    # 自動把實際距離回寫 index.md
+    from .index_parser import cmd_update_index
+    import argparse as _ap
+    try:
+        cmd_update_index(_ap.Namespace(day=n))
+    except SystemExit:
+        pass
+
 
 def cmd_gpx_save(args):
     """從 stdin 接收 GPX 文字，儲存為 dayN_route.gpx（備援用）。"""

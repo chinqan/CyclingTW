@@ -1,12 +1,13 @@
 {
   "place_id": "ChIJQ5bTDzuzaTQRnzEViKsrqdE",
-  "name_zh": "竹南車站",
+  "name_zh": "Zhunan",
   "csv_type": "起終點",
-  "rating": 4.0,
-  "total_ratings": 1184,
+  "rating": 4,
+  "total_ratings": 1186,
   "location": {
-    "lat": 24.686589,
-    "lng": 120.8805627
+    "lat": 24.686588999999998,
+    "lng": 120.88056270000001
   },
-  "source": "search_2026-05-20"
+  "source": "api_2026-05-21",
+  "note": "山海線交匯站"
 }

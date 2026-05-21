@@ -3,30 +3,30 @@
   "candidates": [
     {
       "place_id": "ChIJ0Z-zC6lHaTQREgeeip-pG2U",
-      "name_zh": "快樂蘇打 Happy Soda",
+      "name_zh": "快樂蘇打 Happy Soda鹿港店",
       "rating": 4.8,
-      "total_ratings": 1427,
+      "total_ratings": 1430,
       "location": {
         "lat": 24.0474456,
         "lng": 120.4364854
       },
       "address": "彰化縣鹿港鎮復興南路118號",
-      "note": "義式料理 份量大",
-      "source": "search_2026-05-20",
+      "note": "氣氛佳 份量足",
+      "source": "search_2026-05-21",
       "selected": true
     },
     {
       "place_id": "ChIJkcTxwQdGaTQRR-rsDx9Sazg",
       "name_zh": "禾火食堂",
       "rating": 4.6,
-      "total_ratings": 1146,
+      "total_ratings": 1147,
       "location": {
         "lat": 24.0569006,
         "lng": 120.4378172
       },
       "address": "彰化縣鹿港鎮復興路318號",
-      "note": "日式定食 環境舒適",
-      "source": "search_2026-05-20",
+      "note": "日式料理",
+      "source": "search_2026-05-21",
       "selected": false
     },
     {
@@ -87,17 +87,17 @@
     },
     {
       "place_id": "ChIJzU-GUdtHaTQR5Ftb4IWN0wo",
-      "name_zh": "輕輕的蔬食簡餐",
+      "name_zh": "輕輕的蔬食簡餐咖啡廳",
       "rating": 4.8,
-      "total_ratings": 437,
+      "total_ratings": 438,
       "location": {
         "lat": 24.0504515,
         "lng": 120.4361972
       },
       "address": "彰化縣鹿港鎮金門巷62號",
-      "note": "蔬食友善 老街旁",
-      "source": "search_2026-05-20",
-      "selected": true
+      "note": "蔬食 咖啡廳",
+      "source": "search_2026-05-21",
+      "selected": false
     },
     {
       "place_id": "ChIJzyu0tTlHaTQRgkOSH2epUh8",
@@ -109,9 +109,9 @@
         "lng": 120.4369052
       },
       "address": "彰化縣鹿港鎮萬壽路199號",
-      "note": "厚牛肉漢堡 手工製作",
-      "source": "search_2026-05-20",
-      "selected": true
+      "note": "美式漢堡",
+      "source": "search_2026-05-21",
+      "selected": false
     },
     {
       "place_id": "ChIJY6bb7QZGaTQRxFKBpiDEya4",
@@ -153,7 +153,7 @@
       "address": "彰化縣鹿港鎮菜園路126號",
       "note": "炭烤串燒 宵夜",
       "source": "search_2026-05-20",
-      "selected": false
+      "selected": true
     },
     {
       "place_id": "ChIJO_pCRHJHaTQRq0shwPp8rGg",
@@ -164,9 +164,9 @@
         "lat": 24.053401,
         "lng": 120.4382029
       },
-      "address": "彰化縣鹿港鎮館前街9號",
-      "note": "鮭魚炒飯 售完為止",
-      "source": "search_2026-05-20",
+      "address": "彰化縣鹿港鎮官前街9號",
+      "note": "鮭魚炒飯 售完打烊",
+      "source": "search_2026-05-21",
       "selected": false
     },
     {
@@ -210,6 +210,20 @@
       "note": "創意炒飯 素食友善",
       "source": "search_2026-05-20",
       "selected": false
+    },
+    {
+      "place_id": "ChIJPzC4BMlFaTQRrCS331iUfUQ",
+      "name_zh": "NU PASTA 彰化鹿港店",
+      "rating": 4.9,
+      "total_ratings": 1224,
+      "location": {
+        "lat": 24.0612959,
+        "lng": 120.4331666
+      },
+      "address": "彰化縣鹿港鎮鹿草路一段88號",
+      "note": "義式連鎖 平價",
+      "source": "search_2026-05-21",
+      "selected": true
     }
   ]
 }

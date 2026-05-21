@@ -1,127 +1,120 @@
 {
   "day": 3,
-  "bayesian_C": 4.1059,
-  "bayesian_m": 6709,
-  "pool_size": 17,
+  "bayesian_C": 4.3625,
+  "bayesian_m": 7324,
+  "pool_size": 16,
   "scores": {
     "ChIJbZ03BtZFaTQRVSahxk_O324": {
-      "name_zh": "鹿港老街",
+      "name_zh": "Lukang Old Street",
       "csv_type": "起終點",
       "rating": 4.5,
       "total_ratings": 42114,
-      "bayesian_score": 4.45
-    },
-    "EiBYaWx1byBCcmcsIFl1bmxpbiBDb3VudHksIFRhaXdhbiIuKiwKFAoSCa2bONxCtG40ESt17BKmLaPmEhQKEglB88dzJ7puNBGVKtEDfMTkeg": {
-      "name_zh": "西螺大橋",
-      "csv_type": "景點",
-      "rating": 0,
-      "total_ratings": 0,
-      "bayesian_score": 4.11
+      "bayesian_score": 4.48
     },
     "ChIJJfEEtoWibjQRzq8W6JSLfHo": {
-      "name_zh": "北港朝天宮",
+      "name_zh": "Beigang Chaotian Temple",
       "csv_type": "景點",
       "rating": 4.7,
-      "total_ratings": 24031,
-      "bayesian_score": 4.57
+      "total_ratings": 24030,
+      "bayesian_score": 4.62
     },
     "ChIJo-Z3SJgnbDQRbkeN9Rx3Mis": {
-      "name_zh": "東石漁人碼頭",
+      "name_zh": "Dongshi Fisherman's Wharf",
       "csv_type": "景點",
       "rating": 4.2,
       "total_ratings": 22902,
-      "bayesian_score": 4.18
+      "bayesian_score": 4.24
     },
     "ChIJodGzjxwnbDQRbSUzYK6OF7M": {
-      "name_zh": "蠔碳嘉烤鮮蚵吃到飽",
+      "name_zh": "蠔碳嘉烤鮮蚵吃到飽-東石鮮蚵吃到飽|推薦鮮蚵|必吃鮮蚵|人氣鮮蚵|道地美食|在地推薦餐廳|烤蚵吃到飽|必吃烤蚵",
       "csv_type": "餐廳大休",
       "rating": 4.9,
       "total_ratings": 4887,
-      "bayesian_score": 4.44
+      "bayesian_score": 4.58
     },
     "ChIJl927qSsobDQRUbouAy2tsUw": {
-      "name_zh": "布袋觀光漁港",
+      "name_zh": "Budai Harbor Fish Market",
       "csv_type": "景點",
-      "rating": 4.0,
-      "total_ratings": 31187,
-      "bayesian_score": 4.02
+      "rating": 4,
+      "total_ratings": 31188,
+      "bayesian_score": 4.07
     },
     "ChIJq6qqqtUqbDQR_ohO2eK2x4E": {
-      "name_zh": "井仔腳瓦盤鹽田",
+      "name_zh": "Jingzaijiao Tile-paved Salt Fields",
       "csv_type": "景點",
       "rating": 4.4,
-      "total_ratings": 21621,
-      "bayesian_score": 4.33
+      "total_ratings": 21624,
+      "bayesian_score": 4.39
     },
     "ChIJlfUqzNoqbDQRXymbU53YLr8": {
-      "name_zh": "北門遊客中心",
+      "name_zh": "Beimen Visitor Center",
       "csv_type": "景點",
       "rating": 4.1,
-      "total_ratings": 5380,
-      "bayesian_score": 4.1
+      "total_ratings": 5381,
+      "bayesian_score": 4.25
     },
     "ChIJTRbkzL_WbTQRTrfGfckHIrc": {
-      "name_zh": "七股鹽山",
+      "name_zh": "Qigu Salt Mountain",
       "csv_type": "景點",
       "rating": 3.9,
       "total_ratings": 20709,
-      "bayesian_score": 3.95
+      "bayesian_score": 4.02
     },
     "ChIJH7C_CY3WbTQRES0llB6FBg8": {
       "name_zh": "七股遊客中心",
       "csv_type": "起終點",
       "rating": 4.2,
       "total_ratings": 1884,
-      "bayesian_score": 4.13
+      "bayesian_score": 4.33
     },
     "ChIJofDyKzrYbTQROj-L3C0Zt8A": {
-      "name_zh": "鹿耳門公園",
+      "name_zh": "Luermen Park",
       "csv_type": "起終點",
       "rating": 4.3,
       "total_ratings": 198,
-      "bayesian_score": 4.11
+      "bayesian_score": 4.36
     },
     "ChIJ49OG8GnabTQR9wo1PrlXP2o": {
-      "name_zh": "國聖港燈塔",
+      "name_zh": "Westernmost Point of Taiwan",
       "csv_type": "景點",
       "rating": 4.4,
       "total_ratings": 3341,
-      "bayesian_score": 4.2
+      "bayesian_score": 4.37
     },
     "ChIJ31K_mRZSaTQRFuOu8CUyFzk": {
       "name_zh": "王功漁港",
       "csv_type": "景點",
       "rating": 4.2,
       "total_ratings": 2218,
-      "bayesian_score": 4.13
+      "bayesian_score": 4.32
     },
     "ChIJAQAAQMUqbDQR6j5bN-bwrbs": {
       "name_zh": "北門水晶教堂",
       "csv_type": "景點",
       "rating": 3.8,
       "total_ratings": 10672,
-      "bayesian_score": 3.92
+      "bayesian_score": 4.03
     },
     "ChIJXcT_pnonbDQRNMPl8zZT_-U": {
       "name_zh": "蚵老大海鮮碳烤",
       "csv_type": "餐廳大休",
       "rating": 4.8,
       "total_ratings": 6709,
-      "bayesian_score": 4.45
+      "bayesian_score": 4.57
     },
     "ChIJ9dOdnz7YbTQRJkhAq2apnGE": {
       "name_zh": "鹿耳門聖母廟",
       "csv_type": "景點",
       "rating": 4.7,
       "total_ratings": 5234,
-      "bayesian_score": 4.37
+      "bayesian_score": 4.5
     },
     "ChIJQwtjhvfYbTQRL3Gv_yRSotk": {
       "name_zh": "鹿耳門天后宮",
       "csv_type": "景點",
       "rating": 4.7,
       "total_ratings": 7940,
-      "bayesian_score": 4.43
+      "bayesian_score": 4.54
     }
   }
 }

@@ -1,9 +1,13 @@
 {
   "place_id": "ChIJq0e4ZdgPaTQRC3F3zZ10X5Q",
   "name_zh": "花義複合式餐飲",
+  "csv_type": "餐廳大休",
   "rating": 4.8,
   "total_ratings": 502,
-  "source": "search_2026-05-20",
-  "not_selected_reason": "距大甲鎮瀾宮 1.3km 超出午餐 1km 上限",
-  "target": "candidates_not_selected"
+  "location": {
+    "lat": 24.355185,
+    "lng": 120.631358
+  },
+  "source": "search_2026-05-21",
+  "note": "義式餐廳 兒童遊戲區 週一公休"
 }

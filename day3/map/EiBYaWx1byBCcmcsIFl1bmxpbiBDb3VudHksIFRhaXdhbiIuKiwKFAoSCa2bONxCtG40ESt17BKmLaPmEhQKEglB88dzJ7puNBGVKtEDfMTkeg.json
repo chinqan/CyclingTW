@@ -1,14 +1,14 @@
 {
   "place_id": "EiBYaWx1byBCcmcsIFl1bmxpbiBDb3VudHksIFRhaXdhbiIuKiwKFAoSCa2bONxCtG40ESt17BKmLaPmEhQKEglB88dzJ7puNBGVKtEDfMTkeg",
-  "name_zh": "西螺大橋",
+  "name_zh": "Xiluo Bridge",
   "csv_type": "景點",
   "search_keyword": "西螺大橋 雲林縣西螺鎮",
-  "rating": 0,
-  "total_ratings": 0,
+  "rating": null,
+  "total_ratings": null,
   "location": {
     "lat": 23.8103145,
     "lng": 120.460342
   },
   "note": "約09:30抵達 彰雲交界紅色鐵橋 拍照5分鐘 km約30",
-  "source": "google_maps"
+  "source": "api_2026-05-21"
 }

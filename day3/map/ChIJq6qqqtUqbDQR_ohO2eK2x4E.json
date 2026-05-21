@@ -1,14 +1,24 @@
 {
   "place_id": "ChIJq6qqqtUqbDQR_ohO2eK2x4E",
-  "name_zh": "井仔腳瓦盤鹽田",
+  "name_zh": "Jingzaijiao Tile-paved Salt Fields",
   "csv_type": "景點",
   "search_keyword": "井仔腳瓦盤鹽田 台南市北門區",
   "rating": 4.4,
-  "total_ratings": 21621,
+  "total_ratings": 21624,
   "location": {
     "lat": 23.2588308,
-    "lng": 120.107568
+    "lng": 120.10756800000001
   },
   "note": "約14:45抵達 台灣最古老鹽田 棋盤狀鹽結晶池 km約100",
-  "source": "google_maps"
+  "source": "api_2026-05-21",
+  "opening_hours_text": [
+    "Monday: 9:00 AM – 7:00 PM",
+    "Tuesday: 9:00 AM – 7:00 PM",
+    "Wednesday: 9:00 AM – 7:00 PM",
+    "Thursday: 9:00 AM – 7:00 PM",
+    "Friday: 9:00 AM – 7:00 PM",
+    "Saturday: 9:00 AM – 7:00 PM",
+    "Sunday: 9:00 AM – 7:00 PM"
+  ],
+  "editorial_summary": "Historic salt field offering a chance to see how salt is made & famous sunset views."
 }

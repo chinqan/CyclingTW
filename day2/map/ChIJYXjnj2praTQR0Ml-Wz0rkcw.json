@@ -2,13 +2,10 @@
   "place_id": "ChIJYXjnj2praTQR0Ml-Wz0rkcw",
   "name_zh": "7-ELEVEN 港務門市",
   "csv_type": "便利商店",
-  "rating": 4.5,
-  "total_ratings": 139,
   "location": {
     "lat": 24.2576027,
     "lng": 120.5236803
   },
-  "source": "search_2026-05-20",
-  "target": "places",
-  "note": "梧棲區評分最高 高美濕地前補給"
+  "source": "search_2026-05-21",
+  "note": "梧棲路段補給"
 }

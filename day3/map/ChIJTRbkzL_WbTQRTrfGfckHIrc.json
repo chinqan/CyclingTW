@@ -1,14 +1,24 @@
 {
   "place_id": "ChIJTRbkzL_WbTQRTrfGfckHIrc",
-  "name_zh": "七股鹽山",
+  "name_zh": "Qigu Salt Mountain",
   "csv_type": "景點",
   "search_keyword": "七股鹽山 台南市七股區鹽埕里66號",
   "rating": 3.9,
   "total_ratings": 20709,
   "location": {
     "lat": 23.1542387,
-    "lng": 120.1001211
+    "lng": 120.10012110000001
   },
   "note": "約15:45抵達 純白巨型鹽山地標 km約113",
-  "source": "google_maps"
+  "source": "api_2026-05-21",
+  "opening_hours_text": [
+    "Monday: 9:00 AM – 6:00 PM",
+    "Tuesday: 9:00 AM – 6:00 PM",
+    "Wednesday: 9:00 AM – 6:00 PM",
+    "Thursday: 9:00 AM – 6:00 PM",
+    "Friday: 9:00 AM – 6:00 PM",
+    "Saturday: 9:00 AM – 6:00 PM",
+    "Sunday: 9:00 AM – 6:00 PM"
+  ],
+  "editorial_summary": "Attraction with a mountain made of salt, bumper boats, go karts & exhibits about the salt industry."
 }

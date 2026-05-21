@@ -5,9 +5,18 @@
   "rating": 4.3,
   "total_ratings": 198,
   "location": {
-    "lat": 23.066061,
-    "lng": 120.126992
+    "lat": 23.066061100000002,
+    "lng": 120.1269917
   },
-  "source": "search_2026-05-21",
-  "note": "Day3 終點 台南安南區鹿耳門 近聖母廟"
+  "source": "api_2026-05-21",
+  "note": "Day3 終點 台南安南區鹿耳門 近聖母廟",
+  "opening_hours_text": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ]
 }
