@@ -30,7 +30,7 @@
 
 【10 天路線摘要】
 {% for d in days -%}
-- Day {{ d.day }}：{{ d.origin }} → {{ d.destination }}（{{ d.distance }}）
+- Day {{ d.day }}：{{ d.origin | cityname }} → {{ d.destination | cityname }}
 {% endfor %}
 
 【四極點視覺特徵 — 強制防呆，避免四座燈塔畫成一模一樣】

@@ -75,6 +75,28 @@ def _attach_poles(days: list[dict]) -> None:
         d["pole"] = pole_by_day.get(d["day"])
 
 
+_ADMIN_PREFIXES = ("台北", "新北", "桃園", "苗栗", "台中", "彰化", "南投",
+                   "雲林", "嘉義", "台南", "高雄", "屏東", "台東", "花蓮",
+                   "宜蘭", "基隆")
+_PLACE_SUFFIXES = ("柳堤公園", "車站", "新站", "公園", "老街", "漁港", "燈塔")
+
+
+def _cityname(s: str) -> str:
+    """縮短地名：去括號 → 取最後一個 → 之後的段落 → 取第一個 / 前的名稱 → 去常見後綴與行政前綴。"""
+    s = re.sub(r'\s*\([^)]*\)', '', s).strip()          # 去掉括號
+    s = re.split(r'\s*→\s*', s)[-1].strip()             # 取最後 → 段
+    s = re.split(r'\s*/\s*', s)[0].strip()              # 取第一個 / 前
+    for sfx in _PLACE_SUFFIXES:
+        if s.endswith(sfx):
+            s = s[:-len(sfx)].strip()
+            break
+    for pfx in sorted(_ADMIN_PREFIXES, key=len, reverse=True):
+        if s.startswith(pfx) and len(s) > len(pfx):
+            s = s[len(pfx):].strip()
+            break
+    return s
+
+
 def _derive_cover_vars() -> dict:
     md_text = INDEX_PATH.read_text(encoding="utf-8")
     title = _parse_title(md_text)
@@ -126,6 +148,7 @@ def cmd_render_cover_prompt(args):
         keep_trailing_newline=True,
         trim_blocks=False,
     )
+    env.filters["cityname"] = _cityname
     tpl = env.get_template("cover_prompt.md.j2")
     COVER_OUT_DIR.mkdir(parents=True, exist_ok=True)
     COVER_PROMPT_PATH.write_text(tpl.render(**cover_vars), encoding="utf-8")
