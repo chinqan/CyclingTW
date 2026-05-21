@@ -93,6 +93,9 @@ def _derive_cover_vars() -> dict:
     out.setdefault("lighting", "柔和清晨明亮光線、清新藍天白雲")
     out.setdefault("allowed_elements", "台灣山脈稜線、城市縮小模型、西部海岸線、東部太平洋海岸、公路與鐵道路網")
     out.setdefault("enhancement", "畫面具有故事感與旅程感、呈現10天環島四極點全程概念、帶有完騎成就解鎖氛圍")
+    out.setdefault("action", "站在台灣地圖模型中央、高舉雙手慶祝完騎、公路車靠在身旁、環島路線在腳下完整呈現")
+    out.setdefault("expression", "開心、自豪、完成10天環島四極點挑戰的巔峰成就感")
+    out.setdefault("scenario", "完騎返抵蘆洲柳堤公園、夕陽金光灑落、四極點全數達成")
 
     COVER_OUT_DIR.mkdir(parents=True, exist_ok=True)
     write_json(COVER_VARS_PATH, out)
