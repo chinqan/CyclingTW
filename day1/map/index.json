@@ -6,122 +6,6 @@
   "bayesian_m": 1423,
   "places": [
     {
-      "place_id": "ChIJo69tyO40aDQReBjpbzodIuo",
-      "name_zh": "新竹南寮漁港",
-      "csv_type": "景點",
-      "rating": 4.2,
-      "total_ratings": 6813,
-      "location": {
-        "lat": 24.84875,
-        "lng": 120.9252429
-      },
-      "source": "place_details_2026-05-20"
-    },
-    {
-      "place_id": "ChIJ7Ws-1bOoQjQRehrUbGzlo1A",
-      "name_zh": "蘆洲柳堤公園",
-      "csv_type": "起終點",
-      "rating": 4.3,
-      "total_ratings": 1407,
-      "location": {
-        "lat": 25.088225,
-        "lng": 121.4626333
-      },
-      "source": "search_2026-05-20",
-      "note": "早上07:00出發 河濱起點 有公廁與停車場"
-    },
-    {
-      "place_id": "ChIJ_3VUnGilQjQR7qp73ndM8Cg",
-      "name_zh": "八里左岸自行車道",
-      "csv_type": "景點",
-      "rating": 4.4,
-      "total_ratings": 1423,
-      "location": {
-        "lat": 25.1511404,
-        "lng": 121.4429224
-      },
-      "source": "search_2026-05-20",
-      "note": "約08:30抵達 淡水河口壯觀河景 觀音山倒影 km約15 ★主視覺"
-    },
-    {
-      "place_id": "ChIJ4z5kWWOhQjQRcl-uSRbQCN0",
-      "name_zh": "水牛坑越野場地",
-      "csv_type": "景點",
-      "rating": 4.2,
-      "total_ratings": 4737,
-      "location": {
-        "lat": 25.1198168,
-        "lng": 121.3188263
-      },
-      "source": "search_2026-05-20",
-      "note": "約09:45抵達 特殊峽谷地貌 km約28"
-    },
-    {
-      "place_id": "ChIJAQAAAKyfQjQR7fhsd-lMPDU",
-      "name_zh": "竹圍漁港",
-      "csv_type": "景點",
-      "rating": 4.2,
-      "total_ratings": 41577,
-      "location": {
-        "lat": 25.117158,
-        "lng": 121.2444776
-      },
-      "source": "search_2026-05-20",
-      "note": "約10:45抵達 彩虹橋漁港地標 km約43"
-    },
-    {
-      "place_id": "ChIJU9iHxPQuaDQR2v3_t-04zTU",
-      "name_zh": "永安漁港",
-      "csv_type": "景點",
-      "rating": 4.1,
-      "total_ratings": 38608,
-      "location": {
-        "lat": 24.987719,
-        "lng": 121.01578839
-      },
-      "source": "search_2026-05-20",
-      "note": "約12:00抵達 大型觀光漁港 km約70"
-    },
-    {
-      "place_id": "ChIJxe6O0FIvaDQRPYMEXA0HqUM",
-      "name_zh": "江戶壽司（永安漁港）",
-      "csv_type": "餐廳大休",
-      "rating": 4.8,
-      "total_ratings": 534,
-      "location": {
-        "lat": 24.9877247,
-        "lng": 121.01464919
-      },
-      "source": "search_2026-05-20",
-      "note": "12:00-13:30午餐大休 週一公休改海晏漁村料理"
-    },
-    {
-      "place_id": "ChIJFxDjEO40aDQR8dbtyPOa_3M",
-      "name_zh": "新竹南寮漁港",
-      "csv_type": "景點",
-      "rating": 4.2,
-      "total_ratings": 1753,
-      "location": {
-        "lat": 24.8483333,
-        "lng": 120.9302778
-      },
-      "source": "search_2026-05-20",
-      "note": "約15:30抵達 海鮮市集 km約90"
-    },
-    {
-      "place_id": "ChIJQ5bTDzuzaTQRnzEViKsrqdE",
-      "name_zh": "竹南車站",
-      "csv_type": "起終點",
-      "rating": 4.0,
-      "total_ratings": 1184,
-      "location": {
-        "lat": 24.686588999,
-        "lng": 120.8805627
-      },
-      "source": "search_2026-05-20",
-      "note": "約17:00抵達 當日終點"
-    },
-    {
       "place_id": "ChIJbyTPrfWlQjQRi8Cuce8nH-E",
       "name_zh": "7-ELEVEN 里商門市",
       "csv_type": "便利商店",
@@ -159,6 +43,110 @@
       },
       "source": "search_2026-05-20",
       "note": "午餐後補給 距永安漁港200m km約70"
+    },
+    {
+      "place_id": "ChIJ_3VUnGilQjQR7qp73ndM8Cg",
+      "name_zh": "八里左岸自行車道",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 1423,
+      "location": {
+        "lat": 25.1511404,
+        "lng": 121.4429224
+      },
+      "source": "search_2026-05-21",
+      "note": "淡水河口壯觀河景 觀音山倒影 km約15 ★主視覺"
+    },
+    {
+      "place_id": "ChIJ4z5kWWOhQjQRcl-uSRbQCN0",
+      "name_zh": "水牛坑越野場地",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 4737,
+      "location": {
+        "lat": 25.1198168,
+        "lng": 121.3188263
+      },
+      "source": "search_2026-05-21",
+      "note": "特殊峽谷地貌 km約28"
+    },
+    {
+      "place_id": "ChIJAQAAAKyfQjQR7fhsd-lMPDU",
+      "name_zh": "竹圍漁港",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 41578,
+      "location": {
+        "lat": 25.117158,
+        "lng": 121.2444776
+      },
+      "source": "search_2026-05-21",
+      "note": "彩虹橋漁港地標 km約43"
+    },
+    {
+      "place_id": "ChIJU9iHxPQuaDQR2v3_t-04zTU",
+      "name_zh": "永安漁港",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 38612,
+      "location": {
+        "lat": 24.987719,
+        "lng": 121.0157884
+      },
+      "source": "search_2026-05-21",
+      "note": "大型觀光漁港 km約70"
+    },
+    {
+      "place_id": "ChIJo69tyO40aDQReBjpbzodIuo",
+      "name_zh": "新竹南寮漁港",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 6816,
+      "location": {
+        "lat": 24.8487505,
+        "lng": 120.9252429
+      },
+      "source": "search_2026-05-21",
+      "note": "海鮮市集 17公里海岸風景區入口 km約90"
+    },
+    {
+      "place_id": "ChIJ7Ws-1bOoQjQRehrUbGzlo1A",
+      "name_zh": "蘆洲柳堤公園",
+      "csv_type": "起終點",
+      "rating": 4.3,
+      "total_ratings": 1407,
+      "location": {
+        "lat": 25.088225,
+        "lng": 121.4626333
+      },
+      "source": "search_2026-05-21",
+      "note": "早上07:00出發 河濱起點 有公廁與停車場"
+    },
+    {
+      "place_id": "ChIJQ5bTDzuzaTQRnzEViKsrqdE",
+      "name_zh": "竹南車站",
+      "csv_type": "起終點",
+      "rating": 4.0,
+      "total_ratings": 1185,
+      "location": {
+        "lat": 24.686589,
+        "lng": 120.8805627
+      },
+      "source": "search_2026-05-21",
+      "note": "約17:00抵達 當日終點 台鐵山海線交會"
+    },
+    {
+      "place_id": "ChIJxe6O0FIvaDQRPYMEXA0HqUM",
+      "name_zh": "江戶壽司（永安漁港）",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 534,
+      "location": {
+        "lat": 24.9877247,
+        "lng": 121.0146492
+      },
+      "source": "search_2026-05-21",
+      "note": "12:00-13:30午餐大休 週一公休改海晏漁村料理"
     }
   ],
   "candidates_not_selected": [
@@ -328,6 +316,19 @@
       },
       "source": "search_2026-05-20",
       "note": "5.0分但僅 142 則評論，加權後輸給江戶壽司"
+    },
+    {
+      "place_id": "ChIJFxDjEO40aDQR8dbtyPOa_3M",
+      "name_zh": "南寮漁港(natural_feature)",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 1753,
+      "location": {
+        "lat": 24.8483333,
+        "lng": 120.9302778
+      },
+      "source": "search_2026-05-21",
+      "note": "同地不同 place_id 評論數較少"
     }
   ]
 }

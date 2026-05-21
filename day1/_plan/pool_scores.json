@@ -4,20 +4,6 @@
   "bayesian_m": 1588,
   "pool_size": 18,
   "scores": {
-    "ChIJo69tyO40aDQReBjpbzodIuo": {
-      "name_zh": "新竹南寮漁港",
-      "csv_type": "景點",
-      "rating": 4.2,
-      "total_ratings": 6813,
-      "bayesian_score": 4.23
-    },
-    "ChIJ7Ws-1bOoQjQRehrUbGzlo1A": {
-      "name_zh": "蘆洲柳堤公園",
-      "csv_type": "起終點",
-      "rating": 4.3,
-      "total_ratings": 1407,
-      "bayesian_score": 4.33
-    },
     "ChIJ_3VUnGilQjQR7qp73ndM8Cg": {
       "name_zh": "八里左岸自行車道",
       "csv_type": "景點",
@@ -36,15 +22,36 @@
       "name_zh": "竹圍漁港",
       "csv_type": "景點",
       "rating": 4.2,
-      "total_ratings": 41577,
+      "total_ratings": 41578,
       "bayesian_score": 4.21
     },
     "ChIJU9iHxPQuaDQR2v3_t-04zTU": {
       "name_zh": "永安漁港",
       "csv_type": "景點",
       "rating": 4.1,
-      "total_ratings": 38608,
+      "total_ratings": 38612,
       "bayesian_score": 4.11
+    },
+    "ChIJo69tyO40aDQReBjpbzodIuo": {
+      "name_zh": "新竹南寮漁港",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 6816,
+      "bayesian_score": 4.23
+    },
+    "ChIJ7Ws-1bOoQjQRehrUbGzlo1A": {
+      "name_zh": "蘆洲柳堤公園",
+      "csv_type": "起終點",
+      "rating": 4.3,
+      "total_ratings": 1407,
+      "bayesian_score": 4.33
+    },
+    "ChIJQ5bTDzuzaTQRnzEViKsrqdE": {
+      "name_zh": "竹南車站",
+      "csv_type": "起終點",
+      "rating": 4.0,
+      "total_ratings": 1185,
+      "bayesian_score": 4.2
     },
     "ChIJxe6O0FIvaDQRPYMEXA0HqUM": {
       "name_zh": "江戶壽司（永安漁港）",
@@ -52,20 +59,6 @@
       "rating": 4.8,
       "total_ratings": 534,
       "bayesian_score": 4.47
-    },
-    "ChIJFxDjEO40aDQR8dbtyPOa_3M": {
-      "name_zh": "新竹南寮漁港",
-      "csv_type": "景點",
-      "rating": 4.2,
-      "total_ratings": 1753,
-      "bayesian_score": 4.27
-    },
-    "ChIJQ5bTDzuzaTQRnzEViKsrqdE": {
-      "name_zh": "竹南車站",
-      "csv_type": "起終點",
-      "rating": 4.0,
-      "total_ratings": 1184,
-      "bayesian_score": 4.2
     },
     "ChIJXTIi5-k1aDQRmhDM-S0vTxw": {
       "name_zh": "新竹17公里海岸風景區",
@@ -129,6 +122,13 @@
       "rating": 5.0,
       "total_ratings": 142,
       "bayesian_score": 4.41
+    },
+    "ChIJFxDjEO40aDQR8dbtyPOa_3M": {
+      "name_zh": "南寮漁港(natural_feature)",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 1753,
+      "bayesian_score": 4.27
     }
   }
 }

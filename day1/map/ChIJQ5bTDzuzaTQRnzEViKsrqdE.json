@@ -3,11 +3,11 @@
   "name_zh": "竹南車站",
   "csv_type": "起終點",
   "rating": 4.0,
-  "total_ratings": 1184,
+  "total_ratings": 1185,
   "location": {
-    "lat": 24.686588999,
+    "lat": 24.686589,
     "lng": 120.8805627
   },
-  "source": "search_2026-05-20",
-  "note": "約17:00抵達 當日終點"
+  "source": "search_2026-05-21",
+  "note": "約17:00抵達 當日終點 台鐵山海線交會"
 }

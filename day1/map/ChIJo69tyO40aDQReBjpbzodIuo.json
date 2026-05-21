@@ -3,11 +3,11 @@
   "name_zh": "新竹南寮漁港",
   "csv_type": "景點",
   "rating": 4.2,
-  "total_ratings": 6813,
+  "total_ratings": 6816,
   "location": {
-    "lat": 24.84875,
+    "lat": 24.8487505,
     "lng": 120.9252429
   },
-  "source": "place_details_2026-05-20",
-  "target": "places"
+  "source": "search_2026-05-21",
+  "note": "海鮮市集 17公里海岸風景區入口 km約90"
 }

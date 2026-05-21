@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 import json
 import statistics
+import sys
 
 from .helpers import ROOT, plan_dir, map_dir, read_json, write_json, die, info, haversine_km
 from .mirror import load_mirror_index
@@ -112,6 +113,8 @@ def cmd_score_pool(args):
                      "pool_size": len(rated), "scores": scores})
     info(f"已寫入 {out.relative_to(ROOT)}（{len(rated)} 筆，C={C}, m={m}）")
 
+    if getattr(args, "quiet", False):
+        return
     print(f"=== Day {n} 候選池全評（{len(rated)} 筆，C={C}, m={m}）===\n")
     by_type: dict[str, list[dict]] = {}
     for pid, s in scores.items():
@@ -126,11 +129,11 @@ def cmd_score_pool(args):
         print()
 
 
-def _ensure_pool_scores(n: int) -> dict:
+def _ensure_pool_scores(n: int, quiet: bool = True) -> dict:
     pool_path = plan_dir(n) / "pool_scores.json"
     if not pool_path.exists():
         info(f"找不到 {pool_path.relative_to(ROOT)}，自動執行 score-pool")
-        cmd_score_pool(argparse.Namespace(day=n))
+        cmd_score_pool(argparse.Namespace(day=n, quiet=quiet))
     return read_json(pool_path)
 
 
@@ -191,11 +194,45 @@ def cmd_compute(args):
         info(f"⚠️  以下入選點不在 mirror 候選池，用 places.json 自有資料補算：{', '.join(fallback_used)}")
 
     write_json(f, data)
-    print(f"C = {C}, m = {m}（來自 {pool_data['pool_size']} 筆候選池）\n")
-    for p in data["places"]:
-        score = p.get("bayesian_score")
-        print(f"  [{p.get('csv_type','-'):<6}] {p['name_zh']:<22} "
-              f"R={p.get('rating')} V={p.get('total_ratings')} → {score}")
+    print(f"C = {C}, m = {m}（來自 {pool_data['pool_size']} 筆候選池）")
+    if not getattr(args, "quiet", False):
+        print()
+        for p in data["places"]:
+            score = p.get("bayesian_score")
+            print(f"  [{p.get('csv_type','-'):<6}] {p['name_zh']:<22} "
+                  f"R={p.get('rating')} V={p.get('total_ratings')} → {score}")
+
+    # ── Phase 0-3 完成提醒：強制重做 Phase 3.5 / Phase 4 的依賴項 ──
+    from .helpers import day_dir
+    dinner_map = day_dir(n) / "dinner_map"
+    dinner_json = plan_dir(n) / "dinner.json"
+    segments_json = plan_dir(n) / "segments.json"
+
+    todos: list[str] = []
+    if any(dinner_map.glob("ChIJ*.json")) if dinner_map.exists() else False:
+        if not dinner_json.exists() or dinner_json.stat().st_mtime < f.stat().st_mtime:
+            todos.append(f"dinner-pool {n}    # places.json 已更新，重算晚餐 top 5 (Phase 3.5)")
+    else:
+        todos.append(f"# 先用 MCP 搜尋終點周邊餐廳 → dinner-put {n} → dinner-pool {n} (Phase 3.5)")
+
+    ba_ok = False
+    if segments_json.exists():
+        try:
+            seg = read_json(segments_json)
+            ba_ok = bool(seg.get("better_attractions"))
+            if ba_ok and segments_json.stat().st_mtime < f.stat().st_mtime:
+                todos.append(f"# 重檢 segments.json.better_attractions（places.json 已變更，建議重跑 review {n} 後更新）")
+        except Exception:
+            pass
+    if not ba_ok:
+        todos.append(f"review {n}          # 看排名後把備案表格寫進 segments.json.better_attractions (Phase 4)")
+
+    if todos:
+        print("\n" + "─" * 70, file=sys.stderr)
+        print(f"[next] Phase 0-3 已完成，繼續 render-md {n} 前還需要：", file=sys.stderr)
+        for t in todos:
+            print(f"  · {t}", file=sys.stderr)
+        print("─" * 70, file=sys.stderr)
 
 
 def cmd_review(args):
@@ -229,21 +266,22 @@ def cmd_review(args):
     print(f"=== Day {n} 候選池全評（{pool_data['pool_size']} 筆，C={C}, m={m}）===")
     if locked_pids:
         print(f"🔒 必經景點鎖定（不參與替換建議）：{', '.join(landmarks)}")
-    print()
-    for t in ["起終點", "景點", "餐廳大休"]:
-        items = sorted(by_type.get(t, []), key=lambda x: -x["bayesian_score"])
-        if not items:
-            continue
-        print(f"[{t}]")
-        for p in items:
-            if p["place_id"] in locked_pids:
-                mark = "🔒"
-            elif p["place_id"] in selected_pids:
-                mark = "★"
-            else:
-                mark = " "
-            print(f"  {mark} {p['name_zh']:<28} R={p['rating']} V={p['total_ratings']:>6} → {p['bayesian_score']}")
+    if not getattr(args, "quiet", False):
         print()
+        for t in ["起終點", "景點", "餐廳大休"]:
+            items = sorted(by_type.get(t, []), key=lambda x: -x["bayesian_score"])
+            if not items:
+                continue
+            print(f"[{t}]")
+            for p in items:
+                if p["place_id"] in locked_pids:
+                    mark = "🔒"
+                elif p["place_id"] in selected_pids:
+                    mark = "★"
+                else:
+                    mark = " "
+                print(f"  {mark} {p['name_zh']:<28} R={p['rating']} V={p['total_ratings']:>6} → {p['bayesian_score']}")
+            print()
 
     swaps = []
     for t, items in by_type.items():
@@ -270,3 +308,166 @@ def cmd_review(args):
             print()
     else:
         print("✓ 當前選擇仍是各類別 Bayesian 最高（或可替換對象皆為鎖定必經點），無需替換")
+
+
+def cmd_compose_better_attractions(args):
+    """從 pool_scores.json 自動產出 segments.json.better_attractions markdown 表格。
+
+    規則：
+      - 景點備案：未入選、未鎖定（非必經）的 csv_type==景點，前 5 名
+      - 餐廳備案：未入選的 csv_type==餐廳大休，前 3 名
+      - 寫進 segments.json（若該欄位已有內容且非 --overwrite，不覆蓋；用 --dry-run 只印不寫）
+    """
+    n = args.day
+    sel_file = plan_dir(n) / "places.json"
+    seg_file = plan_dir(n) / "segments.json"
+    if not sel_file.exists():
+        die(f"找不到 {sel_file.relative_to(ROOT)}")
+    if not seg_file.exists():
+        die(f"找不到 {seg_file.relative_to(ROOT)}")
+
+    sel_data = read_json(sel_file)
+    selected_pids = {p["place_id"] for p in sel_data["places"]}
+
+    landmarks: list[str] = []
+    cfg_file = plan_dir(n) / "config.json"
+    if cfg_file.exists():
+        landmarks = read_json(cfg_file).get("must_visit_landmarks", []) or []
+    locked_pids: set[str] = set()
+    for p in sel_data["places"]:
+        name = p.get("name_zh", "")
+        if any(lm and lm in name for lm in landmarks):
+            locked_pids.add(p["place_id"])
+
+    pool_data = _ensure_pool_scores(n)
+    scores: dict[str, dict] = pool_data["scores"]
+
+    by_type: dict[str, list[dict]] = {}
+    for pid, s in scores.items():
+        by_type.setdefault(s["csv_type"], []).append({**s, "place_id": pid})
+
+    spot_candidates = sorted(
+        [c for c in by_type.get("景點", [])
+         if c["place_id"] not in selected_pids and c["place_id"] not in locked_pids],
+        key=lambda x: -x["bayesian_score"],
+    )[:5]
+    rest_candidates = sorted(
+        [c for c in by_type.get("餐廳大休", []) if c["place_id"] not in selected_pids],
+        key=lambda x: -x["bayesian_score"],
+    )[:3]
+
+    if not spot_candidates and not rest_candidates:
+        info("候選池無未入選備案，better_attractions 設為單行說明")
+        body = "> *當日候選池所有可評分點位皆已入選或為鎖定必經點，無加碼推薦。*"
+    else:
+        lines = [
+            f"> 以下為沿途 Bayesian 排名較高但未排入路線的備選點位"
+            f"（資料來源：`python3 scripts/plan.py review {n}` 候選池，{pool_data['pool_size']} 筆）。"
+            f"可視當天體力 / 天候 / 時間彈性加入。\n",
+        ]
+        if spot_candidates:
+            lines.append("### 景點備案\n")
+            lines.append("| 名次 | 名稱 | 評分 | 留言數 | 貝葉斯分 |")
+            lines.append("|:---:|:---|:---:|---:|:---:|")
+            for i, c in enumerate(spot_candidates, 1):
+                lines.append(
+                    f"| {i} | {c['name_zh']} | {c['rating']}★ | "
+                    f"{c['total_ratings']:,} | {c['bayesian_score']} |"
+                )
+            lines.append("")
+        if rest_candidates:
+            lines.append("### 午餐 / 餐廳大休備案\n")
+            lines.append("| 名次 | 店名 | 評分 | 留言數 | 貝葉斯分 |")
+            lines.append("|:---:|:---|:---:|---:|:---:|")
+            for i, c in enumerate(rest_candidates, 1):
+                lines.append(
+                    f"| {i} | {c['name_zh']} | {c['rating']}★ | "
+                    f"{c['total_ratings']:,} | {c['bayesian_score']} |"
+                )
+            lines.append("")
+        lines.append(
+            "> 💡 *表格由 `compose-better-attractions` 從候選池自動生成；"
+            "如需補敘述（路況、時段建議等），直接編輯 `_plan/segments.json.better_attractions` 即可。*"
+        )
+        body = "\n".join(lines).rstrip()
+
+    if args.dry_run:
+        print(body)
+        return
+
+    seg = read_json(seg_file)
+    if seg.get("better_attractions") and not args.overwrite:
+        # 既有內容保留，但 touch mtime 表示「已驗證仍有效」，避免 render-md 預檢誤判
+        import os, time
+        now = time.time()
+        os.utime(seg_file, (now, now))
+        info(
+            f"segments.json.better_attractions 已有 {len(seg['better_attractions'])} chars 內容；"
+            f"加 --overwrite 才會覆蓋。預覽如下：\n"
+        )
+        print(body)
+        return
+
+    seg["better_attractions"] = body
+    write_json(seg_file, seg)
+    info(f"已寫入 segments.json.better_attractions（{len(body)} chars）")
+
+
+def cmd_verify_and_fix(args):
+    """依正確順序重跑 Phase 0-3 / 3.5 / 4 機械步驟，讓 render-md 通過預檢。
+
+    不能自動補的事項（places.json / segments.json 主敘述 / poster_vars.json 手寫場景文字）
+    會印出，由使用者補完再跑。
+    """
+    n = args.day
+    from .csv_out import cmd_write_csv
+    from .gpx import cmd_route, cmd_gpx_waypoints
+    from .render import cmd_render_prompt, cmd_render_md
+    from .dinner import cmd_dinner_pool
+    import os
+
+    q = argparse.Namespace(day=n, quiet=True)
+
+    info(f"=== verify-and-fix {n}：依序重生 Phase 0-3 / 3.5 / 4 機械產出 ===")
+
+    info("[1/6] compute")
+    cmd_compute(q)
+
+    info("[2/6] write-csv")
+    cmd_write_csv(q)
+
+    info("[3/6] route（無 ORS_API_KEY 自動 fallback gpx-waypoints）")
+    if os.environ.get("ORS_API_KEY"):
+        try:
+            cmd_route(q)
+        except SystemExit:
+            info("    route 失敗，改用 gpx-waypoints")
+            cmd_gpx_waypoints(q)
+    else:
+        cmd_gpx_waypoints(q)
+
+    info("[4/6] render-prompt（自動同步 poster_vars 結構欄位）")
+    cmd_render_prompt(argparse.Namespace(day=n, no_sync=False, quiet=True))
+
+    info("[5/6] dinner-pool（若 dinner_map/ 有候選）")
+    from .helpers import day_dir
+    if any((day_dir(n) / "dinner_map").glob("ChIJ*.json")) if (day_dir(n) / "dinner_map").exists() else False:
+        # dinner_pool 需要 stdin tty 判斷，包一層
+        import sys
+        orig_isatty = sys.stdin.isatty
+        sys.stdin.isatty = lambda: True
+        try:
+            cmd_dinner_pool(q)
+        finally:
+            sys.stdin.isatty = orig_isatty
+    else:
+        info("    dinner_map/ 為空，略過晚餐推薦")
+
+    info("[6/6] compose-better-attractions（若欄位為空才自動產）")
+    cmd_compose_better_attractions(argparse.Namespace(day=n, dry_run=False, overwrite=False))
+
+    info("=== 機械步驟完成。最後執行 render-md --force ===")
+    # 用 --force：verify-and-fix 已串好完整 cascade，trust 自己。
+    # 也避開 write_json content-hash 短路造成的 mtime 假性過舊。
+    cmd_render_md(argparse.Namespace(day=n, force=True))
+    info(f"✓ verify-and-fix {n} 完成，day{n}.md 已重生")

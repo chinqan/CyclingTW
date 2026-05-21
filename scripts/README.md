@@ -146,6 +146,42 @@ CyclingTW/
 | `綜合休息站` | ✗ | ✗ |
 | `公共設施` | ✗ | ✗ |
 
+### `_plan/pool_scores.json`（自動產出 by `score-pool`）
+
+Bayesian 評分的 **SoT (Source of Truth)**。由 `score-pool N` 對整個 mirror 候選池（`places` + `candidates_not_selected`）算 C / m / 各 pid 的 `bayesian_score`，`compute N` 從這裡取分數寫回 `places.json`。**不需要手動編輯**。
+
+```json
+{
+  "day": 1,
+  "bayesian_C": 4.3556,
+  "bayesian_m": 1588,
+  "pool_size": 18,
+  "scores": {
+    "ChIJ7Ws-1bOoQjQRehrUbGzlo1A": {
+      "name_zh": "蘆洲柳堤公園",
+      "csv_type": "起終點",
+      "rating": 4.3,
+      "total_ratings": 1407,
+      "bayesian_score": 4.33
+    }
+    // ... 每個可評分 pid 一筆
+  }
+}
+```
+
+**欄位說明**：
+
+| 欄位 | 型別 | 說明 |
+|---|---|---|
+| `bayesian_C` | float | 候選池內 `rating` 平均（先驗期望值）|
+| `bayesian_m` | int | 候選池內 `total_ratings` 中位數，最低採 100 避免低樣本失真（先驗樣本數）|
+| `pool_size` | int | 候選池規模（`csv_type ∈ {景點, 起終點, 餐廳大休}` 且具備 rating/total_ratings 的去重 pid 數）|
+| `scores` | dict | key=`place_id`，value 含 `name_zh / csv_type / rating / total_ratings / bayesian_score` |
+
+公式：`bayesian_score = (v/(v+m)) * R + (m/(v+m)) * C`，其中 `R = rating`、`v = total_ratings`。
+
+> 💡 *與 `dinner.json` 的 Bayesian 不同義*：`pool_scores.json` 的 C 是「評分平均」（4.X 區間）、m 是「留言數中位數」；`dinner.json` 的 C 是「平均留言數」、m 是「加權平均評分」。兩者公式骨架相同但意義反置——別把兩邊的 C/m 搞混。
+
 ### `_plan/poster_vars.json`（**Claude 編輯**）
 
 海報提示詞模板的 5 個置換變數。
@@ -223,7 +259,57 @@ CyclingTW/
 }
 ```
 
-`better_attractions`：可選欄位，Markdown 格式的「未排入路線但 Bayesian 分數較高的備選景點/餐廳」表格。空字串或缺值時 `render-md` 會略過此區塊。可參考 `review N` 的輸出來撰寫。
+`better_attractions`：**必填**欄位，Markdown 格式的「未排入路線但 Bayesian 分數較高的備選景點/餐廳」表格。缺失或為空字串時 `render-md` 會 hard-fail；確認該天無備案時可在 `render-md` 加 `--force` 略過。可參考 `review N` 的輸出來撰寫。
+
+### `_plan/dinner.json`（自動產出 by `dinner-pool`）
+
+由 `dinner-pool N` 從 `dayN/dinner_map/` 鏡像候選池算 Bayesian、選 top 5、寫入。**不需要手動編輯**——任何欄位變動都應透過 `dinner-put` 改鏡像後重跑 `dinner-pool`。
+
+```json
+{
+  "day": 2,
+  "search_radius_km": 3,
+  "pool_size": 15,
+  "bayesian_C": 1016.3,
+  "bayesian_m": 4.6416,
+  "note": "C=平均留言數(先驗樣本數), m=加權平均評分(先驗期望值)",
+  "source_endpoint_place_id": "ChIJbZ03BtZFaTQRVSahxk_O324",
+  "top5_place_ids": [
+    "ChIJDyBgePpFaTQRJUsJs7vOpkc",
+    "ChIJpRXSwg9HaTQRwOSJh1lAlM8"
+  ],
+  "restaurants": [
+    {
+      "place_id": "ChIJDyBgePpFaTQRJUsJs7vOpkc",
+      "name_zh": "敘敘究燒肉專門店",
+      "rating": 4.9,
+      "total_ratings": 2739,
+      "location": {"lat": 24.0643237, "lng": 120.434732},
+      "address": "彰化縣鹿港鎮鹿草路一段277號",
+      "note": "燒肉 需預約",
+      "bayesian_score": 4.8301,
+      "confidence": "✅ 高",
+      "rank": 1,
+      "selected": true
+    }
+    // ... 依 bayesian_score 由高到低排序，前 5 名 selected=true
+  ]
+}
+```
+
+**欄位說明**：
+
+| 欄位 | 型別 | 說明 |
+|---|---|---|
+| `search_radius_km` | int | 從終點向外搜尋的半徑（目前固定 3）|
+| `pool_size` | int | 鏡像候選池實際有效筆數（≥ 3 才會跑 Bayesian）|
+| `bayesian_C` | float | 候選池內 `total_ratings` 平均（注意：餐廳版的 C/m 跟 places 的 Bayesian 不同義）|
+| `bayesian_m` | float | 候選池內以 `total_ratings` 加權的評分平均 |
+| `source_endpoint_place_id` | string \| null | **新鮮度簽章**：寫入當下 `_plan/places.json` 最後一個點位的 `place_id`。`render-md` 預檢會比對，若與目前終點不符即中止 |
+| `top5_place_ids` | string[] | top 5 的 pid 列表（順序對應 `restaurants[].rank=1..5`）|
+| `restaurants` | object[] | 全部候選排名（含 top 5 以外），各筆有 `rank` 與 `selected` 標記 |
+
+> ⚠️ 升級 / 跨機器 / 舊版 `dinner.json` 沒有 `source_endpoint_place_id` 欄位（render-md 會以「舊版產出」擋下），對該天重跑一次 `dinner-pool N` 即可遷移。
 
 ---
 
@@ -390,7 +476,7 @@ python3 scripts/plan.py dinner-pool 2
 python3 scripts/plan.py dinner-review 2
 ```
 
-> `render-md` 依賴 `_plan/dinner.json` 產出晚餐推薦區塊。未執行此步驟時，晚餐區塊會被靜默略過。
+> `render-md` 會 **hard-fail** 擋下：若 `dinner_map/` 已有候選但 `dinner.json` 不存在 / 比 `places.json` 舊，會中止並要求重跑 `dinner-pool N`。確定該天不需要晚餐區塊時可加 `--force` 略過。
 
 ### Phase 4：Markdown
 
@@ -553,7 +639,11 @@ python3 scripts/plan.py <subcommand> <day_number> [options]
 }
 ```
 
-### `compute N`
+### `compute N [--quiet]`
+
+> **Phase 0-3 結尾提醒**：`compute` 完成後會在 stderr 列出 Phase 3.5 (`dinner-pool`) 與 Phase 4 (`better_attractions`) 是否需要重做的清單。`places.json` 更新後若 `dinner.json` / `segments.json` 比它舊，就會列在提醒裡，**`render-md` 預檢也會擋下**。
+>
+> `--quiet`：不印每點分數表，只印 C/m 摘要與「下一步」提醒。`score-pool` / `review` / `dinner-pool` 同樣支援 `--quiet`。
 
 套用 `pool_scores.json` 的 Bayesian 結果到 `_plan/places.json`：
 
@@ -644,11 +734,48 @@ python3 scripts/plan.py <subcommand> <day_number> [options]
 **輸入**：`dayN/_plan/poster_vars.json`（+ `places.json` / `config.json` 用於同步）
 **輸出**：`dayN/dayN_prompt.md`（+ 改寫後的 `poster_vars.json`，除非 `--no-sync`）
 
-### `render-md N`
+### `compose-better-attractions N [--overwrite] [--dry-run]`
+
+從 `pool_scores.json` 自動產出 `segments.json.better_attractions` 的 Markdown 表格：
+- 景點備案：未入選、未鎖定（非必經）的 `csv_type==景點` 前 5 名（依 Bayesian 分數）
+- 餐廳備案：未入選的 `csv_type==餐廳大休` 前 3 名
+
+**參數**：
+- `--overwrite`：覆蓋既有非空 `better_attractions`（預設不覆蓋，只印預覽）
+- `--dry-run`：只印預覽到 stdout，不寫入 `segments.json`
+
+未指定 `--overwrite` 時若欄位已有內容，會 `touch` `segments.json` 表示「已驗證仍有效」，避免 `render-md` 預檢誤判。
+
+### `verify-and-fix N`
+
+一條龍：依序執行 `compute → write-csv → route/gpx-waypoints → render-prompt → dinner-pool → compose-better-attractions → render-md --force`，讓重做後的某天能用單一指令重生 `dayN.md` 與所有 Phase 0-3/3.5/4 產出。
+
+- 無 `ORS_API_KEY` 自動 fallback `gpx-waypoints`
+- `dinner_map/` 為空時略過 `dinner-pool`
+- 不會覆蓋既有 `segments.json.better_attractions`（有內容才會 `touch`；空時自動產）
+- 最後 `render-md --force`：cascade 已串完，bypass 預檢
+
+**不能自動補的事項**（需手動）：`places.json` 點位選擇、`segments.json` 主敘述（五段配速、ishikawa、notes）、`poster_vars.json` 手寫場景文字（`scene_elements` / `action` / `expression` / `scenario`）。
+
+### `render-md N [--force]`
 
 用 `templates/day.md.j2` 渲染完整每日文件。
 
-**輸入**：`dayN/_plan/config.json` + `places.json` + `segments.json`
+**全量新鮮度預檢（hard-fail，可用 `--force` 略過）**：核心原則是「**重做 Phase 0-3 就要全部重做**」。任一以下檢查不通過即中止：
+
+| 類別 | 檢查 | 修法 |
+|---|---|---|
+| Phase 1 | `dayN_mymap.csv` mtime ≥ `places.json` | `write-csv N` |
+| Phase 2 | `dayN_route.gpx` mtime ≥ `places.json` | `route N` 或 `gpx-waypoints N` |
+| Phase 3 | `_plan/poster_vars.json` mtime ≥ `places.json` | `render-prompt N` |
+| Phase 3 | `dayN_prompt.md` mtime ≥ `places.json` | `render-prompt N` |
+| Phase 3.5 | `dinner_map/` 有候選時 `dinner.json` 必須存在、mtime ≥ `places.json` | `dinner-pool N` |
+| Phase 3.5 內容 | `dinner.json.source_endpoint_place_id` == `places.json[-1].place_id`（**signature 比 mtime 更嚴**） | `dinner-pool N` |
+| Phase 4 | `segments.json.better_attractions` 非空，且 `segments.json` mtime ≥ `places.json` | 參考 `review N` 補欄位、重新存檔 |
+
+> 💡 舊版 `dinner.json` 沒有 `source_endpoint_place_id` 欄位，第一次升級執行時所有天都會被擋下，要求重跑 `dinner-pool N`（一次性遷移）。
+
+**輸入**：`dayN/_plan/config.json` + `places.json` + `segments.json`（+ 可選 `dinner.json`）
 **輸出**：`dayN/dayN.md`
 
 ---

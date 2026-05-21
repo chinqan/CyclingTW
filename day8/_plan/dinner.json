@@ -5,6 +5,7 @@
   "bayesian_C": 3572.0,
   "bayesian_m": 4.5354,
   "note": "C=平均留言數(先驗樣本數), m=加權平均評分(先驗期望值)",
+  "source_endpoint_place_id": "ChIJK6-HgbafaDQR99QetgTFgwU",
   "top5_place_ids": [
     "ChIJJSWM7drpZzQRXLDvkWdbAkQ",
     "ChIJa0bDn9rpZzQRp9bQIGPjSws",

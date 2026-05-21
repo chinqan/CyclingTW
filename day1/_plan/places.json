@@ -65,7 +65,7 @@
       "csv_type": "景點",
       "note": "約10:45抵達 彩虹橋漁港地標 km約43",
       "rating": 4.2,
-      "total_ratings": 41577,
+      "total_ratings": 41578,
       "location": {
         "lat": 25.117158,
         "lng": 121.2444776
@@ -91,10 +91,10 @@
       "csv_type": "景點",
       "note": "約12:00抵達 大型觀光漁港 km約70",
       "rating": 4.1,
-      "total_ratings": 38608,
+      "total_ratings": 38612,
       "location": {
         "lat": 24.987719,
-        "lng": 121.01578839
+        "lng": 121.0157884
       },
       "bayesian_score": 4.11
     },
@@ -108,7 +108,7 @@
       "total_ratings": 534,
       "location": {
         "lat": 24.9877247,
-        "lng": 121.01464919
+        "lng": 121.0146492
       },
       "bayesian_score": 4.47
     },
@@ -126,7 +126,7 @@
     },
     {
       "place_id": "ChIJFxDjEO40aDQR8dbtyPOa_3M",
-      "name_zh": "新竹南寮漁港",
+      "name_zh": "南寮漁港(natural_feature)",
       "search_keyword": "新竹南寮漁港 新竹市北區新港四路",
       "csv_type": "景點",
       "note": "約15:30抵達 海鮮市集 km約90",
@@ -145,9 +145,9 @@
       "csv_type": "起終點",
       "note": "約17:00抵達 當日終點",
       "rating": 4.0,
-      "total_ratings": 1184,
+      "total_ratings": 1185,
       "location": {
-        "lat": 24.686588999,
+        "lat": 24.686589,
         "lng": 120.8805627
       },
       "bayesian_score": 4.2

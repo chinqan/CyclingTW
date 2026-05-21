@@ -21,6 +21,7 @@ Claude 在對話中呼叫 MCP 工具（Google Maps / OpenRoute）取得資料並
   score-pool N             對整個 mirror 候選池算 Bayesian，產出 pool_scores.json
   compute N                套用 pool_scores 到 places.json（缺失時自動觸發 score-pool）
   review N                 讀 pool_scores 顯示排名 + ★入選 + 替換建議
+  compose-better-attractions N  從 pool_scores 自動產 segments.json.better_attractions
   write-csv N              產 dayN_mymap.csv（依 _plan/places.json）
   route N                  呼叫 OpenRouteService API 取整天路線，輸出 dayN_route.gpx
                            （需設定 ORS_API_KEY 環境變數）
@@ -28,7 +29,10 @@ Claude 在對話中呼叫 MCP 工具（Google Maps / OpenRoute）取得資料並
   gpx-waypoints N          離線備案：依 places.json 座標產純航點 GPX
   render-prompt N          產 dayN_prompt.md；預設先從 _plan/places.json 重推
                            poster_vars.json 結構欄位（--no-sync 跳過）
-  render-md N              產 dayN.md（依 _plan/places.json + segments.json）
+  render-md N              產 dayN.md。執行前會全量預檢 Phase 0-3 / 3.5 / 4
+                           所有產出 mtime ≥ places.json，且 dinner.json 的
+                           source_endpoint_place_id 對應目前終點；--force 略過
+  verify-and-fix N         一條龍重跑 Phase 0-3/3.5/4 機械步驟 + render-md --force
   render-cover-prompt      產 output/imagegen/cyclingtw-cover_prompt.md（10 天總覽封面海報）
 
 每日工作目錄結構（自動建立）：
@@ -52,6 +56,11 @@ Claude 規劃時必須遵守的規則（plan.py 無法強制，但需在對話�
     以取得 total_ratings。
   - 對「便利商店 / 加油站 / 公共設施 / 綜合休息站」嚴禁呼叫 place_details，
     這些類型的 rating / total_ratings 欄位直接留空。
+  - 便利商店 / 加油站 用 maps_search_places 時：每次只取 top 1 結果、只保留
+    place_id / name / location 三欄。不要保留 photos / opening_hours / 評論
+    片段等大欄位（mirror-put 時也只寫入這三欄）。
+  - 景點 / 餐廳：search 後挑 3-5 個候選做 mirror-put + place_details，未入選
+    的存到 candidates_not_selected（給未來 Bayesian pool 用）。
 
 [B] 地點搜尋關鍵字撰寫原則（用於 places.json 的 search_keyword 與 mymap CSV）
   - 便利商店：「品牌 + 門市名稱」                     例：7-ELEVEN 觀湖門市
@@ -93,7 +102,10 @@ except ImportError:
 
 from plan_lib.index_parser import cmd_parse_index
 from plan_lib.mirror import cmd_mirror_status, cmd_mirror_put, cmd_mirror_diff
-from plan_lib.bayesian import cmd_score_pool, cmd_compute, cmd_review
+from plan_lib.bayesian import (
+    cmd_score_pool, cmd_compute, cmd_review, cmd_compose_better_attractions,
+    cmd_verify_and_fix,
+)
 from plan_lib.csv_out import cmd_write_csv
 from plan_lib.gpx import cmd_route, cmd_gpx_save, cmd_gpx_waypoints
 from plan_lib.render import cmd_render_prompt, cmd_render_md
@@ -118,9 +130,16 @@ def build_parser() -> argparse.ArgumentParser:
     add("mirror-status", cmd_mirror_status, "顯示 dayN/map/（本地鏡像）現況")
     add("mirror-put",    cmd_mirror_put,    "[stdin] upsert 單筆 place 到本地鏡像")
     add("mirror-diff",   cmd_mirror_diff,   "[stdin] 比對本地鏡像 vs 線上最新")
-    add("score-pool",    cmd_score_pool,    "對整個 mirror 候選池算 Bayesian")
-    add("compute",       cmd_compute,       "套用 pool_scores 到 places.json")
-    add("review",        cmd_review,        "讀 pool_scores 顯示排名 + 替換建議")
+    sp = add("score-pool", cmd_score_pool, "對整個 mirror 候選池算 Bayesian")
+    sp.add_argument("--quiet", action="store_true", help="只印統計，不印各點排名")
+    sp = add("compute",  cmd_compute,  "套用 pool_scores 到 places.json")
+    sp.add_argument("--quiet", action="store_true", help="不印每點分數表，只印 C/m 摘要")
+    sp = add("review",   cmd_review,   "讀 pool_scores 顯示排名 + 替換建議")
+    sp.add_argument("--quiet", action="store_true", help="只印替換建議，跳過完整排名表")
+    sp = add("compose-better-attractions", cmd_compose_better_attractions,
+             "從 pool_scores 自動產出 segments.json.better_attractions 表格")
+    sp.add_argument("--overwrite", action="store_true", help="覆蓋既有非空 better_attractions")
+    sp.add_argument("--dry-run",   action="store_true", help="只印預覽，不寫入 segments.json")
     add("write-csv",     cmd_write_csv,     "產 dayN_mymap.csv")
     add("route",         cmd_route,         "呼叫 ORS API 取整天路線 → dayN_route.gpx")
     add("gpx-save",      cmd_gpx_save,      "[stdin] 儲存外部 GPX（備援）")
@@ -129,13 +148,18 @@ def build_parser() -> argparse.ArgumentParser:
     add("dinner-status", cmd_dinner_status, "顯示 dayN/dinner_map/ 鏡像現況")
     add("dinner-put",    cmd_dinner_put,    "[stdin] upsert 餐廳到 dinner_map/ 鏡像")
     add("dinner-diff",   cmd_dinner_diff,   "[stdin] 比對 dinner_map/ 本地 vs 線上最新")
-    add("dinner-pool",   cmd_dinner_pool,   "從 dinner_map/ 鏡像池算 Bayesian 選 top 5")
+    sp = add("dinner-pool", cmd_dinner_pool, "從 dinner_map/ 鏡像池算 Bayesian 選 top 5")
+    sp.add_argument("--quiet", action="store_true", help="不印 19 筆排名表，只印 top 5 摘要")
     add("dinner-review", cmd_dinner_review, "顯示 dinner.json 排名")
     add("dinner-render", cmd_dinner_render, "產 dayN_dinner.md")
     sp = add("render-prompt", cmd_render_prompt, "產 dayN_prompt.md")
     sp.add_argument("--no-sync", action="store_true",
                     help="跳過自動同步，僅以現有 poster_vars.json 渲染")
-    add("render-md",     cmd_render_md,     "產 dayN.md")
+    sp = add("render-md",     cmd_render_md,     "產 dayN.md")
+    sp.add_argument("--force", action="store_true",
+                    help="略過 Phase 0-3 / 3.5 / 4 全量新鮮度預檢")
+    add("verify-and-fix", cmd_verify_and_fix,
+        "依序重跑 Phase 0-3/3.5/4 機械步驟讓 render-md 通過預檢")
 
     sp = sub.add_parser("render-cover-prompt", help="產 10 天總覽封面海報提示詞")
     sp.add_argument("--no-sync", action="store_true",

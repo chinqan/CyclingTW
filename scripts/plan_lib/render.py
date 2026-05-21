@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import math
 import re
+import sys
 
 from jinja2 import Environment, FileSystemLoader, StrictUndefined
 
@@ -242,19 +243,90 @@ def cmd_render_md(args):
                 info(f"⚠️  ishikawa 魚骨圖段落順序為正序（第{seg_nums[0]}段→第{seg_nums[-1]}段），"
                      f"Mermaid ishikawa-beta 需要倒序（最後一段在最前面）。請修正 segments.json。")
 
-    # 載入晚餐 top 5（如果有的話）
+    # ── Phase 0-3 / 3.5 / 4 全量新鮮度預檢 ──
+    # 重生 = 一切重來。任一 Phase 0-3 產出比 places.json 舊就擋。
+    places_path = plan_dir(n) / "places.json"
+    places_mtime = places_path.stat().st_mtime
+    segments_path = plan_dir(n) / "segments.json"
     dinner_path = plan_dir(n) / "dinner.json"
+    dinner_map = day_dir(n) / "dinner_map"
+    dinner_map_has_candidates = dinner_map.exists() and any(dinner_map.glob("ChIJ*.json"))
+
+    gate_errors: list[str] = []
+
+    # (A) Phase 0-3 產出 mtime ≥ places.json mtime
+    csv_path = day_dir(n) / f"day{n}_mymap.csv"
+    gpx_path = day_dir(n) / f"day{n}_route.gpx"
+    poster_vars_path = plan_dir(n) / "poster_vars.json"
+    prompt_path = day_dir(n) / f"day{n}_prompt.md"
+
+    phase03_outputs = [
+        (csv_path, "Phase 1", f"python3 scripts/plan.py write-csv {n}"),
+        (gpx_path, "Phase 2", f"python3 scripts/plan.py route {n}   # 或 gpx-waypoints {n}"),
+        (poster_vars_path, "Phase 3", f"python3 scripts/plan.py render-prompt {n}"),
+        (prompt_path, "Phase 3", f"python3 scripts/plan.py render-prompt {n}"),
+    ]
+    for path, phase, cmd in phase03_outputs:
+        if not path.exists():
+            gate_errors.append(f"{path.relative_to(ROOT)} 不存在（{phase}）→ 請執行：{cmd}")
+        elif path.stat().st_mtime < places_mtime:
+            gate_errors.append(
+                f"{path.relative_to(ROOT)} 比 places.json 舊（{phase} 需重做）→ 請執行：{cmd}"
+            )
+
+    # (B) Phase 3.5 晚餐：dinner_map/ 有候選 → dinner.json 必須存在且新鮮
+    if dinner_map_has_candidates:
+        if not dinner_path.exists():
+            gate_errors.append(
+                f"dinner_map/ 已有候選但 dinner.json 不存在 → 請執行：python3 scripts/plan.py dinner-pool {n}"
+            )
+        elif dinner_path.stat().st_mtime < places_mtime:
+            gate_errors.append(
+                f"dinner.json 比 places.json 舊（Phase 3.5 需重做）→ 請執行：python3 scripts/plan.py dinner-pool {n}"
+            )
+        else:
+            # (C) 內容一致性：dinner.json.source_endpoint_place_id 必須對到 places[-1]
+            try:
+                dj = read_json(dinner_path)
+                expected_pid = places["places"][-1].get("place_id") if places.get("places") else None
+                actual_pid = dj.get("source_endpoint_place_id")
+                if actual_pid is None:
+                    gate_errors.append(
+                        f"dinner.json 缺少 source_endpoint_place_id（舊版產出）→ "
+                        f"請重跑：python3 scripts/plan.py dinner-pool {n}"
+                    )
+                elif expected_pid and actual_pid != expected_pid:
+                    gate_errors.append(
+                        f"dinner.json 是為終點 {actual_pid} 算的，但 places.json 終點已換成 {expected_pid} "
+                        f"→ 請重跑：python3 scripts/plan.py dinner-pool {n}"
+                    )
+            except Exception as e:
+                gate_errors.append(f"dinner.json 讀取失敗：{e}")
+
+    # (D) Phase 4 更佳景點：segments.json.better_attractions 必須非空，且不能比 places.json 舊
+    ba = segments.get("better_attractions")
+    if ba is None or (isinstance(ba, str) and not ba.strip()):
+        gate_errors.append(
+            "segments.json.better_attractions 缺失或為空 → "
+            f"請參考 `python3 scripts/plan.py review {n}` 的輸出，把備案景點/餐廳表格填回 segments.json"
+        )
+    elif segments_path.stat().st_mtime < places_mtime:
+        gate_errors.append(
+            "segments.json 比 places.json 舊（Phase 4 需重做）→ "
+            f"請重檢 better_attractions 是否仍符合最新點位順序，再重新存檔 segments.json"
+        )
+
+    if gate_errors and not getattr(args, "force", False):
+        for e in gate_errors:
+            print(f"[error] {e}", file=sys.stderr)
+        die(f"render-md {n} 中止（{len(gate_errors)} 項預檢失敗）。確認無需可加 --force 略過。")
+
     dinner_top5 = []
     dinner_pool_size = 0
     if dinner_path.exists():
         dinner_data = read_json(dinner_path)
         dinner_pool_size = dinner_data.get("pool_size", 0)
         dinner_top5 = [r for r in dinner_data.get("restaurants", []) if r.get("selected")]
-    else:
-        info("⚠️  找不到 dinner.json，「晚餐推薦」區塊將略過（請先執行 dinner-pool N）")
-
-    if not segments.get("better_attractions"):
-        info("⚠️  segments.json 缺少 better_attractions，「更佳景點參考」區塊將略過")
 
     ctx = {
         "day": n,

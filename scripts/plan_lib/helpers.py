@@ -38,7 +38,19 @@ def read_json(path: Path) -> Any:
 
 
 def write_json(path: Path, data: Any) -> None:
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    """寫 JSON；若內容與既有檔案完全一致則跳過實際寫入但 touch 更新 mtime
+    （為避免 write_text 的 I/O；mtime 必須前進，否則 Phase 0-3 預檢會認定下游檔過舊）。"""
+    new_text = json.dumps(data, ensure_ascii=False, indent=2) + "\n"
+    if path.exists():
+        try:
+            if path.read_text(encoding="utf-8") == new_text:
+                import os, time
+                now = time.time()
+                os.utime(path, (now, now))
+                return
+        except OSError:
+            pass
+    path.write_text(new_text, encoding="utf-8")
 
 
 def read_stdin_json() -> Any:

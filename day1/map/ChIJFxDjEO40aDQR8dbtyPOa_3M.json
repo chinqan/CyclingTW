@@ -1,6 +1,6 @@
 {
   "place_id": "ChIJFxDjEO40aDQR8dbtyPOa_3M",
-  "name_zh": "新竹南寮漁港",
+  "name_zh": "南寮漁港(natural_feature)",
   "csv_type": "景點",
   "rating": 4.2,
   "total_ratings": 1753,
@@ -8,6 +8,6 @@
     "lat": 24.8483333,
     "lng": 120.9302778
   },
-  "source": "search_2026-05-20",
-  "note": "約15:30抵達 海鮮市集 km約90"
+  "source": "search_2026-05-21",
+  "note": "同地不同 place_id 評論數較少"
 }

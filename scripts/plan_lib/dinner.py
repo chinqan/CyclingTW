@@ -329,6 +329,17 @@ def cmd_dinner_pool(args):
         c["selected"] = c.get("place_id") in selected_pids
     _save_dinner_index(n, idx)
 
+    # 紀錄 source endpoint（給 render-md 預檢比對；places.json 缺值時略過）
+    source_endpoint_pid = None
+    places_path = plan_dir(n) / "places.json"
+    if places_path.exists():
+        try:
+            pl = read_json(places_path).get("places") or []
+            if pl:
+                source_endpoint_pid = pl[-1].get("place_id")
+        except Exception:
+            pass
+
     # 存 _plan/dinner.json
     out_data = {
         "day": n,
@@ -337,6 +348,7 @@ def cmd_dinner_pool(args):
         "bayesian_C": round(C, 1),
         "bayesian_m": m,
         "note": "C=平均留言數(先驗樣本數), m=加權平均評分(先驗期望值)",
+        "source_endpoint_place_id": source_endpoint_pid,
         "top5_place_ids": [s["place_id"] for s in scored[:5]],
         "restaurants": scored,
     }
@@ -346,19 +358,21 @@ def cmd_dinner_pool(args):
     info(f"已寫入 {out.relative_to(ROOT)}（{len(scored)} 筆，C={round(C,1)}, m={m}）")
 
     # 印出排名
-    print(f"\n{'='*60}")
-    print(f"  Day {n} 晚餐候選排名（{len(scored)} 筆，C={round(C,1)}, m={m}）")
-    print(f"  候選池來源：dinner_map/（本地鏡像）")
-    print(f"{'='*60}\n")
-    print(f"  {'排名':<4} {'貝葉斯分':<8} {'評分':<5} {'留言數':<7} {'信心':<6} {'店名'}")
-    print(f"  {'-'*4} {'-'*8} {'-'*5} {'-'*7} {'-'*6} {'-'*20}")
-    for item in scored:
-        mark = "🏆" if item["selected"] else "  "
-        print(f"  {mark}{item['rank']:<3} {item['bayesian_score']:<8} "
-              f"{item['rating']:<5} {item['total_ratings']:<7} "
-              f"{item['confidence']:<6} {item['name_zh']}")
+    quiet = getattr(args, "quiet", False)
+    if not quiet:
+        print(f"\n{'='*60}")
+        print(f"  Day {n} 晚餐候選排名（{len(scored)} 筆，C={round(C,1)}, m={m}）")
+        print(f"  候選池來源：dinner_map/（本地鏡像）")
+        print(f"{'='*60}\n")
+        print(f"  {'排名':<4} {'貝葉斯分':<8} {'評分':<5} {'留言數':<7} {'信心':<6} {'店名'}")
+        print(f"  {'-'*4} {'-'*8} {'-'*5} {'-'*7} {'-'*6} {'-'*20}")
+        for item in scored:
+            mark = "🏆" if item["selected"] else "  "
+            print(f"  {mark}{item['rank']:<3} {item['bayesian_score']:<8} "
+                  f"{item['rating']:<5} {item['total_ratings']:<7} "
+                  f"{item['confidence']:<6} {item['name_zh']}")
+        print(f"\n{'─'*60}")
 
-    print(f"\n{'─'*60}")
     print(f"  ★ 入選 Top 5：")
     for item in scored[:5]:
         note = item.get("note", "")

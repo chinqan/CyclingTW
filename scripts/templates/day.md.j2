@@ -6,7 +6,7 @@
 
 * **出發地**：{{ cfg.origin }}
 * **目的地**：{{ cfg.destination }}
-* **總距離**：{% if places_data.ors_distance_km %}{{ places_data.ors_distance_km }} 公里（GPX 實測）{% else %}約 {{ cfg.distance_km_range[0] }}–{{ cfg.distance_km_range[1] }} 公里{% endif %}
+* **總距離**：{% if places_data.get('ors_distance_km') %}{{ places_data.ors_distance_km }} 公里（GPX 實測）{% else %}約 {{ cfg.distance_km_range[0] }}–{{ cfg.distance_km_range[1] }} 公里{% endif %}
 * **總爬升**：{{ total_ascent_desc }}
 * **主要路線**：{{ main_route_desc }}
 
