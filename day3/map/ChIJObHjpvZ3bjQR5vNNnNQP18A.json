@@ -1,0 +1,11 @@
+{
+  "place_id": "ChIJObHjpvZ3bjQR5vNNnNQP18A",
+  "name_zh": "7-ELEVEN 本興門市",
+  "csv_type": "便利商店",
+  "location": {
+    "lat": 23.0670854,
+    "lng": 120.1760304
+  },
+  "search_keyword": "7-ELEVEN 台南市安南區",
+  "source": "api_2026-05-22"
+}

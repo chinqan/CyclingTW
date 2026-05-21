@@ -3,7 +3,7 @@
   "name_zh": "台南土城螃蟹專賣店（耐人蟳味）",
   "name_lang": "zh-TW",
   "rating": 4.8,
-  "total_ratings": 188,
+  "total_ratings": 189,
   "location": {
     "lat": 23.060186899999998,
     "lng": 120.12578719999999
@@ -12,7 +12,7 @@
   "primary_type": "restaurant",
   "primary_type_label": "餐廳",
   "distance_km": 0.66,
-  "source": "api_2026-05-21",
+  "source": "api_2026-05-22",
   "note": "餐廳",
   "name_is_ascii": false
 }

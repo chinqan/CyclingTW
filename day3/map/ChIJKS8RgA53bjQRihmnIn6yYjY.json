@@ -1,0 +1,11 @@
+{
+  "place_id": "ChIJKS8RgA53bjQRihmnIn6yYjY",
+  "name_zh": "7-ELEVEN 怡安門市",
+  "csv_type": "便利商店",
+  "location": {
+    "lat": 23.036714,
+    "lng": 120.21375719999999
+  },
+  "search_keyword": "7-ELEVEN 台南市安南區",
+  "source": "api_2026-05-22"
+}

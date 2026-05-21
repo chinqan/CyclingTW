@@ -1,9 +1,9 @@
 {
   "day": 3,
   "search_radius_km": 3,
-  "pool_size": 32,
-  "bayesian_C": 396.0,
-  "bayesian_m": 4.5718,
+  "pool_size": 36,
+  "bayesian_C": 353.9,
+  "bayesian_m": 4.571,
   "note": "C=平均留言數(先驗樣本數), m=加權平均評分(先驗期望值)",
   "source_endpoint_place_id": "ChIJofDyKzrYbTQROj-L3C0Zt8A",
   "top5_place_ids": [
@@ -25,7 +25,7 @@
       },
       "address": "709臺南市安南區城南里城西街一段212號",
       "note": "餐廳",
-      "bayesian_score": 4.9679,
+      "bayesian_score": 4.9711,
       "confidence": "✅ 高",
       "rank": 1,
       "selected": true
@@ -34,15 +34,15 @@
       "place_id": "ChIJP07EjEfYbTQRJR4Uu7HgTR8",
       "name_zh": "台南土城螃蟹專賣店（耐人蟳味）",
       "rating": 4.8,
-      "total_ratings": 188,
+      "total_ratings": 189,
       "location": {
         "lat": 23.060186899999998,
         "lng": 120.12578719999999
       },
       "address": "709臺南市安南區城南里城西街一段223號",
       "note": "餐廳",
-      "bayesian_score": 4.6453,
-      "confidence": "❌ 低",
+      "bayesian_score": 4.6507,
+      "confidence": "⚠️ 中",
       "rank": 2,
       "selected": true
     },
@@ -57,7 +57,7 @@
       },
       "address": "709臺南市安南區城北里安中路六段480-1號",
       "note": "越南餐廳",
-      "bayesian_score": 4.596,
+      "bayesian_score": 4.5978,
       "confidence": "❌ 低",
       "rank": 3,
       "selected": true
@@ -73,7 +73,7 @@
       },
       "address": "709臺南市安南區城中里安中路六段757號",
       "note": "餐廳",
-      "bayesian_score": 4.5927,
+      "bayesian_score": 4.5941,
       "confidence": "❌ 低",
       "rank": 4,
       "selected": true
@@ -89,7 +89,7 @@
       },
       "address": "709台南市安南区城东里城北路234巷51弄10號",
       "note": "亞洲風味餐廳",
-      "bayesian_score": 4.5813,
+      "bayesian_score": 4.5816,
       "confidence": "❌ 低",
       "rank": 5,
       "selected": true
@@ -105,7 +105,7 @@
       },
       "address": "709臺南市安南區學東里城北路736號",
       "note": "早餐店",
-      "bayesian_score": 4.5803,
+      "bayesian_score": 4.5805,
       "confidence": "❌ 低",
       "rank": 6,
       "selected": false
@@ -137,9 +137,25 @@
       },
       "address": "709臺南市安南區城安路",
       "note": "中式餐廳",
-      "bayesian_score": 4.5775,
+      "bayesian_score": 4.5774,
       "confidence": "❌ 低",
       "rank": 8,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ80flSTzYbTQRjki8AvImnJY",
+      "name_zh": "龜鹿仙圓融園",
+      "rating": 4.8,
+      "total_ratings": 6,
+      "location": {
+        "lat": 23.0659925,
+        "lng": 120.13229229999997
+      },
+      "address": "709臺南市安南區城東里城北路234巷46號",
+      "note": "餐廳",
+      "bayesian_score": 4.5748,
+      "confidence": "❌ 低",
+      "rank": 9,
       "selected": false
     },
     {
@@ -153,9 +169,9 @@
       },
       "address": "709臺南市安南區城東里城安路160號",
       "note": "餐廳",
-      "bayesian_score": 4.574,
+      "bayesian_score": 4.5734,
       "confidence": "❌ 低",
-      "rank": 9,
+      "rank": 10,
       "selected": false
     },
     {
@@ -169,9 +185,9 @@
       },
       "address": "709臺南市安南區城安街土城聖母廟廣場",
       "note": "餐廳",
-      "bayesian_score": 4.574,
+      "bayesian_score": 4.5734,
       "confidence": "❌ 低",
-      "rank": 10,
+      "rank": 11,
       "selected": false
     },
     {
@@ -185,9 +201,9 @@
       },
       "address": "709臺南市安南區城安路",
       "note": "餐廳",
-      "bayesian_score": 4.5729,
+      "bayesian_score": 4.5722,
       "confidence": "❌ 低",
-      "rank": 11,
+      "rank": 12,
       "selected": false
     },
     {
@@ -201,9 +217,41 @@
       },
       "address": "709臺南市安南區城中里青砂街一段1號",
       "note": "中式餐廳",
-      "bayesian_score": 4.5704,
+      "bayesian_score": 4.5694,
       "confidence": "❌ 低",
-      "rank": 12,
+      "rank": 13,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJY7kP1zjYbTQR75U8cnsHK-A",
+      "name_zh": "家鄉傳統美食",
+      "rating": 4.4,
+      "total_ratings": 5,
+      "location": {
+        "lat": 23.0623528,
+        "lng": 120.12947609999999
+      },
+      "address": "709臺南市安南區城中里城西街一段9號",
+      "note": "餐廳",
+      "bayesian_score": 4.5686,
+      "confidence": "❌ 低",
+      "rank": 14,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJe3gTOgDZbTQRufCN8-B91Jo",
+      "name_zh": "煎佐麻里蔥油餅",
+      "rating": 4.2,
+      "total_ratings": 5,
+      "location": {
+        "lat": 23.0670486,
+        "lng": 120.1275895
+      },
+      "address": "709臺南市安南區城安路",
+      "note": "亞洲風味餐廳",
+      "bayesian_score": 4.5658,
+      "confidence": "❌ 低",
+      "rank": 15,
       "selected": false
     },
     {
@@ -217,9 +265,9 @@
       },
       "address": "709臺南市安南區城中里安中路六段559號",
       "note": "越南餐廳",
-      "bayesian_score": 4.5664,
+      "bayesian_score": 4.5651,
       "confidence": "❌ 低",
-      "rank": 13,
+      "rank": 16,
       "selected": false
     },
     {
@@ -233,9 +281,25 @@
       },
       "address": "709臺南市安南區城中里安中路六段755號",
       "note": "餐廳",
-      "bayesian_score": 4.5652,
+      "bayesian_score": 4.5637,
       "confidence": "❌ 低",
-      "rank": 14,
+      "rank": 17,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJG5hM3D3YbTQRRo7FPsoqYZ4",
+      "name_zh": "大鼎藥膳排骨",
+      "rating": 4.4,
+      "total_ratings": 52,
+      "location": {
+        "lat": 23.0646682,
+        "lng": 120.1340097
+      },
+      "address": "709臺南市安南區西部濱海公路670-672號",
+      "note": "餐廳",
+      "bayesian_score": 4.5491,
+      "confidence": "❌ 低",
+      "rank": 18,
       "selected": false
     },
     {
@@ -249,9 +313,9 @@
       },
       "address": "709臺南市安南區城東里城北路201號",
       "note": "中式餐廳",
-      "bayesian_score": 4.5487,
-      "confidence": "❌ 低",
-      "rank": 15,
+      "bayesian_score": 4.5464,
+      "confidence": "⚠️ 中",
+      "rank": 19,
       "selected": false
     },
     {
@@ -265,25 +329,9 @@
       },
       "address": "709臺南市安南區媽祖宮里工業二路132號",
       "note": "餐廳",
-      "bayesian_score": 4.53,
+      "bayesian_score": 4.5252,
       "confidence": "❌ 低",
-      "rank": 16,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJn5zRzyHYbTQRAgFUOT1ds84",
-      "name_zh": "國姓土豆豬腳",
-      "rating": 4.4,
-      "total_ratings": 136,
-      "location": {
-        "lat": 23.076975899999997,
-        "lng": 120.13503449999997
-      },
-      "address": "709臺南市安南區學東里安明路四段1273號",
-      "note": "餐廳",
-      "bayesian_score": 4.5279,
-      "confidence": "❌ 低",
-      "rank": 17,
+      "rank": 20,
       "selected": false
     },
     {
@@ -297,9 +345,25 @@
       },
       "address": "709臺南市安南區城北里安中路六段217號",
       "note": "台式餐廳",
-      "bayesian_score": 4.5259,
+      "bayesian_score": 4.5238,
       "confidence": "✅ 高",
-      "rank": 18,
+      "rank": 21,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJn5zRzyHYbTQRAgFUOT1ds84",
+      "name_zh": "國姓土豆豬腳",
+      "rating": 4.4,
+      "total_ratings": 136,
+      "location": {
+        "lat": 23.076975899999997,
+        "lng": 120.13503449999997
+      },
+      "address": "709臺南市安南區學東里安明路四段1273號",
+      "note": "餐廳",
+      "bayesian_score": 4.5235,
+      "confidence": "❌ 低",
+      "rank": 22,
       "selected": false
     },
     {
@@ -313,9 +377,9 @@
       },
       "address": "709臺南市安南區城北里城北路45號",
       "note": "餐廳",
-      "bayesian_score": 4.5123,
+      "bayesian_score": 4.5053,
       "confidence": "❌ 低",
-      "rank": 19,
+      "rank": 23,
       "selected": false
     },
     {
@@ -329,9 +393,9 @@
       },
       "address": "709臺南市安南區城北里安中路六段608號",
       "note": "台式餐廳",
-      "bayesian_score": 4.5078,
+      "bayesian_score": 4.5028,
       "confidence": "⚠️ 中",
-      "rank": 20,
+      "rank": 24,
       "selected": false
     },
     {
@@ -345,9 +409,9 @@
       },
       "address": "709臺南市安南區城中里安中路六段615之一號",
       "note": "餐廳",
-      "bayesian_score": 4.5042,
+      "bayesian_score": 4.4978,
       "confidence": "❌ 低",
-      "rank": 21,
+      "rank": 25,
       "selected": false
     },
     {
@@ -361,9 +425,9 @@
       },
       "address": "709台灣臺南市安南區",
       "note": "餐廳",
-      "bayesian_score": 4.4962,
+      "bayesian_score": 4.4886,
       "confidence": "❌ 低",
-      "rank": 22,
+      "rank": 26,
       "selected": false
     },
     {
@@ -377,9 +441,9 @@
       },
       "address": "709臺南市安南區城北里安明路四段380號",
       "note": "海鮮餐廳",
-      "bayesian_score": 4.4939,
+      "bayesian_score": 4.487,
       "confidence": "❌ 低",
-      "rank": 23,
+      "rank": 27,
       "selected": false
     },
     {
@@ -393,9 +457,9 @@
       },
       "address": "709臺南市安南區城北里城北路4號",
       "note": "早餐店",
-      "bayesian_score": 4.4589,
+      "bayesian_score": 4.4473,
       "confidence": "❌ 低",
-      "rank": 24,
+      "rank": 28,
       "selected": false
     },
     {
@@ -409,41 +473,9 @@
       },
       "address": "之 號 No. 94-6, No. 94-6青砂街一段城中里安南區臺南市709",
       "note": "餐廳",
-      "bayesian_score": 4.4386,
+      "bayesian_score": 4.4284,
       "confidence": "⚠️ 中",
-      "rank": 25,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJ8fiOKjnYbTQRfvlVsYW-5nU",
-      "name_zh": "陳記小吃(藝銘軒美食館)",
-      "rating": 4.1,
-      "total_ratings": 180,
-      "location": {
-        "lat": 23.062517699999997,
-        "lng": 120.12991369999997
-      },
-      "address": "709臺南市安南區城北里安中路六段592號",
-      "note": "小吃店",
-      "bayesian_score": 4.4244,
-      "confidence": "❌ 低",
-      "rank": 26,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJ_-tcFInZbTQRKgroGJLPj7U",
-      "name_zh": "福風牛排館",
-      "rating": 4.2,
-      "total_ratings": 270,
-      "location": {
-        "lat": 23.064327100000003,
-        "lng": 120.12878289999998
-      },
-      "address": "709臺南市安南區城北里安中路六段672號676號",
-      "note": "牛排館",
-      "bayesian_score": 4.4211,
-      "confidence": "⚠️ 中",
-      "rank": 27,
+      "rank": 29,
       "selected": false
     },
     {
@@ -457,9 +489,41 @@
       },
       "address": "709臺南市安南區城中里安中路六段517號",
       "note": "海鮮餐廳",
-      "bayesian_score": 4.4205,
+      "bayesian_score": 4.4184,
       "confidence": "✅ 高",
-      "rank": 28,
+      "rank": 30,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ8fiOKjnYbTQRfvlVsYW-5nU",
+      "name_zh": "陳記小吃(藝銘軒美食館)",
+      "rating": 4.1,
+      "total_ratings": 180,
+      "location": {
+        "lat": 23.062517699999997,
+        "lng": 120.12991369999997
+      },
+      "address": "709臺南市安南區城北里安中路六段592號",
+      "note": "小吃店",
+      "bayesian_score": 4.4122,
+      "confidence": "⚠️ 中",
+      "rank": 31,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ_-tcFInZbTQRKgroGJLPj7U",
+      "name_zh": "福風牛排館",
+      "rating": 4.2,
+      "total_ratings": 270,
+      "location": {
+        "lat": 23.064327100000003,
+        "lng": 120.12878289999998
+      },
+      "address": "709臺南市安南區城北里安中路六段672號676號",
+      "note": "牛排館",
+      "bayesian_score": 4.4104,
+      "confidence": "⚠️ 中",
+      "rank": 32,
       "selected": false
     },
     {
@@ -473,9 +537,9 @@
       },
       "address": "709臺南市安南區城中里安中路六段509號",
       "note": "餐廳",
-      "bayesian_score": 4.4043,
+      "bayesian_score": 4.3915,
       "confidence": "⚠️ 中",
-      "rank": 29,
+      "rank": 33,
       "selected": false
     },
     {
@@ -489,25 +553,9 @@
       },
       "address": "709臺南市安南區城東里安明路四段837號",
       "note": "餐廳",
-      "bayesian_score": 4.367,
+      "bayesian_score": 4.3463,
       "confidence": "❌ 低",
-      "rank": 30,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJ6RB1Q_XXbTQR5LitlcfjNqw",
-      "name_zh": "國聖橋土豆豬腳",
-      "rating": 3.9,
-      "total_ratings": 423,
-      "location": {
-        "lat": 23.0811614,
-        "lng": 120.1358521
-      },
-      "address": "709臺南市安南區學東里公學路七段177號 之 51 號",
-      "note": "台式餐廳",
-      "bayesian_score": 4.2248,
-      "confidence": "✅ 高",
-      "rank": 31,
+      "rank": 34,
       "selected": false
     },
     {
@@ -521,9 +569,25 @@
       },
       "address": "709臺南市安南區城南里城西街二段318巷66號",
       "note": "中式餐廳",
-      "bayesian_score": 4.2163,
+      "bayesian_score": 4.2066,
       "confidence": "✅ 高",
-      "rank": 32,
+      "rank": 35,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ6RB1Q_XXbTQR5LitlcfjNqw",
+      "name_zh": "國聖橋土豆豬腳",
+      "rating": 3.9,
+      "total_ratings": 423,
+      "location": {
+        "lat": 23.0811614,
+        "lng": 120.1358521
+      },
+      "address": "709臺南市安南區學東里公學路七段177號 之 51 號",
+      "note": "台式餐廳",
+      "bayesian_score": 4.2057,
+      "confidence": "✅ 高",
+      "rank": 36,
       "selected": false
     }
   ]

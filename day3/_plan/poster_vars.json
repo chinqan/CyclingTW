@@ -2,7 +2,7 @@
   "day": 3,
   "origin_label": "鹿港",
   "destination_label": "台南鹿耳門",
-  "distance_range": "約 187.9 公里",
+  "distance_range": "約 187.8 公里",
   "subtitle": "極西國聖燈塔追日行",
   "orientation": "horizontal_landscape_3_2",
   "lighting": "午後溫暖金色陽光、海岸鹽田反射光芒",
@@ -23,5 +23,6 @@
     "expression": "精神飽滿、期待今日追極西點"
   },
   "composition": "主角在畫面中央偏上、鹿港老街在右上方小分身、鹿耳門公園在畫面左側遠景、沿途點綴西螺大橋、北港朝天宮、東石漁人碼頭、布袋漁港魚市場、井仔腳瓦盤鹽田、北門遊客中心、七股鹽山",
-  "geographic_notes": "鹿港老街在畫面右側（東側）、鹿耳門公園在畫面左側（西側）"
+  "geographic_notes": "鹿港老街在畫面右側（東側）、鹿耳門公園在畫面左側（西側）",
+  "_last_place_id": "ChIJofDyKzrYbTQROj-L3C0Zt8A"
 }

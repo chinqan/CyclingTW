@@ -12,7 +12,7 @@
       },
       "address": "709臺南市安南區城中里安中路六段517號",
       "note": "海鮮餐廳",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": false
     },
@@ -27,7 +27,7 @@
       },
       "address": "709臺南市安南區城北里安中路六段217號",
       "note": "台式餐廳",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": false
     },
@@ -42,7 +42,7 @@
       },
       "address": "709臺南市安南區學東里公學路七段177號 之 51 號",
       "note": "台式餐廳",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": false
     },
@@ -57,7 +57,7 @@
       },
       "address": "709臺南市安南區城南里城西街二段318巷66號",
       "note": "中式餐廳",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": false
     },
@@ -72,7 +72,7 @@
       },
       "address": "709臺南市安南區城南里城西街一段212號",
       "note": "餐廳",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": true
     },
@@ -87,7 +87,7 @@
       },
       "address": "709臺南市安南區學東里安明路四段1273號",
       "note": "餐廳",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": false
     },
@@ -102,7 +102,7 @@
       },
       "address": "709臺南市安南區城北里安中路六段608號",
       "note": "台式餐廳",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": false
     },
@@ -117,7 +117,7 @@
       },
       "address": "709臺南市安南區城東里城北路201號",
       "note": "中式餐廳",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": false
     },
@@ -125,14 +125,14 @@
       "place_id": "ChIJP07EjEfYbTQRJR4Uu7HgTR8",
       "name_zh": "台南土城螃蟹專賣店（耐人蟳味）",
       "rating": 4.8,
-      "total_ratings": 188,
+      "total_ratings": 189,
       "location": {
         "lat": 23.060186899999998,
         "lng": 120.12578719999999
       },
       "address": "709臺南市安南區城南里城西街一段223號",
       "note": "餐廳",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": true
     },
@@ -147,7 +147,7 @@
       },
       "address": "709臺南市安南區城中里安中路六段615之一號",
       "note": "餐廳",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": false
     },
@@ -162,7 +162,7 @@
       },
       "address": "709臺南市安南區城北里安中路六段672號676號",
       "note": "牛排館",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": false
     },
@@ -177,7 +177,7 @@
       },
       "address": "709臺南市安南區城中里安中路六段509號",
       "note": "餐廳",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": false
     },
@@ -192,7 +192,7 @@
       },
       "address": "之 號 No. 94-6, No. 94-6青砂街一段城中里安南區臺南市709",
       "note": "餐廳",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": false
     },
@@ -207,7 +207,7 @@
       },
       "address": "709臺南市安南區城東里安明路四段837號",
       "note": "餐廳",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": false
     },
@@ -222,7 +222,7 @@
       },
       "address": "709臺南市安南區媽祖宮里工業二路132號",
       "note": "餐廳",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": false
     },
@@ -237,7 +237,7 @@
       },
       "address": "709臺南市安南區城中里安中路六段757號",
       "note": "餐廳",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": true
     },
@@ -252,7 +252,7 @@
       },
       "address": "709臺南市安南區城北里安明路四段380號",
       "note": "海鮮餐廳",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": false
     },
@@ -267,7 +267,7 @@
       },
       "address": "709臺南市安南區城北里城北路4號",
       "note": "早餐店",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": false
     },
@@ -282,7 +282,7 @@
       },
       "address": "709臺南市安南區學東里城北路736號",
       "note": "早餐店",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": false
     },
@@ -297,7 +297,7 @@
       },
       "address": "709臺南市安南區城北里安中路六段480-1號",
       "note": "越南餐廳",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": true
     },
@@ -312,7 +312,7 @@
       },
       "address": "709臺南市安南區城中里青砂街一段1號",
       "note": "中式餐廳",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": false
     },
@@ -327,7 +327,7 @@
       },
       "address": "709臺南市安南區城安路",
       "note": "中式餐廳",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": false
     },
@@ -372,7 +372,7 @@
       },
       "address": "709臺南市安南區城東里城安路160號",
       "note": "餐廳",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": false
     },
@@ -402,7 +402,7 @@
       },
       "address": "709臺南市安南區城北里安中路六段592號",
       "note": "小吃店",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": false
     },
@@ -417,7 +417,7 @@
       },
       "address": "709臺南市安南區城安路",
       "note": "餐廳",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": false
     },
@@ -447,7 +447,7 @@
       },
       "address": "709臺南市安南區城北里城北路45號",
       "note": "餐廳",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": false
     },
@@ -462,7 +462,7 @@
       },
       "address": "709臺南市安南區城安街土城聖母廟廣場",
       "note": "餐廳",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": false
     },
@@ -477,9 +477,69 @@
       },
       "address": "709台南市安南区城东里城北路234巷51弄10號",
       "note": "亞洲風味餐廳",
-      "source": "api_2026-05-21",
+      "source": "api_2026-05-22",
       "name_is_ascii": false,
       "selected": true
+    },
+    {
+      "place_id": "ChIJG5hM3D3YbTQRRo7FPsoqYZ4",
+      "name_zh": "大鼎藥膳排骨",
+      "rating": 4.4,
+      "total_ratings": 52,
+      "location": {
+        "lat": 23.0646682,
+        "lng": 120.1340097
+      },
+      "address": "709臺南市安南區西部濱海公路670-672號",
+      "note": "餐廳",
+      "source": "api_2026-05-22",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJY7kP1zjYbTQR75U8cnsHK-A",
+      "name_zh": "家鄉傳統美食",
+      "rating": 4.4,
+      "total_ratings": 5,
+      "location": {
+        "lat": 23.0623528,
+        "lng": 120.12947609999999
+      },
+      "address": "709臺南市安南區城中里城西街一段9號",
+      "note": "餐廳",
+      "source": "api_2026-05-22",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJe3gTOgDZbTQRufCN8-B91Jo",
+      "name_zh": "煎佐麻里蔥油餅",
+      "rating": 4.2,
+      "total_ratings": 5,
+      "location": {
+        "lat": 23.0670486,
+        "lng": 120.1275895
+      },
+      "address": "709臺南市安南區城安路",
+      "note": "亞洲風味餐廳",
+      "source": "api_2026-05-22",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ80flSTzYbTQRjki8AvImnJY",
+      "name_zh": "龜鹿仙圓融園",
+      "rating": 4.8,
+      "total_ratings": 6,
+      "location": {
+        "lat": 23.0659925,
+        "lng": 120.13229229999997
+      },
+      "address": "709臺南市安南區城東里城北路234巷46號",
+      "note": "餐廳",
+      "source": "api_2026-05-22",
+      "name_is_ascii": false,
+      "selected": false
     }
   ]
 }

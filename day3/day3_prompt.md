@@ -1,6 +1,6 @@
 Day3
 鹿港 → 台南鹿耳門
-約 187.9 公里
+約 187.8 公里
 極西國聖燈塔追日行
 
 Output format: horizontal landscape poster, aspect ratio 3:2.

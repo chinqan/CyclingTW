@@ -2,11 +2,10 @@
   "place_id": "ChIJc6xCcUjWbTQRiHuEUawpxAM",
   "name_zh": "7-ELEVEN 七股門市",
   "csv_type": "便利商店",
-  "search_keyword": "7-ELEVEN 七股門市 台南市七股區七股里154之1號",
   "location": {
     "lat": 23.1335946,
     "lng": 120.1334815
   },
-  "note": "七股終點區補給 km約122",
-  "source": "google_maps"
+  "search_keyword": "7-ELEVEN 台南市七股區",
+  "source": "api_2026-05-22"
 }

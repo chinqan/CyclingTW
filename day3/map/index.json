@@ -6,7 +6,7 @@
       "name_zh": "鹿港老街",
       "csv_type": "起終點",
       "rating": 4.5,
-      "total_ratings": 42115,
+      "total_ratings": 42117,
       "location": {
         "lat": 24.056300999999998,
         "lng": 120.4325817
@@ -78,7 +78,7 @@
       "name_zh": "東石漁人碼頭",
       "csv_type": "景點",
       "rating": 4.2,
-      "total_ratings": 22902,
+      "total_ratings": 22903,
       "location": {
         "lat": 23.4487536,
         "lng": 120.1352728
@@ -91,7 +91,7 @@
       "name_zh": "蠔碳嘉烤鮮蚵吃到飽",
       "csv_type": "餐廳大休",
       "rating": 4.9,
-      "total_ratings": 4887,
+      "total_ratings": 4888,
       "location": {
         "lat": 23.4532594,
         "lng": 120.13698780000001
@@ -104,7 +104,7 @@
       "name_zh": "布袋漁港魚市場",
       "csv_type": "景點",
       "rating": 4,
-      "total_ratings": 31189,
+      "total_ratings": 31190,
       "location": {
         "lat": 23.3793698,
         "lng": 120.15546369999998
@@ -139,7 +139,7 @@
       "name_zh": "井仔腳瓦盤鹽田",
       "csv_type": "景點",
       "rating": 4.4,
-      "total_ratings": 21624,
+      "total_ratings": 21626,
       "location": {
         "lat": 23.2588308,
         "lng": 120.10756800000001
@@ -165,7 +165,7 @@
       "name_zh": "七股鹽山",
       "csv_type": "景點",
       "rating": 3.9,
-      "total_ratings": 20709,
+      "total_ratings": 20710,
       "location": {
         "lat": 23.1542387,
         "lng": 120.10012110000001
@@ -280,17 +280,6 @@
       "note": "正統鹿耳門天后宮 鄭成功登陸傳說地"
     },
     {
-      "place_id": "ChIJc6xCcUjWbTQRiHuEUawpxAM",
-      "name_zh": "7-ELEVEN 七股門市",
-      "csv_type": "便利商店",
-      "location": {
-        "lat": 23.1335946,
-        "lng": 120.1334815
-      },
-      "source": "google_maps",
-      "note": "七股終點區補給 km約122"
-    },
-    {
       "place_id": "ChIJH7C_CY3WbTQRES0llB6FBg8",
       "name_zh": "七股遊客中心",
       "csv_type": "起終點",
@@ -302,6 +291,56 @@
       },
       "source": "google_maps",
       "note": "約17:00抵達 當日終點 鄰七股潟湖 km約123"
+    },
+    {
+      "place_id": "ChIJ04KAkmJ3bjQRwUJE5tLvPE4",
+      "name_zh": "7-ELEVEN 安南門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.061271899999998,
+        "lng": 120.21887479999998
+      },
+      "source": "api_2026-05-22"
+    },
+    {
+      "place_id": "ChIJObHjpvZ3bjQR5vNNnNQP18A",
+      "name_zh": "7-ELEVEN 本興門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.0670854,
+        "lng": 120.1760304
+      },
+      "source": "api_2026-05-22"
+    },
+    {
+      "place_id": "ChIJKS8RgA53bjQRihmnIn6yYjY",
+      "name_zh": "7-ELEVEN 怡安門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.036714,
+        "lng": 120.21375719999999
+      },
+      "source": "api_2026-05-22"
+    },
+    {
+      "place_id": "ChIJc6xCcUjWbTQRiHuEUawpxAM",
+      "name_zh": "7-ELEVEN 七股門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.1335946,
+        "lng": 120.1334815
+      },
+      "source": "api_2026-05-22"
+    },
+    {
+      "place_id": "ChIJH-JcBz7WbTQRc__gi9yiWFE",
+      "name_zh": "7-ELEVEN 大埕門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.142841,
+        "lng": 120.1416532
+      },
+      "source": "api_2026-05-22"
     }
   ]
 }

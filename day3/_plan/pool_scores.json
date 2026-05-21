@@ -5,77 +5,70 @@
   "pool_size": 16,
   "scores": {
     "ChIJbZ03BtZFaTQRVSahxk_O324": {
-      "name_zh": "Lukang Old Street",
+      "name_zh": "鹿港老街",
       "csv_type": "起終點",
       "rating": 4.5,
-      "total_ratings": 42114,
+      "total_ratings": 42117,
       "bayesian_score": 4.48
     },
     "ChIJJfEEtoWibjQRzq8W6JSLfHo": {
-      "name_zh": "Beigang Chaotian Temple",
+      "name_zh": "北港朝天宮",
       "csv_type": "景點",
       "rating": 4.7,
       "total_ratings": 24030,
       "bayesian_score": 4.62
     },
     "ChIJo-Z3SJgnbDQRbkeN9Rx3Mis": {
-      "name_zh": "Dongshi Fisherman's Wharf",
+      "name_zh": "東石漁人碼頭",
       "csv_type": "景點",
       "rating": 4.2,
-      "total_ratings": 22902,
+      "total_ratings": 22903,
       "bayesian_score": 4.24
     },
     "ChIJodGzjxwnbDQRbSUzYK6OF7M": {
       "name_zh": "蠔碳嘉烤鮮蚵吃到飽-東石鮮蚵吃到飽|推薦鮮蚵|必吃鮮蚵|人氣鮮蚵|道地美食|在地推薦餐廳|烤蚵吃到飽|必吃烤蚵",
       "csv_type": "餐廳大休",
       "rating": 4.9,
-      "total_ratings": 4887,
+      "total_ratings": 4888,
       "bayesian_score": 4.58
     },
     "ChIJl927qSsobDQRUbouAy2tsUw": {
-      "name_zh": "Budai Harbor Fish Market",
+      "name_zh": "布袋漁港魚市場",
       "csv_type": "景點",
       "rating": 4,
-      "total_ratings": 31188,
+      "total_ratings": 31190,
       "bayesian_score": 4.07
     },
     "ChIJq6qqqtUqbDQR_ohO2eK2x4E": {
-      "name_zh": "Jingzaijiao Tile-paved Salt Fields",
+      "name_zh": "井仔腳瓦盤鹽田",
       "csv_type": "景點",
       "rating": 4.4,
-      "total_ratings": 21624,
+      "total_ratings": 21626,
       "bayesian_score": 4.39
     },
     "ChIJlfUqzNoqbDQRXymbU53YLr8": {
-      "name_zh": "Beimen Visitor Center",
+      "name_zh": "北門遊客中心",
       "csv_type": "景點",
       "rating": 4.1,
       "total_ratings": 5381,
       "bayesian_score": 4.25
     },
     "ChIJTRbkzL_WbTQRTrfGfckHIrc": {
-      "name_zh": "Qigu Salt Mountain",
+      "name_zh": "七股鹽山",
       "csv_type": "景點",
       "rating": 3.9,
-      "total_ratings": 20709,
+      "total_ratings": 20710,
       "bayesian_score": 4.02
     },
-    "ChIJH7C_CY3WbTQRES0llB6FBg8": {
-      "name_zh": "七股遊客中心",
-      "csv_type": "起終點",
-      "rating": 4.2,
-      "total_ratings": 1884,
-      "bayesian_score": 4.33
-    },
     "ChIJofDyKzrYbTQROj-L3C0Zt8A": {
-      "name_zh": "Luermen Park",
+      "name_zh": "鹿耳門公園",
       "csv_type": "起終點",
       "rating": 4.3,
       "total_ratings": 198,
       "bayesian_score": 4.36
     },
     "ChIJ49OG8GnabTQR9wo1PrlXP2o": {
-      "name_zh": "Westernmost Point of Taiwan",
+      "name_zh": "國聖港燈塔",
       "csv_type": "景點",
       "rating": 4.4,
       "total_ratings": 3341,
@@ -115,6 +108,13 @@
       "rating": 4.7,
       "total_ratings": 7940,
       "bayesian_score": 4.54
+    },
+    "ChIJH7C_CY3WbTQRES0llB6FBg8": {
+      "name_zh": "七股遊客中心",
+      "csv_type": "起終點",
+      "rating": 4.2,
+      "total_ratings": 1884,
+      "bayesian_score": 4.33
     }
   }
 }

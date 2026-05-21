@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ80flSTzYbTQRjki8AvImnJY",
+  "name_zh": "龜鹿仙圓融園",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 6,
+  "location": {
+    "lat": 23.0659925,
+    "lng": 120.13229229999997
+  },
+  "address": "709臺南市安南區城東里城北路234巷46號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.54,
+  "source": "api_2026-05-22",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

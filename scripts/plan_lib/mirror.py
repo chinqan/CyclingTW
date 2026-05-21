@@ -18,6 +18,13 @@ except ImportError:
 
 from .helpers import ROOT, map_dir, read_json, write_json, read_stdin_json, die, info
 
+
+def _sanitize_place_name(name: str) -> str:
+    """移除 Google Places 名稱中的 marketing tag（| 分隔的附加描述）。
+    例：'蠔碳嘉烤鮮蚵吃到飽-東石|推薦鮮蚵|必吃' → '蠔碳嘉烤鮮蚵吃到飽-東石'
+    保留第一個 | 之前的部分並 strip 空白。"""
+    return name.split("|")[0].strip()
+
 # Google Places API (New)
 PLACES_API_BASE = "https://places.googleapis.com/v1/places"
 MIRROR_FIELD_MASK = ",".join([
@@ -225,7 +232,7 @@ def cmd_mirror_search(args):
         if not pid:
             continue
         dn = p.get("displayName", {})
-        name_zh = dn.get("text", "")
+        name_zh = _sanitize_place_name(dn.get("text", ""))
         loc = p.get("location", {})
         lat, lng = loc.get("latitude"), loc.get("longitude")
 

@@ -11,7 +11,7 @@
       "csv_type": "起終點",
       "note": "07:00出發 Day2終點續行 km0",
       "rating": 4.5,
-      "total_ratings": 42115,
+      "total_ratings": 42117,
       "location": {
         "lat": 24.056300999999998,
         "lng": 120.4325817
@@ -89,7 +89,7 @@
       "csv_type": "景點",
       "note": "約11:30抵達 觀海景區+海鮮市場 km約72",
       "rating": 4.2,
-      "total_ratings": 22902,
+      "total_ratings": 22903,
       "location": {
         "lat": 23.4487536,
         "lng": 120.1352728
@@ -103,7 +103,7 @@
       "csv_type": "餐廳大休",
       "note": "11:30-13:00午餐大休 東石烤蚵吃到飽 km約72",
       "rating": 4.9,
-      "total_ratings": 4887,
+      "total_ratings": 4888,
       "location": {
         "lat": 23.4532594,
         "lng": 120.13698780000001
@@ -117,7 +117,7 @@
       "csv_type": "景點",
       "note": "約13:45抵達 海鮮市集+布袋鹽田風光 km約85",
       "rating": 4,
-      "total_ratings": 31189,
+      "total_ratings": 31190,
       "location": {
         "lat": 23.3793698,
         "lng": 120.15546369999998
@@ -155,7 +155,7 @@
       "csv_type": "景點",
       "note": "約14:45抵達 台灣最古老鹽田 棋盤狀鹽結晶池 km約100",
       "rating": 4.4,
-      "total_ratings": 21624,
+      "total_ratings": 21626,
       "location": {
         "lat": 23.2588308,
         "lng": 120.10756800000001
@@ -183,7 +183,7 @@
       "csv_type": "景點",
       "note": "約15:45抵達 純白巨型鹽山地標 km約113",
       "rating": 3.9,
-      "total_ratings": 20709,
+      "total_ratings": 20710,
       "location": {
         "lat": 23.1542387,
         "lng": 120.10012110000001
@@ -205,20 +205,6 @@
       "bayesian_score": 4.37
     },
     {
-      "place_id": "ChIJCwN--uTZbTQRZMhcv_8gUr0",
-      "name_zh": "7-ELEVEN 聖安門市",
-      "search_keyword": "7-ELEVEN 聖安門市 台南市安南區",
-      "csv_type": "便利商店",
-      "note": "終點前補給與休息 km約139",
-      "location": {
-        "lat": 23.0658586,
-        "lng": 120.1280074
-      },
-      "rating": 2.6,
-      "total_ratings": 5,
-      "bayesian_score": null
-    },
-    {
       "place_id": "ChIJofDyKzrYbTQROj-L3C0Zt8A",
       "name_zh": "鹿耳門公園",
       "search_keyword": "鹿耳門公園 台南市安南區城安路",
@@ -235,7 +221,7 @@
   ],
   "bayesian_C": 4.3625,
   "bayesian_m": 7324,
-  "ors_distance_km": 187.9,
+  "ors_distance_km": 187.8,
   "ors_duration_hours": 11.0,
   "elevation_ascent_m": 49,
   "elevation_descent_m": 53
