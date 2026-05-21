@@ -6,8 +6,8 @@
   "subtitle": "花東縱谷北行接駁日",
   "orientation": "horizontal_landscape_3_2",
   "lighting": "上午柔和光線透過樹蔭、糖廠園區懷舊暖調",
-  "allowed_elements": "",
-  "enhancement": "",
+  "allowed_elements": "花東縱谷縱向稻田、玉富自行車道鐵道橋遺址、舞鶴台地茶園梯田、北回歸線標誌公園、花蓮觀光糖廠日式宿舍群、花蓮市區太平洋海岸線",
+  "enhancement": "畫面呈現沿花東縱谷北行至花蓮後接駁蘇澳的旅程感、花蓮觀光糖廠日式紅磚作為歷史文化視覺主體、縱谷稻田到花蓮海岸的地景轉換象徵旅程多元面貌",
   "main_visual": {
     "place_id": "ChIJpcSL78qyaDQRpJX500RPFLo",
     "location_desc": "花蓮縣光復「花蓮觀光糖廠」",

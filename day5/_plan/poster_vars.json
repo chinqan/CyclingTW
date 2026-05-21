@@ -6,8 +6,8 @@
   "subtitle": "屏鵝公路南國追風行",
   "orientation": "horizontal_landscape_3_2",
   "lighting": "南國正午強烈陽光、碧海藍天熱帶色調",
-  "allowed_elements": "",
-  "enhancement": "",
+  "allowed_elements": "屏鵝公路筆直南下公路、車城洋蔥田與南國平原、恆春古城城牆剪影、墾丁椰子樹林、鵝鑾鼻白色燈塔、碧藍巴士海峽海面、熱帶珊瑚礁岸",
+  "enhancement": "畫面呈現沿屏鵝公路南下抵達台灣國境之南的熱帶旅程感、鵝鑾鼻燈塔作為終點視覺地標、碧海藍天椰影強調墾丁半島熱帶島嶼氛圍",
   "main_visual": {
     "place_id": "ChIJdU4y8ie4cTQRe0BNxOo2HKc",
     "location_desc": "屏東縣車城「車城福安宮」",

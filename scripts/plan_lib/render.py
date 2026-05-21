@@ -115,6 +115,8 @@ def _derive_poster_vars(n: int) -> dict:
 
     axis = _axis_words(out["orientation"], first["location"], last["location"])
 
+    route_changed = False  # 追蹤主視覺／起點／終點是否變動
+
     # main_visual
     main_visual = _find_main_visual_place(places)
     mv_old = dict(out.get("main_visual") or {})
@@ -125,6 +127,7 @@ def _derive_poster_vars(n: int) -> dict:
                  f"（{main_visual['name_zh']}），已清空 main_visual.scene_elements / action / expression")
             mv = {"place_id": new_pid, "location_desc": _location_desc(main_visual),
                   "scene_elements": "", "action": "", "expression": ""}
+            route_changed = True
         else:
             mv = mv_old
             mv["place_id"] = new_pid
@@ -154,6 +157,7 @@ def _derive_poster_vars(n: int) -> dict:
         info(f"⚠️  起點已換，已清空 small_avatar.scenario / action / expression")
         sa = {"place_id": first_pid, "location_desc": _location_desc(first),
               "scenario": "", "action": "", "expression": ""}
+        route_changed = True
     else:
         sa = sa_old
         sa["place_id"] = first_pid
@@ -163,6 +167,19 @@ def _derive_poster_vars(n: int) -> dict:
         sa.setdefault("action", "")
         sa.setdefault("expression", "")
     out["small_avatar"] = sa
+
+    # 終點變動偵測
+    last_pid = last.get("place_id", "")
+    if out.get("_last_place_id") and out["_last_place_id"] != last_pid:
+        info(f"⚠️  終點已換（{out['_last_place_id']} → {last_pid}）")
+        route_changed = True
+    out["_last_place_id"] = last_pid
+
+    # allowed_elements / enhancement：路線有任何變動就清空
+    if route_changed:
+        out["allowed_elements"] = ""
+        out["enhancement"] = ""
+        info("⚠️  路線已更動，allowed_elements / enhancement 已清空，請重新填寫")
 
     # composition / geographic_notes
     main_pid = (out.get("main_visual") or {}).get("place_id")
@@ -188,6 +205,27 @@ def _derive_poster_vars(n: int) -> dict:
     return out
 
 
+def _load_protagonist() -> tuple[str, str]:
+    """從 ROOT/主角.md 解析角色提示詞與負面限制。回傳 (prompt, negative)。"""
+    path = ROOT / "主角.md"
+    if not path.exists():
+        die(f"找不到 {path}，請確認專案根目錄有 主角.md")
+    text = path.read_text(encoding="utf-8")
+    m_prompt = re.search(
+        r"##\s*可直接放入產圖 Prompt 的版本\s*\n+([\s\S]+?)(?=\n##|\Z)", text
+    )
+    m_neg = re.search(
+        r"##\s*負面限制\s*\n+([\s\S]+?)(?=\n##|\Z)", text
+    )
+    protagonist_prompt = m_prompt.group(1).strip() if m_prompt else ""
+    protagonist_negative = m_neg.group(1).strip() if m_neg else ""
+    if not protagonist_prompt:
+        die("主角.md 中找不到「可直接放入產圖 Prompt 的版本」段落")
+    if not protagonist_negative:
+        die("主角.md 中找不到「負面限制」段落")
+    return protagonist_prompt, protagonist_negative
+
+
 def cmd_render_prompt(args):
     n = args.day
     vars_path = plan_dir(n) / "poster_vars.json"
@@ -209,6 +247,9 @@ def cmd_render_prompt(args):
                 empty_fields.append(f"small_avatar.{k}")
         if empty_fields:
             info(f"⚠️  以下手寫欄位為空：{', '.join(empty_fields)}")
+    protagonist_prompt, protagonist_negative = _load_protagonist()
+    poster_vars["protagonist_prompt"] = protagonist_prompt
+    poster_vars["protagonist_negative"] = protagonist_negative
     tpl = _jenv().get_template("prompt.md.j2")
     out = day_dir(n) / f"day{n}_prompt.md"
     out.write_text(tpl.render(**poster_vars), encoding="utf-8")
