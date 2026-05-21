@@ -1,7 +1,7 @@
 # 單車環島每日路線規劃
 單日路線規劃改由 `scripts/plan.py` 取代舊 skill。指令流程與 Claude 需遵守的選點 / 搜尋關鍵字 / API 節流 / 撤退方案 / 主視覺等規則，全部寫在 `scripts/plan.py` 檔頭的模組 docstring，請執行前先閱讀。常用流程：
 1. **Phase 0**：`python3 scripts/plan.py parse-index N`
-2. **Phase 1**：Claude 透過 google-maps MCP 補搜停靠點 → `mirror-put` 寫回快取 → 編寫 `dayN/_plan/places.json` → `refresh-details N`（批量刷新評分）→ `compute N` → `write-csv N`
+2. **Phase 1**：Claude 用 `mirror-search N --keyword "…" --csv-type …` 逐個搜停靠點（Google Places API，zh-TW；自動 upsert 到 candidates_not_selected）→ 編寫 `dayN/_plan/places.json` → `refresh-details N`（批量刷新評分）→ `compute N` → `write-csv N`
 3. **Phase 2**：`route N`（需 `ORS_API_KEY` 環境變數；離線時改用 `gpx-waypoints N`）
 4. **Phase 3**：`render-prompt N`（Claude 先補 `_plan/poster_vars.json` 主視覺欄位）
 5. **Phase 3.5（晚餐）**：`dinner-search N`（直接呼叫 Google Places API，zh-TW 語言碼，自動 upsert dinner_map/，過濾非餐廳類）→ `dinner-pool N`（產 `_plan/dinner.json` 並寫入 `source_endpoint_place_id` 簽章）。需 `GOOGLE_PLACES_API_KEY`，不走 MCP。

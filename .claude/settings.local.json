@@ -13,7 +13,10 @@
       "Bash(awk *)",
       "Bash(md5 *)",
       "Bash(git commit *)",
-      "Bash(node build_html.js)"
+      "Bash(node build_html.js)",
+      "Bash(git checkout *)",
+      "Bash(xargs -I{} echo \"rollback - {} mirror files\")",
+      "Bash(xargs -I{} rm -f {})"
     ]
   }
 }

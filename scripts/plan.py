@@ -3,8 +3,8 @@
 CyclingTW Day Planner — 半自動腳本工具
 =====================================
 本腳本負責所有機械步驟（HTTPS API 搜尋 / 本地鏡像 / Bayesian / CSV / GPX / 模板渲染）。
-Phase 1 停靠點仍由 Claude 在對話中用 google-maps MCP 補搜，pipe 到 mirror-put 寫回；
-Phase 3.5（餐廳）/ 3.6（住宿）已改 Google Places API 直呼，不走 MCP。
+所有 Google Maps 查詢一律走 Places API (New) 直連，不走任何 MCP（mirror-search /
+dinner-search / hotel-search / refresh-details 都在這一條路）。
 
 設計原則：
   - 本地鏡像（write-through）：dayN/map/ 是 Google Maps 的本地鏡像 DB，不是
@@ -19,10 +19,13 @@ Phase 3.5（餐廳）/ 3.6（住宿）已改 Google Places API 直呼，不走 M
                            Phase 3.6 終點周邊 3km 飯店候選池。hotel-search 直接呼叫
                            Google Places API (zh-TW)，自動寫入 hotel_map/；
                            輸出 _plan/hotel.json 與 dayN_hotel.md。
-                           （備援：hotel-put / hotel-status / hotel-review）
+                           （輔助：hotel-status / hotel-review）
   parse-index N            解析 index.md 第 N 天設定
   mirror-status N          列出 dayN/map/（本地鏡像）內容與候選池警告
-  mirror-put N             [stdin] upsert 單筆 place 到本地鏡像
+  mirror-search N --keyword "…" --csv-type …
+                           用 Google Places API 找單一停靠點並 upsert 到 dayN/map/
+                           （需 GOOGLE_PLACES_API_KEY；可加 --bias LAT,LNG 偏向位置）
+  mirror-put N             [stdin] 手動 upsert 單筆 place（mirror-search 找不到時用）
   mirror-diff N            [stdin] 比對本地鏡像 vs 線上最新
   score-pool N             對整個 mirror 候選池算 Bayesian，產出 pool_scores.json
   compute N                套用 pool_scores 到 places.json（缺失時自動觸發 score-pool）
@@ -66,13 +69,12 @@ Claude 規劃時必須遵守的規則（plan.py 無法強制，但需在對話�
   - 用 `refresh-details N` 一次刷新 places.json 可評分點位的
     rating / total_ratings / opening_hours（Google Places API New，Essentials tier）。
     加 --with-reviews 取 reviews（Pro tier）。
-  - 對「便利商店 / 加油站 / 公共設施 / 綜合休息站」嚴禁呼叫 refresh-details，
-    rating / total_ratings 欄位直接留空。
-  - 便利商店 / 加油站 用 google-maps MCP search 時：每次只取 top 1 結果、只保留
-    place_id / name / location 三欄（mirror-put 時也只寫入這三欄）。
-  - 景點：MCP search 後挑 3-5 個候選做 mirror-put，再用 refresh-details
-    批量刷新；未入選的存到 candidates_not_selected（給未來 Bayesian pool 用）。
-  - 餐廳 / 住宿：用 dinner-search / hotel-search 一鍵完成（API 直呼，不走 MCP）。
+  - 便利商店 / 加油站 / 公共設施 / 綜合休息站：用 mirror-search --csv-type 該類型
+    搜尋，自動只保留 place_id / name / location；refresh-details 也會略過這些
+    rating 留空。
+  - 景點：mirror-search 一次搜一個候選（可用 --max-results 3 廣搜），未入選的
+    自動進 candidates_not_selected 等 Bayesian pool。
+  - 餐廳 / 住宿：用 dinner-search / hotel-search 對終點圓心一次抓 50–80 筆。
 
 [B] 地點搜尋關鍵字撰寫原則（用於 places.json 的 search_keyword 與 mymap CSV）
   - 便利商店：「品牌 + 門市名稱」                     例：7-ELEVEN 觀湖門市
@@ -113,7 +115,7 @@ except ImportError:
     sys.exit(1)
 
 from plan_lib.index_parser import cmd_parse_index, cmd_update_index
-from plan_lib.mirror import cmd_mirror_status, cmd_mirror_put, cmd_mirror_diff
+from plan_lib.mirror import cmd_mirror_status, cmd_mirror_put, cmd_mirror_diff, cmd_mirror_search
 from plan_lib.bayesian import (
     cmd_score_pool, cmd_compute, cmd_review, cmd_compose_better_attractions,
     cmd_verify_and_fix,
@@ -123,11 +125,11 @@ from plan_lib.gpx import cmd_route, cmd_gpx_save, cmd_gpx_waypoints
 from plan_lib.render import cmd_render_prompt, cmd_render_md
 from plan_lib.cover import cmd_render_cover_prompt
 from plan_lib.dinner import (
-    cmd_dinner_search, cmd_dinner_put, cmd_dinner_status,
+    cmd_dinner_search, cmd_dinner_status,
     cmd_dinner_pool, cmd_dinner_review, cmd_dinner_render,
 )
 from plan_lib.hotel import (
-    cmd_hotel_search, cmd_hotel_put, cmd_hotel_status,
+    cmd_hotel_search, cmd_hotel_status,
     cmd_hotel_pool, cmd_hotel_review, cmd_hotel_render,
 )
 from plan_lib.places_api import cmd_refresh_details
@@ -149,6 +151,18 @@ def build_parser() -> argparse.ArgumentParser:
     add("mirror-status", cmd_mirror_status, "顯示 dayN/map/（本地鏡像）現況")
     add("mirror-put",    cmd_mirror_put,    "[stdin] upsert 單筆 place 到本地鏡像")
     add("mirror-diff",   cmd_mirror_diff,   "[stdin] 比對本地鏡像 vs 線上最新")
+    sp = add("mirror-search", cmd_mirror_search,
+             "用 keyword 呼叫 Google Places API 並 upsert 到 dayN/map/")
+    sp.add_argument("--keyword", required=True, help="搜尋關鍵字（例：7-ELEVEN 觀湖門市）")
+    sp.add_argument("--csv-type", required=True,
+                    help="便利商店 / 加油站 / 景點 / 起終點 / 餐廳大休 / 公共設施 / 綜合休息站")
+    sp.add_argument("--target", default="candidates_not_selected",
+                    help="places 或 candidates_not_selected（預設）")
+    sp.add_argument("--bias", default=None,
+                    help="locationBias 圓心 LAT,LNG（例：24.687,120.881）")
+    sp.add_argument("--bias-radius", type=int, default=5000,
+                    help="locationBias 圓半徑（公尺，預設 5000）")
+    sp.add_argument("--max-results", type=int, default=1, help="取前 N 筆（預設 1）")
     sp = add("score-pool", cmd_score_pool, "對整個 mirror 候選池算 Bayesian")
     sp.add_argument("--quiet", action="store_true", help="只印統計，不印各點排名")
     sp = add("compute",  cmd_compute,  "套用 pool_scores 到 places.json")
@@ -178,7 +192,6 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("--min-reviews", type=int, default=0,
                     help="排除留言數低於此值的點（預設 0 = 不過濾）")
     add("dinner-status", cmd_dinner_status, "顯示 dayN/dinner_map/ 鏡像現況")
-    add("dinner-put",    cmd_dinner_put,    "[stdin] upsert 餐廳到 dinner_map/ 鏡像")
     sp = add("dinner-pool", cmd_dinner_pool, "從 dinner_map/ 鏡像池算 Bayesian 選 top 5")
     sp.add_argument("--quiet", action="store_true", help="不印 19 筆排名表，只印 top 5 摘要")
     add("dinner-review", cmd_dinner_review, "顯示 dinner.json 排名")
@@ -190,7 +203,6 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("--min-reviews", type=int, default=0,
                     help="排除留言數低於此值的點（預設 0 = 不過濾）")
     add("hotel-status", cmd_hotel_status, "顯示 dayN/hotel_map/ 鏡像現況")
-    add("hotel-put",    cmd_hotel_put,    "[stdin] upsert 飯店到 hotel_map/ 鏡像")
     sp = add("hotel-pool", cmd_hotel_pool, "從 hotel_map/ 鏡像池算 Bayesian 選 top 5")
     sp.add_argument("--quiet", action="store_true", help="不印完整排名表，只印 top 5 摘要")
     add("hotel-review", cmd_hotel_review, "顯示 hotel.json 排名")

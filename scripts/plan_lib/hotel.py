@@ -1,4 +1,4 @@
-"""住宿選點：hotel-search / hotel-pool / hotel-render (+ hotel-status / hotel-review / hotel-put)。
+"""住宿選點：hotel-search / hotel-pool / hotel-render (+ hotel-status / hotel-review)。
 
 本地鏡像 DB：dayN/hotel_map/
   - index.json         索引（候選名單 + 入選標記）
@@ -11,10 +11,8 @@
   2. hotel-pool N  — 從鏡像完整候選池算 Bayesian、選 top 5，存 _plan/hotel.json
   3. hotel-render N — 產 dayN_hotel.md
 
-備援指令：
-  - hotel-put N   — [stdin] 手動 upsert 單筆 / 陣列 JSON 到鏡像
-  - hotel-status N — 顯示鏡像現況
-  - hotel-review N — 顯示完整排名
+輔助：hotel-status / hotel-review。
+人工微調：直接編 dayN/hotel_map/<place_id>.json 改完存檔。
 """
 from __future__ import annotations
 
@@ -28,7 +26,7 @@ try:
 except ImportError:
     pass
 
-from .helpers import ROOT, plan_dir, hotel_map_dir, read_json, write_json, read_stdin_json, die, info, haversine_km
+from .helpers import ROOT, plan_dir, hotel_map_dir, read_json, write_json, die, info, haversine_km
 
 DEDUPE_RADIUS_KM = 0.05  # 50m 內同名視為同一家
 
@@ -360,60 +358,6 @@ def cmd_hotel_status(args):
         print(f"⚠️  住宿候選 {len(candidates)} 筆，建議搜尋至 ≥ 15 筆再跑 hotel-pool")
 
 
-def cmd_hotel_put(args):
-    """從 stdin 讀單筆或多筆飯店 JSON，upsert 到本地鏡像。
-
-    stdin schema（單筆或陣列）：
-    {
-      "place_id": "ChIJ...",          // 必填
-      "name_zh": "竹南大飯店",         // 必填
-      "rating": 4.6,                  // 必填
-      "total_ratings": 320,           // 必填
-      "location": {"lat": ..., "lng": ...},
-      "address": "苗栗縣竹南鎮...",    // 可選
-      "note": "雙人房約 2,500 元 / 含早餐",  // 可選
-      "source": "search_2026-05-20"   // 可選
-    }
-    """
-    n = args.day
-    data = read_stdin_json()
-    if isinstance(data, dict):
-        data = [data]
-
-    idx = _load_hotel_index(n)
-    candidates = idx.get("candidates", [])
-    pid_map = {c["place_id"]: i for i, c in enumerate(candidates)}
-
-    upserted = 0
-    for item in data:
-        pid = item.get("place_id")
-        if not pid:
-            info(f"跳過缺 place_id 的項目：{item.get('name_zh', '?')}")
-            continue
-
-        f = hotel_map_dir(n) / f"{pid}.json"
-        write_json(f, item)
-
-        summary = {k: item[k] for k in (
-            "place_id", "name_zh", "rating", "total_ratings", "location", "address", "note", "source"
-        ) if k in item}
-
-        if pid in pid_map:
-            old = candidates[pid_map[pid]]
-            summary["selected"] = old.get("selected", False)
-            candidates[pid_map[pid]] = summary
-        else:
-            summary["selected"] = False
-            candidates.append(summary)
-            pid_map[pid] = len(candidates) - 1
-
-        upserted += 1
-
-    idx["candidates"] = candidates
-    _save_hotel_index(n, idx)
-    info(f"upsert {upserted} 筆到 hotel_map/（共 {len(candidates)} 筆候選）")
-
-
 # ─────────────────────────────────────────────────────────────────
 # Bayesian 選 Top 5
 # ─────────────────────────────────────────────────────────────────
@@ -482,50 +426,8 @@ def _collect_hotel_pool(n: int) -> list[dict]:
 
 
 def cmd_hotel_pool(args):
-    """從 hotel_map 鏡像候選池算 Bayesian 排序，選 top 5。
-
-    也可 stdin 帶入新資料（會先自動 upsert 到鏡像再算）。
-    """
+    """從 hotel_map 鏡像候選池算 Bayesian 排序，選 top 5。"""
     n = args.day
-    import sys
-
-    if not sys.stdin.isatty():
-        raw = sys.stdin.read()
-        if raw.strip():
-            new_data = json.loads(raw)
-            if isinstance(new_data, dict):
-                new_data = [new_data]
-
-            idx = _load_hotel_index(n)
-            candidates = idx.get("candidates", [])
-            pid_map = {c["place_id"]: i for i, c in enumerate(candidates)}
-
-            added = 0
-            for item in new_data:
-                pid = item.get("place_id")
-                if not pid:
-                    continue
-                f = hotel_map_dir(n) / f"{pid}.json"
-                write_json(f, item)
-                summary = {k: item[k] for k in (
-                    "place_id", "name_zh", "rating", "total_ratings",
-                    "location", "address", "note", "source"
-                ) if k in item}
-                if pid in pid_map:
-                    old_selected = candidates[pid_map[pid]].get("selected", False)
-                    summary["selected"] = old_selected
-                    candidates[pid_map[pid]] = summary
-                else:
-                    summary["selected"] = False
-                    candidates.append(summary)
-                    pid_map[pid] = len(candidates) - 1
-                added += 1
-
-            idx["candidates"] = candidates
-            _save_hotel_index(n, idx)
-            if added:
-                info(f"從 stdin 新增/更新 {added} 筆到 hotel_map/")
-
     pool = _collect_hotel_pool(n)
     if len(pool) < 3:
         die(f"hotel_map 中有效候選只有 {len(pool)} 筆，至少需要 3 筆。"

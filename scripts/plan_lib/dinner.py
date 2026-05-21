@@ -1,4 +1,4 @@
-"""晚餐選點：dinner-search / dinner-pool / dinner-render (+ dinner-status / dinner-review / dinner-put)。
+"""晚餐選點：dinner-search / dinner-pool / dinner-render (+ dinner-status / dinner-review)。
 
 本地鏡像 DB：dayN/dinner_map/
   - index.json         索引（候選名單 + 入選標記）
@@ -11,10 +11,8 @@
   2. dinner-pool N  — 從鏡像完整候選池算 Bayesian、選 top 5，存 _plan/dinner.json
   3. dinner-render N — 產 dayN_dinner.md
 
-備援：
-  - dinner-put N   — [stdin] 手動 upsert 單筆/陣列（覆寫 name_zh、補純英文點）
-  - dinner-status N — 鏡像現況
-  - dinner-review N — 完整排名
+輔助：dinner-status / dinner-review。
+人工微調：直接編 dayN/dinner_map/<place_id>.json 改完存檔。
 """
 from __future__ import annotations
 
@@ -28,7 +26,7 @@ try:
 except ImportError:
     pass
 
-from .helpers import ROOT, plan_dir, dinner_map_dir, read_json, write_json, read_stdin_json, die, info, haversine_km
+from .helpers import ROOT, plan_dir, dinner_map_dir, read_json, write_json, die, info, haversine_km
 
 DEDUPE_RADIUS_KM = 0.05  # 50m 內同名視為同一家店
 
@@ -334,63 +332,6 @@ def cmd_dinner_status(args):
         print(f"⚠️  晚餐候選 {len(candidates)} 筆，建議搜尋至 ≥ 15 筆再跑 dinner-pool")
 
 
-def cmd_dinner_put(args):
-    """從 stdin 讀單筆或多筆餐廳 JSON，upsert 到本地鏡像。
-
-    stdin schema（單筆或陣列）：
-    {
-      "place_id": "ChIJ...",          // 必填
-      "name_zh": "夏川食堂",          // 必填
-      "rating": 4.8,                  // 必填
-      "total_ratings": 751,           // 必填
-      "location": {"lat": ..., "lng": ...},
-      "address": "苗栗縣竹南鎮...",    // 可選
-      "note": "日式料理",              // 可選
-      "source": "search_2026-05-20"   // 可選，來源標記
-    }
-    """
-    n = args.day
-    data = read_stdin_json()
-    if isinstance(data, dict):
-        data = [data]
-
-    idx = _load_dinner_index(n)
-    candidates = idx.get("candidates", [])
-    pid_map = {c["place_id"]: i for i, c in enumerate(candidates)}
-
-    upserted = 0
-    for item in data:
-        pid = item.get("place_id")
-        if not pid:
-            info(f"跳過缺 place_id 的項目：{item.get('name_zh', '?')}")
-            continue
-
-        # 寫 place_id.json（完整資料）
-        f = dinner_map_dir(n) / f"{pid}.json"
-        write_json(f, item)
-
-        # 更新 index.json 的候選摘要
-        summary = {k: item[k] for k in (
-            "place_id", "name_zh", "rating", "total_ratings", "location", "address", "note", "source"
-        ) if k in item}
-
-        if pid in pid_map:
-            # upsert：保留 selected 標記
-            old = candidates[pid_map[pid]]
-            summary["selected"] = old.get("selected", False)
-            candidates[pid_map[pid]] = summary
-        else:
-            summary["selected"] = False
-            candidates.append(summary)
-            pid_map[pid] = len(candidates) - 1
-
-        upserted += 1
-
-    idx["candidates"] = candidates
-    _save_dinner_index(n, idx)
-    info(f"upsert {upserted} 筆到 dinner_map/（共 {len(candidates)} 筆候選）")
-
-
 # ─────────────────────────────────────────────────────────────────
 # Bayesian 選 Top 5
 # ─────────────────────────────────────────────────────────────────
@@ -472,60 +413,13 @@ def _collect_dinner_pool(n: int) -> list[dict]:
 
 
 def cmd_dinner_pool(args):
-    """從 dinner_map 鏡像候選池算 Bayesian 排序，選 top 5。
-
-    也可 stdin 帶入新資料（會先自動 upsert 到鏡像再算）。
-    若 stdin 為空，直接從現有鏡像資料計算。
-    """
+    """從 dinner_map 鏡像候選池算 Bayesian 排序，選 top 5。"""
     n = args.day
-    import sys
-    import select
 
-    # 如果 stdin 有資料，先 upsert 到鏡像
-    if not sys.stdin.isatty():
-        # 嘗試讀 stdin
-        raw = sys.stdin.read()
-        if raw.strip():
-            new_data = json.loads(raw)
-            if isinstance(new_data, dict):
-                new_data = [new_data]
-
-            # upsert 到鏡像
-            idx = _load_dinner_index(n)
-            candidates = idx.get("candidates", [])
-            pid_map = {c["place_id"]: i for i, c in enumerate(candidates)}
-
-            added = 0
-            for item in new_data:
-                pid = item.get("place_id")
-                if not pid:
-                    continue
-                f = dinner_map_dir(n) / f"{pid}.json"
-                write_json(f, item)
-                summary = {k: item[k] for k in (
-                    "place_id", "name_zh", "rating", "total_ratings",
-                    "location", "address", "note", "source"
-                ) if k in item}
-                if pid in pid_map:
-                    old_selected = candidates[pid_map[pid]].get("selected", False)
-                    summary["selected"] = old_selected
-                    candidates[pid_map[pid]] = summary
-                else:
-                    summary["selected"] = False
-                    candidates.append(summary)
-                    pid_map[pid] = len(candidates) - 1
-                added += 1
-
-            idx["candidates"] = candidates
-            _save_dinner_index(n, idx)
-            if added:
-                info(f"從 stdin 新增/更新 {added} 筆到 dinner_map/")
-
-    # 從鏡像收集完整候選池
     pool = _collect_dinner_pool(n)
     if len(pool) < 3:
         die(f"dinner_map 中有效候選只有 {len(pool)} 筆，至少需要 3 筆。"
-            f"請先用 dinner-put 寫入資料。")
+            f"請先執行 dinner-search {n}。")
 
     # Bayesian 參數（IMDB 風格）
     total_ratings_list = [c["total_ratings"] for c in pool]
