@@ -3,11 +3,21 @@
   "name_zh": "金山老街",
   "csv_type": "起終點",
   "rating": 4.1,
-  "total_ratings": 49386,
+  "total_ratings": 49388,
   "location": {
-    "lat": 25.221783,
-    "lng": 121.638324
+    "lat": 25.2217827,
+    "lng": 121.6383244
   },
-  "source": "search_2026-07",
-  "note": "Day9終點 金包里老街+鴨肉"
+  "source": "api_2026-05-21",
+  "note": "Day9終點 金包里老街+鴨肉",
+  "opening_hours_text": [
+    "Monday: 10:00 AM – 6:00 PM",
+    "Tuesday: 10:00 AM – 6:00 PM",
+    "Wednesday: 10:00 AM – 6:00 PM",
+    "Thursday: 10:00 AM – 6:00 PM",
+    "Friday: 10:00 AM – 6:00 PM",
+    "Saturday: 10:00 AM – 6:00 PM",
+    "Sunday: 10:00 AM – 6:00 PM"
+  ],
+  "editorial_summary": "Qing dynasty market street serving up local delicacies including pastries, duck & taro cake."
 }

@@ -6,8 +6,17 @@
   "total_ratings": 194,
   "location": {
     "lat": 22.245233,
-    "lng": 120.835746
+    "lng": 120.8357464
   },
-  "source": "search_2026-07",
-  "note": "壽卡隘口休息站 環島必經"
+  "source": "api_2026-05-21",
+  "note": "壽卡隘口休息站 環島必經",
+  "opening_hours_text": [
+    "Monday: 8:00 AM – 4:30 PM",
+    "Tuesday: 8:00 AM – 4:30 PM",
+    "Wednesday: 8:00 AM – 4:30 PM",
+    "Thursday: 8:00 AM – 4:30 PM",
+    "Friday: 8:00 AM – 4:30 PM",
+    "Saturday: 8:00 AM – 4:30 PM",
+    "Sunday: 8:00 AM – 4:30 PM"
+  ]
 }

@@ -5,9 +5,18 @@
   "rating": 4.5,
   "total_ratings": 1679,
   "location": {
-    "lat": 23.042057,
-    "lng": 121.170845
+    "lat": 23.0420572,
+    "lng": 121.1708451
   },
-  "source": "search_2026-07",
-  "note": "全台首座環鎮自行車道 12km"
+  "source": "api_2026-05-21",
+  "note": "全台首座環鎮自行車道 12km",
+  "opening_hours_text": [
+    "Monday: 7:00 AM – 5:00 PM",
+    "Tuesday: 7:00 AM – 5:00 PM",
+    "Wednesday: 7:00 AM – 5:00 PM",
+    "Thursday: 7:00 AM – 5:00 PM",
+    "Friday: 7:00 AM – 5:00 PM",
+    "Saturday: 7:00 AM – 5:00 PM",
+    "Sunday: 7:00 AM – 5:00 PM"
+  ]
 }

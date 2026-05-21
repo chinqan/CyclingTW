@@ -75,7 +75,7 @@
       "name_zh": "竹圍漁港",
       "csv_type": "景點",
       "rating": 4.2,
-      "total_ratings": 41578,
+      "total_ratings": 41579,
       "location": {
         "lat": 25.117158,
         "lng": 121.2444776
@@ -88,10 +88,10 @@
       "name_zh": "永安漁港",
       "csv_type": "景點",
       "rating": 4.1,
-      "total_ratings": 38612,
+      "total_ratings": 38613,
       "location": {
         "lat": 24.987719,
-        "lng": 121.0157884
+        "lng": 121.01578839999998
       },
       "source": "search_2026-05-21",
       "note": "大型觀光漁港 km約70"
@@ -116,7 +116,7 @@
       "rating": 4.3,
       "total_ratings": 1407,
       "location": {
-        "lat": 25.088225,
+        "lat": 25.088224999999998,
         "lng": 121.4626333
       },
       "source": "search_2026-05-21",
@@ -126,24 +126,24 @@
       "place_id": "ChIJQ5bTDzuzaTQRnzEViKsrqdE",
       "name_zh": "竹南車站",
       "csv_type": "起終點",
-      "rating": 4.0,
-      "total_ratings": 1185,
+      "rating": 4,
+      "total_ratings": 1186,
       "location": {
-        "lat": 24.686589,
-        "lng": 120.8805627
+        "lat": 24.686588999999998,
+        "lng": 120.88056270000001
       },
       "source": "search_2026-05-21",
       "note": "約17:00抵達 當日終點 台鐵山海線交會"
     },
     {
       "place_id": "ChIJxe6O0FIvaDQRPYMEXA0HqUM",
-      "name_zh": "江戶壽司（永安漁港）",
+      "name_zh": "江戶壽司（桃園）",
       "csv_type": "餐廳大休",
       "rating": 4.8,
       "total_ratings": 534,
       "location": {
-        "lat": 24.9877247,
-        "lng": 121.0146492
+        "lat": 24.987724699999998,
+        "lng": 121.01464919999998
       },
       "source": "search_2026-05-21",
       "note": "12:00-13:30午餐大休 週一公休改海晏漁村料理"
@@ -319,7 +319,7 @@
     },
     {
       "place_id": "ChIJFxDjEO40aDQR8dbtyPOa_3M",
-      "name_zh": "南寮漁港(natural_feature)",
+      "name_zh": "南寮漁港",
       "csv_type": "景點",
       "rating": 4.2,
       "total_ratings": 1753,

@@ -8,8 +8,8 @@
       "rating": 4.4,
       "total_ratings": 964,
       "location": {
-        "lat": 22.618796,
-        "lng": 121.005015
+        "lat": 22.618796099999997,
+        "lng": 121.00501509999998
       },
       "source": "search_2026-07",
       "note": "Day7起點"
@@ -21,8 +21,8 @@
       "rating": 4.5,
       "total_ratings": 1679,
       "location": {
-        "lat": 23.042057,
-        "lng": 121.170845
+        "lat": 23.0420572,
+        "lng": 121.1708451
       },
       "source": "search_2026-07",
       "note": "全台首座環鎮自行車道 12km"
@@ -34,8 +34,8 @@
       "rating": 4.4,
       "total_ratings": 9606,
       "location": {
-        "lat": 23.098807,
-        "lng": 121.213002
+        "lat": 23.0988065,
+        "lng": 121.2130022
       },
       "source": "search_2026-07",
       "note": "稻田中筆直道路 池上代表景觀"
@@ -47,7 +47,7 @@
       "rating": 4.1,
       "total_ratings": 682,
       "location": {
-        "lat": 23.33152,
+        "lat": 23.331519999999998,
         "lng": 121.31172
       },
       "source": "search_2026-07",
@@ -58,10 +58,10 @@
       "name_zh": "悟饕池上飯包文化故事館",
       "csv_type": "餐廳大休",
       "rating": 3.9,
-      "total_ratings": 17104,
+      "total_ratings": 17106,
       "location": {
-        "lat": 23.124256,
-        "lng": 121.220904
+        "lat": 23.1242563,
+        "lng": 121.2209041
       },
       "source": "search_2026-07",
       "note": "池上便當始祖 午餐大休"

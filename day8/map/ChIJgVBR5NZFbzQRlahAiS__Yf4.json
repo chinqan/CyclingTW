@@ -5,9 +5,18 @@
   "rating": 4.2,
   "total_ratings": 8796,
   "location": {
-    "lat": 23.465731,
-    "lng": 121.357403
+    "lat": 23.465730999999998,
+    "lng": 121.3574028
   },
-  "source": "search_2026-07",
-  "note": "北回歸線地標 台9線旁"
+  "source": "api_2026-05-21",
+  "note": "北回歸線地標 台9線旁",
+  "opening_hours_text": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ]
 }

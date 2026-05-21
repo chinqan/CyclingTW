@@ -5,9 +5,19 @@
   "rating": 4.4,
   "total_ratings": 14681,
   "location": {
-    "lat": 21.902234,
-    "lng": 120.85263
+    "lat": 21.9022339,
+    "lng": 120.8526297
   },
-  "source": "search_2026-05-21",
-  "note": "Day5終點 台灣最南點燈塔 19世紀建"
+  "source": "api_2026-05-21",
+  "note": "Day5終點 台灣最南點燈塔 19世紀建",
+  "opening_hours_text": [
+    "Monday: Closed",
+    "Tuesday: 9:00 AM – 6:00 PM",
+    "Wednesday: 9:00 AM – 6:00 PM",
+    "Thursday: 9:00 AM – 6:00 PM",
+    "Friday: 9:00 AM – 6:00 PM",
+    "Saturday: 9:00 AM – 6:00 PM",
+    "Sunday: 9:00 AM – 6:00 PM"
+  ],
+  "editorial_summary": "19th-century lighthouse on fortlike property with ocean views & a modest museum inside."
 }

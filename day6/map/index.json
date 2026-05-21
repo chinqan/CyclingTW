@@ -8,8 +8,8 @@
       "rating": 4.4,
       "total_ratings": 14681,
       "location": {
-        "lat": 21.902234,
-        "lng": 120.85263
+        "lat": 21.9022339,
+        "lng": 120.8526297
       },
       "source": "search_2026-07",
       "note": "極南點 Day6起點"
@@ -19,10 +19,10 @@
       "name_zh": "風吹砂",
       "csv_type": "景點",
       "rating": 4.5,
-      "total_ratings": 3387,
+      "total_ratings": 3388,
       "location": {
-        "lat": 21.947285,
-        "lng": 120.838889
+        "lat": 21.9472854,
+        "lng": 120.83888859999998
       },
       "source": "search_2026-07",
       "note": "台26線風蝕砂岩奇景"
@@ -48,7 +48,7 @@
       "total_ratings": 194,
       "location": {
         "lat": 22.245233,
-        "lng": 120.835746
+        "lng": 120.8357464
       },
       "source": "search_2026-07",
       "note": "壽卡隘口休息站 環島必經"
@@ -58,10 +58,10 @@
       "name_zh": "多良車站",
       "csv_type": "景點",
       "rating": 4.1,
-      "total_ratings": 33900,
+      "total_ratings": 33902,
       "location": {
-        "lat": 22.50752,
-        "lng": 120.958849
+        "lat": 22.507519499999997,
+        "lng": 120.95884869999999
       },
       "source": "search_2026-07",
       "note": "全台最美車站 海景月台"
@@ -73,8 +73,8 @@
       "rating": 4.4,
       "total_ratings": 964,
       "location": {
-        "lat": 22.618796,
-        "lng": 121.005015
+        "lat": 22.618796099999997,
+        "lng": 121.00501509999998
       },
       "source": "search_2026-07",
       "note": "Day6終點 可看日出大道"

@@ -3,11 +3,12 @@
   "name_zh": "淡水老街",
   "csv_type": "景點",
   "rating": 4.4,
-  "total_ratings": 33316,
+  "total_ratings": 33317,
   "location": {
     "lat": 25.168927,
-    "lng": 121.444092
+    "lng": 121.44409209999999
   },
-  "source": "search_2026-07",
-  "note": "河岸觀光老街 環島慶功"
+  "source": "api_2026-05-21",
+  "note": "河岸觀光老街 環島慶功",
+  "editorial_summary": "Compact pedestrian road lined with shops & snack sellers, plus street performers & sculptures."
 }

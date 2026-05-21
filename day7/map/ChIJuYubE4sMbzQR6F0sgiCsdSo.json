@@ -3,11 +3,20 @@
   "name_zh": "悟饕池上飯包文化故事館",
   "csv_type": "餐廳大休",
   "rating": 3.9,
-  "total_ratings": 17104,
+  "total_ratings": 17106,
   "location": {
-    "lat": 23.124256,
-    "lng": 121.220904
+    "lat": 23.1242563,
+    "lng": 121.2209041
   },
-  "source": "search_2026-07",
-  "note": "池上便當始祖 午餐大休"
+  "source": "api_2026-05-21",
+  "note": "池上便當始祖 午餐大休",
+  "opening_hours_text": [
+    "Monday: 10:30 AM – 7:00 PM",
+    "Tuesday: 10:30 AM – 7:00 PM",
+    "Wednesday: 10:30 AM – 7:00 PM",
+    "Thursday: 10:30 AM – 7:00 PM",
+    "Friday: 10:30 AM – 7:00 PM",
+    "Saturday: 10:30 AM – 7:00 PM",
+    "Sunday: 10:30 AM – 7:00 PM"
+  ]
 }

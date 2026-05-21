@@ -5,11 +5,11 @@
       "place_id": "ChIJ6ZUIBmzoZzQRgjp01nDg5f0",
       "name_zh": "蘇澳新站",
       "csv_type": "起終點",
-      "rating": 4.0,
+      "rating": 4,
       "total_ratings": 219,
       "location": {
-        "lat": 24.60893,
-        "lng": 121.827683
+        "lat": 24.6089299,
+        "lng": 121.82768279999998
       },
       "source": "search_2026-07",
       "note": "Day9起點 前晚火車抵達"
@@ -21,8 +21,8 @@
       "rating": 4.6,
       "total_ratings": 5719,
       "location": {
-        "lat": 25.003945,
-        "lng": 121.958346
+        "lat": 25.0039454,
+        "lng": 121.9583462
       },
       "source": "search_2026-07",
       "note": "舊鐵道自行車隧道2167m"
@@ -34,8 +34,8 @@
       "rating": 4.5,
       "total_ratings": 15810,
       "location": {
-        "lat": 25.007552,
-        "lng": 122.001892
+        "lat": 25.007551499999998,
+        "lng": 122.00189160000001
       },
       "source": "search_2026-07",
       "note": "極東點 1935年白色燈塔"
@@ -47,8 +47,8 @@
       "rating": 4.2,
       "total_ratings": 6863,
       "location": {
-        "lat": 25.021998,
-        "lng": 121.943158
+        "lat": 25.0219984,
+        "lng": 121.94315829999998
       },
       "source": "search_2026-07",
       "note": "東北角代表沙灘 福隆便當"
@@ -84,10 +84,10 @@
       "name_zh": "金山老街",
       "csv_type": "起終點",
       "rating": 4.1,
-      "total_ratings": 49386,
+      "total_ratings": 49388,
       "location": {
-        "lat": 25.221783,
-        "lng": 121.638324
+        "lat": 25.2217827,
+        "lng": 121.6383244
       },
       "source": "search_2026-07",
       "note": "Day9終點 金包里老街+鴨肉"

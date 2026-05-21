@@ -14,7 +14,7 @@
       "total_ratings": 851,
       "location": {
         "lat": 22.368018,
-        "lng": 120.595097
+        "lng": 120.59509700000001
       },
       "bayesian_score": 4.28
     },
@@ -34,15 +34,15 @@
     },
     {
       "place_id": "ChIJdU4y8ie4cTQRe0BNxOo2HKc",
-      "name_zh": "車城福安宮",
+      "name_zh": "Checheng Fu’an Temple",
       "search_keyword": "車城福安宮 屏東縣車城鄉福安路51號",
       "csv_type": "景點",
       "note": "約09:30抵達 全台最大土地公廟 清康熙年間建 km約40",
       "rating": 4.6,
-      "total_ratings": 24667,
+      "total_ratings": 24669,
       "location": {
-        "lat": 22.070944,
-        "lng": 120.71089
+        "lat": 22.0709441,
+        "lng": 120.7108895
       },
       "bayesian_score": 4.54
     },
@@ -53,10 +53,10 @@
       "csv_type": "餐廳大休",
       "note": "09:30-10:30 車城名產綠豆蒜+洋蔥鴨肉 上午茶大休 km約40",
       "rating": 4.2,
-      "total_ratings": 6242,
+      "total_ratings": 6243,
       "location": {
-        "lat": 22.070284,
-        "lng": 120.712943
+        "lat": 22.0702841,
+        "lng": 120.71294279999998
       },
       "bayesian_score": 4.23
     },
@@ -81,10 +81,10 @@
       "csv_type": "景點",
       "note": "約11:00抵達 台灣僅存完整古城門 拍照10分鐘 km約55",
       "rating": 4.3,
-      "total_ratings": 2501,
+      "total_ratings": 2502,
       "location": {
-        "lat": 22.000825,
-        "lng": 120.744767
+        "lat": 22.000824899999998,
+        "lng": 120.7447665
       },
       "bayesian_score": 4.28
     },
@@ -95,10 +95,10 @@
       "csv_type": "景點",
       "note": "約11:15抵達 古城內在地小吃街 可午餐 km約55",
       "rating": 4.2,
-      "total_ratings": 4601,
+      "total_ratings": 4602,
       "location": {
-        "lat": 22.003391,
-        "lng": 120.743492
+        "lat": 22.0033907,
+        "lng": 120.74349240000001
       },
       "bayesian_score": 4.24
     },
@@ -125,8 +125,8 @@
       "rating": 3.8,
       "total_ratings": 21618,
       "location": {
-        "lat": 21.94581,
-        "lng": 120.79708
+        "lat": 21.9458096,
+        "lng": 120.79708029999999
       },
       "bayesian_score": 3.9
     },
@@ -139,8 +139,8 @@
       "rating": 4.4,
       "total_ratings": 14681,
       "location": {
-        "lat": 21.902234,
-        "lng": 120.85263
+        "lat": 21.9022339,
+        "lng": 120.8526297
       },
       "bayesian_score": 4.37
     }

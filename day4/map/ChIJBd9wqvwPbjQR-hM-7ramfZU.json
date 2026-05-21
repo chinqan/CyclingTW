@@ -5,9 +5,18 @@
   "rating": 4.8,
   "total_ratings": 495,
   "location": {
-    "lat": 22.754049,
-    "lng": 120.312817
+    "lat": 22.7540494,
+    "lng": 120.31281740000001
   },
-  "source": "search_2026-05-21",
-  "note": "橋頭糖廠旁鍋物料理"
+  "source": "api_2026-05-21",
+  "note": "橋頭糖廠旁鍋物料理",
+  "opening_hours_text": [
+    "Monday: 11:00 AM – 10:00 PM",
+    "Tuesday: 11:00 AM – 10:00 PM",
+    "Wednesday: 11:00 AM – 10:00 PM",
+    "Thursday: 11:00 AM – 10:00 PM",
+    "Friday: 11:00 AM – 10:00 PM",
+    "Saturday: 11:00 AM – 10:00 PM",
+    "Sunday: 11:00 AM – 10:00 PM"
+  ]
 }

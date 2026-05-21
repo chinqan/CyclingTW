@@ -5,9 +5,19 @@
   "rating": 4.2,
   "total_ratings": 7575,
   "location": {
-    "lat": 22.755686,
-    "lng": 120.314273
+    "lat": 22.755686000000004,
+    "lng": 120.31427319999999
   },
-  "source": "search_2026-05-21",
-  "note": "台灣第一座現代糖廠 日治時期工業遺產"
+  "source": "api_2026-05-21",
+  "note": "台灣第一座現代糖廠 日治時期工業遺產",
+  "opening_hours_text": [
+    "Monday: 9:00 AM – 4:30 PM",
+    "Tuesday: 9:00 AM – 4:30 PM",
+    "Wednesday: 9:00 AM – 4:30 PM",
+    "Thursday: 9:00 AM – 4:30 PM",
+    "Friday: 9:00 AM – 4:30 PM",
+    "Saturday: 9:00 AM – 4:30 PM",
+    "Sunday: 9:00 AM – 4:30 PM"
+  ],
+  "editorial_summary": "Recreational park on the grounds of a Japanese-era sugar factory, popular for strolls & bike rides."
 }

@@ -8,6 +8,15 @@
     "lat": 25.1511404,
     "lng": 121.4429224
   },
-  "source": "search_2026-05-21",
-  "note": "淡水河口壯觀河景 觀音山倒影 km約15 ★主視覺"
+  "source": "api_2026-05-21",
+  "note": "淡水河口壯觀河景 觀音山倒影 km約15 ★主視覺",
+  "opening_hours_text": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ]
 }

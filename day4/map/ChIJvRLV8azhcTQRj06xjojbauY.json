@@ -5,9 +5,19 @@
   "rating": 4.1,
   "total_ratings": 6819,
   "location": {
-    "lat": 22.457011,
-    "lng": 120.478928
+    "lat": 22.4570111,
+    "lng": 120.47892809999999
   },
-  "source": "search_2026-05-21",
-  "note": "潟湖生態與自行車道"
+  "source": "api_2026-05-21",
+  "note": "潟湖生態與自行車道",
+  "opening_hours_text": [
+    "Monday: 9:00 AM – 5:00 PM",
+    "Tuesday: 9:00 AM – 5:00 PM",
+    "Wednesday: 9:00 AM – 5:00 PM",
+    "Thursday: 9:00 AM – 5:00 PM",
+    "Friday: 9:00 AM – 5:00 PM",
+    "Saturday: 9:00 AM – 5:00 PM",
+    "Sunday: 9:00 AM – 5:00 PM"
+  ],
+  "editorial_summary": "Huge inner bay featuring recreational waters & a scenic wetland area, plus a visitor center."
 }

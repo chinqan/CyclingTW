@@ -5,9 +5,10 @@
   "rating": 4.4,
   "total_ratings": 1449,
   "location": {
-    "lat": 22.660361,
+    "lat": 22.6603607,
     "lng": 120.353806
   },
-  "source": "search_2026-05-21",
-  "note": "高雄最大人工湖 九曲橋"
+  "source": "api_2026-05-21",
+  "note": "高雄最大人工湖 九曲橋",
+  "editorial_summary": "Serene lake & recreation area featuring a waterfront park, aquarium & unique zig-zag footbridge."
 }

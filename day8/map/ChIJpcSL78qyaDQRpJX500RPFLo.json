@@ -5,9 +5,19 @@
   "rating": 4.1,
   "total_ratings": 22878,
   "location": {
-    "lat": 23.658691,
-    "lng": 121.420607
+    "lat": 23.6586905,
+    "lng": 121.4206067
   },
-  "source": "search_2026-07",
-  "note": "日治糖廠 冰淇淋名店"
+  "source": "api_2026-05-21",
+  "note": "日治糖廠 冰淇淋名店",
+  "opening_hours_text": [
+    "Monday: 8:00 AM – 7:00 PM",
+    "Tuesday: 8:00 AM – 7:00 PM",
+    "Wednesday: 8:00 AM – 7:00 PM",
+    "Thursday: 8:00 AM – 7:00 PM",
+    "Friday: 8:00 AM – 7:00 PM",
+    "Saturday: 8:00 AM – 7:00 PM",
+    "Sunday: 8:00 AM – 7:00 PM"
+  ],
+  "editorial_summary": "Casual hotel in a converted sugar factory offering simple rooms, plus 3 restaurants & free Wi-Fi."
 }

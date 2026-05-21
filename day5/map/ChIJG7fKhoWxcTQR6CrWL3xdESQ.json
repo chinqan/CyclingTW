@@ -5,9 +5,19 @@
   "rating": 3.8,
   "total_ratings": 21618,
   "location": {
-    "lat": 21.94581,
-    "lng": 120.79708
+    "lat": 21.9458096,
+    "lng": 120.79708029999999
   },
-  "source": "search_2026-05-21",
-  "note": "墾丁主要觀光街 夜市"
+  "source": "api_2026-05-21",
+  "note": "墾丁主要觀光街 夜市",
+  "opening_hours_text": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "editorial_summary": "This street becomes a lively market at night, when it is filled with food stalls & street vendors."
 }

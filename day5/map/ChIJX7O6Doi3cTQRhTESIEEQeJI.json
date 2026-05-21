@@ -3,11 +3,20 @@
   "name_zh": "黃家綠豆蒜",
   "csv_type": "餐廳大休",
   "rating": 4.2,
-  "total_ratings": 6242,
+  "total_ratings": 6243,
   "location": {
-    "lat": 22.070284,
-    "lng": 120.712943
+    "lat": 22.0702841,
+    "lng": 120.71294279999998
   },
-  "source": "search_2026-05-21",
-  "note": "車城綠豆蒜名店 點心+午餐"
+  "source": "api_2026-05-21",
+  "note": "車城綠豆蒜名店 點心+午餐",
+  "opening_hours_text": [
+    "Monday: 10:00 AM – 4:30 PM",
+    "Tuesday: 10:00 AM – 4:30 PM",
+    "Wednesday: Closed",
+    "Thursday: 10:00 AM – 4:30 PM",
+    "Friday: 10:00 AM – 4:30 PM",
+    "Saturday: 9:30 AM – 5:00 PM",
+    "Sunday: 9:30 AM – 5:00 PM"
+  ]
 }

@@ -3,11 +3,21 @@
   "name_zh": "多良車站",
   "csv_type": "景點",
   "rating": 4.1,
-  "total_ratings": 33900,
+  "total_ratings": 33902,
   "location": {
-    "lat": 22.50752,
-    "lng": 120.958849
+    "lat": 22.507519499999997,
+    "lng": 120.95884869999999
   },
-  "source": "search_2026-07",
-  "note": "全台最美車站 海景月台"
+  "source": "api_2026-05-21",
+  "note": "全台最美車站 海景月台",
+  "opening_hours_text": [
+    "Monday: 8:00 AM – 5:00 PM",
+    "Tuesday: 8:00 AM – 5:00 PM",
+    "Wednesday: 8:00 AM – 5:00 PM",
+    "Thursday: 8:00 AM – 5:00 PM",
+    "Friday: 8:00 AM – 5:00 PM",
+    "Saturday: 8:00 AM – 5:00 PM",
+    "Sunday: 8:00 AM – 5:00 PM"
+  ],
+  "editorial_summary": "Former train station with sea views from a rooftop deck & photo ops at an \"Angel Wings\" sculpture."
 }

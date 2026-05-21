@@ -8,6 +8,16 @@
     "lat": 25.1198168,
     "lng": 121.3188263
   },
-  "source": "search_2026-05-21",
-  "note": "特殊峽谷地貌 km約28"
+  "source": "api_2026-05-21",
+  "note": "特殊峽谷地貌 km約28",
+  "opening_hours_text": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "editorial_summary": "Rugged terrain popular for off-roading in 4x4 vehicles & motorbikes, plus patches where cows graze."
 }

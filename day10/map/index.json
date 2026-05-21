@@ -8,8 +8,8 @@
       "rating": 4.7,
       "total_ratings": 843,
       "location": {
-        "lat": 25.299612,
-        "lng": 121.536964
+        "lat": 25.2996123,
+        "lng": 121.53696370000002
       },
       "source": "search_2026-07",
       "note": "極北點 黑白條紋燈塔"
@@ -19,10 +19,10 @@
       "name_zh": "淡水老街",
       "csv_type": "景點",
       "rating": 4.4,
-      "total_ratings": 33316,
+      "total_ratings": 33317,
       "location": {
         "lat": 25.168927,
-        "lng": 121.444092
+        "lng": 121.44409209999999
       },
       "source": "search_2026-07",
       "note": "河岸觀光老街 環島慶功"
@@ -34,8 +34,8 @@
       "rating": 4.3,
       "total_ratings": 1407,
       "location": {
-        "lat": 25.088225,
-        "lng": 121.462633
+        "lat": 25.088224999999998,
+        "lng": 121.4626333
       },
       "source": "search_2026-07",
       "note": "Day10終點 Day1起點 環島完騎"
@@ -47,8 +47,8 @@
       "rating": 4.3,
       "total_ratings": 12216,
       "location": {
-        "lat": 25.295896,
-        "lng": 121.56831
+        "lat": 25.295895899999998,
+        "lng": 121.5683103
       },
       "source": "search_2026-07",
       "note": "天然海蝕拱門 台2線旁"
@@ -58,10 +58,10 @@
       "name_zh": "金山老街",
       "csv_type": "起終點",
       "rating": 4.1,
-      "total_ratings": 49386,
+      "total_ratings": 49388,
       "location": {
-        "lat": 25.221783,
-        "lng": 121.638324
+        "lat": 25.2217827,
+        "lng": 121.6383244
       },
       "source": "search_2026-07",
       "note": "Day10起點 金包里老街"

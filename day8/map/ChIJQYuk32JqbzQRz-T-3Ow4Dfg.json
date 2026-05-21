@@ -5,9 +5,18 @@
   "rating": 4.4,
   "total_ratings": 313,
   "location": {
-    "lat": 23.328728,
-    "lng": 121.311166
+    "lat": 23.3287282,
+    "lng": 121.31116619999999
   },
-  "source": "search_2026-07",
-  "note": "全球唯一跨兩大板塊自行車道"
+  "source": "api_2026-05-21",
+  "note": "全球唯一跨兩大板塊自行車道",
+  "opening_hours_text": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ]
 }

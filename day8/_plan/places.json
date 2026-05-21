@@ -13,7 +13,7 @@
       "rating": 4.1,
       "total_ratings": 682,
       "location": {
-        "lat": 23.33152,
+        "lat": 23.331519999999998,
         "lng": 121.31172
       },
       "bayesian_score": 4.23
@@ -27,8 +27,8 @@
       "rating": 4.4,
       "total_ratings": 313,
       "location": {
-        "lat": 23.328728,
-        "lng": 121.311166
+        "lat": 23.3287282,
+        "lng": 121.31116619999999
       },
       "bayesian_score": 4.28
     },
@@ -41,8 +41,8 @@
       "rating": 4.2,
       "total_ratings": 8796,
       "location": {
-        "lat": 23.465731,
-        "lng": 121.357403
+        "lat": 23.465730999999998,
+        "lng": 121.3574028
       },
       "bayesian_score": 4.21
     },
@@ -69,8 +69,8 @@
       "rating": 4.1,
       "total_ratings": 22878,
       "location": {
-        "lat": 23.658691,
-        "lng": 121.420607
+        "lat": 23.6586905,
+        "lng": 121.4206067
       },
       "bayesian_score": 4.12
     },
@@ -111,8 +111,8 @@
       "rating": 4.2,
       "total_ratings": 3149,
       "location": {
-        "lat": 23.993313,
-        "lng": 121.601245
+        "lat": 23.9933133,
+        "lng": 121.60124549999999
       },
       "bayesian_score": 4.23
     }

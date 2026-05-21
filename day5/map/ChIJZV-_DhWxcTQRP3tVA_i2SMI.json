@@ -3,11 +3,21 @@
   "name_zh": "恆春南門",
   "csv_type": "景點",
   "rating": 4.3,
-  "total_ratings": 2501,
+  "total_ratings": 2502,
   "location": {
-    "lat": 22.000825,
-    "lng": 120.744767
+    "lat": 22.000824899999998,
+    "lng": 120.7447665
   },
-  "source": "search_2026-05-21",
-  "note": "恆春古城南門 台灣僅存完整城門"
+  "source": "api_2026-05-21",
+  "note": "恆春古城南門 台灣僅存完整城門",
+  "opening_hours_text": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "editorial_summary": "A historic city gate & local landmark, now situated inside a busy traffic circle."
 }

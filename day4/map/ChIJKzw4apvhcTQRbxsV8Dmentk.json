@@ -5,9 +5,19 @@
   "rating": 4.7,
   "total_ratings": 7764,
   "location": {
-    "lat": 22.463084,
-    "lng": 120.448719
+    "lat": 22.4630838,
+    "lng": 120.44871930000001
   },
-  "source": "search_2026-05-21",
-  "note": "1706年建 東港迎王平安祭典"
+  "source": "api_2026-05-21",
+  "note": "1706年建 東港迎王平安祭典",
+  "opening_hours_text": [
+    "Monday: 5:00 AM – 10:30 PM",
+    "Tuesday: 5:00 AM – 10:30 PM",
+    "Wednesday: 5:00 AM – 10:30 PM",
+    "Thursday: 5:00 AM – 10:30 PM",
+    "Friday: 5:00 AM – 10:30 PM",
+    "Saturday: 5:00 AM – 10:30 PM",
+    "Sunday: 5:00 AM – 10:30 PM"
+  ],
+  "editorial_summary": "This elaborate temple was originally built in 1706 & later rebuilt in 1894 after a tsunami."
 }

@@ -5,9 +5,10 @@
   "rating": 4.2,
   "total_ratings": 6863,
   "location": {
-    "lat": 25.021998,
-    "lng": 121.943158
+    "lat": 25.0219984,
+    "lng": 121.94315829999998
   },
-  "source": "search_2026-07",
-  "note": "東北角代表沙灘 福隆便當"
+  "source": "api_2026-05-21",
+  "note": "東北角代表沙灘 福隆便當",
+  "editorial_summary": "Vibrant beach featuring rental umbrellas & chairs, swimming, sunbathing & sand sculpture contests."
 }

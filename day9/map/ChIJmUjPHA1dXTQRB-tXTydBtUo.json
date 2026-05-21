@@ -5,9 +5,19 @@
   "rating": 4.6,
   "total_ratings": 5719,
   "location": {
-    "lat": 25.003945,
-    "lng": 121.958346
+    "lat": 25.0039454,
+    "lng": 121.9583462
   },
-  "source": "search_2026-07",
-  "note": "舊鐵道自行車隧道2167m"
+  "source": "api_2026-05-21",
+  "note": "舊鐵道自行車隧道2167m",
+  "opening_hours_text": [
+    "Monday: 8:30 AM – 4:30 PM",
+    "Tuesday: 8:30 AM – 4:30 PM",
+    "Wednesday: 8:30 AM – 4:30 PM",
+    "Thursday: 8:30 AM – 4:30 PM",
+    "Friday: 8:30 AM – 4:30 PM",
+    "Saturday: 8:30 AM – 4:30 PM",
+    "Sunday: 8:30 AM – 4:30 PM"
+  ],
+  "editorial_summary": "Old 2,167-m. railway tunnel now used for biking & walking with lit fluorescent strip lights."
 }

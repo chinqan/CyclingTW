@@ -5,9 +5,10 @@
   "rating": 4.5,
   "total_ratings": 15810,
   "location": {
-    "lat": 25.007552,
-    "lng": 122.001892
+    "lat": 25.007551499999998,
+    "lng": 122.00189160000001
   },
-  "source": "search_2026-07",
-  "note": "極東點 1935年白色燈塔"
+  "source": "api_2026-05-21",
+  "note": "極東點 1935年白色燈塔",
+  "editorial_summary": "This 1935 lighthouse on Taiwan's easternmost point features panoramic views & an exhibition room."
 }

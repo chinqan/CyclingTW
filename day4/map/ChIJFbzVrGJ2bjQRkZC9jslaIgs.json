@@ -5,9 +5,19 @@
   "rating": 4.4,
   "total_ratings": 12627,
   "location": {
-    "lat": 22.99053,
-    "lng": 120.20404
+    "lat": 22.9905296,
+    "lng": 120.2040401
   },
-  "source": "search_2026-05-21",
-  "note": "全臺首學 17世紀孔廟"
+  "source": "api_2026-05-21",
+  "note": "全臺首學 17世紀孔廟",
+  "opening_hours_text": [
+    "Monday: 8:30 AM – 5:30 PM",
+    "Tuesday: 8:30 AM – 5:30 PM",
+    "Wednesday: 8:30 AM – 5:30 PM",
+    "Thursday: 8:30 AM – 5:30 PM",
+    "Friday: 8:30 AM – 5:30 PM",
+    "Saturday: 8:30 AM – 5:30 PM",
+    "Sunday: 8:30 AM – 5:30 PM"
+  ],
+  "editorial_summary": "Small, 17th-century Confucian temple featuring traditional architecture & a tranquil courtyard."
 }

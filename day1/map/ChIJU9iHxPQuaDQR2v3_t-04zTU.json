@@ -3,11 +3,21 @@
   "name_zh": "永安漁港",
   "csv_type": "景點",
   "rating": 4.1,
-  "total_ratings": 38612,
+  "total_ratings": 38613,
   "location": {
     "lat": 24.987719,
-    "lng": 121.0157884
+    "lng": 121.01578839999998
   },
-  "source": "search_2026-05-21",
-  "note": "大型觀光漁港 km約70"
+  "source": "api_2026-05-21",
+  "note": "大型觀光漁港 km約70",
+  "opening_hours_text": [
+    "Monday: 8:00 AM – 8:00 PM",
+    "Tuesday: 8:00 AM – 8:00 PM",
+    "Wednesday: 8:00 AM – 8:00 PM",
+    "Thursday: 8:00 AM – 8:00 PM",
+    "Friday: 8:00 AM – 8:00 PM",
+    "Saturday: 8:00 AM – 9:00 PM",
+    "Sunday: 8:00 AM – 9:00 PM"
+  ],
+  "editorial_summary": "Prominent harbor offering a beach, bustling market with a wide range of seafood & a fishing area."
 }

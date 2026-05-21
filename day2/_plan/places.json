@@ -6,15 +6,15 @@
   "places": [
     {
       "place_id": "ChIJQ5bTDzuzaTQRnzEViKsrqdE",
-      "name_zh": "竹南車站",
+      "name_zh": "Zhunan",
       "search_keyword": "竹南火車站 苗栗縣竹南鎮中山路166號",
       "csv_type": "起終點",
       "note": "早上07:00出發 Day1終點續行",
       "location": {
-        "lat": 24.686589,
-        "lng": 120.8805627
+        "lat": 24.686588999999998,
+        "lng": 120.88056270000001
       },
-      "rating": 4.0,
+      "rating": 4,
       "total_ratings": 1186,
       "bayesian_score": 4.3
     },
@@ -58,7 +58,7 @@
     },
     {
       "place_id": "ChIJAQAAMB-maTQRqP6KozChaJ8",
-      "name_zh": "白沙屯拱天宮",
+      "name_zh": "Baishatun Gongtian Temple",
       "search_keyword": "白沙屯拱天宮 苗栗縣通霄鎮白東里8號",
       "csv_type": "景點",
       "note": "約09:00抵達 全台最具靈氣媽祖廟 粉紅超跑遶境起點 距7-ELEVEN步行3分鐘 km約36",
@@ -72,7 +72,7 @@
     },
     {
       "place_id": "ChIJR-i8TSSmaTQR_m3wMwNABss",
-      "name_zh": "通霄精鹽廠",
+      "name_zh": "Taiyen Museum (The Way of Salt)",
       "search_keyword": "台鹽通霄觀光園區 苗栗縣通霄鎮內島里內島122號",
       "csv_type": "景點",
       "note": "約09:45抵達 免費泡腳池+鹽業展覽 週一公休 km約42",
@@ -98,13 +98,13 @@
     },
     {
       "place_id": "ChIJ2ffC3wEOaTQR-YuV-iIXELk",
-      "name_zh": "大甲鎮瀾宮",
+      "name_zh": "Dajia Jenn Lann Temple",
       "search_keyword": "大甲鎮瀾宮 台中市大甲區順天路158號",
       "csv_type": "景點",
       "note": "約11:00抵達 台灣最著名媽祖廟 大甲媽祖遶境 周圍美食多 km約62",
       "location": {
         "lat": 24.3451924,
-        "lng": 120.6235944
+        "lng": 120.62359439999999
       },
       "rating": 4.6,
       "total_ratings": 17285,
@@ -112,13 +112,13 @@
     },
     {
       "place_id": "ChIJKwTxjR4RaTQR-3850tXAQqE",
-      "name_zh": "莫爾日嚐 MORE TASTE",
+      "name_zh": "莫爾日嚐MORE TASTE",
       "search_keyword": "莫爾日嚐 MORE TASTE 台中市大甲區中山路一段792-11號",
       "csv_type": "餐廳大休",
       "note": "11:30-13:00午餐大休 法式料理咖啡廳 距鎮瀾宮步行5分鐘 週一公休",
       "location": {
         "lat": 24.342945,
-        "lng": 120.6252398
+        "lng": 120.62523979999999
       },
       "rating": 4.8,
       "total_ratings": 481,
@@ -138,16 +138,16 @@
     },
     {
       "place_id": "ChIJbZ03BtZFaTQRVSahxk_O324",
-      "name_zh": "鹿港老街",
+      "name_zh": "Lukang Old Street",
       "search_keyword": "鹿港老街 彰化縣鹿港鎮埔頭街",
       "csv_type": "起終點",
       "note": "約16:00抵達 古蹟老街+美食 當日終點 km約107",
       "location": {
-        "lat": 24.056301,
+        "lat": 24.056300999999998,
         "lng": 120.4325817
       },
       "rating": 4.5,
-      "total_ratings": 42114,
+      "total_ratings": 42115,
       "bayesian_score": 4.5
     }
   ],

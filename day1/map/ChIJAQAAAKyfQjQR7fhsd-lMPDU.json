@@ -3,11 +3,21 @@
   "name_zh": "竹圍漁港",
   "csv_type": "景點",
   "rating": 4.2,
-  "total_ratings": 41578,
+  "total_ratings": 41579,
   "location": {
     "lat": 25.117158,
     "lng": 121.2444776
   },
-  "source": "search_2026-05-21",
-  "note": "彩虹橋漁港地標 km約43"
+  "source": "api_2026-05-21",
+  "note": "彩虹橋漁港地標 km約43",
+  "opening_hours_text": [
+    "Monday: 8:00 AM – 6:00 PM",
+    "Tuesday: 8:00 AM – 6:00 PM",
+    "Wednesday: 8:00 AM – 6:00 PM",
+    "Thursday: 8:00 AM – 6:00 PM",
+    "Friday: 8:00 AM – 6:00 PM",
+    "Saturday: 8:00 AM – 6:00 PM",
+    "Sunday: 8:00 AM – 6:00 PM"
+  ],
+  "editorial_summary": "Redeveloped old fishing port with fish vendors & food preparation section, plus a rainbow bridge."
 }

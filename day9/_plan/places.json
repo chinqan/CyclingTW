@@ -10,11 +10,11 @@
       "search_keyword": "蘇澳新站 宜蘭縣蘇澳鎮",
       "csv_type": "起終點",
       "note": "06:30出發 前晚火車接駁抵達 km0",
-      "rating": 4.0,
+      "rating": 4,
       "total_ratings": 219,
       "location": {
-        "lat": 24.60893,
-        "lng": 121.827683
+        "lat": 24.6089299,
+        "lng": 121.82768279999998
       },
       "bayesian_score": 4.27
     },
@@ -41,8 +41,8 @@
       "rating": 4.6,
       "total_ratings": 5719,
       "location": {
-        "lat": 25.003945,
-        "lng": 121.958346
+        "lat": 25.0039454,
+        "lng": 121.9583462
       },
       "bayesian_score": 4.43
     },
@@ -55,8 +55,8 @@
       "rating": 4.2,
       "total_ratings": 6863,
       "location": {
-        "lat": 25.021998,
-        "lng": 121.943158
+        "lat": 25.0219984,
+        "lng": 121.94315829999998
       },
       "bayesian_score": 4.24
     },
@@ -69,8 +69,8 @@
       "rating": 4.5,
       "total_ratings": 15810,
       "location": {
-        "lat": 25.007552,
-        "lng": 122.001892
+        "lat": 25.007551499999998,
+        "lng": 122.00189160000001
       },
       "bayesian_score": 4.43
     },
@@ -109,10 +109,10 @@
       "csv_type": "起終點",
       "note": "約16:30抵達 當日終點 金包里老街+鴨肉 km約115",
       "rating": 4.1,
-      "total_ratings": 49386,
+      "total_ratings": 49388,
       "location": {
-        "lat": 25.221783,
-        "lng": 121.638324
+        "lat": 25.2217827,
+        "lng": 121.6383244
       },
       "bayesian_score": 4.12
     }
