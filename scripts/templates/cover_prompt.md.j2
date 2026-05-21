@@ -29,9 +29,8 @@
 - 每日路線以簡潔節點或標籤呈現，避免文字過多
 
 【10 天路線摘要】
-{% for d in days -%}
-- Day {{ d.day }}：{{ d.origin | cityname }} → {{ d.destination | cityname }}
-{% endfor %}
+{% for d in days %}Day {{ d.day }} {{ d.origin | cityname }}{% if not loop.last %}, {% endif %}{% endfor %}, 完騎蘆洲
+
 
 【四極點視覺特徵 — 強制防呆，避免四座燈塔畫成一模一樣】
 {% for d in days if d.pole -%}
