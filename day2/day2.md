@@ -14,15 +14,18 @@
 
 ## 🌍 地圖與導航
 
-[📱 手機導航連結（Google Maps 單車模式）](https://www.google.com/maps/dir/竹南車站/後龍好望角/白沙屯拱天宮/通霄精鹽廠/大甲鎮瀾宮/鹿港老街/@24.3,120.6,10z/data=!4m2!4m1!3e1)
+#### 🖼️ 海報
 
-#### 🗺️ 路線小地圖
+<img src="./day2_poster.png" alt="Day 2 路線海報" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
-<a href="https://www.google.com/maps/d/viewer?mid=您的專屬MyMapsID" target="_blank">
-  <img src="./day2_poster.png" alt="Day 2 路線預覽圖" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-</a>
+#### 📱 手機導航連結（Google Maps 單車模式）
 
-> 💡 *【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day2_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！*
+[開啟 Google Maps 導航](https://www.google.com/maps/dir/竹南車站/後龍好望角/白沙屯拱天宮/通霄精鹽廠/大甲鎮瀾宮/鹿港老街/@24.3,120.6,10z/data=!4m2!4m1!3e1)
+
+#### 🗺️ 我的地圖 (My Map) 路線
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1_9V2ea1aWNt_hCw7_bEEAwka0qNWlBQ&ehbc=2E312F" width="100%" height="450" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></iframe>
+
 
 ---
 

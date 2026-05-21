@@ -328,6 +328,16 @@ def cmd_render_md(args):
         dinner_pool_size = dinner_data.get("pool_size", 0)
         dinner_top5 = [r for r in dinner_data.get("restaurants", []) if r.get("selected")]
 
+    # 讀取 mymaps.json 取得該天的 My Maps mid
+    mymap_mid = None
+    mymaps_path = ROOT / "mymaps.json"
+    if mymaps_path.exists():
+        try:
+            mymaps = read_json(mymaps_path)
+            mymap_mid = mymaps.get("maps", {}).get(str(n))
+        except Exception:
+            pass
+
     ctx = {
         "day": n,
         "cfg": cfg,
@@ -335,6 +345,7 @@ def cmd_render_md(args):
         "places": places["places"],
         "dinner_top5": dinner_top5,
         "dinner_pool_size": dinner_pool_size,
+        "mymap_mid": mymap_mid,
         **segments,
     }
     tpl = _jenv().get_template("day.md.j2")

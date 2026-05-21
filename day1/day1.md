@@ -14,15 +14,18 @@
 
 ## 🌍 地圖與導航
 
-[📱 手機導航連結（Google Maps 單車模式）](https://www.google.com/maps/dir/?api=1&origin=%E6%96%B0%E5%8C%97%E5%B8%82%E8%98%86%E6%B4%B2%E5%8D%80%E6%9F%B3%E5%A0%A4%E5%85%AC%E5%9C%92&destination=%E7%AB%B9%E5%8D%97%E7%81%AB%E8%BB%8A%E7%AB%99&waypoints=%E6%96%B0%E5%8C%97%E5%B8%82%E5%85%AB%E9%87%8C%E5%B7%A6%E5%B2%B8%E8%87%AA%E8%A1%8C%E8%BB%8A%E9%81%93%7C%E6%A1%83%E5%9C%92%E7%AB%B9%E5%9C%8D%E6%BC%81%E6%B8%AF%7C%E6%A1%83%E5%9C%92%E6%B0%B8%E5%AE%89%E6%BC%81%E6%B8%AF%7C%E6%96%B0%E7%AB%B9%E5%8D%97%E5%AF%AE%E6%BC%81%E6%B8%AF&travelmode=bicycling)
+#### 🖼️ 海報
 
-#### 🗺️ 路線小地圖
+<img src="./day1_poster.png" alt="Day 1 路線海報" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
-<a href="https://www.google.com/maps/d/viewer?mid=您的專屬MyMapsID" target="_blank">
-  <img src="./day1_poster.png" alt="Day 1 路線預覽圖" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-</a>
+#### 📱 手機導航連結（Google Maps 單車模式）
 
-> 💡 *【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day1_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！*
+[開啟 Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=%E6%96%B0%E5%8C%97%E5%B8%82%E8%98%86%E6%B4%B2%E5%8D%80%E6%9F%B3%E5%A0%A4%E5%85%AC%E5%9C%92&destination=%E7%AB%B9%E5%8D%97%E7%81%AB%E8%BB%8A%E7%AB%99&waypoints=%E6%96%B0%E5%8C%97%E5%B8%82%E5%85%AB%E9%87%8C%E5%B7%A6%E5%B2%B8%E8%87%AA%E8%A1%8C%E8%BB%8A%E9%81%93%7C%E6%A1%83%E5%9C%92%E7%AB%B9%E5%9C%8D%E6%BC%81%E6%B8%AF%7C%E6%A1%83%E5%9C%92%E6%B0%B8%E5%AE%89%E6%BC%81%E6%B8%AF%7C%E6%96%B0%E7%AB%B9%E5%8D%97%E5%AF%AE%E6%BC%81%E6%B8%AF&travelmode=bicycling)
+
+#### 🗺️ 我的地圖 (My Map) 路線
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1jkVYdvwUMUZ9jxtJojAd5-fQKzrFCZo&ehbc=2E312F" width="100%" height="450" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></iframe>
+
 
 ---
 

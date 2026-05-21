@@ -14,15 +14,18 @@
 
 ## 🌍 地圖與導航
 
-[📱 手機導航連結（Google Maps 單車模式）](https://www.google.com/maps/dir/太麻里車站/關山環鎮自行車道/伯朗大道/悟饕池上飯包文化故事館/玉里車站/@23.0,121.2,10z/data=!4m2!4m1!3e1)
+#### 🖼️ 海報
 
-#### 🗺️ 路線小地圖
+<img src="./day7_poster.png" alt="Day 7 路線海報" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
-<a href="https://www.google.com/maps/d/viewer?mid=您的專屬MyMapsID" target="_blank">
-  <img src="./day7_poster.png" alt="Day 7 路線預覽圖" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-</a>
+#### 📱 手機導航連結（Google Maps 單車模式）
 
-> 💡 *【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day7_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！*
+[開啟 Google Maps 導航](https://www.google.com/maps/dir/太麻里車站/關山環鎮自行車道/伯朗大道/悟饕池上飯包文化故事館/玉里車站/@23.0,121.2,10z/data=!4m2!4m1!3e1)
+
+#### 🗺️ 我的地圖 (My Map) 路線
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1mZ00rlAyZJeiPsaq3bUtSJxnKr9Ay_o&ehbc=2E312F" width="100%" height="450" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></iframe>
+
 
 ---
 

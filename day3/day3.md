@@ -14,15 +14,18 @@
 
 ## 🌍 地圖與導航
 
-[📱 手機導航連結（Google Maps 單車模式）](https://www.google.com/maps/dir/鹿港老街/西螺大橋/北港朝天宮/東石漁人碼頭/布袋觀光漁港/井仔腳瓦盤鹽田/七股鹽山/國聖港燈塔/鹿耳門公園/@23.6,120.3,9z/data=!4m2!4m1!3e1)
+#### 🖼️ 海報
 
-#### 🗺️ 路線小地圖
+<img src="./day3_poster.png" alt="Day 3 路線海報" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
-<a href="https://www.google.com/maps/d/viewer?mid=您的專屬MyMapsID" target="_blank">
-  <img src="./day3_poster.png" alt="Day 3 路線預覽圖" width="600" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-</a>
+#### 📱 手機導航連結（Google Maps 單車模式）
 
-> 💡 *【預設版型提醒】：請在此放置生成的路線圖 (命名為 `day3_poster.png`)，並記得將上方圖片的超連結替換成您當天的 Google My Maps 專屬連結！*
+[開啟 Google Maps 導航](https://www.google.com/maps/dir/鹿港老街/西螺大橋/北港朝天宮/東石漁人碼頭/布袋觀光漁港/井仔腳瓦盤鹽田/七股鹽山/國聖港燈塔/鹿耳門公園/@23.6,120.3,9z/data=!4m2!4m1!3e1)
+
+#### 🗺️ 我的地圖 (My Map) 路線
+
+<iframe src="https://www.google.com/maps/d/u/0/embed?mid=13Pl_w2JJ-cUgbBk77eEKo-G5GZ7vJIs&ehbc=2E312F" width="100%" height="450" style="border:none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);"></iframe>
+
 
 ---
 
