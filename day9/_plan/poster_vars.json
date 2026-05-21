@@ -1,27 +1,27 @@
 {
   "day": 9,
-  "origin_label": "蘇澳新站 / 蘇澳",
-  "destination_label": "三貂角 → 金山 / 萬里",
-  "distance_range": "約 110–125 公里",
+  "origin_label": "蘇澳",
+  "destination_label": "金山",
+  "distance_range": "約 134.0 公里",
   "subtitle": "東北角濱海極東追風行",
   "orientation": "horizontal_landscape_3_2",
-  "lighting": "柔和清晨明亮光線、清新藍天白雲",
+  "lighting": "東北角海岸明亮日光、海面粼粼波光",
   "allowed_elements": "",
   "enhancement": "",
   "main_visual": {
-    "place_id": "ChIJiXwhwldLXTQRZfw6fpm4Q9Q",
-    "location_desc": "新北市金山「金山老街」",
-    "scene_elements": "",
-    "action": "",
-    "expression": ""
+    "place_id": "ChIJmWtqgIJnXTQRGWfG25olU-8",
+    "location_desc": "新北市貢寮「三貂角燈塔」（台灣本島極東點）",
+    "scene_elements": "純白西班牙式燈塔矗立海岬、太平洋與東海交會處碧藍海面、燈塔旁民航局雷達球、草地步道通往岬角",
+    "action": "牽著公路車走上三貂角最後一段步道、抬頭仰望白色燈塔",
+    "expression": "堅持、興奮、四極點即將集滿三座"
   },
   "small_avatar": {
     "place_id": "ChIJ6ZUIBmzoZzQRgjp01nDg5f0",
     "location_desc": "宜蘭縣蘇澳「蘇澳新站」",
-    "scenario": "",
-    "action": "",
-    "expression": ""
+    "scenario": "蘇澳新站月台清晨下車、昨夜火車接駁抵達的單車整裝完畢",
+    "action": "推著單車走出車站準備北上",
+    "expression": "專注、蓄勢待發、今天要征服極東"
   },
-  "composition": "主角在畫面中央偏上、蘇澳新站在右下方小分身、金山老街在畫面上方遠景、沿途點綴舊草嶺隧道、福隆海水浴場、三貂角燈塔",
-  "geographic_notes": "蘇澳新站在畫面下方（南側）、金山老街在畫面上方（北側）"
+  "composition": "主角在畫面中央偏上、蘇澳新站在右上方小分身、金山老街在畫面左側遠景、沿途點綴舊草嶺隧道、福隆海水浴場、三貂角燈塔",
+  "geographic_notes": "蘇澳新站在畫面右側（東側）、金山老街在畫面左側（西側）"
 }

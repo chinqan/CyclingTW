@@ -94,7 +94,11 @@ def _derive_poster_vars(n: int) -> dict:
     cfg = read_json(cfg_path) if cfg_path.exists() else {}
     out.setdefault("origin_label", cfg.get("origin") or first.get("name_zh", ""))
     out.setdefault("destination_label", cfg.get("destination") or last.get("name_zh", ""))
-    if "distance_range" not in out:
+    # distance_range: 優先用 GPX 實測 (ors_distance_km)，每次同步都更新
+    ors_km = places_data.get("ors_distance_km")
+    if ors_km is not None:
+        out["distance_range"] = f"約 {ors_km} 公里"
+    elif "distance_range" not in out:
         rng = cfg.get("distance_km_range") or [None, None]
         lo, hi = rng[0], rng[1]
         if lo is not None and hi is not None and lo != hi:

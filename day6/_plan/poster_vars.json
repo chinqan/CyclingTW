@@ -1,27 +1,27 @@
 {
   "day": 6,
-  "origin_label": "恆春 / 鵝鑾鼻",
+  "origin_label": "鵝鑾鼻",
   "destination_label": "太麻里",
-  "distance_range": "約 105–120 公里",
+  "distance_range": "約 129.5 公里",
   "subtitle": "極南壽卡翻山越嶺行",
   "orientation": "horizontal_landscape_3_2",
-  "lighting": "柔和清晨明亮光線、清新藍天白雲",
+  "lighting": "清晨海岸金光、翻越壽卡後太平洋湛藍天際",
   "allowed_elements": "",
   "enhancement": "",
   "main_visual": {
     "place_id": "ChIJqza3KrrTbzQRv2vJUxBEm24",
     "location_desc": "台東縣太麻里「多良車站」",
-    "scene_elements": "",
-    "action": "",
-    "expression": ""
+    "scene_elements": "依山傍海的高架鐵道月台、蔚藍太平洋一望無際、月台上天使翅膀裝置藝術、椰子樹搖曳",
+    "action": "騎著公路車沿台9線從壽卡一路下滑、俯瞰多良車站與太平洋",
+    "expression": "暢快、解放、翻過魔王山終於看到大海"
   },
   "small_avatar": {
     "place_id": "ChIJZV-_DhWxcTQREKTCizrSV1c",
     "location_desc": "屏東縣恆春「鵝鑾鼻燈塔」",
-    "scenario": "",
-    "action": "",
-    "expression": ""
+    "scenario": "極南點白色燈塔前天色未明、珊瑚礁岩與太平洋背景",
+    "action": "在燈塔前舉起雙手慶祝極南達成後跨上單車出發",
+    "expression": "堅定、鬥志高昂、準備挑戰壽卡"
   },
-  "composition": "主角在畫面中央偏上、鵝鑾鼻燈塔在右下方小分身、太麻里車站在畫面上方遠景、沿途點綴風吹砂、壽卡鐵馬驛站",
-  "geographic_notes": "鵝鑾鼻燈塔在畫面下方（南側）、太麻里車站在畫面上方（北側）"
+  "composition": "主角在畫面中央偏上、鵝鑾鼻燈塔在右上方小分身、太麻里車站在畫面右側遠景、沿途點綴風吹砂、壽卡鐵馬驛站",
+  "geographic_notes": "鵝鑾鼻燈塔在畫面左側（西側）、太麻里車站在畫面右側（東側）"
 }

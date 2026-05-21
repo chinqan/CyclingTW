@@ -1,27 +1,27 @@
 {
   "day": 10,
-  "origin_label": "金山 / 萬里",
-  "destination_label": "富貴角 → 台北蘆洲柳堤公園",
-  "distance_range": "約 60–85 公里",
+  "origin_label": "金山",
+  "destination_label": "蘆洲（完騎）",
+  "distance_range": "約 51.4 公里",
   "subtitle": "極北完騎凱旋歸途",
   "orientation": "horizontal_landscape_3_2",
-  "lighting": "柔和清晨明亮光線、清新藍天白雲",
+  "lighting": "午後溫暖斜陽、河濱自行車道金色光暈",
   "allowed_elements": "",
   "enhancement": "",
   "main_visual": {
-    "place_id": "ChIJkf3MYFilQjQRxSE-z1AbDKQ",
-    "location_desc": "新北市淡水「淡水老街」",
-    "scene_elements": "",
-    "action": "",
-    "expression": ""
+    "place_id": "ChIJpeyY_He2QjQR9F83t6p8kAw",
+    "location_desc": "新北市石門「富貴角燈塔」（台灣本島極北點）",
+    "scene_elements": "黑白條紋八角形燈塔、海岸風稜石散落、老梅綠石槽、北海岸壯闊海景、「台灣極北點」地標石碑",
+    "action": "在極北燈塔前高舉雙手歡呼慶祝四極點全數達成、單車停在身旁",
+    "expression": "狂喜、感動、10天環島四極點完騎的巔峰喜悅"
   },
   "small_avatar": {
     "place_id": "ChIJiXwhwldLXTQRZfw6fpm4Q9Q",
     "location_desc": "新北市金山「金山老街」",
-    "scenario": "",
-    "action": "",
-    "expression": ""
+    "scenario": "金山老街清晨出發、老街招牌與鴨肉攤尚未開張",
+    "action": "跨上公路車朝西方出發、最後一天衝刺",
+    "expression": "興奮、感性、環島最後一天的期待"
   },
-  "composition": "主角在畫面中央偏上、金山老街在右上方小分身、蘆洲柳堤公園在畫面下方遠景、沿途點綴石門洞、富貴角燈塔（極北點）",
-  "geographic_notes": "金山老街在畫面上方（北側）、蘆洲柳堤公園在畫面下方（南側）"
+  "composition": "主角在畫面中央偏上、金山老街在右上方小分身、蘆洲柳堤公園在畫面左側遠景、沿途點綴石門洞、富貴角燈塔（極北點）",
+  "geographic_notes": "金山老街在畫面右側（東側）、蘆洲柳堤公園在畫面左側（西側）"
 }

@@ -1,27 +1,27 @@
 {
   "day": 4,
-  "origin_label": "台南 / 鹿耳門公園",
-  "destination_label": "枋寮 / 枋山",
-  "distance_range": "約 110–125 公里",
+  "origin_label": "台南鹿耳門",
+  "destination_label": "屏東枋寮",
+  "distance_range": "約 123.6 公里",
   "subtitle": "南國廟宇與糖鐵巡禮",
   "orientation": "horizontal_landscape_3_2",
-  "lighting": "柔和清晨明亮光線、清新藍天白雲",
+  "lighting": "正午明亮熱帶陽光、南國椰影斑駁光線",
   "allowed_elements": "",
   "enhancement": "",
   "main_visual": {
     "place_id": "ChIJo65zFEgObjQRm0FgVZa_4GE",
     "location_desc": "高雄市橋頭「橋頭糖廠」",
-    "scene_elements": "",
-    "action": "",
-    "expression": ""
+    "scene_elements": "日治時期紅磚工廠建築群、高聳煙囪、糖廠鐵道小火車軌道、熱帶大樹濃蔭遮蔽、古老製糖機具展示",
+    "action": "推著公路車漫步在糖廠日式木造宿舍間的綠蔭小道、低頭看舊鐵軌",
+    "expression": "悠閒、好奇、享受歷史氛圍"
   },
   "small_avatar": {
     "place_id": "ChIJofDyKzrYbTQROj-L3C0Zt8A",
     "location_desc": "台南市安南「鹿耳門公園」",
-    "scenario": "",
-    "action": "",
-    "expression": ""
+    "scenario": "鹿耳門聖母廟前廣場清晨出發、天色初亮寺廟牌坊宏偉",
+    "action": "跨上公路車揮手告別廟宇",
+    "expression": "精神飽滿、準備南下高屏"
   },
-  "composition": "主角在畫面中央偏上、鹿耳門公園在右上方小分身、枋寮車站在畫面下方遠景、沿途點綴台南孔廟、澄清湖、東港東隆宮、大鵬灣國家風景區",
-  "geographic_notes": "鹿耳門公園在畫面上方（北側）、枋寮車站在畫面下方（南側）"
+  "composition": "主角在畫面中央偏上、鹿耳門公園在右上方小分身、枋寮車站在畫面右側遠景、沿途點綴台南孔廟、澄清湖、東港東隆宮、大鵬灣國家風景區",
+  "geographic_notes": "鹿耳門公園在畫面左側（西側）、枋寮車站在畫面右側（東側）"
 }

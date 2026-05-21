@@ -6,7 +6,7 @@
   "places": [
     {
       "place_id": "ChIJbZ03BtZFaTQRVSahxk_O324",
-      "name_zh": "Lukang Old Street",
+      "name_zh": "鹿港老街",
       "search_keyword": "鹿港老街 彰化縣鹿港鎮埔頭街",
       "csv_type": "起終點",
       "note": "07:00出發 Day2終點續行 km0",
@@ -32,7 +32,7 @@
     },
     {
       "place_id": "EiBYaWx1byBCcmcsIFl1bmxpbiBDb3VudHksIFRhaXdhbiIuKiwKFAoSCa2bONxCtG40ESt17BKmLaPmEhQKEglB88dzJ7puNBGVKtEDfMTkeg",
-      "name_zh": "Xiluo Bridge",
+      "name_zh": "西螺大橋",
       "search_keyword": "西螺大橋 雲林縣西螺鎮",
       "csv_type": "景點",
       "note": "約09:30抵達 彰雲交界紅色鐵橋 拍照5分鐘 km約30",
@@ -58,7 +58,7 @@
     },
     {
       "place_id": "ChIJJfEEtoWibjQRzq8W6JSLfHo",
-      "name_zh": "Beigang Chaotian Temple",
+      "name_zh": "北港朝天宮",
       "search_keyword": "北港朝天宮 雲林縣北港鎮中山路178號",
       "csv_type": "景點",
       "note": "約10:45抵達 北港媽祖開臺祖廟 周邊小吃多 km約55",
@@ -72,7 +72,7 @@
     },
     {
       "place_id": "ChIJFZajXYaibjQR_q_BYZbw0mA",
-      "name_zh": "7-Eleven Beigang",
+      "name_zh": "7-ELEVEN 北港門市",
       "search_keyword": "7-ELEVEN 北港門市 雲林縣北港鎮民主路106號",
       "csv_type": "便利商店",
       "note": "北港路段補給 km約55",
@@ -84,7 +84,7 @@
     },
     {
       "place_id": "ChIJo-Z3SJgnbDQRbkeN9Rx3Mis",
-      "name_zh": "Dongshi Fisherman's Wharf",
+      "name_zh": "東石漁人碼頭",
       "search_keyword": "東石漁人碼頭 嘉義縣東石鄉彩霞大道420號",
       "csv_type": "景點",
       "note": "約11:30抵達 觀海景區+海鮮市場 km約72",
@@ -98,7 +98,7 @@
     },
     {
       "place_id": "ChIJodGzjxwnbDQRbSUzYK6OF7M",
-      "name_zh": "蠔碳嘉烤鮮蚵吃到飽-東石鮮蚵吃到飽|推薦鮮蚵|必吃鮮蚵|人氣鮮蚵|道地美食|在地推薦餐廳|烤蚵吃到飽|必吃烤蚵",
+      "name_zh": "蠔碳嘉烤鮮蚵吃到飽",
       "search_keyword": "蠔碳嘉 嘉義縣東石鄉彩霞大道358號",
       "csv_type": "餐廳大休",
       "note": "11:30-13:00午餐大休 東石烤蚵吃到飽 km約72",
@@ -112,7 +112,7 @@
     },
     {
       "place_id": "ChIJl927qSsobDQRUbouAy2tsUw",
-      "name_zh": "Budai Harbor Fish Market",
+      "name_zh": "布袋漁港魚市場",
       "search_keyword": "布袋漁港魚市場 嘉義縣布袋鎮中山路3號",
       "csv_type": "景點",
       "note": "約13:45抵達 海鮮市集+布袋鹽田風光 km約85",
@@ -150,7 +150,7 @@
     },
     {
       "place_id": "ChIJq6qqqtUqbDQR_ohO2eK2x4E",
-      "name_zh": "Jingzaijiao Tile-paved Salt Fields",
+      "name_zh": "井仔腳瓦盤鹽田",
       "search_keyword": "井仔腳瓦盤鹽田 台南市北門區",
       "csv_type": "景點",
       "note": "約14:45抵達 台灣最古老鹽田 棋盤狀鹽結晶池 km約100",
@@ -164,7 +164,7 @@
     },
     {
       "place_id": "ChIJlfUqzNoqbDQRXymbU53YLr8",
-      "name_zh": "Beimen Visitor Center",
+      "name_zh": "北門遊客中心",
       "search_keyword": "北門遊客中心 台南市北門區北門里200號",
       "csv_type": "景點",
       "note": "約15:00抵達 結合水晶教堂與婚紗園區 km約102",
@@ -178,7 +178,7 @@
     },
     {
       "place_id": "ChIJTRbkzL_WbTQRTrfGfckHIrc",
-      "name_zh": "Qigu Salt Mountain",
+      "name_zh": "七股鹽山",
       "search_keyword": "七股鹽山 台南市七股區鹽埕里66號",
       "csv_type": "景點",
       "note": "約15:45抵達 純白巨型鹽山地標 km約113",

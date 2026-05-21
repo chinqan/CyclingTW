@@ -27,7 +27,7 @@
 
 <div class="day-hero-poster">
 
-<img src="./day8_poster.png" alt="Day 8 路線海報" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<img src="./day8_poster.png" alt="Day 8 路線海報" width="100%" style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
 
 </div>
 

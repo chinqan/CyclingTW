@@ -2,7 +2,7 @@
   "day": 1,
   "origin_label": "新北蘆洲",
   "destination_label": "苗栗竹南",
-  "distance_range": "約 100–110 公里",
+  "distance_range": "約 110.7 公里",
   "subtitle": "西濱海岸線追風之旅",
   "orientation": "horizontal_landscape_3_2",
   "main_visual": {
@@ -22,6 +22,6 @@
   "lighting": "柔和清晨明亮光線、清新藍天白雲",
   "allowed_elements": "",
   "enhancement": "",
-  "composition": "主角在畫面中央偏上、蘆洲柳堤公園在右上方小分身、竹南車站在畫面下方遠景、沿途點綴水牛坑越野場地、竹圍漁港、永安漁港、南寮漁港",
-  "geographic_notes": "蘆洲柳堤公園在畫面上方（北側）、竹南車站在畫面下方（南側）"
+  "composition": "主角在畫面中央偏上、蘆洲柳堤公園在右上方小分身、竹南車站在畫面左側遠景、沿途點綴水牛坑越野場地、竹圍漁港、永安漁港、南寮漁港",
+  "geographic_notes": "蘆洲柳堤公園在畫面右側（東側）、竹南車站在畫面左側（西側）"
 }

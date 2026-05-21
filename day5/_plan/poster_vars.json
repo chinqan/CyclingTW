@@ -1,27 +1,27 @@
 {
   "day": 5,
-  "origin_label": "枋寮 / 枋山",
-  "destination_label": "恆春 / 墾丁 / 鵝鑾鼻",
-  "distance_range": "約 75–100 公里",
+  "origin_label": "屏東枋寮",
+  "destination_label": "墾丁鵝鑾鼻",
+  "distance_range": "約 68.1 公里",
   "subtitle": "屏鵝公路南國追風行",
   "orientation": "horizontal_landscape_3_2",
-  "lighting": "柔和清晨明亮光線、清新藍天白雲",
+  "lighting": "南國正午強烈陽光、碧海藍天熱帶色調",
   "allowed_elements": "",
   "enhancement": "",
   "main_visual": {
     "place_id": "ChIJdU4y8ie4cTQRe0BNxOo2HKc",
     "location_desc": "屏東縣車城「車城福安宮」",
-    "scene_elements": "",
-    "action": "",
-    "expression": ""
+    "scene_elements": "全台最大土地公廟宏偉廟殿、金色琉璃瓦頂、廟前廣場車城洋蔥田遠景、屏鵝公路筆直延伸",
+    "action": "坐在福安宮廟前石階上休息喝水、公路車靠在廟柱旁、仰望宏偉廟殿",
+    "expression": "驚嘆、虔誠、感受南國信仰的力量"
   },
   "small_avatar": {
     "place_id": "ChIJp-xjwz3ccTQRN_tucmfrEdM",
     "location_desc": "屏東縣枋寮「枋寮車站」",
-    "scenario": "",
-    "action": "",
-    "expression": ""
+    "scenario": "枋寮車站月台前清晨出發、背後是西部幹線最南站牌",
+    "action": "跨上公路車朝南方出發",
+    "expression": "興奮、期待今日抵達國境之南"
   },
-  "composition": "主角在畫面中央偏上、枋寮車站在右上方小分身、鵝鑾鼻燈塔在畫面下方遠景、沿途點綴恆春南門、恆春老街、墾丁大街",
-  "geographic_notes": "枋寮車站在畫面上方（北側）、鵝鑾鼻燈塔在畫面下方（南側）"
+  "composition": "主角在畫面中央偏上、枋寮車站在右上方小分身、鵝鑾鼻燈塔在畫面右側遠景、沿途點綴恆春南門、恆春老街、墾丁大街",
+  "geographic_notes": "枋寮車站在畫面左側（西側）、鵝鑾鼻燈塔在畫面右側（東側）"
 }
