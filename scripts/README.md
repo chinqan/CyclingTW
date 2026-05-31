@@ -301,7 +301,7 @@ Bayesian 評分的 **SoT (Source of Truth)**。由 `score-pool N` 對整個 mirr
 
 | 欄位 | 型別 | 說明 |
 |---|---|---|
-| `search_radius_km` | int | 從終點向外搜尋的半徑（目前固定 3）|
+| `search_radius_km` | int | 從終點向外搜尋的半徑（目前固定 3）。**dinner/hotel-pool 也用此半徑（+0.1km 寬限）依「距目前終點」過濾**，剔除換終點後殘留在 `{kind}_map/` 的遠點，避免被算進 C/m 或選進 top 5（不刪鏡像，被剔除者列在 stderr）|
 | `pool_size` | int | 鏡像候選池實際有效筆數（≥ 3 才會跑 Bayesian）|
 | `bayesian_C` | float | 候選池內 `total_ratings` 平均（注意：餐廳版的 C/m 跟 places 的 Bayesian 不同義）|
 | `bayesian_m` | float | 候選池內以 `total_ratings` 加權的評分平均 |
@@ -412,7 +412,7 @@ python3 scripts/plan.py compute 2       # 從 mirror 同步最新值 + 套用 po
 python3 scripts/plan.py write-csv 2     # 產 dayN_mymap.csv，並警告終點不一致
 ```
 
-> ⚠️ `compute` 會自動從 `dayN/map/` 拉最新 rating / total_ratings；若 `pool_scores.json` 不存在會自動觸發 `score-pool`。
+> ⚠️ `compute` 會自動從 `dayN/map/` 拉最新 rating / total_ratings；並**每次都重算 `score-pool`**（pool 的 C/m 與路線走廊過濾都依目前路線決定，換路線後必須重算才會把離線殘留點排除；score-pool 只讀本地，成本可忽略）。
 
 #### 1-8.（可選）替換偵測
 
@@ -502,6 +502,21 @@ python3 scripts/plan.py render-md 2
 | 寫入時機 | API 回應後第一次寫入 | **每次回應都 upsert**（write-through）|
 | 過期處理 | TTL 過期就失效 | 沒有過期概念，本地永遠跟上游同步 |
 | 目的 | 省 API call、加速 | **離線分析能力 + 歷史比對基準** |
+
+### 換終點 / 換路線後，鏡像裡的舊遠點怎麼辦？
+
+鏡像是 **write-through、只增不減**，所以換終點或重排路線後，舊路線附近的景點/餐廳/飯店**仍留在** `map/` `dinner_map/` `hotel_map/`。若直接全部算進 Bayesian，這些離線殘留點會：(a) 污染 C/m，(b) 餐廳/飯店因 top 5 是自動選的，遠點若分數高甚至會被選進新終點的推薦。
+
+處理方式是**在 pool 階段依「目前路線」動態過濾**（不刪鏡像、保留歷史，換路線後自我修正）：
+
+| 池 | 過濾基準 | 門檻 |
+|:---|:---|:---|
+| 景點（`score-pool`） | 距**目前 `places.json` 路線折線**（順序點連線）的最短距離 | > 30km 剔除（折線是航點直線近似，刻意寬鬆，只抓不同區域殘留點；≤2km 選點 SOP 由 Claude 手選 places.json 管） |
+| 晚餐 / 住宿（`dinner-pool` / `hotel-pool`） | 距**目前終點** `places.json[-1]` | > 3km（+0.1 寬限）剔除 |
+
+- 被剔除者會列在 stderr（不靜默），缺座標或無路線點時不過濾。
+- `compute` 每次都重算 `score-pool`，所以換路線後跑一次 `render-md N`（自癒會帶 compute + dinner/hotel-pool）即自動排除舊遠點。
+- 想徹底清掉鏡像裡的舊點，仍需手動編 `index.json` + 刪 `<pid>.json`（過濾只影響「算進池子與否」，不動鏡像本身）。
 
 ### 線上工作模式（標準）
 
@@ -615,6 +630,7 @@ python3 scripts/plan.py <subcommand> <day_number> [options]
 對整個 mirror 候選池算 Bayesian，產出 `_plan/pool_scores.json`：
 
 - **候選池** = `mirror.places + mirror.candidates_not_selected` 中所有 `csv_type ∈ {景點, 起終點, 餐廳大休}` 且具備 `rating` / `total_ratings` 的點（依 `place_id` 去重）
+- **路線走廊過濾**：鏡像只增不減，換路線/終點後舊景點仍留在 `candidates_not_selected`。score-pool 會剔除「距目前 `places.json` 路線折線 > 30km」的點（離線殘留），**不刪鏡像**、換路線後自我修正；被剔除者會列在 stderr。缺座標或無路線點時不過濾（門檻刻意寬鬆：折線是航點直線近似，只為抓不同區域的殘留點，不是執行 ≤2km 選點 SOP）
 - **`bayesian_C`** = 候選池內 `rating` 平均
 - **`bayesian_m`** = 候選池內 `total_ratings` 中位數（最低採用 100，避免低樣本失真）
 - 每個點位的 **`bayesian_score`** = `(v/(v+m)) * R + (m/(v+m)) * C`
@@ -655,7 +671,7 @@ python3 scripts/plan.py <subcommand> <day_number> [options]
 **輸入**：`dayN/_plan/places.json` + `dayN/_plan/pool_scores.json` + `dayN/map/*.json`
 **輸出**：寫回 `places.json`（含 `bayesian_C` / `bayesian_m` / 每點的 `bayesian_score`）+ stdout 表格
 
-> `pool_scores.json` 不存在時會自動觸發 `score-pool`，無需手動先跑。
+> `compute` 每次都會重算 `score-pool`（不論 `pool_scores.json` 是否已存在），確保 C/m 與路線走廊過濾反映目前路線；無需手動先跑 score-pool。
 
 > 重要：`places.json` 內的 rating / total_ratings / location / name_zh 會被 mirror 覆寫，不要手動編輯（會被下次 compute 蓋掉，應改寫到 mirror）。`csv_type` 不被 mirror 覆寫，可在 places.json 自由調整當日角色分類。
 >

@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import math
 import statistics
 import sys
 
@@ -54,6 +55,96 @@ def _has_rating(p: dict) -> bool:
     return p.get("rating") is not None and p.get("total_ratings") is not None
 
 
+# 景點走廊半徑（km）：mirror 只增不減，換路線/終點後舊景點仍留在
+# candidates_not_selected，若不過濾會污染 C/m 並出現在 better_attractions 備案。
+# 用「距目前路線折線（places.json 順序點連線）」過濾把離線殘留點排除。
+#
+# 為何取 30km（刻意寬鬆）：折線是「航點直線」近似，waypoint 稀疏時離實際沿海/
+# 繞行道路可能差 5–15km（實測：王功漁港距 day3 折線 12.3km、七星潭距 day8 折線
+# 5.9km，但兩者都是正路上的合法備案）。此過濾的目的是抓「換終點後來自不同區域的
+# 殘留點」（換城市通常 30km+），不是執行 ≤2km 的選點 SOP（那由 Claude 手選進
+# places.json 管）。寧可偶爾多留一個遠點，也不要誤刪像七星潭這種合法近 route 備案。
+# 高風險的自動選點（dinner/hotel）改用精準的「點對點 3km」終點過濾，不受折線粗糙影響。
+ROUTE_CORRIDOR_KM = 30.0
+
+
+def _point_to_segment_km(plat: float, plng: float,
+                         alat: float, alng: float,
+                         blat: float, blng: float) -> float:
+    """點 P 到線段 AB 的近似距離（km）。以 A 為原點做等距圓柱投影，
+    在數十公里尺度誤差可忽略，足夠判斷走廊歸屬。"""
+    kx = 111.320 * math.cos(math.radians(alat))  # 該緯度每經度約幾 km
+    ky = 110.574                                  # 每緯度約幾 km
+    px, py = (plng - alng) * kx, (plat - alat) * ky
+    bx, by = (blng - alng) * kx, (blat - alat) * ky
+    seg2 = bx * bx + by * by
+    if seg2 == 0:
+        t = 0.0
+    else:
+        t = max(0.0, min(1.0, (px * bx + py * by) / seg2))
+    cx, cy = t * bx, t * by
+    return math.hypot(px - cx, py - cy)
+
+
+def _route_polyline(n: int) -> list[tuple[float, float]]:
+    """目前 places.json 依騎乘順序、具座標的點，作為路線折線。"""
+    pf = plan_dir(n) / "places.json"
+    if not pf.exists():
+        return []
+    try:
+        places = read_json(pf).get("places") or []
+    except Exception:
+        return []
+    pts = []
+    for p in places:
+        loc = p.get("location") or {}
+        lat, lng = loc.get("lat"), loc.get("lng")
+        if lat is not None and lng is not None:
+            pts.append((lat, lng))
+    return pts
+
+
+def _dist_to_route_km(plat: float, plng: float, route: list[tuple[float, float]]) -> float:
+    if len(route) == 1:
+        return haversine_km(plat, plng, route[0][0], route[0][1])
+    best = float("inf")
+    for (alat, alng), (blat, blng) in zip(route, route[1:]):
+        best = min(best, _point_to_segment_km(plat, plng, alat, alng, blat, blng))
+    return best
+
+
+def _filter_to_route_corridor(n: int, rated: list[dict]) -> list[dict]:
+    """剔除距目前路線折線 > ROUTE_CORRIDOR_KM 的候選（換路線後的離線殘留點）。
+
+    路線點 < 1 或無座標時不過濾（保留全部並警示）；候選缺座標也保留。
+    """
+    route = _route_polyline(n)
+    if not route:
+        info("⚠️  places.json 無有效路線點，景點池未依走廊過濾（保留全部候選）")
+        return rated
+    kept: list[dict] = []
+    dropped: list[tuple[str, float]] = []
+    for p in rated:
+        loc = p.get("location") or {}
+        lat, lng = loc.get("lat"), loc.get("lng")
+        if lat is None or lng is None:
+            kept.append(p)  # 無座標無法判斷，保留
+            continue
+        d = _dist_to_route_km(lat, lng, route)
+        if d > ROUTE_CORRIDOR_KM:
+            dropped.append((p.get("name_zh", "?"), round(d, 1)))
+        else:
+            kept.append(p)
+    if dropped:
+        info(f"  依距目前路線剔除 {len(dropped)} 筆 > {ROUTE_CORRIDOR_KM:.0f}km 的離線殘留點"
+             f"（換路線後遺留，不影響鏡像）：")
+        for name, d in dropped[:8]:
+            info(f"    - {name}（{d}km）")
+        if len(dropped) > 8:
+            info(f"    …等共 {len(dropped)} 筆")
+    return kept
+
+
 def _collect_rated_pool(n: int) -> list[dict]:
     """從 mirror 收集所有可評分候選，依 pid.json 為 SoT 補齊欄位。"""
     mirror = load_mirror_index(n)
@@ -83,6 +174,7 @@ def cmd_score_pool(args):
     """對整個 mirror 候選池算 Bayesian，產出 pool_scores.json。"""
     n = args.day
     rated = _collect_rated_pool(n)
+    rated = _filter_to_route_corridor(n, rated)
     if len(rated) < 2:
         die(f"鏡像中可評分候選少於 2 筆（目前 {len(rated)}），無法計算 Bayesian")
 
@@ -169,7 +261,10 @@ def cmd_compute(args):
     if refreshed:
         info(f"從 mirror 同步了 {refreshed} 個點位的最新數值")
 
-    pool_data = _ensure_pool_scores(n)
+    # compute 一律重算 pool_scores：候選池 C/m 與「路線走廊過濾」都依目前路線決定，
+    # 換路線/終點後必須重算才會把離線殘留點排除（score-pool 只讀本地鏡像，成本可忽略）。
+    cmd_score_pool(argparse.Namespace(day=n, quiet=True))
+    pool_data = read_json(plan_dir(n) / "pool_scores.json")
     C, m = pool_data["bayesian_C"], pool_data["bayesian_m"]
     pool_scores: dict[str, dict] = pool_data["scores"]
 

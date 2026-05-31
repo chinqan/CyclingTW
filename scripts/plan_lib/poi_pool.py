@@ -48,6 +48,13 @@ FIELD_MASK = ",".join([
 DEFAULT_SEARCH_RADIUS_M = 3000
 DEFAULT_MAX_RESULTS_PER_QUERY = 20
 
+# pool 階段「距目前終點」過濾半徑（km）。鏡像是 write-through、只增不減，換終點後
+# 舊終點附近的候選仍留在 {kind}_map/；若不過濾，這些殘留遠點會混進 Bayesian C/m，
+# 甚至被自動選進新終點的 top 5。這裡用「距目前 places.json 終點」重算距離把它們排除，
+# 不刪鏡像（保留歷史），換終點後自我修正。+0.1km 寬限避免邊界候選因座標微差被誤刪。
+POOL_RADIUS_KM = DEFAULT_SEARCH_RADIUS_M / 1000.0
+POOL_RADIUS_GRACE_KM = 0.1
+
 
 @dataclass(frozen=True)
 class POISpec:
@@ -394,8 +401,61 @@ def _confidence_emoji(conf: str) -> str:
     return "❌"
 
 
+def _endpoint_latlng(n: int) -> tuple[float, float] | None:
+    """目前 places.json 終點（最後一個點）的座標；缺失回 None。"""
+    pf = plan_dir(n) / "places.json"
+    if not pf.exists():
+        return None
+    try:
+        pl = read_json(pf).get("places") or []
+    except Exception:
+        return None
+    if not pl:
+        return None
+    loc = pl[-1].get("location") or {}
+    lat, lng = loc.get("lat"), loc.get("lng")
+    if lat is None or lng is None:
+        return None
+    return (lat, lng)
+
+
+def _filter_to_endpoint(n: int, spec: POISpec, pool: list[dict]) -> list[dict]:
+    """剔除距目前終點 > POOL_RADIUS_KM 的候選（換終點後的殘留遠點）。
+
+    終點座標缺失時不過濾（保留全部並警示）；候選本身缺座標也保留（無法判斷）。
+    """
+    ep = _endpoint_latlng(n)
+    if ep is None:
+        info("⚠️  places.json 無有效終點座標，POI 池未依距離過濾（保留全部候選）")
+        return pool
+    elat, elng = ep
+    limit = POOL_RADIUS_KM + POOL_RADIUS_GRACE_KM
+    kept: list[dict] = []
+    dropped: list[tuple[str, float]] = []
+    for item in pool:
+        loc = item.get("location") or {}
+        lat, lng = loc.get("lat"), loc.get("lng")
+        if lat is None or lng is None:
+            kept.append(item)  # 無座標無法判斷距離，保留
+            continue
+        d = haversine_km(elat, elng, lat, lng)
+        if d > limit:
+            dropped.append((item.get("name_zh", "?"), round(d, 1)))
+        else:
+            kept.append(item)
+    if dropped:
+        info(f"  依距目前終點剔除 {len(dropped)} 筆 > {POOL_RADIUS_KM:.0f}km 的殘留遠點"
+             f"（換終點後遺留，不影響鏡像）：")
+        for name, d in dropped[:8]:
+            info(f"    - {name}（{d}km）")
+        if len(dropped) > 8:
+            info(f"    …等共 {len(dropped)} 筆")
+    return kept
+
+
 def _collect_pool(n: int, spec: POISpec) -> list[dict]:
-    """從 {kind}_map 收集所有有效候選（有 rating + total_ratings 的），同店去重。"""
+    """從 {kind}_map 收集所有有效候選（有 rating + total_ratings 的），同店去重，
+    並依距目前終點過濾掉換終點後的殘留遠點。"""
     idx = _load_index(n, spec)
     candidates = idx.get("candidates", [])
     pool = []
@@ -442,7 +502,7 @@ def _collect_pool(n: int, spec: POISpec) -> list[dict]:
                 deduped[matched_idx] = item
             else:
                 info(f"  dedup：{item.get('name_zh')} 同店重複，捨棄 {item.get('place_id','?')}")
-    return deduped
+    return _filter_to_endpoint(n, spec, deduped)
 
 
 def cmd_pool(args, spec: POISpec):

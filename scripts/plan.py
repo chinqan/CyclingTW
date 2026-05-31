@@ -12,6 +12,10 @@ dinner-search / hotel-search / refresh-details 都在這一條路）。
   - 先 diff 後 put：mirror-diff 顯示變動，mirror-put 一律 upsert 寫回
   - Bayesian 用整池候選：C/m 由 mirror 完整候選池（含未入選備案）算，可在
     編輯 places.json **前**先用 score-pool 看分數做決策（pool_scores.json 是 SoT）
+  - 路線/終點相關性過濾（鏡像只增不減，換路線後排除離線殘留點，不刪鏡像）：
+    score-pool 剔除距目前路線折線 >30km 的景點（折線是航點直線近似，刻意寬鬆，
+    只抓不同區域的殘留點）；dinner/hotel-pool 剔除距目前終點
+    >3km 的餐廳/飯店。compute 每次都重算 score-pool，換路線後 render-md 自癒即自動套用
   - 不變式驗證：CSV 終點 = index.md 目的地
 
 子命令：
