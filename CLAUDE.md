@@ -8,7 +8,7 @@
 6. **Phase 3.6（住宿）**：`hotel-search N`（直接呼叫 Google Places API，zh-TW 語言碼，自動 upsert hotel_map/）→ `hotel-pool N`（產 `_plan/hotel.json` 帶 `source_endpoint_place_id` 簽章）→ `hotel-render N`（產 `dayN_hotel.md`）。Bayesian top 5；`render-md` 預檢會檢查 `hotel.json` 新鮮度與終點簽章。需 `GOOGLE_PLACES_API_KEY`，不走 MCP。
 7. **Phase 4**：Claude 補 `dayN/_plan/segments.json`（段落、魚骨圖、注意事項、`better_attractions` 備案表格）→ `render-md N`
 
-> ⚠️ **重做 = 全部重來**：`render-md` 執行前會全量預檢 Phase 0-3/3.5/3.6/4 所有產出 mtime 是否 ≥ `places.json`、`dinner.json` 與 `hotel.json` 的 `source_endpoint_place_id` 是否對應目前終點。任一不通過就 hard-fail，要求對應指令重跑。確定該天不需要某區塊時可加 `--force` 略過。
+> ⚠️ **重規劃某天 = 直接跑 `render-md N`（自癒）**：`render-md` 渲染前會全量檢查 Phase 0-3/3.5/3.6/4 所有產出 mtime 是否 ≥ `places.json`、`dinner.json` / `hotel.json` 的 `source_endpoint_place_id` 是否對應目前終點。**偵測到陳舊不再 hard-fail，而是自動跑 cascade 重生所有機械產物**（compute → route → write-csv → render-prompt → dinner-pool → hotel-pool → compose-better-attractions）後再渲染；只在自癒後仍有需人腦判斷的缺口（如該天確實無備選景點可填 `better_attractions`）才中止並列出。所以改完 `places.json` 想重規劃整天，跑 `render-md N` 一個指令即可，不必逐階段手動重跑。`--force` 完全略過自癒與檢查直接渲染；`verify-and-fix N` ≈「強制重生全部 + render-md --force」。
 
 ## 禁用 MCP 工具
 - **禁用 `mcp__openroute-mcp__*` 全部工具**。OpenRouteService 已改由 `scripts/plan.py route` 子命令直接走 HTTPS（`ORS_API_KEY` 環境變數），不再經 MCP。即便 session 列出這些 deferred tools 也不要呼叫；要產路線一律用 `python3 scripts/plan.py route N`，離線改 `gpx-waypoints N`。

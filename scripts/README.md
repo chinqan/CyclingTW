@@ -259,7 +259,7 @@ Bayesian 評分的 **SoT (Source of Truth)**。由 `score-pool N` 對整個 mirr
 }
 ```
 
-`better_attractions`：**必填**欄位，Markdown 格式的「未排入路線但 Bayesian 分數較高的備選景點/餐廳」表格。缺失或為空字串時 `render-md` 會 hard-fail；確認該天無備案時可在 `render-md` 加 `--force` 略過。可參考 `review N` 的輸出來撰寫。
+`better_attractions`：**必填**欄位，Markdown 格式的「未排入路線但 Bayesian 分數較高的備選景點/餐廳」表格。為空時 `render-md` 自癒會先自動 `compose-better-attractions` 從 `pool_scores` 補表格；若該天確實無備選點可填、`compose` 也產不出內容才會中止（確認後加 `--force` 略過）。可參考 `review N` 的輸出自行撰寫。
 
 ### `_plan/dinner.json`（自動產出 by `dinner-pool`）
 
@@ -305,7 +305,7 @@ Bayesian 評分的 **SoT (Source of Truth)**。由 `score-pool N` 對整個 mirr
 | `pool_size` | int | 鏡像候選池實際有效筆數（≥ 3 才會跑 Bayesian）|
 | `bayesian_C` | float | 候選池內 `total_ratings` 平均（注意：餐廳版的 C/m 跟 places 的 Bayesian 不同義）|
 | `bayesian_m` | float | 候選池內以 `total_ratings` 加權的評分平均 |
-| `source_endpoint_place_id` | string \| null | **新鮮度簽章**：寫入當下 `_plan/places.json` 最後一個點位的 `place_id`。`render-md` 預檢會比對，若與目前終點不符即中止 |
+| `source_endpoint_place_id` | string \| null | **新鮮度簽章**：寫入當下 `_plan/places.json` 最後一個點位的 `place_id`。`render-md` 會比對，若與目前終點不符，自癒會自動重跑 `dinner-pool` 補上正確簽章 |
 | `top5_place_ids` | string[] | top 5 的 pid 列表（順序對應 `restaurants[].rank=1..5`）|
 | `restaurants` | object[] | 全部候選排名（含 top 5 以外），各筆有 `rank` 與 `selected` 標記 |
 
@@ -476,7 +476,7 @@ python3 scripts/plan.py dinner-pool 2
 python3 scripts/plan.py dinner-review 2
 ```
 
-> `render-md` 會 **hard-fail** 擋下：若 `dinner_map/` 已有候選但 `dinner.json` 不存在 / 比 `places.json` 舊，會中止並要求重跑 `dinner-pool N`。確定該天不需要晚餐區塊時可加 `--force` 略過。
+> 若 `dinner_map/` 已有候選但 `dinner.json` 不存在 / 比 `places.json` 舊 / 終點簽章不符，`render-md` 自癒會自動重跑 `dinner-pool N`（無需手動）。確定該天不需要晚餐區塊時可加 `--force` 略過。
 
 ### Phase 4：Markdown
 
@@ -641,7 +641,7 @@ python3 scripts/plan.py <subcommand> <day_number> [options]
 
 ### `compute N [--quiet]`
 
-> **Phase 0-3 結尾提醒**：`compute` 完成後會在 stderr 列出 Phase 3.5 (`dinner-pool`) 與 Phase 4 (`better_attractions`) 是否需要重做的清單。`places.json` 更新後若 `dinner.json` / `segments.json` 比它舊，就會列在提醒裡，**`render-md` 預檢也會擋下**。
+> **Phase 0-3 結尾提醒**：`compute` 完成後會在 stderr 列出 Phase 3.5 (`dinner-pool`) 與 Phase 4 (`better_attractions`) 是否需要重做的清單。`places.json` 更新後若 `dinner.json` / `segments.json` 比它舊，就會列在提醒裡；不過 **`render-md` 會自動重生（自癒）這些下游**，所以直接跑 `render-md N` 即可。
 >
 > `--quiet`：不印每點分數表，只印 C/m 摘要與「下一步」提醒。`score-pool` / `review` / `dinner-pool` 同樣支援 `--quiet`。
 
@@ -748,12 +748,14 @@ python3 scripts/plan.py <subcommand> <day_number> [options]
 
 ### `verify-and-fix N`
 
-一條龍：依序執行 `compute → write-csv → route/gpx-waypoints → render-prompt → dinner-pool → compose-better-attractions → render-md --force`，讓重做後的某天能用單一指令重生 `dayN.md` 與所有 Phase 0-3/3.5/4 產出。
+一條龍：`run_mechanical_cascade`（`compute → route/gpx-waypoints → write-csv → render-prompt → dinner-pool → hotel-pool → compose-better-attractions`）+ `render-md --force`。
+
+> 💡 **多數情況不需要直接呼叫它**：`render-md N` 已內建同一條 `run_mechanical_cascade` 自癒，改完 `places.json` 直接跑 `render-md N` 即可。`verify-and-fix` 保留為「我就是要強制重生全部、並用 `--force` 無視檢查」的明確入口（兩者共用同一份 cascade 程式碼，不會漂移）。
 
 - 無 `ORS_API_KEY` 自動 fallback `gpx-waypoints`
-- `dinner_map/` 為空時略過 `dinner-pool`
+- `dinner_map/` 為空時略過 `dinner-pool`；`hotel_map/` 為空時略過 `hotel-pool`；候選不足 3 筆時該 pool 略過不中斷
 - 不會覆蓋既有 `segments.json.better_attractions`（有內容才會 `touch`；空時自動產）
-- 最後 `render-md --force`：cascade 已串完，bypass 預檢
+- 最後 `render-md --force`：cascade 已串完，bypass 自癒檢查
 
 **不能自動補的事項**（需手動）：`places.json` 點位選擇、`segments.json` 主敘述（五段配速、ishikawa、notes）、`poster_vars.json` 手寫場景文字（`scene_elements` / `action` / `expression` / `scenario`）。
 
@@ -761,19 +763,25 @@ python3 scripts/plan.py <subcommand> <day_number> [options]
 
 用 `templates/day.md.j2` 渲染完整每日文件。
 
-**全量新鮮度預檢（hard-fail，可用 `--force` 略過）**：核心原則是「**重做 Phase 0-3 就要全部重做**」。任一以下檢查不通過即中止：
+**全量新鮮度檢查 + 自癒**：核心原則仍是「**改了 `places.json` 就要全部重做**」，但 render-md 不再 hard-fail 要你手動重跑——偵測到任一下游產出陳舊／缺失／簽章不符時，**自動跑 `run_mechanical_cascade`（= verify-and-fix 的機械步驟）重生所有機械產物後再渲染**。只有「自癒後仍存在、且需人腦判斷」的缺口才會中止並列出。所以改完 `places.json` 想重規劃整天，直接 `render-md N` 一個指令即可。
 
-| 類別 | 檢查 | 修法 |
+| 類別 | 檢查 | 自癒時自動執行 |
 |---|---|---|
 | Phase 1 | `dayN_mymap.csv` mtime ≥ `places.json` | `write-csv N` |
-| Phase 2 | `dayN_route.gpx` mtime ≥ `places.json` | `route N` 或 `gpx-waypoints N` |
-| Phase 3 | `_plan/poster_vars.json` mtime ≥ `places.json` | `render-prompt N` |
+| Phase 2 | `dayN_route.gpx` mtime ≥ `places.json` | `route N`（無 key→`gpx-waypoints N`） |
+| Phase 3 | `_plan/poster_vars.json` mtime ≥ `places.json` | `render-prompt N`（自動同步結構欄位） |
 | Phase 3 | `dayN_prompt.md` mtime ≥ `places.json` | `render-prompt N` |
-| Phase 3.5 | `dinner_map/` 有候選時 `dinner.json` 必須存在、mtime ≥ `places.json` | `dinner-pool N` |
-| Phase 3.5 內容 | `dinner.json.source_endpoint_place_id` == `places.json[-1].place_id`（**signature 比 mtime 更嚴**） | `dinner-pool N` |
-| Phase 4 | `segments.json.better_attractions` 非空，且 `segments.json` mtime ≥ `places.json` | 參考 `review N` 補欄位、重新存檔 |
+| Phase 3.5 | `dinner_map/` 有候選時 `dinner.json` 存在、mtime ≥ `places.json` | `dinner-pool N` |
+| Phase 3.5 內容 | `dinner.json.source_endpoint_place_id` == `places.json[-1].place_id`（**signature 比 mtime 更嚴**） | `dinner-pool N`（重算會寫入新終點簽章） |
+| Phase 3.6 | `hotel_map/` 有候選時 `hotel.json` 存在、mtime ≥ `places.json` | `hotel-pool N` |
+| Phase 3.6 內容 | `hotel.json.source_endpoint_place_id` == `places.json[-1].place_id` | `hotel-pool N` |
+| Phase 4 | `segments.json.better_attractions` 非空，且 `segments.json` mtime ≥ `places.json` | `compose-better-attractions N`（空才自動產，有內容只 `touch`） |
 
-> 💡 舊版 `dinner.json` 沒有 `source_endpoint_place_id` 欄位，第一次升級執行時所有天都會被擋下，要求重跑 `dinner-pool N`（一次性遷移）。
+**自癒後仍會中止的情形**（需人工，確認後加 `--force` 略過）：最常見是該天**確實沒有備選景點/餐廳可填 `better_attractions`**（`compose` 產不出內容）；或 `dinner_map/`、`hotel_map/` 候選不足 3 筆導致 pool 算不出來。中止時會列出殘留項目。
+
+**`--force`**：完全略過自癒與檢查，直接拿現有檔案渲染（`verify-and-fix` 收尾即用此模式）。
+
+> 💡 舊版 `dinner.json` / `hotel.json` 沒有 `source_endpoint_place_id` 欄位，第一次升級執行時會被判定陳舊→自癒會自動重跑 `dinner-pool` / `hotel-pool` 補上（一次性遷移，不再需要手動處理）。
 
 **輸入**：`dayN/_plan/config.json` + `places.json` + `segments.json`（+ 可選 `dinner.json`）
 **輸出**：`dayN/dayN.md`

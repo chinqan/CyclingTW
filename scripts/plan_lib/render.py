@@ -246,40 +246,12 @@ def cmd_render_prompt(args):
     info(f"已寫入 {out.relative_to(ROOT)}")
 
 
-def cmd_render_md(args):
-    n = args.day
-    cfg = read_json(plan_dir(n) / "config.json")
-    places = read_json(plan_dir(n) / "places.json")
-    segments = read_json(plan_dir(n) / "segments.json")
+def _collect_gate_errors(n: int, places: dict, segments: dict) -> list[str]:
+    """全量新鮮度預檢：回傳所有「下游產出比 places.json 舊／缺失／簽章不符」的訊息。
 
-    # ── ishikawa 格式驗證 ──
-    ishikawa = segments.get("ishikawa", "")
-    if ishikawa:
-        # 不能有 YAML front matter
-        if ishikawa.startswith("---"):
-            die("segments.json 的 ishikawa 欄位不能有 YAML front matter（---\\ntitle:...\\n---）。\n"
-                "正確格式應直接以 'ishikawa-beta\\n' 開頭。")
-        # 必須以 ishikawa-beta 開頭
-        if not ishikawa.strip().startswith("ishikawa-beta"):
-            die("segments.json 的 ishikawa 欄位必須以 'ishikawa-beta' 開頭。")
-        # 段落順序檢查：第一個出現的「第X段」應該是最後一段（倒序）
-        import re as _re
-        seg_nums = _re.findall(r"第([一二三四五六七八九十]+)段", ishikawa)
-        if len(seg_nums) >= 2:
-            CN_NUM = {"一": 1, "二": 2, "三": 3, "四": 4, "五": 5,
-                      "六": 6, "七": 7, "八": 8, "九": 9, "十": 10}
-            nums = [CN_NUM.get(s, 0) for s in seg_nums]
-            # 去重取每段首次出現的順序
-            seen = []
-            for num in nums:
-                if num not in seen:
-                    seen.append(num)
-            if len(seen) >= 2 and seen[0] < seen[-1]:
-                info(f"⚠️  ishikawa 魚骨圖段落順序為正序（第{seg_nums[0]}段→第{seg_nums[-1]}段），"
-                     f"Mermaid ishikawa-beta 需要倒序（最後一段在最前面）。請修正 segments.json。")
-
-    # ── Phase 0-3 / 3.5 / 4 全量新鮮度預檢 ──
-    # 重生 = 一切重來。任一 Phase 0-3 產出比 places.json 舊就擋。
+    空 list 代表 Phase 0-3 / 3.5 / 3.6 / 4 產出全部新鮮。render-md 用它判斷是否需要
+    啟動自癒 cascade；cascade 跑完後會再呼叫一次，殘留的就是真正需人工補的缺口。
+    """
     places_path = plan_dir(n) / "places.json"
     places_mtime = places_path.stat().st_mtime
     segments_path = plan_dir(n) / "segments.json"
@@ -383,10 +355,67 @@ def cmd_render_md(args):
             f"請重檢 better_attractions 是否仍符合最新點位順序，再重新存檔 segments.json"
         )
 
-    if gate_errors and not getattr(args, "force", False):
-        for e in gate_errors:
-            print(f"[error] {e}", file=sys.stderr)
-        die(f"render-md {n} 中止（{len(gate_errors)} 項預檢失敗）。確認無需可加 --force 略過。")
+    return gate_errors
+
+
+def cmd_render_md(args):
+    n = args.day
+    cfg = read_json(plan_dir(n) / "config.json")
+    places = read_json(plan_dir(n) / "places.json")
+    segments = read_json(plan_dir(n) / "segments.json")
+
+    # ── ishikawa 格式驗證 ──
+    ishikawa = segments.get("ishikawa", "")
+    if ishikawa:
+        # 不能有 YAML front matter
+        if ishikawa.startswith("---"):
+            die("segments.json 的 ishikawa 欄位不能有 YAML front matter（---\\ntitle:...\\n---）。\n"
+                "正確格式應直接以 'ishikawa-beta\\n' 開頭。")
+        # 必須以 ishikawa-beta 開頭
+        if not ishikawa.strip().startswith("ishikawa-beta"):
+            die("segments.json 的 ishikawa 欄位必須以 'ishikawa-beta' 開頭。")
+        # 段落順序檢查：第一個出現的「第X段」應該是最後一段（倒序）
+        import re as _re
+        seg_nums = _re.findall(r"第([一二三四五六七八九十]+)段", ishikawa)
+        if len(seg_nums) >= 2:
+            CN_NUM = {"一": 1, "二": 2, "三": 3, "四": 4, "五": 5,
+                      "六": 6, "七": 7, "八": 8, "九": 9, "十": 10}
+            nums = [CN_NUM.get(s, 0) for s in seg_nums]
+            # 去重取每段首次出現的順序
+            seen = []
+            for num in nums:
+                if num not in seen:
+                    seen.append(num)
+            if len(seen) >= 2 and seen[0] < seen[-1]:
+                info(f"⚠️  ishikawa 魚骨圖段落順序為正序（第{seg_nums[0]}段→第{seg_nums[-1]}段），"
+                     f"Mermaid ishikawa-beta 需要倒序（最後一段在最前面）。請修正 segments.json。")
+
+    # ── Phase 0-3 / 3.5 / 3.6 / 4 全量新鮮度預檢 + 自癒 ──
+    # 「重生 = 一切重來」：places.json 一變，下游全部視為過舊。但既然這些下游都是
+    # 機械產出，偵測到陳舊時不再 hard-fail 要人手動重跑，而是直接跑 cascade 自動重生，
+    # 只在自癒後仍有「需人腦判斷」的缺口（如該天無備選景點可填 better_attractions）才中止。
+    # --force：完全略過自癒與預檢，直接拿現有檔案渲染（verify-and-fix 收尾用）。
+    if not getattr(args, "force", False):
+        gate_errors = _collect_gate_errors(n, places, segments)
+        if gate_errors:
+            info(f"render-md {n}：偵測到 {len(gate_errors)} 項下游產出陳舊/缺失，啟動自癒 cascade 重生機械產物…")
+            for e in gate_errors:
+                info(f"  • {e.split('→')[0].strip()}")
+            from .bayesian import run_mechanical_cascade
+            run_mechanical_cascade(n)
+            # cascade 會重寫 places.json / segments.json 等，必須重讀供後續渲染與 re-check
+            places = read_json(plan_dir(n) / "places.json")
+            segments = read_json(plan_dir(n) / "segments.json")
+            residual = _collect_gate_errors(n, places, segments)
+            if residual:
+                for e in residual:
+                    print(f"[error] {e}", file=sys.stderr)
+                die(f"render-md {n}：自癒 cascade 後仍有 {len(residual)} 項需人工處理"
+                    f"（最常見：該天確實無備選景點可填 better_attractions）。確認後加 --force 略過。")
+            info(f"✓ render-md {n}：自癒完成，所有 Phase 0-3/3.5/3.6/4 產出已重生")
+
+    dinner_path = plan_dir(n) / "dinner.json"
+    hotel_path = plan_dir(n) / "hotel.json"
 
     dinner_top5 = []
     dinner_pool_size = 0

@@ -408,71 +408,100 @@ def cmd_compose_better_attractions(args):
     info(f"已寫入 segments.json.better_attractions（{len(body)} chars）")
 
 
-def cmd_verify_and_fix(args):
-    """依正確順序重跑 Phase 0-3 / 3.5 / 4 機械步驟，讓 render-md 通過預檢。
+def run_mechanical_cascade(n: int) -> None:
+    """依正確順序重生 Phase 0-3 / 3.5 / 3.6 / 4 的所有「機械產出」（不含最後 render-md）。
 
-    不能自動補的事項（places.json / segments.json 主敘述 / poster_vars.json 手寫場景文字）
-    會印出，由使用者補完再跑。
+    被 verify-and-fix 與 render-md 自癒共用。只重生不需人腦判斷的產物
+    （csv / gpx / poster_vars 結構欄位 / dinner.json / hotel.json / better_attractions），
+    **不碰**需人工決定的 places.json 點位選擇、segments.json 主敘述、poster_vars.json
+    手寫場景文字。
+
+    順序保證下游 mtime 一律 ≥ places.json：compute / route 都會寫 places.json，
+    其餘步驟全部排在它們之後。
     """
-    n = args.day
     from .csv_out import cmd_write_csv
     from .gpx import cmd_route, cmd_gpx_waypoints
-    from .render import cmd_render_prompt, cmd_render_md
+    from .render import cmd_render_prompt
     from .dinner import cmd_dinner_pool
+    from .hotel import cmd_hotel_pool
+    from .index_parser import cmd_update_index
+    from .helpers import day_dir
     import os
 
     q = argparse.Namespace(day=n, quiet=True)
 
-    info(f"=== verify-and-fix {n}：依序重生 Phase 0-3 / 3.5 / 4 機械產出 ===")
-
-    info("[1/6] compute")
+    info("[cascade 1/6] compute")
     cmd_compute(q)
 
     # route 必須在 write-csv 之前：route 會寫回 ors_distance_km 更新 places.json mtime，
     # 之後再跑 write-csv 才不會讓 csv 變舊
     if os.environ.get("ORS_API_KEY"):
-        info("[2/6] route（ORS API）")
+        info("[cascade 2/6] route（ORS API）")
         try:
             cmd_route(q)
         except SystemExit:
             info("    route 失敗，改用 gpx-waypoints")
             cmd_gpx_waypoints(q)
     else:
-        info("[2/6] route（無 ORS_API_KEY，fallback gpx-waypoints）")
+        info("[cascade 2/6] route（無 ORS_API_KEY，fallback gpx-waypoints）")
         cmd_gpx_waypoints(q)
 
     # route 成功後把實際距離回寫 index.md
-    from .index_parser import cmd_update_index
     try:
         cmd_update_index(q)
     except SystemExit:
         pass  # 沒有 ors_distance_km 時跳過（gpx-waypoints 不會產生距離）
 
-    info("[3/6] write-csv")
+    info("[cascade 3/6] write-csv")
     cmd_write_csv(q)
 
-    info("[4/6] render-prompt（自動同步 poster_vars 結構欄位）")
+    info("[cascade 4/6] render-prompt（自動同步 poster_vars 結構欄位）")
     cmd_render_prompt(argparse.Namespace(day=n, no_sync=False, quiet=True))
 
-    info("[5/6] dinner-pool（若 dinner_map/ 有候選）")
-    from .helpers import day_dir
-    if any((day_dir(n) / "dinner_map").glob("ChIJ*.json")) if (day_dir(n) / "dinner_map").exists() else False:
-        # dinner_pool 需要 stdin tty 判斷，包一層
+    # dinner-pool / hotel-pool：各自鏡像有候選才跑；候選不足等失敗不中斷整條 cascade
+    # （render-md 預檢會在 re-check 時把仍未解決的項目報出來）
+    def _run_pool_guarded(label: str, fn) -> None:
         import sys
         orig_isatty = sys.stdin.isatty
-        sys.stdin.isatty = lambda: True
+        sys.stdin.isatty = lambda: True  # pool 指令在 tty 模式下不嘗試讀 stdin
         try:
-            cmd_dinner_pool(q)
+            fn(q)
+        except SystemExit:
+            info(f"    {label} 失敗（候選不足？），略過——render-md 預檢會提示")
         finally:
             sys.stdin.isatty = orig_isatty
+
+    info("[cascade 5/6] dinner-pool / hotel-pool（鏡像有候選才跑）")
+    dinner_map = day_dir(n) / "dinner_map"
+    if dinner_map.exists() and any(dinner_map.glob("ChIJ*.json")):
+        _run_pool_guarded("dinner-pool", cmd_dinner_pool)
     else:
         info("    dinner_map/ 為空，略過晚餐推薦")
+    hotel_map = day_dir(n) / "hotel_map"
+    if hotel_map.exists() and any(hotel_map.glob("ChIJ*.json")):
+        _run_pool_guarded("hotel-pool", cmd_hotel_pool)
+    else:
+        info("    hotel_map/ 為空，略過住宿推薦")
 
-    info("[6/6] compose-better-attractions（若欄位為空才自動產）")
+    info("[cascade 6/6] compose-better-attractions（若欄位為空才自動產）")
     cmd_compose_better_attractions(argparse.Namespace(day=n, dry_run=False, overwrite=False))
 
+
+def cmd_verify_and_fix(args):
+    """一條龍：重生 Phase 0-3 / 3.5 / 3.6 / 4 機械產出 + render-md --force。
+
+    不能自動補的事項（places.json 點位選擇 / segments.json 主敘述 /
+    poster_vars.json 手寫場景文字）需使用者補完再跑。
+
+    註：render-md 本身已內建同樣的自癒 cascade，平常重做某天可直接跑
+    `render-md N`。此指令保留為「我就是要強制重生全部並無視預檢」的入口。
+    """
+    n = args.day
+    from .render import cmd_render_md
+
+    info(f"=== verify-and-fix {n}：依序重生 Phase 0-3 / 3.5 / 3.6 / 4 機械產出 ===")
+    run_mechanical_cascade(n)
     info("=== 機械步驟完成。最後執行 render-md --force ===")
-    # 用 --force：verify-and-fix 已串好完整 cascade，trust 自己。
-    # 也避開 write_json content-hash 短路造成的 mtime 假性過舊。
+    # 用 --force：cascade 已串完，trust 自己，跳過 render-md 內建自癒預檢。
     cmd_render_md(argparse.Namespace(day=n, force=True))
     info(f"✓ verify-and-fix {n} 完成，day{n}.md 已重生")

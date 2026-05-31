@@ -42,10 +42,13 @@ dinner-search / hotel-search / refresh-details 都在這一條路）。
                            加 --with-reviews 同時取 reviews（Pro tier）
   render-prompt N          產 dayN_prompt.md；預設先從 _plan/places.json 重推
                            poster_vars.json 結構欄位（--no-sync 跳過）
-  render-md N              產 dayN.md。執行前會全量預檢 Phase 0-3 / 3.5 / 4
-                           所有產出 mtime ≥ places.json，且 dinner.json 的
-                           source_endpoint_place_id 對應目前終點；--force 略過
-  verify-and-fix N         一條龍重跑 Phase 0-3/3.5/4 機械步驟 + render-md --force
+  render-md N              產 dayN.md。渲染前全量檢查 Phase 0-3 / 3.5 / 3.6 / 4
+                           產出 mtime ≥ places.json 且 dinner/hotel.json 的
+                           source_endpoint_place_id 對應目前終點。偵測到陳舊會
+                           「自癒」：自動跑 cascade 重生所有機械產物後再渲染，只在
+                           自癒後仍有需人工判斷的缺口才中止；--force 略過自癒直接渲染
+  verify-and-fix N         一條龍：重生 Phase 0-3/3.5/3.6/4 機械步驟 + render-md
+                           --force（render-md 已內建同樣自癒，平常重做可直接跑它）
   render-cover-prompt      產 output/imagegen/cyclingtw-cover_prompt.md（10 天總覽封面海報）
 
 每日工作目錄結構（自動建立）：
