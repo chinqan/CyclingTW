@@ -453,7 +453,7 @@ python3 scripts/plan.py gpx-waypoints 2
 
 ### Phase 3：海報提示詞
 
-> ⚠️ 必須在 `compute` 之後執行：`render-prompt` 的 ★主視覺自動 fallback 依賴 `bayesian_score`，沒跑 compute 時所有點的 score 都是 None，自動挑選會失敗。
+> 💡 不必先手動 `compute`：`render-prompt` 的 ★主視覺自動 fallback 依賴 `bayesian_score`，偵測到 places.json 尚無分數（沒跑過 compute，或改點後未重算）時會**自動補跑 `compute`** 再同步主視覺。`--no-sync` 模式不重選主視覺，故不觸發。
 
 **手寫 `_plan/poster_vars.json`**：主視覺從 CSV `bayesian_score` 最高的景點選；夕陽景點（如高美濕地）要把 `lighting` 改成金色暖光。
 

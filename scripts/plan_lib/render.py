@@ -1,6 +1,7 @@
 """模板渲染：render-prompt / render-md + poster_vars 自動同步。"""
 from __future__ import annotations
 
+import argparse
 import math
 import re
 import sys
@@ -89,8 +90,33 @@ def _axis_words(orientation: str, first_loc: dict, last_loc: dict) -> dict:
             "small_corner": small_corner}
 
 
+_RATED_TYPES = {"景點", "起終點", "餐廳大休"}  # 與 bayesian.RATED_TYPES 一致（可評分類型）
+
+
+def _scores_not_ready(places_data: dict) -> bool:
+    """places.json 是否缺 Bayesian 分數：沒跑過 compute（無 C/m），或改點後有
+    「具 rating 資料卻無 bayesian_score」的可評分點。用「分數是否實際存在」而非
+    mtime 判斷——compute 自己會讓 places.json 比 pool_scores 新，mtime 會誤判。"""
+    if places_data.get("bayesian_C") is None or places_data.get("bayesian_m") is None:
+        return True
+    for p in places_data.get("places", []):
+        if (p.get("csv_type") in _RATED_TYPES and p.get("rating") is not None
+                and p.get("total_ratings") is not None and p.get("bayesian_score") is None):
+            return True
+    return False
+
+
 def _derive_poster_vars(n: int) -> dict:
-    places_data = read_json(plan_dir(n) / "places.json")
+    places_path = plan_dir(n) / "places.json"
+    places_data = read_json(places_path)
+    # ★主視覺自動選點依賴 bayesian_score；分數未就緒時自動補跑 compute，
+    # 拔掉「render-prompt 前必須先手動 compute」的隱性依賴。
+    # （run_mechanical_cascade 內 compute 已先跑，這裡會判定就緒而不重複執行。）
+    if _scores_not_ready(places_data):
+        from .bayesian import cmd_compute
+        info("places.json 尚無 Bayesian 分數，render-prompt 先自動補跑 compute…")
+        cmd_compute(argparse.Namespace(day=n, quiet=True))
+        places_data = read_json(places_path)
     places = places_data["places"]
     if len(places) < 2:
         die("places.json 至少需要 2 個點位（起點 + 終點）")
