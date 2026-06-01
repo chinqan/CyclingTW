@@ -28,10 +28,20 @@ dinner-search / hotel-search / refresh-details 都在這一條路）。
                            輸出 _plan/hotel.json 與 dayN_hotel.md。
                            （輔助：hotel-status / hotel-review）
   parse-index N            解析 index.md 第 N 天設定
+  route-skeleton N         Phase 1 起點：ORS 只串「起點+必經景點+終點」算骨架最佳
+                           路線，產 _plan/skeleton.json（含 geometry 折線）。供
+                           search-along-route 沿真實路線找點。需 ORS_API_KEY +
+                           GOOGLE_PLACES_API_KEY（地理編碼必經點）。
+  search-along-route N --keyword "…" --csv-type … [--segments K]
+                           沿 skeleton/route 折線用 Places API (New)
+                           searchAlongRoute 找停靠點，依「離線繞路距離」過濾
+                           （便利商店≤0.5/餐廳≤1/景點≤2km，可 --detour-km 覆寫），
+                           印出每點沿路里程，upsert 到 candidates_not_selected。
+                           長路線用 --segments 切段各搜再合併以均勻覆蓋。
   mirror-status N          列出 dayN/map/（本地鏡像）內容與候選池警告
   mirror-search N --keyword "…" --csv-type …
-                           用 Google Places API 找單一停靠點並 upsert 到 dayN/map/
-                           （需 GOOGLE_PLACES_API_KEY；可加 --bias LAT,LNG 偏向位置）
+                           （fallback）用 Google Places API 找單一具名停靠點並
+                           upsert 到 dayN/map/（可加 --bias LAT,LNG 偏向位置）
   mirror-put N             [stdin] 手動 upsert 單筆 place（mirror-search 找不到時用）
   mirror-diff N            [stdin] 比對本地鏡像 vs 線上最新
   score-pool N             對整個 mirror 候選池算 Bayesian，產出 pool_scores.json
@@ -62,6 +72,7 @@ dinner-search / hotel-search / refresh-details 都在這一條路）。
   dayN/
   ├── _plan/
   │   ├── config.json        ← parse-index 產出（起終點/距離/必經景點）
+  │   ├── skeleton.json      ← route-skeleton 產出（必經點骨架路線 + geometry 折線）
   │   ├── pool_scores.json   ← score-pool 產出（整池 Bayesian，C/m/score by pid）
   │   ├── route_geometry.json ← route 產出（ORS 真實路線折線 + 航點簽章，供走廊過濾）
   │   ├── places.json        ← Claude 決定的最終點位順序與 Bayesian 結果
@@ -129,13 +140,14 @@ except ImportError:
     sys.exit(1)
 
 from plan_lib.index_parser import cmd_parse_index, cmd_update_index
-from plan_lib.mirror import cmd_mirror_status, cmd_mirror_put, cmd_mirror_diff, cmd_mirror_search
+from plan_lib.mirror import (cmd_mirror_status, cmd_mirror_put, cmd_mirror_diff,
+                             cmd_mirror_search, cmd_search_along_route)
 from plan_lib.bayesian import (
     cmd_score_pool, cmd_compute, cmd_review, cmd_compose_better_attractions,
     cmd_verify_and_fix,
 )
 from plan_lib.csv_out import cmd_write_csv
-from plan_lib.gpx import cmd_route, cmd_gpx_save, cmd_gpx_waypoints
+from plan_lib.gpx import cmd_route, cmd_route_skeleton, cmd_gpx_save, cmd_gpx_waypoints
 from plan_lib.render import cmd_render_prompt, cmd_render_md
 from plan_lib.cover import cmd_render_cover_prompt
 from plan_lib.dinner import (
@@ -177,6 +189,16 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("--bias-radius", type=int, default=5000,
                     help="locationBias 圓半徑（公尺，預設 5000）")
     sp.add_argument("--max-results", type=int, default=1, help="取前 N 筆（預設 1）")
+    sp = add("search-along-route", cmd_search_along_route,
+             "沿 ORS 骨架/定稿路線用 Places API 找停靠點並 upsert 候選")
+    sp.add_argument("--keyword", required=True, help="搜尋關鍵字（例：7-ELEVEN / 漁港 / 老街）")
+    sp.add_argument("--csv-type", required=True,
+                    help="便利商店 / 加油站 / 景點 / 餐廳大休 / 公共設施 / 綜合休息站")
+    sp.add_argument("--detour-km", type=float, default=None,
+                    help="離線繞路上限（km）；預設依 csv-type 帶入規則 C（便利商店0.5/餐廳1/景點2）")
+    sp.add_argument("--max-results", type=int, default=20, help="每段取前 N 筆（沿路線搜上限 20）")
+    sp.add_argument("--segments", type=int, default=1,
+                    help="把路線切 N 段各搜一次再合併（長路線補給均勻覆蓋用，例 6）")
     sp = add("score-pool", cmd_score_pool, "對整個 mirror 候選池算 Bayesian")
     sp.add_argument("--quiet", action="store_true", help="只印統計，不印各點排名")
     sp = add("compute",  cmd_compute,  "套用 pool_scores 到 places.json")
@@ -188,6 +210,8 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("--overwrite", action="store_true", help="覆蓋既有非空 better_attractions")
     sp.add_argument("--dry-run",   action="store_true", help="只印預覽，不寫入 segments.json")
     add("write-csv",     cmd_write_csv,     "產 dayN_mymap.csv")
+    add("route-skeleton", cmd_route_skeleton,
+        "ORS 只串 起點+必經景點+終點 → _plan/skeleton.json（沿線搜尋基礎）")
     add("route",         cmd_route,         "呼叫 ORS API 取整天路線 → dayN_route.gpx")
     add("gpx-save",      cmd_gpx_save,      "[stdin] 儲存外部 GPX（備援）")
     add("gpx-waypoints", cmd_gpx_waypoints, "離線備案：純航點 GPX")

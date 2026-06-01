@@ -182,3 +182,40 @@ def haversine_km(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
     dlon = math.radians(lon2 - lon1)
     a = math.sin(dlat / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dlon / 2) ** 2
     return 2 * R * math.asin(math.sqrt(a))
+
+
+def downsample(points: list, max_pts: int = 512) -> list:
+    """等間隔抽稀折線點，避免 4000+ 點的 encoded polyline 過長。保留頭尾。"""
+    n = len(points)
+    if n <= max_pts:
+        return list(points)
+    step = n / max_pts
+    out = [points[int(i * step)] for i in range(max_pts)]
+    if out[-1] != points[-1]:
+        out[-1] = points[-1]
+    return out
+
+
+def encode_polyline(points: list) -> str:
+    """把 [lat, lng] 點列編成 Google encoded polyline（演算法 precision 5）。
+
+    供 Google Places API (New) searchAlongRouteParameters 使用。無外部相依。
+    """
+    def _enc(value: int) -> str:
+        value = ~(value << 1) if value < 0 else (value << 1)
+        chunks = []
+        while value >= 0x20:
+            chunks.append(chr((0x20 | (value & 0x1F)) + 63))
+            value >>= 5
+        chunks.append(chr(value + 63))
+        return "".join(chunks)
+
+    out = []
+    prev_lat = prev_lng = 0
+    for lat, lng in points:
+        ilat = round(lat * 1e5)
+        ilng = round(lng * 1e5)
+        out.append(_enc(ilat - prev_lat))
+        out.append(_enc(ilng - prev_lng))
+        prev_lat, prev_lng = ilat, ilng
+    return "".join(out)

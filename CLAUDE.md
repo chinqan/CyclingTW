@@ -1,7 +1,12 @@
 # 單車環島每日路線規劃
 單日路線規劃改由 `scripts/plan.py` 取代舊 skill。指令流程與 Claude 需遵守的選點 / 搜尋關鍵字 / API 節流 / 撤退方案 / 主視覺等規則，全部寫在 `scripts/plan.py` 檔頭的模組 docstring，請執行前先閱讀。常用流程：
 1. **Phase 0**：`python3 scripts/plan.py parse-index N`
-2. **Phase 1**：Claude 用 `mirror-search N --keyword "…" --csv-type …` 逐個搜停靠點（Google Places API，zh-TW；自動 upsert 到 candidates_not_selected）→ 編寫 `dayN/_plan/places.json` → `refresh-details N`（批量刷新評分）→ `compute N` → `write-csv N`
+2. **Phase 1（路線優先選點）**：
+   1. `route-skeleton N`：ORS 只串「起點+必經景點+終點」算出**骨架最佳路線**（產 `_plan/skeleton.json` 含 geometry 折線）。檢查輸出的必經點座標是否合理（模糊地名如「通霄海線」可手動修 skeleton.json）。
+   2. `search-along-route N --keyword "…" --csv-type … [--segments K]`：沿這條真實路線用 Places API (New) searchAlongRoute 找景點/便利商店/餐廳大休候選，依「離線繞路距離」自動過濾（便利商店≤0.5/餐廳≤1/景點≤2km），輸出每點沿路里程。長路線（>60km）用 `--segments 6` 左右切段各搜再合併，避免結果群聚頭尾。景點/便利商店/餐廳大休各搜一次。
+   3. Claude 從 candidates 依**沿路里程**挑選間距均勻的停靠點 → 編寫 `dayN/_plan/places.json`（必經景點必須含；便利商店每 ~20-25km 一個；午餐放中段）。
+   4. `refresh-details N`（批量刷新評分）→ `compute N` → `write-csv N`。
+   > 舊作法 `mirror-search`（具名單點搜）保留為 fallback，用於 searchAlongRoute 漏掉的特定點。
 3. **Phase 2**：`route N`（需 `ORS_API_KEY` 環境變數；離線時改用 `gpx-waypoints N`）
 4. **Phase 3**：`render-prompt N`（Claude 先補 `_plan/poster_vars.json` 主視覺欄位）
 5. **Phase 3.5（晚餐）**：`dinner-search N`（直接呼叫 Google Places API，zh-TW 語言碼，自動 upsert dinner_map/，過濾非餐廳類）→ `dinner-pool N`（產 `_plan/dinner.json` 並寫入 `source_endpoint_place_id` 簽章）。需 `GOOGLE_PLACES_API_KEY`，不走 MCP。

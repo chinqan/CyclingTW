@@ -150,6 +150,41 @@ def _ors_request(api_key: str, coords: list, accept: str) -> bytes:
 ORS_JSON_URL = "https://api.openrouteservice.org/v2/directions/cycling-regular"
 
 
+def _ors_post(url: str, body: bytes, api_key: str, accept: str) -> str:
+    """對 ORS endpoint POST，回傳回應文字（統一錯誤處理）。"""
+    req = urllib.request.Request(
+        url, data=body, method="POST",
+        headers={"Authorization": api_key, "Content-Type": "application/json", "Accept": accept},
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            return resp.read().decode("utf-8")
+    except urllib.error.HTTPError as e:
+        body_text = e.read().decode("utf-8", errors="replace") if e.fp else ""
+        die(f"ORS API HTTP {e.code}: {e.reason}\n{body_text}")
+    except urllib.error.URLError as e:
+        die(f"ORS API 連線失敗：{e.reason}")
+
+
+def _ors_route(coords: list, api_key: str) -> tuple:
+    """呼叫 ORS cycling-regular：回傳 (distance_km, duration_hours, gpx_clean, points)。
+
+    points = [[lat, lng], …] 取自 GPX rtept（ORS 真實路線折線）。route 與
+    route-skeleton 共用此函式。
+    """
+    body = json.dumps({"coordinates": coords, "instructions": False, "elevation": False}).encode("utf-8")
+    info("呼叫 ORS API（JSON）：取得路線距離 …")
+    summary = json.loads(_ors_post(ORS_JSON_URL, body, api_key, "application/json"))["routes"][0]["summary"]
+    distance_km = round(summary["distance"] / 1000, 1)
+    duration_hours = round(summary["duration"] / 3600, 1)
+    info(f"ORS 路線距離：{distance_km} km，預估騎乘時間：{duration_hours} 小時")
+    info(f"呼叫 ORS API（GPX）：{len(coords)} 個 waypoints …")
+    gpx = _clean_gpx(_ors_post(ORS_URL, body, api_key, "application/gpx+xml, application/xml"))
+    rtepts = re.findall(r'<rtept lat="(-?[\d.]+)" lon="(-?[\d.]+)"', gpx)
+    points = [[float(lat), float(lng)] for lat, lng in rtepts]
+    return distance_km, duration_hours, gpx, points
+
+
 def cmd_route(args):
     """從 places.json 讀座標、呼叫 ORS API、輸出 dayN_route.gpx + 寫回距離。"""
     n = args.day
@@ -175,73 +210,14 @@ def cmd_route(args):
             "  export ORS_API_KEY='your-key-here'")
 
     coords = [[p["location"]["lng"], p["location"]["lat"]] for p in places]
-
-    # ── 1. 呼叫 JSON endpoint 取距離與時間 ──
-    info(f"呼叫 ORS API（JSON）：取得路線距離 …")
-    json_body = json.dumps({
-        "coordinates": coords,
-        "instructions": False,
-        "elevation": False,
-    }).encode("utf-8")
-    json_req = urllib.request.Request(
-        ORS_JSON_URL,
-        data=json_body,
-        headers={
-            "Authorization": api_key,
-            "Content-Type": "application/json",
-            "Accept": "application/json",
-        },
-        method="POST",
-    )
-    try:
-        with urllib.request.urlopen(json_req, timeout=60) as resp:
-            json_result = json.loads(resp.read())
-    except urllib.error.HTTPError as e:
-        body_text = e.read().decode("utf-8", errors="replace") if e.fp else ""
-        die(f"ORS API HTTP {e.code}: {e.reason}\n{body_text}")
-    except urllib.error.URLError as e:
-        die(f"ORS API 連線失敗：{e.reason}")
-
-    summary = json_result["routes"][0]["summary"]
-    distance_km = round(summary["distance"] / 1000, 1)
-    duration_hours = round(summary["duration"] / 3600, 1)
-    info(f"ORS 路線距離：{distance_km} km，預估騎乘時間：{duration_hours} 小時")
+    distance_km, duration_hours, gpx, points = _ors_route(coords, api_key)
 
     # 寫回 places.json
     data["ors_distance_km"] = distance_km
     data["ors_duration_hours"] = duration_hours
-    from .helpers import write_json
     write_json(plan_dir(n) / "places.json", data)
 
-    # ── 2. 呼叫 GPX endpoint 取路線軌跡 ──
-    info(f"呼叫 ORS API（GPX）：{len(coords)} 個 waypoints …")
-    gpx_body = json.dumps({
-        "coordinates": coords,
-        "instructions": False,
-        "elevation": False,
-    }).encode("utf-8")
-    gpx_req = urllib.request.Request(
-        ORS_URL,
-        data=gpx_body,
-        headers={
-            "Authorization": api_key,
-            "Content-Type": "application/json",
-            "Accept": "application/gpx+xml, application/xml",
-        },
-        method="POST",
-    )
-    try:
-        with urllib.request.urlopen(gpx_req, timeout=60) as resp:
-            raw = resp.read().decode("utf-8")
-    except urllib.error.HTTPError as e:
-        body_text = e.read().decode("utf-8", errors="replace") if e.fp else ""
-        die(f"ORS API HTTP {e.code}: {e.reason}\n{body_text}")
-    except urllib.error.URLError as e:
-        die(f"ORS API 連線失敗：{e.reason}")
-
-    gpx = _clean_gpx(raw)
     gpx = _inject_waypoints(gpx, places)
-
     out = day_dir(n) / f"day{n}_route.gpx"
     out.write_text(gpx, encoding="utf-8")
     rtept_count = len(re.findall(r"<rtept", gpx))
@@ -251,12 +227,11 @@ def cmd_route(args):
     # 把 ORS 真實路線折線存成可重用檔，供 score-pool 走廊過濾用（取代航點直線近似）。
     # waypoint_signature = 本次送 ORS 的航點座標；score-pool 比對現在 places.json 航點，
     # 相符才採用真實折線（換航點後簽章不符 → 自動退回直線近似），慣例同 dinner/hotel 的
-    # source_endpoint_place_id。注入的停靠點是 <wpt>（非 <rtept>），regex 不會誤抓。
-    rtepts = re.findall(r'<rtept lat="(-?[\d.]+)" lon="(-?[\d.]+)"', gpx)
+    # source_endpoint_place_id。
     geom = {
         "waypoint_signature": [[round(p["location"]["lat"], 6), round(p["location"]["lng"], 6)]
                                for p in places],
-        "points": [[float(lat), float(lng)] for lat, lng in rtepts],
+        "points": points,
     }
     write_json(plan_dir(n) / "route_geometry.json", geom)
     info(f"已寫入 route_geometry.json（{len(geom['points'])} 個真實路線點）")
@@ -268,6 +243,66 @@ def cmd_route(args):
         cmd_update_index(_ap.Namespace(day=n))
     except SystemExit:
         pass
+
+
+def cmd_route_skeleton(args):
+    """Phase 1 起點：ORS 只串「起點 + 必經景點 + 終點」算出骨架最佳路線。
+
+    產出 _plan/skeleton.json（含 ordered_points 與 geometry 折線），供
+    search-along-route 沿這條真實路線找補給點/景點。模糊地名（如「通霄海線」）
+    地理編碼可能不精準，請看輸出座標，必要時手動修 skeleton.json 再重搜。
+    """
+    from .mirror import _search_text, _get_api_key, _sanitize_place_name
+
+    n = args.day
+    cfg = read_json(plan_dir(n) / "config.json")
+    origin, dest = cfg.get("origin"), cfg.get("destination")
+    if not origin or not dest:
+        die("config.json 缺 origin/destination，請先 parse-index N")
+    landmarks = [lm for lm in (cfg.get("must_visit_landmarks") or []) if not is_note_landmark(lm)]
+
+    gkey = _get_api_key()
+    ors_key = os.environ.get("ORS_API_KEY")
+    if not ors_key:
+        die("缺少 ORS_API_KEY 環境變數")
+
+    queries = [("起終點", origin)] + [("景點", lm) for lm in landmarks] + [("起終點", dest)]
+    ordered, prev = [], None
+    for csv_type, q in queries:
+        bias_lat, bias_lng = (prev if prev else (None, None))
+        res = _search_text(q, bias_lat, bias_lng, 30000, 1, gkey)
+        if not res:
+            die(f"地理編碼失敗（Places API 無結果）：{q!r}")
+        p = res[0]
+        loc = p.get("location", {})
+        lat, lng = loc.get("latitude"), loc.get("longitude")
+        ordered.append({
+            "place_id": p.get("id"),
+            "name_zh": _sanitize_place_name(p.get("displayName", {}).get("text", "")),
+            "query": q,
+            "csv_type": csv_type,
+            "location": {"lat": lat, "lng": lng},
+        })
+        prev = (lat, lng)
+
+    coords = [[o["location"]["lng"], o["location"]["lat"]] for o in ordered]
+    distance_km, duration_hours, _gpx, points = _ors_route(coords, ors_key)
+
+    skel = {
+        "day": n,
+        "origin": origin,
+        "destination": dest,
+        "ordered_points": ordered,
+        "ors_distance_km": distance_km,
+        "ors_duration_hours": duration_hours,
+        "geometry": points,
+    }
+    write_json(plan_dir(n) / "skeleton.json", skel)
+    info(f"已寫入 skeleton.json（骨架 {distance_km}km / {duration_hours}h / {len(points)} 折線點）")
+    print(f"\n=== route-skeleton Day {n}: 骨架 {distance_km} km ===")
+    for o in ordered:
+        lat, lng = o["location"]["lat"], o["location"]["lng"]
+        print(f"  [{o['csv_type']}] {o['name_zh'] or '?':<18} ←{o['query']:<10} {lat:.4f},{lng:.4f}")
 
 
 def cmd_gpx_save(args):

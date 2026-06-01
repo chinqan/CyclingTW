@@ -329,6 +329,8 @@ python3 scripts/plan.py mirror-status 2
 
 ### Phase 1：建候選池 + 寫 CSV
 
+> 🆕 **路線優先選點（現行流程）**：先 `route-skeleton N` 讓 ORS 用「起點+必經景點+終點」算出骨架最佳路線，再 `search-along-route N --keyword … --csv-type … [--segments K]` 沿這條真實路線用 Places API (New) searchAlongRoute 找停靠點（依離線繞路距離過濾、印沿路里程），最後依沿路里程挑點寫 `places.json`。詳見 `CLAUDE.md` Phase 1 與 `plan.py` 檔頭。以下 1-1~1-8 為舊版「先憑地理知識挑點」流程，保留作為 fallback / 細節參考（mirror-search、mirror-diff、score-pool、compute、write-csv 等指令仍通用）。
+
 #### 1-1. **每次都要先搜 MCP**（即使本地已有資料）
 
 Claude 在對話中呼叫 MCP 搜尋，每個必經景點廣搜 3–5 個候選：

@@ -16,7 +16,8 @@ try:
 except ImportError:
     pass
 
-from .helpers import ROOT, map_dir, read_json, write_json, read_stdin_json, die, info
+from .helpers import (ROOT, map_dir, plan_dir, read_json, write_json, read_stdin_json,
+                      die, info, haversine_km, encode_polyline, downsample)
 
 
 def _sanitize_place_name(name: str) -> str:
@@ -159,14 +160,20 @@ def _get_api_key() -> str:
 
 
 def _search_text(keyword: str, bias_lat: float | None, bias_lng: float | None,
-                 bias_radius_m: int, max_results: int, api_key: str) -> list[dict]:
+                 bias_radius_m: int, max_results: int, api_key: str,
+                 along_polyline: str | None = None) -> list[dict]:
     body: dict = {
         "textQuery": keyword,
         "maxResultCount": max_results,
         "languageCode": "zh-TW",
         "regionCode": "TW",
     }
-    if bias_lat is not None and bias_lng is not None:
+    if along_polyline:
+        # 沿路線搜尋：結果依「偏離路線的繞路距離」排序（locationBias 此時不適用）
+        body["searchAlongRouteParameters"] = {
+            "polyline": {"encodedPolyline": along_polyline},
+        }
+    elif bias_lat is not None and bias_lng is not None:
         body["locationBias"] = {
             "circle": {
                 "center": {"latitude": bias_lat, "longitude": bias_lng},
@@ -269,3 +276,132 @@ def cmd_mirror_search(args):
     for pid, name, r, v in upserted:
         rv = f"R={r} V={v}" if r is not None else ""
         print(f"  {pid:<35} {name}  {rv}")
+
+
+# 各 csv_type 的預設「離線繞路」上限（km），對應規則 C（單車視角順路門檻）
+_DETOUR_DEFAULT_KM = {
+    "便利商店": 0.5, "加油站": 0.5, "公共設施": 0.5, "綜合休息站": 0.5,
+    "餐廳大休": 1.0, "景點": 2.0, "起終點": 2.0,
+}
+
+
+def _route_geometry_for_search(n: int) -> list:
+    """取沿線搜尋用折線：優先 skeleton.json，其次定稿 route_geometry.json。"""
+    sk = plan_dir(n) / "skeleton.json"
+    if sk.exists():
+        pts = read_json(sk).get("geometry") or []
+        if pts:
+            return pts
+    rg = plan_dir(n) / "route_geometry.json"
+    if rg.exists():
+        pts = read_json(rg).get("points") or []
+        if pts:
+            return pts
+    die("找不到路線折線，請先跑 route-skeleton N（或 route N）")
+
+
+def cmd_search_along_route(args):
+    """沿 ORS 骨架/定稿路線用 Places API (New) 找指定類型停靠點並 upsert 候選。
+
+    結果依「偏離路線的繞路距離」過濾（門檻依 --csv-type 自動帶入規則 C，可用
+    --detour-km 覆寫），並印出每點的「沿路里程位置」方便挑選間距均勻的補給點。
+    範例：
+      search-along-route 1 --keyword "7-ELEVEN" --csv-type 便利商店 --max-results 20
+      search-along-route 1 --keyword "景點 漁港" --csv-type 景點 --max-results 20
+    """
+    from .bayesian import _dist_to_route_km
+
+    n = args.day
+    csv_type = args.csv_type
+    if csv_type not in VALID_CSV_TYPES:
+        die(f"--csv-type 必須是 {sorted(VALID_CSV_TYPES)} 之一，收到 {csv_type!r}")
+    detour_km = args.detour_km if args.detour_km is not None else _DETOUR_DEFAULT_KM.get(csv_type, 1.0)
+
+    geom = _route_geometry_for_search(n)
+    ds = downsample(geom, 512)
+    route = [(p[0], p[1]) for p in ds]
+    enc = encode_polyline(route)
+
+    # 沿路里程：每個折線頂點的累積距離
+    cum = [0.0]
+    for i in range(1, len(route)):
+        cum.append(cum[-1] + haversine_km(route[i - 1][0], route[i - 1][1], route[i][0], route[i][1]))
+
+    def along_km(lat, lng):
+        best_i = min(range(len(route)), key=lambda i: haversine_km(lat, lng, route[i][0], route[i][1]))
+        return cum[best_i]
+
+    api_key = _get_api_key()
+    # 單次 searchAlongRoute 最多回 20 筆且依繞路排序 → 長路線會群聚頭尾。
+    # 切成 --segments 段各搜一次再合併去重，達到沿線均勻覆蓋。
+    segs = max(1, args.segments)
+    slices = [route]
+    if segs > 1:
+        size = max(1, len(route) // segs)
+        slices = []
+        for i in range(segs):
+            a = i * size
+            b = len(route) if i == segs - 1 else (i + 1) * size + 1  # +1 重疊避免接縫漏點
+            if a < len(route):
+                slices.append(route[a:b])
+    info(f"沿路線搜尋 '{args.keyword}'（csv_type={csv_type}, 繞路≤{detour_km}km, "
+         f"折線 {len(route)} 點, {len(slices)} 段）…")
+    merged: dict = {}
+    for sl in slices:
+        if len(sl) < 2:
+            continue
+        for p in _search_text(args.keyword, None, None, 0, args.max_results, api_key,
+                              along_polyline=encode_polyline(sl)):
+            pid = p.get("id")
+            if pid and pid not in merged:
+                merged[pid] = p
+    results = list(merged.values())
+    if not results:
+        die("Places API 沿路線搜尋無結果")
+
+    idx = load_mirror_index(n)
+    kept, dropped = [], []
+    for p in results:
+        pid = p.get("id")
+        loc = p.get("location", {})
+        lat, lng = loc.get("latitude"), loc.get("longitude")
+        if not pid or lat is None or lng is None:
+            continue
+        d = _dist_to_route_km(lat, lng, route)
+        name_zh = _sanitize_place_name(p.get("displayName", {}).get("text", ""))
+        if d > detour_km:
+            dropped.append((name_zh, round(d, 2)))
+            continue
+
+        payload = {
+            "place_id": pid,
+            "name_zh": name_zh,
+            "csv_type": csv_type,
+            "location": {"lat": lat, "lng": lng},
+            "search_keyword": args.keyword,
+            "source": f"along_{time.strftime('%Y-%m-%d')}",
+        }
+        if csv_type in RATED_CSV_TYPES:
+            payload["rating"] = p.get("rating")
+            payload["total_ratings"] = p.get("userRatingCount")
+            payload["address"] = p.get("formattedAddress", "")
+            payload["primary_type"] = p.get("primaryType")
+        write_json(map_dir(n) / f"{pid}.json", payload)
+        for bucket in ("places", "candidates_not_selected"):
+            b = idx.setdefault(bucket, [])
+            b[:] = [x for x in b if x.get("place_id") != pid]
+        idx["candidates_not_selected"].append({k: payload[k] for k in (
+            "place_id", "name_zh", "csv_type", "rating", "total_ratings", "location", "source"
+        ) if k in payload})
+        kept.append((name_zh, p.get("rating"), p.get("userRatingCount"), round(d, 2), round(along_km(lat, lng), 1)))
+
+    save_mirror_index(n, idx)
+
+    kept.sort(key=lambda x: x[4])  # 依沿路里程排序
+    print(f"\n=== search-along-route Day {n}: 收 {len(kept)} 筆（繞路≤{detour_km}km）→ candidates_not_selected ===")
+    print(f"  {'沿路km':>7}  {'繞路km':>6}  {'評分':>6}  名稱")
+    for name, r, v, d, akm in kept:
+        rv = f"{r}/{v}" if r is not None else "—"
+        print(f"  {akm:>7.1f}  {d:>6.2f}  {rv:>6}  {name}")
+    if dropped:
+        print(f"  （捨棄 {len(dropped)} 筆繞路 >{detour_km}km：{', '.join(f'{nm}{d}km' for nm, d in dropped[:6])}{' …' if len(dropped) > 6 else ''}）")
