@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJdeXJ-RAJaTQRAHA-jtBvlcs",
+  "name_zh": "豪俐鐵板沙威瑪-餐車",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 12,
+  "location": {
+    "lat": 24.4428499,
+    "lng": 120.65251090000001
+  },
+  "address": "358苗栗縣苑裡鎮苑南里天下路78號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.12,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

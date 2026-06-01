@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJbc0cpK0JaTQRdO1azED5D-k",
+  "name_zh": "菁饌手作炸物",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 24,
+  "location": {
+    "lat": 24.4901901,
+    "lng": 120.67844869999998
+  },
+  "address": "357苗栗縣通霄鎮通西里中山路183號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.13,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

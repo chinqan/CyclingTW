@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJJROLeFQJaTQRiyPMDro28pQ",
+  "name_zh": "苗栗通霄好穗民宿。通霄民宿。通霄住宿。苗栗民宿。苗栗包棟。合法民宿。包棟。出差。背包客。旅遊。住宿",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 41,
+  "location": {
+    "lat": 24.487507500000003,
+    "lng": 120.6793653
+  },
+  "address": "357苗栗縣通霄鎮通西里信義路45號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.44,
+  "source": "api_2026-06-01",
+  "name_is_ascii": false
+}

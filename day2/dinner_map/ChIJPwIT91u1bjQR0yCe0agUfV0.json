@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJPwIT91u1bjQR0yCe0agUfV0",
+  "name_zh": "虎尾統一牛排西螺店",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 13,
+  "location": {
+    "lat": 23.7967652,
+    "lng": 120.45949879999999
+  },
+  "address": "648雲林縣西螺鎮漢光里光復西路202號",
+  "primary_type": "steak_house",
+  "primary_type_label": "牛排館",
+  "distance_km": 0.57,
+  "source": "api_2026-06-01",
+  "note": "牛排館",
+  "name_is_ascii": false
+}

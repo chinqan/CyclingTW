@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJa4MySZIJaTQR0kZRPilIV7o",
+  "name_zh": "雞排大學",
+  "name_lang": "zh",
+  "rating": 4,
+  "total_ratings": 14,
+  "location": {
+    "lat": 24.4905969,
+    "lng": 120.6799089
+  },
+  "address": "357苗栗縣通霄鎮通西里中正路72號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.17,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJm8FOEzsJaTQRgQ-SFzc7YPQ",
+  "name_zh": "均晣溫度",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 492,
+  "location": {
+    "lat": 24.440601899999997,
+    "lng": 120.65268730000001
+  },
+  "address": "358苗栗縣苑裡鎮客庄里新興路48號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.34,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

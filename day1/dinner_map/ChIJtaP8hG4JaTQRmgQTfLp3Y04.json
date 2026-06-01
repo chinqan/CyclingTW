@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJtaP8hG4JaTQRmgQTfLp3Y04",
+  "name_zh": "家庭廚房Familykitchen",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 173,
+  "location": {
+    "lat": 24.4917747,
+    "lng": 120.68003180000001
+  },
+  "address": "357苗栗縣通霄鎮通西里中興路136-1號",
+  "primary_type": "family_restaurant",
+  "primary_type_label": "家庭餐廳",
+  "distance_km": 0.17,
+  "source": "api_2026-06-01",
+  "note": "家庭餐廳",
+  "name_is_ascii": false
+}

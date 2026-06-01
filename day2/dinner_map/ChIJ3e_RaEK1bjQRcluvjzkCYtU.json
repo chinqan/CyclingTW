@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ3e_RaEK1bjQRcluvjzkCYtU",
+  "name_zh": "木木子（一人作業，一餐供應15份餐點，太忙不會接電話，售完打烊）",
+  "name_lang": "zh",
+  "rating": 4.8,
+  "total_ratings": 76,
+  "location": {
+    "lat": 23.7994462,
+    "lng": 120.46323919999999
+  },
+  "address": "648雲林縣西螺鎮廣福里文昌路151號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.26,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJHaiOfDkIaTQRtInO6u5oBI0",
+  "name_zh": "通霄廟口(饒)油飯",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 49,
+  "location": {
+    "lat": 24.488996999999998,
+    "lng": 120.68085749999999
+  },
+  "address": "357苗栗縣通霄鎮通東里光復路13號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.36,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

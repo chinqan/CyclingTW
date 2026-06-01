@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJcbg5QFm7bjQRN0v1aF80j-A",
+  "name_zh": "五鮮級鍋物專賣 西螺西興南店",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 1171,
+  "location": {
+    "lat": 23.797991999999997,
+    "lng": 120.4555573
+  },
+  "address": "64848雲林縣西螺鎮漢光里西興南路100號",
+  "primary_type": "hot_pot_restaurant",
+  "primary_type_label": "火鍋店",
+  "distance_km": 0.75,
+  "source": "api_2026-06-01",
+  "note": "火鍋店",
+  "name_is_ascii": false
+}

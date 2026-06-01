@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ41MyjzkIaTQRFa53hx0xmso",
+  "name_zh": "四季複合式餐飲（原大西洋冰城）",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 24,
+  "location": {
+    "lat": 24.4892032,
+    "lng": 120.6795607
+  },
+  "address": "357苗栗縣通霄鎮通西里光復路39號",
+  "primary_type": "family_restaurant",
+  "primary_type_label": "家庭餐廳",
+  "distance_km": 0.27,
+  "source": "api_2026-06-01",
+  "note": "家庭餐廳",
+  "name_is_ascii": false
+}

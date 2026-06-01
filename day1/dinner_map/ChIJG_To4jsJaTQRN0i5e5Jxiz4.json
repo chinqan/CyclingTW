@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJG_To4jsJaTQRN0i5e5Jxiz4",
+  "name_zh": "回家苑裡店芋頭米粉",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 18,
+  "location": {
+    "lat": 24.442200699999997,
+    "lng": 120.655071
+  },
+  "address": "358苗栗縣苑裡鎮苑南里為公路12號-1號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 0.39,
+  "source": "api_2026-06-01",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

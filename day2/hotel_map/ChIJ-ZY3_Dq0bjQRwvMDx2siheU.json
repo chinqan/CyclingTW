@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ-ZY3_Dq0bjQRwvMDx2siheU",
+  "name_zh": "七彩湖SPA汽車旅館",
+  "name_lang": "zh-TW",
+  "rating": 3.3,
+  "total_ratings": 165,
+  "location": {
+    "lat": 23.7936107,
+    "lng": 120.4684544
+  },
+  "address": "648雲林縣西螺鎮廣福里大同路1號",
+  "primary_type": "motel",
+  "distance_km": 1.1,
+  "source": "api_2026-06-01",
+  "name_is_ascii": false
+}

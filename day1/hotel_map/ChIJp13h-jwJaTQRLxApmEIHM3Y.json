@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJp13h-jwJaTQRLxApmEIHM3Y",
+  "name_zh": "國泰大旅社",
+  "name_lang": "zh-TW",
+  "rating": 3,
+  "total_ratings": 29,
+  "location": {
+    "lat": 24.4441411,
+    "lng": 120.65225389999999
+  },
+  "address": "35841苗栗縣苑裡鎮苑南里中山路182號",
+  "primary_type": "inn",
+  "distance_km": 0.11,
+  "source": "api_2026-06-01",
+  "name_is_ascii": false
+}

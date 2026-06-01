@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJs7DK7QAJaTQRWGZVjmaCuyw",
+  "name_zh": "初心食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 34,
+  "location": {
+    "lat": 24.443157,
+    "lng": 120.6554249
+  },
+  "address": "358苗栗縣苑裡鎮苑東里建國路48號",
+  "primary_type": "breakfast_restaurant",
+  "primary_type_label": "早餐店",
+  "distance_km": 0.4,
+  "source": "api_2026-06-01",
+  "note": "早餐店",
+  "name_is_ascii": false
+}

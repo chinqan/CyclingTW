@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJX6XicJC1bjQRiz4EvDw60_A",
+  "name_zh": "樂食里餐廳 ANDY'S BISTRO",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 84,
+  "location": {
+    "lat": 23.7984791,
+    "lng": 120.46979650000002
+  },
+  "address": "648雲林縣西螺鎮大園里光復東路51-5號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.87,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJW63N9xa1bjQR9bVuGGRKLTM",
+  "name_zh": "西螺好吃軟蛋餅",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 63,
+  "location": {
+    "lat": 23.799960499999997,
+    "lng": 120.45949089999999
+  },
+  "address": "648雲林縣西螺鎮福興里中山路171-1號",
+  "primary_type": "breakfast_restaurant",
+  "primary_type_label": "早餐店",
+  "distance_km": 0.3,
+  "source": "api_2026-06-01",
+  "note": "早餐店",
+  "name_is_ascii": false
+}

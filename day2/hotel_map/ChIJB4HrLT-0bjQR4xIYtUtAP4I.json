@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJB4HrLT-0bjQR4xIYtUtAP4I",
+  "name_zh": "西螺後街童畫民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 240,
+  "location": {
+    "lat": 23.801831699999997,
+    "lng": 120.4642729
+  },
+  "address": "648雲林縣西螺鎮永安里市後街1-2 號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 0.24,
+  "source": "api_2026-06-01",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJkxzAQoW1bjQREVoyafkkQjk",
+  "name_zh": "龍圓舊事",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 1049,
+  "location": {
+    "lat": 23.801391,
+    "lng": 120.46566289999998
+  },
+  "address": "648雲林縣西螺鎮永安里大園街122號對面",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.38,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

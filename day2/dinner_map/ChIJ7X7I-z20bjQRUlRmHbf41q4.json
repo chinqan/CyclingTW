@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ7X7I-z20bjQRUlRmHbf41q4",
+  "name_zh": "牛肉村 陽春麵.牛肉麵",
+  "name_lang": "zh-TW",
+  "rating": 3.8,
+  "total_ratings": 135,
+  "location": {
+    "lat": 23.799432200000002,
+    "lng": 120.45910389999999
+  },
+  "address": "640雲林縣西螺鎮漢光里建興路205號",
+  "primary_type": "chinese_noodle_restaurant",
+  "primary_type_label": "中式麵館",
+  "distance_km": 0.36,
+  "source": "api_2026-06-01",
+  "note": "中式麵館",
+  "name_is_ascii": false
+}

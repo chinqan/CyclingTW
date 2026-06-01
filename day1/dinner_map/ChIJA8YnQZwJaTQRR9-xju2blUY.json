@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJA8YnQZwJaTQRR9-xju2blUY",
+  "name_zh": "苑裡九妹牛肉麵館",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 2301,
+  "location": {
+    "lat": 24.442370399999998,
+    "lng": 120.65418140000001
+  },
+  "address": "358苗栗縣苑裡鎮苑南里為公路28號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.3,
+  "source": "api_2026-06-01",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

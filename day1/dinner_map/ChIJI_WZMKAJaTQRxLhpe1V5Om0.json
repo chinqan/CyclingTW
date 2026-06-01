@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJI_WZMKAJaTQRxLhpe1V5Om0",
+  "name_zh": "討海人海鮮料理會館",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 1254,
+  "location": {
+    "lat": 24.437715299999997,
+    "lng": 120.65276139999999
+  },
+  "address": "358苗栗縣苑裡鎮客庄里客庄135之50號",
+  "primary_type": "seafood_restaurant",
+  "primary_type_label": "海鮮餐廳",
+  "distance_km": 0.65,
+  "source": "api_2026-06-01",
+  "note": "海鮮餐廳",
+  "name_is_ascii": false
+}

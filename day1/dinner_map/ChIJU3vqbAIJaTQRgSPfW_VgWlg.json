@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJU3vqbAIJaTQRgSPfW_VgWlg",
+  "name_zh": "超美味麵担",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 28,
+  "location": {
+    "lat": 24.443153499999998,
+    "lng": 120.65255710000001
+  },
+  "address": "358苗栗縣苑裡鎮苑南里天下路75號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.11,
+  "source": "api_2026-06-01",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

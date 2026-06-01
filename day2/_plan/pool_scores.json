@@ -1,85 +1,113 @@
 {
   "day": 2,
-  "bayesian_C": 4.5727,
-  "bayesian_m": 1331,
-  "pool_size": 11,
+  "bayesian_C": 4.58,
+  "bayesian_m": 2152,
+  "pool_size": 15,
   "scores": {
-    "ChIJvYFhg4wTaTQR2evNLEQ1ZN8": {
-      "name_zh": "高美濕地木棧道",
-      "csv_type": "景點",
-      "rating": 4.7,
-      "total_ratings": 1331,
-      "bayesian_score": 4.64
-    },
-    "ChIJeUmVtQAOaTQR0Y2M3FT_dKM": {
-      "name_zh": "莫爾日嚐 MORE TASTE",
-      "csv_type": "餐廳大休",
-      "rating": 4.8,
-      "total_ratings": 250,
-      "bayesian_score": 4.61
-    },
-    "ChIJQ5bTDzuzaTQRnzEViKsrqdE": {
-      "name_zh": "竹南車站",
-      "csv_type": "起終點",
-      "rating": 4.0,
-      "total_ratings": 1186,
-      "bayesian_score": 4.3
-    },
     "ChIJVVVVVWWuaTQRsf_BtcIo5Yo": {
       "name_zh": "後龍好望角風景區",
       "csv_type": "景點",
       "rating": 4.4,
-      "total_ratings": 17666,
-      "bayesian_score": 4.41
+      "total_ratings": 17669,
+      "bayesian_score": 4.42
     },
     "ChIJR-i8TSSmaTQR_m3wMwNABss": {
-      "name_zh": "通霄精鹽廠",
+      "name_zh": "台鹽通霄精鹽廠觀光工廠",
       "csv_type": "景點",
       "rating": 4.1,
-      "total_ratings": 7279,
-      "bayesian_score": 4.17
+      "total_ratings": 7280,
+      "bayesian_score": 4.21
     },
     "ChIJ2ffC3wEOaTQR-YuV-iIXELk": {
       "name_zh": "大甲鎮瀾宮",
       "csv_type": "景點",
       "rating": 4.6,
-      "total_ratings": 17285,
+      "total_ratings": 17323,
       "bayesian_score": 4.6
     },
     "ChIJbZ03BtZFaTQRVSahxk_O324": {
       "name_zh": "鹿港老街",
       "csv_type": "起終點",
       "rating": 4.5,
-      "total_ratings": 42114,
+      "total_ratings": 42164,
       "bayesian_score": 4.5
     },
     "ChIJAQAAMB-maTQRqP6KozChaJ8": {
       "name_zh": "白沙屯拱天宮",
       "csv_type": "景點",
       "rating": 4.8,
-      "total_ratings": 21936,
-      "bayesian_score": 4.79
+      "total_ratings": 21940,
+      "bayesian_score": 4.78
     },
     "ChIJKwTxjR4RaTQR-3850tXAQqE": {
-      "name_zh": "莫爾日嚐 MORE TASTE",
+      "name_zh": "莫爾日嚐MORE TASTE",
       "csv_type": "餐廳大休",
       "rating": 4.8,
       "total_ratings": 481,
-      "bayesian_score": 4.63
+      "bayesian_score": 4.62
+    },
+    "ChIJO3WTEYARaTQRrxBB7088Gf0": {
+      "name_zh": "純粹綿綿冰",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 732,
+      "bayesian_score": 4.64
+    },
+    "ChIJj5QoTFSvaTQRreiEuHiu9zE": {
+      "name_zh": "山邊媽祖宮",
+      "csv_type": "景點",
+      "rating": 4.8,
+      "total_ratings": 3365,
+      "bayesian_score": 4.71
     },
     "ChIJq0e4ZdgPaTQRC3F3zZ10X5Q": {
       "name_zh": "花義複合式餐飲",
       "csv_type": "餐廳大休",
       "rating": 4.8,
       "total_ratings": 502,
-      "bayesian_score": 4.63
+      "bayesian_score": 4.62
     },
     "ChIJYd4sk1oTaTQRZ9Y5l-e_ijw": {
       "name_zh": "龜鶴塘",
       "csv_type": "餐廳大休",
       "rating": 4.8,
       "total_ratings": 407,
+      "bayesian_score": 4.61
+    },
+    "ChIJvYFhg4wTaTQR2evNLEQ1ZN8": {
+      "name_zh": "高美濕地木棧道",
+      "csv_type": "景點",
+      "rating": 4.7,
+      "total_ratings": 1331,
       "bayesian_score": 4.63
+    },
+    "ChIJH0XLyf1IaTQRvI803-ELjuk": {
+      "name_zh": "埔鹽順澤宮",
+      "csv_type": "景點",
+      "rating": 4.7,
+      "total_ratings": 2152,
+      "bayesian_score": 4.64
+    },
+    "ChIJvyru1BW0bjQRrsVaIqi0zAI": {
+      "name_zh": "西螺延平老街",
+      "csv_type": "起終點",
+      "rating": 4.2,
+      "total_ratings": 2125,
+      "bayesian_score": 4.39
+    },
+    "ChIJV2Of7b9FaTQRjuh_ATAiwmc": {
+      "name_zh": "品先蚵仔煎",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 1123,
+      "bayesian_score": 4.66
+    },
+    "ChIJU4COb-NFaTQRTu-ieg4O9og": {
+      "name_zh": "鹿港阿道蚵仔煎",
+      "csv_type": "餐廳大休",
+      "rating": 3.9,
+      "total_ratings": 10144,
+      "bayesian_score": 4.02
     }
   }
 }

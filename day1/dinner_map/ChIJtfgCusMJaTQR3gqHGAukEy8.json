@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJtfgCusMJaTQR3gqHGAukEy8",
+  "name_zh": "好滷棧",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 37,
+  "location": {
+    "lat": 24.441682,
+    "lng": 120.6556469
+  },
+  "address": "358苗栗縣苑裡鎮苑南里新生路69號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.46,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

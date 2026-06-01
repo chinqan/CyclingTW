@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJs3ncT6a1bjQR1j3ZogBTF4c",
+  "name_zh": "尊鼎鐵板燒",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 97,
+  "location": {
+    "lat": 23.7934658,
+    "lng": 120.4556971
+  },
+  "address": "648雲林縣西螺鎮漢光里平和南路301號",
+  "primary_type": "western_restaurant",
+  "primary_type_label": "西餐廳",
+  "distance_km": 1.09,
+  "source": "api_2026-06-01",
+  "note": "西餐廳",
+  "name_is_ascii": false
+}

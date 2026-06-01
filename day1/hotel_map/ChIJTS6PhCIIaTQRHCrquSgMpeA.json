@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJTS6PhCIIaTQRHCrquSgMpeA",
+  "name_zh": "通霄會館",
+  "name_lang": "zh-TW",
+  "rating": 3.8,
+  "total_ratings": 94,
+  "location": {
+    "lat": 24.4954675,
+    "lng": 120.6890967
+  },
+  "address": "357苗栗縣通霄鎮平安里83-24號",
+  "primary_type": "lodging",
+  "distance_km": 1.17,
+  "source": "api_2026-06-01",
+  "name_is_ascii": false
+}

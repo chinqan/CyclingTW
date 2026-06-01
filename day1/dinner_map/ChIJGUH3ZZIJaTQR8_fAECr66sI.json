@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJGUH3ZZIJaTQR8_fAECr66sI",
+  "name_zh": "今夜不打烊",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 44,
+  "location": {
+    "lat": 24.4905299,
+    "lng": 120.6840184
+  },
+  "address": "357苗栗縣通霄鎮自強路",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.57,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

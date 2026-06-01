@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJCyqX2jkIaTQRHSljwx0rI_w",
+  "name_zh": "青松園餐廳",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 995,
+  "location": {
+    "lat": 24.4960614,
+    "lng": 120.6826181
+  },
+  "address": "357苗栗縣通霄鎮通灣里中山路89號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.67,
+  "source": "api_2026-06-01",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

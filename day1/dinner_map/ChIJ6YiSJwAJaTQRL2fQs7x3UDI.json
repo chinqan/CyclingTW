@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ6YiSJwAJaTQRL2fQs7x3UDI",
+  "name_zh": "好家享味時光(牛肉麵)",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 111,
+  "location": {
+    "lat": 24.4402992,
+    "lng": 120.65252389999998
+  },
+  "address": "358苗栗縣苑裡鎮客庄里大同路3之1號",
+  "primary_type": "chinese_noodle_restaurant",
+  "primary_type_label": "中式麵館",
+  "distance_km": 0.36,
+  "source": "api_2026-06-01",
+  "note": "中式麵館",
+  "name_is_ascii": false
+}

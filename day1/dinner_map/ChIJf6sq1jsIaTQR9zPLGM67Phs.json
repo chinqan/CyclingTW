@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJf6sq1jsIaTQR9zPLGM67Phs",
+  "name_zh": "通霄邱煎包",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 194,
+  "location": {
+    "lat": 24.4888902,
+    "lng": 120.68130930000001
+  },
+  "address": "357苗栗縣通霄鎮通東里仁愛路40號",
+  "primary_type": "breakfast_restaurant",
+  "primary_type_label": "早餐店",
+  "distance_km": 0.4,
+  "source": "api_2026-06-01",
+  "note": "早餐店",
+  "name_is_ascii": false
+}

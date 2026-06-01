@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJae7fFDoIaTQR8hFYDZ7u1yQ",
+  "name_zh": "苗栗通霄國賓大旅社☆火車站前 住宿推薦☆",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 120,
+  "location": {
+    "lat": 24.491052399999997,
+    "lng": 120.6786929
+  },
+  "address": "357苗栗縣通霄鎮通西里中正路105號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.05,
+  "source": "api_2026-06-01",
+  "name_is_ascii": false
+}

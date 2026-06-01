@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ38nhHD-0bjQRSbFYdRoWnNE",
+  "name_zh": "西螺古蹟民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 4,
+  "location": {
+    "lat": 23.8019247,
+    "lng": 120.462465
+  },
+  "address": "648雲林縣西螺鎮中和里延平路92號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 0.08,
+  "source": "api_2026-06-01",
+  "name_is_ascii": false
+}

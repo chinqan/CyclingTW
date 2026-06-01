@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJuygSNzoIaTQRZHLB-vzS61Q",
+  "name_zh": "佳味手工赤肉羹",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 414,
+  "location": {
+    "lat": 24.4914211,
+    "lng": 120.67919819999997
+  },
+  "address": "357苗栗縣通霄鎮通西里中山路170號",
+  "primary_type": "asian_restaurant",
+  "primary_type_label": "亞洲風味餐廳",
+  "distance_km": 0.08,
+  "source": "api_2026-06-01",
+  "note": "亞洲風味餐廳",
+  "name_is_ascii": false
+}

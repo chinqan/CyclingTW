@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJL6WFSI2naTQRKQ8Qe4kdLps",
+  "name_zh": "牧草原民宿",
+  "name_lang": "ja",
+  "rating": 4.7,
+  "total_ratings": 39,
+  "location": {
+    "lat": 24.513349700000003,
+    "lng": 120.6868698
+  },
+  "address": "7 鄰 64-9 號, 通灣里通霄鎮苗栗縣357",
+  "primary_type": "inn",
+  "distance_km": 2.59,
+  "source": "api_2026-06-01",
+  "name_is_ascii": false
+}

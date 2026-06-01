@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ27C5-BsJaTQRIQ2SLSpHrMA",
+  "name_zh": "煎餃蘿蔔糕&玉米蛋餅",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 21,
+  "location": {
+    "lat": 24.4905655,
+    "lng": 120.6798678
+  },
+  "address": "357苗栗縣通霄鎮通西里357",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.17,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

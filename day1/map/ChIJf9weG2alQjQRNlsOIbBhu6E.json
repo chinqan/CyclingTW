@@ -1,15 +1,15 @@
 {
   "place_id": "ChIJf9weG2alQjQRNlsOIbBhu6E",
-  "name": "八里老街 (Bali Old Street)",
-  "address": "Duchuantou St, Micang Village, Bali District, New Taipei City, Taiwan 249",
-  "location": { "lat": 25.158442899, "lng": 121.4347089 },
-  "primary_type": "tourist_attraction",
+  "name_zh": "八里渡船頭老街",
+  "csv_type": "景點",
+  "location": {
+    "lat": 25.158442899999997,
+    "lng": 121.4347089
+  },
+  "search_keyword": "景點 觀光",
+  "source": "along_2026-06-01",
   "rating": 4.2,
-  "total_ratings": 35328,
-  "source": "search_result",
-  "fetched_at": "2026-05-20",
-  "csv_type": "未入選",
-  "not_selected_reason": "評論數極高（35,328），visual_score≈19.10 接近竹圍漁港，但位於八里渡船頭碼頭旁，需從台61線主線繞行約1.5km，超出景點繞行上限2km邊際，且八里左岸已代表此段亮點；若未來改路線可考慮納入",
-  "bayesian_score_estimate": 4.21,
-  "visual_score_estimate": 19.10
+  "total_ratings": 35410,
+  "address": "249新北市八里區米倉里渡船頭街",
+  "primary_type": "tourist_attraction"
 }

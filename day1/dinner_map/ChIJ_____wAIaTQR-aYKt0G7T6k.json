@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ_____wAIaTQR-aYKt0G7T6k",
+  "name_zh": "吳媽媽創意廚房",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 2625,
+  "location": {
+    "lat": 24.4976027,
+    "lng": 120.7066623
+  },
+  "address": "357苗栗縣通霄鎮內湖里53-5號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 2.94,
+  "source": "api_2026-06-01",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,20 @@
+{
+  "place_id": "ChIJR-i8TSSmaTQR_m3wMwNABss",
+  "name_zh": "台鹽通霄精鹽廠觀光工廠",
+  "rating": 4.1,
+  "total_ratings": 7300,
+  "location": {
+    "lat": 24.5559494,
+    "lng": 120.7035802
+  },
+  "source": "api_2026-06-01",
+  "opening_hours_text": [
+    "Monday: Closed",
+    "Tuesday: 8:00 AM – 4:30 PM",
+    "Wednesday: 8:00 AM – 4:30 PM",
+    "Thursday: 8:00 AM – 4:30 PM",
+    "Friday: 8:00 AM – 4:30 PM",
+    "Saturday: 8:30 AM – 5:00 PM",
+    "Sunday: 8:30 AM – 5:00 PM"
+  ]
+}

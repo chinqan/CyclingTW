@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJWZpVbDsJaTQR2_8cLp1IWR0",
+  "name_zh": "苑裡阿力香雞排",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 64,
+  "location": {
+    "lat": 24.4409909,
+    "lng": 120.65249929999997
+  },
+  "address": "358苗栗縣苑裡鎮大同路",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.29,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

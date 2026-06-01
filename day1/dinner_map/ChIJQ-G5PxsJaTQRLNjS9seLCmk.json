@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJQ-G5PxsJaTQRLNjS9seLCmk",
+  "name_zh": "潮麻吉-香雞潮牌-苗栗苑裡店",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 71,
+  "location": {
+    "lat": 24.441669500000003,
+    "lng": 120.6525758
+  },
+  "address": "358苗栗縣苑裡鎮苑南里和平路165號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.23,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

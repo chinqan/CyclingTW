@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJZaoR4RkJaTQR9Z623j9RJ3k",
+  "name_zh": "小勇脆皮雞排湯翅",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 20,
+  "location": {
+    "lat": 24.4892641,
+    "lng": 120.6793865
+  },
+  "address": "357苗栗縣通霄鎮通西里光復路45-1號",
+  "primary_type": "fast_food_restaurant",
+  "primary_type_label": "速食餐廳",
+  "distance_km": 0.26,
+  "source": "api_2026-06-01",
+  "note": "速食餐廳",
+  "name_is_ascii": false
+}

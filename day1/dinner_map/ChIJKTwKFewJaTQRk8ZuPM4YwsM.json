@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJKTwKFewJaTQRk8ZuPM4YwsM",
+  "name_zh": "阿財牛肉麵",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 45,
+  "location": {
+    "lat": 24.4411673,
+    "lng": 120.65432690000002
+  },
+  "address": "358苗栗縣苑裡鎮信義路",
+  "primary_type": "chinese_noodle_restaurant",
+  "primary_type_label": "中式麵館",
+  "distance_km": 0.38,
+  "source": "api_2026-06-01",
+  "note": "中式麵館",
+  "name_is_ascii": false
+}

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ2R9EAQAJaTQRrnzgWUOidSc",
+  "name_zh": "汐岸拾光",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 7,
+  "location": {
+    "lat": 24.432909199999997,
+    "lng": 120.6550485
+  },
+  "address": "358苗栗縣苑裡鎮客庄里客庄121-1號",
+  "primary_type": "private_guest_room",
+  "distance_km": 1.22,
+  "source": "api_2026-06-01",
+  "name_is_ascii": false
+}

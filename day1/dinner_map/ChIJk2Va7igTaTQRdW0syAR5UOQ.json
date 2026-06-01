@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJk2Va7igTaTQRdW0syAR5UOQ",
+  "name_zh": "有一家炸物飲品",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 54,
+  "location": {
+    "lat": 24.4377065,
+    "lng": 120.6578973
+  },
+  "address": "358苗栗县苑里镇客庄里75-16號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.91,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

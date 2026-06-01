@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJn2TX9Am1bjQROHg_uLofmTA",
+  "name_zh": "七號辣味店",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 33,
+  "location": {
+    "lat": 23.799122999999998,
+    "lng": 120.45946130000002
+  },
+  "address": "648雲林縣西螺鎮正興里源成路47號47號（隔壁",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.36,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

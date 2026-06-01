@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJy8sOZgAPaTQR18pfLR9_gxg",
+  "name_zh": "彬彬芭樂園",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 5,
+  "location": {
+    "lat": 24.4194465,
+    "lng": 120.6396552
+  },
+  "address": "437臺中市大甲區銅安里長壽東西八路10號",
+  "primary_type": "lodging",
+  "distance_km": 2.92,
+  "source": "api_2026-06-01",
+  "name_is_ascii": false
+}

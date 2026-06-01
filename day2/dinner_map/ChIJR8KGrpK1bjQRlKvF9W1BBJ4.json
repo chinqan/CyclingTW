@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJR8KGrpK1bjQRlKvF9W1BBJ4",
+  "name_zh": "李廣和傳統鵝肉",
+  "name_lang": "zh",
+  "rating": 4.8,
+  "total_ratings": 259,
+  "location": {
+    "lat": 23.7935998,
+    "lng": 120.45566060000002
+  },
+  "address": "648雲林縣西螺鎮漢光里平和南路303號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.08,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

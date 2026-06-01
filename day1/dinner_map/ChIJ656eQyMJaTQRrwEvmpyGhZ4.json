@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ656eQyMJaTQRrwEvmpyGhZ4",
+  "name_zh": "阿達仔黃金水餃 苑裡美食",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 649,
+  "location": {
+    "lat": 24.4423356,
+    "lng": 120.65570459999999
+  },
+  "address": "358苗栗縣苑裡鎮苑南里世界路一段68號",
+  "primary_type": "chinese_noodle_restaurant",
+  "primary_type_label": "中式麵館",
+  "distance_km": 0.44,
+  "source": "api_2026-06-01",
+  "note": "中式麵館",
+  "name_is_ascii": false
+}

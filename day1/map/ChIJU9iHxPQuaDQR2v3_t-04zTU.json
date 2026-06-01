@@ -3,12 +3,12 @@
   "name_zh": "永安漁港",
   "csv_type": "景點",
   "rating": 4.1,
-  "total_ratings": 38613,
+  "total_ratings": 38681,
   "location": {
     "lat": 24.987719,
     "lng": 121.01578839999998
   },
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-01",
   "note": "大型觀光漁港 km約70",
   "opening_hours_text": [
     "Monday: 8:00 AM – 8:00 PM",

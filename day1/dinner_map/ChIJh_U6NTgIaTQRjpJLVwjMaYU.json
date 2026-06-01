@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJh_U6NTgIaTQRjpJLVwjMaYU",
+  "name_zh": "好手沏紅茶冰專賣店-通霄店",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 69,
+  "location": {
+    "lat": 24.487029600000003,
+    "lng": 120.67888060000001
+  },
+  "address": "357苗栗縣通霄鎮通西里信義路23號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.49,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

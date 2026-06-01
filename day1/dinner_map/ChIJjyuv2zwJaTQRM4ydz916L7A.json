@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJjyuv2zwJaTQRM4ydz916L7A",
+  "name_zh": "聞香下馬",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 940,
+  "location": {
+    "lat": 24.4442648,
+    "lng": 120.65358370000001
+  },
+  "address": "358苗栗縣苑裡鎮苑北里天下路98號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.23,
+  "source": "api_2026-06-01",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

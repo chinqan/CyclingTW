@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJO7fm4j60bjQRfWI1nVz4bzY",
+  "name_zh": "中青銀共學中心",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 89,
+  "location": {
+    "lat": 23.801544999999997,
+    "lng": 120.462514
+  },
+  "address": "648雲林縣西螺鎮中和里延平路81號",
+  "primary_type": "lodging",
+  "distance_km": 0.06,
+  "source": "api_2026-06-01",
+  "name_is_ascii": false
+}

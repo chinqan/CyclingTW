@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJO99VR_kJaTQRqVImCmHfJNs",
+  "name_zh": "特食 排骨酥麵 紹興滷肉飯（苑裡店)",
+  "name_lang": "zh",
+  "rating": 4.3,
+  "total_ratings": 265,
+  "location": {
+    "lat": 24.4406422,
+    "lng": 120.6520979
+  },
+  "address": "358苗栗縣苑裡鎮苑南里新興路33號號旁",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.32,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

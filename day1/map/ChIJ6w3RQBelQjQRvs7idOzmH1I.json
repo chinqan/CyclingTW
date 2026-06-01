@@ -1,15 +1,15 @@
 {
   "place_id": "ChIJ6w3RQBelQjQRvs7idOzmH1I",
-  "name": "十三行文化公園 (Shihsanhang Cultural Park)",
-  "address": "No. 111號, Waziwei St, Pitou Village, Bali District, New Taipei City, Taiwan 249",
-  "location": { "lat": 25.1651782, "lng": 121.4132327 },
-  "primary_type": "park",
+  "name_zh": "十三行文化公園",
+  "csv_type": "景點",
+  "location": {
+    "lat": 25.1651782,
+    "lng": 121.4132327
+  },
+  "search_keyword": "景點 觀光",
+  "source": "along_2026-06-01",
   "rating": 4.4,
-  "total_ratings": 4390,
-  "source": "search_result",
-  "fetched_at": "2026-05-20",
-  "csv_type": "未入選",
-  "not_selected_reason": "位於八里左岸北端，與出發路線方向相反（需逆行），繞路距離過大",
-  "bayesian_score": null,
-  "visual_score": 16.027
+  "total_ratings": 4418,
+  "address": "249新北市八里區埤頭里挖子尾街111號",
+  "primary_type": "park"
 }

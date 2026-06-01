@@ -1,0 +1,21 @@
+{
+  "place_id": "ChIJAQAAMB-maTQRqP6KozChaJ8",
+  "name_zh": "白沙屯拱天宮",
+  "rating": 4.8,
+  "total_ratings": 22035,
+  "location": {
+    "lat": 24.5714321,
+    "lng": 120.7092177
+  },
+  "source": "api_2026-06-01",
+  "opening_hours_text": [
+    "Monday: 5:00 AM – 9:30 PM",
+    "Tuesday: 5:00 AM – 9:30 PM",
+    "Wednesday: 5:00 AM – 9:30 PM",
+    "Thursday: 5:00 AM – 9:30 PM",
+    "Friday: 5:00 AM – 9:30 PM",
+    "Saturday: 5:00 AM – 9:30 PM",
+    "Sunday: 5:00 AM – 9:30 PM"
+  ],
+  "editorial_summary": "Revered Taoist temple with brightly painted roof sculptures including twisting dragons & phoenixes."
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJB26GKAAJaTQREBDOag596gA",
+  "name_zh": "廣西桂林米粉",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 8,
+  "location": {
+    "lat": 24.4902902,
+    "lng": 120.67872279999999
+  },
+  "address": "357苗栗縣通霄鎮通西里中山路134號。號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.13,
+  "source": "api_2026-06-01",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

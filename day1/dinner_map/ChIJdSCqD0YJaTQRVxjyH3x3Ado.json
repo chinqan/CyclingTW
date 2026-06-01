@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJdSCqD0YJaTQRVxjyH3x3Ado",
+  "name_zh": "阿忠豆花",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 36,
+  "location": {
+    "lat": 24.4887752,
+    "lng": 120.680959
+  },
+  "address": "357苗栗縣通霄鎮通東里光復路5號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.39,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

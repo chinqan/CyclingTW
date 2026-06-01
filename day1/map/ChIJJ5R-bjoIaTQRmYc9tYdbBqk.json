@@ -1,0 +1,15 @@
+{
+  "place_id": "ChIJJ5R-bjoIaTQRmYc9tYdbBqk",
+  "name_zh": "通霄車站",
+  "csv_type": "起終點",
+  "location": {
+    "lat": 24.491403,
+    "lng": 120.678424
+  },
+  "search_keyword": "通霄車站",
+  "source": "api_2026-06-01",
+  "rating": 4.3,
+  "total_ratings": 409,
+  "address": "357苗栗縣通霄鎮通西里中山路109號",
+  "primary_type": "train_station"
+}

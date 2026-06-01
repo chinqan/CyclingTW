@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJDbmhj2IJaTQRyb-qfi5ZNxs",
+  "name_zh": "張家羊肉爐",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 32,
+  "location": {
+    "lat": 24.489943,
+    "lng": 120.67858659999999
+  },
+  "address": "357苗栗縣通霄鎮通西里中山路118號",
+  "primary_type": "hot_pot_restaurant",
+  "primary_type_label": "火鍋店",
+  "distance_km": 0.16,
+  "source": "api_2026-06-01",
+  "note": "火鍋店",
+  "name_is_ascii": false
+}

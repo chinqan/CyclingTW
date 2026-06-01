@@ -1,0 +1,11 @@
+{
+  "place_id": "ChIJKQcl0QClQjQRxIKQiKCaVMA",
+  "name_zh": "7-ELEVEN 西雅圖門市",
+  "csv_type": "便利商店",
+  "location": {
+    "lat": 25.150983699999998,
+    "lng": 121.4051706
+  },
+  "search_keyword": "7-ELEVEN",
+  "source": "along_2026-06-01"
+}

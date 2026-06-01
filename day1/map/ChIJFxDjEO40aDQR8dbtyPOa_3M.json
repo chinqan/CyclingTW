@@ -3,11 +3,11 @@
   "name_zh": "南寮漁港",
   "csv_type": "景點",
   "rating": 4.2,
-  "total_ratings": 1753,
+  "total_ratings": 1758,
   "location": {
     "lat": 24.8483333,
     "lng": 120.9302778
   },
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-01",
   "note": "同地不同 place_id 評論數較少"
 }

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJMaeFUucJaTQRBIovBdsc0LQ",
+  "name_zh": "興億建設-億品居二期",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 1,
+  "location": {
+    "lat": 24.4340309,
+    "lng": 120.64535079999999
+  },
+  "address": "358苗栗縣苑裡鎮房裡里介壽路51-7號358里介壽路51之7號",
+  "primary_type": "lodging",
+  "distance_km": 1.22,
+  "source": "api_2026-06-01",
+  "name_is_ascii": false
+}

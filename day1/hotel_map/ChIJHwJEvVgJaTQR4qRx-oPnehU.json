@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJHwJEvVgJaTQR4qRx-oPnehU",
+  "name_zh": "菜瓜的故鄉",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 8,
+  "location": {
+    "lat": 24.442742,
+    "lng": 120.642695
+  },
+  "address": "358苗栗縣苑裡鎮海岸里海岸6鄰52號之7",
+  "primary_type": "campground",
+  "distance_km": 0.89,
+  "source": "api_2026-06-01",
+  "name_is_ascii": false
+}

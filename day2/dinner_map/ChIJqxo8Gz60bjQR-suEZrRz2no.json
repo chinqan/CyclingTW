@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJqxo8Gz60bjQR-suEZrRz2no",
+  "name_zh": "龍虎好食雞",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 44,
+  "location": {
+    "lat": 23.8004152,
+    "lng": 120.4593765
+  },
+  "address": "648云林县西螺镇福兴里建兴路246號1樓",
+  "primary_type": "meal_takeaway",
+  "primary_type_label": "外賣餐廳",
+  "distance_km": 0.28,
+  "source": "api_2026-06-01",
+  "note": "外賣餐廳",
+  "name_is_ascii": false
+}

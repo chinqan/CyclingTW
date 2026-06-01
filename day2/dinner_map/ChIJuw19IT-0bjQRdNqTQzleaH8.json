@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJuw19IT-0bjQRdNqTQzleaH8",
+  "name_zh": "阿秀倌蚵嗲",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 562,
+  "location": {
+    "lat": 23.8011596,
+    "lng": 120.46188869999999
+  },
+  "address": "648雲林縣西螺鎮中和里公正路204號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.03,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

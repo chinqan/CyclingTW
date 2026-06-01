@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJpeFyXgC1bjQRGPE51oGp5Zw",
+  "name_zh": "義術餐館",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 43,
+  "location": {
+    "lat": 23.8004449,
+    "lng": 120.4599796
+  },
+  "address": "648雲林縣西螺鎮福興里福興路185巷47號",
+  "primary_type": "italian_restaurant",
+  "primary_type_label": "義大利餐廳",
+  "distance_km": 0.23,
+  "source": "api_2026-06-01",
+  "note": "義大利餐廳",
+  "name_is_ascii": false
+}

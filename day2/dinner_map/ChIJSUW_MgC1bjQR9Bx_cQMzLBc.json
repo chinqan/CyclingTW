@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJSUW_MgC1bjQR9Bx_cQMzLBc",
+  "name_zh": "六扇門時尚湯鍋-西螺福興店",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 372,
+  "location": {
+    "lat": 23.7997083,
+    "lng": 120.46049619999998
+  },
+  "address": "648雲林縣西螺鎮正興里福興路167號",
+  "primary_type": "hot_pot_restaurant",
+  "primary_type_label": "火鍋店",
+  "distance_km": 0.24,
+  "source": "api_2026-06-01",
+  "note": "火鍋店",
+  "name_is_ascii": false
+}

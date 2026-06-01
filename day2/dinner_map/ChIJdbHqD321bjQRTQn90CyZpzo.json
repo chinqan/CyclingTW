@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJdbHqD321bjQRTQn90CyZpzo",
+  "name_zh": "幸福Mochi-西螺麻糬 延平老街店",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 1469,
+  "location": {
+    "lat": 23.801401,
+    "lng": 120.46150609999998
+  },
+  "address": "648雲林縣西螺鎮中和里延平路136號",
+  "primary_type": "dessert_restaurant",
+  "primary_type_label": "甜品餐廳",
+  "distance_km": 0.04,
+  "source": "api_2026-06-01",
+  "note": "甜品餐廳",
+  "name_is_ascii": false
+}

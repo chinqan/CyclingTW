@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJs1ZaAHIIaTQRtkOYQReM8g4",
+  "name_zh": "蘆沐村風客棧",
+  "name_lang": "zh-TW",
+  "rating": 1.5,
+  "total_ratings": 2,
+  "location": {
+    "lat": 24.474261,
+    "lng": 120.7006296
+  },
+  "address": "357苗栗縣通霄鎮57號之1",
+  "primary_type": "hotel",
+  "distance_km": 2.95,
+  "source": "api_2026-06-01",
+  "name_is_ascii": false
+}

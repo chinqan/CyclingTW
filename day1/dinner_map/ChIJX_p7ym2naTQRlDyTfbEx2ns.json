@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJX_p7ym2naTQRlDyTfbEx2ns",
+  "name_zh": "林記北平烤鴨",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 78,
+  "location": {
+    "lat": 24.5078541,
+    "lng": 120.68843009999999
+  },
+  "address": "357苗栗縣通霄鎮通灣里124號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 2.09,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

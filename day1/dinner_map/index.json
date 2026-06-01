@@ -149,7 +149,7 @@
       "note": "牛排館",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJGzIBtMazaTQRuc5XmIFuBa0",
@@ -239,7 +239,7 @@
       "note": "火鍋店",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJH4uO3gJNaDQRPComfgqYtVU",
@@ -329,7 +329,7 @@
       "note": "日式咖哩餐廳",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJCbj5C-s2aDQRV8xYSSKGr0k",
@@ -479,7 +479,7 @@
       "note": "火鍋店",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJZc05r26zaTQRj5C1snCX4_k",
@@ -539,7 +539,7 @@
       "note": "餐廳",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJCxzxGT2zaTQRKNGIiiwYSX4",
@@ -1063,6 +1063,1370 @@
       "address": "350苗栗縣竹南鎮竹南里中山路79號",
       "note": "餐廳",
       "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJnwVtKzQJaTQR2H0EQv5f1HI",
+      "name_zh": "麥當勞-苑裡介壽餐廳－設有得來速",
+      "rating": 4.1,
+      "total_ratings": 2259,
+      "location": {
+        "lat": 24.4326993,
+        "lng": 120.64597599999999
+      },
+      "address": "358苗栗縣苑裡鎮房裡里介壽路63之10號1樓",
+      "note": "速食餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJA8YnQZwJaTQRR9-xju2blUY",
+      "name_zh": "苑裡九妹牛肉麵館",
+      "rating": 4.7,
+      "total_ratings": 2301,
+      "location": {
+        "lat": 24.442370399999998,
+        "lng": 120.65418140000001
+      },
+      "address": "358苗栗縣苑裡鎮苑南里為公路28號",
+      "note": "台式餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ4UqlbjsJaTQRnc5dD0nfiy8",
+      "name_zh": "苑裡菜市場炸雞",
+      "rating": 4.1,
+      "total_ratings": 1344,
+      "location": {
+        "lat": 24.4434108,
+        "lng": 120.65412740000001
+      },
+      "address": "358苗栗縣苑裡鎮苑南里大同路108號",
+      "note": "外賣餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJdzRHFxgJaTQRVt9hx3f_UgQ",
+      "name_zh": "苑裡龍園餐廳",
+      "rating": 4,
+      "total_ratings": 2030,
+      "location": {
+        "lat": 24.447986399999998,
+        "lng": 120.65533230000001
+      },
+      "address": "358苗栗縣苑裡鎮苑北里中山路322號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJI_WZMKAJaTQRxLhpe1V5Om0",
+      "name_zh": "討海人海鮮料理會館",
+      "rating": 4.5,
+      "total_ratings": 1254,
+      "location": {
+        "lat": 24.437715299999997,
+        "lng": 120.65276139999999
+      },
+      "address": "358苗栗縣苑裡鎮客庄里客庄135之50號",
+      "note": "海鮮餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJU4WfSjsJaTQRrll8NYIlsXY",
+      "name_zh": "漁香園港式餐廳",
+      "rating": 3.9,
+      "total_ratings": 967,
+      "location": {
+        "lat": 24.4404063,
+        "lng": 120.65435210000001
+      },
+      "address": "358苗栗縣苑裡鎮苑南里南興路73號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJubq1ShLcDhQRJHJYjbbRR6U",
+      "name_zh": "苑裡臭豆腐",
+      "rating": 4.2,
+      "total_ratings": 919,
+      "location": {
+        "lat": 24.4441551,
+        "lng": 120.65351209999999
+      },
+      "address": "358苗栗縣苑裡鎮苑東里天下路92號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJobtIma4JaTQRQQSXEBksOVs",
+      "name_zh": "弎圓食堂",
+      "rating": 4.8,
+      "total_ratings": 310,
+      "location": {
+        "lat": 24.444528,
+        "lng": 120.6524405
+      },
+      "address": "358苗栗縣苑裡鎮苑北里中山路190號",
+      "note": "日式餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ-bYnJP4KaTQRSJr2I1ap9Dg",
+      "name_zh": "原豆粹食 GOOD SOYFOODS",
+      "rating": 4.5,
+      "total_ratings": 896,
+      "location": {
+        "lat": 24.440114899999998,
+        "lng": 120.65431310000001
+      },
+      "address": "358苗栗縣苑裡鎮苑南里新興路86-1號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ0WEnBAAJaTQRxS7KJXvCkjY",
+      "name_zh": "六扇門時尚湯鍋 苗栗苑裡慈和店",
+      "rating": 4.6,
+      "total_ratings": 962,
+      "location": {
+        "lat": 24.447824699999998,
+        "lng": 120.6552739
+      },
+      "address": "358苗栗縣苑裡鎮苑港里慈和街270號",
+      "note": "火鍋店",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJnwdj8I8JaTQR98Angx3Hbmg",
+      "name_zh": "時勝日式專門",
+      "rating": 4.7,
+      "total_ratings": 1809,
+      "location": {
+        "lat": 24.441538800000004,
+        "lng": 120.65157330000001
+      },
+      "address": "358苗栗縣苑裡鎮客庄里南興路175-1號",
+      "note": "日式餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJrTp3bhgJaTQRainIHn7vcIw",
+      "name_zh": "御廚川菜餐廳",
+      "rating": 4.2,
+      "total_ratings": 573,
+      "location": {
+        "lat": 24.446577599999998,
+        "lng": 120.65576329999999
+      },
+      "address": "358苗栗縣苑裡鎮苑北里育才街12巷13號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ59W5GD0JaTQRiNAWubyJunI",
+      "name_zh": "新魚港海鮮餐廳",
+      "rating": 4.3,
+      "total_ratings": 369,
+      "location": {
+        "lat": 24.4439678,
+        "lng": 120.65422819999999
+      },
+      "address": "358苗栗縣苑裡鎮苑東里大同路105號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJjyuv2zwJaTQRM4ydz916L7A",
+      "name_zh": "聞香下馬",
+      "rating": 4,
+      "total_ratings": 940,
+      "location": {
+        "lat": 24.4442648,
+        "lng": 120.65358370000001
+      },
+      "address": "358苗栗縣苑裡鎮苑北里天下路98號",
+      "note": "中式餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJo6mpbDMJaTQReIvI6FVKuvY",
+      "name_zh": "茂焱肉圓",
+      "rating": 4,
+      "total_ratings": 633,
+      "location": {
+        "lat": 24.443395199999998,
+        "lng": 120.65280100000001
+      },
+      "address": "358苗栗縣苑裡鎮苑南里天下路85號",
+      "note": "台式餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ656eQyMJaTQRrwEvmpyGhZ4",
+      "name_zh": "阿達仔黃金水餃 苑裡美食",
+      "rating": 4.2,
+      "total_ratings": 649,
+      "location": {
+        "lat": 24.4423356,
+        "lng": 120.65570459999999
+      },
+      "address": "358苗栗縣苑裡鎮苑南里世界路一段68號",
+      "note": "中式麵館",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJCUdqHQAJaTQRTO8JpEUzWqY",
+      "name_zh": "初鳴鍋物-苑裡店",
+      "rating": 4.8,
+      "total_ratings": 969,
+      "location": {
+        "lat": 24.442024699999997,
+        "lng": 120.65167620000001
+      },
+      "address": "358苗栗縣苑裡鎮苑南里天下路31號",
+      "note": "火鍋店",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJXaZhLgEJaTQRW4EqWOeXyvE",
+      "name_zh": "一家人日式料理屋",
+      "rating": 4.8,
+      "total_ratings": 505,
+      "location": {
+        "lat": 24.439403499999997,
+        "lng": 120.6522827
+      },
+      "address": "358苗栗縣苑裡鎮客庄里公民街29號",
+      "note": "日式餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJG2GPzKQJaTQRuwhqiJq1Qlk",
+      "name_zh": "鴻愿小廚",
+      "rating": 4.5,
+      "total_ratings": 273,
+      "location": {
+        "lat": 24.439941299999997,
+        "lng": 120.65006729999998
+      },
+      "address": "358苗栗縣苑裡鎮客庄里中山路69號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJm7BLeYkJaTQRtMIS3EvMxOw",
+      "name_zh": "餃一餃蒸餃 苑裡店",
+      "rating": 4.9,
+      "total_ratings": 71,
+      "location": {
+        "lat": 24.4428758,
+        "lng": 120.6537047
+      },
+      "address": "35848苗栗縣苑裡鎮苑南里大同路80號",
+      "note": "中式餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJefBgO1oJaTQR99r9hXxMCvg",
+      "name_zh": "霄餚滷-苑裡分舖",
+      "rating": 4.8,
+      "total_ratings": 48,
+      "location": {
+        "lat": 24.4413979,
+        "lng": 120.6524214
+      },
+      "address": "358苗栗縣苑裡鎮苑南里南興路150-5號",
+      "note": "中式餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ9xkNTQAJaTQRODWprdkY_M8",
+      "name_zh": "允記麵食館（必吃苑裡銅板美食、豬肉餡餅、蘿蔔絲餅、蔥油拌麵、番茄海鮮麵 、早午餐、晚餐首選推薦）",
+      "rating": 4.9,
+      "total_ratings": 114,
+      "location": {
+        "lat": 24.441735100000002,
+        "lng": 120.65554789999999
+      },
+      "address": "358苗栗縣苑裡鎮苑南里為公路3號",
+      "note": "中式餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJm8FOEzsJaTQRgQ-SFzc7YPQ",
+      "name_zh": "均晣溫度",
+      "rating": 4.5,
+      "total_ratings": 492,
+      "location": {
+        "lat": 24.440601899999997,
+        "lng": 120.65268730000001
+      },
+      "address": "358苗栗縣苑裡鎮客庄里新興路48號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJOZD6EiQJaTQR5DDjtPkzm1c",
+      "name_zh": "日嚐-義式料理",
+      "rating": 4.5,
+      "total_ratings": 533,
+      "location": {
+        "lat": 24.4398445,
+        "lng": 120.65424189999999
+      },
+      "address": "358苗栗縣苑裡鎮苑南里新興路27號",
+      "note": "義大利餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ6YiSJwAJaTQRL2fQs7x3UDI",
+      "name_zh": "好家享味時光(牛肉麵)",
+      "rating": 4.6,
+      "total_ratings": 111,
+      "location": {
+        "lat": 24.4402992,
+        "lng": 120.65252389999998
+      },
+      "address": "358苗栗縣苑裡鎮客庄里大同路3之1號",
+      "note": "中式麵館",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ0fzsYQ4JaTQRgMAwKGYYVcI",
+      "name_zh": "金海味平價美食",
+      "rating": 4.4,
+      "total_ratings": 64,
+      "location": {
+        "lat": 24.4377295,
+        "lng": 120.6501669
+      },
+      "address": "35860苗栗縣苑裡鎮房裡里博愛路38-2號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ-ZMC9WIJaTQRNMFrKmjqM_Y",
+      "name_zh": "心雕居-綠色餐飲指南餐廳",
+      "rating": 5,
+      "total_ratings": 15,
+      "location": {
+        "lat": 24.454962599999998,
+        "lng": 120.6449647
+      },
+      "address": "358苗栗縣苑裡鎮出水路64號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJKTwKFewJaTQRk8ZuPM4YwsM",
+      "name_zh": "阿財牛肉麵",
+      "rating": 4.7,
+      "total_ratings": 45,
+      "location": {
+        "lat": 24.4411673,
+        "lng": 120.65432690000002
+      },
+      "address": "358苗栗縣苑裡鎮信義路",
+      "note": "中式麵館",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJU3vqbAIJaTQRgSPfW_VgWlg",
+      "name_zh": "超美味麵担",
+      "rating": 4.6,
+      "total_ratings": 28,
+      "location": {
+        "lat": 24.443153499999998,
+        "lng": 120.65255710000001
+      },
+      "address": "358苗栗縣苑裡鎮苑南里天下路75號",
+      "note": "台式餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJQ-G5PxsJaTQRLNjS9seLCmk",
+      "name_zh": "潮麻吉-香雞潮牌-苗栗苑裡店",
+      "rating": 4.4,
+      "total_ratings": 71,
+      "location": {
+        "lat": 24.441669500000003,
+        "lng": 120.6525758
+      },
+      "address": "358苗栗縣苑裡鎮苑南里和平路165號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJtfgCusMJaTQR3gqHGAukEy8",
+      "name_zh": "好滷棧",
+      "rating": 4.3,
+      "total_ratings": 37,
+      "location": {
+        "lat": 24.441682,
+        "lng": 120.6556469
+      },
+      "address": "358苗栗縣苑裡鎮苑南里新生路69號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ3XF1CEUJaTQRyMd8iSWhp_A",
+      "name_zh": "大萊三鮮蒸餃-苑裡店",
+      "rating": 4.2,
+      "total_ratings": 74,
+      "location": {
+        "lat": 24.4403409,
+        "lng": 120.65364249999999
+      },
+      "address": "358苗栗縣苑裡鎮客庄里新興路66號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJFeqFNjoJaTQRxWe8Z6roMMo",
+      "name_zh": "大高雄碳烤店",
+      "rating": 4.3,
+      "total_ratings": 82,
+      "location": {
+        "lat": 24.439569000000002,
+        "lng": 120.64984549999998
+      },
+      "address": "358苗栗縣苑裡鎮客庄里中山路19號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ40TgfjsJaTQR7MBezCALXMc",
+      "name_zh": "苑裡永和豆漿",
+      "rating": 4.1,
+      "total_ratings": 114,
+      "location": {
+        "lat": 24.4423738,
+        "lng": 120.65178180000001
+      },
+      "address": "358苗栗縣苑裡鎮苑南里天下路35號",
+      "note": "台式餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJk2Va7igTaTQRdW0syAR5UOQ",
+      "name_zh": "有一家炸物飲品",
+      "rating": 4.4,
+      "total_ratings": 54,
+      "location": {
+        "lat": 24.4377065,
+        "lng": 120.6578973
+      },
+      "address": "358苗栗县苑里镇客庄里75-16號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJO99VR_kJaTQRqVImCmHfJNs",
+      "name_zh": "特食 排骨酥麵 紹興滷肉飯（苑裡店)",
+      "rating": 4.3,
+      "total_ratings": 265,
+      "location": {
+        "lat": 24.4406422,
+        "lng": 120.6520979
+      },
+      "address": "358苗栗縣苑裡鎮苑南里新興路33號號旁",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJqZh8_DwJaTQRh8ZTpZdrgOE",
+      "name_zh": "合味小吃",
+      "rating": 4.7,
+      "total_ratings": 24,
+      "location": {
+        "lat": 24.4446725,
+        "lng": 120.6521857
+      },
+      "address": "358苗栗縣苑裡鎮苑北里中山路191號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJqQ542sQJaTQRH-T967T68sA",
+      "name_zh": "永世王朝薑母鴨/苑裡總店",
+      "rating": 4.7,
+      "total_ratings": 172,
+      "location": {
+        "lat": 24.4376171,
+        "lng": 120.649504
+      },
+      "address": "358苗栗縣苑裡鎮房裡里中山路8-12號",
+      "note": "火鍋店",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJWZpVbDsJaTQR2_8cLp1IWR0",
+      "name_zh": "苑裡阿力香雞排",
+      "rating": 4.2,
+      "total_ratings": 64,
+      "location": {
+        "lat": 24.4409909,
+        "lng": 120.65249929999997
+      },
+      "address": "358苗栗縣苑裡鎮大同路",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJNanAQlQJaTQRRHt8jrn5rpk",
+      "name_zh": "巧味小吃",
+      "rating": 3.8,
+      "total_ratings": 4,
+      "location": {
+        "lat": 24.4434726,
+        "lng": 120.653905
+      },
+      "address": "358苗栗縣苑裡鎮苑東里大同路97-1號",
+      "note": "中式餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJt0wSljwJaTQRiNXZAMfWbfA",
+      "name_zh": "嘉鄉小吃店",
+      "rating": 3.3,
+      "total_ratings": 16,
+      "location": {
+        "lat": 24.443966800000002,
+        "lng": 120.65360729999998
+      },
+      "address": "358苗栗縣苑裡鎮苑南里為公路80號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJictpj-oJaTQR1sqD2DQa-lk",
+      "name_zh": "阿翠蚵嗲",
+      "rating": 4.6,
+      "total_ratings": 96,
+      "location": {
+        "lat": 24.443142299999998,
+        "lng": 120.6524828
+      },
+      "address": "358苗栗縣苑裡鎮苑南里為公路",
+      "note": "中式餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJCTPt2zwJaTQRMRmPS6zMOlI",
+      "name_zh": "九龍廣東粥 - 苑裡店",
+      "rating": 4.8,
+      "total_ratings": 72,
+      "location": {
+        "lat": 24.444222,
+        "lng": 120.6535508
+      },
+      "address": "358苗栗縣苑裡鎮苑東里天下路94號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJdeXJ-RAJaTQRAHA-jtBvlcs",
+      "name_zh": "豪俐鐵板沙威瑪-餐車",
+      "rating": 4.8,
+      "total_ratings": 12,
+      "location": {
+        "lat": 24.4428499,
+        "lng": 120.65251090000001
+      },
+      "address": "358苗栗縣苑裡鎮苑南里天下路78號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJX-CNCAAJaTQRXZVxgne2SpQ",
+      "name_zh": "胖胖深夜食堂",
+      "rating": 4.3,
+      "total_ratings": 24,
+      "location": {
+        "lat": 24.440321599999997,
+        "lng": 120.6503176
+      },
+      "address": "358苗栗縣苑裡鎮客庄里中山路87號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJs7DK7QAJaTQRWGZVjmaCuyw",
+      "name_zh": "初心食堂",
+      "rating": 4.7,
+      "total_ratings": 34,
+      "location": {
+        "lat": 24.443157,
+        "lng": 120.6554249
+      },
+      "address": "358苗栗縣苑裡鎮苑東里建國路48號",
+      "note": "早餐店",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ9QfQzukJaTQRYI17CGN_4YI",
+      "name_zh": "好運來食堂炒飯專賣店",
+      "rating": 4.2,
+      "total_ratings": 66,
+      "location": {
+        "lat": 24.442788999999998,
+        "lng": 120.6550213
+      },
+      "address": "358苗栗縣苑裡鎮苑南里仁愛街2之7號",
+      "note": "中式餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJG_To4jsJaTQRN0i5e5Jxiz4",
+      "name_zh": "回家苑裡店芋頭米粉",
+      "rating": 5,
+      "total_ratings": 18,
+      "location": {
+        "lat": 24.442200699999997,
+        "lng": 120.655071
+      },
+      "address": "358苗栗縣苑裡鎮苑南里為公路12號-1號",
+      "note": "日式餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ_____wAIaTQR-aYKt0G7T6k",
+      "name_zh": "吳媽媽創意廚房",
+      "rating": 4.4,
+      "total_ratings": 2625,
+      "location": {
+        "lat": 24.4976027,
+        "lng": 120.7066623
+      },
+      "address": "357苗栗縣通霄鎮內湖里53-5號",
+      "note": "中式餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJf6sq1jsIaTQRtDd4tNNoHhw",
+      "name_zh": "通霄 王記煎包・蛋餅",
+      "rating": 4.3,
+      "total_ratings": 1014,
+      "location": {
+        "lat": 24.4890805,
+        "lng": 120.68076889999999
+      },
+      "address": "357苗栗縣通霄鎮通西里信義路119號",
+      "note": "早餐店",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJvymstBYJaTQRGZzOCr4zJTs",
+      "name_zh": "通霄交流道下便當麵店",
+      "rating": 4.2,
+      "total_ratings": 36,
+      "location": {
+        "lat": 24.496465,
+        "lng": 120.7022722
+      },
+      "address": "357苗栗縣通霄鎮內湖里烏眉路120號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJCyqX2jkIaTQRHSljwx0rI_w",
+      "name_zh": "青松園餐廳",
+      "rating": 4.3,
+      "total_ratings": 995,
+      "location": {
+        "lat": 24.4960614,
+        "lng": 120.6826181
+      },
+      "address": "357苗栗縣通霄鎮通灣里中山路89號",
+      "note": "中式餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJZUOwC7QJaTQRFLkG0qJe69U",
+      "name_zh": "梁陳吉日複合式乾燥花餐廳",
+      "rating": 4.7,
+      "total_ratings": 619,
+      "location": {
+        "lat": 24.488178700000002,
+        "lng": 120.679678
+      },
+      "address": "357苗栗縣通霄鎮通西里福德路32號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJe_NOiyAJaTQRjEgvvtqbk7w",
+      "name_zh": "水食堂",
+      "rating": 4.6,
+      "total_ratings": 254,
+      "location": {
+        "lat": 24.4885059,
+        "lng": 120.67978529999998
+      },
+      "address": "357苗栗縣通霄鎮通西里和平路4-1號",
+      "note": "日式餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJScPF8jwIaTQRomUjsKnbw8U",
+      "name_zh": "陳仔食堂",
+      "rating": 4.9,
+      "total_ratings": 317,
+      "location": {
+        "lat": 24.4914044,
+        "lng": 120.684754
+      },
+      "address": "357苗栗縣通霄鎮通東里中正路2號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJlxfpfTkIaTQRd9XyLeOaliU",
+      "name_zh": "通霄賴家煎包",
+      "rating": 4.4,
+      "total_ratings": 405,
+      "location": {
+        "lat": 24.4892462,
+        "lng": 120.6808406
+      },
+      "address": "357苗栗縣通霄鎮通東里信義路150號",
+      "note": "早餐店",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJTZ019HMJaTQR3ZVv9ahC0xo",
+      "name_zh": "滷飄香川味牛肉麵",
+      "rating": 4.5,
+      "total_ratings": 376,
+      "location": {
+        "lat": 24.490047399999998,
+        "lng": 120.6794967
+      },
+      "address": "357苗栗縣通霄鎮通西里中興路90號",
+      "note": "中式麵館",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJFZaN2_UJaTQRbklYLVmkt6A",
+      "name_zh": "通霄老李紅燒牛肉麵",
+      "rating": 4.5,
+      "total_ratings": 377,
+      "location": {
+        "lat": 24.4894363,
+        "lng": 120.67884730000002
+      },
+      "address": "357苗栗縣通霄鎮通西里光復路57號",
+      "note": "中式麵館",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJuygSNzoIaTQRZHLB-vzS61Q",
+      "name_zh": "佳味手工赤肉羹",
+      "rating": 4.3,
+      "total_ratings": 414,
+      "location": {
+        "lat": 24.4914211,
+        "lng": 120.67919819999997
+      },
+      "address": "357苗栗縣通霄鎮通西里中山路170號",
+      "note": "亞洲風味餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ-eQomoUJaTQRDlxkyFcXlK0",
+      "name_zh": "通霄幸福食堂",
+      "rating": 4.4,
+      "total_ratings": 207,
+      "location": {
+        "lat": 24.490242799999997,
+        "lng": 120.6799987
+      },
+      "address": "357苗栗縣通霄鎮通西里中正路69號1樓",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJf6sq1jsIaTQR9zPLGM67Phs",
+      "name_zh": "通霄邱煎包",
+      "rating": 4.2,
+      "total_ratings": 194,
+      "location": {
+        "lat": 24.4888902,
+        "lng": 120.68130930000001
+      },
+      "address": "357苗栗縣通霄鎮通東里仁愛路40號",
+      "note": "早餐店",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJX_p7ym2naTQRlDyTfbEx2ns",
+      "name_zh": "林記北平烤鴨",
+      "rating": 4.8,
+      "total_ratings": 78,
+      "location": {
+        "lat": 24.5078541,
+        "lng": 120.68843009999999
+      },
+      "address": "357苗栗縣通霄鎮通灣里124號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJM6z5R0oJaTQROwodsSJQ30w",
+      "name_zh": "通霄郵局煎餃",
+      "rating": 4.5,
+      "total_ratings": 128,
+      "location": {
+        "lat": 24.4905735,
+        "lng": 120.67976349999999
+      },
+      "address": "357苗栗縣通霄鎮通西里中正路74號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJx5X-ezkIaTQRptpise6vWUI",
+      "name_zh": "通霄美食餐廳",
+      "rating": 4.2,
+      "total_ratings": 249,
+      "location": {
+        "lat": 24.4888203,
+        "lng": 120.6806482
+      },
+      "address": "357苗栗縣通霄鎮通西里信義路148號",
+      "note": "台式餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJGUH3ZZIJaTQR8_fAECr66sI",
+      "name_zh": "今夜不打烊",
+      "rating": 4.9,
+      "total_ratings": 44,
+      "location": {
+        "lat": 24.4905299,
+        "lng": 120.6840184
+      },
+      "address": "357苗栗縣通霄鎮自強路",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJtaP8hG4JaTQRmgQTfLp3Y04",
+      "name_zh": "家庭廚房Familykitchen",
+      "rating": 4.7,
+      "total_ratings": 173,
+      "location": {
+        "lat": 24.4917747,
+        "lng": 120.68003180000001
+      },
+      "address": "357苗栗縣通霄鎮通西里中興路136-1號",
+      "note": "家庭餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ9WukZFIJaTQR50acewzHwqA",
+      "name_zh": "貓巷紅樓 (僅供外帶)",
+      "rating": 5,
+      "total_ratings": 12,
+      "location": {
+        "lat": 24.489013099999998,
+        "lng": 120.6797191
+      },
+      "address": "357苗栗縣通霄鎮通西里和平路25號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ7XWPOjoIaTQRt3GXiF0Ii8s",
+      "name_zh": "霄餚滷-通霄總店",
+      "rating": 4.4,
+      "total_ratings": 154,
+      "location": {
+        "lat": 24.4894525,
+        "lng": 120.6789678
+      },
+      "address": "357苗栗縣通霄鎮通西里光復路53之1號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJayNLg8cJaTQRpEOBStoJrVc",
+      "name_zh": "愛嗑94泰［經典/創意］泰式料理《隱藏版美食》通霄人氣泰國菜｜異國料理",
+      "rating": 4.5,
+      "total_ratings": 201,
+      "location": {
+        "lat": 24.4904261,
+        "lng": 120.6827941
+      },
+      "address": "357苗栗縣通霄鎮通東里忠孝路98號",
+      "note": "泰國餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJB26GKAAJaTQREBDOag596gA",
+      "name_zh": "廣西桂林米粉",
+      "rating": 4.9,
+      "total_ratings": 8,
+      "location": {
+        "lat": 24.4902902,
+        "lng": 120.67872279999999
+      },
+      "address": "357苗栗縣通霄鎮通西里中山路134號。號",
+      "note": "中式餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJbc0cpK0JaTQRdO1azED5D-k",
+      "name_zh": "菁饌手作炸物",
+      "rating": 5,
+      "total_ratings": 24,
+      "location": {
+        "lat": 24.4901901,
+        "lng": 120.67844869999998
+      },
+      "address": "357苗栗縣通霄鎮通西里中山路183號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJkwTwwjkIaTQRbsZ-0NK9VX4",
+      "name_zh": "令和燒烤店",
+      "rating": 4.5,
+      "total_ratings": 39,
+      "location": {
+        "lat": 24.4882431,
+        "lng": 120.6783462
+      },
+      "address": "357苗栗縣通霄鎮通西里中山路68號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJmZ-FVQAJaTQROmFNYWmZP_Y",
+      "name_zh": "通霄張記食堂",
+      "rating": 4.6,
+      "total_ratings": 9,
+      "location": {
+        "lat": 24.490781,
+        "lng": 120.6783299
+      },
+      "address": "357苗栗縣通霄鎮通西里海濱路92號",
+      "note": "中式餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJMTMjpl4JaTQRLWtFA-BGRPk",
+      "name_zh": "芳壽司",
+      "rating": 4.7,
+      "total_ratings": 18,
+      "location": {
+        "lat": 24.4892102,
+        "lng": 120.6794801
+      },
+      "address": "357苗栗縣通霄鎮通西里光復路41號",
+      "note": "日式餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJKwquOjoIaTQRjl3ZACjr3Aw",
+      "name_zh": "A Man Haichan Dian",
+      "rating": 4,
+      "total_ratings": 267,
+      "location": {
+        "lat": 24.490202699999998,
+        "lng": 120.6796211
+      },
+      "address": "357苗栗縣通霄鎮通西里中興路88號357",
+      "note": "海鮮餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": true,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ-dmqfjkIaTQR1PJvGDHyCtQ",
+      "name_zh": "林家烤肉",
+      "rating": 4.4,
+      "total_ratings": 102,
+      "location": {
+        "lat": 24.4889393,
+        "lng": 120.68071599999998
+      },
+      "address": "357苗栗縣通霄鎮通東里光復路21號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ41MyjzkIaTQRFa53hx0xmso",
+      "name_zh": "四季複合式餐飲（原大西洋冰城）",
+      "rating": 4.6,
+      "total_ratings": 24,
+      "location": {
+        "lat": 24.4892032,
+        "lng": 120.6795607
+      },
+      "address": "357苗栗縣通霄鎮通西里光復路39號",
+      "note": "家庭餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJDbmhj2IJaTQRyb-qfi5ZNxs",
+      "name_zh": "張家羊肉爐",
+      "rating": 4.4,
+      "total_ratings": 32,
+      "location": {
+        "lat": 24.489943,
+        "lng": 120.67858659999999
+      },
+      "address": "357苗栗縣通霄鎮通西里中山路118號",
+      "note": "火鍋店",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJdSCqD0YJaTQRVxjyH3x3Ado",
+      "name_zh": "阿忠豆花",
+      "rating": 4.4,
+      "total_ratings": 36,
+      "location": {
+        "lat": 24.4887752,
+        "lng": 120.680959
+      },
+      "address": "357苗栗縣通霄鎮通東里光復路5號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJh_U6NTgIaTQRjpJLVwjMaYU",
+      "name_zh": "好手沏紅茶冰專賣店-通霄店",
+      "rating": 4.4,
+      "total_ratings": 69,
+      "location": {
+        "lat": 24.487029600000003,
+        "lng": 120.67888060000001
+      },
+      "address": "357苗栗縣通霄鎮通西里信義路23號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJNbn2JjoIaTQRWMoEGB3JGrM",
+      "name_zh": "粥店(廣東粥專賣店)",
+      "rating": 4.5,
+      "total_ratings": 106,
+      "location": {
+        "lat": 24.4897316,
+        "lng": 120.67948759999999
+      },
+      "address": "357苗栗縣通霄鎮通西里中興路80號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJif7qKwAJaTQRj5gAuS5Fa0U",
+      "name_zh": "中興小吃店",
+      "rating": 5,
+      "total_ratings": 1,
+      "location": {
+        "lat": 24.4897402,
+        "lng": 120.67931739999999
+      },
+      "address": "357苗栗縣通霄鎮通西里中興路34號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJZ_ctrzkJaTQR-BM9nuK9Ag8",
+      "name_zh": "許阿北大腸包小腸",
+      "rating": 5,
+      "total_ratings": 1,
+      "location": {
+        "lat": 24.4905093,
+        "lng": 120.67950549999999
+      },
+      "address": "357苗栗縣通霄鎮土地銀行前",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJky_fOjoIaTQRKBFCGCNgyj0",
+      "name_zh": "阿力香雞排-通霄店",
+      "rating": 3.8,
+      "total_ratings": 55,
+      "location": {
+        "lat": 24.490332799999997,
+        "lng": 120.6794425
+      },
+      "address": "357苗栗縣通霄鎮通西里中興路79-1號",
+      "note": "雞肉料理餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJGS41So0JaTQRFebTxDYMi3Y",
+      "name_zh": "阿伯臭豆腐",
+      "rating": 4.6,
+      "total_ratings": 14,
+      "location": {
+        "lat": 24.490590899999997,
+        "lng": 120.67973540000001
+      },
+      "address": "357苗栗縣通霄鎮平元里信義路48號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ27C5-BsJaTQRIQ2SLSpHrMA",
+      "name_zh": "煎餃蘿蔔糕&玉米蛋餅",
+      "rating": 5,
+      "total_ratings": 21,
+      "location": {
+        "lat": 24.4905655,
+        "lng": 120.6798678
+      },
+      "address": "357苗栗縣通霄鎮通西里357",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJa4MySZIJaTQR0kZRPilIV7o",
+      "name_zh": "雞排大學",
+      "rating": 4,
+      "total_ratings": 14,
+      "location": {
+        "lat": 24.4905969,
+        "lng": 120.6799089
+      },
+      "address": "357苗栗縣通霄鎮通西里中正路72號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJZaoR4RkJaTQR9Z623j9RJ3k",
+      "name_zh": "小勇脆皮雞排湯翅",
+      "rating": 4.6,
+      "total_ratings": 20,
+      "location": {
+        "lat": 24.4892641,
+        "lng": 120.6793865
+      },
+      "address": "357苗栗縣通霄鎮通西里光復路45-1號",
+      "note": "速食餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJHaiOfDkIaTQRtInO6u5oBI0",
+      "name_zh": "通霄廟口(饒)油飯",
+      "rating": 4.6,
+      "total_ratings": 49,
+      "location": {
+        "lat": 24.488996999999998,
+        "lng": 120.68085749999999
+      },
+      "address": "357苗栗縣通霄鎮通東里光復路13號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJO5Jz1jsIaTQRWcHpboMN7j4",
+      "name_zh": "通霄小林牛肉麵",
+      "rating": 3.9,
+      "total_ratings": 122,
+      "location": {
+        "lat": 24.4894897,
+        "lng": 120.6807126
+      },
+      "address": "357苗栗縣通霄鎮通西里信義路133號",
+      "note": "餐廳",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJQ_zAF18JaTQRys5BLqlNJ7A",
+      "name_zh": "通霄劉家麵線",
+      "rating": 4.9,
+      "total_ratings": 51,
+      "location": {
+        "lat": 24.4888734,
+        "lng": 120.6813001
+      },
+      "address": "357苗栗縣通霄鎮通東里仁愛路38號",
+      "note": "早餐店",
+      "source": "api_2026-06-01",
       "name_is_ascii": false,
       "selected": false
     }

@@ -13,7 +13,7 @@
       "address": "350苗栗縣竹南鎮新南里公園路106號",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJ34G_NMhMaDQRNyqjSIi6OsM",
@@ -111,7 +111,7 @@
       "address": "350001苗栗縣竹南鎮竹南里民治街12號",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJqQ0yjDyzaTQRb_VbfCx8vIE",
@@ -125,7 +125,7 @@
       "address": "350苗栗縣竹南鎮照南里和平街95號",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJreTtl8dMaDQRPmzttSsAJ7A",
@@ -153,7 +153,7 @@
       "address": "350007苗栗縣竹南鎮正南里中山路47號",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJwXdXnTyzaTQR1KpJsr2XaJk",
@@ -293,7 +293,7 @@
       "address": "350苗栗縣竹南鎮佳興里永貞路三段59巷12弄16號",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJMy3WEESzaTQR5X4w39gH4-I",
@@ -362,6 +362,300 @@
       },
       "address": "351苗栗縣頭份市民族里中華路951號9樓",
       "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJlwkFOz0JaTQRi6udJ9pkIL8",
+      "name_zh": "N-square Hostel 任意。宿",
+      "rating": 4.6,
+      "total_ratings": 196,
+      "location": {
+        "lat": 24.4453806,
+        "lng": 120.65357309999997
+      },
+      "address": "358苗栗縣苑裡鎮苑北里成功路7巷9號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJHyiBypUPaTQRZZN4SCQ3o1I",
+      "name_zh": "灣麗甜馨",
+      "rating": 4.7,
+      "total_ratings": 73,
+      "location": {
+        "lat": 24.421762599999997,
+        "lng": 120.65924169999998
+      },
+      "address": "35866苗栗縣苑裡鎮田心里83之19",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJpU3DTl0JaTQRhUV-Xya2iKY",
+      "name_zh": "灣麗客庄｜苑裡民宿推薦｜苗栗民宿推薦｜平價民宿推薦｜包棟｜苑裡住宿｜苗栗住宿",
+      "rating": 4.9,
+      "total_ratings": 33,
+      "location": {
+        "lat": 24.436651899999998,
+        "lng": 120.6595244
+      },
+      "address": "358苗栗縣苑裡鎮客庄里中正路89號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ2R9EAQAJaTQRrnzgWUOidSc",
+      "name_zh": "汐岸拾光",
+      "rating": 5,
+      "total_ratings": 7,
+      "location": {
+        "lat": 24.432909199999997,
+        "lng": 120.6550485
+      },
+      "address": "358苗栗縣苑裡鎮客庄里客庄121-1號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJp13h-jwJaTQRLxApmEIHM3Y",
+      "name_zh": "國泰大旅社",
+      "rating": 3,
+      "total_ratings": 29,
+      "location": {
+        "lat": 24.4441411,
+        "lng": 120.65225389999999
+      },
+      "address": "35841苗栗縣苑裡鎮苑南里中山路182號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ8RhTIjsJaTQRpfRtjkrEe2k",
+      "name_zh": "信義伯爵",
+      "rating": 4,
+      "total_ratings": 2,
+      "location": {
+        "lat": 24.441299299999997,
+        "lng": 120.655031
+      },
+      "address": "358苗栗縣苑裡鎮苑南里信義路26巷1-2號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJy8sOZgAPaTQR18pfLR9_gxg",
+      "name_zh": "彬彬芭樂園",
+      "rating": 4.8,
+      "total_ratings": 5,
+      "location": {
+        "lat": 24.4194465,
+        "lng": 120.6396552
+      },
+      "address": "437臺中市大甲區銅安里長壽東西八路10號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJY28K-lsJaTQRnB26WF9lwGQ",
+      "name_zh": "可欣經絡養生個人工作室",
+      "rating": 5,
+      "total_ratings": 2,
+      "location": {
+        "lat": 24.4487371,
+        "lng": 120.6510649
+      },
+      "address": "358苗栗縣苑裡鎮介壽路200號2樓",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJHwJEvVgJaTQR4qRx-oPnehU",
+      "name_zh": "菜瓜的故鄉",
+      "rating": 5,
+      "total_ratings": 8,
+      "location": {
+        "lat": 24.442742,
+        "lng": 120.642695
+      },
+      "address": "358苗栗縣苑裡鎮海岸里海岸6鄰52號之7",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJYewViXkJaTQRqC-P4XqfUaw",
+      "name_zh": "翔賀居七期-苑裡世界路15戶",
+      "rating": 5,
+      "total_ratings": 1,
+      "location": {
+        "lat": 24.4348293,
+        "lng": 120.659261
+      },
+      "address": "358苗栗縣苑裡鎮客庄里世界路二段86號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJB0ojBwAJaTQRKu2B3WRdIDw",
+      "name_zh": "御和園汽車旅館",
+      "rating": 4.4,
+      "total_ratings": 14,
+      "location": {
+        "lat": 24.4657613,
+        "lng": 120.6644985
+      },
+      "address": "357苗栗縣通霄鎮五南里中山路522號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJMaeFUucJaTQRBIovBdsc0LQ",
+      "name_zh": "興億建設-億品居二期",
+      "rating": 5,
+      "total_ratings": 1,
+      "location": {
+        "lat": 24.4340309,
+        "lng": 120.64535079999999
+      },
+      "address": "358苗栗縣苑裡鎮房裡里介壽路51-7號358里介壽路51之7號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJTS6PhCIIaTQRHCrquSgMpeA",
+      "name_zh": "通霄會館",
+      "rating": 3.8,
+      "total_ratings": 94,
+      "location": {
+        "lat": 24.4954675,
+        "lng": 120.6890967
+      },
+      "address": "357苗栗縣通霄鎮平安里83-24號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJncq-0FYJaTQRLIW4haQGR30",
+      "name_zh": "沐明民宿",
+      "rating": 5,
+      "total_ratings": 28,
+      "location": {
+        "lat": 24.4897447,
+        "lng": 120.68556999999998
+      },
+      "address": "357苗栗縣通霄鎮平元里崇仁路30號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJL6WFSI2naTQRKQ8Qe4kdLps",
+      "name_zh": "牧草原民宿",
+      "rating": 4.7,
+      "total_ratings": 39,
+      "location": {
+        "lat": 24.513349700000003,
+        "lng": 120.6868698
+      },
+      "address": "7 鄰 64-9 號, 通灣里通霄鎮苗栗縣357",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJae7fFDoIaTQR8hFYDZ7u1yQ",
+      "name_zh": "苗栗通霄國賓大旅社☆火車站前 住宿推薦☆",
+      "rating": 4,
+      "total_ratings": 120,
+      "location": {
+        "lat": 24.491052399999997,
+        "lng": 120.6786929
+      },
+      "address": "357苗栗縣通霄鎮通西里中正路105號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJJROLeFQJaTQRiyPMDro28pQ",
+      "name_zh": "苗栗通霄好穗民宿。通霄民宿。通霄住宿。苗栗民宿。苗栗包棟。合法民宿。包棟。出差。背包客。旅遊。住宿",
+      "rating": 5,
+      "total_ratings": 41,
+      "location": {
+        "lat": 24.487507500000003,
+        "lng": 120.6793653
+      },
+      "address": "357苗栗縣通霄鎮通西里信義路45號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJfyHY9TkIaTQRYZJe_GxK-Ew",
+      "name_zh": "銀座大旅社",
+      "rating": 3.3,
+      "total_ratings": 115,
+      "location": {
+        "lat": 24.4895382,
+        "lng": 120.678591
+      },
+      "address": "357苗栗縣通霄鎮通西里光復路65號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJheK4tyIIaTQRgHyEvVeUkLQ",
+      "name_zh": "通霄凱旋大第",
+      "rating": 3.7,
+      "total_ratings": 25,
+      "location": {
+        "lat": 24.4947464,
+        "lng": 120.68903759999999
+      },
+      "address": "357苗栗縣通霄鎮平安里中正路187號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJJaWFSI2naTQRs84BdcoQIKc",
+      "name_zh": "幸福農場民宿",
+      "rating": 4.7,
+      "total_ratings": 3,
+      "location": {
+        "lat": 24.5131411,
+        "lng": 120.68832379999999
+      },
+      "address": "7 鄰 64-9 號, 通灣里通霄鎮苗栗縣357",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJs1ZaAHIIaTQRtkOYQReM8g4",
+      "name_zh": "蘆沐村風客棧",
+      "rating": 1.5,
+      "total_ratings": 2,
+      "location": {
+        "lat": 24.474261,
+        "lng": 120.7006296
+      },
+      "address": "357苗栗縣通霄鎮57號之1",
+      "source": "api_2026-06-01",
       "name_is_ascii": false,
       "selected": false
     }

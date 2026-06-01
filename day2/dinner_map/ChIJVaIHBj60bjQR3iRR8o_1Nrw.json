@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJVaIHBj60bjQR3iRR8o_1Nrw",
+  "name_zh": "西螺老牌臭豆腐",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 77,
+  "location": {
+    "lat": 23.799960499999997,
+    "lng": 120.45949089999999
+  },
+  "address": "648雲林縣西螺鎮福興里中山路171-1號",
+  "primary_type": "korean_restaurant",
+  "primary_type_label": "韓國餐廳",
+  "distance_km": 0.3,
+  "source": "api_2026-06-01",
+  "note": "韓國餐廳",
+  "name_is_ascii": false
+}

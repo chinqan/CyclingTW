@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ3YfC9LC1bjQR4BhjY14vaio",
+  "name_zh": "宥穎刈包四神湯店",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 268,
+  "location": {
+    "lat": 23.80259,
+    "lng": 120.45896300000001
+  },
+  "address": "648雲林縣西螺鎮光華里建興路319號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.33,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

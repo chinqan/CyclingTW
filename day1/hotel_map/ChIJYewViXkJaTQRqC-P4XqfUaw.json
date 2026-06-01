@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJYewViXkJaTQRqC-P4XqfUaw",
+  "name_zh": "翔賀居七期-苑裡世界路15戶",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 1,
+  "location": {
+    "lat": 24.4348293,
+    "lng": 120.659261
+  },
+  "address": "358苗栗縣苑裡鎮客庄里世界路二段86號",
+  "primary_type": "lodging",
+  "distance_km": 1.24,
+  "source": "api_2026-06-01",
+  "name_is_ascii": false
+}

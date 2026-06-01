@@ -1,16 +1,17 @@
 {
   "day": 2,
-  "origin": "新竹 / 竹南",
-  "destination": "鹿港 / 彰化",
+  "origin": "通霄",
+  "destination": "西螺",
   "distance_km_range": [
-    100,
-    115
+    130,
+    130
   ],
-  "main_route_text": "台61線 (西濱) → 台1線 → 台17線",
+  "main_route_text": "台61線 (西濱) → 台1線",
   "must_visit_landmarks": [
-    "好望角",
-    "通霄精鹽廠",
+    "苑裡",
     "大甲鎮瀾宮",
-    "鹿港老街"
+    "鹿港老街",
+    "埔鹽順澤宮",
+    "西螺大橋"
   ]
 }

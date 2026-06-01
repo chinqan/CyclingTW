@@ -1,0 +1,11 @@
+{
+  "place_id": "ChIJ1d0SuWSvQjQRpBm5GADnuXE",
+  "name_zh": "7-ELEVEN 神州門市",
+  "csv_type": "便利商店",
+  "location": {
+    "lat": 25.1260536,
+    "lng": 121.45239350000001
+  },
+  "search_keyword": "7-ELEVEN",
+  "source": "along_2026-06-01"
+}

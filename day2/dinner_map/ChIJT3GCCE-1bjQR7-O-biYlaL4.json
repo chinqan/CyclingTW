@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJT3GCCE-1bjQR7-O-biYlaL4",
+  "name_zh": "鴻園泰式雲南美食",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 186,
+  "location": {
+    "lat": 23.7953823,
+    "lng": 120.46227319999998
+  },
+  "address": "648雲林縣西螺鎮正興里公正一路53-1號",
+  "primary_type": "thai_restaurant",
+  "primary_type_label": "泰國餐廳",
+  "distance_km": 0.67,
+  "source": "api_2026-06-01",
+  "note": "泰國餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJCcExjRa0bjQRumiszF61XM8",
+  "name_zh": "飯桶創意熱炒美食",
+  "name_lang": "zh-TW",
+  "rating": 3.8,
+  "total_ratings": 206,
+  "location": {
+    "lat": 23.7992514,
+    "lng": 120.4552992
+  },
+  "address": "648雲林縣西螺鎮漢光里中山路261之1號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.71,
+  "source": "api_2026-06-01",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJf6sq1jsIaTQRtDd4tNNoHhw",
+  "name_zh": "通霄 王記煎包・蛋餅",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 1014,
+  "location": {
+    "lat": 24.4890805,
+    "lng": 120.68076889999999
+  },
+  "address": "357苗栗縣通霄鎮通西里信義路119號",
+  "primary_type": "breakfast_restaurant",
+  "primary_type_label": "早餐店",
+  "distance_km": 0.35,
+  "source": "api_2026-06-01",
+  "note": "早餐店",
+  "name_is_ascii": false
+}

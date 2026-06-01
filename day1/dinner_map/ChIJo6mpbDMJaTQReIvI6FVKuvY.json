@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJo6mpbDMJaTQReIvI6FVKuvY",
+  "name_zh": "茂焱肉圓",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 633,
+  "location": {
+    "lat": 24.443395199999998,
+    "lng": 120.65280100000001
+  },
+  "address": "358苗栗縣苑裡鎮苑南里天下路85號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.13,
+  "source": "api_2026-06-01",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJdzesGwC1bjQRNptycdoD0xQ",
+  "name_zh": "蠔蝦活蝦料理熱炒店-夏季烤蚵吃到飽",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 330,
+  "location": {
+    "lat": 23.798803000000003,
+    "lng": 120.465775
+  },
+  "address": "648雲林縣西螺鎮大園里大同路99號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.49,
+  "source": "api_2026-06-01",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

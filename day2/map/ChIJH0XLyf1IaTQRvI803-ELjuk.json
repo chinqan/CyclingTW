@@ -1,0 +1,25 @@
+{
+  "place_id": "ChIJH0XLyf1IaTQRvI803-ELjuk",
+  "name_zh": "埔鹽順澤宮",
+  "csv_type": "景點",
+  "location": {
+    "lat": 23.9966546,
+    "lng": 120.47491219999999
+  },
+  "search_keyword": "埔鹽順澤宮 彰化縣埔鹽鄉",
+  "source": "api_2026-06-01",
+  "rating": 4.7,
+  "total_ratings": 2152,
+  "address": "516彰化縣埔鹽鄉埔鹽村中正路55號",
+  "primary_type": "place_of_worship",
+  "opening_hours_text": [
+    "Monday: 6:00 AM – 6:00 PM",
+    "Tuesday: 6:00 AM – 6:00 PM",
+    "Wednesday: 6:00 AM – 6:00 PM",
+    "Thursday: 6:00 AM – 6:00 PM",
+    "Friday: 6:00 AM – 6:00 PM",
+    "Saturday: 6:00 AM – 6:00 PM",
+    "Sunday: 6:00 AM – 6:00 PM"
+  ],
+  "editorial_summary": "This temple gained fame when a Norwegian ironman triathlon winner wore a hat from it in competition."
+}

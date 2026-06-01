@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ0fzsYQ4JaTQRgMAwKGYYVcI",
+  "name_zh": "金海味平價美食",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 64,
+  "location": {
+    "lat": 24.4377295,
+    "lng": 120.6501669
+  },
+  "address": "35860苗栗縣苑裡鎮房裡里博愛路38-2號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.65,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

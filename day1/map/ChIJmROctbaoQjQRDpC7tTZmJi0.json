@@ -1,0 +1,11 @@
+{
+  "place_id": "ChIJmROctbaoQjQRDpC7tTZmJi0",
+  "name_zh": "7-ELEVEN 蘆樂門市",
+  "csv_type": "便利商店",
+  "location": {
+    "lat": 25.0860895,
+    "lng": 121.4629272
+  },
+  "search_keyword": "7-ELEVEN",
+  "source": "along_2026-06-01"
+}

@@ -3,12 +3,12 @@
   "name_zh": "江戶壽司（桃園）",
   "csv_type": "餐廳大休",
   "rating": 4.8,
-  "total_ratings": 534,
+  "total_ratings": 533,
   "location": {
     "lat": 24.987724699999998,
     "lng": 121.01464919999998
   },
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-01",
   "note": "12:00-13:30午餐大休 週一公休改海晏漁村料理",
   "opening_hours_text": [
     "Monday: Closed",

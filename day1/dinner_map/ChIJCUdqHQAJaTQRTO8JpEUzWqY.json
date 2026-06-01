@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJCUdqHQAJaTQRTO8JpEUzWqY",
+  "name_zh": "初鳴鍋物-苑裡店",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 969,
+  "location": {
+    "lat": 24.442024699999997,
+    "lng": 120.65167620000001
+  },
+  "address": "358苗栗縣苑裡鎮苑南里天下路31號",
+  "primary_type": "hot_pot_restaurant",
+  "primary_type_label": "火鍋店",
+  "distance_km": 0.16,
+  "source": "api_2026-06-01",
+  "note": "火鍋店",
+  "name_is_ascii": false
+}

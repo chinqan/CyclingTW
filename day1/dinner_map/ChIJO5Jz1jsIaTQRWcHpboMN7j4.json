@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJO5Jz1jsIaTQRWcHpboMN7j4",
+  "name_zh": "通霄小林牛肉麵",
+  "name_lang": "zh-TW",
+  "rating": 3.9,
+  "total_ratings": 122,
+  "location": {
+    "lat": 24.4894897,
+    "lng": 120.6807126
+  },
+  "address": "357苗栗縣通霄鎮通西里信義路133號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.31,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

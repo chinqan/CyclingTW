@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ0SojpDy1bjQRFRxWzRIFmvk",
+  "name_zh": "西螺豆菜麵｜傳統佳餚｜知名小吃｜四代70年傳承｜電視報章雜誌報導｜必吃好味道｜雲林西螺美食｜午餐晚餐宵夜推薦",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 157,
+  "location": {
+    "lat": 23.7972601,
+    "lng": 120.459199
+  },
+  "address": "64855雲林縣西螺鎮漢光里建興路119號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.54,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

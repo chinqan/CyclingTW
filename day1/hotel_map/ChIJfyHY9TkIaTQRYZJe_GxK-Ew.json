@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJfyHY9TkIaTQRYZJe_GxK-Ew",
+  "name_zh": "銀座大旅社",
+  "name_lang": "zh-TW",
+  "rating": 3.3,
+  "total_ratings": 115,
+  "location": {
+    "lat": 24.4895382,
+    "lng": 120.678591
+  },
+  "address": "357苗栗縣通霄鎮通西里光復路65號",
+  "primary_type": "hotel",
+  "distance_km": 0.21,
+  "source": "api_2026-06-01",
+  "name_is_ascii": false
+}

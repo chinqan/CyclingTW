@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJKd9teBa0bjQRJWKUArWkTSE",
+  "name_zh": "東城北方麵食館",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 2135,
+  "location": {
+    "lat": 23.800597699999997,
+    "lng": 120.4565422
+  },
+  "address": "648雲林縣西螺鎮中興里延平路283之1號",
+  "primary_type": "chinese_noodle_restaurant",
+  "primary_type_label": "中式麵館",
+  "distance_km": 0.55,
+  "source": "api_2026-06-01",
+  "note": "中式麵館",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ40TgfjsJaTQR7MBezCALXMc",
+  "name_zh": "苑裡永和豆漿",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 114,
+  "location": {
+    "lat": 24.4423738,
+    "lng": 120.65178180000001
+  },
+  "address": "358苗栗縣苑裡鎮苑南里天下路35號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.12,
+  "source": "api_2026-06-01",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

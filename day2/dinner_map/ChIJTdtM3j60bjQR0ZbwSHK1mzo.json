@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJTdtM3j60bjQR0ZbwSHK1mzo",
+  "name_zh": "西螺三角大水餃",
+  "name_lang": "zh-TW",
+  "rating": 3.8,
+  "total_ratings": 1365,
+  "location": {
+    "lat": 23.801586999999998,
+    "lng": 120.46336369999999
+  },
+  "address": "648雲林縣西螺鎮中和里觀音街12號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.15,
+  "source": "api_2026-06-01",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

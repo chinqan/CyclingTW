@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJH0mTDxa0bjQRRGuLJftYw0s",
+  "name_zh": "大眾盒餐便當",
+  "name_lang": "zh-TW",
+  "rating": 3.9,
+  "total_ratings": 153,
+  "location": {
+    "lat": 23.799363,
+    "lng": 120.458028
+  },
+  "address": "648雲林縣西螺鎮漢光里平和路125號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.46,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJj9k8JwC1bjQRAyFU2ZZwX1k",
+  "name_zh": "誠石火鍋 西螺店",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 269,
+  "location": {
+    "lat": 23.796488699999998,
+    "lng": 120.4621154
+  },
+  "address": "64857雲林縣西螺鎮正興里公正一路99號",
+  "primary_type": "hot_pot_restaurant",
+  "primary_type_label": "火鍋店",
+  "distance_km": 0.55,
+  "source": "api_2026-06-01",
+  "note": "火鍋店",
+  "name_is_ascii": false
+}

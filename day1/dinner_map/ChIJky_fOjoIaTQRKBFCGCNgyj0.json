@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJky_fOjoIaTQRKBFCGCNgyj0",
+  "name_zh": "阿力香雞排-通霄店",
+  "name_lang": "zh-TW",
+  "rating": 3.8,
+  "total_ratings": 55,
+  "location": {
+    "lat": 24.490332799999997,
+    "lng": 120.6794425
+  },
+  "address": "357苗栗縣通霄鎮通西里中興路79-1號",
+  "primary_type": "chicken_restaurant",
+  "primary_type_label": "雞肉料理餐廳",
+  "distance_km": 0.16,
+  "source": "api_2026-06-01",
+  "note": "雞肉料理餐廳",
+  "name_is_ascii": false
+}

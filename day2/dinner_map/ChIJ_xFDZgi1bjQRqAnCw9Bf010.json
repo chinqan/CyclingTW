@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ_xFDZgi1bjQRqAnCw9Bf010",
+  "name_zh": "巨無霸飯麵食堂",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 1,
+  "location": {
+    "lat": 23.799434599999998,
+    "lng": 120.4590854
+  },
+  "address": "648雲林縣西螺鎮漢光里建興路207號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.36,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

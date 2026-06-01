@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJFVl5FTS0bjQRigRs_o2CNCk",
+  "name_zh": "左岸101庭園餐廳",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 1238,
+  "location": {
+    "lat": 23.797002,
+    "lng": 120.4775446
+  },
+  "address": "648雲林縣西螺鎮大園里光復東路101號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.67,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

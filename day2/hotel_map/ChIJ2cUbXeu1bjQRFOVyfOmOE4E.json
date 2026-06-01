@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ2cUbXeu1bjQRFOVyfOmOE4E",
+  "name_zh": "西螺巴布客住宿",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 76,
+  "location": {
+    "lat": 23.8011098,
+    "lng": 120.46026839999999
+  },
+  "address": "648雲林縣西螺鎮福興里延平路167號",
+  "primary_type": "lodging",
+  "distance_km": 0.17,
+  "source": "api_2026-06-01",
+  "name_is_ascii": false
+}

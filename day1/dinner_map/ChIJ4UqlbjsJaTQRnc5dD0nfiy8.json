@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ4UqlbjsJaTQRnc5dD0nfiy8",
+  "name_zh": "苑裡菜市場炸雞",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 1344,
+  "location": {
+    "lat": 24.4434108,
+    "lng": 120.65412740000001
+  },
+  "address": "358苗栗縣苑裡鎮苑南里大同路108號",
+  "primary_type": "meal_takeaway",
+  "primary_type_label": "外賣餐廳",
+  "distance_km": 0.27,
+  "source": "api_2026-06-01",
+  "note": "外賣餐廳",
+  "name_is_ascii": false
+}

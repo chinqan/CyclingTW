@@ -1,0 +1,17 @@
+{
+  "place_id": "ChIJ-bYnJP4KaTQRSJr2I1ap9Dg",
+  "name_zh": "原豆粹食 GOOD SOYFOODS",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 896,
+  "location": {
+    "lat": 24.440114899999998,
+    "lng": 120.65431310000001
+  },
+  "address": "358苗栗縣苑裡鎮苑南里新興路86-1號",
+  "primary_type": null,
+  "primary_type_label": null,
+  "distance_km": 0.47,
+  "source": "api_2026-06-01",
+  "name_is_ascii": false
+}

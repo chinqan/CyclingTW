@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJZ_ctrzkJaTQR-BM9nuK9Ag8",
+  "name_zh": "許阿北大腸包小腸",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 1,
+  "location": {
+    "lat": 24.4905093,
+    "lng": 120.67950549999999
+  },
+  "address": "357苗栗縣通霄鎮土地銀行前",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.15,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

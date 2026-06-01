@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJfeWtJD60bjQRo3vPrr00Pj4",
+  "name_zh": "福記煙燻鵝肉",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 1811,
+  "location": {
+    "lat": 23.801468500000002,
+    "lng": 120.4590888
+  },
+  "address": "648雲林縣西螺鎮光華里建興路277號",
+  "primary_type": "chinese_noodle_restaurant",
+  "primary_type_label": "中式麵館",
+  "distance_km": 0.29,
+  "source": "api_2026-06-01",
+  "note": "中式麵館",
+  "name_is_ascii": false
+}

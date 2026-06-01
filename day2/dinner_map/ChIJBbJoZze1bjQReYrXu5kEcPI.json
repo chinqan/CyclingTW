@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJBbJoZze1bjQReYrXu5kEcPI",
+  "name_zh": "西螺美食家味鮮食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 37,
+  "location": {
+    "lat": 23.7991982,
+    "lng": 120.45814600000001
+  },
+  "address": "648雲林縣西螺鎮漢光里平和路117號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.46,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

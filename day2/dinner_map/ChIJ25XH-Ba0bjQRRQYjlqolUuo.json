@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ25XH-Ba0bjQRRQYjlqolUuo",
+  "name_zh": "雅芳小館",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 87,
+  "location": {
+    "lat": 23.7982257,
+    "lng": 120.45610850000001
+  },
+  "address": "648雲林縣西螺鎮漢光里中正路230號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.69,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

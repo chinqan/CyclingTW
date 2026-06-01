@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJobtIma4JaTQRQQSXEBksOVs",
+  "name_zh": "弎圓食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 310,
+  "location": {
+    "lat": 24.444528,
+    "lng": 120.6524405
+  },
+  "address": "358苗栗縣苑裡鎮苑北里中山路190號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 0.16,
+  "source": "api_2026-06-01",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJX-CNCAAJaTQRXZVxgne2SpQ",
+  "name_zh": "胖胖深夜食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 24,
+  "location": {
+    "lat": 24.440321599999997,
+    "lng": 120.6503176
+  },
+  "address": "358苗栗縣苑裡鎮客庄里中山路87號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.37,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ9xkNTQAJaTQRODWprdkY_M8",
+  "name_zh": "允記麵食館（必吃苑裡銅板美食、豬肉餡餅、蘿蔔絲餅、蔥油拌麵、番茄海鮮麵 、早午餐、晚餐首選推薦）",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 114,
+  "location": {
+    "lat": 24.441735100000002,
+    "lng": 120.65554789999999
+  },
+  "address": "358苗栗縣苑裡鎮苑南里為公路3號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.45,
+  "source": "api_2026-06-01",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

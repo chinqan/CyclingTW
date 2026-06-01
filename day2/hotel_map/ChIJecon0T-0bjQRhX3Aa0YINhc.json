@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJecon0T-0bjQRhX3Aa0YINhc",
+  "name_zh": "紅橋民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 104,
+  "location": {
+    "lat": 23.803265999999997,
+    "lng": 120.4593954
+  },
+  "address": "648雲林縣西螺鎮建興路344號",
+  "primary_type": "inn",
+  "distance_km": 0.33,
+  "source": "api_2026-06-01",
+  "name_is_ascii": false
+}

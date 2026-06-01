@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJeeHY0BW0bjQRzcEPqEI78-Y",
+  "name_zh": "老屋家廚料理",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 427,
+  "location": {
+    "lat": 23.800753200000003,
+    "lng": 120.45627289999999
+  },
+  "address": "648雲林縣西螺鎮中興里延平路376號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.58,
+  "source": "api_2026-06-01",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

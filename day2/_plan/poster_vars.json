@@ -2,27 +2,27 @@
   "day": 2,
   "origin_label": "苗栗竹南",
   "destination_label": "彰化鹿港",
-  "distance_range": "約 99.7 公里",
+  "distance_range": "約 99.0 公里",
   "subtitle": "西濱風車海岸南行",
   "orientation": "horizontal_landscape_3_2",
   "main_visual": {
-    "place_id": "ChIJVVVVVWWuaTQRsf_BtcIo5Yo",
-    "location_desc": "苗栗後龍「好望角風景區」",
-    "scene_elements": "巨型白色風力發電機組矗立於翠綠山丘、壯闊的台灣海峽海岸線延伸至天際、藍天白雲下風車緩慢旋轉",
-    "action": "站在山丘觀景台邊、雙手撐在欄杆上遠眺海岸風車群、公路車停靠在身旁",
-    "expression": "讚嘆、壯闊、心曠神怡"
+    "place_id": "ChIJrZs43EK0bjQRK3XsEqYto-Y",
+    "location_desc": "雲林縣西螺「西螺大橋」",
+    "scene_elements": "",
+    "action": "",
+    "expression": ""
   },
   "small_avatar": {
-    "place_id": "ChIJQ5bTDzuzaTQRnzEViKsrqdE",
-    "location_desc": "苗栗竹南「竹南車站」",
-    "scenario": "在車站前廣場與單車合影、背包掛在車後架準備南下",
-    "action": "跨上單車準備離開車站出發",
-    "expression": "精神飽滿、信心十足、迎向新一天"
+    "place_id": "ChIJJ5R-bjoIaTQRmYc9tYdbBqk",
+    "location_desc": "苗栗縣通霄「通霄車站」",
+    "scenario": "",
+    "action": "",
+    "expression": ""
   },
-  "geographic_notes": "竹南車站在畫面右側（東側）、鹿港老街在畫面左側（西側）",
-  "allowed_elements": "台灣海峽海岸線、白色風力發電機組、台61線西濱公路、大甲媽祖廟剪影、鹿港紅磚老街輪廓",
-  "composition": "主角在畫面中央偏上、竹南車站在右上方小分身、鹿港老街在畫面左側遠景、沿途點綴白沙屯拱天宮、台鹽通霄精鹽廠觀光工廠、大甲鎮瀾宮",
+  "geographic_notes": "通霄車站在畫面右側（東側）、西螺延平老街在畫面左側（西側）",
+  "allowed_elements": "",
+  "composition": "主角在畫面中央偏上、通霄車站在右上方小分身、西螺延平老街在畫面左側遠景、沿途點綴大甲鎮瀾宮、鹿港老街、埔鹽順澤宮",
   "lighting": "柔和清晨明亮光線、清新藍天白雲",
-  "enhancement": "畫面呈現從苗栗竹南沿西濱海岸線南下至彰化鹿港的壯闊旅程感、風車作為視覺主體象徵西濱公路的特色意象",
-  "_last_place_id": "ChIJbZ03BtZFaTQRVSahxk_O324"
+  "enhancement": "",
+  "_last_place_id": "ChIJvyru1BW0bjQRrsVaIqi0zAI"
 }

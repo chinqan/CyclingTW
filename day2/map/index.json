@@ -45,7 +45,7 @@
       "name_zh": "大甲鎮瀾宮",
       "csv_type": "景點",
       "rating": 4.6,
-      "total_ratings": 17285,
+      "total_ratings": 17323,
       "location": {
         "lat": 24.3451924,
         "lng": 120.62359439999999
@@ -58,7 +58,7 @@
       "name_zh": "鹿港老街",
       "csv_type": "起終點",
       "rating": 4.5,
-      "total_ratings": 42116,
+      "total_ratings": 42164,
       "location": {
         "lat": 24.056300999999998,
         "lng": 120.4325817
@@ -192,6 +192,378 @@
       },
       "source": "search_2026-05-20",
       "note": "夕陽必訪 木棧道延伸入海 約16:00前抵達最佳"
+    },
+    {
+      "place_id": "ChIJH0XLyf1IaTQRvI803-ELjuk",
+      "name_zh": "埔鹽順澤宮",
+      "csv_type": "景點",
+      "rating": 4.7,
+      "total_ratings": 2152,
+      "location": {
+        "lat": 23.9966546,
+        "lng": 120.47491219999999
+      },
+      "source": "api_2026-06-01"
+    },
+    {
+      "place_id": "ChIJrZs43EK0bjQRK3XsEqYto-Y",
+      "name_zh": "西螺大橋",
+      "csv_type": "景點",
+      "rating": null,
+      "total_ratings": null,
+      "location": {
+        "lat": 23.8138002,
+        "lng": 120.461058
+      },
+      "source": "api_2026-06-01"
+    },
+    {
+      "place_id": "ChIJvyru1BW0bjQRrsVaIqi0zAI",
+      "name_zh": "西螺延平老街",
+      "csv_type": "起終點",
+      "rating": 4.2,
+      "total_ratings": 2125,
+      "location": {
+        "lat": 23.8014431,
+        "lng": 120.46190379999999
+      },
+      "source": "api_2026-06-01"
+    },
+    {
+      "place_id": "ChIJV2Of7b9FaTQRjuh_ATAiwmc",
+      "name_zh": "品先蚵仔煎（休假會在FB公告）",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 1123,
+      "location": {
+        "lat": 24.0595136,
+        "lng": 120.43167700000001
+      },
+      "source": "api_2026-06-01"
+    },
+    {
+      "place_id": "ChIJU4COb-NFaTQRTu-ieg4O9og",
+      "name_zh": "鹿港阿道蚵仔煎",
+      "csv_type": "餐廳大休",
+      "rating": 3.9,
+      "total_ratings": 10144,
+      "location": {
+        "lat": 24.059620199999998,
+        "lng": 120.4307539
+      },
+      "source": "api_2026-06-01"
+    },
+    {
+      "place_id": "ChIJqc5e3wxFaTQRwnn-H1JU7Ic",
+      "name_zh": "鹿港阿道蚵仔煎",
+      "csv_type": "餐廳大休",
+      "rating": 3.5,
+      "total_ratings": 360,
+      "location": {
+        "lat": 24.059686799999998,
+        "lng": 120.4307839
+      },
+      "source": "api_2026-06-01"
+    },
+    {
+      "place_id": "ChIJsR44XQC1bjQRhLryhxfxe4o",
+      "name_zh": "7-ELEVEN 西螺大同門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.800102100000004,
+        "lng": 120.46510389999999
+      },
+      "source": "api_2026-06-01"
+    },
+    {
+      "place_id": "ChIJmVqX-ZBLaTQRt29b1YjwSAo",
+      "name_zh": "7-ELEVEN 北圓門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.8728266,
+        "lng": 120.52599800000002
+      },
+      "source": "api_2026-06-01"
+    },
+    {
+      "place_id": "ChIJy9UJ6zsIaTQRI9WaOaMCw4Y",
+      "name_zh": "7-ELEVEN 通霄門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.4901114,
+        "lng": 120.6821075
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJzXI1OjoIaTQRNJzKmvfAFdk",
+      "name_zh": "7-ELEVEN 通宏門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.4904841,
+        "lng": 120.67956269999998
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ8aUBNDgIaTQRNWRjLBwbXM0",
+      "name_zh": "7-ELEVEN 通館門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.4867791,
+        "lng": 120.67853269999998
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJHXV2nd0JaTQRQI3lVGuuZ7k",
+      "name_zh": "7-ELEVEN 通苑門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.4557353,
+        "lng": 120.66027539999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJrcsDgv4RaTQRrisG-41yyuU",
+      "name_zh": "7-ELEVEN 媽祖門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.3434675,
+        "lng": 120.62564459999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ1-CJECARaTQRVMb9Qzz1QlM",
+      "name_zh": "7-ELEVEN 茂華門市 (SNOOPY主題商店)",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.3465849,
+        "lng": 120.62144079999997
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJh2-KiwMOaTQRgsyUDRF8UGQ",
+      "name_zh": "7-ELEVEN 順大門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.351142400000004,
+        "lng": 120.62742759999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ_0Zx6gISaTQRKB995LwwnWw",
+      "name_zh": "7-ELEVEN 義和門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.338822399999998,
+        "lng": 120.61834909999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ8cDaDIQUaTQRMjVTyyrS2o0",
+      "name_zh": "7-ELEVEN 清峰門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.268199700000004,
+        "lng": 120.5668345
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ4_zl-34TaTQRgaG2xsHM7rs",
+      "name_zh": "7-ELEVEN 新清水門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.276218,
+        "lng": 120.57065399999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJa9toBgpGaTQRR1KnLbHRONQ",
+      "name_zh": "7-ELEVEN 鹿港門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.0559212,
+        "lng": 120.43385359999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJwyAVdwhGaTQRVxNrji0ZUhM",
+      "name_zh": "7-ELEVEN鹿鑫門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.0563807,
+        "lng": 120.4377854
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ0w5TY_5IaTQRr8SvjIpOoic",
+      "name_zh": "7-ELEVEN 埔鹽門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.996399699999998,
+        "lng": 120.47680659999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ18oDsrZJaTQRdJYllwiAjdE",
+      "name_zh": "7-Eleven順澤門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.9937795,
+        "lng": 120.47634359999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJqaNSpYxLaTQRPzVlhMMJXBE",
+      "name_zh": "7-ELEVEN 興鳳門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.889528499999997,
+        "lng": 120.47428610000001
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJgxCBRzoIaTQRTPyRQcs-3z0",
+      "name_zh": "全家便利商店 通霄中正店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.4908184,
+        "lng": 120.67947020000001
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJA7gZYTkIaTQR9UlhG2D1Uuo",
+      "name_zh": "全家便利商店 通霄河堤店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.4877072,
+        "lng": 120.68127330000002
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJgWACNyMJaTQRRDMPvGaJMC0",
+      "name_zh": "全家便利商店 苑裡新興店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.4404404,
+        "lng": 120.6525803
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJE8IeF-4JaTQRysacYfoMXKI",
+      "name_zh": "全家便利商店 苑裡忠信店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.4452346,
+        "lng": 120.65095589999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJw_eiFCkJaTQRv9mK-K_bxo8",
+      "name_zh": "全家便利商店 苑裡金世界店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.4307019,
+        "lng": 120.66202649999998
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ3-Bh6f8RaTQRqXUHIGrIUk0",
+      "name_zh": "全家便利商店 大甲甲讚店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.3464824,
+        "lng": 120.6211548
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJEWBZw_0RaTQRWie8-NIOSXo",
+      "name_zh": "全家便利商店 大甲新車頭店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.3447154,
+        "lng": 120.6263545
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJF3FGducVaTQRoxpXm3wGcTo",
+      "name_zh": "全家便利商店 梧棲金牌店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.2395607,
+        "lng": 120.54938779999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJoeI8LcMUaTQR3BPPJJFXj3k",
+      "name_zh": "全家便利商店 梧棲大庄店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.246158899999998,
+        "lng": 120.5475226
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJrQifJftFaTQRJI7XCrT5X0o",
+      "name_zh": "全家便利商店 鹿港媽祖店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.0576513,
+        "lng": 120.42764499999998
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJTdHCS_1FaTQRFhQH6pyAucM",
+      "name_zh": "全家便利商店 鹿港車站店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.056597399999998,
+        "lng": 120.4347047
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJW5zyLeNJaTQRnH2474-pcvg",
+      "name_zh": "全家便利商店 彰化埔鹽店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.9963433,
+        "lng": 120.47644360000001
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJhzi2buW1bjQRSh-R0MiLwXk",
+      "name_zh": "全家便利商店 西螺稻香店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.799317,
+        "lng": 120.45553009999999
+      },
+      "source": "along_2026-06-01"
     }
   ]
 }

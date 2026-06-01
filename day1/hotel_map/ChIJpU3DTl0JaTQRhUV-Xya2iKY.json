@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJpU3DTl0JaTQRhUV-Xya2iKY",
+  "name_zh": "灣麗客庄｜苑裡民宿推薦｜苗栗民宿推薦｜平價民宿推薦｜包棟｜苑裡住宿｜苗栗住宿",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 33,
+  "location": {
+    "lat": 24.436651899999998,
+    "lng": 120.6595244
+  },
+  "address": "358苗栗縣苑裡鎮客庄里中正路89號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 1.11,
+  "source": "api_2026-06-01",
+  "name_is_ascii": false
+}

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJheK4tyIIaTQRgHyEvVeUkLQ",
+  "name_zh": "通霄凱旋大第",
+  "name_lang": "zh-TW",
+  "rating": 3.7,
+  "total_ratings": 25,
+  "location": {
+    "lat": 24.4947464,
+    "lng": 120.68903759999999
+  },
+  "address": "357苗栗縣通霄鎮平安里中正路187號",
+  "primary_type": "lodging",
+  "distance_km": 1.14,
+  "source": "api_2026-06-01",
+  "name_is_ascii": false
+}

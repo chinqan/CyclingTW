@@ -1,15 +1,16 @@
 {
   "day": 5,
-  "origin": "枋寮 / 枋山",
-  "destination": "恆春 / 墾丁 / 鵝鑾鼻",
+  "origin": "高雄 / 澄清湖",
+  "destination": "墾丁",
   "distance_km_range": [
-    75,
-    100
+    68,
+    68
   ],
   "main_route_text": "台1線 → 台26線 (屏鵝公路)",
   "must_visit_landmarks": [
-    "車城福安宮",
+    "東港東隆宮",
+    "大鵬灣",
     "恆春古城",
-    "墾丁；可視體力先騎到鵝鑾鼻附近住宿"
+    "墾丁"
   ]
 }

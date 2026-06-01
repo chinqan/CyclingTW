@@ -111,7 +111,7 @@
       "address": "50546彰化縣鹿港鎮新宮里博愛路121號",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJ5WC7g_hFaTQRaD_pmOwhoaw",
@@ -195,7 +195,7 @@
       "address": "505彰化縣鹿港鎮埔崙里自由路 329 巷69號",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJj8ArZa9FaTQRbCCgz1KtZX8",
@@ -209,7 +209,7 @@
       "address": "505彰化縣鹿港鎮洛津里瑤林街13號",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJVVMHs95HaTQR-7Q_Cg64224",
@@ -321,7 +321,7 @@
       "address": "505彰化縣鹿港鎮永安里永安三路14巷19號",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJ2656ThtHaTQRL3sI0cBtOeo",
@@ -475,7 +475,7 @@
       "address": "505彰化縣鹿港鎮永安里鹿和路一段8巷7號",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJr92alYxFaTQRgNcFg-Cajys",
@@ -642,6 +642,202 @@
       },
       "address": "505彰化縣鹿港鎮郭厝里四維路131號",
       "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJd3JFyT60bjQR3GRxA-F6M4I",
+      "name_zh": "米都商務飯店",
+      "rating": 4.2,
+      "total_ratings": 685,
+      "location": {
+        "lat": 23.800263899999997,
+        "lng": 120.46431919999999
+      },
+      "address": "648雲林縣西螺鎮中和里中山路8號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJVR_c_L61bjQRuoRyDrKqBu4",
+      "name_zh": "愛琴海汽車旅館",
+      "rating": 3.5,
+      "total_ratings": 210,
+      "location": {
+        "lat": 23.798208199999998,
+        "lng": 120.4676353
+      },
+      "address": "648雲林縣西螺鎮大園里光復東路27號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ-ZY3_Dq0bjQRwvMDx2siheU",
+      "name_zh": "七彩湖SPA汽車旅館",
+      "rating": 3.3,
+      "total_ratings": 165,
+      "location": {
+        "lat": 23.7936107,
+        "lng": 120.4684544
+      },
+      "address": "648雲林縣西螺鎮廣福里大同路1號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJHX4Psym0bjQRh5nq7fPP4EQ",
+      "name_zh": "川田府邸民宿",
+      "rating": 4.1,
+      "total_ratings": 333,
+      "location": {
+        "lat": 23.7827199,
+        "lng": 120.4735618
+      },
+      "address": "648雲林縣西螺鎮振興里市場南路5號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ75qM7hW0bjQR_GkDcwEyvmI",
+      "name_zh": "旅人路過時",
+      "rating": 4.5,
+      "total_ratings": 71,
+      "location": {
+        "lat": 23.800927400000003,
+        "lng": 120.45782349999999
+      },
+      "address": "648雲林縣西螺鎮光華里延平路304號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJncdBCgC1bjQRcGFJwub0ibA",
+      "name_zh": "粨倉文旅（請先至官網看訂房須知！）",
+      "rating": 4.9,
+      "total_ratings": 345,
+      "location": {
+        "lat": 23.801469,
+        "lng": 120.46234399999999
+      },
+      "address": "648雲林縣西螺鎮中和里延平路89號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJB4HrLT-0bjQR4xIYtUtAP4I",
+      "name_zh": "西螺後街童畫民宿",
+      "rating": 4.5,
+      "total_ratings": 240,
+      "location": {
+        "lat": 23.801831699999997,
+        "lng": 120.4642729
+      },
+      "address": "648雲林縣西螺鎮永安里市後街1-2 號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJaX3kLQO1bjQRYoegJ5DXi_Y",
+      "name_zh": "西螺稻禾民宿",
+      "rating": 4.2,
+      "total_ratings": 77,
+      "location": {
+        "lat": 23.7997622,
+        "lng": 120.45727209999998
+      },
+      "address": "648雲林縣西螺鎮光華里中山路218號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJecon0T-0bjQRhX3Aa0YINhc",
+      "name_zh": "紅橋民宿",
+      "rating": 4.2,
+      "total_ratings": 104,
+      "location": {
+        "lat": 23.803265999999997,
+        "lng": 120.4593954
+      },
+      "address": "648雲林縣西螺鎮建興路344號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ2cUbXeu1bjQRFOVyfOmOE4E",
+      "name_zh": "西螺巴布客住宿",
+      "rating": 4.9,
+      "total_ratings": 76,
+      "location": {
+        "lat": 23.8011098,
+        "lng": 120.46026839999999
+      },
+      "address": "648雲林縣西螺鎮福興里延平路167號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJP4FeHRe0bjQR8N12sM1xLno",
+      "name_zh": "西螺黎明驛站休閒民宿",
+      "rating": 4.6,
+      "total_ratings": 54,
+      "location": {
+        "lat": 23.798434000000004,
+        "lng": 120.459814
+      },
+      "address": "64850雲林縣西螺鎮漢光里中正路127號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJO7fm4j60bjQRfWI1nVz4bzY",
+      "name_zh": "中青銀共學中心",
+      "rating": 4.2,
+      "total_ratings": 89,
+      "location": {
+        "lat": 23.801544999999997,
+        "lng": 120.462514
+      },
+      "address": "648雲林縣西螺鎮中和里延平路81號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ-Y5tTQC1bjQRw2UfoUwi2LM",
+      "name_zh": "廁所",
+      "rating": 4,
+      "total_ratings": 2,
+      "location": {
+        "lat": 23.8045168,
+        "lng": 120.45946599999999
+      },
+      "address": "648雲林縣西螺鎮福興里建興路358號",
+      "source": "api_2026-06-01",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ38nhHD-0bjQRSbFYdRoWnNE",
+      "name_zh": "西螺古蹟民宿",
+      "rating": 4.8,
+      "total_ratings": 4,
+      "location": {
+        "lat": 23.8019247,
+        "lng": 120.462465
+      },
+      "address": "648雲林縣西螺鎮中和里延平路92號",
+      "source": "api_2026-06-01",
       "name_is_ascii": false,
       "selected": false
     }

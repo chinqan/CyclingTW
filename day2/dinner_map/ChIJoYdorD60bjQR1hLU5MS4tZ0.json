@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJoYdorD60bjQR1hLU5MS4tZ0",
+  "name_zh": "天送餐廳",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 267,
+  "location": {
+    "lat": 23.8009469,
+    "lng": 120.46399140000001
+  },
+  "address": "648雲林縣西螺鎮中和里新街路151號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.22,
+  "source": "api_2026-06-01",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

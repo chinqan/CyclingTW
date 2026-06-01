@@ -1,13 +1,15 @@
 {
   "place_id": "ChIJY-OlAOw0aDQRjfBy4mJvQHs",
-  "name_zh": "南寮階梯 Nanliao Stairway",
+  "name_zh": "南寮魚鱗天梯",
   "csv_type": "景點",
-  "rating": 4.2,
-  "total_ratings": 5911,
   "location": {
-    "lat": 24.852263,
-    "lng": 120.923722
+    "lat": 24.852263699999998,
+    "lng": 120.92372280000001
   },
-  "source": "search_result_2026-05-20",
-  "note": "南寮漁港旁海堤階梯，觀景台型打卡點，已由南寮漁港代表此區段"
+  "search_keyword": "景點 觀光",
+  "source": "along_2026-06-01",
+  "rating": 4.2,
+  "total_ratings": 5918,
+  "address": "300新竹市北區新港路",
+  "primary_type": "tourist_attraction"
 }

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJd3JFyT60bjQR3GRxA-F6M4I",
+  "name_zh": "米都商務飯店",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 685,
+  "location": {
+    "lat": 23.800263899999997,
+    "lng": 120.46431919999999
+  },
+  "address": "648雲林縣西螺鎮中和里中山路8號",
+  "primary_type": "hotel",
+  "distance_km": 0.28,
+  "source": "api_2026-06-01",
+  "name_is_ascii": false
+}

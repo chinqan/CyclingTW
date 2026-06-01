@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJWxmj8xW0bjQRJcDX44GlB8o",
+  "name_zh": "黃家三代祖傳油蔥九層粿",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 866,
+  "location": {
+    "lat": 23.8010602,
+    "lng": 120.45838390000002
+  },
+  "address": "648雲林縣西螺鎮光華里延平路274號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.36,
+  "source": "api_2026-06-01",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

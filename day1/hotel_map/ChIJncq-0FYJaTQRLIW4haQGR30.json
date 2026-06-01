@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJncq-0FYJaTQRLIW4haQGR30",
+  "name_zh": "沐明民宿",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 28,
+  "location": {
+    "lat": 24.4897447,
+    "lng": 120.68556999999998
+  },
+  "address": "357苗栗縣通霄鎮平元里崇仁路30號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 0.75,
+  "source": "api_2026-06-01",
+  "name_is_ascii": false
+}

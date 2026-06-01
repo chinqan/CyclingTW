@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJdzRHFxgJaTQRVt9hx3f_UgQ",
+  "name_zh": "苑裡龍園餐廳",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 2030,
+  "location": {
+    "lat": 24.447986399999998,
+    "lng": 120.65533230000001
+  },
+  "address": "358苗栗縣苑裡鎮苑北里中山路322號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.64,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJSfsHMTy0bjQRjazRxhZQhf0",
+  "name_zh": "霸王薑母鴨、鵝肉、海鮮快炒",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 47,
+  "location": {
+    "lat": 23.798277799999997,
+    "lng": 120.46231850000001
+  },
+  "address": "648雲林縣西螺鎮正興里公正路140號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.35,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

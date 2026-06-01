@@ -1,0 +1,24 @@
+{
+  "place_id": "ChIJV2Of7b9FaTQRjuh_ATAiwmc",
+  "name_zh": "品先蚵仔煎",
+  "csv_type": "餐廳大休",
+  "location": {
+    "lat": 24.0595136,
+    "lng": 120.43167700000001
+  },
+  "search_keyword": "鹿港 蚵仔煎 餐廳",
+  "source": "api_2026-06-01",
+  "rating": 4.8,
+  "total_ratings": 1123,
+  "address": "505彰化縣鹿港鎮海埔里後寮巷86號",
+  "primary_type": "snack_bar",
+  "opening_hours_text": [
+    "Monday: 10:00 AM – 6:00 PM",
+    "Tuesday: Closed",
+    "Wednesday: 10:00 AM – 6:00 PM",
+    "Thursday: 10:00 AM – 6:00 PM",
+    "Friday: 10:00 AM – 6:00 PM",
+    "Saturday: 10:00 AM – 6:00 PM",
+    "Sunday: 10:00 AM – 6:00 PM"
+  ]
+}

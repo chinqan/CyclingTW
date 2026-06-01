@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJFeqFNjoJaTQRxWe8Z6roMMo",
+  "name_zh": "大高雄碳烤店",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 82,
+  "location": {
+    "lat": 24.439569000000002,
+    "lng": 120.64984549999998
+  },
+  "address": "358苗栗縣苑裡鎮客庄里中山路19號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.46,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

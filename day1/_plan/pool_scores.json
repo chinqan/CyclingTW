@@ -1,134 +1,421 @@
 {
   "day": 1,
-  "bayesian_C": 4.3556,
-  "bayesian_m": 1588,
-  "pool_size": 18,
+  "bayesian_C": 4.2661,
+  "bayesian_m": 771,
+  "pool_size": 59,
   "scores": {
-    "ChIJ_3VUnGilQjQR7qp73ndM8Cg": {
-      "name_zh": "八里左岸自行車道",
-      "csv_type": "景點",
-      "rating": 4.4,
-      "total_ratings": 1423,
-      "bayesian_score": 4.38
-    },
     "ChIJ4z5kWWOhQjQRcl-uSRbQCN0": {
       "name_zh": "水牛坑越野場地",
       "csv_type": "景點",
       "rating": 4.2,
-      "total_ratings": 4737,
-      "bayesian_score": 4.24
+      "total_ratings": 4745,
+      "bayesian_score": 4.21
     },
     "ChIJAQAAAKyfQjQR7fhsd-lMPDU": {
       "name_zh": "竹圍漁港",
       "csv_type": "景點",
       "rating": 4.2,
-      "total_ratings": 41578,
-      "bayesian_score": 4.21
+      "total_ratings": 41863,
+      "bayesian_score": 4.2
     },
     "ChIJU9iHxPQuaDQR2v3_t-04zTU": {
       "name_zh": "永安漁港",
       "csv_type": "景點",
       "rating": 4.1,
-      "total_ratings": 38612,
-      "bayesian_score": 4.11
-    },
-    "ChIJo69tyO40aDQReBjpbzodIuo": {
-      "name_zh": "新竹南寮漁港",
-      "csv_type": "景點",
-      "rating": 4.2,
-      "total_ratings": 6816,
-      "bayesian_score": 4.23
+      "total_ratings": 38681,
+      "bayesian_score": 4.1
     },
     "ChIJ7Ws-1bOoQjQRehrUbGzlo1A": {
       "name_zh": "蘆洲柳堤公園",
       "csv_type": "起終點",
       "rating": 4.3,
-      "total_ratings": 1407,
-      "bayesian_score": 4.33
+      "total_ratings": 1408,
+      "bayesian_score": 4.29
     },
     "ChIJQ5bTDzuzaTQRnzEViKsrqdE": {
       "name_zh": "竹南車站",
       "csv_type": "起終點",
-      "rating": 4.0,
-      "total_ratings": 1185,
-      "bayesian_score": 4.2
+      "rating": 4,
+      "total_ratings": 1186,
+      "bayesian_score": 4.1
     },
     "ChIJxe6O0FIvaDQRPYMEXA0HqUM": {
-      "name_zh": "江戶壽司（永安漁港）",
+      "name_zh": "江戶壽司（桃園）",
       "csv_type": "餐廳大休",
       "rating": 4.8,
-      "total_ratings": 534,
-      "bayesian_score": 4.47
+      "total_ratings": 533,
+      "bayesian_score": 4.48
     },
     "ChIJXTIi5-k1aDQRmhDM-S0vTxw": {
       "name_zh": "新竹17公里海岸風景區",
       "csv_type": "景點",
       "rating": 4.3,
       "total_ratings": 3930,
-      "bayesian_score": 4.32
-    },
-    "ChIJ_7k3YK81aDQRKemODMGM_P0": {
-      "name_zh": "海天一線看海區",
-      "csv_type": "景點",
-      "rating": 4.3,
-      "total_ratings": 2829,
-      "bayesian_score": 4.32
-    },
-    "ChIJY-OlAOw0aDQRjfBy4mJvQHs": {
-      "name_zh": "南寮階梯 Nanliao Stairway",
-      "csv_type": "景點",
-      "rating": 4.2,
-      "total_ratings": 5911,
-      "bayesian_score": 4.23
+      "bayesian_score": 4.29
     },
     "ChIJbfMgKLivQjQR8FocqCurHxg": {
       "name_zh": "關渡橋頭（八里左岸）",
       "csv_type": "景點",
       "rating": 4.5,
       "total_ratings": 446,
-      "bayesian_score": 4.39
+      "bayesian_score": 4.35
     },
     "ChIJN-HNqzovaDQREp1r77jZEHc": {
       "name_zh": "永安海螺文化體驗園區",
       "csv_type": "景點",
       "rating": 4.3,
       "total_ratings": 2216,
-      "bayesian_score": 4.32
+      "bayesian_score": 4.29
     },
     "ChIJI1iQfUYvaDQRzOcaIQzMfvw": {
       "name_zh": "永安北岸觀海亭",
       "csv_type": "景點",
       "rating": 4.4,
       "total_ratings": 103,
-      "bayesian_score": 4.36
+      "bayesian_score": 4.28
     },
     "ChIJ-3KWK_cuaDQRsgsVtlyymIc": {
       "name_zh": "海晏漁村料理",
       "csv_type": "餐廳大休",
       "rating": 4.4,
       "total_ratings": 481,
-      "bayesian_score": 4.37
+      "bayesian_score": 4.32
     },
     "ChIJVQoRPfQuaDQRmyQm_lULWk8": {
       "name_zh": "君美現炸海鮮",
       "csv_type": "餐廳大休",
       "rating": 4.6,
       "total_ratings": 180,
-      "bayesian_score": 4.38
+      "bayesian_score": 4.33
     },
     "ChIJ34cCH2kvaDQR2FD-J4mQI30": {
       "name_zh": "永安領鮮生魚片",
       "csv_type": "餐廳大休",
       "rating": 5.0,
       "total_ratings": 142,
-      "bayesian_score": 4.41
+      "bayesian_score": 4.38
     },
     "ChIJFxDjEO40aDQR8dbtyPOa_3M": {
-      "name_zh": "南寮漁港(natural_feature)",
+      "name_zh": "南寮漁港",
       "csv_type": "景點",
       "rating": 4.2,
-      "total_ratings": 1753,
+      "total_ratings": 1758,
+      "bayesian_score": 4.22
+    },
+    "ChIJo69tyO40aDQReBjpbzodIuo": {
+      "name_zh": "新竹南寮漁港",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 6816,
+      "bayesian_score": 4.21
+    },
+    "ChIJq6qqqiMJaTQRu_PeCNCA-4I": {
+      "name_zh": "101文具天堂 苑裡店",
+      "csv_type": "起終點",
+      "rating": 3.9,
+      "total_ratings": 205,
+      "bayesian_score": 4.19
+    },
+    "ChIJ-1yXYTwJaTQRg-QugquiUtE": {
+      "name_zh": "苑裡車站",
+      "csv_type": "起終點",
+      "rating": 4.1,
+      "total_ratings": 408,
+      "bayesian_score": 4.21
+    },
+    "ChIJJ5R-bjoIaTQRmYc9tYdbBqk": {
+      "name_zh": "通霄車站",
+      "csv_type": "起終點",
+      "rating": 4.3,
+      "total_ratings": 409,
+      "bayesian_score": 4.28
+    },
+    "ChIJ_3VUnGilQjQR7qp73ndM8Cg": {
+      "name_zh": "八里左岸自行車道",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 1424,
+      "bayesian_score": 4.35
+    },
+    "ChIJcQZpmWilQjQR8t5PuCu1Y7g": {
+      "name_zh": "老榕碉堡",
+      "csv_type": "景點",
+      "rating": 3.9,
+      "total_ratings": 94,
+      "bayesian_score": 4.23
+    },
+    "ChIJl1wk02ulQjQRdQP9ISr7Lzc": {
+      "name_zh": "八里婚紗廣場",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 83,
+      "bayesian_score": 4.3
+    },
+    "ChIJW74joWmlQjQRZOQtlfjiLUk": {
+      "name_zh": "八里左岸漫步廣場",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 145,
+      "bayesian_score": 4.32
+    },
+    "ChIJf9weG2alQjQRNlsOIbBhu6E": {
+      "name_zh": "八里渡船頭老街",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 35410,
+      "bayesian_score": 4.2
+    },
+    "ChIJzcPTOVqvQjQRshLmxvPeA4I": {
+      "name_zh": "獅子頭景觀公園",
+      "csv_type": "景點",
+      "rating": 3.6,
+      "total_ratings": 234,
+      "bayesian_score": 4.11
+    },
+    "ChIJE1Zsv1qvQjQRLrP8y3ntkiA": {
+      "name_zh": "觀音坑溪橋",
+      "csv_type": "景點",
+      "rating": 3.9,
+      "total_ratings": 382,
+      "bayesian_score": 4.14
+    },
+    "ChIJjyZr-EyvQjQR6gd2TF8qC30": {
+      "name_zh": "蘆洲環河公園(線型公園)",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 443,
+      "bayesian_score": 4.21
+    },
+    "ChIJo6KiNRSlQjQR7qYRIZsKhF8": {
+      "name_zh": "水筆仔公園",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 241,
       "bayesian_score": 4.27
+    },
+    "ChIJ0SCCbEehQjQRRtU_m3KhotY": {
+      "name_zh": "林口頂寮沙灘",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 424,
+      "bayesian_score": 4.28
+    },
+    "ChIJ6w3RQBelQjQRvs7idOzmH1I": {
+      "name_zh": "十三行文化公園",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 4418,
+      "bayesian_score": 4.38
+    },
+    "ChIJRQgWAEGeQjQRQXws1ZQlfyg": {
+      "name_zh": "圳頭里軍史公園",
+      "csv_type": "景點",
+      "rating": 3.8,
+      "total_ratings": 1163,
+      "bayesian_score": 3.99
+    },
+    "ChIJ6fgWOAaeQjQRxVjRDAnpP2I": {
+      "name_zh": "許厝港濕地",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 3801,
+      "bayesian_score": 4.38
+    },
+    "ChIJGaYqZM6fQjQRGb7BdukanmA": {
+      "name_zh": "大園古亭黃金海岸",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 140,
+      "bayesian_score": 4.29
+    },
+    "ChIJBfwBw4mfQjQRYNYH_C_M5GQ": {
+      "name_zh": "豬鼻子沙灘",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 1232,
+      "bayesian_score": 4.23
+    },
+    "ChIJxUt_5OKfQjQRnpPrysnGNtQ": {
+      "name_zh": "天幕廣場-竹圍漁港",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 157,
+      "bayesian_score": 4.29
+    },
+    "ChIJL45WkBKfQjQRHacJLyOzdxg": {
+      "name_zh": "竹圍海水浴場 南灘沙丘",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 771,
+      "bayesian_score": 4.28
+    },
+    "ChIJMaiGXQAvaDQRJvtwgiRDykQ": {
+      "name_zh": "後湖溪逐浪天梯",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 276,
+      "bayesian_score": 4.35
+    },
+    "ChIJ53rsJ3ufQjQRaR8e2deQcdA": {
+      "name_zh": "海湖地景公園 - 碗公溜滑梯",
+      "csv_type": "景點",
+      "rating": 4,
+      "total_ratings": 157,
+      "bayesian_score": 4.22
+    },
+    "ChIJD7Q6XBEuaDQR-dGCGkg5hyU": {
+      "name_zh": "新屋綠色走廊",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 6261,
+      "bayesian_score": 4.3
+    },
+    "ChIJxZe_DgIyaDQRKPQ6HNgtu0E": {
+      "name_zh": "新屋綠色隧道海景",
+      "csv_type": "景點",
+      "rating": 4.7,
+      "total_ratings": 194,
+      "bayesian_score": 4.35
+    },
+    "ChIJr9lIWgAzaDQRvF42Vg38Sq0": {
+      "name_zh": "雙新自行車道",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 53,
+      "bayesian_score": 4.26
+    },
+    "ChIJNzd_SXw0aDQR2IG0aY4yGUM": {
+      "name_zh": "竹北濱海遊憩區",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 108,
+      "bayesian_score": 4.25
+    },
+    "ChIJL8YYFjUyaDQRZchZr9Gmjq8": {
+      "name_zh": "新豐紅毛港 觀海堤岸",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 1899,
+      "bayesian_score": 4.29
+    },
+    "ChIJo6dfNk8vaDQRUz-fBZbdnUM": {
+      "name_zh": "新屋蚵間石滬群-觀滬平台",
+      "csv_type": "景點",
+      "rating": 4.5,
+      "total_ratings": 83,
+      "bayesian_score": 4.29
+    },
+    "ChIJ_7k3YK81aDQRKemODMGM_P0": {
+      "name_zh": "海天一線看海區",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 2830,
+      "bayesian_score": 4.29
+    },
+    "ChIJY-OlAOw0aDQRjfBy4mJvQHs": {
+      "name_zh": "南寮魚鱗天梯",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 5918,
+      "bayesian_score": 4.21
+    },
+    "ChIJXQtf6PlLaDQRW4vgUgKBvE4": {
+      "name_zh": "風情海岸",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 950,
+      "bayesian_score": 4.45
+    },
+    "ChIJz_NNOihLaDQRvZpnJxjqY4w": {
+      "name_zh": "香山豎琴橋",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 2334,
+      "bayesian_score": 4.29
+    },
+    "ChIJMT8huspLaDQRKJ-UDAYbn8o": {
+      "name_zh": "那魯灣文化聚落",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 673,
+      "bayesian_score": 4.24
+    },
+    "ChIJ41dhMMVKaDQR1oDI2U_T6A4": {
+      "name_zh": "香山濕地",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 3617,
+      "bayesian_score": 4.38
+    },
+    "ChIJ-W09tP6uaTQRgQYi9-8dsw4": {
+      "name_zh": "同興老街",
+      "csv_type": "景點",
+      "rating": 3.8,
+      "total_ratings": 365,
+      "bayesian_score": 4.12
+    },
+    "ChIJ9eOyO2JKaDQRakkYan8x6xg": {
+      "name_zh": "青青草原",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 9054,
+      "bayesian_score": 4.3
+    },
+    "ChIJ7z9Vq181aDQRNMfGIJEeTSo": {
+      "name_zh": "水資源公園",
+      "csv_type": "景點",
+      "rating": 3.7,
+      "total_ratings": 574,
+      "bayesian_score": 4.02
+    },
+    "ChIJVVVVVWWuaTQRsf_BtcIo5Yo": {
+      "name_zh": "後龍好望角風景區",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 17743,
+      "bayesian_score": 4.39
+    },
+    "ChIJ7R2Xwm6vaTQR_GdRf8P_J0E": {
+      "name_zh": "海角樂園",
+      "csv_type": "景點",
+      "rating": 3.8,
+      "total_ratings": 2173,
+      "bayesian_score": 3.92
+    },
+    "ChIJwxrN186vaTQRZHIid2L0cEI": {
+      "name_zh": "好望角停車場",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 893,
+      "bayesian_score": 4.45
+    },
+    "ChIJkYTnrvinaTQR-0zcA8KPp1I": {
+      "name_zh": "龍貓公車站",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 1178,
+      "bayesian_score": 4.17
+    },
+    "ChIJx9NBlWCuaTQR3_XSZs0d01o": {
+      "name_zh": "過港隧道",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 2789,
+      "bayesian_score": 4.29
+    },
+    "ChIJyUKFqxkIaTQR8q8fUjKWJ0k": {
+      "name_zh": "秋茂園（通霄）",
+      "csv_type": "景點",
+      "rating": 3.8,
+      "total_ratings": 2756,
+      "bayesian_score": 3.9
+    },
+    "ChIJL-6n-rWnaTQRA77-hYRQI58": {
+      "name_zh": "新埔路看海",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 94,
+      "bayesian_score": 4.3
     }
   }
 }

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ-ZMC9WIJaTQRNMFrKmjqM_Y",
+  "name_zh": "心雕居-綠色餐飲指南餐廳",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 15,
+  "location": {
+    "lat": 24.454962599999998,
+    "lng": 120.6449647
+  },
+  "address": "358苗栗縣苑裡鎮出水路64號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.44,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,15 @@
+{
+  "place_id": "ChIJ-1yXYTwJaTQRg-QugquiUtE",
+  "name_zh": "苑裡車站",
+  "csv_type": "起終點",
+  "location": {
+    "lat": 24.44343,
+    "lng": 120.65148
+  },
+  "search_keyword": "苑裡車站",
+  "source": "api_2026-06-01",
+  "rating": 4.1,
+  "total_ratings": 408,
+  "address": "358台灣苗栗縣苑裡鎮",
+  "primary_type": "train_station"
+}

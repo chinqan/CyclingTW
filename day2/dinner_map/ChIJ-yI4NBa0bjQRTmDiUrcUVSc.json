@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ-yI4NBa0bjQRTmDiUrcUVSc",
+  "name_zh": "柯家西螺土庫當歸鴨肉麵線",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 205,
+  "location": {
+    "lat": 23.797602599999998,
+    "lng": 120.4576628
+  },
+  "address": "648雲林縣西螺鎮漢光里平和路76號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.61,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

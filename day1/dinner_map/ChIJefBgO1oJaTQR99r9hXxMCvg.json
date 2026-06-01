@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJefBgO1oJaTQR99r9hXxMCvg",
+  "name_zh": "霄餚滷-苑裡分舖",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 48,
+  "location": {
+    "lat": 24.4413979,
+    "lng": 120.6524214
+  },
+  "address": "358苗栗縣苑裡鎮苑南里南興路150-5號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.25,
+  "source": "api_2026-06-01",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

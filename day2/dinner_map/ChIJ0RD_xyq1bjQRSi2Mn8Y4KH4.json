@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ0RD_xyq1bjQRSi2Mn8Y4KH4",
+  "name_zh": "小統一牛排",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 14,
+  "location": {
+    "lat": 23.796137800000004,
+    "lng": 120.45940970000001
+  },
+  "address": "648雲林縣西螺鎮正興里建興路90號",
+  "primary_type": "steak_house",
+  "primary_type_label": "牛排館",
+  "distance_km": 0.64,
+  "source": "api_2026-06-01",
+  "note": "牛排館",
+  "name_is_ascii": false
+}

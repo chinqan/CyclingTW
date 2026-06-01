@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJQSpy_D20bjQRvSZ4PeBZ-tw",
+  "name_zh": "老邵小籠包",
+  "name_lang": "zh-TW",
+  "rating": 3.7,
+  "total_ratings": 1537,
+  "location": {
+    "lat": 23.799392599999997,
+    "lng": 120.4592797
+  },
+  "address": "648雲林縣西螺鎮正興里建興路214號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.35,
+  "source": "api_2026-06-01",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

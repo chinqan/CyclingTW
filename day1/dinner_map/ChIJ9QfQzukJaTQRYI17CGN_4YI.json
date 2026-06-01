@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ9QfQzukJaTQRYI17CGN_4YI",
+  "name_zh": "好運來食堂炒飯專賣店",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 66,
+  "location": {
+    "lat": 24.442788999999998,
+    "lng": 120.6550213
+  },
+  "address": "358苗栗縣苑裡鎮苑南里仁愛街2之7號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.37,
+  "source": "api_2026-06-01",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

@@ -1,8 +1,8 @@
 {
   "day": 1,
-  "route_name": "西濱海岸線追風之旅",
-  "total_ascent_desc": "全程幾乎平坦，台61線西濱公路爬升極少",
-  "main_route_desc": "二重疏洪道 ➔ 八里左岸 ➔ 台15線 ➔ 台61線 ➔ 南寮漁港 ➔ 台1線 ➔ 竹南車站",
+  "route_name": "西濱追風．蘆洲到通霄",
+  "total_ascent_desc": "全程幾乎平坦，台61線西濱公路爬升極少，後龍好望角為唯一明顯緩坡",
+  "main_route_desc": "二重疏洪道 ➔ 八里左岸 ➔ 台15線 ➔ 台61線 ➔ 南寮漁港 ➔ 後龍好望角 ➔ 通霄車站",
   "places": [
     {
       "place_id": "ChIJ7Ws-1bOoQjQRehrUbGzlo1A",
@@ -11,36 +11,36 @@
       "csv_type": "起終點",
       "note": "早上07:00出發 河濱起點 有公廁與停車場",
       "rating": 4.3,
-      "total_ratings": 1407,
+      "total_ratings": 1408,
       "location": {
         "lat": 25.088224999999998,
         "lng": 121.4626333
       },
-      "bayesian_score": 4.33
+      "bayesian_score": 4.29
     },
     {
       "place_id": "ChIJ_3VUnGilQjQR7qp73ndM8Cg",
       "name_zh": "八里左岸自行車道",
       "search_keyword": "新北市八里左岸自行車道",
       "csv_type": "景點",
-      "note": "約08:30抵達 淡水河口壯觀河景 觀音山倒影 km約15 ★主視覺",
+      "note": "約08:30抵達 淡水河口壯觀河景 觀音山倒影 km約15",
       "rating": 4.4,
-      "total_ratings": 1423,
+      "total_ratings": 1424,
       "location": {
         "lat": 25.1511404,
         "lng": 121.4429224
       },
-      "bayesian_score": 4.38
+      "bayesian_score": 4.35
     },
     {
-      "place_id": "ChIJbyTPrfWlQjQRi8Cuce8nH-E",
-      "name_zh": "7-ELEVEN 里商門市",
-      "search_keyword": "7-ELEVEN 里商門市 新北市八里區商港三路99號",
+      "place_id": "ChIJwQxLA2alQjQRyswGRmzp1Dc",
+      "name_zh": "全家便利商店 八里船頭店",
+      "search_keyword": "全家便利商店 八里船頭店 新北市八里區",
       "csv_type": "便利商店",
-      "note": "離開八里前補充水分食物 km約18",
+      "note": "離開八里前補給 沿路線 km約16",
       "location": {
-        "lat": 25.1530647,
-        "lng": 121.4019101
+        "lat": 25.1583918,
+        "lng": 121.4344321
       },
       "bayesian_score": null
     },
@@ -51,12 +51,12 @@
       "csv_type": "景點",
       "note": "約09:45抵達 特殊峽谷地貌 km約28",
       "rating": 4.2,
-      "total_ratings": 4737,
+      "total_ratings": 4745,
       "location": {
         "lat": 25.1198168,
         "lng": 121.3188263
       },
-      "bayesian_score": 4.24
+      "bayesian_score": 4.21
     },
     {
       "place_id": "ChIJAQAAAKyfQjQR7fhsd-lMPDU",
@@ -65,22 +65,22 @@
       "csv_type": "景點",
       "note": "約10:45抵達 彩虹橋漁港地標 km約43",
       "rating": 4.2,
-      "total_ratings": 41579,
+      "total_ratings": 41863,
       "location": {
         "lat": 25.117158,
         "lng": 121.2444776
       },
-      "bayesian_score": 4.21
+      "bayesian_score": 4.2
     },
     {
-      "place_id": "ChIJdXu1usApaDQR1tmNr9AEy68",
-      "name_zh": "7-ELEVEN 大益門市",
-      "search_keyword": "7-ELEVEN 大益門市 桃園市觀音區濱海路大潭段22號",
+      "place_id": "ChIJ68aOawAnaDQRo5P9xze5sCA",
+      "name_zh": "全家便利商店觀音嘉聯益店",
+      "search_keyword": "全家便利商店 觀音嘉聯益店 桃園市觀音區",
       "csv_type": "便利商店",
-      "note": "觀音大潭路段補給 km約57",
+      "note": "觀音台61段補給 沿路線 km約50",
       "location": {
-        "lat": 25.030819,
-        "lng": 121.0698247
+        "lat": 25.0518185,
+        "lng": 121.09266449999998
       },
       "bayesian_score": null
     },
@@ -89,14 +89,14 @@
       "name_zh": "永安漁港",
       "search_keyword": "桃園永安漁港 新屋區中山西路三段1165號",
       "csv_type": "景點",
-      "note": "約12:00抵達 大型觀光漁港 km約70",
+      "note": "約12:00抵達 大型觀光漁港 km約66",
       "rating": 4.1,
-      "total_ratings": 38613,
+      "total_ratings": 38681,
       "location": {
         "lat": 24.987719,
         "lng": 121.01578839999998
       },
-      "bayesian_score": 4.11
+      "bayesian_score": 4.1
     },
     {
       "place_id": "ChIJxe6O0FIvaDQRPYMEXA0HqUM",
@@ -105,22 +105,22 @@
       "csv_type": "餐廳大休",
       "note": "12:00-13:30午餐大休 週一公休改海晏漁村料理",
       "rating": 4.8,
-      "total_ratings": 534,
+      "total_ratings": 533,
       "location": {
         "lat": 24.987724699999998,
         "lng": 121.01464919999998
       },
-      "bayesian_score": 4.47
+      "bayesian_score": 4.48
     },
     {
       "place_id": "ChIJf6Q20vYuaDQRu0mJUzvm8OI",
       "name_zh": "7-ELEVEN 永安港門市",
       "search_keyword": "7-ELEVEN 永安港門市 桃園市新屋區中山西路三段1148號",
       "csv_type": "便利商店",
-      "note": "午餐後補給 距永安漁港200m km約70",
+      "note": "午餐後補給 距永安漁港200m km約66",
       "location": {
         "lat": 24.9882131,
-        "lng": 121.0185329
+        "lng": 121.01853290000001
       },
       "bayesian_score": null
     },
@@ -129,34 +129,124 @@
       "name_zh": "南寮漁港",
       "search_keyword": "新竹南寮漁港 新竹市北區新港四路",
       "csv_type": "景點",
-      "note": "約15:30抵達 海鮮市集 km約90",
+      "note": "約14:30抵達 新竹南寮 海鮮市集與彩色貨櫃 km約90",
       "rating": 4.2,
-      "total_ratings": 1753,
+      "total_ratings": 1758,
       "location": {
         "lat": 24.8483333,
         "lng": 120.9302778
       },
-      "bayesian_score": 4.27
+      "bayesian_score": 4.22
     },
     {
-      "place_id": "ChIJQ5bTDzuzaTQRnzEViKsrqdE",
-      "name_zh": "竹南車站",
-      "search_keyword": "竹南火車站 苗栗縣竹南鎮中山路166號",
-      "csv_type": "起終點",
-      "note": "約17:00抵達 當日終點",
-      "rating": 4,
-      "total_ratings": 1186,
+      "place_id": "ChIJfahm7O80aDQRZtGAFB6Lb2c",
+      "name_zh": "7-ELEVEN 菄大門市",
+      "search_keyword": "7-ELEVEN 菄大門市 新竹市香山區",
+      "csv_type": "便利商店",
+      "note": "南寮出發補給 沿路線 km約91",
       "location": {
-        "lat": 24.686588999999998,
-        "lng": 120.88056270000001
+        "lat": 24.8451088,
+        "lng": 120.929276
       },
-      "bayesian_score": 4.2
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJYa7dxidLaDQRlS1hBEexhhU",
+      "name_zh": "7-ELEVEN 佳香門市",
+      "search_keyword": "7-ELEVEN 佳香門市 新竹市香山區",
+      "csv_type": "便利商店",
+      "note": "香山往竹南、後龍前補給 沿路線 km約100",
+      "location": {
+        "lat": 24.7511168,
+        "lng": 120.90868689999999
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJVVVVVWWuaTQRsf_BtcIo5Yo",
+      "name_zh": "後龍好望角風景區",
+      "search_keyword": "苗栗後龍好望角 後龍鎮半天寮休閒文化園區",
+      "csv_type": "景點",
+      "note": "約15:45抵達 草原風車與海景制高點 西濱經典畫面 km約120 ★主視覺",
+      "rating": 4.4,
+      "total_ratings": 17743,
+      "location": {
+        "lat": 24.601974,
+        "lng": 120.731191
+      },
+      "bayesian_score": 4.39
+    },
+    {
+      "place_id": "ChIJH368vx-maTQR4_mX2mg8uds",
+      "name_zh": "7-ELEVEN 白沙屯門市",
+      "search_keyword": "7-ELEVEN 白沙屯門市 苗栗縣通霄鎮白東里",
+      "csv_type": "便利商店",
+      "note": "白沙屯補給 沿路線 km約125",
+      "location": {
+        "lat": 24.569222399999997,
+        "lng": 120.71186920000001
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJAQAAMB-maTQRqP6KozChaJ8",
+      "name_zh": "白沙屯拱天宮",
+      "search_keyword": "白沙屯拱天宮 苗栗縣通霄鎮白沙屯",
+      "csv_type": "景點",
+      "note": "約16:20抵達 白沙屯媽祖信仰中心 km約126",
+      "rating": 4.8,
+      "total_ratings": 22035,
+      "location": {
+        "lat": 24.5714321,
+        "lng": 120.7092177
+      },
+      "bayesian_score": 4.78
+    },
+    {
+      "place_id": "ChIJR-i8TSSmaTQR_m3wMwNABss",
+      "name_zh": "台鹽通霄精鹽廠觀光工廠",
+      "search_keyword": "台鹽通霄精鹽廠觀光工廠 苗栗縣通霄鎮內島里122號",
+      "csv_type": "景點",
+      "note": "通霄海線地標 海洋溫泉泡腳 km約130",
+      "rating": 4.1,
+      "total_ratings": 7300,
+      "location": {
+        "lat": 24.5559494,
+        "lng": 120.7035802
+      },
+      "bayesian_score": 4.12
+    },
+    {
+      "place_id": "ChIJzXI1OjoIaTQRNJzKmvfAFdk",
+      "name_zh": "7-ELEVEN 通宏門市",
+      "search_keyword": "7-ELEVEN 通宏門市 苗栗縣通霄鎮",
+      "csv_type": "便利商店",
+      "note": "抵通霄車站前最後補給 沿路線 km約136",
+      "location": {
+        "lat": 24.4904841,
+        "lng": 120.67956269999998
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJJ5R-bjoIaTQRmYc9tYdbBqk",
+      "name_zh": "通霄車站",
+      "search_keyword": "通霄車站 苗栗縣通霄鎮",
+      "csv_type": "起終點",
+      "note": "約17:00抵達 當日終點 可搭海線鐵路撤退",
+      "rating": 4.3,
+      "total_ratings": 409,
+      "location": {
+        "lat": 24.491403,
+        "lng": 120.678424
+      },
+      "bayesian_score": 4.28
     }
   ],
-  "bayesian_C": 4.3556,
-  "bayesian_m": 1588,
-  "ors_distance_km": 110.7,
-  "ors_duration_hours": 6.3,
-  "elevation_ascent_m": 115,
-  "elevation_descent_m": 106
+  "bayesian_C": 4.2661,
+  "bayesian_m": 771,
+  "ors_distance_km": 142.4,
+  "ors_duration_hours": 8.2,
+  "elevation_ascent_m": null,
+  "elevation_descent_m": null
 }
