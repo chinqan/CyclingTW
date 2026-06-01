@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJo7pyiHThcTQRTCEmeXu2DpE",
+  "name_zh": "金格子民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 36,
+  "location": {
+    "lat": 22.4623092,
+    "lng": 120.4443405
+  },
+  "address": "928屏東縣東港鎮鎮海路125號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 0.46,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJozJx-5fhcTQRQSYEqERMo70",
+  "name_zh": "遇見‧秘境民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 497,
+  "location": {
+    "lat": 22.465866,
+    "lng": 120.45828230000001
+  },
+  "address": "928屏東縣東港鎮東津里水源路223號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 1.03,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

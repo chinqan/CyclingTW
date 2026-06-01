@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ1YU7QwDhcTQR3cewliHeGI8",
+  "name_zh": "萬多利生魚片",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 631,
+  "location": {
+    "lat": 22.4671104,
+    "lng": 120.43888969999999
+  },
+  "address": "928屏東縣東港鎮朝安里新生一路84號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.1,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

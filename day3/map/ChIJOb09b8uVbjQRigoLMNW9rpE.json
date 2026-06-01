@@ -1,0 +1,25 @@
+{
+  "place_id": "ChIJOb09b8uVbjQRigoLMNW9rpE",
+  "name_zh": "檜意森活村",
+  "csv_type": "景點",
+  "location": {
+    "lat": 23.485637699999998,
+    "lng": 120.45481199999999
+  },
+  "search_keyword": "檜意森活村 嘉義市東區",
+  "source": "api_2026-06-02",
+  "rating": 4.3,
+  "total_ratings": 40280,
+  "address": "600嘉義市東區林森里共和路370號",
+  "primary_type": null,
+  "opening_hours_text": [
+    "Monday: 10:00 AM – 6:00 PM",
+    "Tuesday: 10:00 AM – 6:00 PM",
+    "Wednesday: 10:00 AM – 6:00 PM",
+    "Thursday: 10:00 AM – 6:00 PM",
+    "Friday: 10:00 AM – 6:00 PM",
+    "Saturday: 10:00 AM – 6:00 PM",
+    "Sunday: 10:00 AM – 6:00 PM"
+  ],
+  "editorial_summary": "Nearly 30 buildings built during the Japanese rule of Taiwan are found at this cultural attraction."
+}

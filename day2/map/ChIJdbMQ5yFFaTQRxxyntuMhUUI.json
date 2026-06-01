@@ -1,0 +1,24 @@
+{
+  "place_id": "ChIJdbMQ5yFFaTQRxxyntuMhUUI",
+  "name_zh": "老蕭土魠魚麵館（日式豬排便當）",
+  "csv_type": "餐廳大休",
+  "location": {
+    "lat": 24.051002,
+    "lng": 120.43182209999999
+  },
+  "search_keyword": "餐廳 小吃 麵館",
+  "source": "api_2026-06-01",
+  "rating": 4.9,
+  "total_ratings": 2782,
+  "address": "505彰化縣鹿港鎮菜園里菜園路5號",
+  "primary_type": "taiwanese_restaurant",
+  "opening_hours_text": [
+    "Monday: 10:30 AM – 2:00 PM, 4:30 – 8:00 PM",
+    "Tuesday: 10:30 AM – 2:00 PM, 4:30 – 8:00 PM",
+    "Wednesday: Closed",
+    "Thursday: 10:30 AM – 2:00 PM, 4:30 – 8:00 PM",
+    "Friday: 10:30 AM – 2:00 PM, 4:30 – 8:00 PM",
+    "Saturday: 10:30 AM – 2:00 PM, 4:30 – 8:00 PM",
+    "Sunday: 10:30 AM – 2:00 PM, 4:30 – 8:00 PM"
+  ]
+}

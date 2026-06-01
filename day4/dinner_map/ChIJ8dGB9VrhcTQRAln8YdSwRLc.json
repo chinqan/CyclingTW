@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ8dGB9VrhcTQRAln8YdSwRLc",
+  "name_zh": "甲板上海景餐廳",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 72,
+  "location": {
+    "lat": 22.4709902,
+    "lng": 120.4377976
+  },
+  "address": "932屏東縣新園鄉共和村新興路二段1號3樓",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.43,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ3WMKNsThcTQRAL0eUBaE99Y",
+  "name_zh": "晶夜汽車旅館",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 335,
+  "location": {
+    "lat": 22.4785131,
+    "lng": 120.4639304
+  },
+  "address": "928屏東縣東港鎮內關帝里中正路二段187號",
+  "primary_type": "motel",
+  "distance_km": 2.32,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJCz7xt4ezcTQRsreT4Yi8FEs",
+  "name_zh": "遊客中心 / 島嶼餐桌",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 52,
+  "location": {
+    "lat": 21.9634955,
+    "lng": 120.81301730000001
+  },
+  "address": "946屏東縣恆春鎮墾丁里公園路201號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 2.56,
+  "source": "api_2026-06-02",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

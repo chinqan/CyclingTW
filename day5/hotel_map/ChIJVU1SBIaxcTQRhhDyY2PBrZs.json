@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJVU1SBIaxcTQRhhDyY2PBrZs",
+  "name_zh": "Feliz Hotel Kenting 墾丁九號旅舍",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 103,
+  "location": {
+    "lat": 21.9456415,
+    "lng": 120.79871539999999
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路佛光巷14號",
+  "primary_type": "hotel",
+  "distance_km": 0.17,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

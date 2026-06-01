@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJcTRmNaqxcTQRGk4TnNcOeEQ",
+  "name_zh": "墾丁必吃 脆皮豬腳",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 14,
+  "location": {
+    "lat": 21.9450915,
+    "lng": 120.79989459999999
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路118號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.3,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

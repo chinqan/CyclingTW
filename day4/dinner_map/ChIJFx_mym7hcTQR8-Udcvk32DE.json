@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJFx_mym7hcTQR8-Udcvk32DE",
+  "name_zh": "鮨澄心 手作壽司、定食",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 168,
+  "location": {
+    "lat": 22.4668137,
+    "lng": 120.4533347
+  },
+  "address": "928屏東縣東港鎮新勝里光復路二段87號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.63,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

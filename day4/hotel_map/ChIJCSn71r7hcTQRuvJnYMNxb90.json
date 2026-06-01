@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJCSn71r7hcTQRuvJnYMNxb90",
+  "name_zh": "東津灣旅休閒民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 123,
+  "location": {
+    "lat": 22.4599621,
+    "lng": 120.4681666
+  },
+  "address": "31號, No. 31號大順路船頭里東港鎮屏東縣928",
+  "primary_type": "guest_house",
+  "distance_km": 2.03,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

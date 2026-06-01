@@ -1,28 +1,28 @@
 {
   "day": 5,
-  "origin_label": "屏東枋寮",
-  "destination_label": "墾丁鵝鑾鼻",
-  "distance_range": "約 68.1 公里",
-  "subtitle": "屏鵝公路南國追風行",
+  "origin_label": "屏東東港",
+  "destination_label": "墾丁",
+  "distance_range": "約 82.2 公里",
+  "subtitle": "屏鵝南境國境之南",
   "orientation": "horizontal_landscape_3_2",
   "lighting": "南國正午強烈陽光、碧海藍天熱帶色調",
-  "allowed_elements": "鵝鑾鼻白色砲台式燈塔、珊瑚礁海岸線、巴士海峽碧藍海面、台灣最南端界碑、屏鵝公路筆直南下、車城洋蔥田與南國平原、恆春古城城牆剪影、墾丁椰子樹林",
-  "enhancement": "畫面呈現騎抵台灣國境之南的旅程終點感、鵝鑾鼻燈塔作為唯一終點視覺地標、碧海藍天椰影強調墾丁半島熱帶島嶼氛圍、整體散發「我到了最南端」的完成感",
+  "allowed_elements": "",
+  "enhancement": "",
   "main_visual": {
-    "place_id": "ChIJZV-_DhWxcTQREKTCizrSV1c",
-    "location_desc": "屏東縣恆春「鵝鑾鼻燈塔」",
-    "scene_elements": "白色砲台式燈塔主體高聳、四周珊瑚礁公園綠意、遠方巴士海峽碧藍海面、台灣最南端界碑石柱、燈塔入口石板步道",
-    "action": "站在鵝鑾鼻燈塔前舉起雙手慶祝、公路車靠在界碑旁、仰望白色燈塔",
-    "expression": "完成感、熱淚盈眶、興奮吶喊、感受抵達國境之南的震撼"
+    "place_id": "ChIJG7fKhoWxcTQR6CrWL3xdESQ",
+    "location_desc": "屏東縣恆春「墾丁大街」",
+    "scene_elements": "",
+    "action": "",
+    "expression": ""
   },
   "small_avatar": {
-    "place_id": "ChIJp-xjwz3ccTQRN_tucmfrEdM",
-    "location_desc": "屏東縣枋寮「枋寮車站」",
-    "scenario": "枋寮車站月台前清晨出發、背後是西部幹線最南站牌",
-    "action": "跨上公路車朝南方出發",
-    "expression": "興奮、期待今日抵達國境之南"
+    "place_id": "ChIJKzw4apvhcTQRbxsV8Dmentk",
+    "location_desc": "屏東縣東港「東港東隆宮」",
+    "scenario": "",
+    "action": "",
+    "expression": ""
   },
-  "composition": "主角在畫面中央偏上、枋寮車站在右上方小分身、鵝鑾鼻燈塔在畫面右側遠景、沿途點綴車城福安宮、恆春南門、恆春老街、墾丁大街",
-  "geographic_notes": "枋寮車站在畫面左側（西側）、鵝鑾鼻燈塔在畫面右側（東側）",
-  "_last_place_id": "ChIJZV-_DhWxcTQREKTCizrSV1c"
+  "composition": "主角在畫面中央偏上、東港東隆宮在右上方小分身、墾丁大街在畫面右側遠景、沿途點綴鵬灣跨海大橋、車城福安宮、鹿境梅花鹿生態園區、恆春縣城北門",
+  "geographic_notes": "東港東隆宮在畫面左側（西側）、墾丁大街在畫面右側（東側）",
+  "_last_place_id": "ChIJG7fKhoWxcTQR6CrWL3xdESQ"
 }

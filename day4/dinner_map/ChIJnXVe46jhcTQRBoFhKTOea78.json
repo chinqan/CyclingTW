@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJnXVe46jhcTQRBoFhKTOea78",
+  "name_zh": "食光杯 屏東東港店",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 767,
+  "location": {
+    "lat": 22.4745694,
+    "lng": 120.46273219999999
+  },
+  "address": "928屏東縣東港鎮內關帝里沿海路212號內關帝里",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.92,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

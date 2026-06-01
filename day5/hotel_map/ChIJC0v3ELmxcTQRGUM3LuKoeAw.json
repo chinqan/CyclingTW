@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJC0v3ELmxcTQRGUM3LuKoeAw",
+  "name_zh": "好心情背包客棧 -- 平價 經濟 實惠",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 43,
+  "location": {
+    "lat": 21.945935,
+    "lng": 120.7947178
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路324之2號",
+  "primary_type": "hostel",
+  "distance_km": 0.24,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

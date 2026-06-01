@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJzxkESo-xcTQRx6wHR2wbDh4",
+  "name_zh": "艾比莎渡假旅店",
+  "name_lang": "zh-TW",
+  "rating": 3.5,
+  "total_ratings": 253,
+  "location": {
+    "lat": 21.944093499999997,
+    "lng": 120.79820780000001
+  },
+  "address": "946屏東縣恆春鎮墾丁里大灣路138號",
+  "primary_type": "hotel",
+  "distance_km": 0.22,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJeRJmzJjhcTQRDJdRXwXvek4",
+  "name_zh": "玉灣鵬灣民宿(大鵬灣海景)",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 119,
+  "location": {
+    "lat": 22.460586799999998,
+    "lng": 120.45653549999999
+  },
+  "address": "928屏東縣東港鎮嘉新一街26號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.85,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

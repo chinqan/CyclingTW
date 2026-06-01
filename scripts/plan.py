@@ -13,7 +13,7 @@ dinner-search / hotel-search / refresh-details 都在這一條路）。
   - Bayesian 用整池候選：C/m 由 mirror 完整候選池（含未入選備案）算，可在
     編輯 places.json **前**先用 score-pool 看分數做決策（pool_scores.json 是 SoT）
   - 路線/終點相關性過濾（鏡像只增不減，換路線後排除離線殘留點，不刪鏡像）：
-    score-pool 剔除距目前路線折線過遠的景點。折線優先用 ORS 真實路線幾何
+    score-pool 剔除距目前路線折線過遠的景點。折線優先用 Routes API 真實路線幾何
     （route 會把它存進 _plan/route_geometry.json，簽章對得上現在航點時 → 走廊 15km，
     精準抓 15-30km 殘留）；尚未跑 route/離線/簽章不符時退回航點直線近似（走廊 30km，寬鬆）。
     dinner/hotel-pool 剔除距目前終點 >3km 的餐廳/飯店。compute 每次都重算 score-pool；
@@ -28,10 +28,10 @@ dinner-search / hotel-search / refresh-details 都在這一條路）。
                            輸出 _plan/hotel.json 與 dayN_hotel.md。
                            （輔助：hotel-status / hotel-review）
   parse-index N            解析 index.md 第 N 天設定
-  route-skeleton N         Phase 1 起點：ORS 只串「起點+必經景點+終點」算骨架最佳
-                           路線，產 _plan/skeleton.json（含 geometry 折線）。供
-                           search-along-route 沿真實路線找點。需 ORS_API_KEY +
-                           GOOGLE_PLACES_API_KEY（地理編碼必經點）。
+  route-skeleton N         Phase 1 起點：Routes API（computeRoutes）只串「起點+必經
+                           景點+終點」算骨架最佳路線，產 _plan/skeleton.json（含
+                           geometry 折線）。供 search-along-route 沿真實路線找點。
+                           需 GOOGLE_PLACES_API_KEY（地理編碼 + 路線，需啟用 Routes API）。
   search-along-route N --keyword "…" --csv-type … [--segments K]
                            沿 skeleton/route 折線用 Places API (New)
                            searchAlongRoute 找停靠點，依「離線繞路距離」過濾
@@ -49,8 +49,10 @@ dinner-search / hotel-search / refresh-details 都在這一條路）。
   review N                 讀 pool_scores 顯示排名 + ★入選 + 替換建議
   compose-better-attractions N  從 pool_scores 自動產 segments.json.better_attractions
   write-csv N              產 dayN_mymap.csv（依 _plan/places.json）
-  route N                  呼叫 OpenRouteService API 取整天路線，輸出 dayN_route.gpx
-                           （需設定 ORS_API_KEY 環境變數）
+  route N                  呼叫 Google Routes API（computeRoutes，travelMode 預設
+                           TWO_WHEELER）取整天路線，輸出 dayN_route.gpx。需
+                           GOOGLE_PLACES_API_KEY（須啟用 Routes API）。travelMode 可由
+                           config.json travel_mode 或 ROUTES_TRAVEL_MODE 覆寫為 BICYCLE
   gpx-save N               [stdin] 儲存外部來源 GPX（備援用）
   gpx-waypoints N          離線備案：依 places.json 座標產純航點 GPX
   refresh-details N        呼叫 Google Places API (New) 刷新可評分點位的
@@ -74,7 +76,7 @@ dinner-search / hotel-search / refresh-details 都在這一條路）。
   │   ├── config.json        ← parse-index 產出（起終點/距離/必經景點）
   │   ├── skeleton.json      ← route-skeleton 產出（必經點骨架路線 + geometry 折線）
   │   ├── pool_scores.json   ← score-pool 產出（整池 Bayesian，C/m/score by pid）
-  │   ├── route_geometry.json ← route 產出（ORS 真實路線折線 + 航點簽章，供走廊過濾）
+  │   ├── route_geometry.json ← route 產出（Routes API 真實路線折線 + 航點簽章，供走廊過濾）
   │   ├── places.json        ← Claude 決定的最終點位順序與 Bayesian 結果
   │   ├── segments.json      ← Claude 寫的段落敘述/魚骨圖/注意事項
   │   └── poster_vars.json   ← Claude 決定的海報主視覺與 5 變數
@@ -111,6 +113,12 @@ Claude 規劃時必須遵守的規則（plan.py 無法強制，但需在對話�
       一般補給 / 公廁：距主線 ≤ 500m
       午餐大休       ：距主線 ≤ 1 km
       景點           ：距主線 ≤ 2 km
+  - 景點數上限：單日 csv_type=="景點" ≤ 5 個（便利商店/餐廳大休/起終點不計）。候選超過
+    時，必經景點（config must_visit_landmarks）一律保留，其餘名額給 Bayesian 評分
+    （最受歡迎）最高者；被擠掉的移出 places.json，cascade 的 compose-better-attractions
+    會自動降為 better_attractions 備案。render-md 預檢 gate (F) 機械擋下並列出
+    「建議保留前 N／建議降級」清單；上限寫在 render.py _ATTRACTION_CAP，可依需求調整。
+  - 便利商店間距：沿路約每 30 km 一個（≈ 距離 ÷ 30），於補給空窗段就近補點；午餐放中段。
 
 [D] 起終點不可錯置
   - 起點 = dayN_mymap.csv 順序第 1 筆 = 當日出發地
@@ -211,8 +219,8 @@ def build_parser() -> argparse.ArgumentParser:
     sp.add_argument("--dry-run",   action="store_true", help="只印預覽，不寫入 segments.json")
     add("write-csv",     cmd_write_csv,     "產 dayN_mymap.csv")
     add("route-skeleton", cmd_route_skeleton,
-        "ORS 只串 起點+必經景點+終點 → _plan/skeleton.json（沿線搜尋基礎）")
-    add("route",         cmd_route,         "呼叫 ORS API 取整天路線 → dayN_route.gpx")
+        "Routes API 只串 起點+必經景點+終點 → _plan/skeleton.json（沿線搜尋基礎）")
+    add("route",         cmd_route,         "呼叫 Google Routes API 取整天路線 → dayN_route.gpx")
     add("gpx-save",      cmd_gpx_save,      "[stdin] 儲存外部 GPX（備援）")
     add("gpx-waypoints", cmd_gpx_waypoints, "離線備案：純航點 GPX")
 

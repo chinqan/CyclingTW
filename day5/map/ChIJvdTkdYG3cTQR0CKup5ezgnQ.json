@@ -1,13 +1,15 @@
 {
   "place_id": "ChIJvdTkdYG3cTQR0CKup5ezgnQ",
-  "name_zh": "田中海鮮",
+  "name_zh": "田中漁夫",
   "csv_type": "餐廳大休",
-  "rating": 4.4,
-  "total_ratings": 2060,
   "location": {
-    "lat": 22.060843,
-    "lng": 120.716773
+    "lat": 22.0608431,
+    "lng": 120.71677310000001
   },
-  "source": "search_2026-05-21",
-  "note": "車城海鮮料理"
+  "search_keyword": "餐廳 小吃 海鮮",
+  "source": "along_2026-06-02",
+  "rating": 4.4,
+  "total_ratings": 2064,
+  "address": "944屏東縣車城鄉新街村保新路64-13號",
+  "primary_type": "seafood_restaurant"
 }

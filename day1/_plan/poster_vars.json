@@ -1,13 +1,13 @@
 {
   "day": 1,
   "origin_label": "新北蘆洲",
-  "destination_label": "苗栗竹南",
-  "distance_range": "約 142.4 公里",
+  "destination_label": "苗栗通霄",
+  "distance_range": "約 139.8 公里",
   "subtitle": "西濱海岸線追風之旅",
   "orientation": "horizontal_landscape_3_2",
   "main_visual": {
-    "place_id": "ChIJVVVVVWWuaTQRsf_BtcIo5Yo",
-    "location_desc": "「後龍好望角風景區」",
+    "place_id": "ChIJU9iHxPQuaDQR2v3_t-04zTU",
+    "location_desc": "桃園市新屋「永安漁港」",
     "scene_elements": "",
     "action": "",
     "expression": ""
@@ -22,7 +22,7 @@
   "lighting": "柔和清晨明亮光線、清新藍天白雲",
   "allowed_elements": "",
   "enhancement": "",
-  "composition": "主角在畫面中央偏上、蘆洲柳堤公園在右上方小分身、通霄車站在畫面左側遠景、沿途點綴八里左岸自行車道、水牛坑越野場地、竹圍漁港、永安漁港、南寮漁港、白沙屯拱天宮、台鹽通霄精鹽廠觀光工廠",
+  "composition": "主角在畫面中央偏上、蘆洲柳堤公園在右上方小分身、通霄車站在畫面左側遠景、沿途點綴八里左岸自行車道、許厝港濕地、南寮漁港、後龍好望角風景區",
   "geographic_notes": "蘆洲柳堤公園在畫面右側（東側）、通霄車站在畫面左側（西側）",
   "_last_place_id": "ChIJJ5R-bjoIaTQRmYc9tYdbBqk"
 }

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJs5GdkprhcTQRQvvgV1GhEuw",
+  "name_zh": "勝友商務旅館",
+  "name_lang": "zh-TW",
+  "rating": 3.8,
+  "total_ratings": 187,
+  "location": {
+    "lat": 22.465987,
+    "lng": 120.44944199999999
+  },
+  "address": "928屏東縣東港鎮福德里中正路56號",
+  "primary_type": "hotel",
+  "distance_km": 0.33,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

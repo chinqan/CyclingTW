@@ -1,0 +1,24 @@
+{
+  "place_id": "ChIJgVfxZJIbbjQRAkFHYHcO6l4",
+  "name_zh": "蝦搞活蝦海鮮餐廳（澄清店）",
+  "csv_type": "餐廳大休",
+  "location": {
+    "lat": 22.6397043,
+    "lng": 120.3449832
+  },
+  "search_keyword": "餐廳 小吃 海鮮",
+  "source": "api_2026-06-02",
+  "rating": 4.8,
+  "total_ratings": 754,
+  "address": "807高雄市三民區寶業里澄清路425號",
+  "primary_type": "restaurant",
+  "opening_hours_text": [
+    "Monday: 5:00 PM – 2:00 AM",
+    "Tuesday: 5:00 PM – 2:00 AM",
+    "Wednesday: 5:00 PM – 2:00 AM",
+    "Thursday: 5:00 PM – 2:00 AM",
+    "Friday: 5:00 PM – 2:00 AM",
+    "Saturday: 5:00 PM – 2:00 AM",
+    "Sunday: 5:00 PM – 2:00 AM"
+  ]
+}

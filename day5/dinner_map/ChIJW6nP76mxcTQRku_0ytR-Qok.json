@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJW6nP76mxcTQRku_0ytR-Qok",
+  "name_zh": "大玉食堂",
+  "name_lang": "zh-TW",
+  "rating": 2.3,
+  "total_ratings": 26,
+  "location": {
+    "lat": 21.945461599999998,
+    "lng": 120.79761209999998
+  },
+  "address": "946屏東縣恆春鎮墾丁里屏鵝公路221號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.07,
+  "source": "api_2026-06-02",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

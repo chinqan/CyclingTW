@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ0U-9GACxcTQRXwZH1AGC_jE",
+  "name_zh": "墾丁卿卿文旅 民宿推薦/住宿推薦/恆春半島住宿",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 554,
+  "location": {
+    "lat": 21.9461567,
+    "lng": 120.795062
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路314號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.21,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

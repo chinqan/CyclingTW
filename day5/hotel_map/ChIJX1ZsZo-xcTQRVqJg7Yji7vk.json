@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJX1ZsZo-xcTQRVqJg7Yji7vk",
+  "name_zh": "澤信旅店",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 123,
+  "location": {
+    "lat": 21.9451169,
+    "lng": 120.7964882
+  },
+  "address": "946屏東縣恆春鎮墾丁里大灣路260號",
+  "primary_type": "hotel",
+  "distance_km": 0.1,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

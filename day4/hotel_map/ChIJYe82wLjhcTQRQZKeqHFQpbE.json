@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJYe82wLjhcTQRQZKeqHFQpbE",
+  "name_zh": "玉大曆汽車旅館",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 1023,
+  "location": {
+    "lat": 22.4732852,
+    "lng": 120.4659656
+  },
+  "address": "928屏東縣東港鎮東新里興東路501號",
+  "primary_type": "motel",
+  "distance_km": 2.1,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

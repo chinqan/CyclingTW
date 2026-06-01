@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJfWYoHoaxcTQRStrwE1vSBuY",
+  "name_zh": "阿美披薩店",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 1624,
+  "location": {
+    "lat": 21.945053599999998,
+    "lng": 120.7993639
+  },
+  "address": "94644屏東縣恆春鎮墾丁里墾丁路131-1號",
+  "primary_type": "italian_restaurant",
+  "primary_type_label": "義大利餐廳",
+  "distance_km": 0.25,
+  "source": "api_2026-06-02",
+  "note": "義大利餐廳",
+  "name_is_ascii": false
+}

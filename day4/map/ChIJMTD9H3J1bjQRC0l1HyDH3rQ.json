@@ -1,0 +1,25 @@
+{
+  "place_id": "ChIJMTD9H3J1bjQRC0l1HyDH3rQ",
+  "name_zh": "黃金海岸",
+  "csv_type": "景點",
+  "location": {
+    "lat": 22.931430100000004,
+    "lng": 120.1764427
+  },
+  "search_keyword": "黃金海岸 高雄",
+  "source": "api_2026-06-02",
+  "rating": 4.3,
+  "total_ratings": 10170,
+  "address": "702臺南市南區西部濱海公路",
+  "primary_type": "park",
+  "opening_hours_text": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "editorial_summary": "Seaside area with beaches, an embankment & cafes, popular for sunset-viewing & flying kites."
+}

@@ -1,15 +1,15 @@
 {
   "place_id": "ChIJH-zUxBKfQjQRH38ogQYCsag",
-  "name": "竹圍沙灘 (Zhuwei Beach)",
-  "address": "337, Taiwan, Taoyuan City, Dayuan District, Shalun Village, 航空港 旋轉 餐廳 旁",
-  "location": { "lat": 25.1149077, "lng": 121.23842259 },
-  "primary_type": "scenic_spot",
+  "name_zh": "竹圍海水浴場",
+  "csv_type": "景點",
+  "location": {
+    "lat": 25.1149077,
+    "lng": 121.23842259999999
+  },
+  "search_keyword": "景點",
+  "source": "along_2026-06-02",
   "rating": 4.3,
-  "total_ratings": 1090,
-  "source": "search_result",
-  "fetched_at": "2026-05-20",
-  "csv_type": "未入選",
-  "not_selected_reason": "鄰近竹圍漁港，已由竹圍漁港代表此區段，無須重複停靠",
-  "bayesian_score_estimate": 4.27,
-  "visual_score_estimate": 12.91
+  "total_ratings": 1092,
+  "address": "337桃園市大園區沙崙里航空港 旋轉 餐廳 旁",
+  "primary_type": "scenic_spot"
 }

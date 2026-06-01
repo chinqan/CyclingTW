@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJVRzGnnIdbjQRQ3tCjWW-0kw",
+  "name_zh": "東港陣頭飯湯",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 364,
+  "location": {
+    "lat": 22.4645676,
+    "lng": 120.44899509999998
+  },
+  "address": "928屏东县东港镇东隆里光复路三段133號133之2號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.17,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

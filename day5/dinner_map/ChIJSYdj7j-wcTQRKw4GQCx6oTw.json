@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJSYdj7j-wcTQRKw4GQCx6oTw",
+  "name_zh": "恆春陳海鮮餐廳-墾丁店 |海鮮、台菜、熱炒、生魚片 | 墾丁大街美食 Chen.Seafood",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 3512,
+  "location": {
+    "lat": 21.943631699999997,
+    "lng": 120.80160889999999
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路46號",
+  "primary_type": "seafood_restaurant",
+  "primary_type_label": "海鮮餐廳",
+  "distance_km": 0.53,
+  "source": "api_2026-06-02",
+  "note": "海鮮餐廳",
+  "name_is_ascii": false
+}

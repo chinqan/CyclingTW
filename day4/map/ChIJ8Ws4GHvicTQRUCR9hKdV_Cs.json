@@ -1,0 +1,11 @@
+{
+  "place_id": "ChIJ8Ws4GHvicTQRUCR9hKdV_Cs",
+  "name_zh": "7-ELEVEN 霖園門市(現萃茶)",
+  "csv_type": "便利商店",
+  "location": {
+    "lat": 22.5010452,
+    "lng": 120.3980518
+  },
+  "search_keyword": "7-ELEVEN 林園",
+  "source": "api_2026-06-02"
+}

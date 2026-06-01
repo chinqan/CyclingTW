@@ -1,16 +1,15 @@
 {
   "place_id": "ChIJcZhVeAOlQjQRvj7a8XTvhVA",
-  "name": "十三行博物館 (Shihsanhang Museum of Archaeology)",
-  "address": "249005, Taiwan, New Taipei City, Bali District, Dinggu Village, 博物館路200號",
-  "location": { "lat": 25.156873899, "lng": 121.40485609 },
-  "primary_type": "museum",
+  "name_zh": "新北市立十三行博物館",
+  "csv_type": "景點",
+  "location": {
+    "lat": 25.156873899999997,
+    "lng": 121.40485609999999
+  },
+  "search_keyword": "景點",
+  "source": "along_2026-06-02",
   "rating": 4.3,
-  "total_ratings": 14094,
-  "opening_hours_note": "週一休館（search結果顯示 open_now: false）",
-  "source": "search_result",
-  "fetched_at": "2026-05-20",
-  "csv_type": "未入選",
-  "not_selected_reason": "評論數高（14,094），visual_score≈16.5，但博物館需入場費且早上未必開館，環島行程騎乘優先，不適合長時間停留室內景點",
-  "bayesian_score_estimate": 4.28,
-  "visual_score_estimate": 16.50
+  "total_ratings": 14130,
+  "address": "249005新北市八里區頂罟里博物館路200號",
+  "primary_type": "museum"
 }

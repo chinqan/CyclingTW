@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJqYlmwHThcTQRAAfL4yW-dS0",
+  "name_zh": "鍋湯匯24h(屏東東港)",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 452,
+  "location": {
+    "lat": 22.4669688,
+    "lng": 120.4534577
+  },
+  "address": "928屏東縣東港鎮鎮光復路二段87號",
+  "primary_type": "hot_pot_restaurant",
+  "primary_type_label": "火鍋店",
+  "distance_km": 0.65,
+  "source": "api_2026-06-02",
+  "note": "火鍋店",
+  "name_is_ascii": false
+}

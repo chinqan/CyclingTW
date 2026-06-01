@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ55i-lNGwcTQRb6ODoRsxzDY",
+  "name_zh": "墾丁福容大飯店",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 4558,
+  "location": {
+    "lat": 21.936994499999997,
+    "lng": 120.8180465
+  },
+  "address": "946屏東縣恆春鎮鵝鑾里船帆路1000號",
+  "primary_type": "hotel",
+  "distance_km": 2.37,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

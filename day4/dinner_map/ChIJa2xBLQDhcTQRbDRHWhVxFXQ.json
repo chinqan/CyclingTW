@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJa2xBLQDhcTQRbDRHWhVxFXQ",
+  "name_zh": "小李食堂",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 6,
+  "location": {
+    "lat": 22.4680203,
+    "lng": 120.447479
+  },
+  "address": "928屏東縣東港鎮朝安里中山路141號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.56,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

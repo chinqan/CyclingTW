@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJNaepJZXhcTQRXFEiGo9SsYE",
+  "name_zh": "星盈輕旅 -港鎮時光 Bright Starry Hostel-Vacation in Donggang",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 115,
+  "location": {
+    "lat": 22.471241000000003,
+    "lng": 120.45743039999999
+  },
+  "address": "928屏東縣東港鎮明德路62號",
+  "primary_type": "hostel",
+  "distance_km": 1.27,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

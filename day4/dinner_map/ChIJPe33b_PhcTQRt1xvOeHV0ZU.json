@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJPe33b_PhcTQRt1xvOeHV0ZU",
+  "name_zh": "樓梯Louti",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 963,
+  "location": {
+    "lat": 22.4693371,
+    "lng": 120.45625280000002
+  },
+  "address": "92849屏東縣東港鎮東光里光復路一段379號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.04,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJtYPNjJCxcTQRcVf2YyPUJIQ",
+  "name_zh": "Chateau Beach Resort 墾丁夏都沙灘酒店",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 6821,
+  "location": {
+    "lat": 21.945904,
+    "lng": 120.79006999999999
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路451號",
+  "primary_type": "hotel",
+  "distance_km": 0.72,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

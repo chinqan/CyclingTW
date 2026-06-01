@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJUaWYVY-xcTQRZ4hbZKhBGTM",
+  "name_zh": "佳珍生猛海鮮",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 1771,
+  "location": {
+    "lat": 21.9452131,
+    "lng": 120.79798129999999
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路203號",
+  "primary_type": "seafood_restaurant",
+  "primary_type_label": "海鮮餐廳",
+  "distance_km": 0.11,
+  "source": "api_2026-06-02",
+  "note": "海鮮餐廳",
+  "name_is_ascii": false
+}

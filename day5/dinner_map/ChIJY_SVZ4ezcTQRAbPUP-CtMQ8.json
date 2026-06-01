@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJY_SVZ4ezcTQRAbPUP-CtMQ8",
+  "name_zh": "主廚先生Mr. Chef",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 308,
+  "location": {
+    "lat": 21.9415349,
+    "lng": 120.80631079999999
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路2號",
+  "primary_type": "western_restaurant",
+  "primary_type_label": "西餐廳",
+  "distance_km": 1.06,
+  "source": "api_2026-06-02",
+  "note": "西餐廳",
+  "name_is_ascii": false
+}

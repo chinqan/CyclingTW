@@ -2,15 +2,16 @@
   "place_id": "ChIJTRbkzL_WbTQRTrfGfckHIrc",
   "name_zh": "七股鹽山",
   "csv_type": "景點",
-  "search_keyword": "七股鹽山 台南市七股區鹽埕里66號",
-  "rating": 3.9,
-  "total_ratings": 20710,
   "location": {
-    "lat": 23.1542387,
-    "lng": 120.10012110000001
+    "lat": 23.1537345,
+    "lng": 120.0998464
   },
-  "note": "約15:45抵達 純白巨型鹽山地標 km約113",
-  "source": "api_2026-05-22",
+  "search_keyword": "漁港 鹽田 燈塔 老街 景點",
+  "source": "api_2026-06-02",
+  "rating": 3.9,
+  "total_ratings": 20746,
+  "address": "724臺南市七股區里66號",
+  "primary_type": "tourist_attraction",
   "opening_hours_text": [
     "Monday: 9:00 AM – 6:00 PM",
     "Tuesday: 9:00 AM – 6:00 PM",

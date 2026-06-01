@@ -1,0 +1,24 @@
+{
+  "place_id": "ChIJuyPq7S4obDQRIpiUv_9PkCE",
+  "name_zh": "布袋小確幸海灘",
+  "csv_type": "景點",
+  "location": {
+    "lat": 23.3846214,
+    "lng": 120.1510753
+  },
+  "search_keyword": "漁港 鹽田 燈塔 老街 景點",
+  "source": "api_2026-06-02",
+  "rating": 4.3,
+  "total_ratings": 1085,
+  "address": "625嘉義縣布袋鎮岑海里",
+  "primary_type": "tourist_attraction",
+  "opening_hours_text": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJr6qqqsfhcTQR7K0pkk0W1t0",
+  "name_zh": "多億精品旅宿",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 93,
+  "location": {
+    "lat": 22.4752947,
+    "lng": 120.46743629999999
+  },
+  "address": "928屏東縣東港鎮東新里興東四街68號",
+  "primary_type": "inn",
+  "distance_km": 2.35,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

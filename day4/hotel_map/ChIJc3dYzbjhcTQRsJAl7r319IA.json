@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJc3dYzbjhcTQRsJAl7r319IA",
+  "name_zh": "東港民宿灣稻旅居",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 473,
+  "location": {
+    "lat": 22.4727801,
+    "lng": 120.465684
+  },
+  "address": "928屏東縣東港鎮東新里東新路3號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 2.05,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

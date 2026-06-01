@@ -1,20 +1,15 @@
 {
   "place_id": "ChIJk8qQWFWkQjQRmX_J3g-d-4E",
-  "name": "商港公園 (Shanggang Park)",
-  "address": "249, Taiwan, New Taipei City, Bali District, Shanggang 3rd Rd, 商港一路商港七路交叉口",
-  "location": { "lat": 25.1501193, "lng": 121.39893989 },
-  "primary_type": "city_park",
+  "name_zh": "八里商港公園",
+  "csv_type": "景點",
+  "location": {
+    "lat": 25.1501193,
+    "lng": 121.39893989999999
+  },
+  "search_keyword": "景點",
+  "source": "along_2026-06-02",
   "rating": 4.1,
-  "total_ratings": 1407,
-  "opening_hours": { "weekday_text": ["Monday: Open 24 hours", "Tuesday: Open 24 hours", "Wednesday: Open 24 hours", "Thursday: Open 24 hours", "Friday: Open 24 hours", "Saturday: Open 24 hours", "Sunday: Open 24 hours"] },
-  "phone": "02 2610 2621#259",
-  "website": "https://www.landscaping.ntpc.gov.tw/cht/index.php?act=park&code=view&id=12",
-  "accessibility": { "wheelchairAccessibleEntrance": true },
-  "atmosphere": { "good_for_children": true, "allows_dogs": true },
-  "source": "place_details",
-  "fetched_at": "2026-05-20",
-  "csv_type": "未入選",
-  "not_selected_reason": "一般社區公園，無特色視覺符號，且八里左岸已涵蓋此段補給需求",
-  "bayesian_score": null,
-  "visual_score": null
+  "total_ratings": 1408,
+  "address": "249新北市八里區商港三路商港一路商港七路交叉口",
+  "primary_type": "city_park"
 }

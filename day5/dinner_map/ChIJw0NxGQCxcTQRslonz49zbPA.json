@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJw0NxGQCxcTQRslonz49zbPA",
+  "name_zh": "阿部玖肆彩色地瓜球～墾丁旗艦店",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 17,
+  "location": {
+    "lat": 21.9457459,
+    "lng": 120.7971972
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路239-233號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.01,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

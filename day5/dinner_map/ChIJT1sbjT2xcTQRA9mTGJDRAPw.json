@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJT1sbjT2xcTQRA9mTGJDRAPw",
+  "name_zh": "六木無煙燒肉海鮮",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 1600,
+  "location": {
+    "lat": 21.9452878,
+    "lng": 120.79780430000001
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路211號",
+  "primary_type": "yakiniku_restaurant",
+  "primary_type_label": "日式燒肉餐廳",
+  "distance_km": 0.09,
+  "source": "api_2026-06-02",
+  "note": "日式燒肉餐廳",
+  "name_is_ascii": false
+}

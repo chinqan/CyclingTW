@@ -1,0 +1,21 @@
+{
+  "place_id": "ChIJvyru1BW0bjQRrsVaIqi0zAI",
+  "name_zh": "西螺延平老街",
+  "rating": 4.2,
+  "total_ratings": 2125,
+  "location": {
+    "lat": 23.8014431,
+    "lng": 120.46190379999999
+  },
+  "source": "api_2026-06-02",
+  "opening_hours_text": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "editorial_summary": "Landmark route featuring old-world buildings & eateries for local snacks such as triangle dumplings."
+}

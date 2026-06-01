@@ -2,13 +2,14 @@
   "place_id": "ChIJ34cCH2kvaDQR2FD-J4mQI30",
   "name_zh": "永安領鮮生魚片",
   "csv_type": "餐廳大休",
-  "rating": 5.0,
-  "total_ratings": 142,
   "location": {
-    "lat": 24.9877664,
-    "lng": 121.0160239
+    "lat": 24.987766399999998,
+    "lng": 121.01602389999998
   },
-  "source": "search_2026-05-20",
-  "target": "candidates_not_selected",
-  "note": "5.0分但僅 142 則評論，加權後輸給江戶壽司"
+  "search_keyword": "餐廳",
+  "source": "along_2026-06-02",
+  "rating": 4.9,
+  "total_ratings": 143,
+  "address": "327桃園市新屋區永安里中山西路三段1165號C40",
+  "primary_type": "seafood_restaurant"
 }

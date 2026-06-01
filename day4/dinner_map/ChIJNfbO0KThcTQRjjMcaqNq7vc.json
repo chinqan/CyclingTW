@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJNfbO0KThcTQRjjMcaqNq7vc",
+  "name_zh": "幸福食堂",
+  "name_lang": "zh-TW",
+  "rating": 3.6,
+  "total_ratings": 9,
+  "location": {
+    "lat": 22.4629548,
+    "lng": 120.4671036
+  },
+  "address": "之 十 八 號, No. 26船頭路東港鎮屏東縣928",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.89,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

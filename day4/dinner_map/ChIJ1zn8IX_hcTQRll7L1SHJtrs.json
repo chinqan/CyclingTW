@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ1zn8IX_hcTQRll7L1SHJtrs",
+  "name_zh": "東港土地公的餐酒館（複合式餐廳）",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 545,
+  "location": {
+    "lat": 22.459527899999998,
+    "lng": 120.46108110000002
+  },
+  "address": "928屏東縣東港鎮船頭里大成路136巷51號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.33,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

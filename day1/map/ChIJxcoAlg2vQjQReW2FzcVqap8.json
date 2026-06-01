@@ -1,0 +1,15 @@
+{
+  "place_id": "ChIJxcoAlg2vQjQReW2FzcVqap8",
+  "name_zh": "雲海餐廳",
+  "csv_type": "餐廳大休",
+  "location": {
+    "lat": 25.103617699999997,
+    "lng": 121.4500429
+  },
+  "search_keyword": "餐廳",
+  "source": "along_2026-06-02",
+  "rating": 4.5,
+  "total_ratings": 47,
+  "address": "248新北市五股區成德里成泰路三段577巷78之2號",
+  "primary_type": "seafood_restaurant"
+}

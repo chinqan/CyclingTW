@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJqferHIaxcTQRim7rX4ce5JQ",
+  "name_zh": "海逸旅館",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 190,
+  "location": {
+    "lat": 21.945383,
+    "lng": 120.7989274
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路和平巷3號",
+  "primary_type": "hotel",
+  "distance_km": 0.2,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

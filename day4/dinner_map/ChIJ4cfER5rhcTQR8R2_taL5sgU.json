@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ4cfER5rhcTQR8R2_taL5sgU",
+  "name_zh": "阿榮坊風味海鮮",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 3120,
+  "location": {
+    "lat": 22.4689282,
+    "lng": 120.4558227
+  },
+  "address": "928屏東縣東港鎮東光里光復路一段399號",
+  "primary_type": "seafood_restaurant",
+  "primary_type_label": "海鮮餐廳",
+  "distance_km": 0.98,
+  "source": "api_2026-06-02",
+  "note": "海鮮餐廳",
+  "name_is_ascii": false
+}

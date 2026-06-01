@@ -1,0 +1,15 @@
+{
+  "place_id": "ChIJTX0rfazhcTQR6RQL0vAEfks",
+  "name_zh": "鵬灣跨海大橋",
+  "csv_type": "景點",
+  "location": {
+    "lat": 22.448946799999998,
+    "lng": 120.45481269999999
+  },
+  "search_keyword": "大鵬灣跨海大橋",
+  "source": "api_2026-06-02",
+  "rating": 4.3,
+  "total_ratings": 4230,
+  "address": "928屏東縣東港鎮鵬灣跨海大橋",
+  "primary_type": "bridge"
+}

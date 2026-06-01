@@ -1,0 +1,11 @@
+{
+  "place_id": "ChIJZU-ulkcbbjQRsYWjzOM9XcI",
+  "name_zh": "7-ELEVEN 鳳凌門市",
+  "csv_type": "便利商店",
+  "location": {
+    "lat": 22.6247945,
+    "lng": 120.3568196
+  },
+  "search_keyword": "7-ELEVEN 鳳山",
+  "source": "api_2026-06-02"
+}

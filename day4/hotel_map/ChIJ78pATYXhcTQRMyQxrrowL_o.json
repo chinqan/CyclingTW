@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ78pATYXhcTQRMyQxrrowL_o",
+  "name_zh": "代雀大旅社",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 65,
+  "location": {
+    "lat": 22.466903499999997,
+    "lng": 120.44720699999999
+  },
+  "address": "928屏東縣東港鎮朝安里博愛街140號",
+  "primary_type": "hotel",
+  "distance_km": 0.45,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

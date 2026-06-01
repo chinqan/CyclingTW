@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJy4SD9W_hcTQRIElcEgDZdQc",
+  "name_zh": "一口生滾粥(東港必吃美食)",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 15,
+  "location": {
+    "lat": 22.4650258,
+    "lng": 120.4488277
+  },
+  "address": "928屏東縣東港鎮福德里中正路6號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.22,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

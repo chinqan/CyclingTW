@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJIe99-IWxcTQRODnz6bB3nVM",
+  "name_zh": "福容徠旅 墾丁",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 1377,
+  "location": {
+    "lat": 21.9455584,
+    "lng": 120.797394
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路235號",
+  "primary_type": "hotel",
+  "distance_km": 0.04,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

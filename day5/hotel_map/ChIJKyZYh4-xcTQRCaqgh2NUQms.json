@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJKyZYh4-xcTQRCaqgh2NUQms",
+  "name_zh": "鹿月旅店",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 113,
+  "location": {
+    "lat": 21.9460338,
+    "lng": 120.7947582
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路324號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 0.24,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

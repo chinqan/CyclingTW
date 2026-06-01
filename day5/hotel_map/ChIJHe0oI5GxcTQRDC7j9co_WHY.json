@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJHe0oI5GxcTQRDC7j9co_WHY",
+  "name_zh": "懇丁四季民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 3,
+  "location": {
+    "lat": 21.9470425,
+    "lng": 120.7993744
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路和平巷77-1號",
+  "primary_type": "hotel",
+  "distance_km": 0.27,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

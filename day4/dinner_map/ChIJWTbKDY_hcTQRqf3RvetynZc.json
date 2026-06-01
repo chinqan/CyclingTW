@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJWTbKDY_hcTQRqf3RvetynZc",
+  "name_zh": "東港華僑市場魚莊黑鮪魚生魚片、握壽司專賣店（212）",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 3060,
+  "location": {
+    "lat": 22.468249399999998,
+    "lng": 120.44347769999999
+  },
+  "address": "928屏東縣新園鄉朝安里朝隆路39號, 華僑市場攤位212號",
+  "primary_type": "seafood_restaurant",
+  "primary_type_label": "海鮮餐廳",
+  "distance_km": 0.79,
+  "source": "api_2026-06-02",
+  "note": "海鮮餐廳",
+  "name_is_ascii": false
+}

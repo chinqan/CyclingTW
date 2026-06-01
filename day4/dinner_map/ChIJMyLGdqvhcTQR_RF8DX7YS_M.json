@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJMyLGdqvhcTQR_RF8DX7YS_M",
+  "name_zh": "隱食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 18,
+  "location": {
+    "lat": 22.4815614,
+    "lng": 120.4395434
+  },
+  "address": "932屏东县新园乡盐埔村圣心路167號巷 2號",
+  "primary_type": "family_restaurant",
+  "primary_type_label": "家庭餐廳",
+  "distance_km": 2.26,
+  "source": "api_2026-06-02",
+  "note": "家庭餐廳",
+  "name_is_ascii": false
+}

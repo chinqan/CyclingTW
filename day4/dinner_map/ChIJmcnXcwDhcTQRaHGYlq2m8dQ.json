@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJmcnXcwDhcTQRaHGYlq2m8dQ",
+  "name_zh": "深夜美食（魚市場早餐車）",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 3,
+  "location": {
+    "lat": 22.4679652,
+    "lng": 120.4428068
+  },
+  "address": "928屏東縣新園鄉朝隆路",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.81,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

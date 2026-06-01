@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJG-58fOCxcTQRGsE1UbHThnw",
+  "name_zh": "墾丁夏林灣民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 33,
+  "location": {
+    "lat": 21.9501385,
+    "lng": 120.78810709999999
+  },
+  "address": "94644屏東縣恆春鎮墾丁里墾丁路330-68號",
+  "primary_type": "private_guest_room",
+  "distance_km": 1.04,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

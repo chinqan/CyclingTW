@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJK5LHUo-xcTQRkw4RjkbNTtQ",
+  "name_zh": "墾丁 My Home 青年旅館背包客棧",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 933,
+  "location": {
+    "lat": 21.944696999999998,
+    "lng": 120.79815099999999
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路通海巷21-2號",
+  "primary_type": "hostel",
+  "distance_km": 0.17,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

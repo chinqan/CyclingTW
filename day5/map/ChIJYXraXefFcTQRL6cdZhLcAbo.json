@@ -2,12 +2,10 @@
   "place_id": "ChIJYXraXefFcTQRL6cdZhLcAbo",
   "name_zh": "7-ELEVEN 新楓港門市",
   "csv_type": "便利商店",
-  "rating": 3.7,
-  "total_ratings": 120,
   "location": {
-    "lat": 22.19877,
-    "lng": 120.689479
+    "lat": 22.198769799999997,
+    "lng": 120.68947849999998
   },
-  "source": "search_2026-05-21",
-  "note": "楓港路段補給"
+  "search_keyword": "7-ELEVEN 全家便利商店",
+  "source": "along_2026-06-02"
 }

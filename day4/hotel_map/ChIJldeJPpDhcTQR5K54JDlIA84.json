@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJldeJPpDhcTQR5K54JDlIA84",
+  "name_zh": "輕旅宿 Simple Travel Hostel | 上下舖房型 | 澡點 | 環保旅店 | 合法民宿 | 東港碼頭 | 東港住宿 |",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 221,
+  "location": {
+    "lat": 22.4690986,
+    "lng": 120.44831780000001
+  },
+  "address": "928屏東縣東港鎮頂中里博愛街171-9號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.67,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

@@ -1,433 +1,673 @@
 {
   "day": 4,
   "search_radius_km": 3,
-  "pool_size": 26,
-  "bayesian_C": 189.3,
-  "bayesian_m": 4.5388,
+  "pool_size": 41,
+  "bayesian_C": 308.1,
+  "bayesian_m": 4.471,
   "note": "C=平均留言數(先驗樣本數), m=加權平均評分(先驗期望值)",
-  "source_endpoint_place_id": "ChIJp-xjwz3ccTQRN_tucmfrEdM",
+  "source_endpoint_place_id": "ChIJKzw4apvhcTQRbxsV8Dmentk",
   "top5_place_ids": [
-    "ChIJUzrQEV3dcTQRTMUsl9sr6jE",
-    "ChIJlcPEhgvdcTQRr9C_w9VBoQY",
-    "ChIJEZl6MCDccTQRdMBW4ztpHTo",
-    "ChIJf0vE7JPdcTQRBYMCBAGXqt0",
-    "ChIJM7WHAkndcTQRtVpORURVRdY"
+    "ChIJTwb8l-XhcTQRWRQ3bSIiYcE",
+    "ChIJZU7lBnDhcTQR2l6aPWkaD2M",
+    "ChIJd95hSUkebjQRPeE8-GSjHqs",
+    "ChIJkcxwqXXhcTQRVM7R8cJGaqc",
+    "ChIJxUABP9HhcTQRLNN9FlLnEfM"
   ],
   "hotels": [
     {
-      "place_id": "ChIJUzrQEV3dcTQRTMUsl9sr6jE",
-      "name_zh": "愛琴海岸海景精品民宿-枋寮店",
-      "rating": 4.9,
-      "total_ratings": 469,
+      "place_id": "ChIJTwb8l-XhcTQRWRQ3bSIiYcE",
+      "name_zh": "東港民宿-如你所院 RuNi SuoYuan Hostel-Tourist Vacation in Donggang",
+      "rating": 5,
+      "total_ratings": 604,
       "location": {
-        "lat": 22.3642434,
-        "lng": 120.5936586
+        "lat": 22.469694,
+        "lng": 120.45774220000001
       },
-      "address": "940屏東縣枋寮鄉枋寮村德興路7號",
+      "address": "928屏東縣東港鎮東光里光復路一段335-1號",
       "note": "",
-      "bayesian_score": 4.7961,
+      "bayesian_score": 4.8213,
       "confidence": "✅ 高",
       "rank": 1,
       "selected": true
     },
     {
-      "place_id": "ChIJlcPEhgvdcTQRr9C_w9VBoQY",
-      "name_zh": "春枋旅居",
-      "rating": 4.9,
-      "total_ratings": 116,
+      "place_id": "ChIJZU7lBnDhcTQR2l6aPWkaD2M",
+      "name_zh": "宥心文旅 You Sin B&B",
+      "rating": 5,
+      "total_ratings": 515,
       "location": {
-        "lat": 22.3670346,
-        "lng": 120.5923316
+        "lat": 22.4731819,
+        "lng": 120.46289120000002
       },
-      "address": "940屏東縣枋寮鄉枋寮村德興路78號",
+      "address": "928屏東縣東港鎮新街里明禮路206號",
       "note": "",
-      "bayesian_score": 4.676,
-      "confidence": "⚠️ 中",
+      "bayesian_score": 4.802,
+      "confidence": "✅ 高",
       "rank": 2,
       "selected": true
     },
     {
-      "place_id": "ChIJEZl6MCDccTQRdMBW4ztpHTo",
-      "name_zh": "枋寮民宿 鐵騎休息棧",
-      "rating": 4.7,
-      "total_ratings": 441,
+      "place_id": "ChIJd95hSUkebjQRPeE8-GSjHqs",
+      "name_zh": "幸福浪漫旅(東港)",
+      "rating": 4.9,
+      "total_ratings": 884,
       "location": {
-        "lat": 22.380372299999998,
-        "lng": 120.59614699999999
+        "lat": 22.4771123,
+        "lng": 120.4644335
       },
-      "address": "940屏東縣枋寮鄉人和村中山路二段55號",
+      "address": "928屏東縣東港鎮內關帝里興中東二街70號",
       "note": "",
-      "bayesian_score": 4.6516,
+      "bayesian_score": 4.7891,
       "confidence": "✅ 高",
       "rank": 3,
       "selected": true
     },
     {
-      "place_id": "ChIJf0vE7JPdcTQRBYMCBAGXqt0",
-      "name_zh": "枋寮18遛遛居｜枋寮民宿｜可包棟",
-      "rating": 4.8,
-      "total_ratings": 104,
+      "place_id": "ChIJkcxwqXXhcTQRVM7R8cJGaqc",
+      "name_zh": "東港民宿 喝睏 H-khùn apartment 酒吧 機車出租-Tourist Vacation in Donggang",
+      "rating": 4.9,
+      "total_ratings": 425,
       "location": {
-        "lat": 22.364980499999998,
-        "lng": 120.60229550000001
+        "lat": 22.4670244,
+        "lng": 120.45167300000001
       },
-      "address": "940屏東縣枋寮鄉隆山村隆興路218巷18號",
+      "address": "928屏東縣東港鎮新勝里新基街31號",
       "note": "",
-      "bayesian_score": 4.6314,
-      "confidence": "⚠️ 中",
+      "bayesian_score": 4.7197,
+      "confidence": "✅ 高",
       "rank": 4,
       "selected": true
     },
     {
-      "place_id": "ChIJM7WHAkndcTQRtVpORURVRdY",
-      "name_zh": "枋寮帝寶16民宿",
-      "rating": 4.7,
-      "total_ratings": 145,
+      "place_id": "ChIJxUABP9HhcTQRLNN9FlLnEfM",
+      "name_zh": "濱灣文旅",
+      "rating": 5,
+      "total_ratings": 191,
       "location": {
-        "lat": 22.368679399999998,
-        "lng": 120.59251710000001
+        "lat": 22.459925,
+        "lng": 120.46753109999999
       },
-      "address": "940屏东县枋寮乡新龙村中山路297巷16號",
+      "address": "928009屏东县东港镇船头里大和街33號",
       "note": "",
-      "bayesian_score": 4.6087,
+      "bayesian_score": 4.6735,
       "confidence": "⚠️ 中",
       "rank": 5,
       "selected": true
     },
     {
-      "place_id": "ChIJgYuNIwDdcTQR0TOqh83xN5Y",
-      "name_zh": "駅海民宿",
-      "rating": 4.8,
-      "total_ratings": 63,
+      "place_id": "ChIJ5-p1BJzhcTQRB1b8boHdIzE",
+      "name_zh": "海津&海町文旅",
+      "rating": 4.9,
+      "total_ratings": 233,
       "location": {
-        "lat": 22.3673407,
-        "lng": 120.59197970000001
+        "lat": 22.4769638,
+        "lng": 120.44431589999998
       },
-      "address": "940屏東縣枋寮鄉枋寮村德興路92-1號",
+      "address": "932屏東縣新園鄉鹽埔村鹽洲路81號",
       "note": "",
-      "bayesian_score": 4.604,
-      "confidence": "❌ 低",
+      "bayesian_score": 4.6557,
+      "confidence": "⚠️ 中",
       "rank": 6,
       "selected": false
     },
     {
-      "place_id": "ChIJ3wiUV_rfcTQRveIHPJJd2og",
-      "name_zh": "枋寮枋居背包客棧Fang Ju Backpackers枋寮住宿民宿推薦",
-      "rating": 4.7,
-      "total_ratings": 121,
+      "place_id": "ChIJPV6p8I_hcTQRjsrSFk1n0HI",
+      "name_zh": "皇庭民宿（電梯透天可包棟可包層每間都私人衛浴沒有乾濕分離）",
+      "rating": 4.9,
+      "total_ratings": 178,
       "location": {
-        "lat": 22.3846645,
-        "lng": 120.5981674
+        "lat": 22.4650839,
+        "lng": 120.46174649999999
       },
-      "address": "940屏東縣枋寮鄉人和村中華路164巷19號",
+      "address": "928屏東縣東港鎮東津里水源一街48號",
       "note": "",
-      "bayesian_score": 4.6017,
+      "bayesian_score": 4.6281,
       "confidence": "⚠️ 中",
       "rank": 7,
       "selected": false
     },
     {
-      "place_id": "ChIJP7kqFoTdcTQRNd0AKNlvhWE",
-      "name_zh": "漾漾漫旅",
-      "rating": 4.8,
-      "total_ratings": 40,
+      "place_id": "ChIJlyyLz_ZS_xMR9BfE9orbX5U",
+      "name_zh": "留下旅舍/ The Way Hostel&Bar",
+      "rating": 4.7,
+      "total_ratings": 573,
       "location": {
-        "lat": 22.365073499999998,
-        "lng": 120.59317149999998
+        "lat": 22.4611545,
+        "lng": 120.46070239999999
       },
-      "address": "94003屏東縣枋寮鄉枋寮村德興路1巷5-1號",
+      "address": "928屏東縣東港鎮東津里船頭路24-78號",
       "note": "",
-      "bayesian_score": 4.5844,
-      "confidence": "❌ 低",
+      "bayesian_score": 4.6199,
+      "confidence": "✅ 高",
       "rank": 8,
       "selected": false
     },
     {
-      "place_id": "ChIJ4YQOeEPdcTQRUfaxhdC-M8s",
-      "name_zh": "枋寮春來輕旅",
-      "rating": 4.6,
-      "total_ratings": 208,
+      "place_id": "ChIJNaepJZXhcTQRXFEiGo9SsYE",
+      "name_zh": "星盈輕旅 -港鎮時光 Bright Starry Hostel-Vacation in Donggang",
+      "rating": 5,
+      "total_ratings": 115,
       "location": {
-        "lat": 22.3664362,
-        "lng": 120.59295009999998
+        "lat": 22.471241000000003,
+        "lng": 120.45743039999999
       },
-      "address": "940屏東縣枋寮鄉枋寮村中興路47號",
+      "address": "928屏東縣東港鎮明德路62號",
       "note": "",
-      "bayesian_score": 4.5708,
-      "confidence": "✅ 高",
+      "bayesian_score": 4.6148,
+      "confidence": "❌ 低",
       "rank": 9,
       "selected": false
     },
     {
-      "place_id": "ChIJ2VY28UbfcTQRDKBjIRMF5CA",
-      "name_zh": "Hello民宿(哈囉民宿)",
-      "rating": 4.8,
-      "total_ratings": 18,
+      "place_id": "ChIJc3dYzbjhcTQRsJAl7r319IA",
+      "name_zh": "東港民宿灣稻旅居",
+      "rating": 4.7,
+      "total_ratings": 473,
       "location": {
-        "lat": 22.386152799999998,
-        "lng": 120.58963709999999
+        "lat": 22.4727801,
+        "lng": 120.465684
       },
-      "address": "940屏東縣枋寮鄉建興路499號",
+      "address": "928屏東縣東港鎮東新里東新路3號",
       "note": "",
-      "bayesian_score": 4.5615,
-      "confidence": "❌ 低",
+      "bayesian_score": 4.6097,
+      "confidence": "✅ 高",
       "rank": 10,
       "selected": false
     },
     {
-      "place_id": "ChIJ-1lGLQDdcTQRbjtfe4uhzSA",
-      "name_zh": "豆魚民宿",
-      "rating": 5,
-      "total_ratings": 8,
+      "place_id": "ChIJydn51JjhcTQR1o2XGbW5R14",
+      "name_zh": "東港民宿 禾田旅宿",
+      "rating": 4.8,
+      "total_ratings": 207,
       "location": {
-        "lat": 22.3661496,
-        "lng": 120.591814
+        "lat": 22.460716299999998,
+        "lng": 120.4558864
       },
-      "address": "940屏東縣枋寮鄉枋寮村沿海路9號",
+      "address": "928屏東縣東港鎮嘉新一街352號",
       "note": "",
-      "bayesian_score": 4.5575,
-      "confidence": "❌ 低",
+      "bayesian_score": 4.6032,
+      "confidence": "⚠️ 中",
       "rank": 11,
       "selected": false
     },
     {
-      "place_id": "ChIJxZBlg7_dcTQRcqQ2o4CpZ4g",
-      "name_zh": "枋寮鳥窩窩",
-      "rating": 4.6,
-      "total_ratings": 28,
+      "place_id": "ChIJCSn71r7hcTQRuvJnYMNxb90",
+      "name_zh": "東津灣旅休閒民宿",
+      "rating": 4.9,
+      "total_ratings": 123,
       "location": {
-        "lat": 22.368021100000004,
-        "lng": 120.61507470000001
+        "lat": 22.4599621,
+        "lng": 120.4681666
       },
-      "address": "940屏東縣枋寮鄉隆山村隆山路356-11號",
+      "address": "31號, No. 31號大順路船頭里東港鎮屏東縣928",
       "note": "",
-      "bayesian_score": 4.5467,
+      "bayesian_score": 4.5934,
       "confidence": "❌ 低",
       "rank": 12,
       "selected": false
     },
     {
-      "place_id": "ChIJB5fArHDdcTQRGWq9SDXZQN0",
-      "name_zh": "枋寮9453民宿｜枋寮民宿",
-      "rating": 4.6,
-      "total_ratings": 17,
+      "place_id": "ChIJB0fGpfnhcTQRzdGUA7bfn4g",
+      "name_zh": "東港民宿 艾睏khùn行旅 租機車",
+      "rating": 4.7,
+      "total_ratings": 305,
       "location": {
-        "lat": 22.3677656,
-        "lng": 120.59255859999998
+        "lat": 22.460585599999998,
+        "lng": 120.4565457
       },
-      "address": "940屏東縣枋寮鄉枋寮村中興路2巷43號",
+      "address": "928屏東縣東港鎮東津里嘉新一街28號",
       "note": "",
-      "bayesian_score": 4.5438,
-      "confidence": "❌ 低",
+      "bayesian_score": 4.5849,
+      "confidence": "⚠️ 中",
       "rank": 13,
       "selected": false
     },
     {
-      "place_id": "ChIJ_R9ak0zdcTQRXSwEzZA75gw",
-      "name_zh": "枋寮訪寮民宿",
-      "rating": 4.5,
-      "total_ratings": 34,
+      "place_id": "ChIJJXbworjhcTQROaS2lfdMPRE",
+      "name_zh": "東港鎮民宿 Jophina B&B",
+      "rating": 4.8,
+      "total_ratings": 163,
       "location": {
-        "lat": 22.3680789,
-        "lng": 120.5944451
+        "lat": 22.474803599999998,
+        "lng": 120.4650545
       },
-      "address": "940屏東縣枋寮鄉枋寮村中興路4巷16號",
+      "address": "92841屏東縣東港鎮興中南六街3號",
       "note": "",
-      "bayesian_score": 4.5329,
-      "confidence": "❌ 低",
+      "bayesian_score": 4.5848,
+      "confidence": "⚠️ 中",
       "rank": 14,
       "selected": false
     },
     {
-      "place_id": "ChIJO0S_9IbfcTQRvZRJfpM6jgs",
-      "name_zh": "小象民宿",
-      "rating": 4.5,
-      "total_ratings": 52,
+      "place_id": "ChIJw2QnowLhcTQRR481BV2nI-I",
+      "name_zh": "向海灣旅宿",
+      "rating": 4.9,
+      "total_ratings": 103,
       "location": {
-        "lat": 22.3880233,
-        "lng": 120.59320109999999
+        "lat": 22.4605933,
+        "lng": 120.456583
       },
-      "address": "940屏東縣枋寮鄉地利村臨海路 21巷40號",
+      "address": "928屏東縣東港鎮東津里嘉新一街22號",
       "note": "",
-      "bayesian_score": 4.5304,
+      "bayesian_score": 4.5785,
       "confidence": "❌ 低",
       "rank": 15,
       "selected": false
     },
     {
-      "place_id": "ChIJUaZ2QhnccTQROwkj-r3xam0",
-      "name_zh": "蘭心山莊民宿",
-      "rating": 4.5,
-      "total_ratings": 86,
+      "place_id": "ChIJydn51JjhcTQRaBLMyepckB8",
+      "name_zh": "東港民宿 蔚藍白鷺",
+      "rating": 4.7,
+      "total_ratings": 151,
       "location": {
-        "lat": 22.3752747,
-        "lng": 120.60104399999999
+        "lat": 22.460749399999997,
+        "lng": 120.4557991
       },
-      "address": "940屏東縣枋寮鄉人和村中正大路666-2號",
+      "address": "928屏東縣東港鎮東津里嘉新一街358號",
       "note": "",
-      "bayesian_score": 4.5267,
+      "bayesian_score": 4.5463,
       "confidence": "❌ 低",
       "rank": 16,
       "selected": false
     },
     {
-      "place_id": "ChIJjcOHR5PdcTQRACEfP3aZu-4",
-      "name_zh": "遊客民宿",
-      "rating": 4,
-      "total_ratings": 8,
+      "place_id": "ChIJeRJmzJjhcTQRDJdRXwXvek4",
+      "name_zh": "玉灣鵬灣民宿(大鵬灣海景)",
+      "rating": 4.7,
+      "total_ratings": 119,
       "location": {
-        "lat": 22.3687762,
-        "lng": 120.59289690000001
+        "lat": 22.460586799999998,
+        "lng": 120.45653549999999
       },
-      "address": "940屏東縣枋寮鄉枋寮村中山路281號",
+      "address": "928屏東縣東港鎮嘉新一街26號",
       "note": "",
-      "bayesian_score": 4.517,
+      "bayesian_score": 4.5348,
       "confidence": "❌ 低",
       "rank": 17,
       "selected": false
     },
     {
-      "place_id": "ChIJ1UrcyD7ccTQRNY_SeAAN96I",
-      "name_zh": "沿海45 - 屏東枋寮海邊民宿小屋",
-      "rating": 4.4,
-      "total_ratings": 40,
+      "place_id": "ChIJMZcabYPhcTQRV08y9eA6NlM",
+      "name_zh": "築跡民宿zhujihostel",
+      "rating": 4.6,
+      "total_ratings": 224,
       "location": {
-        "lat": 22.3670746,
-        "lng": 120.5908613
+        "lat": 22.4614807,
+        "lng": 120.44532470000001
       },
-      "address": "940屏東縣枋寮鄉枋寮村沿海路45號",
+      "address": "928屏東縣東港鎮鎮海里鎮海路115-27號",
       "note": "",
-      "bayesian_score": 4.5146,
-      "confidence": "❌ 低",
+      "bayesian_score": 4.5253,
+      "confidence": "⚠️ 中",
       "rank": 18,
       "selected": false
     },
     {
-      "place_id": "ChIJW8ennT7ccTQReiNJtqprjM0",
-      "name_zh": "枋客文旅FangLiao Hotel",
-      "rating": 4.5,
-      "total_ratings": 2474,
+      "place_id": "ChIJj3mCuOvhcTQRobXytnGGTnk",
+      "name_zh": "景地文旅",
+      "rating": 4.6,
+      "total_ratings": 155,
       "location": {
-        "lat": 22.3676329,
-        "lng": 120.5931991
+        "lat": 22.4768698,
+        "lng": 120.4442131
       },
-      "address": "940屏東縣枋寮鄉枋寮村中興路22-19號",
+      "address": "932屏東縣新園鄉鹽埔村鹽洲路79-1號",
       "note": "",
-      "bayesian_score": 4.5028,
-      "confidence": "✅ 高",
+      "bayesian_score": 4.5142,
+      "confidence": "⚠️ 中",
       "rank": 19,
       "selected": false
     },
     {
-      "place_id": "ChIJ9-9_eBXccTQRXpkCv1k0SVs",
-      "name_zh": "海之方圓旅店",
-      "rating": 4.3,
-      "total_ratings": 52,
+      "place_id": "ChIJq6qqarvhcTQRxVKgCpH3HDc",
+      "name_zh": "東港海風民宿",
+      "rating": 4.6,
+      "total_ratings": 51,
       "location": {
-        "lat": 22.364103399999998,
-        "lng": 120.59751809999999
+        "lat": 22.460815399999998,
+        "lng": 120.4555593
       },
-      "address": "940屏東縣枋寮鄉隆山村隆山路85號",
+      "address": "928屏東縣東港鎮東津里嘉新一街370號",
       "note": "",
-      "bayesian_score": 4.4873,
+      "bayesian_score": 4.4893,
       "confidence": "❌ 低",
       "rank": 20,
       "selected": false
     },
     {
-      "place_id": "ChIJ9V4QPRTccTQR5jHY7NOX3Ug",
-      "name_zh": "若華軒民宿",
-      "rating": 4.2,
-      "total_ratings": 47,
+      "place_id": "ChIJrXeozZjhcTQRSvOgdrk1Ap0",
+      "name_zh": "大鵬灣瞭望台民宿 東港民宿 Dapeng Bay B&B",
+      "rating": 4.5,
+      "total_ratings": 325,
       "location": {
-        "lat": 22.3652336,
-        "lng": 120.60115169999999
+        "lat": 22.460547299999998,
+        "lng": 120.4567127
       },
-      "address": "940屏東縣枋寮鄉隆山村隆興路247號",
+      "address": "928屏東縣東港鎮東津里嘉新一街16號",
       "note": "",
-      "bayesian_score": 4.4714,
-      "confidence": "❌ 低",
+      "bayesian_score": 4.4859,
+      "confidence": "✅ 高",
       "rank": 21,
       "selected": false
     },
     {
-      "place_id": "ChIJJzVOzz7ccTQRvH4Yg1jOuBk",
-      "name_zh": "枋寮民宿 天氣晴",
-      "rating": 4.3,
-      "total_ratings": 87,
+      "place_id": "ChIJQ4MS25jhcTQRXQt08_49ins",
+      "name_zh": "22號旅店",
+      "rating": 4.5,
+      "total_ratings": 153,
       "location": {
-        "lat": 22.3659781,
-        "lng": 120.59198660000001
+        "lat": 22.4613119,
+        "lng": 120.45664459999999
       },
-      "address": "940屏東縣枋寮鄉枋寮村中興路78號",
+      "address": "928屏東縣東港鎮東津里大成路22巷30號22巷22號",
       "note": "",
-      "bayesian_score": 4.4636,
+      "bayesian_score": 4.4806,
       "confidence": "❌ 低",
       "rank": 22,
       "selected": false
     },
     {
-      "place_id": "ChIJUR_80T3ccTQR3aR2gesnErk",
-      "name_zh": "驛站-宿",
-      "rating": 3.2,
-      "total_ratings": 13,
+      "place_id": "ChIJX9ot1pDhcTQRfcdN_aSRF2k",
+      "name_zh": "東港民宿-許願宿民宿",
+      "rating": 4.4,
+      "total_ratings": 53,
       "location": {
-        "lat": 22.3679979,
-        "lng": 120.5944566
+        "lat": 22.4689657,
+        "lng": 120.45285810000001
       },
-      "address": "940屏東縣枋寮鄉枋寮村中興路4巷1號",
+      "address": "928屏東縣東港鎮新勝里新基街109巷6號",
       "note": "",
-      "bayesian_score": 4.4528,
+      "bayesian_score": 4.4606,
       "confidence": "❌ 低",
       "rank": 23,
       "selected": false
     },
     {
-      "place_id": "ChIJlY2JQT7ccTQR6wzluTL3pj8",
-      "name_zh": "江南旅社",
-      "rating": 3.7,
-      "total_ratings": 46,
+      "place_id": "ChIJr6qqqsfhcTQR7K0pkk0W1t0",
+      "name_zh": "多億精品旅宿",
+      "rating": 4.4,
+      "total_ratings": 93,
       "location": {
-        "lat": 22.3653701,
-        "lng": 120.5955316
+        "lat": 22.4752947,
+        "lng": 120.46743629999999
       },
-      "address": "940屏東縣枋寮鄉枋寮村中山路187號",
+      "address": "928屏東縣東港鎮東新里興東四街68號",
       "note": "",
-      "bayesian_score": 4.3748,
+      "bayesian_score": 4.4545,
       "confidence": "❌ 低",
       "rank": 24,
       "selected": false
     },
     {
-      "place_id": "ChIJuaWxzT3ccTQRqf5QTuKIl8s",
-      "name_zh": "枋寮民宿背包旅店",
-      "rating": 4,
-      "total_ratings": 98,
+      "place_id": "ChIJo7pyiHThcTQRTCEmeXu2DpE",
+      "name_zh": "金格子民宿",
+      "rating": 4.3,
+      "total_ratings": 36,
       "location": {
-        "lat": 22.3682642,
-        "lng": 120.59438650000001
+        "lat": 22.4623092,
+        "lng": 120.4443405
       },
-      "address": "940屏東縣枋寮鄉枋寮村中興路4巷20號",
+      "address": "928屏東縣東港鎮鎮海路125號",
       "note": "",
-      "bayesian_score": 4.355,
-      "confidence": "⚠️ 中",
+      "bayesian_score": 4.4531,
+      "confidence": "❌ 低",
       "rank": 25,
       "selected": false
     },
     {
-      "place_id": "ChIJm5yzQRnccTQRjIYZ72Iwyz4",
-      "name_zh": "蘭欣花園汽車旅館",
-      "rating": 3.3,
-      "total_ratings": 107,
+      "place_id": "ChIJ3Tu2-AbhcTQRZq28z0eYZXA",
+      "name_zh": "東津朝海民宿",
+      "rating": 4.2,
+      "total_ratings": 26,
       "location": {
-        "lat": 22.3752795,
-        "lng": 120.6010231
+        "lat": 22.465023499999997,
+        "lng": 120.4616456
       },
-      "address": "940屏東縣枋寮鄉人和村中正大路666號",
+      "address": "928屏東縣東港鎮東津里水源一街40號",
       "note": "",
-      "bayesian_score": 4.0915,
-      "confidence": "⚠️ 中",
+      "bayesian_score": 4.4499,
+      "confidence": "❌ 低",
       "rank": 26,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJC8uWoJrhcTQRb8EnyqtLLhw",
+      "name_zh": "福大旅社",
+      "rating": 2.8,
+      "total_ratings": 8,
+      "location": {
+        "lat": 22.4673786,
+        "lng": 120.4484482
+      },
+      "address": "928屏東縣東港鎮福德里延平路117號",
+      "note": "",
+      "bayesian_score": 4.4287,
+      "confidence": "❌ 低",
+      "rank": 27,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJK9ufQ5fhcTQRpUDCjJf7lSQ",
+      "name_zh": "花樣行館民宿",
+      "rating": 4.3,
+      "total_ratings": 134,
+      "location": {
+        "lat": 22.467066,
+        "lng": 120.45420799999998
+      },
+      "address": "928屏東縣東港鎮新勝里新勝街51號",
+      "note": "",
+      "bayesian_score": 4.4192,
+      "confidence": "❌ 低",
+      "rank": 28,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJldeJPpDhcTQR5K54JDlIA84",
+      "name_zh": "輕旅宿 Simple Travel Hostel | 上下舖房型 | 澡點 | 環保旅店 | 合法民宿 | 東港碼頭 | 東港住宿 |",
+      "rating": 4.3,
+      "total_ratings": 221,
+      "location": {
+        "lat": 22.4690986,
+        "lng": 120.44831780000001
+      },
+      "address": "928屏東縣東港鎮頂中里博愛街171-9號",
+      "note": "",
+      "bayesian_score": 4.3996,
+      "confidence": "⚠️ 中",
+      "rank": 29,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ78pATYXhcTQRMyQxrrowL_o",
+      "name_zh": "代雀大旅社",
+      "rating": 4,
+      "total_ratings": 65,
+      "location": {
+        "lat": 22.466903499999997,
+        "lng": 120.44720699999999
+      },
+      "address": "928屏東縣東港鎮朝安里博愛街140號",
+      "note": "",
+      "bayesian_score": 4.3889,
+      "confidence": "❌ 低",
+      "rank": 30,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJozJx-5fhcTQRQSYEqERMo70",
+      "name_zh": "遇見‧秘境民宿",
+      "rating": 4.3,
+      "total_ratings": 497,
+      "location": {
+        "lat": 22.465866,
+        "lng": 120.45828230000001
+      },
+      "address": "928屏東縣東港鎮東津里水源路223號",
+      "note": "",
+      "bayesian_score": 4.3654,
+      "confidence": "✅ 高",
+      "rank": 31,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJH93VRaThcTQRgrY6L_Lpu70",
+      "name_zh": "東港民宿住宿-海王星會館",
+      "rating": 4.2,
+      "total_ratings": 216,
+      "location": {
+        "lat": 22.459854399999998,
+        "lng": 120.46677239999998
+      },
+      "address": "928屏東縣東港鎮船頭里大東路328巷15號",
+      "note": "",
+      "bayesian_score": 4.3593,
+      "confidence": "⚠️ 中",
+      "rank": 32,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJmyj0KbDhcTQRT_Bfq2zcul8",
+      "name_zh": "東之港汽車旅館",
+      "rating": 4.3,
+      "total_ratings": 868,
+      "location": {
+        "lat": 22.467285399999998,
+        "lng": 120.4619707
+      },
+      "address": "928屏東縣東港鎮東津里水源二街139號",
+      "note": "",
+      "bayesian_score": 4.3448,
+      "confidence": "✅ 高",
+      "rank": 33,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJYe82wLjhcTQRQZKeqHFQpbE",
+      "name_zh": "玉大曆汽車旅館",
+      "rating": 4.3,
+      "total_ratings": 1023,
+      "location": {
+        "lat": 22.4732852,
+        "lng": 120.4659656
+      },
+      "address": "928屏東縣東港鎮東新里興東路501號",
+      "note": "",
+      "bayesian_score": 4.3396,
+      "confidence": "✅ 高",
+      "rank": 34,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ9XIkJ4XhcTQRh1Pzjw1eRPw",
+      "name_zh": "華僑的家民宿",
+      "rating": 4.1,
+      "total_ratings": 212,
+      "location": {
+        "lat": 22.4653104,
+        "lng": 120.44630040000001
+      },
+      "address": "928屏東縣東港鎮朝安里新生一路8號",
+      "note": "",
+      "bayesian_score": 4.3198,
+      "confidence": "⚠️ 中",
+      "rank": 35,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJnX5VXB3hcTQRdbMiLrBsDPY",
+      "name_zh": "好客輕旅",
+      "rating": 3.6,
+      "total_ratings": 71,
+      "location": {
+        "lat": 22.468232,
+        "lng": 120.4566937
+      },
+      "address": "928屏東縣東港鎮東光里新興二街41號",
+      "note": "",
+      "bayesian_score": 4.3079,
+      "confidence": "❌ 低",
+      "rank": 36,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ3WMKNsThcTQRAL0eUBaE99Y",
+      "name_zh": "晶夜汽車旅館",
+      "rating": 4.1,
+      "total_ratings": 335,
+      "location": {
+        "lat": 22.4785131,
+        "lng": 120.4639304
+      },
+      "address": "928屏東縣東港鎮內關帝里中正路二段187號",
+      "note": "",
+      "bayesian_score": 4.2777,
+      "confidence": "✅ 高",
+      "rank": 37,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJs5GdkprhcTQRQvvgV1GhEuw",
+      "name_zh": "勝友商務旅館",
+      "rating": 3.8,
+      "total_ratings": 187,
+      "location": {
+        "lat": 22.465987,
+        "lng": 120.44944199999999
+      },
+      "address": "928屏東縣東港鎮福德里中正路56號",
+      "note": "",
+      "bayesian_score": 4.2175,
+      "confidence": "⚠️ 中",
+      "rank": 38,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJKRNqUpDhcTQRTIQhVSCd7L8",
+      "name_zh": "綠芳水岸複合式景觀民宿",
+      "rating": 4,
+      "total_ratings": 456,
+      "location": {
+        "lat": 22.4696417,
+        "lng": 120.44953170000001
+      },
+      "address": "928屏東縣東港鎮頂中里博愛街298號",
+      "note": "",
+      "bayesian_score": 4.1899,
+      "confidence": "✅ 高",
+      "rank": 39,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJpYzA16LhcTQRnmsBiXcB2Mc",
+      "name_zh": "海豚城堡民宿",
+      "rating": 3.8,
+      "total_ratings": 373,
+      "location": {
+        "lat": 22.4641642,
+        "lng": 120.46155610000001
+      },
+      "address": "928屏東縣東港鎮東津里新義路38號928",
+      "note": "",
+      "bayesian_score": 4.1035,
+      "confidence": "✅ 高",
+      "rank": 40,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJy_U_e5rhcTQRznhzlHMWK-o",
+      "name_zh": "【大鵬灣大飯店】東港住宿 Hotel 東港旅館 親子飯店餐廳",
+      "rating": 4,
+      "total_ratings": 1487,
+      "location": {
+        "lat": 22.4663907,
+        "lng": 120.45059329999998
+      },
+      "address": "928屏東縣東港鎮福德里中山路59號",
+      "note": "",
+      "bayesian_score": 4.0808,
+      "confidence": "✅ 高",
+      "rank": 41,
       "selected": false
     }
   ]

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ16ogN4XhcTQRfufwSi1ut8g",
+  "name_zh": "烤饅頭",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 44,
+  "location": {
+    "lat": 22.464478399999997,
+    "lng": 120.44870829999999
+  },
+  "address": "928屏東縣東港鎮朝安里博愛街40號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.16,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

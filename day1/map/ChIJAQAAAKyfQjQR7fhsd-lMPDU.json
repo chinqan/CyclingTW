@@ -2,14 +2,16 @@
   "place_id": "ChIJAQAAAKyfQjQR7fhsd-lMPDU",
   "name_zh": "竹圍漁港",
   "csv_type": "景點",
-  "rating": 4.2,
-  "total_ratings": 41863,
   "location": {
     "lat": 25.117158,
     "lng": 121.2444776
   },
+  "search_keyword": "漁港 觀光景點 海景",
   "source": "api_2026-06-01",
-  "note": "彩虹橋漁港地標 km約43",
+  "rating": 4.2,
+  "total_ratings": 41864,
+  "address": "337桃園市大園區沙崙里漁港路451巷25號",
+  "primary_type": "fishing_pier",
   "opening_hours_text": [
     "Monday: 8:00 AM – 6:00 PM",
     "Tuesday: 8:00 AM – 6:00 PM",

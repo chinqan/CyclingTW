@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJX9ot1pDhcTQRfcdN_aSRF2k",
+  "name_zh": "東港民宿-許願宿民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 53,
+  "location": {
+    "lat": 22.4689657,
+    "lng": 120.45285810000001
+  },
+  "address": "928屏東縣東港鎮新勝里新基街109巷6號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 0.78,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

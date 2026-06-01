@@ -1,22 +1,22 @@
 {
   "day": 2,
-  "bayesian_C": 4.58,
-  "bayesian_m": 2152,
-  "pool_size": 15,
+  "bayesian_C": 4.5323,
+  "bayesian_m": 217,
+  "pool_size": 96,
   "scores": {
     "ChIJVVVVVWWuaTQRsf_BtcIo5Yo": {
       "name_zh": "後龍好望角風景區",
       "csv_type": "景點",
       "rating": 4.4,
       "total_ratings": 17669,
-      "bayesian_score": 4.42
+      "bayesian_score": 4.4
     },
     "ChIJR-i8TSSmaTQR_m3wMwNABss": {
       "name_zh": "台鹽通霄精鹽廠觀光工廠",
       "csv_type": "景點",
       "rating": 4.1,
       "total_ratings": 7280,
-      "bayesian_score": 4.21
+      "bayesian_score": 4.11
     },
     "ChIJ2ffC3wEOaTQR-YuV-iIXELk": {
       "name_zh": "大甲鎮瀾宮",
@@ -37,77 +37,644 @@
       "csv_type": "景點",
       "rating": 4.8,
       "total_ratings": 21940,
-      "bayesian_score": 4.78
+      "bayesian_score": 4.8
     },
     "ChIJKwTxjR4RaTQR-3850tXAQqE": {
       "name_zh": "莫爾日嚐MORE TASTE",
       "csv_type": "餐廳大休",
       "rating": 4.8,
       "total_ratings": 481,
-      "bayesian_score": 4.62
+      "bayesian_score": 4.72
     },
     "ChIJO3WTEYARaTQRrxBB7088Gf0": {
       "name_zh": "純粹綿綿冰",
       "csv_type": "餐廳大休",
       "rating": 4.8,
       "total_ratings": 732,
-      "bayesian_score": 4.64
+      "bayesian_score": 4.74
     },
     "ChIJj5QoTFSvaTQRreiEuHiu9zE": {
       "name_zh": "山邊媽祖宮",
       "csv_type": "景點",
       "rating": 4.8,
       "total_ratings": 3365,
-      "bayesian_score": 4.71
+      "bayesian_score": 4.78
     },
     "ChIJq0e4ZdgPaTQRC3F3zZ10X5Q": {
       "name_zh": "花義複合式餐飲",
       "csv_type": "餐廳大休",
       "rating": 4.8,
       "total_ratings": 502,
-      "bayesian_score": 4.62
+      "bayesian_score": 4.72
     },
     "ChIJYd4sk1oTaTQRZ9Y5l-e_ijw": {
       "name_zh": "龜鶴塘",
       "csv_type": "餐廳大休",
       "rating": 4.8,
       "total_ratings": 407,
-      "bayesian_score": 4.61
+      "bayesian_score": 4.71
     },
     "ChIJvYFhg4wTaTQR2evNLEQ1ZN8": {
       "name_zh": "高美濕地木棧道",
       "csv_type": "景點",
       "rating": 4.7,
       "total_ratings": 1331,
-      "bayesian_score": 4.63
+      "bayesian_score": 4.68
     },
     "ChIJH0XLyf1IaTQRvI803-ELjuk": {
       "name_zh": "埔鹽順澤宮",
       "csv_type": "景點",
       "rating": 4.7,
       "total_ratings": 2152,
-      "bayesian_score": 4.64
+      "bayesian_score": 4.68
     },
     "ChIJvyru1BW0bjQRrsVaIqi0zAI": {
       "name_zh": "西螺延平老街",
       "csv_type": "起終點",
       "rating": 4.2,
       "total_ratings": 2125,
-      "bayesian_score": 4.39
+      "bayesian_score": 4.23
     },
     "ChIJV2Of7b9FaTQRjuh_ATAiwmc": {
       "name_zh": "品先蚵仔煎",
       "csv_type": "餐廳大休",
       "rating": 4.8,
       "total_ratings": 1123,
-      "bayesian_score": 4.66
+      "bayesian_score": 4.76
     },
     "ChIJU4COb-NFaTQRTu-ieg4O9og": {
       "name_zh": "鹿港阿道蚵仔煎",
       "csv_type": "餐廳大休",
       "rating": 3.9,
       "total_ratings": 10144,
-      "bayesian_score": 4.02
+      "bayesian_score": 3.91
+    },
+    "ChIJC4BBWAdGaTQRIEcUH4Y7s7k": {
+      "name_zh": "縣定古蹟鹿港興安宮-天上聖母",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 212,
+      "bayesian_score": 4.57
+    },
+    "ChIJIX_PFv5FaTQRmlDaCUB0DsM": {
+      "name_zh": "鹿港龍山寺",
+      "csv_type": "景點",
+      "rating": 4.7,
+      "total_ratings": 10027,
+      "bayesian_score": 4.7
+    },
+    "ChIJZf6NyjwIaTQRoP35OXk6Ptw": {
+      "name_zh": "日露戰役望樓紀念碑",
+      "csv_type": "景點",
+      "rating": 4.5,
+      "total_ratings": 456,
+      "bayesian_score": 4.51
+    },
+    "ChIJe2JW2zwJaTQRAodZxLOUFTs": {
+      "name_zh": "房裡古城",
+      "csv_type": "景點",
+      "rating": 4,
+      "total_ratings": 287,
+      "bayesian_score": 4.23
+    },
+    "ChIJV2KD2TwJaTQRNxvm1cda9nE": {
+      "name_zh": "苑裡老街",
+      "csv_type": "景點",
+      "rating": 3.9,
+      "total_ratings": 1292,
+      "bayesian_score": 3.99
+    },
+    "ChIJedTEwN8IaTQRAeY9klyBMd0": {
+      "name_zh": "東里家風百年古厝｜民宿・割稻飯・古裝體驗・古早味大餅",
+      "csv_type": "景點",
+      "rating": 3.8,
+      "total_ratings": 1639,
+      "bayesian_score": 3.89
+    },
+    "ChIJq1oR1jwSaTQRLW-11ZIcRrI": {
+      "name_zh": "大甲老街(順天路)",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 581,
+      "bayesian_score": 4.29
+    },
+    "ChIJZcXn1fEUaTQRFWiHLSLWKEk": {
+      "name_zh": "清水趙家古厝",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 625,
+      "bayesian_score": 4.21
+    },
+    "ChIJ1w-B1_xFaTQRaJCIBi1E9QA": {
+      "name_zh": "鹿港古蹟區",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 222,
+      "bayesian_score": 4.57
+    },
+    "ChIJwZ7qgQdGaTQRyWQddBBzNLk": {
+      "name_zh": "鹿港丁家古厝",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 776,
+      "bayesian_score": 4.35
+    },
+    "ChIJG3Zn9Tu0bjQRMlvDwkeIUwY": {
+      "name_zh": "縣定古蹟西螺廣福宮 老大媽廟",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 683,
+      "bayesian_score": 4.58
+    },
+    "ChIJ7zzVJONFaTQRir45WRQ1R5k": {
+      "name_zh": "鹿港城隍廟",
+      "csv_type": "景點",
+      "rating": 4.5,
+      "total_ratings": 544,
+      "bayesian_score": 4.51
+    },
+    "ChIJnY0I7SdJaTQRF0YcMbmNzMg": {
+      "name_zh": "梅鏡堂古蹟",
+      "csv_type": "景點",
+      "rating": 5,
+      "total_ratings": 3,
+      "bayesian_score": 4.54
+    },
+    "ChIJgzB9Rj60bjQROjans6xJEWg": {
+      "name_zh": "延平歷史街區",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 73,
+      "bayesian_score": 4.45
+    },
+    "ChIJ4XNpes21bjQRImgjhf5yjWs": {
+      "name_zh": "西螺延平老街",
+      "csv_type": "景點",
+      "rating": 4.5,
+      "total_ratings": 219,
+      "bayesian_score": 4.52
+    },
+    "ChIJ72NYFz-0bjQRZtI0120Gfww": {
+      "name_zh": "金玉成鐘樓",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 15,
+      "bayesian_score": 4.54
+    },
+    "ChIJFZaN2_UJaTQRbklYLVmkt6A": {
+      "name_zh": "通霄老李紅燒牛肉麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 377,
+      "bayesian_score": 4.51
+    },
+    "ChIJo07qfDkIaTQRpF_Y30Fv4iE": {
+      "name_zh": "李麵店(裡面店)",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 110,
+      "bayesian_score": 4.52
+    },
+    "ChIJQ_zAF18JaTQRys5BLqlNJ7A": {
+      "name_zh": "通霄劉家麵線",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 51,
+      "bayesian_score": 4.6
+    },
+    "ChIJ9xkNTQAJaTQRODWprdkY_M8": {
+      "name_zh": "允記麵食館（必吃苑裡銅板美食、豬肉餡餅、蘿蔔絲餅、蔥油拌麵、番茄海鮮麵 、早午餐、晚餐首選推薦）",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 114,
+      "bayesian_score": 4.66
+    },
+    "ChIJD8QtdzkIaTQRdNKSZQS_IXs": {
+      "name_zh": "通霄正味麵店",
+      "csv_type": "餐廳大休",
+      "rating": 4.3,
+      "total_ratings": 962,
+      "bayesian_score": 4.34
+    },
+    "ChIJA8YnQZwJaTQRR9-xju2blUY": {
+      "name_zh": "苑裡九妹牛肉麵館",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 2301,
+      "bayesian_score": 4.69
+    },
+    "ChIJs1oi48UPaTQR4NbpJ0zbUH8": {
+      "name_zh": "昇德蔬食麵館",
+      "csv_type": "餐廳大休",
+      "rating": 5,
+      "total_ratings": 17,
+      "bayesian_score": 4.57
+    },
+    "ChIJ4yCAxDwJaTQRI0cgLZDdS7U": {
+      "name_zh": "湘亨牛肉麵館",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 134,
+      "bayesian_score": 4.52
+    },
+    "ChIJ0waOleoOaTQRLgMuPKSAU5A": {
+      "name_zh": "潁川牛肉麵食館",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 129,
+      "bayesian_score": 4.52
+    },
+    "ChIJ656eQyMJaTQRrwEvmpyGhZ4": {
+      "name_zh": "阿達仔黃金水餃 苑裡美食",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 649,
+      "bayesian_score": 4.28
+    },
+    "ChIJlb8OVjARaTQRWb_Q9FcGBBw": {
+      "name_zh": "珍之堂麵館",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 79,
+      "bayesian_score": 4.52
+    },
+    "ChIJ34EyuOoOaTQR-ESwBVGsGlA": {
+      "name_zh": "川味牛肉麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 95,
+      "bayesian_score": 4.43
+    },
+    "ChIJH5Q-7oURaTQR0fMHvDp3SBM": {
+      "name_zh": "順伯粉腸",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 169,
+      "bayesian_score": 4.56
+    },
+    "ChIJh3PO6moOaTQRBnf6hUC3j_s": {
+      "name_zh": "中南牛肉麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 716,
+      "bayesian_score": 4.28
+    },
+    "ChIJD43TywMOaTQRKFUyRJL4P2k": {
+      "name_zh": "上讚小吃店（肉圓，米糕，麵）",
+      "csv_type": "餐廳大休",
+      "rating": 4.3,
+      "total_ratings": 108,
+      "bayesian_score": 4.46
+    },
+    "ChIJ3djdnnkPaTQRI46izO6lJDQ": {
+      "name_zh": "阿櫻麵飯店",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 41,
+      "bayesian_score": 4.53
+    },
+    "ChIJU3vqbAIJaTQRgSPfW_VgWlg": {
+      "name_zh": "超美味麵担",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 28,
+      "bayesian_score": 4.54
+    },
+    "ChIJTQXNuGOsQjQRUlpk-wN9IJY": {
+      "name_zh": "祥旺小吃(櫻花蝦油飯、涼麵、麻醬麵、味噌湯)",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 216,
+      "bayesian_score": 4.67
+    },
+    "ChIJOTGf4OsPaTQRKzHSQsdlO6Q": {
+      "name_zh": "超美味(日南店)",
+      "csv_type": "餐廳大休",
+      "rating": 5,
+      "total_ratings": 60,
+      "bayesian_score": 4.63
+    },
+    "ChIJm4AR__4RaTQRVKRBnUKi64M": {
+      "name_zh": "大甲市場麵店",
+      "csv_type": "餐廳大休",
+      "rating": 4,
+      "total_ratings": 110,
+      "bayesian_score": 4.35
+    },
+    "ChIJmdyQQP8RaTQRQNH7EOBrrrs": {
+      "name_zh": "大呷麵本家",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 313,
+      "bayesian_score": 4.57
+    },
+    "ChIJ1UiWX0sRaTQRPU4oluIxMXU": {
+      "name_zh": "大香菇美食",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 111,
+      "bayesian_score": 4.62
+    },
+    "ChIJ57wxyaNBaTQRnleK6J7_mpo": {
+      "name_zh": "好享麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 19,
+      "bayesian_score": 4.56
+    },
+    "ChIJL-cBAk9AaTQRCyCAGQ6BHJA": {
+      "name_zh": "山東麵館-伸港第六家",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 215,
+      "bayesian_score": 4.57
+    },
+    "ChIJmaGdFFJBaTQRGA82LJOZRDg": {
+      "name_zh": "正品牛肉麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 90,
+      "bayesian_score": 4.55
+    },
+    "ChIJiTNHgBYVaTQR4U_bOIV37n8": {
+      "name_zh": "小二哥麵館",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 140,
+      "bayesian_score": 4.6
+    },
+    "ChIJHYfUMABBaTQR6BfEqyvU-H8": {
+      "name_zh": "好味道飯麵",
+      "csv_type": "餐廳大休",
+      "rating": 5,
+      "total_ratings": 24,
+      "bayesian_score": 4.58
+    },
+    "ChIJ396vIJsUaTQR81l2l_vwD_k": {
+      "name_zh": "浯江御麵館",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 1390,
+      "bayesian_score": 4.24
+    },
+    "ChIJHYSkiJsUaTQRdPxlLb-eHX4": {
+      "name_zh": "任家擀麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.3,
+      "total_ratings": 1029,
+      "bayesian_score": 4.34
+    },
+    "ChIJ16cSXQAVaTQRXJqZi-nK83s": {
+      "name_zh": "海豐-魷魚羹麵｜清水平價小吃宵夜",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 73,
+      "bayesian_score": 4.57
+    },
+    "ChIJUzsEDN4UaTQRqsL0D8ZdnIs": {
+      "name_zh": "惠子麵館",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 43,
+      "bayesian_score": 4.48
+    },
+    "ChIJndW5854UaTQROARRmQYxH_o": {
+      "name_zh": "張鴨子擀麵7/15-8/27店休",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 624,
+      "bayesian_score": 4.51
+    },
+    "ChIJgdDvdYETaTQRK4xa18Xi6X0": {
+      "name_zh": "傳承擔仔麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 179,
+      "bayesian_score": 4.52
+    },
+    "ChIJH4SduTIVaTQRR7pNQJs5scs": {
+      "name_zh": "臻味",
+      "csv_type": "餐廳大休",
+      "rating": 4.3,
+      "total_ratings": 89,
+      "bayesian_score": 4.46
+    },
+    "ChIJfZABkxoVaTQR2xglQ91RE4c": {
+      "name_zh": "埔里婆大腸麵線 蚵仔麵線 清水美食～ 在地人推薦 restaurants👍",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 39,
+      "bayesian_score": 4.57
+    },
+    "ChIJA4gpffcVaTQRYTld5lYzmAw": {
+      "name_zh": "惠子麵線",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 22,
+      "bayesian_score": 4.53
+    },
+    "ChIJdbMQ5yFFaTQRxxyntuMhUUI": {
+      "name_zh": "老蕭土魠魚麵館（日式豬排便當）",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 2782,
+      "bayesian_score": 4.87
+    },
+    "ChIJW4h-gOFAaTQRM3tHppnTBBk": {
+      "name_zh": "有家麵店",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 12,
+      "bayesian_score": 4.55
+    },
+    "ChIJxxVvlORFaTQRCiG0I1WS5OU": {
+      "name_zh": "鹿港圓環頂麵食館",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 2353,
+      "bayesian_score": 4.59
+    },
+    "ChIJx90IdFVFaTQRFoRyiu89iSk": {
+      "name_zh": "悟時 麵店",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 337,
+      "bayesian_score": 4.63
+    },
+    "ChIJ4Xpz5gdGaTQRny0f1plcN_g": {
+      "name_zh": "麗卿陽春麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.4,
+      "total_ratings": 546,
+      "bayesian_score": 4.44
+    },
+    "ChIJ9fRCYddHaTQRPWGuGvfIdMU": {
+      "name_zh": "趁熱吃涼麵/restaurants/鹿港美食/推薦晚餐/附近美食/吃的/takeout",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 49,
+      "bayesian_score": 4.6
+    },
+    "ChIJU9gHB4dFaTQRP_x6w41LFKI": {
+      "name_zh": "吳廈門沙茶麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 276,
+      "bayesian_score": 4.63
+    },
+    "ChIJgZef0ZBHaTQRG8oimbiqQl8": {
+      "name_zh": "蕭攤烏龍麵",
+      "csv_type": "餐廳大休",
+      "rating": 5,
+      "total_ratings": 17,
+      "bayesian_score": 4.57
+    },
+    "ChIJl96Gfq9HaTQRcsQjjZzg-Y8": {
+      "name_zh": "見一麵（彰化鹿港店）",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 99,
+      "bayesian_score": 4.43
+    },
+    "ChIJuykeFONFaTQRY7XsgLIGhsc": {
+      "name_zh": "山東水餃",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 324,
+      "bayesian_score": 4.33
+    },
+    "ChIJne8z7jZBaTQRpbkKz4VFIq8": {
+      "name_zh": "好品味黑白切",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 30,
+      "bayesian_score": 4.49
+    },
+    "ChIJ8UUou8BFaTQR5FhdrV1XKHE": {
+      "name_zh": "老牌麵店",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 73,
+      "bayesian_score": 4.55
+    },
+    "ChIJY1KKFTC1bjQRoADR0BwldgA": {
+      "name_zh": "溪州外省麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 1504,
+      "bayesian_score": 4.24
+    },
+    "ChIJ4Y_UUAVLaTQRlZ-kCHBX_Cc": {
+      "name_zh": "YP麵食",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 96,
+      "bayesian_score": 4.55
+    },
+    "ChIJ9aEtAP5IaTQRsUE2Fb6hY0w": {
+      "name_zh": "阿秀麵店",
+      "csv_type": "餐廳大休",
+      "rating": 4.4,
+      "total_ratings": 872,
+      "bayesian_score": 4.43
+    },
+    "ChIJh1W0EgBJaTQRLYViLeunzKU": {
+      "name_zh": "無名鴨肉麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 14,
+      "bayesian_score": 4.54
+    },
+    "ChIJp6eEXF49aTQR39JMrElNmOo": {
+      "name_zh": "樂山丘 飯點麵食-溪湖超人氣美食-滷肉飯、烤肉飯、滷味、燉湯、麻辣系列-對面有專屬停車場🅿️",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 393,
+      "bayesian_score": 4.51
+    },
+    "ChIJBQXaev5IaTQRlpQwWYC7vfI": {
+      "name_zh": "埔鹽麵店26號",
+      "csv_type": "餐廳大休",
+      "rating": 4.4,
+      "total_ratings": 25,
+      "bayesian_score": 4.52
+    },
+    "ChIJg3qY-4hLaTQRHLyeBMG0oP4": {
+      "name_zh": "碳金嬤排骨酥麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 80,
+      "bayesian_score": 4.6
+    },
+    "ChIJ7aJvZW9LaTQRGKbfYsvuXNM": {
+      "name_zh": "噗阿麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 6,
+      "bayesian_score": 4.54
+    },
+    "ChIJKd9teBa0bjQRJWKUArWkTSE": {
+      "name_zh": "東城北方麵食館",
+      "csv_type": "餐廳大休",
+      "rating": 4.3,
+      "total_ratings": 2135,
+      "bayesian_score": 4.32
+    },
+    "ChIJbU7xHR9LaTQRtJSKhuulZG4": {
+      "name_zh": "懷舊小舖",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 341,
+      "bayesian_score": 4.33
+    },
+    "ChIJrbyFBEBLaTQRYu0v18fj2kw": {
+      "name_zh": "埤頭無名羹麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 82,
+      "bayesian_score": 4.44
+    },
+    "ChIJsYvbg6W1bjQRG2uY_M-DM-8": {
+      "name_zh": "齊聚食堂",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 90,
+      "bayesian_score": 4.61
+    },
+    "ChIJddl0PzC1bjQRBXgQebuINW0": {
+      "name_zh": "阿婆暖心麵攤",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 87,
+      "bayesian_score": 4.58
+    },
+    "ChIJHSM78mG1bjQRBnh3MfROnc4": {
+      "name_zh": "廟前路口邊麵攤",
+      "csv_type": "餐廳大休",
+      "rating": 5,
+      "total_ratings": 38,
+      "bayesian_score": 4.6
+    },
+    "ChIJKXOozWpLaTQRyViqFzXEGXY": {
+      "name_zh": "素食麵店",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 27,
+      "bayesian_score": 4.55
+    },
+    "ChIJy5yywj60bjQRGQgq1roLmgE": {
+      "name_zh": "阿照麵攤",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 374,
+      "bayesian_score": 4.51
+    },
+    "ChIJkwPl47dLaTQRrMtTdg-OqUk": {
+      "name_zh": "阿忠麵店",
+      "csv_type": "餐廳大休",
+      "rating": 4.3,
+      "total_ratings": 31,
+      "bayesian_score": 4.5
     }
   }
 }

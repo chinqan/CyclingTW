@@ -2,22 +2,14 @@
   "place_id": "ChIJ4z5kWWOhQjQRcl-uSRbQCN0",
   "name_zh": "水牛坑越野場地",
   "csv_type": "景點",
-  "rating": 4.2,
-  "total_ratings": 4745,
   "location": {
     "lat": 25.1198168,
     "lng": 121.3188263
   },
-  "source": "api_2026-06-01",
-  "note": "特殊峽谷地貌 km約28",
-  "opening_hours_text": [
-    "Monday: Open 24 hours",
-    "Tuesday: Open 24 hours",
-    "Wednesday: Open 24 hours",
-    "Thursday: Open 24 hours",
-    "Friday: Open 24 hours",
-    "Saturday: Open 24 hours",
-    "Sunday: Open 24 hours"
-  ],
-  "editorial_summary": "Rugged terrain popular for off-roading in 4x4 vehicles & motorbikes, plus patches where cows graze."
+  "search_keyword": "景點",
+  "source": "along_2026-06-02",
+  "rating": 4.2,
+  "total_ratings": 4745,
+  "address": "244新北市林口區嘉寶里西部濱海公路625號",
+  "primary_type": "off_roading_area"
 }

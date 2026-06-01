@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJM_zSJs6xcTQR1FVxGzuRdL8",
+  "name_zh": "炸蛋蔥油餅",
+  "name_lang": "zh-TW",
+  "rating": 1.3,
+  "total_ratings": 13,
+  "location": {
+    "lat": 21.9442061,
+    "lng": 120.8004897
+  },
+  "address": "946屏東縣恆春鎮墾丁天主教服務中心 教堂前",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.39,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

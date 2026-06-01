@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJH93VRaThcTQRgrY6L_Lpu70",
+  "name_zh": "東港民宿住宿-海王星會館",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 216,
+  "location": {
+    "lat": 22.459854399999998,
+    "lng": 120.46677239999998
+  },
+  "address": "928屏東縣東港鎮船頭里大東路328巷15號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 1.89,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

@@ -1,15 +1,15 @@
 {
   "day": 4,
-  "route_name": "南國廟宇與糖鐵巡禮",
-  "total_ascent_desc": "全程平坦，經台南市區、高雄市區、屏東濱海平原，幾乎無爬升",
-  "main_route_desc": "鹿耳門公園 ➔ 台南孔廟 ➔ 台17線南下 ➔ 橋頭糖廠 ➔ 澄清湖 ➔ 東港東隆宮 ➔ 大鵬灣 ➔ 枋寮車站",
+  "route_name": "府城向南．台南到東港",
+  "total_ascent_desc": "全程平坦，台17線濱海與高雄市區道路，幾乎無爬升",
+  "main_route_desc": "鹿耳門 ➔ 台南市區 ➔ 黃金海岸 ➔ 台17線 ➔ 高雄市區 ➔ 澄清湖 ➔ 鳳山 ➔ 林園 ➔ 東港東隆宮",
   "places": [
     {
       "place_id": "ChIJofDyKzrYbTQROj-L3C0Zt8A",
       "name_zh": "鹿耳門公園",
-      "search_keyword": "鹿耳門公園 台南市安南區城安路85號",
+      "search_keyword": "鹿耳門公園 台南市安南區",
       "csv_type": "起終點",
-      "note": "07:00出發 Day3終點續行 km0",
+      "note": "早上06:30出發 接續Day3終點 km0",
       "rating": 4.3,
       "total_ratings": 198,
       "location": {
@@ -19,150 +19,180 @@
       "bayesian_score": 4.4
     },
     {
-      "place_id": "ChIJebYHGH52bjQRoo3fCaJjX4E",
-      "name_zh": "7-ELEVEN 南門城門市",
-      "search_keyword": "7-ELEVEN 南門城門市 台南市中西區南門路229號",
+      "place_id": "ChIJgYUn9DR3bjQRndG_dUOT97c",
+      "name_zh": "7-ELEVEN 天鈺門市",
+      "search_keyword": "7-ELEVEN 天鈺門市 台南市",
       "csv_type": "便利商店",
-      "note": "台南市區補給 km約10",
-      "rating": 2.4,
-      "total_ratings": 300,
+      "note": "台南市區補給 沿路線 km約14",
       "location": {
-        "lat": 22.983719,
-        "lng": 120.2041
+        "lat": 23.001018,
+        "lng": 120.23217000000001
       },
       "bayesian_score": null
     },
     {
-      "place_id": "ChIJFbzVrGJ2bjQRkZC9jslaIgs",
-      "name_zh": "台南孔廟",
-      "search_keyword": "台南孔廟 台南市中西區南門路2號",
+      "place_id": "ChIJMwoLNSF0bjQRPDMC-i3Tuy0",
+      "name_zh": "巴克禮紀念公園",
+      "search_keyword": "巴克禮紀念公園 台南市東區",
       "csv_type": "景點",
-      "note": "約07:45抵達 全臺首學 1665年建 拍照15分鐘 km約10",
+      "note": "約07:30抵達 台南市區都會綠洲 老榕與荷花池 km約17",
       "rating": 4.4,
-      "total_ratings": 12627,
+      "total_ratings": 7232,
       "location": {
-        "lat": 22.9905296,
-        "lng": 120.2040401
+        "lat": 22.9719929,
+        "lng": 120.2225874
       },
       "bayesian_score": 4.4
     },
     {
-      "place_id": "ChIJyV-Ra08ObjQRNdOJOhzzXPM",
-      "name_zh": "7-ELEVEN 橋鄰門市",
-      "search_keyword": "7-ELEVEN 橋鄰門市 高雄市橋頭區成功南路151號",
-      "csv_type": "便利商店",
-      "note": "橋頭路段補給 km約55",
-      "rating": 3.6,
-      "total_ratings": 97,
+      "place_id": "ChIJMTD9H3J1bjQRC0l1HyDH3rQ",
+      "name_zh": "黃金海岸",
+      "search_keyword": "黃金海岸 台南市南區",
+      "csv_type": "景點",
+      "note": "約08:00抵達 台南濱海觀海步道與沙灘 km約24",
+      "rating": 4.3,
+      "total_ratings": 10170,
       "location": {
-        "lat": 22.752265,
-        "lng": 120.312758
+        "lat": 22.931430100000004,
+        "lng": 120.1764427
+      },
+      "bayesian_score": 4.31
+    },
+    {
+      "place_id": "ChIJsy-SvlULbjQRGsomzbX-Z8o",
+      "name_zh": "7-ELEVEN 新東專門市",
+      "search_keyword": "7-ELEVEN 新東專門市 高雄市路竹區",
+      "csv_type": "便利商店",
+      "note": "路竹段補給 沿路線 km約39",
+      "location": {
+        "lat": 22.8806181,
+        "lng": 120.2496022
       },
       "bayesian_score": null
     },
     {
-      "place_id": "ChIJo65zFEgObjQRm0FgVZa_4GE",
-      "name_zh": "橋頭糖廠",
-      "search_keyword": "橋頭糖廠 高雄市橋頭區糖廠路24號",
-      "csv_type": "景點",
-      "note": "約10:30抵達 台灣第一座現代機械化糖廠 1901年建 ★主視覺 km約56",
-      "rating": 4.2,
-      "total_ratings": 7575,
+      "place_id": "ChIJsaWEMz8MbjQR2Rq6kXk5xqo",
+      "name_zh": "7-ELEVEN 北岡山門市",
+      "search_keyword": "7-ELEVEN 北岡山門市 高雄市岡山區",
+      "csv_type": "便利商店",
+      "note": "岡山段補給 沿路線 km約47",
       "location": {
-        "lat": 22.755686000000004,
-        "lng": 120.31427319999999
+        "lat": 22.8119952,
+        "lng": 120.27995299999999
       },
-      "bayesian_score": 4.27
+      "bayesian_score": null
     },
     {
-      "place_id": "ChIJBd9wqvwPbjQR-hM-7ramfZU",
-      "name_zh": "糖廠火鍋",
-      "search_keyword": "糖廠火鍋 高雄市橋頭區橋南路124號",
-      "csv_type": "餐廳大休",
-      "note": "11:00-12:30午餐大休 鍋物料理 4.8★ km約56",
-      "rating": 4.8,
-      "total_ratings": 495,
+      "place_id": "ChIJi95k3rkPbjQRah8HPF9KTfg",
+      "name_zh": "7-ELEVEN 都會門市",
+      "search_keyword": "7-ELEVEN 都會門市 高雄市",
+      "csv_type": "便利商店",
+      "note": "高雄市區補給 沿路線 km約70",
       "location": {
-        "lat": 22.7540494,
-        "lng": 120.31281740000001
+        "lat": 22.730614,
+        "lng": 120.31631000000002
       },
-      "bayesian_score": 4.44
+      "bayesian_score": null
     },
     {
       "place_id": "ChIJYdcLP84abjQRVoPPSCZRVQU",
       "name_zh": "澄清湖",
       "search_keyword": "澄清湖 高雄市鳥松區",
       "csv_type": "景點",
-      "note": "約13:30抵達 高雄最大人工湖+九曲橋 km約70",
+      "note": "約12:00抵達 高雄最大人工湖 九曲橋環湖林蔭 午餐大休點 km約73",
       "rating": 4.4,
-      "total_ratings": 1449,
+      "total_ratings": 1452,
       "location": {
         "lat": 22.6603607,
         "lng": 120.353806
       },
-      "bayesian_score": 4.4
+      "bayesian_score": 4.41
     },
     {
-      "place_id": "ChIJcbaVLIzhcTQRgfgs6FXcgTs",
-      "name_zh": "7-ELEVEn 鹽洲門市",
-      "search_keyword": "7-ELEVEN 鹽洲門市 屏東縣新園鄉光復路1號",
-      "csv_type": "便利商店",
-      "note": "東港前補給 km約95",
-      "rating": 3.6,
-      "total_ratings": 85,
+      "place_id": "ChIJgVfxZJIbbjQRAkFHYHcO6l4",
+      "name_zh": "蝦搞活蝦海鮮餐廳（澄清店）",
+      "search_keyword": "蝦搞活蝦海鮮餐廳 澄清店 高雄市鳥松區",
+      "csv_type": "餐廳大休",
+      "note": "12:00-13:00午餐大休 澄清湖畔活蝦海鮮",
+      "rating": 4.8,
+      "total_ratings": 754,
       "location": {
-        "lat": 22.474259,
-        "lng": 120.44455
+        "lat": 22.6397043,
+        "lng": 120.3449832
+      },
+      "bayesian_score": 4.67
+    },
+    {
+      "place_id": "ChIJrTUh7DgbbjQRKQc8yg4lIBw",
+      "name_zh": "鳳儀書院",
+      "search_keyword": "鳳儀書院 高雄市鳳山區",
+      "csv_type": "景點",
+      "note": "約13:30抵達 全台最大清代書院 古蹟園區 km約74",
+      "rating": 4.3,
+      "total_ratings": 8271,
+      "location": {
+        "lat": 22.6277386,
+        "lng": 120.359487
+      },
+      "bayesian_score": 4.31
+    },
+    {
+      "place_id": "ChIJ8Ws4GHvicTQRUCR9hKdV_Cs",
+      "name_zh": "7-ELEVEN 霖園門市(現萃茶)",
+      "search_keyword": "7-ELEVEN 霖園門市 高雄市林園區",
+      "csv_type": "便利商店",
+      "note": "林園段補給 沿路線 km約100",
+      "location": {
+        "lat": 22.5010452,
+        "lng": 120.3980518
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJu073foHhcTQRA8Y1N1xpFys",
+      "name_zh": "鎮海公園",
+      "search_keyword": "鎮海公園 高雄市林園區",
+      "csv_type": "景點",
+      "note": "約15:30抵達 林園海岸風景與夕陽 km約103",
+      "rating": 4.1,
+      "total_ratings": 1911,
+      "location": {
+        "lat": 22.460918,
+        "lng": 120.44136999999999
+      },
+      "bayesian_score": 4.16
+    },
+    {
+      "place_id": "ChIJEaJrTpfhcTQR_vUluaGGVu4",
+      "name_zh": "7-ELEVEN 億財富門市",
+      "search_keyword": "7-ELEVEN 億財富門市 屏東縣東港鎮",
+      "csv_type": "便利商店",
+      "note": "抵東港前最後補給 沿路線 km約120",
+      "location": {
+        "lat": 22.4669849,
+        "lng": 120.45346299999999
       },
       "bayesian_score": null
     },
     {
       "place_id": "ChIJKzw4apvhcTQRbxsV8Dmentk",
       "name_zh": "東港東隆宮",
-      "search_keyword": "東港東隆宮 屏東縣東港鎮東隆街21-1號",
-      "csv_type": "景點",
-      "note": "約15:00抵達 1706年建 東港迎王平安祭典 km約100",
+      "search_keyword": "東港東隆宮 屏東縣東港鎮",
+      "csv_type": "起終點",
+      "note": "約17:00抵達 當日終點 東港王爺信仰中心 鄰華僑市場",
       "rating": 4.7,
-      "total_ratings": 7764,
+      "total_ratings": 7785,
       "location": {
         "lat": 22.4630838,
         "lng": 120.44871930000001
       },
-      "bayesian_score": 4.6
-    },
-    {
-      "place_id": "ChIJvRLV8azhcTQRj06xjojbauY",
-      "name_zh": "大鵬灣國家風景區",
-      "search_keyword": "大鵬灣國家風景區 屏東縣東港鎮大潭路169號",
-      "csv_type": "景點",
-      "note": "約15:30抵達 潟湖生態+自行車環灣道 km約103",
-      "rating": 4.1,
-      "total_ratings": 6819,
-      "location": {
-        "lat": 22.4570111,
-        "lng": 120.47892809999999
-      },
-      "bayesian_score": 4.21
-    },
-    {
-      "place_id": "ChIJp-xjwz3ccTQRN_tucmfrEdM",
-      "name_zh": "枋寮車站",
-      "search_keyword": "枋寮車站 屏東縣枋寮鄉",
-      "csv_type": "起終點",
-      "note": "約17:00抵達 當日終點 西部幹線終點站 km約120",
-      "rating": 4.3,
-      "total_ratings": 851,
-      "location": {
-        "lat": 22.368018,
-        "lng": 120.59509700000001
-      },
-      "bayesian_score": 4.38
+      "bayesian_score": 4.69
     }
   ],
-  "bayesian_C": 4.4,
-  "bayesian_m": 4134,
-  "ors_distance_km": 123.6,
-  "ors_duration_hours": 6.9,
-  "elevation_ascent_m": 105,
-  "elevation_descent_m": 102
+  "bayesian_C": 4.4423,
+  "bayesian_m": 437,
+  "ors_distance_km": 111.5,
+  "ors_duration_hours": 6.4,
+  "elevation_ascent_m": null,
+  "elevation_descent_m": null
 }

@@ -1,0 +1,24 @@
+{
+  "place_id": "ChIJH9NL81SkQjQRa536qLrvYq4",
+  "name_zh": "志明油飯麵線",
+  "csv_type": "景點",
+  "location": {
+    "lat": 25.146355,
+    "lng": 121.397133
+  },
+  "search_keyword": "志明油飯麵線",
+  "source": "api_2026-06-01",
+  "rating": 4.4,
+  "total_ratings": 901,
+  "address": "249新北市八里區訊塘里中山路二段558號",
+  "primary_type": "breakfast_restaurant",
+  "opening_hours_text": [
+    "Monday: 5:10 – 10:30 AM",
+    "Tuesday: Closed",
+    "Wednesday: 5:10 – 10:30 AM",
+    "Thursday: 5:10 – 10:30 AM",
+    "Friday: 5:10 – 10:30 AM",
+    "Saturday: 5:10 – 10:30 AM",
+    "Sunday: 5:10 – 10:30 AM"
+  ]
+}

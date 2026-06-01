@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJZU7lBnDhcTQR2l6aPWkaD2M",
+  "name_zh": "宥心文旅 You Sin B&B",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 515,
+  "location": {
+    "lat": 22.4731819,
+    "lng": 120.46289120000002
+  },
+  "address": "928屏東縣東港鎮新街里明禮路206號",
+  "primary_type": "private_guest_room",
+  "distance_km": 1.84,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

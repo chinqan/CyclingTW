@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJm5M7XQDhcTQRWnL4LZM__Io",
+  "name_zh": "全品食堂",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 3,
+  "location": {
+    "lat": 22.4710751,
+    "lng": 120.4588792
+  },
+  "address": "928屏東縣東港鎮新街里長春一路127-1號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 1.37,
+  "source": "api_2026-06-02",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

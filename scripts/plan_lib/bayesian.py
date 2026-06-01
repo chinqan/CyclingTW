@@ -556,8 +556,8 @@ def run_mechanical_cascade(n: int) -> None:
 
     # route 必須在 write-csv 之前：route 會寫回 ors_distance_km 更新 places.json mtime，
     # 之後再跑 write-csv 才不會讓 csv 變舊
-    if os.environ.get("ORS_API_KEY"):
-        info("[cascade 2/6] route（ORS API）")
+    if os.environ.get("GOOGLE_PLACES_API_KEY"):
+        info("[cascade 2/6] route（Routes API）")
         route_ok = True
         try:
             cmd_route(q)
@@ -575,7 +575,7 @@ def run_mechanical_cascade(n: int) -> None:
             except SystemExit:
                 info("    score-pool 重算略過（候選不足）")
     else:
-        info("[cascade 2/6] route（無 ORS_API_KEY，fallback gpx-waypoints）")
+        info("[cascade 2/6] route（無 GOOGLE_PLACES_API_KEY，fallback gpx-waypoints）")
         cmd_gpx_waypoints(q)
 
     # route 成功後把實際距離回寫 index.md

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJhaGsN4XhcTQRE6-HgyYjOpQ",
+  "name_zh": "尚珍碳烤饅頭",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 71,
+  "location": {
+    "lat": 22.4644442,
+    "lng": 120.4486915
+  },
+  "address": "928屏東縣東港鎮東隆里東隆街61號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.15,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJZ9YAExbhcTQR-GOXpi52G9A",
+  "name_zh": "遇見蔬食館",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 347,
+  "location": {
+    "lat": 22.4659446,
+    "lng": 120.4583809
+  },
+  "address": "928007屏東縣東港鎮東津里水源路221號",
+  "primary_type": "vegan_restaurant",
+  "primary_type_label": "素食餐廳",
+  "distance_km": 1.04,
+  "source": "api_2026-06-02",
+  "note": "素食餐廳",
+  "name_is_ascii": false
+}

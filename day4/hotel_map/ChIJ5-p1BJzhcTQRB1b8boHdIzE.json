@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ5-p1BJzhcTQRB1b8boHdIzE",
+  "name_zh": "海津&海町文旅",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 233,
+  "location": {
+    "lat": 22.4769638,
+    "lng": 120.44431589999998
+  },
+  "address": "932屏東縣新園鄉鹽埔村鹽洲路81號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 1.61,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

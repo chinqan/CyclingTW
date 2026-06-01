@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJvb_cn4ixcTQRoBJenju7gKA",
+  "name_zh": "klein blue 克萊因-藍-Rabbit芮比特-昆汀飯店",
+  "name_lang": "zh-TW",
+  "rating": 3.5,
+  "total_ratings": 119,
+  "location": {
+    "lat": 21.9448536,
+    "lng": 120.7997003
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路115號",
+  "primary_type": "hotel",
+  "distance_km": 0.29,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

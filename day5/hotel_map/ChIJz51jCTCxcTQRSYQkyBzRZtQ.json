@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJz51jCTCxcTQRSYQkyBzRZtQ",
+  "name_zh": "墾丁海堤112 Kenting Sea Wall 112",
+  "name_lang": "zh-TW",
+  "rating": 3.6,
+  "total_ratings": 398,
+  "location": {
+    "lat": 21.943622599999998,
+    "lng": 120.7985483
+  },
+  "address": "94644屏東縣恆春鎮墾丁里大灣路112號",
+  "primary_type": "lodging",
+  "distance_km": 0.29,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJP6-WZoixcTQRonNVn5EA7u0",
+  "name_zh": "墾丁張記碳烤-香酥肥腸",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 107,
+  "location": {
+    "lat": 21.9436949,
+    "lng": 120.80126729999998
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路65-31號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.49,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

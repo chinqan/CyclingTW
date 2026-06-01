@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ3UK0YlThcTQRi2Typh0AdmU",
+  "name_zh": "深夜食堂",
+  "name_lang": "zh-TW",
+  "rating": 3.5,
+  "total_ratings": 140,
+  "location": {
+    "lat": 22.4692851,
+    "lng": 120.4553253
+  },
+  "address": "928屏東縣東港鎮新街里光復路一段328-1號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.97,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

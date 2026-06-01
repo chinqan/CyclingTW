@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJHdJeRgCxcTQRgC997nMSIiU",
+  "name_zh": "天麟食苑臺灣菜",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 321,
+  "location": {
+    "lat": 21.945864999999998,
+    "lng": 120.7965897
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路247號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.05,
+  "source": "api_2026-06-02",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

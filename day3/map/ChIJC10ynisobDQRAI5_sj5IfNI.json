@@ -1,0 +1,24 @@
+{
+  "place_id": "ChIJC10ynisobDQRAI5_sj5IfNI",
+  "name_zh": "布袋港美食-黑皮海鮮餐廳/巨無霸海鮮肉圓",
+  "csv_type": "餐廳大休",
+  "location": {
+    "lat": 23.379641100000004,
+    "lng": 120.15437720000001
+  },
+  "search_keyword": "餐廳 雞肉飯 海鮮 小吃",
+  "source": "api_2026-06-02",
+  "rating": 4.2,
+  "total_ratings": 3097,
+  "address": "625嘉義縣布袋鎮岑海里中山路43號",
+  "primary_type": "taiwanese_restaurant",
+  "opening_hours_text": [
+    "Monday: 11:00 AM – 7:00 PM",
+    "Tuesday: 11:00 AM – 7:00 PM",
+    "Wednesday: Closed",
+    "Thursday: 11:00 AM – 7:00 PM",
+    "Friday: 11:00 AM – 7:00 PM",
+    "Saturday: 11:00 AM – 7:00 PM",
+    "Sunday: 11:00 AM – 7:00 PM"
+  ]
+}

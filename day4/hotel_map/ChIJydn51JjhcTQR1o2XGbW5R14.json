@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJydn51JjhcTQR1o2XGbW5R14",
+  "name_zh": "東港民宿 禾田旅宿",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 207,
+  "location": {
+    "lat": 22.460716299999998,
+    "lng": 120.4558864
+  },
+  "address": "928屏東縣東港鎮嘉新一街352號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 0.78,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

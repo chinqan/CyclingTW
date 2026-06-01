@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJsfqxiIXhcTQRc7BpSAyKA8k",
+  "name_zh": "東港生魚片 曾鮮黑鮪魚專賣店",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 1700,
+  "location": {
+    "lat": 22.4681087,
+    "lng": 120.4436369
+  },
+  "address": "928屏東縣東港鎮朝安里朝隆路113號華僑市場220,221號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.76,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

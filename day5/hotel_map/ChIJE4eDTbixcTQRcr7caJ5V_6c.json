@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJE4eDTbixcTQRcr7caJ5V_6c",
+  "name_zh": "月彎灣渡假旅店",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 101,
+  "location": {
+    "lat": 21.9435555,
+    "lng": 120.79861179999997
+  },
+  "address": "946屏東縣恆春鎮墾丁里大灣路110號",
+  "primary_type": "hotel",
+  "distance_km": 0.3,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

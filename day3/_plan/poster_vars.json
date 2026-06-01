@@ -1,13 +1,13 @@
 {
   "day": 3,
-  "origin_label": "鹿港",
+  "origin_label": "雲林西螺",
   "destination_label": "台南鹿耳門",
-  "distance_range": "約 187.8 公里",
-  "subtitle": "極西國聖燈塔追日行",
+  "distance_range": "約 166.4 公里",
+  "subtitle": "極西濱海鹽田",
   "orientation": "horizontal_landscape_3_2",
   "lighting": "午後溫暖金色陽光、海岸鹽田反射光芒",
-  "allowed_elements": "台灣海峽海岸線、西螺大橋跨河鋼架剪影、北港朝天宮廟宇輪廓、嘉南平原鹽田、七股鹽山白色山丘、國聖港燈塔黑白方格、沿海防風林",
-  "enhancement": "畫面呈現從彰化鹿港沿西海岸南下追尋台灣極西點的壯闊旅程感、夕陽從台灣海峽灑落金光作為視覺高潮、鹽田與黑白燈塔象徵台灣西南海岸獨特地景",
+  "allowed_elements": "",
+  "enhancement": "",
   "main_visual": {
     "place_id": "ChIJ49OG8GnabTQR9wo1PrlXP2o",
     "location_desc": "台南市七股「國聖港燈塔」（台灣本島極西點）",
@@ -16,13 +16,13 @@
     "expression": "充滿成就感、興奮、征服極西點的喜悅"
   },
   "small_avatar": {
-    "place_id": "ChIJbZ03BtZFaTQRVSahxk_O324",
-    "location_desc": "彰化縣鹿港「鹿港老街」",
-    "scenario": "在鹿港老街紅磚古厝前整裝出發、清晨路上行人稀少",
-    "action": "跨上公路車揮手道別老街",
-    "expression": "精神飽滿、期待今日追極西點"
+    "place_id": "ChIJvyru1BW0bjQRrsVaIqi0zAI",
+    "location_desc": "雲林縣西螺「Yanping Old Street」",
+    "scenario": "",
+    "action": "",
+    "expression": ""
   },
-  "composition": "主角在畫面中央偏上、鹿港老街在右上方小分身、鹿耳門公園在畫面左側遠景、沿途點綴西螺大橋、北港朝天宮、東石漁人碼頭、布袋漁港魚市場、井仔腳瓦盤鹽田、北門遊客中心、七股鹽山",
-  "geographic_notes": "鹿港老街在畫面右側（東側）、鹿耳門公園在畫面左側（西側）",
+  "composition": "主角在畫面中央偏上、Yanping Old Street在右上方小分身、鹿耳門公園在畫面左側遠景、沿途點綴檜意森活村、東石漁人碼頭、布袋小確幸海灘、井仔腳瓦盤鹽田、七股鹽山",
+  "geographic_notes": "Yanping Old Street在畫面右側（東側）、鹿耳門公園在畫面左側（西側）",
   "_last_place_id": "ChIJofDyKzrYbTQROj-L3C0Zt8A"
 }

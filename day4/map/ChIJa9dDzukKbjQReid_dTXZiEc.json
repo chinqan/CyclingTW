@@ -1,0 +1,24 @@
+{
+  "place_id": "ChIJa9dDzukKbjQReid_dTXZiEc",
+  "name_zh": "茄萣濕地公園",
+  "csv_type": "景點",
+  "location": {
+    "lat": 22.883355599999998,
+    "lng": 120.1976284
+  },
+  "search_keyword": "古蹟 海岸 公園 景點",
+  "source": "api_2026-06-02",
+  "rating": 4.3,
+  "total_ratings": 1272,
+  "address": "852高雄市茄萣區崎漏里正順北路180號",
+  "primary_type": "park",
+  "opening_hours_text": [
+    "Monday: Closed",
+    "Tuesday: 9:00 AM – 5:00 PM",
+    "Wednesday: 9:00 AM – 5:00 PM",
+    "Thursday: 9:00 AM – 5:00 PM",
+    "Friday: 9:00 AM – 5:00 PM",
+    "Saturday: 9:00 AM – 5:00 PM",
+    "Sunday: 9:00 AM – 5:00 PM"
+  ]
+}

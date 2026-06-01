@@ -1,8 +1,8 @@
 {
   "day": 4,
-  "bayesian_C": 4.4,
-  "bayesian_m": 4134,
-  "pool_size": 8,
+  "bayesian_C": 4.4423,
+  "bayesian_m": 437,
+  "pool_size": 71,
   "scores": {
     "ChIJofDyKzrYbTQROj-L3C0Zt8A": {
       "name_zh": "鹿耳門公園",
@@ -23,42 +23,483 @@
       "csv_type": "景點",
       "rating": 4.2,
       "total_ratings": 7575,
-      "bayesian_score": 4.27
+      "bayesian_score": 4.21
     },
     "ChIJYdcLP84abjQRVoPPSCZRVQU": {
       "name_zh": "澄清湖",
       "csv_type": "景點",
       "rating": 4.4,
-      "total_ratings": 1449,
-      "bayesian_score": 4.4
+      "total_ratings": 1452,
+      "bayesian_score": 4.41
     },
     "ChIJKzw4apvhcTQRbxsV8Dmentk": {
       "name_zh": "東港東隆宮",
       "csv_type": "景點",
       "rating": 4.7,
-      "total_ratings": 7764,
-      "bayesian_score": 4.6
+      "total_ratings": 7785,
+      "bayesian_score": 4.69
     },
     "ChIJvRLV8azhcTQRj06xjojbauY": {
       "name_zh": "大鵬灣國家風景區",
       "csv_type": "景點",
       "rating": 4.1,
       "total_ratings": 6819,
-      "bayesian_score": 4.21
-    },
-    "ChIJp-xjwz3ccTQRN_tucmfrEdM": {
-      "name_zh": "枋寮車站",
-      "csv_type": "起終點",
-      "rating": 4.3,
-      "total_ratings": 851,
-      "bayesian_score": 4.38
+      "bayesian_score": 4.12
     },
     "ChIJBd9wqvwPbjQR-hM-7ramfZU": {
       "name_zh": "糖廠火鍋",
       "csv_type": "餐廳大休",
       "rating": 4.8,
       "total_ratings": 495,
+      "bayesian_score": 4.63
+    },
+    "ChIJW7GkVtR1bjQRPbD_kb-p0_8": {
+      "name_zh": "水交社文化園區",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 5902,
+      "bayesian_score": 4.31
+    },
+    "ChIJrTUh7DgbbjQRKQc8yg4lIBw": {
+      "name_zh": "鳳儀書院",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 8271,
+      "bayesian_score": 4.31
+    },
+    "ChIJa9dDzukKbjQReid_dTXZiEc": {
+      "name_zh": "茄萣濕地公園",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 1272,
+      "bayesian_score": 4.34
+    },
+    "ChIJlyYmNkV3bjQRJUahKM1EfhA": {
+      "name_zh": "大涼生態公園榕樹廣場",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 24,
+      "bayesian_score": 4.43
+    },
+    "ChIJ8RmRckvYbTQRFxxONYK-_cQ": {
+      "name_zh": "鄭成功紀念公園",
+      "csv_type": "景點",
+      "rating": 3.5,
+      "total_ratings": 239,
+      "bayesian_score": 4.11
+    },
+    "ChIJk2q_XtYKbjQRfi8IfzyIX90": {
+      "name_zh": "茄萣 竹滬鹽灘鹽警槍樓",
+      "csv_type": "景點",
+      "rating": 3.9,
+      "total_ratings": 92,
+      "bayesian_score": 4.35
+    },
+    "ChIJ4Sy9Lk4LbjQRiynUTOjwg6A": {
+      "name_zh": "寧靖王公園（明寧靖王墓）",
+      "csv_type": "景點",
+      "rating": 4,
+      "total_ratings": 282,
+      "bayesian_score": 4.27
+    },
+    "ChIJMwoLNSF0bjQRPDMC-i3Tuy0": {
+      "name_zh": "巴克禮紀念公園",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 7232,
+      "bayesian_score": 4.4
+    },
+    "ChIJERA_uHV1bjQRY5tqptC_lNQ": {
+      "name_zh": "喜樹老街",
+      "csv_type": "景點",
+      "rating": 3.8,
+      "total_ratings": 435,
+      "bayesian_score": 4.12
+    },
+    "ChIJEcUpKEt1bjQRKhB4CZFnpSs": {
+      "name_zh": "茄萣海岸公園",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 1140,
+      "bayesian_score": 4.34
+    },
+    "ChIJq6b2W0EbbjQRrkmJagtcUzo": {
+      "name_zh": "訓風砲台",
+      "csv_type": "景點",
+      "rating": 3.9,
+      "total_ratings": 391,
+      "bayesian_score": 4.19
+    },
+    "ChIJB-fXsZjicTQRRA_2xym8UNc": {
+      "name_zh": "鳳鼻頭考古遺址",
+      "csv_type": "景點",
+      "rating": 3.6,
+      "total_ratings": 254,
+      "bayesian_score": 4.13
+    },
+    "ChIJ4delfkgbbjQRGiPj_y9SXDk": {
+      "name_zh": "澄瀾砲台",
+      "csv_type": "景點",
+      "rating": 4,
+      "total_ratings": 376,
+      "bayesian_score": 4.24
+    },
+    "ChIJZWh3RzgbbjQRvb6Qhn23ZDg": {
+      "name_zh": "鳳山縣新城 平成砲台",
+      "csv_type": "景點",
+      "rating": 4,
+      "total_ratings": 473,
+      "bayesian_score": 4.21
+    },
+    "ChIJg1S7ez4bbjQR4WYOnFVKSEM": {
+      "name_zh": "大東濕地公園",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 4769,
+      "bayesian_score": 4.22
+    },
+    "ChIJw3-rAkEbbjQRVihDA8gh1Fg": {
+      "name_zh": "鳳山縣新城 東便門(同儀門)",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 696,
+      "bayesian_score": 4.29
+    },
+    "ChIJMfvqrH7icTQRRDEgxc43Bbw": {
+      "name_zh": "林園安樂樓",
+      "csv_type": "景點",
+      "rating": 3.8,
+      "total_ratings": 555,
+      "bayesian_score": 4.08
+    },
+    "ChIJQXeUPYfhcTQR96AD2e83NXY": {
+      "name_zh": "海之坵",
+      "csv_type": "景點",
+      "rating": 4,
+      "total_ratings": 430,
+      "bayesian_score": 4.22
+    },
+    "ChIJu073foHhcTQRA8Y1N1xpFys": {
+      "name_zh": "鎮海公園",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 1911,
+      "bayesian_score": 4.16
+    },
+    "ChIJiZleOj_YbTQR9TXVMHElSsc": {
+      "name_zh": "土城海產店",
+      "csv_type": "餐廳大休",
+      "rating": 4.4,
+      "total_ratings": 2935,
+      "bayesian_score": 4.41
+    },
+    "ChIJbeHweRXYbTQRKeLnzSbRpAs": {
+      "name_zh": "東香台菜海味料理",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 701,
+      "bayesian_score": 4.48
+    },
+    "ChIJ90l8XHp2bjQRKCJa2Vf5mAM": {
+      "name_zh": "冠津海鮮粥",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 2417,
+      "bayesian_score": 4.58
+    },
+    "ChIJ_Q62dxJ3bjQRcAjDoCYJCmM": {
+      "name_zh": "牽手簡式小吃店",
+      "csv_type": "餐廳大休",
+      "rating": 4.4,
+      "total_ratings": 266,
+      "bayesian_score": 4.43
+    },
+    "ChIJQ94Ydcx3bjQRDl22ItHiMzw": {
+      "name_zh": "順慶海鮮粥麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 573,
+      "bayesian_score": 4.59
+    },
+    "ChIJm5SzLGrYbTQRoAMclIDNg2Y": {
+      "name_zh": "虱目魚湘",
+      "csv_type": "餐廳大休",
+      "rating": 4.3,
+      "total_ratings": 159,
+      "bayesian_score": 4.4
+    },
+    "ChIJtebf_md2bjQRgqqZT96kwLA": {
+      "name_zh": "阿足海產粥",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 616,
+      "bayesian_score": 4.65
+    },
+    "ChIJGQ-4eep3bjQR1lMqYMbl1FA": {
+      "name_zh": "合里食堂",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 302,
+      "bayesian_score": 4.59
+    },
+    "ChIJUUK2zGB3bjQR0FJzRC_vIzo": {
+      "name_zh": "李黃太太 · 海鮮飯湯",
+      "csv_type": "餐廳大休",
+      "rating": 4.3,
+      "total_ratings": 62,
+      "bayesian_score": 4.42
+    },
+    "ChIJFYtdQAB3bjQRK3EnPnQ3C-k": {
+      "name_zh": "洄游丼飯所",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 590,
+      "bayesian_score": 4.71
+    },
+    "ChIJAaI1cup2bjQRLs1F1oZdmHE": {
+      "name_zh": "串味鮮海鮮燒烤",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 94,
+      "bayesian_score": 4.47
+    },
+    "ChIJDWNaEMF2bjQRuoRVKC0JdPM": {
+      "name_zh": "水源地熱炒燒烤（每週六、日中午有營業）",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 1413,
+      "bayesian_score": 4.56
+    },
+    "ChIJB6mOWgJ1bjQRDz_xyPiu-p8": {
+      "name_zh": "掱漁美式手抓海鮮",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 437,
+      "bayesian_score": 4.57
+    },
+    "ChIJR6_YAAB3bjQRFw23jkfZ8Js": {
+      "name_zh": "酒閤 海鮮熱炒(固定週一店休)",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 27,
+      "bayesian_score": 4.47
+    },
+    "ChIJu8vjW_QLbjQR8OlkasBjj3Y": {
+      "name_zh": "興達港妙海鮮",
+      "csv_type": "餐廳大休",
+      "rating": 4.4,
+      "total_ratings": 99,
+      "bayesian_score": 4.43
+    },
+    "ChIJuwDzI751bjQRi4vggjJzsoM": {
+      "name_zh": "小次郎手功糕研所（5月4、11、18、25、31公休,時間詳見IG、FB、脆）",
+      "csv_type": "餐廳大休",
+      "rating": 5,
+      "total_ratings": 84,
+      "bayesian_score": 4.53
+    },
+    "ChIJu86AwMsKbjQRsm9JRqlAJFI": {
+      "name_zh": "郎海鮮燒烤（茄萣）",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 1542,
+      "bayesian_score": 4.25
+    },
+    "ChIJIw7E3Uh1bjQRw9X04kBbBS4": {
+      "name_zh": "長鱻魚翅火鍋",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 972,
+      "bayesian_score": 4.55
+    },
+    "ChIJi5Y4LOMNbjQRkyjnP_fnBQk": {
+      "name_zh": "大港水海鮮店",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 100,
+      "bayesian_score": 4.45
+    },
+    "ChIJXwi1ESkMbjQRLPOZNuDKT9U": {
+      "name_zh": "農會邊海鮮",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 48,
+      "bayesian_score": 4.47
+    },
+    "ChIJ-815hcENbjQRXqp0Onr9KDU": {
+      "name_zh": "聚味鮮海鮮料理",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 118,
+      "bayesian_score": 4.48
+    },
+    "ChIJr0cqg-YNbjQRh97mXQ7Ed1k": {
+      "name_zh": "祥軒海鮮鍋燒",
+      "csv_type": "餐廳大休",
+      "rating": 5,
+      "total_ratings": 134,
+      "bayesian_score": 4.57
+    },
+    "ChIJLXrpOiUPbjQRYoFGfG11LJA": {
+      "name_zh": "𝐒𝐈𝐈𝐍 𝐙𝐞𝐮 晨照餐廳-橋頭",
+      "csv_type": "餐廳大休",
+      "rating": 5,
+      "total_ratings": 213,
+      "bayesian_score": 4.63
+    },
+    "ChIJ1UKHJ7EPbjQR5cy82bOFMDU": {
+      "name_zh": "姐妹鮮魚湯",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 126,
+      "bayesian_score": 4.46
+    },
+    "ChIJY7itZwAPbjQRWaeWNx8q_KI": {
+      "name_zh": "家賓海鮮熱炒",
+      "csv_type": "餐廳大休",
+      "rating": 4.4,
+      "total_ratings": 16,
       "bayesian_score": 4.44
+    },
+    "ChIJheolxT0PbjQRPJj7KxnG6b8": {
+      "name_zh": "義淉義式料理-碧水河畔",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 1285,
+      "bayesian_score": 4.71
+    },
+    "ChIJt4QkWpgMbjQRWVBofPAeKxI": {
+      "name_zh": "郎•鱔魚麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.3,
+      "total_ratings": 115,
+      "bayesian_score": 4.41
+    },
+    "ChIJc1DT3YQNbjQRCLZEOp6noo0": {
+      "name_zh": "欣巧廚房",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 46,
+      "bayesian_score": 4.49
+    },
+    "ChIJgVfxZJIbbjQRAkFHYHcO6l4": {
+      "name_zh": "蝦搞活蝦海鮮餐廳（澄清店）",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 754,
+      "bayesian_score": 4.67
+    },
+    "ChIJs7pK8ZkbbjQRbzHT2820l4Q": {
+      "name_zh": "阿傑海鮮屋 碳烤鮮蚵 鮮蝦 鮮魚 各式海鮮",
+      "csv_type": "餐廳大休",
+      "rating": 5,
+      "total_ratings": 5,
+      "bayesian_score": 4.45
+    },
+    "ChIJWdM7ZgAFbjQRJHGCgu7Mz5Y": {
+      "name_zh": "海之味",
+      "csv_type": "餐廳大休",
+      "rating": 4.1,
+      "total_ratings": 99,
+      "bayesian_score": 4.38
+    },
+    "ChIJDSxxZovhcTQR5HVASQn2090": {
+      "name_zh": "大總理飯湯 東港旗艦店 Da Zong Li Seafood Restaurant 東港必吃！東港美食 (生魚片/黃金脆皮豬/開運海鮮飯湯/七角頭魚蛋沙拉/客家花生豆腐/韓國海帶湯/干貝蒸蛋/酥炸旗魚黑輪☆手工花枝丸/滷味/紅茶牛奶 ⚠️禁帶外食⚠️",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 633,
+      "bayesian_score": 4.65
+    },
+    "ChIJfbgGNYrhcTQR3cTzqsYY0Ow": {
+      "name_zh": "阿慶鮮魚湯",
+      "csv_type": "餐廳大休",
+      "rating": 4.4,
+      "total_ratings": 815,
+      "bayesian_score": 4.41
+    },
+    "ChIJGxAyiIPhcTQRYANsbuNj-X8": {
+      "name_zh": "海明星生魚片批發零售",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 1129,
+      "bayesian_score": 4.7
+    },
+    "ChIJF0ZS094DbjQRSDrmcD4vw48": {
+      "name_zh": "李家味海鮮粥｜海鮮鍋燒麵｜海鮮拉麵｜小港美食｜外送",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 118,
+      "bayesian_score": 4.52
+    },
+    "ChIJ4VGoDkIdbjQR-JgVpxBKoEs": {
+      "name_zh": "清池台菜海鮮",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 84,
+      "bayesian_score": 4.45
+    },
+    "ChIJkYmQ6nXhcTQRh1XrIPgUGVA": {
+      "name_zh": "懿家日式料理&生魚片「東港黑鮪魚」/黑鮪魚套餐料理/海鮮拉麵/烏龍麵/現烤海鮮/Japanese Restaurant",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 455,
+      "bayesian_score": 4.68
+    },
+    "ChIJWTbKDY_hcTQRqf3RvetynZc": {
+      "name_zh": "東港華僑市場魚莊黑鮪魚生魚片、握壽司專賣店（212）",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 3060,
+      "bayesian_score": 4.67
+    },
+    "ChIJKQLTSXvjcTQRoda5K_53qlQ": {
+      "name_zh": "良心の食材",
+      "csv_type": "餐廳大休",
+      "rating": 5,
+      "total_ratings": 28,
+      "bayesian_score": 4.48
+    },
+    "ChIJj9GBcrAdbjQRmd4p6ARwA8Q": {
+      "name_zh": "小綠海鮮粥",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 22,
+      "bayesian_score": 4.45
+    },
+    "ChIJk-aDatEcbjQRzVkJ0zbkgrY": {
+      "name_zh": "樂鱻鵝肉海鮮熱炒（雞仔豬肚鱉）",
+      "csv_type": "餐廳大休",
+      "rating": 4.3,
+      "total_ratings": 83,
+      "bayesian_score": 4.42
+    },
+    "ChIJm_vWfHzicTQRbYmej38B-7U": {
+      "name_zh": "鬍鬚海鮮飲食部",
+      "csv_type": "餐廳大休",
+      "rating": 4.3,
+      "total_ratings": 244,
+      "bayesian_score": 4.39
+    },
+    "ChIJMTD9H3J1bjQRC0l1HyDH3rQ": {
+      "name_zh": "黃金海岸",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 10170,
+      "bayesian_score": 4.31
+    },
+    "ChIJa0rfrnZ1bjQRMtrh_PYElEg": {
+      "name_zh": "黃金海岸 喜樹秘境",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 919,
+      "bayesian_score": 4.41
+    },
+    "ChIJGfBXL54FbjQRLB_sHv5peWI": {
+      "name_zh": "蓮池潭",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 2769,
+      "bayesian_score": 4.41
     }
   }
 }

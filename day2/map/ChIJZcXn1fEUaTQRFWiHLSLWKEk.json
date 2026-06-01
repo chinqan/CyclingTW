@@ -1,0 +1,24 @@
+{
+  "place_id": "ChIJZcXn1fEUaTQRFWiHLSLWKEk",
+  "name_zh": "清水趙家古厝",
+  "csv_type": "景點",
+  "location": {
+    "lat": 24.28549,
+    "lng": 120.587857
+  },
+  "search_keyword": "廟宇 老街 古蹟 景點",
+  "source": "api_2026-06-01",
+  "rating": 4.1,
+  "total_ratings": 625,
+  "address": "436臺中市清水區下湳里 荷園街 168號",
+  "primary_type": null,
+  "opening_hours_text": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ]
+}

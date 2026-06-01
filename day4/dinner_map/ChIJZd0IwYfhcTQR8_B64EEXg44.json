@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJZd0IwYfhcTQR8_B64EEXg44",
+  "name_zh": "古早味飯湯",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 243,
+  "location": {
+    "lat": 22.462808499999998,
+    "lng": 120.4451736
+  },
+  "address": "92845屏東縣東港鎮盛漁里興漁街27之1號27之2號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.37,
+  "source": "api_2026-06-02",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

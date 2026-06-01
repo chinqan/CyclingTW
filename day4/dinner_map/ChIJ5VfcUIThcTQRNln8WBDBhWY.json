@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ5VfcUIThcTQRNln8WBDBhWY",
+  "name_zh": "一敘食事",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 168,
+  "location": {
+    "lat": 22.462688699999998,
+    "lng": 120.45793570000001
+  },
+  "address": "928屏東縣東港鎮東津里船頭路4之36號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.95,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

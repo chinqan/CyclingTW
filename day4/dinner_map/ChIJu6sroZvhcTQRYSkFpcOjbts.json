@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJu6sroZvhcTQRYSkFpcOjbts",
+  "name_zh": "滿漢麵食館",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 35,
+  "location": {
+    "lat": 22.463394599999997,
+    "lng": 120.44920889999999
+  },
+  "address": "928屏東縣東港鎮東隆里共和街74號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.06,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

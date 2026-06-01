@@ -1,32 +1,32 @@
 {
   "day": 2,
-  "route_name": "海線媽祖香路．通霄到西螺",
-  "total_ascent_desc": "西濱與台1線平坦，全程幾乎無爬升",
-  "main_route_desc": "通霄車站 ➔ 苑裡 ➔ 台61/台17線 ➔ 大甲鎮瀾宮 ➔ 鹿港老街 ➔ 埔鹽順澤宮 ➔ 台1線 ➔ 西螺大橋 ➔ 西螺延平老街",
+  "route_name": "宮廟巡禮．通霄到西螺",
+  "total_ascent_desc": "全程平坦，台61線轉台1線縱貫公路，幾乎無爬升",
+  "main_route_desc": "通霄 ➔ 台61線 ➔ 大甲鎮瀾宮 ➔ 台1線 ➔ 清水 ➔ 鹿港老街 ➔ 埔鹽順澤宮 ➔ 西螺大橋 ➔ 西螺延平老街",
   "places": [
     {
       "place_id": "ChIJJ5R-bjoIaTQRmYc9tYdbBqk",
       "name_zh": "通霄車站",
       "search_keyword": "通霄車站 苗栗縣通霄鎮",
       "csv_type": "起終點",
-      "note": "早上07:00出發 海線鐵路通霄站",
+      "note": "早上07:00出發 海線車站起點 km0",
       "rating": 4.3,
       "total_ratings": 409,
       "location": {
         "lat": 24.491403,
         "lng": 120.678424
       },
-      "bayesian_score": 4.54
+      "bayesian_score": 4.38
     },
     {
-      "place_id": "ChIJHXV2nd0JaTQRQI3lVGuuZ7k",
-      "name_zh": "7-ELEVEN 通苑門市",
-      "search_keyword": "7-ELEVEN 通苑門市 苗栗縣苑裡鎮",
+      "place_id": "ChIJdd6Dxp8JaTQRU2mMUHih2oI",
+      "name_zh": "7-ELEVEN 苑裡門市",
+      "search_keyword": "7-ELEVEN 苑裡門市 苗栗縣苑裡鎮",
       "csv_type": "便利商店",
-      "note": "經苑裡市區補給 沿路線 km約4",
+      "note": "苑裡出發補給 沿路線 km約7",
       "location": {
-        "lat": 24.4557353,
-        "lng": 120.66027539999999
+        "lat": 24.4381003,
+        "lng": 120.64951959999999
       },
       "bayesian_score": null
     },
@@ -35,7 +35,7 @@
       "name_zh": "大甲鎮瀾宮",
       "search_keyword": "大甲鎮瀾宮 台中市大甲區順天路158號",
       "csv_type": "景點",
-      "note": "約09:30抵達 全台媽祖信仰中心 km約20",
+      "note": "約08:40抵達 台灣媽祖信仰中心 必訪宮廟 km約19",
       "rating": 4.6,
       "total_ratings": 17323,
       "location": {
@@ -45,35 +45,61 @@
       "bayesian_score": 4.6
     },
     {
-      "place_id": "ChIJ8cDaDIQUaTQRMjVTyyrS2o0",
-      "name_zh": "7-ELEVEN 清峰門市",
-      "search_keyword": "7-ELEVEN 清峰門市 台中市清水區",
+      "place_id": "ChIJrcsDgv4RaTQRrisG-41yyuU",
+      "name_zh": "7-ELEVEN 媽祖門市",
+      "search_keyword": "7-ELEVEN 媽祖門市 台中市大甲區",
       "csv_type": "便利商店",
-      "note": "清水段補給 沿路線 km約31",
+      "note": "大甲鎮瀾宮旁補給 沿路線 km約19",
       "location": {
-        "lat": 24.268199700000004,
-        "lng": 120.5668345
+        "lat": 24.3434675,
+        "lng": 120.62564459999999
       },
       "bayesian_score": null
     },
     {
-      "place_id": "ChIJF3FGducVaTQRoxpXm3wGcTo",
-      "name_zh": "全家便利商店 梧棲金牌店",
-      "search_keyword": "全家便利商店 梧棲金牌店 台中市梧棲區",
-      "csv_type": "便利商店",
-      "note": "梧棲台中港段補給 沿路線 km約35",
+      "place_id": "ChIJZcXn1fEUaTQRFWiHLSLWKEk",
+      "name_zh": "清水趙家古厝",
+      "search_keyword": "清水趙家古厝 台中市清水區",
+      "csv_type": "景點",
+      "note": "約09:20抵達 清水百年古厝 紅磚三合院 km約27",
+      "rating": 4.1,
+      "total_ratings": 625,
       "location": {
-        "lat": 24.2395607,
-        "lng": 120.54938779999999
+        "lat": 24.28549,
+        "lng": 120.587857
+      },
+      "bayesian_score": 4.21
+    },
+    {
+      "place_id": "ChIJ4_zl-34TaTQRgaG2xsHM7rs",
+      "name_zh": "7-ELEVEN 新清水門市",
+      "search_keyword": "7-ELEVEN 新清水門市 台中市清水區",
+      "csv_type": "便利商店",
+      "note": "清水段補給 沿路線 km約29",
+      "location": {
+        "lat": 24.276218,
+        "lng": 120.57065399999999
+      },
+      "bayesian_score": null
+    },
+    {
+      "place_id": "ChIJG5ZlIr9BaTQRVbEJhwkndao",
+      "name_zh": "7-ELEVEN 伸冠門市",
+      "search_keyword": "7-ELEVEN 伸冠門市 彰化縣線西鄉",
+      "csv_type": "便利商店",
+      "note": "彰濱線西段補給 沿路線 km約46",
+      "location": {
+        "lat": 24.1612664,
+        "lng": 120.4871898
       },
       "bayesian_score": null
     },
     {
       "place_id": "ChIJbZ03BtZFaTQRVSahxk_O324",
       "name_zh": "鹿港老街",
-      "search_keyword": "鹿港老街 彰化縣鹿港鎮埔頭街",
+      "search_keyword": "鹿港老街 彰化縣鹿港鎮",
       "csv_type": "景點",
-      "note": "約12:00抵達 古蹟老街與小吃 km約61",
+      "note": "約11:30抵達 鹿港古蹟老街 龍山寺天后宮 午餐大休點 km約60",
       "rating": 4.5,
       "total_ratings": 42164,
       "location": {
@@ -83,51 +109,39 @@
       "bayesian_score": 4.5
     },
     {
-      "place_id": "ChIJV2Of7b9FaTQRjuh_ATAiwmc",
-      "name_zh": "品先蚵仔煎",
-      "search_keyword": "品先蚵仔煎 鹿港",
+      "place_id": "ChIJdbMQ5yFFaTQRxxyntuMhUUI",
+      "name_zh": "老蕭土魠魚麵館（日式豬排便當）",
+      "search_keyword": "老蕭土魠魚麵館 彰化縣鹿港鎮",
       "csv_type": "餐廳大休",
-      "note": "12:00-13:30午餐大休 鹿港在地蚵仔煎 休假請看FB",
-      "rating": 4.8,
-      "total_ratings": 1123,
+      "note": "12:00-13:30午餐大休 鹿港高人氣土魠魚麵",
+      "rating": 4.9,
+      "total_ratings": 2782,
       "location": {
-        "lat": 24.0595136,
-        "lng": 120.43167700000001
+        "lat": 24.051002,
+        "lng": 120.43182209999999
       },
-      "bayesian_score": 4.66
-    },
-    {
-      "place_id": "ChIJa9toBgpGaTQRR1KnLbHRONQ",
-      "name_zh": "7-ELEVEN 鹿港門市",
-      "search_keyword": "7-ELEVEN 鹿港門市 彰化縣鹿港鎮",
-      "csv_type": "便利商店",
-      "note": "鹿港出發補給 沿路線 km約61",
-      "location": {
-        "lat": 24.0559212,
-        "lng": 120.43385359999999
-      },
-      "bayesian_score": null
+      "bayesian_score": 4.87
     },
     {
       "place_id": "ChIJH0XLyf1IaTQRvI803-ELjuk",
       "name_zh": "埔鹽順澤宮",
       "search_keyword": "埔鹽順澤宮 彰化縣埔鹽鄉",
       "csv_type": "景點",
-      "note": "約14:00抵達 冠軍帽爆紅廟宇 km約70",
+      "note": "約14:00抵達 全台最幸運的宮廟 冠軍帽加持 km約68",
       "rating": 4.7,
       "total_ratings": 2152,
       "location": {
         "lat": 23.9966546,
         "lng": 120.47491219999999
       },
-      "bayesian_score": 4.64
+      "bayesian_score": 4.68
     },
     {
       "place_id": "ChIJ18oDsrZJaTQRdJYllwiAjdE",
       "name_zh": "7-Eleven順澤門市",
       "search_keyword": "7-ELEVEN 順澤門市 彰化縣埔鹽鄉",
       "csv_type": "便利商店",
-      "note": "順澤宮旁補給 沿路線 km約70",
+      "note": "順澤宮旁補給 沿路線 km約68",
       "location": {
         "lat": 23.9937795,
         "lng": 120.47634359999999
@@ -139,7 +153,7 @@
       "name_zh": "7-ELEVEN 興鳳門市",
       "search_keyword": "7-ELEVEN 興鳳門市 彰化縣二林鎮",
       "csv_type": "便利商店",
-      "note": "二林/北斗段補給 順澤宮往西螺中繼 沿路線 km約84",
+      "note": "二林往西螺段補給 沿路線 km約82",
       "location": {
         "lat": 23.889528499999997,
         "lng": 120.47428610000001
@@ -149,9 +163,9 @@
     {
       "place_id": "ChIJrZs43EK0bjQRK3XsEqYto-Y",
       "name_zh": "西螺大橋",
-      "search_keyword": "西螺大橋 雲林縣西螺鎮",
+      "search_keyword": "西螺大橋 彰化縣西螺鎮",
       "csv_type": "景點",
-      "note": "約16:00抵達 橫跨濁水溪紅色鋼桁架地標 km約96 ★主視覺",
+      "note": "約16:30抵達 橫跨濁水溪紅色鋼桁架大橋 km約93 ★主視覺",
       "rating": null,
       "total_ratings": null,
       "location": {
@@ -161,35 +175,23 @@
       "bayesian_score": null
     },
     {
-      "place_id": "ChIJhzi2buW1bjQRSh-R0MiLwXk",
-      "name_zh": "全家便利商店 西螺稻香店",
-      "search_keyword": "全家便利商店 西螺稻香店 雲林縣西螺鎮",
-      "csv_type": "便利商店",
-      "note": "進西螺市區補給 沿路線 km約98",
-      "location": {
-        "lat": 23.799317,
-        "lng": 120.45553009999999
-      },
-      "bayesian_score": null
-    },
-    {
       "place_id": "ChIJvyru1BW0bjQRrsVaIqi0zAI",
       "name_zh": "西螺延平老街",
-      "search_keyword": "西螺延平老街 雲林縣西螺鎮延平路",
+      "search_keyword": "西螺延平老街 雲林縣西螺鎮",
       "csv_type": "起終點",
-      "note": "約16:30抵達 當日終點 歷史街屋與西螺醬油 周邊住宿",
+      "note": "約17:00抵達 當日終點 西螺老街與醬油文化",
       "rating": 4.2,
       "total_ratings": 2125,
       "location": {
         "lat": 23.8014431,
         "lng": 120.46190379999999
       },
-      "bayesian_score": 4.39
+      "bayesian_score": 4.23
     }
   ],
-  "bayesian_C": 4.58,
-  "bayesian_m": 2152,
-  "ors_distance_km": 99.0,
+  "bayesian_C": 4.5323,
+  "bayesian_m": 217,
+  "ors_distance_km": 97.9,
   "ors_duration_hours": 5.6,
   "elevation_ascent_m": null,
   "elevation_descent_m": null

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJARSDk4ixcTQRrYgnkl-TUzI",
+  "name_zh": "中華電信墾丁會館",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 622,
+  "location": {
+    "lat": 21.9431713,
+    "lng": 120.7993205
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路文化巷2-1號",
+  "primary_type": "hotel",
+  "distance_km": 0.37,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

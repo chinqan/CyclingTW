@@ -1,7 +1,10 @@
 """GPX 產出：route / gpx-save / gpx-waypoints。
 
-route 透過 OpenRouteService HTTPS API 一次取得整天路線，
-取代舊版 split + MCP 逐段 + merge 流程。
+route 透過 Google Routes API（computeRoutes）HTTPS 一次取得整天路線，
+取代舊版 OpenRouteService（cycling-regular 在台灣圖資稀疏、常走產業道路小路）。
+travelMode 預設 TWO_WHEELER（機車）：台灣涵蓋最好、走一般道路/省道，最貼近環島
+長路線的實際騎乘動線（BICYCLE 在台灣圖資較稀、實測繞路偏多）；可由 config.json 的
+travel_mode 或環境變數 ROUTES_TRAVEL_MODE 覆寫。GPX 折線由回傳的 encoded polyline 解碼產生。
 """
 from __future__ import annotations
 
@@ -13,14 +16,33 @@ import urllib.error
 import urllib.request
 
 from .helpers import (ROOT, day_dir, plan_dir, read_json, die, info, haversine_km,
-                      write_json, is_note_landmark, landmark_matches_name)
+                      write_json, is_note_landmark, landmark_matches_name,
+                      decode_polyline)
 
 
-# ── OpenRouteService API ──
-ORS_URL = "https://api.openrouteservice.org/v2/directions/cycling-regular/gpx"
-ORS_MAX_WAYPOINTS = 50  # cycling-regular 單次上限
+# ── Google Routes API (computeRoutes) ──
+ROUTES_URL = "https://routes.googleapis.com/directions/v2:computeRoutes"
+ROUTES_FIELD_MASK = "routes.distanceMeters,routes.duration,routes.polyline.encodedPolyline"
+ROUTES_MAX_INTERMEDIATES = 25     # computeRoutes 預設中繼點上限（origin+dest 另計）
+DEFAULT_TRAVEL_MODE = "TWO_WHEELER"
+# 馬達載具（TWO_WHEELER/DRIVE）回傳的是機/汽車旅行時間，遠快於單車；環島每日距離
+# 較長，估「騎乘時間」一律由距離 ÷ 平均時速推算（負重旅行車約 16 km/h），比任何
+# 馬達 API duration 都更貼近真實，也與 travelMode 無關。
+CYCLING_AVG_KMH = 16.0
 TAIWAN_BOUNDS = {"lat_min": 21.8, "lat_max": 25.4, "lng_min": 119.2, "lng_max": 122.1}
 MAX_ADJACENT_KM = 40  # 分段檢查上限
+
+
+def _resolve_travel_mode(n: int) -> str:
+    """travelMode 解析優先序：config.json travel_mode > 環境變數 > 預設 TWO_WHEELER。"""
+    valid = {"TWO_WHEELER", "BICYCLE", "DRIVE", "WALK"}
+    cfg = plan_dir(n) / "config.json"
+    if cfg.exists():
+        mode = (read_json(cfg).get("travel_mode") or "").strip().upper()
+        if mode in valid:
+            return mode
+    mode = os.environ.get("ROUTES_TRAVEL_MODE", "").strip().upper()
+    return mode if mode in valid else DEFAULT_TRAVEL_MODE
 
 
 def _validate_coords(places: list, exempt_detour_names: set | None = None) -> None:
@@ -79,12 +101,12 @@ def _validate_coords(places: list, exempt_detour_names: set | None = None) -> No
 
 
 def _clean_gpx(raw: str) -> str:
-    """剝除 envelope 與 <extensions> 區塊。"""
+    """剝除 envelope 與 <extensions> 區塊（gpx-save 貼入外部 GPX 用）。"""
     start = raw.find("<?xml")
     if start == -1:
         start = raw.find("<gpx")
     if start == -1:
-        die("ORS 回應不含 GPX 內容")
+        die("輸入不含 GPX 內容（找不到 <?xml 或 <gpx）")
     gpx = raw[start:]
     before = len(gpx)
     gpx = re.sub(r"<extensions>.*?</extensions>", "", gpx, flags=re.DOTALL)
@@ -118,75 +140,99 @@ def _inject_waypoints(gpx: str, places: list) -> str:
     return gpx  # 找不到位置就放棄注入，回原樣
 
 
-def _ors_request(api_key: str, coords: list, accept: str) -> bytes:
-    """對 ORS Directions API 發送 POST request。"""
-    body = json.dumps({
-        "coordinates": coords,
-        "instructions": False,
-        "elevation": False,
-    }).encode("utf-8")
-
+def _routes_post(body: dict, api_key: str) -> dict:
+    """對 Google Routes API computeRoutes POST，回傳解析後的 JSON（統一錯誤處理）。"""
     req = urllib.request.Request(
-        ORS_URL.rsplit("/", 1)[0] + "/cycling-regular" + ("/gpx" if "gpx" in accept else ""),
-        data=body,
-        headers={
-            "Authorization": api_key,
-            "Content-Type": "application/json",
-            "Accept": accept,
-        },
+        ROUTES_URL,
+        data=json.dumps(body).encode("utf-8"),
         method="POST",
-    )
-
-    try:
-        with urllib.request.urlopen(req, timeout=60) as resp:
-            return resp.read()
-    except urllib.error.HTTPError as e:
-        body_text = e.read().decode("utf-8", errors="replace") if e.fp else ""
-        die(f"ORS API HTTP {e.code}: {e.reason}\n{body_text}")
-    except urllib.error.URLError as e:
-        die(f"ORS API 連線失敗：{e.reason}")
-
-
-ORS_JSON_URL = "https://api.openrouteservice.org/v2/directions/cycling-regular"
-
-
-def _ors_post(url: str, body: bytes, api_key: str, accept: str) -> str:
-    """對 ORS endpoint POST，回傳回應文字（統一錯誤處理）。"""
-    req = urllib.request.Request(
-        url, data=body, method="POST",
-        headers={"Authorization": api_key, "Content-Type": "application/json", "Accept": accept},
+        headers={
+            "Content-Type": "application/json",
+            "X-Goog-Api-Key": api_key,
+            "X-Goog-FieldMask": ROUTES_FIELD_MASK,
+        },
     )
     try:
         with urllib.request.urlopen(req, timeout=60) as resp:
-            return resp.read().decode("utf-8")
+            return json.loads(resp.read().decode("utf-8"))
     except urllib.error.HTTPError as e:
         body_text = e.read().decode("utf-8", errors="replace") if e.fp else ""
-        die(f"ORS API HTTP {e.code}: {e.reason}\n{body_text}")
+        die(f"Routes API HTTP {e.code}: {e.reason}\n{body_text}\n"
+            "💡 請確認該 API key 已啟用 Routes API（與 Places 同專案需個別啟用）。")
     except urllib.error.URLError as e:
-        die(f"ORS API 連線失敗：{e.reason}")
+        die(f"Routes API 連線失敗：{e.reason}")
 
 
-def _ors_route(coords: list, api_key: str) -> tuple:
-    """呼叫 ORS cycling-regular：回傳 (distance_km, duration_hours, gpx_clean, points)。
+def _google_route(coords: list, api_key: str, travel_mode: str) -> tuple:
+    """呼叫 Google Routes API computeRoutes：回傳 (distance_km, duration_hours, points)。
 
-    points = [[lat, lng], …] 取自 GPX rtept（ORS 真實路線折線）。route 與
-    route-skeleton 共用此函式。
+    coords = [[lng, lat], …]（沿用 ORS 慣例）：首=起點、末=終點、中間=intermediates。
+    points = [[lat, lng], …] 由回傳 encoded polyline 解碼（密折線，供 GPX 軌跡與
+    score-pool 走廊過濾）。duration 一律由距離 ÷ CYCLING_AVG_KMH 推算成「騎乘時間」
+    （見檔頭說明），不採用馬達載具回傳的旅行時間。route 與 route-skeleton 共用此函式。
     """
-    body = json.dumps({"coordinates": coords, "instructions": False, "elevation": False}).encode("utf-8")
-    info("呼叫 ORS API（JSON）：取得路線距離 …")
-    summary = json.loads(_ors_post(ORS_JSON_URL, body, api_key, "application/json"))["routes"][0]["summary"]
-    distance_km = round(summary["distance"] / 1000, 1)
-    duration_hours = round(summary["duration"] / 3600, 1)
-    info(f"ORS 路線距離：{distance_km} km，預估騎乘時間：{duration_hours} 小時")
-    info(f"呼叫 ORS API（GPX）：{len(coords)} 個 waypoints …")
-    gpx = _clean_gpx(_ors_post(ORS_URL, body, api_key, "application/gpx+xml, application/xml"))
-    rtepts = re.findall(r'<rtept lat="(-?[\d.]+)" lon="(-?[\d.]+)"', gpx)
-    points = [[float(lat), float(lng)] for lat, lng in rtepts]
-    return distance_km, duration_hours, gpx, points
+    n_inter = len(coords) - 2
+    if n_inter > ROUTES_MAX_INTERMEDIATES:
+        die(f"computeRoutes 中繼點上限 {ROUTES_MAX_INTERMEDIATES} 個，目前 {n_inter} 個"
+            f"（起終點另計，共 {len(coords)} 點）")
+
+    def _wp(lng, lat):
+        return {"location": {"latLng": {"latitude": lat, "longitude": lng}}}
+
+    body = {
+        "origin": _wp(*coords[0]),
+        "destination": _wp(*coords[-1]),
+        "intermediates": [_wp(lng, lat) for lng, lat in coords[1:-1]],
+        "travelMode": travel_mode,
+        "polylineQuality": "HIGH_QUALITY",
+        "polylineEncoding": "ENCODED_POLYLINE",
+    }
+    # routingPreference / routeModifiers 僅 DRIVE / TWO_WHEELER 支援。
+    # avoidHighways：把路線推離單車不能騎的高架快速道路；avoidTolls：避收費路段。
+    if travel_mode in ("DRIVE", "TWO_WHEELER"):
+        body["routingPreference"] = "TRAFFIC_UNAWARE"  # 規劃用，求可重現、免 departureTime
+        body["routeModifiers"] = {"avoidHighways": True, "avoidTolls": True}
+
+    info(f"呼叫 Routes API computeRoutes（travelMode={travel_mode}）：{len(coords)} 個 waypoints …")
+    resp = _routes_post(body, api_key)
+    routes = resp.get("routes") or []
+    if not routes:
+        die("Routes API 無路線結果（檢查座標是否可達 / API key 權限）：\n"
+            + json.dumps(resp, ensure_ascii=False)[:800])
+    r = routes[0]
+    distance_km = round(r["distanceMeters"] / 1000, 1)
+    duration_hours = round(distance_km / CYCLING_AVG_KMH, 1)
+    points = decode_polyline(r.get("polyline", {}).get("encodedPolyline", ""))
+    if not points:
+        die("Routes API 回應缺 polyline.encodedPolyline，無法產生折線")
+    info(f"Routes 路線距離：{distance_km} km；估算騎乘時間 {duration_hours} 小時"
+         f"（{CYCLING_AVG_KMH:.0f} km/h 推算）；折線 {len(points)} 點")
+    return distance_km, duration_hours, points
+
+
+def _points_to_gpx(n: int, route_name: str, points: list) -> str:
+    """把路線折線點 [[lat, lng], …] 組成 GPX（metadata + trk/trkseg/trkpt）。
+
+    wpt 停靠點由 cmd_route 之後用 _inject_waypoints 注入。
+    """
+    lats = [p[0] for p in points]
+    lons = [p[1] for p in points]
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="CyclingTW">',
+        f'  <metadata><name>Day {n} {route_name}</name>',
+        f'    <bounds minlat="{min(lats)}" minlon="{min(lons)}" maxlat="{max(lats)}" maxlon="{max(lons)}"/></metadata>',
+        f'  <trk><name>Day {n}</name><trkseg>',
+    ]
+    for lat, lng in points:
+        lines.append(f'    <trkpt lat="{lat}" lon="{lng}"/>')
+    lines.append('  </trkseg></trk>')
+    lines.append('</gpx>')
+    return "\n".join(lines)
 
 
 def cmd_route(args):
-    """從 places.json 讀座標、呼叫 ORS API、輸出 dayN_route.gpx + 寫回距離。"""
+    """從 places.json 讀座標、呼叫 Routes API、輸出 dayN_route.gpx + 寫回距離。"""
     n = args.day
     data = read_json(plan_dir(n) / "places.json")
     places = data["places"]
@@ -200,41 +246,39 @@ def cmd_route(args):
                if not is_note_landmark(lm) and landmark_matches_name(lm, p["name_zh"])}
     _validate_coords(places, _exempt)
 
-    if len(places) > ORS_MAX_WAYPOINTS:
-        die(f"ORS cycling-regular 單次最多 {ORS_MAX_WAYPOINTS} waypoints，目前 {len(places)} 個")
+    if len(places) - 2 > ROUTES_MAX_INTERMEDIATES:
+        die(f"computeRoutes 中繼點上限 {ROUTES_MAX_INTERMEDIATES} 個，目前 {len(places) - 2} 個"
+            f"（起終點另計，共 {len(places)} 點）")
 
-    api_key = os.environ.get("ORS_API_KEY")
-    if not api_key:
-        die("缺少 ORS_API_KEY 環境變數。\n"
-            "請至 https://openrouteservice.org/dev/#/signup 申請後：\n"
-            "  export ORS_API_KEY='your-key-here'")
+    from .places_api import _get_api_key
+    api_key = _get_api_key()
+    travel_mode = _resolve_travel_mode(n)
 
     coords = [[p["location"]["lng"], p["location"]["lat"]] for p in places]
-    distance_km, duration_hours, gpx, points = _ors_route(coords, api_key)
+    distance_km, duration_hours, points = _google_route(coords, api_key, travel_mode)
 
-    # 寫回 places.json
+    # 寫回 places.json（沿用 ors_* 鍵名以維持下游 render/index/template 相容）
     data["ors_distance_km"] = distance_km
     data["ors_duration_hours"] = duration_hours
     write_json(plan_dir(n) / "places.json", data)
 
-    gpx = _inject_waypoints(gpx, places)
+    gpx = _inject_waypoints(_points_to_gpx(n, data.get("route_name", ""), points), places)
     out = day_dir(n) / f"day{n}_route.gpx"
     out.write_text(gpx, encoding="utf-8")
-    rtept_count = len(re.findall(r"<rtept", gpx))
     trkpt_count = len(re.findall(r"<trkpt", gpx))
-    info(f"已寫入 {out.relative_to(ROOT)}（{len(gpx)} bytes, {rtept_count} rtept, {trkpt_count} trkpt）")
+    info(f"已寫入 {out.relative_to(ROOT)}（{len(gpx)} bytes, {trkpt_count} trkpt）")
 
-    # 把 ORS 真實路線折線存成可重用檔，供 score-pool 走廊過濾用（取代航點直線近似）。
-    # waypoint_signature = 本次送 ORS 的航點座標；score-pool 比對現在 places.json 航點，
-    # 相符才採用真實折線（換航點後簽章不符 → 自動退回直線近似），慣例同 dinner/hotel 的
-    # source_endpoint_place_id。
+    # 把真實路線折線存成可重用檔，供 score-pool 走廊過濾用（取代航點直線近似）。
+    # waypoint_signature = 本次送 Routes API 的航點座標；score-pool 比對現在 places.json
+    # 航點，相符才採用真實折線（換航點後簽章不符 → 自動退回直線近似），慣例同 dinner/hotel
+    # 的 source_endpoint_place_id。
     geom = {
         "waypoint_signature": [[round(p["location"]["lat"], 6), round(p["location"]["lng"], 6)]
                                for p in places],
         "points": points,
     }
     write_json(plan_dir(n) / "route_geometry.json", geom)
-    info(f"已寫入 route_geometry.json（{len(geom['points'])} 個真實路線點）")
+    info(f"已寫入 route_geometry.json（{len(geom['points'])} 個真實路線折線點）")
 
     # 自動把實際距離回寫 index.md
     from .index_parser import cmd_update_index
@@ -246,7 +290,7 @@ def cmd_route(args):
 
 
 def cmd_route_skeleton(args):
-    """Phase 1 起點：ORS 只串「起點 + 必經景點 + 終點」算出骨架最佳路線。
+    """Phase 1 起點：Routes API 只串「起點 + 必經景點 + 終點」算出骨架最佳路線。
 
     產出 _plan/skeleton.json（含 ordered_points 與 geometry 折線），供
     search-along-route 沿這條真實路線找補給點/景點。模糊地名（如「通霄海線」）
@@ -262,9 +306,7 @@ def cmd_route_skeleton(args):
     landmarks = [lm for lm in (cfg.get("must_visit_landmarks") or []) if not is_note_landmark(lm)]
 
     gkey = _get_api_key()
-    ors_key = os.environ.get("ORS_API_KEY")
-    if not ors_key:
-        die("缺少 ORS_API_KEY 環境變數")
+    travel_mode = _resolve_travel_mode(n)
 
     queries = [("起終點", origin)] + [("景點", lm) for lm in landmarks] + [("起終點", dest)]
     ordered, prev = [], None
@@ -286,7 +328,7 @@ def cmd_route_skeleton(args):
         prev = (lat, lng)
 
     coords = [[o["location"]["lng"], o["location"]["lat"]] for o in ordered]
-    distance_km, duration_hours, _gpx, points = _ors_route(coords, ors_key)
+    distance_km, duration_hours, points = _google_route(coords, gkey, travel_mode)
 
     skel = {
         "day": n,

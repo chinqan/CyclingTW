@@ -4,8 +4,8 @@
   "csv_type": "便利商店",
   "location": {
     "lat": 24.4381003,
-    "lng": 120.6495196
+    "lng": 120.64951959999999
   },
-  "source": "search_2026-05-21",
-  "note": "苑裡路段補給"
+  "search_keyword": "7-ELEVEN 全家便利商店",
+  "source": "along_2026-06-01"
 }

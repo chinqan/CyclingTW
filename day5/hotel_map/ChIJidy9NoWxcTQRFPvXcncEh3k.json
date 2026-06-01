@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJidy9NoWxcTQRFPvXcncEh3k",
+  "name_zh": "墾丁儷庭民宿｜附停車場｜距離大街300公尺｜腳踏車｜親子友善｜車友友善",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 396,
+  "location": {
+    "lat": 21.9479598,
+    "lng": 120.79286069999999
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路330-2號Kenting National Park",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.5,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

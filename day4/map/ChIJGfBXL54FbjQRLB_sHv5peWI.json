@@ -1,0 +1,15 @@
+{
+  "place_id": "ChIJGfBXL54FbjQRLB_sHv5peWI",
+  "name_zh": "蓮池潭",
+  "csv_type": "景點",
+  "location": {
+    "lat": 22.6833323,
+    "lng": 120.2966989
+  },
+  "search_keyword": "蓮池潭 高雄左營",
+  "source": "api_2026-06-02",
+  "rating": 4.4,
+  "total_ratings": 2769,
+  "address": "813高雄市左營區蓮池潭",
+  "primary_type": "lake"
+}

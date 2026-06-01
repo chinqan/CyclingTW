@@ -1,23 +1,15 @@
 {
   "place_id": "ChIJ0TvLis6wcTQR5Cw7itPdrRY",
-  "name_zh": "恆春老街",
+  "name_zh": "恆春古城魅力商圈",
   "csv_type": "景點",
-  "rating": 4.2,
-  "total_ratings": 4602,
   "location": {
     "lat": 22.0033907,
     "lng": 120.74349240000001
   },
-  "source": "api_2026-05-21",
-  "note": "恆春古城內商業街",
-  "opening_hours_text": [
-    "Monday: 8:00 AM – 10:00 PM",
-    "Tuesday: 8:00 AM – 10:00 PM",
-    "Wednesday: 8:00 AM – 10:00 PM",
-    "Thursday: 8:00 AM – 10:00 PM",
-    "Friday: 8:00 AM – 10:00 PM",
-    "Saturday: 8:00 AM – 10:00 PM",
-    "Sunday: 8:00 AM – 10:00 PM"
-  ],
-  "editorial_summary": "Busy thoroughfare in the Old Town, lined with restaurants & food stalls, near a Sunday night market."
+  "search_keyword": "古城 福安宮 海灘 景點",
+  "source": "along_2026-06-02",
+  "rating": 4.2,
+  "total_ratings": 4607,
+  "address": "946屏東縣恆春鎮福德路中山路",
+  "primary_type": "tourist_attraction"
 }

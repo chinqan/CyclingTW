@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJmyj0KbDhcTQRT_Bfq2zcul8",
+  "name_zh": "東之港汽車旅館",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 868,
+  "location": {
+    "lat": 22.467285399999998,
+    "lng": 120.4619707
+  },
+  "address": "928屏東縣東港鎮東津里水源二街139號",
+  "primary_type": "motel",
+  "distance_km": 1.44,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

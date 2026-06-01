@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJray3AYaxcTQRvKHuyM-66fY",
+  "name_zh": "墾丁",
+  "name_lang": "zh-TW",
+  "rating": 1.8,
+  "total_ratings": 159,
+  "location": {
+    "lat": 21.9452815,
+    "lng": 120.7985248
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路182號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.16,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

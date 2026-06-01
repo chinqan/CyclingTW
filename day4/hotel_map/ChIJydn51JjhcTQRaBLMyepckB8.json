@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJydn51JjhcTQRaBLMyepckB8",
+  "name_zh": "東港民宿 蔚藍白鷺",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 151,
+  "location": {
+    "lat": 22.460749399999997,
+    "lng": 120.4557991
+  },
+  "address": "928屏東縣東港鎮東津里嘉新一街358號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 0.77,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

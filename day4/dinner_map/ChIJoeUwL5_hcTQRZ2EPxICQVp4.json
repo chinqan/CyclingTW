@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJoeUwL5_hcTQRZ2EPxICQVp4",
+  "name_zh": "大鵬灣新新海鮮",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 4449,
+  "location": {
+    "lat": 22.4599176,
+    "lng": 120.4562902
+  },
+  "address": "928屏東縣東港鎮嘉蓮里嘉新路101-1號",
+  "primary_type": "seafood_restaurant",
+  "primary_type_label": "海鮮餐廳",
+  "distance_km": 0.85,
+  "source": "api_2026-06-02",
+  "note": "海鮮餐廳",
+  "name_is_ascii": false
+}

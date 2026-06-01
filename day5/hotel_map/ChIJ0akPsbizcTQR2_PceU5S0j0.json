@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ0akPsbizcTQR2_PceU5S0j0",
+  "name_zh": "墾丁福華渡假飯店",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 9365,
+  "location": {
+    "lat": 21.941653499999997,
+    "lng": 120.80727850000001
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路2號",
+  "primary_type": "resort_hotel",
+  "distance_km": 1.15,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

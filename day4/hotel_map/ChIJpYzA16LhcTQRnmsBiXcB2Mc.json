@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJpYzA16LhcTQRnmsBiXcB2Mc",
+  "name_zh": "海豚城堡民宿",
+  "name_lang": "zh-TW",
+  "rating": 3.8,
+  "total_ratings": 373,
+  "location": {
+    "lat": 22.4641642,
+    "lng": 120.46155610000001
+  },
+  "address": "928屏東縣東港鎮東津里新義路38號928",
+  "primary_type": "hotel",
+  "distance_km": 1.32,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

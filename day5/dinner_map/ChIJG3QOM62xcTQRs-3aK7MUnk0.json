@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJG3QOM62xcTQRs-3aK7MUnk0",
+  "name_zh": "明石章魚燒小丸子",
+  "name_lang": "zh-TW",
+  "rating": 3.9,
+  "total_ratings": 38,
+  "location": {
+    "lat": 21.9458596,
+    "lng": 120.79719499999999
+  },
+  "address": "墾丁國家公園, 恆春鎮屏東縣946",
+  "primary_type": "meal_takeaway",
+  "primary_type_label": "外賣餐廳",
+  "distance_km": 0.01,
+  "source": "api_2026-06-02",
+  "note": "外賣餐廳",
+  "name_is_ascii": false
+}

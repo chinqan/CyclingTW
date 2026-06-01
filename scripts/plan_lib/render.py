@@ -9,7 +9,7 @@ import sys
 from jinja2 import Environment, FileSystemLoader, StrictUndefined
 
 from .helpers import (ROOT, TEMPLATES_DIR, day_dir, plan_dir, read_json, write_json, die, info,
-                      load_protagonist, landmark_covered)
+                      load_protagonist, landmark_covered, normalize_landmark, is_note_landmark)
 
 
 def _jenv() -> Environment:
@@ -24,6 +24,7 @@ def _jenv() -> Environment:
 # ─── poster_vars 自動同步 ───
 
 _DESTINATION_MIN_RATINGS = 2000  # 終點需達此評論數才視為「目的地型地標」
+_ATTRACTION_CAP = 5  # 單日 csv_type=="景點" 數量上限（規則 [C]）；超過取「必經優先＋Bayesian 最高」前 N
 
 
 def _find_main_visual_place(places: list[dict]) -> dict | None:
@@ -396,6 +397,60 @@ def _collect_gate_errors(n: int, places: dict, segments: dict) -> list[str]:
             gate_errors.append(
                 f"必經景點未進路線（index.md 指定但不在 places.json）：{', '.join(missing)} → "
                 f"請把它們加入 day{n}/_plan/places.json 當航點（ORS 才會繞經）後重跑"
+            )
+
+    # (F) 景點數上限：csv_type=="景點" 最多 _ATTRACTION_CAP 個（規則 [C]）。超過時優先保留
+    #     必經景點，其餘名額給 Bayesian 評分（最受歡迎）最高者，被擠掉的降為 better_attractions
+    #     備案。無法自動刪（保留哪些含必經考量需人腦判斷），與 (E) 同列為需人工處理的 gate；
+    #     被降級者仍在 pool/candidates，cascade 的 compose-better-attractions 會自動納入備案表。
+    attractions = [p for p in (places.get("places") or []) if p.get("csv_type") == "景點"]
+    if len(attractions) > _ATTRACTION_CAP:
+        lms = [lm for lm in (read_json(config_path).get("must_visit_landmarks") or [])
+               if not is_note_landmark(lm)] if config_path.exists() else []
+
+        # 每個必經 landmark 只認 1 個「最佳匹配」景點（避免 landmark_matches_name 的
+        # 0.5 字元重疊把同後綴景點——如多個「○○漁港」——全誤標必經，反把高分景點擠去降級）。
+        def _overlap(lm, name):
+            lm = normalize_landmark(lm)
+            if not lm or not name:
+                return 0.0
+            base = len(set(lm) & set(name)) / len(set(lm))
+            return base + (1.0 if (lm in name or name in lm) else 0.0)
+
+        must_pids = set()
+        for lm in lms:
+            best, sc = max(((p, _overlap(lm, p.get("name_zh", ""))) for p in attractions),
+                           key=lambda t: t[1], default=(None, 0.0))
+            if best is not None and sc >= 0.5:
+                must_pids.add(best.get("place_id"))
+
+        def _is_must(p):
+            return p.get("place_id") in must_pids
+
+        def _score(p):
+            return p.get("bayesian_score") or 0
+
+        must = [p for p in attractions if _is_must(p)]
+        optional = sorted((p for p in attractions if not _is_must(p)), key=_score, reverse=True)
+        slots = max(0, _ATTRACTION_CAP - len(must))
+        keep, drop = must + optional[:slots], optional[slots:]
+
+        def _fmt(lst):
+            return "、".join(
+                f"{p.get('name_zh', '?')}（{'必經' if _is_must(p) else _score(p)}）" for p in lst
+            ) or "（無）"
+
+        if len(must) > _ATTRACTION_CAP:
+            gate_errors.append(
+                f"景點數 {len(attractions)} 超過上限 {_ATTRACTION_CAP}，且必經景點就有 "
+                f"{len(must)} 個（{_fmt(must)}）→ 全留仍超標，請檢視 index.md "
+                f"must_visit_landmarks 是否過多，或把部分必經降為一般景點"
+            )
+        else:
+            gate_errors.append(
+                f"景點數 {len(attractions)} 超過上限 {_ATTRACTION_CAP}（規則 [C]）→ 請依"
+                f"「必經優先＋Bayesian 最高」精簡至 {_ATTRACTION_CAP} 個。建議保留："
+                f"{_fmt(keep)}；建議移出 places.json（自動降為 better_attractions 備案）：{_fmt(drop)}"
             )
 
     return gate_errors

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJS-8yioWxcTQRY-vhorkDyeY",
+  "name_zh": "巷子內海鮮熱炒｜墾丁美食｜生魚片｜必吃餐廳｜seafood|Kenting restaurant",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 3440,
+  "location": {
+    "lat": 21.945539,
+    "lng": 120.79635549999999
+  },
+  "address": "946屏東縣恆春鎮墾丁路海濱巷9-3號",
+  "primary_type": "seafood_restaurant",
+  "primary_type_label": "海鮮餐廳",
+  "distance_km": 0.08,
+  "source": "api_2026-06-02",
+  "note": "海鮮餐廳",
+  "name_is_ascii": false
+}

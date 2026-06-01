@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJs291VwDhcTQRBaYzY186pNI",
+  "name_zh": "阿融古早味喀吖嗲",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 9,
+  "location": {
+    "lat": 22.4686195,
+    "lng": 120.44724719999999
+  },
+  "address": "928屏東縣東港鎮頂中里中山路118號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.63,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

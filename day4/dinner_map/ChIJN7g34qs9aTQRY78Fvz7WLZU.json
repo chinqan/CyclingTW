@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJN7g34qs9aTQRY78Fvz7WLZU",
+  "name_zh": "智賢生魚片",
+  "name_lang": "zh-TW",
+  "rating": 3.9,
+  "total_ratings": 93,
+  "location": {
+    "lat": 22.466246899999998,
+    "lng": 120.4492297
+  },
+  "address": "928屏東縣東港鎮福德里中正路71號",
+  "primary_type": "seafood_restaurant",
+  "primary_type_label": "海鮮餐廳",
+  "distance_km": 0.36,
+  "source": "api_2026-06-02",
+  "note": "海鮮餐廳",
+  "name_is_ascii": false
+}

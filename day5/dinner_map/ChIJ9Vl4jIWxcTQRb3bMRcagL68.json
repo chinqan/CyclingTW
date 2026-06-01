@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ9Vl4jIWxcTQRb3bMRcagL68",
+  "name_zh": "墾丁蕭記脆皮湯包",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 225,
+  "location": {
+    "lat": 21.9454423,
+    "lng": 120.7975671
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路227號",
+  "primary_type": "dumpling_restaurant",
+  "primary_type_label": "水餃店",
+  "distance_km": 0.06,
+  "source": "api_2026-06-02",
+  "note": "水餃店",
+  "name_is_ascii": false
+}

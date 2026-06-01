@@ -2,12 +2,14 @@
   "place_id": "ChIJXTIi5-k1aDQRmhDM-S0vTxw",
   "name_zh": "新竹17公里海岸風景區",
   "csv_type": "景點",
-  "rating": 4.3,
-  "total_ratings": 3930,
   "location": {
     "lat": 24.8462393,
-    "lng": 120.9258941
+    "lng": 120.92589410000001
   },
-  "source": "search_result_2026-05-20",
-  "note": "緊鄰南寮漁港南側270m，同屬南寮海岸帶，不單獨設停靠點"
+  "search_keyword": "景點",
+  "source": "along_2026-06-02",
+  "rating": 4.3,
+  "total_ratings": 3937,
+  "address": "300新竹市北區海濱里海濱路173號",
+  "primary_type": "scenic_spot"
 }

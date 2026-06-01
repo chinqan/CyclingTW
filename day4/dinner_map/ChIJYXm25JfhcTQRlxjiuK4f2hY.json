@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJYXm25JfhcTQRlxjiuK4f2hY",
+  "name_zh": "波希塔諾",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 1637,
+  "location": {
+    "lat": 22.4659802,
+    "lng": 120.4584944
+  },
+  "address": "928屏東縣東港鎮東津里水源路219號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.05,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

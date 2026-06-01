@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJx_O88ZnhcTQR_wfnjmJV-P8",
+  "name_zh": "麥當勞-東港沿海餐廳－設有得來速",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 2079,
+  "location": {
+    "lat": 22.470671199999998,
+    "lng": 120.46361370000001
+  },
+  "address": "928屏東縣東港鎮新街里沿海路163-1號",
+  "primary_type": "fast_food_restaurant",
+  "primary_type_label": "速食餐廳",
+  "distance_km": 1.75,
+  "source": "api_2026-06-02",
+  "note": "速食餐廳",
+  "name_is_ascii": false
+}

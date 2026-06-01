@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJw2QnowLhcTQRR481BV2nI-I",
+  "name_zh": "向海灣旅宿",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 103,
+  "location": {
+    "lat": 22.4605933,
+    "lng": 120.456583
+  },
+  "address": "928屏東縣東港鎮東津里嘉新一街22號",
+  "primary_type": "guest_house",
+  "distance_km": 0.85,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

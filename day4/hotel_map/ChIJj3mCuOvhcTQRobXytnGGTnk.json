@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJj3mCuOvhcTQRobXytnGGTnk",
+  "name_zh": "景地文旅",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 155,
+  "location": {
+    "lat": 22.4768698,
+    "lng": 120.4442131
+  },
+  "address": "932屏東縣新園鄉鹽埔村鹽洲路79-1號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 1.6,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

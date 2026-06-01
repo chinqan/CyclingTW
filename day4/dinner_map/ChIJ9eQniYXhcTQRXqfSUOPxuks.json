@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ9eQniYXhcTQRXqfSUOPxuks",
+  "name_zh": "王匠黑鮪魚生魚片&日本料理《華僑市228攤》",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 4103,
+  "location": {
+    "lat": 22.4683234,
+    "lng": 120.44331769999998
+  },
+  "address": "928屏東縣新園鄉朝隆路華僑市場228攤",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 0.8,
+  "source": "api_2026-06-02",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

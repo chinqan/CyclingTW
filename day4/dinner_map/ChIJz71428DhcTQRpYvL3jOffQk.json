@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJz71428DhcTQRpYvL3jOffQk",
+  "name_zh": "榕樹下經濟小吃",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 41,
+  "location": {
+    "lat": 22.4674045,
+    "lng": 120.45908949999999
+  },
+  "address": "928屏東縣東港鎮新興三街113號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.17,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

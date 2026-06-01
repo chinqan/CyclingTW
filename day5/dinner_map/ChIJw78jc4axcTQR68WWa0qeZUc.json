@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJw78jc4axcTQR68WWa0qeZUc",
+  "name_zh": "波波窯烤手工披薩（Pizza Swell）",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 822,
+  "location": {
+    "lat": 21.9451197,
+    "lng": 120.7963622
+  },
+  "address": "946屏東縣恆春鎮墾丁里大灣路266號",
+  "primary_type": "pizza_restaurant",
+  "primary_type_label": "披薩餐廳",
+  "distance_km": 0.11,
+  "source": "api_2026-06-02",
+  "note": "披薩餐廳",
+  "name_is_ascii": false
+}

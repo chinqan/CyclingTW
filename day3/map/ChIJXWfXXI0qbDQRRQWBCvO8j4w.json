@@ -2,11 +2,10 @@
   "place_id": "ChIJXWfXXI0qbDQRRQWBCvO8j4w",
   "name_zh": "7-ELEVEN 南鯤鯓門市",
   "csv_type": "便利商店",
-  "search_keyword": "7-ELEVEN 南鯤鯓門市 台南市北門區蚵寮里841-1號",
   "location": {
     "lat": 23.284442,
     "lng": 120.1370712
   },
-  "note": "北門進入區補給 km約95",
-  "source": "google_maps"
+  "search_keyword": "7-ELEVEN 全家便利商店",
+  "source": "along_2026-06-02"
 }

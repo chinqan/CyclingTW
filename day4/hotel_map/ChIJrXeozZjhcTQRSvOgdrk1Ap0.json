@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJrXeozZjhcTQRSvOgdrk1Ap0",
+  "name_zh": "大鵬灣瞭望台民宿 東港民宿 Dapeng Bay B&B",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 325,
+  "location": {
+    "lat": 22.460547299999998,
+    "lng": 120.4567127
+  },
+  "address": "928屏東縣東港鎮東津里嘉新一街16號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 0.87,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

@@ -25,7 +25,7 @@
 
 | 原則 | 說明 |
 |:---|:---|
-| **腳本只打 ORS** | Google Maps 仍由 Claude 透過 MCP 取資料；OpenRouteService 改由腳本 `route` 子命令直接 HTTPS 呼叫（省 token、不分段） |
+| **路線走 Google Routes API** | 路線由腳本 `route` / `route-skeleton` 子命令直接 HTTPS 呼叫 Google Routes API（computeRoutes，省 token、不分段、不經 MCP）。先前用的 OpenRouteService 在台灣單車圖資稀疏、常走產業道路小路，已淘汰 |
 | **本地鏡像 (write-through)** | 線上每次搜尋都要寫回 `dayN/map/`，**有就 upsert 成最新值**。本地會越用越完整，斷網也能分析 |
 | **先 diff 後 put** | 每次寫回前先用 `mirror-diff` 看 rating / 評論數有沒有變，**有變動要顯示給人看**再 upsert |
 | **Bayesian 動態重算** | C（候選池平均）與 m（評論數中位數）皆從當前點位重算，禁止硬編碼 |
@@ -42,13 +42,13 @@
 - Python 3.8+
 - `jinja2` 套件
 - Claude Code 中啟用 `google-maps` MCP server（`mcp__google-maps__maps_search_places`、`mcp__google-maps__maps_place_details`）
-- OpenRouteService API key（[免費註冊](https://openrouteservice.org/dev/#/signup)，2000 req/day），設為 `ORS_API_KEY` 環境變數
+- Google Maps Platform API key，設為 `GOOGLE_PLACES_API_KEY` 環境變數，且在 GCP 專案個別啟用 **Places API (New)** 與 **Routes API**（路線用 Routes API）
 
 ### 安裝
 
 ```bash
 pip install jinja2
-export ORS_API_KEY='your-key-here'   # 建議寫進 ~/.zshrc
+export GOOGLE_PLACES_API_KEY='your-key-here'   # 建議寫進 ~/.zshrc（Places + Routes 共用）
 ```
 
 ### 驗證
@@ -329,7 +329,7 @@ python3 scripts/plan.py mirror-status 2
 
 ### Phase 1：建候選池 + 寫 CSV
 
-> 🆕 **路線優先選點（現行流程）**：先 `route-skeleton N` 讓 ORS 用「起點+必經景點+終點」算出骨架最佳路線，再 `search-along-route N --keyword … --csv-type … [--segments K]` 沿這條真實路線用 Places API (New) searchAlongRoute 找停靠點（依離線繞路距離過濾、印沿路里程），最後依沿路里程挑點寫 `places.json`。詳見 `CLAUDE.md` Phase 1 與 `plan.py` 檔頭。以下 1-1~1-8 為舊版「先憑地理知識挑點」流程，保留作為 fallback / 細節參考（mirror-search、mirror-diff、score-pool、compute、write-csv 等指令仍通用）。
+> 🆕 **路線優先選點（現行流程）**：先 `route-skeleton N` 讓 Google Routes API 用「起點+必經景點+終點」算出骨架最佳路線，再 `search-along-route N --keyword … --csv-type … [--segments K]` 沿這條真實路線用 Places API (New) searchAlongRoute 找停靠點（依離線繞路距離過濾、印沿路里程），最後依沿路里程挑點寫 `places.json`。詳見 `CLAUDE.md` Phase 1 與 `plan.py` 檔頭。以下 1-1~1-8 為舊版「先憑地理知識挑點」流程，保留作為 fallback / 細節參考（mirror-search、mirror-diff、score-pool、compute、write-csv 等指令仍通用）。
 
 #### 1-1. **每次都要先搜 MCP**（即使本地已有資料）
 
@@ -406,6 +406,8 @@ python3 scripts/plan.py score-pool 2
 打開 `_plan/pool_scores.json` 看排名，從 `dayN/map/index.json` 的 `places` 陣列裡，把要列入 CSV 的點按**騎乘順序**抄到 `_plan/places.json`，並補上 `search_keyword` 和 `note`（這兩個是 CSV 專用欄位，本地鏡像沒有）。參考 `day1/_plan/places.json` 當範本。
 
 > 選點考量順序：① 必經景點（index.md 固定）→ ② 順路（距主線距離）→ ③ 時間節奏（補給 / 午餐 / 撤退）→ ④ Bayesian 分數（破平手用）
+>
+> **景點數上限：單日 `csv_type=="景點"` ≤ 5 個**（規則 [C]；便利商店 / 餐廳大休 / 起終點不計）。候選超過時必經景點一律保留，其餘名額給 Bayesian 評分（最受歡迎）最高者；被擠掉的**不要**寫進 `places.json`，`render-md` 自癒的 `compose-better-attractions` 會自動把它降為 `better_attractions` 備案。`render-md` 預檢 gate (F) 會機械擋下超標並列出「建議保留前 N／建議降級」清單（上限在 `render.py` `_ATTRACTION_CAP`，可調整）。
 
 #### 1-7. 套用分數 + 產 CSV
 
@@ -439,13 +441,13 @@ python3 scripts/plan.py review 2
 
 ### Phase 2：GPX
 
-直接呼叫 ORS API 取完整路線（含轉彎軌跡）：
+直接呼叫 Google Routes API（computeRoutes）取完整路線（含轉彎軌跡）：
 
 ```bash
 python3 scripts/plan.py route 2
 ```
 
-需事先 `export ORS_API_KEY='your-key'`。台灣單日路線（≤ 50 個 waypoints）一次 request 就能完整回傳，不再需要分段。
+需事先 `export GOOGLE_PLACES_API_KEY='your-key'`（該 key 須啟用 Routes API）。台灣單日路線（中繼點 ≤ 25）一次 request 就能完整回傳，不需分段。travelMode 預設 `TWO_WHEELER`，可由 `config.json` 的 `travel_mode` 或 `ROUTES_TRAVEL_MODE` 覆寫為 `BICYCLE`。
 
 離線或無 API key 時的備案（純航點直線，無轉彎軌跡）：
 
@@ -513,10 +515,10 @@ python3 scripts/plan.py render-md 2
 
 | 池 | 過濾基準 | 門檻 |
 |:---|:---|:---|
-| 景點（`score-pool`） | 距**目前路線折線**的最短距離 | 折線優先用 **ORS 真實路線幾何**（`route_geometry.json`，簽章對得上現在航點時）→ **> 15km 剔除**（精準）；尚未跑 route／離線／簽章不符時退回**航點直線近似** → **> 30km 剔除**（刻意寬鬆）。≤2km 選點 SOP 仍由 Claude 手選 places.json 管 |
+| 景點（`score-pool`） | 距**目前路線折線**的最短距離 | 折線優先用 **Routes API 真實路線幾何**（`route_geometry.json`，簽章對得上現在航點時）→ **> 15km 剔除**（精準）；尚未跑 route／離線／簽章不符時退回**航點直線近似** → **> 30km 剔除**（刻意寬鬆）。≤2km 選點 SOP 仍由 Claude 手選 places.json 管 |
 | 晚餐 / 住宿（`dinner-pool` / `hotel-pool`） | 距**目前終點** `places.json[-1]` | > 3km（+0.1 寬限）剔除 |
 
-- **真實路線 vs 直線近似**：`route` 會把 ORS 回傳的真實折線存進 `_plan/route_geometry.json`，並記下「產出當時的航點座標」當簽章。`score-pool` 比對現在 `places.json` 航點，相符才用真實折線（換航點後簽章不符 → 自動退回直線近似）。合法備案多為「順遊繞路型」海岸景點，距**實際騎乘路線**本來就有數 km（10 天實測：高美濕地 4.5km、七星潭 5.9km、王功漁港 11.7km，皆刻意保留），故真實折線門檻取 **15km**（需 > 最遠合法備案 11.7km，留約 3km 餘裕），不能更小。真實 vs 直線在此資料差異不大（王功 11.7 vs 12.3、七星潭 5.9 vs 5.9）；真實幾何的價值是 **(a) 距離準確**（路線彎繞時直線會嚴重低估）、**(b) 門檻能從直線的 30km 收緊到 15km**，精準抓 15–30km 區間的他區殘留點。
+- **真實路線 vs 直線近似**：`route` 會把 Routes API 回傳的真實折線存進 `_plan/route_geometry.json`，並記下「產出當時的航點座標」當簽章。`score-pool` 比對現在 `places.json` 航點，相符才用真實折線（換航點後簽章不符 → 自動退回直線近似）。合法備案多為「順遊繞路型」海岸景點，距**實際騎乘路線**本來就有數 km（10 天實測：高美濕地 4.5km、七星潭 5.9km、王功漁港 11.7km，皆刻意保留），故真實折線門檻取 **15km**（需 > 最遠合法備案 11.7km，留約 3km 餘裕），不能更小。真實 vs 直線在此資料差異不大（王功 11.7 vs 12.3、七星潭 5.9 vs 5.9）；真實幾何的價值是 **(a) 距離準確**（路線彎繞時直線會嚴重低估）、**(b) 門檻能從直線的 30km 收緊到 15km**，精準抓 15–30km 區間的他區殘留點。
 - 被剔除者會列在 stderr（標明用「真實路線」或「直線近似」），缺座標或無路線點時不過濾。
 - `compute` 每次都重算 `score-pool`，且 `render-md` 自癒 cascade 在 **route 成功後會再補跑一次 `score-pool`**（route 才剛寫出對應現在航點的真實折線），所以換路線後跑一次 `render-md N` 即在**同一個指令內**用真實路線過濾、排除舊遠點。
 - 想徹底清掉鏡像裡的舊點，仍需手動編 `index.json` + 刪 `<pid>.json`（過濾只影響「算進池子與否」，不動鏡像本身）。
@@ -544,7 +546,7 @@ cat day2/map/index.json | python3 -m json.tool
 # 3. 後續流程完全相同
 python3 scripts/plan.py compute 2
 python3 scripts/plan.py write-csv 2
-python3 scripts/plan.py gpx-waypoints 2    # 無 ORS，用航點 fallback
+python3 scripts/plan.py gpx-waypoints 2    # 無 API key，用航點 fallback
 python3 scripts/plan.py render-prompt 2    # 需要先手寫 poster_vars.json
 python3 scripts/plan.py render-md 2        # 需要先手寫 segments.json
 ```
@@ -633,7 +635,7 @@ python3 scripts/plan.py <subcommand> <day_number> [options]
 對整個 mirror 候選池算 Bayesian，產出 `_plan/pool_scores.json`：
 
 - **候選池** = `mirror.places + mirror.candidates_not_selected` 中所有 `csv_type ∈ {景點, 起終點, 餐廳大休}` 且具備 `rating` / `total_ratings` 的點（依 `place_id` 去重）
-- **路線走廊過濾**：鏡像只增不減，換路線/終點後舊景點仍留在 `candidates_not_selected`。score-pool 會剔除「距目前路線折線過遠」的點（離線殘留），**不刪鏡像**、換路線後自我修正；被剔除者會列在 stderr，缺座標或無路線點時不過濾。折線優先用 **ORS 真實路線幾何**（`route_geometry.json` 簽章對得上現在航點時，門檻 **15km**，精準抓 15–30km 殘留）；尚未跑 route／離線／簽章不符時退回**航點直線近似**（門檻 **30km**，刻意寬鬆，只為抓不同區域殘留點，非 ≤2km 選點 SOP）
+- **路線走廊過濾**：鏡像只增不減，換路線/終點後舊景點仍留在 `candidates_not_selected`。score-pool 會剔除「距目前路線折線過遠」的點（離線殘留），**不刪鏡像**、換路線後自我修正；被剔除者會列在 stderr，缺座標或無路線點時不過濾。折線優先用 **Routes API 真實路線幾何**（`route_geometry.json` 簽章對得上現在航點時，門檻 **15km**，精準抓 15–30km 殘留）；尚未跑 route／離線／簽章不符時退回**航點直線近似**（門檻 **30km**，刻意寬鬆，只為抓不同區域殘留點，非 ≤2km 選點 SOP）
 - **`bayesian_C`** = 候選池內 `rating` 平均
 - **`bayesian_m`** = 候選池內 `total_ratings` 中位數（最低採用 100，避免低樣本失真）
 - 每個點位的 **`bayesian_score`** = `(v/(v+m)) * R + (m/(v+m)) * C`
@@ -712,11 +714,15 @@ python3 scripts/plan.py <subcommand> <day_number> [options]
 
 ### `route N`
 
-從 `places.json` 讀座標，呼叫 OpenRouteService `cycling-regular` API（HTTPS POST，不經 MCP），輸出 `dayN_route.gpx`。回應為 GPX，已自動剝除 `<extensions>` 區塊並在 `<metadata>` 後注入 `<wpt>` 停靠點標記。
+從 `places.json` 讀座標，呼叫 **Google Routes API**（`directions/v2:computeRoutes`，HTTPS POST，不經 MCP），輸出 `dayN_route.gpx`。回應的 `polyline.encodedPolyline` 解碼為軌跡點寫成 `<trkpt>`，並在 `<metadata>` 後注入 `<wpt>` 停靠點標記。改用 Routes API 是因為 OpenRouteService 在台灣的單車圖資稀疏、常把路線帶上產業道路小路。
 
 **需求**：
-- `ORS_API_KEY` 環境變數（[免費註冊](https://openrouteservice.org/dev/#/signup)，2000 req/day）
-- `places.json` 點位數 ≤ 50（ORS cycling-regular 單次上限；台灣單日不會碰到）
+- `GOOGLE_PLACES_API_KEY` 環境變數，且該 key 已在 GCP 專案啟用 **Routes API**（與 Places API 需個別啟用）
+- `places.json` 中繼點 ≤ 25（computeRoutes 預設上限，起終點另計；台灣單日不會碰到）
+
+**travelMode**：預設 `TWO_WHEELER`（機車）——台灣涵蓋最好、走一般道路/省道，最貼近環島長路線的實際騎乘動線，並自動帶 `avoidHighways`/`avoidTolls` 把路線推離單車不能騎的高架快速道路（BICYCLE 在台灣 bicycle 圖資較稀、實測繞路偏多）。可由 `config.json` 的 `travel_mode` 或環境變數 `ROUTES_TRAVEL_MODE` 覆寫為 `BICYCLE`/`DRIVE`。`BICYCLE`/`WALK` 不支援 `routingPreference`/`routeModifiers`，故不帶避讓參數。
+
+**騎乘時間估算**：馬達載具回傳的是機/汽車旅行時間，故 `ors_duration_hours` 一律由距離 ÷ 16 km/h（負重旅行車均速）推算，與 travelMode 無關。`ors_distance_km` / `ors_duration_hours` 鍵名沿用以維持下游相容。
 
 **座標品質檢查**：呼叫 API 前會驗證 bounding box（必在台灣範圍）/ 相鄰距離（≤ 40 km）/ 繞路（直線 ×1.5 內）/ 累積距離（≤ 直線 ×3），失敗即中止避免浪費 API 額度。
 
@@ -732,7 +738,7 @@ python3 scripts/plan.py <subcommand> <day_number> [options]
 
 ### `gpx-waypoints N`
 
-離線或無 `ORS_API_KEY` 時的備案：直接從 `places.json` 座標產出純航點 GPX（含 `<wpt>` + `<trkpt>`，但只是直線連接）。
+離線或無 `GOOGLE_PLACES_API_KEY` 時的備案：直接從 `places.json` 座標產出純航點 GPX（含 `<wpt>` + `<trkpt>`，但只是直線連接）。
 
 **輸入**：`dayN/_plan/places.json`
 **輸出**：`dayN/dayN_route.gpx`
@@ -771,7 +777,7 @@ python3 scripts/plan.py <subcommand> <day_number> [options]
 
 > 💡 **多數情況不需要直接呼叫它**：`render-md N` 已內建同一條 `run_mechanical_cascade` 自癒，改完 `places.json` 直接跑 `render-md N` 即可。`verify-and-fix` 保留為「我就是要強制重生全部、並用 `--force` 無視檢查」的明確入口（兩者共用同一份 cascade 程式碼，不會漂移）。
 
-- 無 `ORS_API_KEY` 自動 fallback `gpx-waypoints`
+- 無 `GOOGLE_PLACES_API_KEY` 自動 fallback `gpx-waypoints`
 - `dinner_map/` 為空時略過 `dinner-pool`；`hotel_map/` 為空時略過 `hotel-pool`；候選不足 3 筆時該 pool 略過不中斷
 - 不會覆蓋既有 `segments.json.better_attractions`（有內容才會 `touch`；空時自動產）
 - 最後 `render-md --force`：cascade 已串完，bypass 自癒檢查
@@ -811,11 +817,11 @@ python3 scripts/plan.py <subcommand> <day_number> [options]
 
 | 場景 | 建議 | 產出 |
 |:---|:---|:---|
-| 標準流程（有 `ORS_API_KEY`） | `route N` | 含轉彎軌跡的完整 GPX |
+| 標準流程（有 `GOOGLE_PLACES_API_KEY`） | `route N` | 含轉彎軌跡的完整 GPX |
 | 離線、無 API key 或趕時間 | `gpx-waypoints N` | 純航點直線連接（2KB） |
 | 手動取得外部 GPX 文字 | `cat foo.gpx \| plan.py gpx-save N` | 原樣存檔 |
 
-> **舊版註記**：先前因 Claude Code MCP envelope ~97KB 截斷限制，需要 `gpx-split-plan` + `gpx-append` × N + `gpx-merge` 三步驟。改成腳本直接呼叫 ORS API 之後，台灣單日路線（≤ 50 waypoints）一次 request 就能完整回傳，全部三個子命令已移除。
+> **舊版註記**：先前因 Claude Code MCP envelope ~97KB 截斷限制，需要 `gpx-split-plan` + `gpx-append` × N + `gpx-merge` 三步驟。改成腳本直接呼叫路線 API 之後，台灣單日路線一次 request 就能完整回傳，全部三個子命令已移除。路線供應商亦從 OpenRouteService（台灣單車圖資稀疏）改為 Google Routes API computeRoutes。
 
 ---
 
@@ -839,22 +845,23 @@ pip install jinja2
 
 `mirror-status` 提示候選池太小。技術上可以繼續，但 SOP 建議至少 2–3 個餐廳備案。請 Claude 再廣搜幾家，把結果 `mirror-put` 寫回本地。
 
-### `[error] 缺少 ORS_API_KEY 環境變數`
+### `[error] 缺少 GOOGLE_PLACES_API_KEY 環境變數`
 
-`route` 需要 OpenRouteService API key：
+`route` / `route-skeleton` 需要 Google Maps Platform API key（且須啟用 Routes API）：
 
 ```bash
-export ORS_API_KEY='your-key-here'   # 建議寫進 ~/.zshrc
+export GOOGLE_PLACES_API_KEY='your-key-here'   # 建議寫進 ~/.zshrc
 ```
 
-若不想申請 key，改用 `gpx-waypoints N` 產純航點 GPX。
+若無法連線或不想用 key，改用 `gpx-waypoints N` 產純航點 GPX。
 
-### `[error] ORS API HTTP 4xx/5xx`
+### `[error] Routes API HTTP 4xx/5xx`
 
 常見原因：
-- `403`：API key 無效或當日 2000 次額度用罄
-- `400 Could not find routable point`：某點座標落在水域 / 不可達道路上，重抓該點 Google Maps 座標
-- `500`：ORS 服務端問題，稍後重試或改用 `gpx-waypoints`
+- `403 / PERMISSION_DENIED`：key 未啟用 Routes API（與 Places API 需個別啟用），或計費未開
+- `400`：某點座標落在水域 / 不可達道路上、或超過中繼點上限（25），重抓該點 Google Maps 座標
+- 回應 `routes` 為空：起終點在該 travelMode 下不可達，改 travelMode 或檢查座標
+- `5xx`：Google 服務端問題，稍後重試或改用 `gpx-waypoints`
 
 ### `[error] places.json 缺少 bayesian_C/m`
 

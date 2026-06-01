@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJlyyLz_ZS_xMR9BfE9orbX5U",
+  "name_zh": "留下旅舍/ The Way Hostel&Bar",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 573,
+  "location": {
+    "lat": 22.4611545,
+    "lng": 120.46070239999999
+  },
+  "address": "928屏東縣東港鎮東津里船頭路24-78號",
+  "primary_type": "hostel",
+  "distance_km": 1.25,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

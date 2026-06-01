@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJF9rXh4WxcTQRQEDmbCtkSzY",
+  "name_zh": "承億文旅-墾丁雅客小半島",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 2581,
+  "location": {
+    "lat": 21.945614799999998,
+    "lng": 120.79712899999998
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路237號",
+  "primary_type": "hotel",
+  "distance_km": 0.02,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

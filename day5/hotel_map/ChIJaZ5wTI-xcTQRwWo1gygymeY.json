@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJaZ5wTI-xcTQRwWo1gygymeY",
+  "name_zh": "墾丁海岸旅店",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 571,
+  "location": {
+    "lat": 21.944335499999998,
+    "lng": 120.79797699999999
+  },
+  "address": "946屏東縣恆春鎮墾丁里大灣路150號",
+  "primary_type": "hotel",
+  "distance_km": 0.19,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

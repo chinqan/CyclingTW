@@ -1,0 +1,25 @@
+{
+  "place_id": "ChIJrTUh7DgbbjQRKQc8yg4lIBw",
+  "name_zh": "鳳儀書院",
+  "csv_type": "景點",
+  "location": {
+    "lat": 22.6277386,
+    "lng": 120.359487
+  },
+  "search_keyword": "古蹟 海岸 公園 景點",
+  "source": "api_2026-06-02",
+  "rating": 4.3,
+  "total_ratings": 8271,
+  "address": "830高雄市鳳山區鳳崗里鳳明街62號",
+  "primary_type": null,
+  "opening_hours_text": [
+    "Monday: Closed",
+    "Tuesday: 10:30 AM – 5:30 PM",
+    "Wednesday: 10:30 AM – 5:30 PM",
+    "Thursday: 10:30 AM – 5:30 PM",
+    "Friday: 10:30 AM – 5:30 PM",
+    "Saturday: 10:30 AM – 6:30 PM",
+    "Sunday: 10:30 AM – 6:30 PM"
+  ],
+  "editorial_summary": "Former Qing Dynasty academy constructed in 1814 is now used to show the Confucian way of life."
+}

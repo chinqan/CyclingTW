@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJAUMoT3LhcTQR2Pe1AABpOl0",
+  "name_zh": "黃記鹽酥雞",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 3,
+  "location": {
+    "lat": 22.4651128,
+    "lng": 120.4503641
+  },
+  "address": "928屏東縣東港鎮福德里光復路三段96號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.28,
+  "source": "api_2026-06-02",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

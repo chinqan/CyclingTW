@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ45xJidSzcTQR5ipVFo4jRYM",
+  "name_zh": "華泰瑞苑",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 2569,
+  "location": {
+    "lat": 21.9562193,
+    "lng": 120.8084934
+  },
+  "address": "946004屏東縣恆春鎮墾丁里公園路101號",
+  "primary_type": "hotel",
+  "distance_km": 1.65,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

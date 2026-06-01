@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ-Yf6dZbhcTQRtZZSal62jIA",
+  "name_zh": "橋太食堂 幸せな料理",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 184,
+  "location": {
+    "lat": 22.474707499999997,
+    "lng": 120.4631265
+  },
+  "address": "928屏东县东港镇内关帝里興中東一街11號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 1.97,
+  "source": "api_2026-06-02",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

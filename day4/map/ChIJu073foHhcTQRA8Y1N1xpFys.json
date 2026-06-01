@@ -1,0 +1,24 @@
+{
+  "place_id": "ChIJu073foHhcTQRA8Y1N1xpFys",
+  "name_zh": "鎮海公園",
+  "csv_type": "景點",
+  "location": {
+    "lat": 22.460918,
+    "lng": 120.44136999999999
+  },
+  "search_keyword": "古蹟 海岸 公園 景點",
+  "source": "api_2026-06-02",
+  "rating": 4.1,
+  "total_ratings": 1911,
+  "address": "928屏東縣東港鎮鎮海路",
+  "primary_type": "park",
+  "opening_hours_text": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ]
+}

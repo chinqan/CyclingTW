@@ -2,15 +2,16 @@
   "place_id": "ChIJo-Z3SJgnbDQRbkeN9Rx3Mis",
   "name_zh": "東石漁人碼頭",
   "csv_type": "景點",
-  "search_keyword": "東石漁人碼頭 嘉義縣東石鄉彩霞大道420號",
-  "rating": 4.2,
-  "total_ratings": 22903,
   "location": {
     "lat": 23.4487536,
     "lng": 120.1352728
   },
-  "note": "約11:30抵達 觀海景區+海鮮市場 km約72",
-  "source": "api_2026-05-22",
+  "search_keyword": "漁港 鹽田 燈塔 老街 景點",
+  "source": "api_2026-06-02",
+  "rating": 4.2,
+  "total_ratings": 22909,
+  "address": "614嘉義縣東石鄉東石村彩霞大道420號",
+  "primary_type": "fishing_pier",
   "opening_hours_text": [
     "Monday: 9:00 AM – 9:00 PM",
     "Tuesday: 9:00 AM – 9:00 PM",

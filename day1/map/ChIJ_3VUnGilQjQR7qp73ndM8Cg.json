@@ -6,19 +6,10 @@
     "lat": 25.1511404,
     "lng": 121.4429224
   },
-  "search_keyword": "景點 觀光",
-  "source": "api_2026-06-01",
+  "search_keyword": "景點",
+  "source": "along_2026-06-02",
   "rating": 4.4,
   "total_ratings": 1424,
   "address": "249新北市八里區",
-  "primary_type": "tourist_attraction",
-  "opening_hours_text": [
-    "Monday: Open 24 hours",
-    "Tuesday: Open 24 hours",
-    "Wednesday: Open 24 hours",
-    "Thursday: Open 24 hours",
-    "Friday: Open 24 hours",
-    "Saturday: Open 24 hours",
-    "Sunday: Open 24 hours"
-  ]
+  "primary_type": "tourist_attraction"
 }

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJhyw4i4nhcTQRymvEvSBrtS4",
+  "name_zh": "秋雄鮮魚小吃",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 1631,
+  "location": {
+    "lat": 22.4748192,
+    "lng": 120.43745419999999
+  },
+  "address": "932屏東縣新園鄉共和村義仁路5號號旁",
+  "primary_type": "seafood_restaurant",
+  "primary_type_label": "海鮮餐廳",
+  "distance_km": 1.74,
+  "source": "api_2026-06-02",
+  "note": "海鮮餐廳",
+  "name_is_ascii": false
+}

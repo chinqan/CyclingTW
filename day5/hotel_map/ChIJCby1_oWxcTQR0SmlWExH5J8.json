@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJCby1_oWxcTQR0SmlWExH5J8",
+  "name_zh": "墾丁星棧888旅店",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 256,
+  "location": {
+    "lat": 21.9459793,
+    "lng": 120.7979115
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路210-16號",
+  "primary_type": "hotel",
+  "distance_km": 0.09,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

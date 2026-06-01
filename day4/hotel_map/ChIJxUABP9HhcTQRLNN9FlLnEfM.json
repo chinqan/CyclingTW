@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJxUABP9HhcTQRLNN9FlLnEfM",
+  "name_zh": "濱灣文旅",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 191,
+  "location": {
+    "lat": 22.459925,
+    "lng": 120.46753109999999
+  },
+  "address": "928009屏东县东港镇船头里大和街33號",
+  "primary_type": "private_guest_room",
+  "distance_km": 1.96,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

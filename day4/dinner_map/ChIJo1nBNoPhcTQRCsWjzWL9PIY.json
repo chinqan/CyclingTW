@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJo1nBNoPhcTQRCsWjzWL9PIY",
+  "name_zh": "東港黑食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 420,
+  "location": {
+    "lat": 22.4623864,
+    "lng": 120.44453720000001
+  },
+  "address": "928屏東縣東港鎮鎮海里鎮海路121號（對面號",
+  "primary_type": "deli",
+  "primary_type_label": "小吃店",
+  "distance_km": 0.44,
+  "source": "api_2026-06-02",
+  "note": "小吃店",
+  "name_is_ascii": false
+}

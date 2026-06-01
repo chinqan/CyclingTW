@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJRZ57X_zhcTQREJgo-SxdKJo",
+  "name_zh": "億萊食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 158,
+  "location": {
+    "lat": 22.4718705,
+    "lng": 120.45938480000001
+  },
+  "address": "928屏東縣東港鎮新街里明德一路288號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.47,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

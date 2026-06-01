@@ -115,17 +115,6 @@
       "note": "白沙屯路段補給"
     },
     {
-      "place_id": "ChIJdd6Dxp8JaTQRU2mMUHih2oI",
-      "name_zh": "7-ELEVEN 苑裡門市",
-      "csv_type": "便利商店",
-      "location": {
-        "lat": 24.4381003,
-        "lng": 120.6495196
-      },
-      "source": "search_2026-05-21",
-      "note": "苑裡路段補給"
-    },
-    {
       "place_id": "ChIJYXjnj2praTQR0Ml-Wz0rkcw",
       "name_zh": "7-ELEVEN 港務門市",
       "csv_type": "便利商店",
@@ -286,52 +275,12 @@
       "source": "api_2026-06-01"
     },
     {
-      "place_id": "ChIJy9UJ6zsIaTQRI9WaOaMCw4Y",
-      "name_zh": "7-ELEVEN 通霄門市",
-      "csv_type": "便利商店",
-      "location": {
-        "lat": 24.4901114,
-        "lng": 120.6821075
-      },
-      "source": "along_2026-06-01"
-    },
-    {
-      "place_id": "ChIJzXI1OjoIaTQRNJzKmvfAFdk",
-      "name_zh": "7-ELEVEN 通宏門市",
-      "csv_type": "便利商店",
-      "location": {
-        "lat": 24.4904841,
-        "lng": 120.67956269999998
-      },
-      "source": "along_2026-06-01"
-    },
-    {
-      "place_id": "ChIJ8aUBNDgIaTQRNWRjLBwbXM0",
-      "name_zh": "7-ELEVEN 通館門市",
-      "csv_type": "便利商店",
-      "location": {
-        "lat": 24.4867791,
-        "lng": 120.67853269999998
-      },
-      "source": "along_2026-06-01"
-    },
-    {
       "place_id": "ChIJHXV2nd0JaTQRQI3lVGuuZ7k",
       "name_zh": "7-ELEVEN 通苑門市",
       "csv_type": "便利商店",
       "location": {
         "lat": 24.4557353,
         "lng": 120.66027539999999
-      },
-      "source": "along_2026-06-01"
-    },
-    {
-      "place_id": "ChIJrcsDgv4RaTQRrisG-41yyuU",
-      "name_zh": "7-ELEVEN 媽祖門市",
-      "csv_type": "便利商店",
-      "location": {
-        "lat": 24.3434675,
-        "lng": 120.62564459999999
       },
       "source": "along_2026-06-01"
     },
@@ -356,32 +305,12 @@
       "source": "along_2026-06-01"
     },
     {
-      "place_id": "ChIJ_0Zx6gISaTQRKB995LwwnWw",
-      "name_zh": "7-ELEVEN 義和門市",
-      "csv_type": "便利商店",
-      "location": {
-        "lat": 24.338822399999998,
-        "lng": 120.61834909999999
-      },
-      "source": "along_2026-06-01"
-    },
-    {
       "place_id": "ChIJ8cDaDIQUaTQRMjVTyyrS2o0",
       "name_zh": "7-ELEVEN 清峰門市",
       "csv_type": "便利商店",
       "location": {
         "lat": 24.268199700000004,
         "lng": 120.5668345
-      },
-      "source": "along_2026-06-01"
-    },
-    {
-      "place_id": "ChIJ4_zl-34TaTQRgaG2xsHM7rs",
-      "name_zh": "7-ELEVEN 新清水門市",
-      "csv_type": "便利商店",
-      "location": {
-        "lat": 24.276218,
-        "lng": 120.57065399999999
       },
       "source": "along_2026-06-01"
     },
@@ -412,26 +341,6 @@
       "location": {
         "lat": 23.996399699999998,
         "lng": 120.47680659999999
-      },
-      "source": "along_2026-06-01"
-    },
-    {
-      "place_id": "ChIJ18oDsrZJaTQRdJYllwiAjdE",
-      "name_zh": "7-Eleven順澤門市",
-      "csv_type": "便利商店",
-      "location": {
-        "lat": 23.9937795,
-        "lng": 120.47634359999999
-      },
-      "source": "along_2026-06-01"
-    },
-    {
-      "place_id": "ChIJqaNSpYxLaTQRPzVlhMMJXBE",
-      "name_zh": "7-ELEVEN 興鳳門市",
-      "csv_type": "便利商店",
-      "location": {
-        "lat": 23.889528499999997,
-        "lng": 120.47428610000001
       },
       "source": "along_2026-06-01"
     },
@@ -562,6 +471,1198 @@
       "location": {
         "lat": 23.799317,
         "lng": 120.45553009999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJC4BBWAdGaTQRIEcUH4Y7s7k",
+      "name_zh": "縣定古蹟鹿港興安宮-天上聖母",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 212,
+      "location": {
+        "lat": 24.0522492,
+        "lng": 120.43573540000001
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJIX_PFv5FaTQRmlDaCUB0DsM",
+      "name_zh": "鹿港龍山寺",
+      "csv_type": "景點",
+      "rating": 4.7,
+      "total_ratings": 10027,
+      "location": {
+        "lat": 24.0503935,
+        "lng": 120.43495290000001
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJZf6NyjwIaTQRoP35OXk6Ptw",
+      "name_zh": "日露戰役望樓紀念碑",
+      "csv_type": "景點",
+      "rating": 4.5,
+      "total_ratings": 456,
+      "location": {
+        "lat": 24.4937339,
+        "lng": 120.68485729999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJe2JW2zwJaTQRAodZxLOUFTs",
+      "name_zh": "房裡古城",
+      "csv_type": "景點",
+      "rating": 4,
+      "total_ratings": 287,
+      "location": {
+        "lat": 24.4345707,
+        "lng": 120.64654329999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJV2KD2TwJaTQRNxvm1cda9nE",
+      "name_zh": "苑裡老街",
+      "csv_type": "景點",
+      "rating": 3.9,
+      "total_ratings": 1292,
+      "location": {
+        "lat": 24.4440298,
+        "lng": 120.6533781
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJedTEwN8IaTQRAeY9klyBMd0",
+      "name_zh": "東里家風百年古厝｜民宿・割稻飯・古裝體驗・古早味大餅",
+      "csv_type": "景點",
+      "rating": 3.8,
+      "total_ratings": 1639,
+      "location": {
+        "lat": 24.4426567,
+        "lng": 120.66797020000001
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJq1oR1jwSaTQRLW-11ZIcRrI",
+      "name_zh": "大甲老街(順天路)",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 581,
+      "location": {
+        "lat": 24.345749599999998,
+        "lng": 120.6233714
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJZcXn1fEUaTQRFWiHLSLWKEk",
+      "name_zh": "清水趙家古厝",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 625,
+      "location": {
+        "lat": 24.28549,
+        "lng": 120.587857
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ1w-B1_xFaTQRaJCIBi1E9QA",
+      "name_zh": "鹿港古蹟區",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 222,
+      "location": {
+        "lat": 24.056619899999998,
+        "lng": 120.43271999999997
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJwZ7qgQdGaTQRyWQddBBzNLk",
+      "name_zh": "鹿港丁家古厝",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 776,
+      "location": {
+        "lat": 24.053496199999998,
+        "lng": 120.4360472
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJG3Zn9Tu0bjQRMlvDwkeIUwY",
+      "name_zh": "縣定古蹟西螺廣福宮 老大媽廟",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 683,
+      "location": {
+        "lat": 23.7971558,
+        "lng": 120.4647035
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ7zzVJONFaTQRir45WRQ1R5k",
+      "name_zh": "鹿港城隍廟",
+      "csv_type": "景點",
+      "rating": 4.5,
+      "total_ratings": 544,
+      "location": {
+        "lat": 24.0582848,
+        "lng": 120.43211359999998
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJnY0I7SdJaTQRF0YcMbmNzMg",
+      "name_zh": "梅鏡堂古蹟",
+      "csv_type": "景點",
+      "rating": 5,
+      "total_ratings": 3,
+      "location": {
+        "lat": 24.0313891,
+        "lng": 120.47684579999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJgzB9Rj60bjQROjans6xJEWg",
+      "name_zh": "延平歷史街區",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 73,
+      "location": {
+        "lat": 23.801282999999998,
+        "lng": 120.46056390000001
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ4XNpes21bjQRImgjhf5yjWs",
+      "name_zh": "西螺延平老街",
+      "csv_type": "景點",
+      "rating": 4.5,
+      "total_ratings": 219,
+      "location": {
+        "lat": 23.8021796,
+        "lng": 120.4632985
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ72NYFz-0bjQRZtI0120Gfww",
+      "name_zh": "金玉成鐘樓",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 15,
+      "location": {
+        "lat": 23.8021575,
+        "lng": 120.4628835
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJy9UJ6zsIaTQRI9WaOaMCw4Y",
+      "name_zh": "7-ELEVEN 通霄門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.4901114,
+        "lng": 120.6821075
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ8aUBNDgIaTQRNWRjLBwbXM0",
+      "name_zh": "7-ELEVEN 通館門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.4867791,
+        "lng": 120.67853269999998
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJzXI1OjoIaTQRNJzKmvfAFdk",
+      "name_zh": "7-ELEVEN 通宏門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.4904841,
+        "lng": 120.67956269999998
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJUwLtjlcOaTQRLaJAXhPNHBU",
+      "name_zh": "7-ELEVEN 日出門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.381028699999998,
+        "lng": 120.6549646
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJEUC8uxMPaTQR6vKXBWbeTuo",
+      "name_zh": "7-ELEVEN 幼勝門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.400717399999998,
+        "lng": 120.643263
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJGzMFWeoOaTQRkdLSUi9oACU",
+      "name_zh": "7-ELEVEN 日南門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.4043527,
+        "lng": 120.6459946
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJCdgKWTMPaTQRTZ4D1cjW4HA",
+      "name_zh": "7-ELEVEN 甲旺門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.383398800000002,
+        "lng": 120.652142
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJdd6Dxp8JaTQRU2mMUHih2oI",
+      "name_zh": "7-ELEVEN 苑裡門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.4381003,
+        "lng": 120.64951959999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJoTR0d_AOaTQR61khkos_DlY",
+      "name_zh": "7-ELEVEN 永在門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.391781299999998,
+        "lng": 120.6544518
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ8wSeVwATaTQRoLFieYV2W84",
+      "name_zh": "7-ELEVEN 大甲蔣公門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.347545399999998,
+        "lng": 120.61864229999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJrcsDgv4RaTQRrisG-41yyuU",
+      "name_zh": "7-ELEVEN 媽祖門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.3434675,
+        "lng": 120.62564459999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ-TWUegARaTQRScwmc0yj1EM",
+      "name_zh": "7-ELEVEN 大甲順天",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.3452852,
+        "lng": 120.622953
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ_0Zx6gISaTQRKB995LwwnWw",
+      "name_zh": "7-ELEVEN 義和門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.338822399999998,
+        "lng": 120.61834909999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ4_zl-34TaTQRgaG2xsHM7rs",
+      "name_zh": "7-ELEVEN 新清水門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.276218,
+        "lng": 120.57065399999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJw39-S50TaTQRQbgvlmPJ9JY",
+      "name_zh": "7-ELEVEN 高美祿門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.2824051,
+        "lng": 120.5750383
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ3ZUC4bsTaTQRN2OgRHGZcAo",
+      "name_zh": "7-ELEVEN 菁埔門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.2964618,
+        "lng": 120.59105240000001
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJc5l7OzdBaTQRau0T6px1M94",
+      "name_zh": "7-ELEVEN 線西門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.1343073,
+        "lng": 120.4634026
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJG5ZlIr9BaTQRVbEJhwkndao",
+      "name_zh": "7-ELEVEN 伸冠門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.1612664,
+        "lng": 120.4871898
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJQ8EGXC5BaTQRX_92BkRBO1g",
+      "name_zh": "7-ELEVEN 禾順門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.1338623,
+        "lng": 120.46284320000001
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJf92eeb9GaTQREc6F5GoMa8U",
+      "name_zh": "7-ELEVEN 鹿慶門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 24.1081555,
+        "lng": 120.45829039999998
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ18oDsrZJaTQRdJYllwiAjdE",
+      "name_zh": "7-Eleven順澤門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.9937795,
+        "lng": 120.47634359999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJqaNSpYxLaTQRPzVlhMMJXBE",
+      "name_zh": "7-ELEVEN 興鳳門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.889528499999997,
+        "lng": 120.47428610000001
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJFZaN2_UJaTQRbklYLVmkt6A",
+      "name_zh": "通霄老李紅燒牛肉麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 377,
+      "location": {
+        "lat": 24.4894363,
+        "lng": 120.67884730000002
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJo07qfDkIaTQRpF_Y30Fv4iE",
+      "name_zh": "李麵店(裡面店)",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 110,
+      "location": {
+        "lat": 24.488955699999998,
+        "lng": 120.6809636
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJQ_zAF18JaTQRys5BLqlNJ7A",
+      "name_zh": "通霄劉家麵線",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 51,
+      "location": {
+        "lat": 24.4888734,
+        "lng": 120.6813001
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ9xkNTQAJaTQRODWprdkY_M8",
+      "name_zh": "允記麵食館（必吃苑裡銅板美食、豬肉餡餅、蘿蔔絲餅、蔥油拌麵、番茄海鮮麵 、早午餐、晚餐首選推薦）",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 114,
+      "location": {
+        "lat": 24.441735100000002,
+        "lng": 120.65554789999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJD8QtdzkIaTQRdNKSZQS_IXs",
+      "name_zh": "通霄正味麵店",
+      "csv_type": "餐廳大休",
+      "rating": 4.3,
+      "total_ratings": 962,
+      "location": {
+        "lat": 24.4883416,
+        "lng": 120.6807955
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJA8YnQZwJaTQRR9-xju2blUY",
+      "name_zh": "苑裡九妹牛肉麵館",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 2301,
+      "location": {
+        "lat": 24.442370399999998,
+        "lng": 120.65418140000001
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJs1oi48UPaTQR4NbpJ0zbUH8",
+      "name_zh": "昇德蔬食麵館",
+      "csv_type": "餐廳大休",
+      "rating": 5,
+      "total_ratings": 17,
+      "location": {
+        "lat": 24.3482345,
+        "lng": 120.6256861
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ4yCAxDwJaTQRI0cgLZDdS7U",
+      "name_zh": "湘亨牛肉麵館",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 134,
+      "location": {
+        "lat": 24.4447706,
+        "lng": 120.65369249999998
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ0waOleoOaTQRLgMuPKSAU5A",
+      "name_zh": "潁川牛肉麵食館",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 129,
+      "location": {
+        "lat": 24.4052792,
+        "lng": 120.6444046
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ656eQyMJaTQRrwEvmpyGhZ4",
+      "name_zh": "阿達仔黃金水餃 苑裡美食",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 649,
+      "location": {
+        "lat": 24.4423356,
+        "lng": 120.65570459999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJlb8OVjARaTQRWb_Q9FcGBBw",
+      "name_zh": "珍之堂麵館",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 79,
+      "location": {
+        "lat": 24.345775,
+        "lng": 120.6242709
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ34EyuOoOaTQR-ESwBVGsGlA",
+      "name_zh": "川味牛肉麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 95,
+      "location": {
+        "lat": 24.4054246,
+        "lng": 120.64376589999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJH5Q-7oURaTQR0fMHvDp3SBM",
+      "name_zh": "順伯粉腸",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 169,
+      "location": {
+        "lat": 24.3451341,
+        "lng": 120.6228325
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJh3PO6moOaTQRBnf6hUC3j_s",
+      "name_zh": "中南牛肉麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 716,
+      "location": {
+        "lat": 24.387686199999997,
+        "lng": 120.65160569999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJD43TywMOaTQRKFUyRJL4P2k",
+      "name_zh": "上讚小吃店（肉圓，米糕，麵）",
+      "csv_type": "餐廳大休",
+      "rating": 4.3,
+      "total_ratings": 108,
+      "location": {
+        "lat": 24.349237700000003,
+        "lng": 120.6270756
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ3djdnnkPaTQRI46izO6lJDQ",
+      "name_zh": "阿櫻麵飯店",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 41,
+      "location": {
+        "lat": 24.3807683,
+        "lng": 120.651725
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJU3vqbAIJaTQRgSPfW_VgWlg",
+      "name_zh": "超美味麵担",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 28,
+      "location": {
+        "lat": 24.443153499999998,
+        "lng": 120.65255710000001
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJTQXNuGOsQjQRUlpk-wN9IJY",
+      "name_zh": "祥旺小吃(櫻花蝦油飯、涼麵、麻醬麵、味噌湯)",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 216,
+      "location": {
+        "lat": 24.3505486,
+        "lng": 120.6239523
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJOTGf4OsPaTQRKzHSQsdlO6Q",
+      "name_zh": "超美味(日南店)",
+      "csv_type": "餐廳大休",
+      "rating": 5,
+      "total_ratings": 60,
+      "location": {
+        "lat": 24.4058724,
+        "lng": 120.6455315
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJm4AR__4RaTQRVKRBnUKi64M",
+      "name_zh": "大甲市場麵店",
+      "csv_type": "餐廳大休",
+      "rating": 4,
+      "total_ratings": 110,
+      "location": {
+        "lat": 24.344329,
+        "lng": 120.623101
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJmdyQQP8RaTQRQNH7EOBrrrs",
+      "name_zh": "大呷麵本家",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 313,
+      "location": {
+        "lat": 24.335255999999998,
+        "lng": 120.61325099999998
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ1UiWX0sRaTQRPU4oluIxMXU",
+      "name_zh": "大香菇美食",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 111,
+      "location": {
+        "lat": 24.3441181,
+        "lng": 120.6262657
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ57wxyaNBaTQRnleK6J7_mpo",
+      "name_zh": "好享麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 19,
+      "location": {
+        "lat": 24.1633225,
+        "lng": 120.48579230000001
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJL-cBAk9AaTQRCyCAGQ6BHJA",
+      "name_zh": "山東麵館-伸港第六家",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 215,
+      "location": {
+        "lat": 24.1761888,
+        "lng": 120.49048200000001
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJmaGdFFJBaTQRGA82LJOZRDg",
+      "name_zh": "正品牛肉麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 90,
+      "location": {
+        "lat": 24.1597457,
+        "lng": 120.48502459999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJiTNHgBYVaTQR4U_bOIV37n8",
+      "name_zh": "小二哥麵館",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 140,
+      "location": {
+        "lat": 24.2700674,
+        "lng": 120.5769372
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJHYfUMABBaTQR6BfEqyvU-H8",
+      "name_zh": "好味道飯麵",
+      "csv_type": "餐廳大休",
+      "rating": 5,
+      "total_ratings": 24,
+      "location": {
+        "lat": 24.1774229,
+        "lng": 120.5001772
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ396vIJsUaTQR81l2l_vwD_k",
+      "name_zh": "浯江御麵館",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 1390,
+      "location": {
+        "lat": 24.2672246,
+        "lng": 120.56135299999998
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJHYSkiJsUaTQRdPxlLb-eHX4",
+      "name_zh": "任家擀麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.3,
+      "total_ratings": 1029,
+      "location": {
+        "lat": 24.270072,
+        "lng": 120.55887599999998
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ16cSXQAVaTQRXJqZi-nK83s",
+      "name_zh": "海豐-魷魚羹麵｜清水平價小吃宵夜",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 73,
+      "location": {
+        "lat": 24.274028,
+        "lng": 120.56604800000001
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJUzsEDN4UaTQRqsL0D8ZdnIs",
+      "name_zh": "惠子麵館",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 43,
+      "location": {
+        "lat": 24.2397086,
+        "lng": 120.5496137
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJndW5854UaTQROARRmQYxH_o",
+      "name_zh": "張鴨子擀麵7/15-8/27店休",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 624,
+      "location": {
+        "lat": 24.270300900000002,
+        "lng": 120.55885229999998
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJgdDvdYETaTQRK4xa18Xi6X0",
+      "name_zh": "傳承擔仔麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 179,
+      "location": {
+        "lat": 24.275024600000002,
+        "lng": 120.57289349999998
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJH4SduTIVaTQRR7pNQJs5scs",
+      "name_zh": "臻味",
+      "csv_type": "餐廳大休",
+      "rating": 4.3,
+      "total_ratings": 89,
+      "location": {
+        "lat": 24.2678011,
+        "lng": 120.5605946
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJfZABkxoVaTQR2xglQ91RE4c",
+      "name_zh": "埔里婆大腸麵線 蚵仔麵線 清水美食～ 在地人推薦 restaurants👍",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 39,
+      "location": {
+        "lat": 24.2670827,
+        "lng": 120.56065810000001
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJA4gpffcVaTQRYTld5lYzmAw",
+      "name_zh": "惠子麵線",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 22,
+      "location": {
+        "lat": 24.2395607,
+        "lng": 120.54938779999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJdbMQ5yFFaTQRxxyntuMhUUI",
+      "name_zh": "老蕭土魠魚麵館（日式豬排便當）",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 2782,
+      "location": {
+        "lat": 24.051002,
+        "lng": 120.43182209999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJW4h-gOFAaTQRM3tHppnTBBk",
+      "name_zh": "有家麵店",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 12,
+      "location": {
+        "lat": 24.1476991,
+        "lng": 120.48448839999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJxxVvlORFaTQRCiG0I1WS5OU",
+      "name_zh": "鹿港圓環頂麵食館",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 2353,
+      "location": {
+        "lat": 24.0594496,
+        "lng": 120.428678
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJx90IdFVFaTQRFoRyiu89iSk",
+      "name_zh": "悟時 麵店",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 337,
+      "location": {
+        "lat": 24.058704499999997,
+        "lng": 120.4312593
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ4Xpz5gdGaTQRny0f1plcN_g",
+      "name_zh": "麗卿陽春麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.4,
+      "total_ratings": 546,
+      "location": {
+        "lat": 24.05579,
+        "lng": 120.43686799999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ9fRCYddHaTQRPWGuGvfIdMU",
+      "name_zh": "趁熱吃涼麵/restaurants/鹿港美食/推薦晚餐/附近美食/吃的/takeout",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 49,
+      "location": {
+        "lat": 24.049512399999998,
+        "lng": 120.44214300000002
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJU9gHB4dFaTQRP_x6w41LFKI",
+      "name_zh": "吳廈門沙茶麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 276,
+      "location": {
+        "lat": 24.0564377,
+        "lng": 120.4301358
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJgZef0ZBHaTQRG8oimbiqQl8",
+      "name_zh": "蕭攤烏龍麵",
+      "csv_type": "餐廳大休",
+      "rating": 5,
+      "total_ratings": 17,
+      "location": {
+        "lat": 24.0555278,
+        "lng": 120.43620769999998
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJl96Gfq9HaTQRcsQjjZzg-Y8",
+      "name_zh": "見一麵（彰化鹿港店）",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 99,
+      "location": {
+        "lat": 24.0551329,
+        "lng": 120.43586429999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJuykeFONFaTQRY7XsgLIGhsc",
+      "name_zh": "山東水餃",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 324,
+      "location": {
+        "lat": 24.0590431,
+        "lng": 120.4317557
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJne8z7jZBaTQRpbkKz4VFIq8",
+      "name_zh": "好品味黑白切",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 30,
+      "location": {
+        "lat": 24.132915999999998,
+        "lng": 120.46247000000001
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ8UUou8BFaTQR5FhdrV1XKHE",
+      "name_zh": "老牌麵店",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 73,
+      "location": {
+        "lat": 24.059958899999998,
+        "lng": 120.428877
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJY1KKFTC1bjQRoADR0BwldgA",
+      "name_zh": "溪州外省麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 1504,
+      "location": {
+        "lat": 23.852261499999997,
+        "lng": 120.49452079999998
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ4Y_UUAVLaTQRlZ-kCHBX_Cc",
+      "name_zh": "YP麵食",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 96,
+      "location": {
+        "lat": 23.894168,
+        "lng": 120.46053719999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ9aEtAP5IaTQRsUE2Fb6hY0w",
+      "name_zh": "阿秀麵店",
+      "csv_type": "餐廳大休",
+      "rating": 4.4,
+      "total_ratings": 872,
+      "location": {
+        "lat": 23.9942225,
+        "lng": 120.47632569999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJh1W0EgBJaTQRLYViLeunzKU",
+      "name_zh": "無名鴨肉麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 14,
+      "location": {
+        "lat": 24.0192087,
+        "lng": 120.47240980000001
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJp6eEXF49aTQR39JMrElNmOo",
+      "name_zh": "樂山丘 飯點麵食-溪湖超人氣美食-滷肉飯、烤肉飯、滷味、燉湯、麻辣系列-對面有專屬停車場🅿️",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 393,
+      "location": {
+        "lat": 23.9674791,
+        "lng": 120.47478840000001
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJBQXaev5IaTQRlpQwWYC7vfI",
+      "name_zh": "埔鹽麵店26號",
+      "csv_type": "餐廳大休",
+      "rating": 4.4,
+      "total_ratings": 25,
+      "location": {
+        "lat": 23.996239,
+        "lng": 120.47675799999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJg3qY-4hLaTQRHLyeBMG0oP4",
+      "name_zh": "碳金嬤排骨酥麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 80,
+      "location": {
+        "lat": 23.8957449,
+        "lng": 120.46099129999998
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ7aJvZW9LaTQRGKbfYsvuXNM",
+      "name_zh": "噗阿麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 6,
+      "location": {
+        "lat": 23.8868334,
+        "lng": 120.46707579999998
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJKd9teBa0bjQRJWKUArWkTSE",
+      "name_zh": "東城北方麵食館",
+      "csv_type": "餐廳大休",
+      "rating": 4.3,
+      "total_ratings": 2135,
+      "location": {
+        "lat": 23.800597699999997,
+        "lng": 120.4565422
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJbU7xHR9LaTQRtJSKhuulZG4",
+      "name_zh": "懷舊小舖",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 341,
+      "location": {
+        "lat": 23.8894691,
+        "lng": 120.4779739
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJrbyFBEBLaTQRYu0v18fj2kw",
+      "name_zh": "埤頭無名羹麵",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 82,
+      "location": {
+        "lat": 23.8910436,
+        "lng": 120.4583778
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJsYvbg6W1bjQRG2uY_M-DM-8",
+      "name_zh": "齊聚食堂",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 90,
+      "location": {
+        "lat": 23.7995082,
+        "lng": 120.45571910000001
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJddl0PzC1bjQRBXgQebuINW0",
+      "name_zh": "阿婆暖心麵攤",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 87,
+      "location": {
+        "lat": 23.852482199999997,
+        "lng": 120.49489600000001
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJHSM78mG1bjQRBnh3MfROnc4",
+      "name_zh": "廟前路口邊麵攤",
+      "csv_type": "餐廳大休",
+      "rating": 5,
+      "total_ratings": 38,
+      "location": {
+        "lat": 23.8010915,
+        "lng": 120.46047240000001
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJKXOozWpLaTQRyViqFzXEGXY",
+      "name_zh": "素食麵店",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 27,
+      "location": {
+        "lat": 23.8923438,
+        "lng": 120.45829959999999
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJy5yywj60bjQRGQgq1roLmgE",
+      "name_zh": "阿照麵攤",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 374,
+      "location": {
+        "lat": 23.801060099999997,
+        "lng": 120.46314599999998
+      },
+      "source": "along_2026-06-01"
+    },
+    {
+      "place_id": "ChIJkwPl47dLaTQRrMtTdg-OqUk",
+      "name_zh": "阿忠麵店",
+      "csv_type": "餐廳大休",
+      "rating": 4.3,
+      "total_ratings": 31,
+      "location": {
+        "lat": 23.892685,
+        "lng": 120.4584956
       },
       "source": "along_2026-06-01"
     }

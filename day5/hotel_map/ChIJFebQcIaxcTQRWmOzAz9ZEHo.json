@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJFebQcIaxcTQRWmOzAz9ZEHo",
+  "name_zh": "瑪瑪魯魯民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 328,
+  "location": {
+    "lat": 21.946871899999998,
+    "lng": 120.798657
+  },
+  "address": "946004屏東縣恆春鎮墾丁里墾丁路和平巷65號之1",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 0.2,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ3Tu2-AbhcTQRZq28z0eYZXA",
+  "name_zh": "東津朝海民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 26,
+  "location": {
+    "lat": 22.465023499999997,
+    "lng": 120.4616456
+  },
+  "address": "928屏東縣東港鎮東津里水源一街40號",
+  "primary_type": "private_guest_room",
+  "distance_km": 1.35,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

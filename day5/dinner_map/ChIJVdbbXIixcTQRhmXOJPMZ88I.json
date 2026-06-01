@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJVdbbXIixcTQRhmXOJPMZ88I",
+  "name_zh": "興南熱炒99",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 949,
+  "location": {
+    "lat": 21.943088799999998,
+    "lng": 120.80180499999997
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路興南巷2號",
+  "primary_type": "indonesian_restaurant",
+  "primary_type_label": "印尼餐廳",
+  "distance_km": 0.57,
+  "source": "api_2026-06-02",
+  "note": "印尼餐廳",
+  "name_is_ascii": false
+}

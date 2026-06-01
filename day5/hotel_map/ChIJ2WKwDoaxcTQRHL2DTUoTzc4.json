@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ2WKwDoaxcTQRHL2DTUoTzc4",
+  "name_zh": "禾森旅店",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 237,
+  "location": {
+    "lat": 21.946112,
+    "lng": 120.798587
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路和平巷31號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 0.16,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

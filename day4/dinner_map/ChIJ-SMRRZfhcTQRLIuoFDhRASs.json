@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ-SMRRZfhcTQRLIuoFDhRASs",
+  "name_zh": "天下書坊の小食堂",
+  "name_lang": "zh",
+  "rating": 4.8,
+  "total_ratings": 30,
+  "location": {
+    "lat": 22.466994900000003,
+    "lng": 120.45390130000001
+  },
+  "address": "928屏東縣東港鎮新勝里新勝街",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.69,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

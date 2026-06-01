@@ -14,7 +14,7 @@
       "note": "餐廳",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJx3xI8XXdcTQRzX4N-DS12KM",
@@ -59,7 +59,7 @@
       "note": "火鍋店",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJyaO_4j7ccTQRIqSfs10f5ok",
@@ -74,7 +74,7 @@
       "note": "餐廳",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJmZGDbBrccTQR4H9wfsfLyq8",
@@ -314,7 +314,7 @@
       "note": "餐廳",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJxSuXN47dcTQRCIRMtjT8ogA",
@@ -434,7 +434,7 @@
       "note": "餐廳",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJvU_JlsHdcTQRNynrgvQrYlQ",
@@ -793,6 +793,1041 @@
       "address": "940屏東縣枋寮鄉枋寮村中興路22-5號",
       "note": "餐廳",
       "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJRd0YOpfhcTQRu2r_lwkTw_A",
+      "name_zh": "佳珍海產餐廳",
+      "rating": 4.3,
+      "total_ratings": 6533,
+      "location": {
+        "lat": 22.4678795,
+        "lng": 120.45379270000001
+      },
+      "address": "928屏東縣東港鎮新勝里光復路二段47號",
+      "note": "海鮮餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ1YU7QwDhcTQR3cewliHeGI8",
+      "name_zh": "萬多利生魚片",
+      "rating": 4.2,
+      "total_ratings": 631,
+      "location": {
+        "lat": 22.4671104,
+        "lng": 120.43888969999999
+      },
+      "address": "928屏東縣東港鎮朝安里新生一路84號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJuT4RhpDhcTQRjLb3j5euqd4",
+      "name_zh": "佳吉碳烤饅頭",
+      "rating": 4.1,
+      "total_ratings": 1811,
+      "location": {
+        "lat": 22.4675871,
+        "lng": 120.45046029999999
+      },
+      "address": "928屏東縣東港鎮新勝里中正路128號",
+      "note": "早餐店",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJx_O88ZnhcTQR_wfnjmJV-P8",
+      "name_zh": "麥當勞-東港沿海餐廳－設有得來速",
+      "rating": 4,
+      "total_ratings": 2079,
+      "location": {
+        "lat": 22.470671199999998,
+        "lng": 120.46361370000001
+      },
+      "address": "928屏東縣東港鎮新街里沿海路163-1號",
+      "note": "速食餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJFyR4j5zhcTQR6YkkG0jajTI",
+      "name_zh": "阿卿姐飯湯",
+      "rating": 4.2,
+      "total_ratings": 1359,
+      "location": {
+        "lat": 22.4599814,
+        "lng": 120.4506972
+      },
+      "address": "928屏東縣東港鎮興漁里興漁街211號",
+      "note": "小吃店",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ2aopfoThcTQRUhtbr3suY38",
+      "name_zh": "葉家肉粿",
+      "rating": 4.2,
+      "total_ratings": 3074,
+      "location": {
+        "lat": 22.464879699999997,
+        "lng": 120.4489325
+      },
+      "address": "928屏東縣東港鎮福德里光復路三段156號",
+      "note": "小吃店",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJoeUwL5_hcTQRZ2EPxICQVp4",
+      "name_zh": "大鵬灣新新海鮮",
+      "rating": 4.4,
+      "total_ratings": 4449,
+      "location": {
+        "lat": 22.4599176,
+        "lng": 120.4562902
+      },
+      "address": "928屏東縣東港鎮嘉蓮里嘉新路101-1號",
+      "note": "海鮮餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ4cfER5rhcTQR8R2_taL5sgU",
+      "name_zh": "阿榮坊風味海鮮",
+      "rating": 4.4,
+      "total_ratings": 3120,
+      "location": {
+        "lat": 22.4689282,
+        "lng": 120.4558227
+      },
+      "address": "928屏東縣東港鎮東光里光復路一段399號",
+      "note": "海鮮餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJhyw4i4nhcTQRymvEvSBrtS4",
+      "name_zh": "秋雄鮮魚小吃",
+      "rating": 4.4,
+      "total_ratings": 1631,
+      "location": {
+        "lat": 22.4748192,
+        "lng": 120.43745419999999
+      },
+      "address": "932屏東縣新園鄉共和村義仁路5號號旁",
+      "note": "海鮮餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJzz5iJ9ThcTQRKCMHMBdjDbs",
+      "name_zh": "好想燒肉 毛孩公園 (東港店)",
+      "rating": 4.9,
+      "total_ratings": 4212,
+      "location": {
+        "lat": 22.4790409,
+        "lng": 120.4454377
+      },
+      "address": "93248屏東縣新園鄉鹽埔村新生路123號",
+      "note": "日式燒肉餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJGVSjQJrhcTQR1zeVnzfIXAY",
+      "name_zh": "林記肉粿",
+      "rating": 4.2,
+      "total_ratings": 2580,
+      "location": {
+        "lat": 22.465209899999998,
+        "lng": 120.45107900000001
+      },
+      "address": "928屏東縣東港鎮福德里光復路三段84號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJOcnkL5fhcTQREqnDygYN0HQ",
+      "name_zh": "東昇餐廳",
+      "rating": 4.1,
+      "total_ratings": 2204,
+      "location": {
+        "lat": 22.4675925,
+        "lng": 120.45304440000001
+      },
+      "address": "928屏東縣東港鎮新勝里光復路二段66號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJYXm25JfhcTQRlxjiuK4f2hY",
+      "name_zh": "波希塔諾",
+      "rating": 4.2,
+      "total_ratings": 1637,
+      "location": {
+        "lat": 22.4659802,
+        "lng": 120.4584944
+      },
+      "address": "928屏東縣東港鎮東津里水源路219號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJDQ2CTJzhcTQRyXIY6vO6qd8",
+      "name_zh": "東港大鵬灣珍珍海鮮",
+      "rating": 4.1,
+      "total_ratings": 1836,
+      "location": {
+        "lat": 22.459999500000002,
+        "lng": 120.4566994
+      },
+      "address": "928屏東縣東港鎮嘉蓮里嘉新路87之1號",
+      "note": "海鮮餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ9eQniYXhcTQRXqfSUOPxuks",
+      "name_zh": "王匠黑鮪魚生魚片&日本料理《華僑市228攤》",
+      "rating": 4.3,
+      "total_ratings": 4103,
+      "location": {
+        "lat": 22.4683234,
+        "lng": 120.44331769999998
+      },
+      "address": "928屏東縣新園鄉朝隆路華僑市場228攤",
+      "note": "日式餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJpRu1fpbhcTQR8c0Z2HCdLjE",
+      "name_zh": "鄭家東港冰燻",
+      "rating": 4.5,
+      "total_ratings": 114,
+      "location": {
+        "lat": 22.4715242,
+        "lng": 120.45630600000001
+      },
+      "address": "928屏東縣東港鎮新街里明德一街22-1號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJWTbKDY_hcTQRqf3RvetynZc",
+      "name_zh": "東港華僑市場魚莊黑鮪魚生魚片、握壽司專賣店（212）",
+      "rating": 4.7,
+      "total_ratings": 3060,
+      "location": {
+        "lat": 22.468249399999998,
+        "lng": 120.44347769999999
+      },
+      "address": "928屏東縣新園鄉朝安里朝隆路39號, 華僑市場攤位212號",
+      "note": "海鮮餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJsfqxiIXhcTQRc7BpSAyKA8k",
+      "name_zh": "東港生魚片 曾鮮黑鮪魚專賣店",
+      "rating": 4.3,
+      "total_ratings": 1700,
+      "location": {
+        "lat": 22.4681087,
+        "lng": 120.4436369
+      },
+      "address": "928屏東縣東港鎮朝安里朝隆路113號華僑市場220,221號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJN7g34qs9aTQRY78Fvz7WLZU",
+      "name_zh": "智賢生魚片",
+      "rating": 3.9,
+      "total_ratings": 93,
+      "location": {
+        "lat": 22.466246899999998,
+        "lng": 120.4492297
+      },
+      "address": "928屏東縣東港鎮福德里中正路71號",
+      "note": "海鮮餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ_Uzt8b3hcTQRuRRkVUAgzlI",
+      "name_zh": "北平孔家小館東港店",
+      "rating": 4,
+      "total_ratings": 1590,
+      "location": {
+        "lat": 22.4697709,
+        "lng": 120.45937239999999
+      },
+      "address": "928屏東縣東港鎮東光里光復路一段297之1號",
+      "note": "中式餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJPe33b_PhcTQRt1xvOeHV0ZU",
+      "name_zh": "樓梯Louti",
+      "rating": 4.5,
+      "total_ratings": 963,
+      "location": {
+        "lat": 22.4693371,
+        "lng": 120.45625280000002
+      },
+      "address": "92849屏東縣東港鎮東光里光復路一段379號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJH-Bx0ZDhcTQRVZp9odH2Qlo",
+      "name_zh": "漁行口食堂 Hî Hâng Kháu Dinner",
+      "rating": 4.9,
+      "total_ratings": 81,
+      "location": {
+        "lat": 22.463533599999998,
+        "lng": 120.4598905
+      },
+      "address": "928屏東縣東港鎮東津里船頭路9號1樓",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJnXVe46jhcTQRBoFhKTOea78",
+      "name_zh": "食光杯 屏東東港店",
+      "rating": 4.9,
+      "total_ratings": 767,
+      "location": {
+        "lat": 22.4745694,
+        "lng": 120.46273219999999
+      },
+      "address": "928屏東縣東港鎮內關帝里沿海路212號內關帝里",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJZ53IoWzhcTQRbXMofCD31cs",
+      "name_zh": "守席シーフード海鮮丼專門店（（三代漁人世家））",
+      "rating": 4.7,
+      "total_ratings": 1680,
+      "location": {
+        "lat": 22.4681101,
+        "lng": 120.44387770000002
+      },
+      "address": "928屏東縣東港鎮朝安里朝隆路39號",
+      "note": "日式餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJIab2jIPhcTQRqWQXg3lwHiE",
+      "name_zh": "老程生魚片（華僑市場編號126、127號/大門口左手第一間）",
+      "rating": 4.9,
+      "total_ratings": 1746,
+      "location": {
+        "lat": 22.468089,
+        "lng": 120.44332000000001
+      },
+      "address": "928屏東縣東港鎮朝隆路126號攤位號東港漁港漁產品直銷中心（華僑市場）",
+      "note": "日式餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJFx_mym7hcTQR8-Udcvk32DE",
+      "name_zh": "鮨澄心 手作壽司、定食",
+      "rating": 4.8,
+      "total_ratings": 168,
+      "location": {
+        "lat": 22.4668137,
+        "lng": 120.4533347
+      },
+      "address": "928屏東縣東港鎮新勝里光復路二段87號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJZ9YAExbhcTQR-GOXpi52G9A",
+      "name_zh": "遇見蔬食館",
+      "rating": 4.6,
+      "total_ratings": 347,
+      "location": {
+        "lat": 22.4659446,
+        "lng": 120.4583809
+      },
+      "address": "928007屏東縣東港鎮東津里水源路221號",
+      "note": "素食餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJfznj8ZnhcTQRAHy5--UZkKU",
+      "name_zh": "ONEPIZZA 灣披薩",
+      "rating": 4.7,
+      "total_ratings": 337,
+      "location": {
+        "lat": 22.4663143,
+        "lng": 120.45317329999999
+      },
+      "address": "928屏東縣東港鎮新勝里光復路二段113號",
+      "note": "義大利餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ8dGB9VrhcTQRAln8YdSwRLc",
+      "name_zh": "甲板上海景餐廳",
+      "rating": 4.9,
+      "total_ratings": 72,
+      "location": {
+        "lat": 22.4709902,
+        "lng": 120.4377976
+      },
+      "address": "932屏東縣新園鄉共和村新興路二段1號3樓",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJDSxxZovhcTQR5HVASQn2090",
+      "name_zh": "大總理飯湯 東港旗艦店 Da Zong Li Seafood Restaurant 東港必吃！東港美食 (生魚片/黃金脆皮豬/開運海鮮飯湯/七角頭魚蛋沙拉/客家花生豆腐/韓國海帶湯/干貝蒸蛋/酥炸旗魚黑輪☆手工花枝丸/滷味/紅茶牛奶 ⚠️禁帶外食⚠️",
+      "rating": 4.8,
+      "total_ratings": 633,
+      "location": {
+        "lat": 22.466025,
+        "lng": 120.45258240000001
+      },
+      "address": "928屏東縣東港鎮新勝里光復路二段100號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ1zn8IX_hcTQRll7L1SHJtrs",
+      "name_zh": "東港土地公的餐酒館（複合式餐廳）",
+      "rating": 4.6,
+      "total_ratings": 545,
+      "location": {
+        "lat": 22.459527899999998,
+        "lng": 120.46108110000002
+      },
+      "address": "928屏東縣東港鎮船頭里大成路136巷51號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ-Yf6dZbhcTQRtZZSal62jIA",
+      "name_zh": "橋太食堂 幸せな料理",
+      "rating": 4.5,
+      "total_ratings": 184,
+      "location": {
+        "lat": 22.474707499999997,
+        "lng": 120.4631265
+      },
+      "address": "928屏东县东港镇内关帝里興中東一街11號",
+      "note": "日式餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJSev8W7vhcTQRyb9RsVtTQeo",
+      "name_zh": "華僑市場 阿源生魚片124、125",
+      "rating": 4.9,
+      "total_ratings": 5456,
+      "location": {
+        "lat": 22.4681778,
+        "lng": 120.44359449999999
+      },
+      "address": "928屏東縣東港鎮朝安里朝隆路39號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJqYlmwHThcTQRAAfL4yW-dS0",
+      "name_zh": "鍋湯匯24h(屏東東港)",
+      "rating": 4.6,
+      "total_ratings": 452,
+      "location": {
+        "lat": 22.4669688,
+        "lng": 120.4534577
+      },
+      "address": "928屏東縣東港鎮鎮光復路二段87號",
+      "note": "火鍋店",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJUaF9CpDhcTQROydI-xHGQ7c",
+      "name_zh": "阿鴻豆漿碳烤饅頭",
+      "rating": 4.1,
+      "total_ratings": 599,
+      "location": {
+        "lat": 22.4674694,
+        "lng": 120.44861990000001
+      },
+      "address": "928屏東縣東港鎮福德里中山路113號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJT9HRVobhcTQRal-tuLkXxmM",
+      "name_zh": "東港阿利海鮮碳烤",
+      "rating": 4.2,
+      "total_ratings": 362,
+      "location": {
+        "lat": 22.467133699999998,
+        "lng": 120.4389846
+      },
+      "address": "928屏東縣新園鄉共和村新生一路",
+      "note": "海鮮餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ5VfcUIThcTQRNln8WBDBhWY",
+      "name_zh": "一敘食事",
+      "rating": 4.6,
+      "total_ratings": 168,
+      "location": {
+        "lat": 22.462688699999998,
+        "lng": 120.45793570000001
+      },
+      "address": "928屏東縣東港鎮東津里船頭路4之36號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJmcnXcwDhcTQRaHGYlq2m8dQ",
+      "name_zh": "深夜美食（魚市場早餐車）",
+      "rating": 5,
+      "total_ratings": 3,
+      "location": {
+        "lat": 22.4679652,
+        "lng": 120.4428068
+      },
+      "address": "928屏東縣新園鄉朝隆路",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJhaGsN4XhcTQRE6-HgyYjOpQ",
+      "name_zh": "尚珍碳烤饅頭",
+      "rating": 4.1,
+      "total_ratings": 71,
+      "location": {
+        "lat": 22.4644442,
+        "lng": 120.4486915
+      },
+      "address": "928屏東縣東港鎮東隆里東隆街61號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJVRzGnnIdbjQRQ3tCjWW-0kw",
+      "name_zh": "東港陣頭飯湯",
+      "rating": 4.8,
+      "total_ratings": 364,
+      "location": {
+        "lat": 22.4645676,
+        "lng": 120.44899509999998
+      },
+      "address": "928屏东县东港镇东隆里光复路三段133號133之2號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJy4SD9W_hcTQRIElcEgDZdQc",
+      "name_zh": "一口生滾粥(東港必吃美食)",
+      "rating": 5,
+      "total_ratings": 15,
+      "location": {
+        "lat": 22.4650258,
+        "lng": 120.4488277
+      },
+      "address": "928屏東縣東港鎮福德里中正路6號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJZd0IwYfhcTQR8_B64EEXg44",
+      "name_zh": "古早味飯湯",
+      "rating": 4.7,
+      "total_ratings": 243,
+      "location": {
+        "lat": 22.462808499999998,
+        "lng": 120.4451736
+      },
+      "address": "92845屏東縣東港鎮盛漁里興漁街27之1號27之2號",
+      "note": "台式餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJRZ57X_zhcTQREJgo-SxdKJo",
+      "name_zh": "億萊食堂",
+      "rating": 4.7,
+      "total_ratings": 158,
+      "location": {
+        "lat": 22.4718705,
+        "lng": 120.45938480000001
+      },
+      "address": "928屏東縣東港鎮新街里明德一路288號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJu6sroZvhcTQRYSkFpcOjbts",
+      "name_zh": "滿漢麵食館",
+      "rating": 4.7,
+      "total_ratings": 35,
+      "location": {
+        "lat": 22.463394599999997,
+        "lng": 120.44920889999999
+      },
+      "address": "928屏東縣東港鎮東隆里共和街74號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ16ogN4XhcTQRfufwSi1ut8g",
+      "name_zh": "烤饅頭",
+      "rating": 4.3,
+      "total_ratings": 44,
+      "location": {
+        "lat": 22.464478399999997,
+        "lng": 120.44870829999999
+      },
+      "address": "928屏東縣東港鎮朝安里博愛街40號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJUWR2hJvhcTQRVWemT2Mdc94",
+      "name_zh": "東港振清蚵仔煎在地小吃",
+      "rating": 4.8,
+      "total_ratings": 38,
+      "location": {
+        "lat": 22.4682422,
+        "lng": 120.4439709
+      },
+      "address": "No, No. 129光復路三段朝安里東港鎮屏東縣928",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJE1d_GwDhcTQRliSUTg7rfn0",
+      "name_zh": "古早味小吃麵店",
+      "rating": 5,
+      "total_ratings": 1,
+      "location": {
+        "lat": 22.4789294,
+        "lng": 120.44023229999999
+      },
+      "address": "932屏東縣新園鄉共和村中正路157號",
+      "note": "中式餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJU1RENQDhcTQRu52bmOPTmgk",
+      "name_zh": "阿皮抓螺記-蔥抓餅｜螺螄粉",
+      "rating": 4.9,
+      "total_ratings": 28,
+      "location": {
+        "lat": 22.4547492,
+        "lng": 120.44770430000001
+      },
+      "address": "928屏東縣東港鎮鎮海里嘉蓮路32之11號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJIUlwfQDhcTQRM60LKPu7gAQ",
+      "name_zh": "鳳姐關東煮",
+      "rating": 5,
+      "total_ratings": 3,
+      "location": {
+        "lat": 22.467367,
+        "lng": 120.45434560000001
+      },
+      "address": "928屏東縣東港鎮",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJs291VwDhcTQRBaYzY186pNI",
+      "name_zh": "阿融古早味喀吖嗲",
+      "rating": 5,
+      "total_ratings": 9,
+      "location": {
+        "lat": 22.4686195,
+        "lng": 120.44724719999999
+      },
+      "address": "928屏東縣東港鎮頂中里中山路118號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJz71428DhcTQRpYvL3jOffQk",
+      "name_zh": "榕樹下經濟小吃",
+      "rating": 4.1,
+      "total_ratings": 41,
+      "location": {
+        "lat": 22.4674045,
+        "lng": 120.45908949999999
+      },
+      "address": "928屏東縣東港鎮新興三街113號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJAUMoT3LhcTQR2Pe1AABpOl0",
+      "name_zh": "黃記鹽酥雞",
+      "rating": 4.7,
+      "total_ratings": 3,
+      "location": {
+        "lat": 22.4651128,
+        "lng": 120.4503641
+      },
+      "address": "928屏東縣東港鎮福德里光復路三段96號",
+      "note": "中式餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ_UQ3143hcTQR0kY8_d_-93E",
+      "name_zh": "印尼小吃",
+      "rating": 4.8,
+      "total_ratings": 5,
+      "location": {
+        "lat": 22.4737916,
+        "lng": 120.44501570000001
+      },
+      "address": "932屏東縣新園鄉鹽埔村新生路",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJk84yWgDhcTQRqFELKYBcwBw",
+      "name_zh": "阿鰻香腸",
+      "rating": 3,
+      "total_ratings": 1,
+      "location": {
+        "lat": 22.465076999999997,
+        "lng": 120.45412599999999
+      },
+      "address": "928屏東縣東港鎮新勝里中山路2-211號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJG57d0I3hcTQR6jPvGbYsfHw",
+      "name_zh": "阿女越南小吃",
+      "rating": 4.4,
+      "total_ratings": 5,
+      "location": {
+        "lat": 22.4739099,
+        "lng": 120.4454364
+      },
+      "address": "932屏東縣新園鄉鹽埔村新生路2-1號",
+      "note": "亞洲風味餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJY9vz65rhcTQRbzPjAtDlAdE",
+      "name_zh": "黃家小吃麵店",
+      "rating": 3.7,
+      "total_ratings": 39,
+      "location": {
+        "lat": 22.465785399999998,
+        "lng": 120.44902239999998
+      },
+      "address": "928屏東縣東港鎮福德里中正路41號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ3UK0YlThcTQRi2Typh0AdmU",
+      "name_zh": "深夜食堂",
+      "rating": 3.5,
+      "total_ratings": 140,
+      "location": {
+        "lat": 22.4692851,
+        "lng": 120.4553253
+      },
+      "address": "928屏東縣東港鎮新街里光復路一段328-1號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJm5M7XQDhcTQRWnL4LZM__Io",
+      "name_zh": "全品食堂",
+      "rating": 5,
+      "total_ratings": 3,
+      "location": {
+        "lat": 22.4710751,
+        "lng": 120.4588792
+      },
+      "address": "928屏東縣東港鎮新街里長春一路127-1號",
+      "note": "中式餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJo1nBNoPhcTQRCsWjzWL9PIY",
+      "name_zh": "東港黑食堂",
+      "rating": 4.4,
+      "total_ratings": 420,
+      "location": {
+        "lat": 22.4623864,
+        "lng": 120.44453720000001
+      },
+      "address": "928屏東縣東港鎮鎮海里鎮海路121號（對面號",
+      "note": "小吃店",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJh19-vZzhcTQRq0lyk31L0Mg",
+      "name_zh": "東港黑媽媽食堂",
+      "rating": 4.3,
+      "total_ratings": 496,
+      "location": {
+        "lat": 22.461179899999998,
+        "lng": 120.4485799
+      },
+      "address": "928屏東縣東港鎮興漁里興漁街144-7號",
+      "note": "台式餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ4VHDQwDhcTQR03I1XTIMBxg",
+      "name_zh": "家莊食堂",
+      "rating": 5,
+      "total_ratings": 2,
+      "location": {
+        "lat": 22.4747757,
+        "lng": 120.4422479
+      },
+      "address": "932屏東縣新園鄉共和村光復路83-1號",
+      "note": "中式餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJgaBK193hcTQR528BF77Z6wY",
+      "name_zh": "東港鱻食堂",
+      "rating": 5,
+      "total_ratings": 7,
+      "location": {
+        "lat": 22.4732597,
+        "lng": 120.4619816
+      },
+      "address": "928屏東縣東港鎮明德一路395號",
+      "note": "台式餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJtVvIlZrhcTQR4cQqVpcYoRQ",
+      "name_zh": "佐佐木【食堂】sasaki canteen",
+      "rating": 4.4,
+      "total_ratings": 54,
+      "location": {
+        "lat": 22.466280299999998,
+        "lng": 120.44900039999999
+      },
+      "address": "928屏東縣東港鎮中興里朝陽街31號",
+      "note": "日式餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ4QZxX8bhcTQRYbC8hJCve-o",
+      "name_zh": "家禾食堂",
+      "rating": 4.8,
+      "total_ratings": 13,
+      "location": {
+        "lat": 22.469925399999997,
+        "lng": 120.45031750000001
+      },
+      "address": "928屏東縣東港鎮頂中里博愛街322號",
+      "note": "速食餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJa2xBLQDhcTQRbDRHWhVxFXQ",
+      "name_zh": "小李食堂",
+      "rating": 5,
+      "total_ratings": 6,
+      "location": {
+        "lat": 22.4680203,
+        "lng": 120.447479
+      },
+      "address": "928屏東縣東港鎮朝安里中山路141號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ-SMRRZfhcTQRLIuoFDhRASs",
+      "name_zh": "天下書坊の小食堂",
+      "rating": 4.8,
+      "total_ratings": 30,
+      "location": {
+        "lat": 22.466994900000003,
+        "lng": 120.45390130000001
+      },
+      "address": "928屏東縣東港鎮新勝里新勝街",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJCeBdG0ThcTQRNVLmRLHjUXo",
+      "name_zh": "之澤食堂-東港店",
+      "rating": 3.8,
+      "total_ratings": 61,
+      "location": {
+        "lat": 22.471588,
+        "lng": 120.4549488
+      },
+      "address": "928屏東縣東港鎮新街里中正路一段83號",
+      "note": "中式餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJMyLGdqvhcTQR_RF8DX7YS_M",
+      "name_zh": "隱食堂",
+      "rating": 4.6,
+      "total_ratings": 18,
+      "location": {
+        "lat": 22.4815614,
+        "lng": 120.4395434
+      },
+      "address": "932屏东县新园乡盐埔村圣心路167號巷 2號",
+      "note": "家庭餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJNfbO0KThcTQRjjMcaqNq7vc",
+      "name_zh": "幸福食堂",
+      "rating": 3.6,
+      "total_ratings": 9,
+      "location": {
+        "lat": 22.4629548,
+        "lng": 120.4671036
+      },
+      "address": "之 十 八 號, No. 26船頭路東港鎮屏東縣928",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     }

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJFyR4j5zhcTQR6YkkG0jajTI",
+  "name_zh": "阿卿姐飯湯",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 1359,
+  "location": {
+    "lat": 22.4599814,
+    "lng": 120.4506972
+  },
+  "address": "928屏東縣東港鎮興漁里興漁街211號",
+  "primary_type": "deli",
+  "primary_type_label": "小吃店",
+  "distance_km": 0.4,
+  "source": "api_2026-06-02",
+  "note": "小吃店",
+  "name_is_ascii": false
+}

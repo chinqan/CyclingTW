@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJnX5VXB3hcTQRdbMiLrBsDPY",
+  "name_zh": "好客輕旅",
+  "name_lang": "zh-TW",
+  "rating": 3.6,
+  "total_ratings": 71,
+  "location": {
+    "lat": 22.468232,
+    "lng": 120.4566937
+  },
+  "address": "928屏東縣東港鎮東光里新興二街41號",
+  "primary_type": "guest_house",
+  "distance_km": 1.0,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

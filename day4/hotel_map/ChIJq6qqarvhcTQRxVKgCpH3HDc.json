@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJq6qqarvhcTQRxVKgCpH3HDc",
+  "name_zh": "東港海風民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 51,
+  "location": {
+    "lat": 22.460815399999998,
+    "lng": 120.4555593
+  },
+  "address": "928屏東縣東港鎮東津里嘉新一街370號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 0.75,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

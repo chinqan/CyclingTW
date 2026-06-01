@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJZ53IoWzhcTQRbXMofCD31cs",
+  "name_zh": "守席シーフード海鮮丼專門店（（三代漁人世家））",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 1680,
+  "location": {
+    "lat": 22.4681101,
+    "lng": 120.44387770000002
+  },
+  "address": "928屏東縣東港鎮朝安里朝隆路39號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 0.75,
+  "source": "api_2026-06-02",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

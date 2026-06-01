@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJAfIMt3ixcTQRDM_rxugUzWw",
+  "name_zh": "阿嬤麵舖",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 189,
+  "location": {
+    "lat": 21.9461266,
+    "lng": 120.7952471
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路308號",
+  "primary_type": "deli",
+  "primary_type_label": "小吃店",
+  "distance_km": 0.19,
+  "source": "api_2026-06-02",
+  "note": "小吃店",
+  "name_is_ascii": false
+}

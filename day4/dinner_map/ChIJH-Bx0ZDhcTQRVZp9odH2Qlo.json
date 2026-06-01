@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJH-Bx0ZDhcTQRVZp9odH2Qlo",
+  "name_zh": "漁行口食堂 Hî Hâng Kháu Dinner",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 81,
+  "location": {
+    "lat": 22.463533599999998,
+    "lng": 120.4598905
+  },
+  "address": "928屏東縣東港鎮東津里船頭路9號1樓",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.15,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

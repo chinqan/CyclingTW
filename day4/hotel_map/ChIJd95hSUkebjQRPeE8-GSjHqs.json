@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJd95hSUkebjQRPeE8-GSjHqs",
+  "name_zh": "幸福浪漫旅(東港)",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 884,
+  "location": {
+    "lat": 22.4771123,
+    "lng": 120.4644335
+  },
+  "address": "928屏東縣東港鎮內關帝里興中東二街70號",
+  "primary_type": "private_guest_room",
+  "distance_km": 2.25,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

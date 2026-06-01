@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJQ4MS25jhcTQRXQt08_49ins",
+  "name_zh": "22號旅店",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 153,
+  "location": {
+    "lat": 22.4613119,
+    "lng": 120.45664459999999
+  },
+  "address": "928屏東縣東港鎮東津里大成路22巷30號22巷22號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 0.84,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

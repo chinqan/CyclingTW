@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ2aopfoThcTQRUhtbr3suY38",
+  "name_zh": "葉家肉粿",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 3074,
+  "location": {
+    "lat": 22.464879699999997,
+    "lng": 120.4489325
+  },
+  "address": "928屏東縣東港鎮福德里光復路三段156號",
+  "primary_type": "deli",
+  "primary_type_label": "小吃店",
+  "distance_km": 0.2,
+  "source": "api_2026-06-02",
+  "note": "小吃店",
+  "name_is_ascii": false
+}

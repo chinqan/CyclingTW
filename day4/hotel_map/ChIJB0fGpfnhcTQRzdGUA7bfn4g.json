@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJB0fGpfnhcTQRzdGUA7bfn4g",
+  "name_zh": "東港民宿 艾睏khùn行旅 租機車",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 305,
+  "location": {
+    "lat": 22.460585599999998,
+    "lng": 120.4565457
+  },
+  "address": "928屏東縣東港鎮東津里嘉新一街28號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.85,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJJ9To1jOxcTQR-QbzLIYUITg",
+  "name_zh": "巴哥廚房早午餐",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 429,
+  "location": {
+    "lat": 21.9455248,
+    "lng": 120.7980096
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路206-1號",
+  "primary_type": "brunch_restaurant",
+  "primary_type_label": "早午餐餐廳",
+  "distance_km": 0.1,
+  "source": "api_2026-06-02",
+  "note": "早午餐餐廳",
+  "name_is_ascii": false
+}

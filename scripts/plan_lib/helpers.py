@@ -219,3 +219,31 @@ def encode_polyline(points: list) -> str:
         out.append(_enc(ilng - prev_lng))
         prev_lat, prev_lng = ilat, ilng
     return "".join(out)
+
+
+def decode_polyline(encoded: str) -> list:
+    """把 Google encoded polyline（precision 5）解回 [[lat, lng], …]。
+
+    供 Routes API computeRoutes 回傳的 polyline.encodedPolyline 還原成折線點。
+    encode_polyline 的反運算，無外部相依。
+    """
+    points: list = []
+    index = lat = lng = 0
+    length = len(encoded)
+    while index < length:
+        for is_lng in (False, True):
+            shift = result = 0
+            while True:
+                b = ord(encoded[index]) - 63
+                index += 1
+                result |= (b & 0x1F) << shift
+                shift += 5
+                if b < 0x20:
+                    break
+            delta = ~(result >> 1) if (result & 1) else (result >> 1)
+            if is_lng:
+                lng += delta
+            else:
+                lat += delta
+        points.append([lat / 1e5, lng / 1e5])
+    return points

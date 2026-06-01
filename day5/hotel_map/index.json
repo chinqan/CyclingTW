@@ -27,7 +27,7 @@
       "address": "946屏東縣恆春鎮鵝鑾里埔頂路191號",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJDZe0zWKycTQRb2gDUiXlTvw",
@@ -69,7 +69,7 @@
       "address": "946屏東縣恆春鎮鵝鑾里鵝鑾路230號",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJc4NXyyyzcTQRcimceJDnmyg",
@@ -181,7 +181,7 @@
       "address": "946屏東縣恆春鎮鵝鑾里砂島路234-1號",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJsWruAmSycTQRuqaz2uZV3FU",
@@ -223,7 +223,7 @@
       "address": "946屏東縣恆春鎮鵝鑾里砂島路218號",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJoQu7rYGycTQRLTGgfVtwEzc",
@@ -265,7 +265,7 @@
       "address": "946屏東縣恆春鎮鵝鑾里埔頂路658號",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJR686RImycTQR-T7pYIJ1h5M",
@@ -292,6 +292,692 @@
       },
       "address": "94644屏東縣恆春鎮鵝鑾里砂島路506號",
       "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJSasblSeycTQRgax-wb8Dbis",
+      "name_zh": "墾丁凱撒大飯店",
+      "rating": 4.3,
+      "total_ratings": 8803,
+      "location": {
+        "lat": 21.942359099999997,
+        "lng": 120.80542519999999
+      },
+      "address": "94644屏東縣恆春鎮墾丁里墾丁路6號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ0akPsbizcTQR2_PceU5S0j0",
+      "name_zh": "墾丁福華渡假飯店",
+      "rating": 4.1,
+      "total_ratings": 9365,
+      "location": {
+        "lat": 21.941653499999997,
+        "lng": 120.80727850000001
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路2號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJtYPNjJCxcTQRcVf2YyPUJIQ",
+      "name_zh": "Chateau Beach Resort 墾丁夏都沙灘酒店",
+      "rating": 4.2,
+      "total_ratings": 6821,
+      "location": {
+        "lat": 21.945904,
+        "lng": 120.79006999999999
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路451號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ55i-lNGwcTQRb6ODoRsxzDY",
+      "name_zh": "墾丁福容大飯店",
+      "rating": 4.3,
+      "total_ratings": 4558,
+      "location": {
+        "lat": 21.936994499999997,
+        "lng": 120.8180465
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里船帆路1000號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ45xJidSzcTQR5ipVFo4jRYM",
+      "name_zh": "華泰瑞苑",
+      "rating": 4.5,
+      "total_ratings": 2569,
+      "location": {
+        "lat": 21.9562193,
+        "lng": 120.8084934
+      },
+      "address": "946004屏東縣恆春鎮墾丁里公園路101號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJQRy5XQCxcTQRS3bOaovXylY",
+      "name_zh": "Hotel dùa Kenting",
+      "rating": 4.5,
+      "total_ratings": 576,
+      "location": {
+        "lat": 21.9431801,
+        "lng": 120.7997713
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路文化巷5號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": true,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ6bMKP4ixcTQRhnCvIxpTDdE",
+      "name_zh": "救國團墾丁青年活動中心",
+      "rating": 4.2,
+      "total_ratings": 1859,
+      "location": {
+        "lat": 21.9410296,
+        "lng": 120.79937379999998
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路17號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJIe99-IWxcTQRODnz6bB3nVM",
+      "name_zh": "福容徠旅 墾丁",
+      "rating": 4.2,
+      "total_ratings": 1377,
+      "location": {
+        "lat": 21.9455584,
+        "lng": 120.797394
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路235號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJJxqeHpuxcTQRhrQrhnIF-sE",
+      "name_zh": "瑪雅之家",
+      "rating": 4.8,
+      "total_ratings": 608,
+      "location": {
+        "lat": 21.9497928,
+        "lng": 120.79047389999998
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路330-6號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJidy9NoWxcTQRFPvXcncEh3k",
+      "name_zh": "墾丁儷庭民宿｜附停車場｜距離大街300公尺｜腳踏車｜親子友善｜車友友善",
+      "rating": 4.8,
+      "total_ratings": 396,
+      "location": {
+        "lat": 21.9479598,
+        "lng": 120.79286069999999
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路330-2號Kenting National Park",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJK5LHUo-xcTQRkw4RjkbNTtQ",
+      "name_zh": "墾丁 My Home 青年旅館背包客棧",
+      "rating": 4.8,
+      "total_ratings": 933,
+      "location": {
+        "lat": 21.944696999999998,
+        "lng": 120.79815099999999
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路通海巷21-2號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJNSBG6KKxcTQRe-BNGBSbNaU",
+      "name_zh": "南方太陽民宿北館Southern Sun Homestay North",
+      "rating": 4.6,
+      "total_ratings": 268,
+      "location": {
+        "lat": 21.9517799,
+        "lng": 120.7800214
+      },
+      "address": "94644屏東縣恆春鎮墾丁路潭仔巷37號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJYYWS6oixcTQRXucCLRh7jS0",
+      "name_zh": "墾丁警光會館",
+      "rating": 4.3,
+      "total_ratings": 615,
+      "location": {
+        "lat": 21.9433974,
+        "lng": 120.7995745
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路文化巷4號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJF9rXh4WxcTQRQEDmbCtkSzY",
+      "name_zh": "承億文旅-墾丁雅客小半島",
+      "rating": 4.5,
+      "total_ratings": 2581,
+      "location": {
+        "lat": 21.945614799999998,
+        "lng": 120.79712899999998
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路237號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJaZ5wTI-xcTQRwWo1gygymeY",
+      "name_zh": "墾丁海岸旅店",
+      "rating": 4.1,
+      "total_ratings": 571,
+      "location": {
+        "lat": 21.944335499999998,
+        "lng": 120.79797699999999
+      },
+      "address": "946屏東縣恆春鎮墾丁里大灣路150號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJBdkAy4ixcTQRyHzf1peQdsc",
+      "name_zh": "Kenting Dawan Homestay 墾丁旅店-大灣館",
+      "rating": 3.6,
+      "total_ratings": 403,
+      "location": {
+        "lat": 21.9435929,
+        "lng": 120.7986584
+      },
+      "address": "946屏東縣恆春鎮墾丁里大灣路108號 號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJy3rOlzuycTQRPHQ7ldnBliM",
+      "name_zh": "墾丁姊妹沙灘別墅4 Sisters Villa -호텔 ホテル Hotel",
+      "rating": 4.5,
+      "total_ratings": 730,
+      "location": {
+        "lat": 21.936873,
+        "lng": 120.81917999999997
+      },
+      "address": "946屏東縣恆春鎮鵝鑾里船帆路988號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJnWBXq4ixcTQRTISZfvWOrW4",
+      "name_zh": "返璞歸真 KO Hostel墾丁背包客棧 Kenting Original｜包棟｜洗澡｜數位遊牧NoMad｜青年旅館Backpacker",
+      "rating": 4.6,
+      "total_ratings": 533,
+      "location": {
+        "lat": 21.9449723,
+        "lng": 120.7980567
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路通海巷195號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJz51jCTCxcTQRSYQkyBzRZtQ",
+      "name_zh": "墾丁海堤112 Kenting Sea Wall 112",
+      "rating": 3.6,
+      "total_ratings": 398,
+      "location": {
+        "lat": 21.943622599999998,
+        "lng": 120.7985483
+      },
+      "address": "94644屏東縣恆春鎮墾丁里大灣路112號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJBRJef4WxcTQR1OgL9VPzudA",
+      "name_zh": "大尖山飯店",
+      "rating": 3,
+      "total_ratings": 717,
+      "location": {
+        "lat": 21.9462617,
+        "lng": 120.79509720000001
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路302號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJfypytYixcTQRuF-jNxEjF84",
+      "name_zh": "金沙灣旅店",
+      "rating": 4.6,
+      "total_ratings": 337,
+      "location": {
+        "lat": 21.943963999999998,
+        "lng": 120.798348
+      },
+      "address": "946屏東縣恆春鎮墾丁里大灣路",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJfzUWWYqxcTQRgQxLHvubs6E",
+      "name_zh": "墾丁南國之夢(原墾丁儷山林會館)",
+      "rating": 4.8,
+      "total_ratings": 838,
+      "location": {
+        "lat": 21.945024399999998,
+        "lng": 120.7992904
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路137號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJAQAAAPCwcTQRUA46813fbJw",
+      "name_zh": "墾丁高山青飯店",
+      "rating": 3.6,
+      "total_ratings": 882,
+      "location": {
+        "lat": 21.945992399999998,
+        "lng": 120.79611930000002
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路271號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ0U-9GACxcTQRXwZH1AGC_jE",
+      "name_zh": "墾丁卿卿文旅 民宿推薦/住宿推薦/恆春半島住宿",
+      "rating": 5,
+      "total_ratings": 554,
+      "location": {
+        "lat": 21.9461567,
+        "lng": 120.795062
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路314號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJqferHIaxcTQRim7rX4ce5JQ",
+      "name_zh": "海逸旅館",
+      "rating": 4.5,
+      "total_ratings": 190,
+      "location": {
+        "lat": 21.945383,
+        "lng": 120.7989274
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路和平巷3號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJCby1_oWxcTQR0SmlWExH5J8",
+      "name_zh": "墾丁星棧888旅店",
+      "rating": 4.2,
+      "total_ratings": 256,
+      "location": {
+        "lat": 21.9459793,
+        "lng": 120.7979115
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路210-16號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJX1ZsZo-xcTQRVqJg7Yji7vk",
+      "name_zh": "澤信旅店",
+      "rating": 4.5,
+      "total_ratings": 123,
+      "location": {
+        "lat": 21.9451169,
+        "lng": 120.7964882
+      },
+      "address": "946屏東縣恆春鎮墾丁里大灣路260號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJzbBuh4-xcTQRCgnZ_wl9odY",
+      "name_zh": "墾丁海的小嶼渡假旅店",
+      "rating": 4.1,
+      "total_ratings": 638,
+      "location": {
+        "lat": 21.948619900000004,
+        "lng": 120.79215889999998
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路330之12號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJVU1SBIaxcTQRhhDyY2PBrZs",
+      "name_zh": "Feliz Hotel Kenting 墾丁九號旅舍",
+      "rating": 4.5,
+      "total_ratings": 103,
+      "location": {
+        "lat": 21.9456415,
+        "lng": 120.79871539999999
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路佛光巷14號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJFebQcIaxcTQRWmOzAz9ZEHo",
+      "name_zh": "瑪瑪魯魯民宿",
+      "rating": 4.8,
+      "total_ratings": 328,
+      "location": {
+        "lat": 21.946871899999998,
+        "lng": 120.798657
+      },
+      "address": "946004屏東縣恆春鎮墾丁里墾丁路和平巷65號之1",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJKyZYh4-xcTQRCaqgh2NUQms",
+      "name_zh": "鹿月旅店",
+      "rating": 4.4,
+      "total_ratings": 113,
+      "location": {
+        "lat": 21.9460338,
+        "lng": 120.7947582
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路324號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJj1OzBIaxcTQRzhDoKdJIFRA",
+      "name_zh": "优閒民宿",
+      "rating": 4.7,
+      "total_ratings": 125,
+      "location": {
+        "lat": 21.945539999999998,
+        "lng": 120.79884949999999
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路和平巷5號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJn2dBI3ixcTQRcfihZkuOtGk",
+      "name_zh": "墾丁-沐·輕旅民宿 ｜墾丁推薦民宿｜墾丁民宿｜包棟求婚｜墾丁住宿｜包棟民宿",
+      "rating": 4.8,
+      "total_ratings": 48,
+      "location": {
+        "lat": 21.9463376,
+        "lng": 120.79895490000001
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路和平巷61之1號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJkeCwZo-xcTQRlWnnF6IgKAE",
+      "name_zh": "墾丁心語大灣沙灘海景villa包棟民宿shin yu homestay",
+      "rating": 4.5,
+      "total_ratings": 114,
+      "location": {
+        "lat": 21.9451106,
+        "lng": 120.7964486
+      },
+      "address": "946屏東縣恆春鎮墾丁里大灣路262-1號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJW_XXUIixcTQRfrmIVKGbbFQ",
+      "name_zh": "清吉明山莊",
+      "rating": 4.2,
+      "total_ratings": 117,
+      "location": {
+        "lat": 21.9425,
+        "lng": 120.8016667
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路興南巷13號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJG-58fOCxcTQRGsE1UbHThnw",
+      "name_zh": "墾丁夏林灣民宿",
+      "rating": 4.3,
+      "total_ratings": 33,
+      "location": {
+        "lat": 21.9501385,
+        "lng": 120.78810709999999
+      },
+      "address": "94644屏東縣恆春鎮墾丁里墾丁路330-68號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ2WKwDoaxcTQRHL2DTUoTzc4",
+      "name_zh": "禾森旅店",
+      "rating": 4.6,
+      "total_ratings": 237,
+      "location": {
+        "lat": 21.946112,
+        "lng": 120.798587
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路和平巷31號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJHe0oI5GxcTQRDC7j9co_WHY",
+      "name_zh": "懇丁四季民宿",
+      "rating": 4.7,
+      "total_ratings": 3,
+      "location": {
+        "lat": 21.9470425,
+        "lng": 120.7993744
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路和平巷77-1號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ_TXZYoixcTQRNjEAR5F1Vco",
+      "name_zh": "墾丁上好旅店",
+      "rating": 4.4,
+      "total_ratings": 418,
+      "location": {
+        "lat": 21.9438688,
+        "lng": 120.8013307
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路64號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJE4eDTbixcTQRcr7caJ5V_6c",
+      "name_zh": "月彎灣渡假旅店",
+      "rating": 4.2,
+      "total_ratings": 101,
+      "location": {
+        "lat": 21.9435555,
+        "lng": 120.79861179999997
+      },
+      "address": "946屏東縣恆春鎮墾丁里大灣路110號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJC0v3ELmxcTQRGUM3LuKoeAw",
+      "name_zh": "好心情背包客棧 -- 平價 經濟 實惠",
+      "rating": 4.3,
+      "total_ratings": 43,
+      "location": {
+        "lat": 21.945935,
+        "lng": 120.7947178
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路324之2號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJzxkESo-xcTQRx6wHR2wbDh4",
+      "name_zh": "艾比莎渡假旅店",
+      "rating": 3.5,
+      "total_ratings": 253,
+      "location": {
+        "lat": 21.944093499999997,
+        "lng": 120.79820780000001
+      },
+      "address": "946屏東縣恆春鎮墾丁里大灣路138號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJgcpDHYaxcTQRrhIoij1Sqo4",
+      "name_zh": "巴士飯店",
+      "rating": 3.9,
+      "total_ratings": 148,
+      "location": {
+        "lat": 21.945950399999997,
+        "lng": 120.7963218
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路261號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJB1Dc2SaxcTQRkpqTJukoUs4",
+      "name_zh": "海都旅店二館",
+      "rating": 3.6,
+      "total_ratings": 101,
+      "location": {
+        "lat": 21.943717,
+        "lng": 120.7985518
+      },
+      "address": "946屏東縣恆春鎮墾丁里大灣路118號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJvb_cn4ixcTQRoBJenju7gKA",
+      "name_zh": "klein blue 克萊因-藍-Rabbit芮比特-昆汀飯店",
+      "rating": 3.5,
+      "total_ratings": 119,
+      "location": {
+        "lat": 21.9448536,
+        "lng": 120.7997003
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路115號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJP7bAEoaxcTQRw5RaHBuDPMM",
+      "name_zh": "馬丁威旅館",
+      "rating": 4.5,
+      "total_ratings": 208,
+      "location": {
+        "lat": 21.946519199999997,
+        "lng": 120.79904099999999
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路和平巷63之1號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ74hHfYixcTQRP06qWj8UGjo",
+      "name_zh": "佳欣旅店",
+      "rating": 3.7,
+      "total_ratings": 42,
+      "location": {
+        "lat": 21.9440368,
+        "lng": 120.80116400000001
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路74號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJt7jiqYixcTQRPh79oWh99Ac",
+      "name_zh": "墾丁166旅舍",
+      "rating": 3.8,
+      "total_ratings": 176,
+      "location": {
+        "lat": 21.945263500000003,
+        "lng": 120.79876879999999
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路166號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJARSDk4ixcTQRrYgnkl-TUzI",
+      "name_zh": "中華電信墾丁會館",
+      "rating": 4.2,
+      "total_ratings": 622,
+      "location": {
+        "lat": 21.9431713,
+        "lng": 120.7993205
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路文化巷2-1號",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     }

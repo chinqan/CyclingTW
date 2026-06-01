@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJjdE170KxcTQRIY-9JWgWwVE",
+  "name_zh": "美國大熱狗",
+  "name_lang": "zh-TW",
+  "rating": 3.8,
+  "total_ratings": 164,
+  "location": {
+    "lat": 21.9452815,
+    "lng": 120.7985248
+  },
+  "address": "946屏東縣恆春鎮墾丁里墾丁路182號",
+  "primary_type": "hot_dog_restaurant",
+  "primary_type_label": "熱狗專賣店",
+  "distance_km": 0.16,
+  "source": "api_2026-06-02",
+  "note": "熱狗專賣店",
+  "name_is_ascii": false
+}
