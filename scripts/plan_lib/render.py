@@ -8,7 +8,8 @@ import sys
 
 from jinja2 import Environment, FileSystemLoader, StrictUndefined
 
-from .helpers import ROOT, TEMPLATES_DIR, day_dir, plan_dir, read_json, write_json, die, info, load_protagonist
+from .helpers import (ROOT, TEMPLATES_DIR, day_dir, plan_dir, read_json, write_json, die, info,
+                      load_protagonist, landmark_covered)
 
 
 def _jenv() -> Environment:
@@ -380,6 +381,22 @@ def _collect_gate_errors(n: int, places: dict, segments: dict) -> list[str]:
             "segments.json 比 places.json 舊（Phase 4 需重做）→ "
             f"請重檢 better_attractions 是否仍符合最新點位順序，再重新存檔 segments.json"
         )
+
+    # (E) 必經景點覆蓋：index.md 的 must_visit_landmarks 必須都對應到 places.json 航點，
+    #     否則 ORS 不會繞經（如七星潭曾被指定必經卻漏選而消失）。無法自動補（需人工加點），
+    #     故列為需人工處理的 gate；區域名／敘述型由 landmark_covered 視為已涵蓋不擋。
+    config_path = plan_dir(n) / "config.json"
+    if config_path.exists():
+        cfg = read_json(config_path)
+        landmarks = cfg.get("must_visit_landmarks", []) or []
+        names = [p.get("name_zh", "") for p in (places.get("places") or [])]
+        context = " ".join(str(cfg.get(k, "")) for k in ("origin", "destination", "main_route_text"))
+        missing = [lm for lm in landmarks if not landmark_covered(lm, names, context)]
+        if missing:
+            gate_errors.append(
+                f"必經景點未進路線（index.md 指定但不在 places.json）：{', '.join(missing)} → "
+                f"請把它們加入 day{n}/_plan/places.json 當航點（ORS 才會繞經）後重跑"
+            )
 
     return gate_errors
 

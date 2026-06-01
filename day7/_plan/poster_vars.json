@@ -2,18 +2,18 @@
   "day": 7,
   "origin_label": "太麻里",
   "destination_label": "玉里",
-  "distance_range": "約 110.9 公里",
+  "distance_range": "約 127.6 公里",
   "subtitle": "花東縱谷田園騎行",
   "orientation": "horizontal_landscape_3_2",
   "lighting": "正午暖陽灑落稻田、金黃稻穗反射溫暖光線",
-  "allowed_elements": "伯朗大道筆直田間公路、兩側金黃稻田平原、中央山脈與海岸山脈夾峙稜線、關山環鎮自行車道、台9線縱谷公路、池上便當鐵道便當文化",
-  "enhancement": "畫面呈現花東縱谷一望無際稻田間獨騎的田園詩意、伯朗大道筆直延伸象徵縱谷開闊自由、兩側山脈夾峙強調縱谷地形的壯麗尺度",
+  "allowed_elements": "",
+  "enhancement": "",
   "main_visual": {
-    "place_id": "ChIJZatyKu4JbzQRyHuSojQ6qQ0",
-    "location_desc": "台東縣池上「伯朗大道」",
-    "scene_elements": "筆直柏油田間小路無盡延伸、兩側飽滿金黃稻田、遠方海岸山脈稜線、正午暖陽灑落、路旁偶有芒果樹樹蔭",
-    "action": "騎在伯朗大道正中央、雙手放開把手張開雙臂、仰頭感受縱谷微風",
-    "expression": "自由、狂喜、被無邊稻田包圍的純粹幸福"
+    "place_id": "ChIJAzKH2hW5bzQRD7rKWL4N5KU",
+    "location_desc": "台東市「鐵花村音樂聚落慢市集」",
+    "scene_elements": "",
+    "action": "",
+    "expression": ""
   },
   "small_avatar": {
     "place_id": "ChIJ-fgsCr7ObzQRGrAOOXKCO4k",
@@ -22,7 +22,7 @@
     "action": "推著單車走下車站階梯準備北上",
     "expression": "清新、精神飽滿、迎接縱谷田園"
   },
-  "composition": "主角在畫面中央偏上、太麻里車站在右上方小分身、玉里車站在畫面右側遠景、沿途點綴關山環鎮自行車道",
+  "composition": "主角在畫面中央偏上、太麻里車站在右上方小分身、玉里車站在畫面右側遠景、沿途點綴知本溫泉、初鹿牧場、關山環鎮自行車道、伯朗大道",
   "geographic_notes": "太麻里車站在畫面左側（西側）、玉里車站在畫面右側（東側）",
   "_last_place_id": "ChIJ677P5HxqbzQR590ArDS8N5E"
 }

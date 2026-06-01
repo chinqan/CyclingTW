@@ -1,0 +1,15 @@
+{
+  "place_id": "ChIJAzKH2hW5bzQRD7rKWL4N5KU",
+  "name_zh": "鐵花村音樂聚落慢市集",
+  "csv_type": "景點",
+  "location": {
+    "lat": 22.7536877,
+    "lng": 121.1457215
+  },
+  "search_keyword": "台東鐵花村",
+  "source": "api_2026-06-01",
+  "rating": 4.5,
+  "total_ratings": 14510,
+  "address": "950臺東縣臺東市文化里新生路135巷26號",
+  "primary_type": "live_music_venue"
+}

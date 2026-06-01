@@ -57,15 +57,21 @@ def _has_rating(p: dict) -> bool:
 
 # 景點走廊半徑（km）：mirror 只增不減，換路線/終點後舊景點仍留在
 # candidates_not_selected，若不過濾會污染 C/m 並出現在 better_attractions 備案。
-# 用「距目前路線折線（places.json 順序點連線）」過濾把離線殘留點排除。
+# 用「距目前路線折線」過濾把離線殘留點排除。折線有兩個來源（見 _route_polyline）：
 #
-# 為何取 30km（刻意寬鬆）：折線是「航點直線」近似，waypoint 稀疏時離實際沿海/
-# 繞行道路可能差 5–15km（實測：王功漁港距 day3 折線 12.3km、七星潭距 day8 折線
-# 5.9km，但兩者都是正路上的合法備案）。此過濾的目的是抓「換終點後來自不同區域的
-# 殘留點」（換城市通常 30km+），不是執行 ≤2km 的選點 SOP（那由 Claude 手選進
-# places.json 管）。寧可偶爾多留一個遠點，也不要誤刪像七星潭這種合法近 route 備案。
-# 高風險的自動選點（dinner/hotel）改用精準的「點對點 3km」終點過濾，不受折線粗糙影響。
-ROUTE_CORRIDOR_KM = 30.0
+#   1. ORS 真實路線幾何（route_geometry.json，簽章對得上現在航點時）→ 用 _REAL。
+#   2. 退回「航點直線」近似（尚未跑 route / 離線 / 簽章不符）→ 用 30km。
+#
+# 為何 _REAL=15km（非更小）：合法備案多為「順遊繞路型」海岸景點，距「實際騎乘路線」
+# 本來就有數 km（10 天實測：高美濕地 4.5km、七星潭 5.9km、王功漁港 11.7km，皆刻意保留
+# 的合法備案）。閾值需高於這群（11.7km）才不誤刪，故取 15km 留約 3km 餘裕。真實幾何相對
+# 直線近似在此資料差異不大（王功 11.7 vs 12.3、七星潭 5.9 vs 5.9），其價值是：(a) 距離
+# 準確（路線彎繞時直線會嚴重低估）、(b) 閾值能從直線的 30km 收緊到 15km，精準抓「換終點後
+# 來自不同區域的殘留點」（通常 15km+），不致放過 15–30km 區間的殘留。
+# 兩者都不是執行 ≤2km 的選點 SOP（那由 Claude 手選進 places.json 管）。高風險的自動選點
+# （dinner/hotel）另用精準「點對點 3km」終點過濾。
+ROUTE_CORRIDOR_KM = 30.0        # 直線近似退回值（刻意寬鬆）
+ROUTE_CORRIDOR_KM_REAL = 15.0   # ORS 真實路線幾何（可調；需 > 最遠合法備案 11.7km）
 
 
 def _point_to_segment_km(plat: float, plng: float,
@@ -86,22 +92,40 @@ def _point_to_segment_km(plat: float, plng: float,
     return math.hypot(px - cx, py - cy)
 
 
-def _route_polyline(n: int) -> list[tuple[float, float]]:
-    """目前 places.json 依騎乘順序、具座標的點，作為路線折線。"""
+def _route_polyline(n: int) -> tuple[list[tuple[float, float]], bool]:
+    """回傳 (折線點, is_real)。
+
+    優先用 route_geometry.json 的 ORS 真實路線折線（其 waypoint_signature 對得上現在
+    places.json 的航點座標時）；否則退回「航點直線連接」近似（is_real=False）。
+    """
     pf = plan_dir(n) / "places.json"
     if not pf.exists():
-        return []
+        return [], False
     try:
         places = read_json(pf).get("places") or []
     except Exception:
-        return []
-    pts = []
+        return [], False
+    waypoints: list[tuple[float, float]] = []
     for p in places:
         loc = p.get("location") or {}
         lat, lng = loc.get("lat"), loc.get("lng")
         if lat is not None and lng is not None:
-            pts.append((lat, lng))
-    return pts
+            waypoints.append((lat, lng))
+
+    # ORS 真實折線：簽章 = 產出當時的航點座標，需與現在 places.json 航點相符才採用
+    gf = plan_dir(n) / "route_geometry.json"
+    if gf.exists():
+        try:
+            geom = read_json(gf)
+            sig = [tuple(x) for x in (geom.get("waypoint_signature") or [])]
+            cur = [(round(lat, 6), round(lng, 6)) for lat, lng in waypoints]
+            pts = [tuple(x) for x in (geom.get("points") or [])]
+            if sig and pts and sig == cur:
+                return pts, True
+        except Exception:
+            pass
+
+    return waypoints, False
 
 
 def _dist_to_route_km(plat: float, plng: float, route: list[tuple[float, float]]) -> float:
@@ -118,10 +142,12 @@ def _filter_to_route_corridor(n: int, rated: list[dict]) -> list[dict]:
 
     路線點 < 1 或無座標時不過濾（保留全部並警示）；候選缺座標也保留。
     """
-    route = _route_polyline(n)
+    route, is_real = _route_polyline(n)
     if not route:
         info("⚠️  places.json 無有效路線點，景點池未依走廊過濾（保留全部候選）")
         return rated
+    threshold = ROUTE_CORRIDOR_KM_REAL if is_real else ROUTE_CORRIDOR_KM
+    route_desc = "真實路線" if is_real else "直線近似"
     kept: list[dict] = []
     dropped: list[tuple[str, float]] = []
     for p in rated:
@@ -131,12 +157,12 @@ def _filter_to_route_corridor(n: int, rated: list[dict]) -> list[dict]:
             kept.append(p)  # 無座標無法判斷，保留
             continue
         d = _dist_to_route_km(lat, lng, route)
-        if d > ROUTE_CORRIDOR_KM:
+        if d > threshold:
             dropped.append((p.get("name_zh", "?"), round(d, 1)))
         else:
             kept.append(p)
     if dropped:
-        info(f"  依距目前路線剔除 {len(dropped)} 筆 > {ROUTE_CORRIDOR_KM:.0f}km 的離線殘留點"
+        info(f"  依距目前{route_desc}剔除 {len(dropped)} 筆 > {threshold:.0f}km 的離線殘留點"
              f"（換路線後遺留，不影響鏡像）：")
         for name, d in dropped[:8]:
             info(f"    - {name}（{d}km）")
@@ -532,11 +558,22 @@ def run_mechanical_cascade(n: int) -> None:
     # 之後再跑 write-csv 才不會讓 csv 變舊
     if os.environ.get("ORS_API_KEY"):
         info("[cascade 2/6] route（ORS API）")
+        route_ok = True
         try:
             cmd_route(q)
         except SystemExit:
+            route_ok = False
             info("    route 失敗，改用 gpx-waypoints")
             cmd_gpx_waypoints(q)
+        # route 成功 → 已寫出對應現在航點的真實路線 geometry。重算候選池走廊過濾
+        # （改用真實路線、精準 5km）。只寫 pool_scores.json，不動 places.json mtime，
+        # 故不影響「gpx ≥ places.json」的 render-md 預檢，不會觸發無窮自癒。
+        if route_ok:
+            info("    └ 套用真實路線走廊過濾（重算 pool_scores）")
+            try:
+                cmd_score_pool(q)
+            except SystemExit:
+                info("    score-pool 重算略過（候選不足）")
     else:
         info("[cascade 2/6] route（無 ORS_API_KEY，fallback gpx-waypoints）")
         cmd_gpx_waypoints(q)

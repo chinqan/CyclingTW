@@ -13,9 +13,12 @@ dinner-search / hotel-search / refresh-details 都在這一條路）。
   - Bayesian 用整池候選：C/m 由 mirror 完整候選池（含未入選備案）算，可在
     編輯 places.json **前**先用 score-pool 看分數做決策（pool_scores.json 是 SoT）
   - 路線/終點相關性過濾（鏡像只增不減，換路線後排除離線殘留點，不刪鏡像）：
-    score-pool 剔除距目前路線折線 >30km 的景點（折線是航點直線近似，刻意寬鬆，
-    只抓不同區域的殘留點）；dinner/hotel-pool 剔除距目前終點
-    >3km 的餐廳/飯店。compute 每次都重算 score-pool，換路線後 render-md 自癒即自動套用
+    score-pool 剔除距目前路線折線過遠的景點。折線優先用 ORS 真實路線幾何
+    （route 會把它存進 _plan/route_geometry.json，簽章對得上現在航點時 → 走廊 15km，
+    精準抓 15-30km 殘留）；尚未跑 route/離線/簽章不符時退回航點直線近似（走廊 30km，寬鬆）。
+    dinner/hotel-pool 剔除距目前終點 >3km 的餐廳/飯店。compute 每次都重算 score-pool；
+    render-md 自癒 cascade 在 route 成功後會再補跑一次 score-pool，使備案表一個指令內
+    就套用真實路線過濾
   - 不變式驗證：CSV 終點 = index.md 目的地
 
 子命令：
@@ -60,6 +63,7 @@ dinner-search / hotel-search / refresh-details 都在這一條路）。
   ├── _plan/
   │   ├── config.json        ← parse-index 產出（起終點/距離/必經景點）
   │   ├── pool_scores.json   ← score-pool 產出（整池 Bayesian，C/m/score by pid）
+  │   ├── route_geometry.json ← route 產出（ORS 真實路線折線 + 航點簽章，供走廊過濾）
   │   ├── places.json        ← Claude 決定的最終點位順序與 Bayesian 結果
   │   ├── segments.json      ← Claude 寫的段落敘述/魚骨圖/注意事項
   │   └── poster_vars.json   ← Claude 決定的海報主視覺與 5 變數

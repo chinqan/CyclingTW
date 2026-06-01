@@ -2,7 +2,7 @@
   "day": 7,
   "route_name": "花東縱谷田園騎行",
   "total_ascent_desc": "花東縱谷地勢平緩，台9線沿卑南溪→秀姑巒溪谷北行，偶有緩坡，總爬升約 350m",
-  "main_route_desc": "太麻里車站 ➔ 台9線北上 ➔ 鹿野 ➔ 關山環鎮自行車道 ➔ 池上（伯朗大道）➔ 悟饕池上飯包 ➔ 玉里車站",
+  "main_route_desc": "太麻里車站 ➔ 知本溫泉 ➔ 台東市（鐵花村）➔ 初鹿牧場 ➔ 台9線北上 ➔ 鹿野 ➔ 關山環鎮自行車道 ➔ 池上（伯朗大道）➔ 悟饕池上飯包 ➔ 玉里車站",
   "places": [
     {
       "place_id": "ChIJ-fgsCr7ObzQRGrAOOXKCO4k",
@@ -17,6 +17,48 @@
         "lng": 121.00501509999998
       },
       "bayesian_score": 4.31
+    },
+    {
+      "place_id": "ChIJ7yDuP97JbzQRr_mzjOYs7tc",
+      "name_zh": "知本溫泉",
+      "search_keyword": "知本溫泉 台東縣卑南鄉",
+      "csv_type": "景點",
+      "note": "台東知名溫泉區（index.md 必經）km約12",
+      "rating": 4.2,
+      "total_ratings": 1456,
+      "location": {
+        "lat": 22.6930439,
+        "lng": 121.01812399999999
+      },
+      "bayesian_score": 4.29
+    },
+    {
+      "place_id": "ChIJAzKH2hW5bzQRD7rKWL4N5KU",
+      "name_zh": "鐵花村音樂聚落慢市集",
+      "search_keyword": "鐵花村 台東市新生路135巷26號",
+      "csv_type": "景點",
+      "note": "台東市音樂藝文聚落 慢市集（index.md 必經）km約24",
+      "rating": 4.5,
+      "total_ratings": 14510,
+      "location": {
+        "lat": 22.7536877,
+        "lng": 121.1457215
+      },
+      "bayesian_score": 4.42
+    },
+    {
+      "place_id": "ChIJ7-6P6Mu7bzQRGE-lgZwkypU",
+      "name_zh": "初鹿牧場",
+      "search_keyword": "初鹿牧場 台東縣卑南鄉牧場1號",
+      "csv_type": "景點",
+      "note": "高山牧場 台9線旁（index.md 必經）km約42",
+      "rating": 4.2,
+      "total_ratings": 9256,
+      "location": {
+        "lat": 22.865761799999998,
+        "lng": 121.1084195
+      },
+      "bayesian_score": 4.25
     },
     {
       "place_id": "ChIJ95Cw8FekbzQRO2aiAlrXi0o",
@@ -44,7 +86,7 @@
         "lat": 23.0420572,
         "lng": 121.1708451
       },
-      "bayesian_score": 4.35
+      "bayesian_score": 4.33
     },
     {
       "place_id": "ChIJ2TeHU_AJbzQRm7ePv5bKAMI",
@@ -72,7 +114,7 @@
         "lat": 23.0988065,
         "lng": 121.2130022
       },
-      "bayesian_score": 4.36
+      "bayesian_score": 4.35
     },
     {
       "place_id": "ChIJuYubE4sMbzQR6F0sgiCsdSo",
@@ -86,7 +128,7 @@
         "lat": 23.1242563,
         "lng": 121.2209041
       },
-      "bayesian_score": 4.0
+      "bayesian_score": 4.04
     },
     {
       "place_id": "ChIJmdUKymMMbzQRMKY64QAzCgo",
@@ -114,13 +156,13 @@
         "lat": 23.331519999999998,
         "lng": 121.31172
       },
-      "bayesian_score": 4.28
+      "bayesian_score": 4.29
     }
   ],
   "bayesian_C": 4.3,
-  "bayesian_m": 5642,
-  "ors_distance_km": 110.9,
-  "ors_duration_hours": 6.2,
+  "bayesian_m": 9256,
+  "ors_distance_km": 127.6,
+  "ors_duration_hours": 7.2,
   "elevation_ascent_m": 750,
   "elevation_descent_m": 668
 }

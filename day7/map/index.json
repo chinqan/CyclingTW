@@ -106,6 +106,42 @@
       },
       "source": "search_2026-07",
       "note": "熱氣球嘉年華 飛行傘 偏離台9線約5km"
+    },
+    {
+      "place_id": "ChIJAzKH2hW5bzQRD7rKWL4N5KU",
+      "name_zh": "鐵花村音樂聚落慢市集",
+      "csv_type": "景點",
+      "rating": 4.5,
+      "total_ratings": 14510,
+      "location": {
+        "lat": 22.7536877,
+        "lng": 121.1457215
+      },
+      "source": "api_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ7-6P6Mu7bzQRGE-lgZwkypU",
+      "name_zh": "初鹿牧場",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 9256,
+      "location": {
+        "lat": 22.865761799999998,
+        "lng": 121.1084195
+      },
+      "source": "api_2026-06-01"
+    },
+    {
+      "place_id": "ChIJ7yDuP97JbzQRr_mzjOYs7tc",
+      "name_zh": "知本溫泉",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 1456,
+      "location": {
+        "lat": 22.6930439,
+        "lng": 121.01812399999999
+      },
+      "source": "api_2026-06-01"
     }
   ]
 }

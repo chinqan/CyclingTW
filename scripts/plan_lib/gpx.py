@@ -12,7 +12,8 @@ import sys
 import urllib.error
 import urllib.request
 
-from .helpers import ROOT, day_dir, plan_dir, read_json, die, info, haversine_km
+from .helpers import (ROOT, day_dir, plan_dir, read_json, die, info, haversine_km,
+                      write_json, is_note_landmark, landmark_matches_name)
 
 
 # ── OpenRouteService API ──
@@ -22,8 +23,13 @@ TAIWAN_BOUNDS = {"lat_min": 21.8, "lat_max": 25.4, "lng_min": 119.2, "lng_max": 
 MAX_ADJACENT_KM = 40  # 分段檢查上限
 
 
-def _validate_coords(places: list) -> None:
-    """檢查座標品質：bounding box / 相鄰距離 / 繞路 / 累積距離。"""
+def _validate_coords(places: list, exempt_detour_names: set | None = None) -> None:
+    """檢查座標品質：bounding box / 相鄰距離 / 繞路 / 累積距離。
+
+    exempt_detour_names：必經景點對應的航點名集合，這些點的「繞路」是刻意安排
+    （如七星潭往北越過終點再折回），不應被當成座標錯誤，故略過繞路檢查。
+    """
+    exempt_detour_names = exempt_detour_names or set()
     coords = [(p["location"]["lng"], p["location"]["lat"], p["name_zh"]) for p in places]
     errors = []
 
@@ -46,7 +52,9 @@ def _validate_coords(places: list) -> None:
         lng_next, lat_next, _ = coords[i + 1]
         
         # PATCH (CyclingTW): 國聖燈塔等極地/燈塔為本專案的核心目標，地理位置自然凸出，略過繞路檢查以防誤判。
-        if any(kw in name_cur for kw in ["燈塔", "極西", "極東", "極南", "極北"]):
+        # 必經景點（index.md）的繞路是刻意安排（如七星潭往北越過終點再折回），同樣略過。
+        if name_cur in exempt_detour_names or any(
+                kw in name_cur for kw in ["燈塔", "極西", "極東", "極南", "極北"]):
             continue
             
         direct = haversine_km(lat_prev, lng_prev, lat_next, lng_next)
@@ -150,7 +158,12 @@ def cmd_route(args):
     if len(places) < 2:
         die("places.json 至少需要 2 個點位")
 
-    _validate_coords(places)
+    # 必經景點（index.md）對應的航點：其刻意繞路不應觸發座標品質硬擋
+    _cfg = plan_dir(n) / "config.json"
+    _landmarks = read_json(_cfg).get("must_visit_landmarks", []) if _cfg.exists() else []
+    _exempt = {p["name_zh"] for p in places for lm in _landmarks
+               if not is_note_landmark(lm) and landmark_matches_name(lm, p["name_zh"])}
+    _validate_coords(places, _exempt)
 
     if len(places) > ORS_MAX_WAYPOINTS:
         die(f"ORS cycling-regular 單次最多 {ORS_MAX_WAYPOINTS} waypoints，目前 {len(places)} 個")
@@ -234,6 +247,19 @@ def cmd_route(args):
     rtept_count = len(re.findall(r"<rtept", gpx))
     trkpt_count = len(re.findall(r"<trkpt", gpx))
     info(f"已寫入 {out.relative_to(ROOT)}（{len(gpx)} bytes, {rtept_count} rtept, {trkpt_count} trkpt）")
+
+    # 把 ORS 真實路線折線存成可重用檔，供 score-pool 走廊過濾用（取代航點直線近似）。
+    # waypoint_signature = 本次送 ORS 的航點座標；score-pool 比對現在 places.json 航點，
+    # 相符才採用真實折線（換航點後簽章不符 → 自動退回直線近似），慣例同 dinner/hotel 的
+    # source_endpoint_place_id。注入的停靠點是 <wpt>（非 <rtept>），regex 不會誤抓。
+    rtepts = re.findall(r'<rtept lat="(-?[\d.]+)" lon="(-?[\d.]+)"', gpx)
+    geom = {
+        "waypoint_signature": [[round(p["location"]["lat"], 6), round(p["location"]["lng"], 6)]
+                               for p in places],
+        "points": [[float(lat), float(lng)] for lat, lng in rtepts],
+    }
+    write_json(plan_dir(n) / "route_geometry.json", geom)
+    info(f"已寫入 route_geometry.json（{len(geom['points'])} 個真實路線點）")
 
     # 自動把實際距離回寫 index.md
     from .index_parser import cmd_update_index

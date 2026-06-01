@@ -1,8 +1,8 @@
 {
   "day": 7,
   "bayesian_C": 4.3,
-  "bayesian_m": 5642,
-  "pool_size": 6,
+  "bayesian_m": 9256,
+  "pool_size": 9,
   "scores": {
     "ChIJ-fgsCr7ObzQRGrAOOXKCO4k": {
       "name_zh": "太麻里車站",
@@ -16,35 +16,56 @@
       "csv_type": "景點",
       "rating": 4.5,
       "total_ratings": 1679,
-      "bayesian_score": 4.35
+      "bayesian_score": 4.33
     },
     "ChIJZatyKu4JbzQRyHuSojQ6qQ0": {
       "name_zh": "伯朗大道",
       "csv_type": "景點",
       "rating": 4.4,
       "total_ratings": 9606,
-      "bayesian_score": 4.36
+      "bayesian_score": 4.35
     },
     "ChIJ677P5HxqbzQR590ArDS8N5E": {
       "name_zh": "玉里車站",
       "csv_type": "起終點",
       "rating": 4.1,
       "total_ratings": 682,
-      "bayesian_score": 4.28
+      "bayesian_score": 4.29
     },
     "ChIJuYubE4sMbzQR6F0sgiCsdSo": {
       "name_zh": "悟饕池上飯包文化故事館",
       "csv_type": "餐廳大休",
       "rating": 3.9,
-      "total_ratings": 17104,
-      "bayesian_score": 4.0
+      "total_ratings": 17106,
+      "bayesian_score": 4.04
     },
     "ChIJAQAAADSkbzQR2E5XyomxUJo": {
       "name_zh": "鹿野高台",
       "csv_type": "景點",
       "rating": 4.5,
       "total_ratings": 26931,
-      "bayesian_score": 4.47
+      "bayesian_score": 4.45
+    },
+    "ChIJAzKH2hW5bzQRD7rKWL4N5KU": {
+      "name_zh": "鐵花村音樂聚落慢市集",
+      "csv_type": "景點",
+      "rating": 4.5,
+      "total_ratings": 14510,
+      "bayesian_score": 4.42
+    },
+    "ChIJ7-6P6Mu7bzQRGE-lgZwkypU": {
+      "name_zh": "初鹿牧場",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 9256,
+      "bayesian_score": 4.25
+    },
+    "ChIJ7yDuP97JbzQRr_mzjOYs7tc": {
+      "name_zh": "知本溫泉",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 1456,
+      "bayesian_score": 4.29
     }
   }
 }

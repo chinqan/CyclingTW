@@ -511,11 +511,12 @@ python3 scripts/plan.py render-md 2
 
 | 池 | 過濾基準 | 門檻 |
 |:---|:---|:---|
-| 景點（`score-pool`） | 距**目前 `places.json` 路線折線**（順序點連線）的最短距離 | > 30km 剔除（折線是航點直線近似，刻意寬鬆，只抓不同區域殘留點；≤2km 選點 SOP 由 Claude 手選 places.json 管） |
+| 景點（`score-pool`） | 距**目前路線折線**的最短距離 | 折線優先用 **ORS 真實路線幾何**（`route_geometry.json`，簽章對得上現在航點時）→ **> 15km 剔除**（精準）；尚未跑 route／離線／簽章不符時退回**航點直線近似** → **> 30km 剔除**（刻意寬鬆）。≤2km 選點 SOP 仍由 Claude 手選 places.json 管 |
 | 晚餐 / 住宿（`dinner-pool` / `hotel-pool`） | 距**目前終點** `places.json[-1]` | > 3km（+0.1 寬限）剔除 |
 
-- 被剔除者會列在 stderr（不靜默），缺座標或無路線點時不過濾。
-- `compute` 每次都重算 `score-pool`，所以換路線後跑一次 `render-md N`（自癒會帶 compute + dinner/hotel-pool）即自動排除舊遠點。
+- **真實路線 vs 直線近似**：`route` 會把 ORS 回傳的真實折線存進 `_plan/route_geometry.json`，並記下「產出當時的航點座標」當簽章。`score-pool` 比對現在 `places.json` 航點，相符才用真實折線（換航點後簽章不符 → 自動退回直線近似）。合法備案多為「順遊繞路型」海岸景點，距**實際騎乘路線**本來就有數 km（10 天實測：高美濕地 4.5km、七星潭 5.9km、王功漁港 11.7km，皆刻意保留），故真實折線門檻取 **15km**（需 > 最遠合法備案 11.7km，留約 3km 餘裕），不能更小。真實 vs 直線在此資料差異不大（王功 11.7 vs 12.3、七星潭 5.9 vs 5.9）；真實幾何的價值是 **(a) 距離準確**（路線彎繞時直線會嚴重低估）、**(b) 門檻能從直線的 30km 收緊到 15km**，精準抓 15–30km 區間的他區殘留點。
+- 被剔除者會列在 stderr（標明用「真實路線」或「直線近似」），缺座標或無路線點時不過濾。
+- `compute` 每次都重算 `score-pool`，且 `render-md` 自癒 cascade 在 **route 成功後會再補跑一次 `score-pool`**（route 才剛寫出對應現在航點的真實折線），所以換路線後跑一次 `render-md N` 即在**同一個指令內**用真實路線過濾、排除舊遠點。
 - 想徹底清掉鏡像裡的舊點，仍需手動編 `index.json` + 刪 `<pid>.json`（過濾只影響「算進池子與否」，不動鏡像本身）。
 
 ### 線上工作模式（標準）
@@ -630,7 +631,7 @@ python3 scripts/plan.py <subcommand> <day_number> [options]
 對整個 mirror 候選池算 Bayesian，產出 `_plan/pool_scores.json`：
 
 - **候選池** = `mirror.places + mirror.candidates_not_selected` 中所有 `csv_type ∈ {景點, 起終點, 餐廳大休}` 且具備 `rating` / `total_ratings` 的點（依 `place_id` 去重）
-- **路線走廊過濾**：鏡像只增不減，換路線/終點後舊景點仍留在 `candidates_not_selected`。score-pool 會剔除「距目前 `places.json` 路線折線 > 30km」的點（離線殘留），**不刪鏡像**、換路線後自我修正；被剔除者會列在 stderr。缺座標或無路線點時不過濾（門檻刻意寬鬆：折線是航點直線近似，只為抓不同區域的殘留點，不是執行 ≤2km 選點 SOP）
+- **路線走廊過濾**：鏡像只增不減，換路線/終點後舊景點仍留在 `candidates_not_selected`。score-pool 會剔除「距目前路線折線過遠」的點（離線殘留），**不刪鏡像**、換路線後自我修正；被剔除者會列在 stderr，缺座標或無路線點時不過濾。折線優先用 **ORS 真實路線幾何**（`route_geometry.json` 簽章對得上現在航點時，門檻 **15km**，精準抓 15–30km 殘留）；尚未跑 route／離線／簽章不符時退回**航點直線近似**（門檻 **30km**，刻意寬鬆，只為抓不同區域殘留點，非 ≤2km 選點 SOP）
 - **`bayesian_C`** = 候選池內 `rating` 平均
 - **`bayesian_m`** = 候選池內 `total_ratings` 中位數（最低採用 100，避免低樣本失真）
 - 每個點位的 **`bayesian_score`** = `(v/(v+m)) * R + (m/(v+m)) * C`

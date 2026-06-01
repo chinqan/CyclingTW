@@ -32,19 +32,19 @@
       "total_ratings": 22878,
       "bayesian_score": 4.12
     },
-    "ChIJ9SCI5oedaDQRijf91YB4Ag0": {
-      "name_zh": "七星潭",
-      "csv_type": "景點",
-      "rating": 4.6,
-      "total_ratings": 1512,
-      "bayesian_score": 4.4
-    },
     "ChIJK6-HgbafaDQR99QetgTFgwU": {
       "name_zh": "花蓮車站",
       "csv_type": "起終點",
       "rating": 4.2,
       "total_ratings": 3149,
       "bayesian_score": 4.23
+    },
+    "ChIJ9SCI5oedaDQRijf91YB4Ag0": {
+      "name_zh": "七星潭",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 1512,
+      "bayesian_score": 4.4
     }
   }
 }

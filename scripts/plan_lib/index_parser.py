@@ -4,7 +4,8 @@ from __future__ import annotations
 import json
 import re
 
-from .helpers import ROOT, plan_dir, read_json, write_json, die, info
+from .helpers import (ROOT, plan_dir, read_json, write_json, die, info,
+                      normalize_landmark, is_note_landmark)
 
 INDEX_TABLE_ROW = re.compile(
     r"^\|\s*\[?Day\s*(\d+)\]?[^|]*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|$"
@@ -35,7 +36,12 @@ def parse_index_md(n: int) -> dict:
         else:
             dist_range = nums[:2]
 
-        landmarks = [s.strip() for s in re.split(r"[、，,]", spots) if s.strip()]
+        # 必經景點：拆分（含 / ；）、正規化（去 markdown / 極X：前綴）、丟棄敘述型備註
+        landmarks = []
+        for s in re.split(r"[、，,；;/]", spots):
+            lm = normalize_landmark(s)
+            if lm and not is_note_landmark(lm):
+                landmarks.append(lm)
 
         return {
             "day": day,

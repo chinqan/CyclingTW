@@ -103,6 +103,20 @@
       "bayesian_score": null
     },
     {
+      "place_id": "ChIJ9SCI5oedaDQRijf91YB4Ag0",
+      "name_zh": "七星潭",
+      "search_keyword": "七星潭 花蓮縣新城鄉",
+      "csv_type": "景點",
+      "note": "礫石海灘 花蓮代表景點（index.md 必經）km約86",
+      "rating": 4.6,
+      "total_ratings": 1512,
+      "location": {
+        "lat": 24.04305,
+        "lng": 121.622493
+      },
+      "bayesian_score": 4.4
+    },
+    {
       "place_id": "ChIJK6-HgbafaDQR99QetgTFgwU",
       "name_zh": "花蓮車站",
       "search_keyword": "花蓮車站 花蓮縣花蓮市國聯一路100號",
@@ -119,8 +133,8 @@
   ],
   "bayesian_C": 4.2667,
   "bayesian_m": 2330,
-  "ors_distance_km": 100.6,
-  "ors_duration_hours": 5.6,
+  "ors_distance_km": 115.4,
+  "ors_duration_hours": 6.5,
   "elevation_ascent_m": 506,
   "elevation_descent_m": 631
 }

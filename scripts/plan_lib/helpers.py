@@ -4,6 +4,7 @@ from __future__ import annotations
 import json
 import math
 import os
+import re
 import sys
 from pathlib import Path
 from typing import Any
@@ -31,6 +32,60 @@ def _load_dotenv():
 
 
 _load_dotenv()
+
+
+# ── 必經景點（index.md must_visit_landmarks）正規化與配對 ──────────────────
+# index.md 的「景點」欄位混有 markdown 裝飾（**極西：國聖燈塔**）、區域名（墾丁、
+# 八里、東北角）與騎乘敘述（可視體力先騎…、回蘆洲完騎）。以下三個 helper 共用於
+# parse-index（清理）、render-md gate（覆蓋檢查）、route 繞路豁免，確保三處對「必經
+# 景點是什麼、是否已涵蓋」判斷一致。
+_NOTE_WORDS = re.compile(r"完騎|可視|體力|住宿|建議|視情況|沿途|可先|再回到?|若")
+
+
+def normalize_landmark(s: str) -> str:
+    """清掉必經景點名的裝飾：markdown 粗體 *、極東西南北：前綴、前後空白。"""
+    s = (s or "").replace("*", "").strip()
+    s = re.sub(r"^極[東西南北][：:]\s*", "", s)
+    return s.strip()
+
+
+def is_note_landmark(s: str) -> bool:
+    """判斷是否為敘述/備註而非真正的景點名（過長或含騎乘指示用語）。"""
+    lm = normalize_landmark(s)
+    return len(lm) > 8 or bool(_NOTE_WORDS.search(lm))
+
+
+def landmark_matches_name(landmark: str, name: str) -> bool:
+    """必經景點名是否對應某航點名（雙向含括，或字元重疊 ≥ 0.5）。"""
+    lm = normalize_landmark(landmark)
+    if not lm or not name:
+        return False
+    lset = set(lm)
+    return lm in name or name in lm or len(lset & set(name)) / len(lset) >= 0.5
+
+
+def landmark_covered(landmark: str, names: list[str], context_text: str = "") -> bool:
+    """必經景點是否已被涵蓋。
+
+    涵蓋條件（任一）：(1) 對應某航點名（landmark_matches_name）；(2) 區域名出現在
+    當天 origin/dest/route 文字（context_text，子字串或字元重疊 ≥ 0.5）。空字串與
+    敘述型（is_note_landmark）一律視為已涵蓋（不擋）。直接處理尚未經 parse-index
+    清理的 dirty config：複合項（如「淡水 / 八里」）任一子項涵蓋即算涵蓋。
+    """
+    lm = normalize_landmark(landmark)
+    if not lm or is_note_landmark(landmark):
+        return True
+    for part in re.split(r"[/／]", lm):
+        part = part.strip()
+        if not part:
+            continue
+        if any(landmark_matches_name(part, nm) for nm in names):
+            return True
+        pset = set(part)
+        if context_text and (part in context_text
+                             or len(pset & set(context_text)) / len(pset) >= 0.5):
+            return True
+    return False
 
 
 def day_dir(n: int) -> Path:
