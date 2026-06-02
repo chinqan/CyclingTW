@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJHc6mWr3pZzQRacOzwC0K53A",
+  "name_zh": "壹零貳宿",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 16,
+  "location": {
+    "lat": 24.6158589,
+    "lng": 121.84454819999999
+  },
+  "address": "270宜蘭縣蘇澳鎮海山東路102號",
+  "primary_type": "private_guest_room",
+  "distance_km": 1.87,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

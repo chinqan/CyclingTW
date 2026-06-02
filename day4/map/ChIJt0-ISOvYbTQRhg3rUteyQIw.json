@@ -1,0 +1,21 @@
+{
+  "place_id": "ChIJt0-ISOvYbTQRhg3rUteyQIw",
+  "name_zh": "四草綠色隧道",
+  "rating": 4.3,
+  "total_ratings": 22431,
+  "location": {
+    "lat": 23.0196399,
+    "lng": 120.1361465
+  },
+  "source": "api_2026-06-02",
+  "opening_hours_text": [
+    "Monday: 8:00 AM – 4:00 PM",
+    "Tuesday: 8:00 AM – 4:00 PM",
+    "Wednesday: 8:00 AM – 4:00 PM",
+    "Thursday: 8:00 AM – 4:00 PM",
+    "Friday: 8:00 AM – 4:00 PM",
+    "Saturday: 8:00 AM – 4:00 PM",
+    "Sunday: 8:00 AM – 4:00 PM"
+  ],
+  "editorial_summary": "Striking canopy of mangrove trees forming a \"green tunnel\" through which bamboo raft rides pass."
+}

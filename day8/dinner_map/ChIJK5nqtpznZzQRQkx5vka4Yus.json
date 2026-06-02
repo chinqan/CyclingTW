@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJK5nqtpznZzQRQkx5vka4Yus",
+  "name_zh": "蘭城_魷不得你_魷魚嘴焿",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 96,
+  "location": {
+    "lat": 24.622199499999997,
+    "lng": 121.8346285
+  },
+  "address": "No. 116號, Datong Rd, 永榮里蘇澳鎮宜蘭縣270",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.63,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

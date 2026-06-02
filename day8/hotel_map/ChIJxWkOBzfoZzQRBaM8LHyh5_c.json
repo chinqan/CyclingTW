@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJxWkOBzfoZzQRBaM8LHyh5_c",
+  "name_zh": "瓏山林蘇澳冷熱泉度假飯店 (住房/湯屋/SPA)",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 2775,
+  "location": {
+    "lat": 24.596822,
+    "lng": 121.847369
+  },
+  "address": "27041宜蘭縣蘇澳鎮蘇西里中原路301號",
+  "primary_type": "hotel",
+  "distance_km": 2.4,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

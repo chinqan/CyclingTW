@@ -7,10 +7,11 @@
     134
   ],
   "main_route_text": "台2線 (北部濱海公路) 東北角海岸",
+  "travel_mode": "TWO_WHEELER",
+  "travel_mode_reason": "全程以機車(TWO_WHEELER)為主走台2線；僅基隆外木山『大坪海岸→萬里頂社』這一段用 places.json leg_modes 覆寫為 BICYCLE，原生走湖海路二段（自行車專用、機車無法通行）",
   "must_visit_landmarks": [
     "三貂角燈塔",
     "東北角",
-    "舊草嶺隧道",
     "福隆",
     "基隆海岸"
   ]

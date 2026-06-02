@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJF0e-eznoZzQREqUB8bnZRf4",
+  "name_zh": "心心民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 105,
+  "location": {
+    "lat": 24.595782,
+    "lng": 121.84154459999999
+  },
+  "address": "270宜蘭縣蘇澳鎮蘇西里中山路一段355號",
+  "primary_type": "lodging",
+  "distance_km": 2.03,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

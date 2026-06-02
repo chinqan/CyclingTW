@@ -3,11 +3,11 @@
   "name_zh": "花蓮車站",
   "csv_type": "起終點",
   "rating": 4.2,
-  "total_ratings": 3149,
+  "total_ratings": 3172,
   "location": {
     "lat": 23.9933133,
     "lng": 121.60124549999999
   },
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "Day8終點 搭火車接駁蘇澳新站"
 }

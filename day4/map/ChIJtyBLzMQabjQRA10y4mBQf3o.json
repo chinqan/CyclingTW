@@ -7,9 +7,18 @@
     "lng": 120.35886819999999
   },
   "search_keyword": "景點",
-  "source": "along_2026-06-02",
+  "source": "api_2026-06-02",
   "rating": 4.6,
   "total_ratings": 152,
   "address": "833高雄市鳥松區833台灣高雄市鳥松區大埤路環湖路",
-  "primary_type": "scenic_spot"
+  "primary_type": "scenic_spot",
+  "opening_hours_text": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ]
 }

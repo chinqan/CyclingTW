@@ -32,6 +32,40 @@ CYCLING_AVG_KMH = 16.0
 TAIWAN_BOUNDS = {"lat_min": 21.8, "lat_max": 25.4, "lng_min": 119.2, "lng_max": 122.1}
 MAX_ADJACENT_KM = 40  # 分段檢查上限
 
+# ── 折回守門（detour backtrack gate）──
+# 補給/用餐點應「貼線」：路線經過時不該下主線繞進去再折回。沿線挑點的離線過濾只看
+# 「垂直偏離距離」，會放行那些離折線很近、但實際要下分隔道路/岔路往返才到得了的點
+# （如分隔島另一側的超商）。此守門改量「路線在停靠點附近是否自我重疊（折回）」，對
+# 道路自然彎曲不敏感，只抓真正的往返。超門檻 → cmd_route 直接 die，逼使換點。
+_BACKTRACK_LIMIT_M = {"便利商店": 800, "餐廳大休": 800}  # 各類停靠點「自我重疊」折回上限（公尺）
+_BACKTRACK_NEAR_M = 600           # 只看停靠點此半徑內的折線頂點
+_BACKTRACK_EPS_M = 45             # 兩折線點 ≤ 此距離視為「路線自我重疊」
+_BACKTRACK_MARGINAL_M = 500       # 邊際繞路上限：經此點 vs 跳過此點的路線長差（公尺）
+
+
+def _route_backtrack_m(points: list, wlat: float, wlng: float) -> float:
+    """停靠點附近，路線「自我重疊（折回）」的最長里程（公尺）。
+
+    貼線經過 ≈ 0；需下主線繞進再折回則 ≈ 往返距離。只看停靠點 _BACKTRACK_NEAR_M
+    內的折線，找一對「空間上幾乎重合（≤_BACKTRACK_EPS_M）但沿路里程相距最遠」的點，
+    其里程差即往返長度。道路彎曲不會自我重疊，故不會誤判。points=[[lat,lng],…]。
+    """
+    near_idx = [i for i, p in enumerate(points)
+                if haversine_km(p[0], p[1], wlat, wlng) * 1000 <= _BACKTRACK_NEAR_M]
+    if len(near_idx) < 2:
+        return 0.0
+    seg = points[near_idx[0]:near_idx[-1] + 1]  # 連續切片，含中途短暫離開 600m 的點
+    cum = [0.0]
+    for i in range(len(seg) - 1):
+        cum.append(cum[-1] + haversine_km(seg[i][0], seg[i][1],
+                                          seg[i + 1][0], seg[i + 1][1]) * 1000)
+    best = 0.0
+    for i in range(len(seg)):
+        for j in range(i + 1, len(seg)):
+            if haversine_km(seg[i][0], seg[i][1], seg[j][0], seg[j][1]) * 1000 <= _BACKTRACK_EPS_M:
+                best = max(best, cum[j] - cum[i])
+    return best
+
 
 def _resolve_travel_mode(n: int) -> str:
     """travelMode 解析優先序：config.json travel_mode > 環境變數 > 預設 TWO_WHEELER。"""
@@ -176,13 +210,18 @@ def _google_route(coords: list, api_key: str, travel_mode: str) -> tuple:
         die(f"computeRoutes 中繼點上限 {ROUTES_MAX_INTERMEDIATES} 個，目前 {n_inter} 個"
             f"（起終點另計，共 {len(coords)} 點）")
 
-    def _wp(lng, lat):
-        return {"location": {"latLng": {"latitude": lat, "longitude": lng}}}
+    def _wp(c):
+        # c = [lng, lat] 一般航點；[lng, lat, True] 為 via 純通過點（不停靠、不切 leg），
+        # 用來把路線釘在某條路上而不會在該點 U-turn（見 cmd_route 的 route_via）。
+        wp = {"location": {"latLng": {"latitude": c[1], "longitude": c[0]}}}
+        if len(c) > 2 and c[2]:
+            wp["via"] = True
+        return wp
 
     body = {
-        "origin": _wp(*coords[0]),
-        "destination": _wp(*coords[-1]),
-        "intermediates": [_wp(lng, lat) for lng, lat in coords[1:-1]],
+        "origin": _wp(coords[0]),
+        "destination": _wp(coords[-1]),
+        "intermediates": [_wp(c) for c in coords[1:-1]],
         "travelMode": travel_mode,
         "polylineQuality": "HIGH_QUALITY",
         "polylineEncoding": "ENCODED_POLYLINE",
@@ -255,7 +294,76 @@ def cmd_route(args):
     travel_mode = _resolve_travel_mode(n)
 
     coords = [[p["location"]["lng"], p["location"]["lat"]] for p in places]
-    distance_km, duration_hours, points = _google_route(coords, api_key, travel_mode)
+    place_pos = list(range(len(places)))  # 每個 place 在 coords 內的索引（插 via 後會位移）
+    # route_via：純通過點（via:true），把路線釘在指定道路上、避免繞到封閉/不可行路段，
+    # 不列入 places → 不進 CSV / 不上地圖標記 / 不參與選點計分。每筆 {lat,lng,after}：
+    # after = 要插在 places 第幾個之後（索引）。從大到小插入以免後續索引位移。
+    via_pts = data.get("route_via", [])
+    for v in sorted(via_pts, key=lambda x: x.get("after", len(places) - 2), reverse=True):
+        idx = v.get("after", len(places) - 2)
+        coords.insert(idx + 1, [v["lng"], v["lat"], True])
+        for k in range(idx + 1, len(places)):
+            place_pos[k] += 1
+    if via_pts:
+        info(f"已插入 {len(via_pts)} 個 via 通過點（不列入停靠/CSV/地圖）")
+    if len(coords) - 2 > ROUTES_MAX_INTERMEDIATES:
+        die(f"加 via 後中繼點 {len(coords) - 2} 個，超過上限 {ROUTES_MAX_INTERMEDIATES}")
+
+    # leg_modes：分段 travelMode。預設整條用 travel_mode；可對「停靠點 from→to 之間的段落」
+    # 覆寫成另一種 mode（如某段為自行車專用路、機車無法通行）。每筆 {from,to,mode}，
+    # from/to 為 places 索引。路線按 mode 切段分別呼叫 Routes API，再串接折線、累加距離。
+    leg_modes = data.get("leg_modes", [])
+    if leg_modes:
+        seg_mode = [travel_mode] * (len(places) - 1)  # 第 i 段 = place i→i+1 的 mode
+        for lm in leg_modes:
+            for i in range(lm["from"], lm["to"]):
+                seg_mode[i] = lm["mode"].strip().upper()
+        distance_km = 0.0
+        duration_hours = 0.0
+        points = []
+        i = 0
+        while i < len(seg_mode):
+            j = i
+            while j + 1 < len(seg_mode) and seg_mode[j + 1] == seg_mode[i]:
+                j += 1
+            sl = coords[place_pos[i]: place_pos[j + 1] + 1]
+            d, h, pts = _google_route(sl, api_key, seg_mode[i])
+            distance_km += d
+            duration_hours += h
+            points += pts if not points else pts[1:]
+            info(f"  分段 {seg_mode[i]}：{places[i]['name_zh']} → {places[j + 1]['name_zh']}（{d:.1f} km）")
+            i = j + 1
+    else:
+        distance_km, duration_hours, points = _google_route(coords, api_key, travel_mode)
+
+    # 折回守門（兩段式）：補給/用餐點若逼路線繞進去再折回，die 逼換點。
+    #  段1（免費）：_route_backtrack_m 量「路線自我重疊」篩出折回嫌疑——但極東岬角往返
+    #              （三貂角）、河口繞行（八里渡船頭）等必經結構也會讓順路經過的點重疊。
+    #  段2（每嫌疑點 1 對 Routes API call）：算「邊際繞路」= 經此點 vs 跳過此點(prev→next)
+    #              的路線長差，確認折回是否真由此點造成。marginal≈0 表示繞路屬必經結構、
+    #              此點只是順路經過（如永安港門市鄰永安漁港、鳥松店在澄清湖內灣繞路上），放行。
+    _offenders = []
+    for i, p in enumerate(places):
+        lim = _BACKTRACK_LIMIT_M.get(p["csv_type"])
+        loc = p.get("location") or {}
+        if not lim or not loc.get("lat") or i == 0 or i == len(places) - 1:
+            continue
+        fold = _route_backtrack_m(points, loc["lat"], loc["lng"])
+        if fold <= lim:
+            continue
+        prev, nxt = places[i - 1]["location"], places[i + 1]["location"]
+        d_dir, _, _ = _google_route([[prev["lng"], prev["lat"]], [nxt["lng"], nxt["lat"]]],
+                                    api_key, travel_mode)
+        d_via, _, _ = _google_route([[prev["lng"], prev["lat"]], [loc["lng"], loc["lat"]],
+                                     [nxt["lng"], nxt["lat"]]], api_key, travel_mode)
+        marginal = (d_via - d_dir) * 1000
+        if marginal > _BACKTRACK_MARGINAL_M:
+            _offenders.append((p["name_zh"], p["csv_type"], fold, marginal))
+    if _offenders:
+        die("偵測到停靠點造成路線折回（多半選到分隔道路另一側/岔路的點，路線繞進去再折回）：\n  "
+            + "\n  ".join(f"{nm}（{ct}）自我重疊約 {fold:.0f}m、邊際繞路約 {mg:.0f}m"
+                          for nm, ct, fold, mg in _offenders)
+            + "\n請用 search-along-route 找『繞路km 小、沿路里程相近』的同類點替換 places.json 後重跑 route。")
 
     # 從真實路線折線（points=[lat,lng]）順手算爬升/下降，與下面距離欄位同一次寫入 places.json。
     # 放在 gpx 寫出之前 → places.json mtime 仍 < gpx，維持 render-md 自癒「gpx ≥ places.json」不變式，

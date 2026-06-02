@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJs6udeFvoZzQRghjjiQzvO3I",
+  "name_zh": "愛幸福小棧",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 201,
+  "location": {
+    "lat": 24.6145076,
+    "lng": 121.8396868
+  },
+  "address": "270宜蘭縣蘇澳鎮隘丁里城東路207號",
+  "primary_type": "private_guest_room",
+  "distance_km": 1.36,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

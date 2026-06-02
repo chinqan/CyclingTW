@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ5UAVQmfoZzQR_Khzh5kji3Y",
+  "name_zh": "SWEETHEART複合式餐館",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 220,
+  "location": {
+    "lat": 24.6174397,
+    "lng": 121.83268939999999
+  },
+  "address": "270宜蘭縣蘇澳鎮隘丁里忠孝路376號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.07,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

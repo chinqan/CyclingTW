@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ32VzU4vpZzQR6pdZrb0Or_E",
+  "name_zh": "台化龍德招待所",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 14,
+  "location": {
+    "lat": 24.627032300000003,
+    "lng": 121.81311239999998
+  },
+  "address": "269宜蘭縣冬山鄉大興村269",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 2.49,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

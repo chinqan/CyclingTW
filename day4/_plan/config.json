@@ -3,13 +3,14 @@
   "origin": "台南/鹿耳門公園",
   "destination": "東港東隆宮",
   "distance_km_range": [
-    112,
-    112
+    95,
+    95
   ],
   "main_route_text": "台17線 (經台南、高雄市區)",
   "must_visit_landmarks": [
-    "台南市區",
+    "四草綠色隧道",
+    "林默娘公園",
     "黃金海岸",
-    "澄清湖"
+    "澄清湖觀夕平台"
   ]
 }

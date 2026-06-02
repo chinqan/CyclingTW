@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJUbXYgzXoZzQRZMXn1gp7TcU",
+  "name_zh": "新貴汽車旅館",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 479,
+  "location": {
+    "lat": 24.597729899999997,
+    "lng": 121.85311789999999
+  },
+  "address": "270宜蘭縣蘇澳鎮蘇南里中正路35號",
+  "primary_type": "motel",
+  "distance_km": 2.86,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

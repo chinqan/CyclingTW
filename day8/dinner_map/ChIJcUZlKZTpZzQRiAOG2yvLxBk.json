@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJcUZlKZTpZzQRiAOG2yvLxBk",
+  "name_zh": "三顧茅廬蘇澳馬賽店",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 222,
+  "location": {
+    "lat": 24.620548499999998,
+    "lng": 121.83445599999999
+  },
+  "address": "No. 82號, Datong Rd, 永榮里蘇澳鎮宜蘭縣270",
+  "primary_type": "hot_pot_restaurant",
+  "primary_type_label": "火鍋店",
+  "distance_km": 1.46,
+  "source": "api_2026-06-02",
+  "note": "火鍋店",
+  "name_is_ascii": false
+}

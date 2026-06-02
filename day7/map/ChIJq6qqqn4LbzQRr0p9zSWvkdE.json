@@ -1,0 +1,21 @@
+{
+  "place_id": "ChIJq6qqqn4LbzQRr0p9zSWvkdE",
+  "name_zh": "大坡池",
+  "rating": 4.4,
+  "total_ratings": 10067,
+  "location": {
+    "lat": 23.1191771,
+    "lng": 121.22341009999998
+  },
+  "source": "api_2026-06-02",
+  "opening_hours_text": [
+    "Monday: 8:30 AM – 5:30 PM",
+    "Tuesday: 8:30 AM – 5:30 PM",
+    "Wednesday: 8:30 AM – 5:30 PM",
+    "Thursday: 8:30 AM – 5:30 PM",
+    "Friday: 8:30 AM – 5:30 PM",
+    "Saturday: 8:30 AM – 5:30 PM",
+    "Sunday: 8:30 AM – 5:30 PM"
+  ],
+  "editorial_summary": "Picnicking, boating & cycling are popular activities in & around this small, scenic body of water."
+}

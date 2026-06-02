@@ -2,7 +2,7 @@
   "day": 9,
   "route_name": "東北角濱海極東追風行",
   "total_ascent_desc": "台2線北部濱海公路沿海岸起伏，多小丘與隧道，東北角至基隆段有數段爬坡",
-  "main_route_desc": "蘇澳新站 ➔ 台2線北上 ➔ 頭城蘭陽博物館 ➔ 三貂角燈塔(極東) ➔ 舊草嶺隧道 ➔ 福隆 ➔ 鼻頭角 ➔ 基隆海岸 ➔ 萬里 ➔ 金山",
+  "main_route_desc": "蘇澳新站 ➔ 台2線北上 ➔ 頭城蘭陽博物館 ➔ 三貂角燈塔(極東) ➔ 卯澳 ➔ 福隆 ➔ 鼻頭角 ➔ 基隆海岸 ➔ 萬里 ➔ 金山",
   "places": [
     {
       "csv_type": "起終點",
@@ -67,7 +67,7 @@
       "rating": 4.5,
       "total_ratings": 15820,
       "search_keyword": "新北市貢寮區 三貂角燈塔",
-      "note": "必經 極東 三貂角燈塔 ★主視覺 台灣本島最東端白色燈塔 km約58",
+      "note": "必經 極東 三貂角燈塔 ★主視覺 台灣本島最東端白色燈塔 km約59",
       "bayesian_score": 4.5
     },
     {
@@ -81,22 +81,8 @@
       "rating": 4.9,
       "total_ratings": 695,
       "search_keyword": "新北市貢寮區 卯澳 卯起來吃",
-      "note": "午餐大休 卯澳漁村海鮮 km約63（現場候位）",
+      "note": "午餐大休 卯澳漁村海鮮 km約62（現場候位）",
       "bayesian_score": 4.7
-    },
-    {
-      "csv_type": "景點",
-      "name_zh": "舊草嶺隧道",
-      "place_id": "ChIJmUjPHA1dXTQRB-tXTydBtUo",
-      "location": {
-        "lat": 25.0039454,
-        "lng": 121.9583462
-      },
-      "rating": 4.6,
-      "total_ratings": 5736,
-      "search_keyword": "新北市貢寮區 舊草嶺隧道",
-      "note": "必經 舊草嶺隧道 鐵道改建自行車隧道 km約71",
-      "bayesian_score": 4.59
     },
     {
       "csv_type": "便利商店",
@@ -107,7 +93,7 @@
         "lng": 121.94473749999999
       },
       "search_keyword": "7-ELEVEN 新福隆門市",
-      "note": "福隆補給點 km約73",
+      "note": "福隆補給點 km約67",
       "bayesian_score": null
     },
     {
@@ -121,7 +107,7 @@
       "rating": 4.2,
       "total_ratings": 6877,
       "search_keyword": "新北市貢寮區 福隆海水浴場",
-      "note": "必經 福隆 雙溪河口黃金沙灘與福隆便當 km約74",
+      "note": "必經 福隆 雙溪河口黃金沙灘與福隆便當 km約68",
       "bayesian_score": 4.23
     },
     {
@@ -133,7 +119,7 @@
         "lng": 121.91413499999999
       },
       "search_keyword": "7-ELEVEN 鼻頭角門市",
-      "note": "鼻頭角龍洞補給點 km約91",
+      "note": "鼻頭角龍洞補給點 km約85",
       "bayesian_score": null
     },
     {
@@ -147,8 +133,22 @@
       "rating": 4.5,
       "total_ratings": 2309,
       "search_keyword": "基隆市中正區 大坪海岸",
-      "note": "必經 基隆海岸 八斗子潮間帶海蝕平台 km約106",
+      "note": "必經 基隆海岸 八斗子潮間帶海蝕平台 km約100",
       "bayesian_score": 4.5
+    },
+    {
+      "csv_type": "景點",
+      "name_zh": "獅子公園",
+      "place_id": "ChIJDwy--jpMXTQRu13ZJdvs9t0",
+      "location": {
+        "lat": 25.1748647,
+        "lng": 121.7055968
+      },
+      "rating": 4.3,
+      "total_ratings": 3921,
+      "search_keyword": "新北市萬里區 獅子公園",
+      "note": "外木山湖海路二段北端濱海公園 自行車段終點轉台2線 km約117",
+      "bayesian_score": 4.33
     },
     {
       "csv_type": "便利商店",
@@ -159,7 +159,7 @@
         "lng": 121.6567307
       },
       "search_keyword": "全家便利商店 萬里頂社店",
-      "note": "萬里 進金山前補給 km約131",
+      "note": "萬里 進金山前補給 km約124",
       "bayesian_score": null
     },
     {
@@ -173,14 +173,22 @@
       "rating": 4.1,
       "total_ratings": 49476,
       "search_keyword": "新北市金山區 金山老街",
-      "note": "終點 金山 老街與溫泉 km約134",
+      "note": "終點 金山 老街與溫泉 km約127",
       "bayesian_score": 4.11
+    }
+  ],
+  "leg_modes": [
+    {
+      "from": 9,
+      "to": 10,
+      "mode": "BICYCLE",
+      "reason": "大坪海岸→獅子公園：基隆外木山段走湖海路二段濱海自行車道（自行車專用、機車無法通行）至湖海路二段北端的獅子公園；其餘仍貼台2線。獅子公園→金山改回機車。"
     }
   ],
   "bayesian_C": 4.5046,
   "bayesian_m": 745,
-  "elevation_ascent_m": 826,
-  "elevation_descent_m": 838,
-  "ors_distance_km": 132.6,
-  "ors_duration_hours": 8.3
+  "elevation_ascent_m": 823,
+  "elevation_descent_m": 835,
+  "ors_distance_km": 126.8,
+  "ors_duration_hours": 7.8999999999999995
 }

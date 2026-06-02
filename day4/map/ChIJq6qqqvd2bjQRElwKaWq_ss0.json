@@ -1,0 +1,21 @@
+{
+  "place_id": "ChIJq6qqqvd2bjQRElwKaWq_ss0",
+  "name_zh": "旗哥牛肉湯",
+  "rating": 4.2,
+  "total_ratings": 8714,
+  "location": {
+    "lat": 23.0098324,
+    "lng": 120.18553329999999
+  },
+  "source": "api_2026-06-02",
+  "opening_hours_text": [
+    "Monday: 7:00 AM – 2:00 PM",
+    "Tuesday: 3:00 PM – 12:00 AM",
+    "Wednesday: 7:00 AM – 12:00 AM",
+    "Thursday: 7:00 AM – 12:00 AM",
+    "Friday: 7:00 AM – 12:00 AM",
+    "Saturday: 7:00 AM – 12:00 AM",
+    "Sunday: 7:00 AM – 12:00 AM"
+  ],
+  "editorial_summary": "Restaurant specializing in beef soup & stir-fry amid unpretentious surroundings."
+}

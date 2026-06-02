@@ -114,14 +114,14 @@
     },
     {
       "csv_type": "便利商店",
-      "name_zh": "全家便利商店 新竹濱海店",
-      "place_id": "ChIJP4siMGs1aDQR78nsUbiI1rE",
+      "name_zh": "全家便利商店 新竹香山店",
+      "place_id": "ChIJMQ4fzDXoZzQR1Njw4QrzWx8",
       "location": {
-        "lat": 24.8130056,
-        "lng": 120.9224478
+        "lat": 24.767179199999998,
+        "lng": 120.9152496
       },
-      "search_keyword": "全家便利商店 新竹濱海店",
-      "note": "補給點 km約87",
+      "search_keyword": "全家便利商店 新竹香山店",
+      "note": "南寮→後龍長段中途補給 km約92",
       "bayesian_score": null
     },
     {
@@ -167,8 +167,8 @@
   ],
   "bayesian_C": 4.3819,
   "bayesian_m": 319,
-  "elevation_ascent_m": 287,
-  "elevation_descent_m": 275,
-  "ors_distance_km": 140.1,
-  "ors_duration_hours": 8.8
+  "elevation_ascent_m": 304,
+  "elevation_descent_m": 292,
+  "ors_distance_km": 139.9,
+  "ors_duration_hours": 8.7
 }

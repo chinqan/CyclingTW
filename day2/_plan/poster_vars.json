@@ -2,15 +2,15 @@
   "day": 2,
   "origin_label": "苗栗通霄",
   "destination_label": "雲林西螺",
-  "distance_range": "約 100.9 公里",
+  "distance_range": "約 100.0 公里",
   "subtitle": "海線宮廟巡禮",
   "orientation": "horizontal_landscape_3_2",
   "main_visual": {
-    "place_id": "ChIJrZs43EK0bjQRK3XsEqYto-Y",
-    "location_desc": "雲林縣西螺「西螺大橋」",
-    "scene_elements": "西螺大橋紅色鋼桁架橫跨濁水溪、橋頭牌樓與『西螺大橋』字樣、寬闊河床與河水、遠方中部平原稻田、藍天白雲",
-    "action": "騎公路車登上西螺大橋橋面、一手扶彎把另一手向前方比出抵達手勢",
-    "expression": "完成海線宮廟巡禮的成就與滿足、燦爛開朗笑容"
+    "place_id": "ChIJz0wXCUC0bjQRRSCjz1OizeU",
+    "location_desc": "雲林縣西螺「西螺大橋廣場」",
+    "scene_elements": "橫跨濁水溪的西螺大橋一字排開的紅色華倫式鋼桁架、斑駁歷史橋身、橋頭廣場綠地與紀念地標、寬闊的濁水溪河床、藍天白雲",
+    "action": "單腳踩地停在西螺大橋紅色鋼桁架橋頭，仰頭抬手望向橫跨濁水溪的歷史大橋，公路車斜倚身旁",
+    "expression": "跨過濁水溪進雲林的踏實、對紅色歷史大橋的驚嘆與懷舊"
   },
   "small_avatar": {
     "place_id": "ChIJJ5R-bjoIaTQRmYc9tYdbBqk",
@@ -20,9 +20,9 @@
     "expression": "清晨出發精神奕奕、期待今日海線宮廟行程"
   },
   "geographic_notes": "通霄車站在畫面右側（東側）、西螺延平老街在畫面左側（西側）",
-  "allowed_elements": "紅色鋼桁架大橋、濁水溪寬闊河床、橋頭牌樓、中部平原稻田、媽祖廟飛簷剪影、單車",
+  "allowed_elements": "",
   "composition": "主角在畫面中央偏上、通霄車站在右上方小分身、西螺延平老街在畫面左側遠景、沿途點綴大甲鎮瀾宮、高美濕地遊客中心、鹿港老街、埔鹽順澤宮",
   "lighting": "柔和清晨明亮光線、清新藍天白雲",
-  "enhancement": "強調西螺大橋連續紅色鋼桁架的雄偉透視與歷史感、濁水溪河床的開闊、平原稻浪的縱深",
+  "enhancement": "",
   "_last_place_id": "ChIJvyru1BW0bjQRrsVaIqi0zAI"
 }

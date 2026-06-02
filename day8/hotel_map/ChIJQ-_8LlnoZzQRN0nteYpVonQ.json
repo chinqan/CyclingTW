@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJQ-_8LlnoZzQRN0nteYpVonQ",
+  "name_zh": "馬賽客",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 133,
+  "location": {
+    "lat": 24.619259399999997,
+    "lng": 121.84017129999998
+  },
+  "address": "270宜蘭縣蘇澳鎮永榮里隘界路167-1號",
+  "primary_type": "private_guest_room",
+  "distance_km": 1.71,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

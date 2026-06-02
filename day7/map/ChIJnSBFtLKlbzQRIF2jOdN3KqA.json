@@ -1,0 +1,20 @@
+{
+  "place_id": "ChIJnSBFtLKlbzQRIF2jOdN3KqA",
+  "name_zh": "鹿野高台遊客中心",
+  "rating": 4.5,
+  "total_ratings": 1771,
+  "location": {
+    "lat": 22.9238409,
+    "lng": 121.12507550000001
+  },
+  "source": "api_2026-06-02",
+  "opening_hours_text": [
+    "Monday: 8:30 AM – 5:30 PM",
+    "Tuesday: 8:30 AM – 5:30 PM",
+    "Wednesday: 8:30 AM – 5:30 PM",
+    "Thursday: 8:30 AM – 5:30 PM",
+    "Friday: 8:30 AM – 5:30 PM",
+    "Saturday: 8:30 AM – 5:30 PM",
+    "Sunday: 8:30 AM – 5:30 PM"
+  ]
+}

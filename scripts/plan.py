@@ -27,6 +27,11 @@ dinner-search / hotel-search / refresh-details 都在這一條路）。
                            Google Places API (zh-TW)，自動寫入 hotel_map/；
                            輸出 _plan/hotel.json 與 dayN_hotel.md。
                            （輔助：hotel-status / hotel-review）
+                           ★過夜地 ≠ 騎乘終點時（如 Day8 騎到花蓮車站、火車接駁到蘇澳
+                           新站過夜）：在 places.json 加頂層 "lodging_endpoint"
+                           {place_id,name_zh,location}，dinner/hotel 的搜尋中心與
+                           source_endpoint_place_id 簽章改用它（render-md 預檢也比對它），
+                           騎乘終點 places[-1] 不受影響。
   parse-index N            解析 index.md 第 N 天設定
   route-skeleton N         Phase 1 起點：Routes API（computeRoutes）只串「起點+必經
                            景點+終點」算骨架最佳路線，產 _plan/skeleton.json（含
@@ -48,11 +53,24 @@ dinner-search / hotel-search / refresh-details 都在這一條路）。
   compute N                套用 pool_scores 到 places.json（缺失時自動觸發 score-pool）
   review N                 讀 pool_scores 顯示排名 + ★入選 + 替換建議
   compose-better-attractions N  從 pool_scores 自動產 segments.json.better_attractions
-  write-csv N              產 dayN_mymap.csv（依 _plan/places.json）
+  write-csv N              產 dayN_mymap.csv（依 _plan/places.json）。含「緯度/經度」
+                           欄：匯入 Google My Maps 時請選此兩欄定位（精確、不靠地名
+                           地理編碼），避免偏遠雜貨店/區域名（旭美商店、墾丁大街）被
+                           My Maps 較弱的地名搜尋判為找不到。「地點搜尋關鍵字」欄保留備用。
   route N                  呼叫 Google Routes API（computeRoutes，travelMode 預設
                            TWO_WHEELER）取整天路線，輸出 dayN_route.gpx。需
                            GOOGLE_PLACES_API_KEY（須啟用 Routes API）。travelMode 可由
-                           config.json travel_mode 或 ROUTES_TRAVEL_MODE 覆寫為 BICYCLE
+                           config.json travel_mode 或 ROUTES_TRAVEL_MODE 覆寫為 BICYCLE。
+                           places.json 可選 top-level "route_via"：純通過點 list，每筆
+                           {lat,lng,after}（after=插在 places 第幾個之後），以 Google
+                           via:true 把路線釘在指定道路、避開封閉/不可行路段；不列入
+                           places → 不進 CSV/地圖標記/選點計分。
+                           ★折回守門（兩段式）：便利商店/餐廳大休若逼路線繞進再折回，
+                           route 報錯中止逼換點。段1 免費量「路線自我重疊」篩嫌疑；段2 對
+                           嫌疑點打 Routes API 算「邊際繞路」(經此點 vs 跳過此點 prev→next
+                           路線長差)，>500m 才中止。marginal≈0 表繞路屬必經結構(極東岬角
+                           往返/河口繞行/內灣景點)順帶經過，放行。沿線選點只看「垂直偏離」
+                           會漏掉分隔島另一側的點，故由此守門在路線層攔下。
   gpx-save N               [stdin] 儲存外部來源 GPX（備援用）
   gpx-waypoints N          離線備案：依 places.json 座標產純航點 GPX
   refresh-details N        呼叫 Google Places API (New) 刷新可評分點位的

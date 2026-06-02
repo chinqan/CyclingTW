@@ -2,18 +2,18 @@
   "day": 7,
   "origin_label": "太麻里",
   "destination_label": "玉里",
-  "distance_range": "約 125.7 公里",
+  "distance_range": "約 110.1 公里",
   "subtitle": "花東縱谷田園騎行",
   "orientation": "horizontal_landscape_3_2",
   "lighting": "正午暖陽灑落稻田、金黃稻穗反射溫暖光線",
-  "allowed_elements": "繽紛熱氣球、飛行傘、綠色高台草坡、金黃稻田、中央山脈稜線、花東縱谷、單車",
-  "enhancement": "強調熱氣球的繽紛色彩與草坡開闊、花東縱谷田園詩意、通透藍天與山稜縱深",
+  "allowed_elements": "",
+  "enhancement": "",
   "main_visual": {
     "place_id": "ChIJAQAAADSkbzQR2E5XyomxUJo",
-    "location_desc": "台東縣鹿野「鹿野高台」",
-    "scene_elements": "鹿野高台綠色草坡上繽紛升空的熱氣球、滑翔的飛行傘、腳下花東縱谷金黃稻田棋盤、背景中央山脈稜線、晴朗藍天",
-    "action": "騎抵鹿野高台草坡、單腳踩地一手指向天空的熱氣球群",
-    "expression": "花東縱谷的悠然自在、仰望熱氣球的驚喜笑容"
+    "location_desc": "「鹿野高台」",
+    "scene_elements": "鹿野高台廣闊的綠色草坡、天空數顆色彩繽紛的熱氣球緩緩升空、腳下花東縱谷的稻田與茶園棋盤、遠方中央山脈稜線、藍天白雲",
+    "action": "站在鹿野高台草坡、單車停在腳邊，一手遮陽抬頭仰望天空升起的繽紛熱氣球",
+    "expression": "花東縱谷田園的悠然自在、仰望熱氣球升空的童心驚喜"
   },
   "small_avatar": {
     "place_id": "ChIJ-fgsCr7ObzQRGrAOOXKCO4k",
@@ -22,7 +22,7 @@
     "action": "推著單車走下車站階梯準備北上",
     "expression": "清新、精神飽滿、迎接縱谷田園"
   },
-  "composition": "主角在畫面中央偏上、太麻里車站在右上方小分身、玉里車站在畫面右側遠景、沿途點綴知本溫泉、鐵花村音樂聚落慢市集、初鹿牧場、伯朗大道",
+  "composition": "主角在畫面中央偏上、太麻里車站在右上方小分身、玉里車站在畫面右側遠景、沿途點綴伯朗大道、大坡池、富里稻草藝術景觀區",
   "geographic_notes": "太麻里車站在畫面左側（西側）、玉里車站在畫面右側（東側）",
   "_last_place_id": "ChIJ677P5HxqbzQR590ArDS8N5E"
 }

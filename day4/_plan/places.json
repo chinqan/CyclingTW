@@ -20,29 +20,31 @@
     },
     {
       "csv_type": "景點",
-      "name_zh": "巴克禮紀念公園",
-      "place_id": "ChIJMwoLNSF0bjQRPDMC-i3Tuy0",
+      "name_zh": "四草綠色隧道",
+      "place_id": "ChIJt0-ISOvYbTQRhg3rUteyQIw",
       "location": {
-        "lat": 22.9719929,
-        "lng": 120.2225874
+        "lat": 23.0196399,
+        "lng": 120.1361465
       },
-      "rating": 4.4,
-      "total_ratings": 7232,
-      "search_keyword": "台南市東區 巴克禮紀念公園",
-      "note": "代表台南市區 都會綠地公園 km約19",
-      "bayesian_score": 4.4
+      "search_keyword": "台南安南區 四草綠色隧道",
+      "note": "必經 四草綠色隧道 台版亞馬遜紅樹林 km約7",
+      "rating": 4.3,
+      "total_ratings": 22431,
+      "bayesian_score": 4.3
     },
     {
-      "csv_type": "便利商店",
-      "name_zh": "全家便利商店 台南華興店",
-      "place_id": "ChIJhxoN1r51bjQR8mt2DEaUGY0",
+      "csv_type": "景點",
+      "name_zh": "林默娘公園",
+      "place_id": "ChIJG1xPEc5yBxQRiCoswkya8qw",
       "location": {
-        "lat": 22.9619937,
-        "lng": 120.19248160000001
+        "lat": 22.993875799999998,
+        "lng": 120.1571958
       },
-      "search_keyword": "全家便利商店 台南華興店",
-      "note": "出台南市區補給點 km約23",
-      "bayesian_score": null
+      "search_keyword": "台南安平區 林默娘公園",
+      "note": "必經 林默娘公園 安平媽祖像濱海公園 km約14",
+      "rating": 4.4,
+      "total_ratings": 10680,
+      "bayesian_score": 4.4
     },
     {
       "csv_type": "景點",
@@ -53,9 +55,9 @@
         "lng": 120.1764427
       },
       "rating": 4.3,
-      "total_ratings": 10171,
+      "total_ratings": 10172,
       "search_keyword": "台南市南區 黃金海岸",
-      "note": "必經 黃金海岸 喜樹灣裡海岸 km約27",
+      "note": "必經 黃金海岸 喜樹灣裡海岸 km約25",
       "bayesian_score": 4.3
     },
     {
@@ -67,22 +69,8 @@
         "lng": 120.2278723
       },
       "search_keyword": "7-ELEVEN 竹滬門市",
-      "note": "茄萣/路竹補給點 km約39",
+      "note": "茄萣/路竹補給點 km約37",
       "bayesian_score": null
-    },
-    {
-      "csv_type": "景點",
-      "name_zh": "漯底山自然公園",
-      "place_id": "ChIJ____PzIJbjQRlR0WnipOGC8",
-      "location": {
-        "lat": 22.770961699999997,
-        "lng": 120.25311020000001
-      },
-      "rating": 4.2,
-      "total_ratings": 3896,
-      "search_keyword": "高雄市彌陀區 漯底山自然公園",
-      "note": "泥火山惡地地景 km約50",
-      "bayesian_score": 4.22
     },
     {
       "csv_type": "景點",
@@ -93,9 +81,9 @@
         "lng": 120.31427319999999
       },
       "rating": 4.2,
-      "total_ratings": 7590,
+      "total_ratings": 7591,
       "search_keyword": "高雄市橋頭區 橋頭糖廠",
-      "note": "日式糖業文化園區 km約57",
+      "note": "日式糖業文化園區 km約55",
       "bayesian_score": 4.21
     },
     {
@@ -107,9 +95,9 @@
         "lng": 120.3243371
       },
       "rating": 4.7,
-      "total_ratings": 13273,
+      "total_ratings": 13272,
       "search_keyword": "高雄市楠梓區 森川丼丼",
-      "note": "午餐大休 高人氣丼飯 km約61",
+      "note": "午餐大休 高人氣丼飯 km約59",
       "bayesian_score": 4.7
     },
     {
@@ -121,22 +109,22 @@
         "lng": 120.36254620000001
       },
       "search_keyword": "全家便利商店 鳥松大仁店",
-      "note": "澄清湖前補給 km約69",
+      "note": "澄清湖前補給 km約68",
       "bayesian_score": null
     },
     {
       "csv_type": "景點",
-      "name_zh": "澄清湖風景區",
-      "place_id": "ChIJi54isNYabjQR-oTp-Y9jupg",
+      "name_zh": "澄清湖觀夕平台",
+      "place_id": "ChIJtyBLzMQabjQRA10y4mBQf3o",
       "location": {
-        "lat": 22.6603607,
-        "lng": 120.353806
+        "lat": 22.657894799999998,
+        "lng": 120.35886819999999
       },
-      "rating": 4.4,
-      "total_ratings": 1710,
-      "search_keyword": "高雄市鳥松區 澄清湖風景區",
-      "note": "必經 澄清湖 高雄最大人工湖 km約72",
-      "bayesian_score": 4.41
+      "rating": 4.6,
+      "total_ratings": 152,
+      "search_keyword": "高雄鳥松區 澄清湖觀夕平台",
+      "note": "必經 澄清湖觀夕平台 高雄澄清湖觀景 km約69",
+      "bayesian_score": 4.52
     },
     {
       "csv_type": "便利商店",
@@ -147,7 +135,7 @@
         "lng": 120.4287728
       },
       "search_keyword": "7-ELEVEN 潮欣門市",
-      "note": "大寮 進東港前補給 km約90",
+      "note": "大寮 進東港前補給 km約84",
       "bayesian_score": null
     },
     {
@@ -159,16 +147,16 @@
         "lng": 120.44871930000001
       },
       "rating": 4.7,
-      "total_ratings": 7785,
+      "total_ratings": 7787,
       "search_keyword": "屏東縣東港鎮 東隆宮",
-      "note": "終點 東港東隆宮 金牌樓王船祭 km約106",
+      "note": "終點 東港東隆宮 金牌樓王船祭 km約99",
       "bayesian_score": 4.69
     }
   ],
   "bayesian_C": 4.466,
   "bayesian_m": 249,
-  "elevation_ascent_m": 80,
-  "elevation_descent_m": 80,
-  "ors_distance_km": 105.8,
-  "ors_duration_hours": 6.6
+  "elevation_ascent_m": 49,
+  "elevation_descent_m": 48,
+  "ors_distance_km": 99.4,
+  "ors_duration_hours": 6.2
 }

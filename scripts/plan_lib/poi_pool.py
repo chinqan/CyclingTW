@@ -215,13 +215,13 @@ def cmd_search(args, spec: POISpec):
     pl = places_data.get("places") or []
     if not pl:
         die("places.json 內無 places")
-    endpoint = pl[-1]
+    endpoint = _lodging_endpoint_place(n) or pl[-1]
     loc = endpoint.get("location") or {}
     lat, lng = loc.get("lat"), loc.get("lng")
     if lat is None or lng is None:
         die(f"終點 {endpoint.get('name_zh','?')} 缺少 location")
 
-    info(f"終點：{endpoint.get('name_zh','?')} ({lat:.5f},{lng:.5f}) radius={radius_m}m")
+    info(f"住宿/晚餐搜尋中心：{endpoint.get('name_zh','?')} ({lat:.5f},{lng:.5f}) radius={radius_m}m")
 
     all_places: dict[str, dict] = {}
 
@@ -401,18 +401,30 @@ def _confidence_emoji(conf: str) -> str:
     return "❌"
 
 
-def _endpoint_latlng(n: int) -> tuple[float, float] | None:
-    """目前 places.json 終點（最後一個點）的座標；缺失回 None。"""
+def _lodging_endpoint_place(n: int) -> dict | None:
+    """住宿/晚餐的搜尋中心點。預設用 places.json 最後一點（騎乘終點）；若 places.json
+    有頂層 lodging_endpoint（{place_id, name_zh, location}），則改用它——適用「過夜地
+    ≠ 騎乘終點」的情境（如 Day8 騎到花蓮車站、火車接駁到蘇澳新站過夜，住宿要找蘇澳）。"""
     pf = plan_dir(n) / "places.json"
     if not pf.exists():
         return None
     try:
-        pl = read_json(pf).get("places") or []
+        data = read_json(pf)
     except Exception:
         return None
-    if not pl:
+    ov = data.get("lodging_endpoint")
+    if ov and (ov.get("location") or {}).get("lat") is not None:
+        return ov
+    pl = data.get("places") or []
+    return pl[-1] if pl else None
+
+
+def _endpoint_latlng(n: int) -> tuple[float, float] | None:
+    """住宿/晚餐搜尋中心座標（lodging_endpoint 覆寫，否則 places 終點）；缺失回 None。"""
+    ep = _lodging_endpoint_place(n)
+    if not ep:
         return None
-    loc = pl[-1].get("location") or {}
+    loc = ep.get("location") or {}
     lat, lng = loc.get("lat"), loc.get("lng")
     if lat is None or lng is None:
         return None
@@ -550,16 +562,10 @@ def cmd_pool(args, spec: POISpec):
         c["selected"] = c.get("place_id") in selected_pids
     _save_index(n, spec, idx)
 
-    # 紀錄 source endpoint（給 render-md 預檢比對；places.json 缺值時略過）
-    source_endpoint_pid = None
-    places_path = plan_dir(n) / "places.json"
-    if places_path.exists():
-        try:
-            pl = read_json(places_path).get("places") or []
-            if pl:
-                source_endpoint_pid = pl[-1].get("place_id")
-        except Exception:
-            pass
+    # 紀錄 source endpoint（給 render-md 預檢比對）= 住宿/晚餐搜尋中心（lodging_endpoint
+    # 覆寫，否則 places 終點），缺值時略過。
+    ep = _lodging_endpoint_place(n)
+    source_endpoint_pid = ep.get("place_id") if ep else None
 
     out_data = {
         "day": n,

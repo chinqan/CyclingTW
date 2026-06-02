@@ -993,7 +993,7 @@
       "address": "97143花蓮縣新城鄉大漢村七星街58號",
       "source": "api_2026-06-02",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJA7FbDvydaDQRxpocfq_J7rQ",
@@ -1021,7 +1021,7 @@
       "address": "971花蓮縣新城鄉大漢村七星街79巷12號",
       "source": "api_2026-06-02",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJM_5xzakgZjQR401U4prZii4",
@@ -1049,7 +1049,7 @@
       "address": "971花蓮縣新城鄉大漢村明潭街8-1號",
       "source": "api_2026-06-02",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJy33tBqkgZjQRTf39gJvm4xk",
@@ -1161,7 +1161,7 @@
       "address": "971花蓮縣新城鄉大漢村七星街116號",
       "source": "api_2026-06-02",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJzyOPklafaDQRMlNmfhYg5Vg",
@@ -1175,7 +1175,7 @@
       "address": "971花蓮縣新城鄉嘉里村嘉里三路61號",
       "source": "api_2026-06-02",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJS7dkGT6eaDQRwITAZ1ttwNU",
@@ -1313,6 +1313,426 @@
         "lng": 121.60251310000001
       },
       "address": "971花蓮縣新城鄉北埔村民族路81號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJEbWXfUroZzQRx3wGzYHglE0",
+      "name_zh": "煙波大飯店蘇澳四季雙泉館",
+      "rating": 4.7,
+      "total_ratings": 23882,
+      "location": {
+        "lat": 24.5979255,
+        "lng": 121.85326520000001
+      },
+      "address": "270宜蘭縣蘇澳鎮蘇南里中正路38號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJxWkOBzfoZzQRBaM8LHyh5_c",
+      "name_zh": "瓏山林蘇澳冷熱泉度假飯店 (住房/湯屋/SPA)",
+      "rating": 4.3,
+      "total_ratings": 2775,
+      "location": {
+        "lat": 24.596822,
+        "lng": 121.847369
+      },
+      "address": "27041宜蘭縣蘇澳鎮蘇西里中原路301號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJXTvYJFLpZzQRtVDZCE0Op0w",
+      "name_zh": "貳十二度行旅",
+      "rating": 4.7,
+      "total_ratings": 747,
+      "location": {
+        "lat": 24.6182131,
+        "lng": 121.83805810000001
+      },
+      "address": "270宜蘭縣蘇澳鎮隘丁里信義路177號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJUbXYgzXoZzQRZMXn1gp7TcU",
+      "name_zh": "新貴汽車旅館",
+      "rating": 4.2,
+      "total_ratings": 479,
+      "location": {
+        "lat": 24.597729899999997,
+        "lng": 121.85311789999999
+      },
+      "address": "270宜蘭縣蘇澳鎮蘇南里中正路35號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJq6qqqvvoZzQR3KMfIxtprac",
+      "name_zh": "蕾米斯莊園 Remis villa",
+      "rating": 4.5,
+      "total_ratings": 320,
+      "location": {
+        "lat": 24.6205794,
+        "lng": 121.8461985
+      },
+      "address": "270宜蘭縣蘇澳鎮存仁里大業路56號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJLcXtajboZzQRNWdfwD4OA5A",
+      "name_zh": "金華冷泉溫泉旅館",
+      "rating": 4.3,
+      "total_ratings": 426,
+      "location": {
+        "lat": 24.5962621,
+        "lng": 121.85099609999999
+      },
+      "address": "270宜蘭縣蘇澳鎮蘇北里冷泉路1號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJtycCglzoZzQRipSRVh1vMdU",
+      "name_zh": "庭軒小公館民宿 - 宜蘭 蘇澳民宿推薦 包棟首選 熱門平價住宿 寵物友善 人氣必住 友善騎旅好評 高CP值 特色景觀旅宿 近蘇澳冷泉 網紅打卡景點 東澳粉鳥林 獨木舟 家庭親子度假 網美網友訂房優惠 輕旅行童玩節 優質出差短租月租套房",
+      "rating": 4.7,
+      "total_ratings": 494,
+      "location": {
+        "lat": 24.614227399999997,
+        "lng": 121.8390198
+      },
+      "address": "270宜蘭縣蘇澳鎮隘丁里城東路196號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJs6udeFvoZzQRghjjiQzvO3I",
+      "name_zh": "愛幸福小棧",
+      "rating": 4.9,
+      "total_ratings": 201,
+      "location": {
+        "lat": 24.6145076,
+        "lng": 121.8396868
+      },
+      "address": "270宜蘭縣蘇澳鎮隘丁里城東路207號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ32VzU4vpZzQR6pdZrb0Or_E",
+      "name_zh": "台化龍德招待所",
+      "rating": 4.6,
+      "total_ratings": 14,
+      "location": {
+        "lat": 24.627032300000003,
+        "lng": 121.81311239999998
+      },
+      "address": "269宜蘭縣冬山鄉大興村269",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJF8B9gWvpZzQRaXFmG5IcpFU",
+      "name_zh": "宜蘭蘇澳九号",
+      "rating": 4.7,
+      "total_ratings": 231,
+      "location": {
+        "lat": 24.618057,
+        "lng": 121.83420059999999
+      },
+      "address": "270宜蘭縣蘇澳鎮蘇澳仁愛路203號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJbdh7HCDpZzQRb-iLd4ZzhNg",
+      "name_zh": "好佇Good Stand",
+      "rating": 4.8,
+      "total_ratings": 33,
+      "location": {
+        "lat": 24.6222152,
+        "lng": 121.84395869999999
+      },
+      "address": "270宜蘭縣蘇澳鎮存仁里功勞路103之2號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJtSP1lVzoZzQRZre5JwEGf10",
+      "name_zh": "窩心の家民宿",
+      "rating": 4.8,
+      "total_ratings": 121,
+      "location": {
+        "lat": 24.6133688,
+        "lng": 121.83810430000001
+      },
+      "address": "270宜蘭縣蘇澳鎮隘丁里城東路238號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJnXy-GDzpZzQRo2QYtKH50n8",
+      "name_zh": "享樂民宿",
+      "rating": 5,
+      "total_ratings": 146,
+      "location": {
+        "lat": 24.6177106,
+        "lng": 121.8414126
+      },
+      "address": "270宜蘭縣蘇澳鎮隘丁里隘界路290巷59號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJNbgZkYLpZzQRt3YELAjFX0c",
+      "name_zh": "66親子民宿｜宜蘭包棟民宿｜蘇澳民宿",
+      "rating": 5,
+      "total_ratings": 21,
+      "location": {
+        "lat": 24.622329,
+        "lng": 121.84653629999998
+      },
+      "address": "270宜蘭縣蘇澳鎮存仁里大業路120號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJnfQ2eznoZzQRdmRnK2-bluk",
+      "name_zh": "蘇澳盧媽媽民宿",
+      "rating": 4.4,
+      "total_ratings": 224,
+      "location": {
+        "lat": 24.595817099999998,
+        "lng": 121.841285
+      },
+      "address": "270宜蘭縣蘇澳鎮蘇西里中山路一段365號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ0TNE-3XoZzQRXOhBl8Gz0FI",
+      "name_zh": "滿天星景觀民宿",
+      "rating": 4.6,
+      "total_ratings": 121,
+      "location": {
+        "lat": 24.611791999999998,
+        "lng": 121.81132099999999
+      },
+      "address": "270宜蘭縣蘇澳鎮新城里武荖坑路12號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJQ-_8LlnoZzQRN0nteYpVonQ",
+      "name_zh": "馬賽客",
+      "rating": 4.2,
+      "total_ratings": 133,
+      "location": {
+        "lat": 24.619259399999997,
+        "lng": 121.84017129999998
+      },
+      "address": "270宜蘭縣蘇澳鎮永榮里隘界路167-1號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJT6npWBHpZzQRcfjqGMIg5dk",
+      "name_zh": "麗宿金鑽",
+      "rating": 4.5,
+      "total_ratings": 60,
+      "location": {
+        "lat": 24.6194788,
+        "lng": 121.82933299999999
+      },
+      "address": "270宜蘭縣蘇澳鎮新城里馬賽路415號二樓三樓",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ28ZhNLDpZzQR40yyaxmIKkE",
+      "name_zh": "海燕民宿",
+      "rating": 5,
+      "total_ratings": 217,
+      "location": {
+        "lat": 24.615595199999998,
+        "lng": 121.83524609999998
+      },
+      "address": "270宜蘭縣蘇澳鎮隘丁里信義路301號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ2eNbPHTpZzQRtd22SdtNfUk",
+      "name_zh": "玥民宿｜沄禾民宿｜沄禾玥｜宜蘭包棟民宿｜平價旅遊住宿",
+      "rating": 5,
+      "total_ratings": 97,
+      "location": {
+        "lat": 24.6157297,
+        "lng": 121.83527149999999
+      },
+      "address": "270宜蘭縣蘇澳鎮隘丁里信義路299號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJJVnQsoDpZzQR3EKKmSThfvo",
+      "name_zh": "愛旅行民宿",
+      "rating": 5,
+      "total_ratings": 147,
+      "location": {
+        "lat": 24.615779999999997,
+        "lng": 121.83542480000001
+      },
+      "address": "270宜蘭縣蘇澳鎮隘丁里信義路301之1號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJQSfcdF3oZzQRKAzQUY1Y6D8",
+      "name_zh": "心境小築民宿",
+      "rating": 4.6,
+      "total_ratings": 35,
+      "location": {
+        "lat": 24.6160258,
+        "lng": 121.8356385
+      },
+      "address": "270宜蘭縣蘇澳鎮隘丁里信義路283號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ5elxs9TpZzQRli8mf_nFTVE",
+      "name_zh": "享居民宿 蘇澳馬賽包棟民宿",
+      "rating": 4.8,
+      "total_ratings": 54,
+      "location": {
+        "lat": 24.6177106,
+        "lng": 121.8414126
+      },
+      "address": "270宜蘭縣蘇澳鎮隘丁里隘界路290巷61號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJHc6mWr3pZzQRacOzwC0K53A",
+      "name_zh": "壹零貳宿",
+      "rating": 4.9,
+      "total_ratings": 16,
+      "location": {
+        "lat": 24.6158589,
+        "lng": 121.84454819999999
+      },
+      "address": "270宜蘭縣蘇澳鎮海山東路102號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJoVMjrXbpZzQRn-zoyW7cSRk",
+      "name_zh": "山嶼海民宿（已歇業）",
+      "rating": 5,
+      "total_ratings": 30,
+      "location": {
+        "lat": 24.6202539,
+        "lng": 121.84012650000001
+      },
+      "address": "270宜蘭縣蘇澳鎮永榮里信義路39巷2號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJF0e-eznoZzQREqUB8bnZRf4",
+      "name_zh": "心心民宿",
+      "rating": 4.2,
+      "total_ratings": 105,
+      "location": {
+        "lat": 24.595782,
+        "lng": 121.84154459999999
+      },
+      "address": "270宜蘭縣蘇澳鎮蘇西里中山路一段355號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJP1LHPTzoZzQRSMl3gmmkg2Q",
+      "name_zh": "素綿阿姨民宿",
+      "rating": 4.5,
+      "total_ratings": 16,
+      "location": {
+        "lat": 24.595354099999998,
+        "lng": 121.83746819999999
+      },
+      "address": "270宜蘭縣蘇澳鎮聖湖里蘇港路367巷2弄8號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJGdVcULrpZzQRcxM2O3M1B_4",
+      "name_zh": "蒂朵農莊 民宿",
+      "rating": 4.3,
+      "total_ratings": 31,
+      "location": {
+        "lat": 24.6207536,
+        "lng": 121.84593749999998
+      },
+      "address": "270宜蘭縣蘇澳鎮存仁里大業路50號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJs3tHszXoZzQRZlvPhxUoR9k",
+      "name_zh": "興華旅社",
+      "rating": 3.3,
+      "total_ratings": 32,
+      "location": {
+        "lat": 24.5955518,
+        "lng": 121.8524199
+      },
+      "address": "270宜蘭縣蘇澳鎮蘇南里蘇南路13號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJQY3SSjToZzQRMjRVF8dfoMM",
+      "name_zh": "亞洲旅社",
+      "rating": 2.6,
+      "total_ratings": 22,
+      "location": {
+        "lat": 24.5955077,
+        "lng": 121.85207259999999
+      },
+      "address": "270宜蘭縣蘇澳鎮蘇南里蘇南路18號",
       "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false

@@ -338,7 +338,8 @@ def _collect_gate_errors(n: int, places: dict, segments: dict) -> list[str]:
             # (C) 內容一致性：dinner.json.source_endpoint_place_id 必須對到 places[-1]
             try:
                 dj = read_json(dinner_path)
-                expected_pid = places["places"][-1].get("place_id") if places.get("places") else None
+                expected_pid = (places.get("lodging_endpoint") or {}).get("place_id") \
+                    or (places["places"][-1].get("place_id") if places.get("places") else None)
                 actual_pid = dj.get("source_endpoint_place_id")
                 if actual_pid is None:
                     gate_errors.append(
@@ -367,7 +368,8 @@ def _collect_gate_errors(n: int, places: dict, segments: dict) -> list[str]:
             # (C.2) 內容一致性：hotel.json.source_endpoint_place_id 必須對到 places[-1]
             try:
                 hj = read_json(hotel_path)
-                expected_pid = places["places"][-1].get("place_id") if places.get("places") else None
+                expected_pid = (places.get("lodging_endpoint") or {}).get("place_id") \
+                    or (places["places"][-1].get("place_id") if places.get("places") else None)
                 actual_pid = hj.get("source_endpoint_place_id")
                 if actual_pid is None:
                     gate_errors.append(

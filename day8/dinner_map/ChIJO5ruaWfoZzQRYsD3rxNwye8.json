@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJO5ruaWfoZzQRYsD3rxNwye8",
+  "name_zh": "家家水餃店",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 114,
+  "location": {
+    "lat": 24.617346299999998,
+    "lng": 121.8324787
+  },
+  "address": "270宜蘭縣蘇澳鎮隘丁里忠孝路383號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 1.05,
+  "source": "api_2026-06-02",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

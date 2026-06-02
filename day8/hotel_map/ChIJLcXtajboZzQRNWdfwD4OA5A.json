@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJLcXtajboZzQRNWdfwD4OA5A",
+  "name_zh": "金華冷泉溫泉旅館",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 426,
+  "location": {
+    "lat": 24.5962621,
+    "lng": 121.85099609999999
+  },
+  "address": "270宜蘭縣蘇澳鎮蘇北里冷泉路1號",
+  "primary_type": "hotel",
+  "distance_km": 2.75,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

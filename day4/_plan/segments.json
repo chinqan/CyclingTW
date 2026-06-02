@@ -2,37 +2,44 @@
   "origin_short": "鹿耳門聖母廟",
   "destination_short": "東港東隆宮",
   "total_ascent_desc": "全程平坦，台17線濱海與高雄市區道路，幾乎無爬升",
-  "main_route_desc": "鹿耳門 ➔ 巴克禮公園 ➔ 黃金海岸 ➔ 台17線 ➔ 橋頭糖廠 ➔ 澄清湖 ➔ 鳳山 ➔ 大寮 ➔ 東港東隆宮",
-  "gmaps_dir_url": "https://www.google.com/maps/dir/?api=1&origin=%E5%8F%B0%E5%8D%97%E5%B8%82%E9%B9%BF%E8%80%B3%E9%96%80%E8%81%96%E6%AF%8D%E5%BB%9F&destination=%E5%B1%8F%E6%9D%B1%E7%B8%A3%E6%9D%B1%E6%B8%AF%E6%9D%B1%E9%9A%86%E5%AE%AE&waypoints=%E5%8F%B0%E5%8D%97%E5%B7%B4%E5%85%8B%E7%A6%AE%E7%B4%80%E5%BF%B5%E5%85%AC%E5%9C%92%7C%E5%8F%B0%E5%8D%97%E9%BB%83%E9%87%91%E6%B5%B7%E5%B2%B8%7C%E9%AB%98%E9%9B%84%E6%A9%8B%E9%A0%AD%E7%B3%96%E5%BB%A0%7C%E6%BE%84%E6%B8%85%E6%B9%96%E9%A2%A8%E6%99%AF%E5%8D%80&travelmode=bicycling",
-  "ishikawa": "ishikawa-beta\n    Day 4 完騎 東港東隆宮 約106km\n    第四段 澄清湖→東港 約34km\n        17:00 東港東隆宮 終點抵達 金牌樓 ★主視覺\n        大鵬灣方向 屏東平原\n    ☕️ 第四段 補給注意\n        🥤 7-ELEVEN 潮欣門市 km90\n        ⚠️ 鳳山大寮市區車多\n    第三段 橋頭→澄清湖 約15km\n        14:00 澄清湖風景區 高雄人工湖\n    ☕️ 第三段 補給注意\n        🍱 森川丼丼楠梓總店 km61 午餐 4.7★\n        🥤 全家 鳥松大仁店 km69\n    第二段 黃金海岸→橋頭糖廠 約30km\n        11:30 橋頭糖廠 日式糖業園區\n        🌋 漯底山自然公園 泥火山地景\n    ☕️ 第二段 補給注意\n        🥤 7-ELEVEN 竹滬門市 km39\n    第一段 鹿耳門→黃金海岸 約27km\n        07:00 鹿耳門聖母廟 出發\n        🌳 08:30 巴克禮紀念公園 台南都會綠地\n        🏖️ 09:30 黃金海岸 喜樹灣裡海岸\n    ☕️ 第一段 補給休息\n        🥤 全家 台南華興店 km23",
+  "main_route_desc": "鹿耳門 ➔ 四草綠色隧道 ➔ 林默娘公園 ➔ 黃金海岸 ➔ 台17線 ➔ 橋頭糖廠 ➔ 澄清湖觀夕平台 ➔ 鳳山 ➔ 大寮 ➔ 東港東隆宮",
+  "gmaps_dir_url": "https://www.google.com/maps/dir/?api=1&origin=%E5%8F%B0%E5%8D%97%E5%B8%82%E9%B9%BF%E8%80%B3%E9%96%80%E8%81%96%E6%AF%8D%E5%BB%9F&destination=%E5%B1%8F%E6%9D%B1%E7%B8%A3%E6%9D%B1%E6%B8%AF%E6%9D%B1%E9%9A%86%E5%AE%AE&waypoints=%E5%9B%9B%E8%8D%89%E7%B6%A0%E8%89%B2%E9%9A%A7%E9%81%93%7C%E5%8F%B0%E5%8D%97%E6%9E%97%E9%BB%98%E5%A8%98%E5%85%AC%E5%9C%92%7C%E5%8F%B0%E5%8D%97%E9%BB%83%E9%87%91%E6%B5%B7%E5%B2%B8%7C%E9%AB%98%E9%9B%84%E6%A9%8B%E9%A0%AD%E7%B3%96%E5%BB%A0%7C%E6%BE%84%E6%B8%85%E6%B9%96%E8%A7%80%E5%A4%95%E5%B9%B3%E5%8F%B0&travelmode=bicycling",
+  "ishikawa": "ishikawa-beta\n    Day 4 完騎 東港東隆宮 約99km\n    第四段 澄清湖→東港 約31km\n        17:00 東港東隆宮 終點抵達 金牌樓 ★主視覺\n        大鵬灣方向 屏東平原\n    ☕️ 第四段 補給注意\n        🥤 7-ELEVEN 潮欣門市 km84\n        ⚠️ 鳳山大寮市區車多\n    第三段 橋頭→澄清湖 約14km\n        14:00 澄清湖觀夕平台 環湖觀景\n    ☕️ 第三段 補給注意\n        🍱 森川丼丼楠梓總店 km59 午餐 4.7★\n        🥤 全家 鳥松大仁店 km68\n    第二段 黃金海岸→橋頭糖廠 約30km\n        12:30 橋頭糖廠 日式糖業園區\n    ☕️ 第二段 補給注意\n        🥤 7-ELEVEN 竹滬門市 km37\n        ⚠️ 黃金海岸→茄萣濱海段遮蔽少\n    第一段 鹿耳門→黃金海岸 約25km\n        07:00 鹿耳門聖母廟 出發\n        🛶 08:00 四草綠色隧道 紅樹林水道\n        🗼 09:30 林默娘公園 安平濱海\n        🏖️ 10:30 黃金海岸 喜樹灣裡海岸\n    ☕️ 第一段 補給休息\n        🏪 台南市區超商密集",
   "segments": [
     {
       "cn_n": "一",
       "title": "鹿耳門聖母廟 → 黃金海岸",
-      "subtitle": "府城出城段",
-      "distance_km": 27,
-      "condition": "自鹿耳門經台南市區東側綠園道南下，過巴克禮公園後轉往南區喜樹接台17線濱海抵黃金海岸。市區路口多、注意通勤車流。",
+      "subtitle": "府城濱海段",
+      "distance_km": 25,
+      "condition": "自鹿耳門南下入四草賞紅樹林綠色隧道，續經安平林默娘公園濱海，轉南區喜樹接台17線抵黃金海岸。市區與安平觀光區人車多、注意路口。",
       "stops": [
         {
           "emoji": "🚀",
           "time_or_label": "07:00",
           "name": "鹿耳門聖母廟",
           "location_desc": "起點，km 0",
-          "desc": "接續 Day3 終點。建議避開台南市區早高峰，沿綠園道騎乘。"
+          "desc": "接續 Day3 終點。建議避開台南市區早高峰。"
         },
         {
-          "emoji": "🌳",
-          "time_or_label": "08:30",
-          "name": "巴克禮紀念公園",
-          "location_desc": "km ~19，台南東區",
-          "desc": "代表台南市區。都會綠地與生態埤塘（4.4★/7232），適合短暫休息。"
+          "emoji": "🛶",
+          "time_or_label": "08:00",
+          "name": "四草綠色隧道",
+          "location_desc": "km ~7，安南區",
+          "desc": "必經點。紅樹林水道「台版亞馬遜」（4.3★/2.2萬則），可搭竹筏穿綠色隧道，需留意船班時間。"
+        },
+        {
+          "emoji": "🗼",
+          "time_or_label": "09:30",
+          "name": "林默娘公園",
+          "location_desc": "km ~14，安平",
+          "desc": "必經點。安平港濱海大草坪與媽祖石像（4.4★/1萬則），海風開闊、放風箏熱點。"
         },
         {
           "emoji": "🏖️",
-          "time_or_label": "09:30",
+          "time_or_label": "10:30",
           "name": "黃金海岸",
-          "location_desc": "km ~27，台南南區",
-          "desc": "必經點。喜樹、灣裡一帶綿延沙岸（4.3★/1萬則），台17線濱海起點，海風大。"
+          "location_desc": "km ~25，台南南區",
+          "desc": "必經點。喜樹、灣裡綿延沙岸（4.3★/1萬則），台17線濱海起點，海風大。"
         }
       ]
     },
@@ -47,75 +54,68 @@
           "emoji": "🥤",
           "time_or_label": "",
           "name": "7-ELEVEN 竹滬門市",
-          "location_desc": "km ~39，茄萣/路竹",
-          "desc": "濱海段補給點。"
-        },
-        {
-          "emoji": "🌋",
-          "time_or_label": "",
-          "name": "漯底山自然公園",
-          "location_desc": "km ~50，彌陀",
-          "desc": "泥火山惡地地景與觀景台（4.2★/3896），可遠眺高雄海岸平原。"
+          "location_desc": "km ~37，茄萣/路竹",
+          "desc": "濱海段補給點，過二仁溪前後補滿水分。"
         },
         {
           "emoji": "🚂",
-          "time_or_label": "11:30",
+          "time_or_label": "12:30",
           "name": "橋頭糖廠",
-          "location_desc": "km ~57，橋頭",
+          "location_desc": "km ~55，橋頭",
           "desc": "日治糖業文化園區（4.2★/7575），老火車、雨豆樹與冰品，文青休息點。"
         }
       ]
     },
     {
       "cn_n": "三",
-      "title": "橋頭糖廠 → 澄清湖",
+      "title": "橋頭糖廠 → 澄清湖觀夕平台",
       "subtitle": "高雄都會段",
-      "distance_km": 15,
+      "distance_km": 14,
       "condition": "經楠梓、仁武進鳥松抵澄清湖。市區路段補給密集，於楠梓午餐後續行。",
       "stops": [
         {
           "emoji": "🍱",
           "time_or_label": "12:00–13:00",
           "name": "森川丼丼楠梓總店",
-          "location_desc": "km ~61，楠梓",
+          "location_desc": "km ~59，楠梓",
           "desc": "午餐大休點。高人氣丼飯（4.7★/1.3萬則），平價海鮮丼補充能量。"
         },
         {
           "emoji": "🥤",
           "time_or_label": "",
           "name": "全家便利商店 鳥松大仁店",
-          "location_desc": "km ~69，鳥松",
+          "location_desc": "km ~68，鳥松",
           "desc": "澄清湖前補給點。"
         },
         {
-          "emoji": "🏞️",
+          "emoji": "🌅",
           "time_or_label": "14:00",
-          "name": "澄清湖風景區",
-          "location_desc": "km ~72，鳥松",
-          "desc": "必經點。高雄最大人工湖與環湖步道（4.4★/1710），九曲橋、得月樓，可環湖散心。"
+          "name": "澄清湖觀夕平台",
+          "location_desc": "km ~69，鳥松",
+          "desc": "必經點。澄清湖環湖路上的觀景平台（4.6★/152），可眺湖景與夕照，環湖步道散心。"
         }
       ]
     },
     {
       "cn_n": "四",
-      "title": "澄清湖 → 東港東隆宮",
+      "title": "澄清湖觀夕平台 → 東港東隆宮",
       "subtitle": "屏東平原收尾段",
-      "distance_km": 34,
+      "distance_km": 31,
       "condition": "自澄清湖經鳳山、大寮過高屏溪進屏東，沿台17/縣道抵東港。鳳山大寮市區車流多、注意號誌；過高屏溪後豁然開朗進屏東平原。",
       "stops": [
         {
           "emoji": "🥤",
           "time_or_label": "",
           "name": "7-ELEVEN 潮欣門市",
-          "location_desc": "km ~90，大寮",
+          "location_desc": "km ~84，大寮",
           "desc": "進東港前最後補給，過高屏溪前補滿。"
         },
         {
           "emoji": "🏁",
           "time_or_label": "17:00",
           "name": "東港東隆宮",
-          "location_desc": "km ~106，東港",
-          "desc": "當日終點、本日★主視覺。以金色牌樓與三年一科王船祭聞名（4.7★/7785）。東港華僑市場黑鮪魚生魚片必嚐。"
+          "location_desc": "km ~99，東港",
+          "desc": "當日終點、本日★主視覺。以金色牌樓與三年一科王船祭聞名（4.7★/7787）。東港華僑市場黑鮪魚生魚片必嚐。"
         }
       ]
     }

@@ -1,0 +1,21 @@
+{
+  "place_id": "ChIJG1xPEc5yBxQRiCoswkya8qw",
+  "name_zh": "林默娘公園",
+  "rating": 4.4,
+  "total_ratings": 10680,
+  "location": {
+    "lat": 22.993875799999998,
+    "lng": 120.1571958
+  },
+  "source": "api_2026-06-02",
+  "opening_hours_text": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "editorial_summary": "Waterfront retreat featuring grassy picnic grounds, flowers & a prominent Lin Mo Niang monument."
+}

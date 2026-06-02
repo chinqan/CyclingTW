@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ6XWjLKLpZzQRsOp_naG7gKI",
+  "name_zh": "夯來夯趣-行動烤肉車/宜蘭代客料理/宜蘭到府烤肉/宜蘭外燴/家庭聚餐活動/燒烤串燒/懶人料理",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 168,
+  "location": {
+    "lat": 24.618893399999997,
+    "lng": 121.8406346
+  },
+  "address": "270012宜蘭縣蘇澳鎮隘丁里隘界路220號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.72,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

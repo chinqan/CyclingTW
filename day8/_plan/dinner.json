@@ -1,497 +1,577 @@
 {
   "day": 8,
   "search_radius_km": 3,
-  "pool_size": 30,
-  "bayesian_C": 361.8,
-  "bayesian_m": 4.3755,
+  "pool_size": 35,
+  "bayesian_C": 732.7,
+  "bayesian_m": 4.4588,
   "note": "C=平均留言數(先驗樣本數), m=加權平均評分(先驗期望值)",
-  "source_endpoint_place_id": "ChIJpTcgYOidaDQRVHUO3ILkXJs",
+  "source_endpoint_place_id": "ChIJ6ZUIBmzoZzQRgjp01nDg5f0",
   "top5_place_ids": [
-    "ChIJJz3j-XohZjQRyqzPDJal8B0",
-    "ChIJTzb8isUhZjQRzDZsC6vIYl4",
-    "ChIJEbdTDHufaDQRKKm-AJ_jb5w",
-    "ChIJPS_NyoSfaDQRilyM-ATao_g",
-    "ChIJ16odd5yfaDQRw1Gc86yN884"
+    "ChIJIStKj5jpZzQRz7zVF-PfmVY",
+    "ChIJJ1ayLgjpZzQRlCz54WzC5bo",
+    "ChIJw78p4TnoZzQRsQQibeJf414",
+    "ChIJC5vH2DvoZzQR-00YuSvy7yk",
+    "ChIJE_PnssLpZzQRaC-B1E33OLw"
   ],
   "restaurants": [
     {
-      "place_id": "ChIJJz3j-XohZjQRyqzPDJal8B0",
-      "name_zh": "安口食堂 星潭店",
-      "rating": 4.8,
-      "total_ratings": 757,
+      "place_id": "ChIJIStKj5jpZzQRz7zVF-PfmVY",
+      "name_zh": "湯院子-日式鍋物",
+      "rating": 4.9,
+      "total_ratings": 1734,
       "location": {
-        "lat": 24.0270872,
-        "lng": 121.629334
+        "lat": 24.613235,
+        "lng": 121.83167780000001
       },
-      "address": "97143花蓮縣新城鄉大漢村七星街150巷1號",
-      "note": "餐廳",
-      "bayesian_score": 4.6627,
+      "address": "270宜蘭縣蘇澳鎮里海山西路286號",
+      "note": "火鍋店",
+      "bayesian_score": 4.769,
       "confidence": "✅ 高",
       "rank": 1,
       "selected": true
     },
     {
-      "place_id": "ChIJTzb8isUhZjQRzDZsC6vIYl4",
-      "name_zh": "暗潮燒烤",
-      "rating": 4.9,
-      "total_ratings": 210,
+      "place_id": "ChIJJ1ayLgjpZzQRlCz54WzC5bo",
+      "name_zh": "安永．探索廚房",
+      "rating": 5,
+      "total_ratings": 798,
       "location": {
-        "lat": 24.026862299999998,
-        "lng": 121.6304038
+        "lat": 24.614880100000004,
+        "lng": 121.81794199999999
       },
-      "address": "971花蓮縣新城鄉明潭街6號",
-      "note": "餐廳",
-      "bayesian_score": 4.5681,
-      "confidence": "⚠️ 中",
+      "address": "270宜蘭縣蘇澳鎮新城里中山路二段415號3F",
+      "note": "火鍋店",
+      "bayesian_score": 4.741,
+      "confidence": "✅ 高",
       "rank": 2,
       "selected": true
     },
     {
-      "place_id": "ChIJEbdTDHufaDQRKKm-AJ_jb5w",
-      "name_zh": "川壽司 花蓮 新城 家樂福附近 日式 生魚片 居酒屋 燒烤 炸物 烏龍麵",
+      "place_id": "ChIJw78p4TnoZzQRsQQibeJf414",
+      "name_zh": "樂樂牛排",
       "rating": 4.7,
-      "total_ratings": 333,
+      "total_ratings": 2724,
       "location": {
-        "lat": 24.015828,
-        "lng": 121.6074705
+        "lat": 24.596280099999998,
+        "lng": 121.83821999999999
       },
-      "address": "971花蓮縣新城鄉嘉里村嘉里三街23之6號",
-      "note": "日式餐廳",
-      "bayesian_score": 4.531,
-      "confidence": "⚠️ 中",
+      "address": "270宜蘭縣蘇澳鎮聖愛里中山路一段487號",
+      "note": "牛排館",
+      "bayesian_score": 4.6489,
+      "confidence": "✅ 高",
       "rank": 3,
       "selected": true
     },
     {
-      "place_id": "ChIJPS_NyoSfaDQRilyM-ATao_g",
-      "name_zh": "Wooli韓式料理店",
-      "rating": 4.8,
-      "total_ratings": 196,
+      "place_id": "ChIJC5vH2DvoZzQR-00YuSvy7yk",
+      "name_zh": "食令鮮魚湯店（採現場候位，無接受訂位）",
+      "rating": 4.7,
+      "total_ratings": 1657,
       "location": {
-        "lat": 24.0314277,
-        "lng": 121.60464660000001
+        "lat": 24.595423,
+        "lng": 121.84103409999999
       },
-      "address": "971花蓮縣新城鄉北埔村北埔路151號",
-      "note": "韓國餐廳",
-      "bayesian_score": 4.5247,
-      "confidence": "⚠️ 中",
+      "address": "270宜蘭縣蘇澳鎮蘇西里蘇港路254號",
+      "note": "海鮮餐廳",
+      "bayesian_score": 4.626,
+      "confidence": "✅ 高",
       "rank": 4,
       "selected": true
     },
     {
-      "place_id": "ChIJ16odd5yfaDQRw1Gc86yN884",
-      "name_zh": "町屋丼飯 北埔店-花蓮美食-餐廳-咖哩-Restaurants",
+      "place_id": "ChIJE_PnssLpZzQRaC-B1E33OLw",
+      "name_zh": "陽光田園 Pasta (蘇澳店)｜宜蘭美食｜蘇澳美食｜蘇澳必吃｜在地推薦｜人氣餐廳｜聚餐首選｜義大利麵｜排餐｜",
       "rating": 4.7,
-      "total_ratings": 275,
+      "total_ratings": 746,
       "location": {
-        "lat": 24.035163999999998,
-        "lng": 121.603459
+        "lat": 24.595586899999997,
+        "lng": 121.84530850000002
       },
-      "address": "971花蓮縣新城鄉北埔村北埔路270號",
+      "address": "27044宜蘭縣蘇澳鎮蘇西里中山路一段207號",
       "note": "餐廳",
-      "bayesian_score": 4.5156,
-      "confidence": "⚠️ 中",
+      "bayesian_score": 4.5805,
+      "confidence": "✅ 高",
       "rank": 5,
       "selected": true
     },
     {
-      "place_id": "ChIJ089BSYkhZjQRrE8w9ADayZ8",
-      "name_zh": "海・燒肉｜預約制精緻燒肉",
-      "rating": 4.8,
-      "total_ratings": 162,
+      "place_id": "ChIJcUZlKZTpZzQRiAOG2yvLxBk",
+      "name_zh": "三顧茅廬蘇澳馬賽店",
+      "rating": 4.9,
+      "total_ratings": 222,
       "location": {
-        "lat": 24.0266958,
-        "lng": 121.63132410000001
+        "lat": 24.620548499999998,
+        "lng": 121.83445599999999
       },
-      "address": "971花莲县新城乡新城鄉七星街53巷3號",
-      "note": "餐廳",
-      "bayesian_score": 4.5068,
+      "address": "No. 82號, Datong Rd, 永榮里蘇澳鎮宜蘭縣270",
+      "note": "火鍋店",
+      "bayesian_score": 4.5614,
       "confidence": "❌ 低",
       "rank": 6,
       "selected": false
     },
     {
-      "place_id": "ChIJfa2MUYafaDQRh8pOF7s3n7s",
-      "name_zh": "武家乾麵",
-      "rating": 4.7,
-      "total_ratings": 196,
+      "place_id": "ChIJY4LAEADpZzQRHE3QZWoyNKk",
+      "name_zh": "冬蒔茶屋 (冬天限定) 夏休中，安永心食館內3樓",
+      "rating": 4.8,
+      "total_ratings": 292,
       "location": {
-        "lat": 24.037786999999998,
-        "lng": 121.6031195
+        "lat": 24.614880100000004,
+        "lng": 121.81794199999999
       },
-      "address": "971花蓮縣新城鄉新秀村光復路499-29號",
+      "address": "270宜蘭縣蘇澳鎮新城里中山路二段415號",
       "note": "餐廳",
-      "bayesian_score": 4.4895,
-      "confidence": "⚠️ 中",
+      "bayesian_score": 4.556,
+      "confidence": "❌ 低",
       "rank": 7,
       "selected": false
     },
     {
-      "place_id": "ChIJWS6K7CWeaDQRVbzrqXV8b24",
-      "name_zh": "劉姥姥麵店",
-      "rating": 4.7,
-      "total_ratings": 195,
+      "place_id": "ChIJ6XWjLKLpZzQRsOp_naG7gKI",
+      "name_zh": "夯來夯趣-行動烤肉車/宜蘭代客料理/宜蘭到府烤肉/宜蘭外燴/家庭聚餐活動/燒烤串燒/懶人料理",
+      "rating": 4.9,
+      "total_ratings": 168,
       "location": {
-        "lat": 24.005651399999998,
-        "lng": 121.62127910000001
+        "lat": 24.618893399999997,
+        "lng": 121.8406346
       },
-      "address": "970花蓮縣花蓮市民享里華廈街61之1號",
+      "address": "270012宜蘭縣蘇澳鎮隘丁里隘界路220號",
       "note": "餐廳",
-      "bayesian_score": 4.4892,
-      "confidence": "⚠️ 中",
+      "bayesian_score": 4.5411,
+      "confidence": "❌ 低",
       "rank": 8,
       "selected": false
     },
     {
-      "place_id": "ChIJGY5m37ifaDQRY8BWLS0J2_w",
-      "name_zh": "莎莉好食Sarlee's（營業日請參考IG、臉書粉專）",
-      "rating": 4.5,
-      "total_ratings": 823,
+      "place_id": "ChIJJWQLp7fpZzQRuf9sWZBQb_Q",
+      "name_zh": "豐炊潮丼",
+      "rating": 4.7,
+      "total_ratings": 332,
       "location": {
-        "lat": 24.0266757,
-        "lng": 121.63064439999998
+        "lat": 24.617363599999997,
+        "lng": 121.8341952
       },
-      "address": "971花蓮縣新城鄉大漢村七星街106號",
-      "note": "餐廳",
-      "bayesian_score": 4.462,
-      "confidence": "✅ 高",
+      "address": "270宜蘭縣蘇澳鎮隘丁里仁愛路171號",
+      "note": "日式餐廳",
+      "bayesian_score": 4.534,
+      "confidence": "❌ 低",
       "rank": 9,
       "selected": false
     },
     {
-      "place_id": "ChIJsa7O0yWeaDQRIzcgLhWc_dk",
-      "name_zh": "美崙牛雜湯(泰國小吃)",
-      "rating": 4.6,
-      "total_ratings": 220,
+      "place_id": "ChIJs4prcqjpZzQRVemzhLKd3eQ",
+      "name_zh": "初心食堂",
+      "rating": 4.9,
+      "total_ratings": 121,
       "location": {
-        "lat": 24.0069685,
-        "lng": 121.622107
+        "lat": 24.615026699999998,
+        "lng": 121.8142769
       },
-      "address": "970花蓮縣花蓮市民享里球崙一路299-295號",
-      "note": "泰國餐廳",
-      "bayesian_score": 4.4604,
-      "confidence": "⚠️ 中",
+      "address": "270宜蘭縣蘇澳鎮新城里中山路二段482號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.5213,
+      "confidence": "❌ 低",
       "rank": 10,
       "selected": false
     },
     {
-      "place_id": "ChIJKRYAHumfaDQRHdDhr4ejTZQ",
-      "name_zh": "日向夏食賦",
-      "rating": 4.8,
-      "total_ratings": 79,
+      "place_id": "ChIJYXAkys3pZzQRIkfaIEuL7eg",
+      "name_zh": "思村路1之2号",
+      "rating": 4.6,
+      "total_ratings": 427,
       "location": {
-        "lat": 24.0053287,
-        "lng": 121.62061360000001
+        "lat": 24.623714999999997,
+        "lng": 121.8383229
       },
-      "address": "970花蓮縣花蓮市民享里華廈街40號",
-      "note": "亞洲風味餐廳",
-      "bayesian_score": 4.4516,
-      "confidence": "❌ 低",
+      "address": "270宜蘭縣蘇澳鎮永榮里思村路1-2號",
+      "note": "餐廳",
+      "bayesian_score": 4.5108,
+      "confidence": "⚠️ 中",
       "rank": 11,
       "selected": false
     },
     {
-      "place_id": "ChIJp4tshkefaDQRJQJ8_Fva8CY",
-      "name_zh": "東岸海鮮餐廳",
+      "place_id": "ChIJfUS1413oZzQRuCA6ezUngxs",
+      "name_zh": "吟香牛肉麵",
       "rating": 4.7,
-      "total_ratings": 108,
+      "total_ratings": 135,
       "location": {
-        "lat": 24.036735999999998,
-        "lng": 121.6067105
+        "lat": 24.618166799999997,
+        "lng": 121.83462279999999
       },
-      "address": "971花蓮縣新城鄉北埔村大漢村民有街136號",
-      "note": "餐廳",
-      "bayesian_score": 4.4501,
+      "address": "270宜蘭縣蘇澳鎮隘丁里仁愛路184號",
+      "note": "中式麵館",
+      "bayesian_score": 4.4963,
       "confidence": "❌ 低",
       "rank": 12,
       "selected": false
     },
     {
-      "place_id": "ChIJcRj-taggZjQR1QDmzyWGtWg",
-      "name_zh": "Bar Shepherd - 牧羊人",
-      "rating": 4.5,
-      "total_ratings": 522,
+      "place_id": "ChIJPwPWzpDpZzQRbIinzp0CmGY",
+      "name_zh": "甲味鮮無刺虱目魚肚(飯,麵,粥)",
+      "rating": 4.7,
+      "total_ratings": 124,
       "location": {
-        "lat": 24.024253599999998,
-        "lng": 121.6338631
+        "lat": 24.6247459,
+        "lng": 121.83400519999998
       },
-      "address": "971花蓮縣花蓮市民心里七星街9號",
-      "note": "餐廳",
-      "bayesian_score": 4.449,
-      "confidence": "✅ 高",
+      "address": "No. 194號, Datong Rd, 永榮里蘇澳鎮宜蘭縣270",
+      "note": "海鮮餐廳",
+      "bayesian_score": 4.4937,
+      "confidence": "❌ 低",
       "rank": 13,
       "selected": false
     },
     {
-      "place_id": "ChIJ97ii3tGfaDQR-3JTiL1fh0U",
-      "name_zh": "穀司鐵板燒(無預約服務、休息日請參考粉絲專頁、用餐人數限定6人以下、用餐人到齊才一起進來用餐)",
-      "rating": 4.5,
-      "total_ratings": 263,
+      "place_id": "ChIJK5nqtpznZzQRQkx5vka4Yus",
+      "name_zh": "蘭城_魷不得你_魷魚嘴焿",
+      "rating": 4.7,
+      "total_ratings": 96,
       "location": {
-        "lat": 24.029005599999998,
-        "lng": 121.6058748
+        "lat": 24.622199499999997,
+        "lng": 121.8346285
       },
-      "address": "971花蓮縣新城鄉北埔村北埔路110號1樓",
-      "note": "日式餐廳",
-      "bayesian_score": 4.4279,
-      "confidence": "⚠️ 中",
+      "address": "No. 116號, Datong Rd, 永榮里蘇澳鎮宜蘭縣270",
+      "note": "餐廳",
+      "bayesian_score": 4.4867,
+      "confidence": "❌ 低",
       "rank": 14,
       "selected": false
     },
     {
-      "place_id": "ChIJmXsuIbyfaDQRS62Ldr0OEGw",
-      "name_zh": "客家小吃（原北埔路）",
-      "rating": 4.9,
-      "total_ratings": 20,
+      "place_id": "ChIJ9V8QiTjpZzQR7i60S9xOUxg",
+      "name_zh": "食為天",
+      "rating": 4.7,
+      "total_ratings": 75,
       "location": {
-        "lat": 24.0343373,
-        "lng": 121.60255769999999
+        "lat": 24.6241125,
+        "lng": 121.8341918
       },
-      "address": "971花蓮縣新城鄉北埔村復興路326號",
-      "note": "中式餐廳",
-      "bayesian_score": 4.403,
+      "address": "270宜蘭縣蘇澳鎮大同路181號",
+      "note": "台式餐廳",
+      "bayesian_score": 4.4812,
       "confidence": "❌ 低",
       "rank": 15,
       "selected": false
     },
     {
-      "place_id": "ChIJBalCvJ-faDQRW642VK_mVjY",
-      "name_zh": "新城-站前小吃舖",
-      "rating": 5,
-      "total_ratings": 13,
+      "place_id": "ChIJq7ZmC6vpZzQRwu_mT_P2lGI",
+      "name_zh": "阿鳳越南河粉小吃",
+      "rating": 4.7,
+      "total_ratings": 45,
       "location": {
-        "lat": 24.0325174,
-        "lng": 121.6036333
+        "lat": 24.5953129,
+        "lng": 121.84934750000001
       },
-      "address": "971花蓮縣新城鄉北埔村民族路39號",
-      "note": "中式餐廳",
-      "bayesian_score": 4.3972,
+      "address": "270宜蘭縣蘇澳鎮蘇西里蘇南路78號",
+      "note": "家庭餐廳",
+      "bayesian_score": 4.4728,
       "confidence": "❌ 低",
       "rank": 16,
       "selected": false
     },
     {
-      "place_id": "ChIJLfYATaggZjQRzs_J_HUK_i8",
-      "name_zh": "七星客棧",
-      "rating": 4.4,
-      "total_ratings": 353,
+      "place_id": "ChIJV8Kc5ivpZzQRQGHbM8PH6eA",
+      "name_zh": "朝晴庭餐廳",
+      "rating": 4.5,
+      "total_ratings": 128,
       "location": {
-        "lat": 24.026342000000003,
-        "lng": 121.63034400000001
+        "lat": 24.5979255,
+        "lng": 121.85326520000001
       },
-      "address": "971花蓮縣新城鄉大漢村七星街79巷5號",
+      "address": "270宜蘭縣蘇澳鎮蘇南里中正路38號",
       "note": "餐廳",
-      "bayesian_score": 4.3876,
-      "confidence": "⚠️ 中",
+      "bayesian_score": 4.4649,
+      "confidence": "❌ 低",
       "rank": 17,
       "selected": false
     },
     {
-      "place_id": "ChIJqRLGUIudaDQRXW1IO2M4RMY",
-      "name_zh": "大漢街早餐(本店)",
-      "rating": 4.4,
-      "total_ratings": 262,
+      "place_id": "ChIJO5ruaWfoZzQRYsD3rxNwye8",
+      "name_zh": "家家水餃店",
+      "rating": 4.5,
+      "total_ratings": 114,
       "location": {
-        "lat": 24.0426254,
-        "lng": 121.60594630000001
+        "lat": 24.617346299999998,
+        "lng": 121.8324787
       },
-      "address": "971花蓮縣新城鄉大漢村大漢街54號",
-      "note": "早餐店",
-      "bayesian_score": 4.3858,
-      "confidence": "⚠️ 中",
+      "address": "270宜蘭縣蘇澳鎮隘丁里忠孝路383號",
+      "note": "台式餐廳",
+      "bayesian_score": 4.4643,
+      "confidence": "❌ 低",
       "rank": 18,
       "selected": false
     },
     {
-      "place_id": "ChIJ2wGVsBMhZjQRLjhmXyWbURg",
-      "name_zh": "漁人立食",
-      "rating": 4.5,
-      "total_ratings": 28,
+      "place_id": "ChIJ5ws7KgDpZzQRH0fbxcAuy64",
+      "name_zh": "萊爾富前大腸包小腸",
+      "rating": 4.8,
+      "total_ratings": 9,
       "location": {
-        "lat": 24.027142599999998,
-        "lng": 121.6294197
+        "lat": 24.6126714,
+        "lng": 121.83227289999999
       },
-      "address": "971花蓮縣新城鄉大漢村七星街148號",
-      "note": "中式餐廳",
-      "bayesian_score": 4.3844,
+      "address": "270宜蘭縣蘇澳鎮鎮海山西路270號",
+      "note": "餐廳",
+      "bayesian_score": 4.4629,
       "confidence": "❌ 低",
       "rank": 19,
       "selected": false
     },
     {
-      "place_id": "ChIJZe4DV7ifaDQRJQ3kiJ3pLNs",
-      "name_zh": "食巷茶弄複合式餐館",
-      "rating": 4.4,
-      "total_ratings": 152,
+      "place_id": "ChIJl1Ldd1voZzQRZTiJGxxWLNg",
+      "name_zh": "林一張 合鴨米飯",
+      "rating": 4.5,
+      "total_ratings": 20,
       "location": {
-        "lat": 24.0323238,
-        "lng": 121.6027221
+        "lat": 24.6142762,
+        "lng": 121.8399841
       },
-      "address": "971花蓮縣新城鄉北埔村復興路259號",
-      "note": "台式餐廳",
-      "bayesian_score": 4.3827,
+      "address": "270宜蘭縣蘇澳鎮隘丁里城東路199巷1號",
+      "note": "餐廳",
+      "bayesian_score": 4.4599,
       "confidence": "❌ 低",
       "rank": 20,
       "selected": false
     },
     {
-      "place_id": "ChIJM5o_2XKeaDQR3cKqs_v9riw",
-      "name_zh": "古早味小吃",
+      "place_id": "ChIJDcTEon_pZzQREaLGewSfcJU",
+      "name_zh": "大江南北 享好呷小吃",
       "rating": 4.4,
-      "total_ratings": 146,
+      "total_ratings": 18,
       "location": {
-        "lat": 24.032035999999998,
-        "lng": 121.6045037
+        "lat": 24.5956705,
+        "lng": 121.83801389999999
       },
-      "address": "971花蓮縣新城鄉北埔村北埔路169號",
-      "note": "餐廳",
-      "bayesian_score": 4.3825,
+      "address": "270宜蘭縣蘇澳鎮聖湖里蘇港路363號號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.4574,
       "confidence": "❌ 低",
       "rank": 21,
       "selected": false
     },
     {
-      "place_id": "ChIJK0HbUQCfaDQRAOBbReuGR4U",
-      "name_zh": "太魯閣拉麵丼飯_達達食堂_北埔夜市攤",
-      "rating": 5,
-      "total_ratings": 1,
+      "place_id": "ChIJr1gzWGfoZzQR-2sedQMit-M",
+      "name_zh": "風味越南小吃",
+      "rating": 4.4,
+      "total_ratings": 189,
       "location": {
-        "lat": 24.039456899999998,
-        "lng": 121.6031998
+        "lat": 24.6177262,
+        "lng": 121.8333154
       },
-      "address": "971花蓮縣新城鄉新秀村北埔路369號",
-      "note": "日式餐廳",
-      "bayesian_score": 4.3772,
+      "address": "270宜蘭縣蘇澳鎮隘丁里新馬路29號",
+      "note": "越南餐廳",
+      "bayesian_score": 4.4467,
       "confidence": "❌ 低",
       "rank": 22,
       "selected": false
     },
     {
-      "place_id": "ChIJmXj0F3OeaDQRdYiofgCerYM",
-      "name_zh": "米粉焿.炒米粉.炒麵.米糕.紅茶.綠豆湯",
+      "place_id": "ChIJE-i6nGvpZzQRJC7g6jk7eQI",
+      "name_zh": "霖山餐坊",
       "rating": 4.4,
-      "total_ratings": 22,
+      "total_ratings": 212,
       "location": {
-        "lat": 24.03324,
-        "lng": 121.6039867
+        "lat": 24.6063813,
+        "lng": 121.82643490000001
       },
-      "address": "971花蓮縣新城鄉北埔村北埔路207號號",
-      "note": "中式餐廳",
-      "bayesian_score": 4.3769,
+      "address": "270013宜蘭縣蘇澳鎮聖愛里中山路二段181巷29號",
+      "note": "餐廳",
+      "bayesian_score": 4.4456,
       "confidence": "❌ 低",
       "rank": 23,
       "selected": false
     },
     {
-      "place_id": "ChIJf-7IR6-faDQRmzfptpmQOIo",
-      "name_zh": "唰嘴小吃",
-      "rating": 4.2,
-      "total_ratings": 14,
+      "place_id": "ChIJl2cgSz3pZzQRDZpyPNLLwtM",
+      "name_zh": "英逃鴨麵食館(宜蘭美食推薦/蘇澳小吃 /蘇澳美食/蘇澳晚餐/蘇澳宵夜/蘇澳必吃餐廳)",
+      "rating": 2.8,
+      "total_ratings": 6,
       "location": {
-        "lat": 24.037924999999998,
-        "lng": 121.60339490000001
+        "lat": 24.6165435,
+        "lng": 121.82765529999999
       },
-      "address": "971花蓮縣新城鄉新秀村光復路501之12號",
-      "note": "中式餐廳",
-      "bayesian_score": 4.369,
+      "address": "270宜蘭縣蘇澳鎮新城里新馬路147號",
+      "note": "餐廳",
+      "bayesian_score": 4.4453,
       "confidence": "❌ 低",
       "rank": 24,
       "selected": false
     },
     {
-      "place_id": "ChIJ86_Bbp6faDQRbG7bdlFSQVQ",
-      "name_zh": "木樂日式炸豬排",
-      "rating": 4.3,
-      "total_ratings": 1211,
+      "place_id": "ChIJ5UAVQmfoZzQR_Khzh5kji3Y",
+      "name_zh": "SWEETHEART複合式餐館",
+      "rating": 4.4,
+      "total_ratings": 220,
       "location": {
-        "lat": 24.0057059,
-        "lng": 121.6316583
+        "lat": 24.6174397,
+        "lng": 121.83268939999999
       },
-      "address": "970花蓮縣花蓮市民孝里東興路433-1號",
-      "note": "日式炸豬排餐廳",
-      "bayesian_score": 4.3174,
-      "confidence": "✅ 高",
+      "address": "270宜蘭縣蘇澳鎮隘丁里忠孝路376號",
+      "note": "餐廳",
+      "bayesian_score": 4.4452,
+      "confidence": "❌ 低",
       "rank": 25,
       "selected": false
     },
     {
-      "place_id": "ChIJB4TEnqkgZjQR-XrSikVh13M",
-      "name_zh": "慕名私房料理",
-      "rating": 4.3,
-      "total_ratings": 2507,
+      "place_id": "ChIJD2TnoJTpZzQRA0Jl-be6JBE",
+      "name_zh": "蘇嘻餐飲",
+      "rating": 4.4,
+      "total_ratings": 363,
       "location": {
-        "lat": 24.027668,
-        "lng": 121.630672
+        "lat": 24.5958729,
+        "lng": 121.84985639999998
       },
-      "address": "971花蓮縣新城鄉大漢村明潭街10巷23號",
+      "address": "270宜蘭縣蘇澳鎮蘇北里中山路一段105號",
       "note": "餐廳",
-      "bayesian_score": 4.3095,
-      "confidence": "✅ 高",
+      "bayesian_score": 4.4393,
+      "confidence": "❌ 低",
       "rank": 26,
       "selected": false
     },
     {
-      "place_id": "ChIJL_tia3OeaDQRxUqZRQeTFKo",
-      "name_zh": "林嘉香扁食紅油炒手",
-      "rating": 4.2,
-      "total_ratings": 449,
+      "place_id": "ChIJpRXw9DboZzQRTtqq3YDqUdw",
+      "name_zh": "佐食坊 蘇澳店",
+      "rating": 4.3,
+      "total_ratings": 455,
       "location": {
-        "lat": 24.034061899999998,
-        "lng": 121.60371549999999
+        "lat": 24.596018599999997,
+        "lng": 121.84897429999998
       },
-      "address": "971花蓮縣新城鄉北埔村北埔路249號",
+      "address": "270宜蘭縣蘇澳鎮蘇西里中山路一段146號",
       "note": "餐廳",
-      "bayesian_score": 4.2783,
-      "confidence": "✅ 高",
+      "bayesian_score": 4.398,
+      "confidence": "⚠️ 中",
       "rank": 27,
       "selected": false
     },
     {
-      "place_id": "ChIJ_7sLI3OeaDQRlTz9mXng5Z8",
-      "name_zh": "許家炒飯",
-      "rating": 3.7,
-      "total_ratings": 77,
+      "place_id": "ChIJ6QmFrzXoZzQRLxg2nHKyLDY",
+      "name_zh": "口之味",
+      "rating": 4.1,
+      "total_ratings": 193,
       "location": {
-        "lat": 24.0330752,
-        "lng": 121.6042756
+        "lat": 24.5960333,
+        "lng": 121.85284360000001
       },
-      "address": "971花蓮縣新城鄉北埔村北埔路182-1號",
+      "address": "270宜蘭縣蘇澳鎮蘇南里中山路一段9號",
       "note": "餐廳",
-      "bayesian_score": 4.257,
+      "bayesian_score": 4.384,
       "confidence": "❌ 低",
       "rank": 28,
       "selected": false
     },
     {
-      "place_id": "ChIJN1w3HqkgZjQRl1sPy4WrqhE",
-      "name_zh": "包鮮樓海鮮餐廳/restaurants/七星潭美食/花蓮美食/推薦晚餐/附近美食/吃的",
-      "rating": 3.9,
-      "total_ratings": 395,
+      "place_id": "ChIJ_zsqYTTpZzQRVVhJHI1qSMY",
+      "name_zh": "山口食堂",
+      "rating": 4.2,
+      "total_ratings": 563,
       "location": {
-        "lat": 24.0266295,
-        "lng": 121.63176799999998
+        "lat": 24.5953428,
+        "lng": 121.8408289
       },
-      "address": "971花蓮縣新城鄉大漢村七星街45之1號45之1號",
-      "note": "餐廳",
-      "bayesian_score": 4.1273,
-      "confidence": "✅ 高",
+      "address": "270宜蘭縣蘇澳鎮蘇西里蘇港路258號",
+      "note": "日式餐廳",
+      "bayesian_score": 4.3463,
+      "confidence": "⚠️ 中",
       "rank": 29,
       "selected": false
     },
     {
-      "place_id": "ChIJHWYJ8KggZjQRB-fmJv6gr9M",
-      "name_zh": "七海灣海景餐廳",
-      "rating": 3.6,
-      "total_ratings": 864,
+      "place_id": "ChIJI7EmZ9rpZzQROuTrWJesr4s",
+      "name_zh": "大芳園小吃部",
+      "rating": 4.1,
+      "total_ratings": 407,
       "location": {
-        "lat": 24.0273137,
-        "lng": 121.62907070000001
+        "lat": 24.6168263,
+        "lng": 121.838791
       },
-      "address": "971花蓮縣新城鄉大漢村七星街152號",
-      "note": "餐廳",
-      "bayesian_score": 3.8289,
-      "confidence": "✅ 高",
+      "address": "270宜蘭縣蘇澳鎮隘丁里五甲路62號",
+      "note": "海鮮餐廳",
+      "bayesian_score": 4.3307,
+      "confidence": "⚠️ 中",
       "rank": 30,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJM1FhfDvpZzQRhuQgxKHdh0Q",
+      "name_zh": "富美食堂21",
+      "rating": 3.2,
+      "total_ratings": 84,
+      "location": {
+        "lat": 24.6214132,
+        "lng": 121.81576690000001
+      },
+      "address": "270宜蘭縣蘇澳鎮新城里蘇新路81號",
+      "note": "台式餐廳",
+      "bayesian_score": 4.3293,
+      "confidence": "❌ 低",
+      "rank": 31,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJHz0KFTfoZzQRqZ8kyYAf4Rc",
+      "name_zh": "美津早餐店 - 肉包、蛋餅",
+      "rating": 4.2,
+      "total_ratings": 775,
+      "location": {
+        "lat": 24.5956879,
+        "lng": 121.84642149999999
+      },
+      "address": "270宜蘭縣蘇澳鎮蘇西里中山路一段165之3號",
+      "note": "早餐店",
+      "bayesian_score": 4.3258,
+      "confidence": "✅ 高",
+      "rank": 32,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJdVsfQuflZzQRlWfDZPApBDw",
+      "name_zh": "番割田甕缸雞",
+      "rating": 4.3,
+      "total_ratings": 10183,
+      "location": {
+        "lat": 24.6139302,
+        "lng": 121.8298607
+      },
+      "address": "270宜蘭縣蘇澳鎮里海山西路309號",
+      "note": "雞肉料理餐廳",
+      "bayesian_score": 4.3107,
+      "confidence": "✅ 高",
+      "rank": 33,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJxZKvzTXoZzQRUL2KDOcJ8Y0",
+      "name_zh": "正好鮮肉小籠包-蘇澳店",
+      "rating": 4.2,
+      "total_ratings": 1196,
+      "location": {
+        "lat": 24.5957424,
+        "lng": 121.8512291
+      },
+      "address": "270宜蘭縣蘇澳鎮蘇南里太平路21號",
+      "note": "餐廳",
+      "bayesian_score": 4.2983,
+      "confidence": "✅ 高",
+      "rank": 34,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJl1Ldd1voZzQRMjLV8O52m1s",
+      "name_zh": "稻香園",
+      "rating": 4.1,
+      "total_ratings": 812,
+      "location": {
+        "lat": 24.6142494,
+        "lng": 121.84000560000001
+      },
+      "address": "270宜蘭縣蘇澳鎮隘丁里城東路199巷1號",
+      "note": "台式餐廳",
+      "bayesian_score": 4.2702,
+      "confidence": "✅ 高",
+      "rank": 35,
       "selected": false
     }
   ]

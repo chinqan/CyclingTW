@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJHz0KFTfoZzQRqZ8kyYAf4Rc",
+  "name_zh": "美津早餐店 - 肉包、蛋餅",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 775,
+  "location": {
+    "lat": 24.5956879,
+    "lng": 121.84642149999999
+  },
+  "address": "270宜蘭縣蘇澳鎮蘇西里中山路一段165之3號",
+  "primary_type": "breakfast_restaurant",
+  "primary_type_label": "早餐店",
+  "distance_km": 2.4,
+  "source": "api_2026-06-02",
+  "note": "早餐店",
+  "name_is_ascii": false
+}

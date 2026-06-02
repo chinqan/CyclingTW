@@ -1,0 +1,20 @@
+{
+  "place_id": "ChIJC6SxO6_NcTQRqjZJAa19sxQ",
+  "name_zh": "旭海美景",
+  "rating": 4.8,
+  "total_ratings": 2303,
+  "location": {
+    "lat": 22.1853327,
+    "lng": 120.8915292
+  },
+  "source": "api_2026-06-02",
+  "opening_hours_text": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ]
+}

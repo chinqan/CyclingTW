@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJE-i6nGvpZzQRJC7g6jk7eQI",
+  "name_zh": "霖山餐坊",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 212,
+  "location": {
+    "lat": 24.6063813,
+    "lng": 121.82643490000001
+  },
+  "address": "270013宜蘭縣蘇澳鎮聖愛里中山路二段181巷29號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.31,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJIStKj5jpZzQRz7zVF-PfmVY",
+  "name_zh": "湯院子-日式鍋物",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 1734,
+  "location": {
+    "lat": 24.613235,
+    "lng": 121.83167780000001
+  },
+  "address": "270宜蘭縣蘇澳鎮里海山西路286號",
+  "primary_type": "hot_pot_restaurant",
+  "primary_type_label": "火鍋店",
+  "distance_km": 0.63,
+  "source": "api_2026-06-02",
+  "note": "火鍋店",
+  "name_is_ascii": false
+}

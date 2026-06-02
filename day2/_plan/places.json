@@ -27,7 +27,7 @@
         "lng": 120.62359439999999
       },
       "rating": 4.6,
-      "total_ratings": 17323,
+      "total_ratings": 17322,
       "search_keyword": "台中市大甲區 大甲鎮瀾宮",
       "note": "必經 大甲鎮瀾宮 媽祖總本山 km約19",
       "bayesian_score": 4.6
@@ -126,15 +126,17 @@
     },
     {
       "csv_type": "景點",
-      "name_zh": "西螺大橋",
-      "place_id": "ChIJrZs43EK0bjQRK3XsEqYto-Y",
+      "name_zh": "西螺大橋廣場",
+      "place_id": "ChIJz0wXCUC0bjQRRSCjz1OizeU",
       "location": {
-        "lat": 23.8138002,
-        "lng": 120.461058
+        "lat": 23.8049045,
+        "lng": 120.4596467
       },
-      "search_keyword": "雲林縣西螺鎮 西螺大橋",
-      "note": "必經 西螺大橋 ★主視覺 紅色鋼桁架跨濁水溪 km約90",
-      "bayesian_score": null
+      "search_keyword": "雲林縣西螺鎮 西螺大橋廣場",
+      "note": "必經 西螺大橋廣場 ★主視覺 紅色鋼桁架歷史大橋（橋體已封閉禁行，於西螺端廣場觀景拍照，過河走台1線溪州大橋）km約90",
+      "bayesian_score": 4.4,
+      "rating": 4.4,
+      "total_ratings": 5102
     },
     {
       "csv_type": "起終點",
@@ -153,8 +155,16 @@
   ],
   "bayesian_C": 4.4953,
   "bayesian_m": 268,
-  "elevation_ascent_m": 148,
-  "elevation_descent_m": 128,
-  "ors_distance_km": 100.9,
-  "ors_duration_hours": 6.3
+  "elevation_ascent_m": 138,
+  "elevation_descent_m": 118,
+  "ors_distance_km": 100.0,
+  "ors_duration_hours": 6.2,
+  "route_via": [
+    {
+      "name": "台1線溪州大橋過河點(via)",
+      "lat": 23.816,
+      "lng": 120.4683,
+      "after": 8
+    }
+  ]
 }

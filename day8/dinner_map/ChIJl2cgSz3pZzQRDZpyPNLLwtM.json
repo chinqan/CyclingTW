@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJl2cgSz3pZzQRDZpyPNLLwtM",
+  "name_zh": "英逃鴨麵食館(宜蘭美食推薦/蘇澳小吃 /蘇澳美食/蘇澳晚餐/蘇澳宵夜/蘇澳必吃餐廳)",
+  "name_lang": "zh-TW",
+  "rating": 2.8,
+  "total_ratings": 6,
+  "location": {
+    "lat": 24.6165435,
+    "lng": 121.82765529999999
+  },
+  "address": "270宜蘭縣蘇澳鎮新城里新馬路147號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.85,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

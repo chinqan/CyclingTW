@@ -2,18 +2,18 @@
   "day": 9,
   "origin_label": "蘇澳",
   "destination_label": "金山",
-  "distance_range": "約 132.6 公里",
+  "distance_range": "約 126.8 公里",
   "subtitle": "東北角濱海極東追風行",
   "orientation": "horizontal_landscape_3_2",
   "lighting": "東北角海岸明亮日光、海面粼粼波光",
-  "allowed_elements": "宜蘭蘇澳港海景、舊草嶺隧道自行車道、福隆沙灘、三貂角純白燈塔海岬、太平洋與東海交會海面、東北角奇岩海岸、野柳地質公園遠景",
+  "allowed_elements": "宜蘭蘇澳港海景、卯澳漁村石頭屋聚落、馬崗潮間帶、福隆沙灘、三貂角純白燈塔海岬、太平洋與東海交會海面、東北角奇岩海岸、外木山湖海路濱海自行車道、野柳地質公園遠景",
   "enhancement": "畫面呈現沿東北角海岸線北行追尋極東點三貂角的壯闊旅程感、純白三貂角燈塔矗立太平洋海岬作為視覺主軸、東北角奇岩海岸象徵台灣東北角獨特海洋風貌",
   "main_visual": {
     "place_id": "ChIJmWtqgIJnXTQRGWfG25olU-8",
     "location_desc": "新北市貢寮「三貂角燈塔」（台灣本島極東點）",
     "scene_elements": "純白西班牙式燈塔矗立海岬、太平洋與東海交會處碧藍海面、燈塔旁民航局雷達球、草地步道通往岬角",
-    "action": "牽著公路車走上三貂角最後一段步道、抬頭仰望白色燈塔",
-    "expression": "堅持、興奮、四極點即將集滿三座"
+    "action": "推著公路車走上三貂角岬角的草地步道，抬頭仰望純白西班牙式燈塔與一旁的白色雷達球",
+    "expression": "即將集滿三座極點的堅持與興奮、站上台灣最東端的期待"
   },
   "small_avatar": {
     "place_id": "ChIJ6ZUIBmzoZzQRgjp01nDg5f0",
@@ -22,7 +22,7 @@
     "action": "推著單車走出車站準備北上",
     "expression": "專注、蓄勢待發、今天要征服極東"
   },
-  "composition": "主角在畫面中央偏上、蘇澳新站在右上方小分身、金山老街在畫面左側遠景、沿途點綴蘭陽博物館、舊草嶺隧道、福隆海水浴場、大坪海岸",
+  "composition": "主角在畫面中央偏上、蘇澳新站在右上方小分身、金山老街在畫面左側遠景、沿途點綴蘭陽博物館、福隆海水浴場、大坪海岸、獅子公園",
   "geographic_notes": "蘇澳新站在畫面右側（東側）、金山老街在畫面左側（西側）",
   "_last_place_id": "ChIJiXwhwldLXTQRZfw6fpm4Q9Q"
 }

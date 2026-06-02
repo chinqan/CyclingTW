@@ -41,7 +41,7 @@
         "lng": 121.3574028
       },
       "rating": 4.2,
-      "total_ratings": 8809,
+      "total_ratings": 8808,
       "search_keyword": "花蓮縣瑞穗鄉 舞鶴北回歸線標誌公園",
       "note": "必經 舞鶴北回歸線 北回歸線地標 km約25",
       "bayesian_score": 4.21
@@ -137,7 +137,7 @@
       "bayesian_score": null
     },
     {
-      "csv_type": "起終點",
+      "csv_type": "景點",
       "name_zh": "七星潭海岸風景特定區",
       "place_id": "ChIJpTcgYOidaDQRVHUO3ILkXJs",
       "location": {
@@ -145,16 +145,38 @@
         "lng": 121.62717639999998
       },
       "rating": 4.6,
-      "total_ratings": 28260,
+      "total_ratings": 28264,
       "search_keyword": "花蓮縣新城鄉 七星潭風景區",
-      "note": "終點 七星潭 ★主視覺 月牙灣礫石海灘 km約104（於新城站／花蓮站搭兩鐵列車接駁蘇澳新站）",
+      "note": "必經 七星潭 ★主視覺 礫石海灣弧形海岸 km約100",
       "bayesian_score": 4.6
+    },
+    {
+      "csv_type": "起終點",
+      "name_zh": "花蓮車站",
+      "place_id": "ChIJK6-HgbafaDQR99QetgTFgwU",
+      "location": {
+        "lat": 23.9933133,
+        "lng": 121.60124549999999
+      },
+      "search_keyword": "花蓮市 花蓮車站",
+      "note": "終點 花蓮車站 搭火車接駁蘇澳新站 km約106",
+      "rating": 4.2,
+      "total_ratings": 3172,
+      "bayesian_score": 4.22
     }
   ],
   "bayesian_C": 4.424,
   "bayesian_m": 311,
-  "elevation_ascent_m": 446,
-  "elevation_descent_m": 566,
-  "ors_distance_km": 99.8,
-  "ors_duration_hours": 6.2
+  "elevation_ascent_m": 493,
+  "elevation_descent_m": 616,
+  "ors_distance_km": 106.5,
+  "ors_duration_hours": 6.7,
+  "lodging_endpoint": {
+    "place_id": "ChIJ6ZUIBmzoZzQRgjp01nDg5f0",
+    "name_zh": "蘇澳新站",
+    "location": {
+      "lat": 24.6089299,
+      "lng": 121.8276828
+    }
+  }
 }

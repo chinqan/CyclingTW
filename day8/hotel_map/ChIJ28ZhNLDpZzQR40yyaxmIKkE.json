@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ28ZhNLDpZzQR40yyaxmIKkE",
+  "name_zh": "海燕民宿",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 217,
+  "location": {
+    "lat": 24.615595199999998,
+    "lng": 121.83524609999998
+  },
+  "address": "270宜蘭縣蘇澳鎮隘丁里信義路301號",
+  "primary_type": "private_guest_room",
+  "distance_km": 1.06,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJQY3SSjToZzQRMjRVF8dfoMM",
+  "name_zh": "亞洲旅社",
+  "name_lang": "zh-TW",
+  "rating": 2.6,
+  "total_ratings": 22,
+  "location": {
+    "lat": 24.5955077,
+    "lng": 121.85207259999999
+  },
+  "address": "270宜蘭縣蘇澳鎮蘇南里蘇南路18號",
+  "primary_type": "hotel",
+  "distance_km": 2.88,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

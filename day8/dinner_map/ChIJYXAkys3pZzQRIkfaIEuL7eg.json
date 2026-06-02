@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJYXAkys3pZzQRIkfaIEuL7eg",
+  "name_zh": "思村路1之2号",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 427,
+  "location": {
+    "lat": 24.623714999999997,
+    "lng": 121.8383229
+  },
+  "address": "270宜蘭縣蘇澳鎮永榮里思村路1-2號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.96,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

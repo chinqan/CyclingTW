@@ -1,0 +1,24 @@
+{
+  "place_id": "ChIJ2z5HDQDLcTQRhfpYbvrESTc",
+  "name_zh": "港仔觀海景咖啡餐飲（Judy cafe)",
+  "csv_type": "餐廳大休",
+  "location": {
+    "lat": 22.1332083,
+    "lng": 120.88562780000001
+  },
+  "search_keyword": "餐廳 小吃 風味餐",
+  "source": "api_2026-06-02",
+  "rating": 4.8,
+  "total_ratings": 15,
+  "address": "947屏東縣滿州鄉港仔村海墘路107-2號",
+  "primary_type": "restaurant",
+  "opening_hours_text": [
+    "Monday: Closed",
+    "Tuesday: Closed",
+    "Wednesday: Closed",
+    "Thursday: Closed",
+    "Friday: Closed",
+    "Saturday: 11:30 AM – 5:00 PM",
+    "Sunday: Closed"
+  ]
+}

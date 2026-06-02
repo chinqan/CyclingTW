@@ -2,15 +2,15 @@
   "day": 1,
   "origin_label": "新北蘆洲",
   "destination_label": "苗栗通霄",
-  "distance_range": "約 140.1 公里",
+  "distance_range": "約 139.9 公里",
   "subtitle": "西濱海岸線追風之旅",
   "orientation": "horizontal_landscape_3_2",
   "main_visual": {
     "place_id": "ChIJVVVVVWWuaTQRsf_BtcIo5Yo",
     "location_desc": "苗栗縣後龍「後龍好望角風景區」",
     "scene_elements": "草原緩坡制高點上一整排白色巨型風力發電機、腳下遼闊的台灣海峽海平線、綠色海岸階地草坡隨海風起伏、坡下蜿蜒的海線鐵路與消波塊海岸、藍天白雲",
-    "action": "牽著公路車站在好望角草坡頂端、迎著海風遠眺成排風機與無垠海平線",
-    "expression": "開闊暢快、被海風與風車震撼的感動"
+    "action": "牽著公路車佇立草坡制高點，一手扶彎把、一手指向腳下成排白色風力發電機與台灣海峽，迎海風遠眺",
+    "expression": "首日出發的興奮、被海風與巨型風車震撼的開闊暢快"
   },
   "small_avatar": {
     "location_desc": "新北市蘆洲「蘆洲柳堤公園」",

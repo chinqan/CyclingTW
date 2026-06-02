@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJJWQLp7fpZzQRuf9sWZBQb_Q",
+  "name_zh": "豐炊潮丼",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 332,
+  "location": {
+    "lat": 24.617363599999997,
+    "lng": 121.8341952
+  },
+  "address": "270宜蘭縣蘇澳鎮隘丁里仁愛路171號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 1.15,
+  "source": "api_2026-06-02",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

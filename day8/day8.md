@@ -1,4 +1,4 @@
-# Day 8：玉里車站 ➔ 七星潭（花東縱谷北行接駁日）
+# Day 8：玉里車站 ➔ 花蓮車站（花東縱谷北行接駁日）
 
 ---
 
@@ -8,10 +8,10 @@
 ## 路線總覽
 
 * **出發地**：玉里 / 安通
-* **目的地**：花蓮七星潭
-* **總距離**：99.8 公里（GPX 實測）
-* **總爬升 / 下降**：↑ 446 m ／ ↓ 566 m（花東縱谷平緩北行，經瑞穗、光復至花蓮市抵七星潭；七星潭後於花蓮站／新城站搭兩鐵列車接駁蘇澳新站（跳過蘇花公路））
-* **主要路線**：玉里 ➔ 玉富自行車道 ➔ 舞鶴北回歸線 ➔ 花蓮糖廠 ➔ 鳳林 ➔ 壽豐雲山水 ➔ 花蓮市 ➔ 七星潭
+* **目的地**：花蓮車站
+* **總距離**：106.5 公里（GPX 實測）
+* **總爬升 / 下降**：↑ 493 m ／ ↓ 616 m（花東縱谷平緩北行，經瑞穗、光復至花蓮市抵七星潭；七星潭後於花蓮站／新城站搭兩鐵列車接駁蘇澳新站（跳過蘇花公路））
+* **主要路線**：玉里 ➔ 玉富自行車道 ➔ 舞鶴北回歸線 ➔ 花蓮糖廠 ➔ 鳳林 ➔ 壽豐雲山水 ➔ 花蓮市 ➔ 七星潭 ➔ 花蓮車站
 
 [📱 開啟 Google Maps 導航](https://www.google.com/maps/dir/?api=1&origin=%E8%8A%B1%E8%93%AE%E7%B8%A3%E7%8E%89%E9%87%8C%E8%BB%8A%E7%AB%99&destination=%E8%8A%B1%E8%93%AE%E4%B8%83%E6%98%9F%E6%BD%AD&waypoints=%E7%8E%89%E5%AF%8C%E8%87%AA%E8%A1%8C%E8%BB%8A%E9%81%93%7C%E8%88%9E%E9%B6%B4%E5%8C%97%E5%9B%9E%E6%AD%B8%E7%B7%9A%7C%E8%8A%B1%E8%93%AE%E8%A7%80%E5%85%89%E7%B3%96%E5%BB%A0%7C%E8%8A%B1%E8%93%AE%E9%9B%B2%E5%B1%B1%E6%B0%B4%E5%A4%A2%E5%B9%BB%E6%B9%96&travelmode=bicycling)
 
@@ -37,7 +37,7 @@
 
 ```mermaid
 ishikawa-beta
-    Day 8 完騎 七星潭 約100km 接駁蘇澳新站
+    Day 8 完騎 七星潭 約106km 接駁蘇澳新站
     第四段 雲山水→七星潭 約29km
         16:30 七星潭 太平洋月牙灣 ★主視覺
         花蓮市區 東大門夜市
@@ -101,7 +101,7 @@ ishikawa-beta
 
 ---
 
-### 第四段：雲山水 → 七星潭（約 29 km）｜花蓮太平洋收尾段
+### 第四段：雲山水 → 花蓮車站（約 29 km）｜花蓮太平洋收尾段
 
 **距離**：29 km
 **路況**：沿台9線經花蓮市區轉往北濱抵七星潭。花蓮市區車流多、注意號誌；七星潭後於新城站或花蓮站搭兩鐵列車接駁蘇澳新站（依 index 建議跳過蘇花公路）。
@@ -109,7 +109,8 @@ ishikawa-beta
 **景點與補給：**
 - 🥤 **7-ELEVEN 豐學門市**（km ~83，壽豐）：壽豐補給點。
 - 🥤 **7-ELEVEN 權營門市**（km ~96，花蓮市）：花蓮市進七星潭前補給。
-- 🏁 **16:30 七星潭海岸風景特定區**（km ~104，新城）：當日終點、本日★主視覺。月牙灣弧形礫石海灘與清水斷崖背景（4.6★/2.8萬則）。隨後於新城站／花蓮站搭兩鐵列車接駁蘇澳新站。
+- 🏁 **16:00 七星潭海岸風景特定區**（km ~100，花蓮市北）：必經點。礫石海灣弧形海岸與賞星（4.6★/2.8萬則），太平洋與清水斷崖海景，環島東岸經典。
+- 🏁 **17:00 花蓮車站**（km ~106，花蓮市）：當日終點。自七星潭折返花蓮市區花蓮車站，於此搭火車（含單車）接駁至蘇澳新站，續銜接 Day9。建議先查好可載運單車的車次。
 
 ---
 
@@ -118,11 +119,11 @@ ishikawa-beta
 
 | # | 店名 | 評分 | 留言數 | 貝葉斯分 | 備註 |
 |:---:|:---|:---:|---:|:---:|:---|
-| 1 | [安口食堂 星潭店](https://www.google.com/maps/place/?q=place_id:ChIJJz3j-XohZjQRyqzPDJal8B0) | 4.8★ | 757 | 4.6627 | 餐廳 |
-| 2 | [暗潮燒烤](https://www.google.com/maps/place/?q=place_id:ChIJTzb8isUhZjQRzDZsC6vIYl4) | 4.9★ | 210 | 4.5681 | 餐廳 |
-| 3 | [川壽司 花蓮 新城 家樂福附近 日式 生魚片 居酒屋 燒烤 炸物 烏龍麵](https://www.google.com/maps/place/?q=place_id:ChIJEbdTDHufaDQRKKm-AJ_jb5w) | 4.7★ | 333 | 4.531 | 日式餐廳 |
-| 4 | [Wooli韓式料理店](https://www.google.com/maps/place/?q=place_id:ChIJPS_NyoSfaDQRilyM-ATao_g) | 4.8★ | 196 | 4.5247 | 韓國餐廳 |
-| 5 | [町屋丼飯 北埔店-花蓮美食-餐廳-咖哩-Restaurants](https://www.google.com/maps/place/?q=place_id:ChIJ16odd5yfaDQRw1Gc86yN884) | 4.7★ | 275 | 4.5156 | 餐廳 |
+| 1 | [湯院子-日式鍋物](https://www.google.com/maps/place/?q=place_id:ChIJIStKj5jpZzQRz7zVF-PfmVY) | 4.9★ | 1734 | 4.769 | 火鍋店 |
+| 2 | [安永．探索廚房](https://www.google.com/maps/place/?q=place_id:ChIJJ1ayLgjpZzQRlCz54WzC5bo) | 5★ | 798 | 4.741 | 火鍋店 |
+| 3 | [樂樂牛排](https://www.google.com/maps/place/?q=place_id:ChIJw78p4TnoZzQRsQQibeJf414) | 4.7★ | 2724 | 4.6489 | 牛排館 |
+| 4 | [食令鮮魚湯店（採現場候位，無接受訂位）](https://www.google.com/maps/place/?q=place_id:ChIJC5vH2DvoZzQR-00YuSvy7yk) | 4.7★ | 1657 | 4.626 | 海鮮餐廳 |
+| 5 | [陽光田園 Pasta (蘇澳店)｜宜蘭美食｜蘇澳美食｜蘇澳必吃｜在地推薦｜人氣餐廳｜聚餐首選｜義大利麵｜排餐｜](https://www.google.com/maps/place/?q=place_id:ChIJE_PnssLpZzQRaC-B1E33OLw) | 4.7★ | 746 | 4.5805 | 餐廳 |
 
 > 💡 *排序依據：留言數越多的高分店越可信（IMDB 風格貝葉斯平均）*
 > 📋 *[看更多 >>](./day8_dinner.md)*
@@ -135,11 +136,11 @@ ishikawa-beta
 
 | # | 飯店 | 評分 | 留言數 | 貝葉斯分 | 備註 |
 |:---:|:---|:---:|---:|:---:|:---|
-| 1 | [七星潭泥作輕旅](https://www.google.com/maps/place/?q=place_id:ChIJtZN5UwkhZjQRt064wVNSut4) | 4.9★ | 394 | 4.7739 |  |
-| 2 | [七星潭水上明月海景渡假旅店 Hotelmoon](https://www.google.com/maps/place/?q=place_id:ChIJe1QZqKkgZjQR7Ybf9a2cpKA) | 4.9★ | 369 | 4.7698 |  |
-| 3 | [去七星潭海景民宿](https://www.google.com/maps/place/?q=place_id:ChIJ9bUMLF0hZjQRPfb0A6nPTpw) | 4.9★ | 369 | 4.7698 |  |
-| 4 | [聚一夏民宿](https://www.google.com/maps/place/?q=place_id:ChIJzyOPklafaDQRMlNmfhYg5Vg) | 5★ | 199 | 4.766 |  |
-| 5 | [七星潭星海民宿_寵物友善（近柴館旁，勿入巷內)](https://www.google.com/maps/place/?q=place_id:ChIJbQOkTqggZjQR_NPVIBzqWJg) | 4.8★ | 786 | 4.7491 |  |
+| 1 | [海燕民宿](https://www.google.com/maps/place/?q=place_id:ChIJ28ZhNLDpZzQR40yyaxmIKkE) | 5★ | 217 | 4.7082 |  |
+| 2 | [煙波大飯店蘇澳四季雙泉館](https://www.google.com/maps/place/?q=place_id:ChIJEbWXfUroZzQRx3wGzYHglE0) | 4.7★ | 23882 | 4.6978 |  |
+| 3 | [愛旅行民宿](https://www.google.com/maps/place/?q=place_id:ChIJJVnQsoDpZzQR3EKKmSThfvo) | 5★ | 147 | 4.691 |  |
+| 4 | [享樂民宿](https://www.google.com/maps/place/?q=place_id:ChIJnXy-GDzpZzQRo2QYtKH50n8) | 5★ | 146 | 4.6908 |  |
+| 5 | [愛幸福小棧](https://www.google.com/maps/place/?q=place_id:ChIJs6udeFvoZzQRghjjiQzvO3I) | 4.9★ | 201 | 4.6883 |  |
 
 > 💡 *終點周邊 3 公里 · 30 筆候選 · IMDB 風格貝葉斯平均*
 > 📋 *[看更多 >>](./day8_hotel.md)*

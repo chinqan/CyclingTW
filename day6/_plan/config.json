@@ -3,13 +3,14 @@
   "origin": "墾丁",
   "destination": "太麻里",
   "distance_km_range": [
-    130,
-    130
+    128,
+    128
   ],
   "main_route_text": "台26線 → 縣道200 → 縣道199 → 台9線",
   "must_visit_landmarks": [
     "鵝鑾鼻燈塔",
     "風吹砂",
+    "旭海美景",
     "壽卡鐵馬驛站",
     "多良車站"
   ]

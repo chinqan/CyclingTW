@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJF8B9gWvpZzQRaXFmG5IcpFU",
+  "name_zh": "宜蘭蘇澳九号",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 231,
+  "location": {
+    "lat": 24.618057,
+    "lng": 121.83420059999999
+  },
+  "address": "270宜蘭縣蘇澳鎮蘇澳仁愛路203號",
+  "primary_type": "private_guest_room",
+  "distance_km": 1.21,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ2eNbPHTpZzQRtd22SdtNfUk",
+  "name_zh": "玥民宿｜沄禾民宿｜沄禾玥｜宜蘭包棟民宿｜平價旅遊住宿",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 97,
+  "location": {
+    "lat": 24.6157297,
+    "lng": 121.83527149999999
+  },
+  "address": "270宜蘭縣蘇澳鎮隘丁里信義路299號",
+  "primary_type": "private_guest_room",
+  "distance_km": 1.08,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

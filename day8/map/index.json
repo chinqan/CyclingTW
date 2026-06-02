@@ -32,7 +32,7 @@
       "name_zh": "花蓮車站",
       "csv_type": "起終點",
       "rating": 4.2,
-      "total_ratings": 3149,
+      "total_ratings": 3172,
       "location": {
         "lat": 23.9933133,
         "lng": 121.60124549999999
@@ -254,7 +254,7 @@
       "name_zh": "北回歸線標誌公園",
       "csv_type": "景點",
       "rating": 4.2,
-      "total_ratings": 8809,
+      "total_ratings": 8808,
       "location": {
         "lat": 23.465730999999998,
         "lng": 121.3574028
@@ -854,7 +854,7 @@
       "name_zh": "七星潭海岸風景特定區",
       "csv_type": "景點",
       "rating": 4.6,
-      "total_ratings": 28260,
+      "total_ratings": 28264,
       "location": {
         "lat": 24.0314268,
         "lng": 121.62717639999998

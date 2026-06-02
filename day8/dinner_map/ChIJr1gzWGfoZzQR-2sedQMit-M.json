@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJr1gzWGfoZzQR-2sedQMit-M",
+  "name_zh": "風味越南小吃",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 189,
+  "location": {
+    "lat": 24.6177262,
+    "lng": 121.8333154
+  },
+  "address": "270宜蘭縣蘇澳鎮隘丁里新馬路29號",
+  "primary_type": "vietnamese_restaurant",
+  "primary_type_label": "越南餐廳",
+  "distance_km": 1.13,
+  "source": "api_2026-06-02",
+  "note": "越南餐廳",
+  "name_is_ascii": false
+}

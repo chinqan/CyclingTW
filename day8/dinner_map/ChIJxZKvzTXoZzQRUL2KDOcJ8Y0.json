@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJxZKvzTXoZzQRUL2KDOcJ8Y0",
+  "name_zh": "正好鮮肉小籠包-蘇澳店",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 1196,
+  "location": {
+    "lat": 24.5957424,
+    "lng": 121.8512291
+  },
+  "address": "270宜蘭縣蘇澳鎮蘇南里太平路21號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 2.8,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

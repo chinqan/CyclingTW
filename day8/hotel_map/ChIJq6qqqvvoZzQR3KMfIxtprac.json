@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJq6qqqvvoZzQR3KMfIxtprac",
+  "name_zh": "蕾米斯莊園 Remis villa",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 320,
+  "location": {
+    "lat": 24.6205794,
+    "lng": 121.8461985
+  },
+  "address": "270宜蘭縣蘇澳鎮存仁里大業路56號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 2.28,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

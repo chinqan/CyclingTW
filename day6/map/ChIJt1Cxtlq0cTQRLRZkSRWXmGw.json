@@ -2,12 +2,10 @@
   "place_id": "ChIJt1Cxtlq0cTQRLRZkSRWXmGw",
   "name_zh": "7-ELEVEN 滿州門市",
   "csv_type": "便利商店",
-  "rating": 4.5,
-  "total_ratings": 198,
   "location": {
-    "lat": 22.020741,
-    "lng": 120.83892
+    "lat": 22.020740699999998,
+    "lng": 120.8389196
   },
-  "source": "search_2026-07",
-  "note": "滿州鄉補給"
+  "search_keyword": "便利商店",
+  "source": "along_2026-06-02"
 }

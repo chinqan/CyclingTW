@@ -9,7 +9,7 @@ from .helpers import ROOT, day_dir, plan_dir, read_json, die, info
 RATED_TYPES = {"景點", "起終點", "餐廳大休"}
 
 CSV_HEADERS = [
-    "景點名稱", "地點搜尋關鍵字", "順序", "類型", "評分", "評論總數",
+    "景點名稱", "地點搜尋關鍵字", "緯度", "經度", "順序", "類型", "評分", "評論總數",
     "bayesian_C", "bayesian_m", "bayesian_score", "備註說明",
 ]
 
@@ -65,9 +65,12 @@ def cmd_write_csv(args):
         w.writerow(CSV_HEADERS)
         for i, p in enumerate(places, 1):
             rated = p.get("csv_type") in RATED_TYPES
+            loc = p.get("location") or {}
             w.writerow([
                 p["name_zh"],
                 p["search_keyword"],
+                loc.get("lat", ""),
+                loc.get("lng", ""),
                 i,
                 p["csv_type"],
                 p.get("rating", "") if rated else "",

@@ -2,7 +2,7 @@
   "day": 6,
   "origin_label": "鵝鑾鼻",
   "destination_label": "太麻里",
-  "distance_range": "約 127.5 公里",
+  "distance_range": "約 123.6 公里",
   "subtitle": "極南壽卡翻山越嶺行",
   "orientation": "horizontal_landscape_3_2",
   "lighting": "清晨海岸金光、翻越壽卡後太平洋湛藍天際",
@@ -12,8 +12,8 @@
     "place_id": "ChIJZV-_DhWxcTQREKTCizrSV1c",
     "location_desc": "屏東縣恆春「鵝鑾鼻燈塔」",
     "scene_elements": "矗立於草坡上的白色鵝鑾鼻燈塔、台灣最南端碧藍海平線與珊瑚礁海岸、草原與南國灌叢、清晨金色陽光灑落、藍天白雲",
-    "action": "單腳踩地跨在公路車上、舉手與白色燈塔及『台灣最南端』意象合影",
-    "expression": "抵達四極點之一的成就感與興奮、燦爛自豪的笑容"
+    "action": "牽車站在白色鵝鑾鼻燈塔下的草坡，雙手叉腰挺胸、望向台灣最南端的碧藍海平線",
+    "expression": "翻越壽卡後攻抵極南點的成就與豪氣、迎著清晨海風的自信"
   },
   "small_avatar": {
     "place_id": "ChIJG7fKhoWxcTQR6CrWL3xdESQ",
@@ -22,7 +22,7 @@
     "action": "牽著公路車回頭揮手、準備往極南與壽卡出發",
     "expression": "面對全日最硬爬坡的鬥志與期待"
   },
-  "composition": "主角在畫面中央偏上、墾丁大街在右上方小分身、太麻里車站在畫面右側遠景、沿途點綴龍磐公園大草原、風吹砂、壽卡鐵馬驛站、多良觀光車站",
+  "composition": "主角在畫面中央偏上、墾丁大街在右上方小分身、太麻里車站在畫面右側遠景、沿途點綴風吹砂、旭海美景、壽卡鐵馬驛站、多良觀光車站",
   "geographic_notes": "墾丁大街在畫面左側（西側）、太麻里車站在畫面右側（東側）",
   "_last_place_id": "ChIJ-fgsCr7ObzQRGrAOOXKCO4k"
 }

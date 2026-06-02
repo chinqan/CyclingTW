@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJY4LAEADpZzQRHE3QZWoyNKk",
+  "name_zh": "冬蒔茶屋 (冬天限定) 夏休中，安永心食館內3樓",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 292,
+  "location": {
+    "lat": 24.614880100000004,
+    "lng": 121.81794199999999
+  },
+  "address": "270宜蘭縣蘇澳鎮新城里中山路二段415號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.19,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

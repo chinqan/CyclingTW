@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJl1Ldd1voZzQRZTiJGxxWLNg",
+  "name_zh": "林一張 合鴨米飯",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 20,
+  "location": {
+    "lat": 24.6142762,
+    "lng": 121.8399841
+  },
+  "address": "270宜蘭縣蘇澳鎮隘丁里城東路199巷1號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.38,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

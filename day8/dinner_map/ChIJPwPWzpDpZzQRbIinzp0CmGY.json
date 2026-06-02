@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJPwPWzpDpZzQRbIinzp0CmGY",
+  "name_zh": "甲味鮮無刺虱目魚肚(飯,麵,粥)",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 124,
+  "location": {
+    "lat": 24.6247459,
+    "lng": 121.83400519999998
+  },
+  "address": "No. 194號, Datong Rd, 永榮里蘇澳鎮宜蘭縣270",
+  "primary_type": "seafood_restaurant",
+  "primary_type_label": "海鮮餐廳",
+  "distance_km": 1.87,
+  "source": "api_2026-06-02",
+  "note": "海鮮餐廳",
+  "name_is_ascii": false
+}

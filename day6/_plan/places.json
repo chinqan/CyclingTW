@@ -13,7 +13,7 @@
         "lng": 120.79708029999999
       },
       "rating": 3.8,
-      "total_ratings": 21641,
+      "total_ratings": 21642,
       "search_keyword": "屏東縣恆春鎮 墾丁大街",
       "note": "06:30 出發 接續 Day5 終點 km0（壽卡爬坡日提早出發）",
       "bayesian_score": 3.81
@@ -27,24 +27,10 @@
         "lng": 120.8526297
       },
       "rating": 4.4,
-      "total_ratings": 14693,
+      "total_ratings": 14692,
       "search_keyword": "屏東縣恆春鎮 鵝鑾鼻燈塔",
-      "note": "必經 極南 鵝鑾鼻燈塔 ★主視覺 台灣最南端白色燈塔 km約11",
+      "note": "必經 極南 鵝鑾鼻燈塔 ★主視覺 台灣最南端白色燈塔 km約9",
       "bayesian_score": 4.4
-    },
-    {
-      "csv_type": "景點",
-      "name_zh": "龍磐公園大草原",
-      "place_id": "ChIJLfr773-zcTQR1y3UE8NL--Q",
-      "location": {
-        "lat": 21.9304605,
-        "lng": 120.84529479999999
-      },
-      "rating": 4.7,
-      "total_ratings": 1240,
-      "search_keyword": "屏東縣恆春鎮 龍磐公園",
-      "note": "崩崖草原與觀星地 km約15",
-      "bayesian_score": 4.67
     },
     {
       "csv_type": "景點",
@@ -57,57 +43,63 @@
       "rating": 4.5,
       "total_ratings": 3396,
       "search_keyword": "屏東縣恆春鎮 風吹砂",
-      "note": "必經 風吹砂 風成沙丘地景 km約17",
+      "note": "必經 風吹砂 風成沙丘地景 km約15",
       "bayesian_score": 4.51
     },
     {
       "csv_type": "便利商店",
-      "name_zh": "7-ELEVEN 恆春門市",
-      "place_id": "ChIJlam41DK3cTQRzZewRw_umA4",
+      "name_zh": "7-ELEVEN 滿州門市",
+      "place_id": "ChIJt1Cxtlq0cTQRLRZkSRWXmGw",
       "location": {
-        "lat": 22.010128299999998,
-        "lng": 120.74385909999998
+        "lat": 22.020740699999998,
+        "lng": 120.8389196
       },
-      "search_keyword": "7-ELEVEN 恆春門市",
-      "note": "恆春補給點 km約34",
-      "bayesian_score": null
-    },
-    {
-      "csv_type": "便利商店",
-      "name_zh": "7-ELEVEN 楓港門市",
-      "place_id": "ChIJ_3rP_-DFcTQRscYtn9euMtk",
-      "location": {
-        "lat": 22.1951622,
-        "lng": 120.69145350000001
-      },
-      "search_keyword": "7-ELEVEN 楓港門市",
-      "note": "轉台9南迴前補給 km約56",
+      "search_keyword": "7-ELEVEN 滿州門市",
+      "note": "滿州補給點 進縣道199遠程前最後大超商 km約27",
+      "rating": null,
+      "total_ratings": null,
       "bayesian_score": null
     },
     {
       "csv_type": "餐廳大休",
-      "name_zh": "雙流道之驛",
-      "place_id": "ChIJCay_0AvPcTQR3QVGF5y9WuA",
+      "name_zh": "港仔觀海景咖啡餐飲（Judy cafe)",
+      "place_id": "ChIJ2z5HDQDLcTQRhfpYbvrESTc",
       "location": {
-        "lat": 22.2186751,
-        "lng": 120.79393359999999
+        "lat": 22.1332083,
+        "lng": 120.88562780000001
       },
+      "search_keyword": "牡丹鄉 港仔觀海景咖啡",
+      "note": "午餐大休 壽卡爬坡前最後正餐（偏遠、建議先確認營業）km約48",
       "rating": 4.8,
-      "total_ratings": 616,
-      "search_keyword": "屏東縣獅子鄉 雙流道之驛",
-      "note": "午餐大休 壽卡爬坡前最後正餐 km約69",
-      "bayesian_score": 4.71
+      "total_ratings": 15,
+      "bayesian_score": 4.58
+    },
+    {
+      "csv_type": "景點",
+      "name_zh": "旭海美景",
+      "place_id": "ChIJC6SxO6_NcTQRqjZJAa19sxQ",
+      "location": {
+        "lat": 22.1853327,
+        "lng": 120.8915292
+      },
+      "search_keyword": "屏東牡丹鄉 旭海美景",
+      "note": "必經 旭海美景 旭海濱海草原觀景 km約55",
+      "rating": 4.8,
+      "total_ratings": 2303,
+      "bayesian_score": 4.77
     },
     {
       "csv_type": "便利商店",
-      "name_zh": "7-ELEVEN 雙琉門市",
-      "place_id": "ChIJ-c2I45nPcTQR1b1vrrjpCrg",
+      "name_zh": "旭美商店",
+      "place_id": "ChIJAQj5YADNcTQR3ygIbpwth4I",
       "location": {
-        "lat": 22.2215468,
-        "lng": 120.7950121
+        "lat": 22.1959958,
+        "lng": 120.88900429999998
       },
-      "search_keyword": "7-ELEVEN 雙琉門市",
-      "note": "壽卡爬坡前最後超商 補滿水 km約70",
+      "search_keyword": "旭海村 旭美商店",
+      "note": "旭海村雜貨店 縣道199遠程段唯一補給 務必補水 km約56",
+      "rating": null,
+      "total_ratings": null,
       "bayesian_score": null
     },
     {
@@ -121,8 +113,8 @@
       "rating": 4.6,
       "total_ratings": 195,
       "search_keyword": "屏東縣達仁鄉 壽卡鐵馬驛站",
-      "note": "必經 壽卡 南迴最高點鐵馬驛站 有飲水公廁 km約76",
-      "bayesian_score": 4.57
+      "note": "必經 壽卡 南迴最高點鐵馬驛站 有飲水公廁 km約70",
+      "bayesian_score": 4.58
     },
     {
       "csv_type": "便利商店",
@@ -133,7 +125,7 @@
         "lng": 120.90722799999999
       },
       "search_keyword": "7-ELEVEN 大武門市",
-      "note": "下壽卡後第一個超商 km約97",
+      "note": "下壽卡後第一個超商 km約91",
       "bayesian_score": null
     },
     {
@@ -145,10 +137,24 @@
         "lng": 120.95884869999999
       },
       "rating": 4.1,
-      "total_ratings": 33936,
+      "total_ratings": 33938,
       "search_keyword": "台東縣太麻里鄉 多良車站",
-      "note": "必經 多良車站 全台最美海景車站 km約114",
+      "note": "必經 多良車站 全台最美海景車站 km約109",
       "bayesian_score": 4.1
+    },
+    {
+      "csv_type": "便利商店",
+      "name_zh": "7-ELEVEN 金倫門市",
+      "place_id": "ChIJdwbx7kfSbzQRqcNwoOtHX-Y",
+      "location": {
+        "lat": 22.531414299999998,
+        "lng": 120.9637312
+      },
+      "search_keyword": "7-ELEVEN 金崙門市",
+      "note": "金崙補給點 進太麻里前補給 km約112",
+      "rating": null,
+      "total_ratings": null,
+      "bayesian_score": null
     },
     {
       "csv_type": "起終點",
@@ -161,14 +167,14 @@
       "rating": 4.4,
       "total_ratings": 972,
       "search_keyword": "台東縣太麻里鄉 太麻里車站",
-      "note": "終點 太麻里 日昇之鄉 km約128",
+      "note": "終點 太麻里 日昇之鄉 km約124",
       "bayesian_score": 4.44
     }
   ],
-  "bayesian_C": 4.5569,
-  "bayesian_m": 335,
-  "elevation_ascent_m": 1277,
-  "elevation_descent_m": 1234,
-  "ors_distance_km": 127.5,
-  "ors_duration_hours": 8.0
+  "bayesian_C": 4.5698,
+  "bayesian_m": 328,
+  "elevation_ascent_m": 1605,
+  "elevation_descent_m": 1562,
+  "ors_distance_km": 123.6,
+  "ors_duration_hours": 7.7
 }
