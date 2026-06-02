@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJHQug0JPObzQR3rQKrE19Qd4",
+  "name_zh": "橙之堡早餐",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 25,
+  "location": {
+    "lat": 22.6124142,
+    "lng": 121.00632239999999
+  },
+  "address": "963臺東縣太麻里鄉泰和村太麻里街232號號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.72,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

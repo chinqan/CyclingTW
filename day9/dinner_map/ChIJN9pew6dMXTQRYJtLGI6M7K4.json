@@ -3,7 +3,7 @@
   "name_zh": "麥當勞-金山中山餐廳－設有得來速",
   "name_lang": "zh-TW",
   "rating": 4,
-  "total_ratings": 3303,
+  "total_ratings": 3308,
   "location": {
     "lat": 25.218940399999997,
     "lng": 121.6403514
@@ -12,7 +12,7 @@
   "primary_type": "fast_food_restaurant",
   "primary_type_label": "速食餐廳",
   "distance_km": 0.38,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "速食餐廳",
   "name_is_ascii": false
 }

@@ -3,7 +3,7 @@
   "name_zh": "金湧泉SPA溫泉會館",
   "name_lang": "zh-TW",
   "rating": 4.1,
-  "total_ratings": 741,
+  "total_ratings": 744,
   "location": {
     "lat": 25.216241800000002,
     "lng": 121.6429913
@@ -11,6 +11,6 @@
   "address": "20741新北市萬里區大鵬里加投路213-3號",
   "primary_type": "hotel",
   "distance_km": 0.77,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "name_is_ascii": false
 }

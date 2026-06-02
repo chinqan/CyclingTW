@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJSfqj-ExLXTQRyVz6K2fbeuE",
+  "name_zh": "無名麵飯、家常菜",
+  "name_lang": "zh-TW",
+  "rating": 3.7,
+  "total_ratings": 44,
+  "location": {
+    "lat": 25.221863799999998,
+    "lng": 121.6381892
+  },
+  "address": "208新北市金山區和平里金包里街77號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.02,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

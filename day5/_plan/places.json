@@ -5,168 +5,144 @@
   "main_route_desc": "東港 ➔ 大鵬灣 ➔ 台17線 ➔ 枋寮 ➔ 楓港 ➔ 台26線屏鵝公路 ➔ 車城福安宮 ➔ 恆春古城 ➔ 墾丁大街",
   "places": [
     {
-      "place_id": "ChIJKzw4apvhcTQRbxsV8Dmentk",
-      "name_zh": "東港東隆宮",
-      "search_keyword": "東港東隆宮 屏東縣東港鎮",
       "csv_type": "起終點",
-      "note": "早上08:00出發 接續Day4終點 km0",
-      "rating": null,
-      "total_ratings": null,
+      "name_zh": "東港東隆宮",
+      "place_id": "ChIJKzw4apvhcTQRbxsV8Dmentk",
       "location": {
         "lat": 22.4630838,
         "lng": 120.44871930000001
       },
-      "bayesian_score": null
+      "rating": 4.7,
+      "total_ratings": 7785,
+      "search_keyword": "屏東縣東港鎮 東隆宮",
+      "note": "07:30 出發 接續 Day4 終點 km0（短程日）",
+      "bayesian_score": 4.69
     },
     {
-      "place_id": "ChIJTX0rfazhcTQR6RQL0vAEfks",
-      "name_zh": "鵬灣跨海大橋",
-      "search_keyword": "大鵬灣 鵬灣跨海大橋 屏東縣東港鎮",
       "csv_type": "景點",
-      "note": "約08:30抵達 南台灣最大潟湖 跨海大橋與環灣自行車道 km約5",
-      "rating": 4.3,
-      "total_ratings": 4230,
+      "name_zh": "鵬灣跨海大橋",
+      "place_id": "ChIJTX0rfazhcTQR6RQL0vAEfks",
       "location": {
         "lat": 22.448946799999998,
         "lng": 120.45481269999999
       },
-      "bayesian_score": 4.32
+      "rating": 4.3,
+      "total_ratings": 4230,
+      "search_keyword": "屏東縣東港鎮 鵬灣跨海大橋",
+      "note": "必經 大鵬灣 跨海大橋開橋秀 km約2",
+      "bayesian_score": 4.31
     },
     {
-      "place_id": "ChIJQe7y3WfecTQR1NzwkWmJqeE",
-      "name_zh": "7-ELEVEN 佳冬門市",
-      "search_keyword": "7-ELEVEN 佳冬門市 屏東縣佳冬鄉",
       "csv_type": "便利商店",
-      "note": "佳冬段補給 沿路線 km約14",
+      "name_zh": "全家便利商店 枋寮臨海店",
+      "place_id": "ChIJs2H8j4vecTQRFIDfD_5mjTk",
       "location": {
-        "lat": 22.4101069,
-        "lng": 120.56288900000001
+        "lat": 22.4045111,
+        "lng": 120.57889759999998
       },
+      "search_keyword": "全家便利商店 枋寮臨海店",
+      "note": "枋寮補給點 km約18",
       "bayesian_score": null
     },
     {
-      "place_id": "ChIJkSvCMDbbcTQRkBZ1gVQz2hs",
-      "name_zh": "全家便利商店 枋山觀海店",
-      "search_keyword": "全家便利商店 枋山觀海店 屏東縣枋山鄉",
-      "csv_type": "便利商店",
-      "note": "枋山海景超商補給 沿路線 km約31",
+      "csv_type": "景點",
+      "name_zh": "海大山小",
+      "place_id": "ChIJ71B9aSHbcTQRP96ukgGkQ_Q",
       "location": {
-        "lat": 22.2939845,
-        "lng": 120.643774
+        "lat": 22.2946547,
+        "lng": 120.64361780000002
       },
-      "bayesian_score": null
+      "rating": 4.2,
+      "total_ratings": 1634,
+      "search_keyword": "屏東縣枋山鄉 海大山小",
+      "note": "枋山海景打卡點 km約33",
+      "bayesian_score": 4.23
     },
     {
-      "place_id": "ChIJ_3rP_-DFcTQRscYtn9euMtk",
+      "csv_type": "餐廳大休",
+      "name_zh": "愛琴海岸海景咖啡餐廳",
+      "place_id": "ChIJA6s9dgDFcTQRIoFFUO28LtU",
+      "location": {
+        "lat": 22.2397359,
+        "lng": 120.6678512
+      },
+      "rating": 4.6,
+      "total_ratings": 8150,
+      "search_keyword": "屏東縣枋山鄉 愛琴海岸海景咖啡餐廳",
+      "note": "午餐大休 枋山海景餐廳 km約39",
+      "bayesian_score": 4.59
+    },
+    {
+      "csv_type": "便利商店",
       "name_zh": "7-ELEVEN 楓港門市",
-      "search_keyword": "7-ELEVEN 楓港門市 屏東縣枋山鄉",
-      "csv_type": "便利商店",
-      "note": "楓港轉台26前補給 沿路線 km約43",
+      "place_id": "ChIJ_3rP_-DFcTQRscYtn9euMtk",
       "location": {
         "lat": 22.1951622,
         "lng": 120.69145350000001
       },
+      "search_keyword": "7-ELEVEN 楓港門市",
+      "note": "楓港轉台26前補給 km約45",
       "bayesian_score": null
     },
     {
-      "place_id": "ChIJdU4y8ie4cTQRe0BNxOo2HKc",
-      "name_zh": "車城福安宮",
-      "search_keyword": "車城福安宮 屏東縣車城鄉",
       "csv_type": "景點",
-      "note": "約11:00抵達 全台最大土地公廟 km約58",
-      "rating": 4.6,
-      "total_ratings": 24741,
+      "name_zh": "車城福安宮",
+      "place_id": "ChIJdU4y8ie4cTQRe0BNxOo2HKc",
       "location": {
         "lat": 22.0709441,
         "lng": 120.7108895
       },
+      "rating": 4.6,
+      "total_ratings": 24742,
+      "search_keyword": "屏東縣車城鄉 福安宮",
+      "note": "全台最大土地公廟 km約60",
       "bayesian_score": 4.6
     },
     {
-      "place_id": "ChIJM9pgjom3cTQR5Y4zY02pHyQ",
-      "name_zh": "7-ELEVEN 車城門市",
-      "search_keyword": "7-ELEVEN 車城門市 屏東縣車城鄉",
       "csv_type": "便利商店",
-      "note": "車城段補給 沿路線 km約58",
+      "name_zh": "全家便利商店 車城風車店",
+      "place_id": "ChIJifeRc4i3cTQRUZfuodUzwkk",
       "location": {
-        "lat": 22.074494599999998,
-        "lng": 120.7138122
+        "lat": 22.0691651,
+        "lng": 120.71358579999999
       },
+      "search_keyword": "全家便利商店 車城風車店",
+      "note": "車城補給點 km約60",
       "bayesian_score": null
     },
     {
-      "place_id": "ChIJ-baSVPywcTQR9otP4FjiF_A",
-      "name_zh": "鹿境梅花鹿生態園區",
-      "search_keyword": "鹿境梅花鹿生態園區 屏東縣恆春鎮",
       "csv_type": "景點",
-      "note": "約11:45抵達 與梅花鹿近距離互動 km約65",
-      "rating": 4.4,
-      "total_ratings": 19235,
-      "location": {
-        "lat": 22.0124394,
-        "lng": 120.74168770000001
-      },
-      "bayesian_score": 4.4
-    },
-    {
-      "place_id": "ChIJRWEfitKwcTQRbeLuNo7Z7gI",
       "name_zh": "恆春縣城北門",
-      "search_keyword": "恆春縣城北門 屏東縣恆春鎮",
-      "csv_type": "景點",
-      "note": "約12:00抵達 恆春古城保存最完整城門 km約66 午餐大休區",
-      "rating": 4.4,
-      "total_ratings": 2205,
+      "place_id": "ChIJRWEfitKwcTQRbeLuNo7Z7gI",
       "location": {
         "lat": 22.008083100000004,
         "lng": 120.74799929999999
       },
-      "bayesian_score": 4.41
+      "rating": 4.4,
+      "total_ratings": 2205,
+      "search_keyword": "屏東縣恆春鎮 恆春縣城北門",
+      "note": "必經 恆春古城 國定古蹟城門 km約67",
+      "bayesian_score": 4.4
     },
     {
-      "place_id": "ChIJzR0mimCxcTQRv4QPJ3nnPYM",
-      "name_zh": "虎炊稻 Höo Triptown 臺菜沙龍",
-      "search_keyword": "虎炊稻 Höo Triptown 臺菜沙龍 屏東縣恆春鎮",
-      "csv_type": "餐廳大休",
-      "note": "12:00-13:00午餐大休 恆春在地美食",
-      "rating": 4.7,
-      "total_ratings": 1580,
-      "location": {
-        "lat": 22.008431100000003,
-        "lng": 120.7417808
-      },
-      "bayesian_score": 4.63
-    },
-    {
-      "place_id": "ChIJlam41DK3cTQRzZewRw_umA4",
-      "name_zh": "7-ELEVEN 恆春門市",
-      "search_keyword": "7-ELEVEN 恆春門市 屏東縣恆春鎮",
-      "csv_type": "便利商店",
-      "note": "恆春古城補給 沿路線 km約66",
-      "location": {
-        "lat": 22.010128299999998,
-        "lng": 120.74385909999998
-      },
-      "bayesian_score": null
-    },
-    {
-      "place_id": "ChIJG7fKhoWxcTQR6CrWL3xdESQ",
-      "name_zh": "墾丁大街",
-      "search_keyword": "墾丁大街 屏東縣恆春鎮墾丁",
       "csv_type": "起終點",
-      "note": "約14:00抵達 當日終點 墾丁大街夜市與南灣",
-      "rating": 3.8,
-      "total_ratings": 21618,
+      "name_zh": "墾丁大街",
+      "place_id": "ChIJG7fKhoWxcTQR6CrWL3xdESQ",
       "location": {
         "lat": 21.9458096,
         "lng": 120.79708029999999
       },
-      "bayesian_score": 3.82
+      "rating": 3.8,
+      "total_ratings": 21641,
+      "search_keyword": "屏東縣恆春鎮 墾丁大街",
+      "note": "終點 墾丁 ★主視覺 大尖山與南國海灘 km約76",
+      "bayesian_score": 3.81
     }
   ],
-  "bayesian_C": 4.4458,
-  "bayesian_m": 637,
-  "ors_distance_km": 82.2,
-  "ors_duration_hours": 4.7,
-  "elevation_ascent_m": null,
-  "elevation_descent_m": null
+  "bayesian_C": 4.4256,
+  "bayesian_m": 260,
+  "elevation_ascent_m": 194,
+  "elevation_descent_m": 188,
+  "ors_distance_km": 78.5,
+  "ors_duration_hours": 4.9
 }

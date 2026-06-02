@@ -7,9 +7,19 @@
     "lng": 121.01812399999999
   },
   "search_keyword": "知本溫泉 台東",
-  "source": "api_2026-06-01",
+  "source": "api_2026-06-02",
   "rating": 4.2,
   "total_ratings": 1456,
   "address": "954臺東縣太麻里鄉",
-  "primary_type": "spa"
+  "primary_type": "spa",
+  "opening_hours_text": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "editorial_summary": "Relaxed, well-known destination with various hot-spring pools for therapeutic soaking."
 }

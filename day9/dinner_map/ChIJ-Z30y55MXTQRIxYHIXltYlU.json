@@ -3,7 +3,7 @@
   "name_zh": "萬里甕仔雞/萬里古早風味甕仔雞",
   "name_lang": "zh-TW",
   "rating": 4.2,
-  "total_ratings": 1449,
+  "total_ratings": 1456,
   "location": {
     "lat": 25.209408,
     "lng": 121.65679499999999
@@ -12,7 +12,7 @@
   "primary_type": "chicken_restaurant",
   "primary_type_label": "雞肉料理餐廳",
   "distance_km": 2.31,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "雞肉料理餐廳",
   "name_is_ascii": false
 }

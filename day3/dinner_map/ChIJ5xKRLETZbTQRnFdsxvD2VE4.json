@@ -3,7 +3,7 @@
   "name_zh": "膳廚工坊",
   "name_lang": "zh-TW",
   "rating": 4.3,
-  "total_ratings": 131,
+  "total_ratings": 130,
   "location": {
     "lat": 23.063187799999998,
     "lng": 120.12915699999998
@@ -11,8 +11,8 @@
   "address": "709臺南市安南區城中里安中路六段615之一號",
   "primary_type": "restaurant",
   "primary_type_label": "餐廳",
-  "distance_km": 0.39,
-  "source": "api_2026-05-22",
+  "distance_km": 0.57,
+  "source": "api_2026-06-02",
   "note": "餐廳",
   "name_is_ascii": false
 }

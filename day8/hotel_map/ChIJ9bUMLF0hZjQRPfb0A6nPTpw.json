@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ9bUMLF0hZjQRPfb0A6nPTpw",
+  "name_zh": "去七星潭海景民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 369,
+  "location": {
+    "lat": 24.027094299999998,
+    "lng": 121.63073649999998
+  },
+  "address": "971花蓮縣新城鄉大漢村明潭街8-1號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.6,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

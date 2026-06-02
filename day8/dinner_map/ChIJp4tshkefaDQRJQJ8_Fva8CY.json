@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJp4tshkefaDQRJQJ8_Fva8CY",
+  "name_zh": "東岸海鮮餐廳",
+  "name_lang": "zh",
+  "rating": 4.7,
+  "total_ratings": 108,
+  "location": {
+    "lat": 24.036735999999998,
+    "lng": 121.6067105
+  },
+  "address": "971花蓮縣新城鄉北埔村大漢村民有街136號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 2.16,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

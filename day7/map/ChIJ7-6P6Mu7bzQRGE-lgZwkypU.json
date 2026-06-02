@@ -6,10 +6,19 @@
     "lat": 22.865761799999998,
     "lng": 121.1084195
   },
-  "search_keyword": "初鹿牧場 台東",
-  "source": "api_2026-06-01",
+  "search_keyword": "景點",
+  "source": "api_2026-06-02",
   "rating": 4.2,
   "total_ratings": 9256,
   "address": "954臺東縣卑南鄉明峰村牧場1號",
-  "primary_type": "farm"
+  "primary_type": "farm",
+  "opening_hours_text": [
+    "Monday: 8:00 AM – 5:00 PM",
+    "Tuesday: 8:00 AM – 5:00 PM",
+    "Wednesday: 8:00 AM – 5:00 PM",
+    "Thursday: 8:00 AM – 5:00 PM",
+    "Friday: 8:00 AM – 5:00 PM",
+    "Saturday: 8:00 AM – 5:00 PM",
+    "Sunday: 8:00 AM – 5:00 PM"
+  ]
 }

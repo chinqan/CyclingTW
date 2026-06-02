@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJTzb8isUhZjQRzDZsC6vIYl4",
+  "name_zh": "暗潮燒烤",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 210,
+  "location": {
+    "lat": 24.026862299999998,
+    "lng": 121.6304038
+  },
+  "address": "971花蓮縣新城鄉明潭街6號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.6,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

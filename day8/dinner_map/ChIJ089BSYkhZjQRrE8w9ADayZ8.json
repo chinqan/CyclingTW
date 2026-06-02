@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ089BSYkhZjQRrE8w9ADayZ8",
+  "name_zh": "海・燒肉｜預約制精緻燒肉",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 162,
+  "location": {
+    "lat": 24.0266958,
+    "lng": 121.63132410000001
+  },
+  "address": "971花莲县新城乡新城鄉七星街53巷3號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.67,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

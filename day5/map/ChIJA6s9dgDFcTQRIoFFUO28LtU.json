@@ -1,0 +1,24 @@
+{
+  "place_id": "ChIJA6s9dgDFcTQRIoFFUO28LtU",
+  "name_zh": "愛琴海岸海景咖啡餐廳",
+  "csv_type": "餐廳大休",
+  "location": {
+    "lat": 22.2397359,
+    "lng": 120.6678512
+  },
+  "search_keyword": "餐廳",
+  "source": "api_2026-06-02",
+  "rating": 4.6,
+  "total_ratings": 8150,
+  "address": "941屏東縣枋山鄉枋山村中山路三段37號",
+  "primary_type": "restaurant",
+  "opening_hours_text": [
+    "Monday: 9:00 AM – 7:30 PM",
+    "Tuesday: 9:00 AM – 7:30 PM",
+    "Wednesday: 9:00 AM – 7:30 PM",
+    "Thursday: 9:00 AM – 7:30 PM",
+    "Friday: 9:00 AM – 7:30 PM",
+    "Saturday: 9:00 AM – 8:30 PM",
+    "Sunday: 9:00 AM – 8:30 PM"
+  ]
+}

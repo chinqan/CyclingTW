@@ -1,23 +1,15 @@
 {
   "place_id": "ChIJodGzjxwnbDQRbSUzYK6OF7M",
-  "name_zh": "蠔碳嘉烤鮮蚵吃到飽",
+  "name_zh": "蠔碳嘉烤鮮蚵吃到飽-東石鮮蚵吃到飽",
   "csv_type": "餐廳大休",
-  "search_keyword": "蠔碳嘉 嘉義縣東石鄉彩霞大道358號",
-  "rating": 4.9,
-  "total_ratings": 4888,
   "location": {
     "lat": 23.4532594,
     "lng": 120.13698780000001
   },
-  "note": "11:30-13:00午餐大休 東石烤蚵吃到飽 km約72",
-  "source": "api_2026-05-22",
-  "opening_hours_text": [
-    "Monday: 10:30 AM – 7:30 PM",
-    "Tuesday: 10:30 AM – 7:30 PM",
-    "Wednesday: Closed",
-    "Thursday: 10:30 AM – 7:30 PM",
-    "Friday: 10:30 AM – 7:30 PM",
-    "Saturday: 10:30 AM – 7:30 PM",
-    "Sunday: 10:30 AM – 7:30 PM"
-  ]
+  "search_keyword": "餐廳",
+  "source": "along_2026-06-02",
+  "rating": 4.9,
+  "total_ratings": 4909,
+  "address": "614嘉義縣東石鄉東石村彩霞大道358號",
+  "primary_type": "restaurant"
 }

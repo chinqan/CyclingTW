@@ -1,0 +1,15 @@
+{
+  "place_id": "ChIJJZVAeJTObzQRAy6aCJpUSIY",
+  "name_zh": "瑪沙魯餐廳",
+  "csv_type": "餐廳大休",
+  "location": {
+    "lat": 22.682349799999997,
+    "lng": 121.0425423
+  },
+  "search_keyword": "餐廳",
+  "source": "along_2026-06-02",
+  "rating": 3.9,
+  "total_ratings": 867,
+  "address": "96343臺東縣太麻里鄉美和村美和路110-5號",
+  "primary_type": "chinese_restaurant"
+}

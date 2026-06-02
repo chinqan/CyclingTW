@@ -3,7 +3,7 @@
   "name_zh": "The Loft_沐舍溫泉渡假酒店",
   "name_lang": "zh-TW",
   "rating": 4.1,
-  "total_ratings": 3047,
+  "total_ratings": 3051,
   "location": {
     "lat": 25.215315999999998,
     "lng": 121.64337799999998
@@ -11,6 +11,6 @@
   "address": "207新北市萬里區大鵬里加投路166-1號大鵬里萬里加投166-1號",
   "primary_type": "lodging",
   "distance_km": 0.88,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "name_is_ascii": false
 }

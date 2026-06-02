@@ -1,17 +1,17 @@
 {
   "day": 1,
   "search_radius_km": 3,
-  "pool_size": 43,
-  "bayesian_C": 231.5,
-  "bayesian_m": 4.4173,
+  "pool_size": 47,
+  "bayesian_C": 226.1,
+  "bayesian_m": 4.3878,
   "note": "C=平均留言數(先驗樣本數), m=加權平均評分(先驗期望值)",
   "source_endpoint_place_id": "ChIJJ5R-bjoIaTQRmYc9tYdbBqk",
   "top5_place_ids": [
     "ChIJScPF8jwIaTQRomUjsKnbw8U",
     "ChIJZUOwC7QJaTQRFLkG0qJe69U",
     "ChIJtaP8hG4JaTQRmgQTfLp3Y04",
-    "ChIJX_p7ym2naTQRlDyTfbEx2ns",
-    "ChIJe_NOiyAJaTQRjEgvvtqbk7w"
+    "ChIJe_NOiyAJaTQRjEgvvtqbk7w",
+    "ChIJX_p7ym2naTQRlDyTfbEx2ns"
   ],
   "restaurants": [
     {
@@ -25,7 +25,7 @@
       },
       "address": "357苗栗縣通霄鎮通東里中正路2號",
       "note": "餐廳",
-      "bayesian_score": 4.6963,
+      "bayesian_score": 4.6867,
       "confidence": "✅ 高",
       "rank": 1,
       "selected": true
@@ -41,7 +41,7 @@
       },
       "address": "357苗栗縣通霄鎮通西里福德路32號",
       "note": "餐廳",
-      "bayesian_score": 4.6231,
+      "bayesian_score": 4.6165,
       "confidence": "✅ 高",
       "rank": 2,
       "selected": true
@@ -57,25 +57,9 @@
       },
       "address": "357苗栗縣通霄鎮通西里中興路136-1號",
       "note": "家庭餐廳",
-      "bayesian_score": 4.5382,
+      "bayesian_score": 4.5231,
       "confidence": "⚠️ 中",
       "rank": 3,
-      "selected": true
-    },
-    {
-      "place_id": "ChIJX_p7ym2naTQRlDyTfbEx2ns",
-      "name_zh": "林記北平烤鴨",
-      "rating": 4.8,
-      "total_ratings": 78,
-      "location": {
-        "lat": 24.5078541,
-        "lng": 120.68843009999999
-      },
-      "address": "357苗栗縣通霄鎮通灣里124號",
-      "note": "餐廳",
-      "bayesian_score": 4.5138,
-      "confidence": "❌ 低",
-      "rank": 4,
       "selected": true
     },
     {
@@ -89,8 +73,24 @@
       },
       "address": "357苗栗縣通霄鎮通西里和平路4-1號",
       "note": "日式餐廳",
-      "bayesian_score": 4.5129,
+      "bayesian_score": 4.5001,
       "confidence": "✅ 高",
+      "rank": 4,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJX_p7ym2naTQRlDyTfbEx2ns",
+      "name_zh": "林記北平烤鴨",
+      "rating": 4.8,
+      "total_ratings": 78,
+      "location": {
+        "lat": 24.5078541,
+        "lng": 120.68843009999999
+      },
+      "address": "357苗栗縣通霄鎮通灣里124號",
+      "note": "餐廳",
+      "bayesian_score": 4.4935,
+      "confidence": "❌ 低",
       "rank": 5,
       "selected": true
     },
@@ -105,7 +105,7 @@
       },
       "address": "357苗栗縣通霄鎮通東里仁愛路38號",
       "note": "早餐店",
-      "bayesian_score": 4.5044,
+      "bayesian_score": 4.4821,
       "confidence": "❌ 低",
       "rank": 6,
       "selected": false
@@ -121,25 +121,9 @@
       },
       "address": "357苗栗縣通霄鎮自強路",
       "note": "餐廳",
-      "bayesian_score": 4.4944,
+      "bayesian_score": 4.4712,
       "confidence": "❌ 低",
       "rank": 7,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJbc0cpK0JaTQRdO1azED5D-k",
-      "name_zh": "菁饌手作炸物",
-      "rating": 5,
-      "total_ratings": 24,
-      "location": {
-        "lat": 24.4901901,
-        "lng": 120.67844869999998
-      },
-      "address": "357苗栗縣通霄鎮通西里中山路183號",
-      "note": "餐廳",
-      "bayesian_score": 4.472,
-      "confidence": "❌ 低",
-      "rank": 8,
       "selected": false
     },
     {
@@ -153,9 +137,9 @@
       },
       "address": "357苗栗縣通霄鎮通西里中興路90號",
       "note": "中式麵館",
-      "bayesian_score": 4.4685,
+      "bayesian_score": 4.4579,
       "confidence": "✅ 高",
-      "rank": 9,
+      "rank": 8,
       "selected": false
     },
     {
@@ -169,25 +153,25 @@
       },
       "address": "357苗栗縣通霄鎮通西里光復路57號",
       "note": "中式麵館",
-      "bayesian_score": 4.4685,
+      "bayesian_score": 4.4579,
       "confidence": "✅ 高",
-      "rank": 10,
+      "rank": 9,
       "selected": false
     },
     {
-      "place_id": "ChIJ27C5-BsJaTQRIQ2SLSpHrMA",
-      "name_zh": "煎餃蘿蔔糕&玉米蛋餅",
+      "place_id": "ChIJbc0cpK0JaTQRdO1azED5D-k",
+      "name_zh": "菁饌手作炸物",
       "rating": 5,
-      "total_ratings": 21,
+      "total_ratings": 24,
       "location": {
-        "lat": 24.4905655,
-        "lng": 120.6798678
+        "lat": 24.4901901,
+        "lng": 120.67844869999998
       },
-      "address": "357苗栗縣通霄鎮通西里357",
+      "address": "357苗栗縣通霄鎮通西里中山路183號",
       "note": "餐廳",
-      "bayesian_score": 4.4658,
+      "bayesian_score": 4.4465,
       "confidence": "❌ 低",
-      "rank": 11,
+      "rank": 10,
       "selected": false
     },
     {
@@ -201,25 +185,25 @@
       },
       "address": "357苗栗縣通霄鎮通東里忠孝路98號",
       "note": "泰國餐廳",
-      "bayesian_score": 4.4557,
+      "bayesian_score": 4.4406,
       "confidence": "⚠️ 中",
-      "rank": 12,
+      "rank": 11,
       "selected": false
     },
     {
-      "place_id": "ChIJHaiOfDkIaTQRtInO6u5oBI0",
-      "name_zh": "通霄廟口(饒)油飯",
-      "rating": 4.6,
-      "total_ratings": 49,
+      "place_id": "ChIJ27C5-BsJaTQRIQ2SLSpHrMA",
+      "name_zh": "煎餃蘿蔔糕&玉米蛋餅",
+      "rating": 5,
+      "total_ratings": 21,
       "location": {
-        "lat": 24.488996999999998,
-        "lng": 120.68085749999999
+        "lat": 24.4905655,
+        "lng": 120.6798678
       },
-      "address": "357苗栗縣通霄鎮通東里光復路13號",
+      "address": "357苗栗縣通霄鎮通西里357",
       "note": "餐廳",
-      "bayesian_score": 4.4492,
+      "bayesian_score": 4.4398,
       "confidence": "❌ 低",
-      "rank": 13,
+      "rank": 12,
       "selected": false
     },
     {
@@ -233,25 +217,25 @@
       },
       "address": "357苗栗縣通霄鎮通西里中正路74號",
       "note": "餐廳",
-      "bayesian_score": 4.4467,
+      "bayesian_score": 4.4284,
       "confidence": "⚠️ 中",
-      "rank": 14,
+      "rank": 13,
       "selected": false
     },
     {
-      "place_id": "ChIJ9WukZFIJaTQR50acewzHwqA",
-      "name_zh": "貓巷紅樓 (僅供外帶)",
-      "rating": 5,
-      "total_ratings": 12,
+      "place_id": "ChIJHaiOfDkIaTQRtInO6u5oBI0",
+      "name_zh": "通霄廟口(饒)油飯",
+      "rating": 4.6,
+      "total_ratings": 49,
       "location": {
-        "lat": 24.489013099999998,
-        "lng": 120.6797191
+        "lat": 24.488996999999998,
+        "lng": 120.68085749999999
       },
-      "address": "357苗栗縣通霄鎮通西里和平路25號",
+      "address": "357苗栗縣通霄鎮通東里光復路13號",
       "note": "餐廳",
-      "bayesian_score": 4.446,
+      "bayesian_score": 4.4256,
       "confidence": "❌ 低",
-      "rank": 15,
+      "rank": 14,
       "selected": false
     },
     {
@@ -265,7 +249,23 @@
       },
       "address": "357苗栗縣通霄鎮通西里中興路80號",
       "note": "餐廳",
-      "bayesian_score": 4.4433,
+      "bayesian_score": 4.4236,
+      "confidence": "❌ 低",
+      "rank": 15,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ9WukZFIJaTQR50acewzHwqA",
+      "name_zh": "貓巷紅樓 (僅供外帶)",
+      "rating": 5,
+      "total_ratings": 12,
+      "location": {
+        "lat": 24.489013099999998,
+        "lng": 120.6797191
+      },
+      "address": "357苗栗縣通霄鎮通西里和平路25號",
+      "note": "餐廳",
+      "bayesian_score": 4.4186,
       "confidence": "❌ 低",
       "rank": 16,
       "selected": false
@@ -281,7 +281,7 @@
       },
       "address": "357苗栗縣通霄鎮通西里光復路41號",
       "note": "日式餐廳",
-      "bayesian_score": 4.4377,
+      "bayesian_score": 4.4108,
       "confidence": "❌ 低",
       "rank": 17,
       "selected": false
@@ -297,7 +297,7 @@
       },
       "address": "357苗栗縣通霄鎮通西里光復路39號",
       "note": "家庭餐廳",
-      "bayesian_score": 4.4345,
+      "bayesian_score": 4.4082,
       "confidence": "❌ 低",
       "rank": 18,
       "selected": false
@@ -313,7 +313,7 @@
       },
       "address": "357苗栗縣通霄鎮通西里中山路134號。號",
       "note": "中式餐廳",
-      "bayesian_score": 4.4334,
+      "bayesian_score": 4.4053,
       "confidence": "❌ 低",
       "rank": 19,
       "selected": false
@@ -329,7 +329,7 @@
       },
       "address": "357苗栗縣通霄鎮通西里光復路45-1號",
       "note": "速食餐廳",
-      "bayesian_score": 4.4318,
+      "bayesian_score": 4.405,
       "confidence": "❌ 低",
       "rank": 20,
       "selected": false
@@ -345,7 +345,7 @@
       },
       "address": "357苗栗縣通霄鎮通西里中山路68號",
       "note": "餐廳",
-      "bayesian_score": 4.4292,
+      "bayesian_score": 4.4043,
       "confidence": "❌ 低",
       "rank": 21,
       "selected": false
@@ -361,169 +361,9 @@
       },
       "address": "357苗栗縣通霄鎮平元里信義路48號",
       "note": "餐廳",
-      "bayesian_score": 4.4277,
+      "bayesian_score": 4.4002,
       "confidence": "❌ 低",
       "rank": 22,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJmZ-FVQAJaTQROmFNYWmZP_Y",
-      "name_zh": "通霄張記食堂",
-      "rating": 4.6,
-      "total_ratings": 9,
-      "location": {
-        "lat": 24.490781,
-        "lng": 120.6783299
-      },
-      "address": "357苗栗縣通霄鎮通西里海濱路92號",
-      "note": "中式餐廳",
-      "bayesian_score": 4.4241,
-      "confidence": "❌ 低",
-      "rank": 23,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJif7qKwAJaTQRj5gAuS5Fa0U",
-      "name_zh": "中興小吃店",
-      "rating": 5,
-      "total_ratings": 1,
-      "location": {
-        "lat": 24.4897402,
-        "lng": 120.67931739999999
-      },
-      "address": "357苗栗縣通霄鎮通西里中興路34號",
-      "note": "餐廳",
-      "bayesian_score": 4.4198,
-      "confidence": "❌ 低",
-      "rank": 24,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJZ_ctrzkJaTQR-BM9nuK9Ag8",
-      "name_zh": "許阿北大腸包小腸",
-      "rating": 5,
-      "total_ratings": 1,
-      "location": {
-        "lat": 24.4905093,
-        "lng": 120.67950549999999
-      },
-      "address": "357苗栗縣通霄鎮土地銀行前",
-      "note": "餐廳",
-      "bayesian_score": 4.4198,
-      "confidence": "❌ 低",
-      "rank": 25,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJDbmhj2IJaTQRyb-qfi5ZNxs",
-      "name_zh": "張家羊肉爐",
-      "rating": 4.4,
-      "total_ratings": 32,
-      "location": {
-        "lat": 24.489943,
-        "lng": 120.67858659999999
-      },
-      "address": "357苗栗縣通霄鎮通西里中山路118號",
-      "note": "火鍋店",
-      "bayesian_score": 4.4152,
-      "confidence": "❌ 低",
-      "rank": 26,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJdSCqD0YJaTQRVxjyH3x3Ado",
-      "name_zh": "阿忠豆花",
-      "rating": 4.4,
-      "total_ratings": 36,
-      "location": {
-        "lat": 24.4887752,
-        "lng": 120.680959
-      },
-      "address": "357苗栗縣通霄鎮通東里光復路5號",
-      "note": "餐廳",
-      "bayesian_score": 4.415,
-      "confidence": "❌ 低",
-      "rank": 27,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJh_U6NTgIaTQRjpJLVwjMaYU",
-      "name_zh": "好手沏紅茶冰專賣店-通霄店",
-      "rating": 4.4,
-      "total_ratings": 69,
-      "location": {
-        "lat": 24.487029600000003,
-        "lng": 120.67888060000001
-      },
-      "address": "357苗栗縣通霄鎮通西里信義路23號",
-      "note": "餐廳",
-      "bayesian_score": 4.4133,
-      "confidence": "❌ 低",
-      "rank": 28,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJ-dmqfjkIaTQR1PJvGDHyCtQ",
-      "name_zh": "林家烤肉",
-      "rating": 4.4,
-      "total_ratings": 102,
-      "location": {
-        "lat": 24.4889393,
-        "lng": 120.68071599999998
-      },
-      "address": "357苗栗縣通霄鎮通東里光復路21號",
-      "note": "餐廳",
-      "bayesian_score": 4.412,
-      "confidence": "❌ 低",
-      "rank": 29,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJ7XWPOjoIaTQRt3GXiF0Ii8s",
-      "name_zh": "霄餚滷-通霄總店",
-      "rating": 4.4,
-      "total_ratings": 154,
-      "location": {
-        "lat": 24.4894525,
-        "lng": 120.6789678
-      },
-      "address": "357苗栗縣通霄鎮通西里光復路53之1號",
-      "note": "餐廳",
-      "bayesian_score": 4.4104,
-      "confidence": "⚠️ 中",
-      "rank": 30,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJ-eQomoUJaTQRDlxkyFcXlK0",
-      "name_zh": "通霄幸福食堂",
-      "rating": 4.4,
-      "total_ratings": 207,
-      "location": {
-        "lat": 24.490242799999997,
-        "lng": 120.6799987
-      },
-      "address": "357苗栗縣通霄鎮通西里中正路69號1樓",
-      "note": "餐廳",
-      "bayesian_score": 4.4091,
-      "confidence": "⚠️ 中",
-      "rank": 31,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJlxfpfTkIaTQRd9XyLeOaliU",
-      "name_zh": "通霄賴家煎包",
-      "rating": 4.4,
-      "total_ratings": 405,
-      "location": {
-        "lat": 24.4892462,
-        "lng": 120.6808406
-      },
-      "address": "357苗栗縣通霄鎮通東里信義路150號",
-      "note": "早餐店",
-      "bayesian_score": 4.4063,
-      "confidence": "✅ 高",
-      "rank": 32,
       "selected": false
     },
     {
@@ -537,9 +377,185 @@
       },
       "address": "357苗栗縣通霄鎮內湖里53-5號",
       "note": "中式餐廳",
-      "bayesian_score": 4.4014,
+      "bayesian_score": 4.399,
       "confidence": "✅ 高",
+      "rank": 23,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJmZ-FVQAJaTQROmFNYWmZP_Y",
+      "name_zh": "通霄張記食堂",
+      "rating": 4.6,
+      "total_ratings": 9,
+      "location": {
+        "lat": 24.490781,
+        "lng": 120.6783299
+      },
+      "address": "357苗栗縣通霄鎮通西里海濱路92號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.3959,
+      "confidence": "❌ 低",
+      "rank": 24,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJlxfpfTkIaTQRd9XyLeOaliU",
+      "name_zh": "通霄賴家煎包",
+      "rating": 4.4,
+      "total_ratings": 405,
+      "location": {
+        "lat": 24.4892462,
+        "lng": 120.6808406
+      },
+      "address": "357苗栗縣通霄鎮通東里信義路150號",
+      "note": "早餐店",
+      "bayesian_score": 4.3956,
+      "confidence": "✅ 高",
+      "rank": 25,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ-eQomoUJaTQRDlxkyFcXlK0",
+      "name_zh": "通霄幸福食堂",
+      "rating": 4.4,
+      "total_ratings": 207,
+      "location": {
+        "lat": 24.490242799999997,
+        "lng": 120.6799987
+      },
+      "address": "357苗栗縣通霄鎮通西里中正路69號1樓",
+      "note": "餐廳",
+      "bayesian_score": 4.3936,
+      "confidence": "⚠️ 中",
+      "rank": 26,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ7XWPOjoIaTQRt3GXiF0Ii8s",
+      "name_zh": "霄餚滷-通霄總店",
+      "rating": 4.4,
+      "total_ratings": 154,
+      "location": {
+        "lat": 24.4894525,
+        "lng": 120.6789678
+      },
+      "address": "357苗栗縣通霄鎮通西里光復路53之1號",
+      "note": "餐廳",
+      "bayesian_score": 4.3927,
+      "confidence": "⚠️ 中",
+      "rank": 27,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ-dmqfjkIaTQR1PJvGDHyCtQ",
+      "name_zh": "林家烤肉",
+      "rating": 4.4,
+      "total_ratings": 102,
+      "location": {
+        "lat": 24.4889393,
+        "lng": 120.68071599999998
+      },
+      "address": "357苗栗縣通霄鎮通東里光復路21號",
+      "note": "餐廳",
+      "bayesian_score": 4.3916,
+      "confidence": "❌ 低",
+      "rank": 28,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJh_U6NTgIaTQRjpJLVwjMaYU",
+      "name_zh": "好手沏紅茶冰專賣店-通霄店",
+      "rating": 4.4,
+      "total_ratings": 69,
+      "location": {
+        "lat": 24.487029600000003,
+        "lng": 120.67888060000001
+      },
+      "address": "357苗栗縣通霄鎮通西里信義路23號",
+      "note": "餐廳",
+      "bayesian_score": 4.3907,
+      "confidence": "❌ 低",
+      "rank": 29,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJif7qKwAJaTQRj5gAuS5Fa0U",
+      "name_zh": "中興小吃店",
+      "rating": 5,
+      "total_ratings": 1,
+      "location": {
+        "lat": 24.4897402,
+        "lng": 120.67931739999999
+      },
+      "address": "357苗栗縣通霄鎮通西里中興路34號",
+      "note": "餐廳",
+      "bayesian_score": 4.3905,
+      "confidence": "❌ 低",
+      "rank": 30,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJZ_ctrzkJaTQR-BM9nuK9Ag8",
+      "name_zh": "許阿北大腸包小腸",
+      "rating": 5,
+      "total_ratings": 1,
+      "location": {
+        "lat": 24.4905093,
+        "lng": 120.67950549999999
+      },
+      "address": "357苗栗縣通霄鎮土地銀行前",
+      "note": "餐廳",
+      "bayesian_score": 4.3905,
+      "confidence": "❌ 低",
+      "rank": 31,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJdSCqD0YJaTQRVxjyH3x3Ado",
+      "name_zh": "阿忠豆花",
+      "rating": 4.4,
+      "total_ratings": 36,
+      "location": {
+        "lat": 24.4887752,
+        "lng": 120.680959
+      },
+      "address": "357苗栗縣通霄鎮通東里光復路5號",
+      "note": "餐廳",
+      "bayesian_score": 4.3895,
+      "confidence": "❌ 低",
+      "rank": 32,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJDbmhj2IJaTQRyb-qfi5ZNxs",
+      "name_zh": "張家羊肉爐",
+      "rating": 4.4,
+      "total_ratings": 32,
+      "location": {
+        "lat": 24.489943,
+        "lng": 120.67858659999999
+      },
+      "address": "357苗栗縣通霄鎮通西里中山路118號",
+      "note": "火鍋店",
+      "bayesian_score": 4.3893,
+      "confidence": "❌ 低",
       "rank": 33,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJE2rTV8I3aTQRpegJrJGQ6K8",
+      "name_zh": "通霄張家鹹酥雞/張家便當（原白沙屯張家鹹酥雞）",
+      "rating": 4.5,
+      "total_ratings": 2,
+      "location": {
+        "lat": 24.4898442,
+        "lng": 120.68378059999999
+      },
+      "address": "357苗栗縣通霄鎮平元里自強路200號",
+      "note": "餐廳",
+      "bayesian_score": 4.3888,
+      "confidence": "❌ 低",
+      "rank": 34,
       "selected": false
     },
     {
@@ -553,9 +569,9 @@
       },
       "address": "357苗栗縣通霄鎮通西里中正路72號",
       "note": "餐廳",
-      "bayesian_score": 4.3935,
+      "bayesian_score": 4.3652,
       "confidence": "❌ 低",
-      "rank": 34,
+      "rank": 35,
       "selected": false
     },
     {
@@ -569,9 +585,9 @@
       },
       "address": "357苗栗縣通霄鎮內湖里烏眉路120號",
       "note": "餐廳",
-      "bayesian_score": 4.3881,
+      "bayesian_score": 4.362,
       "confidence": "❌ 低",
-      "rank": 35,
+      "rank": 36,
       "selected": false
     },
     {
@@ -585,9 +601,9 @@
       },
       "address": "357苗栗縣通霄鎮通西里中山路170號",
       "note": "亞洲風味餐廳",
-      "bayesian_score": 4.3421,
+      "bayesian_score": 4.331,
       "confidence": "✅ 高",
-      "rank": 36,
+      "rank": 37,
       "selected": false
     },
     {
@@ -601,9 +617,9 @@
       },
       "address": "357苗栗縣通霄鎮通灣里中山路89號",
       "note": "中式餐廳",
-      "bayesian_score": 4.3221,
+      "bayesian_score": 4.3163,
       "confidence": "✅ 高",
-      "rank": 37,
+      "rank": 38,
       "selected": false
     },
     {
@@ -617,9 +633,25 @@
       },
       "address": "357苗栗縣通霄鎮通西里信義路119號",
       "note": "早餐店",
-      "bayesian_score": 4.3218,
+      "bayesian_score": 4.316,
       "confidence": "✅ 高",
-      "rank": 38,
+      "rank": 39,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJPTHtDzkIaTQRpnlxhrHgnhM",
+      "name_zh": "家蓁麵疙瘩",
+      "rating": 4.2,
+      "total_ratings": 183,
+      "location": {
+        "lat": 24.4872135,
+        "lng": 120.6810134
+      },
+      "address": "357苗栗縣通霄鎮通東里自強路1-1號",
+      "note": "餐廳",
+      "bayesian_score": 4.3038,
+      "confidence": "⚠️ 中",
+      "rank": 40,
       "selected": false
     },
     {
@@ -633,9 +665,9 @@
       },
       "address": "357苗栗縣通霄鎮通東里仁愛路40號",
       "note": "早餐店",
-      "bayesian_score": 4.3182,
+      "bayesian_score": 4.3011,
       "confidence": "⚠️ 中",
-      "rank": 39,
+      "rank": 41,
       "selected": false
     },
     {
@@ -649,9 +681,9 @@
       },
       "address": "357苗栗縣通霄鎮通西里信義路148號",
       "note": "台式餐廳",
-      "bayesian_score": 4.3047,
+      "bayesian_score": 4.2894,
       "confidence": "✅ 高",
-      "rank": 40,
+      "rank": 42,
       "selected": false
     },
     {
@@ -665,9 +697,25 @@
       },
       "address": "357苗栗縣通霄鎮通西里中興路79-1號",
       "note": "雞肉料理餐廳",
-      "bayesian_score": 4.2988,
+      "bayesian_score": 4.2728,
       "confidence": "❌ 低",
-      "rank": 41,
+      "rank": 43,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJt41IyzkIaTQRdDbX2_XFyyE",
+      "name_zh": "海中味海鮮料理店",
+      "rating": 4,
+      "total_ratings": 143,
+      "location": {
+        "lat": 24.487081699999997,
+        "lng": 120.6786323
+      },
+      "address": "357苗栗縣通霄鎮通西里中山路22號",
+      "note": "海鮮餐廳",
+      "bayesian_score": 4.2376,
+      "confidence": "⚠️ 中",
+      "rank": 44,
       "selected": false
     },
     {
@@ -681,9 +729,9 @@
       },
       "address": "357苗栗縣通霄鎮通西里信義路133號",
       "note": "餐廳",
-      "bayesian_score": 4.2388,
+      "bayesian_score": 4.2169,
       "confidence": "⚠️ 中",
-      "rank": 42,
+      "rank": 45,
       "selected": false
     },
     {
@@ -697,9 +745,25 @@
       },
       "address": "357苗栗縣通霄鎮通西里中興路88號357",
       "note": "海鮮餐廳",
-      "bayesian_score": 4.1938,
+      "bayesian_score": 4.1778,
       "confidence": "✅ 高",
-      "rank": 43,
+      "rank": 46,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJA0bfdTwIaTQRAToIIQ3yHfY",
+      "name_zh": "千賀海鮮餐廳",
+      "rating": 3.8,
+      "total_ratings": 347,
+      "location": {
+        "lat": 24.490737199999998,
+        "lng": 120.68434490000001
+      },
+      "address": "35741苗栗縣通霄鎮平安里中正路3-8號",
+      "note": "海鮮餐廳",
+      "bayesian_score": 4.0319,
+      "confidence": "✅ 高",
+      "rank": 47,
       "selected": false
     }
   ]

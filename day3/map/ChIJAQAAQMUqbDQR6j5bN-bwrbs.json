@@ -1,14 +1,15 @@
 {
   "place_id": "ChIJAQAAQMUqbDQR6j5bN-bwrbs",
-  "name_zh": "北門水晶教堂",
+  "name_zh": "水晶教堂",
   "csv_type": "景點",
-  "search_keyword": "水晶教堂 台南北門 婚紗美地",
-  "rating": 3.8,
-  "total_ratings": 10672,
   "location": {
     "lat": 23.2639982,
-    "lng": 120.1227089
+    "lng": 120.12270889999998
   },
-  "note": "備案 在北門遊客中心旁 評分較低",
-  "source": "google_maps"
+  "search_keyword": "景點",
+  "source": "along_2026-06-02",
+  "rating": 3.8,
+  "total_ratings": 10673,
+  "address": "727臺南市北門區北門里200號",
+  "primary_type": "tourist_attraction"
 }

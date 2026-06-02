@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJN4uNLpqfaDQRJFf1jf1A0pM",
+  "name_zh": "二拾初心民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 77,
+  "location": {
+    "lat": 24.0341082,
+    "lng": 121.60196940000002
+  },
+  "address": "971花蓮縣新城鄉北埔村復興路325巷20號",
+  "primary_type": "lodging",
+  "distance_km": 2.58,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

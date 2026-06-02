@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJhYAKfLOfaDQRcwZkNlkDJ7o",
+  "name_zh": "草根香民宿",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 91,
+  "location": {
+    "lat": 24.029036599999998,
+    "lng": 121.60526879999999
+  },
+  "address": "971花莲县新城乡北埔村北埔路109巷6號",
+  "primary_type": "hotel",
+  "distance_km": 2.24,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

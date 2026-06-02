@@ -3,7 +3,7 @@
   "name_zh": "沐川海㡳溫泉",
   "name_lang": "zh-TW",
   "rating": 4.7,
-  "total_ratings": 4342,
+  "total_ratings": 4343,
   "location": {
     "lat": 25.2153229,
     "lng": 121.64418769999999
@@ -11,6 +11,6 @@
   "address": "207新北市萬里區大鵬里加投路250-5號",
   "primary_type": "hotel",
   "distance_km": 0.93,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "name_is_ascii": false
 }

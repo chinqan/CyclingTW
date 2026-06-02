@@ -1,15 +1,17 @@
 {
   "place_id": "ChIJgVBR5NZFbzQRlahAiS__Yf4",
-  "name_zh": "舞鶴北回歸線標誌公園",
+  "name_zh": "北回歸線標誌公園",
   "csv_type": "景點",
-  "rating": 4.2,
-  "total_ratings": 8796,
   "location": {
     "lat": 23.465730999999998,
     "lng": 121.3574028
   },
-  "source": "api_2026-05-21",
-  "note": "北回歸線地標 台9線旁",
+  "search_keyword": "景點",
+  "source": "api_2026-06-02",
+  "rating": 4.2,
+  "total_ratings": 8809,
+  "address": "978花蓮縣瑞穗鄉舞鶴村中正南路二段76-9號",
+  "primary_type": "park",
   "opening_hours_text": [
     "Monday: Open 24 hours",
     "Tuesday: Open 24 hours",

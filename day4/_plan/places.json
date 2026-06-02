@@ -2,197 +2,173 @@
   "day": 4,
   "route_name": "府城向南．台南到東港",
   "total_ascent_desc": "全程平坦，台17線濱海與高雄市區道路，幾乎無爬升",
-  "main_route_desc": "鹿耳門 ➔ 台南市區 ➔ 黃金海岸 ➔ 台17線 ➔ 高雄市區 ➔ 澄清湖 ➔ 鳳山 ➔ 林園 ➔ 東港東隆宮",
+  "main_route_desc": "鹿耳門 ➔ 台南市區 ➔ 黃金海岸 ➔ 台17線 ➔ 橋頭糖廠 ➔ 澄清湖 ➔ 鳳山 ➔ 大寮 ➔ 東港東隆宮",
   "places": [
     {
-      "place_id": "ChIJofDyKzrYbTQROj-L3C0Zt8A",
-      "name_zh": "鹿耳門公園",
-      "search_keyword": "鹿耳門公園 台南市安南區",
       "csv_type": "起終點",
-      "note": "早上06:30出發 接續Day3終點 km0",
-      "rating": 4.3,
-      "total_ratings": 198,
+      "name_zh": "鹿耳門聖母廟",
+      "place_id": "ChIJ9dOdnz7YbTQRJkhAq2apnGE",
       "location": {
-        "lat": 23.066061100000002,
-        "lng": 120.1269917
+        "lat": 23.068023399999998,
+        "lng": 120.12724139999997
       },
-      "bayesian_score": 4.4
+      "rating": 4.7,
+      "total_ratings": 5255,
+      "search_keyword": "台南市安南區 鹿耳門聖母廟",
+      "note": "07:00 出發 接續 Day3 終點 km0",
+      "bayesian_score": 4.69
     },
     {
-      "place_id": "ChIJgYUn9DR3bjQRndG_dUOT97c",
-      "name_zh": "7-ELEVEN 天鈺門市",
-      "search_keyword": "7-ELEVEN 天鈺門市 台南市",
-      "csv_type": "便利商店",
-      "note": "台南市區補給 沿路線 km約14",
-      "location": {
-        "lat": 23.001018,
-        "lng": 120.23217000000001
-      },
-      "bayesian_score": null
-    },
-    {
-      "place_id": "ChIJMwoLNSF0bjQRPDMC-i3Tuy0",
-      "name_zh": "巴克禮紀念公園",
-      "search_keyword": "巴克禮紀念公園 台南市東區",
       "csv_type": "景點",
-      "note": "約07:30抵達 台南市區都會綠洲 老榕與荷花池 km約17",
-      "rating": 4.4,
-      "total_ratings": 7232,
+      "name_zh": "巴克禮紀念公園",
+      "place_id": "ChIJMwoLNSF0bjQRPDMC-i3Tuy0",
       "location": {
         "lat": 22.9719929,
         "lng": 120.2225874
       },
+      "rating": 4.4,
+      "total_ratings": 7232,
+      "search_keyword": "台南市東區 巴克禮紀念公園",
+      "note": "代表台南市區 都會綠地公園 km約19",
       "bayesian_score": 4.4
     },
     {
-      "place_id": "ChIJMTD9H3J1bjQRC0l1HyDH3rQ",
-      "name_zh": "黃金海岸",
-      "search_keyword": "黃金海岸 台南市南區",
+      "csv_type": "便利商店",
+      "name_zh": "全家便利商店 台南華興店",
+      "place_id": "ChIJhxoN1r51bjQR8mt2DEaUGY0",
+      "location": {
+        "lat": 22.9619937,
+        "lng": 120.19248160000001
+      },
+      "search_keyword": "全家便利商店 台南華興店",
+      "note": "出台南市區補給點 km約23",
+      "bayesian_score": null
+    },
+    {
       "csv_type": "景點",
-      "note": "約08:00抵達 台南濱海觀海步道與沙灘 km約24",
-      "rating": 4.3,
-      "total_ratings": 10170,
+      "name_zh": "黃金海岸",
+      "place_id": "ChIJMTD9H3J1bjQRC0l1HyDH3rQ",
       "location": {
         "lat": 22.931430100000004,
         "lng": 120.1764427
       },
-      "bayesian_score": 4.31
+      "rating": 4.3,
+      "total_ratings": 10171,
+      "search_keyword": "台南市南區 黃金海岸",
+      "note": "必經 黃金海岸 喜樹灣裡海岸 km約27",
+      "bayesian_score": 4.3
     },
     {
-      "place_id": "ChIJsy-SvlULbjQRGsomzbX-Z8o",
-      "name_zh": "7-ELEVEN 新東專門市",
-      "search_keyword": "7-ELEVEN 新東專門市 高雄市路竹區",
       "csv_type": "便利商店",
-      "note": "路竹段補給 沿路線 km約39",
+      "name_zh": "7-ELEVEN 竹滬門市",
+      "place_id": "ChIJJ7P5KxMLbjQR1cWN051b1Vw",
       "location": {
-        "lat": 22.8806181,
-        "lng": 120.2496022
+        "lat": 22.859728099999998,
+        "lng": 120.2278723
       },
+      "search_keyword": "7-ELEVEN 竹滬門市",
+      "note": "茄萣/路竹補給點 km約39",
       "bayesian_score": null
     },
     {
-      "place_id": "ChIJsaWEMz8MbjQR2Rq6kXk5xqo",
-      "name_zh": "7-ELEVEN 北岡山門市",
-      "search_keyword": "7-ELEVEN 北岡山門市 高雄市岡山區",
-      "csv_type": "便利商店",
-      "note": "岡山段補給 沿路線 km約47",
-      "location": {
-        "lat": 22.8119952,
-        "lng": 120.27995299999999
-      },
-      "bayesian_score": null
-    },
-    {
-      "place_id": "ChIJi95k3rkPbjQRah8HPF9KTfg",
-      "name_zh": "7-ELEVEN 都會門市",
-      "search_keyword": "7-ELEVEN 都會門市 高雄市",
-      "csv_type": "便利商店",
-      "note": "高雄市區補給 沿路線 km約70",
-      "location": {
-        "lat": 22.730614,
-        "lng": 120.31631000000002
-      },
-      "bayesian_score": null
-    },
-    {
-      "place_id": "ChIJYdcLP84abjQRVoPPSCZRVQU",
-      "name_zh": "澄清湖",
-      "search_keyword": "澄清湖 高雄市鳥松區",
       "csv_type": "景點",
-      "note": "約12:00抵達 高雄最大人工湖 九曲橋環湖林蔭 午餐大休點 km約73",
-      "rating": 4.4,
-      "total_ratings": 1452,
+      "name_zh": "漯底山自然公園",
+      "place_id": "ChIJ____PzIJbjQRlR0WnipOGC8",
+      "location": {
+        "lat": 22.770961699999997,
+        "lng": 120.25311020000001
+      },
+      "rating": 4.2,
+      "total_ratings": 3896,
+      "search_keyword": "高雄市彌陀區 漯底山自然公園",
+      "note": "泥火山惡地地景 km約50",
+      "bayesian_score": 4.22
+    },
+    {
+      "csv_type": "景點",
+      "name_zh": "橋頭糖廠",
+      "place_id": "ChIJo65zFEgObjQRm0FgVZa_4GE",
+      "location": {
+        "lat": 22.755686000000004,
+        "lng": 120.31427319999999
+      },
+      "rating": 4.2,
+      "total_ratings": 7590,
+      "search_keyword": "高雄市橋頭區 橋頭糖廠",
+      "note": "日式糖業文化園區 km約57",
+      "bayesian_score": 4.21
+    },
+    {
+      "csv_type": "餐廳大休",
+      "name_zh": "森川丼丼楠梓總店",
+      "place_id": "ChIJPYm0K8QPbjQRIdT_W1OmzUk",
+      "location": {
+        "lat": 22.724978999999998,
+        "lng": 120.3243371
+      },
+      "rating": 4.7,
+      "total_ratings": 13273,
+      "search_keyword": "高雄市楠梓區 森川丼丼",
+      "note": "午餐大休 高人氣丼飯 km約61",
+      "bayesian_score": 4.7
+    },
+    {
+      "csv_type": "便利商店",
+      "name_zh": "全家便利商店 鳥松大仁店",
+      "place_id": "ChIJQV49YcEabjQRBd3Q2D9IoR0",
+      "location": {
+        "lat": 22.6624391,
+        "lng": 120.36254620000001
+      },
+      "search_keyword": "全家便利商店 鳥松大仁店",
+      "note": "澄清湖前補給 km約69",
+      "bayesian_score": null
+    },
+    {
+      "csv_type": "景點",
+      "name_zh": "澄清湖風景區",
+      "place_id": "ChIJi54isNYabjQR-oTp-Y9jupg",
       "location": {
         "lat": 22.6603607,
         "lng": 120.353806
       },
+      "rating": 4.4,
+      "total_ratings": 1710,
+      "search_keyword": "高雄市鳥松區 澄清湖風景區",
+      "note": "必經 澄清湖 高雄最大人工湖 km約72",
       "bayesian_score": 4.41
     },
     {
-      "place_id": "ChIJgVfxZJIbbjQRAkFHYHcO6l4",
-      "name_zh": "蝦搞活蝦海鮮餐廳（澄清店）",
-      "search_keyword": "蝦搞活蝦海鮮餐廳 澄清店 高雄市鳥松區",
-      "csv_type": "餐廳大休",
-      "note": "12:00-13:00午餐大休 澄清湖畔活蝦海鮮",
-      "rating": 4.8,
-      "total_ratings": 754,
-      "location": {
-        "lat": 22.6397043,
-        "lng": 120.3449832
-      },
-      "bayesian_score": 4.67
-    },
-    {
-      "place_id": "ChIJrTUh7DgbbjQRKQc8yg4lIBw",
-      "name_zh": "鳳儀書院",
-      "search_keyword": "鳳儀書院 高雄市鳳山區",
-      "csv_type": "景點",
-      "note": "約13:30抵達 全台最大清代書院 古蹟園區 km約74",
-      "rating": 4.3,
-      "total_ratings": 8271,
-      "location": {
-        "lat": 22.6277386,
-        "lng": 120.359487
-      },
-      "bayesian_score": 4.31
-    },
-    {
-      "place_id": "ChIJ8Ws4GHvicTQRUCR9hKdV_Cs",
-      "name_zh": "7-ELEVEN 霖園門市(現萃茶)",
-      "search_keyword": "7-ELEVEN 霖園門市 高雄市林園區",
       "csv_type": "便利商店",
-      "note": "林園段補給 沿路線 km約100",
+      "name_zh": "7-ELEVEN 潮欣門市",
+      "place_id": "ChIJK-HY8iMcbjQR5CM08Msw5Yw",
       "location": {
-        "lat": 22.5010452,
-        "lng": 120.3980518
+        "lat": 22.5627699,
+        "lng": 120.4287728
       },
+      "search_keyword": "7-ELEVEN 潮欣門市",
+      "note": "大寮 進東港前補給 km約90",
       "bayesian_score": null
     },
     {
-      "place_id": "ChIJu073foHhcTQRA8Y1N1xpFys",
-      "name_zh": "鎮海公園",
-      "search_keyword": "鎮海公園 高雄市林園區",
-      "csv_type": "景點",
-      "note": "約15:30抵達 林園海岸風景與夕陽 km約103",
-      "rating": 4.1,
-      "total_ratings": 1911,
-      "location": {
-        "lat": 22.460918,
-        "lng": 120.44136999999999
-      },
-      "bayesian_score": 4.16
-    },
-    {
-      "place_id": "ChIJEaJrTpfhcTQR_vUluaGGVu4",
-      "name_zh": "7-ELEVEN 億財富門市",
-      "search_keyword": "7-ELEVEN 億財富門市 屏東縣東港鎮",
-      "csv_type": "便利商店",
-      "note": "抵東港前最後補給 沿路線 km約120",
-      "location": {
-        "lat": 22.4669849,
-        "lng": 120.45346299999999
-      },
-      "bayesian_score": null
-    },
-    {
-      "place_id": "ChIJKzw4apvhcTQRbxsV8Dmentk",
-      "name_zh": "東港東隆宮",
-      "search_keyword": "東港東隆宮 屏東縣東港鎮",
       "csv_type": "起終點",
-      "note": "約17:00抵達 當日終點 東港王爺信仰中心 鄰華僑市場",
-      "rating": 4.7,
-      "total_ratings": 7785,
+      "name_zh": "東港東隆宮",
+      "place_id": "ChIJKzw4apvhcTQRbxsV8Dmentk",
       "location": {
         "lat": 22.4630838,
         "lng": 120.44871930000001
       },
+      "rating": 4.7,
+      "total_ratings": 7785,
+      "search_keyword": "屏東縣東港鎮 東隆宮",
+      "note": "終點 東港東隆宮 金牌樓王船祭 km約106",
       "bayesian_score": 4.69
     }
   ],
-  "bayesian_C": 4.4423,
-  "bayesian_m": 437,
-  "ors_distance_km": 111.5,
-  "ors_duration_hours": 6.4,
-  "elevation_ascent_m": null,
-  "elevation_descent_m": null
+  "bayesian_C": 4.466,
+  "bayesian_m": 249,
+  "elevation_ascent_m": 80,
+  "elevation_descent_m": 80,
+  "ors_distance_km": 105.8,
+  "ors_duration_hours": 6.6
 }

@@ -1,14 +1,15 @@
 {
   "day": 5,
   "origin": "東港東隆宮",
-  "destination": "墾丁大街",
+  "destination": "墾丁",
   "distance_km_range": [
-    68,
-    68
+    82,
+    82
   ],
-  "main_route_text": "台1線 → 台26線（屏鵝公路，經大鵬灣）",
+  "main_route_text": "台1線 → 台26線 (屏鵝公路)",
   "must_visit_landmarks": [
+    "大鵬灣",
     "恆春古城",
-    "墾丁大街"
+    "墾丁"
   ]
 }

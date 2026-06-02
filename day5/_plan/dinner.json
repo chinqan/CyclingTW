@@ -1,19 +1,35 @@
 {
   "day": 5,
   "search_radius_km": 3,
-  "pool_size": 36,
-  "bayesian_C": 826.5,
-  "bayesian_m": 4.4889,
+  "pool_size": 38,
+  "bayesian_C": 1028.2,
+  "bayesian_m": 4.6099,
   "note": "C=平均留言數(先驗樣本數), m=加權平均評分(先驗期望值)",
   "source_endpoint_place_id": "ChIJG7fKhoWxcTQR6CrWL3xdESQ",
   "top5_place_ids": [
+    "ChIJJae1TW6xcTQRTDhBwGw2Hjo",
     "ChIJdZTIfIixcTQRKpQlFFRQXok",
-    "ChIJT1sbjT2xcTQRA9mTGJDRAPw",
     "ChIJj5QZvOGxcTQR2X09mIwMhKw",
-    "ChIJCYKtZYixcTQRkbW95spHm-U",
-    "ChIJSYdj7j-wcTQRKw4GQCx6oTw"
+    "ChIJT1sbjT2xcTQRA9mTGJDRAPw",
+    "ChIJy_zNCnmxcTQRBCqXL5EakWs"
   ],
   "restaurants": [
+    {
+      "place_id": "ChIJJae1TW6xcTQRTDhBwGw2Hjo",
+      "name_zh": "墾丁阿勝石頭鄉烤珍珠玉米",
+      "rating": 5,
+      "total_ratings": 9248,
+      "location": {
+        "lat": 21.9453677,
+        "lng": 120.7986292
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路170號",
+      "note": "燒烤料理餐廳",
+      "bayesian_score": 4.961,
+      "confidence": "✅ 高",
+      "rank": 1,
+      "selected": true
+    },
     {
       "place_id": "ChIJdZTIfIixcTQRKpQlFFRQXok",
       "name_zh": "白沙灘泰式餐廳",
@@ -25,23 +41,7 @@
       },
       "address": "946屏東縣恆春鎮墾丁里墾丁路58號",
       "note": "泰國餐廳",
-      "bayesian_score": 4.6585,
-      "confidence": "✅ 高",
-      "rank": 1,
-      "selected": true
-    },
-    {
-      "place_id": "ChIJT1sbjT2xcTQRA9mTGJDRAPw",
-      "name_zh": "六木無煙燒肉海鮮",
-      "rating": 4.7,
-      "total_ratings": 1600,
-      "location": {
-        "lat": 21.9452878,
-        "lng": 120.79780430000001
-      },
-      "address": "946屏東縣恆春鎮墾丁里墾丁路211號",
-      "note": "日式燒肉餐廳",
-      "bayesian_score": 4.6281,
+      "bayesian_score": 4.679,
       "confidence": "✅ 高",
       "rank": 2,
       "selected": true
@@ -57,58 +57,26 @@
       },
       "address": "946屏東縣恆春鎮墾丁里墾丁路文化巷26號",
       "note": "中式餐廳",
-      "bayesian_score": 4.6136,
+      "bayesian_score": 4.6764,
       "confidence": "⚠️ 中",
       "rank": 3,
       "selected": true
     },
     {
-      "place_id": "ChIJCYKtZYixcTQRkbW95spHm-U",
-      "name_zh": "曼波泰式餐廳・大街26年最老店|新店址：墾丁路21-4號.在大街的最後段・雲鄉餐廳旁邊有個英文招牌Mambo就是我們・停車場正對面",
-      "rating": 4.6,
-      "total_ratings": 4076,
+      "place_id": "ChIJT1sbjT2xcTQRA9mTGJDRAPw",
+      "name_zh": "六木無煙燒肉海鮮",
+      "rating": 4.7,
+      "total_ratings": 1600,
       "location": {
-        "lat": 21.9430536,
-        "lng": 120.8021776
+        "lat": 21.9452878,
+        "lng": 120.79780430000001
       },
-      "address": "946屏東縣恆春鎮墾丁里墾丁路21-4號",
-      "note": "泰國餐廳",
-      "bayesian_score": 4.5813,
+      "address": "946屏東縣恆春鎮墾丁里墾丁路211號",
+      "note": "日式燒肉餐廳",
+      "bayesian_score": 4.6648,
       "confidence": "✅ 高",
       "rank": 4,
       "selected": true
-    },
-    {
-      "place_id": "ChIJSYdj7j-wcTQRKw4GQCx6oTw",
-      "name_zh": "恆春陳海鮮餐廳-墾丁店 |海鮮、台菜、熱炒、生魚片 | 墾丁大街美食 Chen.Seafood",
-      "rating": 4.6,
-      "total_ratings": 3512,
-      "location": {
-        "lat": 21.943631699999997,
-        "lng": 120.80160889999999
-      },
-      "address": "946屏東縣恆春鎮墾丁里墾丁路46號",
-      "note": "海鮮餐廳",
-      "bayesian_score": 4.5788,
-      "confidence": "✅ 高",
-      "rank": 5,
-      "selected": true
-    },
-    {
-      "place_id": "ChIJS-8yioWxcTQRY-vhorkDyeY",
-      "name_zh": "巷子內海鮮熱炒｜墾丁美食｜生魚片｜必吃餐廳｜seafood|Kenting restaurant",
-      "rating": 4.6,
-      "total_ratings": 3440,
-      "location": {
-        "lat": 21.945539,
-        "lng": 120.79635549999999
-      },
-      "address": "946屏東縣恆春鎮墾丁路海濱巷9-3號",
-      "note": "海鮮餐廳",
-      "bayesian_score": 4.5785,
-      "confidence": "✅ 高",
-      "rank": 6,
-      "selected": false
     },
     {
       "place_id": "ChIJy_zNCnmxcTQRBCqXL5EakWs",
@@ -121,25 +89,25 @@
       },
       "address": "946屏東縣恆春鎮墾丁里墾丁路26號",
       "note": "燒烤料理餐廳",
-      "bayesian_score": 4.5587,
+      "bayesian_score": 4.6509,
       "confidence": "❌ 低",
-      "rank": 7,
-      "selected": false
+      "rank": 5,
+      "selected": true
     },
     {
-      "place_id": "ChIJVdbbXIixcTQRhmXOJPMZ88I",
-      "name_zh": "興南熱炒99",
-      "rating": 4.6,
-      "total_ratings": 949,
+      "place_id": "ChIJHWR4SqmxcTQRr4p7dyYcXyM",
+      "name_zh": "咪茉薩 地中海料理",
+      "rating": 4.8,
+      "total_ratings": 172,
       "location": {
-        "lat": 21.943088799999998,
-        "lng": 120.80180499999997
+        "lat": 21.9455202,
+        "lng": 120.7980168
       },
-      "address": "946屏東縣恆春鎮墾丁里墾丁路興南巷2號",
-      "note": "印尼餐廳",
-      "bayesian_score": 4.5483,
-      "confidence": "✅ 高",
-      "rank": 8,
+      "address": "946屏東縣恆春鎮墾丁里墾丁路206-1號",
+      "note": "早午餐餐廳",
+      "bayesian_score": 4.6371,
+      "confidence": "❌ 低",
+      "rank": 6,
       "selected": false
     },
     {
@@ -153,89 +121,9 @@
       },
       "address": "946屏東縣恆春鎮墾丁里墾丁路247號",
       "note": "台式餐廳",
-      "bayesian_score": 4.548,
+      "bayesian_score": 4.6313,
       "confidence": "❌ 低",
-      "rank": 9,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJHWR4SqmxcTQRr4p7dyYcXyM",
-      "name_zh": "咪茉薩 地中海料理",
-      "rating": 4.8,
-      "total_ratings": 172,
-      "location": {
-        "lat": 21.9455202,
-        "lng": 120.7980168
-      },
-      "address": "946屏東縣恆春鎮墾丁里墾丁路206-1號",
-      "note": "早午餐餐廳",
-      "bayesian_score": 4.5425,
-      "confidence": "❌ 低",
-      "rank": 10,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJa2Ph6haxcTQRx7FdPX_7mtM",
-      "name_zh": "木可晨食",
-      "rating": 4.6,
-      "total_ratings": 403,
-      "location": {
-        "lat": 21.945956600000002,
-        "lng": 120.79617569999999
-      },
-      "address": "946屏東縣恆春鎮墾丁里墾丁路267號",
-      "note": "早午餐餐廳",
-      "bayesian_score": 4.5253,
-      "confidence": "❌ 低",
-      "rank": 11,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJY_SVZ4ezcTQRAbPUP-CtMQ8",
-      "name_zh": "主廚先生Mr. Chef",
-      "rating": 4.6,
-      "total_ratings": 308,
-      "location": {
-        "lat": 21.9415349,
-        "lng": 120.80631079999999
-      },
-      "address": "946屏東縣恆春鎮墾丁里墾丁路2號",
-      "note": "西餐廳",
-      "bayesian_score": 4.5191,
-      "confidence": "❌ 低",
-      "rank": 12,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJucQ2nIixcTQRRB_jz-wxxb4",
-      "name_zh": "嘟嘟熊可麗餅",
-      "rating": 4.6,
-      "total_ratings": 146,
-      "location": {
-        "lat": 21.945290099999998,
-        "lng": 120.7994054
-      },
-      "address": "946屏東縣恆春鎮墾丁里墾丁路134號前",
-      "note": "餐廳",
-      "bayesian_score": 4.5056,
-      "confidence": "❌ 低",
-      "rank": 13,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJ3_fMi6uxcTQR-h9oIWvbHWA",
-      "name_zh": "墾丁必吃 炸鮮奶",
-      "rating": 4.7,
-      "total_ratings": 35,
-      "location": {
-        "lat": 21.9459715,
-        "lng": 120.796673
-      },
-      "address": "946屏東縣恆春鎮墾丁里墾丁路243之1號",
-      "note": "餐廳",
-      "bayesian_score": 4.4975,
-      "confidence": "❌ 低",
-      "rank": 14,
+      "rank": 7,
       "selected": false
     },
     {
@@ -249,25 +137,9 @@
       },
       "address": "946屏東縣恆春鎮墾丁里墾丁路118號",
       "note": "餐廳",
-      "bayesian_score": 4.4974,
+      "bayesian_score": 4.6151,
       "confidence": "❌ 低",
-      "rank": 15,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJUaWYVY-xcTQRZ4hbZKhBGTM",
-      "name_zh": "佳珍生猛海鮮",
-      "rating": 4.5,
-      "total_ratings": 1771,
-      "location": {
-        "lat": 21.9452131,
-        "lng": 120.79798129999999
-      },
-      "address": "946屏東縣恆春鎮墾丁里墾丁路203號",
-      "note": "海鮮餐廳",
-      "bayesian_score": 4.4965,
-      "confidence": "✅ 高",
-      "rank": 16,
+      "rank": 8,
       "selected": false
     },
     {
@@ -281,25 +153,25 @@
       },
       "address": "946屏東縣恆春鎮墾丁里墾丁路239-233號",
       "note": "餐廳",
-      "bayesian_score": 4.4952,
+      "bayesian_score": 4.613,
       "confidence": "❌ 低",
-      "rank": 17,
+      "rank": 9,
       "selected": false
     },
     {
-      "place_id": "ChIJb_pvwoqxcTQRzUEII7Tty34",
-      "name_zh": "鱻太郎日式料理 Sentaro Japanese Restaurant",
-      "rating": 4.5,
-      "total_ratings": 579,
+      "place_id": "ChIJ3_fMi6uxcTQR-h9oIWvbHWA",
+      "name_zh": "墾丁必吃 炸鮮奶",
+      "rating": 4.7,
+      "total_ratings": 35,
       "location": {
-        "lat": 21.945260299999997,
-        "lng": 120.79920810000002
+        "lat": 21.9459715,
+        "lng": 120.796673
       },
-      "address": "946屏東縣恆春鎮墾丁里墾丁路138號",
+      "address": "946屏東縣恆春鎮墾丁里墾丁路243之1號",
       "note": "餐廳",
-      "bayesian_score": 4.4935,
-      "confidence": "⚠️ 中",
-      "rank": 18,
+      "bayesian_score": 4.6129,
+      "confidence": "❌ 低",
+      "rank": 10,
       "selected": false
     },
     {
@@ -313,9 +185,73 @@
       },
       "address": "946屏東縣恆春鎮墾丁里墾丁路70號",
       "note": "餐廳",
-      "bayesian_score": 4.4934,
+      "bayesian_score": 4.6121,
       "confidence": "❌ 低",
-      "rank": 19,
+      "rank": 11,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJucQ2nIixcTQRRB_jz-wxxb4",
+      "name_zh": "嘟嘟熊可麗餅",
+      "rating": 4.6,
+      "total_ratings": 146,
+      "location": {
+        "lat": 21.945290099999998,
+        "lng": 120.7994054
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路134號前",
+      "note": "餐廳",
+      "bayesian_score": 4.6087,
+      "confidence": "❌ 低",
+      "rank": 12,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJY_SVZ4ezcTQRAbPUP-CtMQ8",
+      "name_zh": "主廚先生Mr. Chef",
+      "rating": 4.6,
+      "total_ratings": 308,
+      "location": {
+        "lat": 21.9415349,
+        "lng": 120.80631079999999
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路2號",
+      "note": "西餐廳",
+      "bayesian_score": 4.6076,
+      "confidence": "❌ 低",
+      "rank": 13,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJa2Ph6haxcTQRx7FdPX_7mtM",
+      "name_zh": "木可晨食",
+      "rating": 4.6,
+      "total_ratings": 403,
+      "location": {
+        "lat": 21.945956600000002,
+        "lng": 120.79617569999999
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路267號",
+      "note": "早午餐餐廳",
+      "bayesian_score": 4.6071,
+      "confidence": "❌ 低",
+      "rank": 14,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJVdbbXIixcTQRhmXOJPMZ88I",
+      "name_zh": "興南熱炒99",
+      "rating": 4.6,
+      "total_ratings": 949,
+      "location": {
+        "lat": 21.943088799999998,
+        "lng": 120.80180499999997
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路興南巷2號",
+      "note": "印尼餐廳",
+      "bayesian_score": 4.6051,
+      "confidence": "⚠️ 中",
+      "rank": 15,
       "selected": false
     },
     {
@@ -329,8 +265,72 @@
       },
       "address": "946屏東縣恆春鎮墾丁里公園路201號",
       "note": "中式餐廳",
-      "bayesian_score": 4.4896,
+      "bayesian_score": 4.6046,
       "confidence": "❌ 低",
+      "rank": 16,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJQ1SycbexcTQRdkfb8N_H7s4",
+      "name_zh": "皇帝土耳其旋轉烤肉捲餅",
+      "rating": 4.5,
+      "total_ratings": 70,
+      "location": {
+        "lat": 21.9455202,
+        "lng": 120.7980168
+      },
+      "address": "94605屏東縣恆春鎮墾丁里墾丁路206號",
+      "note": "土耳其餐廳",
+      "bayesian_score": 4.6029,
+      "confidence": "❌ 低",
+      "rank": 17,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJS-8yioWxcTQRY-vhorkDyeY",
+      "name_zh": "巷子內海鮮熱炒｜墾丁美食｜生魚片｜必吃餐廳｜seafood|Kenting restaurant",
+      "rating": 4.6,
+      "total_ratings": 3440,
+      "location": {
+        "lat": 21.945539,
+        "lng": 120.79635549999999
+      },
+      "address": "946屏東縣恆春鎮墾丁路海濱巷9-3號",
+      "note": "海鮮餐廳",
+      "bayesian_score": 4.6023,
+      "confidence": "✅ 高",
+      "rank": 18,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJSYdj7j-wcTQRKw4GQCx6oTw",
+      "name_zh": "恆春陳海鮮餐廳-墾丁店 |海鮮、台菜、熱炒、生魚片 | 墾丁大街美食 Chen.Seafood",
+      "rating": 4.6,
+      "total_ratings": 3512,
+      "location": {
+        "lat": 21.943631699999997,
+        "lng": 120.80160889999999
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路46號",
+      "note": "海鮮餐廳",
+      "bayesian_score": 4.6022,
+      "confidence": "✅ 高",
+      "rank": 19,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJCYKtZYixcTQRkbW95spHm-U",
+      "name_zh": "曼波泰式餐廳・大街26年最老店|新店址：墾丁路21-4號.在大街的最後段・雲鄉餐廳旁邊有個英文招牌Mambo就是我們・停車場正對面",
+      "rating": 4.6,
+      "total_ratings": 4076,
+      "location": {
+        "lat": 21.9430536,
+        "lng": 120.8021776
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路21-4號",
+      "note": "泰國餐廳",
+      "bayesian_score": 4.602,
+      "confidence": "✅ 高",
       "rank": 20,
       "selected": false
     },
@@ -345,41 +345,25 @@
       },
       "address": "墾丁國家公園, 恆春鎮屏東縣946",
       "note": "外賣餐廳",
-      "bayesian_score": 4.463,
+      "bayesian_score": 4.5846,
       "confidence": "❌ 低",
       "rank": 21,
       "selected": false
     },
     {
-      "place_id": "ChIJAfIMt3ixcTQRDM_rxugUzWw",
-      "name_zh": "阿嬤麵舖",
-      "rating": 4.3,
-      "total_ratings": 189,
+      "place_id": "ChIJb_pvwoqxcTQRzUEII7Tty34",
+      "name_zh": "鱻太郎日式料理 Sentaro Japanese Restaurant",
+      "rating": 4.5,
+      "total_ratings": 579,
       "location": {
-        "lat": 21.9461266,
-        "lng": 120.7952471
+        "lat": 21.945260299999997,
+        "lng": 120.79920810000002
       },
-      "address": "946屏東縣恆春鎮墾丁里墾丁路308號",
-      "note": "小吃店",
-      "bayesian_score": 4.4537,
-      "confidence": "❌ 低",
-      "rank": 22,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJJ5D0QIixcTQRLWK_-dkkDds",
-      "name_zh": "雲鄉滇泰緬料理",
-      "rating": 4.4,
-      "total_ratings": 826,
-      "location": {
-        "lat": 21.943031500000004,
-        "lng": 120.8022196
-      },
-      "address": "946屏東縣恆春鎮墾丁里墾丁路19號",
-      "note": "亞洲風味餐廳",
-      "bayesian_score": 4.4445,
+      "address": "946屏東縣恆春鎮墾丁里墾丁路138號",
+      "note": "餐廳",
+      "bayesian_score": 4.5703,
       "confidence": "⚠️ 中",
-      "rank": 23,
+      "rank": 22,
       "selected": false
     },
     {
@@ -393,25 +377,25 @@
       },
       "address": "946屏東縣恆春鎮墾丁天主教服務中心 教堂前",
       "note": "餐廳",
-      "bayesian_score": 4.4395,
+      "bayesian_score": 4.5686,
       "confidence": "❌ 低",
-      "rank": 24,
+      "rank": 23,
       "selected": false
     },
     {
-      "place_id": "ChIJP6-WZoixcTQRonNVn5EA7u0",
-      "name_zh": "墾丁張記碳烤-香酥肥腸",
-      "rating": 4,
-      "total_ratings": 107,
+      "place_id": "ChIJAfIMt3ixcTQRDM_rxugUzWw",
+      "name_zh": "阿嬤麵舖",
+      "rating": 4.3,
+      "total_ratings": 189,
       "location": {
-        "lat": 21.9436949,
-        "lng": 120.80126729999998
+        "lat": 21.9461266,
+        "lng": 120.7952471
       },
-      "address": "946屏東縣恆春鎮墾丁里墾丁路65-31號",
-      "note": "餐廳",
-      "bayesian_score": 4.4329,
+      "address": "946屏東縣恆春鎮墾丁里墾丁路308號",
+      "note": "小吃店",
+      "bayesian_score": 4.5618,
       "confidence": "❌ 低",
-      "rank": 25,
+      "rank": 24,
       "selected": false
     },
     {
@@ -425,25 +409,57 @@
       },
       "address": "946屏東縣恆春鎮墾丁里屏鵝公路221號",
       "note": "中式餐廳",
-      "bayesian_score": 4.4221,
+      "bayesian_score": 4.5529,
+      "confidence": "❌ 低",
+      "rank": 25,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJP6-WZoixcTQRonNVn5EA7u0",
+      "name_zh": "墾丁張記碳烤-香酥肥腸",
+      "rating": 4,
+      "total_ratings": 107,
+      "location": {
+        "lat": 21.9436949,
+        "lng": 120.80126729999998
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路65-31號",
+      "note": "餐廳",
+      "bayesian_score": 4.5524,
       "confidence": "❌ 低",
       "rank": 26,
       "selected": false
     },
     {
-      "place_id": "ChIJq0xDYPmxcTQRJpFhOSGfRPk",
-      "name_zh": "六少爺海鮮燒烤 墾丁旗艦店 《恆春/墾丁/生魚片》必吃美食｜熱炒｜海鮮餐廳｜在地名店｜人氣海產",
-      "rating": 4.4,
-      "total_ratings": 2727,
+      "place_id": "ChIJUaWYVY-xcTQRZ4hbZKhBGTM",
+      "name_zh": "佳珍生猛海鮮",
+      "rating": 4.5,
+      "total_ratings": 1771,
       "location": {
-        "lat": 21.9451097,
-        "lng": 120.7999581
+        "lat": 21.9452131,
+        "lng": 120.79798129999999
       },
-      "address": "946屏東縣恆春鎮墾丁里墾丁路120號",
+      "address": "946屏東縣恆春鎮墾丁里墾丁路203號",
       "note": "海鮮餐廳",
-      "bayesian_score": 4.4207,
+      "bayesian_score": 4.5404,
       "confidence": "✅ 高",
       "rank": 27,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJJ5D0QIixcTQRLWK_-dkkDds",
+      "name_zh": "雲鄉滇泰緬料理",
+      "rating": 4.4,
+      "total_ratings": 826,
+      "location": {
+        "lat": 21.943031500000004,
+        "lng": 120.8022196
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路19號",
+      "note": "亞洲風味餐廳",
+      "bayesian_score": 4.5164,
+      "confidence": "⚠️ 中",
+      "rank": 28,
       "selected": false
     },
     {
@@ -457,9 +473,9 @@
       },
       "address": "946屏東縣恆春鎮墾丁里墾丁路227號",
       "note": "水餃店",
-      "bayesian_score": 4.3843,
+      "bayesian_score": 4.5004,
       "confidence": "❌ 低",
-      "rank": 28,
+      "rank": 29,
       "selected": false
     },
     {
@@ -473,9 +489,9 @@
       },
       "address": "946屏東縣恆春鎮墾丁里墾丁路182號",
       "note": "熱狗專賣店",
-      "bayesian_score": 4.3748,
+      "bayesian_score": 4.4985,
       "confidence": "❌ 低",
-      "rank": 29,
+      "rank": 30,
       "selected": false
     },
     {
@@ -489,9 +505,9 @@
       },
       "address": "946屏東縣恆春鎮墾丁里墾丁路118-128號",
       "note": "海鮮餐廳",
-      "bayesian_score": 4.3633,
+      "bayesian_score": 4.4829,
       "confidence": "❌ 低",
-      "rank": 30,
+      "rank": 31,
       "selected": false
     },
     {
@@ -505,9 +521,25 @@
       },
       "address": "946屏東縣恆春鎮墾丁里墾丁路206-1號",
       "note": "早午餐餐廳",
-      "bayesian_score": 4.356,
-      "confidence": "⚠️ 中",
-      "rank": 31,
+      "bayesian_score": 4.4598,
+      "confidence": "❌ 低",
+      "rank": 32,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJq0xDYPmxcTQRJpFhOSGfRPk",
+      "name_zh": "六少爺海鮮燒烤 墾丁旗艦店 《恆春/墾丁/生魚片》必吃美食｜熱炒｜海鮮餐廳｜在地名店｜人氣海產",
+      "rating": 4.4,
+      "total_ratings": 2727,
+      "location": {
+        "lat": 21.9451097,
+        "lng": 120.7999581
+      },
+      "address": "946屏東縣恆春鎮墾丁里墾丁路120號",
+      "note": "海鮮餐廳",
+      "bayesian_score": 4.4575,
+      "confidence": "✅ 高",
+      "rank": 33,
       "selected": false
     },
     {
@@ -521,9 +553,9 @@
       },
       "address": "946屏東縣恆春鎮墾丁里大灣路266號",
       "note": "披薩餐廳",
-      "bayesian_score": 4.3448,
+      "bayesian_score": 4.4278,
       "confidence": "⚠️ 中",
-      "rank": 32,
+      "rank": 34,
       "selected": false
     },
     {
@@ -537,9 +569,9 @@
       },
       "address": "94644屏東縣恆春鎮墾丁里墾丁路131-1號",
       "note": "義大利餐廳",
-      "bayesian_score": 4.2974,
+      "bayesian_score": 4.3589,
       "confidence": "✅ 高",
-      "rank": 33,
+      "rank": 35,
       "selected": false
     },
     {
@@ -553,9 +585,9 @@
       },
       "address": "946屏東縣恆春鎮墾丁里墾丁路161號",
       "note": "餐廳",
-      "bayesian_score": 4.2265,
+      "bayesian_score": 4.3496,
       "confidence": "❌ 低",
-      "rank": 34,
+      "rank": 36,
       "selected": false
     },
     {
@@ -569,9 +601,9 @@
       },
       "address": "946屏東縣恆春鎮墾丁里墾丁路206號",
       "note": "泰國餐廳",
-      "bayesian_score": 4.1336,
+      "bayesian_score": 4.286,
       "confidence": "❌ 低",
-      "rank": 35,
+      "rank": 37,
       "selected": false
     },
     {
@@ -585,9 +617,9 @@
       },
       "address": "946屏東縣恆春鎮墾丁里墾丁路182號",
       "note": "餐廳",
-      "bayesian_score": 4.0551,
+      "bayesian_score": 4.2336,
       "confidence": "❌ 低",
-      "rank": 36,
+      "rank": 38,
       "selected": false
     }
   ]

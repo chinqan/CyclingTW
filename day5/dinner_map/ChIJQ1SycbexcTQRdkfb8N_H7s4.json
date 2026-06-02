@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJQ1SycbexcTQRdkfb8N_H7s4",
+  "name_zh": "皇帝土耳其旋轉烤肉捲餅",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 70,
+  "location": {
+    "lat": 21.9455202,
+    "lng": 120.7980168
+  },
+  "address": "94605屏東縣恆春鎮墾丁里墾丁路206號",
+  "primary_type": "turkish_restaurant",
+  "primary_type_label": "土耳其餐廳",
+  "distance_km": 0.1,
+  "source": "api_2026-06-02",
+  "note": "土耳其餐廳",
+  "name_is_ascii": false
+}

@@ -1,50 +1,883 @@
 {
   "day": 8,
-  "bayesian_C": 4.2667,
-  "bayesian_m": 2330,
-  "pool_size": 6,
+  "bayesian_C": 4.424,
+  "bayesian_m": 311,
+  "pool_size": 125,
   "scores": {
     "ChIJ677P5HxqbzQR590ArDS8N5E": {
       "name_zh": "玉里車站",
       "csv_type": "起終點",
       "rating": 4.1,
-      "total_ratings": 682,
-      "bayesian_score": 4.23
+      "total_ratings": 689,
+      "bayesian_score": 4.2
     },
     "ChIJQYuk32JqbzQRz-T-3Ow4Dfg": {
       "name_zh": "玉富自行車道",
       "csv_type": "景點",
       "rating": 4.4,
-      "total_ratings": 313,
-      "bayesian_score": 4.28
-    },
-    "ChIJgVBR5NZFbzQRlahAiS__Yf4": {
-      "name_zh": "舞鶴北回歸線標誌公園",
-      "csv_type": "景點",
-      "rating": 4.2,
-      "total_ratings": 8796,
-      "bayesian_score": 4.21
-    },
-    "ChIJpcSL78qyaDQRpJX500RPFLo": {
-      "name_zh": "花蓮觀光糖廠",
-      "csv_type": "景點",
-      "rating": 4.1,
-      "total_ratings": 22878,
-      "bayesian_score": 4.12
+      "total_ratings": 315,
+      "bayesian_score": 4.41
     },
     "ChIJK6-HgbafaDQR99QetgTFgwU": {
       "name_zh": "花蓮車站",
       "csv_type": "起終點",
       "rating": 4.2,
       "total_ratings": 3149,
-      "bayesian_score": 4.23
+      "bayesian_score": 4.22
     },
     "ChIJ9SCI5oedaDQRijf91YB4Ag0": {
       "name_zh": "七星潭",
       "csv_type": "景點",
       "rating": 4.6,
       "total_ratings": 1512,
+      "bayesian_score": 4.57
+    },
+    "ChIJm1bXewBrbzQRwpY2ldaEY6Y": {
+      "name_zh": "大樟樹",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 3,
+      "bayesian_score": 4.42
+    },
+    "ChIJ5TvaoXtqbzQRGIiESMUOo2U": {
+      "name_zh": "玉里圓環",
+      "csv_type": "景點",
+      "rating": 3.9,
+      "total_ratings": 296,
+      "bayesian_score": 4.17
+    },
+    "ChIJVxTlTTRqbzQRleCGUPzAsgk": {
+      "name_zh": "Yuli-Changbin Highway",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 228,
+      "bayesian_score": 4.41
+    },
+    "ChIJR3cbnBZqbzQRMzNOIIEmQrg": {
+      "name_zh": "HALAWAN 哈拉灣",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 35,
+      "bayesian_score": 4.44
+    },
+    "ChIJazh112pBbzQR3l4ls_s94PI": {
+      "name_zh": "三川水岩藝工作室",
+      "csv_type": "景點",
+      "rating": 5,
+      "total_ratings": 2,
+      "bayesian_score": 4.43
+    },
+    "ChIJFXseCd1BbzQRK9IJ-pvUwts": {
+      "name_zh": "玉水圳人工濕地",
+      "csv_type": "景點",
+      "rating": 3.9,
+      "total_ratings": 218,
+      "bayesian_score": 4.21
+    },
+    "ChIJD6lIdHlqbzQRg3B-3EyBXAw": {
+      "name_zh": "台灣黑熊教育館",
+      "csv_type": "景點",
+      "rating": 4.7,
+      "total_ratings": 824,
+      "bayesian_score": 4.62
+    },
+    "ChIJKaTaGABrbzQRkHbQtdttceA": {
+      "name_zh": "九石城休閒農場",
+      "csv_type": "景點",
+      "rating": 5,
+      "total_ratings": 2,
+      "bayesian_score": 4.43
+    },
+    "ChIJyYfOd9dFbzQRVfJ55pEYcLM": {
+      "name_zh": "舞鶴台地",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 50,
+      "bayesian_score": 4.38
+    },
+    "ChIJtXBaGz1FbzQRrNJnvaiXd3o": {
+      "name_zh": "瑞穗小雄森林園區(自然碳匯區）",
+      "csv_type": "景點",
+      "rating": 4,
+      "total_ratings": 10,
+      "bayesian_score": 4.41
+    },
+    "ChIJt4hMgtlFbzQRUCUwgI_n4fA": {
+      "name_zh": "舞鶴遺址(掃叭石柱)",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 1119,
+      "bayesian_score": 4.17
+    },
+    "ChIJR32Q_HJGbzQRRL_0TxjNtQA": {
+      "name_zh": "瑞穗牧場",
+      "csv_type": "景點",
+      "rating": 3.9,
+      "total_ratings": 14477,
+      "bayesian_score": 3.91
+    },
+    "ChIJgVBR5NZFbzQRlahAiS__Yf4": {
+      "name_zh": "北回歸線標誌公園",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 8809,
+      "bayesian_score": 4.21
+    },
+    "ChIJ4XKdTgBHbzQRm_5pEWVAKL8": {
+      "name_zh": "Bunun under the sea 布農青年在海裡",
+      "csv_type": "景點",
+      "rating": 5,
+      "total_ratings": 8,
+      "bayesian_score": 4.44
+    },
+    "ChIJTybdiPVFbzQRnkYCJnk2HAk": {
+      "name_zh": "瑞穗生態教育館",
+      "csv_type": "景點",
+      "rating": 4.5,
+      "total_ratings": 329,
+      "bayesian_score": 4.46
+    },
+    "ChIJUwy9WT5NbzQR65lDISWwfdg": {
+      "name_zh": "大和明德老街文化故事牆",
+      "csv_type": "景點",
+      "rating": 3.8,
+      "total_ratings": 9,
+      "bayesian_score": 4.41
+    },
+    "ChIJyeBXByhEbzQRNzDt7BXcE1g": {
+      "name_zh": "舞鶴觀光茶園停車場",
+      "csv_type": "景點",
+      "rating": 4,
+      "total_ratings": 8,
+      "bayesian_score": 4.41
+    },
+    "ChIJk-jtCP1FbzQRxycSp3mVHDc": {
+      "name_zh": "Wuhe Tourist Tea Plantation",
+      "csv_type": "景點",
+      "rating": 3,
+      "total_ratings": 1,
+      "bayesian_score": 4.42
+    },
+    "ChIJRakpOhqzaDQRVILhOhZi1JU": {
+      "name_zh": "老火車頭",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 6,
+      "bayesian_score": 4.42
+    },
+    "ChIJIZs-bf5MbzQR0A6ep25-hKs": {
+      "name_zh": "花蓮大富大道",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 66,
+      "bayesian_score": 4.42
+    },
+    "ChIJpcSL78qyaDQRpJX500RPFLo": {
+      "name_zh": "花蓮觀光糖廠",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 22943,
+      "bayesian_score": 4.1
+    },
+    "ChIJ1W1BtjBNbzQR9YeCRmprRng": {
+      "name_zh": "故事街",
+      "csv_type": "景點",
+      "rating": 4,
+      "total_ratings": 70,
+      "bayesian_score": 4.35
+    },
+    "ChIJEzzg4SCzaDQRiZFv9BvHjUE": {
+      "name_zh": "吉利潭",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 2669,
+      "bayesian_score": 4.13
+    },
+    "ChIJFb1rZi1NbzQR3xRzcU-mo04": {
+      "name_zh": "馬太鞍溼地生態館",
+      "csv_type": "景點",
+      "rating": 4,
+      "total_ratings": 2668,
+      "bayesian_score": 4.04
+    },
+    "ChIJkSK7F5FNbzQRT5iHyZDT7tI": {
+      "name_zh": "糖廠老樟樹",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 3,
+      "bayesian_score": 4.42
+    },
+    "ChIJFatmXs2yaDQR0jk3yZG0uXI": {
+      "name_zh": "馬太鞍溼地生態園區步道",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 32,
+      "bayesian_score": 4.41
+    },
+    "ChIJOdP0bABNbzQR2FqlwizJ-pI": {
+      "name_zh": "富源興泉圳黃花風鈴木",
+      "csv_type": "景點",
+      "rating": 5,
+      "total_ratings": 1,
+      "bayesian_score": 4.43
+    },
+    "ChIJdV0OvwFNbzQR9qsndnSqiTA": {
+      "name_zh": "台灣糖業股份有限公司花蓮區處大富農場",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 69,
+      "bayesian_score": 4.38
+    },
+    "ChIJCW4D8qhNbzQR6fFOPlKthgc": {
+      "name_zh": "七彩釣竿橋",
+      "csv_type": "景點",
+      "rating": 3.6,
+      "total_ratings": 76,
+      "bayesian_score": 4.26
+    },
+    "ChIJ1W1fQL5ObzQRBuL7gO8Kiqs": {
+      "name_zh": "LANGAS 拉加善聚會所",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 58,
+      "bayesian_score": 4.42
+    },
+    "ChIJi2lxOOayaDQRoZeWr9BYHsw": {
+      "name_zh": "光復鄉馬太鞍公園",
+      "csv_type": "景點",
+      "rating": 4,
+      "total_ratings": 154,
+      "bayesian_score": 4.28
+    },
+    "ChIJSdKrVwBPbzQRjYyLn7U11aU": {
+      "name_zh": "瑞穗鄉花東縱谷之心廣場",
+      "csv_type": "景點",
+      "rating": 5,
+      "total_ratings": 3,
+      "bayesian_score": 4.43
+    },
+    "ChIJe8tSz5evaDQR7SaADnRB5Ek": {
+      "name_zh": "王菲草原",
+      "csv_type": "景點",
+      "rating": 3.6,
+      "total_ratings": 523,
+      "bayesian_score": 3.91
+    },
+    "ChIJ8xM0MVOlaDQRzWBA6gbNhJ0": {
+      "name_zh": "看牛吃草",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 123,
+      "bayesian_score": 4.47
+    },
+    "ChIJbT-oUTykaDQRLKcwAk2dnNU": {
+      "name_zh": "立川漁場",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 15611,
+      "bayesian_score": 4.11
+    },
+    "ChIJcczZsb6laDQR_YOVZihArfk": {
+      "name_zh": "綠色隧道",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 25,
       "bayesian_score": 4.4
+    },
+    "ChIJjUh15b2laDQRVjXq04Hj33k": {
+      "name_zh": "花蓮雲山水夢幻湖",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 14579,
+      "bayesian_score": 4.11
+    },
+    "ChIJ_5_ieq-laDQR0ffhfL7rSgo": {
+      "name_zh": "應許河",
+      "csv_type": "景點",
+      "rating": 4.7,
+      "total_ratings": 81,
+      "bayesian_score": 4.48
+    },
+    "ChIJGY_S5--uQjQRQp4OeNINRJQ": {
+      "name_zh": "柏泰園休閒農場",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 6,
+      "bayesian_score": 4.42
+    },
+    "ChIJocAXbrefaDQRVBF9mJl3-NM": {
+      "name_zh": "野猴子探險森林",
+      "csv_type": "景點",
+      "rating": 4.7,
+      "total_ratings": 1628,
+      "bayesian_score": 4.66
+    },
+    "ChIJn-cJdQClaDQRW1TNwwBguNQ": {
+      "name_zh": "花蓮雲山水",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 39,
+      "bayesian_score": 4.4
+    },
+    "ChIJb5OJR0GlaDQRL6CojjI7kTg": {
+      "name_zh": "理想PAARK水岸生活",
+      "csv_type": "景點",
+      "rating": 4.5,
+      "total_ratings": 672,
+      "bayesian_score": 4.48
+    },
+    "ChIJHStNsO6vaDQRf9iSzcMkQQ8": {
+      "name_zh": "新光兆豐休閒農場售票口",
+      "csv_type": "景點",
+      "rating": 3.7,
+      "total_ratings": 121,
+      "bayesian_score": 4.22
+    },
+    "ChIJV7czkRyuaDQRE37E0j9VOUM": {
+      "name_zh": "鳳林校長夢工廠",
+      "csv_type": "景點",
+      "rating": 3.8,
+      "total_ratings": 1074,
+      "bayesian_score": 3.94
+    },
+    "ChIJafE6DACvaDQRdY9o5fw94hc": {
+      "name_zh": "冬天樹廊",
+      "csv_type": "景點",
+      "rating": 4,
+      "total_ratings": 1,
+      "bayesian_score": 4.42
+    },
+    "ChIJAQAAU_ijaDQR3rfETbODxuE": {
+      "name_zh": "花蓮落羽松",
+      "csv_type": "景點",
+      "rating": 4,
+      "total_ratings": 202,
+      "bayesian_score": 4.26
+    },
+    "ChIJHUNvaSOuaDQRc2hR6BKYOCY": {
+      "name_zh": "鳳林公路公園",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 125,
+      "bayesian_score": 4.33
+    },
+    "ChIJl89NCOOvaDQReVRjekLJUA0": {
+      "name_zh": "鳳林美術館(林榮休憩區)",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 131,
+      "bayesian_score": 4.33
+    },
+    "ChIJn1Z4daggZjQRY05LjE8PIDs": {
+      "name_zh": "曼波海洋生態休閒園區",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 1736,
+      "bayesian_score": 4.23
+    },
+    "ChIJB6k8V7AhZjQRORtHtJW35H8": {
+      "name_zh": "花蓮農好基地",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 207,
+      "bayesian_score": 4.37
+    },
+    "ChIJfRYuDQCfaDQRhApQG4q3UIs": {
+      "name_zh": "花蓮海市蜃樓海景秘境",
+      "csv_type": "景點",
+      "rating": 5,
+      "total_ratings": 475,
+      "bayesian_score": 4.77
+    },
+    "ChIJRwcxU9KfaDQRYB5x4tsF9Tg": {
+      "name_zh": "月牙灣鞦韆",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 62,
+      "bayesian_score": 4.45
+    },
+    "ChIJeY3pBkigaDQRb863gJODAVs": {
+      "name_zh": "後山．山後故事館",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 1703,
+      "bayesian_score": 4.15
+    },
+    "ChIJV_pjZZEhZjQRcl7XRr6QAjQ": {
+      "name_zh": "曼波園區觀景臺",
+      "csv_type": "景點",
+      "rating": 4.5,
+      "total_ratings": 25,
+      "bayesian_score": 4.43
+    },
+    "ChIJE-8O95kgZjQRp6kxG3dMX6Y": {
+      "name_zh": "D Park台肥海洋深層水園區",
+      "csv_type": "景點",
+      "rating": 4,
+      "total_ratings": 2840,
+      "bayesian_score": 4.04
+    },
+    "ChIJ5xKz0XCfaDQRJ6tY8JR2bqE": {
+      "name_zh": "花蓮鐵道文化園區",
+      "csv_type": "景點",
+      "rating": 4,
+      "total_ratings": 3298,
+      "bayesian_score": 4.04
+    },
+    "ChIJO37J7IYgZjQRwen2C2RhH20": {
+      "name_zh": "花蓮港景觀橋",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 2058,
+      "bayesian_score": 4.23
+    },
+    "ChIJ9TVN88WfaDQR1YBbVsZNfEc": {
+      "name_zh": "花蓮迪士尼",
+      "csv_type": "景點",
+      "rating": 4.5,
+      "total_ratings": 534,
+      "bayesian_score": 4.47
+    },
+    "ChIJj444me8hZjQR4txscyUxaYk": {
+      "name_zh": "四八高地戰備坑道",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 593,
+      "bayesian_score": 4.41
+    },
+    "ChIJ77QeOACfaDQRhLUjxoUlu50": {
+      "name_zh": "珍惜水資源 貓頭鷹",
+      "csv_type": "景點",
+      "rating": 5,
+      "total_ratings": 3,
+      "bayesian_score": 4.43
+    },
+    "ChIJozp57BSgaDQRZgrxpbMusqg": {
+      "name_zh": "七七高地",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 1035,
+      "bayesian_score": 4.41
+    },
+    "ChIJXW9bAGSfaDQR0b2uedoi5ys": {
+      "name_zh": "又一村文創-You-Yi-Tsun Cultural and Creative Park（各店家詳細營業時間請見粉專）",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 1842,
+      "bayesian_score": 4.4
+    },
+    "ChIJpTcgYOidaDQRVHUO3ILkXJs": {
+      "name_zh": "七星潭海岸風景特定區",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 28260,
+      "bayesian_score": 4.6
+    },
+    "ChIJdx6PsvudaDQRzMf06r5_vg4": {
+      "name_zh": "花蓮濱海自行車道",
+      "csv_type": "景點",
+      "rating": 4.5,
+      "total_ratings": 1131,
+      "bayesian_score": 4.48
+    },
+    "ChIJHf-uWACfaDQRXz8XHdcA9EQ": {
+      "name_zh": "太平洋ㄉ野生長頸鹿🦒",
+      "csv_type": "景點",
+      "rating": 4.7,
+      "total_ratings": 3,
+      "bayesian_score": 4.43
+    },
+    "ChIJr10CSQCfaDQRRMpKnIe-GQo": {
+      "name_zh": "晚安貓頭鷹",
+      "csv_type": "景點",
+      "rating": 5,
+      "total_ratings": 4,
+      "bayesian_score": 4.43
+    },
+    "ChIJcRDHbtufaDQRr_UkGlXoG2Y": {
+      "name_zh": "花蓮和平廣場",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 594,
+      "bayesian_score": 4.28
+    },
+    "ChIJC5it6R6daDQRB-nm-TV5Pns": {
+      "name_zh": "七星潭",
+      "csv_type": "景點",
+      "rating": 4.8,
+      "total_ratings": 817,
+      "bayesian_score": 4.7
+    },
+    "ChIJvUBbKmRrbzQR9UTxl19ZWWw": {
+      "name_zh": "女兒心優質農產創意工坊",
+      "csv_type": "餐廳大休",
+      "rating": 5,
+      "total_ratings": 392,
+      "bayesian_score": 4.75
+    },
+    "ChIJb9koNnpqbzQR1n6BiErxXhE": {
+      "name_zh": "星馬茶餐廳｜玉里美食",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 501,
+      "bayesian_score": 4.59
+    },
+    "ChIJa7UY7JprbzQRLYmpu4cpccA": {
+      "name_zh": "臣佳立業餐酒館 CHEN & JIA BISTRO",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 282,
+      "bayesian_score": 4.65
+    },
+    "ChIJJd09WotrbzQR2itOYzpBBDc": {
+      "name_zh": "上福餐廳",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 312,
+      "bayesian_score": 4.56
+    },
+    "ChIJx5hIs3JBbzQRgF2WQRq9tdc": {
+      "name_zh": "承暘風味小館",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 51,
+      "bayesian_score": 4.45
+    },
+    "ChIJK9p0JRZrbzQRjxRmR3ghR08": {
+      "name_zh": "五餅二魚複合式茶舖-玉里店",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 35,
+      "bayesian_score": 4.44
+    },
+    "ChIJG3PnKCRrbzQRQA9v-ulNkAY": {
+      "name_zh": "津御堂燉品屋",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 174,
+      "bayesian_score": 4.45
+    },
+    "ChIJBQX4NX9qbzQRLZZj8ecUAn8": {
+      "name_zh": "每日廚房(無菜單家常料理)",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 243,
+      "bayesian_score": 4.46
+    },
+    "ChIJgbXIovRBbzQRVwITBeSIOkU": {
+      "name_zh": "交叉步咖啡 Catwalk Cafe",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 159,
+      "bayesian_score": 4.59
+    },
+    "ChIJ6d_97ZxrbzQRAeRz1TQGS4s": {
+      "name_zh": "緣緣蔬食家",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 311,
+      "bayesian_score": 4.61
+    },
+    "ChIJB6jk1ntqbzQRm_oTu9ZF5Y4": {
+      "name_zh": "鹽水鵝",
+      "csv_type": "餐廳大休",
+      "rating": 4.3,
+      "total_ratings": 92,
+      "bayesian_score": 4.4
+    },
+    "ChIJvW1oGHtqbzQRZ2Mopm6mEzg": {
+      "name_zh": "天慈寶軒蔬食",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 446,
+      "bayesian_score": 4.59
+    },
+    "ChIJVwsvFqRBbzQRPnkJ6gV0iS0": {
+      "name_zh": "娟姐廚房J.J.Bistro",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 126,
+      "bayesian_score": 4.45
+    },
+    "ChIJA4xc-KhPbzQR5Z0Z9KFDgJg": {
+      "name_zh": "帕芙莉食堂（全預約）提前一天訂位",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 1255,
+      "bayesian_score": 4.81
+    },
+    "ChIJPeuxy1BPbzQRipdyj9Uy_IA": {
+      "name_zh": "海越魚行日式居食料理",
+      "csv_type": "餐廳大休",
+      "rating": 4.4,
+      "total_ratings": 502,
+      "bayesian_score": 4.41
+    },
+    "ChIJsdoD2ypEbzQRFJtAQvqvZoU": {
+      "name_zh": "撞牆水餃",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 434,
+      "bayesian_score": 4.47
+    },
+    "ChIJUxWzw4lFbzQRNqO9tEUn0Q8": {
+      "name_zh": "PRIME ONE 牛排館 - 瑞穗天合國際觀光酒店",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 86,
+      "bayesian_score": 4.38
+    },
+    "ChIJX1YFw0FPbzQR5mmKNodDEYA": {
+      "name_zh": "築夢踏食- 手工蛋餅",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 296,
+      "bayesian_score": 4.51
+    },
+    "ChIJU-yZpoFPbzQRYadOsAuabrA": {
+      "name_zh": "香約廚房 (建議先預約）",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 249,
+      "bayesian_score": 4.55
+    },
+    "ChIJSU1ex4azaDQRYvcfUFB8_Hc": {
+      "name_zh": "牧木屋 Mu Mu House-光復鄉燉飯推薦",
+      "csv_type": "餐廳大休",
+      "rating": 4.4,
+      "total_ratings": 324,
+      "bayesian_score": 4.41
+    },
+    "ChIJ0Sr4BfdFbzQRQwnFYpK2MGg": {
+      "name_zh": "溫泉香餐廳",
+      "csv_type": "餐廳大休",
+      "rating": 3.9,
+      "total_ratings": 662,
+      "bayesian_score": 4.07
+    },
+    "ChIJ41NF56FObzQRgJjXVM8z230": {
+      "name_zh": "原饗屋",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 511,
+      "bayesian_score": 4.53
+    },
+    "ChIJsYU_j-iyaDQRGiheasx4r3I": {
+      "name_zh": "勝利不廢商號",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 217,
+      "bayesian_score": 4.58
+    },
+    "ChIJe2yxxMqyaDQRIsD5KVC9tP0": {
+      "name_zh": "啄木鳥的家 WPCASA",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 1413,
+      "bayesian_score": 4.49
+    },
+    "ChIJl2kW0P9PbzQRZDC1TnJhVqo": {
+      "name_zh": "縱谷耘穗 咖啡廳｜瑞穗鄉農會伴手禮販售",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 78,
+      "bayesian_score": 4.5
+    },
+    "ChIJQ0To0Z9ObzQRqCe_-BCsT1g": {
+      "name_zh": "永樂食堂",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 238,
+      "bayesian_score": 4.33
+    },
+    "ChIJdc33v0ezaDQR7DkH-X__lnA": {
+      "name_zh": "日月豬腳",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 101,
+      "bayesian_score": 4.52
+    },
+    "ChIJM4-oqEOyaDQRqef55OU7SwI": {
+      "name_zh": "滿妹豬腳",
+      "csv_type": "餐廳大休",
+      "rating": 3.9,
+      "total_ratings": 3482,
+      "bayesian_score": 3.94
+    },
+    "ChIJFy67_beyaDQRA4svH6uf5Kc": {
+      "name_zh": "花蓮光復Lovely咖啡(中餐下午茶)",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 230,
+      "bayesian_score": 4.63
+    },
+    "ChIJj2UDME9MbzQR8Qz89fBvqhU": {
+      "name_zh": "大和擂茶舖",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 171,
+      "bayesian_score": 4.49
+    },
+    "ChIJG1KHHhuuaDQRybMo3YAdsM4": {
+      "name_zh": "芳草古樹花園｜餐廳｜民宿｜𝟭𝟭月公休𝟭.𝟮.𝟯.𝟰.𝟱.𝟲.𝟳.𝟭𝟯.𝟮𝟳日",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 1456,
+      "bayesian_score": 4.49
+    },
+    "ChIJhdeS58GlaDQR_dAdGw4hRqA": {
+      "name_zh": "閩越食堂餐廳",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 747,
+      "bayesian_score": 4.48
+    },
+    "ChIJCW7ypjKuaDQRFa-0P6u9iWY": {
+      "name_zh": "物語食堂＆精油工坊",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 4148,
+      "bayesian_score": 4.77
+    },
+    "ChIJA7eHLzOvaDQR30VFznJM_lo": {
+      "name_zh": "漫慢享",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 204,
+      "bayesian_score": 4.53
+    },
+    "ChIJcdIFBhuuaDQRHwX-yezKlsI": {
+      "name_zh": "青輕慢食",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 276,
+      "bayesian_score": 4.55
+    },
+    "ChIJG8c_vnGvaDQRALBFgobWVDU": {
+      "name_zh": "慢日 SlowDay",
+      "csv_type": "餐廳大休",
+      "rating": 5,
+      "total_ratings": 48,
+      "bayesian_score": 4.5
+    },
+    "ChIJ6Z-DgwSuaDQRG819cBJlH50": {
+      "name_zh": "《花漾蔬食綜合煎餃》",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 232,
+      "bayesian_score": 4.54
+    },
+    "ChIJM5v8DBauaDQR9_8FmniW4t0": {
+      "name_zh": "四代務農",
+      "csv_type": "餐廳大休",
+      "rating": 4.3,
+      "total_ratings": 491,
+      "bayesian_score": 4.35
+    },
+    "ChIJeYGW_MWvaDQRx8vAtib8ORs": {
+      "name_zh": "拾豆屋",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 364,
+      "bayesian_score": 4.52
+    },
+    "ChIJoX_JekavaDQRSafJuHTSJRc": {
+      "name_zh": "沛甜點",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 491,
+      "bayesian_score": 4.72
+    },
+    "ChIJyRhIbACfaDQRxFZjzIo-2AI": {
+      "name_zh": "戶不閉 chill chill海景餐廳",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 160,
+      "bayesian_score": 4.45
+    },
+    "ChIJwZZ2c7GfaDQRRZRrV3ht3k0": {
+      "name_zh": "萬寶家食堂-花蓮美食 花蓮餐廳 花蓮推薦美食 花蓮聚餐 花蓮早午餐 花蓮午餐",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 498,
+      "bayesian_score": 4.59
+    },
+    "ChIJkQ77XXifaDQRya_dQnwrglE": {
+      "name_zh": "梅蘢鎮",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 2217,
+      "bayesian_score": 4.84
+    },
+    "ChIJpTHZfGufaDQRYwv9zZs77ZI": {
+      "name_zh": "小村·日 壽司（花蓮店）｜日式餐廳｜花蓮美食｜聚餐餐廳｜客製化餐盒｜生魚片蛋糕｜",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 3585,
+      "bayesian_score": 4.86
+    },
+    "ChIJjcSIbAafaDQRIOMPSKDkh3g": {
+      "name_zh": "梁庭滇緬饗食",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 334,
+      "bayesian_score": 4.57
+    },
+    "ChIJ2Qd4BpGfaDQRkWvT0w2DkME": {
+      "name_zh": "娜滋滋烤魚",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 2056,
+      "bayesian_score": 4.75
+    },
+    "ChIJG1nLseufaDQR5FS2b2nSw4g": {
+      "name_zh": "貨櫃屋台灣料理 - 花蓮 人氣必吃中式熱炒 在地特色宵夜美食 團體合菜聚餐小酌 燒烤火鍋海鮮餐廳 平價推薦相片",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 593,
+      "bayesian_score": 4.47
+    },
+    "ChIJXax5QNGfaDQRYtRtZalG-lQ": {
+      "name_zh": "COUNTRY MOTHER'S",
+      "csv_type": "餐廳大休",
+      "rating": 4.4,
+      "total_ratings": 2315,
+      "bayesian_score": 4.4
+    },
+    "ChIJp3NARIIgZjQRlNi9ea6e98U": {
+      "name_zh": "獵人廚房",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 928,
+      "bayesian_score": 4.63
+    },
+    "ChIJB4TEnqkgZjQR-XrSikVh13M": {
+      "name_zh": "慕名私房料理",
+      "csv_type": "餐廳大休",
+      "rating": 4.3,
+      "total_ratings": 2507,
+      "bayesian_score": 4.31
+    },
+    "ChIJ86_Bbp6faDQRbG7bdlFSQVQ": {
+      "name_zh": "木樂日式炸豬排",
+      "csv_type": "餐廳大休",
+      "rating": 4.3,
+      "total_ratings": 1211,
+      "bayesian_score": 4.33
+    },
+    "ChIJufc9hoEgZjQR513EA9zdtLY": {
+      "name_zh": "美崙海鮮",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 1499,
+      "bayesian_score": 4.24
+    },
+    "ChIJp0hw77-faDQRT2FWEptv2PA": {
+      "name_zh": "K Show食宿",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 477,
+      "bayesian_score": 4.65
     }
   }
 }

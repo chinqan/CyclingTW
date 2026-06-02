@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJnV1uxhhLXTQROU-K0t0LUng",
+  "name_zh": "旺旺香珍珠玉米",
+  "name_lang": "zh-TW",
+  "rating": 4,
+  "total_ratings": 47,
+  "location": {
+    "lat": 25.220914999999998,
+    "lng": 121.6398007
+  },
+  "address": "208新北市金山區金包里街30號",
+  "primary_type": "barbecue_restaurant",
+  "primary_type_label": "燒烤料理餐廳",
+  "distance_km": 0.18,
+  "source": "api_2026-06-02",
+  "note": "燒烤料理餐廳",
+  "name_is_ascii": false
+}

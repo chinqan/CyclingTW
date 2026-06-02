@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJEbdTDHufaDQRKKm-AJ_jb5w",
+  "name_zh": "川壽司 花蓮 新城 家樂福附近 日式 生魚片 居酒屋 燒烤 炸物 烏龍麵",
+  "name_lang": "zh",
+  "rating": 4.7,
+  "total_ratings": 333,
+  "location": {
+    "lat": 24.015828,
+    "lng": 121.6074705
+  },
+  "address": "971花蓮縣新城鄉嘉里村嘉里三街23之6號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 2.65,
+  "source": "api_2026-06-02",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

@@ -1,15 +1,17 @@
 {
   "place_id": "ChIJqza3KrrTbzQRv2vJUxBEm24",
-  "name_zh": "多良車站",
+  "name_zh": "多良觀光車站",
   "csv_type": "景點",
-  "rating": 4.1,
-  "total_ratings": 33902,
   "location": {
     "lat": 22.507519499999997,
     "lng": 120.95884869999999
   },
-  "source": "api_2026-05-21",
-  "note": "全台最美車站 海景月台",
+  "search_keyword": "景點",
+  "source": "api_2026-06-02",
+  "rating": 4.1,
+  "total_ratings": 33936,
+  "address": "963臺東縣太麻里鄉瀧溪路8-1號",
+  "primary_type": "tourist_attraction",
   "opening_hours_text": [
     "Monday: 8:00 AM – 5:00 PM",
     "Tuesday: 8:00 AM – 5:00 PM",

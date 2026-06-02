@@ -2,13 +2,15 @@
   "place_id": "ChIJkf3MYFilQjQRxSE-z1AbDKQ",
   "name_zh": "淡水老街",
   "csv_type": "景點",
-  "rating": 4.4,
-  "total_ratings": 33317,
   "location": {
     "lat": 25.168927,
     "lng": 121.44409209999999
   },
-  "source": "api_2026-05-21",
-  "note": "河岸觀光老街 環島慶功",
+  "search_keyword": "景點",
+  "source": "api_2026-06-02",
+  "rating": 4.4,
+  "total_ratings": 33471,
+  "address": "251新北市淡水區草東里中正路1號",
+  "primary_type": "tourist_attraction",
   "editorial_summary": "Compact pedestrian road lined with shops & snack sellers, plus street performers & sculptures."
 }

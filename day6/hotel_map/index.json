@@ -5,13 +5,13 @@
       "place_id": "ChIJOcIqvJbObzQR-7aMxE96Yco",
       "name_zh": "曙光渡假酒店",
       "rating": 4,
-      "total_ratings": 1740,
+      "total_ratings": 1743,
       "location": {
         "lat": 22.6144838,
         "lng": 121.0045646
       },
       "address": "963臺東縣太麻里鄉大王村太峰路147號",
-      "source": "api_2026-05-21",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -25,7 +25,7 @@
         "lng": 121.00465279999999
       },
       "address": "963臺東縣太麻里鄉大王村太峰路145號",
-      "source": "api_2026-05-21",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -33,13 +33,13 @@
       "place_id": "ChIJ4ULmurHObzQRJOGMf059wsM",
       "name_zh": "吉廬夫敢藝文民宿",
       "rating": 4.8,
-      "total_ratings": 529,
+      "total_ratings": 530,
       "location": {
         "lat": 22.632750899999998,
         "lng": 121.0010617
       },
       "address": "964臺東縣金峰鄉新興村新興村1鄰8之1號",
-      "source": "api_2026-05-21",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": true
     },
@@ -53,7 +53,7 @@
         "lng": 121.0061618
       },
       "address": "96341臺東縣太麻里鄉泰和村太麻里街246號",
-      "source": "api_2026-05-21",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": true
     },
@@ -67,7 +67,7 @@
         "lng": 121.00669780000001
       },
       "address": "963臺東縣太麻里鄉泰和村外環路66號",
-      "source": "api_2026-05-21",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -81,7 +81,7 @@
         "lng": 120.9964627
       },
       "address": "963臺東縣太麻里鄉大王村台東縣太麻里",
-      "source": "api_2026-05-21",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -95,7 +95,7 @@
         "lng": 121.01512739999998
       },
       "address": "963臺東縣太麻里鄉北里號",
-      "source": "api_2026-05-21",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -109,7 +109,7 @@
         "lng": 120.99811740000001
       },
       "address": "963臺東縣太麻里鄉泰和村曙光街2號",
-      "source": "api_2026-05-21",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -123,7 +123,7 @@
         "lng": 120.9936885
       },
       "address": "963臺東縣太麻里鄉大王村96371號",
-      "source": "api_2026-05-21",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": true
     },
@@ -137,7 +137,7 @@
         "lng": 121.00069339999999
       },
       "address": "964台东县金峰乡新兴村64號",
-      "source": "api_2026-05-21",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": true
     },
@@ -151,7 +151,7 @@
         "lng": 121.0075378
       },
       "address": "963臺東縣太麻里鄉泰和村外環路47號",
-      "source": "api_2026-05-21",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -165,7 +165,7 @@
         "lng": 121.003408
       },
       "address": "963臺東縣太麻里鄉大王村 太峰路198巷 3號",
-      "source": "api_2026-05-21",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -173,13 +173,13 @@
       "place_id": "ChIJb1ZkspbObzQRVZzRo3gnI1s",
       "name_zh": "茶中緣休閒山莊",
       "rating": 4.1,
-      "total_ratings": 35,
+      "total_ratings": 36,
       "location": {
         "lat": 22.6173723,
         "lng": 120.9920343
       },
       "address": "963臺東縣太麻里鄉大王村太麻里街86號",
-      "source": "api_2026-05-21",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -193,7 +193,7 @@
         "lng": 121.0030478
       },
       "address": "964臺東縣金峰鄉新興村三鄰52-6號",
-      "source": "api_2026-05-21",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -207,7 +207,7 @@
         "lng": 121.0014481
       },
       "address": "964臺東縣金峰鄉新興村2鄰19號",
-      "source": "api_2026-05-21",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": true
     },
@@ -221,7 +221,7 @@
         "lng": 120.9949861
       },
       "address": "963臺東縣太麻里鄉台東太麻里大王村佳侖47-1號",
-      "source": "api_2026-05-21",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -235,7 +235,7 @@
         "lng": 121.0005319
       },
       "address": "964臺東縣金峰鄉新興村71號-1",
-      "source": "api_2026-05-21",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     }

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ4XMWY2jhcTQRDZngl7uy8Bw",
+  "name_zh": "素食鍋燒麵總匯三明治",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 34,
+  "location": {
+    "lat": 22.4651623,
+    "lng": 120.44891549999998
+  },
+  "address": "928屏東縣東港鎮福德里中正路14號",
+  "primary_type": "vegan_restaurant",
+  "primary_type_label": "素食餐廳",
+  "distance_km": 0.23,
+  "source": "api_2026-06-02",
+  "note": "素食餐廳",
+  "name_is_ascii": false
+}

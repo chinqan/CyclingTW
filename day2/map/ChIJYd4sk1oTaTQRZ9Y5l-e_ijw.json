@@ -1,13 +1,15 @@
 {
   "place_id": "ChIJYd4sk1oTaTQRZ9Y5l-e_ijw",
-  "name_zh": "龜鶴塘",
+  "name_zh": "龜鶴塘 - Guihetang 午餐 ( 葷、素 ) 及 下午茶",
   "csv_type": "餐廳大休",
-  "rating": 4.8,
-  "total_ratings": 407,
   "location": {
-    "lat": 24.3421215,
-    "lng": 120.6190962
+    "lat": 24.342121499999998,
+    "lng": 120.61909620000002
   },
-  "source": "search_2026-05-21",
-  "note": "葷素午餐 下午茶 庭院風 週二公休 只到15:00"
+  "search_keyword": "餐廳",
+  "source": "along_2026-06-02",
+  "rating": 4.8,
+  "total_ratings": 408,
+  "address": "437臺中市大甲區新美里永順街37號",
+  "primary_type": "restaurant"
 }

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJM_5xzakgZjQR401U4prZii4",
+  "name_zh": "七星海酒店",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 379,
+  "location": {
+    "lat": 24.027283399999998,
+    "lng": 121.62899499999999
+  },
+  "address": "971花蓮縣新城鄉大漢村七星街152-3號",
+  "primary_type": "hotel",
+  "distance_km": 0.5,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

@@ -3,7 +3,7 @@
   "name_zh": "麥當勞-蘆洲長榮餐廳－設有得來速",
   "name_lang": "zh-TW",
   "rating": 4,
-  "total_ratings": 3527,
+  "total_ratings": 3534,
   "location": {
     "lat": 25.0872332,
     "lng": 121.4599015
@@ -12,7 +12,7 @@
   "primary_type": "fast_food_restaurant",
   "primary_type_label": "速食餐廳",
   "distance_km": 0.3,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "速食餐廳",
   "name_is_ascii": false
 }

@@ -1055,7 +1055,7 @@
       "place_id": "ChIJsfqxiIXhcTQRc7BpSAyKA8k",
       "name_zh": "東港生魚片 曾鮮黑鮪魚專賣店",
       "rating": 4.3,
-      "total_ratings": 1700,
+      "total_ratings": 1701,
       "location": {
         "lat": 22.4681087,
         "lng": 120.4436369
@@ -1827,6 +1827,51 @@
       },
       "address": "之 十 八 號, No. 26船頭路東港鎮屏東縣928",
       "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJoVNYe1rhcTQRDfQvgFi_mk4",
+      "name_zh": "三漁握り寿司/刺身丼飯專賣店",
+      "rating": 5,
+      "total_ratings": 14,
+      "location": {
+        "lat": 22.4591267,
+        "lng": 120.45231620000001
+      },
+      "address": "327號, 嘉新路嘉蓮里東港鎮屏東縣928",
+      "note": "壽司店",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ4XMWY2jhcTQRDZngl7uy8Bw",
+      "name_zh": "素食鍋燒麵總匯三明治",
+      "rating": 4.4,
+      "total_ratings": 34,
+      "location": {
+        "lat": 22.4651623,
+        "lng": 120.44891549999998
+      },
+      "address": "928屏東縣東港鎮福德里中正路14號",
+      "note": "素食餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ4fWr8-vhcTQR2shVzWaHPMY",
+      "name_zh": "及第古早味早餐",
+      "rating": 4.5,
+      "total_ratings": 40,
+      "location": {
+        "lat": 22.4662693,
+        "lng": 120.4489928
+      },
+      "address": "928屏東縣東港鎮福德里朝陽街33號",
+      "note": "早餐店",
       "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false

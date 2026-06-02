@@ -1,0 +1,15 @@
+{
+  "place_id": "ChIJMXkEl0AJbjQR4P1mohnaPLU",
+  "name_zh": "食客嚐鮮",
+  "csv_type": "餐廳大休",
+  "location": {
+    "lat": 22.788832199999998,
+    "lng": 120.24525539999998
+  },
+  "search_keyword": "餐廳",
+  "source": "along_2026-06-02",
+  "rating": 4.8,
+  "total_ratings": 155,
+  "address": "827高雄市彌陀區安樂路28號",
+  "primary_type": "restaurant"
+}

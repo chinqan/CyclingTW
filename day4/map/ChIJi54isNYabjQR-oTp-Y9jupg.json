@@ -1,0 +1,25 @@
+{
+  "place_id": "ChIJi54isNYabjQR-oTp-Y9jupg",
+  "name_zh": "澄清湖風景區",
+  "csv_type": "景點",
+  "location": {
+    "lat": 22.6603607,
+    "lng": 120.353806
+  },
+  "search_keyword": "景點",
+  "source": "api_2026-06-02",
+  "rating": 4.4,
+  "total_ratings": 1710,
+  "address": "833高雄市鳥松區鳥松里大埤路32號",
+  "primary_type": "tourist_attraction",
+  "opening_hours_text": [
+    "Monday: Closed",
+    "Tuesday: 6:00 AM – 5:30 PM",
+    "Wednesday: 6:00 AM – 5:30 PM",
+    "Thursday: 6:00 AM – 5:30 PM",
+    "Friday: 6:00 AM – 5:30 PM",
+    "Saturday: 6:00 AM – 5:30 PM",
+    "Sunday: 6:00 AM – 5:30 PM"
+  ],
+  "editorial_summary": "Reservoir with a famed 9-cornered bridge & restored pagoda, popular for walking, grilling & fishing."
+}

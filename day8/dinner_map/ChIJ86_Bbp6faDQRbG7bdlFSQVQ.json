@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ86_Bbp6faDQRbG7bdlFSQVQ",
+  "name_zh": "木樂日式炸豬排",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 1211,
+  "location": {
+    "lat": 24.0057059,
+    "lng": 121.6316583
+  },
+  "address": "970花蓮縣花蓮市民孝里東興路433-1號",
+  "primary_type": "tonkatsu_restaurant",
+  "primary_type_label": "日式炸豬排餐廳",
+  "distance_km": 2.9,
+  "source": "api_2026-06-02",
+  "note": "日式炸豬排餐廳",
+  "name_is_ascii": false
+}

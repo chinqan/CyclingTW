@@ -7,9 +7,18 @@
     "lng": 120.74799929999999
   },
   "search_keyword": "古城 福安宮 海灘 景點",
-  "source": "along_2026-06-02",
+  "source": "api_2026-06-02",
   "rating": 4.4,
   "total_ratings": 2205,
   "address": "946台灣屏東縣恆春鎮",
-  "primary_type": null
+  "primary_type": null,
+  "opening_hours_text": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ]
 }

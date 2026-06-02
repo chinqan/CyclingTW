@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ__JZMmdLXTQRPT4vQdpUCZg",
+  "name_zh": "古早味芋圓、麵條專賣",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 9,
+  "location": {
+    "lat": 25.2211283,
+    "lng": 121.63929319999998
+  },
+  "address": "208新北市金山區和平里金包里街35號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.12,
+  "source": "api_2026-06-02",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

@@ -7,9 +7,18 @@
     "lng": 121.1457215
   },
   "search_keyword": "台東鐵花村",
-  "source": "api_2026-06-01",
+  "source": "api_2026-06-02",
   "rating": 4.5,
-  "total_ratings": 14510,
+  "total_ratings": 14512,
   "address": "950臺東縣臺東市文化里新生路135巷26號",
-  "primary_type": "live_music_venue"
+  "primary_type": "live_music_venue",
+  "opening_hours_text": [
+    "Monday: Closed",
+    "Tuesday: Closed",
+    "Wednesday: 5:00 – 10:00 PM",
+    "Thursday: 5:00 – 10:00 PM",
+    "Friday: 5:00 – 10:00 PM",
+    "Saturday: 5:00 – 10:00 PM",
+    "Sunday: 5:00 – 10:00 PM"
+  ]
 }

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJH3FM4-GdaDQRXHWMLiitBhc",
+  "name_zh": "花蓮遊民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 171,
+  "location": {
+    "lat": 24.0392066,
+    "lng": 121.61067860000001
+  },
+  "address": "971花蓮縣新城鄉大漢村立業街4巷16之1號",
+  "primary_type": "lodging",
+  "distance_km": 1.89,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

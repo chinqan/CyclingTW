@@ -3,7 +3,7 @@
   "name_zh": "薇薇精品旅館",
   "name_lang": "zh-TW",
   "rating": 4.1,
-  "total_ratings": 671,
+  "total_ratings": 673,
   "location": {
     "lat": 25.082414200000002,
     "lng": 121.48234749999999
@@ -11,6 +11,6 @@
   "address": "247新北市蘆洲區恆德里永安北路二段42之1號",
   "primary_type": "motel",
   "distance_km": 2.09,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "name_is_ascii": false
 }

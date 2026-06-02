@@ -1,0 +1,24 @@
+{
+  "place_id": "ChIJ71B9aSHbcTQRP96ukgGkQ_Q",
+  "name_zh": "海大山小",
+  "csv_type": "景點",
+  "location": {
+    "lat": 22.2946547,
+    "lng": 120.64361780000002
+  },
+  "search_keyword": "景點",
+  "source": "api_2026-06-02",
+  "rating": 4.2,
+  "total_ratings": 1634,
+  "address": "941屏東縣枋山鄉加祿村南和路80號",
+  "primary_type": "tourist_attraction",
+  "opening_hours_text": [
+    "Monday: 8:00 AM – 5:00 PM",
+    "Tuesday: 8:00 AM – 5:00 PM",
+    "Wednesday: 8:00 AM – 5:00 PM",
+    "Thursday: 8:00 AM – 5:00 PM",
+    "Friday: 8:00 AM – 5:00 PM",
+    "Saturday: 8:00 AM – 5:00 PM",
+    "Sunday: 8:00 AM – 5:00 PM"
+  ]
+}

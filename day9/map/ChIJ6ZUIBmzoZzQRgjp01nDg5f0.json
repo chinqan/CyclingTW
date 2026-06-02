@@ -3,11 +3,11 @@
   "name_zh": "蘇澳新站",
   "csv_type": "起終點",
   "rating": 4,
-  "total_ratings": 219,
+  "total_ratings": 222,
   "location": {
     "lat": 24.6089299,
     "lng": 121.82768279999998
   },
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "Day9起點 前晚火車抵達"
 }

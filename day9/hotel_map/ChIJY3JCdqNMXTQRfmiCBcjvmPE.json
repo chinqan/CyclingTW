@@ -3,7 +3,7 @@
   "name_zh": "金湯溫泉會館",
   "name_lang": "zh-TW",
   "rating": 4.2,
-  "total_ratings": 1648,
+  "total_ratings": 1647,
   "location": {
     "lat": 25.215188599999998,
     "lng": 121.64397980000001
@@ -11,6 +11,6 @@
   "address": "207新北市萬里區大鵬里加投路197之5號2樓",
   "primary_type": "hotel",
   "distance_km": 0.93,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "name_is_ascii": false
 }

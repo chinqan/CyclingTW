@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJBalCvJ-faDQRW642VK_mVjY",
+  "name_zh": "新城-站前小吃舖",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 13,
+  "location": {
+    "lat": 24.0325174,
+    "lng": 121.6036333
+  },
+  "address": "971花蓮縣新城鄉北埔村民族路39號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 2.39,
+  "source": "api_2026-06-02",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

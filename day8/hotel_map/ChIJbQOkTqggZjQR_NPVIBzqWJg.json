@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJbQOkTqggZjQR_NPVIBzqWJg",
+  "name_zh": "七星潭星海民宿_寵物友善（近柴館旁，勿入巷內)",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 786,
+  "location": {
+    "lat": 24.0263594,
+    "lng": 121.6296682
+  },
+  "address": "971花蓮縣新城鄉大漢村七星街79巷12號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 0.62,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

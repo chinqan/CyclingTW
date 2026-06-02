@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJq3pEoeO1bjQR2bBFzPruLWE",
+  "name_zh": "廟口麵線臭豆腐",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 46,
+  "location": {
+    "lat": 23.7975805,
+    "lng": 120.464699
+  },
+  "address": "648雲林縣西螺鎮廣福里新街路34號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.52,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

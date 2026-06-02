@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJqRLGUIudaDQRXW1IO2M4RMY",
+  "name_zh": "大漢街早餐(本店)",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 262,
+  "location": {
+    "lat": 24.0426254,
+    "lng": 121.60594630000001
+  },
+  "address": "971花蓮縣新城鄉大漢村大漢街54號",
+  "primary_type": "breakfast_restaurant",
+  "primary_type_label": "早餐店",
+  "distance_km": 2.49,
+  "source": "api_2026-06-02",
+  "note": "早餐店",
+  "name_is_ascii": false
+}

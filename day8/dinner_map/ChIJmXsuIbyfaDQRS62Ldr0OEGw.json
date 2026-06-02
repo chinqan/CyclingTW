@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJmXsuIbyfaDQRS62Ldr0OEGw",
+  "name_zh": "客家小吃（原北埔路）",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 20,
+  "location": {
+    "lat": 24.0343373,
+    "lng": 121.60255769999999
+  },
+  "address": "971花蓮縣新城鄉北埔村復興路326號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 2.52,
+  "source": "api_2026-06-02",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

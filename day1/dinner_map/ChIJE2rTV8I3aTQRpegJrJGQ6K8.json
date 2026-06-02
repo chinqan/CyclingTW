@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJE2rTV8I3aTQRpegJrJGQ6K8",
+  "name_zh": "通霄張家鹹酥雞/張家便當（原白沙屯張家鹹酥雞）",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 2,
+  "location": {
+    "lat": 24.4898442,
+    "lng": 120.68378059999999
+  },
+  "address": "357苗栗縣通霄鎮平元里自強路200號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.57,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,10 +1,10 @@
 {
   "day": 8,
   "origin": "玉里 / 安通",
-  "destination": "花蓮 → 蘇澳新站 (火車接駁)",
+  "destination": "花蓮七星潭",
   "distance_km_range": [
-    90,
-    105
+    115,
+    115
   ],
   "main_route_text": "台9線 / 縣道193 (避開車潮)",
   "must_visit_landmarks": [
@@ -12,5 +12,6 @@
     "舞鶴北回歸線",
     "花蓮糖廠",
     "七星潭"
-  ]
+  ],
+  "destination_note": "騎乘終點七星潭，接駁蘇澳新站需於花蓮站／新城站搭兩鐵列車（跳過蘇花公路）"
 }

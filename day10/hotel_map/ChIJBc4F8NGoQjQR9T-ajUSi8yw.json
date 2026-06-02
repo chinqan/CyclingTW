@@ -3,7 +3,7 @@
   "name_zh": "嘉年華汽車旅館",
   "name_lang": "zh-TW",
   "rating": 3.2,
-  "total_ratings": 640,
+  "total_ratings": 641,
   "location": {
     "lat": 25.0825621,
     "lng": 121.4806727
@@ -11,6 +11,6 @@
   "address": "247新北市蘆洲區恆德里集賢路385號",
   "primary_type": "motel",
   "distance_km": 1.92,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "name_is_ascii": false
 }

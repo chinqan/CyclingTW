@@ -1,15 +1,17 @@
 {
   "place_id": "ChIJpeyY_He2QjQR9F83t6p8kAw",
-  "name_zh": "富貴角燈塔（極北點）",
+  "name_zh": "富貴角燈塔",
   "csv_type": "景點",
-  "rating": 4.7,
-  "total_ratings": 843,
   "location": {
     "lat": 25.2996123,
     "lng": 121.53696370000002
   },
-  "source": "api_2026-05-21",
-  "note": "極北點 黑白條紋燈塔",
+  "search_keyword": "景點",
+  "source": "api_2026-06-02",
+  "rating": 4.7,
+  "total_ratings": 849,
+  "address": "253新北市石門區25342 富基 村 1 號 富貴 角 燈塔",
+  "primary_type": "scenic_spot",
   "opening_hours_text": [
     "Monday: Open 24 hours",
     "Tuesday: Open 24 hours",

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ4fWr8-vhcTQR2shVzWaHPMY",
+  "name_zh": "及第古早味早餐",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 40,
+  "location": {
+    "lat": 22.4662693,
+    "lng": 120.4489928
+  },
+  "address": "928屏東縣東港鎮福德里朝陽街33號",
+  "primary_type": "breakfast_restaurant",
+  "primary_type_label": "早餐店",
+  "distance_km": 0.36,
+  "source": "api_2026-06-02",
+  "note": "早餐店",
+  "name_is_ascii": false
+}

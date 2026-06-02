@@ -2,7 +2,7 @@
   "day": 1,
   "route_name": "西濱追風．蘆洲到通霄",
   "total_ascent_desc": "全程幾乎平坦，台61線西濱公路爬升極少，後龍好望角為唯一明顯緩坡",
-  "main_route_desc": "二重疏洪道 ➔ 八里左岸 ➔ 台15線 ➔ 台61線西濱快速道路 ➔ 許厝港濕地 ➔ 永安漁港 ➔ 南寮漁港 ➔ 後龍好望角 ➔ 通霄車站",
+  "main_route_desc": "二重疏洪道 ➔ 八里左岸 ➔ 台15線 ➔ 台61線西濱快速道路 ➔ 竹圍漁港 ➔ 永安漁港 ➔ 南寮漁港 ➔ 後龍好望角 ➔ 通霄車站",
   "places": [
     {
       "csv_type": "起終點",
@@ -14,23 +14,23 @@
       },
       "rating": 4.3,
       "total_ratings": 1408,
-      "bayesian_score": 4.32,
       "search_keyword": "新北市蘆洲區廣榮路與長樂路口柳堤公園",
-      "note": "07:00 出發 蘆洲二重疏洪道起點 km0"
+      "note": "07:00 出發 二重疏洪道起點 km0",
+      "bayesian_score": 4.32
     },
     {
       "csv_type": "景點",
-      "name_zh": "八里左岸自行車道",
-      "place_id": "ChIJ_3VUnGilQjQR7qp73ndM8Cg",
+      "name_zh": "八里渡船頭老街",
+      "place_id": "ChIJf9weG2alQjQRNlsOIbBhu6E",
       "location": {
-        "lat": 25.1511404,
-        "lng": 121.4429224
+        "lat": 25.158442899999997,
+        "lng": 121.4347089
       },
-      "rating": 4.4,
-      "total_ratings": 1424,
-      "bayesian_score": 4.4,
-      "search_keyword": "八里左岸自行車道 新北市八里區",
-      "note": "必經 八里左岸 渡船頭老街早餐補給 km約8"
+      "rating": 4.2,
+      "total_ratings": 35412,
+      "search_keyword": "新北市八里區 八里渡船頭老街",
+      "note": "必經 八里左岸 渡船頭老街早餐補給 km約9",
+      "bayesian_score": 4.2
     },
     {
       "csv_type": "便利商店",
@@ -40,23 +40,23 @@
         "lat": 25.1154956,
         "lng": 121.2602649
       },
-      "search_keyword": "7-ELEVEN 湖海門市 桃園市大園區",
-      "note": "進台61線前最後補給 沿路線 km約29",
+      "search_keyword": "7-ELEVEN 湖海門市",
+      "note": "補給點 km約29",
       "bayesian_score": null
     },
     {
       "csv_type": "景點",
-      "name_zh": "許厝港濕地",
-      "place_id": "ChIJ6fgWOAaeQjQRxVjRDAnpP2I",
+      "name_zh": "竹圍漁港",
+      "place_id": "ChIJAQAAAKyfQjQR7fhsd-lMPDU",
       "location": {
-        "lat": 25.0873338,
-        "lng": 121.1762524
+        "lat": 25.117158,
+        "lng": 121.2444776
       },
-      "rating": 4.4,
-      "total_ratings": 3801,
-      "bayesian_score": 4.4,
-      "search_keyword": "許厝港濕地 桃園市大園區",
-      "note": "國際級水鳥濕地 八里到永安中段最高分景點 km約38"
+      "rating": 4.2,
+      "total_ratings": 41864,
+      "search_keyword": "桃園市大園區 竹圍漁港",
+      "note": "破西濱長直線的人氣漁港 km約31",
+      "bayesian_score": 4.2
     },
     {
       "csv_type": "便利商店",
@@ -66,8 +66,8 @@
         "lat": 24.9882131,
         "lng": 121.01853290000001
       },
-      "search_keyword": "7-ELEVEN 永安港門市 桃園市新屋區",
-      "note": "永安漁港旁補給 km約59",
+      "search_keyword": "7-ELEVEN 永安港門市",
+      "note": "永安漁港前補給 km約59",
       "bayesian_score": null
     },
     {
@@ -80,9 +80,9 @@
       },
       "rating": 4.1,
       "total_ratings": 38680,
-      "bayesian_score": 4.1,
-      "search_keyword": "永安漁港 桃園市新屋區",
-      "note": "必經 永安漁港 跨港景觀橋 km約60"
+      "search_keyword": "桃園市新屋區 永安漁港",
+      "note": "必經 永安漁港 海螺文化園區 km約60",
+      "bayesian_score": 4.1
     },
     {
       "csv_type": "餐廳大休",
@@ -94,46 +94,46 @@
       },
       "rating": 5,
       "total_ratings": 1144,
-      "bayesian_score": 4.85,
-      "search_keyword": "九天Qten餐廳 新竹縣新豐鄉",
-      "note": "午餐大休 中段最高評分 km約76 約12:15"
+      "search_keyword": "新竹市 九天Qten餐廳",
+      "note": "午餐大休 中段 km約76",
+      "bayesian_score": 4.87
     },
     {
       "csv_type": "景點",
-      "name_zh": "南寮漁港",
-      "place_id": "ChIJFxDjEO40aDQR8dbtyPOa_3M",
+      "name_zh": "新竹南寮漁港",
+      "place_id": "ChIJo69tyO40aDQReBjpbzodIuo",
       "location": {
-        "lat": 24.8483333,
-        "lng": 120.9302778
+        "lat": 24.848750499999998,
+        "lng": 120.9252429
       },
       "rating": 4.2,
-      "total_ratings": 1758,
-      "bayesian_score": 4.23,
-      "search_keyword": "南寮漁港 新竹市北區",
-      "note": "必經 新竹南寮 17公里海岸線起點 km約83"
+      "total_ratings": 6830,
+      "search_keyword": "新竹市北區 新竹南寮漁港",
+      "note": "必經 新竹南寮 17公里海岸線起點 km約83",
+      "bayesian_score": 4.21
     },
     {
       "csv_type": "便利商店",
-      "name_zh": "7-ELEVEN 海天門市",
-      "place_id": "ChIJ4QedURE1aDQRoMe6eCt9Jf4",
+      "name_zh": "全家便利商店 新竹濱海店",
+      "place_id": "ChIJP4siMGs1aDQR78nsUbiI1rE",
       "location": {
-        "lat": 24.818879799999998,
-        "lng": 120.9249
+        "lat": 24.8130056,
+        "lng": 120.9224478
       },
-      "search_keyword": "7-ELEVEN 海天門市 新竹市香山區",
-      "note": "香山海岸補給 km約87",
+      "search_keyword": "全家便利商店 新竹濱海店",
+      "note": "補給點 km約87",
       "bayesian_score": null
     },
     {
       "csv_type": "便利商店",
-      "name_zh": "7-ELEVEN 龍坑門市",
-      "place_id": "ChIJc8P-J2WuaTQRmco8hsVJ-UM",
+      "name_zh": "全家便利商店 後龍好望角店",
+      "place_id": "ChIJIYEndgWvaTQR71TzwCJg8B0",
       "location": {
-        "lat": 24.6019731,
-        "lng": 120.7798811
+        "lat": 24.6015925,
+        "lng": 120.7798079
       },
-      "search_keyword": "7-ELEVEN 龍坑門市 苗栗縣後龍鎮",
-      "note": "後龍好望角前補給 km約117",
+      "search_keyword": "全家便利商店 後龍好望角店",
+      "note": "好望角爬坡前補給 km約117",
       "bayesian_score": null
     },
     {
@@ -146,9 +146,9 @@
       },
       "rating": 4.4,
       "total_ratings": 17744,
-      "bayesian_score": 4.4,
-      "search_keyword": "後龍好望角風景區 苗栗縣後龍鎮",
-      "note": "必經 後龍好望角 全程唯一明顯緩坡 大風車海景 km約123"
+      "search_keyword": "苗栗縣後龍鎮 好望角風景區",
+      "note": "必經 後龍好望角 ★主視覺 風機草原眺海 km約123",
+      "bayesian_score": 4.4
     },
     {
       "csv_type": "起終點",
@@ -160,15 +160,15 @@
       },
       "rating": 4.3,
       "total_ratings": 409,
-      "bayesian_score": 4.33,
-      "search_keyword": "通霄車站 苗栗縣通霄鎮",
-      "note": "終點 通霄車站 可搭火車撤退 km約138"
+      "search_keyword": "苗栗縣通霄鎮 通霄車站",
+      "note": "終點 通霄 可搭海線火車撤退 km約138",
+      "bayesian_score": 4.34
     }
   ],
-  "bayesian_C": 4.3752,
-  "bayesian_m": 351,
-  "ors_distance_km": 139.8,
-  "ors_duration_hours": 8.7,
-  "elevation_ascent_m": null,
-  "elevation_descent_m": null
+  "bayesian_C": 4.3819,
+  "bayesian_m": 319,
+  "elevation_ascent_m": 287,
+  "elevation_descent_m": 275,
+  "ors_distance_km": 140.1,
+  "ors_duration_hours": 8.8
 }

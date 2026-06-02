@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJKRYAHumfaDQRHdDhr4ejTZQ",
+  "name_zh": "日向夏食賦",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 79,
+  "location": {
+    "lat": 24.0053287,
+    "lng": 121.62061360000001
+  },
+  "address": "970花蓮縣花蓮市民享里華廈街40號",
+  "primary_type": "asian_restaurant",
+  "primary_type_label": "亞洲風味餐廳",
+  "distance_km": 2.98,
+  "source": "api_2026-06-02",
+  "note": "亞洲風味餐廳",
+  "name_is_ascii": false
+}

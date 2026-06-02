@@ -3,7 +3,7 @@
   "name_zh": "甕大王甕仔雞",
   "name_lang": "zh-TW",
   "rating": 4.4,
-  "total_ratings": 1873,
+  "total_ratings": 1877,
   "location": {
     "lat": 25.2106987,
     "lng": 121.64817649999999
@@ -12,7 +12,7 @@
   "primary_type": "chicken_restaurant",
   "primary_type_label": "雞肉料理餐廳",
   "distance_km": 1.58,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "雞肉料理餐廳",
   "name_is_ascii": false
 }

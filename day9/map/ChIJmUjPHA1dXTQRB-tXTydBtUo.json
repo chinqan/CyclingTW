@@ -2,14 +2,16 @@
   "place_id": "ChIJmUjPHA1dXTQRB-tXTydBtUo",
   "name_zh": "舊草嶺隧道",
   "csv_type": "景點",
-  "rating": 4.6,
-  "total_ratings": 5719,
   "location": {
     "lat": 25.0039454,
     "lng": 121.9583462
   },
-  "source": "api_2026-05-21",
-  "note": "舊鐵道自行車隧道2167m",
+  "search_keyword": "景點",
+  "source": "api_2026-06-02",
+  "rating": 4.6,
+  "total_ratings": 5736,
+  "address": "228新北市貢寮區福隆里",
+  "primary_type": "transportation_service",
   "opening_hours_text": [
     "Monday: 8:30 AM – 4:30 PM",
     "Tuesday: 8:30 AM – 4:30 PM",

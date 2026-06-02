@@ -6,20 +6,10 @@
     "lat": 23.2588308,
     "lng": 120.10756800000001
   },
-  "search_keyword": "漁港 鹽田 燈塔 老街 景點",
-  "source": "api_2026-06-02",
+  "search_keyword": "景點",
+  "source": "along_2026-06-02",
   "rating": 4.4,
   "total_ratings": 21646,
   "address": "727臺南市北門區西南郊復育鹽田",
-  "primary_type": "tourist_attraction",
-  "opening_hours_text": [
-    "Monday: 9:00 AM – 7:00 PM",
-    "Tuesday: 9:00 AM – 7:00 PM",
-    "Wednesday: 9:00 AM – 7:00 PM",
-    "Thursday: 9:00 AM – 7:00 PM",
-    "Friday: 9:00 AM – 7:00 PM",
-    "Saturday: 9:00 AM – 7:00 PM",
-    "Sunday: 9:00 AM – 7:00 PM"
-  ],
-  "editorial_summary": "Historic salt field offering a chance to see how salt is made & famous sunset views."
+  "primary_type": "tourist_attraction"
 }

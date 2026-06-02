@@ -3,7 +3,7 @@
   "name_zh": "蔡記隆府 蘆洲店",
   "name_lang": "zh-TW",
   "rating": 4.4,
-  "total_ratings": 2221,
+  "total_ratings": 2231,
   "location": {
     "lat": 25.0856793,
     "lng": 121.461743
@@ -12,7 +12,7 @@
   "primary_type": "hot_pot_restaurant",
   "primary_type_label": "火鍋店",
   "distance_km": 0.3,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "火鍋店",
   "name_is_ascii": false
 }

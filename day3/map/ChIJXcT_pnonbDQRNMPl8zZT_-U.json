@@ -1,14 +1,24 @@
 {
   "place_id": "ChIJXcT_pnonbDQRNMPl8zZT_-U",
-  "name_zh": "蚵老大海鮮碳烤",
+  "name_zh": "蚵老大海鮮碳烤-東石美食推薦/烤蚵吃到飽/東石海鮮餐廳/東石漁人碼頭美食/嘉義鮮蚵吃到飽推薦/東石團餐餐廳推薦/東石進香團餐廳推薦/東石香客餐廳/東石鮮蚵200元吃到飽/嘉義縣美食推薦",
   "csv_type": "餐廳大休",
-  "search_keyword": "蚵老大海鮮碳烤 嘉義縣東石鄉觀海三路307號",
-  "rating": 4.8,
-  "total_ratings": 6709,
   "location": {
-    "lat": 23.4517586,
-    "lng": 120.136083
+    "lat": 23.451768599999998,
+    "lng": 120.13608299999999
   },
-  "note": "備案 東石漁人碼頭烤蚵吃到飽",
-  "source": "google_maps"
+  "search_keyword": "餐廳",
+  "source": "api_2026-06-02",
+  "rating": 4.8,
+  "total_ratings": 6760,
+  "address": "614嘉義縣東石鄉東石村觀海三路307號",
+  "primary_type": "restaurant",
+  "opening_hours_text": [
+    "Monday: Closed",
+    "Tuesday: 10:00 AM – 8:00 PM",
+    "Wednesday: 10:00 AM – 8:00 PM",
+    "Thursday: 10:00 AM – 8:00 PM",
+    "Friday: 10:00 AM – 8:00 PM",
+    "Saturday: 10:00 AM – 8:00 PM",
+    "Sunday: 10:00 AM – 8:00 PM"
+  ]
 }

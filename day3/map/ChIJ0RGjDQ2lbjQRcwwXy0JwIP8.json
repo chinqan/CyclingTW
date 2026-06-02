@@ -1,0 +1,15 @@
+{
+  "place_id": "ChIJ0RGjDQ2lbjQRcwwXy0JwIP8",
+  "name_zh": "在地食堂",
+  "csv_type": "餐廳大休",
+  "location": {
+    "lat": 23.694343,
+    "lng": 120.30928069999999
+  },
+  "search_keyword": "餐廳",
+  "source": "along_2026-06-02",
+  "rating": 4.5,
+  "total_ratings": 14,
+  "address": "634雲林縣褒忠鄉中勝村中正路318號",
+  "primary_type": "noodle_shop"
+}

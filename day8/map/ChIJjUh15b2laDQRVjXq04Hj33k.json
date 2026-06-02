@@ -1,0 +1,25 @@
+{
+  "place_id": "ChIJjUh15b2laDQRVjXq04Hj33k",
+  "name_zh": "花蓮雲山水夢幻湖",
+  "csv_type": "景點",
+  "location": {
+    "lat": 23.8285824,
+    "lng": 121.5155814
+  },
+  "search_keyword": "景點",
+  "source": "api_2026-06-02",
+  "rating": 4.1,
+  "total_ratings": 14579,
+  "address": "974花蓮縣壽豐鄉豐坪路二段2巷201弄18號",
+  "primary_type": "garden",
+  "opening_hours_text": [
+    "Monday: 8:00 AM – 5:00 PM",
+    "Tuesday: 8:00 AM – 5:00 PM",
+    "Wednesday: 8:00 AM – 5:00 PM",
+    "Thursday: 8:00 AM – 5:00 PM",
+    "Friday: 8:00 AM – 5:00 PM",
+    "Saturday: 8:00 AM – 5:00 PM",
+    "Sunday: 8:00 AM – 5:00 PM"
+  ],
+  "editorial_summary": "This 24-hectare park features a lake, plus a variety a plants, including palms & flowering plants."
+}

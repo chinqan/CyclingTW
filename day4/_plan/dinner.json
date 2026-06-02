@@ -1,9 +1,9 @@
 {
   "day": 4,
   "search_radius_km": 3,
-  "pool_size": 69,
-  "bayesian_C": 938.3,
-  "bayesian_m": 4.4294,
+  "pool_size": 72,
+  "bayesian_C": 900.4,
+  "bayesian_m": 4.4295,
   "note": "C=平均留言數(先驗樣本數), m=加權平均評分(先驗期望值)",
   "source_endpoint_place_id": "ChIJKzw4apvhcTQRbxsV8Dmentk",
   "top5_place_ids": [
@@ -25,7 +25,7 @@
       },
       "address": "928屏東縣東港鎮朝安里朝隆路39號",
       "note": "餐廳",
-      "bayesian_score": 4.8309,
+      "bayesian_score": 4.8334,
       "confidence": "✅ 高",
       "rank": 1,
       "selected": true
@@ -41,7 +41,7 @@
       },
       "address": "93248屏東縣新園鄉鹽埔村新生路123號",
       "note": "日式燒肉餐廳",
-      "bayesian_score": 4.8143,
+      "bayesian_score": 4.8171,
       "confidence": "✅ 高",
       "rank": 2,
       "selected": true
@@ -57,7 +57,7 @@
       },
       "address": "928屏東縣東港鎮朝隆路126號攤位號東港漁港漁產品直銷中心（華僑市場）",
       "note": "日式餐廳",
-      "bayesian_score": 4.7355,
+      "bayesian_score": 4.7399,
       "confidence": "✅ 高",
       "rank": 3,
       "selected": true
@@ -73,7 +73,7 @@
       },
       "address": "928屏東縣東港鎮內關帝里沿海路212號內關帝里",
       "note": "餐廳",
-      "bayesian_score": 4.6411,
+      "bayesian_score": 4.6459,
       "confidence": "⚠️ 中",
       "rank": 4,
       "selected": true
@@ -89,7 +89,7 @@
       },
       "address": "928屏東縣新園鄉朝安里朝隆路39號, 華僑市場攤位212號",
       "note": "海鮮餐廳",
-      "bayesian_score": 4.6365,
+      "bayesian_score": 4.6385,
       "confidence": "✅ 高",
       "rank": 5,
       "selected": true
@@ -105,7 +105,7 @@
       },
       "address": "928屏東縣東港鎮朝安里朝隆路39號",
       "note": "日式餐廳",
-      "bayesian_score": 4.603,
+      "bayesian_score": 4.6056,
       "confidence": "✅ 高",
       "rank": 6,
       "selected": false
@@ -121,7 +121,7 @@
       },
       "address": "928屏東縣東港鎮新勝里光復路二段100號",
       "note": "餐廳",
-      "bayesian_score": 4.5787,
+      "bayesian_score": 4.5824,
       "confidence": "⚠️ 中",
       "rank": 7,
       "selected": false
@@ -137,7 +137,7 @@
       },
       "address": "928屏东县东港镇东隆里光复路三段133號133之2號",
       "note": "餐廳",
-      "bayesian_score": 4.533,
+      "bayesian_score": 4.5362,
       "confidence": "❌ 低",
       "rank": 8,
       "selected": false
@@ -153,7 +153,7 @@
       },
       "address": "928屏東縣東港鎮新勝里光復路二段113號",
       "note": "義大利餐廳",
-      "bayesian_score": 4.5009,
+      "bayesian_score": 4.5032,
       "confidence": "❌ 低",
       "rank": 9,
       "selected": false
@@ -169,7 +169,7 @@
       },
       "address": "928屏東縣東港鎮船頭里大成路136巷51號",
       "note": "餐廳",
-      "bayesian_score": 4.4921,
+      "bayesian_score": 4.4938,
       "confidence": "⚠️ 中",
       "rank": 10,
       "selected": false
@@ -185,7 +185,7 @@
       },
       "address": "928屏東縣東港鎮新勝里光復路二段87號",
       "note": "餐廳",
-      "bayesian_score": 4.4857,
+      "bayesian_score": 4.4878,
       "confidence": "❌ 低",
       "rank": 11,
       "selected": false
@@ -201,7 +201,7 @@
       },
       "address": "92845屏東縣東港鎮盛漁里興漁街27之1號27之2號",
       "note": "台式餐廳",
-      "bayesian_score": 4.4851,
+      "bayesian_score": 4.487,
       "confidence": "❌ 低",
       "rank": 12,
       "selected": false
@@ -217,8 +217,8 @@
       },
       "address": "928屏東縣東港鎮鎮光復路二段87號",
       "note": "火鍋店",
-      "bayesian_score": 4.4849,
-      "confidence": "❌ 低",
+      "bayesian_score": 4.4865,
+      "confidence": "⚠️ 中",
       "rank": 13,
       "selected": false
     },
@@ -233,7 +233,7 @@
       },
       "address": "928007屏東縣東港鎮東津里水源路221號",
       "note": "素食餐廳",
-      "bayesian_score": 4.4755,
+      "bayesian_score": 4.4769,
       "confidence": "❌ 低",
       "rank": 14,
       "selected": false
@@ -249,7 +249,7 @@
       },
       "address": "928屏東縣東港鎮新街里明德一路288號",
       "note": "餐廳",
-      "bayesian_score": 4.4684,
+      "bayesian_score": 4.4699,
       "confidence": "❌ 低",
       "rank": 15,
       "selected": false
@@ -265,7 +265,7 @@
       },
       "address": "928屏東縣東港鎮東津里船頭路9號1樓",
       "note": "餐廳",
-      "bayesian_score": 4.4668,
+      "bayesian_score": 4.4683,
       "confidence": "❌ 低",
       "rank": 16,
       "selected": false
@@ -281,7 +281,7 @@
       },
       "address": "92849屏東縣東港鎮東光里光復路一段379號",
       "note": "餐廳",
-      "bayesian_score": 4.4652,
+      "bayesian_score": 4.4659,
       "confidence": "✅ 高",
       "rank": 17,
       "selected": false
@@ -297,7 +297,7 @@
       },
       "address": "932屏東縣新園鄉共和村新興路二段1號3樓",
       "note": "餐廳",
-      "bayesian_score": 4.4629,
+      "bayesian_score": 4.4643,
       "confidence": "❌ 低",
       "rank": 18,
       "selected": false
@@ -313,7 +313,7 @@
       },
       "address": "928屏東縣東港鎮東津里船頭路4之36號",
       "note": "餐廳",
-      "bayesian_score": 4.4553,
+      "bayesian_score": 4.4563,
       "confidence": "❌ 低",
       "rank": 19,
       "selected": false
@@ -329,7 +329,7 @@
       },
       "address": "No, No. 129光復路三段朝安里東港鎮屏東縣928",
       "note": "餐廳",
-      "bayesian_score": 4.4438,
+      "bayesian_score": 4.4445,
       "confidence": "❌ 低",
       "rank": 20,
       "selected": false
@@ -345,7 +345,7 @@
       },
       "address": "928屏東縣東港鎮鎮海里嘉蓮路32之11號",
       "note": "餐廳",
-      "bayesian_score": 4.443,
+      "bayesian_score": 4.4437,
       "confidence": "❌ 低",
       "rank": 21,
       "selected": false
@@ -361,7 +361,7 @@
       },
       "address": "928屏东县东港镇内关帝里興中東一街11號",
       "note": "日式餐廳",
-      "bayesian_score": 4.441,
+      "bayesian_score": 4.4415,
       "confidence": "❌ 低",
       "rank": 22,
       "selected": false
@@ -377,7 +377,7 @@
       },
       "address": "928屏東縣東港鎮新勝里新勝街",
       "note": "餐廳",
-      "bayesian_score": 4.4409,
+      "bayesian_score": 4.4414,
       "confidence": "❌ 低",
       "rank": 23,
       "selected": false
@@ -393,7 +393,7 @@
       },
       "address": "928屏東縣東港鎮東隆里共和街74號",
       "note": "餐廳",
-      "bayesian_score": 4.4391,
+      "bayesian_score": 4.4396,
       "confidence": "❌ 低",
       "rank": 24,
       "selected": false
@@ -409,9 +409,25 @@
       },
       "address": "928屏東縣東港鎮福德里中正路6號",
       "note": "餐廳",
-      "bayesian_score": 4.4384,
+      "bayesian_score": 4.4388,
       "confidence": "❌ 低",
       "rank": 25,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJoVNYe1rhcTQRDfQvgFi_mk4",
+      "name_zh": "三漁握り寿司/刺身丼飯專賣店",
+      "rating": 5,
+      "total_ratings": 14,
+      "location": {
+        "lat": 22.4591267,
+        "lng": 120.45231620000001
+      },
+      "address": "327號, 嘉新路嘉蓮里東港鎮屏東縣928",
+      "note": "壽司店",
+      "bayesian_score": 4.4382,
+      "confidence": "❌ 低",
+      "rank": 26,
       "selected": false
     },
     {
@@ -425,9 +441,9 @@
       },
       "address": "928屏東縣東港鎮新街里明德一街22-1號",
       "note": "餐廳",
-      "bayesian_score": 4.437,
+      "bayesian_score": 4.4374,
       "confidence": "❌ 低",
-      "rank": 26,
+      "rank": 27,
       "selected": false
     },
     {
@@ -441,9 +457,9 @@
       },
       "address": "928屏東縣東港鎮頂中里中山路118號",
       "note": "餐廳",
-      "bayesian_score": 4.4348,
+      "bayesian_score": 4.4351,
       "confidence": "❌ 低",
-      "rank": 27,
+      "rank": 28,
       "selected": false
     },
     {
@@ -457,9 +473,9 @@
       },
       "address": "928屏東縣東港鎮頂中里博愛街322號",
       "note": "速食餐廳",
-      "bayesian_score": 4.4345,
+      "bayesian_score": 4.4348,
       "confidence": "❌ 低",
-      "rank": 28,
+      "rank": 29,
       "selected": false
     },
     {
@@ -473,9 +489,9 @@
       },
       "address": "928屏東縣東港鎮明德一路395號",
       "note": "台式餐廳",
-      "bayesian_score": 4.4336,
+      "bayesian_score": 4.4339,
       "confidence": "❌ 低",
-      "rank": 29,
+      "rank": 30,
       "selected": false
     },
     {
@@ -489,9 +505,9 @@
       },
       "address": "928屏東縣東港鎮朝安里中山路141號",
       "note": "餐廳",
-      "bayesian_score": 4.433,
+      "bayesian_score": 4.4333,
       "confidence": "❌ 低",
-      "rank": 30,
+      "rank": 31,
       "selected": false
     },
     {
@@ -505,9 +521,25 @@
       },
       "address": "932屏东县新园乡盐埔村圣心路167號巷 2號",
       "note": "家庭餐廳",
-      "bayesian_score": 4.4326,
+      "bayesian_score": 4.4328,
       "confidence": "❌ 低",
-      "rank": 31,
+      "rank": 32,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ4fWr8-vhcTQR2shVzWaHPMY",
+      "name_zh": "及第古早味早餐",
+      "rating": 4.5,
+      "total_ratings": 40,
+      "location": {
+        "lat": 22.4662693,
+        "lng": 120.4489928
+      },
+      "address": "928屏東縣東港鎮福德里朝陽街33號",
+      "note": "早餐店",
+      "bayesian_score": 4.4325,
+      "confidence": "❌ 低",
+      "rank": 33,
       "selected": false
     },
     {
@@ -521,9 +553,9 @@
       },
       "address": "932屏東縣新園鄉鹽埔村新生路",
       "note": "餐廳",
-      "bayesian_score": 4.4314,
+      "bayesian_score": 4.4315,
       "confidence": "❌ 低",
-      "rank": 32,
+      "rank": 34,
       "selected": false
     },
     {
@@ -537,9 +569,9 @@
       },
       "address": "928屏東縣新園鄉朝隆路",
       "note": "餐廳",
-      "bayesian_score": 4.4312,
+      "bayesian_score": 4.4314,
       "confidence": "❌ 低",
-      "rank": 33,
+      "rank": 35,
       "selected": false
     },
     {
@@ -553,9 +585,9 @@
       },
       "address": "928屏東縣東港鎮",
       "note": "餐廳",
-      "bayesian_score": 4.4312,
+      "bayesian_score": 4.4314,
       "confidence": "❌ 低",
-      "rank": 34,
+      "rank": 36,
       "selected": false
     },
     {
@@ -569,9 +601,9 @@
       },
       "address": "928屏東縣東港鎮新街里長春一路127-1號",
       "note": "中式餐廳",
-      "bayesian_score": 4.4312,
+      "bayesian_score": 4.4314,
       "confidence": "❌ 低",
-      "rank": 35,
+      "rank": 37,
       "selected": false
     },
     {
@@ -585,9 +617,9 @@
       },
       "address": "932屏東縣新園鄉共和村光復路83-1號",
       "note": "中式餐廳",
-      "bayesian_score": 4.4306,
+      "bayesian_score": 4.4308,
       "confidence": "❌ 低",
-      "rank": 36,
+      "rank": 38,
       "selected": false
     },
     {
@@ -601,9 +633,9 @@
       },
       "address": "928屏東縣東港鎮福德里光復路三段96號",
       "note": "中式餐廳",
-      "bayesian_score": 4.4303,
+      "bayesian_score": 4.4304,
       "confidence": "❌ 低",
-      "rank": 37,
+      "rank": 39,
       "selected": false
     },
     {
@@ -617,9 +649,9 @@
       },
       "address": "932屏東縣新園鄉共和村中正路157號",
       "note": "中式餐廳",
-      "bayesian_score": 4.43,
+      "bayesian_score": 4.4301,
       "confidence": "❌ 低",
-      "rank": 38,
+      "rank": 40,
       "selected": false
     },
     {
@@ -633,9 +665,25 @@
       },
       "address": "932屏東縣新園鄉鹽埔村新生路2-1號",
       "note": "亞洲風味餐廳",
-      "bayesian_score": 4.4292,
+      "bayesian_score": 4.4293,
       "confidence": "❌ 低",
-      "rank": 39,
+      "rank": 41,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ4XMWY2jhcTQRDZngl7uy8Bw",
+      "name_zh": "素食鍋燒麵總匯三明治",
+      "rating": 4.4,
+      "total_ratings": 34,
+      "location": {
+        "lat": 22.4651623,
+        "lng": 120.44891549999998
+      },
+      "address": "928屏東縣東港鎮福德里中正路14號",
+      "note": "素食餐廳",
+      "bayesian_score": 4.4284,
+      "confidence": "❌ 低",
+      "rank": 42,
       "selected": false
     },
     {
@@ -651,7 +699,7 @@
       "note": "餐廳",
       "bayesian_score": 4.4279,
       "confidence": "❌ 低",
-      "rank": 40,
+      "rank": 43,
       "selected": false
     },
     {
@@ -667,7 +715,7 @@
       "note": "日式餐廳",
       "bayesian_score": 4.4278,
       "confidence": "❌ 低",
-      "rank": 41,
+      "rank": 44,
       "selected": false
     },
     {
@@ -681,9 +729,9 @@
       },
       "address": "928屏東縣東港鎮朝安里博愛街40號",
       "note": "餐廳",
-      "bayesian_score": 4.4236,
+      "bayesian_score": 4.4235,
       "confidence": "❌ 低",
-      "rank": 42,
+      "rank": 45,
       "selected": false
     },
     {
@@ -697,9 +745,9 @@
       },
       "address": "之 十 八 號, No. 26船頭路東港鎮屏東縣928",
       "note": "餐廳",
-      "bayesian_score": 4.4215,
+      "bayesian_score": 4.4213,
       "confidence": "❌ 低",
-      "rank": 43,
+      "rank": 46,
       "selected": false
     },
     {
@@ -713,9 +761,9 @@
       },
       "address": "928屏東縣東港鎮鎮海里鎮海路121號（對面號",
       "note": "小吃店",
-      "bayesian_score": 4.4203,
+      "bayesian_score": 4.4201,
       "confidence": "❌ 低",
-      "rank": 44,
+      "rank": 47,
       "selected": false
     },
     {
@@ -729,9 +777,9 @@
       },
       "address": "928屏東縣東港鎮新興三街113號",
       "note": "餐廳",
-      "bayesian_score": 4.4156,
+      "bayesian_score": 4.4151,
       "confidence": "❌ 低",
-      "rank": 45,
+      "rank": 48,
       "selected": false
     },
     {
@@ -745,9 +793,9 @@
       },
       "address": "932屏東縣新園鄉共和村義仁路5號號旁",
       "note": "海鮮餐廳",
-      "bayesian_score": 4.4107,
+      "bayesian_score": 4.4105,
       "confidence": "✅ 高",
-      "rank": 46,
+      "rank": 49,
       "selected": false
     },
     {
@@ -761,9 +809,9 @@
       },
       "address": "928屏東縣東港鎮東光里光復路一段399號",
       "note": "海鮮餐廳",
-      "bayesian_score": 4.4068,
+      "bayesian_score": 4.4066,
       "confidence": "✅ 高",
-      "rank": 47,
+      "rank": 50,
       "selected": false
     },
     {
@@ -777,9 +825,9 @@
       },
       "address": "928屏東縣東港鎮東隆里東隆街61號",
       "note": "餐廳",
-      "bayesian_score": 4.4062,
+      "bayesian_score": 4.4054,
       "confidence": "❌ 低",
-      "rank": 48,
+      "rank": 51,
       "selected": false
     },
     {
@@ -793,9 +841,9 @@
       },
       "address": "928屏東縣東港鎮嘉蓮里嘉新路101-1號",
       "note": "海鮮餐廳",
-      "bayesian_score": 4.4051,
+      "bayesian_score": 4.405,
       "confidence": "✅ 高",
-      "rank": 49,
+      "rank": 52,
       "selected": false
     },
     {
@@ -809,9 +857,9 @@
       },
       "address": "928屏東縣東港鎮福德里中正路41號",
       "note": "餐廳",
-      "bayesian_score": 4.4003,
+      "bayesian_score": 4.3992,
       "confidence": "❌ 低",
-      "rank": 50,
+      "rank": 53,
       "selected": false
     },
     {
@@ -825,9 +873,9 @@
       },
       "address": "928屏東縣東港鎮新街里中正路一段83號",
       "note": "中式餐廳",
-      "bayesian_score": 4.391,
+      "bayesian_score": 4.3896,
       "confidence": "❌ 低",
-      "rank": 51,
+      "rank": 54,
       "selected": false
     },
     {
@@ -841,9 +889,9 @@
       },
       "address": "928屏東縣東港鎮興漁里興漁街144-7號",
       "note": "台式餐廳",
-      "bayesian_score": 4.3847,
+      "bayesian_score": 4.3835,
       "confidence": "⚠️ 中",
-      "rank": 52,
+      "rank": 55,
       "selected": false
     },
     {
@@ -857,9 +905,9 @@
       },
       "address": "928屏東縣東港鎮福德里中正路71號",
       "note": "海鮮餐廳",
-      "bayesian_score": 4.3817,
+      "bayesian_score": 4.3799,
       "confidence": "❌ 低",
-      "rank": 53,
+      "rank": 56,
       "selected": false
     },
     {
@@ -873,25 +921,25 @@
       },
       "address": "928屏東縣新園鄉共和村新生一路",
       "note": "海鮮餐廳",
-      "bayesian_score": 4.3655,
+      "bayesian_score": 4.3637,
       "confidence": "❌ 低",
-      "rank": 54,
+      "rank": 57,
       "selected": false
     },
     {
       "place_id": "ChIJsfqxiIXhcTQRc7BpSAyKA8k",
       "name_zh": "東港生魚片 曾鮮黑鮪魚專賣店",
       "rating": 4.3,
-      "total_ratings": 1700,
+      "total_ratings": 1701,
       "location": {
         "lat": 22.4681087,
         "lng": 120.4436369
       },
       "address": "928屏東縣東港鎮朝安里朝隆路113號華僑市場220,221號",
       "note": "餐廳",
-      "bayesian_score": 4.346,
+      "bayesian_score": 4.3448,
       "confidence": "✅ 高",
-      "rank": 55,
+      "rank": 58,
       "selected": false
     },
     {
@@ -905,9 +953,9 @@
       },
       "address": "928屏東縣東港鎮朝安里新生一路84號",
       "note": "餐廳",
-      "bayesian_score": 4.3372,
+      "bayesian_score": 4.3349,
       "confidence": "⚠️ 中",
-      "rank": 56,
+      "rank": 59,
       "selected": false
     },
     {
@@ -921,9 +969,9 @@
       },
       "address": "928屏東縣新園鄉朝隆路華僑市場228攤",
       "note": "日式餐廳",
-      "bayesian_score": 4.3241,
+      "bayesian_score": 4.3233,
       "confidence": "✅ 高",
-      "rank": 57,
+      "rank": 60,
       "selected": false
     },
     {
@@ -937,9 +985,9 @@
       },
       "address": "928屏東縣東港鎮新勝里光復路二段47號",
       "note": "海鮮餐廳",
-      "bayesian_score": 4.3163,
+      "bayesian_score": 4.3157,
       "confidence": "✅ 高",
-      "rank": 58,
+      "rank": 61,
       "selected": false
     },
     {
@@ -953,9 +1001,9 @@
       },
       "address": "928屏東縣東港鎮新街里光復路一段328-1號",
       "note": "餐廳",
-      "bayesian_score": 4.3087,
+      "bayesian_score": 4.3044,
       "confidence": "❌ 低",
-      "rank": 59,
+      "rank": 62,
       "selected": false
     },
     {
@@ -969,9 +1017,9 @@
       },
       "address": "928屏東縣東港鎮福德里中山路113號",
       "note": "餐廳",
-      "bayesian_score": 4.301,
+      "bayesian_score": 4.2979,
       "confidence": "⚠️ 中",
-      "rank": 60,
+      "rank": 63,
       "selected": false
     },
     {
@@ -985,9 +1033,9 @@
       },
       "address": "928屏東縣東港鎮興漁里興漁街211號",
       "note": "小吃店",
-      "bayesian_score": 4.2937,
+      "bayesian_score": 4.2915,
       "confidence": "✅ 高",
-      "rank": 61,
+      "rank": 64,
       "selected": false
     },
     {
@@ -1001,9 +1049,9 @@
       },
       "address": "928屏東縣東港鎮東津里水源路219號",
       "note": "餐廳",
-      "bayesian_score": 4.2836,
+      "bayesian_score": 4.2814,
       "confidence": "✅ 高",
-      "rank": 62,
+      "rank": 65,
       "selected": false
     },
     {
@@ -1017,9 +1065,9 @@
       },
       "address": "928屏東縣東港鎮福德里光復路三段84號",
       "note": "餐廳",
-      "bayesian_score": 4.2612,
+      "bayesian_score": 4.2594,
       "confidence": "✅ 高",
-      "rank": 63,
+      "rank": 66,
       "selected": false
     },
     {
@@ -1033,9 +1081,9 @@
       },
       "address": "928屏東縣東港鎮福德里光復路三段156號",
       "note": "小吃店",
-      "bayesian_score": 4.2536,
+      "bayesian_score": 4.252,
       "confidence": "✅ 高",
-      "rank": 64,
+      "rank": 67,
       "selected": false
     },
     {
@@ -1049,9 +1097,9 @@
       },
       "address": "928屏東縣東港鎮新勝里中正路128號",
       "note": "早餐店",
-      "bayesian_score": 4.2124,
+      "bayesian_score": 4.2094,
       "confidence": "✅ 高",
-      "rank": 65,
+      "rank": 68,
       "selected": false
     },
     {
@@ -1065,9 +1113,9 @@
       },
       "address": "928屏東縣東港鎮嘉蓮里嘉新路87之1號",
       "note": "海鮮餐廳",
-      "bayesian_score": 4.2114,
+      "bayesian_score": 4.2084,
       "confidence": "✅ 高",
-      "rank": 66,
+      "rank": 69,
       "selected": false
     },
     {
@@ -1081,9 +1129,9 @@
       },
       "address": "928屏東縣東港鎮新勝里光復路二段66號",
       "note": "餐廳",
-      "bayesian_score": 4.1984,
+      "bayesian_score": 4.1956,
       "confidence": "✅ 高",
-      "rank": 67,
+      "rank": 70,
       "selected": false
     },
     {
@@ -1097,9 +1145,9 @@
       },
       "address": "928屏東縣東港鎮東光里光復路一段297之1號",
       "note": "中式餐廳",
-      "bayesian_score": 4.1594,
+      "bayesian_score": 4.1553,
       "confidence": "✅ 高",
-      "rank": 68,
+      "rank": 71,
       "selected": false
     },
     {
@@ -1113,9 +1161,9 @@
       },
       "address": "928屏東縣東港鎮新街里沿海路163-1號",
       "note": "速食餐廳",
-      "bayesian_score": 4.1335,
+      "bayesian_score": 4.1298,
       "confidence": "✅ 高",
-      "rank": 69,
+      "rank": 72,
       "selected": false
     }
   ]

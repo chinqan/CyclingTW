@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJS7dkGT6eaDQRwITAZ1ttwNU",
+  "name_zh": "樂城大飯店",
+  "name_lang": "zh-TW",
+  "rating": 3.7,
+  "total_ratings": 288,
+  "location": {
+    "lat": 24.0171082,
+    "lng": 121.6101455
+  },
+  "address": "971花蓮縣新城鄉嘉里村嘉里路59號",
+  "primary_type": "hotel",
+  "distance_km": 2.35,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

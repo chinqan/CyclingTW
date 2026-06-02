@@ -2,12 +2,10 @@
   "place_id": "ChIJOQ7aGUP3ZzQRCMiWewrFofk",
   "name_zh": "7-ELEVEN 頭城門市",
   "csv_type": "便利商店",
-  "rating": 4.2,
-  "total_ratings": 72,
   "location": {
-    "lat": 24.855886,
-    "lng": 121.824191
+    "lat": 24.8558859,
+    "lng": 121.82419100000001
   },
-  "source": "search_2026-07",
-  "note": "頭城鎮補給"
+  "search_keyword": "便利商店",
+  "source": "along_2026-06-02"
 }

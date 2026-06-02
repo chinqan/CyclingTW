@@ -1,13 +1,13 @@
 {
   "place_id": "ChIJvyru1BW0bjQRrsVaIqi0zAI",
   "name_zh": "西螺延平老街",
-  "csv_type": "起終點",
+  "csv_type": "景點",
   "location": {
     "lat": 23.8014431,
     "lng": 120.46190379999999
   },
-  "search_keyword": "西螺延平老街",
-  "source": "api_2026-06-01",
+  "search_keyword": "景點",
+  "source": "api_2026-06-02",
   "rating": 4.2,
   "total_ratings": 2125,
   "address": "648雲林縣西螺鎮中和里延平路130號往東",

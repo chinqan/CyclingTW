@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJsa7O0yWeaDQRIzcgLhWc_dk",
+  "name_zh": "美崙牛雜湯(泰國小吃)",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 220,
+  "location": {
+    "lat": 24.0069685,
+    "lng": 121.622107
+  },
+  "address": "970花蓮縣花蓮市民享里球崙一路299-295號",
+  "primary_type": "thai_restaurant",
+  "primary_type_label": "泰國餐廳",
+  "distance_km": 2.77,
+  "source": "api_2026-06-02",
+  "note": "泰國餐廳",
+  "name_is_ascii": false
+}

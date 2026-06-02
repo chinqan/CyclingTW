@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJu3IACakgZjQREfk27gSo1co",
+  "name_zh": "花蓮七星潭 迎星會館(STARRISE LEISURE HOTEL)",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 1140,
+  "location": {
+    "lat": 24.027079,
+    "lng": 121.63138099999998
+  },
+  "address": "971花蓮縣新城鄉大漢村七星街38號",
+  "primary_type": "hotel",
+  "distance_km": 0.65,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

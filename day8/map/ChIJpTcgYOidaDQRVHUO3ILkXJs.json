@@ -1,0 +1,25 @@
+{
+  "place_id": "ChIJpTcgYOidaDQRVHUO3ILkXJs",
+  "name_zh": "七星潭海岸風景特定區",
+  "csv_type": "景點",
+  "location": {
+    "lat": 24.0314268,
+    "lng": 121.62717639999998
+  },
+  "search_keyword": "景點",
+  "source": "api_2026-06-02",
+  "rating": 4.6,
+  "total_ratings": 28260,
+  "address": "971花蓮縣新城鄉大漢村七星街79巷5號",
+  "primary_type": "park",
+  "opening_hours_text": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "editorial_summary": "Tranquil seafront destination with a gravel shore, offering azure waters, pavilions & bike trails."
+}

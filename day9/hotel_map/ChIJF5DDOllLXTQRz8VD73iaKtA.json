@@ -3,7 +3,7 @@
   "name_zh": "遠東金山海灣溫泉HOTEL",
   "name_lang": "zh-TW",
   "rating": 3.7,
-  "total_ratings": 2113,
+  "total_ratings": 2116,
   "location": {
     "lat": 25.229705799999998,
     "lng": 121.64652249999999
@@ -11,6 +11,6 @@
   "address": "208新北市金山區萬壽里磺港路326號",
   "primary_type": "hotel",
   "distance_km": 1.21,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "name_is_ascii": false
 }

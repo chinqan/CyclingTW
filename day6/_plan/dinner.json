@@ -1,9 +1,9 @@
 {
   "day": 6,
   "search_radius_km": 3,
-  "pool_size": 31,
-  "bayesian_C": 220.9,
-  "bayesian_m": 4.4751,
+  "pool_size": 33,
+  "bayesian_C": 210.7,
+  "bayesian_m": 4.4737,
   "note": "C=平均留言數(先驗樣本數), m=加權平均評分(先驗期望值)",
   "source_endpoint_place_id": "ChIJ-fgsCr7ObzQRGrAOOXKCO4k",
   "top5_place_ids": [
@@ -18,14 +18,14 @@
       "place_id": "ChIJMSX_LwDPbzQR87-nfAcTnNE",
       "name_zh": "維縈家鄉碳烤雞排 太麻里店",
       "rating": 4.9,
-      "total_ratings": 157,
+      "total_ratings": 158,
       "location": {
         "lat": 22.611824499999997,
         "lng": 121.0060094
       },
       "address": "963臺東縣太麻里鄉泰和村太麻里街272號",
       "note": "速食餐廳",
-      "bayesian_score": 4.6516,
+      "bayesian_score": 4.6564,
       "confidence": "⚠️ 中",
       "rank": 1,
       "selected": true
@@ -34,14 +34,14 @@
       "place_id": "ChIJ75vo-QTPbzQRtL8dlJEhwv8",
       "name_zh": "越南小廚",
       "rating": 4.7,
-      "total_ratings": 802,
+      "total_ratings": 804,
       "location": {
         "lat": 22.611524,
         "lng": 121.00721300000001
       },
       "address": "963臺東縣太麻里鄉泰和村外環路49號",
       "note": "越南餐廳",
-      "bayesian_score": 4.6514,
+      "bayesian_score": 4.653,
       "confidence": "✅ 高",
       "rank": 2,
       "selected": true
@@ -50,14 +50,14 @@
       "place_id": "ChIJ42A4PdLPbzQR-ZSjNBRW71Q",
       "name_zh": "麻里マリ朝午食-太麻里店（店休臉書公告）",
       "rating": 4.8,
-      "total_ratings": 251,
+      "total_ratings": 252,
       "location": {
         "lat": 22.6100264,
         "lng": 121.0048094
       },
       "address": "963臺東縣太麻里鄉泰和村至善路17號",
       "note": "早午餐餐廳",
-      "bayesian_score": 4.6479,
+      "bayesian_score": 4.6514,
       "confidence": "✅ 高",
       "rank": 3,
       "selected": true
@@ -66,14 +66,14 @@
       "place_id": "ChIJiX27_QbPbzQRHtI2Mswq5kc",
       "name_zh": "187嗑棧",
       "rating": 4.7,
-      "total_ratings": 705,
+      "total_ratings": 713,
       "location": {
         "lat": 22.604177399999998,
         "lng": 121.00300250000001
       },
       "address": "963臺東縣太麻里鄉泰和村外環路187號",
       "note": "餐廳",
-      "bayesian_score": 4.6463,
+      "bayesian_score": 4.6484,
       "confidence": "✅ 高",
       "rank": 4,
       "selected": true
@@ -89,7 +89,7 @@
       },
       "address": "963臺東縣太麻里鄉泰和村太麻里街81號千禧曙光紀念園區入口",
       "note": "早午餐餐廳",
-      "bayesian_score": 4.6247,
+      "bayesian_score": 4.6284,
       "confidence": "⚠️ 中",
       "rank": 5,
       "selected": true
@@ -98,14 +98,14 @@
       "place_id": "ChIJ3QrH8OLPbzQRQ69KfP1F65Q",
       "name_zh": "台東美食推薦 台東網美咖啡 淳真好食光",
       "rating": 4.7,
-      "total_ratings": 367,
+      "total_ratings": 368,
       "location": {
         "lat": 22.6088588,
         "lng": 121.00439459999998
       },
       "address": "963臺東縣太麻里鄉泰和村太麻里街472號",
       "note": "甜品餐廳",
-      "bayesian_score": 4.6155,
+      "bayesian_score": 4.6176,
       "confidence": "✅ 高",
       "rank": 6,
       "selected": false
@@ -114,14 +114,14 @@
       "place_id": "ChIJv4HjzBLPbzQRx-2Vn0R7_80",
       "name_zh": "海泱日記 Whale Diary Resort",
       "rating": 4.8,
-      "total_ratings": 102,
+      "total_ratings": 104,
       "location": {
         "lat": 22.617113399999997,
         "lng": 121.0100267
       },
       "address": "963臺東縣太麻里鄉泰和村太麻里街35號",
       "note": "餐廳",
-      "bayesian_score": 4.5777,
+      "bayesian_score": 4.5815,
       "confidence": "❌ 低",
       "rank": 7,
       "selected": false
@@ -130,14 +130,14 @@
       "place_id": "ChIJg6-tj6rPbzQRcsAdtWHmaIk",
       "name_zh": "小魚妹早午餐~每星期一都放假去",
       "rating": 4.7,
-      "total_ratings": 130,
+      "total_ratings": 132,
       "location": {
         "lat": 22.609655999999998,
         "lng": 121.00403030000001
       },
       "address": "963臺東縣太麻里鄉泰和村和平路20之1號",
       "note": "早午餐餐廳",
-      "bayesian_score": 4.5584,
+      "bayesian_score": 4.5609,
       "confidence": "⚠️ 中",
       "rank": 8,
       "selected": false
@@ -153,7 +153,7 @@
       },
       "address": "963臺東縣太麻里鄉泰和村外環路36號1樓",
       "note": "家庭餐廳",
-      "bayesian_score": 4.538,
+      "bayesian_score": 4.5393,
       "confidence": "❌ 低",
       "rank": 9,
       "selected": false
@@ -169,7 +169,7 @@
       },
       "address": "963臺東縣太麻里鄉泰和村太麻里街392號",
       "note": "早餐店",
-      "bayesian_score": 4.524,
+      "bayesian_score": 4.5245,
       "confidence": "⚠️ 中",
       "rank": 10,
       "selected": false
@@ -185,7 +185,7 @@
       },
       "address": "96346臺東縣太麻里鄉大王村70號",
       "note": "餐廳",
-      "bayesian_score": 4.5128,
+      "bayesian_score": 4.5132,
       "confidence": "❌ 低",
       "rank": 11,
       "selected": false
@@ -201,7 +201,7 @@
       },
       "address": "963臺東縣太麻里鄉泰和村太麻里街236號",
       "note": "餐廳",
-      "bayesian_score": 4.5088,
+      "bayesian_score": 4.509,
       "confidence": "❌ 低",
       "rank": 12,
       "selected": false
@@ -217,25 +217,9 @@
       },
       "address": "964臺東縣金峰鄉新興村53-1",
       "note": "餐廳",
-      "bayesian_score": 4.5004,
+      "bayesian_score": 4.5003,
       "confidence": "❌ 低",
       "rank": 13,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJey-i7pPObzQRyEDq9VCM_iU",
-      "name_zh": "薪傳小吃店",
-      "rating": 4.6,
-      "total_ratings": 23,
-      "location": {
-        "lat": 22.611339599999997,
-        "lng": 121.0058893
-      },
-      "address": "963臺東縣太麻里鄉泰和村太麻里街213號",
-      "note": "早餐店",
-      "bayesian_score": 4.4869,
-      "confidence": "❌ 低",
-      "rank": 14,
       "selected": false
     },
     {
@@ -249,9 +233,9 @@
       },
       "address": "963臺東縣太麻里鄉太麻里市場小吃",
       "note": "餐廳",
-      "bayesian_score": 4.4844,
+      "bayesian_score": 4.4835,
       "confidence": "❌ 低",
-      "rank": 15,
+      "rank": 14,
       "selected": false
     },
     {
@@ -265,7 +249,23 @@
       },
       "address": "963臺東縣太麻里鄉大王村民權路85號",
       "note": "早餐店",
-      "bayesian_score": 4.4844,
+      "bayesian_score": 4.4835,
+      "confidence": "❌ 低",
+      "rank": 15,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJey-i7pPObzQRyEDq9VCM_iU",
+      "name_zh": "薪傳小吃店",
+      "rating": 4.5,
+      "total_ratings": 24,
+      "location": {
+        "lat": 22.611339599999997,
+        "lng": 121.0058893
+      },
+      "address": "963臺東縣太麻里鄉泰和村太麻里街213號",
+      "note": "早餐店",
+      "bayesian_score": 4.4764,
       "confidence": "❌ 低",
       "rank": 16,
       "selected": false
@@ -281,9 +281,25 @@
       },
       "address": "963臺東縣太麻里鄉大王村至善路32號",
       "note": "餐廳",
-      "bayesian_score": 4.4775,
+      "bayesian_score": 4.4762,
       "confidence": "❌ 低",
       "rank": 17,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJX098XJTObzQR8d3MZy2y7Iw",
+      "name_zh": "無名麵店（阿婆）豬血湯",
+      "rating": 4.4,
+      "total_ratings": 47,
+      "location": {
+        "lat": 22.6105976,
+        "lng": 121.00568969999999
+      },
+      "address": "963臺東縣太麻里鄉泰和村太麻里街241號",
+      "note": "餐廳",
+      "bayesian_score": 4.4603,
+      "confidence": "❌ 低",
+      "rank": 18,
       "selected": false
     },
     {
@@ -297,57 +313,73 @@
       },
       "address": "963臺東縣太麻里鄉泰和村太麻里街376號",
       "note": "餐廳",
-      "bayesian_score": 4.4604,
+      "bayesian_score": 4.4584,
       "confidence": "❌ 低",
-      "rank": 18,
+      "rank": 19,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJHQug0JPObzQR3rQKrE19Qd4",
+      "name_zh": "橙之堡早餐",
+      "rating": 4.2,
+      "total_ratings": 25,
+      "location": {
+        "lat": 22.6124142,
+        "lng": 121.00632239999999
+      },
+      "address": "963臺東縣太麻里鄉泰和村太麻里街232號號",
+      "note": "餐廳",
+      "bayesian_score": 4.4447,
+      "confidence": "❌ 低",
+      "rank": 20,
       "selected": false
     },
     {
       "place_id": "ChIJfxTkiJHObzQR6m2PRqpbZ4M",
       "name_zh": "魯冰花滷肉飯",
       "rating": 4.4,
-      "total_ratings": 233,
+      "total_ratings": 236,
       "location": {
         "lat": 22.6107462,
         "lng": 121.005385
       },
       "address": "963臺東縣太麻里鄉泰和村太麻里街318號",
       "note": "餐廳",
-      "bayesian_score": 4.4366,
+      "bayesian_score": 4.4348,
       "confidence": "✅ 高",
-      "rank": 19,
+      "rank": 21,
       "selected": false
     },
     {
       "place_id": "ChIJQzC44m7PbzQR0QIV9rlKt8g",
       "name_zh": "山海川烤雞城",
       "rating": 4.4,
-      "total_ratings": 266,
+      "total_ratings": 271,
       "location": {
         "lat": 22.6239688,
         "lng": 121.01226459999998
       },
       "address": "963臺東縣太麻里鄉4號",
       "note": "餐廳",
-      "bayesian_score": 4.4341,
+      "bayesian_score": 4.4322,
       "confidence": "✅ 高",
-      "rank": 20,
+      "rank": 22,
       "selected": false
     },
     {
       "place_id": "ChIJAeiq1pXObzQRshPgang4iZs",
       "name_zh": "士官長牛肉麵",
       "rating": 4.4,
-      "total_ratings": 877,
+      "total_ratings": 882,
       "location": {
         "lat": 22.6154711,
         "lng": 121.00535959999999
       },
       "address": "963臺東縣太麻里鄉大王村太峰路116號",
       "note": "中式麵館",
-      "bayesian_score": 4.4151,
+      "bayesian_score": 4.4142,
       "confidence": "✅ 高",
-      "rank": 21,
+      "rank": 23,
       "selected": false
     },
     {
@@ -361,9 +393,9 @@
       },
       "address": "963臺東縣太麻里鄉泰和村太麻里街283號",
       "note": "餐廳",
-      "bayesian_score": 4.4145,
+      "bayesian_score": 4.4117,
       "confidence": "⚠️ 中",
-      "rank": 22,
+      "rank": 24,
       "selected": false
     },
     {
@@ -377,9 +409,9 @@
       },
       "address": "963臺東縣太麻里鄉台東縣太麻里鄉大王村1鄰沙崙1號之1",
       "note": "餐廳",
-      "bayesian_score": 4.4037,
+      "bayesian_score": 4.4009,
       "confidence": "⚠️ 中",
-      "rank": 23,
+      "rank": 25,
       "selected": false
     },
     {
@@ -393,9 +425,9 @@
       },
       "address": "963臺東縣太麻里鄉泰和村外環路92號",
       "note": "外賣餐廳",
-      "bayesian_score": 4.4,
+      "bayesian_score": 4.3972,
       "confidence": "⚠️ 中",
-      "rank": 24,
+      "rank": 26,
       "selected": false
     },
     {
@@ -409,25 +441,25 @@
       },
       "address": "963台东县太麻里乡1鄰2-10號",
       "note": "餐廳",
-      "bayesian_score": 4.3902,
+      "bayesian_score": 4.3874,
       "confidence": "⚠️ 中",
-      "rank": 25,
+      "rank": 27,
       "selected": false
     },
     {
       "place_id": "ChIJi3xf4InPbzQRWtoErgPWnd0",
       "name_zh": "朵栗台越家常菜",
       "rating": 4.3,
-      "total_ratings": 532,
+      "total_ratings": 533,
       "location": {
         "lat": 22.6155364,
         "lng": 121.0085809
       },
       "address": "963臺東縣太麻里鄉泰和村太麻里街95號",
       "note": "餐廳",
-      "bayesian_score": 4.3514,
+      "bayesian_score": 4.3492,
       "confidence": "✅ 高",
-      "rank": 26,
+      "rank": 28,
       "selected": false
     },
     {
@@ -441,25 +473,25 @@
       },
       "address": "963臺東縣太麻里鄉泰和村太麻里街251號",
       "note": "餐廳",
-      "bayesian_score": 4.3197,
+      "bayesian_score": 4.3159,
       "confidence": "✅ 高",
-      "rank": 27,
+      "rank": 29,
       "selected": false
     },
     {
       "place_id": "ChIJOZNLsJXObzQRVs3uZbVWwCQ",
       "name_zh": "去拿早午餐 Quna brunch",
       "rating": 4.2,
-      "total_ratings": 308,
+      "total_ratings": 309,
       "location": {
         "lat": 22.6149347,
         "lng": 121.00717809999999
       },
       "address": "96342臺東縣太麻里鄉德輝路7號",
       "note": "早餐店",
-      "bayesian_score": 4.3149,
+      "bayesian_score": 4.311,
       "confidence": "✅ 高",
-      "rank": 28,
+      "rank": 30,
       "selected": false
     },
     {
@@ -473,9 +505,9 @@
       },
       "address": "963臺東縣太麻里鄉泰和村太麻里街15號",
       "note": "台式餐廳",
-      "bayesian_score": 4.2954,
+      "bayesian_score": 4.292,
       "confidence": "✅ 高",
-      "rank": 29,
+      "rank": 31,
       "selected": false
     },
     {
@@ -489,9 +521,9 @@
       },
       "address": "963臺東縣太麻里鄉金萱路3 鄰 27 號",
       "note": "餐廳",
-      "bayesian_score": 4.28,
+      "bayesian_score": 4.2737,
       "confidence": "⚠️ 中",
-      "rank": 30,
+      "rank": 32,
       "selected": false
     },
     {
@@ -505,9 +537,9 @@
       },
       "address": "963臺東縣太麻里鄉泰和村太麻里街430號",
       "note": "台式餐廳",
-      "bayesian_score": 4.2612,
+      "bayesian_score": 4.2548,
       "confidence": "⚠️ 中",
-      "rank": 31,
+      "rank": 33,
       "selected": false
     }
   ]

@@ -1,0 +1,24 @@
+{
+  "place_id": "ChIJCW7ypjKuaDQRFa-0P6u9iWY",
+  "name_zh": "物語食堂＆精油工坊",
+  "csv_type": "餐廳大休",
+  "location": {
+    "lat": 23.774957099999998,
+    "lng": 121.45787310000001
+  },
+  "search_keyword": "餐廳",
+  "source": "api_2026-06-02",
+  "rating": 4.8,
+  "total_ratings": 4148,
+  "address": "975花蓮縣鳳林鎮南平里自強路190號",
+  "primary_type": "restaurant",
+  "opening_hours_text": [
+    "Monday: 11:00 AM – 2:00 PM, 5:00 – 8:00 PM",
+    "Tuesday: 11:00 AM – 2:00 PM, 5:00 – 8:00 PM",
+    "Wednesday: Closed",
+    "Thursday: 9:00 AM – 5:00 PM",
+    "Friday: 11:00 AM – 2:00 PM, 5:00 – 8:00 PM",
+    "Saturday: 11:00 AM – 2:00 PM, 5:00 – 8:00 PM",
+    "Sunday: 11:00 AM – 2:00 PM, 5:00 – 8:00 PM"
+  ]
+}

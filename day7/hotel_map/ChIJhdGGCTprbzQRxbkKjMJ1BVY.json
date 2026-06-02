@@ -3,7 +3,7 @@
   "name_zh": "山之間特色民宿｜花蓮玉里民宿｜花蓮縣合法民宿編號2868號",
   "name_lang": "zh-TW",
   "rating": 5,
-  "total_ratings": 134,
+  "total_ratings": 136,
   "location": {
     "lat": 23.3284895,
     "lng": 121.31819929999997
@@ -11,6 +11,6 @@
   "address": "981花蓮縣玉里鎮中城里城東二街2號6號",
   "primary_type": "private_guest_room",
   "distance_km": 0.74,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "name_is_ascii": false
 }

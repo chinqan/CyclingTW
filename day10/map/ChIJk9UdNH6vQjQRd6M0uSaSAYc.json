@@ -1,0 +1,15 @@
+{
+  "place_id": "ChIJk9UdNH6vQjQRd6M0uSaSAYc",
+  "name_zh": "一日三食",
+  "csv_type": "餐廳大休",
+  "location": {
+    "lat": 25.1307072,
+    "lng": 121.4515712
+  },
+  "search_keyword": "餐廳",
+  "source": "along_2026-06-02",
+  "rating": 4.4,
+  "total_ratings": 10,
+  "address": "249008新北市八里區龍源里龍米路一段340號",
+  "primary_type": "snack_bar"
+}

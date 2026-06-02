@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJc3unC4MhZjQRVJgJXPMc0PA",
+  "name_zh": "踏浪星辰豪華露營Camp",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 369,
+  "location": {
+    "lat": 24.0257069,
+    "lng": 121.6318348
+  },
+  "address": "971花蓮縣花蓮市民心里七星街41巷11號",
+  "primary_type": "campground",
+  "distance_km": 0.79,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

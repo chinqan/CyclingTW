@@ -2,14 +2,14 @@
   "day": 10,
   "search_radius_km": 3,
   "pool_size": 17,
-  "bayesian_C": 725.4,
-  "bayesian_m": 4.2536,
+  "bayesian_C": 704.8,
+  "bayesian_m": 4.2672,
   "note": "C=平均留言數(先驗樣本數), m=加權平均評分(先驗期望值)",
   "source_endpoint_place_id": "ChIJ7Ws-1bOoQjQRehrUbGzlo1A",
   "top5_place_ids": [
     "ChIJDXlmoVqpQjQRUqH3LEuUcMo",
-    "ChIJ7T7l99GoQjQR6odvEqtERUU",
     "ChIJnUT3l7-pQjQRyrvaW-Y3HDk",
+    "ChIJ7T7l99GoQjQR6odvEqtERUU",
     "ChIJC08HLdCoQjQRkug4OZlWC7c",
     "ChIJFUco3tGoQjQRCOKkHXAo51w"
   ],
@@ -18,46 +18,46 @@
       "place_id": "ChIJDXlmoVqpQjQRUqH3LEuUcMo",
       "name_zh": "捷絲旅 台北三重館",
       "rating": 4.7,
-      "total_ratings": 2720,
+      "total_ratings": 2736,
       "location": {
         "lat": 25.0772463,
         "lng": 121.4870411
       },
       "address": "24152新北市三重區福隆里三和路四段107-1號",
       "note": "",
-      "bayesian_score": 4.606,
+      "bayesian_score": 4.6113,
       "confidence": "✅ 高",
       "rank": 1,
       "selected": true
     },
     {
-      "place_id": "ChIJ7T7l99GoQjQR6odvEqtERUU",
-      "name_zh": "台北集賢商旅",
-      "rating": 4.5,
-      "total_ratings": 1278,
-      "location": {
-        "lat": 25.083174,
-        "lng": 121.48058769999999
-      },
-      "address": "247新北市蘆洲區恆德里集賢路372號",
-      "note": "",
-      "bayesian_score": 4.4108,
-      "confidence": "✅ 高",
-      "rank": 2,
-      "selected": true
-    },
-    {
       "place_id": "ChIJnUT3l7-pQjQRyrvaW-Y3HDk",
       "name_zh": "丰居旅店 微風館",
-      "rating": 4.5,
-      "total_ratings": 1242,
+      "rating": 4.8,
+      "total_ratings": 853,
       "location": {
         "lat": 25.0773284,
         "lng": 121.4851339
       },
       "address": "241新北市三重區永盛里三和路四段282號丰居旅店微風館",
       "note": "",
-      "bayesian_score": 4.4092,
+      "bayesian_score": 4.5589,
+      "confidence": "✅ 高",
+      "rank": 2,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJ7T7l99GoQjQR6odvEqtERUU",
+      "name_zh": "台北集賢商旅",
+      "rating": 4.5,
+      "total_ratings": 1279,
+      "location": {
+        "lat": 25.083174,
+        "lng": 121.48058769999999
+      },
+      "address": "247新北市蘆洲區恆德里集賢路372號",
+      "note": "",
+      "bayesian_score": 4.4173,
       "confidence": "✅ 高",
       "rank": 3,
       "selected": true
@@ -66,14 +66,14 @@
       "place_id": "ChIJC08HLdCoQjQRkug4OZlWC7c",
       "name_zh": "Two Tails Hotel 蘆洲",
       "rating": 4.4,
-      "total_ratings": 2229,
+      "total_ratings": 2239,
       "location": {
         "lat": 25.0805082,
         "lng": 121.48036900000001
       },
       "address": "247019新北市蘆洲區恆德里中山一路8號6樓",
       "note": "",
-      "bayesian_score": 4.3641,
+      "bayesian_score": 4.3682,
       "confidence": "✅ 高",
       "rank": 4,
       "selected": true
@@ -82,14 +82,14 @@
       "place_id": "ChIJFUco3tGoQjQRCOKkHXAo51w",
       "name_zh": "樂頤飯店 La Clé Hotel Taipei",
       "rating": 4.4,
-      "total_ratings": 821,
+      "total_ratings": 822,
       "location": {
         "lat": 25.082083899999997,
         "lng": 121.4799862
       },
       "address": "247新北市蘆洲區恆德里集賢路402號3樓",
       "note": "",
-      "bayesian_score": 4.3313,
+      "bayesian_score": 4.3387,
       "confidence": "✅ 高",
       "rank": 5,
       "selected": true
@@ -105,7 +105,7 @@
       },
       "address": "247新北市蘆洲區玉清里重陽街88號",
       "note": "",
-      "bayesian_score": 4.2697,
+      "bayesian_score": 4.2833,
       "confidence": "❌ 低",
       "rank": 6,
       "selected": false
@@ -114,14 +114,14 @@
       "place_id": "ChIJ-6yoGQCpQjQRbOu7Ti8WHqw",
       "name_zh": "新城九八精緻旅館 New City Motel",
       "rating": 4.4,
-      "total_ratings": 80,
+      "total_ratings": 81,
       "location": {
         "lat": 25.0909808,
         "lng": 121.44583670000002
       },
       "address": "248新北市五股區成功里新城六路135號",
       "note": "",
-      "bayesian_score": 4.2681,
+      "bayesian_score": 4.2809,
       "confidence": "❌ 低",
       "rank": 7,
       "selected": false
@@ -137,7 +137,7 @@
       },
       "address": "241新北市三重區福樂里三和路四段137號",
       "note": "",
-      "bayesian_score": 4.2539,
+      "bayesian_score": 4.2674,
       "confidence": "❌ 低",
       "rank": 8,
       "selected": false
@@ -153,7 +153,7 @@
       },
       "address": "241新北市三重區仁華里三和路四段237號",
       "note": "",
-      "bayesian_score": 4.2532,
+      "bayesian_score": 4.2666,
       "confidence": "❌ 低",
       "rank": 9,
       "selected": false
@@ -162,14 +162,14 @@
       "place_id": "ChIJexYRhNGoQjQRUFI9OqTjxzA",
       "name_zh": "薇薇精品旅館",
       "rating": 4.1,
-      "total_ratings": 671,
+      "total_ratings": 673,
       "location": {
         "lat": 25.082414200000002,
         "lng": 121.48234749999999
       },
       "address": "247新北市蘆洲區恆德里永安北路二段42之1號",
       "note": "",
-      "bayesian_score": 4.1798,
+      "bayesian_score": 4.1855,
       "confidence": "⚠️ 中",
       "rank": 10,
       "selected": false
@@ -178,14 +178,14 @@
       "place_id": "ChIJ9xAdqgqpQjQRQ-07BJYvl1c",
       "name_zh": "雀客旅館 - 新北蘆洲",
       "rating": 4.1,
-      "total_ratings": 837,
+      "total_ratings": 840,
       "location": {
         "lat": 25.081066099999997,
         "lng": 121.48000210000001
       },
       "address": "247新北市蘆洲區恆德里集賢路409號",
       "note": "",
-      "bayesian_score": 4.1713,
+      "bayesian_score": 4.1763,
       "confidence": "✅ 高",
       "rank": 11,
       "selected": false
@@ -201,7 +201,7 @@
       },
       "address": "247新北市蘆洲區永安里九芎街95號",
       "note": "",
-      "bayesian_score": 4.1115,
+      "bayesian_score": 4.1195,
       "confidence": "❌ 低",
       "rank": 12,
       "selected": false
@@ -210,14 +210,14 @@
       "place_id": "ChIJRUPMlOqoQjQR6URrxkhMbSg",
       "name_zh": "新加坡汽車旅館motel",
       "rating": 3.7,
-      "total_ratings": 274,
+      "total_ratings": 275,
       "location": {
         "lat": 25.0685786,
         "lng": 121.47015719999999
       },
       "address": "241新北市三重區二重里中正北路560巷95號",
       "note": "",
-      "bayesian_score": 4.1018,
+      "bayesian_score": 4.108,
       "confidence": "❌ 低",
       "rank": 13,
       "selected": false
@@ -226,14 +226,14 @@
       "place_id": "ChIJlW52tLaoQjQReeUkCBdGV4Q",
       "name_zh": "香奈爾汽車旅館-蘆洲館",
       "rating": 3.8,
-      "total_ratings": 570,
+      "total_ratings": 572,
       "location": {
         "lat": 25.0863889,
         "lng": 121.46305559999998
       },
       "address": "247新北市蘆洲區正義里長樂路56號",
       "note": "",
-      "bayesian_score": 4.054,
+      "bayesian_score": 4.0579,
       "confidence": "⚠️ 中",
       "rank": 14,
       "selected": false
@@ -249,7 +249,7 @@
       },
       "address": "241新北市三重區永發里後竹圍街289-1號",
       "note": "",
-      "bayesian_score": 3.9663,
+      "bayesian_score": 3.9697,
       "confidence": "⚠️ 中",
       "rank": 15,
       "selected": false
@@ -258,14 +258,14 @@
       "place_id": "ChIJq4jn77SoQjQRF6f_SUsU-0U",
       "name_zh": "紫虹汽車旅館",
       "rating": 3,
-      "total_ratings": 442,
+      "total_ratings": 444,
       "location": {
         "lat": 25.090232699999998,
         "lng": 121.46476109999999
       },
       "address": "247新北市蘆洲區正義里中正路367號",
       "note": "",
-      "bayesian_score": 3.7789,
+      "bayesian_score": 3.7774,
       "confidence": "⚠️ 中",
       "rank": 16,
       "selected": false
@@ -274,14 +274,14 @@
       "place_id": "ChIJBc4F8NGoQjQR9T-ajUSi8yw",
       "name_zh": "嘉年華汽車旅館",
       "rating": 3.2,
-      "total_ratings": 640,
+      "total_ratings": 641,
       "location": {
         "lat": 25.0825621,
         "lng": 121.4806727
       },
       "address": "247新北市蘆洲區恆德里集賢路385號",
       "note": "",
-      "bayesian_score": 3.7597,
+      "bayesian_score": 3.7589,
       "confidence": "⚠️ 中",
       "rank": 17,
       "selected": false

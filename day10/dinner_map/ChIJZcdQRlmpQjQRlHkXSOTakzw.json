@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJZcdQRlmpQjQRlHkXSOTakzw",
+  "name_zh": "望月 中華料理",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 572,
+  "location": {
+    "lat": 25.088938499999998,
+    "lng": 121.46746220000001
+  },
+  "address": "247新北市蘆洲區保佑里民族路558號一樓",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.49,
+  "source": "api_2026-06-02",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

@@ -3,7 +3,7 @@
   "name_zh": "皇后鎮森林金山",
   "name_lang": "zh-TW",
   "rating": 4.1,
-  "total_ratings": 2097,
+  "total_ratings": 2099,
   "location": {
     "lat": 25.2098205,
     "lng": 121.6431466
@@ -11,6 +11,6 @@
   "address": "207新北市萬里區大鵬里大鵬街111號",
   "primary_type": "campground",
   "distance_km": 1.42,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "name_is_ascii": false
 }

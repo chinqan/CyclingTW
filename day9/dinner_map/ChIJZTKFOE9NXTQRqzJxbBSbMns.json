@@ -3,7 +3,7 @@
   "name_zh": "金食在港口小吃",
   "name_lang": "zh-TW",
   "rating": 4.4,
-  "total_ratings": 305,
+  "total_ratings": 306,
   "location": {
     "lat": 25.221392599999998,
     "lng": 121.63095820000001
@@ -12,7 +12,7 @@
   "primary_type": "seafood_restaurant",
   "primary_type_label": "海鮮餐廳",
   "distance_km": 0.74,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "海鮮餐廳",
   "name_is_ascii": false
 }

@@ -2,18 +2,18 @@
   "day": 8,
   "origin_label": "玉里",
   "destination_label": "花蓮（→蘇澳接駁）",
-  "distance_range": "約 115.4 公里",
+  "distance_range": "約 99.8 公里",
   "subtitle": "花東縱谷北行接駁日",
   "orientation": "horizontal_landscape_3_2",
   "lighting": "上午柔和光線透過樹蔭、糖廠園區懷舊暖調",
-  "allowed_elements": "花蓮車站現代化站體、花蓮市街景、七星潭弧形礫石海岸、花蓮觀光糖廠日式建築、舞鶴北回歸線標誌公園、玉富自行車道河岸綠蔭、海岸山脈與太平洋",
-  "enhancement": "畫面呈現花東縱谷北行抵達花蓮後準備接駁的旅程轉換感、花蓮車站作為東部幹線重要樞紐象徵行程節點、整體散發縱谷騎行結束、城市接駁新段落開始的轉換氛圍",
+  "allowed_elements": "月牙灣礫石海灘、太平洋湛藍海水、遠方清水斷崖與奇萊山稜、堆疊鵝卵石、海岸自行車道、單車",
+  "enhancement": "強調七星潭月牙灣的弧形礫石海灘與太平洋的湛藍、清水斷崖背景的壯闊、東海岸通透的天光",
   "main_visual": {
-    "place_id": "ChIJK6-HgbafaDQR99QetgTFgwU",
-    "location_desc": "花蓮縣「花蓮車站」",
-    "scene_elements": "花蓮車站原住民風格現代站體、站前廣場噴水池、背後太魯閣山脈、遠方太平洋水平線、下午柔和金光照射站前",
-    "action": "牽著公路車走進花蓮車站大廳、回頭望向縱谷方向、整理行李準備托運接駁",
-    "expression": "從容、有點不捨縱谷的依依不捨、期待蘇花接駁段的心情轉換"
+    "place_id": "ChIJpTcgYOidaDQRVHUO3ILkXJs",
+    "location_desc": "花蓮縣新城「七星潭海岸風景特定區」",
+    "scene_elements": "七星潭月牙灣弧形礫石海灘、太平洋湛藍海浪拍岸、遠方清水斷崖與奇萊山稜、岸邊堆疊的鵝卵石、晴朗藍天",
+    "action": "在七星潭礫石灘上單腳踩地、舉手迎向太平洋歡呼",
+    "expression": "完成花東縱谷縱走、面向太平洋的暢快與感動"
   },
   "small_avatar": {
     "place_id": "ChIJ677P5HxqbzQR590ArDS8N5E",
@@ -22,7 +22,7 @@
     "action": "跨上公路車朝北方出發",
     "expression": "平靜、從容、享受花東的慢步調"
   },
-  "composition": "主角在畫面中央偏上、玉里車站在右上方小分身、花蓮車站在畫面右側遠景、沿途點綴玉富自行車道、舞鶴北回歸線標誌公園、花蓮觀光糖廠、七星潭",
-  "geographic_notes": "玉里車站在畫面左側（西側）、花蓮車站在畫面右側（東側）",
-  "_last_place_id": "ChIJK6-HgbafaDQR99QetgTFgwU"
+  "composition": "主角在畫面中央偏上、玉里車站在右上方小分身、七星潭海岸風景特定區在畫面右側遠景、沿途點綴玉富自行車道、北回歸線標誌公園、花蓮觀光糖廠、花蓮雲山水夢幻湖",
+  "geographic_notes": "玉里車站在畫面左側（西側）、七星潭海岸風景特定區在畫面右側（東側）",
+  "_last_place_id": "ChIJpTcgYOidaDQRVHUO3ILkXJs"
 }

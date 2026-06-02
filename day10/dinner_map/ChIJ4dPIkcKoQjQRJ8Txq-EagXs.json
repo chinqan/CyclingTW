@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ4dPIkcKoQjQRJ8Txq-EagXs",
+  "name_zh": "順路來小吃",
+  "name_lang": "zh-TW",
+  "rating": 3.3,
+  "total_ratings": 64,
+  "location": {
+    "lat": 25.068806,
+    "lng": 121.47782110000001
+  },
+  "address": "241新北市三重區福田里三民街300巷4號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 2.65,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

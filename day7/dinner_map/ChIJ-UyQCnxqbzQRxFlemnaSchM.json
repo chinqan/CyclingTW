@@ -2,8 +2,8 @@
   "place_id": "ChIJ-UyQCnxqbzQRxFlemnaSchM",
   "name_zh": "無刺虱目魚滷肉飯",
   "name_lang": "zh-TW",
-  "rating": 3.3,
-  "total_ratings": 29,
+  "rating": 3.4,
+  "total_ratings": 30,
   "location": {
     "lat": 23.3333376,
     "lng": 121.31410109999999
@@ -12,7 +12,7 @@
   "primary_type": "taiwanese_restaurant",
   "primary_type_label": "台式餐廳",
   "distance_km": 0.32,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "台式餐廳",
   "name_is_ascii": false
 }

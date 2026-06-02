@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJJz3j-XohZjQRyqzPDJal8B0",
+  "name_zh": "安口食堂 星潭店",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 757,
+  "location": {
+    "lat": 24.0270872,
+    "lng": 121.629334
+  },
+  "address": "97143花蓮縣新城鄉大漢村七星街150巷1號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.53,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

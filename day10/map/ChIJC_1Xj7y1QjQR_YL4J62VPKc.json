@@ -3,12 +3,12 @@
   "name_zh": "石門洞",
   "csv_type": "景點",
   "rating": 4.3,
-  "total_ratings": 12216,
+  "total_ratings": 12223,
   "location": {
     "lat": 25.295895899999998,
     "lng": 121.5683103
   },
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "天然海蝕拱門 台2線旁",
   "opening_hours_text": [
     "Monday: Open 24 hours",

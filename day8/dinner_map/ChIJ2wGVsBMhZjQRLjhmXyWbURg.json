@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ2wGVsBMhZjQRLjhmXyWbURg",
+  "name_zh": "漁人立食",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 28,
+  "location": {
+    "lat": 24.027142599999998,
+    "lng": 121.6294197
+  },
+  "address": "971花蓮縣新城鄉大漢村七星街148號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.53,
+  "source": "api_2026-06-02",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

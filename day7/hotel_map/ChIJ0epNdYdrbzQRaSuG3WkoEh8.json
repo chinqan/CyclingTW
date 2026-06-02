@@ -3,7 +3,7 @@
   "name_zh": "客亭商旅",
   "name_lang": "zh-TW",
   "rating": 4,
-  "total_ratings": 942,
+  "total_ratings": 943,
   "location": {
     "lat": 23.333176500000004,
     "lng": 121.31385379999999
@@ -11,6 +11,6 @@
   "address": "981花蓮縣玉里鎮中城里樂園街7號",
   "primary_type": "hotel",
   "distance_km": 0.29,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "name_is_ascii": false
 }

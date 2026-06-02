@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJm2C1Nn9qbzQRPz6inCrUDC8",
+  "name_zh": "玉里東方之珠旅宿",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 87,
+  "location": {
+    "lat": 23.3383145,
+    "lng": 121.31368309999999
+  },
+  "address": "981花蓮縣玉里鎮泰昌里新興街46號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.78,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

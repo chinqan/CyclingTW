@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJA7FbDvydaDQRxpocfq_J7rQ",
+  "name_zh": "自然海民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 181,
+  "location": {
+    "lat": 24.041652,
+    "lng": 121.6219806
+  },
+  "address": "971花蓮縣新城鄉大漢村漁場街二號",
+  "primary_type": "private_guest_room",
+  "distance_km": 1.25,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJg2fnCNtBbzQRH2dViCjsK40",
+  "name_zh": "「金喜檸檬」玉里必喝海鹽檸檬飲、（無販售烤肉、香腸了）有在地特色伴手禮(營業時間請電洽）",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 154,
+  "location": {
+    "lat": 23.3417913,
+    "lng": 121.314849
+  },
+  "address": "981花蓮縣玉里鎮永昌里自強三街17號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 1.19,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,24 @@
+{
+  "place_id": "ChIJk8xBKTwTaTQRCoOBUoZe3Lo",
+  "name_zh": "高美濕地遊客中心",
+  "csv_type": "景點",
+  "location": {
+    "lat": 24.305293499999998,
+    "lng": 120.54760940000001
+  },
+  "search_keyword": "景點",
+  "source": "api_2026-06-02",
+  "rating": 4.2,
+  "total_ratings": 4080,
+  "address": "43645臺中市清水區高南里美堤街8號",
+  "primary_type": "tourist_information_center",
+  "opening_hours_text": [
+    "Monday: 9:00 AM – 6:00 PM",
+    "Tuesday: 9:00 AM – 6:00 PM",
+    "Wednesday: 9:00 AM – 6:00 PM",
+    "Thursday: 9:00 AM – 6:00 PM",
+    "Friday: 9:00 AM – 6:00 PM",
+    "Saturday: 9:00 AM – 6:00 PM",
+    "Sunday: 9:00 AM – 6:00 PM"
+  ]
+}

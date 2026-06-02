@@ -2,27 +2,27 @@
   "day": 5,
   "origin_label": "屏東東港",
   "destination_label": "墾丁",
-  "distance_range": "約 82.2 公里",
+  "distance_range": "約 78.5 公里",
   "subtitle": "屏鵝南境國境之南",
   "orientation": "horizontal_landscape_3_2",
   "lighting": "南國正午強烈陽光、碧海藍天熱帶色調",
-  "allowed_elements": "",
-  "enhancement": "",
+  "allowed_elements": "墾丁大尖石山、南國椰林與棕櫚、碧藍南灣海灘、墾丁大街入口意象、跨海大橋、單車",
+  "enhancement": "強調國境之南的熱帶艷陽與碧海藍天、大尖石山的標誌輪廓、南國度假氛圍的飽和色彩",
   "main_visual": {
     "place_id": "ChIJG7fKhoWxcTQR6CrWL3xdESQ",
     "location_desc": "屏東縣恆春「墾丁大街」",
-    "scene_elements": "",
-    "action": "",
-    "expression": ""
+    "scene_elements": "墾丁大街熱鬧入口街景與招牌、背景矗立標誌性的大尖石山、兩側南國椰林與棕櫚、遠方碧藍南灣海灘、熱帶艷陽藍天",
+    "action": "騎抵墾丁大街、單腳踩地高舉手臂歡呼、慶祝抵達國境之南",
+    "expression": "抵達國境之南的興奮與暢快、燦爛的勝利笑容"
   },
   "small_avatar": {
     "place_id": "ChIJKzw4apvhcTQRbxsV8Dmentk",
     "location_desc": "屏東縣東港「東港東隆宮」",
-    "scenario": "",
-    "action": "",
-    "expression": ""
+    "scenario": "清晨於東港東隆宮金色牌樓前整裝、單車掛補給袋與水壺",
+    "action": "牽著公路車回頭揮手、準備往恆春半島南下",
+    "expression": "迎向墾丁的雀躍與好心情"
   },
-  "composition": "主角在畫面中央偏上、東港東隆宮在右上方小分身、墾丁大街在畫面右側遠景、沿途點綴鵬灣跨海大橋、車城福安宮、鹿境梅花鹿生態園區、恆春縣城北門",
+  "composition": "主角在畫面中央偏上、東港東隆宮在右上方小分身、墾丁大街在畫面右側遠景、沿途點綴鵬灣跨海大橋、海大山小、車城福安宮、恆春縣城北門",
   "geographic_notes": "東港東隆宮在畫面左側（西側）、墾丁大街在畫面右側（東側）",
   "_last_place_id": "ChIJG7fKhoWxcTQR6CrWL3xdESQ"
 }

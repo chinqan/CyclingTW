@@ -7,9 +7,18 @@
     "lng": 120.9570614
   },
   "search_keyword": "餐廳",
-  "source": "along_2026-06-02",
+  "source": "api_2026-06-02",
   "rating": 5,
   "total_ratings": 1144,
   "address": "302新竹縣竹北市尚義里尚義街828號",
-  "primary_type": "restaurant"
+  "primary_type": "restaurant",
+  "opening_hours_text": [
+    "Monday: 12:00 – 9:00 PM",
+    "Tuesday: 12:00 – 9:00 PM",
+    "Wednesday: 12:00 – 9:00 PM",
+    "Thursday: 12:00 – 9:00 PM",
+    "Friday: 12:00 – 9:00 PM",
+    "Saturday: 12:00 – 9:00 PM",
+    "Sunday: 12:00 – 9:00 PM"
+  ]
 }

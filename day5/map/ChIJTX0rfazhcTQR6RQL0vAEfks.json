@@ -11,5 +11,14 @@
   "rating": 4.3,
   "total_ratings": 4230,
   "address": "928屏東縣東港鎮鵬灣跨海大橋",
-  "primary_type": "bridge"
+  "primary_type": "bridge",
+  "opening_hours_text": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ]
 }

@@ -1,0 +1,15 @@
+{
+  "place_id": "ChIJ8X2kXqAPbjQRd-ZJprdx3_0",
+  "name_zh": "tuku bistro",
+  "csv_type": "餐廳大休",
+  "location": {
+    "lat": 22.7364782,
+    "lng": 120.32954939999999
+  },
+  "search_keyword": "餐廳",
+  "source": "along_2026-06-02",
+  "rating": 5,
+  "total_ratings": 1233,
+  "address": "811高雄市楠梓區清豐里土庫一路168號",
+  "primary_type": "pub"
+}

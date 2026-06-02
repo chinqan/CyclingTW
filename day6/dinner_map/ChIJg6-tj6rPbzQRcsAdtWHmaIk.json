@@ -3,7 +3,7 @@
   "name_zh": "小魚妹早午餐~每星期一都放假去",
   "name_lang": "zh-TW",
   "rating": 4.7,
-  "total_ratings": 130,
+  "total_ratings": 132,
   "location": {
     "lat": 22.609655999999998,
     "lng": 121.00403030000001
@@ -12,7 +12,7 @@
   "primary_type": "brunch_restaurant",
   "primary_type_label": "早午餐餐廳",
   "distance_km": 1.02,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "早午餐餐廳",
   "name_is_ascii": false
 }

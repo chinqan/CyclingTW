@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJX098XJTObzQR8d3MZy2y7Iw",
+  "name_zh": "無名麵店（阿婆）豬血湯",
+  "name_lang": "zh-TW",
+  "rating": 4.4,
+  "total_ratings": 47,
+  "location": {
+    "lat": 22.6105976,
+    "lng": 121.00568969999999
+  },
+  "address": "963臺東縣太麻里鄉泰和村太麻里街241號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.91,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

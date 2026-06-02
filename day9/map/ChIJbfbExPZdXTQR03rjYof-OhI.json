@@ -1,0 +1,24 @@
+{
+  "place_id": "ChIJbfbExPZdXTQR03rjYof-OhI",
+  "name_zh": "卯起來吃（卯澳店）採現場候位",
+  "csv_type": "餐廳大休",
+  "location": {
+    "lat": 25.012061,
+    "lng": 121.9897917
+  },
+  "search_keyword": "餐廳",
+  "source": "api_2026-06-02",
+  "rating": 4.9,
+  "total_ratings": 695,
+  "address": "228新北市貢寮區福連里福興街2號",
+  "primary_type": "seafood_restaurant",
+  "opening_hours_text": [
+    "Monday: 10:00 AM – 6:00 PM",
+    "Tuesday: Closed",
+    "Wednesday: 10:00 AM – 6:00 PM",
+    "Thursday: 10:00 AM – 6:00 PM",
+    "Friday: 10:00 AM – 6:00 PM",
+    "Saturday: 10:00 AM – 6:30 PM",
+    "Sunday: 10:00 AM – 6:30 PM"
+  ]
+}

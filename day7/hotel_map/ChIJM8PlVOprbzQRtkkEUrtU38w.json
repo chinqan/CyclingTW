@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJM8PlVOprbzQRtkkEUrtU38w",
+  "name_zh": "飄流葉民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 84,
+  "location": {
+    "lat": 23.329340800000004,
+    "lng": 121.32056229999999
+  },
+  "address": "981花蓮縣玉里鎮中城里興國路一段161號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.93,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

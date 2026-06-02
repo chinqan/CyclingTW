@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJzyOPklafaDQRMlNmfhYg5Vg",
+  "name_zh": "聚一夏民宿",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 199,
+  "location": {
+    "lat": 24.0191567,
+    "lng": 121.60689789999999
+  },
+  "address": "971花蓮縣新城鄉嘉里村嘉里三路61號",
+  "primary_type": "private_guest_room",
+  "distance_km": 2.47,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

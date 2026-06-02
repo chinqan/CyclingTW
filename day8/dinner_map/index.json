@@ -89,7 +89,7 @@
       "note": "居酒屋",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJqwnDa8GfaDQRfIX9htixZBc",
@@ -284,7 +284,7 @@
       "note": "日式餐廳",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJa_XXsgWfaDQRyyqOmAPlj8c",
@@ -359,7 +359,7 @@
       "note": "餐廳",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJw87z53WfaDQRB494Xktk3NU",
@@ -374,7 +374,7 @@
       "note": "泰國餐廳",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJFVja_IyfaDQR-hvTdYlI2Bo",
@@ -479,7 +479,7 @@
       "note": "壽司店",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJy4XSbwmfaDQRX0NqS2t39xE",
@@ -1153,6 +1153,456 @@
       "address": "970花蓮縣花蓮市民族里中山路94號",
       "note": "日式餐廳",
       "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJB4TEnqkgZjQR-XrSikVh13M",
+      "name_zh": "慕名私房料理",
+      "rating": 4.3,
+      "total_ratings": 2507,
+      "location": {
+        "lat": 24.027668,
+        "lng": 121.630672
+      },
+      "address": "971花蓮縣新城鄉大漢村明潭街10巷23號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJWS6K7CWeaDQRVbzrqXV8b24",
+      "name_zh": "劉姥姥麵店",
+      "rating": 4.7,
+      "total_ratings": 195,
+      "location": {
+        "lat": 24.005651399999998,
+        "lng": 121.62127910000001
+      },
+      "address": "970花蓮縣花蓮市民享里華廈街61之1號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ86_Bbp6faDQRbG7bdlFSQVQ",
+      "name_zh": "木樂日式炸豬排",
+      "rating": 4.3,
+      "total_ratings": 1211,
+      "location": {
+        "lat": 24.0057059,
+        "lng": 121.6316583
+      },
+      "address": "970花蓮縣花蓮市民孝里東興路433-1號",
+      "note": "日式炸豬排餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJJz3j-XohZjQRyqzPDJal8B0",
+      "name_zh": "安口食堂 星潭店",
+      "rating": 4.8,
+      "total_ratings": 757,
+      "location": {
+        "lat": 24.0270872,
+        "lng": 121.629334
+      },
+      "address": "97143花蓮縣新城鄉大漢村七星街150巷1號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJqRLGUIudaDQRXW1IO2M4RMY",
+      "name_zh": "大漢街早餐(本店)",
+      "rating": 4.4,
+      "total_ratings": 262,
+      "location": {
+        "lat": 24.0426254,
+        "lng": 121.60594630000001
+      },
+      "address": "971花蓮縣新城鄉大漢村大漢街54號",
+      "note": "早餐店",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJcRj-taggZjQR1QDmzyWGtWg",
+      "name_zh": "Bar Shepherd - 牧羊人",
+      "rating": 4.5,
+      "total_ratings": 522,
+      "location": {
+        "lat": 24.024253599999998,
+        "lng": 121.6338631
+      },
+      "address": "971花蓮縣花蓮市民心里七星街9號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJPS_NyoSfaDQRilyM-ATao_g",
+      "name_zh": "Wooli韓式料理店",
+      "rating": 4.8,
+      "total_ratings": 196,
+      "location": {
+        "lat": 24.0314277,
+        "lng": 121.60464660000001
+      },
+      "address": "971花蓮縣新城鄉北埔村北埔路151號",
+      "note": "韓國餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJHWYJ8KggZjQRB-fmJv6gr9M",
+      "name_zh": "七海灣海景餐廳",
+      "rating": 3.6,
+      "total_ratings": 864,
+      "location": {
+        "lat": 24.0273137,
+        "lng": 121.62907070000001
+      },
+      "address": "971花蓮縣新城鄉大漢村七星街152號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJfa2MUYafaDQRh8pOF7s3n7s",
+      "name_zh": "武家乾麵",
+      "rating": 4.7,
+      "total_ratings": 196,
+      "location": {
+        "lat": 24.037786999999998,
+        "lng": 121.6031195
+      },
+      "address": "971花蓮縣新城鄉新秀村光復路499-29號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ089BSYkhZjQRrE8w9ADayZ8",
+      "name_zh": "海・燒肉｜預約制精緻燒肉",
+      "rating": 4.8,
+      "total_ratings": 162,
+      "location": {
+        "lat": 24.0266958,
+        "lng": 121.63132410000001
+      },
+      "address": "971花莲县新城乡新城鄉七星街53巷3號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ97ii3tGfaDQR-3JTiL1fh0U",
+      "name_zh": "穀司鐵板燒(無預約服務、休息日請參考粉絲專頁、用餐人數限定6人以下、用餐人到齊才一起進來用餐)",
+      "rating": 4.5,
+      "total_ratings": 263,
+      "location": {
+        "lat": 24.029005599999998,
+        "lng": 121.6058748
+      },
+      "address": "971花蓮縣新城鄉北埔村北埔路110號1樓",
+      "note": "日式餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJsa7O0yWeaDQRIzcgLhWc_dk",
+      "name_zh": "美崙牛雜湯(泰國小吃)",
+      "rating": 4.6,
+      "total_ratings": 220,
+      "location": {
+        "lat": 24.0069685,
+        "lng": 121.622107
+      },
+      "address": "970花蓮縣花蓮市民享里球崙一路299-295號",
+      "note": "泰國餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJp4tshkefaDQRJQJ8_Fva8CY",
+      "name_zh": "東岸海鮮餐廳",
+      "rating": 4.7,
+      "total_ratings": 108,
+      "location": {
+        "lat": 24.036735999999998,
+        "lng": 121.6067105
+      },
+      "address": "971花蓮縣新城鄉北埔村大漢村民有街136號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ16odd5yfaDQRw1Gc86yN884",
+      "name_zh": "町屋丼飯 北埔店-花蓮美食-餐廳-咖哩-Restaurants",
+      "rating": 4.7,
+      "total_ratings": 275,
+      "location": {
+        "lat": 24.035163999999998,
+        "lng": 121.603459
+      },
+      "address": "971花蓮縣新城鄉北埔村北埔路270號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJGY5m37ifaDQRY8BWLS0J2_w",
+      "name_zh": "莎莉好食Sarlee's（營業日請參考IG、臉書粉專）",
+      "rating": 4.5,
+      "total_ratings": 823,
+      "location": {
+        "lat": 24.0266757,
+        "lng": 121.63064439999998
+      },
+      "address": "971花蓮縣新城鄉大漢村七星街106號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJTzb8isUhZjQRzDZsC6vIYl4",
+      "name_zh": "暗潮燒烤",
+      "rating": 4.9,
+      "total_ratings": 210,
+      "location": {
+        "lat": 24.026862299999998,
+        "lng": 121.6304038
+      },
+      "address": "971花蓮縣新城鄉明潭街6號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJL_tia3OeaDQRxUqZRQeTFKo",
+      "name_zh": "林嘉香扁食紅油炒手",
+      "rating": 4.2,
+      "total_ratings": 449,
+      "location": {
+        "lat": 24.034061899999998,
+        "lng": 121.60371549999999
+      },
+      "address": "971花蓮縣新城鄉北埔村北埔路249號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJZe4DV7ifaDQRJQ3kiJ3pLNs",
+      "name_zh": "食巷茶弄複合式餐館",
+      "rating": 4.4,
+      "total_ratings": 152,
+      "location": {
+        "lat": 24.0323238,
+        "lng": 121.6027221
+      },
+      "address": "971花蓮縣新城鄉北埔村復興路259號",
+      "note": "台式餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJLfYATaggZjQRzs_J_HUK_i8",
+      "name_zh": "七星客棧",
+      "rating": 4.4,
+      "total_ratings": 353,
+      "location": {
+        "lat": 24.026342000000003,
+        "lng": 121.63034400000001
+      },
+      "address": "971花蓮縣新城鄉大漢村七星街79巷5號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ2wGVsBMhZjQRLjhmXyWbURg",
+      "name_zh": "漁人立食",
+      "rating": 4.5,
+      "total_ratings": 28,
+      "location": {
+        "lat": 24.027142599999998,
+        "lng": 121.6294197
+      },
+      "address": "971花蓮縣新城鄉大漢村七星街148號",
+      "note": "中式餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJEbdTDHufaDQRKKm-AJ_jb5w",
+      "name_zh": "川壽司 花蓮 新城 家樂福附近 日式 生魚片 居酒屋 燒烤 炸物 烏龍麵",
+      "rating": 4.7,
+      "total_ratings": 333,
+      "location": {
+        "lat": 24.015828,
+        "lng": 121.6074705
+      },
+      "address": "971花蓮縣新城鄉嘉里村嘉里三街23之6號",
+      "note": "日式餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJN1w3HqkgZjQRl1sPy4WrqhE",
+      "name_zh": "包鮮樓海鮮餐廳/restaurants/七星潭美食/花蓮美食/推薦晚餐/附近美食/吃的",
+      "rating": 3.9,
+      "total_ratings": 395,
+      "location": {
+        "lat": 24.0266295,
+        "lng": 121.63176799999998
+      },
+      "address": "971花蓮縣新城鄉大漢村七星街45之1號45之1號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJKRYAHumfaDQRHdDhr4ejTZQ",
+      "name_zh": "日向夏食賦",
+      "rating": 4.8,
+      "total_ratings": 79,
+      "location": {
+        "lat": 24.0053287,
+        "lng": 121.62061360000001
+      },
+      "address": "970花蓮縣花蓮市民享里華廈街40號",
+      "note": "亞洲風味餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJmXj0F3OeaDQRdYiofgCerYM",
+      "name_zh": "米粉焿.炒米粉.炒麵.米糕.紅茶.綠豆湯",
+      "rating": 4.4,
+      "total_ratings": 22,
+      "location": {
+        "lat": 24.03324,
+        "lng": 121.6039867
+      },
+      "address": "971花蓮縣新城鄉北埔村北埔路207號號",
+      "note": "中式餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJBalCvJ-faDQRW642VK_mVjY",
+      "name_zh": "新城-站前小吃舖",
+      "rating": 5,
+      "total_ratings": 13,
+      "location": {
+        "lat": 24.0325174,
+        "lng": 121.6036333
+      },
+      "address": "971花蓮縣新城鄉北埔村民族路39號",
+      "note": "中式餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJM5o_2XKeaDQR3cKqs_v9riw",
+      "name_zh": "古早味小吃",
+      "rating": 4.4,
+      "total_ratings": 146,
+      "location": {
+        "lat": 24.032035999999998,
+        "lng": 121.6045037
+      },
+      "address": "971花蓮縣新城鄉北埔村北埔路169號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJmXsuIbyfaDQRS62Ldr0OEGw",
+      "name_zh": "客家小吃（原北埔路）",
+      "rating": 4.9,
+      "total_ratings": 20,
+      "location": {
+        "lat": 24.0343373,
+        "lng": 121.60255769999999
+      },
+      "address": "971花蓮縣新城鄉北埔村復興路326號",
+      "note": "中式餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ_7sLI3OeaDQRlTz9mXng5Z8",
+      "name_zh": "許家炒飯",
+      "rating": 3.7,
+      "total_ratings": 77,
+      "location": {
+        "lat": 24.0330752,
+        "lng": 121.6042756
+      },
+      "address": "971花蓮縣新城鄉北埔村北埔路182-1號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJf-7IR6-faDQRmzfptpmQOIo",
+      "name_zh": "唰嘴小吃",
+      "rating": 4.2,
+      "total_ratings": 14,
+      "location": {
+        "lat": 24.037924999999998,
+        "lng": 121.60339490000001
+      },
+      "address": "971花蓮縣新城鄉新秀村光復路501之12號",
+      "note": "中式餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJK0HbUQCfaDQRAOBbReuGR4U",
+      "name_zh": "太魯閣拉麵丼飯_達達食堂_北埔夜市攤",
+      "rating": 5,
+      "total_ratings": 1,
+      "location": {
+        "lat": 24.039456899999998,
+        "lng": 121.6031998
+      },
+      "address": "971花蓮縣新城鄉新秀村北埔路369號",
+      "note": "日式餐廳",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     }

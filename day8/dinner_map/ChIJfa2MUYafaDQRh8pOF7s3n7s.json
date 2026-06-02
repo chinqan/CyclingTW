@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJfa2MUYafaDQRh8pOF7s3n7s",
+  "name_zh": "武家乾麵",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 196,
+  "location": {
+    "lat": 24.037786999999998,
+    "lng": 121.6031195
+  },
+  "address": "971花蓮縣新城鄉新秀村光復路499-29號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 2.54,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,15 @@
+{
+  "place_id": "ChIJeWJ5_QjJbzQRdQJU98giEpQ",
+  "name_zh": "台東特色餐廳",
+  "csv_type": "餐廳大休",
+  "location": {
+    "lat": 22.6688273,
+    "lng": 121.03466370000001
+  },
+  "search_keyword": "餐廳",
+  "source": "along_2026-06-02",
+  "rating": 3.9,
+  "total_ratings": 1181,
+  "address": "963臺東縣太麻里鄉三和村漁場133號",
+  "primary_type": "restaurant"
+}

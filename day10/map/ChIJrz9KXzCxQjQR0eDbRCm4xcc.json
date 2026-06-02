@@ -1,0 +1,24 @@
+{
+  "place_id": "ChIJrz9KXzCxQjQR0eDbRCm4xcc",
+  "name_zh": "芝蘭公園海上觀景平台",
+  "csv_type": "景點",
+  "location": {
+    "lat": 25.2539579,
+    "lng": 121.4725082
+  },
+  "search_keyword": "景點",
+  "source": "api_2026-06-02",
+  "rating": 4.4,
+  "total_ratings": 1591,
+  "address": "252新北市三芝區後厝里北勢子20-5號",
+  "primary_type": "tourist_attraction",
+  "opening_hours_text": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ]
+}

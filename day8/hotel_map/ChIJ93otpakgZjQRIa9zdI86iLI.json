@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ93otpakgZjQRIa9zdI86iLI",
+  "name_zh": "七星潭渡假飯店",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 2950,
+  "location": {
+    "lat": 24.027276399999998,
+    "lng": 121.6306663
+  },
+  "address": "97143花蓮縣新城鄉大漢村明潭街10號",
+  "primary_type": "hotel",
+  "distance_km": 0.58,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

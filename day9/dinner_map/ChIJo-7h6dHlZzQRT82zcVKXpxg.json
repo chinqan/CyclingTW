@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJo-7h6dHlZzQRT82zcVKXpxg",
+  "name_zh": "田中芳園",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 885,
+  "location": {
+    "lat": 25.235066600000003,
+    "lng": 121.62913040000001
+  },
+  "address": "208新北市金山區清泉里清水路53號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 1.74,
+  "source": "api_2026-06-02",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

@@ -543,7 +543,7 @@
         "lng": 120.6890967
       },
       "address": "357苗栗縣通霄鎮平安里83-24號",
-      "source": "api_2026-06-01",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -557,7 +557,7 @@
         "lng": 120.68556999999998
       },
       "address": "357苗栗縣通霄鎮平元里崇仁路30號",
-      "source": "api_2026-06-01",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": true
     },
@@ -571,7 +571,7 @@
         "lng": 120.6868698
       },
       "address": "7 鄰 64-9 號, 通灣里通霄鎮苗栗縣357",
-      "source": "api_2026-06-01",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": true
     },
@@ -585,7 +585,7 @@
         "lng": 120.6786929
       },
       "address": "357苗栗縣通霄鎮通西里中正路105號",
-      "source": "api_2026-06-01",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": true
     },
@@ -599,7 +599,7 @@
         "lng": 120.6793653
       },
       "address": "357苗栗縣通霄鎮通西里信義路45號",
-      "source": "api_2026-06-01",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": true
     },
@@ -613,7 +613,7 @@
         "lng": 120.678591
       },
       "address": "357苗栗縣通霄鎮通西里光復路65號",
-      "source": "api_2026-06-01",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -627,7 +627,7 @@
         "lng": 120.68903759999999
       },
       "address": "357苗栗縣通霄鎮平安里中正路187號",
-      "source": "api_2026-06-01",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -641,7 +641,7 @@
         "lng": 120.68832379999999
       },
       "address": "7 鄰 64-9 號, 通灣里通霄鎮苗栗縣357",
-      "source": "api_2026-06-01",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": true
     },
@@ -655,7 +655,7 @@
         "lng": 120.7006296
       },
       "address": "357苗栗縣通霄鎮57號之1",
-      "source": "api_2026-06-01",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     }

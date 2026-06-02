@@ -3,7 +3,7 @@
   "name_zh": "途中玉里青年旅館（全雅房，上下舖，）",
   "name_lang": "zh-TW",
   "rating": 4.9,
-  "total_ratings": 407,
+  "total_ratings": 410,
   "location": {
     "lat": 23.329337,
     "lng": 121.313267
@@ -11,6 +11,6 @@
   "address": "981花蓮縣玉里鎮中城里城中五街105號",
   "primary_type": "private_guest_room",
   "distance_km": 0.29,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "name_is_ascii": false
 }

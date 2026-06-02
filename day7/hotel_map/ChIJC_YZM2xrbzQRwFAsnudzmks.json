@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJC_YZM2xrbzQRwFAsnudzmks",
+  "name_zh": "在玉里民宿(花蓮縣民宿2825號)",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 68,
+  "location": {
+    "lat": 23.3242925,
+    "lng": 121.3213007
+  },
+  "address": "981花蓮縣玉里鎮中城里忠孝路91號",
+  "primary_type": "private_guest_room",
+  "distance_km": 1.27,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

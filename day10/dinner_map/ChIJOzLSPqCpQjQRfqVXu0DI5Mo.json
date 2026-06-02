@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJOzLSPqCpQjQRfqVXu0DI5Mo",
+  "name_zh": "樂福獨家特調蒜味麵線 蘆洲美食|蘆洲餐廳|蚵仔麵線|蘆洲必吃小吃",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 769,
+  "location": {
+    "lat": 25.0845225,
+    "lng": 121.45851599999999
+  },
+  "address": "247新北市蘆洲區永康里長安街220巷2號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.58,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

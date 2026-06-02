@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJFdwcZwBrbzQRUv0bzO53bJE",
+  "name_zh": "雙惠小吃（19:20之後只能外帶",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 24,
+  "location": {
+    "lat": 23.3269955,
+    "lng": 121.31355509999999
+  },
+  "address": "981花蓮縣玉里鎮中城里大同路71號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.54,
+  "source": "api_2026-06-02",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

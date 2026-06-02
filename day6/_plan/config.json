@@ -1,14 +1,14 @@
 {
   "day": 6,
-  "origin": "恆春 / 鵝鑾鼻",
+  "origin": "墾丁",
   "destination": "太麻里",
   "distance_km_range": [
-    105,
-    120
+    130,
+    130
   ],
   "main_route_text": "台26線 → 縣道200 → 縣道199 → 台9線",
   "must_visit_landmarks": [
-    "**極南：鵝鑾鼻燈塔**",
+    "鵝鑾鼻燈塔",
     "風吹砂",
     "壽卡鐵馬驛站",
     "多良車站"

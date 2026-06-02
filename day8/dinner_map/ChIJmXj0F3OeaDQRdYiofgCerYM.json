@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJmXj0F3OeaDQRdYiofgCerYM",
+  "name_zh": "米粉焿.炒米粉.炒麵.米糕.紅茶.綠豆湯",
+  "name_lang": "ja",
+  "rating": 4.4,
+  "total_ratings": 22,
+  "location": {
+    "lat": 24.03324,
+    "lng": 121.6039867
+  },
+  "address": "971花蓮縣新城鄉北埔村北埔路207號號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 2.36,
+  "source": "api_2026-06-02",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

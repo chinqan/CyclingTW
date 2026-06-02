@@ -1,0 +1,24 @@
+{
+  "place_id": "ChIJzZ-WAQ6xQjQRcZO2UK-KObs",
+  "name_zh": "普羅旺斯海岸咖啡",
+  "csv_type": "餐廳大休",
+  "location": {
+    "lat": 25.2541511,
+    "lng": 121.47355599999999
+  },
+  "search_keyword": "餐廳",
+  "source": "api_2026-06-02",
+  "rating": 4.9,
+  "total_ratings": 3687,
+  "address": "252新北市三芝區後厝里北勢子20-5號",
+  "primary_type": "coffee_shop",
+  "opening_hours_text": [
+    "Monday: 11:00 AM – 7:30 PM",
+    "Tuesday: 11:00 AM – 7:30 PM",
+    "Wednesday: Closed",
+    "Thursday: 11:00 AM – 7:30 PM",
+    "Friday: 11:00 AM – 7:30 PM",
+    "Saturday: 11:00 AM – 8:30 PM",
+    "Sunday: 11:00 AM – 8:30 PM"
+  ]
+}

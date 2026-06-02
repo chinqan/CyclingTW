@@ -3,12 +3,12 @@
   "name_zh": "墾丁大街",
   "csv_type": "景點",
   "rating": 3.8,
-  "total_ratings": 21618,
+  "total_ratings": 21641,
   "location": {
     "lat": 21.9458096,
     "lng": 120.79708029999999
   },
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "墾丁主要觀光街 夜市",
   "opening_hours_text": [
     "Monday: Open 24 hours",

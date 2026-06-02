@@ -1,15 +1,17 @@
 {
   "place_id": "ChIJZV-_DhWxcTQREKTCizrSV1c",
   "name_zh": "鵝鑾鼻燈塔",
-  "csv_type": "起終點",
-  "rating": 4.4,
-  "total_ratings": 14681,
+  "csv_type": "景點",
   "location": {
     "lat": 21.9022339,
     "lng": 120.8526297
   },
-  "source": "api_2026-05-21",
-  "note": "極南點 Day6起點",
+  "search_keyword": "景點",
+  "source": "api_2026-06-02",
+  "rating": 4.4,
+  "total_ratings": 14693,
+  "address": "946屏東縣恆春鎮鵝鑾里燈塔路90號",
+  "primary_type": "tourist_attraction",
   "opening_hours_text": [
     "Monday: Closed",
     "Tuesday: 9:00 AM – 6:00 PM",

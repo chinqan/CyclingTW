@@ -3,11 +3,21 @@
   "name_zh": "新竹南寮漁港",
   "csv_type": "景點",
   "rating": 4.2,
-  "total_ratings": 6816,
+  "total_ratings": 6830,
   "location": {
-    "lat": 24.8487505,
+    "lat": 24.848750499999998,
     "lng": 120.9252429
   },
-  "source": "search_2026-05-21",
-  "note": "海鮮市集 17公里海岸風景區入口 km約90"
+  "source": "api_2026-06-02",
+  "note": "海鮮市集 17公里海岸風景區入口 km約90",
+  "opening_hours_text": [
+    "Monday: Closed",
+    "Tuesday: 8:00 AM – 9:00 PM",
+    "Wednesday: 8:00 AM – 9:00 PM",
+    "Thursday: 8:00 AM – 9:00 PM",
+    "Friday: 8:00 AM – 9:00 PM",
+    "Saturday: 8:00 AM – 9:00 PM",
+    "Sunday: 8:00 AM – 7:30 PM"
+  ],
+  "editorial_summary": "Wood-fenced harbor area with angling stations, also popular for seaside bike rides & sushi vendors."
 }

@@ -3,7 +3,7 @@
   "name_zh": "吉廬夫敢藝文民宿",
   "name_lang": "zh-TW",
   "rating": 4.8,
-  "total_ratings": 529,
+  "total_ratings": 530,
   "location": {
     "lat": 22.632750899999998,
     "lng": 121.0010617
@@ -11,6 +11,6 @@
   "address": "964臺東縣金峰鄉新興村新興村1鄰8之1號",
   "primary_type": "bed_and_breakfast",
   "distance_km": 1.6,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "name_is_ascii": false
 }

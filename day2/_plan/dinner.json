@@ -1,9 +1,9 @@
 {
   "day": 2,
   "search_radius_km": 3,
-  "pool_size": 56,
-  "bayesian_C": 432.6,
-  "bayesian_m": 4.3414,
+  "pool_size": 73,
+  "bayesian_C": 367.6,
+  "bayesian_m": 4.3535,
   "note": "C=平均留言數(先驗樣本數), m=加權平均評分(先驗期望值)",
   "source_endpoint_place_id": "ChIJvyru1BW0bjQRrsVaIqi0zAI",
   "top5_place_ids": [
@@ -11,7 +11,7 @@
     "ChIJdbHqD321bjQRTQn90CyZpzo",
     "ChIJOXZihj60bjQR_HC6lLbjiPs",
     "ChIJ61kkkT61bjQRt7nC6GAp2XQ",
-    "ChIJcbg5QFm7bjQRN0v1aF80j-A"
+    "ChIJI1x6nKu1bjQROn_WeWd1P_k"
   ],
   "restaurants": [
     {
@@ -25,7 +25,7 @@
       },
       "address": "648雲林縣西螺鎮永安里大園街122號對面",
       "note": "餐廳",
-      "bayesian_score": 4.7369,
+      "bayesian_score": 4.7582,
       "confidence": "✅ 高",
       "rank": 1,
       "selected": true
@@ -41,7 +41,7 @@
       },
       "address": "648雲林縣西螺鎮中和里延平路136號",
       "note": "甜品餐廳",
-      "bayesian_score": 4.6957,
+      "bayesian_score": 4.7106,
       "confidence": "✅ 高",
       "rank": 2,
       "selected": true
@@ -57,7 +57,7 @@
       },
       "address": "648雲林縣西螺鎮廣福里公正路186之1號",
       "note": "牛排館",
-      "bayesian_score": 4.693,
+      "bayesian_score": 4.7082,
       "confidence": "✅ 高",
       "rank": 3,
       "selected": true
@@ -73,9 +73,25 @@
       },
       "address": "648004雲林縣西螺鎮福興路185巷47號中央市場內 攤位A31至34",
       "note": "壽司店",
-      "bayesian_score": 4.6005,
+      "bayesian_score": 4.6147,
       "confidence": "✅ 高",
       "rank": 4,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJI1x6nKu1bjQROn_WeWd1P_k",
+      "name_zh": "川詠酸菜魚西螺店|寵物友善餐廳",
+      "rating": 4.7,
+      "total_ratings": 762,
+      "location": {
+        "lat": 23.800076999999998,
+        "lng": 120.45225059999999
+      },
+      "address": "648雲林縣西螺鎮漢光里延平路413之3號",
+      "note": "餐廳",
+      "bayesian_score": 4.5872,
+      "confidence": "✅ 高",
+      "rank": 5,
       "selected": true
     },
     {
@@ -89,10 +105,26 @@
       },
       "address": "64848雲林縣西螺鎮漢光里西興南路100號",
       "note": "火鍋店",
-      "bayesian_score": 4.5302,
+      "bayesian_score": 4.5411,
       "confidence": "✅ 高",
-      "rank": 5,
-      "selected": true
+      "rank": 6,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJm7pUnWK1bjQRXEB1F9nxfXA",
+      "name_zh": "飛雀餐桌行動 Future dining table",
+      "rating": 5,
+      "total_ratings": 147,
+      "location": {
+        "lat": 23.801943800000004,
+        "lng": 120.44864829999997
+      },
+      "address": "648雲林縣西螺鎮中興里東南路289巷1號",
+      "note": "餐廳",
+      "bayesian_score": 4.5382,
+      "confidence": "❌ 低",
+      "rank": 7,
+      "selected": false
     },
     {
       "place_id": "ChIJR8KGrpK1bjQRlKvF9W1BBJ4",
@@ -105,9 +137,25 @@
       },
       "address": "648雲林縣西螺鎮漢光里平和南路303號",
       "note": "餐廳",
-      "bayesian_score": 4.5131,
+      "bayesian_score": 4.5381,
       "confidence": "⚠️ 中",
-      "rank": 6,
+      "rank": 8,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJkUMcqgm1bjQRoKKAwcmBz_c",
+      "name_zh": "盛居壽司 ｜日本料理（寵物友善）",
+      "rating": 4.9,
+      "total_ratings": 172,
+      "location": {
+        "lat": 23.7999494,
+        "lng": 120.45871799999998
+      },
+      "address": "648雲林縣西螺鎮漢光里中山路176號",
+      "note": "餐廳",
+      "bayesian_score": 4.5277,
+      "confidence": "❌ 低",
+      "rank": 9,
       "selected": false
     },
     {
@@ -121,9 +169,9 @@
       },
       "address": "648雲林縣西螺鎮大園里大同路99號",
       "note": "台式餐廳",
-      "bayesian_score": 4.4966,
+      "bayesian_score": 4.5174,
       "confidence": "⚠️ 中",
-      "rank": 7,
+      "rank": 10,
       "selected": false
     },
     {
@@ -137,9 +185,9 @@
       },
       "address": "64857雲林縣西螺鎮正興里公正一路99號",
       "note": "火鍋店",
-      "bayesian_score": 4.4789,
+      "bayesian_score": 4.4999,
       "confidence": "⚠️ 中",
-      "rank": 8,
+      "rank": 11,
       "selected": false
     },
     {
@@ -153,25 +201,9 @@
       },
       "address": "648雲林縣西螺鎮正興里公正一路53-1號",
       "note": "泰國餐廳",
-      "bayesian_score": 4.4492,
-      "confidence": "❌ 低",
-      "rank": 9,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJWxmj8xW0bjQRJcDX44GlB8o",
-      "name_zh": "黃家三代祖傳油蔥九層粿",
-      "rating": 4.5,
-      "total_ratings": 866,
-      "location": {
-        "lat": 23.8010602,
-        "lng": 120.45838390000002
-      },
-      "address": "648雲林縣西螺鎮光華里延平路274號",
-      "note": "台式餐廳",
-      "bayesian_score": 4.4472,
-      "confidence": "✅ 高",
-      "rank": 10,
+      "bayesian_score": 4.4699,
+      "confidence": "⚠️ 中",
+      "rank": 12,
       "selected": false
     },
     {
@@ -185,25 +217,9 @@
       },
       "address": "648雲林縣西螺鎮漢光里平和南路301號",
       "note": "西餐廳",
-      "bayesian_score": 4.4437,
+      "bayesian_score": 4.4676,
       "confidence": "❌ 低",
-      "rank": 11,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJjRYAdz20bjQRzLOagUAGp18",
-      "name_zh": "西螺脆皮臭豆腐",
-      "rating": 4.5,
-      "total_ratings": 764,
-      "location": {
-        "lat": 23.7968193,
-        "lng": 120.4620404
-      },
-      "address": "648雲林縣西螺鎮正興里光復西路95號",
-      "note": "韓國餐廳",
-      "bayesian_score": 4.4427,
-      "confidence": "✅ 高",
-      "rank": 12,
+      "rank": 13,
       "selected": false
     },
     {
@@ -217,9 +233,25 @@
       },
       "address": "648雲林縣西螺鎮中和里延平路64號",
       "note": "餐廳",
-      "bayesian_score": 4.4377,
+      "bayesian_score": 4.4599,
       "confidence": "❌ 低",
-      "rank": 13,
+      "rank": 14,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJWxmj8xW0bjQRJcDX44GlB8o",
+      "name_zh": "黃家三代祖傳油蔥九層粿",
+      "rating": 4.5,
+      "total_ratings": 866,
+      "location": {
+        "lat": 23.8010602,
+        "lng": 120.45838390000002
+      },
+      "address": "648雲林縣西螺鎮光華里延平路274號",
+      "note": "台式餐廳",
+      "bayesian_score": 4.4563,
+      "confidence": "✅ 高",
+      "rank": 15,
       "selected": false
     },
     {
@@ -233,9 +265,25 @@
       },
       "address": "648雲林縣西螺鎮大園里光復東路51-5號",
       "note": "餐廳",
-      "bayesian_score": 4.4322,
+      "bayesian_score": 4.4552,
       "confidence": "❌ 低",
-      "rank": 14,
+      "rank": 16,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJjRYAdz20bjQRzLOagUAGp18",
+      "name_zh": "西螺脆皮臭豆腐",
+      "rating": 4.5,
+      "total_ratings": 764,
+      "location": {
+        "lat": 23.7968193,
+        "lng": 120.4620404
+      },
+      "address": "648雲林縣西螺鎮正興里光復西路95號",
+      "note": "韓國餐廳",
+      "bayesian_score": 4.4524,
+      "confidence": "✅ 高",
+      "rank": 17,
       "selected": false
     },
     {
@@ -249,9 +297,9 @@
       },
       "address": "648雲林縣西螺鎮正興里建興路10號",
       "note": "餐廳",
-      "bayesian_score": 4.4107,
+      "bayesian_score": 4.4308,
       "confidence": "❌ 低",
-      "rank": 15,
+      "rank": 18,
       "selected": false
     },
     {
@@ -265,9 +313,25 @@
       },
       "address": "648雲林縣西螺鎮廣福里文昌路151號",
       "note": "餐廳",
-      "bayesian_score": 4.4099,
+      "bayesian_score": 4.43,
       "confidence": "❌ 低",
-      "rank": 16,
+      "rank": 19,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJy5yywj60bjQRGQgq1roLmgE",
+      "name_zh": "阿照麵攤",
+      "rating": 4.5,
+      "total_ratings": 374,
+      "location": {
+        "lat": 23.801060099999997,
+        "lng": 120.46314599999998
+      },
+      "address": "648雲林縣西螺鎮中和里文昌路188-1號",
+      "note": "台式餐廳",
+      "bayesian_score": 4.4274,
+      "confidence": "✅ 高",
+      "rank": 20,
       "selected": false
     },
     {
@@ -281,9 +345,25 @@
       },
       "address": "648雲林縣西螺鎮漢光里中正路230號",
       "note": "餐廳",
-      "bayesian_score": 4.3847,
+      "bayesian_score": 4.4007,
       "confidence": "❌ 低",
-      "rank": 17,
+      "rank": 21,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJK3Fn2MS1bjQRGQY2oKCdnEU",
+      "name_zh": "美味食刻",
+      "rating": 4.6,
+      "total_ratings": 78,
+      "location": {
+        "lat": 23.7936657,
+        "lng": 120.4620882
+      },
+      "address": "648雲林縣西螺鎮正興里興農西路159號",
+      "note": "餐廳",
+      "bayesian_score": 4.3967,
+      "confidence": "❌ 低",
+      "rank": 22,
       "selected": false
     },
     {
@@ -297,9 +377,9 @@
       },
       "address": "648雲林縣西螺鎮漢光里平和路117號",
       "note": "餐廳",
-      "bayesian_score": 4.3775,
+      "bayesian_score": 4.3943,
       "confidence": "❌ 低",
-      "rank": 18,
+      "rank": 23,
       "selected": false
     },
     {
@@ -313,9 +393,9 @@
       },
       "address": "648雲林縣西螺鎮正興里建興路101號號前",
       "note": "餐廳",
-      "bayesian_score": 4.3742,
+      "bayesian_score": 4.3909,
       "confidence": "❌ 低",
-      "rank": 19,
+      "rank": 24,
       "selected": false
     },
     {
@@ -329,41 +409,25 @@
       },
       "address": "648雲林縣西螺鎮福興里福興路185巷47號",
       "note": "義大利餐廳",
-      "bayesian_score": 4.3738,
+      "bayesian_score": 4.3898,
       "confidence": "❌ 低",
-      "rank": 20,
+      "rank": 25,
       "selected": false
     },
     {
-      "place_id": "ChIJ3YfC9LC1bjQR4BhjY14vaio",
-      "name_zh": "宥穎刈包四神湯店",
-      "rating": 4.4,
-      "total_ratings": 268,
+      "place_id": "ChIJq3pEoeO1bjQR2bBFzPruLWE",
+      "name_zh": "廟口麵線臭豆腐",
+      "rating": 4.6,
+      "total_ratings": 46,
       "location": {
-        "lat": 23.80259,
-        "lng": 120.45896300000001
+        "lat": 23.7975805,
+        "lng": 120.464699
       },
-      "address": "648雲林縣西螺鎮光華里建興路319號",
+      "address": "648雲林縣西螺鎮廣福里新街路34號",
       "note": "餐廳",
-      "bayesian_score": 4.3638,
-      "confidence": "⚠️ 中",
-      "rank": 21,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJ-yI4NBa0bjQRTmDiUrcUVSc",
-      "name_zh": "柯家西螺土庫當歸鴨肉麵線",
-      "rating": 4.4,
-      "total_ratings": 205,
-      "location": {
-        "lat": 23.797602599999998,
-        "lng": 120.4576628
-      },
-      "address": "648雲林縣西螺鎮漢光里平和路76號",
-      "note": "餐廳",
-      "bayesian_score": 4.3602,
+      "bayesian_score": 4.3809,
       "confidence": "❌ 低",
-      "rank": 22,
+      "rank": 26,
       "selected": false
     },
     {
@@ -377,25 +441,41 @@
       },
       "address": "648雲林縣西螺鎮正興里源成路47號47號（隔壁",
       "note": "餐廳",
-      "bayesian_score": 4.3597,
+      "bayesian_score": 4.3738,
       "confidence": "❌ 低",
-      "rank": 23,
+      "rank": 27,
       "selected": false
     },
     {
-      "place_id": "ChIJ0SojpDy1bjQRFRxWzRIFmvk",
-      "name_zh": "西螺豆菜麵｜傳統佳餚｜知名小吃｜四代70年傳承｜電視報章雜誌報導｜必吃好味道｜雲林西螺美食｜午餐晚餐宵夜推薦",
+      "place_id": "ChIJ3YfC9LC1bjQR4BhjY14vaio",
+      "name_zh": "宥穎刈包四神湯店",
       "rating": 4.4,
-      "total_ratings": 157,
+      "total_ratings": 268,
       "location": {
-        "lat": 23.7972601,
-        "lng": 120.459199
+        "lat": 23.80259,
+        "lng": 120.45896300000001
       },
-      "address": "64855雲林縣西螺鎮漢光里建興路119號",
+      "address": "648雲林縣西螺鎮光華里建興路319號",
       "note": "餐廳",
-      "bayesian_score": 4.357,
-      "confidence": "❌ 低",
-      "rank": 24,
+      "bayesian_score": 4.3731,
+      "confidence": "⚠️ 中",
+      "rank": 28,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ-yI4NBa0bjQRTmDiUrcUVSc",
+      "name_zh": "柯家西螺土庫當歸鴨肉麵線",
+      "rating": 4.4,
+      "total_ratings": 205,
+      "location": {
+        "lat": 23.797602599999998,
+        "lng": 120.4576628
+      },
+      "address": "648雲林縣西螺鎮漢光里平和路76號",
+      "note": "餐廳",
+      "bayesian_score": 4.3701,
+      "confidence": "⚠️ 中",
+      "rank": 29,
       "selected": false
     },
     {
@@ -409,9 +489,25 @@
       },
       "address": "648雲林縣西螺鎮正興里光復西路200號",
       "note": "餐廳",
-      "bayesian_score": 4.3553,
+      "bayesian_score": 4.3694,
       "confidence": "❌ 低",
-      "rank": 25,
+      "rank": 30,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ0SojpDy1bjQRFRxWzRIFmvk",
+      "name_zh": "西螺豆菜麵｜傳統佳餚｜知名小吃｜四代70年傳承｜電視報章雜誌報導｜必吃好味道｜雲林西螺美食｜午餐晚餐宵夜推薦",
+      "rating": 4.4,
+      "total_ratings": 157,
+      "location": {
+        "lat": 23.7972601,
+        "lng": 120.459199
+      },
+      "address": "64855雲林縣西螺鎮漢光里建興路119號",
+      "note": "餐廳",
+      "bayesian_score": 4.3674,
+      "confidence": "❌ 低",
+      "rank": 31,
       "selected": false
     },
     {
@@ -425,9 +521,9 @@
       },
       "address": "648雲林縣西螺鎮正興里源成路47號隔壁(七號辣味店)騎樓",
       "note": "餐廳",
-      "bayesian_score": 4.3519,
+      "bayesian_score": 4.3656,
       "confidence": "❌ 低",
-      "rank": 26,
+      "rank": 32,
       "selected": false
     },
     {
@@ -441,9 +537,9 @@
       },
       "address": "648雲林縣西螺鎮福興里建興路253號",
       "note": "餐廳",
-      "bayesian_score": 4.3497,
+      "bayesian_score": 4.363,
       "confidence": "❌ 低",
-      "rank": 27,
+      "rank": 33,
       "selected": false
     },
     {
@@ -457,9 +553,25 @@
       },
       "address": "648雲林縣西螺鎮正興里建興路90號",
       "note": "牛排館",
-      "bayesian_score": 4.3495,
+      "bayesian_score": 4.3625,
       "confidence": "❌ 低",
-      "rank": 28,
+      "rank": 34,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJqVFxJwC1bjQR0n-t_O70bqQ",
+      "name_zh": "品香小吃",
+      "rating": 5,
+      "total_ratings": 4,
+      "location": {
+        "lat": 23.7929364,
+        "lng": 120.4649565
+      },
+      "address": "648雲林縣西螺鎮廣福里廣興路141號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.3605,
+      "confidence": "❌ 低",
+      "rank": 35,
       "selected": false
     },
     {
@@ -473,9 +585,9 @@
       },
       "address": "648雲林縣西螺鎮福興里中山路171-1號",
       "note": "早餐店",
-      "bayesian_score": 4.3488,
+      "bayesian_score": 4.3603,
       "confidence": "❌ 低",
-      "rank": 29,
+      "rank": 36,
       "selected": false
     },
     {
@@ -489,9 +601,73 @@
       },
       "address": "648雲林縣西螺鎮正興里公正路140號",
       "note": "餐廳",
-      "bayesian_score": 4.3471,
+      "bayesian_score": 4.3588,
       "confidence": "❌ 低",
-      "rank": 30,
+      "rank": 37,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJYYa3o5C1bjQR4EtLLIf7UkE",
+      "name_zh": "西螺/秀水 苜蓿芽菜卷",
+      "rating": 5,
+      "total_ratings": 2,
+      "location": {
+        "lat": 23.7989362,
+        "lng": 120.45934430000001
+      },
+      "address": "648雲林縣西螺鎮正興里建興路196號",
+      "note": "餐廳",
+      "bayesian_score": 4.357,
+      "confidence": "❌ 低",
+      "rank": 38,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJfeKCOAC1bjQRfrLXxSmDXY8",
+      "name_zh": "阿信高麗菜餅韭菜餅",
+      "rating": 5,
+      "total_ratings": 2,
+      "location": {
+        "lat": 23.7961971,
+        "lng": 120.4588959
+      },
+      "address": "648雲林縣西螺鎮正興里建興路101號號前",
+      "note": "餐廳",
+      "bayesian_score": 4.357,
+      "confidence": "❌ 低",
+      "rank": 39,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJv9g0g0-1bjQRospAa6IKeo0",
+      "name_zh": "豪味道",
+      "rating": 5,
+      "total_ratings": 1,
+      "location": {
+        "lat": 23.800034099999998,
+        "lng": 120.45892769999998
+      },
+      "address": "648雲林縣西螺鎮光華里中山路172號",
+      "note": "餐廳",
+      "bayesian_score": 4.3553,
+      "confidence": "❌ 低",
+      "rank": 40,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJASX4Lae1bjQR5EnHI_K_x0o",
+      "name_zh": "同學小吃部",
+      "rating": 4.3,
+      "total_ratings": 6,
+      "location": {
+        "lat": 23.796837,
+        "lng": 120.46182089999999
+      },
+      "address": "648雲林縣西螺鎮正興里光復西路105號",
+      "note": "中式麵館",
+      "bayesian_score": 4.3526,
+      "confidence": "❌ 低",
+      "rank": 41,
       "selected": false
     },
     {
@@ -505,9 +681,9 @@
       },
       "address": "648雲林縣西螺鎮漢光里建興路207號",
       "note": "餐廳",
-      "bayesian_score": 4.3406,
+      "bayesian_score": 4.3525,
       "confidence": "❌ 低",
-      "rank": 31,
+      "rank": 42,
       "selected": false
     },
     {
@@ -521,9 +697,41 @@
       },
       "address": "648雲林縣西螺鎮漢光里光復西路202號",
       "note": "牛排館",
-      "bayesian_score": 4.3402,
+      "bayesian_score": 4.3517,
       "confidence": "❌ 低",
-      "rank": 32,
+      "rank": 43,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJV-ns-sC1bjQRv4KitSZCAkg",
+      "name_zh": "傳統魯肉米糕豬腸湯",
+      "rating": 4.3,
+      "total_ratings": 16,
+      "location": {
+        "lat": 23.799561399999998,
+        "lng": 120.4591188
+      },
+      "address": "648雲林縣西螺鎮漢光里建興路211號",
+      "note": "餐廳",
+      "bayesian_score": 4.3513,
+      "confidence": "❌ 低",
+      "rank": 44,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJZZ9MEDu0bjQRF82hkv4Shzc",
+      "name_zh": "一元筒仔米糕",
+      "rating": 4.3,
+      "total_ratings": 16,
+      "location": {
+        "lat": 23.794616599999998,
+        "lng": 120.46653649999999
+      },
+      "address": "648雲林縣西螺鎮廣福里興農西路29號",
+      "note": "早午餐餐廳",
+      "bayesian_score": 4.3513,
+      "confidence": "❌ 低",
+      "rank": 45,
       "selected": false
     },
     {
@@ -537,9 +745,9 @@
       },
       "address": "648云林县西螺镇福兴里建兴路246號1樓",
       "note": "外賣餐廳",
-      "bayesian_score": 4.3376,
+      "bayesian_score": 4.3478,
       "confidence": "❌ 低",
-      "rank": 33,
+      "rank": 46,
       "selected": false
     },
     {
@@ -553,9 +761,9 @@
       },
       "address": "648雲林縣西螺鎮廣福里興農西路25號號",
       "note": "中式餐廳",
-      "bayesian_score": 4.3373,
+      "bayesian_score": 4.3473,
       "confidence": "❌ 低",
-      "rank": 34,
+      "rank": 47,
       "selected": false
     },
     {
@@ -569,9 +777,9 @@
       },
       "address": "648雲林縣西螺鎮福興里中山路171-1號",
       "note": "韓國餐廳",
-      "bayesian_score": 4.3351,
+      "bayesian_score": 4.3442,
       "confidence": "❌ 低",
-      "rank": 35,
+      "rank": 48,
       "selected": false
     },
     {
@@ -585,9 +793,41 @@
       },
       "address": "648雲林縣西螺鎮福興里中山路140號",
       "note": "餐廳",
-      "bayesian_score": 4.3257,
+      "bayesian_score": 4.3344,
       "confidence": "❌ 低",
-      "rank": 36,
+      "rank": 49,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ1_XRxBW0bjQROJqXmx8xAr8",
+      "name_zh": "阿美小吃",
+      "rating": 4.3,
+      "total_ratings": 258,
+      "location": {
+        "lat": 23.8008678,
+        "lng": 120.4569131
+      },
+      "address": "648雲林縣西螺鎮光華里延平路354之1號",
+      "note": "餐廳",
+      "bayesian_score": 4.3314,
+      "confidence": "⚠️ 中",
+      "rank": 50,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJQ50p6Ty0bjQR_Ium_Wb2hCc",
+      "name_zh": "迎客園餐廳",
+      "rating": 4.3,
+      "total_ratings": 508,
+      "location": {
+        "lat": 23.7960109,
+        "lng": 120.4622087
+      },
+      "address": "648雲林縣西螺鎮正興里公正一路69號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.3225,
+      "confidence": "✅ 高",
+      "rank": 51,
       "selected": false
     },
     {
@@ -601,25 +841,9 @@
       },
       "address": "648雲林縣西螺鎮正興里公正路187-2號",
       "note": "餐廳",
-      "bayesian_score": 4.3133,
+      "bayesian_score": 4.3195,
       "confidence": "❌ 低",
-      "rank": 37,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJb2vaLj60bjQR1xg93jCHgcE",
-      "name_zh": "西螺黃家九層粿",
-      "rating": 4.3,
-      "total_ratings": 1956,
-      "location": {
-        "lat": 23.8016179,
-        "lng": 120.45932390000002
-      },
-      "address": "648雲林縣西螺鎮福興里建興路282號",
-      "note": "小吃店",
-      "bayesian_score": 4.3075,
-      "confidence": "✅ 高",
-      "rank": 38,
+      "rank": 52,
       "selected": false
     },
     {
@@ -633,9 +857,25 @@
       },
       "address": "648雲林縣西螺鎮正興里光復西路91號",
       "note": "亞洲風味餐廳",
-      "bayesian_score": 4.3074,
+      "bayesian_score": 4.3125,
       "confidence": "❌ 低",
-      "rank": 39,
+      "rank": 53,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJb2vaLj60bjQR1xg93jCHgcE",
+      "name_zh": "西螺黃家九層粿",
+      "rating": 4.3,
+      "total_ratings": 1956,
+      "location": {
+        "lat": 23.8016179,
+        "lng": 120.45932390000002
+      },
+      "address": "648雲林縣西螺鎮福興里建興路282號",
+      "note": "小吃店",
+      "bayesian_score": 4.3085,
+      "confidence": "✅ 高",
+      "rank": 54,
       "selected": false
     },
     {
@@ -649,9 +889,9 @@
       },
       "address": "648雲林縣西螺鎮中興里延平路283之1號",
       "note": "中式麵館",
-      "bayesian_score": 4.307,
+      "bayesian_score": 4.3079,
       "confidence": "✅ 高",
-      "rank": 40,
+      "rank": 55,
       "selected": false
     },
     {
@@ -665,9 +905,9 @@
       },
       "address": "648雲林縣西螺鎮正興里光復西路137號",
       "note": "中式餐廳",
-      "bayesian_score": 4.2943,
-      "confidence": "❌ 低",
-      "rank": 41,
+      "bayesian_score": 4.2967,
+      "confidence": "⚠️ 中",
+      "rank": 56,
       "selected": false
     },
     {
@@ -681,9 +921,25 @@
       },
       "address": "648雲林縣西螺鎮廣福里文昌路86號",
       "note": "中式餐廳",
-      "bayesian_score": 4.2939,
+      "bayesian_score": 4.2962,
       "confidence": "⚠️ 中",
-      "rank": 42,
+      "rank": 57,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJvwpIwgq1bjQR2I6NbhB46Uw",
+      "name_zh": "大滷桶-西螺",
+      "rating": 3.1,
+      "total_ratings": 20,
+      "location": {
+        "lat": 23.8001711,
+        "lng": 120.46020740000002
+      },
+      "address": "648雲林縣西螺鎮福興里中山路124號",
+      "note": "台式餐廳",
+      "bayesian_score": 4.2888,
+      "confidence": "❌ 低",
+      "rank": 58,
       "selected": false
     },
     {
@@ -697,9 +953,9 @@
       },
       "address": "648雲林縣西螺鎮中和里公正路204號",
       "note": "餐廳",
-      "bayesian_score": 4.2615,
+      "bayesian_score": 4.2607,
       "confidence": "✅ 高",
-      "rank": 43,
+      "rank": 59,
       "selected": false
     },
     {
@@ -713,9 +969,9 @@
       },
       "address": "648雲林縣西螺鎮正興里建興路118號",
       "note": "餐廳",
-      "bayesian_score": 4.2539,
+      "bayesian_score": 4.2515,
       "confidence": "❌ 低",
-      "rank": 44,
+      "rank": 60,
       "selected": false
     },
     {
@@ -729,9 +985,9 @@
       },
       "address": "648雲林縣西螺鎮正興里建興路198號",
       "note": "餐廳",
-      "bayesian_score": 4.2415,
+      "bayesian_score": 4.2377,
       "confidence": "❌ 低",
-      "rank": 45,
+      "rank": 61,
       "selected": false
     },
     {
@@ -745,9 +1001,9 @@
       },
       "address": "648雲林縣西螺鎮大園里光復東路101號",
       "note": "餐廳",
-      "bayesian_score": 4.2366,
+      "bayesian_score": 4.2351,
       "confidence": "✅ 高",
-      "rank": 46,
+      "rank": 62,
       "selected": false
     },
     {
@@ -761,9 +1017,9 @@
       },
       "address": "648雲林縣西螺鎮漢光里平和路125號",
       "note": "餐廳",
-      "bayesian_score": 4.2261,
+      "bayesian_score": 4.2202,
       "confidence": "❌ 低",
-      "rank": 47,
+      "rank": 63,
       "selected": false
     },
     {
@@ -777,9 +1033,9 @@
       },
       "address": "648雲林縣西螺鎮中興里延平路376號",
       "note": "台式餐廳",
-      "bayesian_score": 4.2215,
-      "confidence": "⚠️ 中",
-      "rank": 48,
+      "bayesian_score": 4.2173,
+      "confidence": "✅ 高",
+      "rank": 64,
       "selected": false
     },
     {
@@ -793,9 +1049,9 @@
       },
       "address": "640雲林縣西螺鎮漢光里建興路205號",
       "note": "中式麵館",
-      "bayesian_score": 4.2126,
+      "bayesian_score": 4.2048,
       "confidence": "❌ 低",
-      "rank": 49,
+      "rank": 65,
       "selected": false
     },
     {
@@ -809,9 +1065,9 @@
       },
       "address": "648雲林縣西螺鎮中和里新街路151號",
       "note": "中式餐廳",
-      "bayesian_score": 4.2111,
+      "bayesian_score": 4.2048,
       "confidence": "⚠️ 中",
-      "rank": 50,
+      "rank": 66,
       "selected": false
     },
     {
@@ -825,9 +1081,9 @@
       },
       "address": "648雲林縣西螺鎮正興里福興路167號",
       "note": "火鍋店",
-      "bayesian_score": 4.1836,
-      "confidence": "⚠️ 中",
-      "rank": 51,
+      "bayesian_score": 4.1757,
+      "confidence": "✅ 高",
+      "rank": 67,
       "selected": false
     },
     {
@@ -841,9 +1097,9 @@
       },
       "address": "648雲林縣西螺鎮漢光里中山路261之1號",
       "note": "台式餐廳",
-      "bayesian_score": 4.1668,
-      "confidence": "❌ 低",
-      "rank": 52,
+      "bayesian_score": 4.1547,
+      "confidence": "⚠️ 中",
+      "rank": 68,
       "selected": false
     },
     {
@@ -857,9 +1113,9 @@
       },
       "address": "648雲林縣西螺鎮光華里建興路277號",
       "note": "中式麵館",
-      "bayesian_score": 4.1465,
+      "bayesian_score": 4.1428,
       "confidence": "✅ 高",
-      "rank": 53,
+      "rank": 69,
       "selected": false
     },
     {
@@ -873,9 +1129,25 @@
       },
       "address": "648雲林縣西螺鎮振興里振興116號",
       "note": "速食餐廳",
-      "bayesian_score": 4.0862,
+      "bayesian_score": 4.0735,
       "confidence": "✅ 高",
-      "rank": 54,
+      "rank": 70,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJp_Mjv_m1bjQREhVRDOC5Fac",
+      "name_zh": "忠正豆漿 西螺店",
+      "rating": 3.4,
+      "total_ratings": 193,
+      "location": {
+        "lat": 23.795701299999998,
+        "lng": 120.45943299999999
+      },
+      "address": "648雲林縣西螺鎮正興里建興路66號",
+      "note": "早餐店",
+      "bayesian_score": 4.0252,
+      "confidence": "⚠️ 中",
+      "rank": 71,
       "selected": false
     },
     {
@@ -889,9 +1161,9 @@
       },
       "address": "648雲林縣西螺鎮中和里觀音街12號",
       "note": "中式餐廳",
-      "bayesian_score": 3.9303,
+      "bayesian_score": 3.9174,
       "confidence": "✅ 高",
-      "rank": 55,
+      "rank": 72,
       "selected": false
     },
     {
@@ -905,9 +1177,9 @@
       },
       "address": "648雲林縣西螺鎮正興里建興路214號",
       "note": "餐廳",
-      "bayesian_score": 3.8409,
+      "bayesian_score": 3.8261,
       "confidence": "✅ 高",
-      "rank": 56,
+      "rank": 73,
       "selected": false
     }
   ]

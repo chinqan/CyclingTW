@@ -3,12 +3,12 @@
   "name_zh": "玉富自行車道",
   "csv_type": "景點",
   "rating": 4.4,
-  "total_ratings": 313,
+  "total_ratings": 315,
   "location": {
     "lat": 23.3287282,
     "lng": 121.31116619999999
   },
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "全球唯一跨兩大板塊自行車道",
   "opening_hours_text": [
     "Monday: Open 24 hours",

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJA8TpbgCnQjQRfFho9nFS-Js",
+  "name_zh": "古厝米粉湯",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 132,
+  "location": {
+    "lat": 25.0892297,
+    "lng": 121.43380400000001
+  },
+  "address": "248新北市五股區五福里五福路31號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 2.91,
+  "source": "api_2026-06-02",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

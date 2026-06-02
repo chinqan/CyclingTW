@@ -3,7 +3,7 @@
   "name_zh": "黎芊惠食堂",
   "name_lang": "zh-TW",
   "rating": 4.7,
-  "total_ratings": 164,
+  "total_ratings": 167,
   "location": {
     "lat": 25.218755700000003,
     "lng": 121.6400937
@@ -12,7 +12,7 @@
   "primary_type": "vietnamese_restaurant",
   "primary_type_label": "越南餐廳",
   "distance_km": 0.38,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "越南餐廳",
   "name_is_ascii": false
 }

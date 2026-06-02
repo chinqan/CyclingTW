@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ97ii3tGfaDQR-3JTiL1fh0U",
+  "name_zh": "穀司鐵板燒(無預約服務、休息日請參考粉絲專頁、用餐人數限定6人以下、用餐人到齊才一起進來用餐)",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 263,
+  "location": {
+    "lat": 24.029005599999998,
+    "lng": 121.6058748
+  },
+  "address": "971花蓮縣新城鄉北埔村北埔路110號1樓",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 2.18,
+  "source": "api_2026-06-02",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

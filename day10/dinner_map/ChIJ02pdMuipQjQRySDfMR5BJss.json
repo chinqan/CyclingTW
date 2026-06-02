@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ02pdMuipQjQRySDfMR5BJss",
+  "name_zh": "小金越南小吃",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 15,
+  "location": {
+    "lat": 25.0827924,
+    "lng": 121.47401089999998
+  },
+  "address": "247新北市蘆洲區仁復里中央路20巷12號",
+  "primary_type": "vietnamese_restaurant",
+  "primary_type_label": "越南餐廳",
+  "distance_km": 1.3,
+  "source": "api_2026-06-02",
+  "note": "越南餐廳",
+  "name_is_ascii": false
+}

@@ -1,9 +1,9 @@
 {
   "day": 10,
   "search_radius_km": 3,
-  "pool_size": 81,
-  "bayesian_C": 1514.7,
-  "bayesian_m": 4.4341,
+  "pool_size": 102,
+  "bayesian_C": 1290.4,
+  "bayesian_m": 4.4492,
   "note": "C=平均留言數(先驗樣本數), m=加權平均評分(先驗期望值)",
   "source_endpoint_place_id": "ChIJ7Ws-1bOoQjQRehrUbGzlo1A",
   "top5_place_ids": [
@@ -11,21 +11,21 @@
     "ChIJMZoHgrCoQjQRw5bUDHGHKJ0",
     "ChIJc8HPy2-pQjQR1baFMrQGJT4",
     "ChIJU2im47CoQjQR3qmk6_xf37o",
-    "ChIJYRBNAG2pQjQRAYNc0RXph68"
+    "ChIJ5dWMwECpQjQRWA4b992AYt0"
   ],
   "restaurants": [
     {
       "place_id": "ChIJJ6CE7jmpQjQRKBMlDlZ5Tfc",
       "name_zh": "柒柒石頭火鍋 長安店",
       "rating": 5,
-      "total_ratings": 23716,
+      "total_ratings": 23784,
       "location": {
         "lat": 25.080072800000003,
         "lng": 121.46246459999999
       },
       "address": "247新北市蘆洲區延平里長安街77號",
       "note": "火鍋店",
-      "bayesian_score": 4.966,
+      "bayesian_score": 4.9717,
       "confidence": "✅ 高",
       "rank": 1,
       "selected": true
@@ -34,14 +34,14 @@
       "place_id": "ChIJMZoHgrCoQjQRw5bUDHGHKJ0",
       "name_zh": "昭和園日式燒肉-蘆洲店",
       "rating": 4.8,
-      "total_ratings": 6525,
+      "total_ratings": 6551,
       "location": {
         "lat": 25.082679799999998,
         "lng": 121.4602939
       },
       "address": "247新北市蘆洲區忠義里中原路27號",
       "note": "餐廳",
-      "bayesian_score": 4.7311,
+      "bayesian_score": 4.7423,
       "confidence": "✅ 高",
       "rank": 2,
       "selected": true
@@ -50,14 +50,14 @@
       "place_id": "ChIJc8HPy2-pQjQR1baFMrQGJT4",
       "name_zh": "官小二酸菜魚（蘆洲店）-酸菜魚｜蘆洲美食｜蘆洲長安街美食",
       "rating": 4.9,
-      "total_ratings": 1638,
+      "total_ratings": 1640,
       "location": {
         "lat": 25.0824885,
         "lng": 121.45993820000001
       },
       "address": "247新北市蘆洲區忠義里長安街150號一樓",
       "note": "餐廳",
-      "bayesian_score": 4.6762,
+      "bayesian_score": 4.7015,
       "confidence": "✅ 高",
       "rank": 3,
       "selected": true
@@ -66,96 +66,128 @@
       "place_id": "ChIJU2im47CoQjQR3qmk6_xf37o",
       "name_zh": "拍拍手披薩咖啡",
       "rating": 4.8,
-      "total_ratings": 1862,
+      "total_ratings": 1872,
       "location": {
         "lat": 25.0823349,
         "lng": 121.4620687
       },
       "address": "247新北市蘆洲區忠義里長安街108巷26號1樓",
       "note": "餐廳",
-      "bayesian_score": 4.6359,
+      "bayesian_score": 4.6569,
       "confidence": "✅ 高",
       "rank": 4,
-      "selected": true
-    },
-    {
-      "place_id": "ChIJYRBNAG2pQjQRAYNc0RXph68",
-      "name_zh": "樂樂燒肉 蘆洲店（新北蘆洲燒烤燒肉吃到飽 蘆洲必吃美食推薦 蘆洲好吃晚餐）",
-      "rating": 4.7,
-      "total_ratings": 4018,
-      "location": {
-        "lat": 25.085426299999998,
-        "lng": 121.4730013
-      },
-      "address": "247新北市蘆洲區保和里復興路56號",
-      "note": "日式燒肉餐廳",
-      "bayesian_score": 4.6272,
-      "confidence": "✅ 高",
-      "rank": 5,
       "selected": true
     },
     {
       "place_id": "ChIJ5dWMwECpQjQRWA4b992AYt0",
       "name_zh": "XO SHABU SHABU 蘆洲店",
       "rating": 4.9,
-      "total_ratings": 1018,
+      "total_ratings": 1037,
       "location": {
         "lat": 25.084102500000004,
         "lng": 121.46472569999999
       },
       "address": "1樓, No. 2-9號長樂路中原里蘆洲區新北市247",
       "note": "餐廳",
-      "bayesian_score": 4.6214,
+      "bayesian_score": 4.6501,
       "confidence": "⚠️ 中",
-      "rank": 6,
-      "selected": false
+      "rank": 5,
+      "selected": true
     },
     {
       "place_id": "ChIJlRAyt7apQjQRCw2e6o9lEKs",
       "name_zh": "BZ手作/蘆洲美食/早午餐/三明治/健康餐盒/晚餐/附近美食/義大利麵/燉飯/restaurants",
       "rating": 5,
-      "total_ratings": 683,
+      "total_ratings": 689,
       "location": {
         "lat": 25.089548399999998,
         "lng": 121.4621277
       },
       "address": "247038新北市芦洲区正义里长乐路112號1樓",
       "note": "餐廳",
-      "bayesian_score": 4.61,
-      "confidence": "❌ 低",
+      "bayesian_score": 4.6409,
+      "confidence": "⚠️ 中",
+      "rank": 6,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJYRBNAG2pQjQRAYNc0RXph68",
+      "name_zh": "樂樂燒肉 蘆洲店（新北蘆洲燒烤燒肉吃到飽 蘆洲必吃美食推薦 蘆洲好吃晚餐）",
+      "rating": 4.7,
+      "total_ratings": 4051,
+      "location": {
+        "lat": 25.085426299999998,
+        "lng": 121.4730013
+      },
+      "address": "247新北市蘆洲區保和里復興路56號",
+      "note": "日式燒肉餐廳",
+      "bayesian_score": 4.6394,
+      "confidence": "✅ 高",
       "rank": 7,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJB6xFOfSpQjQR332PIX2Ds0A",
+      "name_zh": "螢河義麵坊（請營業時間來電）",
+      "rating": 4.8,
+      "total_ratings": 1425,
+      "location": {
+        "lat": 25.0824902,
+        "lng": 121.46820199999999
+      },
+      "address": "247新北市蘆洲區中華里光華路73巷3號1F",
+      "note": "餐廳",
+      "bayesian_score": 4.6333,
+      "confidence": "✅ 高",
+      "rank": 8,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJlSDA_smoQjQRsGQgeNnTI0w",
+      "name_zh": "萊樂廚房LeleKitchen（原R2蘆洲）",
+      "rating": 4.7,
+      "total_ratings": 2802,
+      "location": {
+        "lat": 25.0857006,
+        "lng": 121.4687317
+      },
+      "address": "247新北市蘆洲區保和里中正路166號1樓",
+      "note": "義大利餐廳",
+      "bayesian_score": 4.6209,
+      "confidence": "✅ 高",
+      "rank": 9,
       "selected": false
     },
     {
       "place_id": "ChIJJ-htjW6vQjQRElsFFP9bZw4",
       "name_zh": "柳町家拉麵",
       "rating": 4.8,
-      "total_ratings": 904,
+      "total_ratings": 911,
       "location": {
         "lat": 25.0909823,
         "lng": 121.47156740000001
       },
       "address": "247新北市蘆洲區水湳里民權路188-6號1樓",
       "note": "拉麵店",
-      "bayesian_score": 4.5709,
+      "bayesian_score": 4.5944,
       "confidence": "⚠️ 中",
-      "rank": 8,
+      "rank": 10,
       "selected": false
     },
     {
       "place_id": "ChIJCenp2aupQjQRJIA7tgbDMM0",
       "name_zh": "森 · 七七 民族本店",
       "rating": 4.7,
-      "total_ratings": 1598,
+      "total_ratings": 1618,
       "location": {
         "lat": 25.085500699999997,
         "lng": 121.47790129999998
       },
       "address": "247新北市蘆洲區鷺江里民族路33巷6號",
       "note": "早午餐餐廳",
-      "bayesian_score": 4.5706,
+      "bayesian_score": 4.5887,
       "confidence": "✅ 高",
-      "rank": 9,
+      "rank": 11,
       "selected": false
     },
     {
@@ -169,9 +201,25 @@
       },
       "address": "247新北市蘆洲區南港里長榮路697號",
       "note": "火鍋店",
-      "bayesian_score": 4.5681,
+      "bayesian_score": 4.5856,
       "confidence": "✅ 高",
-      "rank": 10,
+      "rank": 12,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJOzLSPqCpQjQRfqVXu0DI5Mo",
+      "name_zh": "樂福獨家特調蒜味麵線 蘆洲美食|蘆洲餐廳|蚵仔麵線|蘆洲必吃小吃",
+      "rating": 4.8,
+      "total_ratings": 769,
+      "location": {
+        "lat": 25.0845225,
+        "lng": 121.45851599999999
+      },
+      "address": "247新北市蘆洲區永康里長安街220巷2號",
+      "note": "餐廳",
+      "bayesian_score": 4.5802,
+      "confidence": "⚠️ 中",
+      "rank": 13,
       "selected": false
     },
     {
@@ -185,9 +233,9 @@
       },
       "address": "241新北市三重區福樂里慈愛街73號1樓",
       "note": "餐廳",
-      "bayesian_score": 4.5476,
+      "bayesian_score": 4.5729,
       "confidence": "❌ 低",
-      "rank": 11,
+      "rank": 14,
       "selected": false
     },
     {
@@ -201,9 +249,9 @@
       },
       "address": "247新北市蘆洲區保佑里三民路279-1號",
       "note": "中式餐廳",
-      "bayesian_score": 4.5313,
+      "bayesian_score": 4.5504,
       "confidence": "⚠️ 中",
-      "rank": 12,
+      "rank": 15,
       "selected": false
     },
     {
@@ -217,9 +265,9 @@
       },
       "address": "247新北市蘆洲區長安里中原路53號",
       "note": "居酒屋",
-      "bayesian_score": 4.5228,
+      "bayesian_score": 4.5467,
       "confidence": "❌ 低",
-      "rank": 13,
+      "rank": 16,
       "selected": false
     },
     {
@@ -233,169 +281,169 @@
       },
       "address": "247新北市蘆洲區永德里中原路26號",
       "note": "餐廳",
-      "bayesian_score": 4.5154,
+      "bayesian_score": 4.5388,
       "confidence": "❌ 低",
-      "rank": 14,
+      "rank": 17,
       "selected": false
     },
     {
       "place_id": "ChIJqaAEAuOpQjQRH4TZDwBj2FY",
       "name_zh": "麵匡匡拉麵食堂 蘆洲長興店 (最後點餐為休息及營業時間結束前30分鐘)",
       "rating": 4.8,
-      "total_ratings": 402,
+      "total_ratings": 403,
       "location": {
         "lat": 25.088847700000002,
         "lng": 121.46045079999999
       },
       "address": "247新北市蘆洲區正義里長興路278號",
       "note": "拉麵店",
-      "bayesian_score": 4.5108,
+      "bayesian_score": 4.5327,
       "confidence": "❌ 低",
-      "rank": 15,
+      "rank": 18,
       "selected": false
     },
     {
       "place_id": "ChIJP2x2XQupQjQRajvWLChvtFY",
       "name_zh": "意味廚房",
       "rating": 4.9,
-      "total_ratings": 277,
+      "total_ratings": 278,
       "location": {
         "lat": 25.084128699999997,
         "lng": 121.46801060000001
       },
       "address": "247新北市蘆洲區光華里光華路46巷34號一樓",
       "note": "餐廳",
-      "bayesian_score": 4.5061,
+      "bayesian_score": 4.5291,
       "confidence": "❌ 低",
-      "rank": 16,
+      "rank": 19,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJZcdQRlmpQjQRlHkXSOTakzw",
+      "name_zh": "望月 中華料理",
+      "rating": 4.7,
+      "total_ratings": 572,
+      "location": {
+        "lat": 25.088938499999998,
+        "lng": 121.46746220000001
+      },
+      "address": "247新北市蘆洲區保佑里民族路558號一樓",
+      "note": "中式餐廳",
+      "bayesian_score": 4.5262,
+      "confidence": "❌ 低",
+      "rank": 20,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJwUbK68moQjQRVCt23gW-lnE",
+      "name_zh": "嗨福食堂（無訂位服務）",
+      "rating": 4.7,
+      "total_ratings": 555,
+      "location": {
+        "lat": 25.084644700000002,
+        "lng": 121.4696234
+      },
+      "address": "247新北市蘆洲區保和里中正路110號",
+      "note": "早午餐餐廳",
+      "bayesian_score": 4.5246,
+      "confidence": "❌ 低",
+      "rank": 21,
       "selected": false
     },
     {
       "place_id": "ChIJrVbw8umpQjQR6UZpz6PWL_A",
       "name_zh": "日拾居",
       "rating": 4.7,
-      "total_ratings": 470,
+      "total_ratings": 471,
       "location": {
         "lat": 25.08516,
         "lng": 121.46917
       },
       "address": "247新北市蘆洲區保和里中正路136號",
       "note": "日式餐廳",
-      "bayesian_score": 4.4971,
+      "bayesian_score": 4.5163,
       "confidence": "❌ 低",
-      "rank": 17,
+      "rank": 22,
       "selected": false
     },
     {
       "place_id": "ChIJC05kdPCvQjQRAj0-MlofG9k",
       "name_zh": "一面之緣 襄楚麵食館【五股店】",
       "rating": 4.6,
-      "total_ratings": 744,
+      "total_ratings": 746,
       "location": {
         "lat": 25.0961675,
         "lng": 121.4488507
       },
       "address": "248新北市五股區成州里成泰路三段369之1號",
       "note": "中式餐廳",
-      "bayesian_score": 4.4887,
-      "confidence": "❌ 低",
-      "rank": 18,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJATR5a5CoQjQRZrDbYNIZ0Z8",
-      "name_zh": "金色三麥 新莊晶冠店",
-      "rating": 4.5,
-      "total_ratings": 3505,
-      "location": {
-        "lat": 25.0637169,
-        "lng": 121.45841290000001
-      },
-      "address": "242新北市新莊區福興里五工路66號1樓",
-      "note": "餐廳",
-      "bayesian_score": 4.4801,
-      "confidence": "✅ 高",
-      "rank": 19,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJ0czEqeepQjQRB3V_n5b8cUY",
-      "name_zh": "呂府陳記食堂",
-      "rating": 4.7,
-      "total_ratings": 306,
-      "location": {
-        "lat": 25.084476799999997,
-        "lng": 121.46639189999999
-      },
-      "address": "247新北市蘆洲區中原里中正路185巷72號",
-      "note": "餐廳",
-      "bayesian_score": 4.4788,
-      "confidence": "❌ 低",
-      "rank": 20,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJOX_ga7CoQjQR-hwEbI0zK38",
-      "name_zh": "食芳齋精燉牛肉麵",
-      "rating": 4.6,
-      "total_ratings": 555,
-      "location": {
-        "lat": 25.084152,
-        "lng": 121.45884389999999
-      },
-      "address": "247新北市蘆洲區永德里長安街194巷1、3號",
-      "note": "中式麵館",
-      "bayesian_score": 4.4786,
-      "confidence": "❌ 低",
-      "rank": 21,
+      "bayesian_score": 4.5044,
+      "confidence": "⚠️ 中",
+      "rank": 23,
       "selected": false
     },
     {
       "place_id": "ChIJx6bCJIepQjQRA-p7InkKm1E",
       "name_zh": "李記滷味｜五股美食推薦",
       "rating": 5,
-      "total_ratings": 124,
+      "total_ratings": 126,
       "location": {
         "lat": 25.089135799999998,
         "lng": 121.44692459999999
       },
       "address": "248新北市五股區成泰里新城八路9號",
       "note": "餐廳",
-      "bayesian_score": 4.4769,
+      "bayesian_score": 4.4982,
       "confidence": "❌ 低",
-      "rank": 22,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJv__lHs2oQjQRbadoltX-QgE",
-      "name_zh": "（葉）蘆洲手工小籠包",
-      "rating": 4.5,
-      "total_ratings": 2043,
-      "location": {
-        "lat": 25.087827900000004,
-        "lng": 121.477457
-      },
-      "address": "247新北市芦洲区信义里信義路306號",
-      "note": "餐廳",
-      "bayesian_score": 4.4719,
-      "confidence": "✅ 高",
-      "rank": 23,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJnyEz5BGpQjQRvd0oOVhaiMA",
-      "name_zh": "Kitchen CreAfe'客意直火(蘆洲長興店)最後出餐21:00",
-      "rating": 4.5,
-      "total_ratings": 1346,
-      "location": {
-        "lat": 25.0836114,
-        "lng": 121.4632654
-      },
-      "address": "247新北市蘆洲區中原里長興路35號",
-      "note": "義大利餐廳",
-      "bayesian_score": 4.4651,
-      "confidence": "⚠️ 中",
       "rank": 24,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ0czEqeepQjQRB3V_n5b8cUY",
+      "name_zh": "呂府陳記食堂",
+      "rating": 4.7,
+      "total_ratings": 307,
+      "location": {
+        "lat": 25.084476799999997,
+        "lng": 121.46639189999999
+      },
+      "address": "247新北市蘆洲區中原里中正路185巷72號",
+      "note": "餐廳",
+      "bayesian_score": 4.4974,
+      "confidence": "❌ 低",
+      "rank": 25,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJOX_ga7CoQjQR-hwEbI0zK38",
+      "name_zh": "食芳齋精燉牛肉麵",
+      "rating": 4.6,
+      "total_ratings": 557,
+      "location": {
+        "lat": 25.084152,
+        "lng": 121.45884389999999
+      },
+      "address": "247新北市蘆洲區永德里長安街194巷1、3號",
+      "note": "中式麵館",
+      "bayesian_score": 4.4947,
+      "confidence": "❌ 低",
+      "rank": 26,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJATR5a5CoQjQRZrDbYNIZ0Z8",
+      "name_zh": "金色三麥 新莊晶冠店",
+      "rating": 4.5,
+      "total_ratings": 3509,
+      "location": {
+        "lat": 25.0637169,
+        "lng": 121.45841290000001
+      },
+      "address": "242新北市新莊區福興里五工路66號1樓",
+      "note": "餐廳",
+      "bayesian_score": 4.4863,
+      "confidence": "✅ 高",
+      "rank": 27,
       "selected": false
     },
     {
@@ -409,41 +457,89 @@
       },
       "address": "247新北市蘆洲區復興里民族路310號",
       "note": "餐廳",
-      "bayesian_score": 4.4643,
+      "bayesian_score": 4.4831,
       "confidence": "❌ 低",
-      "rank": 25,
+      "rank": 28,
       "selected": false
     },
     {
       "place_id": "ChIJDX4v7F2pQjQR6xjgvHXyL-A",
       "name_zh": "喜悅美食館蘆洲豬腳飯",
       "rating": 4.7,
-      "total_ratings": 185,
+      "total_ratings": 186,
       "location": {
         "lat": 25.0840891,
         "lng": 121.4743008
       },
       "address": "247新北市蘆洲區仁復里得勝街14號",
       "note": "餐廳",
-      "bayesian_score": 4.463,
+      "bayesian_score": 4.4808,
       "confidence": "❌ 低",
-      "rank": 26,
+      "rank": 29,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJv__lHs2oQjQRbadoltX-QgE",
+      "name_zh": "（葉）蘆洲手工小籠包",
+      "rating": 4.5,
+      "total_ratings": 2045,
+      "location": {
+        "lat": 25.087827900000004,
+        "lng": 121.477457
+      },
+      "address": "247新北市芦洲区信义里信義路306號",
+      "note": "餐廳",
+      "bayesian_score": 4.4803,
+      "confidence": "✅ 高",
+      "rank": 30,
       "selected": false
     },
     {
       "place_id": "ChIJKaCFJeypQjQRne0wX6X0LPE",
       "name_zh": "心圓心食堂",
       "rating": 4.8,
-      "total_ratings": 109,
+      "total_ratings": 110,
       "location": {
         "lat": 25.0859308,
         "lng": 121.46900349999999
       },
       "address": "247新北市蘆洲區保和里保和街87號",
       "note": "餐廳",
-      "bayesian_score": 4.4587,
+      "bayesian_score": 4.4768,
       "confidence": "❌ 低",
-      "rank": 27,
+      "rank": 31,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJvxjKqxipQjQRwdLZsV3OCDE",
+      "name_zh": "秘食咖啡-蘆洲店",
+      "rating": 4.5,
+      "total_ratings": 1386,
+      "location": {
+        "lat": 25.0860463,
+        "lng": 121.4629662
+      },
+      "address": "247新北市蘆洲區長樂路53號",
+      "note": "早午餐餐廳",
+      "bayesian_score": 4.4755,
+      "confidence": "✅ 高",
+      "rank": 32,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJnyEz5BGpQjQRvd0oOVhaiMA",
+      "name_zh": "Kitchen CreAfe'客意直火(蘆洲長興店)最後出餐21:00",
+      "rating": 4.5,
+      "total_ratings": 1344,
+      "location": {
+        "lat": 25.0836114,
+        "lng": 121.4632654
+      },
+      "address": "247新北市蘆洲區中原里長興路35號",
+      "note": "義大利餐廳",
+      "bayesian_score": 4.4751,
+      "confidence": "✅ 高",
+      "rank": 33,
       "selected": false
     },
     {
@@ -457,9 +553,25 @@
       },
       "address": "247新北市蘆洲區中原里中正路263巷2號",
       "note": "餐廳",
-      "bayesian_score": 4.456,
+      "bayesian_score": 4.4731,
       "confidence": "❌ 低",
-      "rank": 28,
+      "rank": 34,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJA8TpbgCnQjQRfFho9nFS-Js",
+      "name_zh": "古厝米粉湯",
+      "rating": 4.7,
+      "total_ratings": 132,
+      "location": {
+        "lat": 25.0892297,
+        "lng": 121.43380400000001
+      },
+      "address": "248新北市五股區五福里五福路31號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.4725,
+      "confidence": "❌ 低",
+      "rank": 35,
       "selected": false
     },
     {
@@ -473,9 +585,25 @@
       },
       "address": "247新北市蘆洲區樹德里中山二路47號1樓",
       "note": "日式餐廳",
-      "bayesian_score": 4.4553,
+      "bayesian_score": 4.4723,
       "confidence": "❌ 低",
-      "rank": 29,
+      "rank": 36,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJVZ5SB1ynQjQRnraGbX5txK4",
+      "name_zh": "家香味台越美食館",
+      "rating": 4.7,
+      "total_ratings": 104,
+      "location": {
+        "lat": 25.085031599999997,
+        "lng": 121.43599059999998
+      },
+      "address": "248新北市五股區民義里民義路一段84號",
+      "note": "餐廳",
+      "bayesian_score": 4.4679,
+      "confidence": "❌ 低",
+      "rank": 37,
       "selected": false
     },
     {
@@ -489,25 +617,9 @@
       },
       "address": "24760新北市蘆洲區保新里三民路246號",
       "note": "火鍋店",
-      "bayesian_score": 4.4546,
-      "confidence": "❌ 低",
-      "rank": 30,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJ66UdCcmoQjQRSfHVWHUp4hA",
-      "name_zh": "蘆洲-總讚手作蔥餅(正宗)",
-      "rating": 4.5,
-      "total_ratings": 581,
-      "location": {
-        "lat": 25.083439799999997,
-        "lng": 121.47140689999999
-      },
-      "address": "247新北市蘆洲區得勝里成功路164號對面號",
-      "note": "餐廳",
-      "bayesian_score": 4.4524,
-      "confidence": "❌ 低",
-      "rank": 31,
+      "bayesian_score": 4.4668,
+      "confidence": "⚠️ 中",
+      "rank": 38,
       "selected": false
     },
     {
@@ -521,41 +633,57 @@
       },
       "address": "247新北市蘆洲區鷺江里三民路88號",
       "note": "餐廳",
-      "bayesian_score": 4.4487,
+      "bayesian_score": 4.4655,
       "confidence": "❌ 低",
-      "rank": 32,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJDdVeof2pQjQRqtW78FFcidk",
-      "name_zh": "越豐棧-越式美食",
-      "rating": 4.6,
-      "total_ratings": 141,
-      "location": {
-        "lat": 25.0903152,
-        "lng": 121.47005869999998
-      },
-      "address": "247新北市蘆洲區水湳街97號",
-      "note": "餐廳",
-      "bayesian_score": 4.4482,
-      "confidence": "❌ 低",
-      "rank": 33,
+      "rank": 39,
       "selected": false
     },
     {
       "place_id": "ChIJn1sSRwCnQjQRNqa45Rbj52Q",
-      "name_zh": "新之屋",
+      "name_zh": "新之屋（5/31店休一日）",
       "rating": 4.8,
-      "total_ratings": 60,
+      "total_ratings": 62,
       "location": {
         "lat": 25.085532200000003,
         "lng": 121.44409139999999
       },
       "address": "248新北市五股區成泰里芳洲一路36號",
       "note": "亞洲風味餐廳",
-      "bayesian_score": 4.448,
+      "bayesian_score": 4.4653,
       "confidence": "❌ 低",
-      "rank": 34,
+      "rank": 40,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ66UdCcmoQjQRSfHVWHUp4hA",
+      "name_zh": "蘆洲-總讚手作蔥餅(正宗)",
+      "rating": 4.5,
+      "total_ratings": 581,
+      "location": {
+        "lat": 25.083439799999997,
+        "lng": 121.47140689999999
+      },
+      "address": "247新北市蘆洲區得勝里成功路164號對面號",
+      "note": "餐廳",
+      "bayesian_score": 4.465,
+      "confidence": "❌ 低",
+      "rank": 41,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJDdVeof2pQjQRqtW78FFcidk",
+      "name_zh": "越豐棧-越式美食",
+      "rating": 4.6,
+      "total_ratings": 142,
+      "location": {
+        "lat": 25.0903152,
+        "lng": 121.47005869999998
+      },
+      "address": "247新北市蘆洲區水湳街97號",
+      "note": "餐廳",
+      "bayesian_score": 4.4641,
+      "confidence": "❌ 低",
+      "rank": 42,
       "selected": false
     },
     {
@@ -569,25 +697,25 @@
       },
       "address": "24759新北市蘆洲區仁復里得勝街121號",
       "note": "餐廳",
-      "bayesian_score": 4.4477,
+      "bayesian_score": 4.4635,
       "confidence": "❌ 低",
-      "rank": 35,
+      "rank": 43,
       "selected": false
     },
     {
       "place_id": "ChIJASwOZcuoQjQRCjMovfeTuT0",
       "name_zh": "隨意食堂",
       "rating": 4.6,
-      "total_ratings": 133,
+      "total_ratings": 134,
       "location": {
         "lat": 25.088301299999998,
         "lng": 121.4735979
       },
       "address": "247新北市蘆洲區仁愛里民權路67號",
       "note": "餐廳",
-      "bayesian_score": 4.4475,
+      "bayesian_score": 4.4634,
       "confidence": "❌ 低",
-      "rank": 36,
+      "rank": 44,
       "selected": false
     },
     {
@@ -601,25 +729,41 @@
       },
       "address": "247新北市蘆洲區保佑里中正路182號",
       "note": "日式串燒餐廳",
-      "bayesian_score": 4.4464,
+      "bayesian_score": 4.4631,
       "confidence": "❌ 低",
-      "rank": 37,
+      "rank": 45,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJD5mKIMmoQjQRgZ-At7thQSU",
+      "name_zh": "燉品食堂（現燉四種燉盅尺吋的原盅燉湯、原盅燉湯冷凍包、年菜燉全雞雞湯、滷肉飯）",
+      "rating": 4.5,
+      "total_ratings": 338,
+      "location": {
+        "lat": 25.0823937,
+        "lng": 121.47294409999999
+      },
+      "address": "247新北市蘆洲區仁復里中央路9巷7號",
+      "note": "餐廳",
+      "bayesian_score": 4.4597,
+      "confidence": "❌ 低",
+      "rank": 46,
       "selected": false
     },
     {
       "place_id": "ChIJXeEkfACpQjQRp0VNp7TZ8zY",
       "name_zh": "Neighbors Diner 美式餐廳",
       "rating": 4.6,
-      "total_ratings": 88,
+      "total_ratings": 93,
       "location": {
         "lat": 25.0899577,
         "lng": 121.44644849999999
       },
       "address": "248新北市五股區成泰里新五路三段200號1樓",
       "note": "美式餐廳",
-      "bayesian_score": 4.4432,
+      "bayesian_score": 4.4593,
       "confidence": "❌ 低",
-      "rank": 38,
+      "rank": 47,
       "selected": false
     },
     {
@@ -633,9 +777,9 @@
       },
       "address": "24844新北市五股區五福路3A2號",
       "note": "餐廳",
-      "bayesian_score": 4.4424,
+      "bayesian_score": 4.4584,
       "confidence": "❌ 低",
-      "rank": 39,
+      "rank": 48,
       "selected": false
     },
     {
@@ -649,41 +793,73 @@
       },
       "address": "247新北市蘆洲區得勝里成功路160號",
       "note": "餐廳",
-      "bayesian_score": 4.4416,
+      "bayesian_score": 4.4572,
       "confidence": "❌ 低",
-      "rank": 40,
+      "rank": 49,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJARDbM82nQjQRBOStZmtaTog",
+      "name_zh": "嘉一牛肉麵食堂（牛肉麵/水餃/蛋包飯/蓋飯）",
+      "rating": 4.6,
+      "total_ratings": 53,
+      "location": {
+        "lat": 25.0898269,
+        "lng": 121.43301040000001
+      },
+      "address": "248新北市五股區六福里五福路53號一樓",
+      "note": "台式餐廳",
+      "bayesian_score": 4.4551,
+      "confidence": "❌ 低",
+      "rank": 50,
       "selected": false
     },
     {
       "place_id": "ChIJHXg7fgCpQjQR5pex_kdvYYA",
       "name_zh": "味珍小吃店",
       "rating": 4.7,
-      "total_ratings": 23,
+      "total_ratings": 24,
       "location": {
         "lat": 25.088066299999998,
         "lng": 121.4670201
       },
       "address": "247新北市蘆洲區中原里中正路186號",
       "note": "中式餐廳",
-      "bayesian_score": 4.4381,
+      "bayesian_score": 4.4538,
       "confidence": "❌ 低",
-      "rank": 41,
+      "rank": 51,
       "selected": false
     },
     {
-      "place_id": "ChIJranCfgCpQjQRS0db2A4VnFw",
-      "name_zh": "盡心食堂",
-      "rating": 4.5,
-      "total_ratings": 82,
+      "place_id": "ChIJCzlNxxumQjQRklC7rJYe2BE",
+      "name_zh": "越南小吃",
+      "rating": 4.6,
+      "total_ratings": 36,
       "location": {
-        "lat": 25.087309100000002,
-        "lng": 121.48000139999999
+        "lat": 25.083897699999998,
+        "lng": 121.43802839999998
       },
-      "address": "247新北市蘆洲區玉清里民族路198號",
-      "note": "中式餐廳",
-      "bayesian_score": 4.4375,
+      "address": "248新北市五股區五股里成泰路二段81號",
+      "note": "越南餐廳",
+      "bayesian_score": 4.4533,
       "confidence": "❌ 低",
-      "rank": 42,
+      "rank": 52,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ02pdMuipQjQRySDfMR5BJss",
+      "name_zh": "小金越南小吃",
+      "rating": 4.8,
+      "total_ratings": 15,
+      "location": {
+        "lat": 25.0827924,
+        "lng": 121.47401089999998
+      },
+      "address": "247新北市蘆洲區仁復里中央路20巷12號",
+      "note": "越南餐廳",
+      "bayesian_score": 4.4532,
+      "confidence": "❌ 低",
+      "rank": 53,
       "selected": false
     },
     {
@@ -697,9 +873,9 @@
       },
       "address": "247新北市蘆洲區永樂里永樂街38巷39號",
       "note": "餐廳",
-      "bayesian_score": 4.4354,
+      "bayesian_score": 4.4506,
       "confidence": "❌ 低",
-      "rank": 43,
+      "rank": 54,
       "selected": false
     },
     {
@@ -713,9 +889,105 @@
       },
       "address": "248新北市五股區興珍里中興路一段143號",
       "note": "餐廳",
-      "bayesian_score": 4.4349,
+      "bayesian_score": 4.4499,
       "confidence": "❌ 低",
-      "rank": 44,
+      "rank": 55,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJLxOv-rapQjQRfnJiP_ignA8",
+      "name_zh": "悅美味食堂",
+      "rating": 4.5,
+      "total_ratings": 19,
+      "location": {
+        "lat": 25.0872364,
+        "lng": 121.4708761
+      },
+      "address": "247新北市蘆洲區保佑里三民路179號",
+      "note": "早午餐餐廳",
+      "bayesian_score": 4.4499,
+      "confidence": "❌ 低",
+      "rank": 56,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJw2xvZQCpQjQRLeJDQfOSFx0",
+      "name_zh": "客家小吃餐飲",
+      "rating": 5,
+      "total_ratings": 1,
+      "location": {
+        "lat": 25.0837014,
+        "lng": 121.47215759999999
+      },
+      "address": "247新北市蘆洲區得勝里成功路158巷7號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.4496,
+      "confidence": "❌ 低",
+      "rank": 57,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJy23bdQCpQjQRWbENN2wr5hw",
+      "name_zh": "蚵仔麵線，羹麵，攤販",
+      "rating": 4.5,
+      "total_ratings": 10,
+      "location": {
+        "lat": 25.0652808,
+        "lng": 121.45589120000001
+      },
+      "address": "242新北市五股區興珍里五工路102號",
+      "note": "餐廳",
+      "bayesian_score": 4.4496,
+      "confidence": "❌ 低",
+      "rank": 58,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ6f5kN7yvQjQRGr_7u3zz-nM",
+      "name_zh": "來來小吃店",
+      "rating": 4.5,
+      "total_ratings": 4,
+      "location": {
+        "lat": 25.105721199999998,
+        "lng": 121.4836316
+      },
+      "address": "111臺北市士林區富洲里延平北路八段",
+      "note": "餐廳",
+      "bayesian_score": 4.4494,
+      "confidence": "❌ 低",
+      "rank": 59,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ1S2wAQCpQjQRKNRENqV9lO0",
+      "name_zh": "傳統小吃",
+      "rating": 4,
+      "total_ratings": 1,
+      "location": {
+        "lat": 25.094003700000002,
+        "lng": 121.44609009999999
+      },
+      "address": "248新北市五股區成功里成泰路三段245巷11號",
+      "note": "餐廳",
+      "bayesian_score": 4.4489,
+      "confidence": "❌ 低",
+      "rank": 60,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJPZ1oO2enQjQRLPA-maP0ncI",
+      "name_zh": "五股私廚",
+      "rating": 3.7,
+      "total_ratings": 3,
+      "location": {
+        "lat": 25.0851988,
+        "lng": 121.44466309999999
+      },
+      "address": "248新北市五股區成泰里芳洲路14號",
+      "note": "亞洲風味餐廳",
+      "bayesian_score": 4.4475,
+      "confidence": "❌ 低",
+      "rank": 61,
       "selected": false
     },
     {
@@ -729,25 +1001,25 @@
       },
       "address": "248新北市五股區民義里工商路148-12號",
       "note": "中式餐廳",
-      "bayesian_score": 4.4326,
+      "bayesian_score": 4.4473,
       "confidence": "❌ 低",
-      "rank": 45,
+      "rank": 62,
       "selected": false
     },
     {
-      "place_id": "ChIJF0exFwOmQjQRHsSJ_DCuwjk",
-      "name_zh": "正宗泰式小吃店",
+      "place_id": "ChIJranCfgCpQjQRS0db2A4VnFw",
+      "name_zh": "盡心食堂",
       "rating": 4.4,
-      "total_ratings": 139,
+      "total_ratings": 85,
       "location": {
-        "lat": 25.0884586,
-        "lng": 121.4418034
+        "lat": 25.087309100000002,
+        "lng": 121.48000139999999
       },
-      "address": "248新北市五股區成泰里成泰路三段29號",
-      "note": "泰國餐廳",
-      "bayesian_score": 4.4312,
+      "address": "247新北市蘆洲區玉清里民族路198號",
+      "note": "中式餐廳",
+      "bayesian_score": 4.4462,
       "confidence": "❌ 低",
-      "rank": 46,
+      "rank": 63,
       "selected": false
     },
     {
@@ -761,9 +1033,41 @@
       },
       "address": "247新北市蘆洲區九芎街１Ｏ５号",
       "note": "餐廳",
-      "bayesian_score": 4.4308,
+      "bayesian_score": 4.4449,
       "confidence": "❌ 低",
-      "rank": 47,
+      "rank": 64,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJF0exFwOmQjQRHsSJ_DCuwjk",
+      "name_zh": "正宗泰式小吃店",
+      "rating": 4.4,
+      "total_ratings": 139,
+      "location": {
+        "lat": 25.0884586,
+        "lng": 121.4418034
+      },
+      "address": "248新北市五股區成泰里成泰路三段29號",
+      "note": "泰國餐廳",
+      "bayesian_score": 4.4444,
+      "confidence": "❌ 低",
+      "rank": 65,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ2a4BkLKpQjQR5EpFp9mIfCc",
+      "name_zh": "松深夜食堂",
+      "rating": 4.4,
+      "total_ratings": 173,
+      "location": {
+        "lat": 25.078587799999998,
+        "lng": 121.4901886
+      },
+      "address": "241新北市三重區溪美里自強路四段68號",
+      "note": "餐廳",
+      "bayesian_score": 4.4434,
+      "confidence": "❌ 低",
+      "rank": 66,
       "selected": false
     },
     {
@@ -777,9 +1081,25 @@
       },
       "address": "247新北市蘆洲區水湳里民族路381號",
       "note": "中式餐廳",
-      "bayesian_score": 4.4285,
+      "bayesian_score": 4.4423,
       "confidence": "❌ 低",
-      "rank": 48,
+      "rank": 67,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJc6IOPMuoQjQRf5l70pYvmz4",
+      "name_zh": "有味小吃店",
+      "rating": 4.3,
+      "total_ratings": 70,
+      "location": {
+        "lat": 25.089436799999998,
+        "lng": 121.4722795
+      },
+      "address": "247新北市蘆洲區水湳里民義街47號",
+      "note": "餐廳",
+      "bayesian_score": 4.4415,
+      "confidence": "❌ 低",
+      "rank": 68,
       "selected": false
     },
     {
@@ -793,9 +1113,9 @@
       },
       "address": "248新北市五股區成泰里成泰路三段51之2號",
       "note": "中式餐廳",
-      "bayesian_score": 4.4268,
+      "bayesian_score": 4.4403,
       "confidence": "❌ 低",
-      "rank": 49,
+      "rank": 69,
       "selected": false
     },
     {
@@ -809,25 +1129,25 @@
       },
       "address": "247新北市蘆洲區光明里光華路70巷5號",
       "note": "日式餐廳",
-      "bayesian_score": 4.424,
+      "bayesian_score": 4.437,
       "confidence": "❌ 低",
-      "rank": 50,
+      "rank": 70,
       "selected": false
     },
     {
       "place_id": "ChIJWyv0euepQjQRPQp8JmV7xB8",
       "name_zh": "高田食堂 民族店",
       "rating": 4.4,
-      "total_ratings": 663,
+      "total_ratings": 668,
       "location": {
         "lat": 25.0866369,
         "lng": 121.47990539999999
       },
       "address": "247新北市蘆洲區民族路174號",
       "note": "日式餐廳",
-      "bayesian_score": 4.4237,
-      "confidence": "❌ 低",
-      "rank": 51,
+      "bayesian_score": 4.4324,
+      "confidence": "⚠️ 中",
+      "rank": 71,
       "selected": false
     },
     {
@@ -841,9 +1161,9 @@
       },
       "address": "247新北市蘆洲區中正路203號",
       "note": "日式餐廳",
-      "bayesian_score": 4.4221,
+      "bayesian_score": 4.4301,
       "confidence": "⚠️ 中",
-      "rank": 52,
+      "rank": 72,
       "selected": false
     },
     {
@@ -857,41 +1177,41 @@
       },
       "address": "247新北市蘆洲區光榮路32號",
       "note": "韓式燒烤料理餐廳",
-      "bayesian_score": 4.4153,
+      "bayesian_score": 4.4201,
       "confidence": "✅ 高",
-      "rank": 53,
+      "rank": 73,
       "selected": false
     },
     {
       "place_id": "ChIJeTpqO7GoQjQRJ3Je8Yg9GtI",
       "name_zh": "蔡記隆府 蘆洲店",
       "rating": 4.4,
-      "total_ratings": 2221,
+      "total_ratings": 2231,
       "location": {
         "lat": 25.0856793,
         "lng": 121.461743
       },
       "address": "247新北市蘆洲區正義里長興路158巷1號",
       "note": "火鍋店",
-      "bayesian_score": 4.4138,
+      "bayesian_score": 4.418,
       "confidence": "✅ 高",
-      "rank": 54,
+      "rank": 74,
       "selected": false
     },
     {
       "place_id": "ChIJOwLfhrqoQjQRXyzHs5qmEyk",
       "name_zh": "高田食堂 長安店（日式料理）",
       "rating": 4.4,
-      "total_ratings": 2254,
+      "total_ratings": 2255,
       "location": {
         "lat": 25.082450599999998,
         "lng": 121.45968350000001
       },
       "address": "247新北市蘆洲區長安里長安街223號",
       "note": "日式餐廳",
-      "bayesian_score": 4.4137,
+      "bayesian_score": 4.4179,
       "confidence": "✅ 高",
-      "rank": 55,
+      "rank": 75,
       "selected": false
     },
     {
@@ -905,25 +1225,9 @@
       },
       "address": "247新北市蘆洲區正義里光榮路120巷20號",
       "note": "餐廳",
-      "bayesian_score": 4.4044,
+      "bayesian_score": 4.4129,
       "confidence": "❌ 低",
-      "rank": 56,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJZ-ALqiuvQjQReVtksd0Jnt8",
-      "name_zh": "羽葉麻辣火鍋 三重都會館",
-      "rating": 4.4,
-      "total_ratings": 14729,
-      "location": {
-        "lat": 25.089323800000003,
-        "lng": 121.48826919999999
-      },
-      "address": "241新北市三重區富貴里集賢路157號",
-      "note": "火鍋店",
-      "bayesian_score": 4.4032,
-      "confidence": "✅ 高",
-      "rank": 57,
+      "rank": 76,
       "selected": false
     },
     {
@@ -937,25 +1241,41 @@
       },
       "address": "247新北市蘆洲區水湳里民族路426巷18-1號",
       "note": "日式餐廳",
-      "bayesian_score": 4.3974,
+      "bayesian_score": 4.405,
       "confidence": "❌ 低",
-      "rank": 58,
+      "rank": 77,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJZ-ALqiuvQjQReVtksd0Jnt8",
+      "name_zh": "羽葉麻辣火鍋 三重都會館",
+      "rating": 4.4,
+      "total_ratings": 14814,
+      "location": {
+        "lat": 25.089323800000003,
+        "lng": 121.48826919999999
+      },
+      "address": "241新北市三重區富貴里集賢路157號",
+      "note": "火鍋店",
+      "bayesian_score": 4.4039,
+      "confidence": "✅ 高",
+      "rank": 78,
       "selected": false
     },
     {
       "place_id": "ChIJc3bMaCqpQjQRulEnqiFCOEk",
       "name_zh": "萬朋冰室(港式、茶餐廳)",
       "rating": 4.3,
-      "total_ratings": 661,
+      "total_ratings": 670,
       "location": {
         "lat": 25.0818794,
         "lng": 121.46973799999998
       },
       "address": "247新北市蘆洲區中華里正和街31號",
       "note": "餐廳",
-      "bayesian_score": 4.3934,
-      "confidence": "❌ 低",
-      "rank": 59,
+      "bayesian_score": 4.3982,
+      "confidence": "⚠️ 中",
+      "rank": 79,
       "selected": false
     },
     {
@@ -969,9 +1289,25 @@
       },
       "address": "247新北市蘆洲區玉清里信義路222巷23號",
       "note": "中式餐廳",
-      "bayesian_score": 4.391,
+      "bayesian_score": 4.3977,
       "confidence": "❌ 低",
-      "rank": 60,
+      "rank": 80,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ4dPIkcKoQjQRJ8Txq-EagXs",
+      "name_zh": "順路來小吃",
+      "rating": 3.3,
+      "total_ratings": 64,
+      "location": {
+        "lat": 25.068806,
+        "lng": 121.47782110000001
+      },
+      "address": "241新北市三重區福田里三民街300巷4號",
+      "note": "餐廳",
+      "bayesian_score": 4.3949,
+      "confidence": "❌ 低",
+      "rank": 81,
       "selected": false
     },
     {
@@ -985,9 +1321,9 @@
       },
       "address": "247新北市蘆洲區得勝里成功路158巷7號",
       "note": "越南餐廳",
-      "bayesian_score": 4.3879,
+      "bayesian_score": 4.3944,
       "confidence": "❌ 低",
-      "rank": 61,
+      "rank": 82,
       "selected": false
     },
     {
@@ -1001,9 +1337,9 @@
       },
       "address": "247新北市蘆洲區永康里永康街47號",
       "note": "餐廳",
-      "bayesian_score": 4.3848,
+      "bayesian_score": 4.3903,
       "confidence": "❌ 低",
-      "rank": 62,
+      "rank": 83,
       "selected": false
     },
     {
@@ -1017,9 +1353,9 @@
       },
       "address": "248新北市五股區更寮里中興路二段182巷16號",
       "note": "餐廳",
-      "bayesian_score": 4.3788,
+      "bayesian_score": 4.3829,
       "confidence": "❌ 低",
-      "rank": 63,
+      "rank": 84,
       "selected": false
     },
     {
@@ -1033,9 +1369,9 @@
       },
       "address": "248新北市五股區五股里工商路122號",
       "note": "餐廳",
-      "bayesian_score": 4.3776,
+      "bayesian_score": 4.3825,
       "confidence": "❌ 低",
-      "rank": 64,
+      "rank": 85,
       "selected": false
     },
     {
@@ -1049,41 +1385,41 @@
       },
       "address": "247新北市蘆洲區中原里長興路52號",
       "note": "餐廳",
-      "bayesian_score": 4.377,
+      "bayesian_score": 4.3812,
       "confidence": "❌ 低",
-      "rank": 65,
+      "rank": 86,
       "selected": false
     },
     {
       "place_id": "ChIJr2qTTMmoQjQR8pd5zHVQcrQ",
       "name_zh": "大根食堂",
       "rating": 4.1,
-      "total_ratings": 360,
+      "total_ratings": 361,
       "location": {
         "lat": 25.0819042,
         "lng": 121.47546759999997
       },
       "address": "247新北市蘆洲區恆德里中山二路10號",
       "note": "日式餐廳",
-      "bayesian_score": 4.3699,
+      "bayesian_score": 4.3729,
       "confidence": "❌ 低",
-      "rank": 66,
+      "rank": 87,
       "selected": false
     },
     {
       "place_id": "ChIJ8W8vWLKoQjQRgPkp1jcovlY",
       "name_zh": "桔園食館",
       "rating": 4.2,
-      "total_ratings": 582,
+      "total_ratings": 585,
       "location": {
         "lat": 25.0908262,
         "lng": 121.45915529999999
       },
       "address": "247新北市蘆洲區永樂里永平街20號",
       "note": "中式餐廳",
-      "bayesian_score": 4.3691,
+      "bayesian_score": 4.3715,
       "confidence": "❌ 低",
-      "rank": 67,
+      "rank": 88,
       "selected": false
     },
     {
@@ -1097,25 +1433,25 @@
       },
       "address": "247新北市蘆洲區正義里光榮路51號",
       "note": "日式餐廳",
-      "bayesian_score": 4.3285,
+      "bayesian_score": 4.3269,
       "confidence": "⚠️ 中",
-      "rank": 68,
+      "rank": 89,
       "selected": false
     },
     {
       "place_id": "ChIJU3oc6uqpQjQRVYmyWbSPiqA",
       "name_zh": "四木欣福 蘆洲店",
       "rating": 4.1,
-      "total_ratings": 1084,
+      "total_ratings": 1087,
       "location": {
         "lat": 25.0886818,
         "lng": 121.4791379
       },
       "address": "247新北市芦洲区楼厝里民族路248-1號1樓",
       "note": "中式餐廳",
-      "bayesian_score": 4.2947,
+      "bayesian_score": 4.2895,
       "confidence": "⚠️ 中",
-      "rank": 69,
+      "rank": 90,
       "selected": false
     },
     {
@@ -1129,89 +1465,89 @@
       },
       "address": "247新北市蘆洲區仁德里三民路503號",
       "note": "中式麵館",
-      "bayesian_score": 4.2809,
+      "bayesian_score": 4.2739,
       "confidence": "⚠️ 中",
-      "rank": 70,
+      "rank": 91,
       "selected": false
     },
     {
       "place_id": "ChIJJepQy0KpQjQRi8UTeh2p0rU",
       "name_zh": "九江釣蝦場",
       "rating": 4,
-      "total_ratings": 1009,
+      "total_ratings": 1011,
       "location": {
         "lat": 25.071758,
         "lng": 121.47293940000002
       },
       "address": "241新北市三重區大有里中正北路357號",
       "note": "中式餐廳",
-      "bayesian_score": 4.2605,
+      "bayesian_score": 4.2519,
       "confidence": "⚠️ 中",
-      "rank": 71,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJmX9M6MyoQjQRyc4-df_dfjE",
-      "name_zh": "好樂迪KTV 蘆洲店",
-      "rating": 3.4,
-      "total_ratings": 534,
-      "location": {
-        "lat": 25.085711699999997,
-        "lng": 121.4607909
-      },
-      "address": "247新北市蘆洲區正義里長榮路238號",
-      "note": "",
-      "bayesian_score": 4.1646,
-      "confidence": "❌ 低",
-      "rank": 72,
+      "rank": 92,
       "selected": false
     },
     {
       "place_id": "ChIJrYPwfCqvQjQRzfP44nsPccQ",
       "name_zh": "くら寿司 藏壽司 三重集賢路店",
       "rating": 4.1,
-      "total_ratings": 8724,
+      "total_ratings": 8735,
       "location": {
         "lat": 25.0889852,
         "lng": 121.4908967
       },
       "address": "241新北市三重區富貴里集賢路99號",
       "note": "壽司店",
-      "bayesian_score": 4.1494,
+      "bayesian_score": 4.1449,
       "confidence": "✅ 高",
-      "rank": 73,
+      "rank": 93,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJmX9M6MyoQjQRyc4-df_dfjE",
+      "name_zh": "好樂迪KTV 蘆洲店",
+      "rating": 3.4,
+      "total_ratings": 535,
+      "location": {
+        "lat": 25.085711699999997,
+        "lng": 121.4607909
+      },
+      "address": "247新北市蘆洲區正義里長榮路238號",
+      "note": "",
+      "bayesian_score": 4.1417,
+      "confidence": "❌ 低",
+      "rank": 94,
       "selected": false
     },
     {
       "place_id": "ChIJZ76lnbGoQjQRyBmQc3TcmDY",
       "name_zh": "麥當勞-蘆洲長榮餐廳－設有得來速",
       "rating": 4,
-      "total_ratings": 3527,
+      "total_ratings": 3534,
       "location": {
         "lat": 25.0872332,
         "lng": 121.4599015
       },
       "address": "247新北市蘆洲區正義里長榮路376號378號",
       "note": "速食餐廳",
-      "bayesian_score": 4.1304,
+      "bayesian_score": 4.1201,
       "confidence": "✅ 高",
-      "rank": 74,
+      "rank": 95,
       "selected": false
     },
     {
       "place_id": "ChIJneZTgdaoQjQRZGnXGnN8gug",
       "name_zh": "玉知高華知高飯",
       "rating": 4,
-      "total_ratings": 4182,
+      "total_ratings": 4186,
       "location": {
         "lat": 25.0811758,
         "lng": 121.48813609999998
       },
       "address": "241新北市三重區慈惠里溪尾街206號",
       "note": "台式餐廳",
-      "bayesian_score": 4.1154,
+      "bayesian_score": 4.1058,
       "confidence": "✅ 高",
-      "rank": 75,
+      "rank": 96,
       "selected": false
     },
     {
@@ -1225,89 +1561,89 @@
       },
       "address": "247新北市蘆洲區忠義里長榮路37號",
       "note": "餐廳",
-      "bayesian_score": 4.075,
+      "bayesian_score": 4.05,
       "confidence": "⚠️ 中",
-      "rank": 76,
+      "rank": 97,
       "selected": false
     },
     {
       "place_id": "ChIJIxNEQqKvQjQR3JxSF4I_krI",
       "name_zh": "蝦樂寶休閒釣蝦場",
       "rating": 3.5,
-      "total_ratings": 1394,
+      "total_ratings": 1400,
       "location": {
         "lat": 25.0897394,
         "lng": 121.4850512
       },
       "address": "241新北市蘆洲區樓厝里五華街326之2號",
       "note": "海鮮餐廳",
-      "bayesian_score": 3.9864,
-      "confidence": "⚠️ 中",
-      "rank": 77,
+      "bayesian_score": 3.9553,
+      "confidence": "✅ 高",
+      "rank": 98,
       "selected": false
     },
     {
       "place_id": "ChIJMaoCeiGpQjQRAzeR_OtETBM",
       "name_zh": "麥當勞-三重三和餐廳－設有得來速",
       "rating": 3.8,
-      "total_ratings": 4226,
+      "total_ratings": 4235,
       "location": {
         "lat": 25.079092799999998,
         "lng": 121.48167439999999
       },
       "address": "241新北市三重區永清里三和路四段392-1號",
       "note": "速食餐廳",
-      "bayesian_score": 3.9673,
+      "bayesian_score": 3.9516,
       "confidence": "✅ 高",
-      "rank": 78,
-      "selected": false
-    },
-    {
-      "place_id": "ChIJ-yKhmBumQjQRKhx51ETIwYc",
-      "name_zh": "麥當勞-五股成泰餐廳",
-      "rating": 3.7,
-      "total_ratings": 2661,
-      "location": {
-        "lat": 25.0847493,
-        "lng": 121.4385439
-      },
-      "address": "248新北市五股区五股里成泰路二段121號1樓",
-      "note": "速食餐廳",
-      "bayesian_score": 3.9663,
-      "confidence": "✅ 高",
-      "rank": 79,
+      "rank": 99,
       "selected": false
     },
     {
       "place_id": "ChIJ46HbS86oQjQRKwTE634wtz0",
       "name_zh": "海霸王 蘆洲店 HaiPaWang Luzhou Store",
       "rating": 3.8,
-      "total_ratings": 4481,
+      "total_ratings": 4485,
       "location": {
         "lat": 25.0816559,
         "lng": 121.47840119999998
       },
       "address": "247新北市蘆洲區恆德里中山一路88號",
       "note": "海鮮餐廳",
-      "bayesian_score": 3.9602,
+      "bayesian_score": 3.9451,
       "confidence": "✅ 高",
-      "rank": 80,
+      "rank": 100,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ-yKhmBumQjQRKhx51ETIwYc",
+      "name_zh": "麥當勞-五股成泰餐廳",
+      "rating": 3.7,
+      "total_ratings": 2665,
+      "location": {
+        "lat": 25.0847493,
+        "lng": 121.4385439
+      },
+      "address": "248新北市五股区五股里成泰路二段121號1樓",
+      "note": "速食餐廳",
+      "bayesian_score": 3.9444,
+      "confidence": "✅ 高",
+      "rank": 101,
       "selected": false
     },
     {
       "place_id": "ChIJfW90X7WoQjQRmV-vF0SiFyg",
       "name_zh": "麥當勞-蘆洲三民餐廳",
       "rating": 3.5,
-      "total_ratings": 3225,
+      "total_ratings": 3242,
       "location": {
         "lat": 25.087169799999998,
         "lng": 121.471551
       },
       "address": "247新北市蘆洲區仁愛里三民路116號",
       "note": "速食餐廳",
-      "bayesian_score": 3.7985,
+      "bayesian_score": 3.7702,
       "confidence": "✅ 高",
-      "rank": 81,
+      "rank": 102,
       "selected": false
     }
   ]

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJOycaZDKfaDQR88d2zcnaXAQ",
+  "name_zh": "來睏民宿/花蓮電梯包棟民宿/特斯拉充電樁",
+  "name_lang": "zh",
+  "rating": 5,
+  "total_ratings": 5,
+  "location": {
+    "lat": 24.03195,
+    "lng": 121.60251310000001
+  },
+  "address": "971花蓮縣新城鄉北埔村民族路81號",
+  "primary_type": "private_guest_room",
+  "distance_km": 2.51,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

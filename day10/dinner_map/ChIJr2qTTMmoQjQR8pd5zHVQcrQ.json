@@ -3,7 +3,7 @@
   "name_zh": "大根食堂",
   "name_lang": "zh-TW",
   "rating": 4.1,
-  "total_ratings": 360,
+  "total_ratings": 361,
   "location": {
     "lat": 25.0819042,
     "lng": 121.47546759999997
@@ -12,7 +12,7 @@
   "primary_type": "japanese_restaurant",
   "primary_type_label": "日式餐廳",
   "distance_km": 1.47,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "日式餐廳",
   "name_is_ascii": false
 }

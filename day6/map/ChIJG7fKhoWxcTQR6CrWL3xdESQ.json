@@ -1,0 +1,21 @@
+{
+  "place_id": "ChIJG7fKhoWxcTQR6CrWL3xdESQ",
+  "name_zh": "墾丁大街",
+  "rating": 3.8,
+  "total_ratings": 21641,
+  "location": {
+    "lat": 21.9458096,
+    "lng": 120.79708029999999
+  },
+  "source": "api_2026-06-02",
+  "opening_hours_text": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "editorial_summary": "This street becomes a lively market at night, when it is filled with food stalls & street vendors."
+}

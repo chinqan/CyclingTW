@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJWRxtZuadaDQRXRIhV7zAGFU",
+  "name_zh": "米里民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 452,
+  "location": {
+    "lat": 24.047720899999998,
+    "lng": 121.6099355
+  },
+  "address": "971花蓮縣新城鄉康樂村康平街36號",
+  "primary_type": "hotel",
+  "distance_km": 2.52,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

@@ -3,7 +3,7 @@
   "name_zh": "玉里新興街燒餅店",
   "name_lang": "zh-TW",
   "rating": 4.3,
-  "total_ratings": 926,
+  "total_ratings": 929,
   "location": {
     "lat": 23.3326483,
     "lng": 121.31442820000001
@@ -12,7 +12,7 @@
   "primary_type": "breakfast_restaurant",
   "primary_type_label": "早餐店",
   "distance_km": 0.3,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "早餐店",
   "name_is_ascii": false
 }

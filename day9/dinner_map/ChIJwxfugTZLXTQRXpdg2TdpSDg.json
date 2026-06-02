@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJwxfugTZLXTQRXpdg2TdpSDg",
+  "name_zh": "君浩美食坊(公休日見IG或臉書公告）",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 1361,
+  "location": {
+    "lat": 25.245962199999997,
+    "lng": 121.6339924
+  },
+  "address": "208新北市金山區萬壽里1之1號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 2.72,
+  "source": "api_2026-06-02",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

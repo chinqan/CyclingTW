@@ -3,7 +3,7 @@
   "name_zh": "天慈寶軒蔬食",
   "name_lang": "zh-TW",
   "rating": 4.7,
-  "total_ratings": 444,
+  "total_ratings": 446,
   "location": {
     "lat": 23.336339799999998,
     "lng": 121.3195756
@@ -12,7 +12,7 @@
   "primary_type": "vegetarian_restaurant",
   "primary_type_label": "素食餐廳",
   "distance_km": 0.96,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "素食餐廳",
   "name_is_ascii": false
 }

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJV-ns-sC1bjQRv4KitSZCAkg",
+  "name_zh": "傳統魯肉米糕豬腸湯",
+  "name_lang": "zh-TW",
+  "rating": 4.3,
+  "total_ratings": 16,
+  "location": {
+    "lat": 23.799561399999998,
+    "lng": 120.4591188
+  },
+  "address": "648雲林縣西螺鎮漢光里建興路211號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.35,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJGY5m37ifaDQRY8BWLS0J2_w",
+  "name_zh": "莎莉好食Sarlee's（營業日請參考IG、臉書粉專）",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 823,
+  "location": {
+    "lat": 24.0266757,
+    "lng": 121.63064439999998
+  },
+  "address": "971花蓮縣新城鄉大漢村七星街106號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.63,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

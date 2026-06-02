@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJVzQYHlZLXTQR7OzGqeJkeAE",
+  "name_zh": "真贊美食廚坊",
+  "name_lang": "zh-TW",
+  "rating": 4.2,
+  "total_ratings": 44,
+  "location": {
+    "lat": 25.221617199999997,
+    "lng": 121.63464640000001
+  },
+  "address": "208新北市金山區金美里仁愛路78巷1號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.37,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

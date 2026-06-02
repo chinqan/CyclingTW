@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJB6xFOfSpQjQR332PIX2Ds0A",
+  "name_zh": "螢河義麵坊（請營業時間來電）",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 1425,
+  "location": {
+    "lat": 25.0824902,
+    "lng": 121.46820199999999
+  },
+  "address": "247新北市蘆洲區中華里光華路73巷3號1F",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.85,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

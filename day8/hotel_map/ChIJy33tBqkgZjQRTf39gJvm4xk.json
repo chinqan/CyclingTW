@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJy33tBqkgZjQRTf39gJvm4xk",
+  "name_zh": "七星潭燈塔民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 272,
+  "location": {
+    "lat": 24.02683,
+    "lng": 121.63125389999999
+  },
+  "address": "97143花蓮縣新城鄉大漢村七星街59號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.66,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

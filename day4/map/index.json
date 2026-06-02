@@ -32,7 +32,7 @@
       "name_zh": "橋頭糖廠",
       "csv_type": "景點",
       "rating": 4.2,
-      "total_ratings": 7575,
+      "total_ratings": 7590,
       "location": {
         "lat": 22.755686000000004,
         "lng": 120.31427319999999
@@ -171,18 +171,6 @@
       "source": "along_2026-06-02"
     },
     {
-      "place_id": "ChIJa9dDzukKbjQReid_dTXZiEc",
-      "name_zh": "茄萣濕地公園",
-      "csv_type": "景點",
-      "rating": 4.3,
-      "total_ratings": 1272,
-      "location": {
-        "lat": 22.883355599999998,
-        "lng": 120.1976284
-      },
-      "source": "along_2026-06-02"
-    },
-    {
       "place_id": "ChIJlyYmNkV3bjQRJUahKM1EfhA",
       "name_zh": "大涼生態公園榕樹廣場",
       "csv_type": "景點",
@@ -227,30 +215,6 @@
       "location": {
         "lat": 22.879456299999998,
         "lng": 120.239611
-      },
-      "source": "along_2026-06-02"
-    },
-    {
-      "place_id": "ChIJMwoLNSF0bjQRPDMC-i3Tuy0",
-      "name_zh": "巴克禮紀念公園",
-      "csv_type": "景點",
-      "rating": 4.4,
-      "total_ratings": 7232,
-      "location": {
-        "lat": 22.9719929,
-        "lng": 120.2225874
-      },
-      "source": "along_2026-06-02"
-    },
-    {
-      "place_id": "ChIJERA_uHV1bjQRY5tqptC_lNQ",
-      "name_zh": "喜樹老街",
-      "csv_type": "景點",
-      "rating": 3.8,
-      "total_ratings": 435,
-      "location": {
-        "lat": 22.940389099999997,
-        "lng": 120.17779709999999
       },
       "source": "along_2026-06-02"
     },
@@ -339,18 +303,6 @@
       "source": "along_2026-06-02"
     },
     {
-      "place_id": "ChIJMfvqrH7icTQRRDEgxc43Bbw",
-      "name_zh": "林園安樂樓",
-      "csv_type": "景點",
-      "rating": 3.8,
-      "total_ratings": 555,
-      "location": {
-        "lat": 22.505613,
-        "lng": 120.39513989999999
-      },
-      "source": "along_2026-06-02"
-    },
-    {
       "place_id": "ChIJQXeUPYfhcTQR96AD2e83NXY",
       "name_zh": "海之坵",
       "csv_type": "景點",
@@ -435,16 +387,6 @@
       "source": "along_2026-06-02"
     },
     {
-      "place_id": "ChIJCwN--uTZbTQRZMhcv_8gUr0",
-      "name_zh": "7-ELEVEN 聖安門市",
-      "csv_type": "便利商店",
-      "location": {
-        "lat": 23.0658586,
-        "lng": 120.1280074
-      },
-      "source": "along_2026-06-02"
-    },
-    {
       "place_id": "ChIJdTA4tch3bjQRPvI_G0bRxX4",
       "name_zh": "7-ELEVEN 海裕門市",
       "csv_type": "便利商店",
@@ -475,32 +417,12 @@
       "source": "along_2026-06-02"
     },
     {
-      "place_id": "ChIJG9F6KjnYbTQRhFnv1_ReCh0",
-      "name_zh": "7-ELEVEN 城中門市",
-      "csv_type": "便利商店",
-      "location": {
-        "lat": 23.062219,
-        "lng": 120.1296331
-      },
-      "source": "along_2026-06-02"
-    },
-    {
       "place_id": "ChIJgyOTptt1bjQR1o79FrjYVxQ",
       "name_zh": "7-ELEVEN 國宅門市",
       "csv_type": "便利商店",
       "location": {
         "lat": 22.974992699999998,
         "lng": 120.18964899999999
-      },
-      "source": "along_2026-06-02"
-    },
-    {
-      "place_id": "ChIJgVYEUL51bjQRy8r4QjMPeGM",
-      "name_zh": "7-ELEVEN 鯤鯓門市",
-      "csv_type": "便利商店",
-      "location": {
-        "lat": 22.959166699999997,
-        "lng": 120.1841667
       },
       "source": "along_2026-06-02"
     },
@@ -977,30 +899,6 @@
       "source": "along_2026-06-02"
     },
     {
-      "place_id": "ChIJu86AwMsKbjQRsm9JRqlAJFI",
-      "name_zh": "郎海鮮燒烤（茄萣）",
-      "csv_type": "餐廳大休",
-      "rating": 4.2,
-      "total_ratings": 1542,
-      "location": {
-        "lat": 22.892725199999997,
-        "lng": 120.1866092
-      },
-      "source": "along_2026-06-02"
-    },
-    {
-      "place_id": "ChIJIw7E3Uh1bjQRw9X04kBbBS4",
-      "name_zh": "長鱻魚翅火鍋",
-      "csv_type": "餐廳大休",
-      "rating": 4.6,
-      "total_ratings": 972,
-      "location": {
-        "lat": 22.9063862,
-        "lng": 120.1780421
-      },
-      "source": "along_2026-06-02"
-    },
-    {
       "place_id": "ChIJi5Y4LOMNbjQRkyjnP_fnBQk",
       "name_zh": "大港水海鮮店",
       "csv_type": "餐廳大休",
@@ -1045,18 +943,6 @@
       "location": {
         "lat": 22.854652599999998,
         "lng": 120.2626193
-      },
-      "source": "along_2026-06-02"
-    },
-    {
-      "place_id": "ChIJLXrpOiUPbjQRYoFGfG11LJA",
-      "name_zh": "𝐒𝐈𝐈𝐍 𝐙𝐞𝐮 晨照餐廳-橋頭",
-      "csv_type": "餐廳大休",
-      "rating": 5,
-      "total_ratings": 213,
-      "location": {
-        "lat": 22.759067899999998,
-        "lng": 120.31031899999999
       },
       "source": "along_2026-06-02"
     },
@@ -1229,18 +1115,6 @@
       "source": "along_2026-06-02"
     },
     {
-      "place_id": "ChIJWTbKDY_hcTQRqf3RvetynZc",
-      "name_zh": "東港華僑市場魚莊黑鮪魚生魚片、握壽司專賣店（212）",
-      "csv_type": "餐廳大休",
-      "rating": 4.7,
-      "total_ratings": 3060,
-      "location": {
-        "lat": 22.468249399999998,
-        "lng": 120.44347769999999
-      },
-      "source": "along_2026-06-02"
-    },
-    {
       "place_id": "ChIJKQLTSXvjcTQRoda5K_53qlQ",
       "name_zh": "良心の食材",
       "csv_type": "餐廳大休",
@@ -1289,30 +1163,6 @@
       "source": "along_2026-06-02"
     },
     {
-      "place_id": "ChIJMTD9H3J1bjQRC0l1HyDH3rQ",
-      "name_zh": "黃金海岸",
-      "csv_type": "景點",
-      "rating": 4.3,
-      "total_ratings": 10170,
-      "location": {
-        "lat": 22.931430100000004,
-        "lng": 120.1764427
-      },
-      "source": "api_2026-06-02"
-    },
-    {
-      "place_id": "ChIJa0rfrnZ1bjQRMtrh_PYElEg",
-      "name_zh": "黃金海岸 喜樹秘境",
-      "csv_type": "景點",
-      "rating": 4.4,
-      "total_ratings": 919,
-      "location": {
-        "lat": 22.937867,
-        "lng": 120.17582000000002
-      },
-      "source": "api_2026-06-02"
-    },
-    {
       "place_id": "ChIJ8Ws4GHvicTQRUCR9hKdV_Cs",
       "name_zh": "7-ELEVEN 霖園門市(現萃茶)",
       "csv_type": "便利商店",
@@ -1353,6 +1203,2016 @@
         "lng": 120.3568196
       },
       "source": "api_2026-06-02"
+    },
+    {
+      "place_id": "ChIJxUPqfnrYbTQRe_AK4jDBtoU",
+      "name_zh": "紅崴觀光工廠",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 207,
+      "location": {
+        "lat": 23.0418301,
+        "lng": 120.1532053
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJm1E9rZt2bjQRTmXHXgs320g",
+      "name_zh": "府東創意森林",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 362,
+      "location": {
+        "lat": 22.9844272,
+        "lng": 120.22036310000001
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJe1ncAGbYbTQRsDNM405-DMs",
+      "name_zh": "四草濕地",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 65,
+      "location": {
+        "lat": 23.046346099999997,
+        "lng": 120.1414613
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ5adWxet2bjQR6HvcQVZlzQU",
+      "name_zh": "阿勃勒黃金步道",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 76,
+      "location": {
+        "lat": 23.0016659,
+        "lng": 120.22456709999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJGbZTbSt0bjQRHPYNT4epW4k",
+      "name_zh": "原臺灣總督府C551、D512蒸汽機關車",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 67,
+      "location": {
+        "lat": 22.974876599999998,
+        "lng": 120.2072297
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJJXMnr852bjQR_wiSSWCnbYE",
+      "name_zh": "臺南永康彩繪眷村",
+      "csv_type": "景點",
+      "rating": 3.6,
+      "total_ratings": 1767,
+      "location": {
+        "lat": 22.998018599999998,
+        "lng": 120.24014009999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ9-ywNQ3ZbTQRv9dNmsPPW1A",
+      "name_zh": "台南安南輕旅行-台江小小漁夫體驗",
+      "csv_type": "景點",
+      "rating": 4,
+      "total_ratings": 93,
+      "location": {
+        "lat": 23.0510654,
+        "lng": 120.13546049999998
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJP12NJ-N3bjQRi6QEuFSu1rE",
+      "name_zh": "永恆之光 裝置藝術",
+      "csv_type": "景點",
+      "rating": 4.8,
+      "total_ratings": 13,
+      "location": {
+        "lat": 22.997428,
+        "lng": 120.22155189999998
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJs-is9NN1bjQRJGL0j4PE0IQ",
+      "name_zh": "警察新村彩繪村",
+      "csv_type": "景點",
+      "rating": 3.7,
+      "total_ratings": 337,
+      "location": {
+        "lat": 22.9746068,
+        "lng": 120.200628
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJLccCjzF2bjQRSVEuqMIk60s",
+      "name_zh": "嘉南大圳右岸濕地",
+      "csv_type": "景點",
+      "rating": 3.9,
+      "total_ratings": 17,
+      "location": {
+        "lat": 23.022953700000002,
+        "lng": 120.16699120000001
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJWSfdgafZbTQRjKwyY19r3WM",
+      "name_zh": "鹿耳門牌樓",
+      "csv_type": "景點",
+      "rating": 4.8,
+      "total_ratings": 32,
+      "location": {
+        "lat": 23.0666621,
+        "lng": 120.1273481
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJZbqyzQN3bjQRfAI2VuWG3CY",
+      "name_zh": "退役直升機 NA-506 展示",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 14,
+      "location": {
+        "lat": 22.9955304,
+        "lng": 120.2223611
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJMwoLNSF0bjQRPDMC-i3Tuy0",
+      "name_zh": "巴克禮紀念公園",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 7232,
+      "location": {
+        "lat": 22.9719929,
+        "lng": 120.2225874
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJETpGVwB3bjQRwCQfyqUfCQg",
+      "name_zh": "洋花公車站（大光國小站）",
+      "csv_type": "景點",
+      "rating": 5,
+      "total_ratings": 2,
+      "location": {
+        "lat": 23.0118972,
+        "lng": 120.21670799999998
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJB8c7pvR2bjQRtQwHdqx87Y0",
+      "name_zh": "臺南公園",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 11216,
+      "location": {
+        "lat": 23.0022317,
+        "lng": 120.2115924
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJx7B27Vl2bjQRXNQQFasKOKI",
+      "name_zh": "台南花園夜市",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 49918,
+      "location": {
+        "lat": 23.0112387,
+        "lng": 120.20022709999998
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJMTD9H3J1bjQRC0l1HyDH3rQ",
+      "name_zh": "黃金海岸",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 10171,
+      "location": {
+        "lat": 22.931430100000004,
+        "lng": 120.1764427
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJmX5fWgB1bjQRqlO38mD-_yA",
+      "name_zh": "黃金海岸",
+      "csv_type": "景點",
+      "rating": 5,
+      "total_ratings": 1,
+      "location": {
+        "lat": 22.918625799999997,
+        "lng": 120.1745397
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJERA_uHV1bjQRY5tqptC_lNQ",
+      "name_zh": "喜樹老街",
+      "csv_type": "景點",
+      "rating": 3.8,
+      "total_ratings": 435,
+      "location": {
+        "lat": 22.940389099999997,
+        "lng": 120.17779709999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ03FdFAALbjQRhHq_NX68Fik",
+      "name_zh": "路竹陽光番茄屋/小番茄/高雄親子旅遊景點/果園採番茄體驗",
+      "csv_type": "景點",
+      "rating": 5,
+      "total_ratings": 5,
+      "location": {
+        "lat": 22.847269,
+        "lng": 120.234141
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJa0rfrnZ1bjQRMtrh_PYElEg",
+      "name_zh": "黃金海岸 喜樹秘境",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 919,
+      "location": {
+        "lat": 22.937867,
+        "lng": 120.17582000000002
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJNeiW6EoLbjQRuAxzBeDH2Ak",
+      "name_zh": "三清宮海角廣場",
+      "csv_type": "景點",
+      "rating": 4.7,
+      "total_ratings": 26,
+      "location": {
+        "lat": 22.8629256,
+        "lng": 120.19358729999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJj6MDBwALbjQRKq48DRrpTJE",
+      "name_zh": "大庭涼亭",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 5,
+      "location": {
+        "lat": 22.8928145,
+        "lng": 120.1824617
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJa_wjNj51bjQRXndfjDs1uw0",
+      "name_zh": "白砂崙濕地",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 267,
+      "location": {
+        "lat": 22.919056299999998,
+        "lng": 120.18697850000001
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJGwvK2rd1bjQRAMsD-Uijv5I",
+      "name_zh": "灣裡休閒公園",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 162,
+      "location": {
+        "lat": 22.9301544,
+        "lng": 120.18173159999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJmUeaPwB1bjQRcS6Afejk-zE",
+      "name_zh": "四鯤鯓紅樹林生態觀光船",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 232,
+      "location": {
+        "lat": 22.962246999999998,
+        "lng": 120.1726101
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJo8BXbZp1bjQR3M5Nz1-5j84",
+      "name_zh": "二仁溪海岸防波堤",
+      "csv_type": "景點",
+      "rating": 4.5,
+      "total_ratings": 20,
+      "location": {
+        "lat": 22.9124207,
+        "lng": 120.17701230000002
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ3bBEKtl1bjQR5PkYJWx9HRE",
+      "name_zh": "小美軍沙灘",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 140,
+      "location": {
+        "lat": 22.9506054,
+        "lng": 120.1725233
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJjUaBJIB2bjQR2NtEzrHzDOs",
+      "name_zh": "體育園區遊戲場",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 86,
+      "location": {
+        "lat": 22.9788601,
+        "lng": 120.205383
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJJcNN4KV1bjQRb6G9Mxuhwrw",
+      "name_zh": "四鯤鯓碼頭",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 54,
+      "location": {
+        "lat": 22.9618199,
+        "lng": 120.1726537
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJa9dDzukKbjQReid_dTXZiEc",
+      "name_zh": "茄萣濕地公園",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 1272,
+      "location": {
+        "lat": 22.883355599999998,
+        "lng": 120.1976284
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJNcoD_CAQbjQRadMwILDXPEo",
+      "name_zh": "仁武後安彩繪巷",
+      "csv_type": "景點",
+      "rating": 3.9,
+      "total_ratings": 504,
+      "location": {
+        "lat": 22.714030200000003,
+        "lng": 120.34626399999998
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJJ6VQXgAPbjQR6wyEnv9AOKU",
+      "name_zh": "楠梓咪醬",
+      "csv_type": "景點",
+      "rating": 5,
+      "total_ratings": 9,
+      "location": {
+        "lat": 22.724112899999998,
+        "lng": 120.3283177
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJw992SwAPbjQRRdZfs4F4cyo",
+      "name_zh": "橋頭牛墟",
+      "csv_type": "景點",
+      "rating": 5,
+      "total_ratings": 1,
+      "location": {
+        "lat": 22.739843999999998,
+        "lng": 120.299717
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJx_5JJLUPbjQRJ2zb818L4aI",
+      "name_zh": "橋頭彩虹橋墩",
+      "csv_type": "景點",
+      "rating": 4,
+      "total_ratings": 74,
+      "location": {
+        "lat": 22.7404108,
+        "lng": 120.3180558
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ44A3RAAPbjQRzqqFd51FEZM",
+      "name_zh": "C3倉庫",
+      "csv_type": "景點",
+      "rating": 3.9,
+      "total_ratings": 10,
+      "location": {
+        "lat": 22.759045,
+        "lng": 120.31444900000001
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ1ZjXWzQObjQREUCWPiEaHhE",
+      "name_zh": "高雄糖廠觀光小火車",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 242,
+      "location": {
+        "lat": 22.7429942,
+        "lng": 120.32431149999998
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ3UOGWQAPbjQRCo7sqieJ0Wc",
+      "name_zh": "這裡有牛🐮",
+      "csv_type": "景點",
+      "rating": null,
+      "total_ratings": null,
+      "location": {
+        "lat": 22.7733931,
+        "lng": 120.29528459999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJD529FkYObjQR_WZhB8thBBU",
+      "name_zh": "雨豆樹廣場",
+      "csv_type": "景點",
+      "rating": 4.5,
+      "total_ratings": 91,
+      "location": {
+        "lat": 22.753408399999998,
+        "lng": 120.31588880000001
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJhVxEZAAPbjQRfRBumRw9Hew",
+      "name_zh": "糖廠火車園道",
+      "csv_type": "景點",
+      "rating": 5,
+      "total_ratings": 3,
+      "location": {
+        "lat": 22.7574678,
+        "lng": 120.3140148
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJgyAwOwAPbjQRxRdrdDsdJm0",
+      "name_zh": "親水池區",
+      "csv_type": "景點",
+      "rating": 5,
+      "total_ratings": 3,
+      "location": {
+        "lat": 22.734835,
+        "lng": 120.317149
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJqTkO4PsLbjQRpWVkeRnojIE",
+      "name_zh": "維新里彩繪村",
+      "csv_type": "景點",
+      "rating": 3.9,
+      "total_ratings": 79,
+      "location": {
+        "lat": 22.8060114,
+        "lng": 120.24544449999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ____PzIJbjQRlR0WnipOGC8",
+      "name_zh": "漯底山自然公園",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 3896,
+      "location": {
+        "lat": 22.770961699999997,
+        "lng": 120.25311020000001
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ-_R_TQAPbjQRtfGXEcl0u3Q",
+      "name_zh": "最愛的燈柱",
+      "csv_type": "景點",
+      "rating": 5,
+      "total_ratings": 1,
+      "location": {
+        "lat": 22.7476317,
+        "lng": 120.30837079999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ05JnFAMQbjQRV9Ia8H67rR8",
+      "name_zh": "仁武光之塔",
+      "csv_type": "景點",
+      "rating": 3.8,
+      "total_ratings": 437,
+      "location": {
+        "lat": 22.705458999999998,
+        "lng": 120.347376
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJi54isNYabjQR-oTp-Y9jupg",
+      "name_zh": "澄清湖風景區",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 1710,
+      "location": {
+        "lat": 22.6603607,
+        "lng": 120.353806
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJN9TJljIFbjQRxfvpnjJP0Lw",
+      "name_zh": "柳岸觀蓮（澄清湖八景）",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 152,
+      "location": {
+        "lat": 22.6617192,
+        "lng": 120.3428272
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJjSCcZwAFbjQRP7SNE-DPiS8",
+      "name_zh": "高丘望海（澄清湖八景）",
+      "csv_type": "景點",
+      "rating": 4.5,
+      "total_ratings": 2,
+      "location": {
+        "lat": 22.666875599999997,
+        "lng": 120.34305049999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJgS9VKkQbbjQRji2WpCBvNfU",
+      "name_zh": "澄清湖畔的木琴",
+      "csv_type": "景點",
+      "rating": 4.5,
+      "total_ratings": 13,
+      "location": {
+        "lat": 22.657657399999998,
+        "lng": 120.34714009999998
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJsR1tLM8abjQRATlPrm2XRFM",
+      "name_zh": "三亭攬勝（澄清湖八景）",
+      "csv_type": "景點",
+      "rating": 4,
+      "total_ratings": 1575,
+      "location": {
+        "lat": 22.6640764,
+        "lng": 120.3526144
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ-XK5NAAbbjQR8nmqU3dYt0g",
+      "name_zh": "蓬島湧金（澄清湖八景）",
+      "csv_type": "景點",
+      "rating": 5,
+      "total_ratings": 1,
+      "location": {
+        "lat": 22.657378299999998,
+        "lng": 120.3576331
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJF_Z0W4oabjQRNQ-Ug_r3jE0",
+      "name_zh": "坔埔山",
+      "csv_type": "景點",
+      "rating": 3.8,
+      "total_ratings": 210,
+      "location": {
+        "lat": 22.6655554,
+        "lng": 120.387785
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJtyBLzMQabjQRA10y4mBQf3o",
+      "name_zh": "澄清湖觀夕平台",
+      "csv_type": "景點",
+      "rating": 4.6,
+      "total_ratings": 152,
+      "location": {
+        "lat": 22.657894799999998,
+        "lng": 120.35886819999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJOXVCagAbbjQRirbs7Qrwn7g",
+      "name_zh": "KJ樹",
+      "csv_type": "景點",
+      "rating": null,
+      "total_ratings": null,
+      "location": {
+        "lat": 22.6757481,
+        "lng": 120.3583007
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJx5dafgAbbjQR0MZRGvCfht4",
+      "name_zh": "環湖自行車道",
+      "csv_type": "景點",
+      "rating": 4.5,
+      "total_ratings": 2,
+      "location": {
+        "lat": 22.6580229,
+        "lng": 120.35893779999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ90Nrm1YFbjQRMINVYRZbdo0",
+      "name_zh": "八卦休閒公園",
+      "csv_type": "景點",
+      "rating": 3.9,
+      "total_ratings": 639,
+      "location": {
+        "lat": 22.690484400000003,
+        "lng": 120.3383637
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJZ_wXWQAFbjQR1wCA72FfJUU",
+      "name_zh": "愛河起點",
+      "csv_type": "景點",
+      "rating": 4,
+      "total_ratings": 4,
+      "location": {
+        "lat": 22.6883299,
+        "lng": 120.34019889999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJVe4fGgMbbjQRWBRCVXwcV9I",
+      "name_zh": "鳳山圳滯洪池",
+      "csv_type": "景點",
+      "rating": 3.9,
+      "total_ratings": 71,
+      "location": {
+        "lat": 22.639265299999998,
+        "lng": 120.3799427
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJeyzBm7oabjQR7TdXqgQRSgc",
+      "name_zh": "登發黃昏市場",
+      "csv_type": "景點",
+      "rating": 3.9,
+      "total_ratings": 840,
+      "location": {
+        "lat": 22.6781731,
+        "lng": 120.35523589999998
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJd6v08NYabjQR_sR6qhF468o",
+      "name_zh": "小貝湖",
+      "csv_type": "景點",
+      "rating": 3.9,
+      "total_ratings": 19,
+      "location": {
+        "lat": 22.6458398,
+        "lng": 120.35834639999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJlTv5TuDhcTQRQWXJNOT1ceU",
+      "name_zh": "青洲灣",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 71,
+      "location": {
+        "lat": 22.4471649,
+        "lng": 120.45581059999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJvZn4JADjcTQRiAoEeMCtUVw",
+      "name_zh": "石聖公",
+      "csv_type": "景點",
+      "rating": 5,
+      "total_ratings": 1,
+      "location": {
+        "lat": 22.4986756,
+        "lng": 120.40119109999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJqTwdQ_rhcTQRYfknLkVsMPc",
+      "name_zh": "潮口平台",
+      "csv_type": "景點",
+      "rating": 4.4,
+      "total_ratings": 159,
+      "location": {
+        "lat": 22.4524086,
+        "lng": 120.45887669999998
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJaW6yG7EdbjQR7bUPqfFm18E",
+      "name_zh": "梅魁古厝",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 11,
+      "location": {
+        "lat": 22.5439544,
+        "lng": 120.4050329
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ7010HADhcTQR7kW29T9zQHg",
+      "name_zh": "台灣屏東東港12戶遺址",
+      "csv_type": "景點",
+      "rating": 5,
+      "total_ratings": 2,
+      "location": {
+        "lat": 22.4681724,
+        "lng": 120.45476699999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJOd9_KQAbbjQRdyx2CgGRXQw",
+      "name_zh": "凱旋開心農場",
+      "csv_type": "景點",
+      "rating": 5,
+      "total_ratings": 1,
+      "location": {
+        "lat": 22.620844899999998,
+        "lng": 120.4003809
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJnxE-QgDhcTQRy9IHku9pSCk",
+      "name_zh": "台灣屏東東港12戶前門遺址",
+      "csv_type": "景點",
+      "rating": 5,
+      "total_ratings": 1,
+      "location": {
+        "lat": 22.4680517,
+        "lng": 120.45475369999998
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJkR3I6YThcTQR6DygpRym8MM",
+      "name_zh": "豐漁橋",
+      "csv_type": "景點",
+      "rating": 4.2,
+      "total_ratings": 360,
+      "location": {
+        "lat": 22.464442599999998,
+        "lng": 120.4457257
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJrVaxuMDjcTQRHKDeuvqB9do",
+      "name_zh": "林園紅樹林生態區",
+      "csv_type": "景點",
+      "rating": 3.9,
+      "total_ratings": 24,
+      "location": {
+        "lat": 22.487704800000003,
+        "lng": 120.41651669999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJI-1PZQDhcTQR5G7MXcf9oig",
+      "name_zh": "烏龍百年古井",
+      "csv_type": "景點",
+      "rating": 3.9,
+      "total_ratings": 40,
+      "location": {
+        "lat": 22.489295499999997,
+        "lng": 120.4601251
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJm2yM1TbjcTQRKZMPV0VplYc",
+      "name_zh": "林園堤防",
+      "csv_type": "景點",
+      "rating": 4.1,
+      "total_ratings": 10,
+      "location": {
+        "lat": 22.494794799999998,
+        "lng": 120.41577059999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ4S1L_-AbbjQRx-24EVKoDQ8",
+      "name_zh": "南島舞集/南島文化藝術村",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 263,
+      "location": {
+        "lat": 22.608045999999998,
+        "lng": 120.43245700000001
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJA7OaeLobbjQRJGugQlD4zgU",
+      "name_zh": "翁園大紅豆",
+      "csv_type": "景點",
+      "rating": 4.8,
+      "total_ratings": 4,
+      "location": {
+        "lat": 22.62229,
+        "lng": 120.40686219999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJMfvqrH7icTQRRDEgxc43Bbw",
+      "name_zh": "林園安樂樓",
+      "csv_type": "景點",
+      "rating": 3.8,
+      "total_ratings": 555,
+      "location": {
+        "lat": 22.505613,
+        "lng": 120.39513989999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJjS-Ur3zicTQRtnT05XLTnGk",
+      "name_zh": "Linyuan No11 park",
+      "csv_type": "景點",
+      "rating": 3.9,
+      "total_ratings": 141,
+      "location": {
+        "lat": 22.500118699999998,
+        "lng": 120.39548320000002
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ_-DyuSYcbjQRA7tVhnp2410",
+      "name_zh": "吳家古厝",
+      "csv_type": "景點",
+      "rating": 4.3,
+      "total_ratings": 131,
+      "location": {
+        "lat": 22.5620741,
+        "lng": 120.43055079999998
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJCwN--uTZbTQRZMhcv_8gUr0",
+      "name_zh": "7-ELEVEN 聖安門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.0658586,
+        "lng": 120.1280074
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJG9F6KjnYbTQRhFnv1_ReCh0",
+      "name_zh": "7-ELEVEN 城中門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.062219,
+        "lng": 120.1296331
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJuaEZVkd3bjQRKaQrEu81Y30",
+      "name_zh": "全家便利商店 台南安通店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.029219299999998,
+        "lng": 120.20934500000001
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJPylYtj_YbTQR93-_vktzz4w",
+      "name_zh": "7-ELEVEN 安安門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.061185800000004,
+        "lng": 120.1342199
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJc05OjbF3bjQR-8WrhK8qEV4",
+      "name_zh": "7-ELEVEN 祥安門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.0312695,
+        "lng": 120.1920986
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJSZe8IoF3bjQR3N9Em8atVvc",
+      "name_zh": "全家便利商店 台南全順店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.004185399999997,
+        "lng": 120.2224485
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJNZIh8WF2bjQR7xNT2RaC70M",
+      "name_zh": "全家便利商店 台南國宅店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.0106102,
+        "lng": 120.2160346
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJSfSe1mV1bjQRflMlXPCXnYI",
+      "name_zh": "全家便利商店 台南德興店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.966213699999997,
+        "lng": 120.19238080000001
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJhxoN1r51bjQR8mt2DEaUGY0",
+      "name_zh": "全家便利商店 台南華興店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.9619937,
+        "lng": 120.19248160000001
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJNZIh8WF2bjQRHxJG6FdzLks",
+      "name_zh": "全家便利商店 台南育德店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 23.013774599999998,
+        "lng": 120.20646189999998
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJi8XeU0l1bjQRuoUe71D6ftE",
+      "name_zh": "全家便利商店 台南榮玉店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.9745837,
+        "lng": 120.21676459999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJJ7P5KxMLbjQR1cWN051b1Vw",
+      "name_zh": "7-ELEVEN 竹滬門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.859728099999998,
+        "lng": 120.2278723
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ3Xh-xJALbjQRPmULj6dnDqE",
+      "name_zh": "全家便利商店 永安保安店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.8317342,
+        "lng": 120.2350272
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJAUZsVyp1bjQR_-1rDneTOjc",
+      "name_zh": "全家便利商店 台南三喜店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.941293599999998,
+        "lng": 120.17835509999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJgVYEUL51bjQRy8r4QjMPeGM",
+      "name_zh": "7-ELEVEN 鯤鯓門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.959166699999997,
+        "lng": 120.1841667
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJTWbzujV1bjQRWXkAf84nuWk",
+      "name_zh": "7-ELEVEN 展欣門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.9014404,
+        "lng": 120.1842092
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ_zLl_sQPbjQRy_iq5vT4m4c",
+      "name_zh": "7-ELEVEN 好事登門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.725592199999998,
+        "lng": 120.32919539999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJYykzQNEPbjQRdwFxGfmRBhQ",
+      "name_zh": "全家便利商店 高雄興楠店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.7292007,
+        "lng": 120.33149209999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJBxiHPj0PbjQRP4HD5QdO3Dw",
+      "name_zh": "7-ELEVEN 萬達門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.7428702,
+        "lng": 120.31619400000001
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJK7R9GUsJbjQRL5yvmxsiZGY",
+      "name_zh": "全家便利商店 彌陀虱目魚店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.7801819,
+        "lng": 120.2495647
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJgclNyDQObjQRG0AclSzj8mo",
+      "name_zh": "全家便利商店 高雄新創店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.740460499999998,
+        "lng": 120.32462729999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJQ1Yd5gMQbjQRofd47o1vGag",
+      "name_zh": "7-ELEVEN 家恩門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.6980349,
+        "lng": 120.34824549999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJVVKAlQQQbjQRT6grdk1xG6Q",
+      "name_zh": "全家便利商店 仁武仁德店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.7001298,
+        "lng": 120.351047
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJQ55xh7kabjQRnmcDGCEv6VI",
+      "name_zh": "7-ELEVEN 仁慈門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.6739186,
+        "lng": 120.3573751
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJvTzQ7q8abjQRRdQUgiDAwE0",
+      "name_zh": "7-ELEVEN 仁雄門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.6808278,
+        "lng": 120.3536113
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJNz38Xa4abjQRE0Tm9X8oFpM",
+      "name_zh": "7-ELEVEN 澄合門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.6831024,
+        "lng": 120.35066799999998
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJb40cIXcbbjQRQoY6lpAm0fU",
+      "name_zh": "7-ELEVEN 勇忠門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.6757307,
+        "lng": 120.35706780000001
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJo2bH6XgbbjQR_dI5erpv3oo",
+      "name_zh": "7-ELEVEN 仁武名山門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.686997899999998,
+        "lng": 120.3503326
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJQV49YcEabjQRBd3Q2D9IoR0",
+      "name_zh": "全家便利商店 鳥松大仁店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.6624391,
+        "lng": 120.36254620000001
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJZ5hM4_YabjQRv7L70Q7DB5k",
+      "name_zh": "萊爾富 鳥松神農店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.6494294,
+        "lng": 120.3918659
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJA5FZyNcabjQRKSut6xmTycQ",
+      "name_zh": "全家便利商店 鳥松高庚店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.649400699999997,
+        "lng": 120.35565609999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ1U900vMabjQRyQGZtGD0N-Q",
+      "name_zh": "7-ELEVEN 翔盛門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.6589283,
+        "lng": 120.38148139999998
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJK-HY8iMcbjQR5CM08Msw5Yw",
+      "name_zh": "7-ELEVEN 潮欣門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.5627699,
+        "lng": 120.4287728
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJIUEsvxgcbjQRuA6brt5ZpfQ",
+      "name_zh": "萊爾富大寮潮龍店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.5658878,
+        "lng": 120.428838
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJzZu7Dd3hcTQRX8I-2vfG4_Y",
+      "name_zh": "全家便利商店 東港大船店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.468365499999997,
+        "lng": 120.45072829999998
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ19v34wkcbjQRPdhIM_D8jlE",
+      "name_zh": "7-ELEVEN 米奇門市",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.59106,
+        "lng": 120.419506
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJDcPV1eobbjQRm88TvdzgEk4",
+      "name_zh": "萊爾富高縣翁園店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.6115064,
+        "lng": 120.4131998
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ2dAKBfPhcTQR63TkuwyCJU0",
+      "name_zh": "全家便利商店 新園興隆店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.4812981,
+        "lng": 120.44376619999998
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJv3eWOADhcTQRvd0fY0jeFN4",
+      "name_zh": "萊爾富 東港東隆店",
+      "csv_type": "便利商店",
+      "location": {
+        "lat": 22.463777999999998,
+        "lng": 120.44761349999997
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJK6DKZzN3bjQRZdbl5POtOFU",
+      "name_zh": "禾寿司",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 291,
+      "location": {
+        "lat": 23.026329,
+        "lng": 120.206852
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJHVvoLl13bjQRgigxKoFFiRg",
+      "name_zh": "千千食館",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 295,
+      "location": {
+        "lat": 23.0322309,
+        "lng": 120.19024699999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJCWmooEl3bjQRzk3jrBn2E_I",
+      "name_zh": "厝边 n.b.r",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 375,
+      "location": {
+        "lat": 22.989843099999998,
+        "lng": 120.2355151
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJbeTaKV13bjQRByFMkqRB5eY",
+      "name_zh": "Fashions微醺南紡旗艦店-台南美食 台南餐廳 台南餐酒館 台南居酒屋 東區餐酒館",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 3212,
+      "location": {
+        "lat": 22.9923209,
+        "lng": 120.2334389
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJIeNxOJB2bjQRa4YP5R8FIBw",
+      "name_zh": "輕鬆點全日餐館",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 2936,
+      "location": {
+        "lat": 22.9867702,
+        "lng": 120.2298024
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJnefgBI53bjQR9VyajyjTjIM",
+      "name_zh": "植室",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 687,
+      "location": {
+        "lat": 23.0124286,
+        "lng": 120.22042010000001
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ36Um-uV3bjQRQOh1GciTdIw",
+      "name_zh": "檀島香港餐廳_南紡店",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 2440,
+      "location": {
+        "lat": 22.9908133,
+        "lng": 120.23286829999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJEQ-tEnl3bjQREpmRxYBXCQg",
+      "name_zh": "念念Table",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 216,
+      "location": {
+        "lat": 23.0015778,
+        "lng": 120.22889349999998
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ5xKRLETZbTQRnFdsxvD2VE4",
+      "name_zh": "膳廚工坊",
+      "csv_type": "餐廳大休",
+      "rating": 4.3,
+      "total_ratings": 130,
+      "location": {
+        "lat": 23.063187799999998,
+        "lng": 120.12915699999998
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ8RWk_e12bjQRwspg_RCUNWo",
+      "name_zh": "尼法",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 4309,
+      "location": {
+        "lat": 23.003847500000003,
+        "lng": 120.2170412
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ89qRAcp3bjQRrlrMVQLWH4E",
+      "name_zh": "青木森串燒小料理（公休看粉專）",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 359,
+      "location": {
+        "lat": 23.0142217,
+        "lng": 120.2211913
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJO3y1Fyd0bjQRbMjLkAyOxMg",
+      "name_zh": "(台糖長榮酒店)吃遍天下自助餐廳",
+      "csv_type": "餐廳大休",
+      "rating": 4.1,
+      "total_ratings": 2104,
+      "location": {
+        "lat": 22.974473800000002,
+        "lng": 120.2208836
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJP-KJKkp3bjQRp1mVdtEAVNo",
+      "name_zh": "峇驛泰式餐廳",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 573,
+      "location": {
+        "lat": 23.018099,
+        "lng": 120.20171990000001
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJYRAMTF51bjQRjbOOLUx6owY",
+      "name_zh": "京享鐵板燒 中華東店",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 2247,
+      "location": {
+        "lat": 22.9739889,
+        "lng": 120.22273659999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJcyVXt893bjQRDW-01Hf6gqc",
+      "name_zh": "食ベオム洋食歐姆專賣店",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 3207,
+      "location": {
+        "lat": 22.978026999999997,
+        "lng": 120.21289490000001
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJIw7E3Uh1bjQRw9X04kBbBS4",
+      "name_zh": "長鱻魚翅火鍋",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 972,
+      "location": {
+        "lat": 22.9063862,
+        "lng": 120.1780421
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJu86AwMsKbjQRsm9JRqlAJFI",
+      "name_zh": "郎海鮮燒烤（茄萣）",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 1542,
+      "location": {
+        "lat": 22.892725199999997,
+        "lng": 120.1866092
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJfb__s4R1bjQR4qReNnZj_0Q",
+      "name_zh": "灣裡濱海泰國蝦",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 65,
+      "location": {
+        "lat": 22.9179331,
+        "lng": 120.17672139999998
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJpUx8F00PbjQRPAFPoLhIVdA",
+      "name_zh": "桂桃嬤販麵洋行-楠梓朝明店",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 1029,
+      "location": {
+        "lat": 22.7248171,
+        "lng": 120.32885649999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJLXrpOiUPbjQRYoFGfG11LJA",
+      "name_zh": "𝐒𝐈𝐈𝐍 𝐙𝐞𝐮 晨照餐廳-橋頭",
+      "csv_type": "餐廳大休",
+      "rating": 5,
+      "total_ratings": 213,
+      "location": {
+        "lat": 22.759067899999998,
+        "lng": 120.31031899999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJPYm0K8QPbjQRIdT_W1OmzUk",
+      "name_zh": "森川丼丼楠梓總店",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 13273,
+      "location": {
+        "lat": 22.724978999999998,
+        "lng": 120.3243371
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJMXkEl0AJbjQR4P1mohnaPLU",
+      "name_zh": "食客嚐鮮",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 155,
+      "location": {
+        "lat": 22.788832199999998,
+        "lng": 120.24525539999998
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJI3it_TwPbjQRZFMc8kH5dnc",
+      "name_zh": "Delhi 6 德里 6 印度餐廳 indian restaurant",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 111,
+      "location": {
+        "lat": 22.7268039,
+        "lng": 120.32461909999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJh8ujbMQPbjQRl5tszB93wG4",
+      "name_zh": "北平楊寶寶蒸餃 總店",
+      "csv_type": "餐廳大休",
+      "rating": 4.4,
+      "total_ratings": 13917,
+      "location": {
+        "lat": 22.7242123,
+        "lng": 120.3277346
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ8X2kXqAPbjQRd-ZJprdx3_0",
+      "name_zh": "tuku bistro",
+      "csv_type": "餐廳大休",
+      "rating": 5,
+      "total_ratings": 1233,
+      "location": {
+        "lat": 22.7364782,
+        "lng": 120.32954939999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ09Gx7TsJbjQRpxPN0oFHy5U",
+      "name_zh": "厚福早午餐",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 376,
+      "location": {
+        "lat": 22.786454499999998,
+        "lng": 120.24821109999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJzXjNxzQObjQRkqxZNG6N7gs",
+      "name_zh": "森林中的馬戲團_糖廍",
+      "csv_type": "餐廳大休",
+      "rating": 4.1,
+      "total_ratings": 855,
+      "location": {
+        "lat": 22.7416554,
+        "lng": 120.3250011
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJVTzESkwJbjQR9WHy2PdgLwo",
+      "name_zh": "香賓海鮮餐廳",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 47,
+      "location": {
+        "lat": 22.785552199999998,
+        "lng": 120.24734009999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJRdhi9UUObjQR1BbIsR7FASo",
+      "name_zh": "夏泉中餐廳",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 51,
+      "location": {
+        "lat": 22.7530444,
+        "lng": 120.31351569999998
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ4ROzl_0PbjQRJiOV0TrF6SM",
+      "name_zh": "FUN SPACE～放空藝術空間. DIANA手做銀飾.",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 175,
+      "location": {
+        "lat": 22.7528881,
+        "lng": 120.31541569999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJr-sfzzQObjQRmP27RWUO83Y",
+      "name_zh": "小品綠豆湯",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 454,
+      "location": {
+        "lat": 22.740543700000003,
+        "lng": 120.3242453
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJhWQNrwgPbjQRybzL1sK5-tw",
+      "name_zh": "肯德基KFC-高雄橋頭餐廳",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 149,
+      "location": {
+        "lat": 22.7547767,
+        "lng": 120.31138139999997
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJoaDlkVsFbjQRhuJZcczTSJw",
+      "name_zh": "浿利Peihly’s 義大利廚坊",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 662,
+      "location": {
+        "lat": 22.681739099999998,
+        "lng": 120.35368260000001
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJY2V8D0gbbjQRBqBm3G7nkP0",
+      "name_zh": "百味饕客熱炒",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 1833,
+      "location": {
+        "lat": 22.6783124,
+        "lng": 120.34749049999998
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJYcvjbAAbbjQR22yMH1r3VPE",
+      "name_zh": "約起來吃魚",
+      "csv_type": "餐廳大休",
+      "rating": 4.4,
+      "total_ratings": 75,
+      "location": {
+        "lat": 22.6758841,
+        "lng": 120.3580854
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJR1HInqMabjQRDBMuBMp7vAM",
+      "name_zh": "糖麻栗",
+      "csv_type": "餐廳大休",
+      "rating": 4.1,
+      "total_ratings": 369,
+      "location": {
+        "lat": 22.681190800000003,
+        "lng": 120.36116070000001
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ5185lJMbbjQRsTWiR4C46M8",
+      "name_zh": "水漾湖畔得月樓餐廳",
+      "csv_type": "餐廳大休",
+      "rating": 4.4,
+      "total_ratings": 525,
+      "location": {
+        "lat": 22.6573331,
+        "lng": 120.3573713
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJrYwNSQ8bbjQRCloI4eDyY0w",
+      "name_zh": "燒肉無双 高雄澄清館",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 8135,
+      "location": {
+        "lat": 22.6475744,
+        "lng": 120.3466325
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ_34c5zobbjQR5bbwEmX9Owk",
+      "name_zh": "夏德莉brunch.pasta 鳳山店",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 1977,
+      "location": {
+        "lat": 22.6455184,
+        "lng": 120.35043750000001
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJedlxOeQFbjQRcYNMaFq4kZU",
+      "name_zh": "福來坊-日式小點",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 295,
+      "location": {
+        "lat": 22.681253899999998,
+        "lng": 120.35276329999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ4dfBYEARbjQRxwXgTu6FzS8",
+      "name_zh": "呷燒 客家食堂",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 48,
+      "location": {
+        "lat": 22.7012614,
+        "lng": 120.3472125
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJgUDRrVUbbjQRih8p8B_yyBM",
+      "name_zh": "小櫃子滷味仁雄店",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 134,
+      "location": {
+        "lat": 22.6781816,
+        "lng": 120.3551371
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ0SptWzAbbjQROByTbsxGE_k",
+      "name_zh": "覓馬食堂【鳳山低溫舒肥料理】網友推薦聚餐｜日式定食｜減脂舒肥餐廳｜特色餐廳｜文山特區必吃美食",
+      "csv_type": "餐廳大休",
+      "rating": 4.4,
+      "total_ratings": 678,
+      "location": {
+        "lat": 22.6439843,
+        "lng": 120.3517023
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ96wl4qcFbjQRQmWJkPKShLQ",
+      "name_zh": "大口覺醒手做蔬時料理",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 675,
+      "location": {
+        "lat": 22.6692961,
+        "lng": 120.3568301
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJxzmpBMMabjQRztFd8bBuRys",
+      "name_zh": "布農族餐廳",
+      "csv_type": "餐廳大休",
+      "rating": 4.5,
+      "total_ratings": 269,
+      "location": {
+        "lat": 22.6587599,
+        "lng": 120.363348
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJpYF03koRbjQRlhoBsIghdiI",
+      "name_zh": "福氣家餐館",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 13,
+      "location": {
+        "lat": 22.702657199999997,
+        "lng": 120.34697659999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJGRFblkcRbjQRiL-kvVeknhQ",
+      "name_zh": "一燒十味昭和園（仁武店）",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 503,
+      "location": {
+        "lat": 22.7026044,
+        "lng": 120.35097760000001
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ2SGN7OIPbjQR0k9vxTwuFuM",
+      "name_zh": "大高雄鵝肉店",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 2567,
+      "location": {
+        "lat": 22.7056948,
+        "lng": 120.34205589999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ9fKHtW0FbjQRFHvDAKcleM0",
+      "name_zh": "Miss Pei Pei 寵物友善餐廳",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 480,
+      "location": {
+        "lat": 22.650963299999997,
+        "lng": 120.3896847
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJO9y0_ssbbjQRk7xW7rH0mG0",
+      "name_zh": "家的味道",
+      "csv_type": "餐廳大休",
+      "rating": 4.6,
+      "total_ratings": 47,
+      "location": {
+        "lat": 22.6795571,
+        "lng": 120.35622920000002
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJAc-GEQAbbjQRKiB-fbbbiA4",
+      "name_zh": "逍遙居餐館",
+      "csv_type": "餐廳大休",
+      "rating": 4.8,
+      "total_ratings": 116,
+      "location": {
+        "lat": 22.6581962,
+        "lng": 120.3594159
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJWTbKDY_hcTQRqf3RvetynZc",
+      "name_zh": "東港華僑市場魚莊黑鮪魚生魚片、握壽司專賣店（212）",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 3060,
+      "location": {
+        "lat": 22.468249399999998,
+        "lng": 120.44347769999999
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJeUOTGVIbbjQRRm1cLfDo-eg",
+      "name_zh": "夢裡棧南洋料理",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 384,
+      "location": {
+        "lat": 22.6653305,
+        "lng": 120.3516422
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJZ53IoWzhcTQRbXMofCD31cs",
+      "name_zh": "守席シーフード海鮮丼專門店（（三代漁人世家））",
+      "csv_type": "餐廳大休",
+      "rating": 4.7,
+      "total_ratings": 1680,
+      "location": {
+        "lat": 22.4681101,
+        "lng": 120.44387770000002
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJ8dGB9VrhcTQRAln8YdSwRLc",
+      "name_zh": "甲板上海景餐廳",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 72,
+      "location": {
+        "lat": 22.4709902,
+        "lng": 120.4377976
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJRd0YOpfhcTQRu2r_lwkTw_A",
+      "name_zh": "佳珍海產餐廳",
+      "csv_type": "餐廳大休",
+      "rating": 4.3,
+      "total_ratings": 6533,
+      "location": {
+        "lat": 22.4678795,
+        "lng": 120.45379270000001
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJzz5iJ9ThcTQRKCMHMBdjDbs",
+      "name_zh": "好想燒肉 毛孩公園 (東港店)",
+      "csv_type": "餐廳大休",
+      "rating": 4.9,
+      "total_ratings": 4212,
+      "location": {
+        "lat": 22.4790409,
+        "lng": 120.4454377
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJeW6z6vIabjQRhTUIdnRTORo",
+      "name_zh": "大自然庭園",
+      "csv_type": "餐廳大休",
+      "rating": 4.2,
+      "total_ratings": 146,
+      "location": {
+        "lat": 22.6626864,
+        "lng": 120.3795211
+      },
+      "source": "along_2026-06-02"
+    },
+    {
+      "place_id": "ChIJnY3HPPIbbjQRmKzSHvqpBLA",
+      "name_zh": "楠芳小吃",
+      "csv_type": "餐廳大休",
+      "rating": 4.3,
+      "total_ratings": 542,
+      "location": {
+        "lat": 22.5902111,
+        "lng": 120.42145690000001
+      },
+      "source": "along_2026-06-02"
     }
   ]
 }

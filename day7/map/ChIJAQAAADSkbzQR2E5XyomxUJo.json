@@ -2,12 +2,24 @@
   "place_id": "ChIJAQAAADSkbzQR2E5XyomxUJo",
   "name_zh": "鹿野高台",
   "csv_type": "景點",
-  "rating": 4.5,
-  "total_ratings": 26931,
   "location": {
     "lat": 22.916449,
-    "lng": 121.121595
+    "lng": 121.12159489999999
   },
-  "source": "search_2026-07",
-  "note": "熱氣球嘉年華 飛行傘 偏離台9線約5km"
+  "search_keyword": "景點",
+  "source": "api_2026-06-02",
+  "rating": 4.5,
+  "total_ratings": 26945,
+  "address": "955臺東縣鹿野鄉永安村高台路46號",
+  "primary_type": "tourist_attraction",
+  "opening_hours_text": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "editorial_summary": "Popular spot for paragliding & grass sledding & home to an annual hot-air balloon festival."
 }

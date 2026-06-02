@@ -2,14 +2,16 @@
   "place_id": "ChIJZV-_DhWxcTQRtFhYQBBwaUY",
   "name_zh": "風吹砂",
   "csv_type": "景點",
-  "rating": 4.5,
-  "total_ratings": 3388,
   "location": {
     "lat": 21.9472854,
     "lng": 120.83888859999998
   },
-  "source": "api_2026-05-21",
-  "note": "台26線風蝕砂岩奇景",
+  "search_keyword": "景點",
+  "source": "api_2026-06-02",
+  "rating": 4.5,
+  "total_ratings": 3396,
+  "address": "946屏東縣恆春鎮佳鵝公路",
+  "primary_type": "tourist_attraction",
   "opening_hours_text": [
     "Monday: Open 24 hours",
     "Tuesday: Open 24 hours",

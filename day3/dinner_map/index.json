@@ -5,14 +5,14 @@
       "place_id": "ChIJiZleOj_YbTQR9TXVMHElSsc",
       "name_zh": "土城海產店",
       "rating": 4.4,
-      "total_ratings": 2927,
+      "total_ratings": 2935,
       "location": {
         "lat": 23.061162,
         "lng": 120.1308864
       },
       "address": "709臺南市安南區城中里安中路六段517號",
       "note": "海鮮餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -27,7 +27,7 @@
       },
       "address": "709臺南市安南區城北里安中路六段217號",
       "note": "台式餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -42,7 +42,7 @@
       },
       "address": "709臺南市安南區學東里公學路七段177號 之 51 號",
       "note": "台式餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -50,14 +50,14 @@
       "place_id": "ChIJMUCfz0vYbTQRFMRV1GsQL9g",
       "name_zh": "水瀨閣水上木屋景觀海鮮",
       "rating": 4.1,
-      "total_ratings": 1210,
+      "total_ratings": 1211,
       "location": {
         "lat": 23.059889899999998,
         "lng": 120.11779609999999
       },
       "address": "709臺南市安南區城南里城西街二段318巷66號",
       "note": "中式餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -65,14 +65,14 @@
       "place_id": "ChIJXTAli0fYbTQR8R6PbzuZjtI",
       "name_zh": "阿忠螃蟹-府城蟳禮",
       "rating": 5,
-      "total_ratings": 4894,
+      "total_ratings": 4895,
       "location": {
         "lat": 23.060502,
         "lng": 120.12591030000002
       },
       "address": "709臺南市安南區城南里城西街一段212號",
       "note": "餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": true
     },
@@ -87,7 +87,7 @@
       },
       "address": "709臺南市安南區學東里安明路四段1273號",
       "note": "餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -95,14 +95,14 @@
       "place_id": "ChIJy8NTyd_ZbTQR4RoSRL7Ck9w",
       "name_zh": "修 溫體牛肉湯",
       "rating": 4.4,
-      "total_ratings": 235,
+      "total_ratings": 236,
       "location": {
         "lat": 23.063265899999998,
         "lng": 120.1294145
       },
       "address": "709臺南市安南區城北里安中路六段608號",
       "note": "台式餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -117,7 +117,7 @@
       },
       "address": "709臺南市安南區城東里城北路201號",
       "note": "中式餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -132,7 +132,7 @@
       },
       "address": "709臺南市安南區城南里城西街一段223號",
       "note": "餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": true
     },
@@ -140,14 +140,14 @@
       "place_id": "ChIJ5xKRLETZbTQRnFdsxvD2VE4",
       "name_zh": "膳廚工坊",
       "rating": 4.3,
-      "total_ratings": 131,
+      "total_ratings": 130,
       "location": {
         "lat": 23.063187799999998,
         "lng": 120.12915699999998
       },
       "address": "709臺南市安南區城中里安中路六段615之一號",
       "note": "餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -155,14 +155,14 @@
       "place_id": "ChIJ_-tcFInZbTQRKgroGJLPj7U",
       "name_zh": "福風牛排館",
       "rating": 4.2,
-      "total_ratings": 270,
+      "total_ratings": 269,
       "location": {
         "lat": 23.064327100000003,
         "lng": 120.12878289999998
       },
       "address": "709臺南市安南區城北里安中路六段672號676號",
       "note": "牛排館",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -177,7 +177,7 @@
       },
       "address": "709臺南市安南區城中里安中路六段509號",
       "note": "餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -192,7 +192,7 @@
       },
       "address": "之 號 No. 94-6, No. 94-6青砂街一段城中里安南區臺南市709",
       "note": "餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -207,7 +207,7 @@
       },
       "address": "709臺南市安南區城東里安明路四段837號",
       "note": "餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -237,7 +237,7 @@
       },
       "address": "709臺南市安南區城中里安中路六段757號",
       "note": "餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": true
     },
@@ -252,7 +252,7 @@
       },
       "address": "709臺南市安南區城北里安明路四段380號",
       "note": "海鮮餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -267,7 +267,7 @@
       },
       "address": "709臺南市安南區城北里城北路4號",
       "note": "早餐店",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -297,7 +297,7 @@
       },
       "address": "709臺南市安南區城北里安中路六段480-1號",
       "note": "越南餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": true
     },
@@ -312,7 +312,7 @@
       },
       "address": "709臺南市安南區城中里青砂街一段1號",
       "note": "中式餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -327,7 +327,7 @@
       },
       "address": "709臺南市安南區城安路",
       "note": "中式餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -372,7 +372,7 @@
       },
       "address": "709臺南市安南區城東里城安路160號",
       "note": "餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -395,14 +395,14 @@
       "place_id": "ChIJ8fiOKjnYbTQRfvlVsYW-5nU",
       "name_zh": "陳記小吃(藝銘軒美食館)",
       "rating": 4.1,
-      "total_ratings": 180,
+      "total_ratings": 181,
       "location": {
         "lat": 23.062517699999997,
         "lng": 120.12991369999997
       },
       "address": "709臺南市安南區城北里安中路六段592號",
       "note": "小吃店",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -417,7 +417,7 @@
       },
       "address": "709臺南市安南區城安路",
       "note": "餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -447,7 +447,7 @@
       },
       "address": "709臺南市安南區城北里城北路45號",
       "note": "餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -462,7 +462,7 @@
       },
       "address": "709臺南市安南區城安街土城聖母廟廣場",
       "note": "餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -477,9 +477,9 @@
       },
       "address": "709台南市安南区城东里城北路234巷51弄10號",
       "note": "亞洲風味餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJG5hM3D3YbTQRRo7FPsoqYZ4",
@@ -507,22 +507,22 @@
       },
       "address": "709臺南市安南區城中里城西街一段9號",
       "note": "餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
     {
       "place_id": "ChIJe3gTOgDZbTQRufCN8-B91Jo",
       "name_zh": "煎佐麻里蔥油餅",
-      "rating": 4.2,
-      "total_ratings": 5,
+      "rating": 3.7,
+      "total_ratings": 6,
       "location": {
         "lat": 23.0670486,
         "lng": 120.1275895
       },
       "address": "709臺南市安南區城安路",
       "note": "亞洲風味餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     },
@@ -537,9 +537,54 @@
       },
       "address": "709臺南市安南區城東里城北路234巷46號",
       "note": "餐廳",
-      "source": "api_2026-05-22",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
+    },
+    {
+      "place_id": "ChIJLWe8MJLXbTQR0hz2kOD_Lfo",
+      "name_zh": "珍津土魠魚羹",
+      "rating": 3.6,
+      "total_ratings": 368,
+      "location": {
+        "lat": 23.093734899999998,
+        "lng": 120.1314214
+      },
+      "address": "724臺南市七股區台17線34號",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJT8y7RpLXbTQR-bLVS3BwMMo",
+      "name_zh": "徐公子牛肉湯",
+      "rating": 4.2,
+      "total_ratings": 205,
+      "location": {
+        "lat": 23.0933928,
+        "lng": 120.13174490000002
+      },
+      "address": "724臺南市七股區永吉里",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJVw3OWBXZbTQRMY2hkjoOhjw",
+      "name_zh": "來點鹹水雞-土城店",
+      "rating": 4.8,
+      "total_ratings": 22,
+      "location": {
+        "lat": 23.0628103,
+        "lng": 120.12934530000001
+      },
+      "address": "709臺南市安南區安中路六段土城菜市場",
+      "note": "餐廳",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
     }
   ]
 }

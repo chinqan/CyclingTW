@@ -2,8 +2,8 @@
   "place_id": "ChIJe3gTOgDZbTQRufCN8-B91Jo",
   "name_zh": "煎佐麻里蔥油餅",
   "name_lang": "zh-TW",
-  "rating": 4.2,
-  "total_ratings": 5,
+  "rating": 3.7,
+  "total_ratings": 6,
   "location": {
     "lat": 23.0670486,
     "lng": 120.1275895
@@ -11,8 +11,8 @@
   "address": "709臺南市安南區城安路",
   "primary_type": "asian_restaurant",
   "primary_type_label": "亞洲風味餐廳",
-  "distance_km": 0.13,
-  "source": "api_2026-05-22",
+  "distance_km": 0.11,
+  "source": "api_2026-06-02",
   "note": "亞洲風味餐廳",
   "name_is_ascii": false
 }

@@ -1,0 +1,25 @@
+{
+  "place_id": "ChIJ____PzIJbjQRlR0WnipOGC8",
+  "name_zh": "漯底山自然公園",
+  "csv_type": "景點",
+  "location": {
+    "lat": 22.770961699999997,
+    "lng": 120.25311020000001
+  },
+  "search_keyword": "景點",
+  "source": "api_2026-06-02",
+  "rating": 4.2,
+  "total_ratings": 3896,
+  "address": "827高雄市彌陀區漯底里山頂路",
+  "primary_type": "park",
+  "opening_hours_text": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "editorial_summary": "Forest park with hiking trails, dramatic rocks & old military installations, now used as lookouts."
+}

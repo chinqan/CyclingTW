@@ -1,98 +1,162 @@
 {
   "day": 10,
   "route_name": "極北完騎凱旋歸途",
-  "total_ascent_desc": "台2線北海岸至淡水平緩，淡水→八里→蘆洲為河岸自行車道全平路，總爬升約 150m",
+  "total_ascent_desc": "台2線北海岸至淡水平緩，淡水→八里→蘆洲為河岸自行車道全平路，僅富貴角一帶小起伏",
   "main_route_desc": "金山老街 ➔ 台2線西行 ➔ 石門洞 ➔ 富貴角燈塔（極北）➔ 三芝 ➔ 淡水老街 ➔ 八里左岸自行車道 ➔ 蘆洲柳堤公園",
   "places": [
     {
-      "place_id": "ChIJiXwhwldLXTQRZfw6fpm4Q9Q",
-      "name_zh": "金山老街",
-      "search_keyword": "金山老街 新北市金山區金包里街71號",
       "csv_type": "起終點",
-      "note": "08:00出發 Day9終點續行 km0",
-      "rating": 4.1,
-      "total_ratings": 49388,
+      "name_zh": "金山老街",
+      "place_id": "ChIJiXwhwldLXTQRZfw6fpm4Q9Q",
       "location": {
         "lat": 25.2217827,
         "lng": 121.6383244
       },
-      "bayesian_score": 4.15
+      "rating": 4.1,
+      "total_ratings": 49476,
+      "search_keyword": "新北市金山區 金山老街",
+      "note": "08:00 出發 接續 Day9 終點 km0（最終日，輕鬆完騎）",
+      "bayesian_score": 4.1
     },
     {
-      "place_id": "ChIJC_1Xj7y1QjQR_YL4J62VPKc",
-      "name_zh": "石門洞",
-      "search_keyword": "石門洞 新北市石門區中央路",
       "csv_type": "景點",
-      "note": "約09:00抵達 天然海蝕拱門 台2線旁 km約10",
-      "rating": 4.3,
-      "total_ratings": 12216,
+      "name_zh": "石門洞",
+      "place_id": "ChIJC_1Xj7y1QjQR_YL4J62VPKc",
       "location": {
         "lat": 25.295895899999998,
         "lng": 121.5683103
       },
-      "bayesian_score": 4.33
+      "rating": 4.3,
+      "total_ratings": 12223,
+      "search_keyword": "新北市石門區 石門洞",
+      "note": "必經 石門 海蝕拱門地標 km約14",
+      "bayesian_score": 4.31
     },
     {
-      "place_id": "ChIJJRxKZrq1QjQRhWE7Pp0MhN8",
-      "name_zh": "7-ELEVEN 石門門市",
-      "search_keyword": "7-ELEVEN 石門門市 新北市石門區中山路78號",
       "csv_type": "便利商店",
-      "note": "石門區補給 km約10",
-      "rating": 3.9,
-      "total_ratings": 48,
+      "name_zh": "全家便利商店 石門粽香店",
+      "place_id": "ChIJsYNDcCa1QjQRJ05moTyIIDA",
       "location": {
-        "lat": 25.291875,
-        "lng": 121.567876
+        "lat": 25.292127699999998,
+        "lng": 121.5680525
       },
+      "search_keyword": "全家便利商店 石門粽香店",
+      "note": "石門補給點 km約15",
       "bayesian_score": null
     },
     {
-      "place_id": "ChIJpeyY_He2QjQR9F83t6p8kAw",
-      "name_zh": "富貴角燈塔（極北點）",
-      "search_keyword": "富貴角燈塔 新北市石門區富基村1號",
       "csv_type": "景點",
-      "note": "約09:30抵達 極北點 黑白條紋燈塔 四極點最後一座 km約13 ★主視覺",
-      "rating": 4.7,
-      "total_ratings": 843,
+      "name_zh": "富貴角燈塔",
+      "place_id": "ChIJpeyY_He2QjQR9F83t6p8kAw",
       "location": {
         "lat": 25.2996123,
         "lng": 121.53696370000002
       },
-      "bayesian_score": 4.38
+      "rating": 4.7,
+      "total_ratings": 849,
+      "search_keyword": "新北市石門區 富貴角燈塔 台灣最北點",
+      "note": "必經 極北 富貴角燈塔 ★主視覺 台灣本島最北點黑白燈塔 集滿四極點 km約19",
+      "bayesian_score": 4.62
     },
     {
-      "place_id": "ChIJkf3MYFilQjQRxSE-z1AbDKQ",
-      "name_zh": "淡水老街",
-      "search_keyword": "淡水老街 新北市淡水區中正路1號",
+      "csv_type": "便利商店",
+      "name_zh": "7-ELEVEN 三芝門市",
+      "place_id": "ChIJK0rAV9G2QjQRMyYDWGAFqtU",
+      "location": {
+        "lat": 25.2578811,
+        "lng": 121.50339849999999
+      },
+      "search_keyword": "7-ELEVEN 三芝門市",
+      "note": "三芝補給點 km約32",
+      "bayesian_score": null
+    },
+    {
+      "csv_type": "餐廳大休",
+      "name_zh": "普羅旺斯海岸咖啡",
+      "place_id": "ChIJzZ-WAQ6xQjQRcZO2UK-KObs",
+      "location": {
+        "lat": 25.2541511,
+        "lng": 121.47355599999999
+      },
+      "rating": 4.9,
+      "total_ratings": 3687,
+      "search_keyword": "新北市三芝區 普羅旺斯海岸咖啡",
+      "note": "午餐大休 淺水灣海景餐廳 km約36",
+      "bayesian_score": 4.85
+    },
+    {
       "csv_type": "景點",
-      "note": "約12:00抵達 河岸觀光老街 環島慶功午餐 km約40",
+      "name_zh": "芝蘭公園海上觀景平台",
+      "place_id": "ChIJrz9KXzCxQjQR0eDbRCm4xcc",
+      "location": {
+        "lat": 25.2539579,
+        "lng": 121.4725082
+      },
       "rating": 4.4,
-      "total_ratings": 33317,
+      "total_ratings": 1591,
+      "search_keyword": "新北市三芝區 芝蘭公園海上觀景平台",
+      "note": "三芝淺水灣海上觀景平台 km約36",
+      "bayesian_score": 4.41
+    },
+    {
+      "csv_type": "景點",
+      "name_zh": "淡水老街",
+      "place_id": "ChIJkf3MYFilQjQRxSE-z1AbDKQ",
       "location": {
         "lat": 25.168927,
         "lng": 121.44409209999999
       },
-      "bayesian_score": 4.39
+      "rating": 4.4,
+      "total_ratings": 33471,
+      "search_keyword": "新北市淡水區 淡水老街",
+      "note": "必經 淡水 老街與金色水岸 km約48",
+      "bayesian_score": 4.4
     },
     {
-      "place_id": "ChIJ7Ws-1bOoQjQRehrUbGzlo1A",
-      "name_zh": "蘆洲柳堤公園",
-      "search_keyword": "柳堤公園 新北市蘆洲區光榮路",
+      "csv_type": "便利商店",
+      "name_zh": "全家便利商店 八里龍米店",
+      "place_id": "ChIJt0Yxs2SvQjQRCU2yIx4qyiI",
+      "location": {
+        "lat": 25.128575200000004,
+        "lng": 121.45196410000001
+      },
+      "search_keyword": "全家便利商店 八里龍米店",
+      "note": "八里補給點（過渡船頭前）km約55",
+      "bayesian_score": null
+    },
+    {
+      "csv_type": "景點",
+      "name_zh": "八里渡船頭老街",
+      "place_id": "ChIJf9weG2alQjQRNlsOIbBhu6E",
+      "location": {
+        "lat": 25.158442899999997,
+        "lng": 121.4347089
+      },
+      "rating": 4.2,
+      "total_ratings": 35412,
+      "search_keyword": "新北市八里區 八里渡船頭老街",
+      "note": "必經 八里 左岸渡船頭老街 km約59",
+      "bayesian_score": 4.2
+    },
+    {
       "csv_type": "起終點",
-      "note": "約14:00抵達 環島完騎！Day1起點 四極點達成 km約65",
-      "rating": 4.3,
-      "total_ratings": 1407,
+      "name_zh": "蘆洲柳堤公園",
+      "place_id": "ChIJ7Ws-1bOoQjQRehrUbGzlo1A",
       "location": {
         "lat": 25.088224999999998,
         "lng": 121.4626333
       },
-      "bayesian_score": 4.35
+      "rating": 4.3,
+      "total_ratings": 1408,
+      "search_keyword": "新北市蘆洲區廣榮路與長樂路口柳堤公園",
+      "note": "終點 蘆洲柳堤公園 環島完騎回到 Day1 起點 km約77",
+      "bayesian_score": 4.34
     }
   ],
-  "bayesian_C": 4.36,
-  "bayesian_m": 12216,
-  "ors_distance_km": 51.4,
-  "ors_duration_hours": 3.1,
-  "elevation_ascent_m": 300,
-  "elevation_descent_m": 309
+  "bayesian_C": 4.4659,
+  "bayesian_m": 449,
+  "elevation_ascent_m": 313,
+  "elevation_descent_m": 322,
+  "ors_distance_km": 60.6,
+  "ors_duration_hours": 3.8
 }

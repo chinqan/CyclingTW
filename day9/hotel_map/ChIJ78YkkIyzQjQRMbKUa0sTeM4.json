@@ -3,7 +3,7 @@
   "name_zh": "浪漫萬里民宿 Romantic_Wanli *",
   "name_lang": "zh-TW",
   "rating": 5,
-  "total_ratings": 34,
+  "total_ratings": 33,
   "location": {
     "lat": 25.2053624,
     "lng": 121.62810309999999
@@ -11,6 +11,6 @@
   "address": "207新北市萬里區磺潭里公館崙58號",
   "primary_type": "private_guest_room",
   "distance_km": 2.1,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "name_is_ascii": false
 }

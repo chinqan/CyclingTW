@@ -3,7 +3,7 @@
   "name_zh": "雀客旅館 - 新北蘆洲",
   "name_lang": "zh-TW",
   "rating": 4.1,
-  "total_ratings": 837,
+  "total_ratings": 840,
   "location": {
     "lat": 25.081066099999997,
     "lng": 121.48000210000001
@@ -11,6 +11,6 @@
   "address": "247新北市蘆洲區恆德里集賢路409號",
   "primary_type": "hotel",
   "distance_km": 1.92,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "name_is_ascii": false
 }

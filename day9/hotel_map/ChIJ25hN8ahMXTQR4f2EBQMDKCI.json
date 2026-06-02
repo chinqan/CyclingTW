@@ -3,7 +3,7 @@
   "name_zh": "鼎帥溫泉汽車旅館｜金山溫泉休息住宿推薦・近金山老街・24H平價泡湯",
   "name_lang": "zh-TW",
   "rating": 4.1,
-  "total_ratings": 1049,
+  "total_ratings": 1050,
   "location": {
     "lat": 25.218204999999998,
     "lng": 121.6376459
@@ -11,6 +11,6 @@
   "address": "208新北市金山區金美里忠孝一路19巷9號",
   "primary_type": "hotel",
   "distance_km": 0.4,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "name_is_ascii": false
 }

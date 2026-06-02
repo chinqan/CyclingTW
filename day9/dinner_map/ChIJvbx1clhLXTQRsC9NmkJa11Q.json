@@ -3,7 +3,7 @@
   "name_zh": "金山芋圓王-金山總店",
   "name_lang": "zh-TW",
   "rating": 3.9,
-  "total_ratings": 2521,
+  "total_ratings": 2526,
   "location": {
     "lat": 25.220846599999998,
     "lng": 121.64122449999998
@@ -12,7 +12,7 @@
   "primary_type": "dessert_restaurant",
   "primary_type_label": "甜品餐廳",
   "distance_km": 0.31,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "甜品餐廳",
   "name_is_ascii": false
 }

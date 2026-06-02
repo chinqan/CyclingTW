@@ -3,10 +3,10 @@
   "origin": "太麻里",
   "destination": "玉里 / 安通",
   "distance_km_range": [
-    95,
-    105
+    128,
+    128
   ],
-  "main_route_text": "台9線 (花東縱谷)",
+  "main_route_text": "台9線 (花東縱谷) 經關山環鎮自行車道(關山單車道)",
   "must_visit_landmarks": [
     "知本溫泉",
     "鐵花村",

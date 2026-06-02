@@ -3,7 +3,7 @@
   "name_zh": "日拾居",
   "name_lang": "zh-TW",
   "rating": 4.7,
-  "total_ratings": 470,
+  "total_ratings": 471,
   "location": {
     "lat": 25.08516,
     "lng": 121.46917
@@ -12,7 +12,7 @@
   "primary_type": "japanese_restaurant",
   "primary_type_label": "日式餐廳",
   "distance_km": 0.74,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "日式餐廳",
   "name_is_ascii": false
 }

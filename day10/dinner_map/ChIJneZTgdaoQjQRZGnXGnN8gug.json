@@ -3,7 +3,7 @@
   "name_zh": "玉知高華知高飯",
   "name_lang": "zh-TW",
   "rating": 4,
-  "total_ratings": 4182,
+  "total_ratings": 4186,
   "location": {
     "lat": 25.0811758,
     "lng": 121.48813609999998
@@ -12,7 +12,7 @@
   "primary_type": "taiwanese_restaurant",
   "primary_type_label": "台式餐廳",
   "distance_km": 2.69,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "台式餐廳",
   "name_is_ascii": false
 }

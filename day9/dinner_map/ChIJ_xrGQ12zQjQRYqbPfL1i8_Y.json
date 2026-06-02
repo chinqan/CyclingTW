@@ -3,7 +3,7 @@
   "name_zh": "金包里鴨肉",
   "name_lang": "zh-TW",
   "rating": 3.7,
-  "total_ratings": 5099,
+  "total_ratings": 5110,
   "location": {
     "lat": 25.2219698,
     "lng": 121.6383848
@@ -12,7 +12,7 @@
   "primary_type": "chinese_restaurant",
   "primary_type_label": "中式餐廳",
   "distance_km": 0.02,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "中式餐廳",
   "name_is_ascii": false
 }

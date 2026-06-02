@@ -1,0 +1,25 @@
+{
+  "place_id": "ChIJPYm0K8QPbjQRIdT_W1OmzUk",
+  "name_zh": "森川丼丼楠梓總店",
+  "csv_type": "餐廳大休",
+  "location": {
+    "lat": 22.724978999999998,
+    "lng": 120.3243371
+  },
+  "search_keyword": "餐廳",
+  "source": "api_2026-06-02",
+  "rating": 4.7,
+  "total_ratings": 13273,
+  "address": "81160高雄市楠梓區中陽里楠梓新路122號",
+  "primary_type": "japanese_restaurant",
+  "opening_hours_text": [
+    "Monday: 11:00 AM – 12:00 AM",
+    "Tuesday: 11:00 AM – 12:00 AM",
+    "Wednesday: 11:00 AM – 12:00 AM",
+    "Thursday: 11:00 AM – 12:00 AM",
+    "Friday: 11:00 AM – 12:00 AM",
+    "Saturday: 11:00 AM – 12:00 AM",
+    "Sunday: 11:00 AM – 12:00 AM"
+  ],
+  "editorial_summary": "Made-to-order Japanese specialties offered in a compact, down-to-earth destination."
+}

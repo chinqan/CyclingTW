@@ -578,8 +578,8 @@
     {
       "place_id": "ChIJMZcabYPhcTQRV08y9eA6NlM",
       "name_zh": "築跡民宿zhujihostel",
-      "rating": 4.6,
-      "total_ratings": 224,
+      "rating": 4.5,
+      "total_ratings": 225,
       "location": {
         "lat": 22.4614807,
         "lng": 120.44532470000001
@@ -935,6 +935,34 @@
         "lng": 120.4681666
       },
       "address": "31號, No. 31號大順路船頭里東港鎮屏東縣928",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJv_riDEThcTQRTtfixwD_LYs",
+      "name_zh": "鐡馬騎跡民宿Vélo B&B",
+      "rating": 4.9,
+      "total_ratings": 147,
+      "location": {
+        "lat": 22.4680641,
+        "lng": 120.457656
+      },
+      "address": "928屏東縣東港鎮東光里新學路50號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJR7DBfKThcTQRGgLMU7HjQDM",
+      "name_zh": "屏東宜家莊親子居民宿 東港住宿推薦 專屬停車場",
+      "rating": 5,
+      "total_ratings": 78,
+      "location": {
+        "lat": 22.4714507,
+        "lng": 120.45579329999998
+      },
+      "address": "928屏東縣東港鎮新街里新學路230號",
       "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false

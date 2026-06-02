@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ6--0psprbzQRkEOvljZFjfw",
+  "name_zh": "古早味餛飩麵店",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 21,
+  "location": {
+    "lat": 23.3351616,
+    "lng": 121.3185336
+  },
+  "address": "981花蓮縣玉里鎮啟模里民權街30號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.8,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

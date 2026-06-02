@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJzcd3UQAhZjQRktQk8qDIsYY",
+  "name_zh": "冉冉七星潭海景民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 137,
+  "location": {
+    "lat": 24.0280873,
+    "lng": 121.6294512
+  },
+  "address": "971花蓮縣新城鄉大漢村明潭街56號",
+  "primary_type": "private_guest_room",
+  "distance_km": 0.44,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

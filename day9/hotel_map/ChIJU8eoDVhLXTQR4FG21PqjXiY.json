@@ -3,7 +3,7 @@
   "name_zh": "怡美賓館",
   "name_lang": "zh-TW",
   "rating": 3,
-  "total_ratings": 265,
+  "total_ratings": 264,
   "location": {
     "lat": 25.2208659,
     "lng": 121.6412429
@@ -11,6 +11,6 @@
   "address": "208新北市金山區大同里民生路206號",
   "primary_type": "hotel",
   "distance_km": 0.31,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "name_is_ascii": false
 }

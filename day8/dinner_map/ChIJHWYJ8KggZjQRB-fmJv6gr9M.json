@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJHWYJ8KggZjQRB-fmJv6gr9M",
+  "name_zh": "七海灣海景餐廳",
+  "name_lang": "zh-TW",
+  "rating": 3.6,
+  "total_ratings": 864,
+  "location": {
+    "lat": 24.0273137,
+    "lng": 121.62907070000001
+  },
+  "address": "971花蓮縣新城鄉大漢村七星街152號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.5,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

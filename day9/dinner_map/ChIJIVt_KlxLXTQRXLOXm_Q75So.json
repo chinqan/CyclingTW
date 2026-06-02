@@ -3,7 +3,7 @@
   "name_zh": "88號水碼頭",
   "name_lang": "zh-TW",
   "rating": 4.1,
-  "total_ratings": 1288,
+  "total_ratings": 1290,
   "location": {
     "lat": 25.223855999999998,
     "lng": 121.648201
@@ -12,7 +12,7 @@
   "primary_type": "restaurant",
   "primary_type_label": "餐廳",
   "distance_km": 1.02,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "餐廳",
   "name_is_ascii": false
 }

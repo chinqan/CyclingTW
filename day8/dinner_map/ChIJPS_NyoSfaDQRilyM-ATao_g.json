@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJPS_NyoSfaDQRilyM-ATao_g",
+  "name_zh": "Wooli韓式料理店",
+  "name_lang": "zh-TW",
+  "rating": 4.8,
+  "total_ratings": 196,
+  "location": {
+    "lat": 24.0314277,
+    "lng": 121.60464660000001
+  },
+  "address": "971花蓮縣新城鄉北埔村北埔路151號",
+  "primary_type": "korean_restaurant",
+  "primary_type_label": "韓國餐廳",
+  "distance_km": 2.29,
+  "source": "api_2026-06-02",
+  "note": "韓國餐廳",
+  "name_is_ascii": false
+}

@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJT1n7TRVBbzQRzNnW_FRAEIg",
+  "name_zh": "嗡嗡私廚",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 47,
+  "location": {
+    "lat": 23.3500128,
+    "lng": 121.30698549999998
+  },
+  "address": "982花蓮縣卓溪鄉44",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 2.11,
+  "source": "api_2026-06-02",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

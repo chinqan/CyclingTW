@@ -3,7 +3,7 @@
   "name_zh": "小鳥散步 玉里民宿 玉里包棟",
   "name_lang": "zh",
   "rating": 5,
-  "total_ratings": 252,
+  "total_ratings": 256,
   "location": {
     "lat": 23.338306,
     "lng": 121.3191077
@@ -11,6 +11,6 @@
   "address": "981花蓮縣玉里鎮啟模里仁愛路二段223-2號",
   "primary_type": "private_guest_room",
   "distance_km": 1.07,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "name_is_ascii": false
 }

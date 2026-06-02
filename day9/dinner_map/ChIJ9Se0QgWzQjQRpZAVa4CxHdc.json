@@ -1,9 +1,9 @@
 {
   "place_id": "ChIJ9Se0QgWzQjQRpZAVa4CxHdc",
-  "name_zh": "金包里農舍莊園-金山伴手禮首選|地瓜首選|地瓜甜點|地標首選|甜點推薦|必吃甜點|人氣甜點|必買伴手禮",
+  "name_zh": "金包里農舍莊園",
   "name_lang": "zh-TW",
   "rating": 4.9,
-  "total_ratings": 3488,
+  "total_ratings": 3498,
   "location": {
     "lat": 25.2203746,
     "lng": 121.62754489999998
@@ -12,7 +12,7 @@
   "primary_type": "dessert_restaurant",
   "primary_type_label": "甜品餐廳",
   "distance_km": 1.1,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "甜品餐廳",
   "name_is_ascii": false
 }

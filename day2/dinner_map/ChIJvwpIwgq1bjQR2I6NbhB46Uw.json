@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJvwpIwgq1bjQR2I6NbhB46Uw",
+  "name_zh": "大滷桶-西螺",
+  "name_lang": "zh-TW",
+  "rating": 3.1,
+  "total_ratings": 20,
+  "location": {
+    "lat": 23.8001711,
+    "lng": 120.46020740000002
+  },
+  "address": "648雲林縣西螺鎮福興里中山路124號",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 0.22,
+  "source": "api_2026-06-02",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

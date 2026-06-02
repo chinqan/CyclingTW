@@ -3,11 +3,11 @@
   "name_zh": "太麻里車站",
   "csv_type": "起終點",
   "rating": 4.4,
-  "total_ratings": 964,
+  "total_ratings": 972,
   "location": {
     "lat": 22.618796099999997,
     "lng": 121.00501509999998
   },
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "Day6終點 可看日出大道"
 }

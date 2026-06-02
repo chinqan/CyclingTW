@@ -1,0 +1,15 @@
+{
+  "place_id": "ChIJ12TDVZYnbDQRUch1P_BS1R8",
+  "name_zh": "東石漁港",
+  "csv_type": "景點",
+  "location": {
+    "lat": 23.4514662,
+    "lng": 120.13733839999998
+  },
+  "search_keyword": "景點",
+  "source": "api_2026-06-02",
+  "rating": 4.1,
+  "total_ratings": 1524,
+  "address": "614嘉義縣東石鄉東石村168縣道34號",
+  "primary_type": "fishing_pier"
+}

@@ -3,7 +3,7 @@
   "name_zh": "好樂迪KTV 蘆洲店",
   "name_lang": "zh-TW",
   "rating": 3.4,
-  "total_ratings": 534,
+  "total_ratings": 535,
   "location": {
     "lat": 25.085711699999997,
     "lng": 121.4607909
@@ -12,6 +12,6 @@
   "primary_type": null,
   "primary_type_label": null,
   "distance_km": 0.34,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "name_is_ascii": false
 }

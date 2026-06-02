@@ -41,7 +41,7 @@
       "address": "970花蓮縣花蓮市國聯里國聯五路101號",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJe7-1qbCfaDQRaLK31rEPXYs",
@@ -55,7 +55,7 @@
       "address": "970花蓮縣花蓮市國聯里中山路601巷1弄19號",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJpQJJFpWfaDQR-WXSUla-RyA",
@@ -97,7 +97,7 @@
       "address": "970花蓮縣花蓮市主和里中福路122號",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJ-fUtFpSfaDQR9R80MGJI4pE",
@@ -615,7 +615,7 @@
       "address": "970花蓮縣花蓮市國光里尚志路20-12號",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJQ05ltn6faDQRr2KwSbHn-o8",
@@ -853,7 +853,7 @@
       "address": "970003花蓮縣花蓮市主信里南京街155號",
       "source": "api_2026-05-21",
       "name_is_ascii": false,
-      "selected": true
+      "selected": false
     },
     {
       "place_id": "ChIJJc6PjQOfaDQRkEjuYmsX3oQ",
@@ -894,6 +894,426 @@
       },
       "address": "970花蓮縣花蓮市國聯里國聯一路139號",
       "source": "api_2026-05-21",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ93otpakgZjQRIa9zdI86iLI",
+      "name_zh": "七星潭渡假飯店",
+      "rating": 4.7,
+      "total_ratings": 2950,
+      "location": {
+        "lat": 24.027276399999998,
+        "lng": 121.6306663
+      },
+      "address": "97143花蓮縣新城鄉大漢村明潭街10號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJu3IACakgZjQREfk27gSo1co",
+      "name_zh": "花蓮七星潭 迎星會館(STARRISE LEISURE HOTEL)",
+      "rating": 4.5,
+      "total_ratings": 1140,
+      "location": {
+        "lat": 24.027079,
+        "lng": 121.63138099999998
+      },
+      "address": "971花蓮縣新城鄉大漢村七星街38號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJn2oQsWyeaDQRlRFrLv4iO_E",
+      "name_zh": "花蓮民宿費斯玻璃屋",
+      "rating": 4.7,
+      "total_ratings": 1147,
+      "location": {
+        "lat": 24.025224299999998,
+        "lng": 121.6049822
+      },
+      "address": "971花蓮縣新城鄉嘉里村嘉里三街260巷3號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJc3unC4MhZjQRVJgJXPMc0PA",
+      "name_zh": "踏浪星辰豪華露營Camp",
+      "rating": 4.4,
+      "total_ratings": 369,
+      "location": {
+        "lat": 24.0257069,
+        "lng": 121.6318348
+      },
+      "address": "971花蓮縣花蓮市民心里七星街41巷11號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJq2uA0c4hZjQRtAS7o4Hw8UM",
+      "name_zh": "發現七星潭海景民宿",
+      "rating": 4.8,
+      "total_ratings": 160,
+      "location": {
+        "lat": 24.028068899999997,
+        "lng": 121.6293891
+      },
+      "address": "971花蓮縣新城鄉大漢村明潭街58號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJD0GGB6kgZjQRu-GBhI_k4UE",
+      "name_zh": "春沐七星潭民宿海岸旅店",
+      "rating": 4.5,
+      "total_ratings": 421,
+      "location": {
+        "lat": 24.026678999999998,
+        "lng": 121.63083499999999
+      },
+      "address": "971花蓮縣新城鄉大漢村七星街69號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJe1QZqKkgZjQR7Ybf9a2cpKA",
+      "name_zh": "七星潭水上明月海景渡假旅店 Hotelmoon",
+      "rating": 4.9,
+      "total_ratings": 369,
+      "location": {
+        "lat": 24.0269756,
+        "lng": 121.63110870000001
+      },
+      "address": "97143花蓮縣新城鄉大漢村七星街58號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJA7FbDvydaDQRxpocfq_J7rQ",
+      "name_zh": "自然海民宿",
+      "rating": 4.4,
+      "total_ratings": 181,
+      "location": {
+        "lat": 24.041652,
+        "lng": 121.6219806
+      },
+      "address": "971花蓮縣新城鄉大漢村漁場街二號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJbQOkTqggZjQR_NPVIBzqWJg",
+      "name_zh": "七星潭星海民宿_寵物友善（近柴館旁，勿入巷內)",
+      "rating": 4.8,
+      "total_ratings": 786,
+      "location": {
+        "lat": 24.0263594,
+        "lng": 121.6296682
+      },
+      "address": "971花蓮縣新城鄉大漢村七星街79巷12號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJM_5xzakgZjQR401U4prZii4",
+      "name_zh": "七星海酒店",
+      "rating": 4.4,
+      "total_ratings": 379,
+      "location": {
+        "lat": 24.027283399999998,
+        "lng": 121.62899499999999
+      },
+      "address": "971花蓮縣新城鄉大漢村七星街152-3號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ9bUMLF0hZjQRPfb0A6nPTpw",
+      "name_zh": "去七星潭海景民宿",
+      "rating": 4.9,
+      "total_ratings": 369,
+      "location": {
+        "lat": 24.027094299999998,
+        "lng": 121.63073649999998
+      },
+      "address": "971花蓮縣新城鄉大漢村明潭街8-1號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJy33tBqkgZjQRTf39gJvm4xk",
+      "name_zh": "七星潭燈塔民宿",
+      "rating": 4.6,
+      "total_ratings": 272,
+      "location": {
+        "lat": 24.02683,
+        "lng": 121.63125389999999
+      },
+      "address": "97143花蓮縣新城鄉大漢村七星街59號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJKZSCR2qeaDQRy91jh-SljDE",
+      "name_zh": "月明風清民宿｜花蓮親子民宿｜溜滑梯",
+      "rating": 4.9,
+      "total_ratings": 253,
+      "location": {
+        "lat": 24.021814100000004,
+        "lng": 121.6012607
+      },
+      "address": "No. 23號, 五街, 新城鄉花蓮縣971",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJWRxtZuadaDQRXRIhV7zAGFU",
+      "name_zh": "米里民宿",
+      "rating": 4.6,
+      "total_ratings": 452,
+      "location": {
+        "lat": 24.047720899999998,
+        "lng": 121.6099355
+      },
+      "address": "971花蓮縣新城鄉康樂村康平街36號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJc3Is4aggZjQRnPsLx3-fing",
+      "name_zh": "七星日出民宿",
+      "rating": 4.6,
+      "total_ratings": 390,
+      "location": {
+        "lat": 24.0256972,
+        "lng": 121.63239449999998
+      },
+      "address": "971花蓮縣花蓮市民心里七星街31-1號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJdVLjpSyeaDQRzxWjLfmuBXY",
+      "name_zh": "看見七星潭民宿",
+      "rating": 4.8,
+      "total_ratings": 350,
+      "location": {
+        "lat": 24.0265916,
+        "lng": 121.63058049999998
+      },
+      "address": "97143花蓮縣新城鄉大漢村七星街106號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJWaPY_QqeaDQRpXJfydZrvPo",
+      "name_zh": "金色陽光民宿",
+      "rating": 4.1,
+      "total_ratings": 138,
+      "location": {
+        "lat": 24.036943599999997,
+        "lng": 121.606692
+      },
+      "address": "971台灣花蓮縣新城鄉",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJzcd3UQAhZjQRktQk8qDIsYY",
+      "name_zh": "冉冉七星潭海景民宿",
+      "rating": 4.9,
+      "total_ratings": 137,
+      "location": {
+        "lat": 24.0280873,
+        "lng": 121.6294512
+      },
+      "address": "971花蓮縣新城鄉大漢村明潭街56號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJtZN5UwkhZjQRt064wVNSut4",
+      "name_zh": "七星潭泥作輕旅",
+      "rating": 4.9,
+      "total_ratings": 394,
+      "location": {
+        "lat": 24.0265739,
+        "lng": 121.6299548
+      },
+      "address": "971花蓮縣新城鄉大漢村七星街116號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJzyOPklafaDQRMlNmfhYg5Vg",
+      "name_zh": "聚一夏民宿",
+      "rating": 5,
+      "total_ratings": 199,
+      "location": {
+        "lat": 24.0191567,
+        "lng": 121.60689789999999
+      },
+      "address": "971花蓮縣新城鄉嘉里村嘉里三路61號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": true
+    },
+    {
+      "place_id": "ChIJS7dkGT6eaDQRwITAZ1ttwNU",
+      "name_zh": "樂城大飯店",
+      "rating": 3.7,
+      "total_ratings": 288,
+      "location": {
+        "lat": 24.0171082,
+        "lng": 121.6101455
+      },
+      "address": "971花蓮縣新城鄉嘉里村嘉里路59號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJhYAKfLOfaDQRcwZkNlkDJ7o",
+      "name_zh": "草根香民宿",
+      "rating": 5,
+      "total_ratings": 91,
+      "location": {
+        "lat": 24.029036599999998,
+        "lng": 121.60526879999999
+      },
+      "address": "971花莲县新城乡北埔村北埔路109巷6號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJr8KfSkydaDQRhevCPWAAWWE",
+      "name_zh": "邦迪民宿",
+      "rating": 5,
+      "total_ratings": 36,
+      "location": {
+        "lat": 24.040478399999998,
+        "lng": 121.60947829999998
+      },
+      "address": "971花蓮縣新城鄉大漢村古井街3之1號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJH3FM4-GdaDQRXHWMLiitBhc",
+      "name_zh": "花蓮遊民宿",
+      "rating": 4.3,
+      "total_ratings": 171,
+      "location": {
+        "lat": 24.0392066,
+        "lng": 121.61067860000001
+      },
+      "address": "971花蓮縣新城鄉大漢村立業街4巷16之1號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ0WifDRWeaDQRnznwQPd-juA",
+      "name_zh": "伊莎貝爾116渡假民宿",
+      "rating": 4.2,
+      "total_ratings": 63,
+      "location": {
+        "lat": 24.0200696,
+        "lng": 121.6077132
+      },
+      "address": "971花蓮縣新城鄉嘉里村嘉里二街116號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJeY17xXKeaDQRD_6-2bke1tM",
+      "name_zh": "小莫里民宿",
+      "rating": 4.8,
+      "total_ratings": 144,
+      "location": {
+        "lat": 24.031584499999997,
+        "lng": 121.6046174
+      },
+      "address": "971花蓮縣新城鄉北埔村北埔路159號2 樓",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJN4uNLpqfaDQRJFf1jf1A0pM",
+      "name_zh": "二拾初心民宿",
+      "rating": 4.8,
+      "total_ratings": 77,
+      "location": {
+        "lat": 24.0341082,
+        "lng": 121.60196940000002
+      },
+      "address": "971花蓮縣新城鄉北埔村復興路325巷20號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJURutJiefaDQR2gdANyGbdZo",
+      "name_zh": "住右邊民宿",
+      "rating": 5,
+      "total_ratings": 11,
+      "location": {
+        "lat": 24.020134499999998,
+        "lng": 121.6083922
+      },
+      "address": "971花蓮縣新城鄉嘉里村嘉里一街93號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJ0wDTs-idaDQRZ8UTVXLeXBc",
+      "name_zh": "彩礫石風鄉村民宿",
+      "rating": 4.5,
+      "total_ratings": 33,
+      "location": {
+        "lat": 24.0504078,
+        "lng": 121.61086850000001
+      },
+      "address": "971花蓮縣新城鄉康樂村廣安三街6巷8號",
+      "source": "api_2026-06-02",
+      "name_is_ascii": false,
+      "selected": false
+    },
+    {
+      "place_id": "ChIJOycaZDKfaDQR88d2zcnaXAQ",
+      "name_zh": "來睏民宿/花蓮電梯包棟民宿/特斯拉充電樁",
+      "rating": 5,
+      "total_ratings": 5,
+      "location": {
+        "lat": 24.03195,
+        "lng": 121.60251310000001
+      },
+      "address": "971花蓮縣新城鄉北埔村民族路81號",
+      "source": "api_2026-06-02",
       "name_is_ascii": false,
       "selected": false
     }

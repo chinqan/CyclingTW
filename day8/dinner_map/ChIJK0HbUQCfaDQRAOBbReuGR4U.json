@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJK0HbUQCfaDQRAOBbReuGR4U",
+  "name_zh": "太魯閣拉麵丼飯_達達食堂_北埔夜市攤",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 1,
+  "location": {
+    "lat": 24.039456899999998,
+    "lng": 121.6031998
+  },
+  "address": "971花蓮縣新城鄉新秀村北埔路369號",
+  "primary_type": "japanese_restaurant",
+  "primary_type_label": "日式餐廳",
+  "distance_km": 2.59,
+  "source": "api_2026-06-02",
+  "note": "日式餐廳",
+  "name_is_ascii": false
+}

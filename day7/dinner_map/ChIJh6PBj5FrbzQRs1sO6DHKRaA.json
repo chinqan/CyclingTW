@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJh6PBj5FrbzQRs1sO6DHKRaA",
+  "name_zh": "葉安咕傳統小吃",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 18,
+  "location": {
+    "lat": 23.334214,
+    "lng": 121.313265
+  },
+  "address": "981花蓮縣玉里鎮泰昌里民權街59號",
+  "primary_type": "breakfast_restaurant",
+  "primary_type_label": "早餐店",
+  "distance_km": 0.34,
+  "source": "api_2026-06-02",
+  "note": "早餐店",
+  "name_is_ascii": false
+}

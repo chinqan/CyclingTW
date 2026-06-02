@@ -1,15 +1,17 @@
 {
   "place_id": "ChIJbZ03BtZFaTQRVSahxk_O324",
   "name_zh": "鹿港老街",
-  "csv_type": "起終點",
-  "rating": 4.5,
-  "total_ratings": 42164,
+  "csv_type": "景點",
   "location": {
     "lat": 24.056300999999998,
     "lng": 120.4325817
   },
-  "source": "api_2026-06-01",
-  "note": "清代商業街區 紅磚老屋 當日終點",
+  "search_keyword": "景點",
+  "source": "api_2026-06-02",
+  "rating": 4.5,
+  "total_ratings": 42165,
+  "address": "505彰化縣鹿港鎮洛津里埔頭街3號",
+  "primary_type": "tourist_attraction",
   "opening_hours_text": [
     "Monday: 10:00 AM – 6:00 PM",
     "Tuesday: 10:00 AM – 6:00 PM",

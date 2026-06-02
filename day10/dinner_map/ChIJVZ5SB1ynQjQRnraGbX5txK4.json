@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJVZ5SB1ynQjQRnraGbX5txK4",
+  "name_zh": "家香味台越美食館",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 104,
+  "location": {
+    "lat": 25.085031599999997,
+    "lng": 121.43599059999998
+  },
+  "address": "248新北市五股區民義里民義路一段84號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 2.71,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

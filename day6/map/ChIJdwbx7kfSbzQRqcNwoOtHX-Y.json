@@ -2,12 +2,10 @@
   "place_id": "ChIJdwbx7kfSbzQRqcNwoOtHX-Y",
   "name_zh": "7-ELEVEN 金倫門市",
   "csv_type": "便利商店",
-  "rating": 4.6,
-  "total_ratings": 466,
   "location": {
-    "lat": 22.531414,
-    "lng": 120.963731
+    "lat": 22.531414299999998,
+    "lng": 120.9637312
   },
-  "source": "search_2026-07",
-  "note": "金崙溫泉區補給"
+  "search_keyword": "便利商店",
+  "source": "along_2026-06-02"
 }

@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJ0wDTs-idaDQRZ8UTVXLeXBc",
+  "name_zh": "彩礫石風鄉村民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 33,
+  "location": {
+    "lat": 24.0504078,
+    "lng": 121.61086850000001
+  },
+  "address": "971花蓮縣新城鄉康樂村廣安三街6巷8號",
+  "primary_type": "private_guest_room",
+  "distance_km": 2.68,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

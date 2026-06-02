@@ -1,13 +1,11 @@
 {
   "place_id": "ChIJ5XUQ6beyaDQRCAve1FPgKVQ",
-  "name_zh": "7-ELEVEN 馬太鞍門市",
+  "name_zh": "7-ELEVEn 馬太鞍門市",
   "csv_type": "便利商店",
-  "rating": 4.1,
-  "total_ratings": 110,
   "location": {
-    "lat": 23.656871,
-    "lng": 121.418932
+    "lat": 23.6568707,
+    "lng": 121.4189322
   },
-  "source": "search_2026-07",
-  "note": "光復鄉糖廠旁補給"
+  "search_keyword": "便利商店",
+  "source": "along_2026-06-02"
 }

@@ -1,0 +1,25 @@
+{
+  "place_id": "ChIJLbllF3FPXTQRP8vfyfjpTS0",
+  "name_zh": "大坪海岸",
+  "csv_type": "景點",
+  "location": {
+    "lat": 25.146893799999997,
+    "lng": 121.79423039999998
+  },
+  "search_keyword": "景點",
+  "source": "api_2026-06-02",
+  "rating": 4.5,
+  "total_ratings": 2309,
+  "address": "202基隆市中正區碧砂里漁港一街",
+  "primary_type": "scenic_spot",
+  "opening_hours_text": [
+    "Monday: Open 24 hours",
+    "Tuesday: Open 24 hours",
+    "Wednesday: Open 24 hours",
+    "Thursday: Open 24 hours",
+    "Friday: Open 24 hours",
+    "Saturday: Open 24 hours",
+    "Sunday: Open 24 hours"
+  ],
+  "editorial_summary": "Coastal stretch with a dramatic plateau of wave-flattened rock at low tide & green algae fields."
+}

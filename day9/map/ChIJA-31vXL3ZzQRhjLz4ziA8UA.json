@@ -1,0 +1,25 @@
+{
+  "place_id": "ChIJA-31vXL3ZzQRhjLz4ziA8UA",
+  "name_zh": "蘭陽博物館",
+  "csv_type": "景點",
+  "location": {
+    "lat": 24.8686561,
+    "lng": 121.83274080000001
+  },
+  "search_keyword": "景點",
+  "source": "api_2026-06-02",
+  "rating": 4.4,
+  "total_ratings": 22394,
+  "address": "261宜蘭縣頭城鎮港口里青雲路三段750號",
+  "primary_type": "museum",
+  "opening_hours_text": [
+    "Monday: 9:00 AM – 5:00 PM",
+    "Tuesday: 9:00 AM – 5:00 PM",
+    "Wednesday: Closed",
+    "Thursday: 9:00 AM – 5:00 PM",
+    "Friday: 9:00 AM – 5:00 PM",
+    "Saturday: 9:00 AM – 5:00 PM",
+    "Sunday: 9:00 AM – 5:00 PM"
+  ],
+  "editorial_summary": "Local history & culture exhibits plus a hands-on area for kids in a modern waterfront building."
+}

@@ -1,0 +1,24 @@
+{
+  "place_id": "ChIJP3BcMt2lbzQRuGjQunPiiYc",
+  "name_zh": "天來茶園-鹿野高台（麵店10:00～14:00週一休）",
+  "csv_type": "餐廳大休",
+  "location": {
+    "lat": 22.9241359,
+    "lng": 121.12495820000001
+  },
+  "search_keyword": "餐廳",
+  "source": "api_2026-06-02",
+  "rating": 5,
+  "total_ratings": 1647,
+  "address": "955臺東縣鹿野鄉永安村高台路48號1F",
+  "primary_type": "tea_store",
+  "opening_hours_text": [
+    "Monday: 8:00 AM – 7:30 PM",
+    "Tuesday: 8:00 AM – 7:30 PM",
+    "Wednesday: 8:00 AM – 7:30 PM",
+    "Thursday: 8:00 AM – 7:30 PM",
+    "Friday: 8:00 AM – 7:30 PM",
+    "Saturday: 8:00 AM – 7:30 PM",
+    "Sunday: 8:00 AM – 7:30 PM"
+  ]
+}

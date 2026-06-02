@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJLxOv-rapQjQRfnJiP_ignA8",
+  "name_zh": "悅美味食堂",
+  "name_lang": "zh-TW",
+  "rating": 4.5,
+  "total_ratings": 19,
+  "location": {
+    "lat": 25.0872364,
+    "lng": 121.4708761
+  },
+  "address": "247新北市蘆洲區保佑里三民路179號",
+  "primary_type": "brunch_restaurant",
+  "primary_type_label": "早午餐餐廳",
+  "distance_km": 0.84,
+  "source": "api_2026-06-02",
+  "note": "早午餐餐廳",
+  "name_is_ascii": false
+}

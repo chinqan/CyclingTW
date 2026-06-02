@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJK3Fn2MS1bjQRGQY2oKCdnEU",
+  "name_zh": "美味食刻",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 78,
+  "location": {
+    "lat": 23.7936657,
+    "lng": 120.4620882
+  },
+  "address": "648雲林縣西螺鎮正興里興農西路159號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.87,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

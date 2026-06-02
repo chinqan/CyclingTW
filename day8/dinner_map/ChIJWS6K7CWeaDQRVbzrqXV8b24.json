@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJWS6K7CWeaDQRVbzrqXV8b24",
+  "name_zh": "劉姥姥麵店",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 195,
+  "location": {
+    "lat": 24.005651399999998,
+    "lng": 121.62127910000001
+  },
+  "address": "970花蓮縣花蓮市民享里華廈街61之1號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 2.93,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

@@ -3,7 +3,7 @@
   "name_zh": "馬蓋先美食玉里麵",
   "name_lang": "zh-TW",
   "rating": 4.2,
-  "total_ratings": 2643,
+  "total_ratings": 2653,
   "location": {
     "lat": 23.3313803,
     "lng": 121.31456659999999
@@ -12,7 +12,7 @@
   "primary_type": "taiwanese_restaurant",
   "primary_type_label": "台式餐廳",
   "distance_km": 0.29,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "台式餐廳",
   "name_is_ascii": false
 }

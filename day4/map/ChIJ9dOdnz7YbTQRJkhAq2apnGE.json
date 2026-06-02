@@ -1,0 +1,21 @@
+{
+  "place_id": "ChIJ9dOdnz7YbTQRJkhAq2apnGE",
+  "name_zh": "鹿耳門聖母廟",
+  "rating": 4.7,
+  "total_ratings": 5255,
+  "location": {
+    "lat": 23.068023399999998,
+    "lng": 120.12724139999997
+  },
+  "source": "api_2026-06-02",
+  "opening_hours_text": [
+    "Monday: 5:00 AM – 9:00 PM",
+    "Tuesday: 5:00 AM – 9:00 PM",
+    "Wednesday: 5:00 AM – 9:00 PM",
+    "Thursday: 5:00 AM – 9:00 PM",
+    "Friday: 5:00 AM – 9:00 PM",
+    "Saturday: 5:00 AM – 9:00 PM",
+    "Sunday: 5:00 AM – 9:00 PM"
+  ],
+  "editorial_summary": "Vast Chinese-style temple dating from 1661, with gilded prayer halls popular at Chinese New Year."
+}

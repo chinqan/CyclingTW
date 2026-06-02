@@ -3,7 +3,7 @@
   "name_zh": "去拿早午餐 Quna brunch",
   "name_lang": "zh-TW",
   "rating": 4.2,
-  "total_ratings": 308,
+  "total_ratings": 309,
   "location": {
     "lat": 22.6149347,
     "lng": 121.00717809999999
@@ -12,7 +12,7 @@
   "primary_type": "breakfast_restaurant",
   "primary_type_label": "早餐店",
   "distance_km": 0.48,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "早餐店",
   "name_is_ascii": false
 }

@@ -1,0 +1,24 @@
+{
+  "place_id": "ChIJCay_0AvPcTQR3QVGF5y9WuA",
+  "name_zh": "雙流道之驛",
+  "csv_type": "餐廳大休",
+  "location": {
+    "lat": 22.2186751,
+    "lng": 120.79393359999999
+  },
+  "search_keyword": "餐廳",
+  "source": "api_2026-06-02",
+  "rating": 4.8,
+  "total_ratings": 616,
+  "address": "943屏東縣獅子鄉丹路村草埔六巷36之1號",
+  "primary_type": "taiwanese_restaurant",
+  "opening_hours_text": [
+    "Monday: 9:30 AM – 5:00 PM",
+    "Tuesday: 9:30 AM – 5:00 PM",
+    "Wednesday: 9:30 AM – 5:00 PM",
+    "Thursday: 9:30 AM – 5:00 PM",
+    "Friday: 9:30 AM – 5:00 PM",
+    "Saturday: 9:30 AM – 5:00 PM",
+    "Sunday: 10:30 AM – 5:00 PM"
+  ]
+}

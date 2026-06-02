@@ -3,7 +3,7 @@
   "name_zh": "京彤民宿",
   "name_lang": "zh-TW",
   "rating": 4.8,
-  "total_ratings": 59,
+  "total_ratings": 60,
   "location": {
     "lat": 23.331236999999998,
     "lng": 121.31260400000001
@@ -11,6 +11,6 @@
   "address": "981花蓮縣玉里鎮中城里光復路155號",
   "primary_type": "private_guest_room",
   "distance_km": 0.1,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "name_is_ascii": false
 }

@@ -3,7 +3,7 @@
   "name_zh": "士官長牛肉麵",
   "name_lang": "zh-TW",
   "rating": 4.4,
-  "total_ratings": 877,
+  "total_ratings": 882,
   "location": {
     "lat": 22.6154711,
     "lng": 121.00535959999999
@@ -12,7 +12,7 @@
   "primary_type": "chinese_noodle_restaurant",
   "primary_type_label": "中式麵館",
   "distance_km": 0.37,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "中式麵館",
   "name_is_ascii": false
 }

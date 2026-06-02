@@ -3,7 +3,7 @@
   "name_zh": "原香臭豆腐",
   "name_lang": "zh-TW",
   "rating": 4.5,
-  "total_ratings": 590,
+  "total_ratings": 591,
   "location": {
     "lat": 23.3337417,
     "lng": 121.31645479999999
@@ -12,7 +12,7 @@
   "primary_type": "korean_restaurant",
   "primary_type_label": "韓國餐廳",
   "distance_km": 0.54,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "韓國餐廳",
   "name_is_ascii": false
 }

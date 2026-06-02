@@ -3,7 +3,7 @@
   "name_zh": "雲南小棧",
   "name_lang": "zh-TW",
   "rating": 4.1,
-  "total_ratings": 435,
+  "total_ratings": 437,
   "location": {
     "lat": 25.2203852,
     "lng": 121.63875449999999
@@ -12,7 +12,7 @@
   "primary_type": "chinese_restaurant",
   "primary_type_label": "中式餐廳",
   "distance_km": 0.16,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "中式餐廳",
   "name_is_ascii": false
 }

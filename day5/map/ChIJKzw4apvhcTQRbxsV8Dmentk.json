@@ -1,0 +1,21 @@
+{
+  "place_id": "ChIJKzw4apvhcTQRbxsV8Dmentk",
+  "name_zh": "東港東隆宮",
+  "rating": 4.7,
+  "total_ratings": 7785,
+  "location": {
+    "lat": 22.4630838,
+    "lng": 120.44871930000001
+  },
+  "source": "api_2026-06-02",
+  "opening_hours_text": [
+    "Monday: 5:00 AM – 10:30 PM",
+    "Tuesday: 5:00 AM – 10:30 PM",
+    "Wednesday: 5:00 AM – 10:30 PM",
+    "Thursday: 5:00 AM – 10:30 PM",
+    "Friday: 5:00 AM – 10:30 PM",
+    "Saturday: 5:00 AM – 10:30 PM",
+    "Sunday: 5:00 AM – 10:30 PM"
+  ],
+  "editorial_summary": "This elaborate temple was originally built in 1706 & later rebuilt in 1894 after a tsunami."
+}

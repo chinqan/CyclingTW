@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJM5o_2XKeaDQR3cKqs_v9riw",
+  "name_zh": "古早味小吃",
+  "name_lang": "ja",
+  "rating": 4.4,
+  "total_ratings": 146,
+  "location": {
+    "lat": 24.032035999999998,
+    "lng": 121.6045037
+  },
+  "address": "971花蓮縣新城鄉北埔村北埔路169號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 2.3,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

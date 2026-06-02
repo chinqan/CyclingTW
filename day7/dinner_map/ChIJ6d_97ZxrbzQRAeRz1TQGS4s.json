@@ -3,7 +3,7 @@
   "name_zh": "緣緣蔬食家",
   "name_lang": "zh-TW",
   "rating": 4.8,
-  "total_ratings": 310,
+  "total_ratings": 311,
   "location": {
     "lat": 23.327812599999998,
     "lng": 121.3199199
@@ -12,7 +12,7 @@
   "primary_type": "vegan_restaurant",
   "primary_type_label": "素食餐廳",
   "distance_km": 0.93,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "素食餐廳",
   "name_is_ascii": false
 }

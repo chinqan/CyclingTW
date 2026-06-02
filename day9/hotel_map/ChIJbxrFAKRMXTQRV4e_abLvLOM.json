@@ -3,7 +3,7 @@
   "name_zh": "金湧泉溫泉汽車旅館",
   "name_lang": "zh-TW",
   "rating": 4.1,
-  "total_ratings": 1614,
+  "total_ratings": 1618,
   "location": {
     "lat": 25.218017399999997,
     "lng": 121.64457719999999
@@ -11,6 +11,6 @@
   "address": "207新北市萬里區和平里加投路246-3號",
   "primary_type": "motel",
   "distance_km": 0.76,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "name_is_ascii": false
 }

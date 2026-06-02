@@ -3,7 +3,7 @@
   "name_zh": "Dapu - Hotspring 大埔硫磺溫泉商旅",
   "name_lang": "zh-TW",
   "rating": 4.8,
-  "total_ratings": 8974,
+  "total_ratings": 8977,
   "location": {
     "lat": 25.2158716,
     "lng": 121.64328549999999
@@ -11,6 +11,6 @@
   "address": "207新北市萬里區大鵬里加投路205之5號",
   "primary_type": "hotel",
   "distance_km": 0.83,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "name_is_ascii": false
 }

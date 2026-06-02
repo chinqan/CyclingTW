@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJn2oQsWyeaDQRlRFrLv4iO_E",
+  "name_zh": "花蓮民宿費斯玻璃屋",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 1147,
+  "location": {
+    "lat": 24.025224299999998,
+    "lng": 121.6049822
+  },
+  "address": "971花蓮縣新城鄉嘉里村嘉里三街260巷3號",
+  "primary_type": "bed_and_breakfast",
+  "distance_km": 2.36,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

@@ -3,7 +3,7 @@
   "name_zh": "九江釣蝦場",
   "name_lang": "zh-TW",
   "rating": 4,
-  "total_ratings": 1009,
+  "total_ratings": 1011,
   "location": {
     "lat": 25.071758,
     "lng": 121.47293940000002
@@ -12,7 +12,7 @@
   "primary_type": "chinese_restaurant",
   "primary_type_label": "中式餐廳",
   "distance_km": 2.1,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "中式餐廳",
   "name_is_ascii": false
 }

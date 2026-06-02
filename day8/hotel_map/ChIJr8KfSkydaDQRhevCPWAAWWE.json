@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJr8KfSkydaDQRhevCPWAAWWE",
+  "name_zh": "邦迪民宿",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 36,
+  "location": {
+    "lat": 24.040478399999998,
+    "lng": 121.60947829999998
+  },
+  "address": "971花蓮縣新城鄉大漢村古井街3之1號",
+  "primary_type": "lodging",
+  "distance_km": 2.06,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

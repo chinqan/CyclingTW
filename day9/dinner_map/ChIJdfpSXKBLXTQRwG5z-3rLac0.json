@@ -3,7 +3,7 @@
   "name_zh": "漁夫先生海鮮餐廳",
   "name_lang": "zh-TW",
   "rating": 4.3,
-  "total_ratings": 232,
+  "total_ratings": 235,
   "location": {
     "lat": 25.227819699999998,
     "lng": 121.6445025
@@ -12,7 +12,7 @@
   "primary_type": "restaurant",
   "primary_type_label": "餐廳",
   "distance_km": 0.91,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "餐廳",
   "name_is_ascii": false
 }

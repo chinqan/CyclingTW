@@ -3,7 +3,7 @@
   "name_zh": "麻里マリ朝午食-太麻里店（店休臉書公告）",
   "name_lang": "zh-TW",
   "rating": 4.8,
-  "total_ratings": 251,
+  "total_ratings": 252,
   "location": {
     "lat": 22.6100264,
     "lng": 121.0048094
@@ -12,7 +12,7 @@
   "primary_type": "brunch_restaurant",
   "primary_type_label": "早午餐餐廳",
   "distance_km": 0.98,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "早午餐餐廳",
   "name_is_ascii": false
 }

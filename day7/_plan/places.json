@@ -1,168 +1,174 @@
 {
   "day": 7,
   "route_name": "花東縱谷田園騎行",
-  "total_ascent_desc": "花東縱谷地勢平緩，台9線沿卑南溪→秀姑巒溪谷北行，偶有緩坡，總爬升約 350m",
-  "main_route_desc": "太麻里車站 ➔ 知本溫泉 ➔ 台東市（鐵花村）➔ 初鹿牧場 ➔ 台9線北上 ➔ 鹿野 ➔ 關山環鎮自行車道 ➔ 池上（伯朗大道）➔ 悟饕池上飯包 ➔ 玉里車站",
+  "total_ascent_desc": "花東縱谷地勢平緩，台9線沿卑南溪→秀姑巒溪谷北行，偶有緩坡",
+  "main_route_desc": "太麻里 ➔ 知本溫泉 ➔ 台東市鐵花村 ➔ 初鹿牧場 ➔ 鹿野高台 ➔ 台9線 ➔ 關山環鎮自行車道 ➔ 池上伯朗大道 ➔ 玉里車站",
   "places": [
     {
-      "place_id": "ChIJ-fgsCr7ObzQRGrAOOXKCO4k",
-      "name_zh": "太麻里車站",
-      "search_keyword": "太麻里車站 台東縣太麻里鄉站前路2號",
       "csv_type": "起終點",
-      "note": "07:00出發 Day6終點續行 km0",
-      "rating": 4.4,
-      "total_ratings": 964,
+      "name_zh": "太麻里車站",
+      "place_id": "ChIJ-fgsCr7ObzQRGrAOOXKCO4k",
       "location": {
         "lat": 22.618796099999997,
         "lng": 121.00501509999998
       },
-      "bayesian_score": 4.31
+      "rating": 4.4,
+      "total_ratings": 972,
+      "search_keyword": "台東縣太麻里鄉 太麻里車站",
+      "note": "07:00 出發 接續 Day6 終點 km0",
+      "bayesian_score": 4.42
     },
     {
-      "place_id": "ChIJ7yDuP97JbzQRr_mzjOYs7tc",
-      "name_zh": "知本溫泉",
-      "search_keyword": "知本溫泉 台東縣卑南鄉",
       "csv_type": "景點",
-      "note": "台東知名溫泉區（index.md 必經）km約12",
-      "rating": 4.2,
-      "total_ratings": 1456,
+      "name_zh": "知本溫泉",
+      "place_id": "ChIJ7yDuP97JbzQRr_mzjOYs7tc",
       "location": {
         "lat": 22.6930439,
         "lng": 121.01812399999999
       },
-      "bayesian_score": 4.29
+      "rating": 4.2,
+      "total_ratings": 1456,
+      "search_keyword": "台東縣卑南鄉 知本溫泉",
+      "note": "必經 知本溫泉 溫泉鄉 km約14",
+      "bayesian_score": 4.24
     },
     {
-      "place_id": "ChIJAzKH2hW5bzQRD7rKWL4N5KU",
-      "name_zh": "鐵花村音樂聚落慢市集",
-      "search_keyword": "鐵花村 台東市新生路135巷26號",
+      "csv_type": "便利商店",
+      "name_zh": "全家便利商店 台東知本店",
+      "place_id": "ChIJVet74THIbzQRxYscUaeC-9I",
+      "location": {
+        "lat": 22.7060347,
+        "lng": 121.04007999999999
+      },
+      "search_keyword": "全家便利商店 台東知本店",
+      "note": "知本補給點 km約18",
+      "bayesian_score": null
+    },
+    {
       "csv_type": "景點",
-      "note": "台東市音樂藝文聚落 慢市集（index.md 必經）km約24",
-      "rating": 4.5,
-      "total_ratings": 14510,
+      "name_zh": "鐵花村音樂聚落慢市集",
+      "place_id": "ChIJAzKH2hW5bzQRD7rKWL4N5KU",
       "location": {
         "lat": 22.7536877,
         "lng": 121.1457215
       },
-      "bayesian_score": 4.42
+      "rating": 4.5,
+      "total_ratings": 14512,
+      "search_keyword": "台東市 鐵花村音樂聚落",
+      "note": "必經 鐵花村 台東市音樂聚落 km約31",
+      "bayesian_score": 4.5
     },
     {
-      "place_id": "ChIJ7-6P6Mu7bzQRGE-lgZwkypU",
-      "name_zh": "初鹿牧場",
-      "search_keyword": "初鹿牧場 台東縣卑南鄉牧場1號",
       "csv_type": "景點",
-      "note": "高山牧場 台9線旁（index.md 必經）km約42",
-      "rating": 4.2,
-      "total_ratings": 9256,
+      "name_zh": "初鹿牧場",
+      "place_id": "ChIJ7-6P6Mu7bzQRGE-lgZwkypU",
       "location": {
         "lat": 22.865761799999998,
         "lng": 121.1084195
       },
-      "bayesian_score": 4.25
-    },
-    {
-      "place_id": "ChIJ95Cw8FekbzQRO2aiAlrXi0o",
-      "name_zh": "7-ELEVEN 新鹿野門市",
-      "search_keyword": "7-ELEVEN 新鹿野門市 台東縣鹿野鄉中華路一段430號",
-      "csv_type": "便利商店",
-      "note": "鹿野鄉台9線旁補給 km約35",
       "rating": 4.2,
-      "total_ratings": 170,
-      "location": {
-        "lat": 22.910521,
-        "lng": 121.136215
-      },
-      "bayesian_score": null
+      "total_ratings": 9256,
+      "search_keyword": "台東縣卑南鄉 初鹿牧場",
+      "note": "必經 初鹿牧場 高山牧場 km約49",
+      "bayesian_score": 4.21
     },
     {
-      "place_id": "ChIJWzs2WB0KbzQRrGMcd23iV1A",
-      "name_zh": "關山環鎮自行車道",
-      "search_keyword": "關山環鎮自行車道 台東縣關山鎮",
-      "csv_type": "景點",
-      "note": "約10:00抵達 全台首座環鎮自行車道 12km 稻田+水圳+山景 km約50",
-      "rating": 4.5,
-      "total_ratings": 1679,
-      "location": {
-        "lat": 23.0420572,
-        "lng": 121.1708451
-      },
-      "bayesian_score": 4.33
-    },
-    {
-      "place_id": "ChIJ2TeHU_AJbzQRm7ePv5bKAMI",
-      "name_zh": "7-ELEVEN 關山門市",
-      "search_keyword": "7-ELEVEN 關山門市 台東縣關山鎮和平路4號",
       "csv_type": "便利商店",
-      "note": "關山鎮中心補給 km約52",
-      "rating": 4.5,
-      "total_ratings": 110,
+      "name_zh": "7-ELEVEN 初鹿門市",
+      "place_id": "ChIJKXaSab26bzQRK9tWrE-vw94",
       "location": {
-        "lat": 23.045086,
-        "lng": 121.163145
+        "lat": 22.856227099999998,
+        "lng": 121.09232339999998
       },
+      "search_keyword": "7-ELEVEN 初鹿門市",
+      "note": "初鹿補給點 km約46",
       "bayesian_score": null
     },
     {
-      "place_id": "ChIJZatyKu4JbzQRyHuSojQ6qQ0",
-      "name_zh": "伯朗大道",
-      "search_keyword": "伯朗大道 台東縣池上鄉錦新三號道路",
       "csv_type": "景點",
-      "note": "約11:30抵達 稻田中筆直道路 金城武樹 池上代表 km約65",
-      "rating": 4.4,
-      "total_ratings": 9606,
+      "name_zh": "鹿野高台",
+      "place_id": "ChIJAQAAADSkbzQR2E5XyomxUJo",
+      "location": {
+        "lat": 22.916449,
+        "lng": 121.12159489999999
+      },
+      "rating": 4.5,
+      "total_ratings": 26945,
+      "search_keyword": "台東縣鹿野鄉 鹿野高台",
+      "note": "必經 鹿野高台 熱氣球嘉年華飛行傘 km約62",
+      "bayesian_score": 4.5
+    },
+    {
+      "csv_type": "餐廳大休",
+      "name_zh": "天來茶園-鹿野高台（麵店10:00～14:00週一休）",
+      "place_id": "ChIJP3BcMt2lbzQRuGjQunPiiYc",
+      "location": {
+        "lat": 22.9241359,
+        "lng": 121.12495820000001
+      },
+      "rating": 5,
+      "total_ratings": 1647,
+      "search_keyword": "台東縣鹿野鄉 天來茶園 鹿野高台",
+      "note": "午餐大休 鹿野高台茶園餐 km約64（麵店10:00-14:00，週一休）",
+      "bayesian_score": 4.94
+    },
+    {
+      "csv_type": "便利商店",
+      "name_zh": "全家便利商店 台東關山店",
+      "place_id": "ChIJEy5gYVYJbzQRDIEuO-kU00I",
+      "location": {
+        "lat": 23.0458885,
+        "lng": 121.1634013
+      },
+      "search_keyword": "全家便利商店 台東關山店",
+      "note": "關山補給點（關山環鎮自行車道）km約79",
+      "bayesian_score": null
+    },
+    {
+      "csv_type": "景點",
+      "name_zh": "伯朗大道",
+      "place_id": "ChIJZatyKu4JbzQRyHuSojQ6qQ0",
       "location": {
         "lat": 23.0988065,
         "lng": 121.2130022
       },
-      "bayesian_score": 4.35
+      "rating": 4.4,
+      "total_ratings": 9617,
+      "search_keyword": "台東縣池上鄉 伯朗大道",
+      "note": "必經 伯朗大道 池上金黃稻浪 km約93",
+      "bayesian_score": 4.4
     },
     {
-      "place_id": "ChIJuYubE4sMbzQR6F0sgiCsdSo",
-      "name_zh": "悟饕池上飯包文化故事館",
-      "search_keyword": "悟饕池上飯包文化故事館 台東縣池上鄉忠孝路259號",
-      "csv_type": "餐廳大休",
-      "note": "12:00-13:00 午餐大休 池上便當始祖 坐在舊火車車廂用餐 km約68",
-      "rating": 3.9,
-      "total_ratings": 17106,
-      "location": {
-        "lat": 23.1242563,
-        "lng": 121.2209041
-      },
-      "bayesian_score": 4.04
-    },
-    {
-      "place_id": "ChIJmdUKymMMbzQRMKY64QAzCgo",
-      "name_zh": "7-ELEVEN 池上門市",
-      "search_keyword": "7-ELEVEN 池上門市 台東縣池上鄉中山路64號",
       "csv_type": "便利商店",
-      "note": "池上鎮補給 km約68",
-      "rating": 4.0,
-      "total_ratings": 123,
+      "name_zh": "7-ELEVEN 富鄉門市",
+      "place_id": "ChIJ-bZiq1sNbzQRLNejAPkMLso",
       "location": {
-        "lat": 23.12075,
-        "lng": 121.213276
+        "lat": 23.1762251,
+        "lng": 121.24816519999999
       },
+      "search_keyword": "7-ELEVEN 富鄉門市",
+      "note": "富里補給點 km約104",
       "bayesian_score": null
     },
     {
-      "place_id": "ChIJ677P5HxqbzQR590ArDS8N5E",
-      "name_zh": "玉里車站",
-      "search_keyword": "玉里車站 花蓮縣玉里鎮",
       "csv_type": "起終點",
-      "note": "約15:30抵達 當日終點 花東縱谷中繼站 km約100",
-      "rating": 4.1,
-      "total_ratings": 682,
+      "name_zh": "玉里車站",
+      "place_id": "ChIJ677P5HxqbzQR590ArDS8N5E",
       "location": {
         "lat": 23.331519999999998,
         "lng": 121.31172
       },
-      "bayesian_score": 4.29
+      "rating": 4.1,
+      "total_ratings": 689,
+      "search_keyword": "花蓮縣玉里鎮 玉里車站",
+      "note": "終點 玉里 玉里麵與安通溫泉 km約121",
+      "bayesian_score": 4.2
     }
   ],
-  "bayesian_C": 4.3,
-  "bayesian_m": 9256,
-  "ors_distance_km": 127.6,
-  "ors_duration_hours": 7.2,
-  "elevation_ascent_m": 750,
-  "elevation_descent_m": 668
+  "bayesian_C": 4.4832,
+  "bayesian_m": 228,
+  "elevation_ascent_m": 1063,
+  "elevation_descent_m": 980,
+  "ors_distance_km": 125.7,
+  "ors_duration_hours": 7.9
 }

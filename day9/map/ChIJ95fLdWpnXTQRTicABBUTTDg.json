@@ -1,0 +1,15 @@
+{
+  "place_id": "ChIJ95fLdWpnXTQRTicABBUTTDg",
+  "name_zh": "臺灣最東點",
+  "csv_type": "景點",
+  "location": {
+    "lat": 25.011306599999998,
+    "lng": 122.00716129999998
+  },
+  "search_keyword": "景點",
+  "source": "along_2026-06-02",
+  "rating": 4.2,
+  "total_ratings": 238,
+  "address": "新北市貢寮區",
+  "primary_type": "tourist_attraction"
+}

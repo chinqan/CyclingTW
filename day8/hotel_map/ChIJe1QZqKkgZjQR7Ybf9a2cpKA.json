@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJe1QZqKkgZjQR7Ybf9a2cpKA",
+  "name_zh": "七星潭水上明月海景渡假旅店 Hotelmoon",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 369,
+  "location": {
+    "lat": 24.0269756,
+    "lng": 121.63110870000001
+  },
+  "address": "97143花蓮縣新城鄉大漢村七星街58號",
+  "primary_type": "hotel",
+  "distance_km": 0.64,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

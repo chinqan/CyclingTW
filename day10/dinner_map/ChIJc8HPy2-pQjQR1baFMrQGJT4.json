@@ -3,7 +3,7 @@
   "name_zh": "官小二酸菜魚（蘆洲店）-酸菜魚｜蘆洲美食｜蘆洲長安街美食",
   "name_lang": "zh-TW",
   "rating": 4.9,
-  "total_ratings": 1638,
+  "total_ratings": 1640,
   "location": {
     "lat": 25.0824885,
     "lng": 121.45993820000001
@@ -12,7 +12,7 @@
   "primary_type": "restaurant",
   "primary_type_label": "餐廳",
   "distance_km": 0.69,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "餐廳",
   "name_is_ascii": false
 }

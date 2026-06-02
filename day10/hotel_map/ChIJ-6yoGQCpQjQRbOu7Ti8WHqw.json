@@ -3,7 +3,7 @@
   "name_zh": "新城九八精緻旅館 New City Motel",
   "name_lang": "zh-TW",
   "rating": 4.4,
-  "total_ratings": 80,
+  "total_ratings": 81,
   "location": {
     "lat": 25.0909808,
     "lng": 121.44583670000002
@@ -11,6 +11,6 @@
   "address": "248新北市五股區成功里新城六路135號",
   "primary_type": "hotel",
   "distance_km": 1.72,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "name_is_ascii": false
 }

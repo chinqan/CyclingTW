@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ16odd5yfaDQRw1Gc86yN884",
+  "name_zh": "町屋丼飯 北埔店-花蓮美食-餐廳-咖哩-Restaurants",
+  "name_lang": "zh-TW",
+  "rating": 4.7,
+  "total_ratings": 275,
+  "location": {
+    "lat": 24.035163999999998,
+    "lng": 121.603459
+  },
+  "address": "971花蓮縣新城鄉北埔村北埔路270號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 2.44,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

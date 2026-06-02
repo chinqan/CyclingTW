@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJURutJiefaDQR2gdANyGbdZo",
+  "name_zh": "住右邊民宿",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 11,
+  "location": {
+    "lat": 24.020134499999998,
+    "lng": 121.6083922
+  },
+  "address": "971花蓮縣新城鄉嘉里村嘉里一街93號",
+  "primary_type": "private_guest_room",
+  "distance_km": 2.28,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

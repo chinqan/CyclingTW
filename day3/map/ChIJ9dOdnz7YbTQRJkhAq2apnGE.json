@@ -3,11 +3,21 @@
   "name_zh": "鹿耳門聖母廟",
   "csv_type": "景點",
   "rating": 4.7,
-  "total_ratings": 5234,
+  "total_ratings": 5255,
   "location": {
-    "lat": 23.068023,
-    "lng": 120.127241
+    "lat": 23.068023399999998,
+    "lng": 120.12724139999997
   },
-  "source": "search_2026-05-21",
-  "note": "台灣最大媽祖廟 鹿耳門地區文化核心"
+  "source": "api_2026-06-02",
+  "note": "台灣最大媽祖廟 鹿耳門地區文化核心",
+  "opening_hours_text": [
+    "Monday: 5:00 AM – 9:00 PM",
+    "Tuesday: 5:00 AM – 9:00 PM",
+    "Wednesday: 5:00 AM – 9:00 PM",
+    "Thursday: 5:00 AM – 9:00 PM",
+    "Friday: 5:00 AM – 9:00 PM",
+    "Saturday: 5:00 AM – 9:00 PM",
+    "Sunday: 5:00 AM – 9:00 PM"
+  ],
+  "editorial_summary": "Vast Chinese-style temple dating from 1661, with gilded prayer halls popular at Chinese New Year."
 }

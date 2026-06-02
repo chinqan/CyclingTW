@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJc3Is4aggZjQRnPsLx3-fing",
+  "name_zh": "七星日出民宿",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 390,
+  "location": {
+    "lat": 24.0256972,
+    "lng": 121.63239449999998
+  },
+  "address": "971花蓮縣花蓮市民心里七星街31-1號",
+  "primary_type": "hotel",
+  "distance_km": 0.83,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

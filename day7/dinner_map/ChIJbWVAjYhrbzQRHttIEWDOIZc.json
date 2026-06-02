@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJbWVAjYhrbzQRHttIEWDOIZc",
+  "name_zh": "米廷·米工坊｜草仔粿、薏仁漿、花生米漿、 早午餐、下午茶、手作體驗、親子手作",
+  "name_lang": "zh-TW",
+  "rating": 4.9,
+  "total_ratings": 45,
+  "location": {
+    "lat": 23.3272618,
+    "lng": 121.3172761
+  },
+  "address": "981花蓮縣玉里鎮中城里中山路一段52號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.74,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

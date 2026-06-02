@@ -1,0 +1,16 @@
+{
+  "place_id": "ChIJR8L3UnlqbzQRiSPt74sX8zY",
+  "name_zh": "市居民宿",
+  "name_lang": "zh-TW",
+  "rating": 3.9,
+  "total_ratings": 91,
+  "location": {
+    "lat": 23.3350764,
+    "lng": 121.3142557
+  },
+  "address": "981花蓮縣玉里鎮泰昌里中山路二段121號",
+  "primary_type": "lodging",
+  "distance_km": 0.47,
+  "source": "api_2026-06-02",
+  "name_is_ascii": false
+}

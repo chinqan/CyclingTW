@@ -3,11 +3,11 @@
   "name_zh": "玉里車站",
   "csv_type": "起終點",
   "rating": 4.1,
-  "total_ratings": 682,
+  "total_ratings": 689,
   "location": {
     "lat": 23.331519999999998,
     "lng": 121.31172
   },
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "Day7終點 花東縱谷中繼"
 }

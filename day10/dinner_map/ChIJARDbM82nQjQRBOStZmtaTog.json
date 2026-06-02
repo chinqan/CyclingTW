@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJARDbM82nQjQRBOStZmtaTog",
+  "name_zh": "嘉一牛肉麵食堂（牛肉麵/水餃/蛋包飯/蓋飯）",
+  "name_lang": "zh-TW",
+  "rating": 4.6,
+  "total_ratings": 53,
+  "location": {
+    "lat": 25.0898269,
+    "lng": 121.43301040000001
+  },
+  "address": "248新北市五股區六福里五福路53號一樓",
+  "primary_type": "taiwanese_restaurant",
+  "primary_type_label": "台式餐廳",
+  "distance_km": 2.99,
+  "source": "api_2026-06-02",
+  "note": "台式餐廳",
+  "name_is_ascii": false
+}

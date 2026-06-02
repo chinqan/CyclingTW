@@ -2,27 +2,27 @@
   "day": 6,
   "origin_label": "鵝鑾鼻",
   "destination_label": "太麻里",
-  "distance_range": "約 129.5 公里",
+  "distance_range": "約 127.5 公里",
   "subtitle": "極南壽卡翻山越嶺行",
   "orientation": "horizontal_landscape_3_2",
   "lighting": "清晨海岸金光、翻越壽卡後太平洋湛藍天際",
-  "allowed_elements": "多良車站懸崖月台、太平洋湛藍海面與鐵道並行、風吹砂黃沙飛揚奇景、壽卡鐵馬驛站山頂制高點、屏鵝公路蜿蜒海岸線、鵝鑾鼻白色燈塔遠景",
-  "enhancement": "畫面呈現翻越壽卡後沿太平洋懸崖鐵道騎行的壯闊感、多良車站作為全台最美廢棄車站象徵東岸獨特秘境、太平洋浩瀚海面強調東岸騎行的孤高氛圍",
+  "allowed_elements": "白色鵝鑾鼻燈塔、珊瑚礁海岸、台灣海峽與太平洋交界、壽卡爬坡標誌、南迴山稜、單車",
+  "enhancement": "強調台灣最南端白色燈塔的標誌性與藍天碧海、極南點的遼闊、清晨海岸金光",
   "main_visual": {
-    "place_id": "ChIJqza3KrrTbzQRv2vJUxBEm24",
-    "location_desc": "台東縣太麻里「多良車站」",
-    "scene_elements": "懸崖上廢棄木造月台、鐵軌延伸至遠方山壁、月台邊直落太平洋的峭壁、湛藍無邊際海面、山壁與海面夾峙的鐵道景觀",
-    "action": "站在多良車站月台邊緣眺望太平洋、公路車靠在站牌旁、雙手撐著欄杆俯瞰懸崖",
-    "expression": "震懾、靜默、被全台最美車站景色奪走語言的感動"
-  },
-  "small_avatar": {
     "place_id": "ChIJZV-_DhWxcTQREKTCizrSV1c",
     "location_desc": "屏東縣恆春「鵝鑾鼻燈塔」",
-    "scenario": "極南點白色燈塔前天色未明、珊瑚礁岩與太平洋背景",
-    "action": "在燈塔前舉起雙手慶祝極南達成後跨上單車出發",
-    "expression": "堅定、鬥志高昂、準備挑戰壽卡"
+    "scene_elements": "矗立於草坡上的白色鵝鑾鼻燈塔、台灣最南端碧藍海平線與珊瑚礁海岸、草原與南國灌叢、清晨金色陽光灑落、藍天白雲",
+    "action": "單腳踩地跨在公路車上、舉手與白色燈塔及『台灣最南端』意象合影",
+    "expression": "抵達四極點之一的成就感與興奮、燦爛自豪的笑容"
   },
-  "composition": "主角在畫面中央偏上、鵝鑾鼻燈塔在右上方小分身、太麻里車站在畫面右側遠景、沿途點綴風吹砂、壽卡鐵馬驛站",
-  "geographic_notes": "鵝鑾鼻燈塔在畫面左側（西側）、太麻里車站在畫面右側（東側）",
+  "small_avatar": {
+    "place_id": "ChIJG7fKhoWxcTQR6CrWL3xdESQ",
+    "location_desc": "屏東縣恆春「墾丁大街」",
+    "scenario": "清晨於墾丁大街整裝、大尖石山為背景、單車掛滿補給準備迎接壽卡挑戰",
+    "action": "牽著公路車回頭揮手、準備往極南與壽卡出發",
+    "expression": "面對全日最硬爬坡的鬥志與期待"
+  },
+  "composition": "主角在畫面中央偏上、墾丁大街在右上方小分身、太麻里車站在畫面右側遠景、沿途點綴龍磐公園大草原、風吹砂、壽卡鐵馬驛站、多良觀光車站",
+  "geographic_notes": "墾丁大街在畫面左側（西側）、太麻里車站在畫面右側（東側）",
   "_last_place_id": "ChIJ-fgsCr7ObzQRGrAOOXKCO4k"
 }

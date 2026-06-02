@@ -7,9 +7,19 @@
     "lng": 120.7108895
   },
   "search_keyword": "古城 福安宮 海灘 景點",
-  "source": "along_2026-06-02",
+  "source": "api_2026-06-02",
   "rating": 4.6,
-  "total_ratings": 24741,
+  "total_ratings": 24742,
   "address": "944屏東縣車城鄉福安村福安路51號",
-  "primary_type": "place_of_worship"
+  "primary_type": "place_of_worship",
+  "opening_hours_text": [
+    "Monday: 5:00 AM – 10:00 PM",
+    "Tuesday: 5:00 AM – 10:00 PM",
+    "Wednesday: 5:00 AM – 10:00 PM",
+    "Thursday: 5:00 AM – 10:00 PM",
+    "Friday: 5:00 AM – 10:00 PM",
+    "Saturday: 5:00 AM – 10:00 PM",
+    "Sunday: 5:00 AM – 10:00 PM"
+  ],
+  "editorial_summary": "Intricately decorated Taoist temple built during the Qing dynasty & dedicated to the deity Tudigong."
 }

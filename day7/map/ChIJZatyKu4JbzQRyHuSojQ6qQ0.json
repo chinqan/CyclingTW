@@ -3,12 +3,12 @@
   "name_zh": "伯朗大道",
   "csv_type": "景點",
   "rating": 4.4,
-  "total_ratings": 9606,
+  "total_ratings": 9617,
   "location": {
     "lat": 23.0988065,
     "lng": 121.2130022
   },
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "稻田中筆直道路 池上代表景觀",
   "opening_hours_text": [
     "Monday: Open 24 hours",

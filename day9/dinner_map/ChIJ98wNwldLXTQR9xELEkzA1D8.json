@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJ98wNwldLXTQR9xELEkzA1D8",
+  "name_zh": "蕃薯粿",
+  "name_lang": "zh-TW",
+  "rating": 4.1,
+  "total_ratings": 48,
+  "location": {
+    "lat": 25.221889299999997,
+    "lng": 121.63823010000002
+  },
+  "address": "208新北市金山區中山路190巷",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.02,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}

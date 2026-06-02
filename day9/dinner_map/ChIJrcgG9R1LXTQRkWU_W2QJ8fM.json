@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJrcgG9R1LXTQRkWU_W2QJ8fM",
+  "name_zh": "人間美味小吃部",
+  "name_lang": "zh-TW",
+  "rating": 1,
+  "total_ratings": 1,
+  "location": {
+    "lat": 25.2245861,
+    "lng": 121.6342705
+  },
+  "address": "208新北市金山區中山路373號",
+  "primary_type": "chinese_restaurant",
+  "primary_type_label": "中式餐廳",
+  "distance_km": 0.51,
+  "source": "api_2026-06-02",
+  "note": "中式餐廳",
+  "name_is_ascii": false
+}

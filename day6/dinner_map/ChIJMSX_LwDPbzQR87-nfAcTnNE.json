@@ -3,7 +3,7 @@
   "name_zh": "維縈家鄉碳烤雞排 太麻里店",
   "name_lang": "zh-TW",
   "rating": 4.9,
-  "total_ratings": 157,
+  "total_ratings": 158,
   "location": {
     "lat": 22.611824499999997,
     "lng": 121.0060094
@@ -12,7 +12,7 @@
   "primary_type": "fast_food_restaurant",
   "primary_type_label": "速食餐廳",
   "distance_km": 0.78,
-  "source": "api_2026-05-21",
+  "source": "api_2026-06-02",
   "note": "速食餐廳",
   "name_is_ascii": false
 }

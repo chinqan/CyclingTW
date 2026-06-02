@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJoVNYe1rhcTQRDfQvgFi_mk4",
+  "name_zh": "三漁握り寿司/刺身丼飯專賣店",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 14,
+  "location": {
+    "lat": 22.4591267,
+    "lng": 120.45231620000001
+  },
+  "address": "327號, 嘉新路嘉蓮里東港鎮屏東縣928",
+  "primary_type": "sushi_restaurant",
+  "primary_type_label": "壽司店",
+  "distance_km": 0.57,
+  "source": "api_2026-06-02",
+  "note": "壽司店",
+  "name_is_ascii": false
+}

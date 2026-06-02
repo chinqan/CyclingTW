@@ -1,0 +1,18 @@
+{
+  "place_id": "ChIJUzDrcABLXTQRcRQv--OIrE4",
+  "name_zh": "素秀古早味白糖粿",
+  "name_lang": "zh-TW",
+  "rating": 5,
+  "total_ratings": 1,
+  "location": {
+    "lat": 25.2214948,
+    "lng": 121.63804049999999
+  },
+  "address": "208新北市金山區和平里中山路188號",
+  "primary_type": "restaurant",
+  "primary_type_label": "餐廳",
+  "distance_km": 0.04,
+  "source": "api_2026-06-02",
+  "note": "餐廳",
+  "name_is_ascii": false
+}
