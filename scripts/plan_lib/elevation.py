@@ -118,6 +118,24 @@ def _calculate_ascent_descent(elevations: list[float], threshold: float = SMOOTH
     return round(total_ascent), round(total_descent)
 
 
+def compute_from_points(points: list[tuple[float, float]], api_key: str) -> tuple[int, int]:
+    """從 [(lat, lng), …] 軌跡折線抽樣 → Elevation API → 平滑算累計爬升/下降。
+
+    供 cmd_elevation（讀 GPX）與 cmd_route（直接用記憶體裡的真實路線折線）共用，
+    讓 route 能在「寫 places.json 距離」的同一次寫入順手帶上爬升欄位，
+    不額外多一次 places.json 寫入而破壞 render-md 自癒的 mtime 不變式。
+    """
+    if len(points) < 2:
+        die(f"軌跡點不足（{len(points)} 個）")
+    sampled = _sample_points(points, max_total=300)
+    info(f"抽樣：{len(sampled)} 個點 → {math.ceil(len(sampled) / MAX_LOCATIONS_PER_REQUEST)} 次 Elevation API 請求")
+    elevations = _fetch_elevations(sampled, api_key)
+    info(f"取得 {len(elevations)} 個海拔值（範圍 {min(elevations):.0f}m – {max(elevations):.0f}m）")
+    ascent, descent = _calculate_ascent_descent(elevations, threshold=SMOOTHING_THRESHOLD_M)
+    info(f"計算結果：↑ {ascent} m ／ ↓ {descent} m（threshold={SMOOTHING_THRESHOLD_M}m）")
+    return ascent, descent
+
+
 def cmd_elevation(args):
     """從 GPX 軌跡點 + Google Elevation API 計算精確爬升/下降。"""
     n = args.day
@@ -131,26 +149,12 @@ def cmd_elevation(args):
     if not places_path.exists():
         die(f"找不到 {places_path.relative_to(ROOT)}")
 
-    # 1. 讀取 GPX 軌跡點
+    # 讀取 GPX 軌跡點 → 共用計算
     all_points = _parse_gpx_trackpoints(gpx_path)
-    if len(all_points) < 2:
-        die(f"GPX 軌跡點不足（{len(all_points)} 個）")
     info(f"GPX 軌跡點：{len(all_points)} 個")
+    ascent, descent = compute_from_points(all_points, api_key)
 
-    # 2. 抽樣（最多 300 點，控制 API 請求數）
-    sampled = _sample_points(all_points, max_total=300)
-    info(f"抽樣：{len(sampled)} 個點 → {math.ceil(len(sampled) / MAX_LOCATIONS_PER_REQUEST)} 次 API 請求")
-
-    # 3. 呼叫 Elevation API
-    info("呼叫 Google Elevation API …")
-    elevations = _fetch_elevations(sampled, api_key)
-    info(f"取得 {len(elevations)} 個海拔值（範圍 {min(elevations):.0f}m – {max(elevations):.0f}m）")
-
-    # 4. 平滑計算
-    ascent, descent = _calculate_ascent_descent(elevations, threshold=SMOOTHING_THRESHOLD_M)
-    info(f"計算結果：↑ {ascent} m ／ ↓ {descent} m（threshold={SMOOTHING_THRESHOLD_M}m）")
-
-    # 5. 寫回 places.json
+    # 寫回 places.json
     data = read_json(places_path)
     data["elevation_ascent_m"] = ascent
     data["elevation_descent_m"] = descent

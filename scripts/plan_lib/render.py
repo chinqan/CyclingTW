@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import math
+import os
 import re
 import sys
 
@@ -311,6 +312,17 @@ def _collect_gate_errors(n: int, places: dict, segments: dict) -> list[str]:
             gate_errors.append(
                 f"{path.relative_to(ROOT)} 比 places.json 舊（{phase} 需重做）→ 請執行：{cmd}"
             )
+
+    # (A.2) Phase 2 爬升/下降：route 會把 elevation_ascent_m 寫進 places.json（在 gpx 之前）。
+    #     gpx 已存在但欄位仍為 None → 代表是 elevation 整合前的舊產出，需重跑 route 補算。
+    #     只在有 GOOGLE_PLACES_API_KEY 時當作 gate（離線 gpx-waypoints 本就算不出，留空不擋），
+    #     避免離線環境永遠觸發自癒。route 重跑後欄位非 None → 此 gate 通過，無無窮迴圈。
+    if os.environ.get("GOOGLE_PLACES_API_KEY") and gpx_path.exists() \
+            and places.get("elevation_ascent_m") is None:
+        gate_errors.append(
+            "places.json 缺爬升/下降（elevation_ascent_m=None，elevation 整合前的舊產出）→ "
+            f"請執行：python3 scripts/plan.py route {n}"
+        )
 
     # (B) Phase 3.5 晚餐：dinner_map/ 有候選 → dinner.json 必須存在且新鮮
     if dinner_map_has_candidates:

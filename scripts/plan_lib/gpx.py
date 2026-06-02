@@ -257,6 +257,17 @@ def cmd_route(args):
     coords = [[p["location"]["lng"], p["location"]["lat"]] for p in places]
     distance_km, duration_hours, points = _google_route(coords, api_key, travel_mode)
 
+    # 從真實路線折線（points=[lat,lng]）順手算爬升/下降，與下面距離欄位同一次寫入 places.json。
+    # 放在 gpx 寫出之前 → places.json mtime 仍 < gpx，維持 render-md 自癒「gpx ≥ places.json」不變式，
+    # 不會因 elevation 而觸發無窮自癒。Elevation API 失敗不影響路線本身（欄位留空，模板退回文字）。
+    try:
+        from .elevation import compute_from_points
+        asc, desc = compute_from_points(points, api_key)
+        data["elevation_ascent_m"] = asc
+        data["elevation_descent_m"] = desc
+    except SystemExit:
+        info("    爬升/下降計算略過（Elevation API 失敗），保留 places.json 既有值")
+
     # 寫回 places.json（沿用 ors_* 鍵名以維持下游 render/index/template 相容）
     data["ors_distance_km"] = distance_km
     data["ors_duration_hours"] = duration_hours

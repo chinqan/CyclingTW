@@ -7,7 +7,7 @@
    3. Claude 從 candidates 依**沿路里程**挑選間距均勻的停靠點 → 編寫 `dayN/_plan/places.json`（必經景點必須含；**景點 csv_type=="景點" ≤ 5 個**，超過時必經優先＋其餘取 Bayesian 最高，被擠掉的移出 places.json 自動降為 better_attractions 備案；便利商店每 ~30km 一個；午餐放中段）。
    4. `refresh-details N`（批量刷新評分）→ `compute N` → `write-csv N`。
    > 舊作法 `mirror-search`（具名單點搜）保留為 fallback，用於 searchAlongRoute 漏掉的特定點。
-3. **Phase 2**：`route N`（Google Routes API computeRoutes，需 `GOOGLE_PLACES_API_KEY` 且該 key 已啟用 **Routes API**；travelMode 預設 `TWO_WHEELER`（機車，涵蓋最好、走一般道路/省道；BICYCLE 在台灣圖資較稀、實測繞路偏多），可由 `config.json` 的 `travel_mode` 或環境變數 `ROUTES_TRAVEL_MODE` 覆寫為 `BICYCLE`/`DRIVE`；離線時改用 `gpx-waypoints N`）
+3. **Phase 2**：`route N`（Google Routes API computeRoutes，需 `GOOGLE_PLACES_API_KEY` 且該 key 已啟用 **Routes API**；travelMode 預設 `TWO_WHEELER`（機車，涵蓋最好、走一般道路/省道；BICYCLE 在台灣圖資較稀、實測繞路偏多），可由 `config.json` 的 `travel_mode` 或環境變數 `ROUTES_TRAVEL_MODE` 覆寫為 `BICYCLE`/`DRIVE`；離線時改用 `gpx-waypoints N`）。**`route` 會順手用真實路線折線打 Google Elevation API 算累計爬升/下降寫進 `places.json`（`elevation_ascent_m`/`elevation_descent_m`），故毋須另跑 `elevation N`；離線 `gpx-waypoints` 算不出時欄位留空，模板退回文字描述。** 獨立 `elevation N` 仍可單獨補算。
 4. **Phase 3**：`render-prompt N`（Claude 先補 `_plan/poster_vars.json` 主視覺欄位）
 5. **Phase 3.5（晚餐）**：`dinner-search N`（直接呼叫 Google Places API，zh-TW 語言碼，自動 upsert dinner_map/，過濾非餐廳類）→ `dinner-pool N`（產 `_plan/dinner.json` 並寫入 `source_endpoint_place_id` 簽章）。需 `GOOGLE_PLACES_API_KEY`，不走 MCP。
 6. **Phase 3.6（住宿）**：`hotel-search N`（直接呼叫 Google Places API，zh-TW 語言碼，自動 upsert hotel_map/）→ `hotel-pool N`（產 `_plan/hotel.json` 帶 `source_endpoint_place_id` 簽章）→ `hotel-render N`（產 `dayN_hotel.md`）。Bayesian top 5；`render-md` 預檢會檢查 `hotel.json` 新鮮度與終點簽章。需 `GOOGLE_PLACES_API_KEY`，不走 MCP。
