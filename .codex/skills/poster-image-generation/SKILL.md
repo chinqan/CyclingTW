@@ -15,7 +15,7 @@ Do not mix the two modes. If the user's request does not clearly identify Daily 
 ## Inputs
 
 **Daily Poster mode**
-- `dayN/dayN_prompt.md`: required day-specific visual prompt.
+- `dayN/dayN_prompt.md`: required day-specific visual prompt. Treat this file as the authoritative, user-authored generation prompt.
 - `dayN/dayN_mymap.csv`: required ordered route/location data for validating geography and route order.
 - `主角.md`: required rider and road-bike character prompt.
 - `主角.png`: optional visual reference for human inspection only when needed; do not claim it was passed to image generation unless the tool actually supports image inputs and it was passed.
@@ -55,6 +55,8 @@ Build the generation prompt by combining:
 - the selected route/cover prompt (`dayN/dayN_prompt.md` or `output/imagegen/cyclingtw-cover_prompt.md`);
 - a rider section copied from `主角.md`, preferably the `可直接放入產圖 Prompt 的版本` section plus relevant negative constraints.
 
+For Daily Poster mode, this combination rule only applies when `dayN/dayN_prompt.md` does **not** already contain the rider section from `主角.md`. If the daily prompt is already pre-merged, use the file content verbatim as the generation prompt.
+
 If the selected prompt already contains a rider section from `主角.md` (for example `【主角提示詞（來自主角.md）】` and `【主角負面限制（來自主角.md）】`), do not duplicate the rider text. Instead, compare it against the current `主角.md`; if the prompt is stale, replace the embedded rider section with the current `主角.md` content before generation.
 
 If the image-generation tool supports image inputs and `主角.png` exists, you may pass `主角.png` as an additional visual reference. Never say or imply that `主角.png` was used as an image reference unless it was actually passed to the generation tool as an image input.
@@ -70,7 +72,15 @@ When merging `主角.md` into the generation prompt:
 
 ### Daily prompt merge rules
 
-For Daily Poster mode, the final prompt must keep the day-specific route and scene text from `dayN/dayN_prompt.md` as the authority for locations, actions, landmarks, lighting, and composition.
+For Daily Poster mode, `dayN/dayN_prompt.md` is the authority for the entire generation prompt: locations, actions, poses, camera angles, landmarks, lighting, composition, title text, route text, aspect ratio, style, and negative constraints.
+
+Strict prompt preservation rules:
+- If `dayN/dayN_prompt.md` already contains `【主角提示詞來源】`, `【主角提示詞（來自主角.md）】`, and `【主角負面限制（來自主角.md）】`, pass the full file content to the image-generation tool verbatim.
+- Do not summarize, shorten, translate, reorder, rewrite, rephrase, normalize, or "improve" a pre-merged daily prompt.
+- Do not replace the user's pose, camera angle, composition, route order, title wording, landmark list, style, lighting, or output-format instructions.
+- Do not create a separate condensed prompt for batch generation.
+- Do not add extra series-consistency instructions unless the user explicitly asks for that change.
+- If a prompt appears stale compared with `主角.md`, stop before generation and ask whether to update the prompt file or generate exactly as written. Do not silently rewrite the prompt in-memory.
 
 When the day prompt has not yet been pre-merged with `主角.md`:
 - Insert `【主角提示詞來源】`, `【主角提示詞（來自主角.md）】`, and `【主角負面限制（來自主角.md）】` after the aspect-ratio/output-format line when possible.
@@ -78,7 +88,7 @@ When the day prompt has not yet been pre-merged with `主角.md`:
 - Rewrite road-bike reference language so the bike appearance follows `主角.md`, not a photo.
 
 When the day prompt has already been pre-merged with `主角.md`:
-- Use the pre-merged day prompt directly after confirming the embedded rider section is current.
+- Use the pre-merged day prompt directly and verbatim.
 - Do not append another copy of the rider prompt at the end.
 
 ### 3. Save gate
@@ -99,7 +109,7 @@ Do not report completion until the final project file exists at the chosen outpu
 1. Determine the mode: Daily Poster or Cover Poster.
 2. Read required route/cover input files for that mode. For Daily Poster mode, also read `dayN/dayN_mymap.csv` to validate route order and geography.
 3. Confirm `主角.md` exists and read it in full.
-4. Build the final prompt by merging the chosen route/cover prompt with the relevant `主角.md` rider prompt section.
+4. Build the final prompt. For Daily Poster mode, use `dayN/dayN_prompt.md` verbatim when it is already pre-merged with `主角.md`; only merge `主角.md` when the daily prompt is not pre-merged.
 5. Confirm whether the image-generation tool can receive `主角.png` as an optional image input. If it can and `主角.png` exists, pass it; otherwise proceed with the merged text prompt only.
 6. Generate the image.
 7. Save/copy the generated image to the correct target path using the output naming rules.
