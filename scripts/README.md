@@ -184,7 +184,7 @@ Bayesian 評分的 **SoT (Source of Truth)**。由 `score-pool N` 對整個 mirr
 
 ### `_plan/poster_vars.json`（**Claude 編輯**）
 
-海報提示詞模板的 5 個置換變數。
+海報提示詞的變數與敘事主體。核心是 **`narrative`**：Claude 仿根目錄 `prompt.md` 敘事手法、套用當日情境手寫的整段提示詞（`dayN_prompt.md` 主體）；其餘場景欄位為撰寫素材與 fallback。
 
 ```json
 {
@@ -213,7 +213,10 @@ Bayesian 評分的 **SoT (Source of Truth)**。由 `score-pool N` 對整個 mirr
   "allowed_elements": "...",
   "composition": "...",
   "lighting": "柔和清晨明亮光線、清新藍天白雲",
-  "enhancement": "..."
+  "enhancement": "...",
+
+  // Claude 手寫的整段敘事體提示詞（dayN_prompt.md 主體；路線變動會被自動清空）
+  "narrative": "依照上方『主角.md』提示詞生成角色，風格轉換為 3D Q版公仔…（整段散文，織入當日故事/主視覺/小分身/地理方位/質感要求）"
 }
 ```
 
@@ -460,6 +463,8 @@ python3 scripts/plan.py gpx-waypoints 2
 > 💡 不必先手動 `compute`：`render-prompt` 的 ★主視覺自動 fallback 依賴 `bayesian_score`，偵測到 places.json 尚無分數（沒跑過 compute，或改點後未重算）時會**自動補跑 `compute`** 再同步主視覺。`--no-sync` 模式不重選主視覺，故不觸發。
 
 **手寫 `_plan/poster_vars.json`**：主視覺從 CSV `bayesian_score` 最高的景點選；夕陽景點（如高美濕地）要把 `lighting` 改成金色暖光。
+
+**`narrative`（必填，dayN_prompt.md 主體）**：Claude 參考根目錄 `prompt.md` 的敘事手法，套用當日場景情境**手寫整段敘事體提示詞**——以當日旅程故事為軸，把主視覺場景/動作/表情、小分身、沿途地標、地理方位（`geographic_notes` / `composition` 為機器推導事實，必須遵守）、3D Q版 diorama 風格與質感要求自然織進連續散文（完整要素清單見 `plan.py` 檔頭規則 [G]）。narrative 為空時 render-prompt fallback 舊版欄位拼接並警告；路線變動會自動清空 narrative。
 
 ```bash
 python3 scripts/plan.py render-prompt 2
@@ -745,12 +750,12 @@ python3 scripts/plan.py <subcommand> <day_number> [options]
 
 ### `render-prompt N [--no-sync]`
 
-用 `templates/prompt.md.j2` 渲染海報提示詞。
+用 `templates/prompt.md.j2` 渲染海報提示詞。主體為 `poster_vars.json` 的 **`narrative`**（Claude 手寫的整段敘事體提示詞，見 Phase 3 說明與 `plan.py` 規則 [G]）；narrative 為空時 fallback 舊版欄位拼接並警告。
 
 **預設行為**：渲染前會先從 `places.json` 重推 `poster_vars.json` 的「結構欄位」：
 - `composition` / `geographic_notes`：每次都依當前 places + orientation 重生
 - `main_visual.place_id` / `small_avatar.place_id`：依 ★主視覺 與起點同步
-- 若 `place_id` 變動，會清空對應的手寫場景文字（`scene_elements` / `action` / `expression` / `scenario`）並警告，避免舊文字配新地點
+- 若 `place_id` 變動，會清空對應的手寫場景文字（`narrative` / `scene_elements` / `action` / `expression` / `scenario`）並警告，避免舊文字配新地點
 - `origin_label` / `destination_label` / `distance_range` / `subtitle` / `orientation` / `lighting` / `allowed_elements` / `enhancement`：缺值才補預設，已有就尊重使用者編輯
 
 **參數**：
@@ -782,7 +787,7 @@ python3 scripts/plan.py <subcommand> <day_number> [options]
 - 不會覆蓋既有 `segments.json.better_attractions`（有內容才會 `touch`；空時自動產）
 - 最後 `render-md --force`：cascade 已串完，bypass 自癒檢查
 
-**不能自動補的事項**（需手動）：`places.json` 點位選擇、`segments.json` 主敘述（五段配速、ishikawa、notes）、`poster_vars.json` 手寫場景文字（`scene_elements` / `action` / `expression` / `scenario`）。
+**不能自動補的事項**（需手動）：`places.json` 點位選擇、`segments.json` 主敘述（五段配速、ishikawa、notes）、`poster_vars.json` 手寫場景文字（`narrative` 敘事段與素材欄位 `scene_elements` / `action` / `expression` / `scenario`）。
 
 ### `render-md N [--force]`
 

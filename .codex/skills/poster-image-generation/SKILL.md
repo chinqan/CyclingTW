@@ -1,153 +1,135 @@
 ---
 name: poster-image-generation
-description: Generate either a cycling trip Day N poster from day-specific prompt/CSV files, or the overall CyclingTW cover poster from the cover prompt. Use this skill for Day N poster requests, route poster regeneration, or cover poster (封面海報) requests. Always read the rider prompt 主角.md, merge it with the route/cover prompt, and handle output naming/final file saving explicitly.
+description: 依照每日提示詞/CSV 產生單車旅程 Day N 海報，或依照封面提示詞產生 CyclingTW 整體封面海報。當使用者要求 Day N 海報、路線海報重新生成，或封面海報時使用此 skill。必須一律使用 主角.png 作為騎士與公路車的視覺參考，不得讀取或合併 主角.md，並且必須明確處理輸出命名與最終檔案儲存。
 ---
 
-# Poster Image Generation
+# 海報圖片生成
 
-Generate polished cycling-route posters for this project. This skill supports exactly two modes:
+為此專案生成精緻的單車路線海報。此 skill 只支援兩種模式：
 
-1. **Daily Poster**: create a poster for a specific Day N.
-2. **Cover Poster**: create the overall 10-day CyclingTW cover poster.
+1. **Daily Poster**：為指定的 Day N 生成海報。
+2. **Cover Poster**：生成 CyclingTW 10 天旅程的整體封面海報。
 
-Do not mix the two modes. If the user's request does not clearly identify Daily Poster or Cover Poster, ask a concise clarification before generating.
+不得混用兩種模式。如果使用者的要求沒有清楚指出是 Daily Poster 或 Cover Poster，生成前必須先用簡短問題確認。
 
-## Inputs
-
-**Daily Poster mode**
-- `dayN/dayN_prompt.md`: required day-specific visual prompt. Treat this file as the authoritative, user-authored generation prompt.
-- `dayN/dayN_mymap.csv`: required ordered route/location data for validating geography and route order.
-- `主角.md`: required rider and road-bike character prompt.
-- `主角.png`: optional visual reference for human inspection only when needed; do not claim it was passed to image generation unless the tool actually supports image inputs and it was passed.
-
-**Cover Poster mode**
-- `output/imagegen/cyclingtw-cover_prompt.md`: required cover prompt for the whole 10-day loop.
-- `主角.md`: required rider and road-bike character prompt.
-- `主角.png`: optional visual reference for human inspection only when needed; do not claim it was passed to image generation unless the tool actually supports image inputs and it was passed.
-
-## Output Paths
+## 輸入
 
 **Daily Poster mode**
-- Default output: `dayN/dayN_poster.png`
-- If it already exists and the user did not explicitly ask to overwrite it, save `dayN/dayN_poster_v2.png`, then `_v3.png`, etc.
+- `dayN/dayN_prompt.md`：必備的每日視覺提示詞。此檔案是使用者撰寫的權威生成提示詞。
+- `dayN/dayN_mymap.csv`：必備的有序路線/地點資料，用於驗證地理位置與路線順序。
+- `主角.png`：必備的騎士與公路車視覺參考。每次生成時都必須把它作為實際圖片輸入/參考傳給圖片生成工具。
 
 **Cover Poster mode**
-- Default output: `output/imagegen/cyclingtw-cover_poster.png`
-- If it already exists and the user did not explicitly ask to overwrite it, save `output/imagegen/cyclingtw-cover_poster_v2.png`, then `_v3.png`, etc.
+- `output/imagegen/cyclingtw-cover_prompt.md`：必備的 10 天環島整體封面提示詞。
+- `主角.png`：必備的騎士與公路車視覺參考。每次生成時都必須把它作為實際圖片輸入/參考傳給圖片生成工具。
 
-Keep generated project assets inside their target project folder before reporting completion.
+## 輸出路徑
 
-## Required Safety Gates
+**Daily Poster mode**
+- 預設輸出：`dayN/dayN_poster.png`
+- 如果檔案已存在，且使用者沒有明確要求覆寫，請儲存為 `dayN/dayN_poster_v2.png`，接著是 `_v3.png`，依此類推。
 
-### 1. Mode gate
+**Cover Poster mode**
+- 預設輸出：`output/imagegen/cyclingtw-cover_poster.png`
+- 如果檔案已存在，且使用者沒有明確要求覆寫，請儲存為 `output/imagegen/cyclingtw-cover_poster_v2.png`，接著是 `_v3.png`，依此類推。
 
-Before generation, state which mode is being used:
-- Daily Poster: identify the day number and read the day prompt, day CSV, and `主角.md`.
-- Cover Poster: read the cover prompt and `主角.md`.
+回報完成前，必須先把生成出的專案資產放進目標專案資料夾。
 
-If mode or day number is unclear, ask the user. Do not infer a day number from unrelated files.
+## 必要安全檢查
 
-### 2. Rider-prompt gate
+### 1. 模式檢查
 
-`主角.md` is mandatory. Confirm it exists before generation and read it in full.
+生成前，必須說明正在使用哪一種模式：
+- Daily Poster：確認 day 編號，讀取每日 prompt 與每日 CSV，並確認 `主角.png` 存在。
+- Cover Poster：讀取封面 prompt，並確認 `主角.png` 存在。
 
-Build the generation prompt by combining:
-- the selected route/cover prompt (`dayN/dayN_prompt.md` or `output/imagegen/cyclingtw-cover_prompt.md`);
-- a rider section copied from `主角.md`, preferably the `可直接放入產圖 Prompt 的版本` section plus relevant negative constraints.
+如果模式或 day 編號不明確，必須詢問使用者。不得從無關檔案推測 day 編號。
 
-For Daily Poster mode, this combination rule only applies when `dayN/dayN_prompt.md` does **not** already contain the rider section from `主角.md`. If the daily prompt is already pre-merged, use the file content verbatim as the generation prompt.
+### 2. 主角圖片檢查
 
-If the selected prompt already contains a rider section from `主角.md` (for example `【主角提示詞（來自主角.md）】` and `【主角負面限制（來自主角.md）】`), do not duplicate the rider text. Instead, compare it against the current `主角.md`; if the prompt is stale, replace the embedded rider section with the current `主角.md` content before generation.
+`主角.png` 是必備檔案。生成前必須確認它存在。
 
-If the image-generation tool supports image inputs and `主角.png` exists, you may pass `主角.png` as an additional visual reference. Never say or imply that `主角.png` was used as an image reference unless it was actually passed to the generation tool as an image input.
+角色與公路車外觀必須來自 `主角.png`，不得來自文字版主角提示詞。
 
-### Rider prompt merge rules
+圖片生成工具必須支援把 `主角.png` 作為實際圖片輸入/參考傳入。如果目前可用工具無法傳入圖片，生成前必須停止，並告知使用者此 skill 需要支援圖片參考的生成工具。
 
-When merging `主角.md` into the generation prompt:
-- Add it under a clear heading such as `【主角提示詞（來自主角.md）】`.
-- Preserve the rider identity constraints: young female cyclist, black long braid, white helmet, blue reflective sunglasses, black/white cycling kit with bright pink accents, road bike with drop bars.
-- Preserve `主角.md` negative constraints unless they conflict with the selected route/cover prompt.
-- Remove or soften route/cover prompt language that falsely claims an attached image is the only reference source, such as `【輸入圖片】主角.png`, `請依照我上傳的照片生成角色`, `外觀保留真實臉型`, or `公路車...依照照片`.
-- Do not replace the route, geography, day order, lighthouse, title, or aspect-ratio instructions from the selected route/cover prompt.
+呼叫圖片生成工具時，必須明確附上/傳入 `主角.png`。除非它確實已作為圖片輸入/參考傳入，否則不得說或暗示已使用 `主角.png`。
 
-### Daily prompt merge rules
+### 提示詞與參考規則
 
-For Daily Poster mode, `dayN/dayN_prompt.md` is the authority for the entire generation prompt: locations, actions, poses, camera angles, landmarks, lighting, composition, title text, route text, aspect ratio, style, and negative constraints.
+- 選定的路線/封面 prompt 仍然是路線、地理、day 順序、標題、地標、姿勢、鏡位、長寬比、風格與構圖的權威來源。
+- `主角.png` 是騎士與公路車外觀的權威來源。
+- 如果 prompt 與 `主角.png` 在騎士或車輛外觀上衝突，外觀以 `主角.png` 為準，同時保留 prompt 中的路線、姿勢、場景與構圖指示。
 
-Strict prompt preservation rules:
-- If `dayN/dayN_prompt.md` already contains `【主角提示詞來源】`, `【主角提示詞（來自主角.md）】`, and `【主角負面限制（來自主角.md）】`, pass the full file content to the image-generation tool verbatim.
-- Do not summarize, shorten, translate, reorder, rewrite, rephrase, normalize, or "improve" a pre-merged daily prompt.
-- Do not replace the user's pose, camera angle, composition, route order, title wording, landmark list, style, lighting, or output-format instructions.
-- Do not create a separate condensed prompt for batch generation.
-- Do not add extra series-consistency instructions unless the user explicitly asks for that change.
-- If a prompt appears stale compared with `主角.md`, stop before generation and ask whether to update the prompt file or generate exactly as written. Do not silently rewrite the prompt in-memory.
+### 每日提示詞保留規則
 
-When the day prompt has not yet been pre-merged with `主角.md`:
-- Insert `【主角提示詞來源】`, `【主角提示詞（來自主角.md）】`, and `【主角負面限制（來自主角.md）】` after the aspect-ratio/output-format line when possible.
-- Rewrite old image-reference language so the character is based on `主角.md`, not an uploaded photo.
-- Rewrite road-bike reference language so the bike appearance follows `主角.md`, not a photo.
+在 Daily Poster mode 中，`dayN/dayN_prompt.md` 是整個生成提示詞的權威來源，包含地點、動作、姿勢、鏡位、地標、光線、構圖、標題文字、路線文字、長寬比、風格與負面限制。
 
-When the day prompt has already been pre-merged with `主角.md`:
-- Use the pre-merged day prompt directly and verbatim.
-- Do not append another copy of the rider prompt at the end.
+嚴格提示詞保留規則：
+- 將完整檔案內容逐字傳給圖片生成工具，並附上 `主角.png` 作為視覺參考。
+- 不得摘要、縮短、翻譯、重排、改寫、換句話說、正規化或「改善」每日 prompt。
+- 不得替換使用者寫好的姿勢、鏡位、構圖、路線順序、標題文字、地標清單、風格、光線或輸出格式指示。
+- 不得為批次生成另外建立精簡版 prompt。
+- 除非使用者明確要求，否則不得加入額外的系列一致性指示。
 
-### 3. Save gate
+### 3. 儲存檢查
 
-After generation, the image must be copied or moved into the target output path before final response.
+生成後，必須先把圖片複製或移動到目標輸出路徑，才能回覆完成。
 
-Many image tools save first under a temporary/generated folder such as `.codex/generated_images/...`. When that happens:
-- leave the original generated image in place unless the user explicitly asks to delete it;
-- copy the generated PNG into the target project output path;
-- verify the target file exists with `ls -l`;
-- verify dimensions/orientation with a local tool such as `sips`;
-- show or visually inspect the final target image when possible.
+許多圖片工具會先把檔案存到暫存/生成資料夾，例如 `.codex/generated_images/...`。發生這種情況時：
+- 除非使用者明確要求刪除，否則保留原始生成圖片；
+- 將生成的 PNG 複製到專案目標輸出路徑；
+- 使用 `ls -l` 驗證目標檔案存在；
+- 使用 `sips` 等本機工具驗證尺寸/方向；
+- 可行時，顯示或視覺檢查最終目標圖片。
 
-Do not report completion until the final project file exists at the chosen output path.
+在最終專案檔案確實存在於選定輸出路徑之前，不得回報完成。
 
-## Workflow
+## 工作流程
 
-1. Determine the mode: Daily Poster or Cover Poster.
-2. Read required route/cover input files for that mode. For Daily Poster mode, also read `dayN/dayN_mymap.csv` to validate route order and geography.
-3. Confirm `主角.md` exists and read it in full.
-4. Build the final prompt. For Daily Poster mode, use `dayN/dayN_prompt.md` verbatim when it is already pre-merged with `主角.md`; only merge `主角.md` when the daily prompt is not pre-merged.
-5. Confirm whether the image-generation tool can receive `主角.png` as an optional image input. If it can and `主角.png` exists, pass it; otherwise proceed with the merged text prompt only.
-6. Generate the image.
-7. Save/copy the generated image to the correct target path using the output naming rules.
-8. Verify target file existence, dimensions, and aspect orientation.
-9. Do a visual quality pass before reporting completion.
+1. 判定模式：Daily Poster 或 Cover Poster。
+2. 讀取該模式所需的路線/封面輸入檔。Daily Poster mode 還必須讀取 `dayN/dayN_mymap.csv`，用於驗證路線順序與地理位置。
+3. 確認 `主角.png` 存在，並確認所選圖片生成工具能把它作為實際圖片輸入/參考傳入。
+4. 建立最終 prompt。Daily Poster mode 必須逐字使用 `dayN/dayN_prompt.md`；Cover Poster mode 則以封面 prompt 作為 prompt 權威來源。
+5. 將 `主角.png` 傳給圖片生成工具，作為騎士與公路車的視覺參考。如果工具無法傳入圖片，必須停止並回報 blocker。
+6. 生成圖片。
+7. 依照輸出命名規則，將生成圖片儲存/複製到正確目標路徑。
+8. 驗證目標檔案存在、尺寸與方向。
+9. 回報完成前進行視覺品質檢查。
 
-## Aspect Ratio Rules
+## 長寬比規則
 
-The output tool may ignore the requested aspect ratio, so verify dimensions after generation.
+輸出工具可能忽略指定長寬比，因此生成後必須驗證尺寸。
 
-- Cover Poster: target `3:2`, width greater than height.
-- Daily Poster: target `3:2`, width greater than height.
+- Cover Poster：目標為 `3:2`，寬度大於高度。
+- Daily Poster：目標為 `3:2`，寬度大於高度。
 
-If the aspect ratio is wrong, you must dynamically crop the copied project output file after generation before delivery. Because default generation sizes vary (e.g., 1024x1024), **do not hardcode dimensions**. Instead:
+如果長寬比錯誤，交付前必須在生成後動態裁切已複製到專案的輸出檔。由於預設生成尺寸可能不同，例如 1024x1024，**不得硬編碼尺寸**。請改用以下方式：
 
-1. Identify the generated image dimensions.
-2. Calculate the maximum possible center-crop dimensions for the target ratio (`3:2` for both Cover Poster and Daily Poster).
-3. Use project-appropriate tooling such as `sips` on macOS to perform the crop.
+1. 取得生成圖片尺寸。
+2. 依目標比例計算可用的最大置中裁切尺寸（Cover Poster 與 Daily Poster 都是 `3:2`）。
+3. 使用專案合適的工具進行裁切，例如 macOS 的 `sips`。
 
 ```bash
-# Example: If generated image is 1024x1024 and target is 3:2:
-# Height becomes 1024 * (2/3) ≈ 682, Width remains 1024
+# 範例：如果生成圖片是 1024x1024，目標是 3:2：
+# 高度變成 1024 * (2/3) ≈ 682，寬度維持 1024
 sips --cropToHeightWidth 682 1024 path/to/poster.png
 ```
 
-## Quality Checklist
+## 品質檢查清單
 
-- Final image file exists in the project target path.
-- Aspect ratio matches the requested poster type.
+- 最終圖片檔存在於專案目標路徑。
+- 長寬比符合要求的海報類型。
 
-## When To Ask The User
+## 何時詢問使用者
 
-Ask before proceeding when:
-- the request does not clearly say which mode to use;
-- a Daily Poster request does not identify Day N;
-- required input files are missing;
-- `主角.md` is missing;
-- the target output file exists and overwriting versus versioning is ambiguous;
-- generated output has major quality issues and regeneration would materially change the result.
+遇到以下情況時，繼續前必須先詢問使用者：
+- 使用者要求未清楚指定要使用哪個模式；
+- Daily Poster 要求沒有指定 Day N；
+- 必要輸入檔缺失；
+- `主角.png` 缺失；
+- 目前可用圖片生成工具無法把 `主角.png` 作為圖片輸入/參考傳入；
+- 目標輸出檔已存在，且覆寫或版號命名的意圖不明確；
+- 生成結果有重大品質問題，而重新生成會實質改變結果。
 
-Do not make silent assumptions for these cases.
+遇到這些情況，不得默默假設。

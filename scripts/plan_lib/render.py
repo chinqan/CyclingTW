@@ -152,6 +152,9 @@ def _derive_poster_vars(n: int) -> dict:
     out.setdefault("lighting", "柔和清晨明亮光線、清新藍天白雲")
     out.setdefault("allowed_elements", "")
     out.setdefault("enhancement", "")
+    # narrative：Claude 手寫的整段敘事體海報提示詞（仿 prompt.md 敘事手法、套用當日情境）。
+    # 為主要渲染來源；scene_elements/action/expression 等欄位降為撰寫素材與 fallback。
+    out.setdefault("narrative", "")
 
     axis = _axis_words(out["orientation"], first["location"], last["location"])
 
@@ -215,11 +218,12 @@ def _derive_poster_vars(n: int) -> dict:
         route_changed = True
     out["_last_place_id"] = last_pid
 
-    # allowed_elements / enhancement：路線有任何變動就清空
+    # allowed_elements / enhancement / narrative：路線有任何變動就清空
     if route_changed:
         out["allowed_elements"] = ""
         out["enhancement"] = ""
-        info("⚠️  路線已更動，allowed_elements / enhancement 已清空，請重新填寫")
+        out["narrative"] = ""
+        info("⚠️  路線已更動，allowed_elements / enhancement / narrative 已清空，請重新填寫")
 
     # composition / geographic_notes
     main_pid = (out.get("main_visual") or {}).get("place_id")
@@ -255,17 +259,21 @@ def cmd_render_prompt(args):
     else:
         poster_vars = _derive_poster_vars(n)
         info(f"已從 places.json 同步 {vars_path.relative_to(ROOT)}")
-        empty_fields = []
-        mv = poster_vars.get("main_visual") or {}
-        for k in ("scene_elements", "action", "expression"):
-            if not mv.get(k):
-                empty_fields.append(f"main_visual.{k}")
-        sa = poster_vars.get("small_avatar") or {}
-        for k in ("scenario", "action", "expression"):
-            if not sa.get(k):
-                empty_fields.append(f"small_avatar.{k}")
-        if empty_fields:
-            info(f"⚠️  以下手寫欄位為空：{', '.join(empty_fields)}")
+        if not (poster_vars.get("narrative") or "").strip():
+            info("⚠️  narrative 為空：將以舊版欄位拼接模板 fallback 渲染。"
+                 "請參考根目錄 prompt.md 的敘事手法，套用當日場景情境手寫 "
+                 "poster_vars.json 的 narrative 欄位後重跑 render-prompt。")
+            empty_fields = []
+            mv = poster_vars.get("main_visual") or {}
+            for k in ("scene_elements", "action", "expression"):
+                if not mv.get(k):
+                    empty_fields.append(f"main_visual.{k}")
+            sa = poster_vars.get("small_avatar") or {}
+            for k in ("scenario", "action", "expression"):
+                if not sa.get(k):
+                    empty_fields.append(f"small_avatar.{k}")
+            if empty_fields:
+                info(f"⚠️  以下 fallback 素材欄位也為空：{', '.join(empty_fields)}")
     protagonist_prompt, protagonist_negative = load_protagonist()
     poster_vars["protagonist_prompt"] = protagonist_prompt
     poster_vars["protagonist_negative"] = protagonist_negative

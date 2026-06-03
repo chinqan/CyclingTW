@@ -78,7 +78,9 @@ dinner-search / hotel-search / refresh-details 都在這一條路）。
                            （需設定 GOOGLE_PLACES_API_KEY 環境變數）
                            加 --with-reviews 同時取 reviews（Pro tier）
   render-prompt N          產 dayN_prompt.md；預設先從 _plan/places.json 重推
-                           poster_vars.json 結構欄位（--no-sync 跳過）
+                           poster_vars.json 結構欄位（--no-sync 跳過）。主體渲染
+                           Claude 手寫的 narrative 敘事段（規則 [G]）；narrative
+                           為空時 fallback 舊版欄位拼接並警告
   render-md N              產 dayN.md。渲染前全量檢查 Phase 0-3 / 3.5 / 3.6 / 4
                            產出 mtime ≥ places.json 且 dinner/hotel.json 的
                            source_endpoint_place_id 對應目前終點。偵測到陳舊會
@@ -151,8 +153,20 @@ Claude 規劃時必須遵守的規則（plan.py 無法強制，但需在對話�
   - 閾值 2000 寫在 render.py _DESTINATION_MIN_RATINGS，可依需求調整
   - 邊界案例（終點具敘事意義但 total_ratings 不足）：在 places.json note 加「★主視覺」手動覆蓋
 
-[G] 海報光線氛圍（poster_vars.json 的 lighting 欄位）
-  - 預設：柔和清晨明亮光線、清新藍天白雲
+[G] 海報提示詞撰寫（poster_vars.json 的 narrative 欄位，dayN_prompt.md 主體）
+  - 不用欄位拼接模板，Claude 必須**手寫整段敘事體提示詞**填入 narrative：
+    參考專案根目錄 `prompt.md` 的敘事手法，套用當日場景情境撰寫——以「當日旅程
+    故事」為敘事軸（從哪出發、跨過什麼、抵達哪個里程碑），把主視覺場景、動作、
+    表情、小分身、沿途地標、地理方位（geographic_notes / composition 為機器推導
+    的事實依據，必須遵守）自然織進連續散文，而非條列欄位。
+  - 必含要素（敘事中自然帶到）：3D Q版公仔/diorama 風格轉換與特徵、主角為畫面
+    最大主體、公路車縮小模型細節、小分身位置與情境、「台灣立體地圖模型」整體
+    構圖、地理位置正確性與限制（不可虛構建築/錯置地標/非台灣風格）、前中遠景
+    層次、8K/電影級光影/miniature diorama style 質感、解剖正確/臉部清晰補強。
+  - 路線變動（主視覺/起點/終點換點）時 narrative 會被自動清空，需重寫。
+  - narrative 為空時 render-prompt fallback 舊版欄位拼接（scene_elements/action/
+    expression 等欄位保留作撰寫素材）並警告。
+  - 光線氛圍（lighting 欄位，織入 narrative）預設：柔和清晨明亮光線、清新藍天白雲
 """
 from __future__ import annotations
 

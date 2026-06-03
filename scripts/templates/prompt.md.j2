@@ -13,7 +13,8 @@ Output format: horizontal landscape poster, aspect ratio 3:2.
 【主角負面限制（來自主角.md）】
 {{ protagonist_negative }}
 
-依照上方 `主角.md` 文字提示詞生成角色，風格轉換為：3D Q版公仔（高級模型公仔 / 微縮場景 diorama）
+{% if narrative %}{{ narrative }}
+{% else %}依照上方 `主角.md` 文字提示詞生成角色，風格轉換為：3D Q版公仔（高級模型公仔 / 微縮場景 diorama）
 特徵：頭大身小比例、玻璃珠眼睛、細膩皮膚質感、表情自然、有生命力。
 主角為畫面最大主體（最顯眼）
 地點：{{ main_visual.location_desc }}
@@ -33,3 +34,4 @@ Output format: horizontal landscape poster, aspect ratio 3:2.
 畫面質感：8K 超高解析、電影級光影、{{ lighting }}、景深（depth of field）、寫實材質（realistic texture）、miniature diorama style
 補強：主角比例最大、解剖正確、無多餘肢體、臉部清晰、無文字錯誤
 {% if enhancement %}強化：{{ enhancement }}{% endif %}
+{% endif %}
