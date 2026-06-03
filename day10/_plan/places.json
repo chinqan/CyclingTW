@@ -2,7 +2,7 @@
   "day": 10,
   "route_name": "極北完騎凱旋歸途",
   "total_ascent_desc": "台2線北海岸至淡水平緩，淡水→八里→蘆洲為河岸自行車道全平路，僅富貴角一帶小起伏",
-  "main_route_desc": "金山老街 ➔ 台2線西行 ➔ 石門洞 ➔ 富貴角燈塔（極北）➔ 三芝 ➔ 淡水老街 ➔ 八里左岸自行車道 ➔ 蘆洲柳堤公園",
+  "main_route_desc": "金山老街 ➔ 台2線西行 ➔ 石門洞 ➔ 富貴角燈塔（極北）➔ 三芝 ➔ 淡水老街 ➔ 淡江大橋跨淡水河 ➔ 八里左岸自行車道 ➔ 蘆洲柳堤公園",
   "places": [
     {
       "csv_type": "起終點",
@@ -29,7 +29,7 @@
       "rating": 4.3,
       "total_ratings": 12223,
       "search_keyword": "新北市石門區 石門洞",
-      "note": "必經 石門 海蝕拱門地標 km約14",
+      "note": "必經 石門 海蝕拱門地標 km約13",
       "bayesian_score": 4.31
     },
     {
@@ -41,7 +41,7 @@
         "lng": 121.5680525
       },
       "search_keyword": "全家便利商店 石門粽香店",
-      "note": "石門補給點 km約15",
+      "note": "石門補給點 km約14",
       "bayesian_score": null
     },
     {
@@ -55,7 +55,7 @@
       "rating": 4.7,
       "total_ratings": 849,
       "search_keyword": "新北市石門區 富貴角燈塔 台灣最北點",
-      "note": "必經 極北 富貴角燈塔 ★主視覺 台灣本島最北點黑白燈塔 集滿四極點 km約19",
+      "note": "必經 極北 富貴角燈塔 ★主視覺 台灣本島最北點黑白燈塔 集滿四極點 km約18",
       "bayesian_score": 4.62
     },
     {
@@ -67,7 +67,7 @@
         "lng": 121.50339849999999
       },
       "search_keyword": "7-ELEVEN 三芝門市",
-      "note": "三芝補給點 km約32",
+      "note": "三芝補給點 km約25",
       "bayesian_score": null
     },
     {
@@ -81,22 +81,8 @@
       "rating": 4.9,
       "total_ratings": 3687,
       "search_keyword": "新北市三芝區 普羅旺斯海岸咖啡",
-      "note": "午餐大休 淺水灣海景餐廳 km約36",
+      "note": "午餐大休 淺水灣海景餐廳 km約29",
       "bayesian_score": 4.85
-    },
-    {
-      "csv_type": "景點",
-      "name_zh": "芝蘭公園海上觀景平台",
-      "place_id": "ChIJrz9KXzCxQjQR0eDbRCm4xcc",
-      "location": {
-        "lat": 25.2539579,
-        "lng": 121.4725082
-      },
-      "rating": 4.4,
-      "total_ratings": 1591,
-      "search_keyword": "新北市三芝區 芝蘭公園海上觀景平台",
-      "note": "三芝淺水灣海上觀景平台 km約36",
-      "bayesian_score": 4.41
     },
     {
       "csv_type": "景點",
@@ -109,20 +95,22 @@
       "rating": 4.4,
       "total_ratings": 33471,
       "search_keyword": "新北市淡水區 淡水老街",
-      "note": "必經 淡水 老街與金色水岸 km約48",
+      "note": "必經 淡水 老街與金色水岸 km約40",
       "bayesian_score": 4.4
     },
     {
-      "csv_type": "便利商店",
-      "name_zh": "全家便利商店 八里龍米店",
-      "place_id": "ChIJt0Yxs2SvQjQRCU2yIx4qyiI",
+      "csv_type": "景點",
+      "name_zh": "淡江大橋",
+      "place_id": "ChIJi-eKT9ilQjQRKKte6x53jz0",
       "location": {
-        "lat": 25.128575200000004,
-        "lng": 121.45196410000001
+        "lat": 25.1654185,
+        "lng": 121.410892
       },
-      "search_keyword": "全家便利商店 八里龍米店",
-      "note": "八里補給點（過渡船頭前）km約55",
-      "bayesian_score": null
+      "rating": 4.5,
+      "total_ratings": 331,
+      "search_keyword": "新北市淡水區 淡江大橋",
+      "note": "必經 淡江大橋 淡水河口跨海斜張橋 極北完騎跨河地標 km約45",
+      "bayesian_score": 4.48
     },
     {
       "csv_type": "景點",
@@ -135,8 +123,20 @@
       "rating": 4.2,
       "total_ratings": 35412,
       "search_keyword": "新北市八里區 八里渡船頭老街",
-      "note": "必經 八里 左岸渡船頭老街 km約59",
+      "note": "八里左岸渡船頭老街 km約48",
       "bayesian_score": 4.2
+    },
+    {
+      "csv_type": "便利商店",
+      "name_zh": "全家便利商店 八里龍米店",
+      "place_id": "ChIJt0Yxs2SvQjQRCU2yIx4qyiI",
+      "location": {
+        "lat": 25.128575200000004,
+        "lng": 121.45196410000001
+      },
+      "search_keyword": "全家便利商店 八里龍米店",
+      "note": "八里左岸補給點 km約52",
+      "bayesian_score": null
     },
     {
       "csv_type": "起終點",
@@ -149,14 +149,22 @@
       "rating": 4.3,
       "total_ratings": 1408,
       "search_keyword": "新北市蘆洲區廣榮路與長樂路口柳堤公園",
-      "note": "終點 蘆洲柳堤公園 環島完騎回到 Day1 起點 km約77",
+      "note": "終點 蘆洲柳堤公園 環島完騎回到 Day1 起點 km約60",
       "bayesian_score": 4.34
     }
   ],
   "bayesian_C": 4.4659,
   "bayesian_m": 449,
-  "elevation_ascent_m": 313,
-  "elevation_descent_m": 322,
-  "ors_distance_km": 60.6,
-  "ors_duration_hours": 3.8
+  "elevation_ascent_m": 268,
+  "elevation_descent_m": 276,
+  "ors_distance_km": 59.8,
+  "ors_duration_hours": 3.7,
+  "leg_modes": [
+    {
+      "from": 6,
+      "to": 10,
+      "mode": "BICYCLE",
+      "reason": "淡水老街→蘆洲：過淡江大橋跨淡水河（新橋、機車路網未涵蓋，且接八里左岸自行車道）改用自行車模式；金山→淡水北海岸維持機車走台2線"
+    }
+  ]
 }

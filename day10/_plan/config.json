@@ -1,16 +1,16 @@
 {
   "day": 10,
   "origin": "金山 / 萬里",
-  "destination": "富貴角 → 台北蘆洲柳堤公園",
+  "destination": "台北蘆洲柳堤公園",
   "distance_km_range": [
-    51,
-    51
+    61,
+    61
   ],
   "main_route_text": "台2線 → 台15線 → 八里左岸自行車道",
   "must_visit_landmarks": [
     "富貴角燈塔",
     "石門",
     "淡水",
-    "八里"
+    "淡江大橋"
   ]
 }
