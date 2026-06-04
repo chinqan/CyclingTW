@@ -10,7 +10,7 @@ import sys
 from jinja2 import Environment, FileSystemLoader, StrictUndefined
 
 from .helpers import (ROOT, TEMPLATES_DIR, day_dir, plan_dir, read_json, write_json, die, info,
-                      load_protagonist, landmark_covered, normalize_landmark, is_note_landmark)
+                      landmark_covered, normalize_landmark, is_note_landmark)
 
 
 def _jenv() -> Environment:
@@ -274,9 +274,6 @@ def cmd_render_prompt(args):
                     empty_fields.append(f"small_avatar.{k}")
             if empty_fields:
                 info(f"⚠️  以下 fallback 素材欄位也為空：{', '.join(empty_fields)}")
-    protagonist_prompt, protagonist_negative = load_protagonist()
-    poster_vars["protagonist_prompt"] = protagonist_prompt
-    poster_vars["protagonist_negative"] = protagonist_negative
     tpl = _jenv().get_template("prompt.md.j2")
     out = day_dir(n) / f"day{n}_prompt.md"
     out.write_text(tpl.render(**poster_vars), encoding="utf-8")

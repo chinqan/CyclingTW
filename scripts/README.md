@@ -216,7 +216,7 @@ Bayesian 評分的 **SoT (Source of Truth)**。由 `score-pool N` 對整個 mirr
   "enhancement": "...",
 
   // Claude 手寫的整段敘事體提示詞（dayN_prompt.md 主體；路線變動會被自動清空）
-  "narrative": "依照上方『主角.md』提示詞生成角色，風格轉換為 3D Q版公仔…（整段散文，織入當日故事/主視覺/小分身/地理方位/質感要求）"
+  "narrative": "主角與公路車外觀以參考圖（圖生圖 img2img）為準，風格轉換為 3D Q版公仔…（整段散文，織入當日故事/主視覺/小分身/地理方位/質感要求）"
 }
 ```
 

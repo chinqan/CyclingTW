@@ -5,23 +5,16 @@ Day{{ day }}
 
 Output format: horizontal landscape poster, aspect ratio 3:2.
 
-【主角提示詞來源】主角.md — 主角與公路車外觀以專案根目錄的 `主角.md` 文字提示詞為準，並已整合如下。
-
-【主角提示詞（來自主角.md）】
-{{ protagonist_prompt }}
-
-【主角負面限制（來自主角.md）】
-{{ protagonist_negative }}
+請依照我上傳的照片生成角色 外觀保留真實臉型、五官比例、髮型輪廓 風格轉換為：3D Q版公仔（高級模型公仔 / 微縮場景 diorama） 特徵：頭大身小比例、臉部仍可辨識為本人、玻璃珠眼睛、細膩皮膚質感、表情自然、有生命力。
+公路車為精緻縮小模型，輪框、變速器、彎把細節清晰可辨。
 
 {% if narrative %}{{ narrative }}
-{% else %}依照上方 `主角.md` 文字提示詞生成角色，風格轉換為：3D Q版公仔（高級模型公仔 / 微縮場景 diorama）
-特徵：頭大身小比例、玻璃珠眼睛、細膩皮膚質感、表情自然、有生命力。
-主角為畫面最大主體（最顯眼）
+{% else %}主角為畫面最大主體（最顯眼）
 地點：{{ main_visual.location_desc }}
 場景元素：{{ main_visual.scene_elements }}
 動作：{{ main_visual.action }}
 表情：{{ main_visual.expression }}
-公路車為精緻縮小模型、顏色與車架造型依照主角.md、細節清楚：輪框、變速器、把手
+公路車為精緻縮小模型、細節清楚：輪框、變速器、把手
 小分身位置：{{ small_avatar.location_desc }}
 情境：{{ small_avatar.scenario }}
 動作：{{ small_avatar.action }}

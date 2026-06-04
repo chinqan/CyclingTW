@@ -4,43 +4,41 @@
     {
       "day": 1,
       "origin": "台北蘆洲柳堤公園",
-      "destination": "竹南車站",
-      "distance": "約 111 km",
+      "destination": "通霄",
+      "distance": "約 140 km",
       "route": "台15線 → 台61線 (西濱公路)",
       "landmarks": [
         "八里左岸",
-        "林口水牛坑",
-        "竹圍漁港",
         "永安漁港",
-        "南寮漁港"
+        "新竹南寮",
+        "後龍好望角"
       ],
       "pole": null
     },
     {
       "day": 2,
-      "origin": "新竹 / 竹南",
-      "destination": "鹿港 / 彰化",
+      "origin": "通霄",
+      "destination": "西螺",
       "distance": "約 100 km",
-      "route": "台61線 (西濱) → 台1線 → 台17線",
+      "route": "台61線 (西濱) → 台1線",
       "landmarks": [
-        "好望角",
-        "通霄精鹽廠",
         "大甲鎮瀾宮",
-        "鹿港老街"
+        "鹿港老街",
+        "埔鹽順澤宮",
+        "西螺大橋廣場"
       ],
       "pole": null
     },
     {
       "day": 3,
-      "origin": "鹿港 / 彰化",
-      "destination": "台南 / 鹿耳門公園",
-      "distance": "約 188 km",
-      "route": "台19線 → 台17線 (西部濱海)",
+      "origin": "西螺",
+      "destination": "台南/鹿耳門公園",
+      "distance": "約 139 km",
+      "route": "台1線 → 台17線 (西部濱海)",
       "landmarks": [
-        "極西：國聖燈塔",
-        "西螺大橋",
-        "北門驛",
-        "七股鹽山"
+        "東石漁港",
+        "七股鹽山",
+        "極西：國聖燈塔"
       ],
       "pole": {
         "direction": "極西",
@@ -52,41 +50,41 @@
     },
     {
       "day": 4,
-      "origin": "台南 / 鹿耳門公園",
-      "destination": "枋寮 / 枋山",
-      "distance": "約 124 km",
+      "origin": "台南/鹿耳門公園",
+      "destination": "東港東隆宮",
+      "distance": "約 99 km",
       "route": "台17線 (經台南、高雄市區)",
       "landmarks": [
-        "台南孔廟",
-        "橋頭糖廠藝術村",
-        "澄清湖",
-        "東港東隆宮",
-        "大鵬灣"
+        "四草綠色隧道",
+        "林默娘公園",
+        "黃金海岸",
+        "澄清湖觀夕平台"
       ],
       "pole": null
     },
     {
       "day": 5,
-      "origin": "枋寮 / 枋山",
-      "destination": "恆春 / 墾丁 / 鵝鑾鼻",
-      "distance": "約 68 km",
+      "origin": "東港東隆宮",
+      "destination": "墾丁",
+      "distance": "約 78 km",
       "route": "台1線 → 台26線 (屏鵝公路)",
       "landmarks": [
-        "車城福安宮",
+        "大鵬灣",
         "恆春古城",
-        "墾丁；可視體力先騎到鵝鑾鼻附近住宿"
+        "墾丁"
       ],
       "pole": null
     },
     {
       "day": 6,
-      "origin": "恆春 / 鵝鑾鼻",
+      "origin": "墾丁",
       "destination": "太麻里",
-      "distance": "約 130 km",
+      "distance": "約 124 km",
       "route": "台26線 → 縣道200 → 縣道199 → 台9線",
       "landmarks": [
         "極南：鵝鑾鼻燈塔",
         "風吹砂",
+        "旭海美景",
         "壽卡鐵馬驛站",
         "多良車站"
       ],
@@ -102,15 +100,13 @@
       "day": 7,
       "origin": "太麻里",
       "destination": "玉里 / 安通",
-      "distance": "約 111 km",
+      "distance": "約 110 km",
       "route": "台9線 (花東縱谷)",
       "landmarks": [
-        "知本溫泉",
-        "鐵花村",
-        "初鹿牧場",
         "鹿野高台",
-        "關山單車道",
-        "伯朗大道"
+        "伯朗大道",
+        "池上大坡池",
+        "富里稻草藝術景觀"
       ],
       "pole": null
     },
@@ -118,7 +114,7 @@
       "day": 8,
       "origin": "玉里 / 安通",
       "destination": "花蓮 → 蘇澳新站 (火車接駁)",
-      "distance": "約 101 km",
+      "distance": "約 106 km",
       "route": "台9線 / 縣道193 (避開車潮)",
       "landmarks": [
         "玉富自行車道",
@@ -132,12 +128,11 @@
       "day": 9,
       "origin": "蘇澳新站 / 蘇澳",
       "destination": "三貂角 → 金山 / 萬里",
-      "distance": "約 134 km",
+      "distance": "約 127 km",
       "route": "台2線 (北部濱海公路)",
       "landmarks": [
         "極東：三貂角燈塔",
         "東北角",
-        "舊草嶺隧道",
         "福隆",
         "基隆海岸"
       ],
@@ -152,14 +147,14 @@
     {
       "day": 10,
       "origin": "金山 / 萬里",
-      "destination": "富貴角 → 台北蘆洲柳堤公園",
-      "distance": "約 51 km",
+      "destination": "台北蘆洲柳堤公園",
+      "distance": "約 60 km",
       "route": "台2線 → 台15線 → 八里左岸自行車道",
       "landmarks": [
         "極北：富貴角燈塔",
         "石門",
-        "淡水 / 八里",
-        "回蘆洲完騎"
+        "淡水",
+        "淡江大橋"
       ],
       "pole": {
         "direction": "極北",
@@ -170,7 +165,7 @@
       }
     }
   ],
-  "total_distance": "約 1118–1118 公里",
+  "total_distance": "約 1083–1083 公里",
   "subtitle": "台灣四極點挑戰",
   "orientation": "vertical_portrait_2_3",
   "lighting": "柔和清晨明亮光線、清新藍天白雲",

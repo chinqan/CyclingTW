@@ -10,7 +10,7 @@ import re
 
 from jinja2 import Environment, FileSystemLoader, StrictUndefined
 
-from .helpers import ROOT, TEMPLATES_DIR, read_json, write_json, die, info, load_protagonist
+from .helpers import ROOT, TEMPLATES_DIR, read_json, write_json, die, info
 from .index_parser import INDEX_TABLE_ROW
 
 INDEX_PATH = ROOT / "index.md"
@@ -138,10 +138,6 @@ def cmd_render_cover_prompt(args):
         cover_vars["orientation"] = "horizontal_landscape_3_2"
     elif args.aspect == "vertical":
         cover_vars["orientation"] = "vertical_portrait_2_3"
-
-    protagonist_prompt, protagonist_negative = load_protagonist()
-    cover_vars["protagonist_prompt"] = protagonist_prompt
-    cover_vars["protagonist_negative"] = protagonist_negative
 
     env = Environment(
         loader=FileSystemLoader(TEMPLATES_DIR),
